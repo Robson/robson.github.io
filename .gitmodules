@@ -1,0 +1,3 @@
+[submodule "FilmBarcodes"]
+	path = FilmBarcodes
+	url = https://github.com/Robson/Film-Barcodes-Visualisation
