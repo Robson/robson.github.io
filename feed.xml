@@ -7,11 +7,32 @@
 	<language>en-gb</language>
 	<atom:link href="http://robson.plus/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-       <title>Hello, world!</title>
-	   <pubDate>Sat, 09 Jan 2021 14:26:19 GMT</pubDate>
-       <link>https://robson.plus</link>
-	   <guid>https://robson.plus#2021-01-10A</guid>
-	   <description>New website launched.</description>
+		<title>Glitch Generator</title>
+		<pubDate>Sun, 10 Jan 2021 18:00:00 GMT</pubDate>
+		<link>https://robson.plus</link>
+		<guid>https://robson.plus#2021-01-10D</guid>
+		<description>A downloadable tool for applying a wide range of glitches to images. </description>
+    </item>	
+	<item>
+		<title>Flickr Account</title>
+		<pubDate>Sun, 10 Jan 2021 17:00:00 GMT</pubDate>
+		<link>https://robson.plus</link>
+		<guid>https://robson.plus#2021-01-10C</guid>
+		<description>My optical illusions, charts, fractals, mazes and other graphical experiments. </description>
+    </item>	
+    <item>
+		<title>Film Barcodes</title>
+		<pubDate>Sun, 10 Jan 2021 16:00:00 GMT</pubDate>
+		<link>https://robson.plus</link>
+		<guid>https://robson.plus#2021-01-10B</guid>
+		<description>An interactive webpage that shows the average colour of every frame of a film at ten-second intervals. </description>
+    </item>	
+    <item>
+		<title>Hello, world!</title>
+		<pubDate>Sun, 10 Jan 2021 15:00:00 GMT</pubDate>
+		<link>https://robson.plus</link>
+		<guid>https://robson.plus#2021-01-10A</guid>
+		<description>New website launched.</description>
     </item>
   </channel>
 </rss>
