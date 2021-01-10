@@ -3,7 +3,7 @@
   <channel>
     <title>Robson+</title>
     <link>https://robson.plus</link>
-    <description>Robson+ RSS Feed</description>
+    <description>Robson+</description>
 	<language>en-gb</language>
 	<atom:link href="http://robson.plus/feed.xml" rel="self" type="application/rss+xml" />
     <item>
