@@ -1,3 +1,6 @@
 [submodule "film-barcodes"]
 	path = film-barcodes
 	url = https://github.com/Robson/Film-Barcodes-Visualisation
+[submodule "number-1s"]
+	path = number-1s
+	url = https://github.com/Robson/UK-Singles-Chart-Number-1s
