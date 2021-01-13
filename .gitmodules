@@ -4,3 +4,6 @@
 [submodule "number-1s"]
 	path = number-1s
 	url = https://github.com/Robson/UK-Singles-Chart-Number-1s
+[submodule "in-character"]
+	path = in-character
+	url = https://github.com/Robson/In-Character
