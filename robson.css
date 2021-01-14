@@ -136,10 +136,6 @@ a:hover span {
 	box-shadow: 0 0 6px 6px #000;
 }
 
-.page-header .highlight {
-	color: #fff; /*#E5007E;*/
-}
-
 /***** BODY: CONTAINERS *****/
 
 #outside {
@@ -226,8 +222,8 @@ a:hover span {
 	animation-fill-mode: forwards;		
 }
 
-.page-footer .spacer {
-	margin-left: 15px;
+.page-footer a {
+	margin: 0 8px;
 }
 
 /***** SIZE HELPERS *****/
