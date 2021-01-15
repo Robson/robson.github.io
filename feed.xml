@@ -7,6 +7,13 @@
 	<language>en-gb</language>
 	<atom:link href="http://robson.plus/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+		<title>Film Franchise Ratings</title>
+		<pubDate>Fri, 15 Jan 2021 23:00:00 GMT</pubDate>
+		<link>https://robson.plus</link>
+		<guid>https://robson.plus#2021-01-15A</guid>
+		<description>An interactive webpage for exploring the ratings of popular film franchises.</description>
+    </item>		
+    <item>
 		<title>In Character</title>
 		<pubDate>Wed, 13 Jan 2021 19:00:00 GMT</pubDate>
 		<link>https://robson.plus</link>
