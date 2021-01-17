@@ -13,3 +13,6 @@
 [submodule "white-noise-image-generator"]
 	path = white-noise-image-generator
 	url = https://github.com/Robson/White-Noise-Image-Generator
+[submodule "space-generator"]
+	path = space-generator
+	url = https://github.com/Robson/Space-Generator
