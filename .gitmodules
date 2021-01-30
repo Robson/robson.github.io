@@ -16,3 +16,6 @@
 [submodule "space-generator"]
 	path = space-generator
 	url = https://github.com/Robson/Space-Generator
+[submodule "yogscast-youtube-statistics"]
+	path = yogscast-youtube-statistics
+	url = https://github.com/Robson/Yogscast-YouTube-Statistics
