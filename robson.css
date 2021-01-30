@@ -2,9 +2,10 @@
 
 body {
 	font-family: rubik, roboto, arial, sans-serif;
+	overflow-x: hidden;
 }
 
-/***** SHARED *****/
+/***** LINKS *****/
 
 a,
 a:hover {
@@ -147,8 +148,8 @@ a:hover span {
 }
 
 .container {
-	padding-left: 2px;
-	padding-right: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
 }
 
 /***** BODY: BOXES *****/
