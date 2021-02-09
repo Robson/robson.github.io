@@ -19,3 +19,6 @@
 [submodule "yogscast-youtube-statistics"]
 	path = yogscast-youtube-statistics
 	url = https://github.com/Robson/Yogscast-YouTube-Statistics
+[submodule "minecraft-glazed-terracotta-pattern-generator"]
+	path = minecraft-glazed-terracotta-pattern-generator
+	url = https://github.com/Robson/Minecraft-Glazed-Terracotta-Pattern-Generator
