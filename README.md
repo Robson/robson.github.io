@@ -1,5 +1,9 @@
 # robson.github.io [aka] robson.plus
 
+## Explanation
+
+This is my site, where I have live versions of all my projects.
+
 ## Live Version
 
 <a href="https://robson.plus">https://robson.plus</a>
