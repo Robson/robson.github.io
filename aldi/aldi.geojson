@@ -436,7 +436,6 @@
 { "tooltip": "Aldi<br/>Newton Aycliffe<br/>County Durham<br/>DL5 4DH", "geometry": { "coordinates": [ -1.571126497, 54.6203338 ] } },
 { "tooltip": "Aldi<br/>Spennymoor<br/>County Durham<br/>DL16 6DF", "geometry": { "coordinates": [ -1.601181503, 54.69865446 ] } },
 { "tooltip": "Aldi<br/>Durham<br/>County Durham<br/>DH1 2WP", "geometry": { "coordinates": [ -1.541303518, 54.7769614 ] } },
-{ "tooltip": "Aldi<br/>Elgin<br/>Moray<br/>IV30 1UL", "geometry": { "coordinates": [ -3.31685259, 57.65007494 ] } },
 { "tooltip": "Aldi<br/>Luton<br/>Bedfordshire<br/>LU3 3BF", "geometry": { "coordinates": [ -0.472075962, 51.91691484 ] } },
 { "tooltip": "Aldi<br/>Luton<br/>Bedfordshire<br/>LU1 1NJ", "geometry": { "coordinates": [ -0.455110712, 51.88733593 ] } },
 { "tooltip": "Aldi<br/>Dunstable<br/>Bedfordshire<br/>LU5 4RP", "geometry": { "coordinates": [ -0.518672241, 51.88702378 ] } },
