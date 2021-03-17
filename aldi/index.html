@@ -5,12 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 html, body {
-	margin: 10px;
+	margin: 0;
 	padding: 0px;
 	text-align: center;
+	overflow: hidden;
+	font-family: sans-serif;
 }
+
 svg {
-	margin: 0 auto;
+	margin: 0;
 	width: 700px;
 	height: 900px;
 	background-color:#def;
@@ -94,28 +97,56 @@ function createTooltipTriggers() {
 		});
 }
 
-const width = 700;
-const height = 900;
-const svg = d3.select("svg");
-const mapLayer = svg.append("g");
-const voronoiLayer = svg.append("g");
-const projection = d3.geoMercator();
+var width = window.innerWidth;
+var height = window.innerHeight;
+var svg = d3.select("svg");
+svg
+	.style('width', width + 'px')
+	.style('height', height + 'px');
+var mapLayer = svg.append("g");
+var voronoiLayer = svg.append("g");
+var projection = d3.geoMercator();
+var path = d3.geoPath();
+var q = d3.queue();
 
-const path = d3.geoPath();　
+function makeMap() {
 
-const q = d3.queue();
+	width = window.innerWidth;
+	height = window.innerHeight;
+	
+	console.log(width);
 
-q
- .defer(d3.json, "map.topojson")
- .defer(d3.json, "aldi.geojson")
- .await((error, maps2topo, point2geo) => {
-	const maps2geo = topojson.feature(maps2topo, maps2topo.objects.map);
-	projection.fitExtent([[0,0],[width, height]], maps2geo);
-	path.projection(projection);
-	drawMaps(maps2geo);
-	drawVoronoi(point2geo);
-	createTooltipTriggers();
-});
+	d3.selectAll("svg *").remove();
+	
+	svg = d3.select("svg");	
+	svg
+		.style('width', width + 'px')
+		.style('height', height + 'px');
+	mapLayer = svg.append("g");
+	voronoiLayer = svg.append("g");
+	projection = d3.geoMercator();
+
+	path = d3.geoPath();　
+
+	q = d3.queue();
+
+	q
+	 .defer(d3.json, "map.topojson")
+	 .defer(d3.json, "aldi.geojson")
+	 .await((error, maps2topo, point2geo) => {
+		const maps2geo = topojson.feature(maps2topo, maps2topo.objects.map);
+		projection.fitExtent([[0,0],[width, height]], maps2geo);
+		path.projection(projection);
+		drawMaps(maps2geo);
+		drawVoronoi(point2geo);
+		createTooltipTriggers();
+	});
+
+}
+
+makeMap();
+
+d3.select(window).on('resize', makeMap);
 
 
 function drawMaps(geojson) {
