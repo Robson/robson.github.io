@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html, body {
+	margin: 10px;
+	padding: 0px;
+	text-align: center;
+}
+svg {
+	margin: 0 auto;
+	width: 700px;
+	height: 900px;
+	background-color:#def;
+}
+h1 {
+	color:#666;
+}
+#map path {
+	stroke-width: 0;
+}
+.cell {
+	opacity: 0.25;
+}
+
+.point {
+	fill: black;
+}
+
+#tt {
+	background: #fff;
+	text-align: center;
+	color: #333;
+	height: auto;
+	width: auto;
+	max-width: 300px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	border: 0 solid #fff;
+	font-size: 15px;
+	border-radius: 2px;
+	box-shadow: rgba(14, 31, 53, 0.5) 0px 2px 4px 0px;
+}
+
+#tt p {
+	margin: 0;
+	padding: 5px;
+}
+
+</style>
+<script src="//unpkg.com/d3@4.12.2/build/d3.min.js"></script>    
+<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/3.0.0/topojson.min.js"></script>    
+</head>
+<body>
+<div id="tt" style="display: none">
+<p id="tooltip_text"></p>
+</div>
+<svg>
+</svg>
+<script>
+
+var tooltip = d3.select('#tt');
+var tt = d3.select('#tt');
+
+function setTooltip(value) {
+	d3.select('#tooltip_text').html(value);
+}
+
+function createTooltipTriggers() {
+	d3.selectAll('.ttt')
+		.on("mouseover", function (d, i) {
+			setTooltip(d3.selectAll('.ttt')._groups[0][i].attributes['data-tt'].value);
+		})
+		.on("mouseout", function () {
+			tt.style('display', 'none');
+		})
+		.on("mousemove", function () {
+			if (x <= 0 || y <= 0) {
+				tt.style('display', 'none');
+			} else {
+				tt.style('display', null);
+			}
+			var x = d3.event.pageX - (tt.node().getBoundingClientRect().width / 2);
+			var y = d3.event.pageY - (tt.node().getBoundingClientRect().height + 5);
+			if (d3.event.pageY < 200) {
+				y = d3.event.pageY + 5;
+			}
+			tt.style('left', ~~x + 'px');
+			tt.style('top', ~~y + 'px');
+
+		});
+}
+
+const width = 700;
+const height = 900;
+const svg = d3.select("svg");
+const mapLayer = svg.append("g");
+const voronoiLayer = svg.append("g");
+const projection = d3.geoMercator();
+
+const path = d3.geoPath();　
+
+const q = d3.queue();
+
+q
+ .defer(d3.json, "map.topojson")
+ .defer(d3.json, "aldi.geojson")
+ .await((error, maps2topo, point2geo) => {
+	const maps2geo = topojson.feature(maps2topo, maps2topo.objects.map);
+	projection.fitExtent([[0,0],[width, height]], maps2geo);
+	path.projection(projection);
+	drawMaps(maps2geo);
+	drawVoronoi(point2geo);
+	createTooltipTriggers();
+});
+
+
+function drawMaps(geojson) {
+	const map =  mapLayer.attr("id", "map")
+		.selectAll("path")
+		.data(geojson.features)
+		.enter()
+		.append("svg:path")
+		.attr("d", path)
+		.attr("fill", "#99ff99")
+		.attr("fill-opacity", 1)
+		.attr("stroke", "black");
+}
+
+function drawVoronoi(geojson) {
+	const pointdata = geojson.features;
+	const positions = [];	
+	pointdata.forEach(d => {
+		var ret = projection(d.geometry.coordinates);
+		if (ret.length == 2 &&
+			ret[0] > 0 &&
+			ret[1] > 0) {
+			ret.push(d.tooltip);
+			positions.push(ret);
+		}
+	});
+	voronoiLayer.selectAll(".point")
+		.data(positions)
+		.enter()
+		.append('a')
+		.attr('target', '_blank')
+		.attr('href', d => 'https://www.google.com/maps/search/aldi,+' + d[2].split('<br/>')[2]+',+'+d[2].split('<br/>')[3])
+		.append("circle")		
+		.attr("class", "point ttt")
+		.attr('data-tt', d => d[2])
+		.attr("transform", d => `translate(${d[0]}, ${d[1]})` )
+		.attr("r", 2)
+	const voronoi = d3.voronoi()
+		.extent([[-1, -1],[width+1, height+1]]);
+	const polygons = voronoi(positions).polygons();
+	voronoiLayer.selectAll(".cell")
+		.data(polygons)
+		.enter()
+		.append("path")
+		.attr("class", "cell")
+		.attr("fill", "none")
+		.attr("stroke", "black")
+		.attr("d", d => `M${d.join("L")}Z` );	
+}
+
+</script>
+</body>
+</html>
+
