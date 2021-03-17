@@ -85,7 +85,7 @@ function createTooltipTriggers() {
 			}
 			var x = d3.event.pageX - (tt.node().getBoundingClientRect().width / 2);
 			var y = d3.event.pageY - (tt.node().getBoundingClientRect().height + 5);
-			if (d3.event.pageY < 200) {
+			if (d3.event.pageY < 500) {
 				y = d3.event.pageY + 5;
 			}
 			tt.style('left', ~~x + 'px');
