@@ -181,7 +181,7 @@ function drawVoronoi(geojson, voronoiLayer, what) {
 		.attr("class", "point ttt")
 		.attr('data-tt', d => d[2])
 		.attr("transform", d => `translate(${d[0]}, ${d[1]})` )
-		.attr("r", 2)
+		.attr("r", 1.5)
 		.attr("fill", d => d[2].startsWith('Aldi') ? '#000' : '#004EA5');
 	var voronoi = d3.voronoi()
 		.extent([[-1, -1],[width+1, height+1]]);
