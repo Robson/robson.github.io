@@ -14,8 +14,6 @@ html, body {
 
 svg {
 	margin: 0;
-	width: 700px;
-	height: 900px;
 	background-color:#adf;
 }
 h1 {
@@ -26,10 +24,6 @@ h1 {
 }
 .cell {
 	opacity: 0.25;
-}
-
-.point {
-	fill: black;
 }
 
 #tt {
@@ -88,7 +82,7 @@ function createTooltipTriggers() {
 			}
 			var x = d3.event.pageX - (tt.node().getBoundingClientRect().width / 2);
 			var y = d3.event.pageY - (tt.node().getBoundingClientRect().height + 5);
-			if (d3.event.pageY < 500) {
+			if (d3.event.pageY < window.innerHeight / 2) {
 				y = d3.event.pageY + 15;
 			}
 			tt.style('left', ~~x + 'px');
@@ -104,7 +98,8 @@ svg
 	.style('width', width + 'px')
 	.style('height', height + 'px');
 var mapLayer = svg.append("g");
-var voronoiLayer = svg.append("g");
+var voronoiLayerA;
+var voronoiLayerB;
 var projection = d3.geoMercator();
 var path = d3.geoPath();
 var q = d3.queue();
@@ -113,41 +108,44 @@ function makeMap() {
 
 	width = window.innerWidth;
 	height = window.innerHeight;
-	
-	console.log(width);
 
 	d3.selectAll("svg *").remove();
 	
 	svg = d3.select("svg");	
 	svg
-		.style('width', width + 'px')
-		.style('height', height + 'px');
+		.attr('width', width)
+		.attr('height', height)
+		.attr('viewBox', [ 0, 0, width, height ]);
+			
 	mapLayer = svg.append("g");
-	voronoiLayer = svg.append("g");
 	projection = d3.geoMercator();
 
 	path = d3.geoPath();　
+	
+	voronoiLayerA = svg.append("g");
+	voronoiLayerB = svg.append("g")
 
 	q = d3.queue();
 
 	q
-	 .defer(d3.json, "map.topojson")
+	 .defer(d3.json, "uk.topojson")
 	 .defer(d3.json, "aldi.geojson")
-	 .await((error, maps2topo, point2geo) => {
+	 .defer(d3.json, "lidl.geojson")
+	 .await((error, maps2topo, point2geoA, point2geoB) => {
 		const maps2geo = topojson.feature(maps2topo, maps2topo.objects.map);
 		projection.fitExtent([[0,0],[width, height]], maps2geo);
 		path.projection(projection);
 		drawMaps(maps2geo);
-		drawVoronoi(point2geo);
-		createTooltipTriggers();
+		drawVoronoi(point2geoA, voronoiLayerA, 'Aldi');		
+		//drawVoronoi(point2geoB, voronoiLayerB, 'Lidl');		
 	});
-
+	
+	setTimeout(function() {createTooltipTriggers(); }, 1000);	
 }
 
 makeMap();
 
 d3.select(window).on('resize', makeMap);
-
 
 function drawMaps(geojson) {
 	const map =  mapLayer.attr("id", "map")
@@ -161,9 +159,9 @@ function drawMaps(geojson) {
 		.attr("stroke", "black");
 }
 
-function drawVoronoi(geojson) {
-	const pointdata = geojson.features;
-	const positions = [];	
+function drawVoronoi(geojson, voronoiLayer, what) {
+	var pointdata = geojson.features;
+	var positions = [];	
 	pointdata.forEach(d => {
 		var ret = projection(d.geometry.coordinates);
 		if (ret.length == 2 &&
@@ -178,22 +176,23 @@ function drawVoronoi(geojson) {
 		.enter()
 		.append('a')
 		.attr('target', '_blank')
-		.attr('href', d => 'https://www.google.com/maps/search/aldi,+' + d[2].split('<br/>')[2]+',+'+d[2].split('<br/>')[3])
+		.attr('href', d => 'https://www.google.com/maps/search/'+d[2].split('<br/>')[0]+',+' + d[2].split('<br/>')[2]+',+'+d[2].split('<br/>')[3])
 		.append("circle")		
 		.attr("class", "point ttt")
 		.attr('data-tt', d => d[2])
 		.attr("transform", d => `translate(${d[0]}, ${d[1]})` )
 		.attr("r", 2)
-	const voronoi = d3.voronoi()
+		.attr("fill", d => d[2].startsWith('Aldi') ? '#000' : '#004EA5');
+	var voronoi = d3.voronoi()
 		.extent([[-1, -1],[width+1, height+1]]);
-	const polygons = voronoi(positions).polygons();
+	var polygons = voronoi(positions).polygons();
 	voronoiLayer.selectAll(".cell")
 		.data(polygons)
 		.enter()
 		.append("path")
 		.attr("class", "cell")
 		.attr("fill", "none")
-		.attr("stroke", "black")
+		.attr("stroke", what.startsWith('Aldi') ? '#000' : '#004EA5')
 		.attr("d", d => `M${d.join("L")}Z` );	
 }
 
