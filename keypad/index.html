@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>		
+		<title>Keypad Fun</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"> 		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap"> 			
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<script src="https://d3js.org/d3.v3.min.js"></script>	
+		<script src="items.js"></script>
+	</head>
+	<body>	
+		<p class="help">You need to input <span id="number"></span></p>
+		<p class="help">You have input: <span id="answer"></span><span id="result"></span></p>
+		<p>
+			<select id="level">
+				<option value="1">Level 1 - Numbers in default positions</option>
+				<option value="2">Level 2 - Some numbers are swapped</option>
+				<option value="3">Level 3 - All numbers are in random positions</option>
+				<option value="4">Level 4 - Random positions and fading</option>
+			</select>
+			<br />
+			<input type="button" value="Generate!" onclick="createLevel()" />
+		</p>		
+		<table id="keypad">
+			<tr>
+				<td id="key_0"></td>
+				<td id="key_1"></td>
+				<td id="key_2"></td>
+			</tr>
+			<tr>
+				<td id="key_3"></td>			
+				<td id="key_4"></td>
+				<td id="key_5"></td>
+			</tr>
+			<tr>
+				<td id="key_6"></td>
+				<td id="key_7"></td>			
+				<td id="key_8"></td>
+			</tr>
+			<tr>
+				<td id="key_9"></td>
+				<td id="key_10"></td>
+				<td id="key_11"></td>
+			</tr>			
+		</table>
+		<script src="page.js"></script>
+	</body>
+</html>
