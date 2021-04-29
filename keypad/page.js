@@ -47,6 +47,13 @@ function createLevel() {
 				d3.select('#key_' + i).text(positions[i] == 'X' ? ' ' : positions[i]);
 			}
 			break;	
+		case '5':
+			positions = '123456789X0X';
+			for (var i = 0; i < positions.length; i++) {
+				d3.select('#key_' + i).text(positions[i] == 'X' ? ' ' : positions[i]);
+			}
+			d3.selectAll('td').transition().duration(0).style('color', '#000');
+			break;			
 	}
 }
 
