@@ -58,11 +58,11 @@ function pushButton(i) {
 		}
 		d3.select('#answer').text(input);
 		if (input == correct) {
-			d3.select('#result').html('. <span class="yes">Correct code: door unlocked!</span>');
+			d3.select('#result').html('<span class="yes">Correct code: door unlocked!</span>');
 			isDone = true;
 		}
 		if (!correct.startsWith(input)) {
-			d3.select('#result').html('. <span class="no">Wrong code!</span>');
+			d3.select('#result').html('<span class="no">Wrong code!</span>');
 			isDone = true;
 		}
 	}
