@@ -3,6 +3,8 @@ var positions = '';
 var input = '';
 var level = '';
 var isDone = false;
+var letters = 'abcdefghijkmnpqrstuvwxyz';
+var lettersChosen = '';
 
 function createLevel() {	
 
@@ -15,6 +17,7 @@ function createLevel() {
 	input = '';
 	d3.select('#result').html('&nbsp;');
 	d3.select('#answer').html('nothing');
+	d3.select('#level7hint').html('');
 	d3.selectAll('td').transition().duration(0).style('color', '#0f0');
 	
 	// make the keypad
@@ -60,12 +63,30 @@ function createLevel() {
 				d3.select('#key_' + i).text(positions[i] == 'X' ? ' ' : positions[i]);
 			}
 			break;
+		case '7':
+			lettersChosen = shuffle(letters.split('')).join('').substring(0, 10);
+			var translations = [];
+			for (var a = 0; a < lettersChosen.length; a++) {
+				translations.push(lettersChosen[a] + '=' + a);
+			}			
+			d3.select('#level7hint').html('<br/>You remember that ' + translations.join(' '));
+			positions = shuffle((lettersChosen + '..').split('')).join('');
+			for (var i = 0; i < positions.length; i++) {
+				d3.select('#key_' + i).text(positions[i] == '.' ? ' ' : positions[i]);				
+			}
+			break;
 	}
 }
 
 function pushButton(i) {
 	if (!isDone) {		
-		input += positions[i];
+		if (level == 7) {
+			if (positions[i] != '.') {
+				input += lettersChosen.split('').indexOf(positions[i]);
+			}
+		} else {
+			input += positions[i];
+		}
 		if (level == 4 && input.length == 1) {
 			d3.selectAll('td').transition().duration(1000).style('color', '#000');
 		}
