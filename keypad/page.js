@@ -53,7 +53,13 @@ function createLevel() {
 				d3.select('#key_' + i).text(positions[i] == 'X' ? ' ' : positions[i]);
 			}
 			d3.selectAll('td').transition().duration(0).style('color', '#000');
-			break;			
+			break;
+		case '6':
+			positions = shuffle('123456789X0X'.split('')).join('');
+			for (var i = 0; i < positions.length; i++) {
+				d3.select('#key_' + i).text(positions[i] == 'X' ? ' ' : positions[i]);
+			}
+			break;
 	}
 }
 
@@ -61,6 +67,14 @@ function pushButton(i) {
 	if (!isDone) {		
 		input += positions[i];
 		if (level == 4 && input.length == 1) {
+			d3.selectAll('td').transition().duration(1000).style('color', '#000');
+		}
+		if (level == 6) {
+			positions = shuffle('123456789X0X'.split('')).join('');
+			for (var i = 0; i < positions.length; i++) {
+				d3.select('#key_' + i).text(positions[i] == 'X' ? ' ' : positions[i]);
+			}			
+			d3.selectAll('td').style('color', '#0f0');
 			d3.selectAll('td').transition().duration(1000).style('color', '#000');
 		}
 		d3.select('#answer').text(input);
