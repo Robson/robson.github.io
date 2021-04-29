@@ -13,7 +13,7 @@ function createLevel() {
 	// reset everything
 	isDone = false;	
 	input = '';
-	d3.select('#result').html('');
+	d3.select('#result').html('&nbsp;');
 	d3.select('#answer').html('nothing');
 	d3.selectAll('td').transition().duration(0).style('color', '#0f0');
 	
