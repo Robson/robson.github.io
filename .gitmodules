@@ -22,3 +22,6 @@
 [submodule "minecraft-glazed-terracotta-pattern-generator"]
 	path = minecraft-glazed-terracotta-pattern-generator
 	url = https://github.com/Robson/Minecraft-Glazed-Terracotta-Pattern-Generator
+[submodule "emoji-match"]
+	path = emoji-match
+	url = https://github.com/Robson/Emoji-Match
