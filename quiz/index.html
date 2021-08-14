@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz</title>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<script type="text/javascript" src="d3.v3.min.js"></script>
+<style>
+
+html, body {
+	background: #000;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #fff;
+}
+
+.button {
+	background: #fff;
+	color: #000;
+	margin: 0 5px;
+	padding: 6px 15px 5px;
+	border-width: 0 0 5px 0;
+	border-brush: #aaa;
+	border-color: #aaa;
+	border-radius: 10px;
+	cursor: pointer;
+	outline: none;
+}
+
+.disabled {
+	opacity: 0.25;
+	cursor: default;
+
+}
+
+.image_container {
+	padding: 20px;
+	background-color: #fff;
+}
+
+#image {
+	margin: 0;
+	height: 200px;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	cursor: zoom-in;
+}
+
+#result_image {
+	margin: 0;
+	height: 300px;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+#text {
+	padding: 20px 20px 10px;
+}
+
+#answer_container {
+	margin: 20px auto 0;
+	text-align: left;
+	white-space: nowrap;
+}
+
+table {
+	border-spacing: 5px;
+}
+
+.answer {
+	padding: 10px;
+	cursor: pointer;
+	width: 400px;
+}
+
+.answered {
+	opacity: 1 !important;
+	cursor: default !important;
+}
+
+td {
+	background: #fff;
+	color: #000;
+	border-radius: 5px;
+}
+
+td:hover {
+	opacity: 0.9;
+}
+
+.highlight {
+	background: #fff;
+	color: #000;
+}
+
+em {
+	font-weight: bold;
+	font-style: normal;
+	background: #000;
+	margin-right: 4px;
+	color: #fff;
+	padding: 2px 4px;
+}
+
+.correct {
+	background: #0b0;
+	color: #fff;
+}
+
+.wrong {
+	background: #c00;
+	color: #fff;
+}
+
+html, .button, #start select {
+	font: normal 18px 'Roboto', sans-serif;
+}
+
+.show_answer {
+	margin-top: 10px;
+}
+
+#image_loader_a, #image_loader_b {
+	opacity: 0.01;
+	height: 1px;
+	margin: 0;
+	padding: 0;
+}
+
+.sign {
+	float: right;
+	opacity: 0;
+}
+
+.text {
+	margin-top: 1px;
+	float: left;
+}
+
+#quiz, #result {
+	display: none;
+}
+
+#start {
+	padding: 10px;
+}
+
+#start select {
+	margin: 20px 3px 25px;
+}
+
+#stats {
+	margin-top: 15px;
+}
+
+#correct_stat span, #wrong_stat span {
+	color: #fff;
+	padding: 2px 4px;
+	font-weight: bold;
+}
+
+#correct_stat span {
+	background: #0a0;
+}
+
+#wrong_stat span {
+	background: #c00;
+}
+
+h1 {
+	padding: 0;
+	margin: 30px 0 0;
+}
+
+#zoom_background {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	z-index: 1000;
+}
+
+#zoom {
+	display: none;
+	position: absolute;
+	width: 96%;
+	height: 96%;
+	top: 2%;
+	left: 2%;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	z-index: 2000;
+	cursor: zoom-out;
+}
+
+#start div {
+	margin: 20px;
+}
+
+#text .showcase {
+	font-style: italic;
+}
+
+</style>
+</head>
+<body>
+
+<div id="start">
+
+	<div>
+		<select id="subject">
+			<option value="flags">Week 1: Fun with Flags</option>
+			<option value="logos">Week 2: Brand Logos</option>
+			<option value="general">Week 3: General Knowledge</option>
+			<option value="capitals">Week 4: Capital Cities</option>
+			<option value="records">Week 5: World Records</option>
+			<option value="letter">Week 6: One Character Answers</option>
+			<option value="cards">Week 7: Cards</option>
+			<option value="locations" selected>Week 8: Locations</option>
+		</select>
+
+		<select id="mode">
+			<option value="normal">Normal Mode</option>
+			<option value="host">Host Mode</option>
+		</select>
+	</div>
+
+	<div>
+		<input type="button" onmousedown="startQuiz()" class="button" value="Start Quiz" />
+	</div>
+
+</div>
+
+<div id="quiz">
+
+	<div id="question">
+		<div class="image_container" onmousedown="showZoom()">
+			<div id="image" onmousedown="showZoom()"></div>
+		</div>
+		<div id="text"></div>
+	</div>
+
+	<input type="button" onmousedown="showAnswer()" class="button show_answer" value="Show Answer" />
+	<input type="button" onmousedown="previousQuestion()" class="button previous" value="Previous Question" />
+	<input type="button" onmousedown="nextQuestion()" class="button next" value="Next Question" />
+	<input type="button" onmousedown="showResult()" class="button show_result" value="Show Result" />
+
+	<div id="stats">
+		<span id="correct_stat"><span>0</span> Correct</span>
+		&nbsp; &nbsp; &nbsp;
+		<span id="wrong_stat"><span>0</span> Wrong</span>
+	</div>
+
+	<div id="image_loader_a"></div>
+	<div id="image_loader_b"></div>
+
+</div>
+
+<div id="result">
+
+	<div class="image_container">
+		<div id="result_image"></div>
+	</div>
+
+	<div id="result_text">
+	</div>
+
+	<input type="button" onmousedown="returnToMenu()" class="button return_to_Menu" value="Return to Menu" />
+
+</div>
+
+<div id="zoom_background" onmousedown="hideZoom()"></div>
+<div id="zoom" onmousedown="hideZoom()"></div>
+
+<script type="text/javascript">
+
+	var mode = '';
+	var index = 0;
+	var answered = false;
+	var correct = 0, wrong = 0;
+	var questions = [];
+	var hasLetters = true;
+
+	function selectQuestions(type) {
+		d3.select('#question .image_container').style('background-color', '#fff');
+		d3.select('#zoom_background').style('background-color', '#fff');
+		hasLetters = true;
+
+		switch (type) {
+			case 'flags':
+				questions = [
+					[ "Flags_England.png", "", "Which flag is this?", [ "France", "Spain", "England", "Germany" ], 2 ],
+					[ "Flags_Japan.png", "Flags_Japan_Answer.png", "The Japanese flag has a circle in the middle, but what colour is it?", [ "Red", "Purple", "Blue", "Green" ], 0 ],
+					[ "Flags_Chequered.png", "", "When is the Chequered Flag used in Formula 1?", [ "At the start", "After a restart", "After a disqualification", "At the end" ], 3 ],
+					[ "Flags_Dragons.png", "", "Name the two flags with dragons:", [ "New Zealand & Colombia", "Wales & Bhutan", "Zimbabwe & Argentina", "Sudan & Laos" ], 1 ],
+					[ "Flags_US.png", "Flags_US_Answer.png", "How many stars are on the US flag?", [ "49", "50", "51", "52" ], 1 ],
+					[ "Flags_Malta.png", "Flags_Malta_Answer.png", "The flag of Malta has a tiny image of which person?", [ "Saint George", "Mother Teresa", "Gandhi", "Lily Allen" ], 0 ],
+					[ "Flags_Square.png", "", "Name the two countries with square flags", [ "South Africa & Belgium", "Norway & Mexico", "Vatican City & Switzerland", "Suriname & Ecuador" ], 2 ],
+					[ "Flags_Triangles.png", "", "There's only one country with a non-rectangular flag. Which is it?", [ "Liberia", "Angola", "Yemen", "Nepal" ], 3 ],
+					[ "Flags_Dominica.png", "Flags_Dominica_Answer.png", "Something has been removed from the Dominica flag. What is it?", [ "A moon", "A parrot", "An iceberg", "An iPhone 11 Pro" ], 1 ],
+					[ "Flags_Canada.png", "", "Which type of leaf can be seen on the Canadian flag?", [ "Oak", "Willow", "Maple", "Ivy" ], 2 ],
+				];
+				d3.select('#question .image_container').style('background-color', '#ddd');
+				d3.select('#zoom_background').style('background-color', '#ddd');
+			break;
+
+			case 'logos':
+				questions = [
+					[ "Logos_FedEx.png", "Logos_FedEx_Answer.png", "What is hidden in the FedEx logo?", [ "A parcel", "An arrow", "A FedEx truck", "An envelope" ], 1 ],
+					[ "Logos_Horse.png", "Logos_Horse_Answer.png", "Which company is not shown above?", [ "Lloyds", "Mustang", "Ferrari", "Polo" ], 2 ],
+					[ "Logos_Colour.png", "Logos_Colour_Answer.png", "The Airbnb, HSBC and Mitsubishi logos are the same colour. Which is it?", [ "Red", "Green", "Yellow", "Blue" ], 0 ],
+					[ "Logos_Nike.png", "", "How much did Nike pay for their iconic swoosh logo?", [ "$35", "$35,000", "$35,000,000", "$35,000,000,000" ], 0 ],
+					[ "Logos_Toblerone.png", "Logos_Toblerone_Answer.png", "In which Swiss city was Toblerone created?", [ "Zürich", "St Gallen", "Basel", "Bern" ], 3 ],
+					[ "Logos_Google.png", "", "Which event is this Google Doodle celebrating?", [ "Italian Elections", "Ivory Coast Elections", "Indian Elections", "Irish Elections" ], 3 ],
+					[ "Logos_Apple.png", "Logos_Apple_Answer.png", "Which of these Apple logos was introduced first?", [ "3D Silver", "Rainbow", "Grey", "3D Blue" ], 1 ],
+					[ "Logos_Matrix.png", "", "Which film had this recoloured logo in the introduction sequence?", [ "Forrest Gump", "Green Book", "The Matrix", "Poseidon" ], 2 ],
+					[ "Logos_Nasa.png", "Logos_Nasa_Answer.png", "What has been removed from the NASA logo?", [ "The Moon", "Stars", "A Space Shuttle", "Lily Allen" ], 1 ],
+					[ "Logos_Crown.png", "Logos_Crown_Answer.png", "Which company has this crown as their logo?", [ "London Dungeon", "Royal Bank of Scotland", "Madame Tussauds", "Royal Mail" ], 3 ],
+				];
+			break;
+
+			case 'general':
+				questions = [
+					[ "General_General.png", "General_General_Answer.png", "Which of these generals also served as the US president?", [ "General McConville", "General Lee", "General Patton", "General Eisenhower" ], 3 ],
+					[ "General_Monopoly.png", "General_Monopoly_Answer.png", "In Monopoly, how much does Mayfair cost?", [ "£200", "£400", "£600", "£800" ], 1 ],
+					[ "General_Cities.jpg", "General_Cities_Answer.png", "Which city is the most southern?", [ "Cape Agulhas in South Africa", "Ushuaia in Argentina", "Invercargill in New Zealand", "Dover in Australia" ], 1],
+					[ "General_Salvator.jpg", "General_Salvator.jpg", "&quot;Salvator Mundi&quot; by Leonardo da Vinci is the most expensive painting sold at auction. How much was it?", [ "~$100 million", "~$213 million", "~$450 million", "~$965 million" ], 2 ],
+					[ "General_IMDb.png", "General_IMDb_Answer.png", "What is the highest rated film on the IMDb?", [ "Schindler's List", "Pulp Fiction", "Fight Club", "The Shawshank Redemption" ], 3 ],
+					[ "General_Lotto.png", "General_Lotto.png", "What are the chances of winning the UK Lotto (aka the National Lottery)?", [ "1 in ~5,000,000", "1 in ~12,000,000", "1 in ~45,000,000", "1 in ~113,000,000" ], 2 ],
+					[ "General_Boat.png", "General_Boat_Answer.png", "Which film has the line &quot;We're gonna need a bigger boat&quot;?", [ "Jaws", "Titanic", "Ocean's 11", "Reservoir Dogs" ], 0 ],
+					[ "General_Scrabble.png", "General_Scrabble_Answer.png", "Which of these letters is worth the most in Scrabble?", [ "J", "K", "Q", "X" ], 2 ],
+					[ "General_1.png", "General_1_Answer.png", "Which artist/band has had the most UK Number 1 singles?", [ "Rihanna", "Elvis Presley", "The Beatles", "Madonna" ], 1 ],
+					[ "General_Frankenstein.png", "General_Frankenstein_Answer.png", "Who wrote &quot;Frankenstein&quot;?", [ "Mary Shelley", "Alice Walker", "Harper Lee", "Lily Allen" ], 0 ],
+				];
+			break;
+
+			case 'capitals':
+				questions = [
+					[ "Capitals_Triomphe.jpg", "Capitals_Triomphe_Answer.jpg", "In which capital city is the Arc de Triomphe?", [ "Brussels", "Paris", "Berlin", "Amsterdam" ], 1 ],
+					[ "Capitals_Tourist.jpg", "Capitals_Tourist_Answer.jpg", "In 2018, which was the most visited tourist attraction in London?", [ "Science Museum", "Tower of London", "Royal Botanic Gardens", "Tate Modern" ], 3 ],
+					[ "Capitals_Population.jpg", "", "Which capital city has the highest population?", [ "Beijing, China", "New Delhi, India", "Tokyo, Japan", "Moscow, Russia" ], 0 ],
+					[ "Capitals_Cardiff.png", "Capitals_Cardiff_Answer.png", "What has been removed from the Cardiff flag?", [ "A rose", "A leek", "A thistle", "A shamrock" ], 1 ],
+					[ "Capitals_Australia.png", "Capitals_Australia_Answer.jpg", "What is the capital of Australia?", [ "Canberra", "Melbourne", "Sydney", "Adelaide" ], 0 ],
+					[ "Capitals_Moscow.png", "", "Which person can be seen on the flag of Moscow?", [ "Alexander the Great", "Joan of Arc", "Saint George", "Lily Allen" ], 2 ],
+					[ "Capitals_Western.jpg", "Capitals_Western_Answer.png", "What is the most western capital city in Europe?", [ "Lisbon", "Dublin", "Reykjavik", "Madrid" ], 2 ],
+					[ "Capitals_W.png", "Capitals_W_Answer.png", "There are no capital cities beginning with W.", [ "True", "False" ], 1 ],
+					[ "Capitals_Seal.png", "", "Which capital city does this seal belong to?", [ "Jakarta, Indonesia", "Tehran, Iran", "Kyiv, Ukraine", "Santiago, Chile" ], 1 ],
+					[ "Capitals_Smallest.png", "Capitals_Smallest_Answer.png", "By area, which is the smallest capital city?", [ "Luxembourg", "Andorra la Vella", "San Marino", "Vatican City" ], 3 ],
+				];
+			break;
+
+			case 'records':
+				questions = [
+					[ "Records_Oldest.jpg", "Records_Oldest_Answer.jpg", "What age has the oldest person reached?", [ "112", "122", "132" ], 1 ],
+					[ "Records_Rubiks.jpg", "Records_Rubiks_Answer.jpg", "What is the fastest time to solve a Rubik's Cube?", [ "~3 seconds", "~9 seconds", "~17 seconds" ], 0 ],
+					[ "Records_Building.jpg", "Records_Buildings_Answer.png", "Which building is the world's tallest?", [ "Taipei 101", "One World Trade Center", "Burj Khalifa" ], 2 ],
+					[ "Records_Moon.jpg", "Records_Moon_Answer.jpg", "Who was the first person on the moon?", [ "Buzz Aldrin", "Neil Armstrong", "Lily Allen" ], 1 ],
+					[ "Records_Fast.jpg", "Records_Fast_Answer.jpg", "What is the fastest time to run a marathon distance?", [ "3h 1m", "2h 47m", "1h 59m" ], 2 ],
+					[ "Records_Donkey.jpg", "Records_Donkey_Answer.jpg", "How tall is the shortest living donkey?", [ "32cm", "64cm", "128cm" ], 1 ],
+					[ "Records_Richest.jpg", "Records_Richest_Answer.jpg", "Who is currently the richest person?", [ "Bill Gates", "Jeff Bezos", "Elon Musk" ], 1 ],
+					[ "Records_Emojis.jpg", "Records_Emojis_Answer.jpg", "Which is the most used emoji in the US?", [ "😂 Tears of joy", "❤️ Red heart", "🙄 Rolling eyes" ], 0 ],
+					[ "Records_Tshirts.jpg", "Records_Tshirts_Answer.jpg", "What is the record for the most t-shirts worn at once?", [ "75", "130", "260" ], 2 ],
+					[ "Records_Twitter.png", "Records_Twitter_Answer.jpg", "Who was the first person to get 100,000,000 Twitter followers?", [ "Katy Perry", "Kevin Hart", "Shakira" ], 0 ],
+				];
+			break;
+
+			case 'letter':
+				questions = [
+					[ "Letter_Potassium.jpg", "Letter_Potassium_Answer.jpg", "What is the chemical symbol for Potassium?", [ "H", "K", "B", "N" ], 1 ],
+					[ "Letter_Judi.jpg", "", "Which character did Dame Judi Dench play in the James Bond films?", [ "C", "R", "Q", "M" ], 3 ],
+					[ "Letter_Bitcoin.png", "Letter_Bitcoin_Answer.png", "Which symbol represents the currency unit for Bitcoin?", [ "B", "฿", "Ƀ", "₿" ], 3 ],
+					[ "Letter_Frequency.png", "Letter_Frequency_Answer.png", "Which of these letters is used least in written English?", [ "J", "K", "W", "Y" ], 0 ],
+					[ "Letter_Factorial.png", "Letter_Factorial_Answer.png", "Which mathematical symbol is used to denote factorials?", [ "?", "^", "!", "~" ], 2 ],
+					[ "Letter_Lily.jpg", "Letter_Lily_Answer.jpg", "Which letter was not contained in the title of Lily Allen's second top-40 song?", [ "T", "L", "D", "N" ], 0 ],
+					[ "Letter_Knight.jpg", "Letter_Knight_Answer.jpg", "Which letter is most commonly used to denote the knight in chess notation?", [ "R", "B", "K", "N" ], 3 ],
+					[ "Letter_Truman.jpg", "Letter_Truman_Answer.png", "The US President Harry Truman had which letter as his middle name?", [ "D", "H", "S", "W" ], 2 ],
+					[ "Letter_Roman.png", "Letter_Roman_Answer.png", "Which letter denotes 100 in Roman Numerals?", [ "D", "C", "L", "X" ], 1 ],
+					[ "Letter_Watch.jpg", "Letter_Watch_Answer.jpg", "Which brand of watches shares it's name with a Greek letter?", [ "Δ", "ϴ", "Ω", "λ" ], 2 ],
+				];
+				hasLetters = false;
+			break;
+			
+			case 'cards':
+				questions = [
+					[ "Cards_Amount.jpg", "Cards_Amount_Answer.jpg", "Excluding jokers, how many cards are in a standard pack?", [ "48", "50", "52", "60" ], 2 ],
+					[ "Cards_Tarot.jpg", "Cards_Tarot_Answer.jpg", "Which of these is a real Tarot card?", [ "The Royal Empire", "Premonition", "Wheel of Fortune", "Lily Allen" ], 2 ],					
+					[ "Cards_Puppy.jpg", "Cards_Puppy_Answer.png", "Which card has the nickname <span class='showcase'>Puppy Feet</span>?", [ "2 of Clubs", "9 of Diamonds", "4 of Hearts", "7 of Spades" ], 0 ],					
+					[ "Cards_Where.jpg", "Cards_Where_Answer.jpg", "In which country were playing cards first invented?", [ "England", "China", "India", "Japan" ], 1 ],					
+					[ "Cards_Rounders.jpg", "Cards_Rounders_Answer.jpg", "The 1998 film <span class='showcase'>Rounders</span> is about which card game?", [ "Blackjack", "Patience", "Poker", "Snap" ], 2 ],
+					[ "Cards_Motorhead.jpg", "Cards_Motorhead_Answer.jpg", "Which of these is a song by Motörhead?", [ "Queen of Hearts", "Ace of Spades", "Jack of Diamonds", "King of Clubs" ], 1 ],
+					[ "Cards_Best.jpg", "Cards_Best_Answer.jpg", "What is the best hand in poker?", [ "Royal Flush", "Full House", "Four of a Kind", "Straight Flush" ], 0 ],					
+					[ "Cards_Uno.jpg", "Cards_Uno_Answer.jpg", "What is the highest number in Uno?", [ "12", "9", "6" ], 1 ],
+					[ "Cards_Hidden.jpg", "Cards_Hidden_Answer.jpg", "What was hidden inside playing cards sent to Allied PoWs during WW2?", [ "Keys", "Money", "Maps" ], 2 ],					
+					[ "Cards_Tax.jpg", "Cards_Tax_Answer.jpg", "From 1588, which card was stamped to denote that tax had been paid?", [ "7 of Clubs", "Jack of Hearts", "9 of Diamonds", "Ace of Spades" ], 3 ],
+				];
+			break;
+			
+			case 'locations':
+				questions = [
+					[ "Locations_Statue.jpg", "Locations_Statue_Answer.png", "Where are these statues?", [ "Christmas Island", "Easter Island", "Summer Island", "Halloween Island" ], 1 ],
+					[ "Locations_Bridge.jpg", "Locations_Bridge_Answer.png", "Where is this bridge?", [ "New York City, New York", "Tampa, Florida", "San Francisco, California" ], 2 ],
+					[ "Locations_Space.jpg", "Locations_Space_Answer.png", "Where is this vehicle?", [ "The Moon", "Venus", "Mars", "Jupiter" ], 2 ],
+					[ "Locations_Hotel.jpg", "Locations_Hotel_Answer.png", "Where is this hotel?", [ "Japan", "Malaysia", "Thailand", "North Korea" ], 3 ],
+					[ "Locations_Film.jpg", "Locations_Film_Answer.png", "What is this fictional city?", [ "Wakanda", "Zion", "Emerald City", "Arkham" ], 0 ],
+					[ "Locations_TV.jpg", "Locations_TV_Answer.png", "Where is this?", [ "Peckham", "Torquay", "Slough" ], 1 ],
+					[ "Locations_Cruise.jpg", "Locations_Cruise_Answer.png", "Where is this?", [ "France", "Argentina", "Cambodia", "Egypt" ], 3 ],
+					[ "Locations_Lily.jpg", "Locations_Lily_Answer.jpg", "Where is Lily Allen?", [ "Golden Globe Awards", "Emmy Awards", "NME Awards" ], 2 ],
+					[ "Locations_Vault.jpg", "Locations_Vault_Answer.png", "Where is this building?", [ "Norway", "Tunisia", "Guyana" ], 0 ],
+					[ "Locations_Canyon.jpg", "Locations_Canyon_Answer.png", "Where is this?", [ "Canada", "Morocco", "New Zealand", "USA" ], 3 ],
+				];
+			break;			
+		}
+	}
+
+	function modeNormal() {
+		mode = 'normal';
+		d3.select('#start').style('display', 'none');
+		d3.select('#quiz').style('display', 'inline');
+		d3.select('.show_answer').style('display', 'none');
+		d3.select('.show_result').style('display', 'none');
+		d3.select('.back').style('display', 'none');
+		d3.select('.previous').style('display', 'none');
+		showQuestion();
+	}
+
+	function modeHost() {
+		mode = 'host';
+		d3.select('#start').style('display', 'none');
+		d3.select('#quiz').style('display', 'inline');
+		d3.select('#stats').style('display', 'none');
+		d3.select('.show_result').style('display', 'none');
+		showQuestion();
+	}
+
+	function selectAnswer(selected) {
+		if (!answered) {
+			d3.selectAll('.answer').classed('highlight', false);
+			d3.selectAll('.answer').classed('answered', true);
+			if (selected == questions[index][4]) {
+				correct++;
+			} else {
+				wrong++;
+				d3.select('.answer' + selected).classed('wrong', true);
+			}
+			d3.select('.answer' + selected + ' .sign').style('opacity', 1);
+			d3.select('.answer' + questions[index][4] + ' .sign').style('opacity', 1);
+			d3.select('.answer' + questions[index][4]).classed('correct', true);
+			if (questions[index][1].length > 0) {
+				d3.select('#image').style('background-image', 'url(' + questions[index][1]  + ')');
+				d3.select('#zoom').style('background-image', 'url(' + questions[index][1]  + ')');
+			}
+			d3.select('#correct_stat span').html(correct);
+			d3.select('#wrong_stat span').html(wrong);
+			answered = true;
+			if (index + 1 < questions.length) {
+				d3.select('.next').classed('disabled', false);
+				d3.select('#image_loader').style('background-image', 'url(' + questions[index + 1][0]  + ')');
+			}
+			else if (mode == 'normal') {
+				d3.select('.show_result').style('display', 'inline');
+			}
+		}
+	}
+
+	function showQuestion() {
+		d3.select('#image').style('background-image', 'url(' + questions[index][0]  + ')');
+		d3.select('#zoom').style('background-image', 'url(' + questions[index][0]  + ')');
+		if (questions[index][1].length > 0)
+			d3.select('#image_loader_a').style('background-image', 'url(' + questions[index][1]  + ')'); // answer image to this question
+		if (index + 1 < questions.length)
+			d3.select('#image_loader_b').style('background-image', 'url(' + questions[index + 1][0]  + ')'); // start image for next question
+		var answers = questions[index][3].map((e, i) => '<tr><td ' + (mode == 'host' ? '' : 'onmousedown="selectAnswer(' + i + ')"') + 'class="answer answer' + i + '"><span class="text">' + ((mode == 'host' && hasLetters) ? '<em>&#' + (65 + i) + ';</em> ' : '') + e + '</span> <span class="sign">' + (questions[index][4] == i ? '✔' : '✖') + '</span></td></tr>').join('');
+		d3.select('#text').html('<div>Q' + (index + 1) + '. ' + questions[index][2] + '</div><table id="answer_container">' + answers + '</table>');
+		d3.select('.showanswer').style('opacity', '1');
+		if (mode == 'normal')
+			d3.select('.next').classed('disabled', true)
+		if (mode == 'host' && index + 1 == questions.length)
+			d3.select('.next').classed('disabled', true);
+		if (mode == 'host')
+			d3.selectAll('.answer').classed('answered', true);
+		answered = false;
+		d3.select('.previous').classed('disabled', index == 0);
+		d3.select('.show_answer').classed('disabled', false);
+	}
+
+	function showAnswer() {
+		selectAnswer(questions[index][4])
+		d3.select('.show_answer').classed('disabled', true);
+	}
+
+	function showResult() {
+		var correct_percent = correct == 0 ? 0 : (correct / questions.length) * 100;
+		var url = '';
+		if (correct_percent == 100)
+			url = 'balloons.gif';
+		else if (correct_percent >= 90)
+			url = 'standing.gif';
+		else if (correct_percent >= 80)
+			url = 'polite.gif';
+		else if (correct_percent >= 70)
+			url = 'hats.gif';
+		else if (correct_percent >= 60)
+			url = 'shia.gif';
+		else if (correct_percent >= 50)
+			url = 'mediocre.gif';
+		else if (correct_percent >= 40)
+			url = 'wizard.gif';
+		else if (correct_percent >= 30)
+			url = 'sleepy.gif';
+		else if (correct_percent >= 20)
+			url = 'wakeup.gif';
+		else if (correct_percent >= 10)
+			url = 'angry.webp';
+		else
+			url = 'mob.gif';
+
+		d3.select('#quiz').style('display', 'none');
+		d3.select('#result').style('display', 'inline');
+		d3.select('#result_image').style('background-image', 'url(Audience/' + url  + ')');
+		d3.select('#result_text').html("<p>You got " + correct + " correct answer" + (correct == 1 ? '' : 's') + " out of " + questions.length + "!</p>");
+	}
+
+	function returnToMenu() {
+		location.reload();
+	}
+
+	function previousQuestion() {
+		if (index > 0) {
+			index--;
+			showQuestion();
+		}
+	}
+
+	function nextQuestion() {
+		if (answered || mode == 'host') {
+			if (index + 1 < questions.length) {
+				index++;
+				showQuestion();
+			}
+		}
+	}
+
+	function showZoom() {
+		d3.select('#zoom_background').style('display', 'inline');
+		d3.select('#zoom').style('display', 'inline');
+		d3.select('#quiz').style('opacity', '0');
+		console.log('now!');
+	}
+
+	function hideZoom() {
+		d3.select('#zoom_background').style('display', 'none');
+		d3.select('#zoom').style('display', 'none');
+		d3.select('#quiz').style('opacity', '1');
+	}
+
+	function startQuiz() {
+		var listSubject = document.getElementById("subject");
+		var listMode = document.getElementById("mode");
+		var quizSubject = listSubject.options[listSubject.selectedIndex].value;
+		var quizMode = listMode.options[listMode.selectedIndex].value;
+		selectQuestions(quizSubject)
+		quizMode == 'normal' ? modeNormal() : modeHost();
+	}
+
+	const urlParams = new URLSearchParams(window.location.search);
+	var urlSubject = urlParams.get('subject');
+	var urlMode = urlParams.get('mode');
+	var urlStart = urlParams.get('start');
+	if (urlSubject.length)
+		document.getElementById('subject').value = urlSubject;
+	if (urlMode.length)
+		document.getElementById('mode').value = urlMode;
+	if (urlStart.length)
+		startQuiz();
+
+</script>
+</body>
+</html>
