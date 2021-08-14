@@ -7,7 +7,7 @@
 <body>
   <img id="watermark" src="watermark.png" style="display: none" />
   <h3>Input</h3>
-  <div id="input"><img id="image" src="picture.png" style="max-width:250px;height:auto;"></div>
+  <div id="input"><img id="image" src="picture.png" style="max-width:250px"></div>
   <h3>Output</h3>
   <div id="output"></div>
   <script>
@@ -38,7 +38,7 @@
             var newImage = new Image();
 
             newImage.src = URL.createObjectURL(result);
-            newImage.style = "max-width:250px;height:auto;";
+            newImage.style = "max-width:250px";
             output.appendChild(newImage);
           },
           error: function (err) {
