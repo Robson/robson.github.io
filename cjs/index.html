@@ -2,10 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Compressor.js</title>
-  <link rel="stylesheet" href="https://unpkg.com/bootstrap@4/dist/css/bootstrap.min.css" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/compressorjs/1.0.7/compressor.min.js"></script>
   <style>
     img {
       width: 100%;
@@ -13,24 +11,11 @@
   </style>
 </head>
 <body>
-  <img id="watermark" src="watermark.png" width="435" height="530" style="display: none" />
-  <div class="container py-5">
-    <h1>Watermark</h1>
-    <hr>
-    <div class="row">
-      <div class="col">
-        <h3>Input</h3>
-        <div id="input">
-          <img id="image" src="https://fengyuanchen.github.io/compressorjs/images/picture.png" alt="Picture">
-        </div>
-      </div>
-      <div class="col">
-        <h3>Output</h3>
-        <div id="output"></div>
-      </div>
-    </div>
-  </div>
-  <script src="cjs.js"></script>
+  <img id="watermark" src="watermark.png" style="display: none" />
+  <h3>Input</h3>
+  <div id="input"><img id="image" src="picture.png"></div>
+  <h3>Output</h3>
+  <div id="output"></div>  
   <script>
     window.addEventListener('DOMContentLoaded', function () {
       var Compressor = window.Compressor;
@@ -44,7 +29,6 @@
         new Compressor(xhr.response, {
           strict: false,
           drew: function (context, canvas) {
-			console.log();
 			context.drawImage(
 			  watermark,
 			  0,
