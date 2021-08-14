@@ -44,7 +44,17 @@
         new Compressor(xhr.response, {
           strict: false,
           drew: function (context, canvas) {
-			context.drawImage(watermark, 0, 0, 435, 530, canvas.width - 119, canvas.height - 143, 109, 133)
+			console.log();
+			context.drawImage(
+			  watermark,
+			  0,
+			  0,
+			  watermark.width,
+			  watermark.height,
+			  canvas.width - ((watermark.width / 4) + 10),
+			  canvas.height - ((watermark.height / 4) + 10),
+			  (watermark.width / 4),
+			  (watermark.height / 4))
           },
           success: function (result) {
             var newImage = new Image();
