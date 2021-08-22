@@ -426,7 +426,22 @@ h1 {
 					[ "Locations_Vault.jpg", "Locations_Vault_Answer.png", "Where is this building?", [ "Norway", "Tunisia", "Guyana" ], 0 ],
 					[ "Locations_Canyon.jpg", "Locations_Canyon_Answer.png", "Where is this?", [ "Canada", "Morocco", "New Zealand", "USA" ], 3 ],
 				];
-			break;			
+			break;		
+
+			case '20thcentury':
+				questions = [
+					[ "20thCentury_1900s.jpg", "20thCentury_1900s_Answer.jpg", "An eruption from Mount Vesuvius caused the 1908 Olympic games to be relocated to London, but where is Mount Vesuvius?", [ "Indonesia", "Italy", "New Zealand", "Iceland" ], 1 ],
+					[ "20thCentury_1950s.png", "youtube:cMD-k0C1AM8", "The UK Singles chart started in 1952. Which artist had the first number 1 with <span style='font-style:italic'>Here In My Heart</span>?", [ "Doris Day", "Al Martino", "Elvis Presley", "Lily Allen" ], 1 ],
+					[ "20thCentury_.jpg", "20thCentury_.jpg", "?", [ "", "", "", "" ], 9 ],
+					[ "20thCentury_.jpg", "20thCentury_.jpg", "?", [ "", "", "", "" ], 9 ],
+					[ "20thCentury_.jpg", "20thCentury_.jpg", "?", [ "", "", "", "" ], 9 ],
+					[ "20thCentury_.jpg", "20thCentury_.jpg", "?", [ "", "", "", "" ], 9 ],					
+					[ "20thCentury_.jpg", "20thCentury_.jpg", "?", [ "", "", "", "" ], 9 ],
+					[ "20thCentury_.jpg", "20thCentury_.jpg", "?", [ "", "", "", "" ], 9 ],
+					[ "20thCentury_.jpg", "20thCentury_.jpg", "?", [ "", "", "", "" ], 9 ],
+					[ "20thCentury_.jpg", "20thCentury_.jpg", "?", [ "", "", "", "" ], 9 ],
+				];
+			break;				
 		}
 	}	
 	
@@ -439,7 +454,8 @@ h1 {
 			'records': 'World Records',
 			'letter': 'One Character Answers',
 			'cards': 'Cards',
-			'locations': 'Locations'			
+			'locations': 'Locations',
+			'20thcentury': '20th Century'
 		}		
 		
 		var quizBoxes = d3.select('#quiz_boxes');
@@ -532,6 +548,7 @@ h1 {
 
 	function selectAnswer(selected) {
 		if (!answered) {
+			d3.selectAll('#image *').remove();
 			d3.selectAll('.answer').classed('highlight', false);
 			d3.selectAll('.answer').classed('answered', true);
 			if (selected == questions[index][4]) {
@@ -544,8 +561,20 @@ h1 {
 			d3.select('.answer' + questions[index][4] + ' .sign').style('opacity', 1);
 			d3.select('.answer' + questions[index][4]).classed('correct', true);
 			if (questions[index][1].length > 0) {
-				d3.select('#image').style('background-image', 'url(' + questions[index][1]  + ')');
-				d3.select('#zoom').style('background-image', 'url(' + questions[index][1]  + ')');
+				if (questions[index][1].startsWith('youtube')) {
+					d3
+						.select('#image')
+						.style('background-image', 'none')
+						.append('iframe')
+						.attr('width', '400px')
+						.attr('height', '200px')
+						.attr('src', 'https://www.youtube.com/embed/' + questions[index][1].replace('youtube:', ''))
+						.attr('frameborder', 0)
+						.attr('allowfullscreen', 'allowfullscreen');
+				} else {
+					d3.select('#image').style('background-image', 'url(' + questions[index][1]  + ')');
+					d3.select('#zoom').style('background-image', 'url(' + questions[index][1]  + ')');
+				}
 			}
 			d3.select('#correct_stat span').html(correct);
 			d3.select('#wrong_stat span').html(wrong);
