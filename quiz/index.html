@@ -215,79 +215,83 @@ h1 {
 	font-style: italic;
 }
 
+#quiz_boxes {
+	width: 1200px;
+	margin: 0 auto !important;	
+}
+
+.quiz_box {
+	width: 190px;
+	cursor: pointer;
+	border-radius: 10px;
+	border: 5px solid #fff;
+	background: #fff;
+	color: #000;
+	display: inline-block;
+	margin: 10px !important;
+	text-align: center;
+	padding: 0;
+	vertical-align: top;
+}
+
+.quiz_box:hover {
+	border: 5px solid green;
+}
+
+.title {
+	height: 50px;
+	font-weight: bold;
+	font-size: 21px;
+}
+
+.thumbnail {
+	width: 170px;
+	height: 100px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: 0;
+	margin: 0 10px 10px !important;
+	padding: 0;
+}
+
 </style>
 </head>
 <body>
 
 <div id="start">
 
+	<select id="mode">
+		<option value="normal">Normal Mode</option>
+		<option value="host">Host Mode</option>
+	</select>
+
+	<!--
 	<div>
 		<select id="subject">
-			<option value="flags">Week 1: Fun with Flags</option>
-			<option value="logos">Week 2: Brand Logos</option>
-			<option value="general">Week 3: General Knowledge</option>
-			<option value="capitals">Week 4: Capital Cities</option>
-			<option value="records">Week 5: World Records</option>
-			<option value="letter">Week 6: One Character Answers</option>
-			<option value="cards">Week 7: Cards</option>
-			<option value="locations" selected>Week 8: Locations</option>
+			<option value="flags">Fun with Flags</option>
+			<option value="logos">Brand Logos</option>
+			<option value="general">General Knowledge</option>
+			<option value="capitals">Capital Cities</option>
+			<option value="records">World Records</option>
+			<option value="letter">One Character Answers</option>
+			<option value="cards">Cards</option>
+			<option value="locations" selected>Locations</option>
 		</select>
 
-		<select id="mode">
-			<option value="normal">Normal Mode</option>
-			<option value="host">Host Mode</option>
-		</select>
+
 	</div>
 
 	<div>
 		<input type="button" onmousedown="startQuiz()" class="button" value="Start Quiz" />
 	</div>
-
-</div>
-
-<div id="quiz">
-
-	<div id="question">
-		<div class="image_container" onmousedown="showZoom()">
-			<div id="image" onmousedown="showZoom()"></div>
-		</div>
-		<div id="text"></div>
+	-->
+	
+	<div id="quiz_boxes">
 	</div>
-
-	<input type="button" onmousedown="showAnswer()" class="button show_answer" value="Show Answer" />
-	<input type="button" onmousedown="previousQuestion()" class="button previous" value="Previous Question" />
-	<input type="button" onmousedown="nextQuestion()" class="button next" value="Next Question" />
-	<input type="button" onmousedown="showResult()" class="button show_result" value="Show Result" />
-
-	<div id="stats">
-		<span id="correct_stat"><span>0</span> Correct</span>
-		&nbsp; &nbsp; &nbsp;
-		<span id="wrong_stat"><span>0</span> Wrong</span>
-	</div>
-
-	<div id="image_loader_a"></div>
-	<div id="image_loader_b"></div>
-
-</div>
-
-<div id="result">
-
-	<div class="image_container">
-		<div id="result_image"></div>
-	</div>
-
-	<div id="result_text">
-	</div>
-
-	<input type="button" onmousedown="returnToMenu()" class="button return_to_Menu" value="Return to Menu" />
-
-</div>
-
-<div id="zoom_background" onmousedown="hideZoom()"></div>
-<div id="zoom" onmousedown="hideZoom()"></div>
-
-<script type="text/javascript">
-
+	
+	<script>
+	
 	var mode = '';
 	var index = 0;
 	var answered = false;
@@ -424,7 +428,87 @@ h1 {
 				];
 			break;			
 		}
-	}
+	}	
+	
+	
+		var quizzes = {
+			'flags': 'Fun with Flags',
+			'logos': 'Brand Logos',
+			'general': 'General Knowledge',
+			'capitals': 'Capital Cities',
+			'records': 'World Records',
+			'letter': 'One Character Answers',
+			'cards': 'Cards',
+			'locations': 'Locations'			
+		}		
+		
+		var quizBoxes = d3.select('#quiz_boxes');
+		
+		for (var quiz of Object.keys(quizzes)) {
+			var box = quizBoxes
+				.append('div')
+				.attr('class', 'quiz_box')
+				.attr('data-quiz', quiz)
+				.on('mousedown', function() { startQuiz(d3.select(this).attr('data-quiz')); });
+				
+			box
+				.append('div')
+				.attr('class', 'title')
+				.append('span')
+				.html(quizzes[quiz]);
+			selectQuestions(quiz);
+			box
+				.append('div')
+				.attr('class', 'thumbnail')
+				.style('background-image', "url('" + questions[Math.floor(Math.random() * 10)][0] + "')");
+		}
+	
+	</script>
+
+</div>
+
+<div id="quiz">
+
+	<div id="question">
+		<div class="image_container" onmousedown="showZoom()">
+			<div id="image" onmousedown="showZoom()"></div>
+		</div>
+		<div id="text"></div>
+	</div>
+
+	<input type="button" onmousedown="showAnswer()" class="button show_answer" value="Show Answer" />
+	<input type="button" onmousedown="previousQuestion()" class="button previous" value="Previous Question" />
+	<input type="button" onmousedown="nextQuestion()" class="button next" value="Next Question" />
+	<input type="button" onmousedown="showResult()" class="button show_result" value="Show Result" />
+
+	<div id="stats">
+		<span id="correct_stat"><span>0</span> Correct</span>
+		&nbsp; &nbsp; &nbsp;
+		<span id="wrong_stat"><span>0</span> Wrong</span>
+	</div>
+
+	<div id="image_loader_a"></div>
+	<div id="image_loader_b"></div>
+
+</div>
+
+<div id="result">
+
+	<div class="image_container">
+		<div id="result_image"></div>
+	</div>
+
+	<div id="result_text">
+	</div>
+
+	<input type="button" onmousedown="returnToMenu()" class="button return_to_Menu" value="Return to Menu" />
+
+</div>
+
+<div id="zoom_background" onmousedown="hideZoom()"></div>
+<div id="zoom" onmousedown="hideZoom()"></div>
+
+<script>
 
 	function modeNormal() {
 		mode = 'normal';
@@ -567,10 +651,10 @@ h1 {
 		d3.select('#quiz').style('opacity', '1');
 	}
 
-	function startQuiz() {
-		var listSubject = document.getElementById("subject");
+	function startQuiz(quizSubject) {
+		//var listSubject = document.getElementById("subject");
 		var listMode = document.getElementById("mode");
-		var quizSubject = listSubject.options[listSubject.selectedIndex].value;
+		//var quizSubject = listSubject.options[listSubject.selectedIndex].value;
 		var quizMode = listMode.options[listMode.selectedIndex].value;
 		selectQuestions(quizSubject)
 		quizMode == 'normal' ? modeNormal() : modeHost();
