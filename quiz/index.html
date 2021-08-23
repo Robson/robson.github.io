@@ -430,16 +430,16 @@ h1 {
 
 			case '20thcentury':
 				questions = [
-					[ "20thCentury_1900s.jpg", "20thCentury_1900s_Answer.jpg", "An eruption from Mount Vesuvius caused the 1908 Olympic games to be relocated to London, but where is Mount Vesuvius?", [ "Indonesia", "Italy", "New Zealand", "Iceland" ], 1 ],
-					[ "20thCentury_1950s.png", "youtube:cMD-k0C1AM8", "The UK Singles chart started in 1952. Which artist had the first number 1 with <span style='font-style:italic'>Here In My Heart</span>?", [ "Doris Day", "Al Martino", "Elvis Presley", "Lily Allen" ], 1 ],
-					[ "20thCentury_.jpg", "20thCentury_.jpg", "?", [ "", "", "", "" ], 9 ],
-					[ "20thCentury_.jpg", "20thCentury_.jpg", "?", [ "", "", "", "" ], 9 ],
-					[ "20thCentury_.jpg", "20thCentury_.jpg", "?", [ "", "", "", "" ], 9 ],
-					[ "20thCentury_.jpg", "20thCentury_.jpg", "?", [ "", "", "", "" ], 9 ],					
-					[ "20thCentury_.jpg", "20thCentury_.jpg", "?", [ "", "", "", "" ], 9 ],
-					[ "20thCentury_.jpg", "20thCentury_.jpg", "?", [ "", "", "", "" ], 9 ],
-					[ "20thCentury_.jpg", "20thCentury_.jpg", "?", [ "", "", "", "" ], 9 ],
-					[ "20thCentury_.jpg", "20thCentury_.jpg", "?", [ "", "", "", "" ], 9 ],
+					[ "20thCentury_1900s.jpg", "20thCentury_1900s_Answer.jpg", "An eruption from Mount Vesuvius caused the 1908 Olympic games to be relocated to London. Where is Mount Vesuvius?", [ "Indonesia", "Italy", "New Zealand", "Iceland" ], 1 ],
+					[ "20thCentury_1910s.jpg", "20thCentury_1910s_Answer.jpg", "Titanic's maiden voyage began in 1912. Where did it depart from?", [ "Cardiff", "Liverpool", "Southampton", "Plymouth" ], 2 ],
+					[ "20thCentury_1920s.jpg", "20thCentury_1920s_Answer.png", "Walt Disney invented the character of Mickey Mouse in the 1920s. What position was Disney in the 2021 BrandZ Top 100?", [ "7", "33", "72", "98" ], 1 ],
+					[ "20thCentury_1930s.png", "20thCentury_1930s_Answer.png", "Which popular chocolate bar was <strong>not</strong> introduced in the 1930s?", [ "Mars", "Milkybar", "Aero", "Twirl" ], 3 ],
+					[ "20thCentury_1940s.jpg", "youtube:8QjhBKDzKcE:15", "The most notable event of the 1940s was the invention of the Slinky™.", [ "", "", "", "" ], 9 ],
+					[ "20thCentury_1950s.png", "youtube:oCgmhrJtMFI:0", "The UK Singles chart started in 1952. Which artist had the first number 1 with <span style='font-style:italic'>Here In My Heart</span>?", [ "Doris Day", "Al Martino", "Elvis Presley", "Lily Allen" ], 1 ],						
+					[ "20thCentury_1960s.jpg", "20thCentury_1960s_Answer.jpg", "?", [ "", "", "", "" ], 9 ],
+					[ "20thCentury_1970s.jpg", "20thCentury_1970s_Answer.jpg", "?", [ "", "", "", "" ], 9 ],
+					[ "20thCentury_1980s.jpg", "20thCentury_1980s_Answer.jpg", "?", [ "", "", "", "" ], 9 ],
+					[ "20thCentury_1990s.jpg", "20thCentury_1990s_Answer.jpg", "All of these films were released in the same year: The Shawshank Redemption, Pulp Fiction, Forrest Gump, Speed and The Lion King. Which year was it?", [ "1990", "1994", "1997", "1999" ], 9 ],
 				];
 			break;				
 		}
@@ -549,6 +549,7 @@ h1 {
 	function selectAnswer(selected) {
 		if (!answered) {
 			d3.selectAll('#image *').remove();
+			d3.selectAll('#zoom *').remove();
 			d3.selectAll('.answer').classed('highlight', false);
 			d3.selectAll('.answer').classed('answered', true);
 			if (selected == questions[index][4]) {
@@ -568,9 +569,18 @@ h1 {
 						.append('iframe')
 						.attr('width', '400px')
 						.attr('height', '200px')
-						.attr('src', 'https://www.youtube.com/embed/' + questions[index][1].replace('youtube:', ''))
+						.attr('src', 'https://www.youtube.com/embed/' + questions[index][1].split(':')[1] + '?start=' + questions[index][1].split(':')[2])
 						.attr('frameborder', 0)
 						.attr('allowfullscreen', 'allowfullscreen');
+					d3
+						.select('#zoom')
+						.style('background-image', 'none')
+						.append('iframe')
+						.attr('width', '100%')
+						.attr('height', '100%')
+						.attr('src', 'https://www.youtube.com/embed/' + questions[index][1].split(':')[1] + '?start=' + questions[index][1].split(':')[2])
+						.attr('frameborder', 0)
+						.attr('allowfullscreen', 'allowfullscreen');						
 				} else {
 					d3.select('#image').style('background-image', 'url(' + questions[index][1]  + ')');
 					d3.select('#zoom').style('background-image', 'url(' + questions[index][1]  + ')');
@@ -590,6 +600,8 @@ h1 {
 	}
 
 	function showQuestion() {
+		d3.selectAll('#image *').remove();
+		d3.selectAll('#zoom *').remove();	
 		d3.select('#image').style('background-image', 'url(' + questions[index][0]  + ')');
 		d3.select('#zoom').style('background-image', 'url(' + questions[index][0]  + ')');
 		if (questions[index][1].length > 0)
