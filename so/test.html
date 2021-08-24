@@ -1,0 +1,12 @@
+<html>
+<body>
+<p>We are in the <span id="number">unknown</span> environment.</p>
+<script>
+if (document.location.host == "robson.plus") {
+  document.getElementById('number').innerHTML = "first";
+} else {
+  document.getElementById('number').innerHTML = "second";
+}
+</script>
+</body>
+</html>
