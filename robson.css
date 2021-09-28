@@ -245,10 +245,17 @@ a:hover span {
 .page-header {
 	color: #fff;
 	text-align: center;
-	padding: 175px 5px 40px;
+	padding: 5px 5px 40px;
+	height: 315px;
+	vertical-align: bottom;
 	margin: 0;	
 	border: 0;
 	background: #000;
+	flex-grow: 1;
+	display: flex;
+	align-items: stretch;
+	justify-content: end;
+	flex-direction: column;
 }
 
 @keyframes show-stars {
@@ -474,10 +481,4 @@ a:hover span {
 	[class*="col-md"] {
 	  padding: 8px;
 	}
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-}
-
-@media (min-width: 1200px) {
 }
