@@ -11,16 +11,13 @@
 #
 
 ## apply to all crawlers
-User-agent:	*
+User-agent: *
 
 User-agent: ia_archiver
-Disallow:
 Disallow: /
 
 User-agent: archive.org_bot
-Disallow:
 Disallow: /
 
 User-agent: ia_archiver-web.archive.org 
-Disallow:
 Disallow: /
