@@ -25,3 +25,6 @@
 [submodule "emoji-match"]
 	path = emoji-match
 	url = https://github.com/Robson/Emoji-Match
+[submodule "lottery-simulator"]
+	path = lottery-simulator
+	url = https://github.com/Robson/Lottery-Simulator
