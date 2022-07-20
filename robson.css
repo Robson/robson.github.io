@@ -1,3 +1,32 @@
+/***** BOOTSTRAP ICONS *****/
+
+@font-face {
+  font-family: "bootstrap-icons";
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/fonts/bootstrap-icons.woff?4601c71fb26c9277391ec80789bfde9c") format("woff"),
+       url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/fonts/bootstrap-icons.woff2?4601c71fb26c9277391ec80789bfde9c") format("woff2");
+}
+
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: text-bottom;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bi-arrow-down-square-fill::before { content: "\f125"; }
+.bi-envelope-open-fill::before { content: "\f30d"; }
+.bi-github::before { content: "\f3cd"; }
+.bi-globe2::before { content: "\f3cf"; }
+.bi-rss-fill::before { content: "\f4f9"; }
+
 /***** FONTS *****/
 
 /* latin */
