@@ -193,7 +193,7 @@ a:hover span {
 	animation-name: shoot-rocket;	
 }
 
-.page-header h1 {
+h1 {
 	font-family: 'roboto slab', georgia, serif;
 	font-weight: 400;
 }
@@ -242,7 +242,7 @@ a:hover span {
   animation-fill-mode: forwards;
 }
 
-.box .h2 {
+h2 {
 	margin: 6px 0 5px -1px;
 	font-family: 'roboto slab', georgia, serif;
 	font-weight: 400;
