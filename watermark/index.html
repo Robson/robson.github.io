@@ -20,25 +20,30 @@
       var xhr = new XMLHttpRequest();
 
       xhr.onload = function () {
+		console.log("a");
         new Compressor(xhr.response, {
           strict: false,
           drew: function (context, canvas) {
+			console.log("c");
             context.drawImage(
               watermark,
               0,
               0,
               watermark.width,
               watermark.height,
-              canvas.width - ((watermark.width / 4) + 10),
-              canvas.height - ((watermark.height / 4) + 10),
-              (watermark.width / 4),
-              (watermark.height / 4))
+              0,
+              0,
+              (watermark.width / 2),
+              (watermark.height / 2));
+			 console.log("d");
           },
           success: function (result) {
+			console.log("e");
             var newImage = new Image();
             newImage.src = URL.createObjectURL(result);
             newImage.style = "max-width:250px";
             output.appendChild(newImage);
+			console.log("f");
           },
           error: function (err) {
             window.alert(err.message);
