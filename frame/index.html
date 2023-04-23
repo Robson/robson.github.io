@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+<script type="text/javascript">
+
+    function makeFramesetVerticallyResizable(frameSetId) {
+        var frameSet = document.getElementById(frameSetId);
+
+        // insert a vertical box called resizeHandle into the righthand document:
+        var frameDoc = frameSet.children[1].contentDocument;
+        var resizeHandle = frameDoc.createElement("div");
+        resizeHandle.style.backgroundColor = "#999999";// remove this line to hide the handle
+        resizeHandle.style.position = "fixed";
+        resizeHandle.style.width = "6px";
+        resizeHandle.style.height = "100%";
+        resizeHandle.style.top = "0px"; // put it a little away from the border so firefox can detect dragging to the left
+        resizeHandle.style.left = "3px";
+        resizeHandle.style.cursor = "e-resize";
+        resizeHandle.style.zIndex = 99999;
+        frameDoc.body.insertBefore(resizeHandle, frameDoc.body.firstChild);
+
+        // Drag functions:
+        var dragStartScreenX = null;
+        resizeHandle.draggable = true;
+        resizeHandle.ondragstart = function(event) {
+             dragStartScreenX = event.screenX;
+             event.dataTransfer.setData('text/plain', 'dummy');
+             event.dataTransfer.effectAllowed = 'move';
+        };
+        resizeHandle.ondrag = function(event) {
+            if(dragStartScreenX !== null && event.screenX != 0) { // we have a mouse position ?
+                var offset = event.screenX - dragStartScreenX;
+                var width = frameSet.firstElementChild.offsetWidth;
+                var newWidth = width + offset;
+                frameSet.cols = "" + newWidth + ",*";
+                dragStartScreenX = event.screenX;
+            }
+        }
+        resizeHandle.ondragend = resizeHandle.ondrag;// Firefox does not give us the current mouse position during dragging, so resize the frames at the end
+    }
+
+
+
+</script>
+</head>
+    <frameset id="mainFrameSet" cols="80%,20%" border="0" onload="makeFramesetVerticallyResizable('mainFrameSet')">
+        <frame src="https://www.channel4.com" id="frame1" scrolling="auto" frameborder="0" />
+        <frame src="about:blank" id="frame2" scrolling="auto" frameborder="0" />
+    </frameset>
+</html>
