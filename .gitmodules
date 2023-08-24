@@ -28,3 +28,6 @@
 [submodule "lottery-simulator"]
 	path = lottery-simulator
 	url = https://github.com/Robson/Lottery-Simulator
+[submodule "reel-time"]
+	path = reel-time
+	url = https://github.com/Robson/Reel-Time
