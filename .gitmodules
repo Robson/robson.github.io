@@ -9,7 +9,7 @@
 	url = https://github.com/Robson/In-Character
 [submodule "film-franchise-ratings"]
 	path = film-franchise-ratings
-	url = https://github.com/robson/film-franchise-ratings
+	url = https://github.com/Robson/Film-Franchise-Ratings
 [submodule "white-noise-image-generator"]
 	path = white-noise-image-generator
 	url = https://github.com/Robson/White-Noise-Image-Generator
