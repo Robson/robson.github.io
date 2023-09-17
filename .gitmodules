@@ -31,3 +31,6 @@
 [submodule "reel-time"]
 	path = reel-time
 	url = https://github.com/Robson/Reel-Time
+[submodule "botc-generator"]
+	path = botc-generator
+	url = https://github.com/Robson/BotC-Generator
