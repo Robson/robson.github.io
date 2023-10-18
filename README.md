@@ -9,10 +9,10 @@ This is my site, where I have live versions of all my projects.
 * <a href="https://robson.plus/film-barcodes/">Film Barcodes</a>
 * <a href="https://robson.plus/film-franchise-ratings/">Film Franchise Ratings</a>
 * <a href="https://www.flickr.com/photos/_robson_/">Flickr Account</a>
-* <a href="https://github.com/Robson/Glitch-Generator/releases/tag/v1.3">Glitch Generator</a>
+* <a href="https://github.com/Robson/Glitch-Generator/">Glitch Generator</a>
 * <a href="https://robson.plus/in-character/">In Character</a>
 * <a href="https://robson.plus/lottery-simulator/">Lottery Simulator</a>
-* <a href="https://robson.plus/minecraft-glazed-terracotta-pattern-generator/#0|v1|Lf">Minecraft Glazed Terracotta Pattern Generator</a>
+* <a href="https://robson.plus/minecraft-glazed-terracotta-pattern-generator/">Minecraft Glazed Terracotta Pattern Generator</a>
 * <a href="https://robson.plus/reel-time/">Reel Time</a>
 * <a href="https://robson.plus/space-generator/">Space Generator</a>
 * <a href="https://robson.plus/number-1s/">UK Singles Chart: Number 1s</a>
