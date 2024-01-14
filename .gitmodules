@@ -34,3 +34,6 @@
 [submodule "botc-generator"]
 	path = botc-generator
 	url = https://github.com/Robson/BotC-Generator
+[submodule "bauhaus-pattern-creator"]
+	path = bauhaus-pattern-creator
+	url = https://github.com/Robson/Bauhaus-Pattern-Creator
