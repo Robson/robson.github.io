@@ -91,7 +91,8 @@ table {
 	cursor: pointer;
 	padding: 2px 8px 2px 15px;
 	border-radius: 5px;
-	color: #E5007E;
+	color: #F00;
+	cursor: zoom-in;
 }
 
 #buttons span.inlinefirst {
@@ -113,7 +114,7 @@ table {
 #buttons span.active,
 #buttons span.active:hover {
 	color: white;
-	background: #E5007E;
+	background: #d00; /*#E5007E;*/
 	cursor: default;
 }
 

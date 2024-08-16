@@ -123,7 +123,7 @@
 
 		var table, thead, tbody;
 		var galleryAmount = 10;
-		var backdropIndex = ~~(100 * Math.random());
+		var backdropIndex = ~~(data.Backdrops.length * Math.random());
 
         ////////////////// TOOLTIPS //////////////////
 
@@ -281,9 +281,20 @@
 
 			for (var film in lbList.Entries) {
 
-                var details = lbList.Entries[film].Year;
+                var details = lbList.Entries[film].Year + '<br/>';
 				if (lbList.Entries[film].Rating > 0) {
-					details += ' ' + '★'.repeat(lbList.Entries[film].Rating);
+					details += '★'.repeat(lbList.Entries[film].Rating);
+				} else {
+					details += '&nbsp;';
+				}
+
+				details += '<br/>';
+                if (lbList.Entries[film].PrimaryLanguage.length == 0) {
+                    details += 'No Spoken Language';
+                } else if (lbList.Entries[film].PrimaryLanguage != "English") {
+                    details += lbList.Entries[film].PrimaryLanguage;
+				} else {
+                    details += '&nbsp;';
 				}
 
                 // <a href="https://boxd.it/' + lbList.Entries[film].LetterboxdIdentifier + '">' + lbList.Entries[film].FilmName + '</a>
@@ -296,16 +307,25 @@
 
             createNewTable();
 
-			thead.append('<tr><th>Order</th><th>Film</th><th>Year</th><th>Rating</th></tr>');
+            thead.append('<tr class="topheader"><th colspan="5">' + lbList.ListName + '</th></tr>');
+			thead.append('<tr class="bottomheader"><th>Order</th><th>Film</th><th>Year</th><th>Rating</th><th>Language</th></tr>');
 
 			for (var film in lbList.Entries) {
+
+				var lang = '';
+				if (lbList.Entries[film].PrimaryLanguage.length == 0) {
+                    lang = 'No Spoken Language';
+				} else if (lbList.Entries[film].PrimaryLanguage != "English") {
+                    lang = lbList.Entries[film].PrimaryLanguage;
+				}
 
                 tbody.append(
 					'<tr>' +
 					'<td class="right">' + lbList.Entries[film].Order + '</td>' +
                     '<td><a href="https://boxd.it/' + lbList.Entries[film].LetterboxdIdentifier + '">' + lbList.Entries[film].FilmName + '</a></td>' +
                     '<td class="right">' + lbList.Entries[film].Year + '</td>' +
-                    '<td>' + (lbList.Entries[film].Rating > 0 ? '★'.repeat(lbList.Entries[film].Rating) : '&nbsp;') + '</td>' +
+					'<td style="line-height: 0.8em;vertical-align:middle">' + (lbList.Entries[film].Rating > 0 ? '★'.repeat(lbList.Entries[film].Rating) : '&nbsp;') + '</td>' +
+                    '<td>' + lang + '</td>' +
                     '</tr>');
 
 			}
@@ -316,11 +336,13 @@
                 sortReset: false,
                 sortRestart: false,
                 sortList: [[0, 0]],
-                headers: {
-                    0: { sortInitialOrder: 'asc' },
+				headers: {
+					0: { sorter: false },
                     1: { sortInitialOrder: 'asc' },
-                    2: { sortInitialOrder: 'desc' },
+                    2: { sortInitialOrder: 'asc' },
                     3: { sortInitialOrder: 'desc' },
+                    4: { sortInitialOrder: 'desc' },
+                    5: { sortInitialOrder: 'asc' },
                 }
             });
 

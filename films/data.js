@@ -1,5 +1,5 @@
 var data = {
-  "LastUpdated": "14 Aug 2024",
+  "LastUpdated": "16 Aug 2024",
   "Username": "LaLunaLlena",
   "TotalFilms": 895,
   "RatedFilms": 221,
@@ -10341,504 +10341,9 @@ var data = {
   },
   "Backdrops": [
     {
-      "ImageUrl": "/9Z4msMhKvNp63sOB1ZvxPMPvqz3.jpg",
-      "FilmName": "Idiocracy (2006)",
-      "LetterboxdId": "20RW"
-    },
-    {
-      "ImageUrl": "/enwPgakYeduofhVxvS2KGR0nIpm.jpg",
-      "FilmName": "Ingrid Goes West (2017)",
-      "LetterboxdId": "evUQ"
-    },
-    {
-      "ImageUrl": "/c6yfABGVKuB5cjoOwdX4AJMlzUz.jpg",
-      "FilmName": "Ghostbusters (1984)",
-      "LetterboxdId": "g2w"
-    },
-    {
-      "ImageUrl": "/50wg8UTLX7s5I6z4xJiYZmXZVLY.jpg",
-      "FilmName": "Hello Ladies: The Movie (2014)",
-      "LetterboxdId": "9FIg"
-    },
-    {
-      "ImageUrl": "/uUCij548JeREaZeWQ9HX4IlK8sE.jpg",
-      "FilmName": "The Rock (1996)",
-      "LetterboxdId": "1XM0"
-    },
-    {
-      "ImageUrl": "/vy13Ak7IQDzfwz4aMsjiTGfVUYb.jpg",
-      "FilmName": "Bully (2001)",
-      "LetterboxdId": "1Yu2"
-    },
-    {
-      "ImageUrl": "/n3pJwYuPnkw7JX7tOMbH0GRfBPn.jpg",
-      "FilmName": "Snow White and the Seven Dwarfs (1937)",
-      "LetterboxdId": "2arO"
-    },
-    {
-      "ImageUrl": "/kUa5p73cjzDXoqB6SKncfYKmMu2.jpg",
-      "FilmName": "Fish Tank (2009)",
-      "LetterboxdId": "1xBg"
-    },
-    {
-      "ImageUrl": "/39OxcFZjX4uc6vYzexUh5qXghxE.jpg",
-      "FilmName": "Hook (1991)",
-      "LetterboxdId": "29nQ"
-    },
-    {
-      "ImageUrl": "/8IFCWQ0fQEukqNY7LAljl7DuFZf.jpg",
-      "FilmName": "Air Force One (1997)",
-      "LetterboxdId": "1XQw"
-    },
-    {
-      "ImageUrl": "/wWaHCtC5VDZuzk5D85k3KRMcnYf.jpg",
-      "FilmName": "The Lost World: Jurassic Park (1997)",
-      "LetterboxdId": "2azS"
-    },
-    {
-      "ImageUrl": "/egK8OpGhJdoD3xzdiaQPiGEIyMw.jpg",
-      "FilmName": "Clue (1985)",
-      "LetterboxdId": "1MDQ"
-    },
-    {
-      "ImageUrl": "/iolXyYRoYtN5N9Qu4mCJixUwHrc.jpg",
-      "FilmName": "Sideways (2004)",
-      "LetterboxdId": "1Y5c"
-    },
-    {
-      "ImageUrl": "/3fChciF2G1wXHsyTfJD9y7uN6Il.jpg",
-      "FilmName": "Interview with the Vampire (1994)",
-      "LetterboxdId": "29XO"
-    },
-    {
-      "ImageUrl": "/b6ZJZHUdMEFECvGiDpJjlfUWela.jpg",
-      "FilmName": "Black Panther (2018)",
-      "LetterboxdId": "8MHs"
-    },
-    {
-      "ImageUrl": "/5Lbm0gpFDRAPIV1Cth6ln9iL1ou.jpg",
-      "FilmName": "Django Unchained (2012)",
-      "LetterboxdId": "2cCk"
-    },
-    {
-      "ImageUrl": "/o4mQHoP8LExn2Q9dn16OGqHvaiK.jpg",
-      "FilmName": "Bridge to Terabithia (2007)",
-      "LetterboxdId": "28YG"
-    },
-    {
-      "ImageUrl": "/vNXGrknx4GjWLgmuNTftWZluIUl.jpg",
-      "FilmName": "Whiplash (2014)",
-      "LetterboxdId": "7bQA"
-    },
-    {
-      "ImageUrl": "/bXH4lyFS6tctnBgxK1eYRuwekR0.jpg",
-      "FilmName": "Indiana Jones and the Kingdom of the Crystal Skull (2008)",
-      "LetterboxdId": "2aR8"
-    },
-    {
-      "ImageUrl": "/fNuvWg1Bb1SmNquQDAM6ekT3xX1.jpg",
-      "FilmName": "The Condemned (2007)",
-      "LetterboxdId": "1NGw"
-    },
-    {
-      "ImageUrl": "/gtDuUEprJkTIrzcO2vFsXgdkJ0R.jpg",
-      "FilmName": "Johnny English (2003)",
-      "LetterboxdId": "1YyI"
-    },
-    {
-      "ImageUrl": "/59CCw4EtiahW0E5cfTrvdbqPQTo.jpg",
-      "FilmName": "Sing (2016)",
-      "LetterboxdId": "b5EQ"
-    },
-    {
-      "ImageUrl": "/9uRp80Lse2a83apqb8uOTiaBpue.jpg",
-      "FilmName": "The Perfect Host (2010)",
-      "LetterboxdId": "8QI"
-    },
-    {
-      "ImageUrl": "/smkfmluUB2EhgpWAj27mbKlvYgQ.jpg",
-      "FilmName": "Hard Candy (2005)",
-      "LetterboxdId": "26vs"
-    },
-    {
-      "ImageUrl": "/wm8eyF38AekA9ZGT7TGeqHHk5OY.jpg",
-      "FilmName": "Carrie (1976)",
-      "LetterboxdId": "20ZQ"
-    },
-    {
-      "ImageUrl": "/ebPtSNrQ92Cgwje29WjvXKQbl9m.jpg",
-      "FilmName": "Weekend (2011)",
-      "LetterboxdId": "2Kzu"
-    },
-    {
-      "ImageUrl": "/5a7lMDn3nAj2ByO0X1fg6BhUphR.jpg",
-      "FilmName": "Ready Player One (2018)",
-      "LetterboxdId": "aZes"
-    },
-    {
-      "ImageUrl": "/vHU0SCIYTlHADel7AK8GYg2FAjZ.jpg",
-      "FilmName": "Wild Tales (2014)",
-      "LetterboxdId": "7UmK"
-    },
-    {
-      "ImageUrl": "/pp6RHy8glYVte8DrSkaTyDDFHVs.jpg",
-      "FilmName": "The Tribe (2014)",
-      "LetterboxdId": "8aqe"
-    },
-    {
-      "ImageUrl": "/gs9Z5cPauxH9Gml2kO6oUYwkTgK.jpg",
-      "FilmName": "The Diving Bell and the Butterfly (2007)",
-      "LetterboxdId": "27Di"
-    },
-    {
-      "ImageUrl": "/sXQ2hNInMjVnzP7hP5ZqmGvxTWq.jpg",
-      "FilmName": "Inside Man (2006)",
-      "LetterboxdId": "2auS"
-    },
-    {
-      "ImageUrl": "/fCoOG0eE7ct84pwymhvPlJmItqn.jpg",
-      "FilmName": "Sex and Breakfast (2005)",
-      "LetterboxdId": "1MUC"
-    },
-    {
-      "ImageUrl": "/f1a51iItLhHnGWs2btAQjlDIEPB.jpg",
-      "FilmName": "Mamma Mia! (2008)",
-      "LetterboxdId": "1Tnq"
-    },
-    {
-      "ImageUrl": "/rrDZljxZ0DSWVn6M5fkJwEOVOWn.jpg",
-      "FilmName": "Who Framed Roger Rabbit (1988)",
-      "LetterboxdId": "29ry"
-    },
-    {
-      "ImageUrl": "/5QRRdnMWtAeu8Zgje2Gdwuo7gd6.jpg",
-      "FilmName": "Scream 2 (1997)",
-      "LetterboxdId": "24Es"
-    },
-    {
-      "ImageUrl": "/iFPpb2KIWKwBfyqSJivE4JegFPP.jpg",
-      "FilmName": "Pinocchio (1940)",
-      "LetterboxdId": "1V8C"
-    },
-    {
-      "ImageUrl": "/bsU6KKTKhNYWfZNuUkGXWIFZiHe.jpg",
-      "FilmName": "Jackass 2.5 (2007)",
-      "LetterboxdId": "1OEw"
-    },
-    {
-      "ImageUrl": "/eCP3PAiu442zkJWczdLdvALePNK.jpg",
-      "FilmName": "Jackass Number Two (2006)",
-      "LetterboxdId": "1SyM"
-    },
-    {
-      "ImageUrl": "/7zN7m5jEyrNxFYm2EbQJAZwAG5i.jpg",
-      "FilmName": "The Hunt (2012)",
-      "LetterboxdId": "3wEC"
-    },
-    {
-      "ImageUrl": "/3lrNJ5jNqKq9UpQrXo8FNFzyoE4.jpg",
-      "FilmName": "Saw IV (2007)",
-      "LetterboxdId": "29Sa"
-    },
-    {
-      "ImageUrl": "/sPzjFWvrcabcn1SoAZJm2WuCcBD.jpg",
-      "FilmName": "Police Academy (1984)",
-      "LetterboxdId": "1YWg"
-    },
-    {
-      "ImageUrl": "/xLjgy6mjefWzNzMKxfwfrKgoVTq.jpg",
-      "FilmName": "Mrs. Doubtfire (1993)",
-      "LetterboxdId": "29Cw"
-    },
-    {
-      "ImageUrl": "/wW7Wt5bXzPy4VOEE4LTIUDyDgBo.jpg",
-      "FilmName": "Pirates of the Caribbean: The Curse of the Black Pearl (2003)",
-      "LetterboxdId": "70G"
-    },
-    {
-      "ImageUrl": "/lAgGMwtpxQryb9AgKZ5n3ygnbFR.jpg",
-      "FilmName": "Everything Beautiful Is Far Away (2017)",
-      "LetterboxdId": "gqjE"
-    },
-    {
-      "ImageUrl": "/m8HTWJJSZiypHtKoaio66Gy9G21.jpg",
-      "FilmName": "Bean (1997)",
-      "LetterboxdId": "28WA"
-    },
-    {
-      "ImageUrl": "/9Q8xRyPm8YRF9U2oiLlMNoPm627.jpg",
-      "FilmName": "La Belle Noiseuse (1991)",
-      "LetterboxdId": "1RxI"
-    },
-    {
-      "ImageUrl": "/2u7zbn8EudG6kLlBzUYqP8RyFU4.jpg",
-      "FilmName": "The Lord of the Rings: The Return of the King (2003)",
-      "LetterboxdId": "2b5u"
-    },
-    {
-      "ImageUrl": "/udcO3A9ch2z1LMSyC5aDNa00Sgg.jpg",
-      "FilmName": "The Dam Busters (1955)",
-      "LetterboxdId": "1QAc"
-    },
-    {
-      "ImageUrl": "/yrjFk8OVnwOQ5qUxbHZJYobxQra.jpg",
-      "FilmName": "Addams Family Values (1993)",
-      "LetterboxdId": "26mq"
-    },
-    {
-      "ImageUrl": "/1ckHUJ6ztq5XJRKM2nIAW0UjJNH.jpg",
-      "FilmName": "Eastern Promises (2007)",
-      "LetterboxdId": "275q"
-    },
-    {
-      "ImageUrl": "/7Q1SGTuIDkTnKRonEhmYUefQP79.jpg",
-      "FilmName": "Harold \u0026 Kumar Escape from Guantanamo Bay (2008)",
-      "LetterboxdId": "1QoU"
-    },
-    {
-      "ImageUrl": "/hYQESwiI004tSkKGSWgW2P1uc0A.jpg",
-      "FilmName": "Johnny English Reborn (2011)",
-      "LetterboxdId": "kQq"
-    },
-    {
-      "ImageUrl": "/grRV8O63Ee3e6NmFO2SqQfqV2nT.jpg",
-      "FilmName": "Downfall (2004)",
-      "LetterboxdId": "2a04"
-    },
-    {
-      "ImageUrl": "/a7EWj5nG4jWpdDjtFvDUTxUeXQZ.jpg",
-      "FilmName": "Thoroughbreds (2017)",
-      "LetterboxdId": "dVHQ"
-    },
-    {
-      "ImageUrl": "/yr5SDUn21j124pQDyr0B9Zsu4Ks.jpg",
-      "FilmName": "Me and Orson Welles (2008)",
-      "LetterboxdId": "1S3O"
-    },
-    {
-      "ImageUrl": "/t31mKP1dIzUiy0yapCje0vdf2ZY.jpg",
-      "FilmName": "25th Hour (2002)",
-      "LetterboxdId": "28LC"
-    },
-    {
-      "ImageUrl": "/n8zvKDOUy4JwIzQArjoVBhVaPDp.jpg",
-      "FilmName": "Martyrs (2008)",
-      "LetterboxdId": "1Yqu"
-    },
-    {
-      "ImageUrl": "/v85FlkbMYKa5du1glm0YfYNsL2n.jpg",
-      "FilmName": "CODA (2021)",
-      "LetterboxdId": "tbf4"
-    },
-    {
-      "ImageUrl": "/yaI572p8048aC0dP2oPQ32q5yrz.jpg",
-      "FilmName": "No Time to Die (2021)",
-      "LetterboxdId": "cPX2"
-    },
-    {
-      "ImageUrl": "/6b1dUAKrZZDpgWmpUshKyJNgS8g.jpg",
-      "FilmName": "Live Free or Die Hard (2007)",
-      "LetterboxdId": "28zQ"
-    },
-    {
-      "ImageUrl": "/bqFO92d1idNAI4OOncUrduz2YoA.jpg",
-      "FilmName": "Hackers (1995)",
-      "LetterboxdId": "1WhU"
-    },
-    {
-      "ImageUrl": "/aNgiRVe7fDrrxsfWzPh6fN1V39R.jpg",
-      "FilmName": "Imagine Me \u0026 You (2005)",
-      "LetterboxdId": "28E2"
-    },
-    {
-      "ImageUrl": "/gRwV0yUzn0bunG8norDSNoyQAkg.jpg",
-      "FilmName": "Birds Without Feathers (2018)",
-      "LetterboxdId": "i2d2"
-    },
-    {
-      "ImageUrl": "/yuXZXuS4RCTnCYScrRWBCNz2ywB.jpg",
-      "FilmName": "Petite maman (2021)",
-      "LetterboxdId": "s6je"
-    },
-    {
-      "ImageUrl": "/nevS6wjzCxZESvmjJZqdyZ3RNQ6.jpg",
-      "FilmName": "The Big Lebowski (1998)",
-      "LetterboxdId": "2b6C"
-    },
-    {
-      "ImageUrl": "/3nYlM34QhzdtAvWRV5bN4nLtnTc.jpg",
-      "FilmName": "Jaws (1975)",
-      "LetterboxdId": "2a5e"
-    },
-    {
-      "ImageUrl": "/9w8jSvBN745BdgcB7VOz4AwsQAj.jpg",
-      "FilmName": "Magic Mike XXL (2015)",
-      "LetterboxdId": "7TTS"
-    },
-    {
-      "ImageUrl": "/sir7e8E4R6lAamzIf471BgnJ7PV.jpg",
-      "FilmName": "Frequency (2000)",
-      "LetterboxdId": "1VXA"
-    },
-    {
-      "ImageUrl": "/iPt0HhkT4RXM5LjfXtbGsLXNUbk.jpg",
-      "FilmName": "Tyrannosaur (2011)",
-      "LetterboxdId": "2DUA"
-    },
-    {
-      "ImageUrl": "/oIQMt3Q6Qa37YD0JOdYkrIAPYDk.jpg",
-      "FilmName": "Come and See (1985)",
-      "LetterboxdId": "1w9q"
-    },
-    {
-      "ImageUrl": "/nBHKT3pm5DmidZd5VS4bD5Hc2S3.jpg",
-      "FilmName": "Downton Abbey: A New Era (2022)",
-      "LetterboxdId": "uUHk"
-    },
-    {
-      "ImageUrl": "/knk3sl4aJLtKY8jV5ADJ4oZxijF.jpg",
-      "FilmName": "National Treasure: Book of Secrets (2007)",
-      "LetterboxdId": "21rq"
-    },
-    {
-      "ImageUrl": "/hEnyo81ZaxfC46xjOdLI9oF0hgN.jpg",
-      "FilmName": "M\u00E4dchen in Uniform (1931)",
-      "LetterboxdId": "1Y8g"
-    },
-    {
-      "ImageUrl": "/bGksau9GGu0uJ8DJQ8DYc9JW5LM.jpg",
-      "FilmName": "The Intouchables (2011)",
-      "LetterboxdId": "2FT0"
-    },
-    {
-      "ImageUrl": "/1wZoVT9RJsZmNjg8CecXqSgFUd9.jpg",
-      "FilmName": "Slumdog Millionaire (2008)",
-      "LetterboxdId": "1S3E"
-    },
-    {
-      "ImageUrl": "/3ZKyx25IN4D91SjPkvoHoGZxEWG.jpg",
-      "FilmName": "The Trip (2010)",
-      "LetterboxdId": "6Bc"
-    },
-    {
-      "ImageUrl": "/km8dM4ppakS5KUXl3TgtpTRgbBX.jpg",
-      "FilmName": "Night of the Living Dead (1968)",
-      "LetterboxdId": "1WwA"
-    },
-    {
-      "ImageUrl": "/n0LDZHQJ67GZ3rX68juko8kGgDN.jpg",
-      "FilmName": "King of California (2007)",
-      "LetterboxdId": "22Hu"
-    },
-    {
-      "ImageUrl": "/jhM3wgWUrrOkz9r4xwV5cV5RhI4.jpg",
-      "FilmName": "District 9 (2009)",
-      "LetterboxdId": "1Iik"
-    },
-    {
-      "ImageUrl": "/xXWT0je8dTFFNBq6P2CeTZkPUu2.jpg",
-      "FilmName": "National Treasure (2004)",
-      "LetterboxdId": "27x0"
-    },
-    {
-      "ImageUrl": "/5uIttXZuJ1g3eXJ6yc3Obrd3G3a.jpg",
-      "FilmName": "Poor Things (2023)",
-      "LetterboxdId": "tNWU"
-    },
-    {
-      "ImageUrl": "/nofXR1TN1vgGjdfnwGQwFaAWBaY.jpg",
-      "FilmName": "La La Land (2016)",
-      "LetterboxdId": "a5fa"
-    },
-    {
-      "ImageUrl": "/i51wnN9phojyn14xHjQt6rv1r0x.jpg",
-      "FilmName": "The Lighthouse (2019)",
-      "LetterboxdId": "icFU"
-    },
-    {
-      "ImageUrl": "/oMiKHO3H5RixfLsiU5Vumhlp5sj.jpg",
-      "FilmName": "Love Lies Bleeding (2024)",
-      "LetterboxdId": "zN4q"
-    },
-    {
-      "ImageUrl": "/f2Gdaux9j6FF39oNj0Cpfooje4m.jpg",
-      "FilmName": "Thank You for Smoking (2005)",
-      "LetterboxdId": "1YOc"
-    },
-    {
-      "ImageUrl": "/9BGXirs3ckSnOO9aHxpaomGhWAe.jpg",
-      "FilmName": "Brokeback Mountain (2005)",
-      "LetterboxdId": "2b2q"
-    },
-    {
-      "ImageUrl": "/tStWxov12DsfOJZEzvRQermG7OQ.jpg",
-      "FilmName": "Up in the Air (2009)",
-      "LetterboxdId": "1zPY"
-    },
-    {
-      "ImageUrl": "/xbk4yCvG9k6Z5gfPqcNM5DG6x3d.jpg",
-      "FilmName": "Trainspotting (1996)",
-      "LetterboxdId": "29XY"
-    },
-    {
-      "ImageUrl": "/p0xrc888nqw8xX9b5egxaoBZJki.jpg",
-      "FilmName": "Dad's Army (1971)",
-      "LetterboxdId": "1E8U"
-    },
-    {
-      "ImageUrl": "/kt0Ku4cTQUZe4KyZiWC6HsWCbcS.jpg",
-      "FilmName": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan (2006)",
-      "LetterboxdId": "2agQ"
-    },
-    {
-      "ImageUrl": "/uQh0DbSDT5XNlxzLTKvYV1c2Iq4.jpg",
-      "FilmName": "Fern Brady: Autistic Bikini Queen (2024)",
-      "LetterboxdId": "MdR8"
-    },
-    {
-      "ImageUrl": "/6JDjZdFckZyMYgtawDwUb6HTwVp.jpg",
-      "FilmName": "Spring, Summer, Fall, Winter... and Spring (2003)",
-      "LetterboxdId": "2b6W"
-    },
-    {
-      "ImageUrl": "/avedvodAZUcwqevBfm8p4G2NziQ.jpg",
-      "FilmName": "The Shawshank Redemption (1994)",
-      "LetterboxdId": "2aHi"
-    },
-    {
-      "ImageUrl": "/6RKerDMx2wYzuUdpyXKQZAqhi4u.jpg",
-      "FilmName": "Falling Down (1993)",
-      "LetterboxdId": "194M"
-    },
-    {
-      "ImageUrl": "/mQoSPZ8LR8d1ExCLWlcp8dlI78G.jpg",
-      "FilmName": "This Is Spinal Tap (1984)",
-      "LetterboxdId": "1UOs"
-    },
-    {
-      "ImageUrl": "/mvUAo9ACgmLpS4Ofc2IwD4n7WCt.jpg",
-      "FilmName": "Moon (2009)",
-      "LetterboxdId": "1IGQ"
-    },
-    {
-      "ImageUrl": "/3Le4bZybmLinQp7m7KDP4LKngV4.jpg",
-      "FilmName": "The Impossible (2012)",
-      "LetterboxdId": "2N9k"
-    },
-    {
-      "ImageUrl": "/pUKIUdLMHvPkCs5pQeB2TFhPSYM.jpg",
-      "FilmName": "Room (2015)",
-      "LetterboxdId": "7T0y"
-    },
-    {
-      "ImageUrl": "/f4ZgIaMpOWd6rewhCfoIIMqWquh.jpg",
-      "FilmName": "But I'm a Cheerleader (1999)",
-      "LetterboxdId": "1CW4"
-    },
-    {
-      "ImageUrl": "/57cjCSZiyBN7ME3N9Cp1s85rE2i.jpg",
-      "FilmName": "The Barkley Marathons: The Race That Eats Its Young (2014)",
-      "LetterboxdId": "b2ck"
+      "ImageUrl": "/zb6fM1CX41D9rF9hdgclu0peUmy.jpg",
+      "FilmName": "Schindler's List (1993)",
+      "LetterboxdId": "2aq2"
     }
   ],
   "Lists": [
@@ -10850,6 +10355,7 @@ var data = {
           "FilmName": "Portrait of a Lady on Fire",
           "Year": 2019,
           "LetterboxdIdentifier": "jkPq",
+          "PrimaryLanguage": "French",
           "PosterUrl": "/2LquGwEhbg3soxSCs9VNyh5VJd9.jpg",
           "Rating": 5
         },
@@ -10858,6 +10364,7 @@ var data = {
           "FilmName": "The Royal Hotel",
           "Year": 2023,
           "LetterboxdIdentifier": "zEvs",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/oJwb2PV1LGxDp6Q3lynrjADxOIv.jpg",
           "Rating": 2
         },
@@ -10866,6 +10373,7 @@ var data = {
           "FilmName": "Lars and the Real Girl",
           "Year": 2007,
           "LetterboxdIdentifier": "21tG",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/nkAt4a7KIPc7Fi1BhxNHhYYbe2b.jpg",
           "Rating": 4
         },
@@ -10874,6 +10382,7 @@ var data = {
           "FilmName": "The Exorcist",
           "Year": 1973,
           "LetterboxdIdentifier": "1Yoo",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
           "Rating": 3
         },
@@ -10882,6 +10391,7 @@ var data = {
           "FilmName": "Room",
           "Year": 2015,
           "LetterboxdIdentifier": "7T0y",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/dIxoYFcj6EqD5KScuU8lWCftnvH.jpg",
           "Rating": 5
         },
@@ -10890,6 +10400,7 @@ var data = {
           "FilmName": "The Holdovers",
           "Year": 2023,
           "LetterboxdIdentifier": "vHza",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/VHSzNBTwxV8vh7wylo7O9CLdac.jpg",
           "Rating": 2
         },
@@ -10898,6 +10409,7 @@ var data = {
           "FilmName": "Three Billboards Outside Ebbing, Missouri",
           "Year": 2017,
           "LetterboxdIdentifier": "ceBS",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/pZRhqJj0DBy4ghB7g6pU7MGHsWJ.jpg",
           "Rating": 4
         },
@@ -10906,6 +10418,7 @@ var data = {
           "FilmName": "Dancer in the Dark",
           "Year": 2000,
           "LetterboxdIdentifier": "71E",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/8Wdd3fQfbbQeoSfWpHrDfaFNhBU.jpg",
           "Rating": 4
         },
@@ -10914,6 +10427,7 @@ var data = {
           "FilmName": "Lilya 4-ever",
           "Year": 2002,
           "LetterboxdIdentifier": "1SyW",
+          "PrimaryLanguage": "Swedish",
           "PosterUrl": "/5i1uhvcdv2Iogx0Bb1znvUmkCvN.jpg",
           "Rating": 4
         },
@@ -10922,6 +10436,7 @@ var data = {
           "FilmName": "The Banshees of Inisherin",
           "Year": 2022,
           "LetterboxdIdentifier": "p7XS",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/4yFG6cSPaCaPhyJ1vtGOtMD1lgh.jpg",
           "Rating": 4
         },
@@ -10930,6 +10445,7 @@ var data = {
           "FilmName": "La Belle Noiseuse",
           "Year": 1991,
           "LetterboxdIdentifier": "1RxI",
+          "PrimaryLanguage": "French",
           "PosterUrl": "/n6f7I9RUdoDa9AgM9X2oAc3pk4l.jpg",
           "Rating": 3
         },
@@ -10938,6 +10454,7 @@ var data = {
           "FilmName": "All of Us Strangers",
           "Year": 2023,
           "LetterboxdIdentifier": "Bz3C",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/aviJMFZSnnCAsCVyJGaPNx4Ef3i.jpg",
           "Rating": 5
         },
@@ -10946,6 +10463,7 @@ var data = {
           "FilmName": "The Help",
           "Year": 2011,
           "LetterboxdIdentifier": "EDm",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/7XLSwxpfpPoJyTdJVot6a42TS2V.jpg",
           "Rating": 5
         },
@@ -10954,6 +10472,7 @@ var data = {
           "FilmName": "Saltburn",
           "Year": 2023,
           "LetterboxdIdentifier": "z4eg",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/zGTfMwG112BC66mpaveVxoWPOaB.jpg",
           "Rating": 4
         },
@@ -10962,6 +10481,7 @@ var data = {
           "FilmName": "Fargo",
           "Year": 1996,
           "LetterboxdIdentifier": "2aHM",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/rt7cpEr1uP6RTZykBFhBTcRaKvG.jpg",
           "Rating": 4
         },
@@ -10970,6 +10490,7 @@ var data = {
           "FilmName": "The Devil Wears Prada",
           "Year": 2006,
           "LetterboxdIdentifier": "2awE",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/8912AsVuS7Sj915apArUFbv6F9L.jpg",
           "Rating": 2
         },
@@ -10978,6 +10499,7 @@ var data = {
           "FilmName": "Poor Things",
           "Year": 2023,
           "LetterboxdIdentifier": "tNWU",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg",
           "Rating": 5
         },
@@ -10986,6 +10508,7 @@ var data = {
           "FilmName": "The Revenant",
           "Year": 2015,
           "LetterboxdIdentifier": "8H5e",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/tSaBkriE7TpbjFoQUFXuikoz0dF.jpg",
           "Rating": 4
         },
@@ -10994,6 +10517,7 @@ var data = {
           "FilmName": "Blue Jean",
           "Year": 2022,
           "LetterboxdIdentifier": "AHhg",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/8kzhsiL340IDeaAuEz4RfiFilgf.jpg",
           "Rating": 3
         },
@@ -11002,6 +10526,7 @@ var data = {
           "FilmName": "Misery",
           "Year": 1990,
           "LetterboxdIdentifier": "28gY",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/23Y65uWaVMpqfbZTN3CT0aei4D5.jpg",
           "Rating": 5
         },
@@ -11010,6 +10535,7 @@ var data = {
           "FilmName": "CODA",
           "Year": 2021,
           "LetterboxdIdentifier": "tbf4",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/ilZ9Sa24Hv9aErG22fRbGsMUVfA.jpg",
           "Rating": 4
         },
@@ -11018,6 +10544,7 @@ var data = {
           "FilmName": "Past Lives",
           "Year": 2023,
           "LetterboxdIdentifier": "oNB8",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/rzO71VFu7CpJMfF5TQNMj0d1lSV.jpg",
           "Rating": 5
         },
@@ -11026,6 +10553,7 @@ var data = {
           "FilmName": "Black Swan",
           "Year": 2010,
           "LetterboxdIdentifier": "Sw0",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/rH19vkjAzCZ0HIUvrgB3rowm68h.jpg",
           "Rating": 4
         },
@@ -11034,6 +10562,7 @@ var data = {
           "FilmName": "Carol",
           "Year": 2015,
           "LetterboxdIdentifier": "7DPK",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/cJeled7EyPdur6TnCA5GYg0UVna.jpg",
           "Rating": 4
         },
@@ -11042,6 +10571,7 @@ var data = {
           "FilmName": "Zombieland",
           "Year": 2009,
           "LetterboxdIdentifier": "1En6",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/dUkAmAyPVqubSBNRjRqCgHggZcK.jpg",
           "Rating": 3
         },
@@ -11050,6 +10580,7 @@ var data = {
           "FilmName": "House of Wax",
           "Year": 1953,
           "LetterboxdIdentifier": "1GGE",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/5Di30K5NzAtYMjBSAABwgZHV0Ro.jpg",
           "Rating": 2
         },
@@ -11058,6 +10589,7 @@ var data = {
           "FilmName": "M\u00E4dchen in Uniform",
           "Year": 1931,
           "LetterboxdIdentifier": "1Y8g",
+          "PrimaryLanguage": "German",
           "PosterUrl": "/vo6IMpAYWs8hS19OCvYXe8nhSdJ.jpg",
           "Rating": 4
         },
@@ -11066,6 +10598,7 @@ var data = {
           "FilmName": "Scoop",
           "Year": 2024,
           "LetterboxdIdentifier": "EZu6",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/oHPyHwDgFt1X40ovAJLST76Om2R.jpg",
           "Rating": 2
         },
@@ -11074,6 +10607,7 @@ var data = {
           "FilmName": "The Quiet Girl",
           "Year": 2022,
           "LetterboxdIdentifier": "yvgm",
+          "PrimaryLanguage": "Irish",
           "PosterUrl": "/6Njyz53N417cgxE0d7cBEWHUEjc.jpg",
           "Rating": 5
         },
@@ -11082,6 +10616,7 @@ var data = {
           "FilmName": "Electrick Children",
           "Year": 2012,
           "LetterboxdIdentifier": "39sy",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/lWszypKqAt91GFtRP2HyUP6UdOq.jpg",
           "Rating": 3
         },
@@ -11090,6 +10625,7 @@ var data = {
           "FilmName": "Mean Girls",
           "Year": 2004,
           "LetterboxdIdentifier": "1VNg",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/fXm3YKXAEjx7d2tIWDg9TfRZtsU.jpg",
           "Rating": 5
         },
@@ -11098,6 +10634,7 @@ var data = {
           "FilmName": "Tyrannosaur",
           "Year": 2011,
           "LetterboxdIdentifier": "2DUA",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/p6PJGuO6K94YylUcAsTTn7Q4cQn.jpg",
           "Rating": 3
         },
@@ -11106,6 +10643,7 @@ var data = {
           "FilmName": "Aftersun",
           "Year": 2022,
           "LetterboxdIdentifier": "Arw0",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/evKz85EKouVbIr51zy5fOtpNRPg.jpg",
           "Rating": 4
         },
@@ -11114,6 +10652,7 @@ var data = {
           "FilmName": "Fifty Shades of Grey",
           "Year": 2015,
           "LetterboxdIdentifier": "6qLo",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/63kGofUkt1Mx0SIL4XI4Z5AoSgt.jpg",
           "Rating": 1
         },
@@ -11122,6 +10661,7 @@ var data = {
           "FilmName": "Pearl",
           "Year": 2022,
           "LetterboxdIdentifier": "zPbe",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/ulBLIBqvdnf4H6JBt0OpMCU1ECn.jpg",
           "Rating": 4
         },
@@ -11130,6 +10670,7 @@ var data = {
           "FilmName": "Spring, Summer, Fall, Winter... and Spring",
           "Year": 2003,
           "LetterboxdIdentifier": "2b6W",
+          "PrimaryLanguage": "Korean",
           "PosterUrl": "/6SQQ5REuAz7k0FMQ9mSCT40T2LN.jpg",
           "Rating": 4
         },
@@ -11138,6 +10679,7 @@ var data = {
           "FilmName": "Love Lies Bleeding",
           "Year": 2024,
           "LetterboxdIdentifier": "zN4q",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/p7jyFWiLyHPttqYBFAlLJwtYTYH.jpg",
           "Rating": 4
         },
@@ -11146,6 +10688,7 @@ var data = {
           "FilmName": "But I'm a Cheerleader",
           "Year": 1999,
           "LetterboxdIdentifier": "1CW4",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/zC3BaoHJsrIeqOg4eZolNszsTej.jpg",
           "Rating": 4
         },
@@ -11154,6 +10697,7 @@ var data = {
           "FilmName": "All Is Lost",
           "Year": 2013,
           "LetterboxdIdentifier": "4OgK",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/9cVA4oX2xHgiglv6hemxwAaofsq.jpg",
           "Rating": 3
         },
@@ -11162,6 +10706,7 @@ var data = {
           "FilmName": "The Lobster",
           "Year": 2015,
           "LetterboxdIdentifier": "7tnw",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/7Y9ILV1unpW9mLpGcqyGQU72LUy.jpg",
           "Rating": 4
         },
@@ -11170,6 +10715,7 @@ var data = {
           "FilmName": "Gifted",
           "Year": 2017,
           "LetterboxdIdentifier": "e5dG",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/7YB2YrMwIm1g8FyZtlvmVDfRnAT.jpg",
           "Rating": 4
         },
@@ -11178,6 +10724,7 @@ var data = {
           "FilmName": "Whiplash",
           "Year": 2014,
           "LetterboxdIdentifier": "7bQA",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
           "Rating": 5
         },
@@ -11186,6 +10733,7 @@ var data = {
           "FilmName": "Sicario",
           "Year": 2015,
           "LetterboxdIdentifier": "8i7u",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/lz8vNyXeidqqOdJW9ZjnDAMb5Vr.jpg",
           "Rating": 2
         },
@@ -11194,6 +10742,7 @@ var data = {
           "FilmName": "Perfect Days",
           "Year": 2023,
           "LetterboxdIdentifier": "ATh8",
+          "PrimaryLanguage": "Japanese",
           "PosterUrl": "/tvUHVSTJV9ITON3oyHaWp7oaAc8.jpg",
           "Rating": 4
         },
@@ -11202,6 +10751,7 @@ var data = {
           "FilmName": "Jojo Rabbit",
           "Year": 2019,
           "LetterboxdIdentifier": "iEBG",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/7GsM4mtM0worCtIVeiQt28HieeN.jpg",
           "Rating": 3
         },
@@ -11210,6 +10760,7 @@ var data = {
           "FilmName": "The Silence of the Lambs",
           "Year": 1991,
           "LetterboxdIdentifier": "2aHW",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
           "Rating": 5
         },
@@ -11218,6 +10769,7 @@ var data = {
           "FilmName": "Perfect Strangers",
           "Year": 2016,
           "LetterboxdIdentifier": "dgVi",
+          "PrimaryLanguage": "Italian",
           "PosterUrl": "/j7dkRtff8xTV7xDDNbgqstb46fv.jpg",
           "Rating": 3
         },
@@ -11226,6 +10778,7 @@ var data = {
           "FilmName": "The Piano Teacher",
           "Year": 2001,
           "LetterboxdIdentifier": "2886",
+          "PrimaryLanguage": "French",
           "PosterUrl": "/gNHKYQnP1RnqEhkivHJzBPb4MOP.jpg",
           "Rating": 2
         },
@@ -11234,6 +10787,7 @@ var data = {
           "FilmName": "Challengers",
           "Year": 2024,
           "LetterboxdIdentifier": "zld0",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/H6vke7zGiuLsz4v4RPeReb9rsv.jpg",
           "Rating": 4
         },
@@ -11242,6 +10796,7 @@ var data = {
           "FilmName": "Marriage Story",
           "Year": 2019,
           "LetterboxdIdentifier": "hJAw",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/2JRyCKaRKyJAVpsIHeLvPw5nHmw.jpg",
           "Rating": 4
         },
@@ -11250,6 +10805,7 @@ var data = {
           "FilmName": "Martyrs",
           "Year": 2008,
           "LetterboxdIdentifier": "1Yqu",
+          "PrimaryLanguage": "French",
           "PosterUrl": "/5kymocKK0SfyEEV0ohNEBz1lxNx.jpg",
           "Rating": 3
         },
@@ -11258,6 +10814,7 @@ var data = {
           "FilmName": "Secrets \u0026 Lies",
           "Year": 1996,
           "LetterboxdIdentifier": "1UuC",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/zQBuRQ3hrLhkEsXcxteUxuxLrvs.jpg",
           "Rating": 4
         },
@@ -11266,6 +10823,7 @@ var data = {
           "FilmName": "Run Lola Run",
           "Year": 1998,
           "LetterboxdIdentifier": "2b8o",
+          "PrimaryLanguage": "German",
           "PosterUrl": "/v0giIi4bTILVhNhJajet3WWY3FA.jpg",
           "Rating": 3
         },
@@ -11274,6 +10832,7 @@ var data = {
           "FilmName": "Crash",
           "Year": 1996,
           "LetterboxdIdentifier": "29n2",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/gpai5oUFyFGLHOCsYTvVMqlbY7A.jpg",
           "Rating": 2
         },
@@ -11282,6 +10841,7 @@ var data = {
           "FilmName": "Eternal Sunshine of the Spotless Mind",
           "Year": 2004,
           "LetterboxdIdentifier": "6YK",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg",
           "Rating": 4
         },
@@ -11290,6 +10850,7 @@ var data = {
           "FilmName": "Eighth Grade",
           "Year": 2018,
           "LetterboxdIdentifier": "hDMG",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/xTa9cLhGHfQ7084UvoPQ2bBXKqd.jpg",
           "Rating": 3
         },
@@ -11298,6 +10859,7 @@ var data = {
           "FilmName": "20 Days in Mariupol",
           "Year": 2023,
           "LetterboxdIdentifier": "E32S",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/zIRp1IeuPh4GgqFCH3y0DQuY9xP.jpg",
           "Rating": 5
         },
@@ -11306,6 +10868,7 @@ var data = {
           "FilmName": "The Handmaiden",
           "Year": 2016,
           "LetterboxdIdentifier": "948A",
+          "PrimaryLanguage": "Korean",
           "PosterUrl": "/dLlH4aNHdnmf62umnInL8xPlPzw.jpg",
           "Rating": 4
         },
@@ -11314,6 +10877,7 @@ var data = {
           "FilmName": "Weekend",
           "Year": 2011,
           "LetterboxdIdentifier": "2Kzu",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/s52Q4kifhz1nKlgaHGee74KzZw9.jpg",
           "Rating": 4
         },
@@ -11322,6 +10886,7 @@ var data = {
           "FilmName": "The Neon Demon",
           "Year": 2016,
           "LetterboxdIdentifier": "9AnW",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/d93h9dHIez9zRg4ooG6o1ZiQ776.jpg",
           "Rating": 3
         },
@@ -11330,6 +10895,7 @@ var data = {
           "FilmName": "My First Summer",
           "Year": 2020,
           "LetterboxdIdentifier": "rOjg",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/7GBMVO09clB7HUgfqbjZmOVAPOi.jpg",
           "Rating": 4
         },
@@ -11338,6 +10904,7 @@ var data = {
           "FilmName": "Persona",
           "Year": 1966,
           "LetterboxdIdentifier": "29B4",
+          "PrimaryLanguage": "Swedish",
           "PosterUrl": "/cl0HEZT8UfzLqaMrYTvGNHOfPYj.jpg",
           "Rating": 4
         },
@@ -11346,6 +10913,7 @@ var data = {
           "FilmName": "Neighbours",
           "Year": 1952,
           "LetterboxdIdentifier": "BtS",
+          "PrimaryLanguage": "",
           "PosterUrl": "/ccpiARQxBBWaL2Ik8ke9yjq7qrM.jpg",
           "Rating": 2
         },
@@ -11354,6 +10922,7 @@ var data = {
           "FilmName": "Everything Beautiful Is Far Away",
           "Year": 2017,
           "LetterboxdIdentifier": "gqjE",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/71KHPoAOTeOiIpgelNkXCwSkU5p.jpg",
           "Rating": 4
         },
@@ -11362,6 +10931,7 @@ var data = {
           "FilmName": "When Bj\u00F6rk Met Attenborough",
           "Year": 2013,
           "LetterboxdIdentifier": "6nPs",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/vvVKPkLpiifnlY9FIPzocNu9O1Q.jpg",
           "Rating": 4
         },
@@ -11370,6 +10940,7 @@ var data = {
           "FilmName": "Shiva Baby",
           "Year": 2020,
           "LetterboxdIdentifier": "oIv0",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/4sdqVsT6SHqtbCYZS7bhVoEftlL.jpg",
           "Rating": 3
         },
@@ -11378,6 +10949,7 @@ var data = {
           "FilmName": "Final Cut: Ladies and Gentlemen",
           "Year": 2012,
           "LetterboxdIdentifier": "491E",
+          "PrimaryLanguage": "Hungarian",
           "PosterUrl": "/eoMO14iZVBTILw1BppQu6ZHaJdA.jpg",
           "Rating": 3
         },
@@ -11386,6 +10958,7 @@ var data = {
           "FilmName": "Ever",
           "Year": 2014,
           "LetterboxdIdentifier": "8240",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/hl5Bq1CBreUi4COb78euSBLOgSK.jpg",
           "Rating": 3
         },
@@ -11394,6 +10967,7 @@ var data = {
           "FilmName": "Funeral Parade of Roses",
           "Year": 1969,
           "LetterboxdIdentifier": "28Cg",
+          "PrimaryLanguage": "Japanese",
           "PosterUrl": "/7cRQ6rSGajW2soWDr3voEN2rgYO.jpg",
           "Rating": 5
         },
@@ -11402,6 +10976,7 @@ var data = {
           "FilmName": "Bottoms",
           "Year": 2023,
           "LetterboxdIdentifier": "uGf2",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/jeyTQrNEpyE1LZIgVlswYh3sc34.jpg",
           "Rating": 3
         },
@@ -11410,6 +10985,7 @@ var data = {
           "FilmName": "The Shape of Water",
           "Year": 2017,
           "LetterboxdIdentifier": "dZ5m",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/9zfwPffUXpBrEP26yp0q1ckXDcj.jpg",
           "Rating": 5
         },
@@ -11418,6 +10994,7 @@ var data = {
           "FilmName": "A Trip to the Moon",
           "Year": 1902,
           "LetterboxdIdentifier": "29EC",
+          "PrimaryLanguage": "",
           "PosterUrl": "/9o0v5LLFk51nyTBHZSre6OB37n2.jpg",
           "Rating": 4
         },
@@ -11426,6 +11003,7 @@ var data = {
           "FilmName": "Furiosa: A Mad Max Saga",
           "Year": 2024,
           "LetterboxdIdentifier": "tABk",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
           "Rating": 4
         },
@@ -11434,6 +11012,7 @@ var data = {
           "FilmName": "The Tribe",
           "Year": 2014,
           "LetterboxdIdentifier": "8aqe",
+          "PrimaryLanguage": "",
           "PosterUrl": "/l9lGBjfSIMql3JisiDBMTIzOGck.jpg",
           "Rating": 1
         },
@@ -11442,6 +11021,7 @@ var data = {
           "FilmName": "Tomboy",
           "Year": 2011,
           "LetterboxdIdentifier": "49U",
+          "PrimaryLanguage": "French",
           "PosterUrl": "/plEV1Q5u5caYASlG3pq3ON7acN7.jpg",
           "Rating": 3
         },
@@ -11450,6 +11030,7 @@ var data = {
           "FilmName": "Water Lilies",
           "Year": 2007,
           "LetterboxdIdentifier": "1VjK",
+          "PrimaryLanguage": "French",
           "PosterUrl": "/oNrs9disgGDtOORToDt5dIqYFBi.jpg",
           "Rating": 4
         },
@@ -11458,6 +11039,7 @@ var data = {
           "FilmName": "The Fly",
           "Year": 1986,
           "LetterboxdIdentifier": "1YIe",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/8gZWMhJHRvaXdXsNhERtqNHYpH3.jpg",
           "Rating": 4
         },
@@ -11466,6 +11048,7 @@ var data = {
           "FilmName": "The Invisible Man",
           "Year": 1933,
           "LetterboxdIdentifier": "1VoK",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/a8WoUk92OLHnU5sODmdGaOi5iaH.jpg",
           "Rating": 3
         },
@@ -11474,6 +11057,7 @@ var data = {
           "FilmName": "Tropico",
           "Year": 2013,
           "LetterboxdIdentifier": "760u",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/71T5V5yRn5TD5q0L7BrhTodcf1K.jpg",
           "Rating": 4
         },
@@ -11482,6 +11066,7 @@ var data = {
           "FilmName": "Swimming",
           "Year": 2000,
           "LetterboxdIdentifier": "3E06",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/weFuIrqz2WNUBsidca5ql2DmkAY.jpg",
           "Rating": 2
         },
@@ -11490,6 +11075,7 @@ var data = {
           "FilmName": "Society of the Snow",
           "Year": 2023,
           "LetterboxdIdentifier": "y9aw",
+          "PrimaryLanguage": "Spanish",
           "PosterUrl": "/2e853FDVSIso600RqAMunPxiZjq.jpg",
           "Rating": 5
         },
@@ -11498,6 +11084,7 @@ var data = {
           "FilmName": "Grandma",
           "Year": 2015,
           "LetterboxdIdentifier": "9V00",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/4LW20TF4NfQgHj5rZs0d0cgxRjV.jpg",
           "Rating": 3
         },
@@ -11506,6 +11093,7 @@ var data = {
           "FilmName": "The Witch",
           "Year": 2015,
           "LetterboxdIdentifier": "9X0m",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/zap5hpFCWSvdWSuPGAQyjUv2wAC.jpg",
           "Rating": 4
         },
@@ -11514,6 +11102,7 @@ var data = {
           "FilmName": "Fat Girl",
           "Year": 2001,
           "LetterboxdIdentifier": "2a6w",
+          "PrimaryLanguage": "French",
           "PosterUrl": "/afzbY1h7huuxlITigPfcyQSkqLs.jpg",
           "Rating": 1
         },
@@ -11522,6 +11111,7 @@ var data = {
           "FilmName": "Close",
           "Year": 2022,
           "LetterboxdIdentifier": "y4qa",
+          "PrimaryLanguage": "French",
           "PosterUrl": "/hjoSRso1ZslGWHowrVtBIfNT56b.jpg",
           "Rating": 5
         },
@@ -11530,6 +11120,7 @@ var data = {
           "FilmName": "Perfect Blue",
           "Year": 1997,
           "LetterboxdIdentifier": "1W7A",
+          "PrimaryLanguage": "Japanese",
           "PosterUrl": "/bee6ZQVaSAUhlBinsP9In8x8vO1.jpg",
           "Rating": 4
         },
@@ -11538,6 +11129,7 @@ var data = {
           "FilmName": "Comrade Kim Goes Flying",
           "Year": 2012,
           "LetterboxdIdentifier": "4bu4",
+          "PrimaryLanguage": "Korean",
           "PosterUrl": "/qvhbzcqes1ZTQX63vszyvBEXPRd.jpg",
           "Rating": 3
         },
@@ -11546,6 +11138,7 @@ var data = {
           "FilmName": "Blade Runner",
           "Year": 1982,
           "LetterboxdIdentifier": "2bcA",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg",
           "Rating": 3
         },
@@ -11554,6 +11147,7 @@ var data = {
           "FilmName": "Thoroughbreds",
           "Year": 2017,
           "LetterboxdIdentifier": "dVHQ",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/pIxZzTfITqBpZxbIGsV01DcoHsT.jpg",
           "Rating": 4
         },
@@ -11562,6 +11156,7 @@ var data = {
           "FilmName": "You Can Live Forever",
           "Year": 2022,
           "LetterboxdIdentifier": "xvlk",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/6JllNMDqHasBeqM5vFVxp1rB9Fk.jpg",
           "Rating": 4
         },
@@ -11570,6 +11165,7 @@ var data = {
           "FilmName": "Tomato Red",
           "Year": 2017,
           "LetterboxdIdentifier": "fHhI",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/hR1ZAE2skl4LjYNC7ug48jcvfvu.jpg",
           "Rating": 2
         },
@@ -11578,6 +11174,7 @@ var data = {
           "FilmName": "Petite maman",
           "Year": 2021,
           "LetterboxdIdentifier": "s6je",
+          "PrimaryLanguage": "French",
           "PosterUrl": "/3TPkB08SMeLbg5WwC0lkw1b1DyG.jpg",
           "Rating": 5
         },
@@ -11586,6 +11183,7 @@ var data = {
           "FilmName": "The Gentlemen",
           "Year": 2019,
           "LetterboxdIdentifier": "iYBQ",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/jtrhTYB7xSrJxR1vusu99nvnZ1g.jpg",
           "Rating": 2
         },
@@ -11594,6 +11192,7 @@ var data = {
           "FilmName": "Host",
           "Year": 2020,
           "LetterboxdIdentifier": "r5O4",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/h7dZpJDORYs5c56dydbrLFkEXpE.jpg",
           "Rating": 3
         },
@@ -11602,6 +11201,7 @@ var data = {
           "FilmName": "The Passion of Joan of Arc",
           "Year": 1928,
           "LetterboxdIdentifier": "29DO",
+          "PrimaryLanguage": "",
           "PosterUrl": "/8OYGtQlO8k9PcOm49apV62eVJQo.jpg",
           "Rating": 5
         },
@@ -11610,6 +11210,7 @@ var data = {
           "FilmName": "Stand by Me",
           "Year": 1986,
           "LetterboxdIdentifier": "2aOe",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/vz0w9BSehcqjDcJOjRaCk7fgJe7.jpg",
           "Rating": 4
         },
@@ -11618,6 +11219,7 @@ var data = {
           "FilmName": "Phantom Thread",
           "Year": 2017,
           "LetterboxdIdentifier": "e4uc",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/hgoWjp9Sh0MI97eAMZCnIoVfgvq.jpg",
           "Rating": 4
         },
@@ -11626,6 +11228,7 @@ var data = {
           "FilmName": "The Miseducation of Cameron Post",
           "Year": 2018,
           "LetterboxdIdentifier": "f6B2",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/xFLJDW3na8AADFzQJT6bM1VU5zs.jpg",
           "Rating": 3
         },
@@ -11634,6 +11237,7 @@ var data = {
           "FilmName": "Come and See",
           "Year": 1985,
           "LetterboxdIdentifier": "1w9q",
+          "PrimaryLanguage": "Russian",
           "PosterUrl": "/qNbMsKVzigERgJUbwf8pKyZogpb.jpg",
           "Rating": 5
         },
@@ -11642,6 +11246,7 @@ var data = {
           "FilmName": "Casablanca",
           "Year": 1942,
           "LetterboxdIdentifier": "2aG0",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/5K7cOHoay2mZusSLezBOY0Qxh8a.jpg",
           "Rating": 4
         },
@@ -11650,6 +11255,7 @@ var data = {
           "FilmName": "Short Term 12",
           "Year": 2013,
           "LetterboxdIdentifier": "5f6s",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/qKnsyaJZLXfiL2JhIJEkpA8C3LU.jpg",
           "Rating": 5
         },
@@ -11658,6 +11264,7 @@ var data = {
           "FilmName": "Last Night in Soho",
           "Year": 2021,
           "LetterboxdIdentifier": "lbJC",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/n1ZRmjlk1BJTY7aASqACfPAaLn2.jpg",
           "Rating": 3
         },
@@ -11666,6 +11273,7 @@ var data = {
           "FilmName": "Snow White and the Seven Dwarfs",
           "Year": 1937,
           "LetterboxdIdentifier": "2arO",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/3VAHfuNb6Z7UiW12iYKANSPBl8m.jpg",
           "Rating": 3
         },
@@ -11674,6 +11282,7 @@ var data = {
           "FilmName": "Breathe",
           "Year": 2014,
           "LetterboxdIdentifier": "87L4",
+          "PrimaryLanguage": "French",
           "PosterUrl": "/2gqQxJBn7Fe9J1nvfDK7cGJx9x0.jpg",
           "Rating": 4
         },
@@ -11682,6 +11291,7 @@ var data = {
           "FilmName": "Booksmart",
           "Year": 2019,
           "LetterboxdIdentifier": "igNS",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/micaVOa1UZsdzs4fKGA67ZMGOzc.jpg",
           "Rating": 5
         },
@@ -11690,6 +11300,7 @@ var data = {
           "FilmName": "Leave No Trace",
           "Year": 2018,
           "LetterboxdIdentifier": "fMfM",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/w69iId8e80xBpyF0r2rfZoqRwQj.jpg",
           "Rating": 4
         },
@@ -11698,6 +11309,7 @@ var data = {
           "FilmName": "(500) Days of Summer",
           "Year": 2009,
           "LetterboxdIdentifier": "1EmM",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/f9mbM0YMLpYemcWx6o2WeiYQLDP.jpg",
           "Rating": 4
         },
@@ -11706,6 +11318,7 @@ var data = {
           "FilmName": "Black Bear",
           "Year": 2020,
           "LetterboxdIdentifier": "n8ru",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/nqZFjQRWfW6PjFTc17pzJ5LRAAv.jpg",
           "Rating": 2
         },
@@ -11714,6 +11327,7 @@ var data = {
           "FilmName": "Bound",
           "Year": 1996,
           "LetterboxdIdentifier": "1Z1g",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/9qAy6UWVw44dGrsyKrdEMt5qIUM.jpg",
           "Rating": 5
         },
@@ -11722,6 +11336,7 @@ var data = {
           "FilmName": "Tangerine",
           "Year": 2015,
           "LetterboxdIdentifier": "9QRe",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/EKLR5c61XQzBTeMokFrmS3kdt8.jpg",
           "Rating": 4
         },
@@ -11730,6 +11345,7 @@ var data = {
           "FilmName": "Coherence",
           "Year": 2013,
           "LetterboxdIdentifier": "6xza",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/ezUtb9m5DeLwL2gxi4gktzNCvQv.jpg",
           "Rating": 3
         },
@@ -11738,6 +11354,7 @@ var data = {
           "FilmName": "X",
           "Year": 2022,
           "LetterboxdIdentifier": "sxVa",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/woTQx9Q4b8aO13jR9dsj8C9JESy.jpg",
           "Rating": 3
         },
@@ -11746,6 +11363,7 @@ var data = {
           "FilmName": "MaXXXine",
           "Year": 2024,
           "LetterboxdIdentifier": "CIM4",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/ArvoFK6nlouZRxYmtIOUzKIrg90.jpg",
           "Rating": 3
         },
@@ -11754,6 +11372,7 @@ var data = {
           "FilmName": "Je, Tu, Il, Elle",
           "Year": 1974,
           "LetterboxdIdentifier": "3gWK",
+          "PrimaryLanguage": "French",
           "PosterUrl": "/4arnTs41WSLWsnENWdljFKo0pu1.jpg",
           "Rating": 4
         },
@@ -11762,6 +11381,7 @@ var data = {
           "FilmName": "How to Have Sex",
           "Year": 2023,
           "LetterboxdIdentifier": "EFIM",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/rafwrzslLb203hQFIU8s0yRk0Qy.jpg",
           "Rating": 4
         },
@@ -11770,6 +11390,7 @@ var data = {
           "FilmName": "An Evening with Beverly Luff Linn",
           "Year": 2018,
           "LetterboxdIdentifier": "fUcw",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/aTrgVu1QIPXMMfFbO0zxNqzk63p.jpg",
           "Rating": 2
         },
@@ -11778,6 +11399,7 @@ var data = {
           "FilmName": "Playground",
           "Year": 2021,
           "LetterboxdIdentifier": "twRI",
+          "PrimaryLanguage": "French",
           "PosterUrl": "/lTAfmBEaTYyPf3bre8hdIYiE3RB.jpg",
           "Rating": 4
         },
@@ -11786,6 +11408,7 @@ var data = {
           "FilmName": "Are You There God? It's Me, Margaret.",
           "Year": 2023,
           "LetterboxdIdentifier": "kiYC",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/yb6UB4WC3znlwU0L4AqMnjR9G9S.jpg",
           "Rating": 5
         },
@@ -11794,6 +11417,7 @@ var data = {
           "FilmName": "Ingrid Goes West",
           "Year": 2017,
           "LetterboxdIdentifier": "evUQ",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/3LEyW11onDltXHo0L1X23j9Nnvg.jpg",
           "Rating": 3
         },
@@ -11802,6 +11426,7 @@ var data = {
           "FilmName": "Valerie and Her Week of Wonders",
           "Year": 1970,
           "LetterboxdIdentifier": "NsC",
+          "PrimaryLanguage": "Czech",
           "PosterUrl": "/x9fZJORCZS0DshbxLSdnzyvU94V.jpg",
           "Rating": 4
         },
@@ -11810,6 +11435,7 @@ var data = {
           "FilmName": "Now and Then",
           "Year": 1995,
           "LetterboxdIdentifier": "1Z7I",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/q31Ks8oAmM4Nq2CcGjyYYpdBAmh.jpg",
           "Rating": 4
         },
@@ -11818,6 +11444,7 @@ var data = {
           "FilmName": "Cruella",
           "Year": 2021,
           "LetterboxdIdentifier": "bbKg",
+          "PrimaryLanguage": "English",
           "PosterUrl": "/wToO8opxkGwKgSfJ1JK8tGvkG6U.jpg",
           "Rating": 4
         },
@@ -11826,6 +11453,7 @@ var data = {
           "FilmName": "Daisies",
           "Year": 1966,
           "LetterboxdIdentifier": "LZk",
+          "PrimaryLanguage": "Czech",
           "PosterUrl": "/8sxMhdn3i1Pn8OlGCBBjr9rjP1y.jpg",
           "Rating": 5
         },
@@ -11834,6 +11462,7 @@ var data = {
           "FilmName": "System Crasher",
           "Year": 2019,
           "LetterboxdIdentifier": "kO1W",
+          "PrimaryLanguage": "German",
           "PosterUrl": "/YqbeGd7ojtxRukKhvoq6Bgf4t8.jpg",
           "Rating": 4
         }
