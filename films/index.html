@@ -53,38 +53,38 @@
 		<em class="subtitle">Director:</em>
 		<span class="displayer inline" onmousedown="javascript:showDirectorsAll()">All</span>
 		&#9670;
-		<span class="displayer inline" onmousedown="javascript:showDirectorsWomen()">W</span>
+		<span class="displayer inline ttt" data-tooltip="Women" onmousedown="javascript:showDirectorsWomen()">W</span>
 		&#9670;
-		<span class="displayer inline" onmousedown="javascript:showDirectorsMen()">M</span>
+		<span class="displayer inline ttt" data-tooltip="Men" onmousedown="javascript:showDirectorsMen()">M</span>
 		&#9670;
-		<span class="displayer inline" onmousedown="javascript:showDirectorsNonBinary()">NB</span>
+		<span class="displayer inline ttt" data-tooltip="Non-Binary" onmousedown="javascript:showDirectorsNonBinary()">NB</span>
 		<br />
 		<em class="subtitle">Protagonist:</em>
 		<span class="displayer inline" onmousedown="javascript:showProtagonistsAll()">All</span>
 		&#9670;
-		<span class="displayer inline" onmousedown="javascript:showProtagonistsWomen()">W</span>
+		<span class="displayer inline ttt" data-tooltip="Women" onmousedown="javascript:showProtagonistsWomen()">W</span>
 		&#9670;
-		<span class="displayer inline" onmousedown="javascript:showProtagonistsMen()">M</span>
+		<span class="displayer inline ttt" data-tooltip="Men" onmousedown="javascript:showProtagonistsMen()">M</span>
 		&#9670;
-		<span class="displayer inline" onmousedown="javascript:showProtagonistsNonBinary()">NB</span>
+		<span class="displayer inline ttt" data-tooltip="Non-Binary" onmousedown="javascript:showProtagonistsNonBinary()">NB</span>
 		<br />
 		<em class="subtitle">Main Cast</em>
 		<span class="displayer inline" onmousedown="javascript:showTopCastAll()">All</span>
 		&#9670;
-		<span class="displayer inline" onmousedown="javascript:showTopCastWomen()">W</span>
+		<span class="displayer inline ttt" data-tooltip="Women" onmousedown="javascript:showTopCastWomen()">W</span>
 		&#9670;
-		<span class="displayer inline" onmousedown="javascript:showTopCastMen()">M</span>
+		<span class="displayer inline ttt" data-tooltip="Men" onmousedown="javascript:showTopCastMen()">M</span>
 		&#9670;
-		<span class="displayer inline" onmousedown="javascript:showTopCastNonBinary()">NB</span>
+		<span class="displayer inline ttt" data-tooltip="Non-Binary" onmousedown="javascript:showTopCastNonBinary()">NB</span>
 		<br />
 		<em class="subtitle">Entire Cast</em>
 		<span class="displayer inline" onmousedown="javascript:showEntireCastAll()">All</span>
 		&#9670;
-		<span class="displayer inline" onmousedown="javascript:showEntireCastWomen()">W</span>
+		<span class="displayer inline ttt" data-tooltip="Women" onmousedown="javascript:showEntireCastWomen()">W</span>
 		&#9670;
-		<span class="displayer inline" onmousedown="javascript:showEntireCastMen()">M</span>
+		<span class="displayer inline ttt" data-tooltip="Men" onmousedown="javascript:showEntireCastMen()">M</span>
 		&#9670;
-		<span class="displayer inline" onmousedown="javascript:showEntireCastNonBinary()">NB</span>
+		<span class="displayer inline ttt" data-tooltip="Non-Binary" onmousedown="javascript:showEntireCastNonBinary()">NB</span>
 		<!--<div class="title">Director</div>
 	<span class="displayer inlinefirst" onmousedown="javascript:showDirectorsAll()">All</span>
 	&#9670;
@@ -365,6 +365,8 @@
             $('.boxes').last().append(makeBox(data.RatedFilms, 'Rated Films'));
 
             $('body').append('<div class="info"><a target="_blank" href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '\'s Letterboxd Profile</a>.</div>');
+
+			createTooltipTriggers();
 
 			//deactivateAll();
 			//if (event) {
