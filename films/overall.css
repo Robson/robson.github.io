@@ -28,7 +28,7 @@ html {
 body {
 	color: #333;
 	font-family: Roboto, sans-serif;
-	margin: 30px 30px 50px 385px;
+	margin: 30px 30px 50px 383px;
 }
 
 table {
@@ -36,6 +36,10 @@ table {
 	background: #fff;
 	border: 16px solid #fff;
 	margin: 0;
+}
+
+.lowbase span {
+	opacity: 0.333;
 }
 
 .right {
@@ -46,7 +50,7 @@ table {
 	position: fixed;
 	top: 30px;
 	left: 30px;
-	height: 133px;
+	height: 180px;
 	width: 320px;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
@@ -66,55 +70,54 @@ table {
 }
 
 #buttons {
+	text-align: center;
 	position: fixed;
-	top: 163px;
+	top: 210px;
 	left: 30px;
 	width: 300px;
 	background: white;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
-	padding: 5px 10px 16px;
+	padding: 3px 10px 16px 10px;
 	color: black;
 	z-index: -1000;
 }
 
 #buttons .subtitle {
-	width: 90px;
+	width: 100px;
 	display: inline-block;
-	margin-left: 18px;
 	font-style: normal;
+	text-align: left;
 }
 
 #buttons span {
 	display: block;
-	margin: 0 4px 0 4px;
 	cursor: pointer;
-	padding: 2px 8px 2px 15px;
 	border-radius: 5px;
-	color: #F00;
+	color: RGBA(229, 0, 126);
 	cursor: zoom-in;
 }
 
 #buttons span.inlinefirst {
 	display: inline !important;
-	margin: 0 0 0 14px;
-	padding: 2px 4px;
+	margin: 0;
+	padding: 2px 3px;
 }
 
 #buttons span.inline {
 	display: inline !important;
 	margin: 0;
-	padding: 2px 4px;
+	padding: 2px 3px;
 }
 
 #buttons span:hover {
-	background: #ddd;
+	background: RGBA(229, 0, 126, 0.15);
 }
 
 #buttons span.active,
 #buttons span.active:hover {
 	color: white;
-	background: #d00; /*#E5007E;*/
+	background: #E5007E;
 	cursor: default;
 }
 
@@ -136,6 +139,7 @@ table {
 	display: inline-block;
 	border-radius: 3px;
 	margin-right: 4px;
+	z-index: -1000;
 }
 
 .hidden {
@@ -182,12 +186,15 @@ p {
 	border: 2px solid #fff;
 	border-radius: 10px;
 	font-size: 13px;
+	opacity: 1;
+	z-index: 99999;
 }
 
 #tooltip_text {
 	margin: 5px 5px 5px;
 	padding: 0;
 	line-height: 1.1em;
+	opacity: 1;
 }
 
 /**** BOXES *****/
@@ -207,6 +214,7 @@ p {
 
 .box .number {
 	font-size: 300%;
+	color: #222;
 }
 
 /***** GALLERY *****/
@@ -268,7 +276,7 @@ p {
 
 .highcharts-figure {
 	border-radius: 8px;
-	width: 800px;
+	width: 740px;
 }
 
 .highcharts-title {

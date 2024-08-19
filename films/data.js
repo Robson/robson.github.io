@@ -1,46 +1,48 @@
 var data = {
-  "LastUpdated": "16 Aug 2024",
+  "LastUpdated": "18 Aug 2024",
   "Username": "LaLunaLlena",
-  "TotalFilms": 895,
-  "RatedFilms": 221,
-  "FilmsWithGenres": 894,
-  "TotalMinutes": 96398,
-  "FilmsWithRuntime": 893,
+  "TotalFilms": 899,
+  "RatedFilms": 232,
+  "FilmsWithGenres": 898,
+  "TotalMinutes": 96764,
+  "FilmsWithRuntime": 897,
+  "TotalMinutesFull": 95731,
+  "FilmsWithRuntimeFull": 866,
   "Genres": {
     "Action": {
-      "Count": 157,
+      "Count": 158,
       "RatingCount": 16,
       "RatingTotal": 41
     },
     "Adventure": {
       "Count": 151,
-      "RatingCount": 21,
-      "RatingTotal": 78
+      "RatingCount": 22,
+      "RatingTotal": 81
     },
     "Animation": {
-      "Count": 42,
+      "Count": 43,
       "RatingCount": 7,
       "RatingTotal": 16
     },
     "Comedy": {
-      "Count": 277,
-      "RatingCount": 50,
-      "RatingTotal": 165
+      "Count": 278,
+      "RatingCount": 52,
+      "RatingTotal": 170
     },
     "Crime": {
       "Count": 166,
-      "RatingCount": 30,
-      "RatingTotal": 103
+      "RatingCount": 32,
+      "RatingTotal": 109
     },
     "Documentary": {
       "Count": 46,
-      "RatingCount": 9,
-      "RatingTotal": 28
+      "RatingCount": 10,
+      "RatingTotal": 31
     },
     "Drama": {
-      "Count": 444,
-      "RatingCount": 149,
-      "RatingTotal": 569
+      "Count": 447,
+      "RatingCount": 153,
+      "RatingTotal": 585
     },
     "Family": {
       "Count": 75,
@@ -59,8 +61,8 @@ var data = {
     },
     "Horror": {
       "Count": 93,
-      "RatingCount": 29,
-      "RatingTotal": 99
+      "RatingCount": 33,
+      "RatingTotal": 112
     },
     "Music": {
       "Count": 13,
@@ -69,8 +71,8 @@ var data = {
     },
     "Mystery": {
       "Count": 79,
-      "RatingCount": 15,
-      "RatingTotal": 57
+      "RatingCount": 17,
+      "RatingTotal": 65
     },
     "Romance": {
       "Count": 121,
@@ -84,13 +86,13 @@ var data = {
     },
     "Thriller": {
       "Count": 253,
-      "RatingCount": 47,
-      "RatingTotal": 156
+      "RatingCount": 49,
+      "RatingTotal": 162
     },
     "TV Movie": {
       "Count": 7,
-      "RatingCount": 1,
-      "RatingTotal": 4
+      "RatingCount": 2,
+      "RatingTotal": 6
     },
     "War": {
       "Count": 29,
@@ -103,13 +105,13 @@ var data = {
       "RatingTotal": 9
     }
   },
-  "DirectorTotalAll": 974,
-  "DirectorTotalFemale": 87,
-  "DirectorTotalMale": 853,
+  "DirectorTotalAll": 979,
+  "DirectorTotalFemale": 89,
+  "DirectorTotalMale": 856,
   "DirectorTotalNonBinary": 1,
-  "DirectorUniqueAll": 648,
-  "DirectorUniqueFemale": 71,
-  "DirectorUniqueMale": 547,
+  "DirectorUniqueAll": 651,
+  "DirectorUniqueFemale": 72,
+  "DirectorUniqueMale": 549,
   "DirectorUniqueNonBinary": 1,
   "DirectorAll": [
     {
@@ -133,6 +135,11 @@ var data = {
       "Poster": "/xuAIuYSmsUzKlUMBFGVZaWsY3DZ.jpg"
     },
     {
+      "FullName": "Ridley Scott",
+      "Amount": 8,
+      "Poster": "/zABJmN9opmqD4orWl3KSdCaSo7Q.jpg"
+    },
+    {
       "FullName": "Stanley Kubrick",
       "Amount": 8,
       "Poster": "/exfQ6vXXq7rMS5YWb3B88PK39a1.jpg"
@@ -146,11 +153,6 @@ var data = {
       "FullName": "Jeff Tremaine",
       "Amount": 7,
       "Poster": "/3R8FemTgvyY1vLn9r0lYlL45P3Q.jpg"
-    },
-    {
-      "FullName": "Ridley Scott",
-      "Amount": 7,
-      "Poster": "/zABJmN9opmqD4orWl3KSdCaSo7Q.jpg"
     },
     {
       "FullName": "Robert Zemeckis",
@@ -188,6 +190,11 @@ var data = {
       "Poster": "/osE39XteDT85B6sML8uTXFFv1sb.jpg"
     },
     {
+      "FullName": "C\u00E9line Sciamma",
+      "Amount": 5,
+      "Poster": "/j35wQETDUc6CdzIgbKWkeahlTlG.jpg"
+    },
+    {
       "FullName": "David Fincher",
       "Amount": 5,
       "Poster": "/tpEczFclQZeKAiCeKZZ0adRvtfz.jpg"
@@ -216,11 +223,6 @@ var data = {
       "FullName": "Barry Sonnenfeld",
       "Amount": 4,
       "Poster": "/n6y6vaAFfSqsJodgkwTxAey4NoG.jpg"
-    },
-    {
-      "FullName": "C\u00E9line Sciamma",
-      "Amount": 4,
-      "Poster": "/j35wQETDUc6CdzIgbKWkeahlTlG.jpg"
     },
     {
       "FullName": "Clint Eastwood",
@@ -911,7 +913,7 @@ var data = {
   "DirectorFemale": [
     {
       "FullName": "C\u00E9line Sciamma",
-      "Amount": 4,
+      "Amount": 5,
       "Poster": "/j35wQETDUc6CdzIgbKWkeahlTlG.jpg"
     },
     {
@@ -1130,6 +1132,11 @@ var data = {
       "Poster": "/c2uEfeQlkaxEVXm7rBN2iIvkmIL.jpg"
     },
     {
+      "FullName": "Maggie Gyllenhaal",
+      "Amount": 1,
+      "Poster": "/vsfkWdYWmA9CpzMHTJzrFxlDnEZ.jpg"
+    },
+    {
       "FullName": "Mary Harron",
       "Amount": 1,
       "Poster": "/NAUg6eMuJ8aIzkLiyxVVxPEKEX.jpg"
@@ -1287,6 +1294,11 @@ var data = {
       "Poster": "/xuAIuYSmsUzKlUMBFGVZaWsY3DZ.jpg"
     },
     {
+      "FullName": "Ridley Scott",
+      "Amount": 8,
+      "Poster": "/zABJmN9opmqD4orWl3KSdCaSo7Q.jpg"
+    },
+    {
       "FullName": "Stanley Kubrick",
       "Amount": 8,
       "Poster": "/exfQ6vXXq7rMS5YWb3B88PK39a1.jpg"
@@ -1300,11 +1312,6 @@ var data = {
       "FullName": "Jeff Tremaine",
       "Amount": 7,
       "Poster": "/3R8FemTgvyY1vLn9r0lYlL45P3Q.jpg"
-    },
-    {
-      "FullName": "Ridley Scott",
-      "Amount": 7,
-      "Poster": "/zABJmN9opmqD4orWl3KSdCaSo7Q.jpg"
     },
     {
       "FullName": "Robert Zemeckis",
@@ -1999,13 +2006,13 @@ var data = {
       "Poster": "/gxIYGT158X46OwvahhYoakS5LP0.jpg"
     }
   ],
-  "ProtagonistTotalAll": 890,
-  "ProtagonistTotalFemale": 247,
-  "ProtagonistTotalMale": 626,
+  "ProtagonistTotalAll": 894,
+  "ProtagonistTotalFemale": 250,
+  "ProtagonistTotalMale": 627,
   "ProtagonistTotalNonBinary": 5,
-  "ProtagonistUniqueAll": 573,
-  "ProtagonistUniqueFemale": 186,
-  "ProtagonistUniqueMale": 373,
+  "ProtagonistUniqueAll": 577,
+  "ProtagonistUniqueFemale": 189,
+  "ProtagonistUniqueMale": 374,
   "ProtagonistUniqueNonBinary": 3,
   "ProtagonistAll": [
     {
@@ -3061,6 +3068,11 @@ var data = {
       "Poster": "/rtxJfCCLdp1oi7bQ1ENVZRRkrJ5.jpg"
     },
     {
+      "FullName": "Demi Moore",
+      "Amount": 1,
+      "Poster": "/brENIHiNrGUpoBMPqIEQwFNdIsc.jpg"
+    },
+    {
       "FullName": "Diane Lane",
       "Amount": 1,
       "Poster": "/pNNIs1bCQ2qFL9rekkV7utunUfl.jpg"
@@ -3301,6 +3313,11 @@ var data = {
       "Poster": "/apSHuWDHvFvPkN5zicG0li9nmmC.jpg"
     },
     {
+      "FullName": "Karidja Tour\u00E9",
+      "Amount": 1,
+      "Poster": "/5YqrVYUzvy0suoSp6oQPD0YgbQs.jpg"
+    },
+    {
       "FullName": "Katie Jarvis",
       "Amount": 1,
       "Poster": "/afll1BEx7eGFt1LqLYhxs2gnTbp.jpg"
@@ -3524,6 +3541,11 @@ var data = {
       "FullName": "Oksana Akinshina",
       "Amount": 1,
       "Poster": "/1j05cOkkSvoTHp6vOOLbSzGHKr1.jpg"
+    },
+    {
+      "FullName": "Olivia Colman",
+      "Amount": 1,
+      "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg"
     },
     {
       "FullName": "Olivia Cooke",
@@ -4180,13 +4202,13 @@ var data = {
       "Poster": "/lSmrN828nMMXHvwr7IgO1qlYPSa.jpg"
     }
   ],
-  "TopCastTotalAll": 2620,
-  "TopCastTotalFemale": 928,
-  "TopCastTotalMale": 1621,
+  "TopCastTotalAll": 2630,
+  "TopCastTotalFemale": 935,
+  "TopCastTotalMale": 1624,
   "TopCastTotalNonBinary": 9,
-  "TopCastUniqueAll": 1686,
-  "TopCastUniqueFemale": 627,
-  "TopCastUniqueMale": 993,
+  "TopCastUniqueAll": 1693,
+  "TopCastUniqueFemale": 632,
+  "TopCastUniqueMale": 995,
   "TopCastUniqueNonBinary": 5,
   "TopCastAll": [
     {
@@ -4405,6 +4427,11 @@ var data = {
       "Poster": "/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg"
     },
     {
+      "FullName": "Viggo Mortensen",
+      "Amount": 6,
+      "Poster": "/vH5gVSpHAMhDaFWfh0Q7BG61O1y.jpg"
+    },
+    {
       "FullName": "Anya Taylor-Joy",
       "Amount": 5,
       "Poster": "/yZpghhtKM2VZHDx6JGAZqAVU4PL.jpg"
@@ -4495,6 +4522,11 @@ var data = {
       "Poster": "/xvbnUiB2ZBR3QIt595OzNy657Vw.jpg"
     },
     {
+      "FullName": "Olivia Colman",
+      "Amount": 5,
+      "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg"
+    },
+    {
       "FullName": "Ralph Fiennes",
       "Amount": 5,
       "Poster": "/tJr9GcmGNHhLVVEH3i7QYbj6hBi.jpg"
@@ -4513,11 +4545,6 @@ var data = {
       "FullName": "Thora Birch",
       "Amount": 5,
       "Poster": "/m0D1wqgQeVCr7gWY7GVej7lZlwY.jpg"
-    },
-    {
-      "FullName": "Viggo Mortensen",
-      "Amount": 5,
-      "Poster": "/vH5gVSpHAMhDaFWfh0Q7BG61O1y.jpg"
     },
     {
       "FullName": "Bam Margera",
@@ -4658,11 +4685,6 @@ var data = {
       "FullName": "Naomi Watts",
       "Amount": 4,
       "Poster": "/k6l8BWX1yqfGt95enzEkHoPvON4.jpg"
-    },
-    {
-      "FullName": "Olivia Colman",
-      "Amount": 4,
-      "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg"
     },
     {
       "FullName": "Peter Sallis",
@@ -4822,6 +4844,11 @@ var data = {
       "Poster": "/oasXvk3um0eJ9p0EMGgwKhH4Jtp.jpg"
     },
     {
+      "FullName": "Olivia Colman",
+      "Amount": 5,
+      "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg"
+    },
+    {
       "FullName": "Reese Witherspoon",
       "Amount": 5,
       "Poster": "/c0FrFNdOnHJgFaDl4eqplZ4ljnh.jpg"
@@ -4872,11 +4899,6 @@ var data = {
       "Poster": "/k6l8BWX1yqfGt95enzEkHoPvON4.jpg"
     },
     {
-      "FullName": "Olivia Colman",
-      "Amount": 4,
-      "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg"
-    },
-    {
       "FullName": "Toni Collette",
       "Amount": 4,
       "Poster": "/JUvXYgduDNGM2lHEjMWvxXEpGF.jpg"
@@ -4915,6 +4937,11 @@ var data = {
       "FullName": "Cate Blanchett",
       "Amount": 3,
       "Poster": "/9V83uemR0ra9Wd9iRXTMlfAQlTB.jpg"
+    },
+    {
+      "FullName": "Dakota Johnson",
+      "Amount": 3,
+      "Poster": "/rtxJfCCLdp1oi7bQ1ENVZRRkrJ5.jpg"
     },
     {
       "FullName": "Diane Lane",
@@ -5150,11 +5177,6 @@ var data = {
       "FullName": "Courteney Cox",
       "Amount": 2,
       "Poster": "/gfPFo174v4JqoRaaxUmqLVBrVID.jpg"
-    },
-    {
-      "FullName": "Dakota Johnson",
-      "Amount": 2,
-      "Poster": "/rtxJfCCLdp1oi7bQ1ENVZRRkrJ5.jpg"
     },
     {
       "FullName": "Diane Kruger",
@@ -5639,6 +5661,11 @@ var data = {
       "Poster": "/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg"
     },
     {
+      "FullName": "Viggo Mortensen",
+      "Amount": 6,
+      "Poster": "/vH5gVSpHAMhDaFWfh0Q7BG61O1y.jpg"
+    },
+    {
       "FullName": "Ben Kingsley",
       "Amount": 5,
       "Poster": "/vQtBqpF2HDdzbfXHDzR4u37i1Ac.jpg"
@@ -5697,11 +5724,6 @@ var data = {
       "FullName": "Ralph Fiennes",
       "Amount": 5,
       "Poster": "/tJr9GcmGNHhLVVEH3i7QYbj6hBi.jpg"
-    },
-    {
-      "FullName": "Viggo Mortensen",
-      "Amount": 5,
-      "Poster": "/vH5gVSpHAMhDaFWfh0Q7BG61O1y.jpg"
     },
     {
       "FullName": "Bam Margera",
@@ -6206,13 +6228,13 @@ var data = {
       "Poster": "/s6ulsRYtkaAArXsNC6cvinUiRNc.jpg"
     }
   ],
-  "EntireCastTotalAll": 37435,
-  "EntireCastTotalFemale": 8975,
-  "EntireCastTotalMale": 19523,
+  "EntireCastTotalAll": 37536,
+  "EntireCastTotalFemale": 8992,
+  "EntireCastTotalMale": 19582,
   "EntireCastTotalNonBinary": 24,
-  "EntireCastUniqueAll": 29403,
-  "EntireCastUniqueFemale": 7038,
-  "EntireCastUniqueMale": 13693,
+  "EntireCastUniqueAll": 29471,
+  "EntireCastUniqueFemale": 7048,
+  "EntireCastUniqueMale": 13728,
   "EntireCastUniqueNonBinary": 14,
   "EntireCastAll": [
     {
@@ -6306,6 +6328,11 @@ var data = {
       "Poster": "/aLdNe6mt1cSi2zWlUYRregzfis5.jpg"
     },
     {
+      "FullName": "Ed Harris",
+      "Amount": 11,
+      "Poster": "/aAu9lJ02jlg0GAvv2vVnpJSDV1Y.jpg"
+    },
+    {
       "FullName": "Emma Watson",
       "Amount": 11,
       "Poster": "/A14lLCZYDhfYdBa0fFRpwMDiwRN.jpg"
@@ -6344,11 +6371,6 @@ var data = {
       "FullName": "Buster Keaton",
       "Amount": 10,
       "Poster": "/iP0of33Hi6hGGojegJQ4sjNwW2l.jpg"
-    },
-    {
-      "FullName": "Ed Harris",
-      "Amount": 10,
-      "Poster": "/aAu9lJ02jlg0GAvv2vVnpJSDV1Y.jpg"
     },
     {
       "FullName": "Harvey Keitel",
@@ -6931,6 +6953,11 @@ var data = {
       "Poster": ""
     },
     {
+      "FullName": "Viggo Mortensen",
+      "Amount": 7,
+      "Poster": "/vH5gVSpHAMhDaFWfh0Q7BG61O1y.jpg"
+    },
+    {
       "FullName": "Xander Berkeley",
       "Amount": 7,
       "Poster": "/oBoKGfngGGZmSVGFslphYjc23WO.jpg"
@@ -7158,6 +7185,11 @@ var data = {
       "Poster": "/jn3BVMVbIptz2gc6Fhxo1qwJVvW.jpg"
     },
     {
+      "FullName": "Olivia Colman",
+      "Amount": 6,
+      "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg"
+    },
+    {
       "FullName": "Zo\u00EB Bell",
       "Amount": 6,
       "Poster": "/fDckmfcIrrdcOgyGifVF2FvQtiE.jpg"
@@ -7358,11 +7390,6 @@ var data = {
       "Poster": "/35SOy4yQZ9xRSJ0q1L5RLhXfhqN.jpg"
     },
     {
-      "FullName": "Olivia Colman",
-      "Amount": 5,
-      "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg"
-    },
-    {
       "FullName": "Rosamund Pike",
       "Amount": 5,
       "Poster": "/8ObNklHDi2hjdz0ayzJFB9jtqzm.jpg"
@@ -7516,6 +7543,11 @@ var data = {
       "FullName": "Cleo King",
       "Amount": 4,
       "Poster": "/teEPJgvrvPrNEh83FdOroNSLJzO.jpg"
+    },
+    {
+      "FullName": "Dakota Johnson",
+      "Amount": 4,
+      "Poster": "/rtxJfCCLdp1oi7bQ1ENVZRRkrJ5.jpg"
     },
     {
       "FullName": "Dina Meyer",
@@ -7686,6 +7718,11 @@ var data = {
       "FullName": "Lois Smith",
       "Amount": 4,
       "Poster": "/unvPSZshdNoj7c5wl6D30gPwKtS.jpg"
+    },
+    {
+      "FullName": "Lucinda Jenney",
+      "Amount": 4,
+      "Poster": "/ahR0bNUJRi9Phpd7RZWx4ILiMEb.jpg"
     },
     {
       "FullName": "Lucy Liu",
@@ -7935,6 +7972,11 @@ var data = {
       "Poster": "/aLdNe6mt1cSi2zWlUYRregzfis5.jpg"
     },
     {
+      "FullName": "Ed Harris",
+      "Amount": 11,
+      "Poster": "/aAu9lJ02jlg0GAvv2vVnpJSDV1Y.jpg"
+    },
+    {
       "FullName": "John Cleese",
       "Amount": 11,
       "Poster": "/yonuTnGcc3q9A1w5P7N3dDRdPSh.jpg"
@@ -7968,11 +8010,6 @@ var data = {
       "FullName": "Buster Keaton",
       "Amount": 10,
       "Poster": "/iP0of33Hi6hGGojegJQ4sjNwW2l.jpg"
-    },
-    {
-      "FullName": "Ed Harris",
-      "Amount": 10,
-      "Poster": "/aAu9lJ02jlg0GAvv2vVnpJSDV1Y.jpg"
     },
     {
       "FullName": "Harvey Keitel",
@@ -8430,6 +8467,11 @@ var data = {
       "Poster": ""
     },
     {
+      "FullName": "Viggo Mortensen",
+      "Amount": 7,
+      "Poster": "/vH5gVSpHAMhDaFWfh0Q7BG61O1y.jpg"
+    },
+    {
       "FullName": "Xander Berkeley",
       "Amount": 7,
       "Poster": "/oBoKGfngGGZmSVGFslphYjc23WO.jpg"
@@ -8566,7 +8608,7 @@ var data = {
     "1925": 0,
     "1926": 1,
     "1927": 0,
-    "1928": 1,
+    "1928": 2,
     "1929": 0,
     "1930": 0,
     "1931": 2,
@@ -8635,7 +8677,7 @@ var data = {
     "1994": 14,
     "1995": 16,
     "1996": 17,
-    "1997": 22,
+    "1997": 23,
     "1998": 26,
     "1999": 24,
     "2000": 32,
@@ -8652,14 +8694,14 @@ var data = {
     "2011": 23,
     "2012": 20,
     "2013": 23,
-    "2014": 15,
+    "2014": 16,
     "2015": 25,
     "2016": 19,
     "2017": 22,
     "2018": 17,
     "2019": 23,
     "2020": 6,
-    "2021": 12,
+    "2021": 13,
     "2022": 15,
     "2023": 18,
     "2024": 6
@@ -8691,7 +8733,7 @@ var data = {
       "RatingTotal": 0
     },
     "1920": {
-      "Count": 12,
+      "Count": 13,
       "RatingCount": 1,
       "RatingTotal": 5
     },
@@ -8707,8 +8749,8 @@ var data = {
     },
     "1950": {
       "Count": 9,
-      "RatingCount": 4,
-      "RatingTotal": 12
+      "RatingCount": 5,
+      "RatingTotal": 17
     },
     "1960": {
       "Count": 23,
@@ -8726,526 +8768,626 @@ var data = {
       "RatingTotal": 29
     },
     "1990": {
-      "Count": 159,
+      "Count": 160,
       "RatingCount": 24,
       "RatingTotal": 97
     },
     "2000": {
       "Count": 331,
-      "RatingCount": 33,
-      "RatingTotal": 100
+      "RatingCount": 37,
+      "RatingTotal": 112
     },
     "2010": {
-      "Count": 209,
-      "RatingCount": 84,
-      "RatingTotal": 298
+      "Count": 210,
+      "RatingCount": 89,
+      "RatingTotal": 314
     },
     "2020": {
-      "Count": 57,
-      "RatingCount": 48,
-      "RatingTotal": 178
+      "Count": 58,
+      "RatingCount": 49,
+      "RatingTotal": 182
     }
   },
   "LongestFilms": {
-    "(1991) La Belle Noiseuse": {
+    "La Belle Noiseuse": {
       "Minutes": 238,
       "Id": "1RxI",
-      "Poster": "/n6f7I9RUdoDa9AgM9X2oAc3pk4l.jpg"
+      "Poster": "/n6f7I9RUdoDa9AgM9X2oAc3pk4l.jpg",
+      "Year": 1991
     },
-    "(1974) The Godfather Part II": {
+    "The Godfather Part II": {
       "Minutes": 202,
       "Id": "2aNq",
-      "Poster": "/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg"
+      "Poster": "/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg",
+      "Year": 1974
     },
-    "(2003) The Lord of the Rings: The Return of the King": {
+    "The Lord of the Rings: The Return of the King": {
       "Minutes": 201,
       "Id": "2b5u",
-      "Poster": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg"
+      "Poster": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+      "Year": 2003
     },
-    "(1993) Schindler's List": {
+    "Schindler's List": {
       "Minutes": 195,
       "Id": "2aq2",
-      "Poster": "/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg"
+      "Poster": "/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+      "Year": 1993
     },
-    "(1997) Titanic": {
+    "Titanic": {
       "Minutes": 194,
       "Id": "2a2k",
-      "Poster": "/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg"
+      "Poster": "/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+      "Year": 1997
     },
-    "(2015) The Hateful Eight": {
+    "The Hateful Eight": {
       "Minutes": 188,
       "Id": "8gw8",
-      "Poster": "/jIywvdPjia2t3eKYbjVTcwBQlG8.jpg"
+      "Poster": "/jIywvdPjia2t3eKYbjVTcwBQlG8.jpg",
+      "Year": 2015
     },
-    "(2023) Oppenheimer": {
+    "Oppenheimer": {
       "Minutes": 181,
       "Id": "wUow",
-      "Poster": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+      "Poster": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "Year": 2023
     },
-    "(2013) Blue Is the Warmest Color": {
+    "Blue Is the Warmest Color": {
       "Minutes": 180,
       "Id": "4O40",
-      "Poster": "/kgUk1wti2cvrptIgUz0VTAtSF6w.jpg"
+      "Poster": "/kgUk1wti2cvrptIgUz0VTAtSF6w.jpg",
+      "Year": 2013
     },
-    "(2013) The Wolf of Wall Street": {
+    "The Wolf of Wall Street": {
       "Minutes": 180,
       "Id": "3C1m",
-      "Poster": "/34m2tygAYBGqA9MXKhRDtzYd4MR.jpg"
+      "Poster": "/34m2tygAYBGqA9MXKhRDtzYd4MR.jpg",
+      "Year": 2013
     },
-    "(2001) The Lord of the Rings: The Fellowship of the Ring": {
+    "The Lord of the Rings: The Fellowship of the Ring": {
       "Minutes": 179,
       "Id": "2b5O",
-      "Poster": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg"
+      "Poster": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+      "Year": 2001
     },
-    "(2002) The Lord of the Rings: The Two Towers": {
+    "The Lord of the Rings: The Two Towers": {
       "Minutes": 179,
       "Id": "2b5E",
-      "Poster": "/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg"
+      "Poster": "/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
+      "Year": 2002
     },
-    "(1995) Braveheart": {
+    "Braveheart": {
       "Minutes": 177,
       "Id": "2aTI",
-      "Poster": "/or1gBugydmjToAEq7OZY0owwFk.jpg"
+      "Poster": "/or1gBugydmjToAEq7OZY0owwFk.jpg",
+      "Year": 1995
     },
-    "(1972) The Godfather": {
+    "The Godfather": {
       "Minutes": 175,
       "Id": "2aNK",
-      "Poster": "/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
+      "Poster": "/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+      "Year": 1972
     },
-    "(1965) The Sound of Music": {
+    "The Sound of Music": {
       "Minutes": 174,
       "Id": "1MLK",
-      "Poster": "/5qQTu2iGTiQ2UvyGp0beQAZ2rKx.jpg"
+      "Poster": "/5qQTu2iGTiQ2UvyGp0beQAZ2rKx.jpg",
+      "Year": 1965
     },
-    "(1963) The Great Escape": {
+    "The Great Escape": {
       "Minutes": 173,
       "Id": "22kA",
-      "Poster": "/gBH4H8UMFxl139HaLz6lRuvsel8.jpg"
+      "Poster": "/gBH4H8UMFxl139HaLz6lRuvsel8.jpg",
+      "Year": 1963
     },
-    "(1995) Heat": {
+    "Heat": {
       "Minutes": 170,
       "Id": "2bg8",
-      "Poster": "/umSVjVdbVwtx5ryCA2QXL44Durm.jpg"
+      "Poster": "/umSVjVdbVwtx5ryCA2QXL44Durm.jpg",
+      "Year": 1995
     },
-    "(2014) Interstellar": {
+    "Interstellar": {
       "Minutes": 169,
       "Id": "4VZ8",
-      "Poster": "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+      "Poster": "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "Year": 2014
     },
-    "(1998) Saving Private Ryan": {
+    "Saving Private Ryan": {
       "Minutes": 169,
       "Id": "29ro",
-      "Poster": "/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg"
+      "Poster": "/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg",
+      "Year": 1998
     },
-    "(2012) Django Unchained": {
+    "Django Unchained": {
       "Minutes": 165,
       "Id": "2cCk",
-      "Poster": "/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg"
+      "Poster": "/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg",
+      "Year": 2012
     },
-    "(2021) No Time to Die": {
+    "No Time to Die": {
       "Minutes": 163,
       "Id": "cPX2",
-      "Poster": "/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg"
+      "Poster": "/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg",
+      "Year": 2021
     },
-    "(2009) Avatar": {
+    "Avatar": {
       "Minutes": 162,
       "Id": "1Efm",
-      "Poster": "/kyeqWdyUXW608qlYkRqosgbbJyK.jpg"
+      "Poster": "/kyeqWdyUXW608qlYkRqosgbbJyK.jpg",
+      "Year": 2009
     },
-    "(2019) Once Upon a Time... in Hollywood": {
+    "Once Upon a Time... in Hollywood": {
       "Minutes": 162,
       "Id": "gH0O",
-      "Poster": "/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
+      "Poster": "/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
+      "Year": 2019
     },
-    "(2002) Harry Potter and the Chamber of Secrets": {
+    "Harry Potter and the Chamber of Secrets": {
       "Minutes": 161,
       "Id": "29QI",
-      "Poster": "/sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg"
+      "Poster": "/sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg",
+      "Year": 2002
     },
-    "(1999) Eyes Wide Shut": {
+    "Eyes Wide Shut": {
       "Minutes": 159,
       "Id": "2axs",
-      "Poster": "/knEIz1eNGl5MQDbrEAVWA7iRqF9.jpg"
+      "Poster": "/knEIz1eNGl5MQDbrEAVWA7iRqF9.jpg",
+      "Year": 1999
     },
-    "(2007) There Will Be Blood": {
+    "There Will Be Blood": {
       "Minutes": 158,
       "Id": "20Z2",
-      "Poster": "/fa0RDkAlCec0STeMNAhPaF89q6U.jpg"
+      "Poster": "/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+      "Year": 2007
     },
-    "(2001) Ali": {
+    "Ali": {
       "Minutes": 157,
       "Id": "205e",
-      "Poster": "/egzfj0JpgrVfpMXF4tfHpzEYM70.jpg"
+      "Poster": "/egzfj0JpgrVfpMXF4tfHpzEYM70.jpg",
+      "Year": 2001
     },
-    "(2005) Harry Potter and the Goblet of Fire": {
+    "Harry Potter and the Goblet of Fire": {
       "Minutes": 157,
       "Id": "29Qo",
-      "Poster": "/fECBtHlr0RB3foNHDiCBXeg9Bv9.jpg"
+      "Poster": "/fECBtHlr0RB3foNHDiCBXeg9Bv9.jpg",
+      "Year": 2005
     },
-    "(2015) The Revenant": {
+    "The Revenant": {
       "Minutes": 157,
       "Id": "8H5e",
-      "Poster": "/tSaBkriE7TpbjFoQUFXuikoz0dF.jpg"
+      "Poster": "/tSaBkriE7TpbjFoQUFXuikoz0dF.jpg",
+      "Year": 2015
     },
-    "(2012) Zero Dark Thirty": {
+    "Zero Dark Thirty": {
       "Minutes": 157,
       "Id": "3n1w",
-      "Poster": "/coeTvXKAYZlrcIfsCfYV5Hw1npu.jpg"
+      "Poster": "/coeTvXKAYZlrcIfsCfYV5Hw1npu.jpg",
+      "Year": 2012
     },
-    "(2004) Downfall": {
+    "Downfall": {
       "Minutes": 155,
       "Id": "2a04",
-      "Poster": "/cP1ElGjBhbZAAqmueXjHDKlSwiP.jpg"
+      "Poster": "/cP1ElGjBhbZAAqmueXjHDKlSwiP.jpg",
+      "Year": 2004
     },
-    "(2000) Gladiator": {
+    "Gladiator": {
       "Minutes": 155,
       "Id": "2b9m",
-      "Poster": "/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg"
+      "Poster": "/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+      "Year": 2000
     },
-    "(1997) Jackie Brown": {
+    "Jackie Brown": {
       "Minutes": 154,
       "Id": "2aVO",
-      "Poster": "/ewbLUXvm4riZL0aepy90o0vMesn.jpg"
+      "Poster": "/ewbLUXvm4riZL0aepy90o0vMesn.jpg",
+      "Year": 1997
     },
-    "(1962) Lolita": {
+    "Lolita": {
       "Minutes": 154,
       "Id": "29Ag",
-      "Poster": "/8Puqbeh0D95DpXFWep1rmH78btu.jpg"
+      "Poster": "/8Puqbeh0D95DpXFWep1rmH78btu.jpg",
+      "Year": 1962
     },
-    "(1994) Pulp Fiction": {
+    "Pulp Fiction": {
       "Minutes": 154,
       "Id": "29Pq",
-      "Poster": "/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg"
+      "Poster": "/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+      "Year": 1994
     },
-    "(2019) Ford v Ferrari": {
+    "Ford v Ferrari": {
       "Minutes": 153,
       "Id": "ce74",
-      "Poster": "/dR1Ju50iudrOh3YgfwkAU1g2HZe.jpg"
+      "Poster": "/dR1Ju50iudrOh3YgfwkAU1g2HZe.jpg",
+      "Year": 2019
     },
-    "(2009) Harry Potter and the Half-Blood Prince": {
+    "Harry Potter and the Half-Blood Prince": {
       "Minutes": 153,
       "Id": "29FU",
-      "Poster": "/z7uo9zmQdQwU5ZJHFpv2Upl30i1.jpg"
+      "Poster": "/z7uo9zmQdQwU5ZJHFpv2Upl30i1.jpg",
+      "Year": 2009
     },
-    "(2009) Inglourious Basterds": {
+    "Inglourious Basterds": {
       "Minutes": 153,
       "Id": "1JzG",
-      "Poster": "/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg"
+      "Poster": "/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg",
+      "Year": 2009
     },
-    "(2001) Harry Potter and the Philosopher's Stone": {
+    "Harry Potter and the Philosopher's Stone": {
       "Minutes": 152,
       "Id": "29QS",
-      "Poster": "/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg"
+      "Poster": "/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
+      "Year": 2001
     },
-    "(2008) The Dark Knight": {
+    "The Dark Knight": {
       "Minutes": 152,
       "Id": "2b0k",
-      "Poster": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+      "Poster": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "Year": 2008
     },
-    "(1998) Armageddon": {
+    "Armageddon": {
       "Minutes": 151,
       "Id": "2b9Q",
-      "Poster": "/eTM3qtGhDU8cvjpoa6KEt5E2auU.jpg"
+      "Poster": "/eTM3qtGhDU8cvjpoa6KEt5E2auU.jpg",
+      "Year": 1998
     },
-    "(2002) The Pianist": {
+    "The Pianist": {
       "Minutes": 150,
       "Id": "2aqc",
-      "Poster": "/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg"
+      "Poster": "/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg",
+      "Year": 2002
     },
-    "(1968) 2001: A Space Odyssey": {
+    "2001: A Space Odyssey": {
       "Minutes": 149,
       "Id": "2bf0",
-      "Poster": "/ve72VxNqjGM69Uky4WTo2bK6rfq.jpg"
+      "Poster": "/ve72VxNqjGM69Uky4WTo2bK6rfq.jpg",
+      "Year": 1968
     },
-    "(2024) Furiosa: A Mad Max Saga": {
+    "Furiosa: A Mad Max Saga": {
       "Minutes": 149,
       "Id": "tABk",
-      "Poster": "/iADOJ8Zymht2JPMoy3R7xceZprc.jpg"
+      "Poster": "/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
+      "Year": 2024
     },
-    "(2010) Inception": {
+    "Inception": {
       "Minutes": 148,
       "Id": "1skk",
-      "Poster": "/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg"
+      "Poster": "/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg",
+      "Year": 2010
     },
-    "(2007) Into the Wild": {
+    "Into the Wild": {
       "Minutes": 148,
       "Id": "22m2",
-      "Poster": "/2MSGZEE6XZd2r4ODNziwAw7Hpw0.jpg"
+      "Poster": "/2MSGZEE6XZd2r4ODNziwAw7Hpw0.jpg",
+      "Year": 2007
     },
-    "(1979) Apocalypse Now": {
+    "Apocalypse Now": {
       "Minutes": 147,
       "Id": "6ZS",
-      "Poster": "/gQB8Y5RCMkv2zwzFHbUJX3kAhvA.jpg"
+      "Poster": "/gQB8Y5RCMkv2zwzFHbUJX3kAhvA.jpg",
+      "Year": 1979
     },
-    "(2019) Midsommar": {
+    "Midsommar": {
       "Minutes": 147,
       "Id": "jhxe",
-      "Poster": "/7LEI8ulZzO5gy9Ww2NVCrKmHeDZ.jpg"
+      "Poster": "/7LEI8ulZzO5gy9Ww2NVCrKmHeDZ.jpg",
+      "Year": 2019
     },
-    "(2015) Straight Outta Compton": {
+    "Straight Outta Compton": {
       "Minutes": 147,
       "Id": "8rMc",
-      "Poster": "/9B63hMwU6iICtNDTISCaZQ5US7R.jpg"
+      "Poster": "/9B63hMwU6iICtNDTISCaZQ5US7R.jpg",
+      "Year": 2015
     },
-    "(2000) Traffic": {
+    "Traffic": {
       "Minutes": 147,
       "Id": "27Ue",
-      "Poster": "/jbccmnqE4oAPI67bApgt2JiRPz8.jpg"
+      "Poster": "/jbccmnqE4oAPI67bApgt2JiRPz8.jpg",
+      "Year": 2000
     },
-    "(2022) Triangle of Sadness": {
+    "Triangle of Sadness": {
       "Minutes": 147,
       "Id": "hXlq",
-      "Poster": "/k9eLozCgCed5FGTSdHu0bBElAV8.jpg"
+      "Poster": "/k9eLozCgCed5FGTSdHu0bBElAV8.jpg",
+      "Year": 2022
     },
-    "(2001) A.I. Artificial Intelligence": {
+    "A.I. Artificial Intelligence": {
       "Minutes": 146,
       "Id": "29Ve",
-      "Poster": "/zxUhHQxKRbVLsaHR1V81SWYADOl.jpg"
+      "Poster": "/zxUhHQxKRbVLsaHR1V81SWYADOl.jpg",
+      "Year": 2001
     },
-    "(2010) Harry Potter and the Deathly Hallows: Part 1": {
+    "Harry Potter and the Deathly Hallows: Part 1": {
       "Minutes": 146,
       "Id": "1RYu",
-      "Poster": "/iGoXIpQb7Pot00EEdwpwPajheZ5.jpg"
+      "Poster": "/iGoXIpQb7Pot00EEdwpwPajheZ5.jpg",
+      "Year": 2010
     },
-    "(2011) The Help": {
+    "The Help": {
       "Minutes": 146,
       "Id": "EDm",
-      "Poster": "/7XLSwxpfpPoJyTdJVot6a42TS2V.jpg"
+      "Poster": "/7XLSwxpfpPoJyTdJVot6a42TS2V.jpg",
+      "Year": 2011
     },
-    "(2013) The Hunger Games: Catching Fire": {
+    "The Hunger Games: Catching Fire": {
       "Minutes": 146,
       "Id": "3sAw",
-      "Poster": "/v9qVkyS58WHdfrcEq0dxUJFKS9n.jpg"
+      "Poster": "/v9qVkyS58WHdfrcEq0dxUJFKS9n.jpg",
+      "Year": 2013
     },
-    "(2001) Black Hawk Down": {
+    "Black Hawk Down": {
       "Minutes": 145,
       "Id": "29rI",
-      "Poster": "/7fU5dSqKRL4XHeEUz62rCKBfYok.jpg"
+      "Poster": "/7fU5dSqKRL4XHeEUz62rCKBfYok.jpg",
+      "Year": 2001
     },
-    "(1990) GoodFellas": {
+    "GoodFellas": {
       "Minutes": 145,
       "Id": "29FA",
-      "Poster": "/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg"
+      "Poster": "/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
+      "Year": 1990
     },
-    "(1996) Independence Day": {
+    "Independence Day": {
       "Minutes": 145,
       "Id": "2a1w",
-      "Poster": "/p0BPQGSPoSa8Ml0DAf2mB2kCU0R.jpg"
+      "Poster": "/p0BPQGSPoSa8Ml0DAf2mB2kCU0R.jpg",
+      "Year": 1996
     },
-    "(2002) Minority Report": {
+    "Minority Report": {
       "Minutes": 145,
       "Id": "2aWi",
-      "Poster": "/qtgFcnwh9dAFLocsDk2ySDVS8UF.jpg"
+      "Poster": "/qtgFcnwh9dAFLocsDk2ySDVS8UF.jpg",
+      "Year": 2002
     },
-    "(2016) The Handmaiden": {
+    "The Handmaiden": {
       "Minutes": 145,
       "Id": "948A",
-      "Poster": "/dLlH4aNHdnmf62umnInL8xPlPzw.jpg"
+      "Poster": "/dLlH4aNHdnmf62umnInL8xPlPzw.jpg",
+      "Year": 2016
     },
-    "(2006) Casino Royale": {
+    "Casino Royale": {
       "Minutes": 144,
       "Id": "1alk",
-      "Poster": "/lMrxYKKhd4lqRzwUHAy5gcx9PSO.jpg"
+      "Poster": "/lMrxYKKhd4lqRzwUHAy5gcx9PSO.jpg",
+      "Year": 2006
     },
-    "(1968) Chitty Chitty Bang Bang": {
+    "Chitty Chitty Bang Bang": {
       "Minutes": 144,
       "Id": "1Tbu",
-      "Poster": "/qoihSE1zxxDSBWCi5oz910IToDY.jpg"
+      "Poster": "/qoihSE1zxxDSBWCi5oz910IToDY.jpg",
+      "Year": 1968
     },
-    "(2023) Society of the Snow": {
+    "Society of the Snow": {
       "Minutes": 144,
       "Id": "y9aw",
-      "Poster": "/2e853FDVSIso600RqAMunPxiZjq.jpg"
+      "Poster": "/2e853FDVSIso600RqAMunPxiZjq.jpg",
+      "Year": 2023
     },
-    "(1980) The Shining": {
+    "The Shining": {
       "Minutes": 144,
       "Id": "29Nu",
-      "Poster": "/xazWoLealQwEgqZ89MLZklLZD3k.jpg"
+      "Poster": "/xazWoLealQwEgqZ89MLZklLZD3k.jpg",
+      "Year": 1980
     },
-    "(2007) Transformers": {
+    "Transformers": {
       "Minutes": 144,
       "Id": "280c",
-      "Poster": "/1P7w3AImoEOWJX7nn3fdaKDfEQA.jpg"
+      "Poster": "/1P7w3AImoEOWJX7nn3fdaKDfEQA.jpg",
+      "Year": 2007
     },
-    "(2000) Cast Away": {
+    "Cast Away": {
       "Minutes": 143,
       "Id": "20i8",
-      "Poster": "/7lLJgKnAicAcR5UEuo8xhSMj18w.jpg"
+      "Poster": "/7lLJgKnAicAcR5UEuo8xhSMj18w.jpg",
+      "Year": 2000
     },
-    "(2003) Pirates of the Caribbean: The Curse of the Black Pearl": {
+    "Pirates of the Caribbean: The Curse of the Black Pearl": {
       "Minutes": 143,
       "Id": "70G",
-      "Poster": "/poHwCZeWzJCShH7tOjg8RIoyjcw.jpg"
+      "Poster": "/poHwCZeWzJCShH7tOjg8RIoyjcw.jpg",
+      "Year": 2003
     },
-    "(1991) Robin Hood: Prince of Thieves": {
+    "Robin Hood: Prince of Thieves": {
       "Minutes": 143,
       "Id": "20hu",
-      "Poster": "/hbRnWUNJkKKVN5mkcuC5ooqjE4e.jpg"
+      "Poster": "/hbRnWUNJkKKVN5mkcuC5ooqjE4e.jpg",
+      "Year": 1991
     },
-    "(1973) The Day of the Jackal": {
+    "The Day of the Jackal": {
       "Minutes": 143,
       "Id": "23GM",
-      "Poster": "/vThgcb3JOj99yETg8WChuci4LV2.jpg"
+      "Poster": "/vThgcb3JOj99yETg8WChuci4LV2.jpg",
+      "Year": 1973
     },
-    "(2013) The Great Gatsby": {
+    "The Great Gatsby": {
       "Minutes": 143,
       "Id": "JY",
-      "Poster": "/tyxfCBQv6Ap74jcu3xd7aBiaa29.jpg"
+      "Poster": "/tyxfCBQv6Ap74jcu3xd7aBiaa29.jpg",
+      "Year": 2013
     },
-    "(1985) Come and See": {
+    "Come and See": {
       "Minutes": 142,
       "Id": "1w9q",
-      "Poster": "/qNbMsKVzigERgJUbwf8pKyZogpb.jpg"
+      "Poster": "/qNbMsKVzigERgJUbwf8pKyZogpb.jpg",
+      "Year": 1985
     },
-    "(1994) Forrest Gump": {
+    "Forrest Gump": {
       "Minutes": 142,
       "Id": "728",
-      "Poster": "/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg"
+      "Poster": "/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+      "Year": 1994
     },
-    "(2023) Poor Things": {
+    "Poor Things": {
       "Minutes": 142,
       "Id": "tNWU",
-      "Poster": "/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg"
+      "Poster": "/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg",
+      "Year": 2023
     },
-    "(1996) Secrets \u0026 Lies": {
+    "Secrets \u0026 Lies": {
       "Minutes": 142,
       "Id": "1UuC",
-      "Poster": "/zQBuRQ3hrLhkEsXcxteUxuxLrvs.jpg"
+      "Poster": "/zQBuRQ3hrLhkEsXcxteUxuxLrvs.jpg",
+      "Year": 1996
     },
-    "(2012) The Hunger Games": {
+    "The Hunger Games": {
       "Minutes": 142,
       "Id": "2uds",
-      "Poster": "/yXCbOiVDCxO71zI7cuwBRXdftq8.jpg"
+      "Poster": "/yXCbOiVDCxO71zI7cuwBRXdftq8.jpg",
+      "Year": 2012
     },
-    "(1994) The Shawshank Redemption": {
+    "The Shawshank Redemption": {
       "Minutes": 142,
       "Id": "2aHi",
-      "Poster": "/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg"
+      "Poster": "/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+      "Year": 1994
     },
-    "(2002) Catch Me If You Can": {
+    "Catch Me If You Can": {
       "Minutes": 141,
       "Id": "29VS",
-      "Poster": "/ctjEj2xM32OvBXCq8zAdK3ZrsAj.jpg"
+      "Poster": "/ctjEj2xM32OvBXCq8zAdK3ZrsAj.jpg",
+      "Year": 2002
     },
-    "(2008) Changeling": {
+    "Changeling": {
       "Minutes": 141,
       "Id": "25aS",
-      "Poster": "/iECXjFF8JkTnNJvik14WbPpc9s9.jpg"
+      "Poster": "/iECXjFF8JkTnNJvik14WbPpc9s9.jpg",
+      "Year": 2008
     },
-    "(2004) Harry Potter and the Prisoner of Azkaban": {
+    "Harry Potter and the Prisoner of Azkaban": {
       "Minutes": 141,
       "Id": "29Qy",
-      "Poster": "/aWxwnYoe8p2d2fcxOqtvAtJ72Rw.jpg"
+      "Poster": "/aWxwnYoe8p2d2fcxOqtvAtJ72Rw.jpg",
+      "Year": 2004
     },
-    "(1991) Hook": {
+    "Hook": {
       "Minutes": 141,
       "Id": "29nQ",
-      "Poster": "/a6rB1lGXoGms7gWxRfJneQmAjNV.jpg"
+      "Poster": "/a6rB1lGXoGms7gWxRfJneQmAjNV.jpg",
+      "Year": 1991
     },
-    "(2015) The Martian": {
+    "The Martian": {
       "Minutes": 141,
       "Id": "8SeG",
-      "Poster": "/5BHuvQ6p9kfc091Z8RiFNhCwL4b.jpg"
+      "Poster": "/5BHuvQ6p9kfc091Z8RiFNhCwL4b.jpg",
+      "Year": 2015
     },
-    "(1995) Apollo 13": {
+    "Apollo 13": {
       "Minutes": 140,
       "Id": "2a6G",
-      "Poster": "/kzj95o9FlVxKziQq36mjES3wxel.jpg"
+      "Poster": "/kzj95o9FlVxKziQq36mjES3wxel.jpg",
+      "Year": 1995
     },
-    "(2005) Batman Begins": {
+    "Batman Begins": {
       "Minutes": 140,
       "Id": "2aIg",
-      "Poster": "/4MpN4kIEqUjW8OPtOQJXlTdHiJV.jpg"
+      "Poster": "/4MpN4kIEqUjW8OPtOQJXlTdHiJV.jpg",
+      "Year": 2005
     },
-    "(2000) Dancer in the Dark": {
+    "Dancer in the Dark": {
       "Minutes": 140,
       "Id": "71E",
-      "Poster": "/8Wdd3fQfbbQeoSfWpHrDfaFNhBU.jpg"
+      "Poster": "/8Wdd3fQfbbQeoSfWpHrDfaFNhBU.jpg",
+      "Year": 2000
     },
-    "(2022) Glass Onion": {
+    "Glass Onion": {
       "Minutes": 140,
       "Id": "oCkK",
-      "Poster": "/vDGr1YdrlfbU9wxTOdpf3zChmv9.jpg"
+      "Poster": "/vDGr1YdrlfbU9wxTOdpf3zChmv9.jpg",
+      "Year": 2022
     },
-    "(2018) Ready Player One": {
+    "Ready Player One": {
       "Minutes": 140,
       "Id": "aZes",
-      "Poster": "/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg"
+      "Poster": "/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg",
+      "Year": 2018
     },
-    "(1999) The Talented Mr. Ripley": {
+    "The Talented Mr. Ripley": {
       "Minutes": 140,
       "Id": "2924",
-      "Poster": "/6ojHgqtIR41O2qLKa7LFUVj0cZa.jpg"
+      "Poster": "/6ojHgqtIR41O2qLKa7LFUVj0cZa.jpg",
+      "Year": 1999
     },
-    "(1994) True Lies": {
+    "True Lies": {
       "Minutes": 140,
       "Id": "19pq",
-      "Poster": "/pweFTnzzTfGK68woSVkiTgjLzWm.jpg"
+      "Poster": "/pweFTnzzTfGK68woSVkiTgjLzWm.jpg",
+      "Year": 1994
     },
-    "(1999) Fight Club": {
+    "Fight Club": {
       "Minutes": 139,
       "Id": "2a9q",
-      "Poster": "/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg"
+      "Poster": "/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+      "Year": 1999
     },
-    "(1964) Mary Poppins": {
+    "Mary Poppins": {
       "Minutes": 139,
       "Id": "2aoA",
-      "Poster": "/o4Wsby4ydIXhWmtmfvb451D5Np1.jpg"
+      "Poster": "/o4Wsby4ydIXhWmtmfvb451D5Np1.jpg",
+      "Year": 1964
     },
-    "(1997) Face/Off": {
+    "Face/Off": {
       "Minutes": 138,
       "Id": "29I0",
-      "Poster": "/69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg"
+      "Poster": "/69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg",
+      "Year": 1997
     },
-    "(2007) Harry Potter and the Order of the Phoenix": {
+    "Harry Potter and the Order of the Phoenix": {
       "Minutes": 138,
       "Id": "29Qe",
-      "Poster": "/5aOyriWkPec0zUDxmHFP9qMmBaj.jpg"
+      "Poster": "/5aOyriWkPec0zUDxmHFP9qMmBaj.jpg",
+      "Year": 2007
     },
-    "(1997) L.A. Confidential": {
+    "L.A. Confidential": {
       "Minutes": 138,
       "Id": "27oC",
-      "Poster": "/lWCgf5sD5FpMljjpkRhcC8pXcch.jpg"
+      "Poster": "/lWCgf5sD5FpMljjpkRhcC8pXcch.jpg",
+      "Year": 1997
     },
-    "(2016) Manchester by the Sea": {
+    "Manchester by the Sea": {
       "Minutes": 138,
       "Id": "b2L0",
-      "Poster": "/e8daDzP0vFOnGyKmve95Yv0D0io.jpg"
+      "Poster": "/e8daDzP0vFOnGyKmve95Yv0D0io.jpg",
+      "Year": 2016
     },
-    "(2003) Mystic River": {
+    "Mystic River": {
       "Minutes": 138,
       "Id": "2aAG",
-      "Poster": "/hCHVDbo6XJGj3r2i4hVjKhE0GKF.jpg"
+      "Poster": "/hCHVDbo6XJGj3r2i4hVjKhE0GKF.jpg",
+      "Year": 2003
     },
-    "(2014) Noah": {
+    "Noah": {
       "Minutes": 138,
       "Id": "34QA",
-      "Poster": "/trtD17IqSWV9Nbn4OILztc9GuCX.jpg"
+      "Poster": "/trtD17IqSWV9Nbn4OILztc9GuCX.jpg",
+      "Year": 2014
     },
-    "(1968) Romeo and Juliet": {
+    "Romeo and Juliet": {
       "Minutes": 138,
       "Id": "22cQ",
-      "Poster": "/vaBQKLbSWkXGTOlsz9ARdJP4lvg.jpg"
+      "Poster": "/vaBQKLbSWkXGTOlsz9ARdJP4lvg.jpg",
+      "Year": 1968
     },
-    "(2010) Shutter Island": {
+    "Shutter Island": {
       "Minutes": 138,
       "Id": "1U82",
-      "Poster": "/4GDy0PHYX3VRXUtwK5ysFbg3kEx.jpg"
+      "Poster": "/4GDy0PHYX3VRXUtwK5ysFbg3kEx.jpg",
+      "Year": 2010
     },
-    "(2003) The Matrix Reloaded": {
+    "The Matrix Reloaded": {
       "Minutes": 138,
       "Id": "2a1c",
-      "Poster": "/9TGHDvWrqKBzwDxDodHYXEmOE6J.jpg"
+      "Poster": "/9TGHDvWrqKBzwDxDodHYXEmOE6J.jpg",
+      "Year": 2003
     },
-    "(1971) A Clockwork Orange": {
+    "A Clockwork Orange": {
       "Minutes": 137,
       "Id": "2aVE",
-      "Poster": "/4sHeTAp65WrSSuc05nRBKddhBxO.jpg"
+      "Poster": "/4sHeTAp65WrSSuc05nRBKddhBxO.jpg",
+      "Year": 1971
     },
-    "(1986) Aliens": {
+    "Aliens": {
       "Minutes": 137,
       "Id": "29PA",
-      "Poster": "/r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg"
+      "Poster": "/r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg",
+      "Year": 1986
     }
   },
   "NewestReleasedFilms": {
@@ -9443,6 +9585,11 @@ var data = {
       "When": "2022-02-01",
       "Id": "opUg",
       "Poster": "/ugIdyvtAzHWOguD91UjHKoAvfum.jpg"
+    },
+    "The Lost Daughter ": {
+      "When": "2021-12-15",
+      "Id": "kgww",
+      "Poster": "/t1oLNRFixpFOVsyz1HCqCUW3wiW.jpg"
     },
     "Last Night in Soho ": {
       "When": "2021-10-21",
@@ -9743,11 +9890,6 @@ var data = {
       "When": "2017-12-01",
       "Id": "dZ5m",
       "Poster": "/9zfwPffUXpBrEP26yp0q1ckXDcj.jpg"
-    },
-    "Three Billboards Outside Ebbing, Missouri ": {
-      "When": "2017-12-01",
-      "Id": "ceBS",
-      "Poster": "/pZRhqJj0DBy4ghB7g6pU7MGHsWJ.jpg"
     }
   },
   "OldestReleasedFilms": {
@@ -9820,6 +9962,11 @@ var data = {
       "When": "1928-04-21",
       "Id": "29DO",
       "Poster": "/8OYGtQlO8k9PcOm49apV62eVJQo.jpg"
+    },
+    "Steamboat Willie ": {
+      "When": "1928-11-18",
+      "Id": "wgk",
+      "Poster": "/rjgjDtdz41ZgzhYsZQY6HPqz6Js.jpg"
     },
     "Frankenstein ": {
       "When": "1931-11-21",
@@ -10245,19 +10392,14 @@ var data = {
       "When": "1982-06-25",
       "Id": "294O",
       "Poster": "/tzGY49kseSE9QAKk47uuDGwnSCu.jpg"
-    },
-    "Fast Times at Ridgemont High ": {
-      "When": "1982-08-13",
-      "Id": "1QnM",
-      "Poster": "/s1DA8H7qwoOcAEhow2rCzuQtpuO.jpg"
     }
   },
   "FilmsPerThirtyMinutes": {
-    "0": 16,
+    "0": 17,
     "30": 12,
     "60": 128,
-    "90": 483,
-    "120": 214,
+    "90": 484,
+    "120": 216,
     "150": 32,
     "180": 8,
     "210": 1
@@ -10267,8 +10409,8 @@ var data = {
     "Cantonese": 1,
     "Czech": 2,
     "Danish": 1,
-    "English": 816,
-    "French": 21,
+    "English": 818,
+    "French": 22,
     "German": 4,
     "Hungarian": 1,
     "Irish": 1,
@@ -10276,7 +10418,7 @@ var data = {
     "Japanese": 9,
     "Korean": 5,
     "Mandarin": 1,
-    "No Spoken Language": 18,
+    "No Spoken Language": 19,
     "Portuguese": 2,
     "Russian": 2,
     "Spanish": 3,
@@ -10297,16 +10439,17 @@ var data = {
     "Egypt": 1,
     "Ethiopia": 1,
     "Finland": 2,
-    "France": 79,
+    "France": 80,
     "Germany": 61,
     "Ghana": 1,
-    "Greece": 3,
+    "Greece": 4,
     "Hong Kong": 6,
     "Hungary": 3,
     "Iceland": 2,
     "India": 4,
     "Indonesia": 1,
     "Ireland": 11,
+    "Israel": 1,
     "Italy": 15,
     "Japan": 13,
     "Jordan": 2,
@@ -10336,14 +10479,14 @@ var data = {
     "Turkey": 2,
     "Ukraine": 2,
     "United Arab Emirates": 2,
-    "United Kingdom": 232,
-    "United States of America": 774
+    "United Kingdom": 234,
+    "United States of America": 777
   },
   "Backdrops": [
     {
-      "ImageUrl": "/zb6fM1CX41D9rF9hdgclu0peUmy.jpg",
-      "FilmName": "Schindler's List (1993)",
-      "LetterboxdId": "2aq2"
+      "ImageUrl": "/zkBVUPzn7An2CUSS5lgp21fnbDv.jpg",
+      "FilmName": "Jason and the Argonauts\u003Cbr/\u003E(1963)",
+      "LetterboxdId": "1TCK"
     }
   ],
   "Lists": [
@@ -11464,6 +11607,24 @@ var data = {
           "LetterboxdIdentifier": "kO1W",
           "PrimaryLanguage": "German",
           "PosterUrl": "/YqbeGd7ojtxRukKhvoq6Bgf4t8.jpg",
+          "Rating": 4
+        },
+        {
+          "Order": 125,
+          "FilmName": "The Lost Daughter",
+          "Year": 2021,
+          "LetterboxdIdentifier": "kgww",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/t1oLNRFixpFOVsyz1HCqCUW3wiW.jpg",
+          "Rating": 4
+        },
+        {
+          "Order": 126,
+          "FilmName": "Girlhood",
+          "Year": 2014,
+          "LetterboxdIdentifier": "7WyI",
+          "PrimaryLanguage": "French",
+          "PosterUrl": "/qZ52DlSVguX0WHYoiOD464IIONd.jpg",
           "Rating": 4
         }
       ]
