@@ -1,13 +1,13 @@
 var data = {
   "LastUpdated": "19 Aug 2024",
   "Username": "LaLunaLlena",
-  "TotalFilms": 899,
-  "RatedFilms": 232,
-  "FilmsWithGenres": 898,
-  "TotalMinutes": 96764,
-  "FilmsWithRuntime": 897,
-  "TotalMinutesFull": 95731,
-  "FilmsWithRuntimeFull": 866,
+  "TotalFilms": 901,
+  "RatedFilms": 234,
+  "FilmsWithGenres": 900,
+  "TotalMinutes": 96914,
+  "FilmsWithRuntime": 899,
+  "TotalMinutesFull": 95831,
+  "FilmsWithRuntimeFull": 867,
   "Genres": {
     "Action": {
       "Count": 158,
@@ -25,9 +25,9 @@ var data = {
       "RatingTotal": 16
     },
     "Comedy": {
-      "Count": 278,
-      "RatingCount": 52,
-      "RatingTotal": 170
+      "Count": 279,
+      "RatingCount": 53,
+      "RatingTotal": 173
     },
     "Crime": {
       "Count": 166,
@@ -40,9 +40,9 @@ var data = {
       "RatingTotal": 31
     },
     "Drama": {
-      "Count": 447,
-      "RatingCount": 153,
-      "RatingTotal": 585
+      "Count": 449,
+      "RatingCount": 155,
+      "RatingTotal": 589
     },
     "Family": {
       "Count": 75,
@@ -60,9 +60,9 @@ var data = {
       "RatingTotal": 54
     },
     "Horror": {
-      "Count": 93,
-      "RatingCount": 33,
-      "RatingTotal": 112
+      "Count": 94,
+      "RatingCount": 34,
+      "RatingTotal": 113
     },
     "Music": {
       "Count": 13,
@@ -70,9 +70,9 @@ var data = {
       "RatingTotal": 19
     },
     "Mystery": {
-      "Count": 79,
-      "RatingCount": 17,
-      "RatingTotal": 65
+      "Count": 80,
+      "RatingCount": 18,
+      "RatingTotal": 68
     },
     "Romance": {
       "Count": 121,
@@ -90,9 +90,9 @@ var data = {
       "RatingTotal": 162
     },
     "TV Movie": {
-      "Count": 7,
-      "RatingCount": 2,
-      "RatingTotal": 6
+      "Count": 8,
+      "RatingCount": 3,
+      "RatingTotal": 7
     },
     "War": {
       "Count": 29,
@@ -105,12 +105,12 @@ var data = {
       "RatingTotal": 9
     }
   },
-  "DirectorTotalAll": 979,
-  "DirectorTotalFemale": 89,
+  "DirectorTotalAll": 981,
+  "DirectorTotalFemale": 91,
   "DirectorTotalMale": 856,
   "DirectorTotalNonBinary": 1,
-  "DirectorUniqueAll": 651,
-  "DirectorUniqueFemale": 72,
+  "DirectorUniqueAll": 653,
+  "DirectorUniqueFemale": 74,
   "DirectorUniqueMale": 549,
   "DirectorUniqueNonBinary": 1,
   "DirectorAll": [
@@ -1097,6 +1097,11 @@ var data = {
       "Poster": "/knXjYHcC89uq6TDzeK4xsXLhZds.jpg"
     },
     {
+      "FullName": "Krist\u00EDn J\u00F3hannesd\u00F3ttir",
+      "Amount": 1,
+      "Poster": "/oPInvQnega9K2XNDrzG1MzNygNY.jpg"
+    },
+    {
       "FullName": "Laura Wandel",
       "Amount": 1,
       "Poster": "/wn1zsTTQEyQmMO3Fq7M6SMmk6X5.jpg"
@@ -1250,6 +1255,11 @@ var data = {
       "FullName": "Susanne Bier",
       "Amount": 1,
       "Poster": "/tVp2J7hMAgJnaXtQojFN3VTVYaY.jpg"
+    },
+    {
+      "FullName": "Thea Sharrock",
+      "Amount": 1,
+      "Poster": "/qFfzWqgNnAuYW1OZWQci4smF49F.jpg"
     },
     {
       "FullName": "Valerie Faris",
@@ -2006,8 +2016,8 @@ var data = {
       "Poster": "/gxIYGT158X46OwvahhYoakS5LP0.jpg"
     }
   ],
-  "ProtagonistTotalAll": 894,
-  "ProtagonistTotalFemale": 250,
+  "ProtagonistTotalAll": 896,
+  "ProtagonistTotalFemale": 252,
   "ProtagonistTotalMale": 627,
   "ProtagonistTotalNonBinary": 5,
   "ProtagonistUniqueAll": 577,
@@ -2211,6 +2221,11 @@ var data = {
       "Poster": "/nnCsJc9x3ZiG3AFyiyc3FPehppy.jpg"
     },
     {
+      "FullName": "Bj\u00F6rk",
+      "Amount": 3,
+      "Poster": "/Ahc3TWomYakLcbqZRVBDdf3rhMR.jpg"
+    },
+    {
       "FullName": "Brad Pitt",
       "Amount": 3,
       "Poster": "/ajNaPmXVVMJFg9GWmu6MJzTaXdV.jpg"
@@ -2409,11 +2424,6 @@ var data = {
       "FullName": "Ben Stiller",
       "Amount": 2,
       "Poster": "/scgpxhI05JpdNXXfmpK6z0rPOWN.jpg"
-    },
-    {
-      "FullName": "Bj\u00F6rk",
-      "Amount": 2,
-      "Poster": "/Ahc3TWomYakLcbqZRVBDdf3rhMR.jpg"
     },
     {
       "FullName": "Bradley Cooper",
@@ -2631,6 +2641,11 @@ var data = {
       "Poster": "/edPU5HxncLWa1YkgRPNkSd68ONG.jpg"
     },
     {
+      "FullName": "Olivia Colman",
+      "Amount": 2,
+      "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg"
+    },
+    {
       "FullName": "Paul Giamatti",
       "Amount": 2,
       "Poster": "/ayEWNIXLVNYOrZQsNXrtlZTIZM8.jpg"
@@ -2758,6 +2773,11 @@ var data = {
       "Poster": "/6qeCvOF1K88nKqZfzaWYESo0CwW.jpg"
     },
     {
+      "FullName": "Bj\u00F6rk",
+      "Amount": 3,
+      "Poster": "/Ahc3TWomYakLcbqZRVBDdf3rhMR.jpg"
+    },
+    {
       "FullName": "Ellen Burstyn",
       "Amount": 3,
       "Poster": "/wjxo9Yw8ZoKewcRlHShfTIZGVQF.jpg"
@@ -2796,11 +2816,6 @@ var data = {
       "FullName": "Audrey Tautou",
       "Amount": 2,
       "Poster": "/moh0My0K3BP4d6AZx7jkPKqRORT.jpg"
-    },
-    {
-      "FullName": "Bj\u00F6rk",
-      "Amount": 2,
-      "Poster": "/Ahc3TWomYakLcbqZRVBDdf3rhMR.jpg"
     },
     {
       "FullName": "Brie Larson",
@@ -2861,6 +2876,11 @@ var data = {
       "FullName": "Natalie Portman",
       "Amount": 2,
       "Poster": "/edPU5HxncLWa1YkgRPNkSd68ONG.jpg"
+    },
+    {
+      "FullName": "Olivia Colman",
+      "Amount": 2,
+      "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg"
     },
     {
       "FullName": "Rachel Sennott",
@@ -3543,11 +3563,6 @@ var data = {
       "Poster": "/1j05cOkkSvoTHp6vOOLbSzGHKr1.jpg"
     },
     {
-      "FullName": "Olivia Colman",
-      "Amount": 1,
-      "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg"
-    },
-    {
       "FullName": "Olivia Cooke",
       "Amount": 1,
       "Poster": "/4Sm50Z6hmaoVw9a33OoyF33OuVv.jpg"
@@ -4202,13 +4217,13 @@ var data = {
       "Poster": "/lSmrN828nMMXHvwr7IgO1qlYPSa.jpg"
     }
   ],
-  "TopCastTotalAll": 2630,
-  "TopCastTotalFemale": 935,
-  "TopCastTotalMale": 1624,
+  "TopCastTotalAll": 2636,
+  "TopCastTotalFemale": 939,
+  "TopCastTotalMale": 1625,
   "TopCastTotalNonBinary": 9,
-  "TopCastUniqueAll": 1693,
-  "TopCastUniqueFemale": 632,
-  "TopCastUniqueMale": 995,
+  "TopCastUniqueAll": 1696,
+  "TopCastUniqueFemale": 633,
+  "TopCastUniqueMale": 996,
   "TopCastUniqueNonBinary": 5,
   "TopCastAll": [
     {
@@ -4412,6 +4427,11 @@ var data = {
       "Poster": "/edPU5HxncLWa1YkgRPNkSd68ONG.jpg"
     },
     {
+      "FullName": "Olivia Colman",
+      "Amount": 6,
+      "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg"
+    },
+    {
       "FullName": "Ryan Gosling",
       "Amount": 6,
       "Poster": "/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg"
@@ -4520,11 +4540,6 @@ var data = {
       "FullName": "Michael Fassbender",
       "Amount": 5,
       "Poster": "/xvbnUiB2ZBR3QIt595OzNy657Vw.jpg"
-    },
-    {
-      "FullName": "Olivia Colman",
-      "Amount": 5,
-      "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg"
     },
     {
       "FullName": "Ralph Fiennes",
@@ -4804,6 +4819,11 @@ var data = {
       "Poster": "/edPU5HxncLWa1YkgRPNkSd68ONG.jpg"
     },
     {
+      "FullName": "Olivia Colman",
+      "Amount": 6,
+      "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg"
+    },
+    {
       "FullName": "Scarlett Johansson",
       "Amount": 6,
       "Poster": "/3JTEc2tGUact9c0WktvpeJ9pajn.jpg"
@@ -4842,11 +4862,6 @@ var data = {
       "FullName": "Julia Roberts",
       "Amount": 5,
       "Poster": "/oasXvk3um0eJ9p0EMGgwKhH4Jtp.jpg"
-    },
-    {
-      "FullName": "Olivia Colman",
-      "Amount": 5,
-      "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg"
     },
     {
       "FullName": "Reese Witherspoon",
@@ -4927,6 +4942,11 @@ var data = {
       "FullName": "Aubrey Plaza",
       "Amount": 3,
       "Poster": "/6qeCvOF1K88nKqZfzaWYESo0CwW.jpg"
+    },
+    {
+      "FullName": "Bj\u00F6rk",
+      "Amount": 3,
+      "Poster": "/Ahc3TWomYakLcbqZRVBDdf3rhMR.jpg"
     },
     {
       "FullName": "Carey Mulligan",
@@ -5129,11 +5149,6 @@ var data = {
       "Poster": "/moh0My0K3BP4d6AZx7jkPKqRORT.jpg"
     },
     {
-      "FullName": "Bj\u00F6rk",
-      "Amount": 2,
-      "Poster": "/Ahc3TWomYakLcbqZRVBDdf3rhMR.jpg"
-    },
-    {
       "FullName": "Brenda Blethyn",
       "Amount": 2,
       "Poster": "/mxENo8tEvN0998PrNidYkN4wGGO.jpg"
@@ -5272,6 +5287,11 @@ var data = {
       "FullName": "Jessica Chastain",
       "Amount": 2,
       "Poster": "/vOFrDeYXILnj747dOleaNh4jK3l.jpg"
+    },
+    {
+      "FullName": "Jessie Buckley",
+      "Amount": 2,
+      "Poster": "/jKhDQOMVQ1JP4gaUXCQg75gvsrm.jpg"
     },
     {
       "FullName": "Joan Cusack",
@@ -6228,13 +6248,13 @@ var data = {
       "Poster": "/s6ulsRYtkaAArXsNC6cvinUiRNc.jpg"
     }
   ],
-  "EntireCastTotalAll": 37536,
-  "EntireCastTotalFemale": 8992,
-  "EntireCastTotalMale": 19582,
+  "EntireCastTotalAll": 37606,
+  "EntireCastTotalFemale": 9006,
+  "EntireCastTotalMale": 19605,
   "EntireCastTotalNonBinary": 24,
-  "EntireCastUniqueAll": 29471,
-  "EntireCastUniqueFemale": 7048,
-  "EntireCastUniqueMale": 13728,
+  "EntireCastUniqueAll": 29526,
+  "EntireCastUniqueFemale": 7054,
+  "EntireCastUniqueMale": 13745,
   "EntireCastUniqueNonBinary": 14,
   "EntireCastAll": [
     {
@@ -6293,6 +6313,11 @@ var data = {
       "Poster": "/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg"
     },
     {
+      "FullName": "Timothy Spall",
+      "Amount": 13,
+      "Poster": "/kcXnzkIPUHgCFtWQ7sUjQCrSIME.jpg"
+    },
+    {
       "FullName": "Alan Rickman",
       "Amount": 12,
       "Poster": "/nKl8ZRYjBJya7aj7phJUyrtSll6.jpg"
@@ -6316,11 +6341,6 @@ var data = {
       "FullName": "Michael Caine",
       "Amount": 12,
       "Poster": "/bVZRMlpjTAO2pJK6v90buFgVbSW.jpg"
-    },
-    {
-      "FullName": "Timothy Spall",
-      "Amount": 12,
-      "Poster": "/kcXnzkIPUHgCFtWQ7sUjQCrSIME.jpg"
     },
     {
       "FullName": "Bill Paxton",
@@ -6763,6 +6783,11 @@ var data = {
       "Poster": "/a7rgJl8TYUWAfJuM4fxbLHgD7BL.jpg"
     },
     {
+      "FullName": "Gemma Jones",
+      "Amount": 7,
+      "Poster": "/hFApnOEWXyE55ONGGXis6a0PPHM.jpg"
+    },
+    {
       "FullName": "George Clooney",
       "Amount": 7,
       "Poster": "/qCShMw6NW9dWcmCQrCl4tLNQwiC.jpg"
@@ -6891,6 +6916,11 @@ var data = {
       "FullName": "Natalie Portman",
       "Amount": 7,
       "Poster": "/edPU5HxncLWa1YkgRPNkSd68ONG.jpg"
+    },
+    {
+      "FullName": "Olivia Colman",
+      "Amount": 7,
+      "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg"
     },
     {
       "FullName": "Philip Seymour Hoffman",
@@ -7050,6 +7080,11 @@ var data = {
       "Poster": "/6hnYeHa7Rc1w1MmQ3JsLSIb7yCX.jpg"
     },
     {
+      "FullName": "Gemma Jones",
+      "Amount": 7,
+      "Poster": "/hFApnOEWXyE55ONGGXis6a0PPHM.jpg"
+    },
+    {
       "FullName": "Imelda Staunton",
       "Amount": 7,
       "Poster": "/95KKeFajyuRlqc65mBBKgXkXGpL.jpg"
@@ -7090,6 +7125,11 @@ var data = {
       "Poster": "/edPU5HxncLWa1YkgRPNkSd68ONG.jpg"
     },
     {
+      "FullName": "Olivia Colman",
+      "Amount": 7,
+      "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg"
+    },
+    {
       "FullName": "Reese Witherspoon",
       "Amount": 7,
       "Poster": "/c0FrFNdOnHJgFaDl4eqplZ4ljnh.jpg"
@@ -7128,11 +7168,6 @@ var data = {
       "FullName": "Franka Potente",
       "Amount": 6,
       "Poster": "/vA2puXpGOd53jKhpwlMbrqmTZqZ.jpg"
-    },
-    {
-      "FullName": "Gemma Jones",
-      "Amount": 6,
-      "Poster": "/hFApnOEWXyE55ONGGXis6a0PPHM.jpg"
     },
     {
       "FullName": "Joan Allen",
@@ -7183,11 +7218,6 @@ var data = {
       "FullName": "Michelle Williams",
       "Amount": 6,
       "Poster": "/jn3BVMVbIptz2gc6Fhxo1qwJVvW.jpg"
-    },
-    {
-      "FullName": "Olivia Colman",
-      "Amount": 6,
-      "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg"
     },
     {
       "FullName": "Zo\u00EB Bell",
@@ -7488,6 +7518,11 @@ var data = {
       "FullName": "Ashlie Atkinson",
       "Amount": 4,
       "Poster": "/odZ2gzlXX8ZVyUZSDkINkgVdcUh.jpg"
+    },
+    {
+      "FullName": "Bj\u00F6rk",
+      "Amount": 4,
+      "Poster": "/Ahc3TWomYakLcbqZRVBDdf3rhMR.jpg"
     },
     {
       "FullName": "Brenda Blethyn",
@@ -7937,6 +7972,11 @@ var data = {
       "Poster": "/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg"
     },
     {
+      "FullName": "Timothy Spall",
+      "Amount": 13,
+      "Poster": "/kcXnzkIPUHgCFtWQ7sUjQCrSIME.jpg"
+    },
+    {
       "FullName": "Alan Rickman",
       "Amount": 12,
       "Poster": "/nKl8ZRYjBJya7aj7phJUyrtSll6.jpg"
@@ -7960,11 +8000,6 @@ var data = {
       "FullName": "Michael Caine",
       "Amount": 12,
       "Poster": "/bVZRMlpjTAO2pJK6v90buFgVbSW.jpg"
-    },
-    {
-      "FullName": "Timothy Spall",
-      "Amount": 12,
-      "Poster": "/kcXnzkIPUHgCFtWQ7sUjQCrSIME.jpg"
     },
     {
       "FullName": "Bill Paxton",
@@ -8668,7 +8703,7 @@ var data = {
     "1985": 7,
     "1986": 7,
     "1987": 3,
-    "1988": 8,
+    "1988": 9,
     "1989": 7,
     "1990": 9,
     "1991": 10,
@@ -8703,7 +8738,7 @@ var data = {
     "2020": 6,
     "2021": 13,
     "2022": 15,
-    "2023": 18,
+    "2023": 19,
     "2024": 6
   },
   "FilmsWatchedPerDecade": {
@@ -8763,9 +8798,9 @@ var data = {
       "RatingTotal": 15
     },
     "1980": {
-      "Count": 47,
-      "RatingCount": 7,
-      "RatingTotal": 29
+      "Count": 48,
+      "RatingCount": 8,
+      "RatingTotal": 30
     },
     "1990": {
       "Count": 160,
@@ -8783,9 +8818,9 @@ var data = {
       "RatingTotal": 314
     },
     "2020": {
-      "Count": 58,
-      "RatingCount": 49,
-      "RatingTotal": 182
+      "Count": 59,
+      "RatingCount": 50,
+      "RatingTotal": 185
     }
   },
   "LongestFilms": {
@@ -9421,6 +9456,11 @@ var data = {
       "Id": "zN4q",
       "Poster": "/p7jyFWiLyHPttqYBFAlLJwtYTYH.jpg"
     },
+    "Wicked Little Letters ": {
+      "When": "2024-02-23",
+      "Id": "AQXU",
+      "Poster": "/scAU7YudKNVeZlOfgSEWntAUSJ.jpg"
+    },
     "All of Us Strangers ": {
       "When": "2023-12-22",
       "Id": "Bz3C",
@@ -9885,11 +9925,6 @@ var data = {
       "When": "2017-12-25",
       "Id": "e4uc",
       "Poster": "/hgoWjp9Sh0MI97eAMZCnIoVfgvq.jpg"
-    },
-    "The Shape of Water ": {
-      "When": "2017-12-01",
-      "Id": "dZ5m",
-      "Poster": "/9zfwPffUXpBrEP26yp0q1ckXDcj.jpg"
     }
   },
   "OldestReleasedFilms": {
@@ -10396,9 +10431,9 @@ var data = {
   },
   "FilmsPerThirtyMinutes": {
     "0": 17,
-    "30": 12,
+    "30": 13,
     "60": 128,
-    "90": 484,
+    "90": 485,
     "120": 216,
     "150": 32,
     "180": 8,
@@ -10409,10 +10444,11 @@ var data = {
     "Cantonese": 1,
     "Czech": 2,
     "Danish": 1,
-    "English": 818,
+    "English": 819,
     "French": 22,
     "German": 4,
     "Hungarian": 1,
+    "Icelandic": 1,
     "Irish": 1,
     "Italian": 2,
     "Japanese": 9,
@@ -10424,7 +10460,48 @@ var data = {
     "Spanish": 3,
     "Swedish": 4
   },
-  "FilmsPerCountry": {
+  "FilmsPerCountryOrigin": {
+    "Angola": 1,
+    "Argentina": 1,
+    "Australia": 12,
+    "Austria": 1,
+    "Belgium": 5,
+    "Brazil": 4,
+    "Canada": 21,
+    "China": 1,
+    "Czechia": 2,
+    "Czechoslovakia": 2,
+    "Denmark": 6,
+    "France": 34,
+    "Germany": 13,
+    "Hong Kong": 2,
+    "Hungary": 2,
+    "Iceland": 1,
+    "Ireland": 7,
+    "Italy": 3,
+    "Japan": 10,
+    "Mali": 1,
+    "Myanmar": 1,
+    "Netherlands": 3,
+    "New Zealand": 5,
+    "North Korea": 1,
+    "Philippines": 1,
+    "Russia": 1,
+    "Saudi Arabia": 2,
+    "Singapore": 2,
+    "Slovenia": 1,
+    "South Korea": 4,
+    "Soviet Union": 1,
+    "Spain": 5,
+    "Sweden": 5,
+    "Switzerland": 2,
+    "Taiwan": 1,
+    "Ukraine": 1,
+    "United Arab Emirates": 1,
+    "United Kingdom": 172,
+    "United States of America": 730
+  },
+  "FilmsPerCountryProduction": {
     "Angola": 1,
     "Argentina": 2,
     "Australia": 13,
@@ -10445,7 +10522,7 @@ var data = {
     "Greece": 4,
     "Hong Kong": 6,
     "Hungary": 3,
-    "Iceland": 2,
+    "Iceland": 3,
     "India": 4,
     "Indonesia": 1,
     "Ireland": 11,
@@ -10479,14 +10556,14 @@ var data = {
     "Turkey": 2,
     "Ukraine": 2,
     "United Arab Emirates": 2,
-    "United Kingdom": 234,
+    "United Kingdom": 235,
     "United States of America": 777
   },
   "Backdrops": [
     {
-      "ImageUrl": "/oCcRRoalUWy83x3gqhCIl6pPUAi.jpg",
-      "FilmName": "Buffalo '66\u003Cbr/\u003E(1998)",
-      "LetterboxdId": "1YC6"
+      "ImageUrl": "/5vPW6MPAyCFd84FEQQgtPDmVDPQ.jpg",
+      "FilmName": "The Grand Budapest Hotel\u003Cbr/\u003E(2014)",
+      "LetterboxdId": "3ZqO"
     }
   ],
   "Lists": [
@@ -12090,6 +12167,24 @@ var data = {
           "PrimaryLanguage": "French",
           "PosterUrl": "/qZ52DlSVguX0WHYoiOD464IIONd.jpg",
           "Rating": 4
+        },
+        {
+          "Order": 127,
+          "FilmName": "Broken Glass",
+          "Year": 1988,
+          "LetterboxdIdentifier": "eE9a",
+          "PrimaryLanguage": "Icelandic",
+          "PosterUrl": "/hnxAmuBFXCXFYmITU9MKD7Lopn4.jpg",
+          "Rating": 1
+        },
+        {
+          "Order": 128,
+          "FilmName": "Wicked Little Letters",
+          "Year": 2023,
+          "LetterboxdIdentifier": "AQXU",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/scAU7YudKNVeZlOfgSEWntAUSJ.jpg",
+          "Rating": 3
         }
       ]
     }

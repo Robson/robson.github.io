@@ -975,20 +975,20 @@
 			len = Math.floor(len);
 			var lenLabel =
 				Math.floor(len / 60) + '<span style="opacity:0.333">h</span> ' +
-				(len % 60) + '<span style="opacity:0.333">m</span> ' +
-				Math.round(60 * seconds) + '<span style="opacity:0.333">s</span>';
+                ((len % 60) + '').padStart(2, '0') + '<span style="opacity:0.333">m</span> ' +
+                (Math.round(60 * seconds) + '').padStart(2, '0') + '<span style="opacity:0.333">s</span>';
 
 			$('body').append('<div class="boxes"></div>');
-			$('.boxes').append(makeBox(lenLabel, 'Average Film Length (Including Short Films)'));
+            $('.boxes').append(makeBox(lenLabel, '&VeryThinSpace;Average Film Length (Including Short Films)&VeryThinSpace;'));
 
 			var len = data.TotalMinutesFull / data.FilmsWithRuntimeFull;
 			len += 0.5; // this accounts for all film times being rounded down to the minute
 			var seconds = len % 1;
 			len = Math.floor(len);
-			var lenLabel =
-				Math.floor(len / 60) + '<span style="opacity:0.333">h</span> ' +
-				(len % 60) + '<span style="opacity:0.333">m</span> ' +
-				Math.round(60 * seconds) + '<span style="opacity:0.333">s</span>';
+            var lenLabel =
+                Math.floor(len / 60) + '<span style="opacity:0.333">h</span> ' +
+                ((len % 60) + '').padStart(2, '0') + '<span style="opacity:0.333">m</span> ' +
+                (Math.round(60 * seconds) + '').padStart(2, '0') + '<span style="opacity:0.333">s</span>';
 
 			$('body').append('<div class="boxes"></div>');
 			$('.boxes').last().append(makeBox(lenLabel, 'Average Film Length (Excluding Short Films)'));
@@ -1202,26 +1202,79 @@
 
 			resetView();
 
+            $('body').append('<div class="info">Percentages add to more than 100% because many films are created/produced by more than one country.<br/>&nbsp;<br/>Country information is sourced from TMDB and can be different to Letterboxd.</div>');
+
 			$('body').append('<div class="boxes"></div>');
-			$('.boxes').append(makeBox(Object.values(data.FilmsPerCountry).length, 'Countries'));
+			$('.boxes').append(makeBox(Object.values(data.FilmsPerCountryOrigin).length, 'Origin Countries'));
+
+            createNewTable();
+
+			thead.append('<tr class="topheader"><th colspan="4">Origin Countries</th></tr>');
+            thead.append('<tr class="bottomheader"><th>Name</th><th>Films Σ</th><th>Films %</th><th>Bar</th></tr>');
+
+            var highest = 0;
+            for (var country in data.FilmsPerCountryOrigin) {
+                highest = Math.max(highest, data.FilmsPerCountryOrigin[country]);
+            }
+
+            for (var country in data.FilmsPerCountryOrigin) {
+                var percent = (data.FilmsPerCountryOrigin[country] / data.TotalFilms) * 100;
+                tbody.append(
+                    '<tr>' +
+                    '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/country/' + countryNameToUrl(country) + '/size/large/">' + country + '</a></td>' +
+                    '<td class="right">' + data.FilmsPerCountryOrigin[country] + '</td>' +
+                    '<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerCountryOrigin[country] + '">' + percent.toFixed(0) + '%</td>' +
+                    '<td class="chart" data-value="' + data.FilmsPerCountryOrigin[country] + '"><span class="bar" style="width:' + ~~((data.FilmsPerCountryOrigin[country] / highest) * 100) + 'px">&nbsp;</span></td>' +
+                    '</tr>');
+            }
+
+            $.tablesorter.addParser({
+                id: 'data-value',
+                is: function () {
+                    return false;
+                },
+                format: function (s, table, cell) {
+                    return $(cell).attr('data-value') || s;
+                },
+                type: 'text'
+            });
+
+            table.tablesorter({
+                widgets: ['columns'],
+                usNumberFormat: true,
+                sortReset: false,
+                sortRestart: false,
+                sortList: [[1, 1]],
+                headers: {
+					0: { sorter: false },
+					1: { sortInitialOrder: 'asc' },
+                    2: { sortInitialOrder: 'desc' },
+                    3: { sortInitialOrder: 'desc', sorter: 'data-value' },
+                    4: { sorter: false },
+                }
+			});
+
+            $('body').append('<div class="boxes"></div>');
+            $('.boxes').last().append(makeBox(Object.values(data.FilmsPerCountryProduction).length, 'Production Countries'));
 
 			createNewTable();
 
-			thead.append('<tr><th>Country</th><th>Films Σ</th><th>Films %</th><th>Bar</th></tr>');
+            thead.append('<tr class="topheader"><th colspan="4">Production Countries</th></tr>');
+            thead.append('<tr class="bottomheader"><th>Name</th><th>Films Σ</th><th>Films %</th><th>Bar</th></tr>');
 
 			var highest = 0;
-			for (var country in data.FilmsPerCountry) {
-				highest = Math.max(highest, data.FilmsPerCountry[country]);
+            for (var country in data.FilmsPerCountryProduction) {
+				highest = Math.max(highest, data.FilmsPerCountryProduction[country]);
 			}
 
-			for (var country in data.FilmsPerCountry) {
-				var percent = (data.FilmsPerCountry[country] / data.TotalFilms) * 100;
+            for (var country in data.FilmsPerCountryProduction) {
+                var percent = (data.FilmsPerCountryProduction[country] / data.TotalFilms) * 100;
 				tbody.append(
 					'<tr>' +
 					'<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/country/' + countryNameToUrl(country) + '/size/large/">' + country + '</a></td>' +
-					'<td class="right">' + data.FilmsPerCountry[country] + '</td>' +
-					'<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerCountry[country] + '">' + percent.toFixed(0) + '%</td>' +
-					'<td class="chart" data-value="' + data.FilmsPerCountry[country] + '"><span class="bar" style="width:' + ~~((data.FilmsPerCountry[country] / highest) * 100) + 'px">&nbsp;</span></td>' +
+                    '<td class="right">' + data.FilmsPerCountryProduction[country] + '</td>' +
+                    '<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerCountryProduction[country] + '">' + percent.toFixed(0) + '%</td>' +
+                    '<td class="chart" data-value="' + data.FilmsPerCountryProduction[country] + '"><span class="bar" style="width:' + ~~((data.FilmsPerCountryProduction[country] / highest) * 100) + 'px">&nbsp;</span></td>' +
 					'</tr>');
 			}
 
@@ -1236,21 +1289,20 @@
 				type: 'text'
 			});
 
-			$('#main').tablesorter({
+			table.tablesorter({
 				widgets: ['columns'],
 				usNumberFormat: true,
 				sortReset: false,
 				sortRestart: false,
 				sortList: [[1, 1]],
 				headers: {
-					0: { sortInitialOrder: 'asc' },
-					1: { sortInitialOrder: 'desc' },
-					2: { sortInitialOrder: 'desc', sorter: 'data-value' },
-					3: { sorter: false },
+                    0: { sorter: false },
+					1: { sortInitialOrder: 'asc' },
+					2: { sortInitialOrder: 'desc' },
+					3: { sortInitialOrder: 'desc', sorter: 'data-value' },
+					4: { sorter: false },
 				}
-			});
-
-			$('body').append('<div class="info">Percentages add to more than 100% because many films are produced by more than one country.</div>');
+			});			
 
 			deactivateAll();
 			$(event.target).addClass('active');
