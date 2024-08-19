@@ -884,7 +884,7 @@
 			for (var film in data.NewestReleasedFilms) {
 
 				tbody.append(
-					'<tr>' +					
+					'<tr>' +
 					'<td class="right">' + data.NewestReleasedFilms[film].When + '</td>' +
                     '<td><a target="_blank" href="https://boxd.it/' + data.NewestReleasedFilms[film].Id + '">' + film + '</a></td>' +
 					'</tr>');
@@ -939,7 +939,7 @@
 				tbody.append(
 					'<tr>' +
 					'<td class="right">' + data.OldestReleasedFilms[film].When + '</td>' +
-					'<td><a target="_blank" href="https://boxd.it/' + data.OldestReleasedFilms[film].Id + '">' + film + '</a></td>' +					
+					'<td><a target="_blank" href="https://boxd.it/' + data.OldestReleasedFilms[film].Id + '">' + film + '</a></td>' +
 					'</tr>');
 			}
 
@@ -1369,7 +1369,7 @@
 				gallery.append(
 					'<div class="item">' +
 					'<div class="poster"><a target="_blank" href="' + url + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + dataSource[person].Poster + '"></a></div>' +
-					'<div class="details">x' + dataSource[person].Amount + '<br/><a target="_blank" href="' + url + '">' + dataSource[person].FullName + '</a></div>' +
+					'<div class="details">×' + dataSource[person].Amount + '<br/><a target="_blank" href="' + url + '">' + dataSource[person].FullName + '</a></div>' +
 					'</a></div>');
 				displayed++;
 				if (displayed == galleryAmount)
