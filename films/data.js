@@ -1,13 +1,13 @@
 var data = {
   "LastUpdated": "23 Aug 2024",
   "Username": "LaLunaLlena",
-  "TotalFilms": 909,
-  "RatedFilms": 240,
-  "FilmsWithGenres": 907,
-  "TotalMinutes": 97624,
-  "FilmsWithRuntime": 906,
-  "TotalMinutesFull": 96541,
-  "FilmsWithRuntimeFull": 874,
+  "TotalFilms": 913,
+  "RatedFilms": 243,
+  "FilmsWithGenres": 911,
+  "TotalMinutes": 97879,
+  "FilmsWithRuntime": 910,
+  "TotalMinutesFull": 96795,
+  "FilmsWithRuntimeFull": 877,
   "Genres": {
     "Action": {
       "Count": 159,
@@ -25,19 +25,19 @@ var data = {
       "RatingTotal": 16
     },
     "Comedy": {
-      "Count": 281,
-      "RatingCount": 55,
-      "RatingTotal": 180
+      "Count": 282,
+      "RatingCount": 56,
+      "RatingTotal": 184
     },
     "Crime": {
-      "Count": 167,
-      "RatingCount": 32,
-      "RatingTotal": 109
+      "Count": 168,
+      "RatingCount": 33,
+      "RatingTotal": 111
     },
     "Documentary": {
-      "Count": 46,
-      "RatingCount": 10,
-      "RatingTotal": 31
+      "Count": 48,
+      "RatingCount": 11,
+      "RatingTotal": 34
     },
     "Drama": {
       "Count": 455,
@@ -50,9 +50,9 @@ var data = {
       "RatingTotal": 28
     },
     "Fantasy": {
-      "Count": 87,
-      "RatingCount": 13,
-      "RatingTotal": 52
+      "Count": 88,
+      "RatingCount": 14,
+      "RatingTotal": 56
     },
     "History": {
       "Count": 36,
@@ -60,9 +60,9 @@ var data = {
       "RatingTotal": 54
     },
     "Horror": {
-      "Count": 94,
-      "RatingCount": 34,
-      "RatingTotal": 113
+      "Count": 96,
+      "RatingCount": 36,
+      "RatingTotal": 119
     },
     "Music": {
       "Count": 13,
@@ -70,14 +70,14 @@ var data = {
       "RatingTotal": 19
     },
     "Mystery": {
-      "Count": 80,
-      "RatingCount": 18,
-      "RatingTotal": 68
+      "Count": 81,
+      "RatingCount": 19,
+      "RatingTotal": 70
     },
     "Romance": {
-      "Count": 121,
-      "RatingCount": 40,
-      "RatingTotal": 152
+      "Count": 122,
+      "RatingCount": 41,
+      "RatingTotal": 156
     },
     "Science Fiction": {
       "Count": 100,
@@ -85,9 +85,9 @@ var data = {
       "RatingTotal": 90
     },
     "Thriller": {
-      "Count": 254,
-      "RatingCount": 49,
-      "RatingTotal": 162
+      "Count": 255,
+      "RatingCount": 50,
+      "RatingTotal": 164
     },
     "TV Movie": {
       "Count": 8,
@@ -105,13 +105,13 @@ var data = {
       "RatingTotal": 9
     }
   },
-  "DirectorTotalAll": 988,
-  "DirectorTotalFemale": 95,
-  "DirectorTotalMale": 859,
+  "DirectorTotalAll": 993,
+  "DirectorTotalFemale": 96,
+  "DirectorTotalMale": 860,
   "DirectorTotalNonBinary": 1,
-  "DirectorUniqueAll": 659,
-  "DirectorUniqueFemale": 78,
-  "DirectorUniqueMale": 551,
+  "DirectorUniqueAll": 664,
+  "DirectorUniqueFemale": 79,
+  "DirectorUniqueMale": 552,
   "DirectorUniqueNonBinary": 1,
   "DirectorAll": [
     {
@@ -1164,6 +1164,12 @@ var data = {
       "FullName": "Annika Iltis",
       "Amount": 1,
       "Poster": "",
+      "Gender": 0
+    },
+    {
+      "FullName": "Ariane Louis-Seize",
+      "Amount": 1,
+      "Poster": "/8nK7JObOUbMBEEaEADpretgKCQS.jpg",
       "Gender": 0
     },
     {
@@ -2419,13 +2425,13 @@ var data = {
       "Gender": 0
     }
   ],
-  "ProtagonistTotalAll": 903,
-  "ProtagonistTotalFemale": 258,
-  "ProtagonistTotalMale": 628,
+  "ProtagonistTotalAll": 906,
+  "ProtagonistTotalFemale": 260,
+  "ProtagonistTotalMale": 629,
   "ProtagonistTotalNonBinary": 5,
-  "ProtagonistUniqueAll": 580,
-  "ProtagonistUniqueFemale": 192,
-  "ProtagonistUniqueMale": 374,
+  "ProtagonistUniqueAll": 583,
+  "ProtagonistUniqueFemale": 194,
+  "ProtagonistUniqueMale": 375,
   "ProtagonistUniqueNonBinary": 3,
   "ProtagonistAll": [
     {
@@ -4117,6 +4123,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Maika Monroe",
+      "Amount": 1,
+      "Poster": "/x4yiKkMnCdf8g4eOrDoqla9FYEA.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Maisie Williams",
       "Amount": 1,
       "Poster": "/5RjD4dDpRDAhalFtvcUj7zdLWYB.jpg",
@@ -4366,6 +4378,12 @@ var data = {
       "FullName": "Samantha Morton",
       "Amount": 1,
       "Poster": "/v84b7MENeD9rwX6xTD7fSdhSOC9.jpg",
+      "Gender": 0
+    },
+    {
+      "FullName": "Sara Montpetit",
+      "Amount": 1,
+      "Poster": "/lKMnPTkc8GCNoWrBS97dQpWwIJG.jpg",
       "Gender": 0
     },
     {
@@ -5081,13 +5099,13 @@ var data = {
       "Gender": 0
     }
   ],
-  "TopCastTotalAll": 2657,
-  "TopCastTotalFemale": 950,
-  "TopCastTotalMale": 1632,
+  "TopCastTotalAll": 2666,
+  "TopCastTotalFemale": 952,
+  "TopCastTotalMale": 1637,
   "TopCastTotalNonBinary": 9,
-  "TopCastUniqueAll": 1709,
-  "TopCastUniqueFemale": 640,
-  "TopCastUniqueMale": 999,
+  "TopCastUniqueAll": 1716,
+  "TopCastUniqueFemale": 642,
+  "TopCastUniqueMale": 1003,
   "TopCastUniqueNonBinary": 5,
   "TopCastAll": [
     {
@@ -5095,6 +5113,12 @@ var data = {
       "Amount": 12,
       "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
       "Gender": 1
+    },
+    {
+      "FullName": "Nicolas Cage",
+      "Amount": 12,
+      "Poster": "/ar33qcWbEgREn07ZpXv5Pbj8hbM.jpg",
+      "Gender": 2
     },
     {
       "FullName": "Leonardo DiCaprio",
@@ -5106,12 +5130,6 @@ var data = {
       "FullName": "Matt Damon",
       "Amount": 11,
       "Poster": "/ehwS5WvU5yL5vKcUEqbzGK8Fh8B.jpg",
-      "Gender": 2
-    },
-    {
-      "FullName": "Nicolas Cage",
-      "Amount": 11,
-      "Poster": "/ar33qcWbEgREn07ZpXv5Pbj8hbM.jpg",
       "Gender": 2
     },
     {
@@ -6673,6 +6691,12 @@ var data = {
   ],
   "TopCastMale": [
     {
+      "FullName": "Nicolas Cage",
+      "Amount": 12,
+      "Poster": "/ar33qcWbEgREn07ZpXv5Pbj8hbM.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Leonardo DiCaprio",
       "Amount": 11,
       "Poster": "/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg",
@@ -6682,12 +6706,6 @@ var data = {
       "FullName": "Matt Damon",
       "Amount": 11,
       "Poster": "/ehwS5WvU5yL5vKcUEqbzGK8Fh8B.jpg",
-      "Gender": 0
-    },
-    {
-      "FullName": "Nicolas Cage",
-      "Amount": 11,
-      "Poster": "/ar33qcWbEgREn07ZpXv5Pbj8hbM.jpg",
       "Gender": 0
     },
     {
@@ -7539,13 +7557,13 @@ var data = {
       "Gender": 0
     }
   ],
-  "EntireCastTotalAll": 37796,
-  "EntireCastTotalFemale": 9079,
-  "EntireCastTotalMale": 19689,
+  "EntireCastTotalAll": 37871,
+  "EntireCastTotalFemale": 9106,
+  "EntireCastTotalMale": 19714,
   "EntireCastTotalNonBinary": 24,
-  "EntireCastUniqueAll": 29666,
-  "EntireCastUniqueFemale": 7110,
-  "EntireCastUniqueMale": 13796,
+  "EntireCastUniqueAll": 29735,
+  "EntireCastUniqueFemale": 7136,
+  "EntireCastUniqueMale": 13817,
   "EntireCastUniqueNonBinary": 14,
   "EntireCastAll": [
     {
@@ -7570,6 +7588,12 @@ var data = {
       "FullName": "Brad Pitt",
       "Amount": 14,
       "Poster": "/ajNaPmXVVMJFg9GWmu6MJzTaXdV.jpg",
+      "Gender": 2
+    },
+    {
+      "FullName": "Nicolas Cage",
+      "Amount": 14,
+      "Poster": "/ar33qcWbEgREn07ZpXv5Pbj8hbM.jpg",
       "Gender": 2
     },
     {
@@ -7600,12 +7624,6 @@ var data = {
       "FullName": "Michael Gambon",
       "Amount": 13,
       "Poster": "/3jdWkDKf4IODbG4JKTeaC7AzxZH.jpg",
-      "Gender": 2
-    },
-    {
-      "FullName": "Nicolas Cage",
-      "Amount": 13,
-      "Poster": "/ar33qcWbEgREn07ZpXv5Pbj8hbM.jpg",
       "Gender": 2
     },
     {
@@ -9587,6 +9605,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Nicolas Cage",
+      "Amount": 14,
+      "Poster": "/ar33qcWbEgREn07ZpXv5Pbj8hbM.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Thomas Rosales Jr.",
       "Amount": 14,
       "Poster": "/tlJzLctGc6UmB7JQrkFcdMEuRx3.jpg",
@@ -9602,12 +9626,6 @@ var data = {
       "FullName": "Michael Gambon",
       "Amount": 13,
       "Poster": "/3jdWkDKf4IODbG4JKTeaC7AzxZH.jpg",
-      "Gender": 0
-    },
-    {
-      "FullName": "Nicolas Cage",
-      "Amount": 13,
-      "Poster": "/ar33qcWbEgREn07ZpXv5Pbj8hbM.jpg",
       "Gender": 0
     },
     {
@@ -10364,7 +10382,7 @@ var data = {
     "1879": 0,
     "1880": 0,
     "1881": 0,
-    "1882": 0,
+    "1882": 1,
     "1883": 0,
     "1884": 0,
     "1885": 0,
@@ -10505,8 +10523,8 @@ var data = {
     "2020": 6,
     "2021": 13,
     "2022": 15,
-    "2023": 20,
-    "2024": 6
+    "2023": 21,
+    "2024": 8
   },
   "FilmsWatchedPerDecade": {
     "1870": {
@@ -10515,7 +10533,7 @@ var data = {
       "RatingTotal": 0
     },
     "1880": {
-      "Count": 0,
+      "Count": 1,
       "RatingCount": 0,
       "RatingTotal": 0
     },
@@ -10585,9 +10603,9 @@ var data = {
       "RatingTotal": 325
     },
     "2020": {
-      "Count": 60,
-      "RatingCount": 51,
-      "RatingTotal": 188
+      "Count": 63,
+      "RatingCount": 54,
+      "RatingTotal": 197
     }
   },
   "LongestFilms": {
@@ -11193,6 +11211,11 @@ var data = {
     }
   },
   "NewestReleasedFilms": {
+    "Longlegs ": {
+      "When": "2024-07-10",
+      "Id": "KzLM",
+      "Poster": "/5aj8vVGFwGVbQQs26ywhg4Zxk2L.jpg"
+    },
     "MaXXXine ": {
       "When": "2024-07-04",
       "Id": "CIM4",
@@ -11227,6 +11250,11 @@ var data = {
       "When": "2024-02-23",
       "Id": "AQXU",
       "Poster": "/scAU7YudKNVeZlOfgSEWntAUSJ.jpg"
+    },
+    "#17 - To Finish The Barkley Marathons ": {
+      "When": "2024-02-17",
+      "Id": "LPde",
+      "Poster": "/hbbh0bgtPKWMeaPfylMHDsYik01.jpg"
     },
     "All of Us Strangers ": {
       "When": "2023-12-22",
@@ -11272,6 +11300,11 @@ var data = {
       "When": "2023-10-25",
       "Id": "u6WE",
       "Poster": "/e7Jvsry47JJQruuezjU2X1Z6J77.jpg"
+    },
+    "Humanist Vampire Seeking Consenting Suicidal Person ": {
+      "When": "2023-10-13",
+      "Id": "Blzk",
+      "Poster": "/m5OItLBY5T38ew1YI4VSIXjl5G2.jpg"
     },
     "The Royal Hotel ": {
       "When": "2023-10-06",
@@ -11677,21 +11710,6 @@ var data = {
       "When": "2018-02-24",
       "Id": "hovA",
       "Poster": "/GmwZVQ9usIWHsLVHdiVO0LZXKe.jpg"
-    },
-    "Black Panther ": {
-      "When": "2018-02-13",
-      "Id": "8MHs",
-      "Poster": "/uxzzxijgPIY7slzFvMotPv8wjKA.jpg"
-    },
-    "Early Man ": {
-      "When": "2018-01-26",
-      "Id": "dwyu",
-      "Poster": "/hXukFwTKOe7izDsf3ZOdeYikRxF.jpg"
-    },
-    "Birds Without Feathers ": {
-      "When": "2018-01-19",
-      "Id": "i2d2",
-      "Poster": "/rYP8hZpfXxjyv2mbT1ELxRGt9Kc.jpg"
     }
   },
   "OldestReleasedFilms": {
@@ -11699,6 +11717,11 @@ var data = {
       "When": "1874-12-09",
       "Id": "ac9I",
       "Poster": "/XWPDZzK7N2WQcejI8W96IxZEeP.jpg"
+    },
+    "The 1882 Transit of Venus ": {
+      "When": "1882-12-06",
+      "Id": "wA0O",
+      "Poster": "/hJoss3PUbYcRta0Jl9MAQu0giK.jpg"
     },
     "A Trip to the Moon ": {
       "When": "1902-04-17",
@@ -12189,18 +12212,13 @@ var data = {
       "When": "1982-06-11",
       "Id": "2a1G",
       "Poster": "/an0nD6uq6byfxXCfk6lQBzdL2J1.jpg"
-    },
-    "Blade Runner ": {
-      "When": "1982-06-25",
-      "Id": "2bcA",
-      "Poster": "/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg"
     }
   },
   "FilmsPerThirtyMinutes": {
-    "0": 17,
+    "0": 18,
     "30": 13,
-    "60": 130,
-    "90": 489,
+    "60": 131,
+    "90": 491,
     "120": 217,
     "150": 32,
     "180": 8,
@@ -12211,8 +12229,8 @@ var data = {
     "Cantonese": 1,
     "Czech": 2,
     "Danish": 1,
-    "English": 824,
-    "French": 22,
+    "English": 827,
+    "French": 23,
     "German": 4,
     "Hungarian": 1,
     "Icelandic": 1,
@@ -12232,9 +12250,9 @@ var data = {
     "Argentina": 1,
     "Australia": 13,
     "Austria": 1,
-    "Belgium": 5,
+    "Belgium": 6,
     "Brazil": 4,
-    "Canada": 21,
+    "Canada": 22,
     "China": 1,
     "Czechia": 2,
     "Czechoslovakia": 2,
@@ -12266,16 +12284,16 @@ var data = {
     "Ukraine": 1,
     "United Arab Emirates": 1,
     "United Kingdom": 172,
-    "United States of America": 735
+    "United States of America": 737
   },
   "FilmsPerCountryProduction": {
     "Angola": 1,
     "Argentina": 2,
     "Australia": 14,
     "Austria": 2,
-    "Belgium": 10,
+    "Belgium": 11,
     "Brazil": 7,
-    "Canada": 40,
+    "Canada": 42,
     "China": 6,
     "Czechia": 5,
     "Czechoslovakia": 2,
@@ -12283,7 +12301,7 @@ var data = {
     "Egypt": 1,
     "Ethiopia": 1,
     "Finland": 2,
-    "France": 80,
+    "France": 81,
     "Germany": 63,
     "Ghana": 1,
     "Greece": 4,
@@ -12324,13 +12342,13 @@ var data = {
     "Ukraine": 2,
     "United Arab Emirates": 2,
     "United Kingdom": 235,
-    "United States of America": 782
+    "United States of America": 784
   },
   "Backdrops": [
     {
-      "ImageUrl": "/uw4SnKFZ453Gxmj5XR5Susj8TNo.jpg",
-      "FilmName": "Independence Day\u003Cbr/\u003E(1996)",
-      "LetterboxdId": "2a1w"
+      "ImageUrl": "/45He7gApNQyDbqCDjxew9BnHzjf.jpg",
+      "FilmName": "Lost in Translation\u003Cbr/\u003E(2003)\u003Cbr/\u003E\u2605\u2605\u2605\u2605",
+      "LetterboxdId": "2b0E"
     }
   ],
   "Lists": [
@@ -14006,6 +14024,33 @@ var data = {
           "PrimaryLanguage": "English",
           "PosterUrl": "/v28hwu0wOhzPfhKfhnI7vZkRDxi.jpg",
           "Rating": 3
+        },
+        {
+          "Order": 135,
+          "FilmName": "Humanist Vampire Seeking Consenting Suicidal Person",
+          "Year": 2023,
+          "LetterboxdIdentifier": "Blzk",
+          "PrimaryLanguage": "French",
+          "PosterUrl": "/m5OItLBY5T38ew1YI4VSIXjl5G2.jpg",
+          "Rating": 4
+        },
+        {
+          "Order": 136,
+          "FilmName": "#17 - To Finish The Barkley Marathons",
+          "Year": 2024,
+          "LetterboxdIdentifier": "LPde",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/hbbh0bgtPKWMeaPfylMHDsYik01.jpg",
+          "Rating": 3
+        },
+        {
+          "Order": 137,
+          "FilmName": "Longlegs",
+          "Year": 2024,
+          "LetterboxdIdentifier": "KzLM",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/5aj8vVGFwGVbQQs26ywhg4Zxk2L.jpg",
+          "Rating": 2
         }
       ]
     }

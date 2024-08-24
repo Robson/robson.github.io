@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Letterboxd Statistics Dashboard</title>
 	<link href="theme.default.min.css" rel="stylesheet">
 	<link href="overall.css" rel="stylesheet">
@@ -127,6 +128,16 @@
 	</div>
 
 	<script>
+
+		var documentWidth = document.body.clientWidth;
+        console.log(documentWidth);
+
+		onresize = (event) => {
+			documentWidth = document.body.clientWidth;
+			console.log(documentWidth);
+			showOverall();
+            deactivateAll();
+		};
 
 		var table, thead, tbody;
 		var galleryAmount = 20;
@@ -318,8 +329,13 @@
 
 			createNewTable();
 
-			thead.append('<tr class="topheader"><th colspan="5">' + lbList.ListName + '</th></tr>');
-			thead.append('<tr class="bottomheader"><th>Order</th><th>Film</th><th>Year</th><th>Rating</th><th>Language</th></tr>');
+			if (documentWidth < 500) {
+                thead.append('<tr class="topheader"><th colspan="4">' + lbList.ListName + '</th></tr>');
+                thead.append('<tr class="bottomheader"><th>#</th><th>Film</th><th>Year</th><th>Rating</th></tr>');
+			} else {
+				thead.append('<tr class="topheader"><th colspan="5">' + lbList.ListName + '</th></tr>');
+				thead.append('<tr class="bottomheader"><th>Order</th><th>Film</th><th>Year</th><th>Rating</th><th>Language</th></tr>');
+			}
 
 			for (var film in lbList.Entries) {
 
@@ -330,13 +346,18 @@
 					lang = lbList.Entries[film].PrimaryLanguage;
 				}
 
+				var langInfo = '';
+				if (documentWidth >= 500) {
+					langInfo = '<td>' + lang + '</td>';
+				}
+
 				tbody.append(
 					'<tr>' +
 					'<td class="right">' + lbList.Entries[film].Order + '</td>' +
 					'<td><a target="_blank" href="https://boxd.it/' + lbList.Entries[film].LetterboxdIdentifier + '">' + lbList.Entries[film].FilmName + '</a></td>' +
 					'<td class="right">' + lbList.Entries[film].Year + '</td>' +
 					'<td style="line-height: 0.8em;padding-top:5px;vertical-align:top">' + (lbList.Entries[film].Rating > 0 ? '★'.repeat(lbList.Entries[film].Rating) : '&nbsp;') + '</td>' +
-					'<td>' + lang + '</td>' +
+					langInfo +
 					'</tr>');
 
 			}
@@ -485,7 +506,7 @@
 						groupPadding: 0,
 						pointWidth: 5,
 						borderRadius: 0,
-                        cursor: 'crosshair',
+                        cursor: 'pointer',
                         point: {
                             events: {
 								click: function () {
@@ -504,7 +525,9 @@
 
 			resetView();
 
-			showFilmsPerYearChart();
+			if (documentWidth > 820) {
+				showFilmsPerYearChart();
+			}
 
 			//$('body').append('<div class="boxes"></div>');
 			//$('.boxes').append(makeBox(Object.values(data.FilmsWatchedPerYear).filter(value => value > 0).length, 'Watched Years'));
@@ -557,7 +580,7 @@
 
 			var yearsWithoutFilms = [
 				1870, 1871, 1872, 1873, 1875, 1876, 1877, 1879,
-				1880, 1881, 1883, 1884, 1886,
+				1880, 1881, 1883, 1884, 1886, 1889
 			];
 			var thisYear = new Date().getFullYear();
 			var thisDecade = thisYear - (thisYear % 10);
@@ -582,28 +605,28 @@
 			$('.boxes').append(makeBox(watched, 'Watched Years'));
 			$('.boxes').append(makeBox(unwatched, 'Unwatched Years'));
 
-			createNewTable();
-
-			thead.append('<tr><th colspan="10">Years Without Watched Films</th></tr>');
-
-			for (var a = thisDecade; a >= 1870; a -= 10) {
-				var output = '<tr>';
-				for (var b = 0; b < 10; b++) {
-					if (yearsWithoutFilms.includes(a + b)) {
-						output += '<td>&nbsp;</td>';
-					} else if (a + b > thisYear) {
-						output += '<td>&nbsp;</td>';
-					} else {
-						var hasFilms = data.FilmsWatchedPerYear[a + b] > 0;
-						if (hasFilms) {
-							output += '<td style="color: #ddd">' + (a + b) + '</td>';
+			if (documentWidth > 480) {
+				createNewTable();
+				thead.append('<tr><th colspan="10">Years Without Watched Films</th></tr>');
+				for (var a = thisDecade; a >= 1870; a -= 10) {
+					var output = '<tr>';
+					for (var b = 0; b < 10; b++) {
+						if (yearsWithoutFilms.includes(a + b)) {
+							output += '<td>&nbsp;</td>';
+						} else if (a + b > thisYear) {
+							output += '<td>&nbsp;</td>';
 						} else {
-							output += '<td><a target="_blank" href="https://letterboxd.com/films/popular/year/' + (a + b) + '/size/large/">' + (a + b) + '</a></td>';
+							var hasFilms = data.FilmsWatchedPerYear[a + b] > 0;
+							if (hasFilms) {
+								output += '<td style="color: #ddd">' + (a + b) + '</td>';
+							} else {
+								output += '<td><a target="_blank" href="https://letterboxd.com/films/popular/year/' + (a + b) + '/size/large/">' + (a + b) + '</a></td>';
+							}
 						}
 					}
+					output += '</tr>';
+					tbody.append(output);
 				}
-				output += '</tr>';
-				tbody.append(output);
 			}
 
 			deactivateAll();
@@ -672,7 +695,7 @@
 						animation: false,
 						color: 'black',
 						data: values,
-						enableMouseTracking: true,      
+						enableMouseTracking: true,
 						cursor: 'pointer',
                         point: {
                             events: {
@@ -690,15 +713,24 @@
 
 			resetView();
 
-			showFilmsPerDecadeChart();
+			if (documentWidth > 820) {
+				showFilmsPerDecadeChart();
+			}
 
 			$('body').append('<div class="boxes"></div>');
 			$('.boxes').append(makeBox(Object.values(data.FilmsWatchedPerDecade).filter(x => x.Count > 0).length, 'Watched Decades'));
 
 			createNewTable();
 
-			thead.append('<tr class="topheader"><th>&nbsp;</th><th colspan="3">Films</th><th colspan="2">Rating</th></tr>');
-			thead.append('<tr class="bottomheader"><th>Decade</th><th>Σ</th><th>%</th><th>Bar</th><th>Average</th><th>Bar</th></tr>');
+			console.log(documentWidth)
+
+			if (documentWidth < 500) {
+                thead.append('<tr class="topheader"><th>&nbsp;</th><th colspan="3">Films</th></tr>');
+                thead.append('<tr class="bottomheader"><th>Decade</th><th>Σ</th><th>%</th><th>Bar</th></tr>');
+			} else {
+				thead.append('<tr class="topheader"><th>&nbsp;</th><th colspan="3">Films</th><th colspan="2">Rating</th></tr>');
+				thead.append('<tr class="bottomheader"><th>Decade</th><th>Σ</th><th>%</th><th>Bar</th><th>Average</th><th>Bar</th></tr>');
+			}
 
 			var highest = 0, total = 0;
 			for (var decade in data.FilmsWatchedPerDecade) {
@@ -725,14 +757,20 @@
 
 				var lowBase = data.FilmsWatchedPerDecade[decade].RatingCount < sufficientBase;
 
+				var middle = '';
+                if (documentWidth >= 500) {
+                    middle =
+                        '<td class="' + (lowBase ? 'lowbase ' : '') + 'right ttt" data-tooltip="Based on ' + data.FilmsWatchedPerDecade[decade].RatingCount + ' rated film(s)."><span>' + rating + '</span></td>' +
+                        '<td class="' + (lowBase ? 'lowbase ' : '') + 'chart" data-value="' + rating + '"><span class="bar" style="width:' + ~~((rating / highestRating) * 100) + 'px">&nbsp;</span></td>';
+                }
+
 				tbody.append(
 					'<tr>' +
 					'<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/decade/' + decade + 's/size/large/">' + decade + 's</a></td>' +
 					'<td class="right">' + data.FilmsWatchedPerDecade[decade].Count + '</td>' +
 					'<td class="right ttt" data-tooltip="' + watchedPercent.toFixed(2) + '%" data-value="' + data.FilmsWatchedPerDecade[decade].Count + '">' + watchedPercent.toFixed(0) + '%</td>' +
 					'<td class="chart" data-value="' + data.FilmsWatchedPerDecade[decade].Count + '"><span class="bar" style="width:' + ~~((data.FilmsWatchedPerDecade[decade].Count / highest) * 100) + 'px">&nbsp;</span></td>' +
-					'<td class="' + (lowBase ? 'lowbase ' : '') + 'right ttt" data-tooltip="Based on ' + data.FilmsWatchedPerDecade[decade].RatingCount + ' rated film(s)."><span>' + rating + '</span></td>' +
-					'<td class="' + (lowBase ? 'lowbase ' : '') + 'chart" data-value="' + rating + '"><span class="bar" style="width:' + ~~((rating / highestRating) * 100) + 'px">&nbsp;</span></td>' +
+					middle +
 					'</tr>');
 			}
 
@@ -1058,8 +1096,13 @@
 
 			createNewTable();
 
-			thead.append('<tr class="topheader"><th colspan="4">Top ' + Object.values(data.LongestFilms).length + ' Longest Films</th></tr>');
-			thead.append('<tr class="bottomheader"><th>Title</th><th>Year</th><th>Length</th><th>Bar</th></tr>');
+			if (documentWidth < 500) {
+                thead.append('<tr class="topheader"><th colspan="3">Top ' + Object.values(data.LongestFilms).length + ' Longest Films</th></tr>');
+                thead.append('<tr class="bottomheader"><th>Title</th><th>Year</th><th>Length</th></tr>');
+			} else {
+				thead.append('<tr class="topheader"><th colspan="4">Top ' + Object.values(data.LongestFilms).length + ' Longest Films</th></tr>');
+				thead.append('<tr class="bottomheader"><th>Title</th><th>Year</th><th>Length</th><th>Bar</th></tr>');
+			}
 
 			var highest = 0;
 			for (var film in data.LongestFilms) {
@@ -1072,12 +1115,17 @@
 				hours = Math.floor(data.LongestFilms[film].Minutes / 60);
 				minutes = data.LongestFilms[film].Minutes - (hours * 60);
 
+				var bar = '';
+				if (documentWidth >= 500) {
+					bar = '<td class="chart"><span class="hidden">' + data.LongestFilms[film].Minutes + '</span><span class="bar" style="width:' + ~~((data.LongestFilms[film].Minutes / highest) * 100) + 'px">&nbsp;</span></td>';
+				}
+
 				tbody.append(
 					'<tr>' +
 					'<td><a target="_blank" href="https://boxd.it/' + data.LongestFilms[film].Id + '">' + film + '</a></td>' +
 					'<td>' + data.LongestFilms[film].Year + '</td>' +
 					'<td class="right">' + hours + 'h ' + String(minutes).padStart(2, '0') + 'm</td>' +
-					'<td class="chart"><span class="hidden">' + data.LongestFilms[film].Minutes + '</span><span class="bar" style="width:' + ~~((data.LongestFilms[film].Minutes / highest) * 100) + 'px">&nbsp;</span></td>' +
+					bar +
 					'</tr>');
 			}
 
@@ -1107,7 +1155,11 @@
 			resetView();
 			createNewTable();
 
-			thead.append('<tr><th>Length</th><th>Films Σ</th><th>Films %</th><th>Bar</th></tr>');
+			if (documentWidth < 500) {
+				thead.append('<tr><th>Length</th><th>Films Σ</th><th>Films %</th></tr>');
+			} else {
+				thead.append('<tr><th>Length</th><th>Films Σ</th><th>Films %</th><th>Bar</th></tr>');
+			}
 
 			var highest = 0, total = 0;
 			for (var thirty in data.FilmsPerThirtyMinutes) {
@@ -1122,12 +1174,16 @@
 					" to " +
 					Math.floor(number / 60) + "h" + (number % 60 == 0 ? '29' : '59') + "m";
 				var percent = (data.FilmsPerThirtyMinutes[thirty] / data.TotalFilms) * 100;
+				var bar = '';
+				if (documentWidth >= 500) {
+					bar = '<td class="chart" data-value="' + data.FilmsPerThirtyMinutes[thirty] + '"><span class="bar" style="width:' + ~~((data.FilmsPerThirtyMinutes[thirty] / highest) * 100) + 'px">&nbsp;</span></td>';
+				}
 				tbody.append(
 					'<tr>' +
 					'<td data-value="' + number + '">' + label + '</td>' +
 					'<td class="right">' + data.FilmsPerThirtyMinutes[thirty] + '</td>' +
 					'<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerThirtyMinutes[thirty] + '">' + percent.toFixed(0) + '%</td>' +
-					'<td class="chart" data-value="' + data.FilmsPerThirtyMinutes[thirty] + '"><span class="bar" style="width:' + ~~((data.FilmsPerThirtyMinutes[thirty] / highest) * 100) + 'px">&nbsp;</span></td>' +
+					bar +
 					'</tr>');
 			}
 
@@ -1177,12 +1233,18 @@
 
 			resetView();
 
+			$('body').append('<div class="info">Language information is obtained from TMDB, which is sometimes different to Letterboxd.</div>');
+
 			$('body').append('<div class="boxes"></div>');
 			$('.boxes').append(makeBox(Object.values(data.FilmsPerLanguage).length, 'Languages'));
 
 			createNewTable();
 
-			thead.append('<tr><th>Language</th><th>Films #</th><th>Films %</th><th>Bar</th></tr>');
+			if (documentWidth < 500) {
+				thead.append('<tr><th>Language</th><th>Films #</th><th>Films %</th></tr>');
+			} else {
+				thead.append('<tr><th>Language</th><th>Films #</th><th>Films %</th><th>Bar</th></tr>');
+			}
 
 			var highest = 0;
 			for (var language in data.FilmsPerLanguage) {
@@ -1191,12 +1253,16 @@
 
 			for (var language in data.FilmsPerLanguage) {
 				var percent = (data.FilmsPerLanguage[language] / data.TotalFilms) * 100;
+				var bar = '';
+				if (documentWidth >= 500) {
+					bar = '<td class="chart" data-value="' + data.FilmsPerLanguage[language] + '"><span class="bar" style="width:' + ~~((data.FilmsPerLanguage[language] / highest) * 100) + 'px">&nbsp;</span></td>';
+				}
 				tbody.append(
 					'<tr>' +
                     '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/language/' + letterboxdLanguage(language) + '/size/large/">' + language + '</a></td>' +
 					'<td class="right">' + data.FilmsPerLanguage[language] + '</td>' +
 					'<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerLanguage[language] + '">' + percent.toFixed(0) + '%</td>' +
-					'<td class="chart" data-value="' + data.FilmsPerLanguage[language] + '"><span class="bar" style="width:' + ~~((data.FilmsPerLanguage[language] / highest) * 100) + 'px">&nbsp;</span></td>' +
+					bar +
 					'</tr>');
 			}
 
@@ -1235,15 +1301,20 @@
 
 			resetView();
 
-            $('body').append('<div class="info">Percentages add to more than 100% because many films are created/produced by more than one country. Country information is sourced from TMDB and can be different to Letterboxd.</div>');
+            $('body').append('<div class="info">Country information is obtained from TMDB, which is sometimes different to Letterboxd.<br/><br/>Percentages add to more than 100% because many films are created/produced by more than one country.</div>');
 
 			$('body').append('<div class="boxes"></div>');
 			$('.boxes').append(makeBox(Object.values(data.FilmsPerCountryOrigin).length, 'Origin Countries'));
 
             createNewTable();
 
-			thead.append('<tr class="topheader"><th colspan="4">Origin Countries</th></tr>');
-            thead.append('<tr class="bottomheader"><th>Name</th><th>Films Σ</th><th>Films %</th><th>Bar</th></tr>');
+			if (documentWidth < 500) {
+				thead.append('<tr class="topheader"><th colspan="3">Origin Countries</th></tr>');
+				thead.append('<tr class="bottomheader"><th>Name</th><th>Films Σ</th><th>Films %</th></tr>');
+			} else {
+                thead.append('<tr class="topheader"><th colspan="4">Origin Countries</th></tr>');
+                thead.append('<tr class="bottomheader"><th>Name</th><th>Films Σ</th><th>Films %</th><th>Bar</th></tr>');
+			}
 
             var highest = 0;
             for (var country in data.FilmsPerCountryOrigin) {
@@ -1251,13 +1322,17 @@
             }
 
             for (var country in data.FilmsPerCountryOrigin) {
-                var percent = (data.FilmsPerCountryOrigin[country] / data.TotalFilms) * 100;
+				var percent = (data.FilmsPerCountryOrigin[country] / data.TotalFilms) * 100;
+				var bar = '';
+				if (documentWidth >= 500) {
+					bar = '<td class="chart" data-value="' + data.FilmsPerCountryOrigin[country] + '"><span class="bar" style="width:' + ~~((data.FilmsPerCountryOrigin[country] / highest) * 100) + 'px">&nbsp;</span></td>';
+				}
                 tbody.append(
                     '<tr>' +
                     '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/country/' + countryNameToUrl(country) + '/size/large/">' + country + '</a></td>' +
                     '<td class="right">' + data.FilmsPerCountryOrigin[country] + '</td>' +
                     '<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerCountryOrigin[country] + '">' + percent.toFixed(0) + '%</td>' +
-                    '<td class="chart" data-value="' + data.FilmsPerCountryOrigin[country] + '"><span class="bar" style="width:' + ~~((data.FilmsPerCountryOrigin[country] / highest) * 100) + 'px">&nbsp;</span></td>' +
+                    bar +
                     '</tr>');
             }
 
@@ -1292,8 +1367,13 @@
 
 			createNewTable();
 
-            thead.append('<tr class="topheader"><th colspan="4">Production Countries</th></tr>');
-            thead.append('<tr class="bottomheader"><th>Name</th><th>Films Σ</th><th>Films %</th><th>Bar</th></tr>');
+            if (documentWidth < 500) {
+                thead.append('<tr class="topheader"><th colspan="3">Production Countries</th></tr>');
+                thead.append('<tr class="bottomheader"><th>Name</th><th>Films Σ</th><th>Films %</th></tr>');
+            } else {
+                thead.append('<tr class="topheader"><th colspan="4">Production Countries</th></tr>');
+                thead.append('<tr class="bottomheader"><th>Name</th><th>Films Σ</th><th>Films %</th><th>Bar</th></tr>');
+            }
 
 			var highest = 0;
             for (var country in data.FilmsPerCountryProduction) {
@@ -1301,13 +1381,17 @@
 			}
 
             for (var country in data.FilmsPerCountryProduction) {
-                var percent = (data.FilmsPerCountryProduction[country] / data.TotalFilms) * 100;
+				var percent = (data.FilmsPerCountryProduction[country] / data.TotalFilms) * 100;
+				var bar = '';
+				if (documentWidth >= 500) {
+                    bar = '<td class="chart" data-value="' + data.FilmsPerCountryProduction[country] + '"><span class="bar" style="width:' + ~~((data.FilmsPerCountryProduction[country] / highest) * 100) + 'px">&nbsp;</span></td>';
+				}
 				tbody.append(
 					'<tr>' +
 					'<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/country/' + countryNameToUrl(country) + '/size/large/">' + country + '</a></td>' +
                     '<td class="right">' + data.FilmsPerCountryProduction[country] + '</td>' +
                     '<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerCountryProduction[country] + '">' + percent.toFixed(0) + '%</td>' +
-                    '<td class="chart" data-value="' + data.FilmsPerCountryProduction[country] + '"><span class="bar" style="width:' + ~~((data.FilmsPerCountryProduction[country] / highest) * 100) + 'px">&nbsp;</span></td>' +
+                    bar +
 					'</tr>');
 			}
 
@@ -1335,7 +1419,7 @@
 					3: { sortInitialOrder: 'desc', sorter: 'data-value' },
 					4: { sorter: false },
 				}
-			});			
+			});
 
 			deactivateAll();
 			$(event.target).addClass('active');
@@ -1347,12 +1431,17 @@
 
 			resetView();
 
-			//showFilmsPerDecadeChart();
+			$('body').append('<div class="info">Genre information is obtained from TMDB, which is sometimes different to Letterboxd.</div>');
 
 			createNewTable();
 
-			thead.append('<tr class="topheader"><th>&nbsp;</th><th colspan="3">Films</th><th colspan="2">Rating</th></tr>');
-			thead.append('<tr class="bottomheader"><th>Genre</th><th>Σ</th><th>%</th><th>Bar</th><th>Average</th><th>Bar</th></tr>');
+			if (documentWidth < 600) {
+                thead.append('<tr class="topheader"><th>&nbsp;</th><th colspan="2">Films</th><th>Rating</th></tr>');
+                thead.append('<tr class="bottomheader"><th>Genre</th><th>Σ</th><th>%</th><th>Average</th></tr>');
+			} else {
+				thead.append('<tr class="topheader"><th>&nbsp;</th><th colspan="3">Films</th><th colspan="2">Rating</th></tr>');
+				thead.append('<tr class="bottomheader"><th>Genre</th><th>Σ</th><th>%</th><th>Bar</th><th>Average</th><th>Bar</th></tr>');
+			}
 
 			var total = data.FilmsWithGenres;
 
@@ -1377,16 +1466,21 @@
 				}
 
 				var watchedPercent = (data.Genres[genre].Count / total) * 100;
-                var lowBase = data.Genres[genre].RatingCount < sufficientBase;
+				var lowBase = data.Genres[genre].RatingCount < sufficientBase;
+				var barAmount = '', barRating = '';
+				if (documentWidth >= 600) {
+                    barAmount = '<td class="chart" data-value="' + data.Genres[genre].Count + '"><span class="bar" style="width:' + ~~((data.Genres[genre].Count / highest) * 100) + 'px">&nbsp;</span></td>';
+                    barRating = '<td class="' + (lowBase ? 'lowbase ' : '') + 'chart" data-value="' + rating + '"><span class="bar" style="width:' + ~~((rating / highestRating) * 100) + 'px">&nbsp;</span></td>';
+				}
 
 				tbody.append(
 					'<tr>' +
 					'<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/genre/' + genre.toLowerCase().replace(/ /g, '-') + '/size/large/">' + genre + '</a></td>' +
 					'<td class="right">' + data.Genres[genre].Count + '</td>' +
 					'<td class="right ttt" data-tooltip="' + watchedPercent.toFixed(2) + '%" data-value="' + data.Genres[genre].Count + '">' + watchedPercent.toFixed(0) + '%</td>' +
-					'<td class="chart" data-value="' + data.Genres[genre].Count + '"><span class="bar" style="width:' + ~~((data.Genres[genre].Count / highest) * 100) + 'px">&nbsp;</span></td>' +
+					barAmount +
                     '<td class="' + (lowBase ? 'lowbase ' : '') + 'right ttt" data-tooltip="Based on ' + data.Genres[genre].RatingCount + ' rated film(s)."><span>' + rating + '</span></td>' +
-                    '<td class="' + (lowBase ? 'lowbase ' : '') + 'chart" data-value="' + rating + '"><span class="bar" style="width:' + ~~((rating / highestRating) * 100) + 'px">&nbsp;</span></td>' +
+                    barRating +
 					'</tr>');
 			}
 
@@ -1401,27 +1495,45 @@
 				type: 'text'
 			});
 
-			$('#main').tablesorter({
-				widgets: ['columns'],
-				usNumberFormat: true,
-				sortReset: false,
-				sortRestart: false,
-				sortList: [[1, 1]],
-				headers: {
-					0: { sorter: false },
-					1: { sorter: false },
-					2: { sorter: false },
-					3: { sortInitialOrder: 'asc' },
-					4: { sortInitialOrder: 'desc' },
-					5: { sortInitialOrder: 'desc', sorter: 'data-value' },
-					6: { sorter: false },
-					7: { sortInitialOrder: 'desc' },
-					8: { sorter: false },
-				},
-				cssHeaderRow: "tablesorter-headerRow"
-			});
-
-			$('body').append('<div class="info">Genre information is obtained from TMDB, which sometimes differs to Letterboxd.</div>');
+			if (documentWidth < 600) {
+				$('#main').tablesorter({
+					widgets: ['columns'],
+					usNumberFormat: true,
+					sortReset: false,
+					sortRestart: false,
+					sortList: [[1, 1]],
+					headers: {
+						0: { sorter: false },
+						1: { sorter: false },
+						2: { sorter: false },
+						3: { sortInitialOrder: 'asc' },
+						4: { sortInitialOrder: 'desc' },
+						5: { sortInitialOrder: 'desc', sorter: 'data-value' },
+						6: { sortInitialOrder: 'desc' },
+					},
+					cssHeaderRow: "tablesorter-headerRow"
+				});
+			} else {
+                $('#main').tablesorter({
+                    widgets: ['columns'],
+                    usNumberFormat: true,
+                    sortReset: false,
+                    sortRestart: false,
+                    sortList: [[1, 1]],
+                    headers: {
+                        0: { sorter: false },
+                        1: { sorter: false },
+                        2: { sorter: false },
+                        3: { sortInitialOrder: 'asc' },
+                        4: { sortInitialOrder: 'desc' },
+                        5: { sortInitialOrder: 'desc', sorter: 'data-value' },
+                        6: { sorter: false },
+                        7: { sortInitialOrder: 'desc' },
+                        8: { sorter: false },
+                    },
+                    cssHeaderRow: "tablesorter-headerRow"
+                });
+			}
 
 			createTooltipTriggers();
 
@@ -1474,7 +1586,7 @@
 			createGallery();
 
 			var gallery = $('#gallery');
-            var minimum = dataSource.length >= galleryAmount ? dataSource[galleryAmount].Amount : 0;	
+            var minimum = dataSource.length >= galleryAmount ? dataSource[galleryAmount].Amount : 0;
 
 			//var shuffled = shuffleArray(dataSource.filter(a => a.Poster.length > 2).slice(0));
             //shuffled = shuffled.sort((a, b) => b.Amount - a.Amount);
