@@ -133,10 +133,12 @@
         console.log(documentWidth);
 
 		onresize = (event) => {
-			documentWidth = document.body.clientWidth;
-			console.log(documentWidth);
-			showOverall();
-            deactivateAll();
+			if (document.body.clientWidth != documentWidth) {
+				documentWidth = document.body.clientWidth;
+				console.log(documentWidth);
+				showOverall();
+				deactivateAll();
+			}
 		};
 
 		var table, thead, tbody;
