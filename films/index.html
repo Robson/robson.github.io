@@ -81,14 +81,10 @@
 		<span class="displayer inline ttt" data-tooltip="Men" onmousedown="javascript:showEntireCastMen()">M</span>
 		&#9670;
 		<span class="displayer inline ttt" data-tooltip="Non-Binary" onmousedown="javascript:showEntireCastNonBinary()">NB</span>
-		<div class="title">Lists</div>
-		<em style="opacity:0">&#9670;</em>
-		<span class="displayer inline" onmousedown="javascript:showList('Watched in 2023')">Films Watched in 2023</span>
-		<em style="opacity:0">&#9670;</em>
-		<br />
-		<em style="opacity:0">&#9670;</em>
-		<span class="displayer inline" onmousedown="javascript:showList('Watched in 2024')">Films Watched in 2024</span>
-		<em style="opacity:0">&#9670;</em>
+		<div class="title">Watched</div>
+		<span class="displayer inline" onmousedown="javascript:showList('Watched in 2023')">In 2023</span>
+		&#9670;
+		<span class="displayer inline" onmousedown="javascript:showList('Watched in 2024')">In 2024</span>
 		<!--<div class="title">Director</div>
 	<span class="displayer inlinefirst" onmousedown="javascript:showDirectorsAll()">All</span>
 	&#9670;
@@ -387,22 +383,69 @@
 
 		}
 
+        function showListRecent(listName, listTitle, amount = galleryAmount) {
+
+            var lbList = data.Lists.filter(a => a.ListName == listName)[0];
+
+            createGallery();
+            var gallery = $('#gallery');
+
+			gallery.append('<div class="title">' + listTitle + '</div>');
+
+			var listFilms = lbList.Entries.slice(-amount);
+
+            for (var film of listFilms) {
+
+                var details = film.Year + '<br/>';
+                if (film.Rating > 0) {
+                    details += '★'.repeat(film.Rating);
+                } else {
+                    details += '&nbsp;';
+                }
+
+                details += '<br/>';
+                if (film.PrimaryLanguage.length == 0) {
+                    details += 'No Spoken Language';
+                } else if (film.PrimaryLanguage != "English") {
+                    details += film.PrimaryLanguage;
+                } else {
+                    details += '&nbsp;';
+                }
+
+                // <a href="https://boxd.it/' + film.LetterboxdIdentifier + '">' + film.FilmName + '</a>
+                gallery.append(
+                    '<div class="item ttt" data-tooltip="' + film.FilmName + '">' +
+                    '<div class="poster"><a target="_blank" href="https://boxd.it/' + film.LetterboxdIdentifier + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.PosterUrl + '"></a></div>' +
+                    '<div class="details">' + details + '<br/></div>' +
+                    '</a></div>');
+            }
+
+            createTooltipTriggers();
+
+            deactivateAll();
+            $(event.target).addClass('active');
+
+        }
+
 		function showOverall() {
 
 			resetView();
 
-			$('body').append('<div class="boxes"></div>');
-			$('.boxes').last().append(makeBox(data.LastUpdated, 'Stats Generated Date'));
+            $('body').append('<div class="info">This page shows statistics for <a target="_blank" href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '</a>\'s watched films.<br/>The statistics were generated on ' + data.LastUpdated + '.<br/>Click a section on the left to explore the statistics.</div>');
+
+			//$('body').append('<div class="boxes"></div>');
+			//$('.boxes').last().append(makeBox(, 'Stats Generated Date'));
 
 			$('body').append('<div class="boxes"></div>');
 			$('.boxes').last().append(makeBox(data.TotalFilms.toLocaleString(), 'Watched Films'));
 
-			$('body').append('<div class="boxes"></div>');
+            var percent = (data.RatedFilms / data.TotalFilms * 100);
 			$('.boxes').last().append(makeBox(data.RatedFilms.toLocaleString(), 'Rated Films'));
-			var percent = (data.RatedFilms / data.TotalFilms * 100);
-            $('.boxes').last().append(makeBox(percent.toFixed(0) + '%', 'Rated Films', percent.toFixed(2) + '%'));
+			$('.boxes').last().append(makeBox(percent.toFixed(0) + '%', 'Rated Films', percent.toFixed(2) + '%'));
 
-			$('body').append('<div class="info"><a target="_blank" href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '\'s Letterboxd</a>.</div>');
+			//$('body').append('<div class="info"><a target="_blank" href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '\'s Letterboxd</a>.</div>');
+
+			showListRecent('Watched in 2024', "Recently Watched", 10);
 
 			createTooltipTriggers();
 

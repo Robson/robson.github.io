@@ -1,13 +1,13 @@
 var data = {
-  "LastUpdated": "23 Aug 2024",
+  "LastUpdated": "25 Aug 2024",
   "Username": "LaLunaLlena",
-  "TotalFilms": 913,
-  "RatedFilms": 243,
-  "FilmsWithGenres": 911,
-  "TotalMinutes": 97879,
-  "FilmsWithRuntime": 910,
-  "TotalMinutesFull": 96795,
-  "FilmsWithRuntimeFull": 877,
+  "TotalFilms": 915,
+  "RatedFilms": 245,
+  "FilmsWithGenres": 913,
+  "TotalMinutes": 98055,
+  "FilmsWithRuntime": 912,
+  "TotalMinutesFull": 96971,
+  "FilmsWithRuntimeFull": 879,
   "Genres": {
     "Action": {
       "Count": 159,
@@ -25,9 +25,9 @@ var data = {
       "RatingTotal": 16
     },
     "Comedy": {
-      "Count": 282,
-      "RatingCount": 56,
-      "RatingTotal": 184
+      "Count": 284,
+      "RatingCount": 58,
+      "RatingTotal": 191
     },
     "Crime": {
       "Count": 168,
@@ -40,14 +40,14 @@ var data = {
       "RatingTotal": 34
     },
     "Drama": {
-      "Count": 455,
-      "RatingCount": 160,
-      "RatingTotal": 608
+      "Count": 456,
+      "RatingCount": 161,
+      "RatingTotal": 613
     },
     "Family": {
-      "Count": 75,
-      "RatingCount": 9,
-      "RatingTotal": 28
+      "Count": 76,
+      "RatingCount": 10,
+      "RatingTotal": 30
     },
     "Fantasy": {
       "Count": 88,
@@ -75,9 +75,9 @@ var data = {
       "RatingTotal": 70
     },
     "Romance": {
-      "Count": 122,
-      "RatingCount": 41,
-      "RatingTotal": 156
+      "Count": 123,
+      "RatingCount": 42,
+      "RatingTotal": 161
     },
     "Science Fiction": {
       "Count": 100,
@@ -105,13 +105,13 @@ var data = {
       "RatingTotal": 9
     }
   },
-  "DirectorTotalAll": 993,
+  "DirectorTotalAll": 995,
   "DirectorTotalFemale": 96,
-  "DirectorTotalMale": 860,
+  "DirectorTotalMale": 862,
   "DirectorTotalNonBinary": 1,
-  "DirectorUniqueAll": 664,
+  "DirectorUniqueAll": 665,
   "DirectorUniqueFemale": 79,
-  "DirectorUniqueMale": 552,
+  "DirectorUniqueMale": 553,
   "DirectorUniqueNonBinary": 1,
   "DirectorAll": [
     {
@@ -598,6 +598,12 @@ var data = {
       "FullName": "Ben Sharpsteen",
       "Amount": 2,
       "Poster": "/nfruaWGIjvI99oXmyzmsnGkdDL9.jpg",
+      "Gender": 2
+    },
+    {
+      "FullName": "Bob Spiers",
+      "Amount": 2,
+      "Poster": "/l22gNZcPsph1B5xeNtm4tqf53fQ.jpg",
       "Gender": 2
     },
     {
@@ -2003,6 +2009,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Bob Spiers",
+      "Amount": 2,
+      "Poster": "/l22gNZcPsph1B5xeNtm4tqf53fQ.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Bobby Farrelly",
       "Amount": 2,
       "Poster": "/i5mt42m2MjMpFVrVYlYmp5ylLDy.jpg",
@@ -2425,13 +2437,13 @@ var data = {
       "Gender": 0
     }
   ],
-  "ProtagonistTotalAll": 906,
-  "ProtagonistTotalFemale": 260,
-  "ProtagonistTotalMale": 629,
+  "ProtagonistTotalAll": 908,
+  "ProtagonistTotalFemale": 261,
+  "ProtagonistTotalMale": 630,
   "ProtagonistTotalNonBinary": 5,
-  "ProtagonistUniqueAll": 583,
+  "ProtagonistUniqueAll": 584,
   "ProtagonistUniqueFemale": 194,
-  "ProtagonistUniqueMale": 375,
+  "ProtagonistUniqueMale": 376,
   "ProtagonistUniqueNonBinary": 3,
   "ProtagonistAll": [
     {
@@ -2471,6 +2483,12 @@ var data = {
       "Gender": 2
     },
     {
+      "FullName": "Christina Ricci",
+      "Amount": 8,
+      "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
+      "Gender": 1
+    },
+    {
       "FullName": "Daniel Radcliffe",
       "Amount": 8,
       "Poster": "/iPg0J9UzAlPj1fLEJNllpW9IhGe.jpg",
@@ -2487,12 +2505,6 @@ var data = {
       "Amount": 8,
       "Poster": "/ehwS5WvU5yL5vKcUEqbzGK8Fh8B.jpg",
       "Gender": 2
-    },
-    {
-      "FullName": "Christina Ricci",
-      "Amount": 7,
-      "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
-      "Gender": 1
     },
     {
       "FullName": "George Clooney",
@@ -3296,7 +3308,7 @@ var data = {
   "ProtagonistFemale": [
     {
       "FullName": "Christina Ricci",
-      "Amount": 7,
+      "Amount": 8,
       "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
       "Gender": 0
     },
@@ -5099,18 +5111,18 @@ var data = {
       "Gender": 0
     }
   ],
-  "TopCastTotalAll": 2666,
-  "TopCastTotalFemale": 952,
-  "TopCastTotalMale": 1637,
+  "TopCastTotalAll": 2672,
+  "TopCastTotalFemale": 954,
+  "TopCastTotalMale": 1640,
   "TopCastTotalNonBinary": 9,
-  "TopCastUniqueAll": 1716,
-  "TopCastUniqueFemale": 642,
-  "TopCastUniqueMale": 1003,
+  "TopCastUniqueAll": 1720,
+  "TopCastUniqueFemale": 643,
+  "TopCastUniqueMale": 1005,
   "TopCastUniqueNonBinary": 5,
   "TopCastAll": [
     {
       "FullName": "Christina Ricci",
-      "Amount": 12,
+      "Amount": 13,
       "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
       "Gender": 1
     },
@@ -5766,7 +5778,7 @@ var data = {
   "TopCastFemale": [
     {
       "FullName": "Christina Ricci",
-      "Amount": 12,
+      "Amount": 13,
       "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
       "Gender": 0
     },
@@ -7557,13 +7569,13 @@ var data = {
       "Gender": 0
     }
   ],
-  "EntireCastTotalAll": 37871,
-  "EntireCastTotalFemale": 9106,
-  "EntireCastTotalMale": 19714,
+  "EntireCastTotalAll": 37947,
+  "EntireCastTotalFemale": 9126,
+  "EntireCastTotalMale": 19765,
   "EntireCastTotalNonBinary": 24,
-  "EntireCastUniqueAll": 29735,
-  "EntireCastUniqueFemale": 7136,
-  "EntireCastUniqueMale": 13817,
+  "EntireCastUniqueAll": 29788,
+  "EntireCastUniqueFemale": 7151,
+  "EntireCastUniqueMale": 13850,
   "EntireCastUniqueNonBinary": 14,
   "EntireCastAll": [
     {
@@ -7574,7 +7586,7 @@ var data = {
     },
     {
       "FullName": "Christina Ricci",
-      "Amount": 17,
+      "Amount": 18,
       "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
       "Gender": 1
     },
@@ -8287,6 +8299,12 @@ var data = {
       "Gender": 2
     },
     {
+      "FullName": "John Ratzenberger",
+      "Amount": 7,
+      "Poster": "/oRtDEOuIO1yDhTz5dORBdxXuLMO.jpg",
+      "Gender": 2
+    },
+    {
       "FullName": "Jon Bernthal",
       "Amount": 7,
       "Poster": "/2NZGL8ukRncF55S3seNn14Zj84i.jpg",
@@ -8357,6 +8375,12 @@ var data = {
       "Amount": 7,
       "Poster": "/edPU5HxncLWa1YkgRPNkSd68ONG.jpg",
       "Gender": 1
+    },
+    {
+      "FullName": "Ned Bellamy",
+      "Amount": 7,
+      "Poster": "/9qj6thu0g6iUc2hvfoEYlO4GSbY.jpg",
+      "Gender": 2
     },
     {
       "FullName": "Olivia Colman",
@@ -8452,7 +8476,7 @@ var data = {
   "EntireCastFemale": [
     {
       "FullName": "Christina Ricci",
-      "Amount": 17,
+      "Amount": 18,
       "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
       "Gender": 0
     },
@@ -10181,6 +10205,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "John Ratzenberger",
+      "Amount": 7,
+      "Poster": "/oRtDEOuIO1yDhTz5dORBdxXuLMO.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Jon Bernthal",
       "Amount": 7,
       "Poster": "/2NZGL8ukRncF55S3seNn14Zj84i.jpg",
@@ -10220,6 +10250,12 @@ var data = {
       "FullName": "Michael Shannon",
       "Amount": 7,
       "Poster": "/6mMczfjM8CiS1WuBOgo5Xom1TcR.jpg",
+      "Gender": 0
+    },
+    {
+      "FullName": "Ned Bellamy",
+      "Amount": 7,
+      "Poster": "/9qj6thu0g6iUc2hvfoEYlO4GSbY.jpg",
       "Gender": 0
     },
     {
@@ -10431,7 +10467,7 @@ var data = {
     "1928": 2,
     "1929": 0,
     "1930": 0,
-    "1931": 2,
+    "1931": 3,
     "1932": 0,
     "1933": 2,
     "1934": 0,
@@ -10497,7 +10533,7 @@ var data = {
     "1994": 14,
     "1995": 16,
     "1996": 17,
-    "1997": 23,
+    "1997": 24,
     "1998": 27,
     "1999": 24,
     "2000": 32,
@@ -10558,9 +10594,9 @@ var data = {
       "RatingTotal": 5
     },
     "1930": {
-      "Count": 6,
-      "RatingCount": 5,
-      "RatingTotal": 19
+      "Count": 7,
+      "RatingCount": 6,
+      "RatingTotal": 24
     },
     "1940": {
       "Count": 8,
@@ -10588,9 +10624,9 @@ var data = {
       "RatingTotal": 30
     },
     "1990": {
-      "Count": 162,
-      "RatingCount": 25,
-      "RatingTotal": 100
+      "Count": 163,
+      "RatingCount": 26,
+      "RatingTotal": 102
     },
     "2000": {
       "Count": 331,
@@ -11793,6 +11829,11 @@ var data = {
       "Id": "wgk",
       "Poster": "/rjgjDtdz41ZgzhYsZQY6HPqz6Js.jpg"
     },
+    "City Lights ": {
+      "When": "1931-02-01",
+      "Id": "29ki",
+      "Poster": "/bXNvzjULc9jrOVhGfjcc64uKZmZ.jpg"
+    },
     "Frankenstein ": {
       "When": "1931-11-21",
       "Id": "25Te",
@@ -12207,17 +12248,12 @@ var data = {
       "When": "1982-05-21",
       "Id": "1LCi",
       "Poster": "/6dG7UTAISJGh6FqTKIwN7sR11w2.jpg"
-    },
-    "E.T. the Extra-Terrestrial ": {
-      "When": "1982-06-11",
-      "Id": "2a1G",
-      "Poster": "/an0nD6uq6byfxXCfk6lQBzdL2J1.jpg"
     }
   },
   "FilmsPerThirtyMinutes": {
     "0": 18,
     "30": 13,
-    "60": 131,
+    "60": 133,
     "90": 491,
     "120": 217,
     "150": 32,
@@ -12229,7 +12265,7 @@ var data = {
     "Cantonese": 1,
     "Czech": 2,
     "Danish": 1,
-    "English": 827,
+    "English": 828,
     "French": 23,
     "German": 4,
     "Hungarian": 1,
@@ -12239,7 +12275,7 @@ var data = {
     "Japanese": 9,
     "Korean": 5,
     "Mandarin": 2,
-    "No Spoken Language": 19,
+    "No Spoken Language": 20,
     "Portuguese": 2,
     "Russian": 2,
     "Spanish": 3,
@@ -12284,7 +12320,7 @@ var data = {
     "Ukraine": 1,
     "United Arab Emirates": 1,
     "United Kingdom": 172,
-    "United States of America": 737
+    "United States of America": 739
   },
   "FilmsPerCountryProduction": {
     "Angola": 1,
@@ -12342,13 +12378,13 @@ var data = {
     "Ukraine": 2,
     "United Arab Emirates": 2,
     "United Kingdom": 235,
-    "United States of America": 784
+    "United States of America": 786
   },
   "Backdrops": [
     {
-      "ImageUrl": "/45He7gApNQyDbqCDjxew9BnHzjf.jpg",
-      "FilmName": "Lost in Translation\u003Cbr/\u003E(2003)\u003Cbr/\u003E\u2605\u2605\u2605\u2605",
-      "LetterboxdId": "2b0E"
+      "ImageUrl": "/djniIXcoida7VulOLfF8Lq9RGBm.jpg",
+      "FilmName": "The Children's Hour\u003Cbr/\u003E(1961)",
+      "LetterboxdId": "1DZI"
     }
   ],
   "Lists": [
@@ -14051,6 +14087,24 @@ var data = {
           "PrimaryLanguage": "English",
           "PosterUrl": "/5aj8vVGFwGVbQQs26ywhg4Zxk2L.jpg",
           "Rating": 2
+        },
+        {
+          "Order": 138,
+          "FilmName": "That Darn Cat",
+          "Year": 1997,
+          "LetterboxdIdentifier": "1CZ8",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/cLdvl0emqJ4PJaPABsdO5qtxYTS.jpg",
+          "Rating": 2
+        },
+        {
+          "Order": 139,
+          "FilmName": "City Lights",
+          "Year": 1931,
+          "LetterboxdIdentifier": "29ki",
+          "PrimaryLanguage": "",
+          "PosterUrl": "/bXNvzjULc9jrOVhGfjcc64uKZmZ.jpg",
+          "Rating": 5
         }
       ]
     }
