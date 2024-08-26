@@ -1,13 +1,13 @@
 var data = {
-  "LastUpdated": "25 Aug 2024",
+  "LastUpdated": "26 Aug 2024",
   "Username": "LaLunaLlena",
-  "TotalFilms": 915,
-  "RatedFilms": 245,
-  "FilmsWithGenres": 913,
-  "TotalMinutes": 98055,
-  "FilmsWithRuntime": 912,
-  "TotalMinutesFull": 96971,
-  "FilmsWithRuntimeFull": 879,
+  "TotalFilms": 917,
+  "RatedFilms": 246,
+  "FilmsWithGenres": 915,
+  "TotalMinutes": 98262,
+  "FilmsWithRuntime": 914,
+  "TotalMinutesFull": 97178,
+  "FilmsWithRuntimeFull": 881,
   "Genres": {
     "Action": {
       "Count": 159,
@@ -15,7 +15,7 @@ var data = {
       "RatingTotal": 41
     },
     "Adventure": {
-      "Count": 151,
+      "Count": 152,
       "RatingCount": 22,
       "RatingTotal": 81
     },
@@ -40,9 +40,9 @@ var data = {
       "RatingTotal": 34
     },
     "Drama": {
-      "Count": 456,
-      "RatingCount": 161,
-      "RatingTotal": 613
+      "Count": 457,
+      "RatingCount": 162,
+      "RatingTotal": 616
     },
     "Family": {
       "Count": 76,
@@ -60,7 +60,7 @@ var data = {
       "RatingTotal": 54
     },
     "Horror": {
-      "Count": 96,
+      "Count": 97,
       "RatingCount": 36,
       "RatingTotal": 119
     },
@@ -75,9 +75,9 @@ var data = {
       "RatingTotal": 70
     },
     "Romance": {
-      "Count": 123,
-      "RatingCount": 42,
-      "RatingTotal": 161
+      "Count": 124,
+      "RatingCount": 43,
+      "RatingTotal": 164
     },
     "Science Fiction": {
       "Count": 100,
@@ -85,7 +85,7 @@ var data = {
       "RatingTotal": 90
     },
     "Thriller": {
-      "Count": 255,
+      "Count": 256,
       "RatingCount": 50,
       "RatingTotal": 164
     },
@@ -105,13 +105,13 @@ var data = {
       "RatingTotal": 9
     }
   },
-  "DirectorTotalAll": 995,
-  "DirectorTotalFemale": 96,
-  "DirectorTotalMale": 862,
+  "DirectorTotalAll": 997,
+  "DirectorTotalFemale": 97,
+  "DirectorTotalMale": 863,
   "DirectorTotalNonBinary": 1,
-  "DirectorUniqueAll": 665,
-  "DirectorUniqueFemale": 79,
-  "DirectorUniqueMale": 553,
+  "DirectorUniqueAll": 667,
+  "DirectorUniqueFemale": 80,
+  "DirectorUniqueMale": 554,
   "DirectorUniqueNonBinary": 1,
   "DirectorAll": [
     {
@@ -1266,6 +1266,12 @@ var data = {
       "FullName": "Haifaa al-Mansour",
       "Amount": 1,
       "Poster": "/67UWpEJi36AXxY3aQf4DBSvGv9e.jpg",
+      "Gender": 0
+    },
+    {
+      "FullName": "Isabel Coixet",
+      "Amount": 1,
+      "Poster": "/s2Hspn17nOf6LIuVrULvV3OOiX0.jpg",
       "Gender": 0
     },
     {
@@ -2437,12 +2443,12 @@ var data = {
       "Gender": 0
     }
   ],
-  "ProtagonistTotalAll": 908,
-  "ProtagonistTotalFemale": 261,
+  "ProtagonistTotalAll": 910,
+  "ProtagonistTotalFemale": 263,
   "ProtagonistTotalMale": 630,
   "ProtagonistTotalNonBinary": 5,
-  "ProtagonistUniqueAll": 584,
-  "ProtagonistUniqueFemale": 194,
+  "ProtagonistUniqueAll": 586,
+  "ProtagonistUniqueFemale": 196,
   "ProtagonistUniqueMale": 376,
   "ProtagonistUniqueNonBinary": 3,
   "ProtagonistAll": [
@@ -3925,6 +3931,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Jennifer Lopez",
+      "Amount": 1,
+      "Poster": "/icNEXl1ziSvOKsnhtydi8BZppsY.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Jennifer Love Hewitt",
       "Amount": 1,
       "Poster": "/gEDepjLEFGokSaexd1FzmtH1hlq.jpg",
@@ -4264,6 +4276,12 @@ var data = {
       "FullName": "Nanako Matsushima",
       "Amount": 1,
       "Poster": "/s8fAUcWvIBsax1chMjvNBFHV7qG.jpg",
+      "Gender": 0
+    },
+    {
+      "FullName": "Natalia de Molina",
+      "Amount": 1,
+      "Poster": "/6wlQQgxW8sQTCQU79sNpEL4lYfs.jpg",
       "Gender": 0
     },
     {
@@ -5111,13 +5129,13 @@ var data = {
       "Gender": 0
     }
   ],
-  "TopCastTotalAll": 2672,
-  "TopCastTotalFemale": 954,
-  "TopCastTotalMale": 1640,
+  "TopCastTotalAll": 2678,
+  "TopCastTotalFemale": 958,
+  "TopCastTotalMale": 1642,
   "TopCastTotalNonBinary": 9,
-  "TopCastUniqueAll": 1720,
-  "TopCastUniqueFemale": 643,
-  "TopCastUniqueMale": 1005,
+  "TopCastUniqueAll": 1725,
+  "TopCastUniqueFemale": 647,
+  "TopCastUniqueMale": 1006,
   "TopCastUniqueNonBinary": 5,
   "TopCastAll": [
     {
@@ -5658,6 +5676,12 @@ var data = {
       "FullName": "John Travolta",
       "Amount": 4,
       "Poster": "/9GVufE87MMIrSn0CbJFLudkALdL.jpg",
+      "Gender": 2
+    },
+    {
+      "FullName": "Jon Voight",
+      "Amount": 4,
+      "Poster": "/nuiTfACxhKRE2D2FWbK93m5MgSS.jpg",
       "Gender": 2
     },
     {
@@ -7069,6 +7093,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Jon Voight",
+      "Amount": 4,
+      "Poster": "/nuiTfACxhKRE2D2FWbK93m5MgSS.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Josh Brolin",
       "Amount": 4,
       "Poster": "/sX2etBbIkxRaCsATyw5ZpOVMPTD.jpg",
@@ -7363,12 +7393,6 @@ var data = {
       "Gender": 0
     },
     {
-      "FullName": "Jon Voight",
-      "Amount": 3,
-      "Poster": "/nuiTfACxhKRE2D2FWbK93m5MgSS.jpg",
-      "Gender": 0
-    },
-    {
       "FullName": "Josh Hutcherson",
       "Amount": 3,
       "Poster": "/1gFNyijWyHL2Gq4Td74l6QWBYaj.jpg",
@@ -7569,13 +7593,13 @@ var data = {
       "Gender": 0
     }
   ],
-  "EntireCastTotalAll": 37947,
-  "EntireCastTotalFemale": 9126,
-  "EntireCastTotalMale": 19765,
+  "EntireCastTotalAll": 37980,
+  "EntireCastTotalFemale": 9135,
+  "EntireCastTotalMale": 19781,
   "EntireCastTotalNonBinary": 24,
-  "EntireCastUniqueAll": 29788,
-  "EntireCastUniqueFemale": 7151,
-  "EntireCastUniqueMale": 13850,
+  "EntireCastUniqueAll": 29813,
+  "EntireCastUniqueFemale": 7158,
+  "EntireCastUniqueMale": 13860,
   "EntireCastUniqueNonBinary": 14,
   "EntireCastAll": [
     {
@@ -7771,6 +7795,12 @@ var data = {
       "Gender": 2
     },
     {
+      "FullName": "Jon Voight",
+      "Amount": 10,
+      "Poster": "/nuiTfACxhKRE2D2FWbK93m5MgSS.jpg",
+      "Gender": 2
+    },
+    {
       "FullName": "Julie Walters",
       "Amount": 10,
       "Poster": "/bCTkV2OUgzbJdQEoCk3GesE4DXq.jpg",
@@ -7855,6 +7885,12 @@ var data = {
       "Gender": 2
     },
     {
+      "FullName": "Frank Welker",
+      "Amount": 9,
+      "Poster": "/xXODQ5AX6pG4my8ieeEIuiAREXs.jpg",
+      "Gender": 2
+    },
+    {
       "FullName": "Geraldine Somerville",
       "Amount": 9,
       "Poster": "/vyLIquF45MpN6OOPmk8L7gnmKrY.jpg",
@@ -7864,12 +7900,6 @@ var data = {
       "FullName": "James Phelps",
       "Amount": 9,
       "Poster": "/dk7kTamtnbgSA40Lg00aE36hljs.jpg",
-      "Gender": 2
-    },
-    {
-      "FullName": "Jon Voight",
-      "Amount": 9,
-      "Poster": "/nuiTfACxhKRE2D2FWbK93m5MgSS.jpg",
       "Gender": 2
     },
     {
@@ -8009,12 +8039,6 @@ var data = {
       "Amount": 8,
       "Poster": "/xr8Ki3CIqweWWqS5q0kUYdiK6oQ.jpg",
       "Gender": 1
-    },
-    {
-      "FullName": "Frank Welker",
-      "Amount": 8,
-      "Poster": "/xXODQ5AX6pG4my8ieeEIuiAREXs.jpg",
-      "Gender": 2
     },
     {
       "FullName": "Helena Bonham Carter",
@@ -9773,6 +9797,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Jon Voight",
+      "Amount": 10,
+      "Poster": "/nuiTfACxhKRE2D2FWbK93m5MgSS.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Keanu Reeves",
       "Amount": 10,
       "Poster": "/4D0PpNI0kmP58hgrwGC3wCjxhnm.jpg",
@@ -9851,15 +9881,15 @@ var data = {
       "Gender": 0
     },
     {
-      "FullName": "James Phelps",
+      "FullName": "Frank Welker",
       "Amount": 9,
-      "Poster": "/dk7kTamtnbgSA40Lg00aE36hljs.jpg",
+      "Poster": "/xXODQ5AX6pG4my8ieeEIuiAREXs.jpg",
       "Gender": 0
     },
     {
-      "FullName": "Jon Voight",
+      "FullName": "James Phelps",
       "Amount": 9,
-      "Poster": "/nuiTfACxhKRE2D2FWbK93m5MgSS.jpg",
+      "Poster": "/dk7kTamtnbgSA40Lg00aE36hljs.jpg",
       "Gender": 0
     },
     {
@@ -9956,12 +9986,6 @@ var data = {
       "FullName": "Edward Norton",
       "Amount": 8,
       "Poster": "/8nytsqL59SFJTVYVrN72k6qkGgJ.jpg",
-      "Gender": 0
-    },
-    {
-      "FullName": "Frank Welker",
-      "Amount": 8,
-      "Poster": "/xXODQ5AX6pG4my8ieeEIuiAREXs.jpg",
       "Gender": 0
     },
     {
@@ -10533,7 +10557,7 @@ var data = {
     "1994": 14,
     "1995": 16,
     "1996": 17,
-    "1997": 24,
+    "1997": 25,
     "1998": 27,
     "1999": 24,
     "2000": 32,
@@ -10555,7 +10579,7 @@ var data = {
     "2016": 19,
     "2017": 22,
     "2018": 17,
-    "2019": 24,
+    "2019": 25,
     "2020": 6,
     "2021": 13,
     "2022": 15,
@@ -10624,7 +10648,7 @@ var data = {
       "RatingTotal": 30
     },
     "1990": {
-      "Count": 163,
+      "Count": 164,
       "RatingCount": 26,
       "RatingTotal": 102
     },
@@ -10634,9 +10658,9 @@ var data = {
       "RatingTotal": 112
     },
     "2010": {
-      "Count": 213,
-      "RatingCount": 92,
-      "RatingTotal": 325
+      "Count": 214,
+      "RatingCount": 93,
+      "RatingTotal": 328
     },
     "2020": {
       "Count": 63,
@@ -11662,6 +11686,11 @@ var data = {
       "Id": "igNS",
       "Poster": "/micaVOa1UZsdzs4fKGA67ZMGOzc.jpg"
     },
+    "Elisa \u0026 Marcela ": {
+      "When": "2019-05-24",
+      "Id": "jukM",
+      "Poster": "/AseQVecljowH0ZfBbjKvz0qPhEW.jpg"
+    },
     "Us ": {
       "When": "2019-03-14",
       "Id": "gnV6",
@@ -11741,11 +11770,6 @@ var data = {
       "When": "2018-03-09",
       "Id": "dVHQ",
       "Poster": "/pIxZzTfITqBpZxbIGsV01DcoHsT.jpg"
-    },
-    "Papers, Please: The Short Film ": {
-      "When": "2018-02-24",
-      "Id": "hovA",
-      "Poster": "/GmwZVQ9usIWHsLVHdiVO0LZXKe.jpg"
     }
   },
   "OldestReleasedFilms": {
@@ -12253,8 +12277,8 @@ var data = {
   "FilmsPerThirtyMinutes": {
     "0": 18,
     "30": 13,
-    "60": 133,
-    "90": 491,
+    "60": 134,
+    "90": 492,
     "120": 217,
     "150": 32,
     "180": 8,
@@ -12265,7 +12289,7 @@ var data = {
     "Cantonese": 1,
     "Czech": 2,
     "Danish": 1,
-    "English": 828,
+    "English": 829,
     "French": 23,
     "German": 4,
     "Hungarian": 1,
@@ -12278,7 +12302,7 @@ var data = {
     "No Spoken Language": 20,
     "Portuguese": 2,
     "Russian": 2,
-    "Spanish": 3,
+    "Spanish": 4,
     "Swedish": 5
   },
   "FilmsPerCountryOrigin": {
@@ -12313,14 +12337,14 @@ var data = {
     "Slovenia": 1,
     "South Korea": 4,
     "Soviet Union": 1,
-    "Spain": 5,
+    "Spain": 6,
     "Sweden": 5,
     "Switzerland": 2,
     "Taiwan": 1,
     "Ukraine": 1,
     "United Arab Emirates": 1,
     "United Kingdom": 172,
-    "United States of America": 739
+    "United States of America": 740
   },
   "FilmsPerCountryProduction": {
     "Angola": 1,
@@ -12328,7 +12352,7 @@ var data = {
     "Australia": 14,
     "Austria": 2,
     "Belgium": 11,
-    "Brazil": 7,
+    "Brazil": 8,
     "Canada": 42,
     "China": 6,
     "Czechia": 5,
@@ -12360,6 +12384,7 @@ var data = {
     "New Zealand": 9,
     "North Korea": 1,
     "Norway": 1,
+    "Peru": 1,
     "Philippines": 1,
     "Poland": 1,
     "Russia": 2,
@@ -12369,7 +12394,7 @@ var data = {
     "South Africa": 1,
     "South Korea": 6,
     "Soviet Union": 1,
-    "Spain": 14,
+    "Spain": 15,
     "Sweden": 9,
     "Switzerland": 6,
     "Taiwan": 2,
@@ -12378,13 +12403,13 @@ var data = {
     "Ukraine": 2,
     "United Arab Emirates": 2,
     "United Kingdom": 235,
-    "United States of America": 786
+    "United States of America": 787
   },
   "Backdrops": [
     {
-      "ImageUrl": "/djniIXcoida7VulOLfF8Lq9RGBm.jpg",
-      "FilmName": "The Children's Hour\u003Cbr/\u003E(1961)",
-      "LetterboxdId": "1DZI"
+      "ImageUrl": "/1LfpHib38aK9iqKi3ZQwclZAZAA.jpg",
+      "FilmName": "System Crasher\u003Cbr/\u003E(2019)",
+      "LetterboxdId": "kO1W"
     }
   ],
   "Lists": [
@@ -14105,6 +14130,15 @@ var data = {
           "PrimaryLanguage": "",
           "PosterUrl": "/bXNvzjULc9jrOVhGfjcc64uKZmZ.jpg",
           "Rating": 5
+        },
+        {
+          "Order": 140,
+          "FilmName": "Elisa \u0026 Marcela",
+          "Year": 2019,
+          "LetterboxdIdentifier": "jukM",
+          "PrimaryLanguage": "Spanish",
+          "PosterUrl": "/AseQVecljowH0ZfBbjKvz0qPhEW.jpg",
+          "Rating": 3
         }
       ]
     }
