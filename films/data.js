@@ -1,13 +1,13 @@
 var data = {
-  "LastUpdated": "26 Aug 2024",
+  "LastUpdated": "27 Aug 2024",
   "Username": "LaLunaLlena",
-  "TotalFilms": 917,
-  "RatedFilms": 246,
-  "FilmsWithGenres": 915,
-  "TotalMinutes": 98262,
-  "FilmsWithRuntime": 914,
-  "TotalMinutesFull": 97178,
-  "FilmsWithRuntimeFull": 881,
+  "TotalFilms": 919,
+  "RatedFilms": 247,
+  "FilmsWithGenres": 917,
+  "TotalMinutes": 98486,
+  "FilmsWithRuntime": 916,
+  "TotalMinutesFull": 97402,
+  "FilmsWithRuntimeFull": 883,
   "Genres": {
     "Action": {
       "Count": 159,
@@ -15,19 +15,19 @@ var data = {
       "RatingTotal": 41
     },
     "Adventure": {
-      "Count": 152,
-      "RatingCount": 22,
-      "RatingTotal": 81
+      "Count": 153,
+      "RatingCount": 23,
+      "RatingTotal": 85
     },
     "Animation": {
       "Count": 43,
-      "RatingCount": 7,
-      "RatingTotal": 16
+      "RatingCount": 6,
+      "RatingTotal": 13
     },
     "Comedy": {
       "Count": 284,
-      "RatingCount": 58,
-      "RatingTotal": 191
+      "RatingCount": 57,
+      "RatingTotal": 188
     },
     "Crime": {
       "Count": 168,
@@ -40,14 +40,14 @@ var data = {
       "RatingTotal": 34
     },
     "Drama": {
-      "Count": 457,
-      "RatingCount": 162,
-      "RatingTotal": 616
+      "Count": 458,
+      "RatingCount": 163,
+      "RatingTotal": 620
     },
     "Family": {
-      "Count": 76,
+      "Count": 77,
       "RatingCount": 10,
-      "RatingTotal": 30
+      "RatingTotal": 31
     },
     "Fantasy": {
       "Count": 88,
@@ -60,19 +60,19 @@ var data = {
       "RatingTotal": 54
     },
     "Horror": {
-      "Count": 97,
-      "RatingCount": 36,
-      "RatingTotal": 119
+      "Count": 98,
+      "RatingCount": 37,
+      "RatingTotal": 121
     },
     "Music": {
       "Count": 13,
-      "RatingCount": 5,
-      "RatingTotal": 19
+      "RatingCount": 4,
+      "RatingTotal": 16
     },
     "Mystery": {
-      "Count": 81,
-      "RatingCount": 19,
-      "RatingTotal": 70
+      "Count": 83,
+      "RatingCount": 21,
+      "RatingTotal": 76
     },
     "Romance": {
       "Count": 124,
@@ -80,9 +80,9 @@ var data = {
       "RatingTotal": 164
     },
     "Science Fiction": {
-      "Count": 100,
-      "RatingCount": 23,
-      "RatingTotal": 90
+      "Count": 101,
+      "RatingCount": 24,
+      "RatingTotal": 92
     },
     "Thriller": {
       "Count": 256,
@@ -105,13 +105,13 @@ var data = {
       "RatingTotal": 9
     }
   },
-  "DirectorTotalAll": 997,
+  "DirectorTotalAll": 999,
   "DirectorTotalFemale": 97,
-  "DirectorTotalMale": 863,
+  "DirectorTotalMale": 865,
   "DirectorTotalNonBinary": 1,
-  "DirectorUniqueAll": 667,
+  "DirectorUniqueAll": 668,
   "DirectorUniqueFemale": 80,
-  "DirectorUniqueMale": 554,
+  "DirectorUniqueMale": 555,
   "DirectorUniqueNonBinary": 1,
   "DirectorAll": [
     {
@@ -424,6 +424,12 @@ var data = {
       "FullName": "Jon Turteltaub",
       "Amount": 3,
       "Poster": "/embHCkQj1fs1PaISQSQQbi9TjHj.jpg",
+      "Gender": 2
+    },
+    {
+      "FullName": "Jordan Peele",
+      "Amount": 3,
+      "Poster": "/kFUKn5g3ebpyZ3CSZZZo2HFWRNQ.jpg",
       "Gender": 2
     },
     {
@@ -832,12 +838,6 @@ var data = {
       "FullName": "Jonathan Mostow",
       "Amount": 2,
       "Poster": "/yRMYvjGLIf0aOUKVLnU6jSpR1oQ.jpg",
-      "Gender": 2
-    },
-    {
-      "FullName": "Jordan Peele",
-      "Amount": 2,
-      "Poster": "/kFUKn5g3ebpyZ3CSZZZo2HFWRNQ.jpg",
       "Gender": 2
     },
     {
@@ -1859,6 +1859,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Jordan Peele",
+      "Amount": 3,
+      "Poster": "/kFUKn5g3ebpyZ3CSZZZo2HFWRNQ.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Luc Besson",
       "Amount": 3,
       "Poster": "/bLVPnHMVFZ7wrF6ovMVF5U1UX89.jpg",
@@ -2225,12 +2231,6 @@ var data = {
       "Gender": 0
     },
     {
-      "FullName": "Jordan Peele",
-      "Amount": 2,
-      "Poster": "/kFUKn5g3ebpyZ3CSZZZo2HFWRNQ.jpg",
-      "Gender": 0
-    },
-    {
       "FullName": "Kelly Asbury",
       "Amount": 2,
       "Poster": "/fzHQFYLc1zVVn3dUjr6pMuKdE0U.jpg",
@@ -2443,9 +2443,9 @@ var data = {
       "Gender": 0
     }
   ],
-  "ProtagonistTotalAll": 910,
-  "ProtagonistTotalFemale": 263,
-  "ProtagonistTotalMale": 630,
+  "ProtagonistTotalAll": 912,
+  "ProtagonistTotalFemale": 264,
+  "ProtagonistTotalMale": 631,
   "ProtagonistTotalNonBinary": 5,
   "ProtagonistUniqueAll": 586,
   "ProtagonistUniqueFemale": 196,
@@ -2463,6 +2463,12 @@ var data = {
       "Amount": 10,
       "Poster": "/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg",
       "Gender": 2
+    },
+    {
+      "FullName": "Christina Ricci",
+      "Amount": 9,
+      "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
+      "Gender": 1
     },
     {
       "FullName": "Nicolas Cage",
@@ -2487,12 +2493,6 @@ var data = {
       "Amount": 8,
       "Poster": "/A1XBu3CffBpSK8HEIJM8q7Mn4lz.jpg",
       "Gender": 2
-    },
-    {
-      "FullName": "Christina Ricci",
-      "Amount": 8,
-      "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
-      "Gender": 1
     },
     {
       "FullName": "Daniel Radcliffe",
@@ -2987,6 +2987,12 @@ var data = {
       "Gender": 2
     },
     {
+      "FullName": "Daniel Kaluuya",
+      "Amount": 2,
+      "Poster": "/jj2kZqJobjom36wlhlYhc38nTwN.jpg",
+      "Gender": 2
+    },
+    {
       "FullName": "Dick Proenneke",
       "Amount": 2,
       "Poster": "/vdz3bngVm575VtmxcKo1zXM36dI.jpg",
@@ -3314,7 +3320,7 @@ var data = {
   "ProtagonistFemale": [
     {
       "FullName": "Christina Ricci",
-      "Amount": 8,
+      "Amount": 9,
       "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
       "Gender": 0
     },
@@ -4905,6 +4911,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Daniel Kaluuya",
+      "Amount": 2,
+      "Poster": "/jj2kZqJobjom36wlhlYhc38nTwN.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Dick Proenneke",
       "Amount": 2,
       "Poster": "/vdz3bngVm575VtmxcKo1zXM36dI.jpg",
@@ -5129,18 +5141,18 @@ var data = {
       "Gender": 0
     }
   ],
-  "TopCastTotalAll": 2678,
-  "TopCastTotalFemale": 958,
-  "TopCastTotalMale": 1642,
+  "TopCastTotalAll": 2684,
+  "TopCastTotalFemale": 962,
+  "TopCastTotalMale": 1644,
   "TopCastTotalNonBinary": 9,
-  "TopCastUniqueAll": 1725,
-  "TopCastUniqueFemale": 647,
-  "TopCastUniqueMale": 1006,
+  "TopCastUniqueAll": 1728,
+  "TopCastUniqueFemale": 649,
+  "TopCastUniqueMale": 1007,
   "TopCastUniqueNonBinary": 5,
   "TopCastAll": [
     {
       "FullName": "Christina Ricci",
-      "Amount": 13,
+      "Amount": 14,
       "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
       "Gender": 1
     },
@@ -5802,7 +5814,7 @@ var data = {
   "TopCastFemale": [
     {
       "FullName": "Christina Ricci",
-      "Amount": 13,
+      "Amount": 14,
       "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
       "Gender": 0
     },
@@ -6632,6 +6644,12 @@ var data = {
       "FullName": "Pen\u00E9lope Cruz",
       "Amount": 2,
       "Poster": "/2Lbc8QXgHik1D1saPqQ5qEWwUEh.jpg",
+      "Gender": 0
+    },
+    {
+      "FullName": "Polly Draper",
+      "Amount": 2,
+      "Poster": "/drwT4RU1klEZ5xD0V7DP9SCMyS9.jpg",
       "Gender": 0
     },
     {
@@ -7593,26 +7611,26 @@ var data = {
       "Gender": 0
     }
   ],
-  "EntireCastTotalAll": 37980,
-  "EntireCastTotalFemale": 9135,
-  "EntireCastTotalMale": 19781,
+  "EntireCastTotalAll": 38031,
+  "EntireCastTotalFemale": 9153,
+  "EntireCastTotalMale": 19806,
   "EntireCastTotalNonBinary": 24,
-  "EntireCastUniqueAll": 29813,
-  "EntireCastUniqueFemale": 7158,
-  "EntireCastUniqueMale": 13860,
+  "EntireCastUniqueAll": 29845,
+  "EntireCastUniqueFemale": 7170,
+  "EntireCastUniqueMale": 13872,
   "EntireCastUniqueNonBinary": 14,
   "EntireCastAll": [
+    {
+      "FullName": "Christina Ricci",
+      "Amount": 19,
+      "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
+      "Gender": 1
+    },
     {
       "FullName": "Samuel L. Jackson",
       "Amount": 19,
       "Poster": "/AiAYAqwpM5xmiFrAIeQvUXDCVvo.jpg",
       "Gender": 2
-    },
-    {
-      "FullName": "Christina Ricci",
-      "Amount": 18,
-      "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
-      "Gender": 1
     },
     {
       "FullName": "Matt Damon",
@@ -8077,6 +8095,12 @@ var data = {
       "Gender": 2
     },
     {
+      "FullName": "Keith David",
+      "Amount": 8,
+      "Poster": "/jJLJuR7FNHYL1fB5igjj7IXzOel.jpg",
+      "Gender": 2
+    },
+    {
       "FullName": "Matthew Lewis",
       "Amount": 8,
       "Poster": "/aPQCLK2gxWOallsFoEwjb1p9lWE.jpg",
@@ -8371,12 +8395,6 @@ var data = {
       "Gender": 1
     },
     {
-      "FullName": "Keith David",
-      "Amount": 7,
-      "Poster": "/jJLJuR7FNHYL1fB5igjj7IXzOel.jpg",
-      "Gender": 2
-    },
-    {
       "FullName": "Mark Boone Junior",
       "Amount": 7,
       "Poster": "/rcncVr356hpfKX9qOrKL3SJlEO7.jpg",
@@ -8500,7 +8518,7 @@ var data = {
   "EntireCastFemale": [
     {
       "FullName": "Christina Ricci",
-      "Amount": 18,
+      "Amount": 19,
       "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
       "Gender": 0
     },
@@ -10019,6 +10037,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Keith David",
+      "Amount": 8,
+      "Poster": "/jJLJuR7FNHYL1fB5igjj7IXzOel.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Matthew Lewis",
       "Amount": 8,
       "Poster": "/aPQCLK2gxWOallsFoEwjb1p9lWE.jpg",
@@ -10256,12 +10280,6 @@ var data = {
       "FullName": "Jude Law",
       "Amount": 7,
       "Poster": "/9H577IoqFgCXonDzR3QEkF2xo5m.jpg",
-      "Gender": 0
-    },
-    {
-      "FullName": "Keith David",
-      "Amount": 7,
-      "Poster": "/jJLJuR7FNHYL1fB5igjj7IXzOel.jpg",
       "Gender": 0
     },
     {
@@ -10555,7 +10573,7 @@ var data = {
     "1992": 8,
     "1993": 13,
     "1994": 14,
-    "1995": 16,
+    "1995": 17,
     "1996": 17,
     "1997": 25,
     "1998": 27,
@@ -10582,7 +10600,7 @@ var data = {
     "2019": 25,
     "2020": 6,
     "2021": 13,
-    "2022": 15,
+    "2022": 16,
     "2023": 21,
     "2024": 8
   },
@@ -10648,9 +10666,9 @@ var data = {
       "RatingTotal": 30
     },
     "1990": {
-      "Count": 164,
-      "RatingCount": 26,
-      "RatingTotal": 102
+      "Count": 165,
+      "RatingCount": 27,
+      "RatingTotal": 106
     },
     "2000": {
       "Count": 331,
@@ -10659,13 +10677,13 @@ var data = {
     },
     "2010": {
       "Count": 214,
-      "RatingCount": 93,
-      "RatingTotal": 328
+      "RatingCount": 92,
+      "RatingTotal": 325
     },
     "2020": {
-      "Count": 63,
-      "RatingCount": 54,
-      "RatingTotal": 197
+      "Count": 64,
+      "RatingCount": 55,
+      "RatingTotal": 199
     }
   },
   "LongestFilms": {
@@ -11466,6 +11484,11 @@ var data = {
       "Id": "zPbe",
       "Poster": "/ulBLIBqvdnf4H6JBt0OpMCU1ECn.jpg"
     },
+    "Nope ": {
+      "When": "2022-07-20",
+      "Id": "sDCe",
+      "Poster": "/AcKVlWaNVVVFQwro3nLXqPljcYA.jpg"
+    },
     "Top Gun: Maverick ": {
       "When": "2022-05-21",
       "Id": "cjr4",
@@ -11765,11 +11788,6 @@ var data = {
       "When": "2018-03-28",
       "Id": "aZes",
       "Poster": "/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg"
-    },
-    "Thoroughbreds ": {
-      "When": "2018-03-09",
-      "Id": "dVHQ",
-      "Poster": "/pIxZzTfITqBpZxbIGsV01DcoHsT.jpg"
     }
   },
   "OldestReleasedFilms": {
@@ -12278,8 +12296,8 @@ var data = {
     "0": 18,
     "30": 13,
     "60": 134,
-    "90": 492,
-    "120": 217,
+    "90": 493,
+    "120": 218,
     "150": 32,
     "180": 8,
     "210": 1
@@ -12289,7 +12307,7 @@ var data = {
     "Cantonese": 1,
     "Czech": 2,
     "Danish": 1,
-    "English": 829,
+    "English": 831,
     "French": 23,
     "German": 4,
     "Hungarian": 1,
@@ -12344,7 +12362,7 @@ var data = {
     "Ukraine": 1,
     "United Arab Emirates": 1,
     "United Kingdom": 172,
-    "United States of America": 740
+    "United States of America": 742
   },
   "FilmsPerCountryProduction": {
     "Angola": 1,
@@ -12403,13 +12421,13 @@ var data = {
     "Ukraine": 2,
     "United Arab Emirates": 2,
     "United Kingdom": 235,
-    "United States of America": 787
+    "United States of America": 789
   },
   "Backdrops": [
     {
-      "ImageUrl": "/1LfpHib38aK9iqKi3ZQwclZAZAA.jpg",
-      "FilmName": "System Crasher\u003Cbr/\u003E(2019)",
-      "LetterboxdId": "kO1W"
+      "ImageUrl": "/nRsr98MFztBGm532hCVMGXV6qOp.jpg",
+      "FilmName": "The Wizard of Oz\u003Cbr/\u003E(1939)",
+      "LetterboxdId": "29Xu"
     }
   ],
   "Lists": [
@@ -14139,6 +14157,24 @@ var data = {
           "PrimaryLanguage": "Spanish",
           "PosterUrl": "/AseQVecljowH0ZfBbjKvz0qPhEW.jpg",
           "Rating": 3
+        },
+        {
+          "Order": 141,
+          "FilmName": "Nope",
+          "Year": 2022,
+          "LetterboxdIdentifier": "sDCe",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/AcKVlWaNVVVFQwro3nLXqPljcYA.jpg",
+          "Rating": 2
+        },
+        {
+          "Order": 142,
+          "FilmName": "Gold Diggers: The Secret of Bear Mountain",
+          "Year": 1995,
+          "LetterboxdIdentifier": "1cbm",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/6USWKkOjS40KY19Q0gPEelEiDhc.jpg",
+          "Rating": 4
         }
       ]
     }
