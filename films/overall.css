@@ -17,6 +17,14 @@
   unicode-range: U+0000-FFFF;
 }
 
+/*
+html {
+	opacity: 1;
+	background: linear-gradient(45deg, transparent 30%, #000000 30%, #000000 70%, transparent 70%), linear-gradient(-45deg, transparent 30%, #000000 30%, #000000 70%, transparent 70%) #080808;
+	background-size: 72.5px 72.5px;
+}
+*/
+
 html {
 	background: radial-gradient(circle, transparent 20%, black 20%, black 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, black 20%, black 80%, transparent 80%, transparent) 50px 50px, linear-gradient(#060606 8px, transparent 8px) 0 -4px, linear-gradient(90deg, #060606 8px, transparent 8px) -4px 0;
 	background-attachment: fixed;
@@ -290,6 +298,10 @@ p {
 .highcharts-title {
 	fill: black !important;
 	color: white;
+}
+
+.highcharts-xaxis .highcharts-tick {
+	stroke: #888;
 }
 
 #outside .title {

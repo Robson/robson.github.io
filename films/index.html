@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Letterboxd Statistics Dashboard</title>
 	<link href="theme.default.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
 		&#9670;
 		<span class="displayer inline" onmousedown="javascript:showOldestReleasedFilms()">Earliest</span>
 		&#9670;
-		<span class="displayer inline" onmousedown="javascript:showNewestReleasedFilms()">Newest</span><br />
+		<span class="displayer inline" onmousedown="javascript:showNewestReleasedFilms()">Newest</span><br>
 		<!--<span class="displayer inlinefirst" onmousedown="javascript:showYearsWithoutFilms()">Years With No Films</span> <em style="opacity:0">&#9670;</em>-->
 		<div class="title">Length</div>
 		<span class="displayer inlinefirst" onmousedown="javascript:showLengthStats()">Stats</span>
@@ -54,7 +54,7 @@
 		<span class="displayer inline ttt" data-tooltip="Men" onmousedown="javascript:showDirectorsMen()">M</span>
 		&#9670;
 		<span class="displayer inline ttt" data-tooltip="Non-Binary" onmousedown="javascript:showDirectorsNonBinary()">NB</span>
-		<br />
+		<br>
 		<em class="subtitle">Protagonist:</em>
 		<span class="displayer inline" onmousedown="javascript:showProtagonistsAll()">All</span>
 		&#9670;
@@ -63,7 +63,7 @@
 		<span class="displayer inline ttt" data-tooltip="Men" onmousedown="javascript:showProtagonistsMen()">M</span>
 		&#9670;
 		<span class="displayer inline ttt" data-tooltip="Non-Binary" onmousedown="javascript:showProtagonistsNonBinary()">NB</span>
-		<br />
+		<br>
 		<em class="subtitle">Main Cast:</em>
 		<span class="displayer inline" onmousedown="javascript:showTopCastAll()">All</span>
 		&#9670;
@@ -72,7 +72,7 @@
 		<span class="displayer inline ttt" data-tooltip="Men" onmousedown="javascript:showTopCastMen()">M</span>
 		&#9670;
 		<span class="displayer inline ttt" data-tooltip="Non-Binary" onmousedown="javascript:showTopCastNonBinary()">NB</span>
-		<br />
+		<br>
 		<em class="subtitle">Entire Cast:</em>
 		<span class="displayer inline" onmousedown="javascript:showEntireCastAll()">All</span>
 		&#9670;
@@ -445,7 +445,7 @@
 
 			//$('body').append('<div class="info"><a target="_blank" href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '\'s Letterboxd</a>.</div>');
 
-			showListRecent('Watched in 2024', "Recently Watched", 10);
+			showListRecent('Watched in 2024', "Recently Watched", 20);
 
 			createTooltipTriggers();
 
