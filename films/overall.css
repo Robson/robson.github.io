@@ -18,9 +18,8 @@
 }
 
 html {
-	background-attachment: fixed;
-	opacity: 1;
 	background: radial-gradient(circle, transparent 20%, black 20%, black 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, black 20%, black 80%, transparent 80%, transparent) 50px 50px, linear-gradient(#060606 8px, transparent 8px) 0 -4px, linear-gradient(90deg, #060606 8px, transparent 8px) -4px 0;
+	background-attachment: fixed;
 	background-color: black;
 	background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
 }
