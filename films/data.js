@@ -1,13 +1,15 @@
 var data = {
-  "LastUpdated": "27 Aug 2024",
+  "LastUpdated": "28 Aug 2024",
   "Username": "LaLunaLlena",
-  "TotalFilms": 919,
-  "RatedFilms": 247,
-  "FilmsWithGenres": 917,
-  "TotalMinutes": 98486,
-  "FilmsWithRuntime": 916,
-  "TotalMinutesFull": 97402,
-  "FilmsWithRuntimeFull": 883,
+  "TotalFilms": 920,
+  "RatedFilms": 248,
+  "FilmsWithGenres": 918,
+  "TotalMinutes": 98561,
+  "FilmsWithRuntime": 917,
+  "TotalMinutesFull": 97477,
+  "FilmsWithRuntimeFull": 884,
+  "AverageFilmYearMean": 2000.1467391304348,
+  "AverageFilmYearMedian": 2004,
   "Genres": {
     "Action": {
       "Count": 159,
@@ -15,14 +17,14 @@ var data = {
       "RatingTotal": 41
     },
     "Adventure": {
-      "Count": 153,
-      "RatingCount": 23,
-      "RatingTotal": 85
+      "Count": 154,
+      "RatingCount": 24,
+      "RatingTotal": 89
     },
     "Animation": {
-      "Count": 43,
-      "RatingCount": 6,
-      "RatingTotal": 13
+      "Count": 44,
+      "RatingCount": 7,
+      "RatingTotal": 17
     },
     "Comedy": {
       "Count": 284,
@@ -45,14 +47,14 @@ var data = {
       "RatingTotal": 620
     },
     "Family": {
-      "Count": 77,
-      "RatingCount": 10,
-      "RatingTotal": 31
+      "Count": 78,
+      "RatingCount": 11,
+      "RatingTotal": 35
     },
     "Fantasy": {
-      "Count": 88,
-      "RatingCount": 14,
-      "RatingTotal": 56
+      "Count": 89,
+      "RatingCount": 15,
+      "RatingTotal": 60
     },
     "History": {
       "Count": 36,
@@ -105,13 +107,13 @@ var data = {
       "RatingTotal": 9
     }
   },
-  "DirectorTotalAll": 999,
-  "DirectorTotalFemale": 97,
-  "DirectorTotalMale": 865,
+  "DirectorTotalAll": 1002,
+  "DirectorTotalFemale": 98,
+  "DirectorTotalMale": 869,
   "DirectorTotalNonBinary": 1,
   "DirectorUniqueAll": 668,
-  "DirectorUniqueFemale": 80,
-  "DirectorUniqueMale": 555,
+  "DirectorUniqueFemale": 81,
+  "DirectorUniqueMale": 556,
   "DirectorUniqueNonBinary": 1,
   "DirectorAll": [
     {
@@ -277,6 +279,12 @@ var data = {
       "Gender": 2
     },
     {
+      "FullName": "Hamilton Luske",
+      "Amount": 4,
+      "Poster": "/bEccjwuG6QGc4V0AtA87rexRHYo.jpg",
+      "Gender": 2
+    },
+    {
       "FullName": "Ivan Reitman",
       "Amount": 4,
       "Poster": "/qMyAjmRVihGFbJPhMTsqvpeOKfX.jpg",
@@ -313,6 +321,12 @@ var data = {
       "Gender": 2
     },
     {
+      "FullName": "Wilfred Jackson",
+      "Amount": 4,
+      "Poster": "/rTszyDc1jFOQQrzSYgnxEVLxd8W.jpg",
+      "Gender": 2
+    },
+    {
       "FullName": "Alexander Payne",
       "Amount": 3,
       "Poster": "/6U32ib4FEYLm2ojyeI920FfoBEs.jpg",
@@ -340,6 +354,12 @@ var data = {
       "FullName": "Brian De Palma",
       "Amount": 3,
       "Poster": "/t29YojZlOEqNSWvfmY0DDYh3vnb.jpg",
+      "Gender": 2
+    },
+    {
+      "FullName": "Clyde Geronimi",
+      "Amount": 3,
+      "Poster": "/eAeqN6fPYuzKjGRSaR2jqhSeeMq.jpg",
       "Gender": 2
     },
     {
@@ -388,12 +408,6 @@ var data = {
       "FullName": "Guy Ritchie",
       "Amount": 3,
       "Poster": "/9pLUnjMgIEWXi0mlHYzie9cKUTD.jpg",
-      "Gender": 2
-    },
-    {
-      "FullName": "Hamilton Luske",
-      "Amount": 3,
-      "Poster": "/bEccjwuG6QGc4V0AtA87rexRHYo.jpg",
       "Gender": 2
     },
     {
@@ -547,12 +561,6 @@ var data = {
       "Gender": 2
     },
     {
-      "FullName": "Wilfred Jackson",
-      "Amount": 3,
-      "Poster": "/rTszyDc1jFOQQrzSYgnxEVLxd8W.jpg",
-      "Gender": 2
-    },
-    {
       "FullName": "Wolfgang Petersen",
       "Amount": 3,
       "Poster": "/8TTijeJBFITOhvJruS68aCjwK9f.jpg",
@@ -658,12 +666,6 @@ var data = {
       "FullName": "Christopher Smith",
       "Amount": 2,
       "Poster": "/7Un0sQeq7V9DgJw9n3OEzdo4vod.jpg",
-      "Gender": 2
-    },
-    {
-      "FullName": "Clyde Geronimi",
-      "Amount": 2,
-      "Poster": "/eAeqN6fPYuzKjGRSaR2jqhSeeMq.jpg",
       "Gender": 2
     },
     {
@@ -1140,6 +1142,12 @@ var data = {
       "FullName": "Wendy McColm",
       "Amount": 2,
       "Poster": "/9rZGudRxg39XjAbhkDRFQZSikmy.jpg",
+      "Gender": 0
+    },
+    {
+      "FullName": "Alice Duval-Barr\u00E9",
+      "Amount": 1,
+      "Poster": "",
       "Gender": 0
     },
     {
@@ -1715,6 +1723,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Hamilton Luske",
+      "Amount": 4,
+      "Poster": "/bEccjwuG6QGc4V0AtA87rexRHYo.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Ivan Reitman",
       "Amount": 4,
       "Poster": "/qMyAjmRVihGFbJPhMTsqvpeOKfX.jpg",
@@ -1751,6 +1765,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Wilfred Jackson",
+      "Amount": 4,
+      "Poster": "/rTszyDc1jFOQQrzSYgnxEVLxd8W.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Alexander Payne",
       "Amount": 3,
       "Poster": "/6U32ib4FEYLm2ojyeI920FfoBEs.jpg",
@@ -1778,6 +1798,12 @@ var data = {
       "FullName": "Brian De Palma",
       "Amount": 3,
       "Poster": "/t29YojZlOEqNSWvfmY0DDYh3vnb.jpg",
+      "Gender": 0
+    },
+    {
+      "FullName": "Clyde Geronimi",
+      "Amount": 3,
+      "Poster": "/eAeqN6fPYuzKjGRSaR2jqhSeeMq.jpg",
       "Gender": 0
     },
     {
@@ -1820,12 +1846,6 @@ var data = {
       "FullName": "Guy Ritchie",
       "Amount": 3,
       "Poster": "/9pLUnjMgIEWXi0mlHYzie9cKUTD.jpg",
-      "Gender": 0
-    },
-    {
-      "FullName": "Hamilton Luske",
-      "Amount": 3,
-      "Poster": "/bEccjwuG6QGc4V0AtA87rexRHYo.jpg",
       "Gender": 0
     },
     {
@@ -1961,12 +1981,6 @@ var data = {
       "Gender": 0
     },
     {
-      "FullName": "Wilfred Jackson",
-      "Amount": 3,
-      "Poster": "/rTszyDc1jFOQQrzSYgnxEVLxd8W.jpg",
-      "Gender": 0
-    },
-    {
       "FullName": "Wolfgang Petersen",
       "Amount": 3,
       "Poster": "/8TTijeJBFITOhvJruS68aCjwK9f.jpg",
@@ -2054,12 +2068,6 @@ var data = {
       "FullName": "Christopher Smith",
       "Amount": 2,
       "Poster": "/7Un0sQeq7V9DgJw9n3OEzdo4vod.jpg",
-      "Gender": 0
-    },
-    {
-      "FullName": "Clyde Geronimi",
-      "Amount": 2,
-      "Poster": "/eAeqN6fPYuzKjGRSaR2jqhSeeMq.jpg",
       "Gender": 0
     },
     {
@@ -2443,12 +2451,12 @@ var data = {
       "Gender": 0
     }
   ],
-  "ProtagonistTotalAll": 912,
-  "ProtagonistTotalFemale": 264,
+  "ProtagonistTotalAll": 913,
+  "ProtagonistTotalFemale": 265,
   "ProtagonistTotalMale": 631,
   "ProtagonistTotalNonBinary": 5,
-  "ProtagonistUniqueAll": 586,
-  "ProtagonistUniqueFemale": 196,
+  "ProtagonistUniqueAll": 587,
+  "ProtagonistUniqueFemale": 197,
   "ProtagonistUniqueMale": 376,
   "ProtagonistUniqueNonBinary": 3,
   "ProtagonistAll": [
@@ -4057,6 +4065,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Kathryn Beaumont",
+      "Amount": 1,
+      "Poster": "/dHQ51n2i2vjdt4bdgAYXWvJQips.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Katie Jarvis",
       "Amount": 1,
       "Poster": "/afll1BEx7eGFt1LqLYhxs2gnTbp.jpg",
@@ -5141,13 +5155,13 @@ var data = {
       "Gender": 0
     }
   ],
-  "TopCastTotalAll": 2684,
-  "TopCastTotalFemale": 962,
-  "TopCastTotalMale": 1644,
+  "TopCastTotalAll": 2687,
+  "TopCastTotalFemale": 966,
+  "TopCastTotalMale": 1646,
   "TopCastTotalNonBinary": 9,
-  "TopCastUniqueAll": 1728,
-  "TopCastUniqueFemale": 649,
-  "TopCastUniqueMale": 1007,
+  "TopCastUniqueAll": 1731,
+  "TopCastUniqueFemale": 653,
+  "TopCastUniqueMale": 1009,
   "TopCastUniqueNonBinary": 5,
   "TopCastAll": [
     {
@@ -7611,13 +7625,13 @@ var data = {
       "Gender": 0
     }
   ],
-  "EntireCastTotalAll": 38031,
-  "EntireCastTotalFemale": 9153,
-  "EntireCastTotalMale": 19806,
+  "EntireCastTotalAll": 38057,
+  "EntireCastTotalFemale": 9164,
+  "EntireCastTotalMale": 19824,
   "EntireCastTotalNonBinary": 24,
-  "EntireCastUniqueAll": 29845,
-  "EntireCastUniqueFemale": 7170,
-  "EntireCastUniqueMale": 13872,
+  "EntireCastUniqueAll": 29855,
+  "EntireCastUniqueFemale": 7176,
+  "EntireCastUniqueMale": 13879,
   "EntireCastUniqueNonBinary": 14,
   "EntireCastAll": [
     {
@@ -10529,7 +10543,7 @@ var data = {
     "1948": 2,
     "1949": 0,
     "1950": 0,
-    "1951": 0,
+    "1951": 1,
     "1952": 1,
     "1953": 1,
     "1954": 1,
@@ -10646,9 +10660,9 @@ var data = {
       "RatingTotal": 8
     },
     "1950": {
-      "Count": 9,
-      "RatingCount": 5,
-      "RatingTotal": 17
+      "Count": 10,
+      "RatingCount": 6,
+      "RatingTotal": 21
     },
     "1960": {
       "Count": 24,
@@ -11946,6 +11960,11 @@ var data = {
       "Id": "1V0e",
       "Poster": "/rm1YFiE2ocs8UjnxgdGDIA02c5d.jpg"
     },
+    "Alice in Wonderland ": {
+      "When": "1951-07-28",
+      "Id": "1Sz6",
+      "Poster": "/20cvfwfaFqNbe9Fc3VEHJuPRxmn.jpg"
+    },
     "Neighbours ": {
       "When": "1952-01-01",
       "Id": "BtS",
@@ -12285,17 +12304,12 @@ var data = {
       "When": "1981-06-12",
       "Id": "2bbs",
       "Poster": "/ceG9VzoRAVGwivFU403Wc3AHRys.jpg"
-    },
-    "Annie ": {
-      "When": "1982-05-21",
-      "Id": "1LCi",
-      "Poster": "/6dG7UTAISJGh6FqTKIwN7sR11w2.jpg"
     }
   },
   "FilmsPerThirtyMinutes": {
     "0": 18,
     "30": 13,
-    "60": 134,
+    "60": 135,
     "90": 493,
     "120": 218,
     "150": 32,
@@ -12307,7 +12321,7 @@ var data = {
     "Cantonese": 1,
     "Czech": 2,
     "Danish": 1,
-    "English": 831,
+    "English": 832,
     "French": 23,
     "German": 4,
     "Hungarian": 1,
@@ -12362,7 +12376,7 @@ var data = {
     "Ukraine": 1,
     "United Arab Emirates": 1,
     "United Kingdom": 172,
-    "United States of America": 742
+    "United States of America": 743
   },
   "FilmsPerCountryProduction": {
     "Angola": 1,
@@ -12421,13 +12435,13 @@ var data = {
     "Ukraine": 2,
     "United Arab Emirates": 2,
     "United Kingdom": 235,
-    "United States of America": 789
+    "United States of America": 790
   },
   "Backdrops": [
     {
-      "ImageUrl": "/nRsr98MFztBGm532hCVMGXV6qOp.jpg",
-      "FilmName": "The Wizard of Oz\u003Cbr/\u003E(1939)",
-      "LetterboxdId": "29Xu"
+      "ImageUrl": "/n0Cju2Eu3VyrUFl32thblHFWznA.jpg",
+      "FilmName": "City Lights\u003Cbr/\u003E(1931)",
+      "LetterboxdId": "29ki"
     }
   ],
   "Lists": [
@@ -14174,6 +14188,15 @@ var data = {
           "LetterboxdIdentifier": "1cbm",
           "PrimaryLanguage": "English",
           "PosterUrl": "/6USWKkOjS40KY19Q0gPEelEiDhc.jpg",
+          "Rating": 4
+        },
+        {
+          "Order": 143,
+          "FilmName": "Alice in Wonderland",
+          "Year": 1951,
+          "LetterboxdIdentifier": "1Sz6",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/20cvfwfaFqNbe9Fc3VEHJuPRxmn.jpg",
           "Rating": 4
         }
       ]

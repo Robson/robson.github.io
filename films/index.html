@@ -281,12 +281,12 @@
 				'</tr>')
 		}
 
-		function makeBox(number, description, tooltip = '') {
+		function makeBox(number, description, tooltip = '', isYear=false) {
 			var attribs = 'class="box"'
 			if (tooltip) {
 				attribs = 'class="box ttt" data-tooltip="' + tooltip + '"';
 			}
-            return '<div ' + attribs + '><div class="number">' + number.toLocaleString() + '</div><div class="description">' + description + '</div></div>';
+            return '<div ' + attribs + '><div class="number">' + (isYear ? number : number.toLocaleString()) + '</div><div class="description">' + description + '</div></div>';
 		}
 
 		function showList(listName) {
@@ -431,17 +431,17 @@
 
 			resetView();
 
-            $('body').append('<div class="info">This page shows statistics for <a target="_blank" href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '</a>\'s watched films.<br/>The statistics were generated on ' + data.LastUpdated + '.<br/>Click a section on the left to explore the statistics.</div>');
+            $('body').append('<div class="info">Click a section on the left to explore the statistics for <a target="_blank" href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '\'s</a> ' + data.TotalFilms.toLocaleString() + ' watched films.<br/>The statistics were generated on ' + data.LastUpdated + '.</div>');
 
 			//$('body').append('<div class="boxes"></div>');
 			//$('.boxes').last().append(makeBox(, 'Stats Generated Date'));
 
-			$('body').append('<div class="boxes"></div>');
-			$('.boxes').last().append(makeBox(data.TotalFilms.toLocaleString(), 'Watched Films'));
+			//$('body').append('<div class="boxes"></div>');
+			//$('.boxes').last().append(makeBox(data.TotalFilms.toLocaleString(), 'Watched Films'));
 
             var percent = (data.RatedFilms / data.TotalFilms * 100);
-			$('.boxes').last().append(makeBox(data.RatedFilms.toLocaleString(), 'Rated Films'));
-			$('.boxes').last().append(makeBox(percent.toFixed(0) + '%', 'Rated Films', percent.toFixed(2) + '%'));
+			//$('.boxes').last().append(makeBox(data.RatedFilms.toLocaleString(), 'Rated Films'));
+			//$('.boxes').last().append(makeBox(percent.toFixed(0) + '%', 'Rated Films', percent.toFixed(2) + '%'));
 
 			//$('body').append('<div class="info"><a target="_blank" href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '\'s Letterboxd</a>.</div>');
 
@@ -574,6 +574,10 @@
 				showFilmsPerYearChart();
 			}
 
+            $('body').append('<div class="boxes"></div>');
+            $('.boxes').append(makeBox(Math.round(data.AverageFilmYearMean), 'Film Year: Mean', data.AverageFilmYearMean.toFixed(2), true));
+            $('.boxes').append(makeBox(data.AverageFilmYearMedian, 'Film Year: Median', null, true));
+
 			//$('body').append('<div class="boxes"></div>');
 			//$('.boxes').append(makeBox(Object.values(data.FilmsWatchedPerYear).filter(value => value > 0).length, 'Watched Years'));
 
@@ -647,8 +651,8 @@
 			}
 
 			$('body').append('<div class="boxes"></div>');
-			$('.boxes').append(makeBox(watched, 'Watched Years'));
-			$('.boxes').append(makeBox(unwatched, 'Unwatched Years'));
+			$('.boxes').last().append(makeBox(watched, 'Watched Years'));
+            $('.boxes').last().append(makeBox(unwatched, 'Unwatched Years'));
 
 			if (documentWidth > 480) {
 				createNewTable();
@@ -673,6 +677,8 @@
 					tbody.append(output);
 				}
 			}
+
+			createTooltipTriggers();
 
 			deactivateAll();
 			$(event.target).addClass('active');
