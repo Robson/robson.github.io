@@ -1,14 +1,14 @@
 var data = {
   "LastUpdated": "28 Aug 2024",
   "Username": "LaLunaLlena",
-  "TotalFilms": 920,
-  "RatedFilms": 248,
-  "FilmsWithGenres": 918,
-  "TotalMinutes": 98561,
-  "FilmsWithRuntime": 917,
-  "TotalMinutesFull": 97477,
-  "FilmsWithRuntimeFull": 884,
-  "AverageFilmYearMean": 2000.1467391304348,
+  "TotalFilms": 922,
+  "RatedFilms": 250,
+  "FilmsWithGenres": 920,
+  "TotalMinutes": 98827,
+  "FilmsWithRuntime": 919,
+  "TotalMinutesFull": 97743,
+  "FilmsWithRuntimeFull": 886,
+  "AverageFilmYearMean": 2000.1811279826463,
   "AverageFilmYearMedian": 2004,
   "Genres": {
     "Action": {
@@ -27,9 +27,9 @@ var data = {
       "RatingTotal": 17
     },
     "Comedy": {
-      "Count": 284,
-      "RatingCount": 57,
-      "RatingTotal": 188
+      "Count": 285,
+      "RatingCount": 58,
+      "RatingTotal": 191
     },
     "Crime": {
       "Count": 168,
@@ -37,14 +37,14 @@ var data = {
       "RatingTotal": 111
     },
     "Documentary": {
-      "Count": 48,
-      "RatingCount": 11,
-      "RatingTotal": 34
+      "Count": 49,
+      "RatingCount": 12,
+      "RatingTotal": 38
     },
     "Drama": {
-      "Count": 458,
-      "RatingCount": 163,
-      "RatingTotal": 620
+      "Count": 459,
+      "RatingCount": 164,
+      "RatingTotal": 623
     },
     "Family": {
       "Count": 78,
@@ -107,13 +107,13 @@ var data = {
       "RatingTotal": 9
     }
   },
-  "DirectorTotalAll": 1002,
-  "DirectorTotalFemale": 98,
-  "DirectorTotalMale": 869,
+  "DirectorTotalAll": 1005,
+  "DirectorTotalFemale": 99,
+  "DirectorTotalMale": 871,
   "DirectorTotalNonBinary": 1,
-  "DirectorUniqueAll": 668,
-  "DirectorUniqueFemale": 81,
-  "DirectorUniqueMale": 556,
+  "DirectorUniqueAll": 670,
+  "DirectorUniqueFemale": 82,
+  "DirectorUniqueMale": 557,
   "DirectorUniqueNonBinary": 1,
   "DirectorAll": [
     {
@@ -324,6 +324,12 @@ var data = {
       "FullName": "Wilfred Jackson",
       "Amount": 4,
       "Poster": "/rTszyDc1jFOQQrzSYgnxEVLxd8W.jpg",
+      "Gender": 2
+    },
+    {
+      "FullName": "Yorgos Lanthimos",
+      "Amount": 4,
+      "Poster": "/kwKfSubzU8B0uLCEiPvY1mGOVwZ.jpg",
       "Gender": 2
     },
     {
@@ -564,12 +570,6 @@ var data = {
       "FullName": "Wolfgang Petersen",
       "Amount": 3,
       "Poster": "/8TTijeJBFITOhvJruS68aCjwK9f.jpg",
-      "Gender": 2
-    },
-    {
-      "FullName": "Yorgos Lanthimos",
-      "Amount": 3,
-      "Poster": "/kwKfSubzU8B0uLCEiPvY1mGOVwZ.jpg",
       "Gender": 2
     },
     {
@@ -1421,6 +1421,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Nicole Rittenmeyer",
+      "Amount": 1,
+      "Poster": "/vLsNHlZXu8U0z1borYH0oldbZvm.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Nietzchka Keene",
       "Amount": 1,
       "Poster": "/p2QpmM2zOlPp8KbR9h9TOoj614Q.jpg",
@@ -1771,6 +1777,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Yorgos Lanthimos",
+      "Amount": 4,
+      "Poster": "/kwKfSubzU8B0uLCEiPvY1mGOVwZ.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Alexander Payne",
       "Amount": 3,
       "Poster": "/6U32ib4FEYLm2ojyeI920FfoBEs.jpg",
@@ -1984,12 +1996,6 @@ var data = {
       "FullName": "Wolfgang Petersen",
       "Amount": 3,
       "Poster": "/8TTijeJBFITOhvJruS68aCjwK9f.jpg",
-      "Gender": 0
-    },
-    {
-      "FullName": "Yorgos Lanthimos",
-      "Amount": 3,
-      "Poster": "/kwKfSubzU8B0uLCEiPvY1mGOVwZ.jpg",
       "Gender": 0
     },
     {
@@ -2451,8 +2457,8 @@ var data = {
       "Gender": 0
     }
   ],
-  "ProtagonistTotalAll": 913,
-  "ProtagonistTotalFemale": 265,
+  "ProtagonistTotalAll": 914,
+  "ProtagonistTotalFemale": 266,
   "ProtagonistTotalMale": 631,
   "ProtagonistTotalNonBinary": 5,
   "ProtagonistUniqueAll": 587,
@@ -2539,6 +2545,12 @@ var data = {
       "Gender": 2
     },
     {
+      "FullName": "Emma Stone",
+      "Amount": 6,
+      "Poster": "/sFlktjWgUANqfUnqWJOhzICvp4v.jpg",
+      "Gender": 1
+    },
+    {
       "FullName": "Keanu Reeves",
       "Amount": 6,
       "Poster": "/4D0PpNI0kmP58hgrwGC3wCjxhnm.jpg",
@@ -2573,12 +2585,6 @@ var data = {
       "Amount": 5,
       "Poster": "/iFerDZUmC5Fu26i4qI8xnUVEHc7.jpg",
       "Gender": 2
-    },
-    {
-      "FullName": "Emma Stone",
-      "Amount": 5,
-      "Poster": "/sFlktjWgUANqfUnqWJOhzICvp4v.jpg",
-      "Gender": 1
     },
     {
       "FullName": "Julia Garner",
@@ -3333,15 +3339,15 @@ var data = {
       "Gender": 0
     },
     {
-      "FullName": "Sandra Bullock",
+      "FullName": "Emma Stone",
       "Amount": 6,
-      "Poster": "/hPHGKPAWZ8gArYXMk225rrYPoyJ.jpg",
+      "Poster": "/sFlktjWgUANqfUnqWJOhzICvp4v.jpg",
       "Gender": 0
     },
     {
-      "FullName": "Emma Stone",
-      "Amount": 5,
-      "Poster": "/sFlktjWgUANqfUnqWJOhzICvp4v.jpg",
+      "FullName": "Sandra Bullock",
+      "Amount": 6,
+      "Poster": "/hPHGKPAWZ8gArYXMk225rrYPoyJ.jpg",
       "Gender": 0
     },
     {
@@ -5155,9 +5161,9 @@ var data = {
       "Gender": 0
     }
   ],
-  "TopCastTotalAll": 2687,
-  "TopCastTotalFemale": 966,
-  "TopCastTotalMale": 1646,
+  "TopCastTotalAll": 2690,
+  "TopCastTotalFemale": 967,
+  "TopCastTotalMale": 1648,
   "TopCastTotalNonBinary": 9,
   "TopCastUniqueAll": 1731,
   "TopCastUniqueFemale": 653,
@@ -5273,6 +5279,12 @@ var data = {
       "Gender": 2
     },
     {
+      "FullName": "Emma Stone",
+      "Amount": 8,
+      "Poster": "/sFlktjWgUANqfUnqWJOhzICvp4v.jpg",
+      "Gender": 1
+    },
+    {
       "FullName": "Kevin Bacon",
       "Amount": 8,
       "Poster": "/rjX2Oz3tCZMfSwOoIAyEhdtXnTE.jpg",
@@ -5301,12 +5313,6 @@ var data = {
       "Amount": 8,
       "Poster": "/q2KZZ0ltTEl7Sf8volNFV1JDEP4.jpg",
       "Gender": 2
-    },
-    {
-      "FullName": "Emma Stone",
-      "Amount": 7,
-      "Poster": "/sFlktjWgUANqfUnqWJOhzICvp4v.jpg",
-      "Gender": 1
     },
     {
       "FullName": "George Clooney",
@@ -5567,6 +5573,12 @@ var data = {
       "Gender": 1
     },
     {
+      "FullName": "Willem Dafoe",
+      "Amount": 5,
+      "Poster": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
+      "Gender": 2
+    },
+    {
       "FullName": "Bam Margera",
       "Amount": 4,
       "Poster": "/tkL5E7s6e4Sp0CYhNY5zjCF6Q0F.jpg",
@@ -5807,12 +5819,6 @@ var data = {
       "Gender": 1
     },
     {
-      "FullName": "Willem Dafoe",
-      "Amount": 4,
-      "Poster": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
-      "Gender": 2
-    },
-    {
       "FullName": "William H. Macy",
       "Amount": 4,
       "Poster": "/hdVEGSrP8qWlJnt0v5vSVcGOjy7.jpg",
@@ -5845,15 +5851,15 @@ var data = {
       "Gender": 0
     },
     {
-      "FullName": "Rachel Weisz",
+      "FullName": "Emma Stone",
       "Amount": 8,
-      "Poster": "/msTqKPA33ryVtcVNgOdeaJGYq16.jpg",
+      "Poster": "/sFlktjWgUANqfUnqWJOhzICvp4v.jpg",
       "Gender": 0
     },
     {
-      "FullName": "Emma Stone",
-      "Amount": 7,
-      "Poster": "/sFlktjWgUANqfUnqWJOhzICvp4v.jpg",
+      "FullName": "Rachel Weisz",
+      "Amount": 8,
+      "Poster": "/msTqKPA33ryVtcVNgOdeaJGYq16.jpg",
       "Gender": 0
     },
     {
@@ -7023,6 +7029,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Willem Dafoe",
+      "Amount": 5,
+      "Poster": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Bam Margera",
       "Amount": 4,
       "Poster": "/tkL5E7s6e4Sp0CYhNY5zjCF6Q0F.jpg",
@@ -7194,12 +7206,6 @@ var data = {
       "FullName": "Sylvester Stallone",
       "Amount": 4,
       "Poster": "/Aprx4oBGwdTPHqlfcYbjWlCK3aI.jpg",
-      "Gender": 0
-    },
-    {
-      "FullName": "Willem Dafoe",
-      "Amount": 4,
-      "Poster": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
       "Gender": 0
     },
     {
@@ -7625,13 +7631,13 @@ var data = {
       "Gender": 0
     }
   ],
-  "EntireCastTotalAll": 38057,
-  "EntireCastTotalFemale": 9164,
-  "EntireCastTotalMale": 19824,
+  "EntireCastTotalAll": 38092,
+  "EntireCastTotalFemale": 9174,
+  "EntireCastTotalMale": 19832,
   "EntireCastTotalNonBinary": 24,
-  "EntireCastUniqueAll": 29855,
-  "EntireCastUniqueFemale": 7176,
-  "EntireCastUniqueMale": 13879,
+  "EntireCastUniqueAll": 29879,
+  "EntireCastUniqueFemale": 7181,
+  "EntireCastUniqueMale": 13882,
   "EntireCastUniqueNonBinary": 14,
   "EntireCastAll": [
     {
@@ -7785,6 +7791,12 @@ var data = {
       "Gender": 2
     },
     {
+      "FullName": "Willem Dafoe",
+      "Amount": 11,
+      "Poster": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
+      "Gender": 2
+    },
+    {
       "FullName": "Brendan Gleeson",
       "Amount": 10,
       "Poster": "/379TXtBPRrkBDrEBWPQ5v3up7kT.jpg",
@@ -7893,12 +7905,6 @@ var data = {
       "Gender": 2
     },
     {
-      "FullName": "Willem Dafoe",
-      "Amount": 10,
-      "Poster": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
-      "Gender": 2
-    },
-    {
       "FullName": "Arnold Schwarzenegger",
       "Amount": 9,
       "Poster": "/z6IbTtI2FWAVZE6b1V4mqEHjwO6.jpg",
@@ -7915,6 +7921,12 @@ var data = {
       "Amount": 9,
       "Poster": "/7UKRbJBNG7mxBl2QQc5XsAh6F8B.jpg",
       "Gender": 2
+    },
+    {
+      "FullName": "Emma Stone",
+      "Amount": 9,
+      "Poster": "/sFlktjWgUANqfUnqWJOhzICvp4v.jpg",
+      "Gender": 1
     },
     {
       "FullName": "Frank Welker",
@@ -8059,12 +8071,6 @@ var data = {
       "Amount": 8,
       "Poster": "/8nytsqL59SFJTVYVrN72k6qkGgJ.jpg",
       "Gender": 2
-    },
-    {
-      "FullName": "Emma Stone",
-      "Amount": 8,
-      "Poster": "/sFlktjWgUANqfUnqWJOhzICvp4v.jpg",
-      "Gender": 1
     },
     {
       "FullName": "Emma Thompson",
@@ -8567,6 +8573,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Emma Stone",
+      "Amount": 9,
+      "Poster": "/sFlktjWgUANqfUnqWJOhzICvp4v.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Geraldine Somerville",
       "Amount": 9,
       "Poster": "/vyLIquF45MpN6OOPmk8L7gnmKrY.jpg",
@@ -8600,12 +8612,6 @@ var data = {
       "FullName": "Colleen Camp",
       "Amount": 8,
       "Poster": "/hNAIkUVtsQfpC95BDkXr1lmoI2F.jpg",
-      "Gender": 0
-    },
-    {
-      "FullName": "Emma Stone",
-      "Amount": 8,
-      "Poster": "/sFlktjWgUANqfUnqWJOhzICvp4v.jpg",
       "Gender": 0
     },
     {
@@ -9793,6 +9799,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Willem Dafoe",
+      "Amount": 11,
+      "Poster": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Brendan Gleeson",
       "Amount": 10,
       "Poster": "/379TXtBPRrkBDrEBWPQ5v3up7kT.jpg",
@@ -9886,12 +9898,6 @@ var data = {
       "FullName": "Warwick Davis",
       "Amount": 10,
       "Poster": "/nGorSpUIQWAEErxq8KdDcIF6Q00.jpg",
-      "Gender": 0
-    },
-    {
-      "FullName": "Willem Dafoe",
-      "Amount": 10,
-      "Poster": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
       "Gender": 0
     },
     {
@@ -10600,7 +10606,7 @@ var data = {
     "2005": 22,
     "2006": 30,
     "2007": 69,
-    "2008": 29,
+    "2008": 30,
     "2009": 23,
     "2010": 22,
     "2011": 24,
@@ -10616,7 +10622,7 @@ var data = {
     "2021": 13,
     "2022": 16,
     "2023": 21,
-    "2024": 8
+    "2024": 9
   },
   "FilmsWatchedPerDecade": {
     "1870": {
@@ -10685,9 +10691,9 @@ var data = {
       "RatingTotal": 106
     },
     "2000": {
-      "Count": 331,
-      "RatingCount": 37,
-      "RatingTotal": 112
+      "Count": 332,
+      "RatingCount": 38,
+      "RatingTotal": 116
     },
     "2010": {
       "Count": 214,
@@ -10695,9 +10701,9 @@ var data = {
       "RatingTotal": 325
     },
     "2020": {
-      "Count": 64,
-      "RatingCount": 55,
-      "RatingTotal": 199
+      "Count": 65,
+      "RatingCount": 56,
+      "RatingTotal": 202
     }
   },
   "LongestFilms": {
@@ -10814,6 +10820,12 @@ var data = {
       "Id": "2cCk",
       "Poster": "/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg",
       "Year": 2012
+    },
+    "Kinds of Kindness": {
+      "Minutes": 164,
+      "Id": "CWPw",
+      "Poster": "/8mmpltkcG9areafsQHXaURedno3.jpg",
+      "Year": 2024
     },
     "No Time to Die": {
       "Minutes": 163,
@@ -11294,12 +11306,6 @@ var data = {
       "Id": "2a1c",
       "Poster": "/9TGHDvWrqKBzwDxDodHYXEmOE6J.jpg",
       "Year": 2003
-    },
-    "A Clockwork Orange": {
-      "Minutes": 137,
-      "Id": "2aVE",
-      "Poster": "/4sHeTAp65WrSSuc05nRBKddhBxO.jpg",
-      "Year": 1971
     }
   },
   "NewestReleasedFilms": {
@@ -11312,6 +11318,11 @@ var data = {
       "When": "2024-07-04",
       "Id": "CIM4",
       "Poster": "/ArvoFK6nlouZRxYmtIOUzKIrg90.jpg"
+    },
+    "Kinds of Kindness ": {
+      "When": "2024-05-30",
+      "Id": "CWPw",
+      "Poster": "/8mmpltkcG9areafsQHXaURedno3.jpg"
     },
     "Furiosa: A Mad Max Saga ": {
       "When": "2024-05-22",
@@ -11797,11 +11808,6 @@ var data = {
       "When": "2018-04-03",
       "Id": "fVJQ",
       "Poster": "/nAU74GmpUk7t5iklEp3bufwDq4n.jpg"
-    },
-    "Ready Player One ": {
-      "When": "2018-03-28",
-      "Id": "aZes",
-      "Poster": "/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg"
     }
   },
   "OldestReleasedFilms": {
@@ -12310,9 +12316,9 @@ var data = {
     "0": 18,
     "30": 13,
     "60": 135,
-    "90": 493,
+    "90": 494,
     "120": 218,
-    "150": 32,
+    "150": 33,
     "180": 8,
     "210": 1
   },
@@ -12321,7 +12327,7 @@ var data = {
     "Cantonese": 1,
     "Czech": 2,
     "Danish": 1,
-    "English": 832,
+    "English": 834,
     "French": 23,
     "German": 4,
     "Hungarian": 1,
@@ -12376,7 +12382,7 @@ var data = {
     "Ukraine": 1,
     "United Arab Emirates": 1,
     "United Kingdom": 172,
-    "United States of America": 743
+    "United States of America": 745
   },
   "FilmsPerCountryProduction": {
     "Angola": 1,
@@ -12402,7 +12408,7 @@ var data = {
     "Iceland": 4,
     "India": 4,
     "Indonesia": 1,
-    "Ireland": 11,
+    "Ireland": 12,
     "Israel": 1,
     "Italy": 15,
     "Japan": 13,
@@ -12434,14 +12440,14 @@ var data = {
     "Turkey": 2,
     "Ukraine": 2,
     "United Arab Emirates": 2,
-    "United Kingdom": 235,
-    "United States of America": 790
+    "United Kingdom": 236,
+    "United States of America": 792
   },
   "Backdrops": [
     {
-      "ImageUrl": "/s48CvFbWoWHhSPgz2wW9Rffw04q.jpg",
-      "FilmName": "The Lobster\u003Cbr/\u003E(2015)",
-      "LetterboxdId": "7tnw"
+      "ImageUrl": "/7HR38hMBl23lf38MAN63y4pKsHz.jpg",
+      "FilmName": "Past Lives\u003Cbr/\u003E(2023)",
+      "LetterboxdId": "oNB8"
     }
   ],
   "Lists": [
@@ -14198,6 +14204,24 @@ var data = {
           "PrimaryLanguage": "English",
           "PosterUrl": "/20cvfwfaFqNbe9Fc3VEHJuPRxmn.jpg",
           "Rating": 4
+        },
+        {
+          "Order": 144,
+          "FilmName": "102 Minutes That Changed America",
+          "Year": 2008,
+          "LetterboxdIdentifier": "1bgq",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/psTueksm8XxnCTi5c4dXzjWx5rZ.jpg",
+          "Rating": 4
+        },
+        {
+          "Order": 145,
+          "FilmName": "Kinds of Kindness",
+          "Year": 2024,
+          "LetterboxdIdentifier": "CWPw",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/8mmpltkcG9areafsQHXaURedno3.jpg",
+          "Rating": 3
         }
       ]
     }
