@@ -33,18 +33,20 @@
 		&#9670;
 		<span class="displayer inline" onmousedown="javascript:showNewestReleasedFilms()">Newest</span><br>
 		<!--<span class="displayer inlinefirst" onmousedown="javascript:showYearsWithoutFilms()">Years With No Films</span> <em style="opacity:0">&#9670;</em>-->
-		<div class="title">Length</div>
-		<span class="displayer inlinefirst" onmousedown="javascript:showLengthStats()">Stats</span>
-		&#9670;
-		<span class="displayer inline" onmousedown="javascript:showLongestFilms()">Longest</span>
-		&#9670;
-		<span class="displayer inline" onmousedown="javascript:showFilmsPerHalfHour()">Intervals</span>
 		<div class="title">Attributes</div>
 		<span class="displayer inlinefirst" onmousedown="javascript:showFilmsPerCountry()">Country</span>
 		&#9670;
 		<span class="displayer inline" onmousedown="javascript:showGenres()">Genre</span>
 		&#9670;
-		<span class="displayer inline" onmousedown="javascript:showFilmsPerLanguages()">Language</span>
+		<span class="displayer inline" onmousedown="javascript:showLengthStats()">Length</span>
+		&#9670;
+		<span class="displayer inline" onmousedown="javascript:showLongestFilms()">Longest</span>
+		<br>
+		<span class="displayer inlinefirst" onmousedown="javascript:showFilmsPerLanguages()">Language</span>
+		&#9670;
+		<span class="displayer inline" onmousedown="javascript:showPopularity()">Popularity</span>
+		&#9670;
+		<span class="displayer inline" onmousedown="javascript:showRatings()">Ratings</span>
 		<div class="title">People</div>
 		<em class="subtitle">Director:</em>
 		<span class="displayer inline" onmousedown="javascript:showDirectorsAll()">All</span>
@@ -217,7 +219,7 @@
 			$('table').remove();
 			$('.boxes').remove();
 			$('#outside').remove();
-			$('#gallery').remove();
+			$('.gallery').remove();
 		}
 
 		function createNewTable(isSortable = true) {
@@ -229,7 +231,7 @@
 		}
 
 		function createGallery() {
-			$('body').append('<div id="gallery"></div>');
+			$('body').append('<div class="gallery"></div>');
 		}
 
 		function makeJobRow(totalAll, totalFemale, totalMale, totalNonBinary, uniqueAll, uniqueFemale, uniqueMale, uniqueNonBinary) {
@@ -295,7 +297,7 @@
 
 			resetView();
 			createGallery();
-			var gallery = $('#gallery');
+			var gallery = $('.gallery');
 
 			gallery.append('<div class="title">' + lbList.ListName + '</div>');
 
@@ -303,7 +305,7 @@
 
 				var details = lbList.Entries[film].Year + '<br/>';
 				if (lbList.Entries[film].Rating > 0) {
-					details += '★'.repeat(lbList.Entries[film].Rating);
+					details += '&#9670;'.repeat(lbList.Entries[film].Rating);
 				} else {
 					details += '&nbsp;';
 				}
@@ -354,7 +356,7 @@
 					'<td class="right">' + lbList.Entries[film].Order + '</td>' +
 					'<td><a target="_blank" href="https://boxd.it/' + lbList.Entries[film].LetterboxdIdentifier + '">' + lbList.Entries[film].FilmName + '</a></td>' +
 					'<td class="right">' + lbList.Entries[film].Year + '</td>' +
-					'<td style="line-height: 0.8em;padding-top:5px;vertical-align:top">' + (lbList.Entries[film].Rating > 0 ? '★'.repeat(lbList.Entries[film].Rating) : '&nbsp;') + '</td>' +
+					'<td style="line-height: 0.8em;padding-top:5px;vertical-align:top">' + (lbList.Entries[film].Rating > 0 ? '&#9670;'.repeat(lbList.Entries[film].Rating) : '&nbsp;') + '</td>' +
 					langInfo +
 					'</tr>');
 
@@ -388,17 +390,17 @@
             var lbList = data.Lists.filter(a => a.ListName == listName)[0];
 
             createGallery();
-            var gallery = $('#gallery');
+            var gallery = $('.gallery');
 
 			gallery.append('<div class="title">' + listTitle + '</div>');
 
-			var listFilms = lbList.Entries.slice(-amount);
+			var listFilms = lbList.Entries.slice(-amount).reverse();
 
             for (var film of listFilms) {
 
                 var details = film.Year + '<br/>';
                 if (film.Rating > 0) {
-                    details += '★'.repeat(film.Rating);
+                    details += '&#9670;'.repeat(film.Rating);
                 } else {
                     details += '&nbsp;';
                 }
@@ -445,7 +447,7 @@
 
 			//$('body').append('<div class="info"><a target="_blank" href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '\'s Letterboxd</a>.</div>');
 
-			showListRecent('Watched in 2024', "Recently Watched", 20);
+			showListRecent('Watched in 2024', "Recently Watched <span class='subtitle'>starting with the most recent</span>", 20);
 
 			createTooltipTriggers();
 
@@ -457,7 +459,7 @@
 
 		function showFilmsPerYearChart() {
 
-			$('body').append('<div id="outside"><div class="title">Films Watched by Release Year</div><figure class="highcharts-figure"><div id="container"></div></figure></div>');
+			$('body').append('<div id="outside"><div class="title">Films Watched by Release Year <span class="subtitle">capped at 40</span></div><figure class="highcharts-figure"><div id="container"></div></figure></div>');
 
 			var cats = []
 			var groups = []
@@ -974,17 +976,16 @@
 
 			resetView();
 			createGallery();
-			var gallery = $('#gallery');
+			var gallery = $('.gallery');
 
 			gallery.append('<div class="title">Top ' + galleryAmount + ' Newest Released Films</div>');
 
 			var displayed = 0;
 			for (var film in data.NewestReleasedFilms) {
-				console.log(data.NewestReleasedFilms[film].When);
 				gallery.append(
-					'<div class="item">' +
+					'<div class="item ttt" data-tooltip="' + film + '">' +
 					'<div class="poster"><a target="_blank" href="https://boxd.it/' + data.NewestReleasedFilms[film].Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + data.NewestReleasedFilms[film].Poster + '"></a></div>' +
-					'<div class="details">' + data.NewestReleasedFilms[film].When + '<br/><a target="_blank" href="https://boxd.it/' + data.NewestReleasedFilms[film].Id + '">' + film + '</a></div>' +
+                    '<div class="details">' + data.NewestReleasedFilms[film].When + '<br>' + (data.NewestReleasedFilms[film].Rating > 0 ? '&#9670;'.repeat(data.NewestReleasedFilms[film].Rating) : '&nbsp;') + '</div>' +
 					'</a></div>');
 				displayed++;
 				if (displayed == galleryAmount)
@@ -1022,23 +1023,25 @@
 
 			deactivateAll();
 			$(event.target).addClass('active');
+
+            createTooltipTriggers();
 		}
 
 		function showOldestReleasedFilms() {
 
 			resetView();
 			createGallery();
-			var gallery = $('#gallery');
+			var gallery = $('.gallery');
 
 			gallery.append('<div class="title">Top ' + galleryAmount + ' Earliest Released Films</div>');
 
 			var displayed = 0;
 			for (var film in data.OldestReleasedFilms) {
-				gallery.append(
-					'<div class="item">' +
-					'<div class="poster"><a target="_blank" href="https://boxd.it/' + data.OldestReleasedFilms[film].Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + data.OldestReleasedFilms[film].Poster + '"></a></div>' +
-					'<div class="details">' + data.OldestReleasedFilms[film].When + '<br/><a target="_blank" href="https://boxd.it/' + data.OldestReleasedFilms[film].Id + '">' + film + '</a></div>' +
-					'</a></div>');
+                gallery.append(
+                    '<div class="item ttt" data-tooltip="' + film + '">' +
+                    '<div class="poster"><a target="_blank" href="https://boxd.it/' + data.OldestReleasedFilms[film].Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + data.OldestReleasedFilms[film].Poster + '"></a></div>' +
+                    '<div class="details">' + data.OldestReleasedFilms[film].When + '<br>' + (data.OldestReleasedFilms[film].Rating > 0 ? '&#9670;'.repeat(data.OldestReleasedFilms[film].Rating) : '&nbsp;') + '</div>' +
+                    '</a></div>');
 				displayed++;
 				if (displayed == galleryAmount)
 					break;
@@ -1075,6 +1078,8 @@
 
 			deactivateAll();
 			$(event.target).addClass('active');
+
+            createTooltipTriggers();
 		}
 
 		function showLengthStats() {
@@ -1116,6 +1121,65 @@
 			tbody.append('<tr class="breaker"><td>Watched Weeks</td><td class="right">' + Math.round(data.TotalMinutes / 60 / 24 / 7).toLocaleString() + '</td></tr>');
 			//tbody.append('<tr><td>Average Film Length&nbsp;</td><td class="right">&nbsp;' + lenLabel + '</td></tr>');
 
+            createNewTable();
+
+            if (documentWidth < 500) {
+                thead.append('<tr><th>Length</th><th>Films Σ</th><th>Films %</th></tr>');
+            } else {
+                thead.append('<tr><th>Length</th><th>Films Σ</th><th>Films %</th><th>Bar</th></tr>');
+            }
+
+            var highest = 0, total = 0;
+            for (var thirty in data.FilmsPerThirtyMinutes) {
+                highest = Math.max(highest, data.FilmsPerThirtyMinutes[thirty]);
+            }
+
+            for (var thirty in data.FilmsPerThirtyMinutes) {
+                //var label = (thirty / 60).toFixed(1) + "h <= x < " + ((+thirty + 30) / 60).toFixed(1) + "h";
+                var number = +thirty;
+                var label =
+                    Math.floor(number / 60) + "h" + (number % 60 == 0 ? '00' : '30') + "m" +
+                    " to " +
+                    Math.floor(number / 60) + "h" + (number % 60 == 0 ? '29' : '59') + "m";
+                var percent = (data.FilmsPerThirtyMinutes[thirty] / data.TotalFilms) * 100;
+                var bar = '';
+                if (documentWidth >= 500) {
+                    bar = '<td class="chart" data-value="' + data.FilmsPerThirtyMinutes[thirty] + '"><span class="bar" style="width:' + ~~((data.FilmsPerThirtyMinutes[thirty] / highest) * 100) + 'px">&nbsp;</span></td>';
+                }
+                tbody.append(
+                    '<tr>' +
+                    '<td data-value="' + number + '">' + label + '</td>' +
+                    '<td class="right">' + data.FilmsPerThirtyMinutes[thirty] + '</td>' +
+                    '<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerThirtyMinutes[thirty] + '">' + percent.toFixed(0) + '%</td>' +
+                    bar +
+                    '</tr>');
+            }
+
+            $.tablesorter.addParser({
+                id: 'data-value',
+                is: function () {
+                    return false;
+                },
+                format: function (s, table, cell) {
+                    return $(cell).attr('data-value') || s;
+                },
+                type: 'text'
+            });
+
+            table.tablesorter({
+                widgets: ['columns'],
+                usNumberFormat: true,
+                sortReset: false,
+                sortRestart: false,
+                sortList: [[0, 0]],
+                headers: {
+                    0: { sortInitialOrder: 'asc', sorter: 'data-value' },
+                    1: { sortInitialOrder: 'desc' },
+                    2: { sortInitialOrder: 'desc', sorter: 'data-value' },
+                    3: { sortInitialOrder: 'desc', sorter: 'data-value' },
+                }
+            });
+
 			deactivateAll();
 			if (event) {
 				$(event.target).addClass('active');
@@ -1126,7 +1190,7 @@
 
 			resetView();
 			createGallery();
-			var gallery = $('#gallery');
+			var gallery = $('.gallery');
 
 			gallery.append('<div class="title">Top ' + galleryAmount + ' Longest Films</div>');
 
@@ -1136,9 +1200,9 @@
 				hours = Math.floor(data.LongestFilms[film].Minutes / 60);
 				minutes = data.LongestFilms[film].Minutes - (hours * 60);
 				gallery.append(
-					'<div class="item">' +
+					'<div class="item ttt" data-tooltip="' + film + '">' +
 					'<div class="poster"><a target="_blank" href="https://boxd.it/' + data.LongestFilms[film].Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + data.LongestFilms[film].Poster + '"></a></div>' +
-					'<div class="details">' + hours + 'h ' + String(minutes).padStart(2, '0') + 'm<br/>' + data.LongestFilms[film].Year + '<br/><a target="_blank" href="https://boxd.it/' + data.LongestFilms[film].Id + '">' + film + '</a></div>' +
+                    '<div class="details">' + hours + 'h ' + String(minutes).padStart(2, '0') + 'm<br/>' + data.LongestFilms[film].Year + '<br>' + (data.LongestFilms[film].Rating > 0 ? '&#9670;'.repeat(data.LongestFilms[film].Rating) : '&nbsp;') + '</div>' +
 					'</a></div>');
 				displayed++;
 				if (displayed == galleryAmount)
@@ -1199,75 +1263,105 @@
 
 			deactivateAll();
 			$(event.target).addClass('active');
+
+            createTooltipTriggers();
 		}
 
-		function showFilmsPerHalfHour() {
-
-			resetView();
-			createNewTable();
-
-			if (documentWidth < 500) {
-				thead.append('<tr><th>Length</th><th>Films Σ</th><th>Films %</th></tr>');
+		function formatNumber(number) {
+			if (number >= 1000000) {
+				return (Math.round(number / 100000)/10) + 'm';
 			} else {
-				thead.append('<tr><th>Length</th><th>Films Σ</th><th>Films %</th><th>Bar</th></tr>');
+				return number.toLocaleString();
+			}
+		}
+
+        function showPopularity() {
+
+            resetView();
+            createGallery();
+            var gallery = $('.gallery');
+
+            gallery.append('<div class="title">Top ' + galleryAmount + ' Most Watched Films by Letterboxd Users</div>');
+
+            var displayed = 0;
+            for (var film in data.MostWatchedFilms) {
+                gallery.append(
+                    '<div class="item ttt" data-tooltip="' + film + '">' +
+                    '<div class="poster"><a target="_blank" href="https://boxd.it/' + data.MostWatchedFilms[film].Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + data.MostWatchedFilms[film].Poster + '"></a></div>' +
+                    '<div class="details ttt" data-tooltip="' + data.MostWatchedFilms[film].Watched.toLocaleString() + '">' + formatNumber(data.MostWatchedFilms[film].Watched) + '<br/>' + data.MostWatchedFilms[film].Year + '<br>' + (data.MostWatchedFilms[film].Rating > 0 ? '&#9670;'.repeat(data.MostWatchedFilms[film].Rating) : '&nbsp;') + '</div>' +
+                    '</a></div>');
+                displayed++;
+                if (displayed == galleryAmount)
+                    break;
 			}
 
-			var highest = 0, total = 0;
-			for (var thirty in data.FilmsPerThirtyMinutes) {
-				highest = Math.max(highest, data.FilmsPerThirtyMinutes[thirty]);
-			}
+            createGallery();
+            gallery = $('.gallery').last();
 
-			for (var thirty in data.FilmsPerThirtyMinutes) {
-				//var label = (thirty / 60).toFixed(1) + "h <= x < " + ((+thirty + 30) / 60).toFixed(1) + "h";
-				var number = +thirty;
-				var label =
-					Math.floor(number / 60) + "h" + (number % 60 == 0 ? '00' : '30') + "m" +
-					" to " +
-					Math.floor(number / 60) + "h" + (number % 60 == 0 ? '29' : '59') + "m";
-				var percent = (data.FilmsPerThirtyMinutes[thirty] / data.TotalFilms) * 100;
-				var bar = '';
-				if (documentWidth >= 500) {
-					bar = '<td class="chart" data-value="' + data.FilmsPerThirtyMinutes[thirty] + '"><span class="bar" style="width:' + ~~((data.FilmsPerThirtyMinutes[thirty] / highest) * 100) + 'px">&nbsp;</span></td>';
-				}
-				tbody.append(
-					'<tr>' +
-					'<td data-value="' + number + '">' + label + '</td>' +
-					'<td class="right">' + data.FilmsPerThirtyMinutes[thirty] + '</td>' +
-					'<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerThirtyMinutes[thirty] + '">' + percent.toFixed(0) + '%</td>' +
-					bar +
-					'</tr>');
-			}
+            gallery.append('<div class="title">Top ' + galleryAmount + ' Least Watched Films by Letterboxd Users</div>');
 
-			$.tablesorter.addParser({
-				id: 'data-value',
-				is: function () {
-					return false;
-				},
-				format: function (s, table, cell) {
-					return $(cell).attr('data-value') || s;
-				},
-				type: 'text'
-			});
+            displayed = 0;
+			for (var film in data.LeastWatchedFilms) {
+				gallery.append(
+                    '<div class="item ttt" data-tooltip="' + film + '">' +
+					'<div class="poster"><a target="_blank" href="https://boxd.it/' + data.LeastWatchedFilms[film].Id + '">' +
+					(data.LeastWatchedFilms[film].Poster ? '<img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + data.LeastWatchedFilms[film].Poster + '">' : '<div class="empty">&nbsp;</div>') +
+                    '</a></div > ' +
+                    '<div class="details ttt" data-tooltip="' + data.LeastWatchedFilms[film].Watched.toLocaleString() + '">' + formatNumber(data.LeastWatchedFilms[film].Watched) + '<br>' + data.LeastWatchedFilms[film].Year + '<br>' + (data.LeastWatchedFilms[film].Rating > 0 ? '&#9670;'.repeat(data.LeastWatchedFilms[film].Rating) : '&nbsp;') + '</div>' +
+                    '</a></div>');
+                displayed++;
+                if (displayed == galleryAmount)
+                    break;
+            }
 
-			$('#main').tablesorter({
-				widgets: ['columns'],
-				usNumberFormat: true,
-				sortReset: false,
-				sortRestart: false,
-				sortList: [[0, 0]],
-				headers: {
-					0: { sortInitialOrder: 'asc', sorter: 'data-value' },
-					1: { sortInitialOrder: 'desc' },
-					2: { sortInitialOrder: 'desc', sorter: 'data-value' },
-					3: { sortInitialOrder: 'desc', sorter: 'data-value' },
-				}
-			});
-
-			deactivateAll();
+            deactivateAll();
 			$(event.target).addClass('active');
 
-			createTooltipTriggers();
+            createTooltipTriggers();
 		}
+
+        function showRatings() {
+
+            resetView();
+            createGallery();
+            var gallery = $('.gallery');
+
+            gallery.append('<div class="title">Top ' + galleryAmount + ' Highest Rated Films by Letterboxd Users</div>');
+
+            var displayed = 0;
+            for (var film in data.HighestRatedFilms) {
+                gallery.append(
+                    '<div class="item ttt" data-tooltip="' + film + '">' +
+                    '<div class="poster"><a target="_blank" href="https://boxd.it/' + data.HighestRatedFilms[film].Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + data.HighestRatedFilms[film].Poster + '"></a></div>' +
+                    '<div class="details">' + data.HighestRatedFilms[film].RatingLetterboxd + '<br/>' + data.HighestRatedFilms[film].Year + '<br>' + (data.HighestRatedFilms[film].Rating > 0 ? '&#9670;'.repeat(data.HighestRatedFilms[film].Rating) : '&nbsp;') + '</div>');
+                displayed++;
+                if (displayed == galleryAmount)
+                    break;
+            }
+
+            createGallery();
+            gallery = $('.gallery').last();
+
+            gallery.append('<div class="title">Top ' + galleryAmount + ' Lowest Rated Films by Letterboxd Users</div>');
+
+            displayed = 0;
+            for (var film in data.LowestRatedFilms) {
+                gallery.append(
+                    '<div class="item ttt" data-tooltip="' + film + '">' +
+                    '<div class="poster"><a target="_blank" href="https://boxd.it/' + data.LowestRatedFilms[film].Id + '">' +
+                    (data.LowestRatedFilms[film].Poster ? '<img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + data.LowestRatedFilms[film].Poster + '">' : '<div class="empty">&nbsp;</div>') +
+                    '</a></div > ' +
+                    '<div class="details">' + data.LowestRatedFilms[film].RatingLetterboxd + '<br/>' + data.LowestRatedFilms[film].Year + '<br>' + (data.LowestRatedFilms[film].Rating > 0 ? '&#9670;'.repeat(data.LowestRatedFilms[film].Rating) : '&nbsp;') + '</div>');
+                displayed++;
+                if (displayed == galleryAmount)
+                    break;
+            }
+
+            deactivateAll();
+			$(event.target).addClass('active');
+
+            createTooltipTriggers();
+        }
 
 		// converts language names to the ones that letterboxd uses, rightly or wrongly...
 		function letterboxdLanguage(language) {
@@ -1636,7 +1730,7 @@
 			resetView();
 			createGallery();
 
-			var gallery = $('#gallery');
+			var gallery = $('.gallery');
             var minimum = dataSource.length >= galleryAmount ? dataSource[galleryAmount].Amount : 0;
 
 			//var shuffled = shuffleArray(dataSource.filter(a => a.Poster.length > 2).slice(0));

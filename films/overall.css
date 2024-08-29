@@ -25,11 +25,19 @@ html {
 }
 */
 
-html {
+/*html {
 	background: radial-gradient(circle, transparent 20%, black 20%, black 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, black 20%, black 80%, transparent 80%, transparent) 50px 50px, linear-gradient(#060606 8px, transparent 8px) 0 -4px, linear-gradient(90deg, #060606 8px, transparent 8px) -4px 0;
 	background-attachment: fixed;
 	background-color: black;
 	background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
+}*/
+
+html {
+	background: repeating-linear-gradient(45deg, #000 0, #000 30%, transparent 0, transparent 50%), repeating-linear-gradient(135deg, #000 0, #000 30%, transparent 0, transparent 50%);
+	background-size: 5em 5em;
+	background-color: #060606;
+	background-attachment: fixed;
+	opacity: 1
 }
 
 body {
@@ -95,6 +103,8 @@ table {
 	display: inline-block;
 	font-style: normal;
 	text-align: left;
+	font-size: 100%;
+	opacity: 1;
 }
 
 #buttons span {
@@ -226,19 +236,20 @@ p {
 
 /***** GALLERY *****/
 
-#gallery {
+.gallery {
 	background: white;
 	margin-bottom: 10px;
 	border-radius: 8px;
 	padding: 11px 11px 0 11px;
 	display: inline-block;
+	max-width: 1351px;
 }
 
-#gallery * {
+.gallery * {
 	vertical-align: top;
 }
 
-#gallery .title {
+.gallery .title {
 	padding: 5px;
 	margin: 5px 5px 8px 5px;
 	background: black;
@@ -247,7 +258,7 @@ p {
 	font-weight: bold;
 }
 
-#gallery .item {
+.gallery .item {
 	padding: 5px 5px 0;
 	display: inline-block;
 	width: 125px;
@@ -257,7 +268,7 @@ p {
 	border-radius: 8px;
 }
 
-#gallery .item .empty {
+.gallery .item .empty {
 	background: #bbb;
 	width: 117px;
 	height: 172px;
@@ -265,18 +276,18 @@ p {
 	border: 3px solid black;
 }
 
-#gallery .item img {
+.gallery .item img {
 	width: 115px;
 	height: 173px;
 	border-radius: 5px;
 	border: 3px solid black;
 }
 
-#gallery .item img:hover {
+.gallery .item img:hover {
 	border: 3px solid #007EE5;
 }
 
-#gallery .item .details {
+.gallery .item .details {
 	margin: 5px 0 3px;
 	font-size: 12px;
 }
@@ -311,6 +322,12 @@ p {
 	color: white;
 	border-radius: 8px;
 	font-weight: bold;
+}
+
+.subtitle {
+	opacity: 0.7;
+	font-size: 70%;
+	vertical-align: baseline;
 }
 
 /***** MOBILE *****/
