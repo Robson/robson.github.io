@@ -133,7 +133,6 @@
 		onresize = (event) => {
 			if (document.body.clientWidth != documentWidth) {
 				documentWidth = document.body.clientWidth;
-				console.log(documentWidth);
 				showOverall();
 				deactivateAll();
 			}
@@ -433,7 +432,7 @@
 
 			resetView();
 
-            $('body').append('<div class="info">Click a section on the left to explore the statistics for <a target="_blank" href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '\'s</a> ' + data.TotalFilms.toLocaleString() + ' watched films.<br/>The statistics were generated on ' + data.LastUpdated + '.</div>');
+            $('body').append('<div class="info">Click a section ' + (window.innerWidth > 900 ? 'on the left' : 'above') + ' to explore the statistics for <a target="_blank" href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '\'s</a> ' + data.TotalFilms.toLocaleString() + ' <a href="https://letterboxd.com/' + data.Username + '/films/">watched films</a>.<br/>The statistics were generated on ' + data.LastUpdated + '.</div>');
 
 			//$('body').append('<div class="boxes"></div>');
 			//$('.boxes').last().append(makeBox(, 'Stats Generated Date'));

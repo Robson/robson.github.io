@@ -15577,9 +15577,9 @@ var data = {
   },
   "Backdrops": [
     {
-      "ImageUrl": "/zb6fM1CX41D9rF9hdgclu0peUmy.jpg",
-      "FilmName": "Schindler's List\u003Cbr/\u003E(1993)",
-      "LetterboxdId": "2aq2"
+      "ImageUrl": "/67BHTjyEgURL60irOQu54qZ3zDk.jpg",
+      "FilmName": "Perfect Days\u003Cbr/\u003E(2023)",
+      "LetterboxdId": "ATh8"
     }
   ],
   "Lists": [
