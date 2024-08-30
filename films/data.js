@@ -1,14 +1,14 @@
 var data = {
-  "LastUpdated": "29 Aug 2024",
+  "LastUpdated": "30 Aug 2024",
   "Username": "LaLunaLlena",
-  "TotalFilms": 923,
-  "RatedFilms": 251,
-  "FilmsWithGenres": 921,
-  "TotalMinutes": 98924,
-  "FilmsWithRuntime": 920,
-  "TotalMinutesFull": 97840,
-  "FilmsWithRuntimeFull": 887,
-  "AverageFilmYearMean": 2000.1798483206933,
+  "TotalFilms": 924,
+  "RatedFilms": 252,
+  "FilmsWithGenres": 922,
+  "TotalMinutes": 99024,
+  "FilmsWithRuntime": 921,
+  "TotalMinutesFull": 97940,
+  "FilmsWithRuntimeFull": 888,
+  "AverageFilmYearMean": 2000.189393939394,
   "AverageFilmYearMedian": 2004,
   "Genres": {
     "Action": {
@@ -19,12 +19,12 @@ var data = {
     "Adventure": {
       "Count": 154,
       "RatingCount": 24,
-      "RatingTotal": 89
+      "RatingTotal": 88
     },
     "Animation": {
-      "Count": 44,
-      "RatingCount": 7,
-      "RatingTotal": 17
+      "Count": 45,
+      "RatingCount": 8,
+      "RatingTotal": 21
     },
     "Comedy": {
       "Count": 285,
@@ -47,14 +47,14 @@ var data = {
       "RatingTotal": 627
     },
     "Family": {
-      "Count": 78,
-      "RatingCount": 11,
-      "RatingTotal": 35
+      "Count": 79,
+      "RatingCount": 12,
+      "RatingTotal": 39
     },
     "Fantasy": {
-      "Count": 89,
-      "RatingCount": 15,
-      "RatingTotal": 60
+      "Count": 90,
+      "RatingCount": 16,
+      "RatingTotal": 64
     },
     "History": {
       "Count": 36,
@@ -107,13 +107,13 @@ var data = {
       "RatingTotal": 9
     }
   },
-  "DirectorTotalAll": 1006,
+  "DirectorTotalAll": 1007,
   "DirectorTotalFemale": 100,
-  "DirectorTotalMale": 871,
+  "DirectorTotalMale": 872,
   "DirectorTotalNonBinary": 1,
-  "DirectorUniqueAll": 670,
+  "DirectorUniqueAll": 671,
   "DirectorUniqueFemale": 82,
-  "DirectorUniqueMale": 557,
+  "DirectorUniqueMale": 558,
   "DirectorUniqueNonBinary": 1,
   "DirectorAll": [
     {
@@ -2463,12 +2463,12 @@ var data = {
       "Gender": 0
     }
   ],
-  "ProtagonistTotalAll": 915,
-  "ProtagonistTotalFemale": 266,
+  "ProtagonistTotalAll": 916,
+  "ProtagonistTotalFemale": 267,
   "ProtagonistTotalMale": 632,
   "ProtagonistTotalNonBinary": 5,
-  "ProtagonistUniqueAll": 588,
-  "ProtagonistUniqueFemale": 197,
+  "ProtagonistUniqueAll": 589,
+  "ProtagonistUniqueFemale": 198,
   "ProtagonistUniqueMale": 377,
   "ProtagonistUniqueNonBinary": 3,
   "ProtagonistAll": [
@@ -3762,6 +3762,12 @@ var data = {
       "FullName": "Christine Cavanaugh",
       "Amount": 1,
       "Poster": "/qOUpGURljNhgFzZ5SmV5miAmT9x.jpg",
+      "Gender": 0
+    },
+    {
+      "FullName": "Dakota Fanning",
+      "Amount": 1,
+      "Poster": "/2rzf9VHMRQc4MTIKt9EDvwurcHE.jpg",
       "Gender": 0
     },
     {
@@ -5167,12 +5173,12 @@ var data = {
       "Gender": 0
     }
   ],
-  "TopCastTotalAll": 2693,
-  "TopCastTotalFemale": 969,
+  "TopCastTotalAll": 2696,
+  "TopCastTotalFemale": 972,
   "TopCastTotalMale": 1649,
   "TopCastTotalNonBinary": 9,
-  "TopCastUniqueAll": 1733,
-  "TopCastUniqueFemale": 654,
+  "TopCastUniqueAll": 1736,
+  "TopCastUniqueFemale": 657,
   "TopCastUniqueMale": 1010,
   "TopCastUniqueNonBinary": 5,
   "TopCastAll": [
@@ -7643,13 +7649,13 @@ var data = {
       "Gender": 0
     }
   ],
-  "EntireCastTotalAll": 38159,
-  "EntireCastTotalFemale": 9189,
-  "EntireCastTotalMale": 19859,
+  "EntireCastTotalAll": 38179,
+  "EntireCastTotalFemale": 9194,
+  "EntireCastTotalMale": 19866,
   "EntireCastTotalNonBinary": 24,
-  "EntireCastUniqueAll": 29931,
-  "EntireCastUniqueFemale": 7190,
-  "EntireCastUniqueMale": 13902,
+  "EntireCastUniqueAll": 29944,
+  "EntireCastUniqueFemale": 7191,
+  "EntireCastUniqueMale": 13906,
   "EntireCastUniqueNonBinary": 14,
   "EntireCastAll": [
     {
@@ -7959,6 +7965,12 @@ var data = {
       "Gender": 2
     },
     {
+      "FullName": "Keith David",
+      "Amount": 9,
+      "Poster": "/jJLJuR7FNHYL1fB5igjj7IXzOel.jpg",
+      "Gender": 2
+    },
+    {
       "FullName": "Mark Williams",
       "Amount": 9,
       "Poster": "/gdlEDhxSmPv3hWHbpTuwCI5Jrtk.jpg",
@@ -8124,12 +8136,6 @@ var data = {
       "FullName": "Josh Herdman",
       "Amount": 8,
       "Poster": "/dUWM0gIhQJayVTp30EsoafhLOWt.jpg",
-      "Gender": 2
-    },
-    {
-      "FullName": "Keith David",
-      "Amount": 8,
-      "Poster": "/jJLJuR7FNHYL1fB5igjj7IXzOel.jpg",
       "Gender": 2
     },
     {
@@ -9371,6 +9377,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Jennifer Saunders",
+      "Amount": 4,
+      "Poster": "/pTgxwHcz9L8SNVYvPJS0o0lgHya.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Jessica Hynes",
       "Amount": 4,
       "Poster": "/eyJ9aC1FXyPAI5xose0HqA26bnm.jpg",
@@ -9949,6 +9961,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Keith David",
+      "Amount": 9,
+      "Poster": "/jJLJuR7FNHYL1fB5igjj7IXzOel.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Mark Williams",
       "Amount": 9,
       "Poster": "/gdlEDhxSmPv3hWHbpTuwCI5Jrtk.jpg",
@@ -10072,12 +10090,6 @@ var data = {
       "FullName": "Josh Herdman",
       "Amount": 8,
       "Poster": "/dUWM0gIhQJayVTp30EsoafhLOWt.jpg",
-      "Gender": 0
-    },
-    {
-      "FullName": "Keith David",
-      "Amount": 8,
-      "Poster": "/jJLJuR7FNHYL1fB5igjj7IXzOel.jpg",
       "Gender": 0
     },
     {
@@ -10631,7 +10643,7 @@ var data = {
     "2006": 30,
     "2007": 69,
     "2008": 30,
-    "2009": 23,
+    "2009": 24,
     "2010": 22,
     "2011": 24,
     "2012": 20,
@@ -10692,7 +10704,7 @@ var data = {
     "1950": {
       "Count": 10,
       "RatingCount": 6,
-      "RatingTotal": 21
+      "RatingTotal": 20
     },
     "1960": {
       "Count": 24,
@@ -10715,9 +10727,9 @@ var data = {
       "RatingTotal": 110
     },
     "2000": {
-      "Count": 332,
-      "RatingCount": 38,
-      "RatingTotal": 115
+      "Count": 333,
+      "RatingCount": 39,
+      "RatingTotal": 120
     },
     "2010": {
       "Count": 214,
@@ -11916,6 +11928,13 @@ var data = {
       "Poster": "/lEIaL12hSkqqe83kgADkbUqEnvk.jpg",
       "Year": 2013
     },
+    "Coraline ": {
+      "Rating": 5,
+      "Watched": 2105933,
+      "Id": "1NhQ",
+      "Poster": "/4jeFXQYytChdZYE9JYO7Un87IlW.jpg",
+      "Year": 2009
+    },
     "Shrek 2 ": {
       "Rating": 0,
       "Watched": 2099637,
@@ -12125,13 +12144,6 @@ var data = {
       "Id": "21ew",
       "Poster": "/bj1v6YKF8yHqA489VFfnQvOJpnc.jpg",
       "Year": 2007
-    },
-    "GoodFellas ": {
-      "Rating": 0,
-      "Watched": 1686324,
-      "Id": "29FA",
-      "Poster": "/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
-      "Year": 1990
     }
   },
   "LeastWatchedFilms": {
@@ -13488,6 +13500,13 @@ var data = {
       "Poster": "/nSxDa3M9aMvGVLoItzWTepQ5h5d.jpg",
       "Year": 2001
     },
+    "Coraline ": {
+      "Rating": 5,
+      "RatingLetterboxd": 4.16,
+      "Id": "1NhQ",
+      "Poster": "/4jeFXQYytChdZYE9JYO7Un87IlW.jpg",
+      "Year": 2009
+    },
     "Short Term 12 ": {
       "Rating": 5,
       "RatingLetterboxd": 4.16,
@@ -13529,13 +13548,6 @@ var data = {
       "Id": "2a1m",
       "Poster": "/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
       "Year": 1999
-    },
-    "Paddington 2 ": {
-      "Rating": 4,
-      "RatingLetterboxd": 4.16,
-      "Id": "bCF8",
-      "Poster": "/1OJ9vkD5xPt3skC6KguyXAgagRZ.jpg",
-      "Year": 2017
     }
   },
   "LowestRatedFilms": {
@@ -15030,7 +15042,7 @@ var data = {
       "Poster": "/rm1YFiE2ocs8UjnxgdGDIA02c5d.jpg"
     },
     "Alice in Wonderland ": {
-      "Rating": 4,
+      "Rating": 3,
       "When": "1951-07-28",
       "Id": "1Sz6",
       "Poster": "/20cvfwfaFqNbe9Fc3VEHJuPRxmn.jpg"
@@ -15448,7 +15460,7 @@ var data = {
     "0": 18,
     "30": 13,
     "60": 135,
-    "90": 495,
+    "90": 496,
     "120": 218,
     "150": 33,
     "180": 8,
@@ -15459,7 +15471,7 @@ var data = {
     "Cantonese": 1,
     "Czech": 2,
     "Danish": 1,
-    "English": 835,
+    "English": 836,
     "French": 23,
     "German": 4,
     "Hungarian": 1,
@@ -15514,7 +15526,7 @@ var data = {
     "Ukraine": 1,
     "United Arab Emirates": 1,
     "United Kingdom": 172,
-    "United States of America": 746
+    "United States of America": 747
   },
   "FilmsPerCountryProduction": {
     "Angola": 1,
@@ -15573,13 +15585,13 @@ var data = {
     "Ukraine": 2,
     "United Arab Emirates": 2,
     "United Kingdom": 236,
-    "United States of America": 793
+    "United States of America": 794
   },
   "Backdrops": [
     {
-      "ImageUrl": "/67BHTjyEgURL60irOQu54qZ3zDk.jpg",
-      "FilmName": "Perfect Days\u003Cbr/\u003E(2023)",
-      "LetterboxdId": "ATh8"
+      "ImageUrl": "/6JDjZdFckZyMYgtawDwUb6HTwVp.jpg",
+      "FilmName": "Spring, Summer, Fall, Winter... and Spring\u003Cbr/\u003E(2003)",
+      "LetterboxdId": "2b6W"
     }
   ],
   "Lists": [
@@ -17335,7 +17347,7 @@ var data = {
           "LetterboxdIdentifier": "1Sz6",
           "PrimaryLanguage": "English",
           "PosterUrl": "/20cvfwfaFqNbe9Fc3VEHJuPRxmn.jpg",
-          "Rating": 4
+          "Rating": 3
         },
         {
           "Order": 144,
@@ -17363,6 +17375,15 @@ var data = {
           "PrimaryLanguage": "English",
           "PosterUrl": "/wDrTeDUuWf7SRQnkVea2ZpOcwnt.jpg",
           "Rating": 4
+        },
+        {
+          "Order": 147,
+          "FilmName": "Coraline",
+          "Year": 2009,
+          "LetterboxdIdentifier": "1NhQ",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/4jeFXQYytChdZYE9JYO7Un87IlW.jpg",
+          "Rating": 5
         }
       ]
     }
