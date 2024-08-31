@@ -1,25 +1,25 @@
 var data = {
-  "LastUpdated": "30 Aug 2024",
+  "LastUpdated": "31 Aug 2024",
   "Username": "LaLunaLlena",
-  "TotalFilms": 924,
-  "RatedFilms": 252,
-  "FilmsWithGenres": 922,
-  "TotalMinutes": 99024,
-  "FilmsWithRuntime": 921,
-  "TotalMinutesFull": 97940,
-  "FilmsWithRuntimeFull": 888,
-  "AverageFilmYearMean": 2000.189393939394,
+  "TotalFilms": 925,
+  "RatedFilms": 254,
+  "FilmsWithGenres": 923,
+  "TotalMinutes": 99120,
+  "FilmsWithRuntime": 922,
+  "TotalMinutesFull": 98036,
+  "FilmsWithRuntimeFull": 889,
+  "AverageFilmYearMean": 2000.1891891891892,
   "AverageFilmYearMedian": 2004,
   "Genres": {
     "Action": {
       "Count": 159,
-      "RatingCount": 16,
-      "RatingTotal": 40
+      "RatingCount": 17,
+      "RatingTotal": 42
     },
     "Adventure": {
       "Count": 154,
-      "RatingCount": 24,
-      "RatingTotal": 88
+      "RatingCount": 25,
+      "RatingTotal": 90
     },
     "Animation": {
       "Count": 45,
@@ -42,9 +42,9 @@ var data = {
       "RatingTotal": 38
     },
     "Drama": {
-      "Count": 460,
-      "RatingCount": 165,
-      "RatingTotal": 627
+      "Count": 461,
+      "RatingCount": 166,
+      "RatingTotal": 629
     },
     "Family": {
       "Count": 79,
@@ -67,9 +67,9 @@ var data = {
       "RatingTotal": 121
     },
     "Music": {
-      "Count": 13,
-      "RatingCount": 4,
-      "RatingTotal": 16
+      "Count": 14,
+      "RatingCount": 5,
+      "RatingTotal": 18
     },
     "Mystery": {
       "Count": 83,
@@ -77,19 +77,19 @@ var data = {
       "RatingTotal": 76
     },
     "Romance": {
-      "Count": 125,
-      "RatingCount": 44,
-      "RatingTotal": 168
+      "Count": 126,
+      "RatingCount": 45,
+      "RatingTotal": 170
     },
     "Science Fiction": {
       "Count": 101,
-      "RatingCount": 24,
-      "RatingTotal": 91
+      "RatingCount": 25,
+      "RatingTotal": 93
     },
     "Thriller": {
       "Count": 256,
-      "RatingCount": 50,
-      "RatingTotal": 163
+      "RatingCount": 51,
+      "RatingTotal": 165
     },
     "TV Movie": {
       "Count": 8,
@@ -97,9 +97,9 @@ var data = {
       "RatingTotal": 7
     },
     "War": {
-      "Count": 29,
-      "RatingCount": 7,
-      "RatingTotal": 32
+      "Count": 30,
+      "RatingCount": 8,
+      "RatingTotal": 34
     },
     "Western": {
       "Count": 4,
@@ -107,12 +107,12 @@ var data = {
       "RatingTotal": 9
     }
   },
-  "DirectorTotalAll": 1007,
-  "DirectorTotalFemale": 100,
+  "DirectorTotalAll": 1008,
+  "DirectorTotalFemale": 101,
   "DirectorTotalMale": 872,
   "DirectorTotalNonBinary": 1,
-  "DirectorUniqueAll": 671,
-  "DirectorUniqueFemale": 82,
+  "DirectorUniqueAll": 672,
+  "DirectorUniqueFemale": 83,
   "DirectorUniqueMale": 558,
   "DirectorUniqueNonBinary": 1,
   "DirectorAll": [
@@ -1499,6 +1499,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Sally Potter",
+      "Amount": 1,
+      "Poster": "/7hzuG6C7GD8gbBtqdoHOfwQ3P5M.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Sam Taylor-Johnson",
       "Amount": 1,
       "Poster": "/4iWEBM7B4nANVZcRaID9XHo4tPl.jpg",
@@ -2463,8 +2469,8 @@ var data = {
       "Gender": 0
     }
   ],
-  "ProtagonistTotalAll": 916,
-  "ProtagonistTotalFemale": 267,
+  "ProtagonistTotalAll": 917,
+  "ProtagonistTotalFemale": 268,
   "ProtagonistTotalMale": 632,
   "ProtagonistTotalNonBinary": 5,
   "ProtagonistUniqueAll": 589,
@@ -2479,16 +2485,16 @@ var data = {
       "Gender": 2
     },
     {
+      "FullName": "Christina Ricci",
+      "Amount": 10,
+      "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
+      "Gender": 1
+    },
+    {
       "FullName": "Leonardo DiCaprio",
       "Amount": 10,
       "Poster": "/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg",
       "Gender": 2
-    },
-    {
-      "FullName": "Christina Ricci",
-      "Amount": 9,
-      "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
-      "Gender": 1
     },
     {
       "FullName": "Nicolas Cage",
@@ -3340,7 +3346,7 @@ var data = {
   "ProtagonistFemale": [
     {
       "FullName": "Christina Ricci",
-      "Amount": 9,
+      "Amount": 10,
       "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
       "Gender": 0
     },
@@ -5173,9 +5179,9 @@ var data = {
       "Gender": 0
     }
   ],
-  "TopCastTotalAll": 2696,
-  "TopCastTotalFemale": 972,
-  "TopCastTotalMale": 1649,
+  "TopCastTotalAll": 2699,
+  "TopCastTotalFemale": 974,
+  "TopCastTotalMale": 1650,
   "TopCastTotalNonBinary": 9,
   "TopCastUniqueAll": 1736,
   "TopCastUniqueFemale": 657,
@@ -5184,7 +5190,7 @@ var data = {
   "TopCastAll": [
     {
       "FullName": "Christina Ricci",
-      "Amount": 14,
+      "Amount": 15,
       "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
       "Gender": 1
     },
@@ -5405,6 +5411,12 @@ var data = {
       "Gender": 2
     },
     {
+      "FullName": "Johnny Depp",
+      "Amount": 6,
+      "Poster": "/wcI594cwM4ArPwvRd2IU0Z0yLuh.jpg",
+      "Gender": 2
+    },
+    {
       "FullName": "Julia Garner",
       "Amount": 6,
       "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
@@ -5471,6 +5483,12 @@ var data = {
       "Gender": 1
     },
     {
+      "FullName": "Cate Blanchett",
+      "Amount": 5,
+      "Poster": "vq4vuAVhYngfzVNn8SbnG0JEy15.jpg",
+      "Gender": 1
+    },
+    {
       "FullName": "Charlize Theron",
       "Amount": 5,
       "Poster": "/gd7ShD0yt4bsR2STeQ19KQ6hvXL.jpg",
@@ -5523,12 +5541,6 @@ var data = {
       "Amount": 5,
       "Poster": "/resiaRfWvj4N84TgJi9DPOafCpq.jpg",
       "Gender": 1
-    },
-    {
-      "FullName": "Johnny Depp",
-      "Amount": 5,
-      "Poster": "/wcI594cwM4ArPwvRd2IU0Z0yLuh.jpg",
-      "Gender": 2
     },
     {
       "FullName": "Joseph Gordon-Levitt",
@@ -5606,12 +5618,6 @@ var data = {
       "FullName": "Bj\u00F6rk",
       "Amount": 4,
       "Poster": "/Ahc3TWomYakLcbqZRVBDdf3rhMR.jpg",
-      "Gender": 1
-    },
-    {
-      "FullName": "Cate Blanchett",
-      "Amount": 4,
-      "Poster": "vq4vuAVhYngfzVNn8SbnG0JEy15.jpg",
       "Gender": 1
     },
     {
@@ -5852,7 +5858,7 @@ var data = {
   "TopCastFemale": [
     {
       "FullName": "Christina Ricci",
-      "Amount": 14,
+      "Amount": 15,
       "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
       "Gender": 0
     },
@@ -5941,6 +5947,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Cate Blanchett",
+      "Amount": 5,
+      "Poster": "vq4vuAVhYngfzVNn8SbnG0JEy15.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Charlize Theron",
       "Amount": 5,
       "Poster": "/gd7ShD0yt4bsR2STeQ19KQ6hvXL.jpg",
@@ -5992,12 +6004,6 @@ var data = {
       "FullName": "Bj\u00F6rk",
       "Amount": 4,
       "Poster": "/Ahc3TWomYakLcbqZRVBDdf3rhMR.jpg",
-      "Gender": 0
-    },
-    {
-      "FullName": "Cate Blanchett",
-      "Amount": 4,
-      "Poster": "vq4vuAVhYngfzVNn8SbnG0JEy15.jpg",
       "Gender": 0
     },
     {
@@ -6957,6 +6963,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Johnny Depp",
+      "Amount": 6,
+      "Poster": "/wcI594cwM4ArPwvRd2IU0Z0yLuh.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Ryan Gosling",
       "Amount": 6,
       "Poster": "/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg",
@@ -7008,12 +7020,6 @@ var data = {
       "FullName": "Jamie Foxx",
       "Amount": 5,
       "Poster": "/hPwCMEq6jLAidsXAX5BfoYgIfg2.jpg",
-      "Gender": 0
-    },
-    {
-      "FullName": "Johnny Depp",
-      "Amount": 5,
-      "Poster": "/wcI594cwM4ArPwvRd2IU0Z0yLuh.jpg",
       "Gender": 0
     },
     {
@@ -7649,18 +7655,18 @@ var data = {
       "Gender": 0
     }
   ],
-  "EntireCastTotalAll": 38179,
-  "EntireCastTotalFemale": 9194,
-  "EntireCastTotalMale": 19866,
+  "EntireCastTotalAll": 38244,
+  "EntireCastTotalFemale": 9208,
+  "EntireCastTotalMale": 19888,
   "EntireCastTotalNonBinary": 24,
-  "EntireCastUniqueAll": 29944,
-  "EntireCastUniqueFemale": 7191,
-  "EntireCastUniqueMale": 13906,
+  "EntireCastUniqueAll": 29993,
+  "EntireCastUniqueFemale": 7201,
+  "EntireCastUniqueMale": 13916,
   "EntireCastUniqueNonBinary": 14,
   "EntireCastAll": [
     {
       "FullName": "Christina Ricci",
-      "Amount": 19,
+      "Amount": 20,
       "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
       "Gender": 1
     },
@@ -7767,6 +7773,12 @@ var data = {
       "Gender": 2
     },
     {
+      "FullName": "Cate Blanchett",
+      "Amount": 11,
+      "Poster": "vq4vuAVhYngfzVNn8SbnG0JEy15.jpg",
+      "Gender": 1
+    },
+    {
       "FullName": "Ed Harris",
       "Amount": 11,
       "Poster": "/aAu9lJ02jlg0GAvv2vVnpJSDV1Y.jpg",
@@ -7825,12 +7837,6 @@ var data = {
       "Amount": 10,
       "Poster": "/iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
       "Gender": 2
-    },
-    {
-      "FullName": "Cate Blanchett",
-      "Amount": 10,
-      "Poster": "vq4vuAVhYngfzVNn8SbnG0JEy15.jpg",
-      "Gender": 1
     },
     {
       "FullName": "Harvey Keitel",
@@ -8562,7 +8568,7 @@ var data = {
   "EntireCastFemale": [
     {
       "FullName": "Christina Ricci",
-      "Amount": 19,
+      "Amount": 20,
       "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
       "Gender": 0
     },
@@ -8579,15 +8585,15 @@ var data = {
       "Gender": 0
     },
     {
-      "FullName": "Emma Watson",
+      "FullName": "Cate Blanchett",
       "Amount": 11,
-      "Poster": "/A14lLCZYDhfYdBa0fFRpwMDiwRN.jpg",
+      "Poster": "vq4vuAVhYngfzVNn8SbnG0JEy15.jpg",
       "Gender": 0
     },
     {
-      "FullName": "Cate Blanchett",
-      "Amount": 10,
-      "Poster": "vq4vuAVhYngfzVNn8SbnG0JEy15.jpg",
+      "FullName": "Emma Watson",
+      "Amount": 11,
+      "Poster": "/A14lLCZYDhfYdBa0fFRpwMDiwRN.jpg",
       "Gender": 0
     },
     {
@@ -10634,7 +10640,7 @@ var data = {
     "1997": 25,
     "1998": 27,
     "1999": 25,
-    "2000": 32,
+    "2000": 33,
     "2001": 35,
     "2002": 34,
     "2003": 24,
@@ -10727,14 +10733,14 @@ var data = {
       "RatingTotal": 110
     },
     "2000": {
-      "Count": 333,
-      "RatingCount": 39,
-      "RatingTotal": 120
+      "Count": 334,
+      "RatingCount": 40,
+      "RatingTotal": 122
     },
     "2010": {
       "Count": 214,
-      "RatingCount": 92,
-      "RatingTotal": 325
+      "RatingCount": 93,
+      "RatingTotal": 327
     },
     "2020": {
       "Count": 65,
@@ -12560,6 +12566,13 @@ var data = {
       "Poster": "/kusEIHfdngzcypY36yjWJVWMShj.jpg",
       "Year": 1970
     },
+    "The Man Who Cried ": {
+      "Rating": 2,
+      "Watched": 6951,
+      "Id": "1nbC",
+      "Poster": "/jaiCqTukSGXFw89GI8v4HPjjjI4.jpg",
+      "Year": 2000
+    },
     "Gold Diggers: The Secret of Bear Mountain ": {
       "Rating": 4,
       "Watched": 7483,
@@ -12839,13 +12852,6 @@ var data = {
       "Id": "fUcw",
       "Poster": "/aTrgVu1QIPXMMfFbO0zxNqzk63p.jpg",
       "Year": 2018
-    },
-    "M\u00E4dchen in Uniform ": {
-      "Rating": 4,
-      "Watched": 18301,
-      "Id": "1Y8g",
-      "Poster": "c4ZanTXGgbQbeIgUC1UYAOn3ztE.jpg",
-      "Year": 1931
     }
   },
   "HighestRatedFilms": {
@@ -13964,6 +13970,13 @@ var data = {
       "Poster": "/dXjLp7k7ILyg22T0s9VvpPKc9jn.jpg",
       "Year": 2007
     },
+    "The Man Who Cried ": {
+      "Rating": 2,
+      "RatingLetterboxd": 2.84,
+      "Id": "1nbC",
+      "Poster": "/jaiCqTukSGXFw89GI8v4HPjjjI4.jpg",
+      "Year": 2000
+    },
     "Cyberbully ": {
       "Rating": 0,
       "RatingLetterboxd": 2.85,
@@ -14243,13 +14256,6 @@ var data = {
       "Id": "1YxK",
       "Poster": "/stJx9BQZbXrZnTGf9Erc7d2UMVc.jpg",
       "Year": 1988
-    },
-    "Johnny English ": {
-      "Rating": 0,
-      "RatingLetterboxd": 2.99,
-      "Id": "1YyI",
-      "Poster": "/mmzW88tnkB2MnOV3Un2F9IUxSnZ.jpg",
-      "Year": 2003
     }
   },
   "NewestReleasedFilms": {
@@ -15460,7 +15466,7 @@ var data = {
     "0": 18,
     "30": 13,
     "60": 135,
-    "90": 496,
+    "90": 497,
     "120": 218,
     "150": 33,
     "180": 8,
@@ -15471,7 +15477,7 @@ var data = {
     "Cantonese": 1,
     "Czech": 2,
     "Danish": 1,
-    "English": 836,
+    "English": 837,
     "French": 23,
     "German": 4,
     "Hungarian": 1,
@@ -15525,8 +15531,8 @@ var data = {
     "Taiwan": 1,
     "Ukraine": 1,
     "United Arab Emirates": 1,
-    "United Kingdom": 172,
-    "United States of America": 747
+    "United Kingdom": 173,
+    "United States of America": 748
   },
   "FilmsPerCountryProduction": {
     "Angola": 1,
@@ -15543,7 +15549,7 @@ var data = {
     "Egypt": 1,
     "Ethiopia": 1,
     "Finland": 2,
-    "France": 81,
+    "France": 82,
     "Germany": 63,
     "Ghana": 1,
     "Greece": 4,
@@ -15584,14 +15590,14 @@ var data = {
     "Turkey": 2,
     "Ukraine": 2,
     "United Arab Emirates": 2,
-    "United Kingdom": 236,
-    "United States of America": 794
+    "United Kingdom": 237,
+    "United States of America": 795
   },
   "Backdrops": [
     {
-      "ImageUrl": "/6JDjZdFckZyMYgtawDwUb6HTwVp.jpg",
-      "FilmName": "Spring, Summer, Fall, Winter... and Spring\u003Cbr/\u003E(2003)",
-      "LetterboxdId": "2b6W"
+      "ImageUrl": "/xQV1wNUu0W5hPR8rEvQYobpedJK.jpg",
+      "FilmName": "Safety Last!\u003Cbr/\u003E(1923)",
+      "LetterboxdId": "1AkW"
     }
   ],
   "Lists": [
@@ -17384,6 +17390,15 @@ var data = {
           "PrimaryLanguage": "English",
           "PosterUrl": "/4jeFXQYytChdZYE9JYO7Un87IlW.jpg",
           "Rating": 5
+        },
+        {
+          "Order": 148,
+          "FilmName": "The Man Who Cried",
+          "Year": 2000,
+          "LetterboxdIdentifier": "1nbC",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/jaiCqTukSGXFw89GI8v4HPjjjI4.jpg",
+          "Rating": 2
         }
       ]
     }
