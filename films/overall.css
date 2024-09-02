@@ -61,6 +61,10 @@ table {
 	text-align: right;
 }
 
+.initially_hidden {
+	display: none;
+}
+
 #backdrop {
 	position: fixed;
 	top: 30px;

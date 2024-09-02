@@ -23,7 +23,7 @@
 	<div id="buttons">
 		<!--<div class="title">Overall</div>
 	<span class="displayer" onmousedown="javascript:showOverall()" id="prime">Overall</span>-->
-		<div class="title">Release Date</div>
+		<div class="title">Release D<b onmousedown="showHidden()">a</b>te</div>
 		<span class="displayer inlinefirst" onmousedown="javascript:showFilmsPerYear()">Year</span>
 		&#9670;
 		<span class="displayer inline" onmousedown="javascript:showFilmsPerDecade()">Decade</span>
@@ -83,10 +83,12 @@
 		<span class="displayer inline ttt" data-tooltip="Men" onmousedown="javascript:showEntireCastMen()">M</span>
 		&#9670;
 		<span class="displayer inline ttt" data-tooltip="Non-Binary" onmousedown="javascript:showEntireCastNonBinary()">NB</span>
-		<div class="title">Watched</div>
-		<span class="displayer inline" onmousedown="javascript:showList('Watched in 2023')">In 2023</span>
-		&#9670;
-		<span class="displayer inline" onmousedown="javascript:showList('Watched in 2024')">In 2024</span>
+		<div class="initially_hidden">
+			<div class="title">Watched</div>
+			<span class="displayer inline" onmousedown="javascript:showList('Watched in 2023')">In 2023</span>
+			&#9670;
+			<span class="displayer inline" onmousedown="javascript:showList('Watched in 2024')">In 2024</span>
+		</div>
 		<!--<div class="title">Director</div>
 	<span class="displayer inlinefirst" onmousedown="javascript:showDirectorsAll()">All</span>
 	&#9670;
@@ -288,6 +290,10 @@
 				attribs = 'class="box ttt" data-tooltip="' + tooltip + '"';
 			}
             return '<div ' + attribs + '><div class="number">' + (isYear ? number : number.toLocaleString()) + '</div><div class="description">' + description + '</div></div>';
+		}
+
+		function showHidden() {
+            d3.select('.initially_hidden').style('display', 'block');
 		}
 
 		function showList(listName) {
