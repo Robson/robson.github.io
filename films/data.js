@@ -1,14 +1,14 @@
 var data = {
-  "LastUpdated": "02 Sep 2024",
+  "LastUpdated": "03 Sep 2024",
   "Username": "LaLunaLlena",
-  "TotalFilms": 931,
+  "TotalFilms": 932,
   "RatedFilms": 259,
-  "FilmsWithGenres": 929,
-  "TotalMinutes": 99605,
-  "FilmsWithRuntime": 928,
-  "TotalMinutesFull": 98506,
-  "FilmsWithRuntimeFull": 893,
-  "AverageFilmYearMean": 1999.982814178303,
+  "FilmsWithGenres": 930,
+  "TotalMinutes": 99763,
+  "FilmsWithRuntime": 929,
+  "TotalMinutesFull": 98664,
+  "FilmsWithRuntimeFull": 894,
+  "AverageFilmYearMean": 2000.0064377682404,
   "AverageFilmYearMedian": 2004,
   "Genres": {
     "Action": {
@@ -42,7 +42,7 @@ var data = {
       "RatingTotal": 38
     },
     "Drama": {
-      "Count": 463,
+      "Count": 464,
       "RatingCount": 168,
       "RatingTotal": 637
     },
@@ -67,7 +67,7 @@ var data = {
       "RatingTotal": 128
     },
     "Music": {
-      "Count": 14,
+      "Count": 15,
       "RatingCount": 5,
       "RatingTotal": 18
     },
@@ -107,13 +107,13 @@ var data = {
       "RatingTotal": 9
     }
   },
-  "DirectorTotalAll": 1015,
+  "DirectorTotalAll": 1016,
   "DirectorTotalFemale": 103,
-  "DirectorTotalMale": 877,
+  "DirectorTotalMale": 878,
   "DirectorTotalNonBinary": 1,
-  "DirectorUniqueAll": 677,
+  "DirectorUniqueAll": 678,
   "DirectorUniqueFemale": 85,
-  "DirectorUniqueMale": 561,
+  "DirectorUniqueMale": 562,
   "DirectorUniqueNonBinary": 1,
   "DirectorAll": [
     {
@@ -3267,8 +3267,8 @@ var data = {
       "RatingCount": 0
     }
   ],
-  "ProtagonistTotalAll": 922,
-  "ProtagonistTotalFemale": 273,
+  "ProtagonistTotalAll": 923,
+  "ProtagonistTotalFemale": 274,
   "ProtagonistTotalMale": 632,
   "ProtagonistTotalNonBinary": 5,
   "ProtagonistUniqueAll": 593,
@@ -3469,6 +3469,14 @@ var data = {
       "RatingCount": 0
     },
     {
+      "FullName": "Cate Blanchett",
+      "Amount": 4,
+      "Poster": "vq4vuAVhYngfzVNn8SbnG0JEy15.jpg",
+      "Gender": 1,
+      "RatingTotal": 0,
+      "RatingCount": 0
+    },
+    {
       "FullName": "Colin Farrell",
       "Amount": 4,
       "Poster": "/9BWYfxrVyzVpcvP8YT9QT8oQAfS.jpg",
@@ -3617,14 +3625,6 @@ var data = {
       "Amount": 3,
       "Poster": "/tFj5PaWWQbb8rHBBhu1EHklznph.jpg",
       "Gender": 2,
-      "RatingTotal": 0,
-      "RatingCount": 0
-    },
-    {
-      "FullName": "Cate Blanchett",
-      "Amount": 3,
-      "Poster": "vq4vuAVhYngfzVNn8SbnG0JEy15.jpg",
-      "Gender": 1,
       "RatingTotal": 0,
       "RatingCount": 0
     },
@@ -4487,6 +4487,14 @@ var data = {
       "RatingCount": 0
     },
     {
+      "FullName": "Cate Blanchett",
+      "Amount": 4,
+      "Poster": "vq4vuAVhYngfzVNn8SbnG0JEy15.jpg",
+      "Gender": 0,
+      "RatingTotal": 0,
+      "RatingCount": 0
+    },
+    {
       "FullName": "Anya Taylor-Joy",
       "Amount": 3,
       "Poster": "/yZpghhtKM2VZHDx6JGAZqAVU4PL.jpg",
@@ -4498,14 +4506,6 @@ var data = {
       "FullName": "Aubrey Plaza",
       "Amount": 3,
       "Poster": "9vNsQGpeWscRRZq00IN87bxtC98.jpg",
-      "Gender": 0,
-      "RatingTotal": 0,
-      "RatingCount": 0
-    },
-    {
-      "FullName": "Cate Blanchett",
-      "Amount": 3,
-      "Poster": "vq4vuAVhYngfzVNn8SbnG0JEy15.jpg",
       "Gender": 0,
       "RatingTotal": 0,
       "RatingCount": 0
@@ -6915,12 +6915,12 @@ var data = {
       "RatingCount": 0
     }
   ],
-  "TopCastTotalAll": 2713,
-  "TopCastTotalFemale": 983,
+  "TopCastTotalAll": 2716,
+  "TopCastTotalFemale": 986,
   "TopCastTotalMale": 1655,
   "TopCastTotalNonBinary": 9,
-  "TopCastUniqueAll": 1746,
-  "TopCastUniqueFemale": 664,
+  "TopCastUniqueAll": 1747,
+  "TopCastUniqueFemale": 665,
   "TopCastUniqueMale": 1013,
   "TopCastUniqueNonBinary": 5,
   "TopCastAll": [
@@ -7189,6 +7189,14 @@ var data = {
       "RatingCount": 0
     },
     {
+      "FullName": "Cate Blanchett",
+      "Amount": 6,
+      "Poster": "vq4vuAVhYngfzVNn8SbnG0JEy15.jpg",
+      "Gender": 1,
+      "RatingTotal": 0,
+      "RatingCount": 0
+    },
+    {
       "FullName": "Daniel Craig",
       "Amount": 6,
       "Poster": "ehDxfhad9BRpjNeOEuWznASlnSG.jpg",
@@ -7312,14 +7320,6 @@ var data = {
       "FullName": "Carrie-Anne Moss",
       "Amount": 5,
       "Poster": "/xD4jTA3KmVp5Rq3aHcymL9DUGjD.jpg",
-      "Gender": 1,
-      "RatingTotal": 0,
-      "RatingCount": 0
-    },
-    {
-      "FullName": "Cate Blanchett",
-      "Amount": 5,
-      "Poster": "vq4vuAVhYngfzVNn8SbnG0JEy15.jpg",
       "Gender": 1,
       "RatingTotal": 0,
       "RatingCount": 0
@@ -7879,6 +7879,14 @@ var data = {
       "RatingCount": 0
     },
     {
+      "FullName": "Cate Blanchett",
+      "Amount": 6,
+      "Poster": "vq4vuAVhYngfzVNn8SbnG0JEy15.jpg",
+      "Gender": 0,
+      "RatingTotal": 0,
+      "RatingCount": 0
+    },
+    {
       "FullName": "Jennifer Connelly",
       "Amount": 6,
       "Poster": "/bpILtSl6z5xc6YOAiPnDBlXDYMJ.jpg",
@@ -7938,14 +7946,6 @@ var data = {
       "FullName": "Carrie-Anne Moss",
       "Amount": 5,
       "Poster": "/xD4jTA3KmVp5Rq3aHcymL9DUGjD.jpg",
-      "Gender": 0,
-      "RatingTotal": 0,
-      "RatingCount": 0
-    },
-    {
-      "FullName": "Cate Blanchett",
-      "Amount": 5,
-      "Poster": "vq4vuAVhYngfzVNn8SbnG0JEy15.jpg",
       "Gender": 0,
       "RatingTotal": 0,
       "RatingCount": 0
@@ -8906,6 +8906,14 @@ var data = {
       "FullName": "Neve Campbell",
       "Amount": 2,
       "Poster": "/cOSUgtHhsvmxrpjBiLbLQ4bbHZa.jpg",
+      "Gender": 0,
+      "RatingTotal": 0,
+      "RatingCount": 0
+    },
+    {
+      "FullName": "No\u00E9mie Merlant",
+      "Amount": 2,
+      "Poster": "/8RSXb9RPD5nKbmEa3FciGXdrmBX.jpg",
       "Gender": 0,
       "RatingTotal": 0,
       "RatingCount": 0
@@ -10227,13 +10235,13 @@ var data = {
       "RatingCount": 0
     }
   ],
-  "EntireCastTotalAll": 38379,
-  "EntireCastTotalFemale": 9256,
-  "EntireCastTotalMale": 19954,
+  "EntireCastTotalAll": 38678,
+  "EntireCastTotalFemale": 9277,
+  "EntireCastTotalMale": 19974,
   "EntireCastTotalNonBinary": 24,
-  "EntireCastUniqueAll": 30098,
-  "EntireCastUniqueFemale": 7237,
-  "EntireCastUniqueMale": 13965,
+  "EntireCastUniqueAll": 30388,
+  "EntireCastUniqueFemale": 7256,
+  "EntireCastUniqueMale": 13978,
   "EntireCastUniqueNonBinary": 14,
   "EntireCastAll": [
     {
@@ -10349,6 +10357,14 @@ var data = {
       "RatingCount": 0
     },
     {
+      "FullName": "Cate Blanchett",
+      "Amount": 12,
+      "Poster": "vq4vuAVhYngfzVNn8SbnG0JEy15.jpg",
+      "Gender": 1,
+      "RatingTotal": 0,
+      "RatingCount": 0
+    },
+    {
       "FullName": "Harrison Ford",
       "Amount": 12,
       "Poster": "/zVnHagUvXkR2StdOtquEwsiwSVt.jpg",
@@ -10377,14 +10393,6 @@ var data = {
       "Amount": 11,
       "Poster": "/aLdNe6mt1cSi2zWlUYRregzfis5.jpg",
       "Gender": 2,
-      "RatingTotal": 0,
-      "RatingCount": 0
-    },
-    {
-      "FullName": "Cate Blanchett",
-      "Amount": 11,
-      "Poster": "vq4vuAVhYngfzVNn8SbnG0JEy15.jpg",
-      "Gender": 1,
       "RatingTotal": 0,
       "RatingCount": 0
     },
@@ -11464,7 +11472,7 @@ var data = {
     },
     {
       "FullName": "Cate Blanchett",
-      "Amount": 11,
+      "Amount": 12,
       "Poster": "vq4vuAVhYngfzVNn8SbnG0JEy15.jpg",
       "Gender": 0,
       "RatingTotal": 0,
@@ -14196,7 +14204,7 @@ var data = {
     "2019": 25,
     "2020": 6,
     "2021": 13,
-    "2022": 16,
+    "2022": 17,
     "2023": 21,
     "2024": 9
   },
@@ -14277,7 +14285,7 @@ var data = {
       "RatingTotal": 335
     },
     "2020": {
-      "Count": 65,
+      "Count": 66,
       "RatingCount": 56,
       "RatingTotal": 202
     }
@@ -14457,6 +14465,13 @@ var data = {
       "Id": "2axs",
       "Poster": "/knEIz1eNGl5MQDbrEAVWA7iRqF9.jpg",
       "Year": 1999
+    },
+    "T\u00C1R": {
+      "Rating": 0,
+      "Minutes": 158,
+      "Id": "uNIA",
+      "Poster": "/dRVAlaU0vbG6hMf2K45NSiIyoUe.jpg",
+      "Year": 2022
     },
     "There Will Be Blood": {
       "Rating": 0,
@@ -14975,13 +14990,6 @@ var data = {
       "Id": "1U82",
       "Poster": "/4GDy0PHYX3VRXUtwK5ysFbg3kEx.jpg",
       "Year": 2010
-    },
-    "The Matrix Reloaded": {
-      "Rating": 0,
-      "Minutes": 138,
-      "Id": "2a1c",
-      "Poster": "/9TGHDvWrqKBzwDxDodHYXEmOE6J.jpg",
-      "Year": 2003
     }
   },
   "MostWatchedFilms": {
@@ -18021,6 +18029,12 @@ var data = {
       "Id": "p7XS",
       "Poster": "/4yFG6cSPaCaPhyJ1vtGOtMD1lgh.jpg"
     },
+    "T\u00C1R ": {
+      "Rating": 0,
+      "When": "2022-09-23",
+      "Id": "uNIA",
+      "Poster": "/dRVAlaU0vbG6hMf2K45NSiIyoUe.jpg"
+    },
     "Triangle of Sadness ": {
       "Rating": 2,
       "When": "2022-09-18",
@@ -18386,12 +18400,6 @@ var data = {
       "When": "2018-05-25",
       "Id": "fUcw",
       "Poster": "/aTrgVu1QIPXMMfFbO0zxNqzk63p.jpg"
-    },
-    "A Quiet Place ": {
-      "Rating": 0,
-      "When": "2018-04-03",
-      "Id": "fVJQ",
-      "Poster": "/nAU74GmpUk7t5iklEp3bufwDq4n.jpg"
     }
   },
   "OldestReleasedFilms": {
@@ -19002,7 +19010,7 @@ var data = {
     "60": 135,
     "90": 498,
     "120": 221,
-    "150": 33,
+    "150": 34,
     "180": 8,
     "210": 1
   },
@@ -19011,7 +19019,7 @@ var data = {
     "Cantonese": 1,
     "Czech": 2,
     "Danish": 1,
-    "English": 840,
+    "English": 841,
     "French": 23,
     "German": 4,
     "Hungarian": 1,
@@ -19066,7 +19074,7 @@ var data = {
     "Ukraine": 1,
     "United Arab Emirates": 1,
     "United Kingdom": 173,
-    "United States of America": 752
+    "United States of America": 753
   },
   "FilmsPerCountryProduction": {
     "Angola": 1,
@@ -19125,13 +19133,13 @@ var data = {
     "Ukraine": 2,
     "United Arab Emirates": 2,
     "United Kingdom": 237,
-    "United States of America": 799
+    "United States of America": 800
   },
   "Backdrops": [
     {
-      "ImageUrl": "/aViJxMtIxoL3IkHCauYmFv0oCXh.jpg",
-      "FilmName": "The Silence of the Lambs\u003Cbr/\u003E(1991)",
-      "LetterboxdId": "2aHW"
+      "ImageUrl": "/vkB6HdWSlnbkD4TALfaqEsFv8yZ.jpg",
+      "FilmName": "TPB AFK: The Pirate Bay - Away from Keyboard\u003Cbr/\u003E(2013)",
+      "LetterboxdId": "E1M"
     }
   ],
   "Lists": [
@@ -20978,6 +20986,15 @@ var data = {
           "PrimaryLanguage": "English",
           "PosterUrl": "/qojEzGpvbrYrhZV9arCZhkYQT3d.jpg",
           "Rating": 4
+        },
+        {
+          "Order": 154,
+          "FilmName": "T\u00C1R",
+          "Year": 2022,
+          "LetterboxdIdentifier": "uNIA",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/dRVAlaU0vbG6hMf2K45NSiIyoUe.jpg",
+          "Rating": 0
         }
       ]
     }
