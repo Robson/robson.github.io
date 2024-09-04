@@ -1,5 +1,5 @@
 var data = {
-  "LastUpdated": "04 Sep 2024",
+  "LastUpdated": "4 Sep 2024",
   "Username": "LaLunaLlena",
   "TotalFilms": 915,
   "RatedFilms": 260,
@@ -10,6 +10,7 @@ var data = {
   "FilmsWithRuntimeFull": 882,
   "AverageFilmYearMean": 1999.8218579234972,
   "AverageFilmYearMedian": 2004,
+  "AverageFilmYearMode": "2007",
   "Genres": {
     "Action": {
       "Count": 159,
@@ -18977,9 +18978,9 @@ var data = {
   },
   "Backdrops": [
     {
-      "ImageUrl": "/s8HNluhyeUX5hDPkL2yDTeWEpjI.jpg",
-      "FilmName": "The 1882 Transit of Venus\u003Cbr/\u003E(1882)",
-      "LetterboxdId": "wA0O"
+      "ImageUrl": "/fgKoKVw0f2X2ajilfoyra3LFrwo.jpg",
+      "FilmName": "One Week\u003Cbr/\u003E(1920)",
+      "LetterboxdId": "1zr8"
     }
   ],
   "Lists": [

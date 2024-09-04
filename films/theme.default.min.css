@@ -28,44 +28,69 @@
 }
 
 .tablesorter tr:last-child td {
-	border-bottom: 0;
+	border-bottom: 8px solid white;
+}
+
+.tablesorter tr:last-child td:first-child {
+	border-bottom-left-radius: 7px;
+}
+
+.tablesorter tr:last-child td:last-child {
+	border-bottom-right-radius: 7px;
+}
+
+.tablesorter tr td:first-child {
+	padding-left: 8px;
+}
+
+.tablesorter tr td:last-child {
+	padding-right: 8px;
 }
 
 .tablesorter thead th {
 	border-right: 3px solid #fff;
+	font-size: 18px;
 }
 
 .tablesorter thead th:first-child {
-	border-top-left-radius: 8px;
-	border-bottom-left-radius: 8px;
+	border-top-left-radius: 7px;
+	padding-left: 8px;
 }
 
 .tablesorter thead th:last-child {
 	border-right: 0;
-	border-top-right-radius: 8px;
-	border-bottom-right-radius: 8px;
+	border-top-right-radius: 7px;
+	padding-right: 8px;
+}
+
+.tablesorter thead .topheader th {
+	padding-top: 8px;
 }
 
 .tablesorter thead .topheader th:first-child {
-	border-top-left-radius: 8px;
-	border-bottom-left-radius: 0;
+	border-top-left-radius: 7px;
+	padding-left: 8px;
 }
 
 .tablesorter thead .topheader th:last-child {
 	border-right: 0;
-	border-top-right-radius: 8px;
-	border-bottom-right-radius: 0;
+	border-top-right-radius: 7px;
+	padding-right: 8px;
+}
+
+.tablesorter thead .bottomheader th {
+	padding-bottom: 8px;
 }
 
 .tablesorter thead .bottomheader th:first-child {
 	border-top-left-radius: 0;
-	border-bottom-left-radius: 8px;
+	padding-left: 8px;
 }
 
 .tablesorter thead .bottomheader th:last-child {
 	border-right: 0;
 	border-top-right-radius: 0;
-	border-bottom-right-radius: 8px;
+	padding-right: 8px;
 }
 
 /* header/footer */
@@ -74,11 +99,11 @@
 .tablesorter thead td,
 .tablesorter tfoot th,
 .tablesorter tfoot td {
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 16px;
 	color: white;
-	background-color: black;
-	padding: 5px;
+	background-color: #EF3340;
+	padding: 5px 8px;
 }
 
 .tablesorter .header,
