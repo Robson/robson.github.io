@@ -1,55 +1,15 @@
-﻿/* latin */
-@font-face {
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYiFV0U1.woff2) format('woff2');
-  unicode-range: U+0000-FFFF;
-}
-/* latin */
-@font-face {
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4iFV0U1.woff2) format('woff2');
-  unicode-range: U+0000-FFFF;
-}
-
-/*
-html {
-	opacity: 1;
-	background: linear-gradient(45deg, transparent 30%, #000000 30%, #000000 70%, transparent 70%), linear-gradient(-45deg, transparent 30%, #000000 30%, #000000 70%, transparent 70%) #080808;
-	background-size: 72.5px 72.5px;
-}
-*/
-
-/*html {
-	background: radial-gradient(circle, transparent 20%, black 20%, black 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, black 20%, black 80%, transparent 80%, transparent) 50px 50px, linear-gradient(#060606 8px, transparent 8px) 0 -4px, linear-gradient(90deg, #060606 8px, transparent 8px) -4px 0;
-	background-attachment: fixed;
-	background-color: black;
-	background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
-}*/
-
-html {
-	background: repeating-linear-gradient(45deg, #000 0, #000 30%, transparent 0, transparent 50%), repeating-linear-gradient(135deg, #000 0, #000 30%, transparent 0, transparent 50%);
-	background-size: 5em 5em;
-	background-color: #060606;
-	background-attachment: fixed;
-	opacity: 1
-}
-
-body {
-	color: #333;
+﻿body {
+	color: #000;
 	font-family: Roboto, sans-serif;
-	margin: 30px 30px 50px 383px;
+	font-size: 16px;
+	margin: 30px 30px 30px 355px;
+	background: black;
 }
 
 table {
 	border-radius: 8px;
 	background: #fff;
-	border: 16px solid #fff;
+	border: 10px solid #fff;
 	margin: 0;
 }
 
@@ -65,20 +25,6 @@ table {
 	display: none;
 }
 
-#backdrop {
-	position: fixed;
-	top: 30px;
-	left: 30px;
-	height: 180px;
-	width: 320px;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
-	background: black;
-	background-position: center center;
-	background-size: cover;
-	z-index: -1000;
-}
-
 #image_loader {
 	width: 1px;
 	height: 1px;
@@ -88,68 +34,90 @@ table {
 	opacity: 0.1;
 }
 
-#buttons {
-	text-align: center;
+#menu_background {
 	position: fixed;
-	top: 210px;
-	left: 30px;
-	width: 300px;
+	top: 0;
+	left: 0;
+	width: 325px;
+	height: 100%;
+	z-index: -100000;
+	background: repeating-linear-gradient(45deg, #000 0, #000 30%, transparent 0, transparent 50%), repeating-linear-gradient(135deg, #000 0, #000 30%, transparent 0, transparent 50%);
+	background-size: 5em 5em;
+	background-color: #060606;
+	background-attachment: fixed;
 	background: white;
-	border-bottom-left-radius: 8px;
-	border-bottom-right-radius: 8px;
-	padding: 3px 10px 16px 10px;
-	color: black;
+}
+
+#backdrop {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 183px;
+	width: 325px;
+	background: black;
+	background-position: center center;
+	background-size: cover;
 	z-index: -1000;
 }
 
-#buttons .subtitle {
-	width: 100px;
-	display: inline-block;
-	font-style: normal;
-	text-align: left;
-	font-size: 100%;
-	opacity: 1;
+#buttons {
+	text-align: center;
+	position: fixed;
+	top: 185px;
+	left: 0px;
+	width: 325px;
+	padding: 3px 0 16px 0;
+	color: #888;
+	z-index: -1000;
+	font-size: 15px;
 }
 
-#buttons span {
-	display: block;
-	cursor: pointer;
-	border-radius: 5px;
-	color: RGBA(229, 0, 126);
-	cursor: zoom-in;
-}
+	#buttons .subtitle {
+		width: 100px;
+		display: inline-block;
+		font-style: normal;
+		text-align: left;
+		font-size: 100%;
+		opacity: 1;
+		color: black;
+	}
 
-#buttons span.inlinefirst {
-	display: inline !important;
-	margin: 0;
-	padding: 2px 3px;
-}
+	#buttons span {
+		display: block;
+		cursor: pointer;
+		border-radius: 5px;
+		color: #E5007E;
+		cursor: zoom-in;
+	}
 
-#buttons span.inline {
-	display: inline !important;
-	margin: 0;
-	padding: 2px 3px;
-}
+		#buttons span.inline {
+			display: inline !important;
+			padding: 1px 3px;
+		}
 
-#buttons span:hover {
-	background: RGBA(229, 0, 126, 0.15);
-}
+		#buttons span:hover {
+			background: RGBA(229, 0, 126, 0.25);
+		}
 
-#buttons span.active,
-#buttons span.active:hover {
-	color: white;
-	background: #E5007E;
-	cursor: default;
-}
+		#buttons span.active,
+		#buttons span.active:hover {
+			color: white;
+			background: #E5007E;
+			cursor: default;
+		}
 
-#buttons .title {
-	padding: 5px;
-	margin: 11px 3px 3px 3px;
-	background: black;
-	color: white;
-	border-radius: 8px;
-	font-weight: bold;
-}
+	#buttons .title {
+		padding: 0;
+		margin: 15px 0 0 0;
+		background: transparent;
+		color: black;
+		font-weight: 700;
+		font-size: 18px;
+	}
+
+	#buttons b {
+		font-weight: 500;
+	}
 
 .chart {
 	padding: 1px 0 !important;
@@ -172,9 +140,9 @@ a {
 	color: #007EE5;
 }
 
-a:hover {
-	color: #004499;
-}
+	a:hover {
+		color: #004499;
+	}
 
 .info {
 	background: white;
@@ -185,9 +153,9 @@ a:hover {
 	margin: 0 0 10px 0;
 }
 
-.info a:hover {
-	border-bottom: 2px dotted #333;
-}
+	.info a:hover {
+		border-bottom: 2px dotted #333;
+	}
 
 p {
 	margin: 0;
@@ -218,6 +186,28 @@ p {
 	opacity: 1;
 }
 
+/**** BORDERS *****/
+
+.gallery,
+#main,
+#outside,
+.info,
+.box {
+	xborder: 3px solid black;
+	xbox-shadow: rgba(255, 255, 255, 0.333) 0 5px 0;
+	xmargin-bottom: 16px !important;
+}
+
+.box {
+	xmargin-bottom: 7px !important;
+}
+
+/**** TABLES *****/
+
+#main {
+	xpadding: 15px;
+}
+
 /**** BOXES *****/
 
 .boxes {
@@ -227,16 +217,26 @@ p {
 .box {
 	background: white;
 	border-radius: 8px;
-	padding: 8px 10px;
+	padding: 5px;
 	text-align: center;
 	margin-right: 10px;
 	display: inline-block;
 }
 
-.box .number {
-	font-size: 300%;
-	color: #222;
-}
+	.box .description {
+		padding: 3px 5px;
+		margin: 5px 5px 0 5px;
+		background: black;
+		color: white;
+		border-radius: 8px;
+		font-weight: 500;
+		font-size: 18px;
+	}
+
+	.box .number {
+		font-size: 300%;
+		color: #222;
+	}
 
 /***** GALLERY *****/
 
@@ -244,57 +244,58 @@ p {
 	background: white;
 	margin-bottom: 10px;
 	border-radius: 8px;
-	padding: 11px 11px 0 11px;
+	padding: 5px 5px 0 5px;
 	display: inline-block;
-	max-width: 1351px;
+	max-width: 1310px;
 }
 
-.gallery * {
-	vertical-align: top;
-}
+	.gallery * {
+		vertical-align: top;
+	}
 
-.gallery .title {
-	padding: 5px;
-	margin: 5px 5px 8px 5px;
-	background: black;
-	color: white;
-	border-radius: 8px;
-	font-weight: bold;
-}
+	.gallery .title {
+		padding: 3px 5px;
+		margin: 5px 5px 8px 5px;
+		background: black;
+		color: white;
+		border-radius: 8px;
+		font-size: 18px;
+		font-weight: 500;
+	}
 
-.gallery .item {
-	padding: 5px 5px 0;
-	display: inline-block;
-	width: 125px;
-	margin-right: 0;
-	margin-bottom: 10px;
-	text-align: center;
-	border-radius: 8px;
-}
+	.gallery .item {
+		padding: 3px 3px 0;
+		display: inline-block;
+		width: 125px;
+		margin-right: 0;
+		margin-bottom: 10px;
+		text-align: center;
+		border-radius: 8px;
+	}
 
-.gallery .item .empty {
-	background: #bbb;
-	width: 117px;
-	height: 172px;
-	border-radius: 5px;
-	border: 3px solid black;
-}
+		.gallery .item .empty {
+			background: #bbb;
+			width: 117px;
+			height: 172px;
+			border-radius: 5px;
+			border: 3px solid black;
+		}
 
-.gallery .item img {
-	width: 115px;
-	height: 173px;
-	border-radius: 5px;
-	border: 3px solid black;
-}
+		.gallery .item img {
+			width: 115px;
+			height: 173px;
+			border-radius: 5px;
+			border: 3px solid black;
+		}
 
-.gallery .item img:hover {
-	border: 3px solid #007EE5;
-}
+			.gallery .item img:hover {
+				border: 3px solid #007EE5;
+			}
 
-.gallery .item .details {
-	margin: 5px 0 3px;
-	font-size: 12px;
-}
+		.gallery .item .details {
+			margin: 5px 0 3px;
+			font-size: 12px;
+		}
 
 /***** CHARTS *****/
 
@@ -320,12 +321,13 @@ p {
 }
 
 #outside .title {
-	padding: 5px;
-	margin: 16px;
+	padding: 3px 5px;
+	margin: 10px;
 	background: black;
 	color: white;
 	border-radius: 8px;
-	font-weight: bold;
+	font-weight: 500;
+	font-size: 18px;
 }
 
 .subtitle {
@@ -336,10 +338,11 @@ p {
 
 /***** MOBILE *****/
 
-@media (max-height: 600px) {
+@media (max-height: 500px) {
 	#backdrop {
 		display: none;
 	}
+
 	#buttons {
 		top: 30px;
 		border-radius: 8px;
@@ -352,6 +355,7 @@ p {
 		margin: 20px;
 	}
 
+	#menu_background,
 	#backdrop {
 		display: none;
 	}
@@ -364,6 +368,7 @@ p {
 		left: auto;
 		border-radius: 8px;
 		margin-bottom: 50px;
+		background: white;
+		padding-bottom: 22px;
 	}
-
 }
