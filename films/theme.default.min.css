@@ -64,7 +64,7 @@
 }
 
 .tablesorter thead .topheader th {
-	padding-top: 8px;
+	padding-top: 5px;
 }
 
 .tablesorter thead .topheader th:first-child {
@@ -79,7 +79,7 @@
 }
 
 .tablesorter thead .bottomheader th {
-	padding-bottom: 8px;
+	padding-bottom: 5px;
 }
 
 .tablesorter thead .bottomheader th:first-child {

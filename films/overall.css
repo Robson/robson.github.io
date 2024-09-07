@@ -24,6 +24,10 @@ table {
     display: none;
 }
 
+.mono {
+    font-family: monospace;
+}
+
 #image_loader {
     width: 1px;
     height: 1px;
@@ -31,6 +35,18 @@ table {
     top: 0;
     left: 0;
     opacity: 0.1;
+}
+
+/***** DOODLE *****/
+
+css-doodle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    xwidth: 100%;
+    xheight: 100%;
+    z-index: -999999999;
+    color: white;
 }
 
 /***** SIDEBAR *****/
@@ -87,7 +103,7 @@ table {
     display: block;
     cursor: pointer;
     border-radius: 5px;
-    color: #E5007E;
+    color: #EF3340;
     cursor: zoom-in;
 }
 
@@ -97,13 +113,13 @@ table {
 }
 
 #buttons span:hover {
-    background: RGBA(229, 0, 126, 0.25);
+    background: RGBA(239, 51, 64, 0.25);
 }
 
 #buttons span.active,
 #buttons span.active:hover {
     color: white;
-    background: #E5007E;
+    background: #EF3340;
     cursor: default;
 }
 
@@ -349,13 +365,13 @@ p {
 
 /***** MOBILE *****/
 
-@media (max-height: 500px) {
+@media (max-height: 535px) {
     #backdrop {
         display: none;
     }
 
     #buttons {
-        top: 30px;
+        top: 20px;
         border-radius: 8px;
     }
 }
