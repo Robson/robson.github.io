@@ -1,4 +1,9 @@
-﻿body {
+﻿:root {
+    --primary-colour: #EF3340;
+    --secondary-colour: #EF3340;
+}
+
+body {
     color: #000;
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -7,9 +12,17 @@
 }
 
 table {
-    border-radius: 8px;
+    border-radius: 12px 12px 8px 8px;
     background: #fff;
     margin: 0;
+}
+
+.tablesorter caption,
+.tablesorter th,
+.tablesorter thead td,
+.tablesorter tfoot th,
+.tablesorter tfoot td {
+    background-color: var(--primary-colour);
 }
 
 .lowbase span {
@@ -43,8 +56,6 @@ css-doodle {
     position: fixed;
     top: 0;
     left: 0;
-    xwidth: 100%;
-    xheight: 100%;
     z-index: -999999999;
     color: white;
 }
@@ -84,7 +95,7 @@ css-doodle {
     left: 0px;
     width: 325px;
     padding: 3px 0 16px 0;
-    color: #888;
+    color: #222;
     z-index: -1000;
     font-size: 15px;
 }
@@ -96,14 +107,14 @@ css-doodle {
     text-align: left;
     font-size: 100%;
     opacity: 1;
-    color: black;
+    color: #222;
 }
 
 #buttons span {
     display: block;
-    cursor: pointer;
     border-radius: 5px;
-    color: #EF3340;
+    border: 1px solid transparent;
+    color: var(--secondary-colour);
     cursor: zoom-in;
 }
 
@@ -113,13 +124,14 @@ css-doodle {
 }
 
 #buttons span:hover {
-    background: RGBA(239, 51, 64, 0.25);
+    border: 1px solid var(--secondary-colour);
 }
 
 #buttons span.active,
 #buttons span.active:hover {
     color: white;
-    background: #EF3340;
+    background: var(--secondary-colour);
+    border: 1px solid var(--secondary-colour);
     cursor: default;
 }
 
@@ -127,13 +139,20 @@ css-doodle {
     padding: 0;
     margin: 15px 0 0 0;
     background: transparent;
-    color: black;
+    color: #222;
     font-weight: 700;
     font-size: 18px;
 }
 
 #buttons b {
     font-weight: 500;
+}
+
+/***** MESSAGES *****/
+
+.message {
+    cursor: zoom-in;
+    color: var(--secondary-colour);
 }
 
 /***** BARS *****/
@@ -165,6 +184,7 @@ css-doodle {
 }
 
 /***** MISC *****/
+
 .chart {
     padding: 1px 0 !important;
 }
@@ -175,24 +195,11 @@ css-doodle {
 
 a {
     text-decoration: none;
-    color: #0096AE;
+    color: var(--secondary-colour);
 }
 
 a:hover {
-    color: #004B57;
-}
-
-.info {
-    background: white;
-    color: #333;
-    border-radius: 8px;
-    padding: 16px;
-    display: inline-block;
-    margin: 0 0 10px 0;
-}
-
-.info a:hover {
-    border-bottom: 2px dotted #333;
+    color: var(--secondary-colour);
 }
 
 p {
@@ -233,30 +240,20 @@ p {
 /**** BOXES *****/
 
 .box {
-    background: white;
-    border-radius: 8px;
-    padding: 0;
-    text-align: center;
-    margin-right: 10px;
-    margin-bottom: 10px;
     display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 6px;
 }
 
-.box .description {
-    padding: 5px 8px;
-    margin: 0 0 5px 0;
-    background: #EF3340;
-    color: white;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    font-weight: 500;
-    font-size: 18px;
+.box th {
+    text-align: center;
 }
 
-.box .number {
+.number {
     font-size: 300%;
     color: #222;
     margin: 0 8px 7px;
+    text-align: center;
 }
 
 /***** GALLERY *****/
@@ -264,7 +261,7 @@ p {
 .gallery {
     background: white;
     margin-bottom: 10px;
-    border-radius: 8px;
+    border-radius: 12px 12px 8px 8px;
     padding: 0;
     display: inline-block;
     max-width: 1320px;
@@ -277,7 +274,7 @@ p {
 .gallery .title {
     padding: 5px 8px;
     margin: 0 0 8px 0;
-    background: #EF3340;
+    background: var(--primary-colour);
     color: white;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -289,33 +286,34 @@ p {
     padding: 0 5px;
 }
 
+.gallery .poster {
+    margin: 3px 5px 0 5px;
+    border-radius: 5px;
+    background: black;
+    padding: 3px 2px;
+}
+
+.gallery .poster:hover {
+    background: var(--primary-colour);
+}
+
 .gallery .item {
-    padding: 3px 3px 0;
     display: inline-block;
-    width: 125px;
+    width: 131px;
     margin-right: 0;
     margin-bottom: 10px;
     text-align: center;
-    border-radius: 8px;
 }
 
 .gallery .item .empty {
     background: #bbb;
-    width: 117px;
-    height: 172px;
-    border-radius: 5px;
-    border: 3px solid black;
+    width: 115px;
+    height: 173px;
 }
 
 .gallery .item img {
     width: 115px;
     height: 173px;
-    border-radius: 5px;
-    border: 3px solid black;
-}
-
-.gallery .item img:hover {
-    border: 3px solid #007EE5;
 }
 
 .gallery .item .details {
@@ -327,7 +325,7 @@ p {
 
 #outside {
     background: white;
-    border-radius: 8px;
+    border-radius: 12px 12px 8px 8px;
     display: inline-block;
     margin-bottom: 10px;
 }
@@ -349,7 +347,7 @@ p {
 #outside .title {
     padding: 5px 8px;
     margin: 0 0 10px 0;
-    background: #EF3340;
+    background: var(--primary-colour);
     color: white;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
