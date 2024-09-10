@@ -479,7 +479,7 @@ var films = [
     "Minutes": 102,
     "Watched": 905420,
     "Id": "29Xu",
-    "Poster": "/pfAZFD7I2hxW9HCChTuAzsdE6UX.jpg",
+    "Poster": "kqXwDmucP5jfNPBxuD1yB66fO2m.jpg",
     "Year": 1939,
     "When": "1939-08-15"
   },
@@ -1376,7 +1376,7 @@ var films = [
   },
   {
     "Title": "Django Unchained",
-    "RatingSelf": 5,
+    "RatingSelf": null,
     "RatingLetterboxd": 4.28,
     "Minutes": 165,
     "Watched": 2719726,
@@ -6694,7 +6694,7 @@ var films = [
     "Minutes": 79,
     "Watched": 121031,
     "Id": "29co",
-    "Poster": "/nIp4gIXogCjfB1QABNsWwa9gSca.jpg",
+    "Poster": "bVABKsniQzkqXa2MjcjUGSFsTL9.jpg",
     "Year": 1926,
     "When": "1926-12-25"
   },
@@ -7145,7 +7145,7 @@ var films = [
     "Minutes": 95,
     "Watched": 308807,
     "Id": "29TM",
-    "Poster": "/kEkXNEzDZxBEvWV4Ou16tNuCH1C.jpg",
+    "Poster": "zv7J85D8CC9qYagAEhPM63CIG6j.jpg",
     "Year": 1922,
     "When": "1922-02-16"
   },
@@ -9367,7 +9367,7 @@ var films = [
     "Minutes": 83,
     "Watched": 845973,
     "Id": "2arO",
-    "Poster": "/3VAHfuNb6Z7UiW12iYKANSPBl8m.jpg",
+    "Poster": "bOtgcOIFBCUFdY2a737Na6gWQ0X.jpg",
     "Year": 1937,
     "When": "1937-12-21"
   },
@@ -10118,5 +10118,49 @@ var films = [
     "Poster": "/gJ7Er54m6FqoHBpsx4ZS9uLZprW.jpg",
     "Year": 2023,
     "When": "2023-03-23"
+  },
+  {
+    "Title": "Funny Face",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.64,
+    "Minutes": 103,
+    "Watched": 99514,
+    "Id": "1Qpy",
+    "Poster": "/tzTjalpIz6NyFrWPPlOBFoBjb7z.jpg",
+    "Year": 1957,
+    "When": "1957-02-13"
+  },
+  {
+    "Title": "Suspense.",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.78,
+    "Minutes": 11,
+    "Watched": 17239,
+    "Id": "3zPo",
+    "Poster": "/gSlKdlndjzIYwWblYSSZligMXuu.jpg",
+    "Year": 1913,
+    "When": "1913-07-06"
+  },
+  {
+    "Title": "Causeway",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.43,
+    "Minutes": 96,
+    "Watched": 78854,
+    "Id": "lWQq",
+    "Poster": "/bUzKIqFIS05Ss31zRTfZfHJIgDP.jpg",
+    "Year": 2022,
+    "When": "2022-10-28"
+  },
+  {
+    "Title": "Safety Not Guaranteed",
+    "RatingSelf": 2,
+    "RatingLetterboxd": 3.29,
+    "Minutes": 86,
+    "Watched": 123635,
+    "Id": "2Y3M",
+    "Poster": "/uNR9lccRN60mOpCi1trIxsQi68G.jpg",
+    "Year": 2012,
+    "When": "2012-06-08"
   }
 ]

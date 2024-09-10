@@ -263,8 +263,8 @@ p {
     margin-bottom: 10px;
     border-radius: 12px 12px 8px 8px;
     padding: 0;
-    display: inline-block;
-    max-width: 1320px;
+    display: block;
+    max-width: 1320px; /* 5=665, 8=1059, 10=1320 */
 }
 
 .gallery * {

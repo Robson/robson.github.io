@@ -160,7 +160,7 @@
 		};
 
 		var table, thead, tbody;
-		var galleryAmount = 20;
+		var galleryAmount = 30;
 		var sufficientBase = 10;
 		var backdropIndex = ~~(data.Backdrops.length * Math.random());
 
@@ -522,7 +522,7 @@
 
 			//$('body').append('<div class="info"><a target="_blank" href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '\'s Letterboxd</a>.</div>');
 
-			showListRecent('Watched in 2024', "Recently Watched <span class='subtitle'>starting with the most recent</span>", 20);
+			showListRecent('Watched in 2024', "Recently Watched <span class='subtitle'>starting with the most recent</span>", galleryAmount);
 
 			createTooltipTriggers();
 
@@ -1950,7 +1950,7 @@
 
 			var shuffled = dataSource.filter(a => a.Amount > minimum);
 
-			gallery.append('<div class="title">Top ' + Math.min(Object.values(shuffled).length, galleryAmount) + ' Most Frequent - ' + jobSpecific + (gender == 'All' ? '' : ' - ' + gender) + '</div>');
+			gallery.append('<div class="title">Most Frequent - ' + jobSpecific + (gender == 'All' ? '' : ' - ' + gender) + '</div>');
 			gallery.append('<div class="inside"></div>');
 			var insideGallery = $('.gallery .inside');
 
