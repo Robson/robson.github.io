@@ -6,6 +6,7 @@
 	<title>Letterboxd Statistics Dashboard</title>
 	<link href="theme.default.min.css" rel="stylesheet">
 	<link href="overall.css" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.40.0/css-doodle.min.js"></script>
 	<script src="films.js"></script>
 	<script src="data.js"></script>
@@ -229,16 +230,32 @@
 					tt.style('opacity', '0.01');
 					var x = d3.event.pageX;
 					x = Math.max(x, 10);
-					//x = Math.min(x, document.body.clientWidth);
+                    if (x <= 0 || y <= 0) {
+                        tt.style('display', 'none');
+                    } else {
+                        tt.style('display', null);
+                    }
 					var y = d3.event.pageY + 10;
-					tt.style('left', Math.floor(x - 50) + 'px');
+					var y = d3.event.pageY - (+tt.style('height').replace('px', '') + 20);
+
+                    //(y + 10 + +tt.style('height').replace('px', '')) - window.scrollY > $(window.top).height()
+
+                    if (y - window.scrollY < 0) {
+						y = d3.event.pageY + 10;
+					}
+
+                    tt.style('left', Math.floor(x - (+tt.style('width').replace('px', '') / 2)) + 'px');
 					tt.style('top', Math.floor(y + 5) + 'px');
 					tt.style('opacity', '1');
-					if (x <= 0 || y <= 0) {
-						tt.style('display', 'none');
-					} else {
-						tt.style('display', null);
-					}
+
+					/*
+					console.log('----');
+                    console.log(document.body.clientHeight);
+                    console.log(y)
+                    console.log(tt.style('height'));
+					console.log($(window.top).height());
+                    console.log();
+					*/
 				});
 		}
 
@@ -1075,9 +1092,13 @@
 			thead.append('<tr class="bottomheader"><th>Date</th><th>Title</th></tr>');
 
             for (var index of data.NewestReleasedFilms) {
-                var film = films[index];
+				var film = films[index];
+                var tooltip = '';
+                if (film.Poster.length > 0) {
+                    tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>"';
+                }
 				tbody.append(
-					'<tr>' +
+					'<tr' + tooltip + '>' +
 					'<td class="right">' + film.When + '</td>' +
 					'<td><a target="_blank" href="https://boxd.it/' + film.Id + '">' + film.Title + '</a></td>' +
 					'</tr>');
@@ -1132,10 +1153,14 @@
 			thead.append('<tr class="topheader"><th colspan="2">Top ' + Object.values(data.OldestReleasedFilms).length + ' Earliest Released Films</th></tr>');
 			thead.append('<tr class="bottomheader"><th>Date</th><th>Title</th></tr>');
 
-            for (var index of data.OldestReleasedFilms) {
-                var film = films[index];
+			for (var index of data.OldestReleasedFilms) {
+				var film = films[index];
+                var tooltip = '';
+                if (film.Poster.length > 0) {
+                    tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>"';
+                }
 				tbody.append(
-					'<tr>' +
+					'<tr' + tooltip + '>' +
 					'<td class="right">' + film.When + '</td>' +
 					'<td><a target="_blank" href="https://boxd.it/' + film.Id + '">' + film.Title + '</a></td>' +
 					'</tr>');
@@ -1182,8 +1207,12 @@
             var displayed = 0;
 			for (var index of data.LongestTitleFilms) {
 				var film = films[index];
+                var tooltip = '';
+                if (film.Poster && film.Poster.length > 0) {
+                    tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>"';
+                }
                 tbody.append(
-                    '<tr>' +
+                    '<tr' + tooltip + '>' +
                     '<td class="right">' + film.Year + '</td>' +
                     '<td class="mono"><a target="_blank" href="https://boxd.it/' + film.Id + '">' + film.Title + '</a></td>' +
 					'</tr>');
@@ -1211,9 +1240,13 @@
 
 			displayed = 0;
             for (var index of data.ShortestTitleFilms) {
-                var film = films[index];
+				var film = films[index];
+                var tooltip = '';
+                if (film.Poster && film.Poster.length > 0) {
+                    tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>"';
+                }
                 tbody.append(
-                    '<tr>' +
+                    '<tr' + tooltip + '>' +
                     '<td class="right">' + film.Year + '</td>' +
                     '<td class="mono"><a target="_blank" href="https://boxd.it/' + film.Id + '">' + film.Title + '</a></td>' +
 					'</tr>');
@@ -1274,7 +1307,7 @@
 				hours = Math.floor(film.Minutes / 60);
 				minutes = film.Minutes - (hours * 60);
 				insideGallery.append(
-					'<div class="item ttt" data-tooltip="' + film + '">' +
+					'<div class="item ttt" data-tooltip="' + film.Title + '">' +
 					'<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
                     '<div class="details">' + hours + 'h ' + String(minutes).padStart(2, '0') + 'm<br/>' + film.Year + '<br>' + (film.RatingSelf > 0 ? '&#9670;'.repeat(film.RatingSelf) : '&nbsp;') + '</div>' +
 					'</a></div>');
@@ -1377,6 +1410,8 @@
 					3: { sortInitialOrder: 'desc', sorter: 'data-value' },
 				}
 			});
+
+			createTooltipTriggers();
 
 			deactivateAll();
 			if (event) {
@@ -1921,19 +1956,23 @@
 		}
 
 		function makeDot(gender) {
-			var colour = 'gray';
+			var colour = 'black';
+			var symbol = '&#9671;';
 			switch (gender) {
 				case 1:
 					colour = 'RGB(235, 0, 100)';
+                    symbol = '&#9670;';
 					break;
 				case 2:
 					colour = 'RGB(0, 182, 255)';
+                    symbol = '&#9670;';
 					break;
 				case 3:
 					colour = 'RGB(0, 182, 0)';
+                    symbol = '&#9670;';
 					break;
 			}
-			return '<span style="color:' + colour + '">&#9670;</span>';
+			return '<span style="color:' + colour + '">' + symbol + '</span>';
 		}
 
 		function showPeople(dataSource, job, jobSpecific, gender = '') {
@@ -2087,9 +2126,19 @@
 				if (gender == 'All') {
 					dot = makeDot(dataSource[a].Gender) + ' ';
 				}
+
+				var tooltip = '';
+				if (dataSource[a].Poster.length > 0) {
+					tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + dataSource[a].Poster + '\'>"';
+					if (extraClass.length > 0) {
+						tooltip = tooltip.replace('ttt', 'ttt breaker');
+						extraClass = '';
+					}
+				}
+
 				tbody.append(
-					'<tr' + extraClass + '>' +
-					'<td><a target="_blank" href="' + url + '">' + dot + dataSource[a].FullName + '</a></td>' +
+                    '<tr' + extraClass + tooltip + '>' +
+                    '<td><a target="_blank" href="' + url + '">' + dot + dataSource[a].FullName + '</a></td>' +
 					'<td class="right">' + dataSource[a].Amount + '</td>' +
 					'</tr>');
 			}

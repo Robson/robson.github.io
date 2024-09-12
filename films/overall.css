@@ -213,7 +213,7 @@ p {
     background: rgba(0, 0, 0, 1);
     text-align: center;
     color: #fff;
-    width: 100px;
+    max-width: 200px;
     top: 0;
     left: 0;
     position: absolute;
@@ -222,6 +222,9 @@ p {
     font-size: 13px;
     opacity: 1;
     z-index: 99999;
+    padding: 0;
+    margin: 0;
+    pointer-events: none;
 }
 
 #tooltip_text {
@@ -229,6 +232,12 @@ p {
     padding: 0;
     line-height: 1.1em;
     opacity: 1;
+    pointer-events: none;
+}
+
+#tooltip_text img {
+    margin-bottom: -2px;
+    pointer-events: none;
 }
 
 /**** BORDERS *****/

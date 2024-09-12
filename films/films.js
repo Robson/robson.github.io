@@ -10162,5 +10162,38 @@ var films = [
     "Poster": "/uNR9lccRN60mOpCi1trIxsQi68G.jpg",
     "Year": 2012,
     "When": "2012-06-08"
+  },
+  {
+    "Title": "Slums of Beverly Hills",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.50,
+    "Minutes": 91,
+    "Watched": 44789,
+    "Id": "1NCO",
+    "Poster": "/bTY6I0Mju4vTRHGoTZrNtxtAlAO.jpg",
+    "Year": 1998,
+    "When": "1998-08-14"
+  },
+  {
+    "Title": "Breakfast at Tiffany's",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.76,
+    "Minutes": 115,
+    "Watched": 572308,
+    "Id": "2aYS",
+    "Poster": "/79xm4gXw4l7A5D0XukUOJRocFYQ.jpg",
+    "Year": 1961,
+    "When": "1961-10-06"
+  },
+  {
+    "Title": "Nomadland",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.83,
+    "Minutes": 108,
+    "Watched": 580492,
+    "Id": "lnRy",
+    "Poster": "/8Vc5EOUEIF1EUXuX9eLFf7BvN3P.jpg",
+    "Year": 2020,
+    "When": "2021-01-29"
   }
 ]
