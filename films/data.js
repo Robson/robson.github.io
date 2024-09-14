@@ -1,14 +1,14 @@
 var data = {
-  "LastUpdated": "12 Sep 2024",
+  "LastUpdated": "14 Sep 2024",
   "Username": "LaLunaLlena",
-  "TotalFilms": 927,
-  "RatedFilms": 269,
-  "FilmsWithGenres": 925,
-  "TotalMinutes": 99755,
-  "FilmsWithRuntime": 925,
-  "TotalMinutesFull": 98857,
-  "FilmsWithRuntimeFull": 893,
-  "AverageFilmYearMean": 1999.7141316073355,
+  "TotalFilms": 930,
+  "RatedFilms": 273,
+  "FilmsWithGenres": 928,
+  "TotalMinutes": 100047,
+  "FilmsWithRuntime": 928,
+  "TotalMinutesFull": 99149,
+  "FilmsWithRuntimeFull": 896,
+  "AverageFilmYearMean": 1999.7096774193549,
   "AverageFilmYearMedian": 2004,
   "AverageFilmYearMode": "2007",
   "Genres": {
@@ -43,9 +43,9 @@ var data = {
       "RatingTotal": 38
     },
     "Drama": {
-      "Count": 475,
-      "RatingCount": 176,
-      "RatingTotal": 665
+      "Count": 478,
+      "RatingCount": 180,
+      "RatingTotal": 680
     },
     "Family": {
       "Count": 79,
@@ -73,9 +73,9 @@ var data = {
       "RatingTotal": 26
     },
     "Mystery": {
-      "Count": 85,
-      "RatingCount": 23,
-      "RatingTotal": 83
+      "Count": 86,
+      "RatingCount": 24,
+      "RatingTotal": 87
     },
     "Romance": {
       "Count": 132,
@@ -88,9 +88,9 @@ var data = {
       "RatingTotal": 98
     },
     "Thriller": {
-      "Count": 260,
-      "RatingCount": 53,
-      "RatingTotal": 171
+      "Count": 261,
+      "RatingCount": 54,
+      "RatingTotal": 175
     },
     "TV Movie": {
       "Count": 8,
@@ -108,13 +108,13 @@ var data = {
       "RatingTotal": 4
     }
   },
-  "DirectorTotalAll": 1015,
-  "DirectorTotalFemale": 107,
-  "DirectorTotalMale": 879,
+  "DirectorTotalAll": 1018,
+  "DirectorTotalFemale": 108,
+  "DirectorTotalMale": 881,
   "DirectorTotalNonBinary": 1,
-  "DirectorUniqueAll": 678,
-  "DirectorUniqueFemale": 89,
-  "DirectorUniqueMale": 562,
+  "DirectorUniqueAll": 681,
+  "DirectorUniqueFemale": 90,
+  "DirectorUniqueMale": 564,
   "DirectorUniqueNonBinary": 1,
   "DirectorAll": [
     {
@@ -1155,6 +1155,12 @@ var data = {
       "FullName": "Wendy McColm",
       "Amount": 2,
       "Poster": "/9rZGudRxg39XjAbhkDRFQZSikmy.jpg",
+      "Gender": 0
+    },
+    {
+      "FullName": "Agn\u00E8s Varda",
+      "Amount": 1,
+      "Poster": "/it7cIdm6jiuiKOOc3nnRvCGLtgY.jpg",
       "Gender": 0
     },
     {
@@ -2512,12 +2518,12 @@ var data = {
       "Gender": 0
     }
   ],
-  "ProtagonistTotalAll": 919,
-  "ProtagonistTotalFemale": 282,
+  "ProtagonistTotalAll": 922,
+  "ProtagonistTotalFemale": 285,
   "ProtagonistTotalMale": 620,
   "ProtagonistTotalNonBinary": 5,
-  "ProtagonistUniqueAll": 587,
-  "ProtagonistUniqueFemale": 203,
+  "ProtagonistUniqueAll": 589,
+  "ProtagonistUniqueFemale": 205,
   "ProtagonistUniqueMale": 370,
   "ProtagonistUniqueNonBinary": 3,
   "ProtagonistAll": [
@@ -2764,7 +2770,7 @@ var data = {
     {
       "FullName": "Audrey Hepburn",
       "Amount": 3,
-      "Poster": "/nbkNJ8dr6j5vSZ3M6SKwp0F7Q1P.jpg",
+      "Poster": "9T3dUBerC587ENb4zbVPQ2wjtud.jpg",
       "Gender": 1
     },
     {
@@ -2814,6 +2820,12 @@ var data = {
       "Amount": 3,
       "Poster": "/eCeFgzS8dYHnMfWQT0oQitCrsSz.jpg",
       "Gender": 3
+    },
+    {
+      "FullName": "Florence Pugh",
+      "Amount": 3,
+      "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
+      "Gender": 1
     },
     {
       "FullName": "Frances McDormand",
@@ -3090,12 +3102,6 @@ var data = {
       "Amount": 2,
       "Poster": "/gnZoQVp29ozHoMU8HysueZtmXs8.jpg",
       "Gender": 2
-    },
-    {
-      "FullName": "Florence Pugh",
-      "Amount": 2,
-      "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
-      "Gender": 1
     },
     {
       "FullName": "Franka Potente",
@@ -3456,13 +3462,19 @@ var data = {
     {
       "FullName": "Audrey Hepburn",
       "Amount": 3,
-      "Poster": "/nbkNJ8dr6j5vSZ3M6SKwp0F7Q1P.jpg",
+      "Poster": "9T3dUBerC587ENb4zbVPQ2wjtud.jpg",
       "Gender": 0
     },
     {
       "FullName": "Ellen Burstyn",
       "Amount": 3,
       "Poster": "/wjxo9Yw8ZoKewcRlHShfTIZGVQF.jpg",
+      "Gender": 0
+    },
+    {
+      "FullName": "Florence Pugh",
+      "Amount": 3,
+      "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
       "Gender": 0
     },
     {
@@ -3529,12 +3541,6 @@ var data = {
       "FullName": "Emily Blunt",
       "Amount": 2,
       "Poster": "/nPJXaRMvu1vh3COG16GzmdsBySQ.jpg",
-      "Gender": 0
-    },
-    {
-      "FullName": "Florence Pugh",
-      "Amount": 2,
-      "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
       "Gender": 0
     },
     {
@@ -3856,6 +3862,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Corinne Marchand",
+      "Amount": 1,
+      "Poster": "/dv4Bp0Q2v7vULEmwTt6bMKMJuE0.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Dakota Fanning",
       "Amount": 1,
       "Poster": "/2rzf9VHMRQc4MTIKt9EDvwurcHE.jpg",
@@ -3883,6 +3895,12 @@ var data = {
       "FullName": "Dinah Sheridan",
       "Amount": 1,
       "Poster": "/9DBEFocvJYMIsOxgDnPPHp0QYZO.jpg",
+      "Gender": 0
+    },
+    {
+      "FullName": "Eili Harboe",
+      "Amount": 1,
+      "Poster": "/c9dWPvhL6WqpkM78RfdJ8V7tgvS.jpg",
       "Gender": 0
     },
     {
@@ -5246,13 +5264,13 @@ var data = {
       "Gender": 0
     }
   ],
-  "TopCastTotalAll": 2736,
-  "TopCastTotalFemale": 1003,
-  "TopCastTotalMale": 1658,
+  "TopCastTotalAll": 2745,
+  "TopCastTotalFemale": 1008,
+  "TopCastTotalMale": 1662,
   "TopCastTotalNonBinary": 10,
-  "TopCastUniqueAll": 1758,
-  "TopCastUniqueFemale": 672,
-  "TopCastUniqueMale": 1017,
+  "TopCastUniqueAll": 1766,
+  "TopCastUniqueFemale": 676,
+  "TopCastUniqueMale": 1021,
   "TopCastUniqueNonBinary": 6,
   "TopCastAll": [
     {
@@ -5684,7 +5702,7 @@ var data = {
     {
       "FullName": "Audrey Hepburn",
       "Amount": 4,
-      "Poster": "/nbkNJ8dr6j5vSZ3M6SKwp0F7Q1P.jpg",
+      "Poster": "9T3dUBerC587ENb4zbVPQ2wjtud.jpg",
       "Gender": 1
     },
     {
@@ -5752,6 +5770,12 @@ var data = {
       "Amount": 4,
       "Poster": "/q2UDxfwWnmXTB7khOUF3J9puBVP.jpg",
       "Gender": 2
+    },
+    {
+      "FullName": "Florence Pugh",
+      "Amount": 4,
+      "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
+      "Gender": 1
     },
     {
       "FullName": "Frances McDormand",
@@ -6100,7 +6124,7 @@ var data = {
     {
       "FullName": "Audrey Hepburn",
       "Amount": 4,
-      "Poster": "/nbkNJ8dr6j5vSZ3M6SKwp0F7Q1P.jpg",
+      "Poster": "9T3dUBerC587ENb4zbVPQ2wjtud.jpg",
       "Gender": 0
     },
     {
@@ -6119,6 +6143,12 @@ var data = {
       "FullName": "Ellen Burstyn",
       "Amount": 4,
       "Poster": "/wjxo9Yw8ZoKewcRlHShfTIZGVQF.jpg",
+      "Gender": 0
+    },
+    {
+      "FullName": "Florence Pugh",
+      "Amount": 4,
+      "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
       "Gender": 0
     },
     {
@@ -6233,12 +6263,6 @@ var data = {
       "FullName": "Evan Rachel Wood",
       "Amount": 3,
       "Poster": "/t81MqnwzqoTs4mktzsP7OQqMJqT.jpg",
-      "Gender": 0
-    },
-    {
-      "FullName": "Florence Pugh",
-      "Amount": 3,
-      "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
       "Gender": 0
     },
     {
@@ -7770,13 +7794,13 @@ var data = {
       "Gender": 0
     }
   ],
-  "EntireCastTotalAll": 39083,
-  "EntireCastTotalFemale": 9383,
-  "EntireCastTotalMale": 20126,
+  "EntireCastTotalAll": 39156,
+  "EntireCastTotalFemale": 9406,
+  "EntireCastTotalMale": 20157,
   "EntireCastTotalNonBinary": 26,
-  "EntireCastUniqueAll": 30705,
-  "EntireCastUniqueFemale": 7332,
-  "EntireCastUniqueMale": 14076,
+  "EntireCastUniqueAll": 30774,
+  "EntireCastUniqueFemale": 7354,
+  "EntireCastUniqueMale": 14104,
   "EntireCastUniqueNonBinary": 16,
   "EntireCastAll": [
     {
@@ -9078,6 +9102,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Florence Pugh",
+      "Amount": 5,
+      "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Gwyneth Paltrow",
       "Amount": 5,
       "Poster": "/3bE5i9bNVxoqQYbx9Dr7gY2n1tG.jpg",
@@ -10207,7 +10237,7 @@ var data = {
     "1959": 1,
     "1960": 1,
     "1961": 3,
-    "1962": 2,
+    "1962": 3,
     "1963": 4,
     "1964": 2,
     "1965": 2,
@@ -10261,8 +10291,8 @@ var data = {
     "2013": 21,
     "2014": 16,
     "2015": 26,
-    "2016": 19,
-    "2017": 23,
+    "2016": 20,
+    "2017": 24,
     "2018": 18,
     "2019": 25,
     "2020": 7,
@@ -10318,9 +10348,9 @@ var data = {
       "RatingTotal": 27
     },
     "1960": {
-      "Count": 26,
-      "RatingCount": 11,
-      "RatingTotal": 48
+      "Count": 27,
+      "RatingCount": 12,
+      "RatingTotal": 52
     },
     "1970": {
       "Count": 32,
@@ -10343,14 +10373,14 @@ var data = {
       "RatingTotal": 122
     },
     "2010": {
-      "Count": 210,
-      "RatingCount": 98,
-      "RatingTotal": 343
+      "Count": 212,
+      "RatingCount": 100,
+      "RatingTotal": 350
     },
     "2020": {
       "Count": 67,
-      "RatingCount": 59,
-      "RatingTotal": 214
+      "RatingCount": 60,
+      "RatingTotal": 218
     }
   },
   "LongestFilms": [
@@ -10736,6 +10766,7 @@ var data = {
     260,
     179,
     97,
+    927,
     608,
     189,
     156,
@@ -10758,8 +10789,7 @@ var data = {
     849,
     351,
     135,
-    124,
-    109
+    124
   ],
   "LowestRatedFilms": [
     149,
@@ -10878,92 +10908,7 @@ var data = {
     693,
     742,
     913,
-    497,
-    231,
-    441,
-    601,
-    532,
-    345,
-    176,
-    298,
-    673,
-    625,
-    748,
-    316,
-    783,
-    65,
-    786,
-    617,
-    840,
-    136,
-    95,
-    15,
-    251,
-    337,
-    573,
-    723,
-    899,
-    543,
-    23,
-    584,
-    725,
-    761,
-    382,
-    389,
-    127,
-    501,
-    343,
-    541,
-    857,
-    468,
-    335,
-    445,
-    524,
-    54,
-    826,
-    577,
-    616,
-    482,
-    296,
-    71,
-    179,
-    370,
-    139,
-    669,
-    346,
-    751,
-    758,
-    106,
-    599,
-    203,
-    101,
-    286,
-    243,
-    347,
-    579,
-    477,
-    367,
-    530,
-    446,
-    537,
-    704,
-    642,
-    3,
-    228,
-    88,
-    318,
-    56,
-    159,
-    762,
-    112,
-    421,
-    301,
-    183,
-    652,
-    148,
-    412,
-    490,
-    507
+    497
   ],
   "LongestTitleFilms": [
     665,
@@ -11220,6 +11165,7 @@ var data = {
     377,
     925,
     887,
+    927,
     114,
     658,
     909,
@@ -11268,14 +11214,13 @@ var data = {
     281,
     624,
     652,
-    709,
-    127
+    709
   ],
   "FilmsPerThirtyMinutes": {
     "0": 20,
     "30": 9,
-    "60": 127,
-    "90": 504,
+    "60": 128,
+    "90": 506,
     "120": 222,
     "150": 34,
     "180": 8,
@@ -11286,8 +11231,8 @@ var data = {
     "Cantonese": 1,
     "Czech": 2,
     "Danish": 1,
-    "English": 835,
-    "French": 23,
+    "English": 836,
+    "French": 24,
     "German": 4,
     "Hungarian": 1,
     "Icelandic": 1,
@@ -11297,6 +11242,7 @@ var data = {
     "Korean": 5,
     "Mandarin": 2,
     "No Spoken Language": 23,
+    "Norwegian": 1,
     "Portuguese": 2,
     "Russian": 2,
     "Spanish": 4,
@@ -11313,8 +11259,8 @@ var data = {
     "China": 1,
     "Czechia": 2,
     "Czechoslovakia": 2,
-    "Denmark": 6,
-    "France": 35,
+    "Denmark": 7,
+    "France": 36,
     "Germany": 14,
     "Hong Kong": 2,
     "Hungary": 2,
@@ -11327,6 +11273,7 @@ var data = {
     "Netherlands": 3,
     "New Zealand": 5,
     "North Korea": 1,
+    "Norway": 1,
     "Philippines": 1,
     "Russia": 1,
     "Saudi Arabia": 2,
@@ -11340,7 +11287,7 @@ var data = {
     "Taiwan": 1,
     "Ukraine": 1,
     "United Arab Emirates": 1,
-    "United Kingdom": 160,
+    "United Kingdom": 161,
     "United States of America": 750
   },
   "FilmsPerCountryProduction": {
@@ -11354,11 +11301,11 @@ var data = {
     "China": 6,
     "Czechia": 5,
     "Czechoslovakia": 2,
-    "Denmark": 7,
+    "Denmark": 8,
     "Egypt": 1,
     "Ethiopia": 1,
     "Finland": 3,
-    "France": 83,
+    "France": 85,
     "Germany": 64,
     "Ghana": 1,
     "Greece": 4,
@@ -11369,7 +11316,7 @@ var data = {
     "Indonesia": 1,
     "Ireland": 14,
     "Israel": 1,
-    "Italy": 15,
+    "Italy": 16,
     "Japan": 14,
     "Jordan": 2,
     "Luxembourg": 1,
@@ -11380,7 +11327,7 @@ var data = {
     "Netherlands": 9,
     "New Zealand": 9,
     "North Korea": 1,
-    "Norway": 1,
+    "Norway": 2,
     "Peru": 1,
     "Philippines": 1,
     "Poland": 1,
@@ -11392,14 +11339,14 @@ var data = {
     "South Korea": 6,
     "Soviet Union": 1,
     "Spain": 15,
-    "Sweden": 9,
+    "Sweden": 10,
     "Switzerland": 6,
     "Taiwan": 2,
     "Thailand": 1,
     "Turkey": 2,
     "Ukraine": 2,
     "United Arab Emirates": 2,
-    "United Kingdom": 224,
+    "United Kingdom": 225,
     "United States of America": 797
   },
   "MostFrequentWords": {
@@ -11565,6 +11512,14 @@ var data = {
       686,
       778
     ],
+    "lady": [
+      21,
+      80,
+      413,
+      522,
+      888,
+      929
+    ],
     "last": [
       327,
       372,
@@ -11607,13 +11562,6 @@ var data = {
       586,
       587,
       588
-    ],
-    "lady": [
-      21,
-      80,
-      413,
-      522,
-      888
     ],
     "love": [
       70,
@@ -12034,10 +11982,10 @@ var data = {
   },
   "Backdrops": [
     {
-      "ImageUrl": "/foFq1RZWQIgFuCQ0nyYccywjFyX.jpg",
-      "FilmName": "Portrait of a Lady on Fire\u003Cbr/\u003E(2019)",
-      "LetterboxdId": "jkPq",
-      "Colour": "#18774A"
+      "ImageUrl": "g67r1eiQD3ERSEQFCFkSn7TeGw5.jpg",
+      "FilmName": "A Trip to the Moon\u003Cbr/\u003E(1902)",
+      "LetterboxdId": "29EC",
+      "Colour": ""
     }
   ],
   "Lists": [
@@ -12047,6 +11995,7 @@ var data = {
         {
           "Order": 1,
           "FilmName": "Knives Out",
+          "FilmNameOriginal": "Knives Out",
           "Year": 2019,
           "LetterboxdIdentifier": "jWEA",
           "PrimaryLanguage": "English",
@@ -12056,6 +12005,7 @@ var data = {
         {
           "Order": 2,
           "FilmName": "Triangle of Sadness",
+          "FilmNameOriginal": "Triangle of Sadness",
           "Year": 2022,
           "LetterboxdIdentifier": "hXlq",
           "PrimaryLanguage": "English",
@@ -12065,6 +12015,7 @@ var data = {
         {
           "Order": 3,
           "FilmName": "Mean Creek",
+          "FilmNameOriginal": "Mean Creek",
           "Year": 2004,
           "LetterboxdIdentifier": "1S7c",
           "PrimaryLanguage": "English",
@@ -12074,6 +12025,7 @@ var data = {
         {
           "Order": 4,
           "FilmName": "Glass Onion",
+          "FilmNameOriginal": "Glass Onion: A Knives Out Mystery",
           "Year": 2022,
           "LetterboxdIdentifier": "oCkK",
           "PrimaryLanguage": "English",
@@ -12083,6 +12035,7 @@ var data = {
         {
           "Order": 5,
           "FilmName": "The Shawshank Redemption",
+          "FilmNameOriginal": "The Shawshank Redemption",
           "Year": 1994,
           "LetterboxdIdentifier": "2aHi",
           "PrimaryLanguage": "English",
@@ -12092,6 +12045,7 @@ var data = {
         {
           "Order": 6,
           "FilmName": "Sleepy Hollow",
+          "FilmNameOriginal": "Sleepy Hollow",
           "Year": 1999,
           "LetterboxdIdentifier": "26u0",
           "PrimaryLanguage": "English",
@@ -12101,6 +12055,7 @@ var data = {
         {
           "Order": 7,
           "FilmName": "Dead Poets Society",
+          "FilmNameOriginal": "Dead Poets Society",
           "Year": 1989,
           "LetterboxdIdentifier": "2aSg",
           "PrimaryLanguage": "English",
@@ -12110,6 +12065,7 @@ var data = {
         {
           "Order": 8,
           "FilmName": "Gosford Park",
+          "FilmNameOriginal": "Gosford Park",
           "Year": 2001,
           "LetterboxdIdentifier": "239e",
           "PrimaryLanguage": "English",
@@ -12119,6 +12075,7 @@ var data = {
         {
           "Order": 9,
           "FilmName": "Sherlock Jr.",
+          "FilmNameOriginal": "Sherlock Jr.",
           "Year": 1924,
           "LetterboxdIdentifier": "298m",
           "PrimaryLanguage": "",
@@ -12128,6 +12085,7 @@ var data = {
         {
           "Order": 10,
           "FilmName": "The Whale",
+          "FilmNameOriginal": "The Whale",
           "Year": 2022,
           "LetterboxdIdentifier": "tw4c",
           "PrimaryLanguage": "English",
@@ -12137,6 +12095,7 @@ var data = {
         {
           "Order": 11,
           "FilmName": "John Wick",
+          "FilmNameOriginal": "John Wick",
           "Year": 2014,
           "LetterboxdIdentifier": "7dEc",
           "PrimaryLanguage": "English",
@@ -12146,6 +12105,7 @@ var data = {
         {
           "Order": 12,
           "FilmName": "The Prince",
+          "FilmNameOriginal": "The Prince",
           "Year": 2023,
           "LetterboxdIdentifier": "F8lM",
           "PrimaryLanguage": "English",
@@ -12155,6 +12115,7 @@ var data = {
         {
           "Order": 13,
           "FilmName": "The Purge",
+          "FilmNameOriginal": "The Purge",
           "Year": 2013,
           "LetterboxdIdentifier": "4Xg0",
           "PrimaryLanguage": "English",
@@ -12164,6 +12125,7 @@ var data = {
         {
           "Order": 14,
           "FilmName": "Us",
+          "FilmNameOriginal": "Us",
           "Year": 2019,
           "LetterboxdIdentifier": "gnV6",
           "PrimaryLanguage": "English",
@@ -12173,6 +12135,7 @@ var data = {
         {
           "Order": 15,
           "FilmName": "The Menu",
+          "FilmNameOriginal": "The Menu",
           "Year": 2022,
           "LetterboxdIdentifier": "lScm",
           "PrimaryLanguage": "English",
@@ -12182,6 +12145,7 @@ var data = {
         {
           "Order": 16,
           "FilmName": "Heavenly Creatures",
+          "FilmNameOriginal": "Heavenly Creatures",
           "Year": 1994,
           "LetterboxdIdentifier": "2974",
           "PrimaryLanguage": "English",
@@ -12191,6 +12155,7 @@ var data = {
         {
           "Order": 17,
           "FilmName": "Rear Window",
+          "FilmNameOriginal": "Rear Window",
           "Year": 1954,
           "LetterboxdIdentifier": "2a6Q",
           "PrimaryLanguage": "English",
@@ -12200,6 +12165,7 @@ var data = {
         {
           "Order": 18,
           "FilmName": "Titanic",
+          "FilmNameOriginal": "Titanic",
           "Year": 1997,
           "LetterboxdIdentifier": "2a2k",
           "PrimaryLanguage": "English",
@@ -12209,6 +12175,7 @@ var data = {
         {
           "Order": 19,
           "FilmName": "12 Years a Slave",
+          "FilmNameOriginal": "12 Years a Slave",
           "Year": 2013,
           "LetterboxdIdentifier": "2D2e",
           "PrimaryLanguage": "English",
@@ -12218,6 +12185,7 @@ var data = {
         {
           "Order": 20,
           "FilmName": "Raw",
+          "FilmNameOriginal": "Grave",
           "Year": 2016,
           "LetterboxdIdentifier": "dLd2",
           "PrimaryLanguage": "French",
@@ -12227,6 +12195,7 @@ var data = {
         {
           "Order": 21,
           "FilmName": "Titane",
+          "FilmNameOriginal": "Titane",
           "Year": 2021,
           "LetterboxdIdentifier": "nlQC",
           "PrimaryLanguage": "French",
@@ -12236,6 +12205,7 @@ var data = {
         {
           "Order": 22,
           "FilmName": "Barbie",
+          "FilmNameOriginal": "Barbie",
           "Year": 2023,
           "LetterboxdIdentifier": "bCLK",
           "PrimaryLanguage": "English",
@@ -12245,6 +12215,7 @@ var data = {
         {
           "Order": 23,
           "FilmName": "Fight Club",
+          "FilmNameOriginal": "Fight Club",
           "Year": 1999,
           "LetterboxdIdentifier": "2a9q",
           "PrimaryLanguage": "English",
@@ -12254,6 +12225,7 @@ var data = {
         {
           "Order": 24,
           "FilmName": "Drive",
+          "FilmNameOriginal": "Drive",
           "Year": 2011,
           "LetterboxdIdentifier": "IG",
           "PrimaryLanguage": "English",
@@ -12263,6 +12235,7 @@ var data = {
         {
           "Order": 25,
           "FilmName": "The Prestige",
+          "FilmNameOriginal": "The Prestige",
           "Year": 2006,
           "LetterboxdIdentifier": "293w",
           "PrimaryLanguage": "English",
@@ -12272,6 +12245,7 @@ var data = {
         {
           "Order": 26,
           "FilmName": "La La Land",
+          "FilmNameOriginal": "La La Land",
           "Year": 2016,
           "LetterboxdIdentifier": "a5fa",
           "PrimaryLanguage": "English",
@@ -12281,6 +12255,7 @@ var data = {
         {
           "Order": 27,
           "FilmName": "Ex Machina",
+          "FilmNameOriginal": "Ex Machina",
           "Year": 2015,
           "LetterboxdIdentifier": "7T2k",
           "PrimaryLanguage": "English",
@@ -12290,6 +12265,7 @@ var data = {
         {
           "Order": 28,
           "FilmName": "Am\u00E9lie",
+          "FilmNameOriginal": "Le Fabuleux Destin d'Am\u00E9lie Poulain",
           "Year": 2001,
           "LetterboxdIdentifier": "2aUc",
           "PrimaryLanguage": "French",
@@ -12299,6 +12275,7 @@ var data = {
         {
           "Order": 29,
           "FilmName": "The Assistant",
+          "FilmNameOriginal": "The Assistant",
           "Year": 2019,
           "LetterboxdIdentifier": "neWo",
           "PrimaryLanguage": "English",
@@ -12308,6 +12285,7 @@ var data = {
         {
           "Order": 30,
           "FilmName": "Birds Without Feathers",
+          "FilmNameOriginal": "Birds Without Feathers",
           "Year": 2018,
           "LetterboxdIdentifier": "i2d2",
           "PrimaryLanguage": "English",
@@ -12317,6 +12295,7 @@ var data = {
         {
           "Order": 31,
           "FilmName": "Snatch",
+          "FilmNameOriginal": "Snatch",
           "Year": 2000,
           "LetterboxdIdentifier": "2b7U",
           "PrimaryLanguage": "English",
@@ -12326,6 +12305,7 @@ var data = {
         {
           "Order": 32,
           "FilmName": "Manchester by the Sea",
+          "FilmNameOriginal": "Manchester by the Sea",
           "Year": 2016,
           "LetterboxdIdentifier": "b2L0",
           "PrimaryLanguage": "English",
@@ -12335,6 +12315,7 @@ var data = {
         {
           "Order": 33,
           "FilmName": "Fuzzy Head",
+          "FilmNameOriginal": "Fuzzy Head",
           "Year": 2023,
           "LetterboxdIdentifier": "E1bI",
           "PrimaryLanguage": "English",
@@ -12344,6 +12325,7 @@ var data = {
         {
           "Order": 34,
           "FilmName": "Inception",
+          "FilmNameOriginal": "Inception",
           "Year": 2010,
           "LetterboxdIdentifier": "1skk",
           "PrimaryLanguage": "English",
@@ -12353,6 +12335,7 @@ var data = {
         {
           "Order": 35,
           "FilmName": "The War Game",
+          "FilmNameOriginal": "The War Game",
           "Year": 1966,
           "LetterboxdIdentifier": "1tKe",
           "PrimaryLanguage": "English",
@@ -12362,6 +12345,7 @@ var data = {
         {
           "Order": 36,
           "FilmName": "God's Own Country",
+          "FilmNameOriginal": "God's Own Country",
           "Year": 2017,
           "LetterboxdIdentifier": "faZM",
           "PrimaryLanguage": "English",
@@ -12371,6 +12355,7 @@ var data = {
         {
           "Order": 37,
           "FilmName": "Little Women",
+          "FilmNameOriginal": "Little Women",
           "Year": 2019,
           "LetterboxdIdentifier": "aSVk",
           "PrimaryLanguage": "English",
@@ -12380,6 +12365,7 @@ var data = {
         {
           "Order": 38,
           "FilmName": "Blue Is the Warmest Color",
+          "FilmNameOriginal": "La Vie d'Ad\u00E8le - Chapitres 1 et 2",
           "Year": 2013,
           "LetterboxdIdentifier": "4O40",
           "PrimaryLanguage": "French",
@@ -12389,6 +12375,7 @@ var data = {
         {
           "Order": 39,
           "FilmName": "Frankenstein",
+          "FilmNameOriginal": "Frankenstein",
           "Year": 1931,
           "LetterboxdIdentifier": "25Te",
           "PrimaryLanguage": "English",
@@ -12398,6 +12385,7 @@ var data = {
         {
           "Order": 40,
           "FilmName": "The Killer",
+          "FilmNameOriginal": "The Killer",
           "Year": 2023,
           "LetterboxdIdentifier": "u6WE",
           "PrimaryLanguage": "English",
@@ -12407,6 +12395,7 @@ var data = {
         {
           "Order": 41,
           "FilmName": "The Favourite",
+          "FilmNameOriginal": "The Favourite",
           "Year": 2018,
           "LetterboxdIdentifier": "d2hI",
           "PrimaryLanguage": "English",
@@ -12416,6 +12405,7 @@ var data = {
         {
           "Order": 42,
           "FilmName": "Mass",
+          "FilmNameOriginal": "Mass",
           "Year": 2021,
           "LetterboxdIdentifier": "eYAA",
           "PrimaryLanguage": "English",
@@ -12425,6 +12415,7 @@ var data = {
         {
           "Order": 43,
           "FilmName": "Half-Life: 25th Anniversary Documentary",
+          "FilmNameOriginal": "Half-Life: 25th Anniversary Documentary",
           "Year": 2023,
           "LetterboxdIdentifier": "MwV4",
           "PrimaryLanguage": "English",
@@ -12434,6 +12425,7 @@ var data = {
         {
           "Order": 44,
           "FilmName": "The Killing",
+          "FilmNameOriginal": "The Killing",
           "Year": 1956,
           "LetterboxdIdentifier": "2aMi",
           "PrimaryLanguage": "English",
@@ -12443,6 +12435,7 @@ var data = {
         {
           "Order": 45,
           "FilmName": "Call Me by Your Name",
+          "FilmNameOriginal": "Call Me by Your Name",
           "Year": 2017,
           "LetterboxdIdentifier": "dYmm",
           "PrimaryLanguage": "English",
@@ -12452,6 +12445,7 @@ var data = {
         {
           "Order": 46,
           "FilmName": "Buffy the Vampire Slayer",
+          "FilmNameOriginal": "Buffy the Vampire Slayer",
           "Year": 1992,
           "LetterboxdIdentifier": "1WP8",
           "PrimaryLanguage": "English",
@@ -12461,6 +12455,7 @@ var data = {
         {
           "Order": 47,
           "FilmName": "Night of the Living Dead",
+          "FilmNameOriginal": "Night of the Living Dead",
           "Year": 1968,
           "LetterboxdIdentifier": "1WwA",
           "PrimaryLanguage": "English",
@@ -12470,6 +12465,7 @@ var data = {
         {
           "Order": 48,
           "FilmName": "Her",
+          "FilmNameOriginal": "Her",
           "Year": 2013,
           "LetterboxdIdentifier": "4O24",
           "PrimaryLanguage": "English",
@@ -12479,6 +12475,7 @@ var data = {
         {
           "Order": 49,
           "FilmName": "Wadjda",
+          "FilmNameOriginal": "Das M\u00E4dchen Wadjda",
           "Year": 2012,
           "LetterboxdIdentifier": "4drw",
           "PrimaryLanguage": "Arabic",
@@ -12488,6 +12485,7 @@ var data = {
         {
           "Order": 50,
           "FilmName": "Oppenheimer",
+          "FilmNameOriginal": "Oppenheimer",
           "Year": 2023,
           "LetterboxdIdentifier": "wUow",
           "PrimaryLanguage": "English",
@@ -12497,6 +12495,7 @@ var data = {
         {
           "Order": 51,
           "FilmName": "Midsommar",
+          "FilmNameOriginal": "Midsommar",
           "Year": 2019,
           "LetterboxdIdentifier": "jhxe",
           "PrimaryLanguage": "English",
@@ -12511,6 +12510,7 @@ var data = {
         {
           "Order": 1,
           "FilmName": "Portrait of a Lady on Fire",
+          "FilmNameOriginal": "Portrait de la jeune fille en feu",
           "Year": 2019,
           "LetterboxdIdentifier": "jkPq",
           "PrimaryLanguage": "French",
@@ -12520,6 +12520,7 @@ var data = {
         {
           "Order": 2,
           "FilmName": "The Royal Hotel",
+          "FilmNameOriginal": "The Royal Hotel",
           "Year": 2023,
           "LetterboxdIdentifier": "zEvs",
           "PrimaryLanguage": "English",
@@ -12529,6 +12530,7 @@ var data = {
         {
           "Order": 3,
           "FilmName": "Lars and the Real Girl",
+          "FilmNameOriginal": "Lars and the Real Girl",
           "Year": 2007,
           "LetterboxdIdentifier": "21tG",
           "PrimaryLanguage": "English",
@@ -12538,6 +12540,7 @@ var data = {
         {
           "Order": 4,
           "FilmName": "The Exorcist",
+          "FilmNameOriginal": "The Exorcist",
           "Year": 1973,
           "LetterboxdIdentifier": "1Yoo",
           "PrimaryLanguage": "English",
@@ -12547,6 +12550,7 @@ var data = {
         {
           "Order": 5,
           "FilmName": "Room",
+          "FilmNameOriginal": "Room",
           "Year": 2015,
           "LetterboxdIdentifier": "7T0y",
           "PrimaryLanguage": "English",
@@ -12556,6 +12560,7 @@ var data = {
         {
           "Order": 6,
           "FilmName": "The Holdovers",
+          "FilmNameOriginal": "The Holdovers",
           "Year": 2023,
           "LetterboxdIdentifier": "vHza",
           "PrimaryLanguage": "English",
@@ -12565,6 +12570,7 @@ var data = {
         {
           "Order": 7,
           "FilmName": "Three Billboards Outside Ebbing, Missouri",
+          "FilmNameOriginal": "Three Billboards Outside Ebbing, Missouri",
           "Year": 2017,
           "LetterboxdIdentifier": "ceBS",
           "PrimaryLanguage": "English",
@@ -12574,6 +12580,7 @@ var data = {
         {
           "Order": 8,
           "FilmName": "Dancer in the Dark",
+          "FilmNameOriginal": "Dancer in the Dark",
           "Year": 2000,
           "LetterboxdIdentifier": "71E",
           "PrimaryLanguage": "English",
@@ -12583,6 +12590,7 @@ var data = {
         {
           "Order": 9,
           "FilmName": "Lilya 4-ever",
+          "FilmNameOriginal": "Lilja 4-Ever",
           "Year": 2002,
           "LetterboxdIdentifier": "1SyW",
           "PrimaryLanguage": "Swedish",
@@ -12592,6 +12600,7 @@ var data = {
         {
           "Order": 10,
           "FilmName": "The Banshees of Inisherin",
+          "FilmNameOriginal": "The Banshees of Inisherin",
           "Year": 2022,
           "LetterboxdIdentifier": "p7XS",
           "PrimaryLanguage": "English",
@@ -12601,6 +12610,7 @@ var data = {
         {
           "Order": 11,
           "FilmName": "La Belle Noiseuse",
+          "FilmNameOriginal": "La Belle Noiseuse",
           "Year": 1991,
           "LetterboxdIdentifier": "1RxI",
           "PrimaryLanguage": "French",
@@ -12610,6 +12620,7 @@ var data = {
         {
           "Order": 12,
           "FilmName": "All of Us Strangers",
+          "FilmNameOriginal": "All of Us Strangers",
           "Year": 2023,
           "LetterboxdIdentifier": "Bz3C",
           "PrimaryLanguage": "English",
@@ -12619,6 +12630,7 @@ var data = {
         {
           "Order": 13,
           "FilmName": "The Help",
+          "FilmNameOriginal": "The Help",
           "Year": 2011,
           "LetterboxdIdentifier": "EDm",
           "PrimaryLanguage": "English",
@@ -12628,6 +12640,7 @@ var data = {
         {
           "Order": 14,
           "FilmName": "Saltburn",
+          "FilmNameOriginal": "Saltburn",
           "Year": 2023,
           "LetterboxdIdentifier": "z4eg",
           "PrimaryLanguage": "English",
@@ -12637,6 +12650,7 @@ var data = {
         {
           "Order": 15,
           "FilmName": "Fargo",
+          "FilmNameOriginal": "Fargo",
           "Year": 1996,
           "LetterboxdIdentifier": "2aHM",
           "PrimaryLanguage": "English",
@@ -12646,6 +12660,7 @@ var data = {
         {
           "Order": 16,
           "FilmName": "The Devil Wears Prada",
+          "FilmNameOriginal": "The Devil Wears Prada",
           "Year": 2006,
           "LetterboxdIdentifier": "2awE",
           "PrimaryLanguage": "English",
@@ -12655,6 +12670,7 @@ var data = {
         {
           "Order": 17,
           "FilmName": "Poor Things",
+          "FilmNameOriginal": "Poor Things",
           "Year": 2023,
           "LetterboxdIdentifier": "tNWU",
           "PrimaryLanguage": "English",
@@ -12664,6 +12680,7 @@ var data = {
         {
           "Order": 18,
           "FilmName": "The Revenant",
+          "FilmNameOriginal": "The Revenant",
           "Year": 2015,
           "LetterboxdIdentifier": "8H5e",
           "PrimaryLanguage": "English",
@@ -12673,6 +12690,7 @@ var data = {
         {
           "Order": 19,
           "FilmName": "Blue Jean",
+          "FilmNameOriginal": "Blue Jean",
           "Year": 2022,
           "LetterboxdIdentifier": "AHhg",
           "PrimaryLanguage": "English",
@@ -12682,6 +12700,7 @@ var data = {
         {
           "Order": 20,
           "FilmName": "Misery",
+          "FilmNameOriginal": "Misery",
           "Year": 1990,
           "LetterboxdIdentifier": "28gY",
           "PrimaryLanguage": "English",
@@ -12691,6 +12710,7 @@ var data = {
         {
           "Order": 21,
           "FilmName": "CODA",
+          "FilmNameOriginal": "CODA",
           "Year": 2021,
           "LetterboxdIdentifier": "tbf4",
           "PrimaryLanguage": "English",
@@ -12700,6 +12720,7 @@ var data = {
         {
           "Order": 22,
           "FilmName": "Past Lives",
+          "FilmNameOriginal": "Past Lives",
           "Year": 2023,
           "LetterboxdIdentifier": "oNB8",
           "PrimaryLanguage": "English",
@@ -12709,6 +12730,7 @@ var data = {
         {
           "Order": 23,
           "FilmName": "Black Swan",
+          "FilmNameOriginal": "Black Swan",
           "Year": 2010,
           "LetterboxdIdentifier": "Sw0",
           "PrimaryLanguage": "English",
@@ -12718,6 +12740,7 @@ var data = {
         {
           "Order": 24,
           "FilmName": "Carol",
+          "FilmNameOriginal": "Carol",
           "Year": 2015,
           "LetterboxdIdentifier": "7DPK",
           "PrimaryLanguage": "English",
@@ -12727,6 +12750,7 @@ var data = {
         {
           "Order": 25,
           "FilmName": "Zombieland",
+          "FilmNameOriginal": "Zombieland",
           "Year": 2009,
           "LetterboxdIdentifier": "1En6",
           "PrimaryLanguage": "English",
@@ -12736,6 +12760,7 @@ var data = {
         {
           "Order": 26,
           "FilmName": "House of Wax",
+          "FilmNameOriginal": "House of Wax",
           "Year": 1953,
           "LetterboxdIdentifier": "1GGE",
           "PrimaryLanguage": "English",
@@ -12745,6 +12770,7 @@ var data = {
         {
           "Order": 27,
           "FilmName": "M\u00E4dchen in Uniform",
+          "FilmNameOriginal": "M\u00E4dchen in Uniform",
           "Year": 1931,
           "LetterboxdIdentifier": "1Y8g",
           "PrimaryLanguage": "German",
@@ -12754,6 +12780,7 @@ var data = {
         {
           "Order": 28,
           "FilmName": "Scoop",
+          "FilmNameOriginal": "Scoop",
           "Year": 2024,
           "LetterboxdIdentifier": "EZu6",
           "PrimaryLanguage": "English",
@@ -12763,6 +12790,7 @@ var data = {
         {
           "Order": 29,
           "FilmName": "The Quiet Girl",
+          "FilmNameOriginal": "An Cail\u00EDn Ci\u00FAin",
           "Year": 2022,
           "LetterboxdIdentifier": "yvgm",
           "PrimaryLanguage": "Irish",
@@ -12772,6 +12800,7 @@ var data = {
         {
           "Order": 30,
           "FilmName": "Electrick Children",
+          "FilmNameOriginal": "Electrick Children",
           "Year": 2012,
           "LetterboxdIdentifier": "39sy",
           "PrimaryLanguage": "English",
@@ -12781,6 +12810,7 @@ var data = {
         {
           "Order": 31,
           "FilmName": "Mean Girls",
+          "FilmNameOriginal": "Mean Girls",
           "Year": 2004,
           "LetterboxdIdentifier": "1VNg",
           "PrimaryLanguage": "English",
@@ -12790,6 +12820,7 @@ var data = {
         {
           "Order": 32,
           "FilmName": "Tyrannosaur",
+          "FilmNameOriginal": "Tyrannosaur",
           "Year": 2011,
           "LetterboxdIdentifier": "2DUA",
           "PrimaryLanguage": "English",
@@ -12799,6 +12830,7 @@ var data = {
         {
           "Order": 33,
           "FilmName": "Aftersun",
+          "FilmNameOriginal": "Aftersun",
           "Year": 2022,
           "LetterboxdIdentifier": "Arw0",
           "PrimaryLanguage": "English",
@@ -12808,6 +12840,7 @@ var data = {
         {
           "Order": 34,
           "FilmName": "Fifty Shades of Grey",
+          "FilmNameOriginal": "Fifty Shades of Grey",
           "Year": 2015,
           "LetterboxdIdentifier": "6qLo",
           "PrimaryLanguage": "English",
@@ -12817,6 +12850,7 @@ var data = {
         {
           "Order": 35,
           "FilmName": "Pearl",
+          "FilmNameOriginal": "Pearl",
           "Year": 2022,
           "LetterboxdIdentifier": "zPbe",
           "PrimaryLanguage": "English",
@@ -12826,6 +12860,7 @@ var data = {
         {
           "Order": 36,
           "FilmName": "Spring, Summer, Fall, Winter... and Spring",
+          "FilmNameOriginal": "\uBD04 \uC5EC\uB984 \uAC00\uC744 \uACA8\uC6B8 \uADF8\uB9AC\uACE0 \uBD04",
           "Year": 2003,
           "LetterboxdIdentifier": "2b6W",
           "PrimaryLanguage": "Korean",
@@ -12835,6 +12870,7 @@ var data = {
         {
           "Order": 37,
           "FilmName": "Love Lies Bleeding",
+          "FilmNameOriginal": "Love Lies Bleeding",
           "Year": 2024,
           "LetterboxdIdentifier": "zN4q",
           "PrimaryLanguage": "English",
@@ -12844,6 +12880,7 @@ var data = {
         {
           "Order": 38,
           "FilmName": "But I'm a Cheerleader",
+          "FilmNameOriginal": "But I'm a Cheerleader",
           "Year": 1999,
           "LetterboxdIdentifier": "1CW4",
           "PrimaryLanguage": "English",
@@ -12853,6 +12890,7 @@ var data = {
         {
           "Order": 39,
           "FilmName": "All Is Lost",
+          "FilmNameOriginal": "All Is Lost",
           "Year": 2013,
           "LetterboxdIdentifier": "4OgK",
           "PrimaryLanguage": "English",
@@ -12862,6 +12900,7 @@ var data = {
         {
           "Order": 40,
           "FilmName": "The Lobster",
+          "FilmNameOriginal": "The Lobster",
           "Year": 2015,
           "LetterboxdIdentifier": "7tnw",
           "PrimaryLanguage": "English",
@@ -12871,6 +12910,7 @@ var data = {
         {
           "Order": 41,
           "FilmName": "Gifted",
+          "FilmNameOriginal": "Gifted",
           "Year": 2017,
           "LetterboxdIdentifier": "e5dG",
           "PrimaryLanguage": "English",
@@ -12880,6 +12920,7 @@ var data = {
         {
           "Order": 42,
           "FilmName": "Whiplash",
+          "FilmNameOriginal": "Whiplash",
           "Year": 2014,
           "LetterboxdIdentifier": "7bQA",
           "PrimaryLanguage": "English",
@@ -12889,6 +12930,7 @@ var data = {
         {
           "Order": 43,
           "FilmName": "Sicario",
+          "FilmNameOriginal": "Sicario",
           "Year": 2015,
           "LetterboxdIdentifier": "8i7u",
           "PrimaryLanguage": "English",
@@ -12898,6 +12940,7 @@ var data = {
         {
           "Order": 44,
           "FilmName": "Perfect Days",
+          "FilmNameOriginal": "PERFECT DAYS",
           "Year": 2023,
           "LetterboxdIdentifier": "ATh8",
           "PrimaryLanguage": "Japanese",
@@ -12907,6 +12950,7 @@ var data = {
         {
           "Order": 45,
           "FilmName": "Jojo Rabbit",
+          "FilmNameOriginal": "Jojo Rabbit",
           "Year": 2019,
           "LetterboxdIdentifier": "iEBG",
           "PrimaryLanguage": "English",
@@ -12916,6 +12960,7 @@ var data = {
         {
           "Order": 46,
           "FilmName": "The Silence of the Lambs",
+          "FilmNameOriginal": "The Silence of the Lambs",
           "Year": 1991,
           "LetterboxdIdentifier": "2aHW",
           "PrimaryLanguage": "English",
@@ -12925,6 +12970,7 @@ var data = {
         {
           "Order": 47,
           "FilmName": "Perfect Strangers",
+          "FilmNameOriginal": "Perfetti sconosciuti",
           "Year": 2016,
           "LetterboxdIdentifier": "dgVi",
           "PrimaryLanguage": "Italian",
@@ -12934,6 +12980,7 @@ var data = {
         {
           "Order": 48,
           "FilmName": "The Piano Teacher",
+          "FilmNameOriginal": "La Pianiste",
           "Year": 2001,
           "LetterboxdIdentifier": "2886",
           "PrimaryLanguage": "French",
@@ -12943,6 +12990,7 @@ var data = {
         {
           "Order": 49,
           "FilmName": "Challengers",
+          "FilmNameOriginal": "Challengers",
           "Year": 2024,
           "LetterboxdIdentifier": "zld0",
           "PrimaryLanguage": "English",
@@ -12952,6 +13000,7 @@ var data = {
         {
           "Order": 50,
           "FilmName": "Marriage Story",
+          "FilmNameOriginal": "Marriage Story",
           "Year": 2019,
           "LetterboxdIdentifier": "hJAw",
           "PrimaryLanguage": "English",
@@ -12961,6 +13010,7 @@ var data = {
         {
           "Order": 51,
           "FilmName": "Martyrs",
+          "FilmNameOriginal": "Martyrs",
           "Year": 2008,
           "LetterboxdIdentifier": "1Yqu",
           "PrimaryLanguage": "French",
@@ -12970,6 +13020,7 @@ var data = {
         {
           "Order": 52,
           "FilmName": "Secrets \u0026 Lies",
+          "FilmNameOriginal": "Secrets \u0026 Lies",
           "Year": 1996,
           "LetterboxdIdentifier": "1UuC",
           "PrimaryLanguage": "English",
@@ -12979,6 +13030,7 @@ var data = {
         {
           "Order": 53,
           "FilmName": "Run Lola Run",
+          "FilmNameOriginal": "Lola rennt",
           "Year": 1998,
           "LetterboxdIdentifier": "2b8o",
           "PrimaryLanguage": "German",
@@ -12988,6 +13040,7 @@ var data = {
         {
           "Order": 54,
           "FilmName": "Crash",
+          "FilmNameOriginal": "Crash",
           "Year": 1996,
           "LetterboxdIdentifier": "29n2",
           "PrimaryLanguage": "English",
@@ -12997,6 +13050,7 @@ var data = {
         {
           "Order": 55,
           "FilmName": "Eternal Sunshine of the Spotless Mind",
+          "FilmNameOriginal": "Eternal Sunshine of the Spotless Mind",
           "Year": 2004,
           "LetterboxdIdentifier": "6YK",
           "PrimaryLanguage": "English",
@@ -13006,6 +13060,7 @@ var data = {
         {
           "Order": 56,
           "FilmName": "Eighth Grade",
+          "FilmNameOriginal": "Eighth Grade",
           "Year": 2018,
           "LetterboxdIdentifier": "hDMG",
           "PrimaryLanguage": "English",
@@ -13015,6 +13070,7 @@ var data = {
         {
           "Order": 57,
           "FilmName": "20 Days in Mariupol",
+          "FilmNameOriginal": "20 Days in Mariupol",
           "Year": 2023,
           "LetterboxdIdentifier": "E32S",
           "PrimaryLanguage": "English",
@@ -13024,6 +13080,7 @@ var data = {
         {
           "Order": 58,
           "FilmName": "The Handmaiden",
+          "FilmNameOriginal": "\uC544\uAC00\uC528",
           "Year": 2016,
           "LetterboxdIdentifier": "948A",
           "PrimaryLanguage": "Korean",
@@ -13033,6 +13090,7 @@ var data = {
         {
           "Order": 59,
           "FilmName": "Weekend",
+          "FilmNameOriginal": "Weekend",
           "Year": 2011,
           "LetterboxdIdentifier": "2Kzu",
           "PrimaryLanguage": "English",
@@ -13042,6 +13100,7 @@ var data = {
         {
           "Order": 60,
           "FilmName": "The Neon Demon",
+          "FilmNameOriginal": "The Neon Demon",
           "Year": 2016,
           "LetterboxdIdentifier": "9AnW",
           "PrimaryLanguage": "English",
@@ -13051,6 +13110,7 @@ var data = {
         {
           "Order": 61,
           "FilmName": "My First Summer",
+          "FilmNameOriginal": "My First Summer",
           "Year": 2020,
           "LetterboxdIdentifier": "rOjg",
           "PrimaryLanguage": "English",
@@ -13060,6 +13120,7 @@ var data = {
         {
           "Order": 62,
           "FilmName": "Persona",
+          "FilmNameOriginal": "Persona",
           "Year": 1966,
           "LetterboxdIdentifier": "29B4",
           "PrimaryLanguage": "Swedish",
@@ -13069,6 +13130,7 @@ var data = {
         {
           "Order": 63,
           "FilmName": "Neighbours",
+          "FilmNameOriginal": "Neighbours",
           "Year": 1952,
           "LetterboxdIdentifier": "BtS",
           "PrimaryLanguage": "",
@@ -13078,6 +13140,7 @@ var data = {
         {
           "Order": 64,
           "FilmName": "Everything Beautiful Is Far Away",
+          "FilmNameOriginal": "Everything Beautiful Is Far Away",
           "Year": 2017,
           "LetterboxdIdentifier": "gqjE",
           "PrimaryLanguage": "English",
@@ -13087,6 +13150,7 @@ var data = {
         {
           "Order": 65,
           "FilmName": "When Bj\u00F6rk Met Attenborough",
+          "FilmNameOriginal": "When Bj\u00F6rk Met Attenborough",
           "Year": 2013,
           "LetterboxdIdentifier": "6nPs",
           "PrimaryLanguage": "English",
@@ -13096,6 +13160,7 @@ var data = {
         {
           "Order": 66,
           "FilmName": "Shiva Baby",
+          "FilmNameOriginal": "Shiva Baby",
           "Year": 2020,
           "LetterboxdIdentifier": "oIv0",
           "PrimaryLanguage": "English",
@@ -13105,6 +13170,7 @@ var data = {
         {
           "Order": 67,
           "FilmName": "Final Cut: Ladies and Gentlemen",
+          "FilmNameOriginal": "Final Cut: H\u00F6lgyeim \u00E9s uraim",
           "Year": 2012,
           "LetterboxdIdentifier": "491E",
           "PrimaryLanguage": "Hungarian",
@@ -13114,6 +13180,7 @@ var data = {
         {
           "Order": 68,
           "FilmName": "Ever",
+          "FilmNameOriginal": "Ever",
           "Year": 2014,
           "LetterboxdIdentifier": "8240",
           "PrimaryLanguage": "English",
@@ -13123,6 +13190,7 @@ var data = {
         {
           "Order": 69,
           "FilmName": "Funeral Parade of Roses",
+          "FilmNameOriginal": "\u8594\u8587\u306E\u846C\u5217",
           "Year": 1969,
           "LetterboxdIdentifier": "28Cg",
           "PrimaryLanguage": "Japanese",
@@ -13132,6 +13200,7 @@ var data = {
         {
           "Order": 70,
           "FilmName": "Bottoms",
+          "FilmNameOriginal": "Bottoms",
           "Year": 2023,
           "LetterboxdIdentifier": "uGf2",
           "PrimaryLanguage": "English",
@@ -13141,6 +13210,7 @@ var data = {
         {
           "Order": 71,
           "FilmName": "The Shape of Water",
+          "FilmNameOriginal": "The Shape of Water",
           "Year": 2017,
           "LetterboxdIdentifier": "dZ5m",
           "PrimaryLanguage": "English",
@@ -13150,6 +13220,7 @@ var data = {
         {
           "Order": 72,
           "FilmName": "A Trip to the Moon",
+          "FilmNameOriginal": "Le Voyage dans la Lune",
           "Year": 1902,
           "LetterboxdIdentifier": "29EC",
           "PrimaryLanguage": "",
@@ -13159,6 +13230,7 @@ var data = {
         {
           "Order": 73,
           "FilmName": "Furiosa: A Mad Max Saga",
+          "FilmNameOriginal": "Furiosa: A Mad Max Saga",
           "Year": 2024,
           "LetterboxdIdentifier": "tABk",
           "PrimaryLanguage": "English",
@@ -13168,6 +13240,7 @@ var data = {
         {
           "Order": 74,
           "FilmName": "The Tribe",
+          "FilmNameOriginal": "\u041F\u043B\u0435\u043C'\u044F",
           "Year": 2014,
           "LetterboxdIdentifier": "8aqe",
           "PrimaryLanguage": "",
@@ -13177,6 +13250,7 @@ var data = {
         {
           "Order": 75,
           "FilmName": "Tomboy",
+          "FilmNameOriginal": "Tomboy",
           "Year": 2011,
           "LetterboxdIdentifier": "49U",
           "PrimaryLanguage": "French",
@@ -13186,6 +13260,7 @@ var data = {
         {
           "Order": 76,
           "FilmName": "Water Lilies",
+          "FilmNameOriginal": "Naissance des pieuvres",
           "Year": 2007,
           "LetterboxdIdentifier": "1VjK",
           "PrimaryLanguage": "French",
@@ -13195,6 +13270,7 @@ var data = {
         {
           "Order": 77,
           "FilmName": "The Fly",
+          "FilmNameOriginal": "The Fly",
           "Year": 1986,
           "LetterboxdIdentifier": "1YIe",
           "PrimaryLanguage": "English",
@@ -13204,6 +13280,7 @@ var data = {
         {
           "Order": 78,
           "FilmName": "The Invisible Man",
+          "FilmNameOriginal": "The Invisible Man",
           "Year": 1933,
           "LetterboxdIdentifier": "1VoK",
           "PrimaryLanguage": "English",
@@ -13213,6 +13290,7 @@ var data = {
         {
           "Order": 79,
           "FilmName": "Tropico",
+          "FilmNameOriginal": "Tropico",
           "Year": 2013,
           "LetterboxdIdentifier": "760u",
           "PrimaryLanguage": "English",
@@ -13222,6 +13300,7 @@ var data = {
         {
           "Order": 80,
           "FilmName": "Swimming",
+          "FilmNameOriginal": "Swimming",
           "Year": 2000,
           "LetterboxdIdentifier": "3E06",
           "PrimaryLanguage": "English",
@@ -13231,6 +13310,7 @@ var data = {
         {
           "Order": 81,
           "FilmName": "Society of the Snow",
+          "FilmNameOriginal": "La sociedad de la nieve",
           "Year": 2023,
           "LetterboxdIdentifier": "y9aw",
           "PrimaryLanguage": "Spanish",
@@ -13240,6 +13320,7 @@ var data = {
         {
           "Order": 82,
           "FilmName": "Grandma",
+          "FilmNameOriginal": "Grandma",
           "Year": 2015,
           "LetterboxdIdentifier": "9V00",
           "PrimaryLanguage": "English",
@@ -13249,6 +13330,7 @@ var data = {
         {
           "Order": 83,
           "FilmName": "The Witch",
+          "FilmNameOriginal": "The Witch",
           "Year": 2015,
           "LetterboxdIdentifier": "9X0m",
           "PrimaryLanguage": "English",
@@ -13258,6 +13340,7 @@ var data = {
         {
           "Order": 84,
           "FilmName": "Fat Girl",
+          "FilmNameOriginal": "\u00C0 ma soeur!",
           "Year": 2001,
           "LetterboxdIdentifier": "2a6w",
           "PrimaryLanguage": "French",
@@ -13267,6 +13350,7 @@ var data = {
         {
           "Order": 85,
           "FilmName": "Close",
+          "FilmNameOriginal": "Close",
           "Year": 2022,
           "LetterboxdIdentifier": "y4qa",
           "PrimaryLanguage": "French",
@@ -13276,6 +13360,7 @@ var data = {
         {
           "Order": 86,
           "FilmName": "Perfect Blue",
+          "FilmNameOriginal": "PERFECT BLUE",
           "Year": 1997,
           "LetterboxdIdentifier": "1W7A",
           "PrimaryLanguage": "Japanese",
@@ -13285,6 +13370,7 @@ var data = {
         {
           "Order": 87,
           "FilmName": "Comrade Kim Goes Flying",
+          "FilmNameOriginal": "\uAE40\uB3D9\uBB34\uB294 \uD558\uB298\uC744 \uB09C\uB2E4",
           "Year": 2012,
           "LetterboxdIdentifier": "4bu4",
           "PrimaryLanguage": "Korean",
@@ -13294,6 +13380,7 @@ var data = {
         {
           "Order": 88,
           "FilmName": "Blade Runner",
+          "FilmNameOriginal": "Blade Runner",
           "Year": 1982,
           "LetterboxdIdentifier": "2bcA",
           "PrimaryLanguage": "English",
@@ -13303,6 +13390,7 @@ var data = {
         {
           "Order": 89,
           "FilmName": "Thoroughbreds",
+          "FilmNameOriginal": "Thoroughbreds",
           "Year": 2017,
           "LetterboxdIdentifier": "dVHQ",
           "PrimaryLanguage": "English",
@@ -13312,6 +13400,7 @@ var data = {
         {
           "Order": 90,
           "FilmName": "You Can Live Forever",
+          "FilmNameOriginal": "You Can Live Forever",
           "Year": 2022,
           "LetterboxdIdentifier": "xvlk",
           "PrimaryLanguage": "English",
@@ -13321,6 +13410,7 @@ var data = {
         {
           "Order": 91,
           "FilmName": "Tomato Red",
+          "FilmNameOriginal": "Tomato Red",
           "Year": 2017,
           "LetterboxdIdentifier": "fHhI",
           "PrimaryLanguage": "English",
@@ -13330,6 +13420,7 @@ var data = {
         {
           "Order": 92,
           "FilmName": "Petite maman",
+          "FilmNameOriginal": "Petite maman",
           "Year": 2021,
           "LetterboxdIdentifier": "s6je",
           "PrimaryLanguage": "French",
@@ -13339,6 +13430,7 @@ var data = {
         {
           "Order": 93,
           "FilmName": "The Gentlemen",
+          "FilmNameOriginal": "The Gentlemen",
           "Year": 2019,
           "LetterboxdIdentifier": "iYBQ",
           "PrimaryLanguage": "English",
@@ -13348,6 +13440,7 @@ var data = {
         {
           "Order": 94,
           "FilmName": "Host",
+          "FilmNameOriginal": "Host",
           "Year": 2020,
           "LetterboxdIdentifier": "r5O4",
           "PrimaryLanguage": "English",
@@ -13357,6 +13450,7 @@ var data = {
         {
           "Order": 95,
           "FilmName": "The Passion of Joan of Arc",
+          "FilmNameOriginal": "La Passion de Jeanne d'Arc",
           "Year": 1928,
           "LetterboxdIdentifier": "29DO",
           "PrimaryLanguage": "",
@@ -13366,6 +13460,7 @@ var data = {
         {
           "Order": 96,
           "FilmName": "Stand by Me",
+          "FilmNameOriginal": "Stand by Me",
           "Year": 1986,
           "LetterboxdIdentifier": "2aOe",
           "PrimaryLanguage": "English",
@@ -13375,6 +13470,7 @@ var data = {
         {
           "Order": 97,
           "FilmName": "Phantom Thread",
+          "FilmNameOriginal": "Phantom Thread",
           "Year": 2017,
           "LetterboxdIdentifier": "e4uc",
           "PrimaryLanguage": "English",
@@ -13384,6 +13480,7 @@ var data = {
         {
           "Order": 98,
           "FilmName": "The Miseducation of Cameron Post",
+          "FilmNameOriginal": "The Miseducation of Cameron Post",
           "Year": 2018,
           "LetterboxdIdentifier": "f6B2",
           "PrimaryLanguage": "English",
@@ -13393,6 +13490,7 @@ var data = {
         {
           "Order": 99,
           "FilmName": "Come and See",
+          "FilmNameOriginal": "\u0418\u0434\u0438 \u0438 \u0441\u043C\u043E\u0442\u0440\u0438",
           "Year": 1985,
           "LetterboxdIdentifier": "1w9q",
           "PrimaryLanguage": "Russian",
@@ -13402,6 +13500,7 @@ var data = {
         {
           "Order": 100,
           "FilmName": "Casablanca",
+          "FilmNameOriginal": "Casablanca",
           "Year": 1942,
           "LetterboxdIdentifier": "2aG0",
           "PrimaryLanguage": "English",
@@ -13411,6 +13510,7 @@ var data = {
         {
           "Order": 101,
           "FilmName": "Short Term 12",
+          "FilmNameOriginal": "Short Term 12",
           "Year": 2013,
           "LetterboxdIdentifier": "5f6s",
           "PrimaryLanguage": "English",
@@ -13420,6 +13520,7 @@ var data = {
         {
           "Order": 102,
           "FilmName": "Last Night in Soho",
+          "FilmNameOriginal": "Last Night in Soho",
           "Year": 2021,
           "LetterboxdIdentifier": "lbJC",
           "PrimaryLanguage": "English",
@@ -13429,6 +13530,7 @@ var data = {
         {
           "Order": 103,
           "FilmName": "Snow White and the Seven Dwarfs",
+          "FilmNameOriginal": "Snow White and the Seven Dwarfs",
           "Year": 1937,
           "LetterboxdIdentifier": "2arO",
           "PrimaryLanguage": "English",
@@ -13438,6 +13540,7 @@ var data = {
         {
           "Order": 104,
           "FilmName": "Breathe",
+          "FilmNameOriginal": "Respire",
           "Year": 2014,
           "LetterboxdIdentifier": "87L4",
           "PrimaryLanguage": "French",
@@ -13447,6 +13550,7 @@ var data = {
         {
           "Order": 105,
           "FilmName": "Booksmart",
+          "FilmNameOriginal": "Booksmart",
           "Year": 2019,
           "LetterboxdIdentifier": "igNS",
           "PrimaryLanguage": "English",
@@ -13456,6 +13560,7 @@ var data = {
         {
           "Order": 106,
           "FilmName": "Leave No Trace",
+          "FilmNameOriginal": "Leave No Trace",
           "Year": 2018,
           "LetterboxdIdentifier": "fMfM",
           "PrimaryLanguage": "English",
@@ -13465,6 +13570,7 @@ var data = {
         {
           "Order": 107,
           "FilmName": "(500) Days of Summer",
+          "FilmNameOriginal": "(500) Days of Summer",
           "Year": 2009,
           "LetterboxdIdentifier": "1EmM",
           "PrimaryLanguage": "English",
@@ -13474,6 +13580,7 @@ var data = {
         {
           "Order": 108,
           "FilmName": "Black Bear",
+          "FilmNameOriginal": "Black Bear",
           "Year": 2020,
           "LetterboxdIdentifier": "n8ru",
           "PrimaryLanguage": "English",
@@ -13483,6 +13590,7 @@ var data = {
         {
           "Order": 109,
           "FilmName": "Bound",
+          "FilmNameOriginal": "Bound",
           "Year": 1996,
           "LetterboxdIdentifier": "1Z1g",
           "PrimaryLanguage": "English",
@@ -13492,6 +13600,7 @@ var data = {
         {
           "Order": 110,
           "FilmName": "Tangerine",
+          "FilmNameOriginal": "Tangerine",
           "Year": 2015,
           "LetterboxdIdentifier": "9QRe",
           "PrimaryLanguage": "English",
@@ -13501,6 +13610,7 @@ var data = {
         {
           "Order": 111,
           "FilmName": "Coherence",
+          "FilmNameOriginal": "Coherence",
           "Year": 2013,
           "LetterboxdIdentifier": "6xza",
           "PrimaryLanguage": "English",
@@ -13510,6 +13620,7 @@ var data = {
         {
           "Order": 112,
           "FilmName": "X",
+          "FilmNameOriginal": "X",
           "Year": 2022,
           "LetterboxdIdentifier": "sxVa",
           "PrimaryLanguage": "English",
@@ -13519,6 +13630,7 @@ var data = {
         {
           "Order": 113,
           "FilmName": "MaXXXine",
+          "FilmNameOriginal": "MaXXXine",
           "Year": 2024,
           "LetterboxdIdentifier": "CIM4",
           "PrimaryLanguage": "English",
@@ -13528,6 +13640,7 @@ var data = {
         {
           "Order": 114,
           "FilmName": "Je Tu Il Elle",
+          "FilmNameOriginal": "Je, tu, il, elle",
           "Year": 1974,
           "LetterboxdIdentifier": "3gWK",
           "PrimaryLanguage": "French",
@@ -13537,6 +13650,7 @@ var data = {
         {
           "Order": 115,
           "FilmName": "How to Have Sex",
+          "FilmNameOriginal": "How to Have Sex",
           "Year": 2023,
           "LetterboxdIdentifier": "EFIM",
           "PrimaryLanguage": "English",
@@ -13546,6 +13660,7 @@ var data = {
         {
           "Order": 116,
           "FilmName": "An Evening with Beverly Luff Linn",
+          "FilmNameOriginal": "An Evening with Beverly Luff Linn",
           "Year": 2018,
           "LetterboxdIdentifier": "fUcw",
           "PrimaryLanguage": "English",
@@ -13555,6 +13670,7 @@ var data = {
         {
           "Order": 117,
           "FilmName": "Playground",
+          "FilmNameOriginal": "Un monde",
           "Year": 2021,
           "LetterboxdIdentifier": "twRI",
           "PrimaryLanguage": "French",
@@ -13564,6 +13680,7 @@ var data = {
         {
           "Order": 118,
           "FilmName": "Are You There God? It's Me, Margaret.",
+          "FilmNameOriginal": "Are You There God? It's Me, Margaret.",
           "Year": 2023,
           "LetterboxdIdentifier": "kiYC",
           "PrimaryLanguage": "English",
@@ -13573,6 +13690,7 @@ var data = {
         {
           "Order": 119,
           "FilmName": "Ingrid Goes West",
+          "FilmNameOriginal": "Ingrid Goes West",
           "Year": 2017,
           "LetterboxdIdentifier": "evUQ",
           "PrimaryLanguage": "English",
@@ -13582,6 +13700,7 @@ var data = {
         {
           "Order": 120,
           "FilmName": "Valerie and Her Week of Wonders",
+          "FilmNameOriginal": "Valerie a t\u00FDden div\u016F",
           "Year": 1970,
           "LetterboxdIdentifier": "NsC",
           "PrimaryLanguage": "Czech",
@@ -13591,6 +13710,7 @@ var data = {
         {
           "Order": 121,
           "FilmName": "Now and Then",
+          "FilmNameOriginal": "Now and Then",
           "Year": 1995,
           "LetterboxdIdentifier": "1Z7I",
           "PrimaryLanguage": "English",
@@ -13600,6 +13720,7 @@ var data = {
         {
           "Order": 122,
           "FilmName": "Cruella",
+          "FilmNameOriginal": "Cruella",
           "Year": 2021,
           "LetterboxdIdentifier": "bbKg",
           "PrimaryLanguage": "English",
@@ -13609,6 +13730,7 @@ var data = {
         {
           "Order": 123,
           "FilmName": "Daisies",
+          "FilmNameOriginal": "Sedmikr\u00E1sky",
           "Year": 1966,
           "LetterboxdIdentifier": "LZk",
           "PrimaryLanguage": "Czech",
@@ -13618,6 +13740,7 @@ var data = {
         {
           "Order": 124,
           "FilmName": "System Crasher",
+          "FilmNameOriginal": "Systemsprenger",
           "Year": 2019,
           "LetterboxdIdentifier": "kO1W",
           "PrimaryLanguage": "German",
@@ -13627,6 +13750,7 @@ var data = {
         {
           "Order": 125,
           "FilmName": "The Lost Daughter",
+          "FilmNameOriginal": "The Lost Daughter",
           "Year": 2021,
           "LetterboxdIdentifier": "kgww",
           "PrimaryLanguage": "English",
@@ -13636,6 +13760,7 @@ var data = {
         {
           "Order": 126,
           "FilmName": "Girlhood",
+          "FilmNameOriginal": "Bande de filles",
           "Year": 2014,
           "LetterboxdIdentifier": "7WyI",
           "PrimaryLanguage": "French",
@@ -13645,6 +13770,7 @@ var data = {
         {
           "Order": 127,
           "FilmName": "Broken Glass",
+          "FilmNameOriginal": "Glerbrot",
           "Year": 1988,
           "LetterboxdIdentifier": "eE9a",
           "PrimaryLanguage": "Icelandic",
@@ -13654,6 +13780,7 @@ var data = {
         {
           "Order": 128,
           "FilmName": "Wicked Little Letters",
+          "FilmNameOriginal": "Wicked Little Letters",
           "Year": 2023,
           "LetterboxdIdentifier": "AQXU",
           "PrimaryLanguage": "English",
@@ -13663,6 +13790,7 @@ var data = {
         {
           "Order": 129,
           "FilmName": "The Juniper Tree",
+          "FilmNameOriginal": "The Juniper Tree",
           "Year": 1990,
           "LetterboxdIdentifier": "1nr6",
           "PrimaryLanguage": "English",
@@ -13672,6 +13800,7 @@ var data = {
         {
           "Order": 130,
           "FilmName": "The Farewell",
+          "FilmNameOriginal": "The Farewell",
           "Year": 2019,
           "LetterboxdIdentifier": "kIky",
           "PrimaryLanguage": "Mandarin",
@@ -13681,6 +13810,7 @@ var data = {
         {
           "Order": 131,
           "FilmName": "The Children's Hour",
+          "FilmNameOriginal": "The Children's Hour",
           "Year": 1961,
           "LetterboxdIdentifier": "1DZI",
           "PrimaryLanguage": "English",
@@ -13690,6 +13820,7 @@ var data = {
         {
           "Order": 132,
           "FilmName": "Quiz Lady",
+          "FilmNameOriginal": "Quiz Lady",
           "Year": 2023,
           "LetterboxdIdentifier": "tCT6",
           "PrimaryLanguage": "English",
@@ -13699,6 +13830,7 @@ var data = {
         {
           "Order": 133,
           "FilmName": "Pariah",
+          "FilmNameOriginal": "Pariah",
           "Year": 2011,
           "LetterboxdIdentifier": "2wWk",
           "PrimaryLanguage": "English",
@@ -13708,6 +13840,7 @@ var data = {
         {
           "Order": 134,
           "FilmName": "Manifesto",
+          "FilmNameOriginal": "Manifesto",
           "Year": 2015,
           "LetterboxdIdentifier": "diI6",
           "PrimaryLanguage": "English",
@@ -13717,6 +13850,7 @@ var data = {
         {
           "Order": 135,
           "FilmName": "Humanist Vampire Seeking Consenting Suicidal Person",
+          "FilmNameOriginal": "Vampire humaniste cherche suicidaire consentant",
           "Year": 2023,
           "LetterboxdIdentifier": "Blzk",
           "PrimaryLanguage": "French",
@@ -13726,6 +13860,7 @@ var data = {
         {
           "Order": 136,
           "FilmName": "#17 - To Finish The Barkley Marathons",
+          "FilmNameOriginal": "#17 - To Finish The Barkley Marathons",
           "Year": 2024,
           "LetterboxdIdentifier": "LPde",
           "PrimaryLanguage": "English",
@@ -13735,6 +13870,7 @@ var data = {
         {
           "Order": 137,
           "FilmName": "Longlegs",
+          "FilmNameOriginal": "Longlegs",
           "Year": 2024,
           "LetterboxdIdentifier": "KzLM",
           "PrimaryLanguage": "English",
@@ -13744,6 +13880,7 @@ var data = {
         {
           "Order": 138,
           "FilmName": "That Darn Cat",
+          "FilmNameOriginal": "That Darn Cat",
           "Year": 1997,
           "LetterboxdIdentifier": "1CZ8",
           "PrimaryLanguage": "English",
@@ -13753,6 +13890,7 @@ var data = {
         {
           "Order": 139,
           "FilmName": "City Lights",
+          "FilmNameOriginal": "City Lights",
           "Year": 1931,
           "LetterboxdIdentifier": "29ki",
           "PrimaryLanguage": "",
@@ -13762,6 +13900,7 @@ var data = {
         {
           "Order": 140,
           "FilmName": "Elisa \u0026 Marcela",
+          "FilmNameOriginal": "Elisa y Marcela",
           "Year": 2019,
           "LetterboxdIdentifier": "jukM",
           "PrimaryLanguage": "Spanish",
@@ -13771,6 +13910,7 @@ var data = {
         {
           "Order": 141,
           "FilmName": "Nope",
+          "FilmNameOriginal": "Nope",
           "Year": 2022,
           "LetterboxdIdentifier": "sDCe",
           "PrimaryLanguage": "English",
@@ -13780,6 +13920,7 @@ var data = {
         {
           "Order": 142,
           "FilmName": "Gold Diggers: The Secret of Bear Mountain",
+          "FilmNameOriginal": "Gold Diggers: The Secret of Bear Mountain",
           "Year": 1995,
           "LetterboxdIdentifier": "1cbm",
           "PrimaryLanguage": "English",
@@ -13789,6 +13930,7 @@ var data = {
         {
           "Order": 143,
           "FilmName": "Alice in Wonderland",
+          "FilmNameOriginal": "Alice in Wonderland",
           "Year": 1951,
           "LetterboxdIdentifier": "1Sz6",
           "PrimaryLanguage": "English",
@@ -13798,6 +13940,7 @@ var data = {
         {
           "Order": 144,
           "FilmName": "102 Minutes That Changed America",
+          "FilmNameOriginal": "102 Minutes That Changed America",
           "Year": 2008,
           "LetterboxdIdentifier": "1bgq",
           "PrimaryLanguage": "English",
@@ -13807,6 +13950,7 @@ var data = {
         {
           "Order": 145,
           "FilmName": "Kinds of Kindness",
+          "FilmNameOriginal": "Kinds of Kindness",
           "Year": 2024,
           "LetterboxdIdentifier": "CWPw",
           "PrimaryLanguage": "English",
@@ -13816,6 +13960,7 @@ var data = {
         {
           "Order": 146,
           "FilmName": "The Virgin Suicides",
+          "FilmNameOriginal": "The Virgin Suicides",
           "Year": 1999,
           "LetterboxdIdentifier": "28JG",
           "PrimaryLanguage": "English",
@@ -13825,6 +13970,7 @@ var data = {
         {
           "Order": 147,
           "FilmName": "Coraline",
+          "FilmNameOriginal": "Coraline",
           "Year": 2009,
           "LetterboxdIdentifier": "1NhQ",
           "PrimaryLanguage": "English",
@@ -13834,6 +13980,7 @@ var data = {
         {
           "Order": 148,
           "FilmName": "The Man Who Cried",
+          "FilmNameOriginal": "The Man Who Cried",
           "Year": 2000,
           "LetterboxdIdentifier": "1nbC",
           "PrimaryLanguage": "English",
@@ -13843,6 +13990,7 @@ var data = {
         {
           "Order": 149,
           "FilmName": "Helter Skelter",
+          "FilmNameOriginal": "\u30D8\u30EB\u30BF\u30FC\u30B9\u30B1\u30EB\u30BF\u30FC",
           "Year": 2012,
           "LetterboxdIdentifier": "3ybW",
           "PrimaryLanguage": "Japanese",
@@ -13852,6 +14000,7 @@ var data = {
         {
           "Order": 150,
           "FilmName": "Meshes of the Afternoon",
+          "FilmNameOriginal": "Meshes of the Afternoon",
           "Year": 1943,
           "LetterboxdIdentifier": "1sEE",
           "PrimaryLanguage": "",
@@ -13861,6 +14010,7 @@ var data = {
         {
           "Order": 151,
           "FilmName": "The Birds",
+          "FilmNameOriginal": "The Birds",
           "Year": 1963,
           "LetterboxdIdentifier": "2a6m",
           "PrimaryLanguage": "English",
@@ -13870,6 +14020,7 @@ var data = {
         {
           "Order": 152,
           "FilmName": "I, Tonya",
+          "FilmNameOriginal": "I, Tonya",
           "Year": 2017,
           "LetterboxdIdentifier": "dzR0",
           "PrimaryLanguage": "English",
@@ -13879,6 +14030,7 @@ var data = {
         {
           "Order": 153,
           "FilmName": "Heathers",
+          "FilmNameOriginal": "Heathers",
           "Year": 1989,
           "LetterboxdIdentifier": "26x4",
           "PrimaryLanguage": "English",
@@ -13888,6 +14040,7 @@ var data = {
         {
           "Order": 154,
           "FilmName": "T\u00C1R",
+          "FilmNameOriginal": "T\u00C1R",
           "Year": 2022,
           "LetterboxdIdentifier": "uNIA",
           "PrimaryLanguage": "English",
@@ -13897,6 +14050,7 @@ var data = {
         {
           "Order": 155,
           "FilmName": "Disobedience",
+          "FilmNameOriginal": "Disobedience",
           "Year": 2017,
           "LetterboxdIdentifier": "ePFG",
           "PrimaryLanguage": "English",
@@ -13906,6 +14060,7 @@ var data = {
         {
           "Order": 156,
           "FilmName": "Roman Holiday",
+          "FilmNameOriginal": "Roman Holiday",
           "Year": 1953,
           "LetterboxdIdentifier": "29zW",
           "PrimaryLanguage": "English",
@@ -13915,6 +14070,7 @@ var data = {
         {
           "Order": 157,
           "FilmName": "Maudie",
+          "FilmNameOriginal": "Maudie",
           "Year": 2016,
           "LetterboxdIdentifier": "ceaW",
           "PrimaryLanguage": "English",
@@ -13924,6 +14080,7 @@ var data = {
         {
           "Order": 158,
           "FilmName": "A Good Person",
+          "FilmNameOriginal": "A Good Person",
           "Year": 2023,
           "LetterboxdIdentifier": "u8sw",
           "PrimaryLanguage": "English",
@@ -13933,6 +14090,7 @@ var data = {
         {
           "Order": 159,
           "FilmName": "Funny Face",
+          "FilmNameOriginal": "Funny Face",
           "Year": 1957,
           "LetterboxdIdentifier": "1Qpy",
           "PrimaryLanguage": "English",
@@ -13942,6 +14100,7 @@ var data = {
         {
           "Order": 160,
           "FilmName": "Causeway",
+          "FilmNameOriginal": "Causeway",
           "Year": 2022,
           "LetterboxdIdentifier": "lWQq",
           "PrimaryLanguage": "English",
@@ -13951,6 +14110,7 @@ var data = {
         {
           "Order": 161,
           "FilmName": "Safety Not Guaranteed",
+          "FilmNameOriginal": "Safety Not Guaranteed",
           "Year": 2012,
           "LetterboxdIdentifier": "2Y3M",
           "PrimaryLanguage": "English",
@@ -13960,6 +14120,7 @@ var data = {
         {
           "Order": 162,
           "FilmName": "Slums of Beverly Hills",
+          "FilmNameOriginal": "Slums of Beverly Hills",
           "Year": 1998,
           "LetterboxdIdentifier": "1NCO",
           "PrimaryLanguage": "English",
@@ -13969,6 +14130,7 @@ var data = {
         {
           "Order": 163,
           "FilmName": "Breakfast at Tiffany's",
+          "FilmNameOriginal": "Breakfast at Tiffany's",
           "Year": 1961,
           "LetterboxdIdentifier": "2aYS",
           "PrimaryLanguage": "English",
@@ -13978,11 +14140,42 @@ var data = {
         {
           "Order": 164,
           "FilmName": "Nomadland",
+          "FilmNameOriginal": "Nomadland",
           "Year": 2020,
           "LetterboxdIdentifier": "lnRy",
           "PrimaryLanguage": "English",
           "PosterUrl": "/8Vc5EOUEIF1EUXuX9eLFf7BvN3P.jpg",
-          "RatingSelf": 0
+          "RatingSelf": 4
+        },
+        {
+          "Order": 165,
+          "FilmName": "Cl\u00E9o from 5 to 7",
+          "FilmNameOriginal": "Cl\u00E9o de 5 \u00E0 7",
+          "Year": 1962,
+          "LetterboxdIdentifier": "2agm",
+          "PrimaryLanguage": "French",
+          "PosterUrl": "/oelBStY4xpguaplRv15P3Za7Xsr.jpg",
+          "RatingSelf": 4
+        },
+        {
+          "Order": 166,
+          "FilmName": "Thelma",
+          "FilmNameOriginal": "Thelma",
+          "Year": 2017,
+          "LetterboxdIdentifier": "e7Ce",
+          "PrimaryLanguage": "Norwegian",
+          "PosterUrl": "/yzSfG8TLAqw7nMQh2lxirQkQpgs.jpg",
+          "RatingSelf": 4
+        },
+        {
+          "Order": 167,
+          "FilmName": "Lady Macbeth",
+          "FilmNameOriginal": "Lady Macbeth",
+          "Year": 2016,
+          "LetterboxdIdentifier": "erJk",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/xWTJbhTwSTJmhLlX5xAOxPhdnXc.jpg",
+          "RatingSelf": 3
         }
       ]
     }

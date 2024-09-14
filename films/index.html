@@ -405,9 +405,14 @@
 					details += '&nbsp;';
 				}
 
+                var title = lbList.Entries[film].FilmName;
+                if (lbList.Entries[film].FilmNameOriginal != lbList.Entries[film].FilmName) {
+                    title = lbList.Entries[film].FilmNameOriginal + '<br>(&quot;' + lbList.Entries[film].FilmName + '&quot;)';
+                }
+
 				// <a href="https://boxd.it/' + lbList.Entries[film].LetterboxdIdentifier + '">' + lbList.Entries[film].FilmName + '</a>
 				insideGallery.append(
-					'<div class="item ttt" data-tooltip="' + lbList.Entries[film].FilmName + '">' +
+                    '<div class="item ttt" data-tooltip="' + title + '">' +
 					'<div class="poster"><a target="_blank" href="https://boxd.it/' + lbList.Entries[film].LetterboxdIdentifier + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + lbList.Entries[film].PosterUrl + '"></a></div>' +
 					'<div class="details">' + details + '<br/></div>' +
 					'</a></div>');
@@ -437,10 +442,15 @@
 					langInfo = '<td>' + lang + '</td>';
 				}
 
+                var title = lbList.Entries[film].FilmName;
+                if (lbList.Entries[film].FilmNameOriginal != lbList.Entries[film].FilmName) {
+                    title = lbList.Entries[film].FilmNameOriginal + '<br>(&quot;' + lbList.Entries[film].FilmName + '&quot;)';
+                }
+
 				tbody.append(
 					'<tr>' +
 					'<td class="right">' + lbList.Entries[film].Order + '</td>' +
-					'<td><a target="_blank" href="https://boxd.it/' + lbList.Entries[film].LetterboxdIdentifier + '">' + lbList.Entries[film].FilmName + '</a></td>' +
+					'<td><a target="_blank" href="https://boxd.it/' + lbList.Entries[film].LetterboxdIdentifier + '">' + title + '</a></td>' +
 					'<td class="right">' + lbList.Entries[film].Year + '</td>' +
                     '<td style="line-height: 0.8em;padding-top:5px;vertical-align:top">' + (lbList.Entries[film].RatingSelf > 0 ? '&#9670;'.repeat(lbList.Entries[film].RatingSelf) : '&nbsp;') + '</td>' +
 					langInfo +
@@ -502,9 +512,14 @@
 					details += '&nbsp;';
 				}
 
+				var title = film.FilmName;
+				if (film.FilmNameOriginal != film.FilmName) {
+                    title = film.FilmNameOriginal + '<br>(&quot;' + film.FilmName + '&quot;)';
+				}
+
 				// <a href="https://boxd.it/' + film.LetterboxdIdentifier + '">' + film.FilmName + '</a>
 				insideGallery.append(
-					'<div class="item ttt" data-tooltip="' + film.FilmName + '">' +
+					'<div class="item ttt" data-tooltip="' + title + '">' +
 					'<div class="poster"><a target="_blank" href="https://boxd.it/' + film.LetterboxdIdentifier + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.PosterUrl + '"></a></div>' +
 					'<div class="details">' + details + '<br/></div>' +
 					'</a></div>');
@@ -1076,8 +1091,12 @@
 			var displayed = 0;
 			for (var index of data.NewestReleasedFilms) {
 				var film = films[index];
+                var title = film.Title;
+                if (film.TitleOriginal != film.Title) {
+                    title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
+                }
 				insideGallery.append(
-					'<div class="item ttt" data-tooltip="' + film.Title + '">' +
+					'<div class="item ttt" data-tooltip="' + title + '">' +
 					'<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
                     '<div class="details">' + film.When + '<br>' + (film.RatingSelf > 0 ? '&#9670;'.repeat(film.RatingSelf) : '&nbsp;') + '</div>' +
 					'</a></div>');
@@ -1096,11 +1115,15 @@
                 var tooltip = '';
                 if (film.Poster.length > 0) {
                     tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>"';
+				}
+                var title = film.Title;
+                if (film.TitleOriginal != film.Title) {
+                    title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
                 }
 				tbody.append(
 					'<tr' + tooltip + '>' +
 					'<td class="right">' + film.When + '</td>' +
-					'<td><a target="_blank" href="https://boxd.it/' + film.Id + '">' + film.Title + '</a></td>' +
+					'<td><a target="_blank" href="https://boxd.it/' + film.Id + '">' + title + '</a></td>' +
 					'</tr>');
 			}
 
@@ -1137,9 +1160,13 @@
 
 			var displayed = 0;
 			for (var index of data.OldestReleasedFilms) {
-                var film = films[index];
+				var film = films[index];
+                var title = film.Title;
+                if (film.TitleOriginal != film.Title) {
+                    title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
+                }
 				insideGallery.append(
-					'<div class="item ttt" data-tooltip="' + film.Title + '">' +
+					'<div class="item ttt" data-tooltip="' + title + '">' +
 					'<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
                     '<div class="details">' + film.When + '<br>' + (film.RatingSelf > 0 ? '&#9670;'.repeat(film.RatingSelf) : '&nbsp;') + '</div>' +
 					'</a></div>');
@@ -1158,11 +1185,15 @@
                 var tooltip = '';
                 if (film.Poster.length > 0) {
                     tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>"';
+				}
+                var title = film.Title;
+                if (film.TitleOriginal != film.Title) {
+                    title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
                 }
 				tbody.append(
 					'<tr' + tooltip + '>' +
 					'<td class="right">' + film.When + '</td>' +
-					'<td><a target="_blank" href="https://boxd.it/' + film.Id + '">' + film.Title + '</a></td>' +
+					'<td><a target="_blank" href="https://boxd.it/' + film.Id + '">' + title + '</a></td>' +
 					'</tr>');
 			}
 
@@ -1235,7 +1266,7 @@
 
             createNewTable();
 
-            thead.append('<tr class="topheader"><th colspan="2">Top ' + galleryAmount + ' Shortest Film Titles</th></tr>');
+            thead.append('<tr class="topheader"><th colspan="2">Film Titles: 3 Characters or Fewer</th></tr>');
             thead.append('<tr class="bottomheader"><th>Year</th><th style="width:200px;">Title</th></tr>');
 
 			displayed = 0;
@@ -1303,11 +1334,15 @@
 			var displayed = 0;
 			for (var index of data.LongestFilms) {
 				var film = films[index];
+                var title = film.Title;
+                if (film.TitleOriginal != film.Title) {
+                    title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
+                }
 				var hours = 0, minutes = 0;
 				hours = Math.floor(film.Minutes / 60);
 				minutes = film.Minutes - (hours * 60);
 				insideGallery.append(
-					'<div class="item ttt" data-tooltip="' + film.Title + '">' +
+					'<div class="item ttt" data-tooltip="' + title + '">' +
 					'<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
                     '<div class="details">' + hours + 'h ' + String(minutes).padStart(2, '0') + 'm<br/>' + film.Year + '<br>' + (film.RatingSelf > 0 ? '&#9670;'.repeat(film.RatingSelf) : '&nbsp;') + '</div>' +
 					'</a></div>');
@@ -1434,9 +1469,13 @@
                 var film = films[index];
 				var hours = 0, minutes = 0;
                 hours = Math.floor(film.Minutes / 60);
-                minutes = film.Minutes - (hours * 60);
+				minutes = film.Minutes - (hours * 60);
+                var title = film.Title;
+                if (film.TitleOriginal != film.Title) {
+                    title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
+                }
 				insideGallery.append(
-					'<div class="item ttt" data-tooltip="' + film.Title + '">' +
+					'<div class="item ttt" data-tooltip="' + title + '">' +
                     '<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
                     '<div class="details">' + hours + 'h ' + String(minutes).padStart(2, '0') + 'm<br/>' + film.Year + '<br>' + (film.RatingSelf > 0 ? '&#9670;'.repeat(film.RatingSelf) : '&nbsp;') + '</div>' +
 					'</a></div>');
@@ -1526,8 +1565,12 @@
 			var displayed = 0;
 			for (var index of data.MostWatchedFilms) {
 				var film = films[index];
+                var title = film.Title;
+                if (film.TitleOriginal != film.Title) {
+                    title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
+                }
 				insideGallery.append(
-                    '<div class="item ttt" data-tooltip="' + film.Title + '">' +
+                    '<div class="item ttt" data-tooltip="' + title + '">' +
                     '<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
                     '<div class="details ttt" data-tooltip="' + film.Watched.toLocaleString() + '">' + formatNumber(film.Watched) + '<br/>' + film.Year + '<br>' + (film.RatingSelf > 0 ? '&#9670;'.repeat(film.RatingSelf) : '&nbsp;') + '</div>' +
 					'</a></div>');
@@ -1545,9 +1588,13 @@
 
 			displayed = 0;
 			for (var index of data.LeastWatchedFilms) {
-                var film = films[index];
+				var film = films[index];
+                var title = film.Title;
+                if (film.TitleOriginal != film.Title) {
+                    title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
+                }
                 insideGallery.append(
-                    '<div class="item ttt" data-tooltip="' + film.Title + '">' +
+                    '<div class="item ttt" data-tooltip="' + title + '">' +
                     '<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
                     '<div class="details ttt" data-tooltip="' + film.Watched.toLocaleString() + '">' + formatNumber(film.Watched) + '<br/>' + film.Year + '<br>' + (film.RatingSelf > 0 ? '&#9670;'.repeat(film.RatingSelf) : '&nbsp;') + '</div>' +
                     '</a></div>');
@@ -1574,7 +1621,11 @@
 
 			var displayed = 0;
 			for (var index of data.HighestRatedFilms) {
-                var film = films[index];
+				var film = films[index];
+                var title = film.Title;
+                if (film.TitleOriginal != film.Title) {
+                    title = film.TitleOriginal + '<br>(&quot;' + title + '&quot;)';
+                }
 				insideGallery.append(
 					'<div class="item ttt" data-tooltip="' + film.Title + '">' +
                     '<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
@@ -1593,9 +1644,13 @@
 
 			displayed = 0;
 			for (var index of data.LowestRatedFilms) {
-                var film = films[index];
+				var film = films[index];
+                var title = film.Title;
+                if (film.TitleOriginal != film.Title) {
+                    title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
+                }
                 insideGallery.append(
-                    '<div class="item ttt" data-tooltip="' + film.Title + '">' +
+                    '<div class="item ttt" data-tooltip="' + title + '">' +
                     '<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
                     '<div class="details">' + film.RatingLetterboxd + '<br/>' + film.Year + '<br>' + (film.RatingSelf > 0 ? '&#9670;'.repeat(film.RatingSelf) : '&nbsp;') + '</div>');
                 displayed++;
