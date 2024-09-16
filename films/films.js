@@ -5940,7 +5940,7 @@ var films = [
     "When": "2007-09-26"
   },
   {
-    "Title": "Run, Fatboy, Run",
+    "Title": "Run Fatboy Run",
     "TitleOriginal": "Run Fatboy Run",
     "RatingSelf": null,
     "RatingLetterboxd": 3.02,
@@ -9710,7 +9710,7 @@ var films = [
   {
     "Title": "A Trip to the Moon",
     "TitleOriginal": "Le Voyage dans la Lune",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 3.99,
     "Minutes": 15,
     "Watched": 399517,
@@ -11158,5 +11158,101 @@ var films = [
     "Poster": "/xWTJbhTwSTJmhLlX5xAOxPhdnXc.jpg",
     "Year": 2016,
     "When": "2016-12-12"
+  },
+  {
+    "Title": "Pan's Labyrinth",
+    "TitleOriginal": "El laberinto del fauno",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 4.16,
+    "Minutes": 118,
+    "Watched": 1081092,
+    "Id": "28No",
+    "Poster": "/s8C4whhKtDaJvMDcyiMvx3BIF5F.jpg",
+    "Year": 2006,
+    "When": "2006-10-10"
+  },
+  {
+    "Title": "The Eternal Memory",
+    "TitleOriginal": "La memoria infinita",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.83,
+    "Minutes": 85,
+    "Watched": 27698,
+    "Id": "D4g0",
+    "Poster": "/dKIcHpK6EtKocvE2PHVfmkYtrdK.jpg",
+    "Year": 2023,
+    "When": "2023-08-11"
+  },
+  {
+    "Title": "Mulholland Drive",
+    "TitleOriginal": "Mulholland Drive",
+    "RatingSelf": 5,
+    "RatingLetterboxd": 4.24,
+    "Minutes": 147,
+    "Watched": 893310,
+    "Id": "297o",
+    "Poster": "/tVxGt7uffLVhIIcwuldXOMpFBPX.jpg",
+    "Year": 2001,
+    "When": "2001-06-06"
+  },
+  {
+    "Title": "Friends: The Reunion",
+    "TitleOriginal": "Friends: The Reunion",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.60,
+    "Minutes": 104,
+    "Watched": 160518,
+    "Id": "pOQq",
+    "Poster": "/bT3c4TSOP8vBmMoXZRDPTII6eDa.jpg",
+    "Year": 2021,
+    "When": "2021-05-27"
+  },
+  {
+    "Title": "The Listener",
+    "TitleOriginal": "The Listener",
+    "RatingSelf": 2,
+    "RatingLetterboxd": 3.19,
+    "Minutes": 96,
+    "Watched": 1054,
+    "Id": "yqSU",
+    "Poster": "/6ldRGB2xBeXJKxo5KqUOZcq35rW.jpg",
+    "Year": 2022,
+    "When": "2024-03-29"
+  },
+  {
+    "Title": "Sometimes I Think About Dying",
+    "TitleOriginal": "Sometimes I Think About Dying",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.59,
+    "Minutes": 94,
+    "Watched": 36709,
+    "Id": "xGlg",
+    "Poster": "/vpcjCTzVoxoxIBmBGpjGrWL4JIV.jpg",
+    "Year": 2023,
+    "When": "2024-01-10"
+  },
+  {
+    "Title": "This Beautiful Fantastic",
+    "TitleOriginal": "This Beautiful Fantastic",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.34,
+    "Minutes": 100,
+    "Watched": 15533,
+    "Id": "bRx4",
+    "Poster": "/22b9jLGJ8OVzlEnWzqF0yRy5Na3.jpg",
+    "Year": 2016,
+    "When": "2016-10-20"
+  },
+  {
+    "Title": "Orlando",
+    "TitleOriginal": "Orlando",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.89,
+    "Minutes": 90,
+    "Watched": 61275,
+    "Id": "1Z1K",
+    "Poster": "/rlwntsY2nG4w4PyNxWaMcAkyUwd.jpg",
+    "Year": 1992,
+    "When": "1992-12-11"
   }
 ]
