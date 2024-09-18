@@ -1,51 +1,51 @@
 var data = {
-  "LastUpdated": "16 Sep 2024",
+  "LastUpdated": "19 Sep 2024",
   "Username": "LaLunaLlena",
-  "TotalFilms": 938,
-  "RatedFilms": 279,
-  "FilmsWithGenres": 936,
-  "TotalMinutes": 100881,
-  "FilmsWithRuntime": 936,
-  "TotalMinutesFull": 99983,
-  "FilmsWithRuntimeFull": 904,
-  "AverageFilmYearMean": 1999.82302771855,
+  "TotalFilms": 939,
+  "RatedFilms": 292,
+  "FilmsWithGenres": 938,
+  "TotalMinutes": 101279,
+  "FilmsWithRuntime": 938,
+  "TotalMinutesFull": 100553,
+  "FilmsWithRuntimeFull": 911,
+  "AverageFilmYearMean": 2000.2321618743345,
   "AverageFilmYearMedian": 2004,
   "AverageFilmYearMode": "2007",
   "Genres": {
     "Action": {
       "Count": 160,
-      "RatingCount": 17,
-      "RatingTotal": 42
+      "RatingCount": 19,
+      "RatingTotal": 48
     },
     "Adventure": {
       "Count": 154,
       "RatingCount": 24,
-      "RatingTotal": 86
+      "RatingTotal": 85
     },
     "Animation": {
-      "Count": 46,
+      "Count": 45,
       "RatingCount": 8,
       "RatingTotal": 21
     },
     "Comedy": {
       "Count": 277,
-      "RatingCount": 67,
-      "RatingTotal": 221
+      "RatingCount": 71,
+      "RatingTotal": 230
     },
     "Crime": {
-      "Count": 170,
-      "RatingCount": 34,
-      "RatingTotal": 115
+      "Count": 171,
+      "RatingCount": 38,
+      "RatingTotal": 126
     },
     "Documentary": {
-      "Count": 50,
+      "Count": 48,
       "RatingCount": 13,
       "RatingTotal": 42
     },
     "Drama": {
-      "Count": 484,
-      "RatingCount": 186,
-      "RatingTotal": 702
+      "Count": 488,
+      "RatingCount": 190,
+      "RatingTotal": 713
     },
     "Family": {
       "Count": 79,
@@ -58,14 +58,14 @@ var data = {
       "RatingTotal": 79
     },
     "History": {
-      "Count": 36,
+      "Count": 37,
       "RatingCount": 12,
-      "RatingTotal": 54
+      "RatingTotal": 53
     },
     "Horror": {
-      "Count": 101,
-      "RatingCount": 39,
-      "RatingTotal": 128
+      "Count": 103,
+      "RatingCount": 43,
+      "RatingTotal": 141
     },
     "Music": {
       "Count": 16,
@@ -74,8 +74,8 @@ var data = {
     },
     "Mystery": {
       "Count": 87,
-      "RatingCount": 25,
-      "RatingTotal": 92
+      "RatingCount": 26,
+      "RatingTotal": 94
     },
     "Romance": {
       "Count": 134,
@@ -84,23 +84,23 @@ var data = {
     },
     "Science Fiction": {
       "Count": 103,
-      "RatingCount": 26,
-      "RatingTotal": 94
+      "RatingCount": 27,
+      "RatingTotal": 96
     },
     "Thriller": {
-      "Count": 262,
-      "RatingCount": 55,
-      "RatingTotal": 180
+      "Count": 263,
+      "RatingCount": 62,
+      "RatingTotal": 198
     },
     "TV Movie": {
       "Count": 8,
-      "RatingCount": 4,
-      "RatingTotal": 10
+      "RatingCount": 5,
+      "RatingTotal": 14
     },
     "War": {
       "Count": 31,
-      "RatingCount": 9,
-      "RatingTotal": 38
+      "RatingCount": 10,
+      "RatingTotal": 41
     },
     "Western": {
       "Count": 4,
@@ -108,12 +108,12 @@ var data = {
       "RatingTotal": 4
     }
   },
-  "DirectorTotalAll": 1026,
-  "DirectorTotalFemale": 111,
-  "DirectorTotalMale": 886,
+  "DirectorTotalAll": 1028,
+  "DirectorTotalFemale": 112,
+  "DirectorTotalMale": 888,
   "DirectorTotalNonBinary": 1,
   "DirectorUniqueAll": 686,
-  "DirectorUniqueFemale": 92,
+  "DirectorUniqueFemale": 93,
   "DirectorUniqueMale": 567,
   "DirectorUniqueNonBinary": 1,
   "DirectorAll": [
@@ -562,6 +562,12 @@ var data = {
       "Gender": 2
     },
     {
+      "FullName": "Tony Scott",
+      "Amount": 3,
+      "Poster": "/zEEbiNa8Pqw3U6pZ8Z2y3dlJJnC.jpg",
+      "Gender": 2
+    },
+    {
       "FullName": "Wes Craven",
       "Amount": 3,
       "Poster": "/eqwl6owrYykeTGTpKxwcAkbEJmg.jpg",
@@ -751,6 +757,12 @@ var data = {
       "FullName": "George Miller",
       "Amount": 2,
       "Poster": "/35NQ8HjFXQlGYDz9UkhT08lKl5C.jpg",
+      "Gender": 2
+    },
+    {
+      "FullName": "Georges M\u00E9li\u00E8s",
+      "Amount": 2,
+      "Poster": "/acx5saf22Qj6FV5WAsacRHlZAMn.jpg",
       "Gender": 2
     },
     {
@@ -1069,12 +1081,6 @@ var data = {
       "FullName": "Tom Six",
       "Amount": 2,
       "Poster": "/rp9BA1HtLeiAWOzM4IbrfrfLJ0l.jpg",
-      "Gender": 2
-    },
-    {
-      "FullName": "Tony Scott",
-      "Amount": 2,
-      "Poster": "/zEEbiNa8Pqw3U6pZ8Z2y3dlJJnC.jpg",
       "Gender": 2
     },
     {
@@ -1557,6 +1563,12 @@ var data = {
       "FullName": "Rachel Lambert",
       "Amount": 1,
       "Poster": "/9fT70WLvScXPErEhmCHNmhrXDay.jpg",
+      "Gender": 0
+    },
+    {
+      "FullName": "Rebecca Hall",
+      "Amount": 1,
+      "Poster": "/coC58ANiDbqRIyle5zEl9QDektf.jpg",
       "Gender": 0
     },
     {
@@ -2078,6 +2090,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Tony Scott",
+      "Amount": 3,
+      "Poster": "/zEEbiNa8Pqw3U6pZ8Z2y3dlJJnC.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Wes Craven",
       "Amount": 3,
       "Poster": "/eqwl6owrYykeTGTpKxwcAkbEJmg.jpg",
@@ -2243,6 +2261,12 @@ var data = {
       "FullName": "George Miller",
       "Amount": 2,
       "Poster": "/35NQ8HjFXQlGYDz9UkhT08lKl5C.jpg",
+      "Gender": 0
+    },
+    {
+      "FullName": "Georges M\u00E9li\u00E8s",
+      "Amount": 2,
+      "Poster": "/acx5saf22Qj6FV5WAsacRHlZAMn.jpg",
       "Gender": 0
     },
     {
@@ -2528,12 +2552,6 @@ var data = {
       "Gender": 0
     },
     {
-      "FullName": "Tony Scott",
-      "Amount": 2,
-      "Poster": "/zEEbiNa8Pqw3U6pZ8Z2y3dlJJnC.jpg",
-      "Gender": 0
-    },
-    {
       "FullName": "William Wyler",
       "Amount": 2,
       "Poster": "/5g7xJnlLj3Vyph1WE6N4ak4K3la.jpg",
@@ -2560,12 +2578,12 @@ var data = {
       "Gender": 0
     }
   ],
-  "ProtagonistTotalAll": 930,
-  "ProtagonistTotalFemale": 293,
+  "ProtagonistTotalAll": 935,
+  "ProtagonistTotalFemale": 298,
   "ProtagonistTotalMale": 620,
   "ProtagonistTotalNonBinary": 5,
-  "ProtagonistUniqueAll": 595,
-  "ProtagonistUniqueFemale": 211,
+  "ProtagonistUniqueAll": 598,
+  "ProtagonistUniqueFemale": 214,
   "ProtagonistUniqueMale": 370,
   "ProtagonistUniqueNonBinary": 3,
   "ProtagonistAll": [
@@ -2678,6 +2696,12 @@ var data = {
       "Gender": 2
     },
     {
+      "FullName": "Aubrey Plaza",
+      "Amount": 5,
+      "Poster": "9vNsQGpeWscRRZq00IN87bxtC98.jpg",
+      "Gender": 1
+    },
+    {
       "FullName": "Christian Bale",
       "Amount": 5,
       "Poster": "/3qx2QFUbG6t6IlzR0F9k3Z6Yhf7.jpg",
@@ -2700,12 +2724,6 @@ var data = {
       "Amount": 5,
       "Poster": "/3vypmub75rLItlC51uJUurNYkW0.jpg",
       "Gender": 2
-    },
-    {
-      "FullName": "Aubrey Plaza",
-      "Amount": 4,
-      "Poster": "9vNsQGpeWscRRZq00IN87bxtC98.jpg",
-      "Gender": 1
     },
     {
       "FullName": "Bj\u00F6rk",
@@ -3404,6 +3422,12 @@ var data = {
       "Gender": 2
     },
     {
+      "FullName": "Tessa Thompson",
+      "Amount": 2,
+      "Poster": "t7p0xFHeK4qP6UmPiNe8wJvrNiQ.jpg",
+      "Gender": 1
+    },
+    {
       "FullName": "Thomasin McKenzie",
       "Amount": 2,
       "Poster": "/WOpnEFG5Q8LWxP81MtUrskmVox.jpg",
@@ -3472,15 +3496,15 @@ var data = {
       "Gender": 0
     },
     {
-      "FullName": "Julia Garner",
+      "FullName": "Aubrey Plaza",
       "Amount": 5,
-      "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
+      "Poster": "9vNsQGpeWscRRZq00IN87bxtC98.jpg",
       "Gender": 0
     },
     {
-      "FullName": "Aubrey Plaza",
-      "Amount": 4,
-      "Poster": "9vNsQGpeWscRRZq00IN87bxtC98.jpg",
+      "FullName": "Julia Garner",
+      "Amount": 5,
+      "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
       "Gender": 0
     },
     {
@@ -3688,6 +3712,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Tessa Thompson",
+      "Amount": 2,
+      "Poster": "t7p0xFHeK4qP6UmPiNe8wJvrNiQ.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Thomasin McKenzie",
       "Amount": 2,
       "Poster": "/WOpnEFG5Q8LWxP81MtUrskmVox.jpg",
@@ -3889,6 +3919,12 @@ var data = {
       "FullName": "Catherine Clinch",
       "Amount": 1,
       "Poster": "/945TtPrgJphkrDkpQPARCNUnSze.jpg",
+      "Gender": 0
+    },
+    {
+      "FullName": "Catherine Deneuve",
+      "Amount": 1,
+      "Poster": "/5IThAorp3R4bPmkIhe7snFFo2YU.jpg",
       "Gender": 0
     },
     {
@@ -4132,6 +4168,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Jeanne Calvi\u00E8re",
+      "Amount": 1,
+      "Poster": "/aN1NqKOLHIgT2Pe0VDPJYvsWmhs.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Jennifer Aniston",
       "Amount": 1,
       "Poster": "/qPXG41rYdUGldZhMhuZFvmpZKRp.jpg",
@@ -4177,6 +4219,12 @@ var data = {
       "FullName": "Jessica Chastain",
       "Amount": 1,
       "Poster": "/vOFrDeYXILnj747dOleaNh4jK3l.jpg",
+      "Gender": 0
+    },
+    {
+      "FullName": "Jessica Harper",
+      "Amount": 1,
+      "Poster": "/sSTbKuf4bY83cSRx9lmVdGobcsg.jpg",
       "Gender": 0
     },
     {
@@ -4681,12 +4729,6 @@ var data = {
       "FullName": "Teri Horton",
       "Amount": 1,
       "Poster": "",
-      "Gender": 0
-    },
-    {
-      "FullName": "Tessa Thompson",
-      "Amount": 1,
-      "Poster": "/7IDARj5sBzK3xlAQ6YSbNflBZIv.jpg",
       "Gender": 0
     },
     {
@@ -5348,13 +5390,13 @@ var data = {
       "Gender": 0
     }
   ],
-  "TopCastTotalAll": 2769,
-  "TopCastTotalFemale": 1020,
-  "TopCastTotalMale": 1674,
+  "TopCastTotalAll": 2784,
+  "TopCastTotalFemale": 1030,
+  "TopCastTotalMale": 1679,
   "TopCastTotalNonBinary": 10,
-  "TopCastUniqueAll": 1780,
-  "TopCastUniqueFemale": 683,
-  "TopCastUniqueMale": 1028,
+  "TopCastUniqueAll": 1788,
+  "TopCastUniqueFemale": 689,
+  "TopCastUniqueMale": 1030,
   "TopCastUniqueNonBinary": 6,
   "TopCastAll": [
     {
@@ -5646,6 +5688,12 @@ var data = {
       "Gender": 1
     },
     {
+      "FullName": "Aubrey Plaza",
+      "Amount": 5,
+      "Poster": "9vNsQGpeWscRRZq00IN87bxtC98.jpg",
+      "Gender": 1
+    },
+    {
       "FullName": "Ben Kingsley",
       "Amount": 5,
       "Poster": "/vQtBqpF2HDdzbfXHDzR4u37i1Ac.jpg",
@@ -5782,12 +5830,6 @@ var data = {
       "Amount": 5,
       "Poster": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
       "Gender": 2
-    },
-    {
-      "FullName": "Aubrey Plaza",
-      "Amount": 4,
-      "Poster": "9vNsQGpeWscRRZq00IN87bxtC98.jpg",
-      "Gender": 1
     },
     {
       "FullName": "Audrey Hepburn",
@@ -6024,6 +6066,12 @@ var data = {
       "Gender": 2
     },
     {
+      "FullName": "Susan Sarandon",
+      "Amount": 4,
+      "Poster": "/oHYYL8bNakAREaLUBtMul5uMG0A.jpg",
+      "Gender": 1
+    },
+    {
       "FullName": "Sylvester Stallone",
       "Amount": 4,
       "Poster": "/Aprx4oBGwdTPHqlfcYbjWlCK3aI.jpg",
@@ -6146,6 +6194,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Aubrey Plaza",
+      "Amount": 5,
+      "Poster": "9vNsQGpeWscRRZq00IN87bxtC98.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Carrie-Anne Moss",
       "Amount": 5,
       "Poster": "/xD4jTA3KmVp5Rq3aHcymL9DUGjD.jpg",
@@ -6203,12 +6257,6 @@ var data = {
       "FullName": "Thora Birch",
       "Amount": 5,
       "Poster": "dENdXxclc0NZSFDii6hGnXsEIAs.jpg",
-      "Gender": 0
-    },
-    {
-      "FullName": "Aubrey Plaza",
-      "Amount": 4,
-      "Poster": "9vNsQGpeWscRRZq00IN87bxtC98.jpg",
       "Gender": 0
     },
     {
@@ -6287,6 +6335,12 @@ var data = {
       "FullName": "Margot Robbie",
       "Amount": 4,
       "Poster": "/euDPyqLnuwaWMHajcU3oZ9uZezR.jpg",
+      "Gender": 0
+    },
+    {
+      "FullName": "Susan Sarandon",
+      "Amount": 4,
+      "Poster": "/oHYYL8bNakAREaLUBtMul5uMG0A.jpg",
       "Gender": 0
     },
     {
@@ -6458,12 +6512,6 @@ var data = {
       "Gender": 0
     },
     {
-      "FullName": "Susan Sarandon",
-      "Amount": 3,
-      "Poster": "/oHYYL8bNakAREaLUBtMul5uMG0A.jpg",
-      "Gender": 0
-    },
-    {
       "FullName": "Thandiwe Newton",
       "Amount": 3,
       "Poster": "/5BCyGUiUsXD6XzJgPPolqgWFFtj.jpg",
@@ -6587,6 +6635,12 @@ var data = {
       "FullName": "Bryce Dallas Howard",
       "Amount": 2,
       "Poster": "/qQX1rhQaJ1G8eMG2RknFKiXfNRc.jpg",
+      "Gender": 0
+    },
+    {
+      "FullName": "Catherine Deneuve",
+      "Amount": 2,
+      "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
       "Gender": 0
     },
     {
@@ -7013,6 +7067,12 @@ var data = {
       "FullName": "T\u00E9a Leoni",
       "Amount": 2,
       "Poster": "/1Jb6J8Q6zW8IAWMjrCd3c0NIlKL.jpg",
+      "Gender": 0
+    },
+    {
+      "FullName": "Tessa Thompson",
+      "Amount": 2,
+      "Poster": "t7p0xFHeK4qP6UmPiNe8wJvrNiQ.jpg",
       "Gender": 0
     },
     {
@@ -7890,13 +7950,13 @@ var data = {
       "Gender": 0
     }
   ],
-  "EntireCastTotalAll": 39384,
-  "EntireCastTotalFemale": 9467,
-  "EntireCastTotalMale": 20277,
+  "EntireCastTotalAll": 39521,
+  "EntireCastTotalFemale": 9507,
+  "EntireCastTotalMale": 20327,
   "EntireCastTotalNonBinary": 27,
-  "EntireCastUniqueAll": 30939,
-  "EntireCastUniqueFemale": 7395,
-  "EntireCastUniqueMale": 14184,
+  "EntireCastUniqueAll": 31047,
+  "EntireCastUniqueFemale": 7425,
+  "EntireCastUniqueMale": 14215,
   "EntireCastUniqueNonBinary": 17,
   "EntireCastAll": [
     {
@@ -8014,6 +8074,12 @@ var data = {
       "Gender": 2
     },
     {
+      "FullName": "Willem Dafoe",
+      "Amount": 12,
+      "Poster": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
+      "Gender": 2
+    },
+    {
       "FullName": "Bill Paxton",
       "Amount": 11,
       "Poster": "/aLdNe6mt1cSi2zWlUYRregzfis5.jpg",
@@ -8053,12 +8119,6 @@ var data = {
       "FullName": "Tom Hanks",
       "Amount": 11,
       "Poster": "/eKF1sGJRrZJbfBG1KirPt1cfNd3.jpg",
-      "Gender": 2
-    },
-    {
-      "FullName": "Willem Dafoe",
-      "Amount": 11,
-      "Poster": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
       "Gender": 2
     },
     {
@@ -8498,6 +8558,12 @@ var data = {
       "Amount": 7,
       "Poster": "/6hnYeHa7Rc1w1MmQ3JsLSIb7yCX.jpg",
       "Gender": 1
+    },
+    {
+      "FullName": "Bill Camp",
+      "Amount": 7,
+      "Poster": "/yNUJsgkJcJXi5CK3Pk77DmUU8G8.jpg",
+      "Gender": 2
     },
     {
       "FullName": "Bill Murray",
@@ -9120,6 +9186,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Aubrey Plaza",
+      "Amount": 5,
+      "Poster": "9vNsQGpeWscRRZq00IN87bxtC98.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Beth Grant",
       "Amount": 5,
       "Poster": "/6THLoPYhIu422TqUmQDgnQRfYxA.jpg",
@@ -9524,6 +9596,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Willem Dafoe",
+      "Amount": 12,
+      "Poster": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Bill Paxton",
       "Amount": 11,
       "Poster": "/aLdNe6mt1cSi2zWlUYRregzfis5.jpg",
@@ -9557,12 +9635,6 @@ var data = {
       "FullName": "Tom Hanks",
       "Amount": 11,
       "Poster": "/eKF1sGJRrZJbfBG1KirPt1cfNd3.jpg",
-      "Gender": 0
-    },
-    {
-      "FullName": "Willem Dafoe",
-      "Amount": 11,
-      "Poster": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
       "Gender": 0
     },
     {
@@ -9920,6 +9992,12 @@ var data = {
       "Gender": 0
     },
     {
+      "FullName": "Bill Camp",
+      "Amount": 7,
+      "Poster": "/yNUJsgkJcJXi5CK3Pk77DmUU8G8.jpg",
+      "Gender": 0
+    },
+    {
       "FullName": "Bill Murray",
       "Amount": 7,
       "Poster": "/nnCsJc9x3ZiG3AFyiyc3FPehppy.jpg",
@@ -10269,18 +10347,18 @@ var data = {
     "1871": 0,
     "1872": 0,
     "1873": 0,
-    "1874": 1,
+    "1874": 0,
     "1875": 0,
     "1876": 0,
     "1877": 0,
-    "1878": 1,
+    "1878": 0,
     "1879": 0,
     "1880": 0,
     "1881": 0,
-    "1882": 1,
+    "1882": 0,
     "1883": 0,
     "1884": 0,
-    "1885": 1,
+    "1885": 0,
     "1886": 0,
     "1887": 0,
     "1888": 0,
@@ -10295,7 +10373,7 @@ var data = {
     "1897": 0,
     "1898": 0,
     "1899": 0,
-    "1900": 0,
+    "1900": 1,
     "1901": 0,
     "1902": 1,
     "1903": 0,
@@ -10372,13 +10450,13 @@ var data = {
     "1974": 3,
     "1975": 5,
     "1976": 4,
-    "1977": 2,
+    "1977": 3,
     "1978": 2,
     "1979": 5,
     "1980": 2,
     "1981": 1,
     "1982": 5,
-    "1983": 1,
+    "1983": 2,
     "1984": 6,
     "1985": 7,
     "1986": 7,
@@ -10416,19 +10494,19 @@ var data = {
     "2018": 18,
     "2019": 25,
     "2020": 7,
-    "2021": 13,
-    "2022": 19,
+    "2021": 14,
+    "2022": 20,
     "2023": 24,
     "2024": 8
   },
   "FilmsWatchedPerDecade": {
     "1870": {
-      "Count": 2,
+      "Count": 0,
       "RatingCount": 0,
       "RatingTotal": 0
     },
     "1880": {
-      "Count": 2,
+      "Count": 0,
       "RatingCount": 0,
       "RatingTotal": 0
     },
@@ -10438,7 +10516,7 @@ var data = {
       "RatingTotal": 0
     },
     "1900": {
-      "Count": 1,
+      "Count": 2,
       "RatingCount": 0,
       "RatingTotal": 0
     },
@@ -10473,34 +10551,34 @@ var data = {
       "RatingTotal": 52
     },
     "1970": {
-      "Count": 32,
-      "RatingCount": 4,
-      "RatingTotal": 15
+      "Count": 33,
+      "RatingCount": 8,
+      "RatingTotal": 29
     },
     "1980": {
-      "Count": 49,
-      "RatingCount": 9,
-      "RatingTotal": 34
+      "Count": 50,
+      "RatingCount": 10,
+      "RatingTotal": 39
     },
     "1990": {
       "Count": 167,
-      "RatingCount": 30,
-      "RatingTotal": 117
+      "RatingCount": 31,
+      "RatingTotal": 119
     },
     "2000": {
       "Count": 332,
-      "RatingCount": 42,
-      "RatingTotal": 131
+      "RatingCount": 44,
+      "RatingTotal": 134
     },
     "2010": {
       "Count": 213,
-      "RatingCount": 101,
-      "RatingTotal": 353
+      "RatingCount": 104,
+      "RatingTotal": 360
     },
     "2020": {
-      "Count": 71,
-      "RatingCount": 63,
-      "RatingTotal": 228
+      "Count": 73,
+      "RatingCount": 65,
+      "RatingTotal": 231
     }
   },
   "LongestFilms": [
@@ -10523,13 +10601,13 @@ var data = {
     9,
     226,
     125,
-    903,
+    900,
     767,
     228,
     134,
     645,
     61,
-    913,
+    909,
     50,
     483,
     644,
@@ -10553,7 +10631,7 @@ var data = {
     511,
     137,
     86,
-    932,
+    928,
     750,
     568,
     211,
@@ -10592,7 +10670,7 @@ var data = {
     177,
     182,
     759,
-    884,
+    883,
     604,
     308,
     4,
@@ -10675,7 +10753,7 @@ var data = {
     374,
     632,
     6,
-    905,
+    902,
     143,
     121,
     45,
@@ -10697,7 +10775,7 @@ var data = {
     140,
     87,
     91,
-    899,
+    896,
     753,
     751,
     71,
@@ -10711,13 +10789,13 @@ var data = {
     797,
     317,
     323,
-    893,
+    890,
     216,
     748,
     181,
     199,
     735,
-    881,
+    880,
     833,
     837,
     728,
@@ -10735,7 +10813,7 @@ var data = {
     776,
     368,
     741,
-    934,
+    930,
     225,
     813,
     720,
@@ -10756,10 +10834,9 @@ var data = {
     351,
     744,
     328,
-    902,
+    899,
     355,
     754,
-    891,
     292,
     369,
     414,
@@ -10768,15 +10845,16 @@ var data = {
     817,
     364,
     302,
-    906,
-    900,
+    903,
+    897,
     513,
     755,
     402,
-    895,
+    892,
     289,
     300,
     850,
+    938,
     372,
     472,
     774,
@@ -10794,7 +10872,6 @@ var data = {
     195,
     778,
     346,
-    911,
     370,
     169,
     867,
@@ -10804,10 +10881,11 @@ var data = {
     290,
     480,
     409,
-    936,
+    932,
     406,
     282,
-    883
+    882,
+    819
   ],
   "HighestRatedFilms": [
     846,
@@ -10841,7 +10919,7 @@ var data = {
     142,
     9,
     123,
-    896,
+    893,
     94,
     101,
     75,
@@ -10864,11 +10942,11 @@ var data = {
     78,
     65,
     4,
-    908,
+    905,
     48,
     792,
     44,
-    932,
+    928,
     789,
     674,
     226,
@@ -10887,7 +10965,7 @@ var data = {
     260,
     179,
     97,
-    927,
+    923,
     608,
     189,
     156,
@@ -10906,8 +10984,8 @@ var data = {
     281,
     53,
     3,
-    930,
-    905,
+    926,
+    902,
     849,
     351
   ],
@@ -10921,7 +10999,7 @@ var data = {
     304,
     487,
     392,
-    898,
+    895,
     507,
     148,
     603,
@@ -10932,7 +11010,7 @@ var data = {
     309,
     497,
     425,
-    895,
+    892,
     449,
     723,
     762,
@@ -10964,14 +11042,13 @@ var data = {
     348,
     679,
     492,
-    891,
     576,
     174,
     482,
     738,
     628,
     344,
-    906,
+    903,
     755,
     771,
     310,
@@ -10986,14 +11063,13 @@ var data = {
     508,
     588,
     641,
-    911,
     287,
     335,
     361,
     533,
     580,
     668,
-    880,
+    879,
     91,
     504,
     689,
@@ -11011,7 +11087,9 @@ var data = {
     456,
     460,
     203,
-    713
+    713,
+    446,
+    448
   ],
   "ShortestTitleFilms": [
     862,
@@ -11027,14 +11105,14 @@ var data = {
     188,
     693,
     742,
-    913,
+    909,
     497
   ],
   "LongestTitleFilms": [
     665,
     612,
     278,
-    892,
+    889,
     193,
     687,
     756,
@@ -11048,7 +11126,7 @@ var data = {
     292,
     626,
     189,
-    900,
+    897,
     361,
     643,
     196,
@@ -11062,11 +11140,11 @@ var data = {
     739,
     632,
     839,
-    893,
+    890,
     404,
     868,
     44,
-    915,
+    911,
     710,
     152,
     702,
@@ -11085,7 +11163,7 @@ var data = {
     431,
     536,
     563,
-    902,
+    899,
     575,
     801,
     134,
@@ -11111,7 +11189,7 @@ var data = {
     283,
     738,
     484,
-    935,
+    931,
     680,
     102,
     650,
@@ -11127,23 +11205,23 @@ var data = {
     802,
     734,
     695,
-    914,
+    910,
     215,
     253,
     180
   ],
   "NewestReleasedFilms": [
-    894,
+    891,
     863,
-    903,
+    900,
     810,
     0,
-    934,
+    930,
     203,
     70,
-    882,
-    893,
-    935,
+    881,
+    890,
+    931,
     2,
     822,
     20,
@@ -11153,18 +11231,18 @@ var data = {
     865,
     147,
     221,
-    892,
+    889,
     223,
-    888,
+    886,
     806,
-    931,
+    927,
     88,
     126,
     792,
     19,
     868,
     836,
-    919,
+    915,
     210,
     200,
     216,
@@ -11172,19 +11250,21 @@ var data = {
     191,
     182,
     826,
-    922,
+    918,
     84,
     194,
-    913,
+    909,
     211,
     106,
-    899,
+    934,
+    896,
     765,
     30,
     785,
     862,
     207,
-    877,
+    876,
+    936,
     848,
     867,
     15,
@@ -11194,10 +11274,10 @@ var data = {
     176,
     815,
     838,
-    933,
+    929,
     873,
     803,
-    926,
+    922,
     25,
     856,
     840,
@@ -11215,31 +11295,27 @@ var data = {
     781,
     139,
     158,
-    876,
+    875,
     21,
     779,
     241,
     134,
-    886,
+    884,
     86,
     82,
     853,
-    897,
+    894,
     213,
     782,
     783,
-    914,
+    910,
     771,
-    113,
-    236,
-    780
+    113
   ],
   "OldestReleasedFilms": [
-    875,
-    891,
-    911,
+    938,
     809,
-    921,
+    917,
     324,
     291,
     794,
@@ -11252,8 +11328,8 @@ var data = {
     218,
     608,
     842,
-    879,
-    896,
+    878,
+    893,
     184,
     205,
     686,
@@ -11263,32 +11339,32 @@ var data = {
     399,
     280,
     541,
-    908,
+    905,
     847,
     358,
     49,
     584,
     398,
-    901,
+    898,
     800,
     171,
-    917,
+    913,
     153,
     817,
     413,
     192,
-    920,
+    916,
     41,
     674,
     690,
     37,
     377,
-    925,
-    887,
-    927,
+    921,
+    885,
+    923,
     114,
     658,
-    909,
+    906,
     390,
     245,
     300,
@@ -11331,16 +11407,18 @@ var data = {
     509,
     56,
     599,
+    935,
     281,
     624,
     652,
-    709
+    709,
+    127
   ],
   "FilmsPerThirtyMinutes": {
-    "0": 20,
+    "0": 18,
     "30": 9,
     "60": 129,
-    "90": 512,
+    "90": 516,
     "120": 223,
     "150": 34,
     "180": 8,
@@ -11351,17 +11429,17 @@ var data = {
     "Cantonese": 1,
     "Czech": 2,
     "Danish": 1,
-    "English": 842,
+    "English": 844,
     "French": 24,
     "German": 4,
     "Hungarian": 1,
     "Icelandic": 1,
     "Irish": 1,
-    "Italian": 2,
+    "Italian": 3,
     "Japanese": 10,
     "Korean": 5,
     "Mandarin": 2,
-    "No Spoken Language": 23,
+    "No Spoken Language": 22,
     "Norwegian": 1,
     "Portuguese": 2,
     "Russian": 2,
@@ -11381,13 +11459,13 @@ var data = {
     "Czechia": 2,
     "Czechoslovakia": 2,
     "Denmark": 7,
-    "France": 37,
+    "France": 36,
     "Germany": 14,
     "Hong Kong": 2,
     "Hungary": 2,
     "Iceland": 2,
     "Ireland": 9,
-    "Italy": 3,
+    "Italy": 4,
     "Japan": 11,
     "Mali": 1,
     "Mexico": 1,
@@ -11409,8 +11487,8 @@ var data = {
     "Taiwan": 1,
     "Ukraine": 1,
     "United Arab Emirates": 1,
-    "United Kingdom": 163,
-    "United States of America": 754
+    "United Kingdom": 164,
+    "United States of America": 756
   },
   "FilmsPerCountryProduction": {
     "Angola": 1,
@@ -11419,7 +11497,7 @@ var data = {
     "Austria": 2,
     "Belgium": 11,
     "Brazil": 8,
-    "Canada": 44,
+    "Canada": 45,
     "Chile": 1,
     "China": 6,
     "Czechia": 5,
@@ -11428,7 +11506,7 @@ var data = {
     "Egypt": 1,
     "Ethiopia": 1,
     "Finland": 3,
-    "France": 88,
+    "France": 87,
     "Germany": 64,
     "Ghana": 1,
     "Greece": 4,
@@ -11439,7 +11517,7 @@ var data = {
     "Indonesia": 1,
     "Ireland": 14,
     "Israel": 1,
-    "Italy": 17,
+    "Italy": 18,
     "Japan": 14,
     "Jordan": 2,
     "Luxembourg": 1,
@@ -11469,8 +11547,8 @@ var data = {
     "Turkey": 2,
     "Ukraine": 2,
     "United Arab Emirates": 2,
-    "United Kingdom": 227,
-    "United States of America": 803
+    "United Kingdom": 228,
+    "United States of America": 805
   },
   "MostFrequentWords": {
     "movie": [
@@ -11496,7 +11574,7 @@ var data = {
       655,
       752,
       856,
-      914
+      910
     ],
     "american": [
       51,
@@ -11536,7 +11614,7 @@ var data = {
       626,
       678,
       818,
-      906
+      903
     ],
     "men": [
       41,
@@ -11584,7 +11662,7 @@ var data = {
       631,
       680,
       747,
-      877
+      876
     ],
     "world": [
       310,
@@ -11625,7 +11703,7 @@ var data = {
       516,
       559,
       597,
-      887
+      885
     ],
     "king": [
       122,
@@ -11640,8 +11718,8 @@ var data = {
       80,
       413,
       522,
-      888,
-      929
+      886,
+      925
     ],
     "last": [
       327,
@@ -11742,7 +11820,7 @@ var data = {
       229,
       342,
       801,
-      936
+      932
     ],
     "blue": [
       73,
@@ -11760,7 +11838,7 @@ var data = {
       66,
       72,
       500,
-      896
+      893
     ],
     "days": [
       155,
@@ -11778,7 +11856,7 @@ var data = {
       360,
       432,
       659,
-      915
+      911
     ],
     "free": [
       580,
@@ -11791,6 +11869,12 @@ var data = {
       289,
       394,
       487
+    ],
+    "hunger": [
+      90,
+      412,
+      707,
+      937
     ],
     "jones": [
       431,
@@ -11820,7 +11904,7 @@ var data = {
       79,
       144,
       418,
-      882
+      881
     ],
     "lord": [
       120,
@@ -11879,7 +11963,7 @@ var data = {
     "about": [
       57,
       663,
-      935
+      931
     ],
     "all": [
       2,
@@ -11889,7 +11973,7 @@ var data = {
     "america": [
       409,
       665,
-      902
+      899
     ],
     "an": [
       321,
@@ -11909,7 +11993,7 @@ var data = {
     "birds": [
       199,
       733,
-      909
+      906
     ],
     "bourne": [
       549,
@@ -11919,7 +12003,7 @@ var data = {
     "breakfast": [
       121,
       348,
-      925
+      921
     ],
     "butterfly": [
       146,
@@ -11974,7 +12058,7 @@ var data = {
     "furious": [
       432,
       659,
-      915
+      911
     ],
     "games": [
       90,
@@ -12000,11 +12084,6 @@ var data = {
       51,
       480,
       788
-    ],
-    "hunger": [
-      90,
-      412,
-      707
     ],
     "impossible": [
       609,
@@ -12064,7 +12143,7 @@ var data = {
     "not": [
       310,
       780,
-      923
+      919
     ],
     "now": [
       137,
@@ -12104,10 +12183,10 @@ var data = {
   },
   "Backdrops": [
     {
-      "ImageUrl": "/1jSXnWo7Nyh264EyxsUrZz3vqWS.jpg",
-      "FilmName": "Manifesto\u003Cbr/\u003E(2015)",
-      "LetterboxdId": "diI6",
-      "Colour": "#CA66A2 #8C336B"
+      "ImageUrl": "xZtBJlyGsnhoYxyGLh4dHUDuFcK.jpg",
+      "FilmName": "The Virgin Suicides\u003Cbr/\u003E(1999)",
+      "LetterboxdId": "28JG",
+      "Colour": "#4E5A89"
     }
   ],
   "Lists": [
@@ -12212,7 +12291,7 @@ var data = {
           "LetterboxdIdentifier": "tw4c",
           "PrimaryLanguage": "English",
           "PosterUrl": "/jQ0gylJMxWSL490sy0RrPj1Lj7e.jpg",
-          "RatingSelf": 5
+          "RatingSelf": 4
         },
         {
           "Order": 11,
@@ -12242,7 +12321,7 @@ var data = {
           "LetterboxdIdentifier": "4Xg0",
           "PrimaryLanguage": "English",
           "PosterUrl": "/46X1ei9uf13nkkr0OhWldGyr5Uh.jpg",
-          "RatingSelf": 0
+          "RatingSelf": 2
         },
         {
           "Order": 14,
@@ -13187,7 +13266,7 @@ var data = {
           "LetterboxdIdentifier": "hDMG",
           "PrimaryLanguage": "English",
           "PosterUrl": "/xTa9cLhGHfQ7084UvoPQ2bBXKqd.jpg",
-          "RatingSelf": 3
+          "RatingSelf": 4
         },
         {
           "Order": 57,
@@ -13437,7 +13516,7 @@ var data = {
           "LetterboxdIdentifier": "y9aw",
           "PrimaryLanguage": "Spanish",
           "PosterUrl": "/2e853FDVSIso600RqAMunPxiZjq.jpg",
-          "RatingSelf": 5
+          "RatingSelf": 4
         },
         {
           "Order": 82,
@@ -13807,7 +13886,7 @@ var data = {
           "LetterboxdIdentifier": "kiYC",
           "PrimaryLanguage": "English",
           "PosterUrl": "/yb6UB4WC3znlwU0L4AqMnjR9G9S.jpg",
-          "RatingSelf": 5
+          "RatingSelf": 4
         },
         {
           "Order": 119,
@@ -14368,6 +14447,46 @@ var data = {
           "PrimaryLanguage": "English",
           "PosterUrl": "/rlwntsY2nG4w4PyNxWaMcAkyUwd.jpg",
           "RatingSelf": 4
+        },
+        {
+          "Order": 175,
+          "FilmName": "Emily the Criminal",
+          "FilmNameOriginal": "Emily the Criminal",
+          "Year": 2022,
+          "LetterboxdIdentifier": "wBOq",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/hFuynYYxZIiWR4cRlwzmteH2diL.jpg",
+          "RatingSelf": 3
+        },
+        {
+          "Order": 176,
+          "FilmName": "Suspiria",
+          "FilmNameOriginal": "Suspiria",
+          "Year": 1977,
+          "LetterboxdIdentifier": "1SNW",
+          "PrimaryLanguage": "Italian",
+          "PosterUrl": "/5ya8jTbNZTrCFUx9OwpNBjCivXY.jpg",
+          "RatingSelf": 4
+        },
+        {
+          "Order": 177,
+          "FilmName": "Passing",
+          "FilmNameOriginal": "Passing",
+          "Year": 2021,
+          "LetterboxdIdentifier": "jKdM",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/jXp6ERnrFdG04Gli3d34GtANsuw.jpg",
+          "RatingSelf": 3
+        },
+        {
+          "Order": 178,
+          "FilmName": "The Hunger",
+          "FilmNameOriginal": "The Hunger",
+          "Year": 1983,
+          "LetterboxdIdentifier": "1Tk2",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/emOEOkrH4HT7dsjvIRbI9kaWUvL.jpg",
+          "RatingSelf": 5
         }
       ]
     }

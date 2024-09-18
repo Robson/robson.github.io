@@ -23,7 +23,7 @@
 }
 
 .tablesorter td:last-child .bar {
-	margin-right: 0;
+	xmargin-right: 0;
 }
 
 .tablesorter tr:last-child td {

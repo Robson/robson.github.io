@@ -410,7 +410,7 @@ var films = [
   {
     "Title": "The Whale",
     "TitleOriginal": "The Whale",
-    "RatingSelf": 5,
+    "RatingSelf": 4,
     "RatingLetterboxd": 3.66,
     "Minutes": 117,
     "Watched": 876304,
@@ -2666,7 +2666,7 @@ var films = [
   {
     "Title": "The Purge",
     "TitleOriginal": "The Purge",
-    "RatingSelf": null,
+    "RatingSelf": 2,
     "RatingLetterboxd": 2.71,
     "Minutes": 86,
     "Watched": 751829,
@@ -3386,7 +3386,7 @@ var films = [
   {
     "Title": "The Perfect Host",
     "TitleOriginal": "The Perfect Host",
-    "RatingSelf": null,
+    "RatingSelf": 3,
     "RatingLetterboxd": 3.14,
     "Minutes": 93,
     "Watched": 16304,
@@ -3962,7 +3962,7 @@ var films = [
   {
     "Title": "Dad's Army",
     "TitleOriginal": "Dad's Army",
-    "RatingSelf": null,
+    "RatingSelf": 3,
     "RatingLetterboxd": 3.31,
     "Minutes": 95,
     "Watched": 1518,
@@ -4706,7 +4706,7 @@ var films = [
   {
     "Title": "Psycho",
     "TitleOriginal": "Psycho",
-    "RatingSelf": null,
+    "RatingSelf": 2,
     "RatingLetterboxd": 2.32,
     "Minutes": 103,
     "Watched": 72799,
@@ -5846,7 +5846,7 @@ var films = [
   {
     "Title": "American Pie Presents: Beta House",
     "TitleOriginal": "American Pie Presents: Beta House",
-    "RatingSelf": null,
+    "RatingSelf": 1,
     "RatingLetterboxd": 2.14,
     "Minutes": 89,
     "Watched": 55325,
@@ -7502,7 +7502,7 @@ var films = [
   {
     "Title": "Duel",
     "TitleOriginal": "Duel",
-    "RatingSelf": null,
+    "RatingSelf": 4,
     "RatingLetterboxd": 3.81,
     "Minutes": 89,
     "Watched": 119259,
@@ -8174,7 +8174,7 @@ var films = [
   {
     "Title": "Snakes on a Plane",
     "TitleOriginal": "Snakes on a Plane",
-    "RatingSelf": null,
+    "RatingSelf": 2,
     "RatingLetterboxd": 2.45,
     "Minutes": 105,
     "Watched": 148979,
@@ -8858,7 +8858,7 @@ var films = [
   {
     "Title": "Jackass Presents: Bad Grandpa",
     "TitleOriginal": "Jackass Presents: Bad Grandpa",
-    "RatingSelf": null,
+    "RatingSelf": 2,
     "RatingLetterboxd": 2.80,
     "Minutes": 92,
     "Watched": 103903,
@@ -8870,7 +8870,7 @@ var films = [
   {
     "Title": "Ashens and the Quest for the Gamechild",
     "TitleOriginal": "Ashens and the Quest for the Gamechild",
-    "RatingSelf": 3,
+    "RatingSelf": null,
     "RatingLetterboxd": 3.24,
     "Minutes": 88,
     "Watched": 1767,
@@ -9062,7 +9062,7 @@ var films = [
   {
     "Title": "Cyberbully",
     "TitleOriginal": "Cyberbully",
-    "RatingSelf": null,
+    "RatingSelf": 2,
     "RatingLetterboxd": 2.85,
     "Minutes": 62,
     "Watched": 7807,
@@ -9494,7 +9494,7 @@ var films = [
   {
     "Title": "Eighth Grade",
     "TitleOriginal": "Eighth Grade",
-    "RatingSelf": 3,
+    "RatingSelf": 4,
     "RatingLetterboxd": 3.78,
     "Minutes": 94,
     "Watched": 561838,
@@ -9758,7 +9758,7 @@ var films = [
   {
     "Title": "Porridge",
     "TitleOriginal": "Porridge",
-    "RatingSelf": null,
+    "RatingSelf": 3,
     "RatingLetterboxd": 3.43,
     "Minutes": 93,
     "Watched": 1341,
@@ -9866,7 +9866,7 @@ var films = [
   {
     "Title": "Society of the Snow",
     "TitleOriginal": "La sociedad de la nieve",
-    "RatingSelf": 5,
+    "RatingSelf": 4,
     "RatingLetterboxd": 4.13,
     "Minutes": 144,
     "Watched": 869734,
@@ -10418,7 +10418,7 @@ var films = [
   {
     "Title": "Are You There God? It's Me, Margaret.",
     "TitleOriginal": "Are You There God? It's Me, Margaret.",
-    "RatingSelf": 5,
+    "RatingSelf": 4,
     "RatingLetterboxd": 3.80,
     "Minutes": 107,
     "Watched": 239369,
@@ -10498,18 +10498,6 @@ var films = [
     "Poster": "/8sxMhdn3i1Pn8OlGCBBjr9rjP1y.jpg",
     "Year": 1966,
     "When": "1966-12-30"
-  },
-  {
-    "Title": "Passage of Venus",
-    "TitleOriginal": "Passage de Venus",
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.40,
-    "Minutes": 1,
-    "Watched": 20377,
-    "Id": "ac9I",
-    "Poster": "/XWPDZzK7N2WQcejI8W96IxZEeP.jpg",
-    "Year": 1874,
-    "When": "1874-12-09"
   },
   {
     "Title": "System Crasher",
@@ -10620,18 +10608,6 @@ var films = [
     "When": "1998-07-29"
   },
   {
-    "Title": "Sallie Gardner at a Gallop",
-    "TitleOriginal": null,
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.72,
-    "Minutes": null,
-    "Watched": 59721,
-    "Id": "5QQi",
-    "Poster": null,
-    "Year": 1878,
-    "When": null
-  },
-  {
     "Title": "The Farewell",
     "TitleOriginal": "The Farewell",
     "RatingSelf": 4,
@@ -10690,18 +10666,6 @@ var films = [
     "Poster": "/v28hwu0wOhzPfhKfhnI7vZkRDxi.jpg",
     "Year": 2015,
     "When": "2017-05-10"
-  },
-  {
-    "Title": "The 1882 Transit of Venus",
-    "TitleOriginal": "The 1882 Transit of Venus",
-    "RatingSelf": null,
-    "RatingLetterboxd": 2.78,
-    "Minutes": 1,
-    "Watched": 4730,
-    "Id": "wA0O",
-    "Poster": "/hJoss3PUbYcRta0Jl9MAQu0giK.jpg",
-    "Year": 1882,
-    "When": "1882-12-06"
   },
   {
     "Title": "Humanist Vampire Seeking Consenting Suicidal Person",
@@ -10930,18 +10894,6 @@ var films = [
     "Poster": "/6gNXwSHxaksR1PjVZRqNapmkgj3.jpg",
     "Year": 2017,
     "When": "2017-12-08"
-  },
-  {
-    "Title": "L'Homme Machine",
-    "TitleOriginal": "L'Homme Machine",
-    "RatingSelf": null,
-    "RatingLetterboxd": 2.91,
-    "Minutes": 1,
-    "Watched": 12890,
-    "Id": "lwWW",
-    "Poster": "/vkxWQys2cqBU7JpWL4PWYG8Va9Z.jpg",
-    "Year": 1885,
-    "When": "1885-01-01"
   },
   {
     "Title": "Heathers",
@@ -11254,5 +11206,65 @@ var films = [
     "Poster": "/rlwntsY2nG4w4PyNxWaMcAkyUwd.jpg",
     "Year": 1992,
     "When": "1992-12-11"
+  },
+  {
+    "Title": "Emily the Criminal",
+    "TitleOriginal": "Emily the Criminal",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.31,
+    "Minutes": 97,
+    "Watched": 180908,
+    "Id": "wBOq",
+    "Poster": "/hFuynYYxZIiWR4cRlwzmteH2diL.jpg",
+    "Year": 2022,
+    "When": "2022-08-12"
+  },
+  {
+    "Title": "Suspiria",
+    "TitleOriginal": "Suspiria",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.94,
+    "Minutes": 99,
+    "Watched": 521699,
+    "Id": "1SNW",
+    "Poster": "/5ya8jTbNZTrCFUx9OwpNBjCivXY.jpg",
+    "Year": 1977,
+    "When": "1977-02-01"
+  },
+  {
+    "Title": "Passing",
+    "TitleOriginal": "Passing",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.53,
+    "Minutes": 98,
+    "Watched": 68337,
+    "Id": "jKdM",
+    "Poster": "/jXp6ERnrFdG04Gli3d34GtANsuw.jpg",
+    "Year": 2021,
+    "When": "2021-10-27"
+  },
+  {
+    "Title": "The Hunger",
+    "TitleOriginal": "The Hunger",
+    "RatingSelf": 5,
+    "RatingLetterboxd": 3.57,
+    "Minutes": 96,
+    "Watched": 77471,
+    "Id": "1Tk2",
+    "Poster": "/emOEOkrH4HT7dsjvIRbI9kaWUvL.jpg",
+    "Year": 1983,
+    "When": "1983-04-29"
+  },
+  {
+    "Title": "Joan of Arc",
+    "TitleOriginal": "Jeanne d'Arc",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.49,
+    "Minutes": 11,
+    "Watched": 8608,
+    "Id": "3AKO",
+    "Poster": "/xiPqvgnBZlv9CzXUc2zeXnbihr.jpg",
+    "Year": 1900,
+    "When": "1900-08-06"
   }
 ]

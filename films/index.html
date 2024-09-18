@@ -571,7 +571,7 @@
 			var cats = []
 			var groups = []
 			var counter = 0;
-			for (var a = 1920; a <= new Date().getFullYear(); a += 10) {
+			for (var a = 1900; a <= new Date().getFullYear(); a += 10) {
 				cats.push(a + 's')
 			}
 
@@ -582,7 +582,7 @@
 				series.name = counter++;
 				series.data = [];
 				for (var b = 0; b < cats.length; b++) {
-					var year = 1920 + (b * 10) + a;
+					var year = 1900 + (b * 10) + a;
 					series.data.push(Math.min(40, data.FilmsWatchedPerYear[year]));
 				}
 				groups.push(series);
@@ -591,6 +591,7 @@
 			Highcharts.chart('container', {
 				chart: {
 					type: 'column',
+					width: 730,
 				},
 				title: {
 					text: null,
@@ -639,7 +640,7 @@
 				},
 				tooltip: {
 					formatter: function () {
-						return (1920 + (this.point.x * 10) + this.series.name) + '<br/>' + this.point.y + ' film' + (this.point.y == 1 ? '' : 's')
+						return (1900 + (this.point.x * 10) + this.series.name) + '<br/>' + this.point.y + ' film' + (this.point.y == 1 ? '' : 's')
 					}
 				},
 				plotOptions: {
@@ -658,7 +659,7 @@
 					},
 					series: {
 						groupPadding: 0,
-						pointWidth: 5,
+						pointWidth: 4,
 						borderRadius: 0,
 						cursor: 'pointer',
 						point: {
@@ -702,7 +703,7 @@
 			}
 
 			for (var year in data.FilmsWatchedPerYear) {
-				if (year >= 1874) {
+				if (year >= 1900) {
 					tbody.append(
 						'<tr>' +
 						'<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/year/' + year + '/by/name/size/large/">' + year + '</a></td>' +
@@ -745,7 +746,7 @@
 			var thisDecade = thisYear - (thisYear % 10);
 
 			var watched = 0, unwatched = 0;
-			for (var a = thisDecade; a >= 1870; a -= 10) {
+			for (var a = thisDecade; a >= 1900; a -= 10) {
 				for (var b = 0; b < 10; b++) {
 					if (yearsWithoutFilms.includes(a + b)) {
 					} else if (a + b > thisYear) {
@@ -767,7 +768,7 @@
 			if (documentWidth > 480) {
 				createNewTable();
 				thead.append('<tr><th colspan="10">Years Without Watched Films</th></tr>');
-				for (var a = thisDecade; a >= 1870; a -= 10) {
+                for (var a = 1900; a <= thisDecade; a += 10) {
 					var output = '<tr>';
 					for (var b = 0; b < 10; b++) {
 						if (yearsWithoutFilms.includes(a + b)) {
@@ -808,7 +809,8 @@
 
 			Highcharts.chart('container', {
 				chart: {
-					type: 'column'
+					type: 'column',
+					width: 740
 				},
 				title: {
 					text: null,
@@ -858,6 +860,7 @@
 						data: values,
 						enableMouseTracking: true,
 						cursor: 'pointer',
+                        borderRadius: 2,
 						point: {
 							events: {
 								click: function () {
@@ -878,8 +881,8 @@
 				showFilmsPerDecadeChart();
 			}
 
-			$('body').append('<div class="boxes"></div>');
-			$('.boxes').append(makeBox(Object.values(data.FilmsWatchedPerDecade).filter(x => x.Count > 0).length, 'Watched Decades'));
+			//$('body').append('<div class="boxes"></div>');
+			//$('.boxes').append(makeBox(Object.values(data.FilmsWatchedPerDecade).filter(x => x.Count > 0).length, 'Watched Decades'));
 
 			createNewTable();
 
@@ -907,30 +910,32 @@
 			}
 
 			for (var decade in data.FilmsWatchedPerDecade) {
-				var rating = "";
-				if (data.FilmsWatchedPerDecade[decade].RatingCount > 0) {
-					rating = (data.FilmsWatchedPerDecade[decade].RatingTotal / data.FilmsWatchedPerDecade[decade].RatingCount).toFixed(1);
+				if (+decade >= 1900) {
+					var rating = "";
+					if (data.FilmsWatchedPerDecade[decade].RatingCount > 0) {
+						rating = (data.FilmsWatchedPerDecade[decade].RatingTotal / data.FilmsWatchedPerDecade[decade].RatingCount).toFixed(1);
+					}
+
+					var watchedPercent = (data.FilmsWatchedPerDecade[decade].Count / total) * 100;
+
+					var lowBase = data.FilmsWatchedPerDecade[decade].RatingCount < sufficientBase;
+
+					var middle = '';
+					if (documentWidth >= 500) {
+						middle =
+							'<td class="' + (lowBase ? 'lowbase ' : '') + 'right ttt" data-tooltip="Based on ' + data.FilmsWatchedPerDecade[decade].RatingCount + ' rated film(s)."><span>' + rating + '</span></td>' +
+							'<td class="' + (lowBase ? 'lowbase ' : '') + 'chart" data-value="' + rating + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((rating / highestRating) * 100) + 'px">&nbsp;</span></span></td>';
+					}
+
+					tbody.append(
+						'<tr>' +
+						'<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/decade/' + decade + 's/by/name/size/large/">' + decade + 's</a></td>' +
+						'<td class="right">' + data.FilmsWatchedPerDecade[decade].Count + '</td>' +
+						'<td class="right ttt" data-tooltip="' + watchedPercent.toFixed(2) + '%" data-value="' + data.FilmsWatchedPerDecade[decade].Count + '">' + watchedPercent.toFixed(0) + '%</td>' +
+						'<td class="chart" data-value="' + data.FilmsWatchedPerDecade[decade].Count + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.FilmsWatchedPerDecade[decade].Count / highest) * 100) + 'px">&nbsp;</span></span></td>' +
+						middle +
+						'</tr>');
 				}
-
-				var watchedPercent = (data.FilmsWatchedPerDecade[decade].Count / total) * 100;
-
-				var lowBase = data.FilmsWatchedPerDecade[decade].RatingCount < sufficientBase;
-
-				var middle = '';
-				if (documentWidth >= 500) {
-					middle =
-						'<td class="' + (lowBase ? 'lowbase ' : '') + 'right ttt" data-tooltip="Based on ' + data.FilmsWatchedPerDecade[decade].RatingCount + ' rated film(s)."><span>' + rating + '</span></td>' +
-						'<td class="' + (lowBase ? 'lowbase ' : '') + 'chart" data-value="' + rating + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((rating / highestRating) * 100) + 'px">&nbsp;</span></span></td>';
-				}
-
-				tbody.append(
-					'<tr>' +
-					'<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/decade/' + decade + 's/by/name/size/large/">' + decade + 's</a></td>' +
-					'<td class="right">' + data.FilmsWatchedPerDecade[decade].Count + '</td>' +
-					'<td class="right ttt" data-tooltip="' + watchedPercent.toFixed(2) + '%" data-value="' + data.FilmsWatchedPerDecade[decade].Count + '">' + watchedPercent.toFixed(0) + '%</td>' +
-					'<td class="chart" data-value="' + data.FilmsWatchedPerDecade[decade].Count + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.FilmsWatchedPerDecade[decade].Count / highest) * 100) + 'px">&nbsp;</span></span></td>' +
-					middle +
-					'</tr>');
 			}
 
 			$.tablesorter.addParser({
@@ -1232,7 +1237,7 @@
             resetView();
             createNewTable();
 
-            thead.append('<tr class="topheader"><th colspan="2">Top ' + galleryAmount + ' Longest Film Titles</th></tr>');
+            thead.append('<tr class="topheader"><th colspan="2">Top ' + galleryAmount + ' Longest Titles</th></tr>');
             thead.append('<tr class="bottomheader"><th>Year</th><th>Title</th></tr>');
 
             var displayed = 0;
@@ -1258,15 +1263,15 @@
                 sortReset: false,
                 sortRestart: false,
                 headers: {
-                    0: { sorter: false },
-                    1: { sortInitialOrder: 'desc' },
-                    2: { sortInitialOrder: 'asc' }
+					0: { sorter: false },
+					1: { sorter: false },
+                    2: { sorter: false },
                 }
 			});
 
             createNewTable();
 
-            thead.append('<tr class="topheader"><th colspan="2">Film Titles: 3 Characters or Fewer</th></tr>');
+            thead.append('<tr class="topheader"><th colspan="2">Titles: 3 Characters or Fewer</th></tr>');
             thead.append('<tr class="bottomheader"><th>Year</th><th style="width:200px;">Title</th></tr>');
 
 			displayed = 0;
@@ -1293,10 +1298,10 @@
                 sortRestart: false,
                 headers: {
                     0: { sorter: false },
-                    1: { sortInitialOrder: 'desc' },
-                    2: { sortInitialOrder: 'asc' }
+                    1: { sorter: false },
+                    2: { sorter: false },
                 }
-			});
+            });
 
             createNewTable();
 
@@ -1315,10 +1320,185 @@
 					break;
 			}
 
+			createNewTable();
+
+            thead.append('<tr class="topheader"><th colspan="3">First Letter of Title</th></tr>');
+            thead.append('<tr class="bottomheader"><th>Character</th><th>Amount</th><th>Bar</th></tr>');
+
+			var maxCharacters = 0;
+			var characters = [];
+			characters['[Digit]'] = 0;
+            characters['[Special]'] = 0;
+			for (var letter of 'abcdefghijklmnopqrstuvwxyz') {
+				characters[letter] = 0;
+			}
+
+			for (var film in films) {
+				var start = films[film].Title.substr(0, 1).toLowerCase();
+				if (start >= '0' && start <= '9') {
+					start = '[Digit]';
+				} else if (start >= 'a' && start <= 'z') {
+
+				} else {
+					start = '[Special]'
+				}
+				characters[start]++;
+				maxCharacters = Math.max(maxCharacters, characters[start]);
+			}
+
+			for (var character in characters) {
+                bar = '<td class="chart" data-value="' + characters[character] + '"><span class="bar" style="width:' + Math.round((characters[character] / maxCharacters) * 100) + 'px">&nbsp;</span></td>';
+                tbody.append(
+                    '<tr>' +
+                    '<td style="width:10px">' + character + '</td>' +
+					'<td>' + characters[character] + '</td>' +
+                    bar +
+                    '</tr>');
+			}
+
+            table.tablesorter({
+                widgets: ['columns'],
+                usNumberFormat: true,
+                sortReset: false,
+                sortRestart: false,
+                headers: {
+                    0: { sorter: false },
+                    1: { sortInitialOrder: 'asc' },
+                    2: { sortInitialOrder: 'desc' },
+					3: { sorter: false },
+                }
+            });
+
             deactivateAll();
             $(event.target).addClass('active');
 
             createTooltipTriggers();
+		}
+
+		function showFilmLengthChart() {
+
+			var filmsByLength = Array(1000);
+			var minutes = Array(1000);
+			for (var a = 0; a < minutes.length; a++) {
+				minutes[a] = 0;
+				filmsByLength[a] = [];
+			}
+			var highest = 0;
+			for (var index in films) {
+				var film = films[index];
+				if (film.Minutes > 0) {
+					minutes[+film.Minutes]++;
+					highest = Math.max(highest, film.Minutes);
+					filmsByLength[+film.Minutes].push(index);
+				}
+			}
+
+			highest += 10 - (highest % 10)
+
+            $('body').append('<div id="outside"><div class="title">Films Watched by Length</div><figure class="highcharts-figure"><div id="container"></div></figure></div>');
+
+            var cats = [];
+            var values = [];
+
+            for (var a = 0; a <= highest; a++) {
+                cats.push(a)
+                values.push(minutes[a])
+            }
+
+            Highcharts.chart('container', {
+                chart: {
+					type: 'column',
+					width: '802',
+                },
+                title: {
+                    text: null,
+                    enabled: false,
+                },
+                credits: {
+                    enabled: false
+                },
+                legend: {
+                    enabled: false
+				},
+                xAxis: {
+                    category: false,
+                    categories: cats,
+                    tickInterval: 30,
+                    tickColor: '#ddd',
+                    tickLength: 8,
+                    tickWidth: 1,
+                    tickmarkPlacement: 'between',
+                    title: {
+                        text: 'Minutes'
+                    }
+                },
+                yAxis: {
+                    plotLines: [{
+                        color: '#ddd',
+                        value: 0,
+                        width: 1,
+                        zIndex: 5
+                    }],
+                    gridLineWidth: 1,
+                    tickColor: '#ddd',
+                    tickLength: 8,
+                    tickWidth: 1,
+                    tickmarkPlacement: 'between',
+                    title: {
+                        text: 'Films Watched'
+                    }
+                },
+                tooltip: {
+					formatter: function () {
+                        var hours = 0, minutes = 0;
+                        hours = Math.floor(this.point.x / 60);
+                        minutes = this.point.x - (hours * 60);
+						return hours + 'h' + minutes + 'm<br/>'  +
+						       this.point.y + ' film' + (this.point.y == 1 ? '' : 's')
+                    }
+                },
+                plotOptions: {
+                    column: {
+                        pointPadding: 0,
+                        borderWidth: 0,
+                        dataLabels: {
+                            enabled: false,
+                            align: 'center',
+                            x: 3
+						},
+                        states: {
+                            hover: {
+                                color: 'RGBA(229, 0, 126)',
+                                enabled: true
+                            },
+                            inactive: {
+                                opacity: 1
+                            }
+                        }
+                    },
+                },
+                series: [
+					{
+                        groupPadding: 0,
+                        pointWidth: 2,
+                        borderRadius: 0,
+                        name: '',
+                        animation: false,
+                        color: 'black',
+                        data: values,
+                        enableMouseTracking: true,
+						borderRadius: 0,
+                        cursor: 'pointer',
+                        point: {
+                            events: {
+								click: function () {
+									showFilms(filmsByLength[this.x].join(' '));
+                                }
+                            }
+                        }
+                    }
+                ]
+            });
         }
 
 		function showLengthStats() {
@@ -1360,8 +1540,8 @@
 				((len % 60) + '').padStart(2, '0') + '<span style="opacity:0.333">m</span> ' +
 				(Math.floor(60 * seconds) + '').padStart(2, '0') + '<span style="opacity:0.333">s</span>';
 
-			$('body').append('<div class="boxes"></div>');
-			$('.boxes').append(makeBox(lenLabel, '&VeryThinSpace;Average Film Length (Including Short Films)&VeryThinSpace;'));
+			//$('body').append('<div class="boxes"></div>');
+			//$('.boxes').append(makeBox(lenLabel, '&VeryThinSpace;Average Film Length (Including Short Films)&VeryThinSpace;'));
 
 			var len = data.TotalMinutesFull / data.FilmsWithRuntimeFull;
 			len += 0.5; // this accounts for all film times being rounded down to the minute
@@ -1445,6 +1625,10 @@
 					3: { sortInitialOrder: 'desc', sorter: 'data-value' },
 				}
 			});
+
+			if (documentWidth > 880) {
+				showFilmLengthChart();
+			}
 
 			createTooltipTriggers();
 
