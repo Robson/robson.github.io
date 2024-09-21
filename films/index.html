@@ -63,6 +63,8 @@
 		&#9670;
 		<span class="displayer inline" onmousedown="javascript:showLengthStats()">Length</span>
 		&#9670;
+		<span class="displayer inline" onmousedown="javascript:showThemes()">Theme</span>
+		&#9670;
 		<span class="displayer inline" onmousedown="javascript:showTitles()">Title</span>
 		<div class="title">Letterboxd</div>
 		<span class="displayer inline" onmousedown="javascript:showPopularity()">Popularity</span>
@@ -592,6 +594,8 @@
 				chart: {
 					type: 'column',
 					width: 730,
+					spacingLeft: 100,
+					marginLeft: 70,
 				},
 				title: {
 					text: null,
@@ -847,8 +851,10 @@
 						borderWidth: 0,
 						dataLabels: {
 							enabled: true,
-							align: 'center',
-							x: 3
+                            useHTML: true,
+                            style: {
+                                textAlign: 'center',
+                            },
 						},
 					},
 				},
@@ -1409,6 +1415,8 @@
                 chart: {
 					type: 'column',
 					width: '802',
+                    spacingLeft: 100,
+                    marginLeft: 70,
                 },
                 title: {
                     text: null,
@@ -2172,6 +2180,121 @@
 				$(event.target).addClass('active');
 			}
 		}
+
+        function showThemes() {
+
+			resetView();
+
+            makeInfo('Warning', 'At Letterboxd, themes are an experimental feature powered by AI. Consequently many films are wrongly tagged, are missing themes, or don\'t appear in search results.');
+
+            createNewTable();
+
+            if (documentWidth < 600) {
+                thead.append('<tr class="topheader"><th>&nbsp;</th><th colspan="2">Films</th></tr>');
+                thead.append('<tr class="bottomheader"><th>Overall Theme</th><th>Σ</th><th>%</th></tr>');
+            } else {
+                thead.append('<tr class="topheader"><th>&nbsp;</th><th colspan="3">Films</th></tr>');
+                thead.append('<tr class="bottomheader"><th>Overall Theme</th><th>Σ</th><th>%</th><th>Bar</th></tr>');
+            }
+
+			for (var theme in data.Themes) {
+                if (!data.Themes[theme].IsMini) {
+					var watchedPercent = (data.Themes[theme].Amount / data.FilmsWithThemes) * 100;
+					var barAmount = '';
+					if (documentWidth >= 600) {
+						barAmount = '<td class="chart" data-value="' + data.Themes[theme].Amount + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.Themes[theme].Amount / data.FilmsWithThemes) * 100) + 'px">&nbsp;</span></span></td>';
+					}
+
+					tbody.append(
+						'<tr>' +
+						'<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/' + data.Themes[theme].Url + '/size/large/">' + data.Themes[theme].Text + '</a></td>' +
+						'<td class="right">' + data.Themes[theme].Amount + '</td>' +
+						'<td class="right ttt" data-tooltip="' + watchedPercent.toFixed(2) + '%" data-value="' + data.Themes[theme].Amount + '">' + watchedPercent.toFixed(0) + '%</td>' +
+						barAmount +
+						'</tr>');
+				}
+            }
+
+            $.tablesorter.addParser({
+                id: 'data-value',
+                is: function () {
+                    return false;
+                },
+                format: function (s, table, cell) {
+                    return $(cell).attr('data-value') || s;
+                },
+                type: 'text'
+			});
+
+            $('#main').tablesorter({
+                widgets: ['columns'],
+                usNumberFormat: true,
+                sortReset: false,
+                sortRestart: false,
+                sortList: [[1, 1]],
+                headers: {
+                    0: { sorter: false },
+                    1: { sorter: false },
+                    2: { sortInitialOrder: 'asc' },
+                    3: { sortInitialOrder: 'desc' },
+					4: { sortInitialOrder: 'desc', sorter: 'data-value' },
+					5: { sorter: false  }
+                },
+                cssHeaderRow: "tablesorter-headerRow"
+			});
+
+            createNewTable();
+
+            if (documentWidth < 600) {
+                thead.append('<tr class="topheader"><th>&nbsp;</th><th colspan="2">Films</th></tr>');
+                thead.append('<tr class="bottomheader"><th>Specific Theme</th><th>Σ</th><th>%</th></tr>');
+            } else {
+                thead.append('<tr class="topheader"><th>&nbsp;</th><th colspan="3">Films</th></tr>');
+                thead.append('<tr class="bottomheader"><th>Specific Theme</th><th>Σ</th><th>%</th><th>Bar</th></tr>');
+            }
+
+            for (var theme in data.Themes) {
+                if (data.Themes[theme].IsMini) {
+                    var watchedPercent = (data.Themes[theme].Amount / data.FilmsWithThemes) * 100;
+                    var barAmount = '';
+                    if (documentWidth >= 600) {
+                        barAmount = '<td class="chart" data-value="' + data.Themes[theme].Amount + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.Themes[theme].Amount / data.FilmsWithThemes) * 100) + 'px">&nbsp;</span></span></td>';
+                    }
+
+                    tbody.append(
+                        '<tr>' +
+                        '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/' + data.Themes[theme].Url + '/size/large/">' + data.Themes[theme].Text + '</a></td>' +
+                        '<td class="right">' + data.Themes[theme].Amount + '</td>' +
+                        '<td class="right ttt" data-tooltip="' + watchedPercent.toFixed(2) + '%" data-value="' + data.Themes[theme].Amount + '">' + watchedPercent.toFixed(0) + '%</td>' +
+                        barAmount +
+                        '</tr>');
+                }
+            }
+
+            $('#main').last().tablesorter({
+                widgets: ['columns'],
+                usNumberFormat: true,
+                sortReset: false,
+                sortRestart: false,
+                sortList: [[1, 1]],
+                headers: {
+                    0: { sorter: false },
+                    1: { sorter: false },
+                    2: { sortInitialOrder: 'asc' },
+                    3: { sortInitialOrder: 'desc' },
+                    4: { sortInitialOrder: 'desc', sorter: 'data-value' },
+                    5: { sorter: false }
+                },
+                cssHeaderRow: "tablesorter-headerRow"
+            });
+
+            createTooltipTriggers();
+
+            deactivateAll();
+            if (event) {
+                $(event.target).addClass('active');
+            }
+        }
 
 		function urlSafe(text) {
 			// general character replacements
