@@ -2343,9 +2343,16 @@
 			createGallery();
 
 			var gallery = $('.gallery');
-			var minimum = dataSource.length >= galleryAmount ? dataSource[galleryAmount].Amount : 0;
+			var minimum = 0;
+			if (dataSource.length > galleryAmount) {
+				var minimumVisible = dataSource[galleryAmount - 1].Amount;
+				var minimumInvisible = dataSource[galleryAmount].Amount;
+				if (minimumVisible == minimumInvisible) {
+					minimum = minimumVisible;
+				}
+			}
 
-			//var shuffled = shuffleArray(dataSource.filter(a => a.Poster.length > 2).slice(0));
+			//var shuffled = shuffleArray(dataSource.slice(0));
 			//shuffled = shuffled.sort((a, b) => b.Amount - a.Amount);
 			//var lowest = shuffled.length >= galleryAmount - 1 ? shuffled[galleryAmount - 1].Amount : 0;
 
@@ -2359,9 +2366,9 @@
 			for (var person of shuffled) {
 				var url = 'https://letterboxd.com/' + data.Username + '/films/with/' + job.toLowerCase() + '/' + urlSafe(person.FullName.replace(/ /g, '-').toLowerCase()) + '/by/name/size/large/';
 				insideGallery.append(
-					'<div class="item">' +
+					'<div class="item' + (person.Amount == minimum ? ' lowlight' : '') + '">' +
 					'<div class="poster"><a target="_blank" href="' + url + '">' +
-					(person.Poster ? '<img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + person.Poster + '">' : '<div class="empty">&nbsp;</div>') +
+					(person.Poster ? '<img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + person.Poster + '">' : '<div class="empty">no picture available</div>') +
 					'</a></div > ' +
 					'<div class="details">×' + person.Amount + '<br/><a target="_blank" href="' + url + '">' + person.FullName + '</a></div>' +
 					'</a></div>');

@@ -315,9 +315,14 @@ p {
 }
 
 .gallery .item .empty {
-    background: #bbb;
+    background: #555;
     width: 115px;
     height: 173px;
+    margin-left: 1px;
+    color: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .gallery .item img {
@@ -328,6 +333,14 @@ p {
 .gallery .item .details {
     margin: 5px 0 3px;
     font-size: 12px;
+}
+
+.gallery .lowlight {
+    opacity: 0.5;
+}
+
+.gallery .lowlight:hover {
+    opacity: 1;
 }
 
 /***** CHARTS *****/

@@ -389,7 +389,7 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.24,
     "Minutes": 144,
-    "Watched": 2820102,
+    "Watched": 2822701,
     "Id": "29Nu",
     "Poster": "/xazWoLealQwEgqZ89MLZklLZD3k.jpg",
     "Year": 1980,
@@ -11306,7 +11306,7 @@ var films = [
   {
     "Title": "Repulsion",
     "TitleOriginal": "Repulsion",
-    "RatingSelf": null,
+    "RatingSelf": 4,
     "RatingLetterboxd": 3.92,
     "Minutes": 105,
     "Watched": 107456,
@@ -11314,5 +11314,53 @@ var films = [
     "Poster": "/dtyCKEPLqv9wxyVazL4b843vtUb.jpg",
     "Year": 1965,
     "When": "1965-06-01"
+  },
+  {
+    "Title": "Little Woods",
+    "TitleOriginal": "Little Woods",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.37,
+    "Minutes": 103,
+    "Watched": 11499,
+    "Id": "g76c",
+    "Poster": "/nbmevOFXOtx3n2pfj4gtSxpcSFh.jpg",
+    "Year": 2018,
+    "When": "2019-04-19"
+  },
+  {
+    "Title": "Wait Until Dark",
+    "TitleOriginal": "Wait Until Dark",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.90,
+    "Minutes": 108,
+    "Watched": 44208,
+    "Id": "1Unc",
+    "Poster": "/8WJOL49WakZcV3JIcIyl8vYq3mw.jpg",
+    "Year": 1967,
+    "When": "1967-10-26"
+  },
+  {
+    "Title": "Mermaids",
+    "TitleOriginal": "Mermaids",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.61,
+    "Minutes": 110,
+    "Watched": 79343,
+    "Id": "244u",
+    "Poster": "/vocrzZuoAc0xRp35z2IF8vhDqKZ.jpg",
+    "Year": 1990,
+    "When": "1990-12-14"
+  },
+  {
+    "Title": "Fighting with My Family",
+    "TitleOriginal": "Fighting with My Family",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.37,
+    "Minutes": 108,
+    "Watched": 155230,
+    "Id": "fRyO",
+    "Poster": "/cVhe15rJLRjolunSWLBN6xQLyGU.jpg",
+    "Year": 2019,
+    "When": "2019-02-14"
   }
 ]
