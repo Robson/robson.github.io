@@ -2,6 +2,7 @@ var films = [
   {
     "Title": "Challengers",
     "TitleOriginal": "Challengers",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.99,
     "Minutes": 132,
@@ -14,6 +15,7 @@ var films = [
   {
     "Title": "Mad Max: Fury Road",
     "TitleOriginal": "Mad Max: Fury Road",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.19,
     "Minutes": 121,
@@ -26,6 +28,7 @@ var films = [
   {
     "Title": "All of Us Strangers",
     "TitleOriginal": "All of Us Strangers",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 3.93,
     "Minutes": 106,
@@ -38,6 +41,7 @@ var films = [
   {
     "Title": "Am\u00E9lie",
     "TitleOriginal": "Le Fabuleux Destin d'Am\u00E9lie Poulain",
+    "Language": "French",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.17,
     "Minutes": 122,
@@ -50,6 +54,7 @@ var films = [
   {
     "Title": "Fight Club",
     "TitleOriginal": "Fight Club",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.27,
     "Minutes": 139,
@@ -62,6 +67,7 @@ var films = [
   {
     "Title": "God's Own Country",
     "TitleOriginal": "God's Own Country",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 3.97,
     "Minutes": 105,
@@ -74,6 +80,7 @@ var films = [
   {
     "Title": "Her",
     "TitleOriginal": "Her",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.01,
     "Minutes": 126,
@@ -86,6 +93,7 @@ var films = [
   {
     "Title": "Home Alone",
     "TitleOriginal": "Home Alone",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 3.80,
     "Minutes": 103,
@@ -98,6 +106,7 @@ var films = [
   {
     "Title": "Inception",
     "TitleOriginal": "Inception",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.20,
     "Minutes": 148,
@@ -110,6 +119,7 @@ var films = [
   {
     "Title": "Interstellar",
     "TitleOriginal": "Interstellar",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.36,
     "Minutes": 169,
@@ -122,6 +132,7 @@ var films = [
   {
     "Title": "Jurassic Park",
     "TitleOriginal": "Jurassic Park",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.11,
     "Minutes": 127,
@@ -134,6 +145,7 @@ var films = [
   {
     "Title": "Manchester by the Sea",
     "TitleOriginal": "Manchester by the Sea",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.11,
     "Minutes": 138,
@@ -146,6 +158,7 @@ var films = [
   {
     "Title": "Whiplash",
     "TitleOriginal": "Whiplash",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.43,
     "Minutes": 107,
@@ -158,6 +171,7 @@ var films = [
   {
     "Title": "Wadjda",
     "TitleOriginal": "Das M\u00E4dchen Wadjda",
+    "Language": "Arabic",
     "RatingSelf": 5,
     "RatingLetterboxd": 3.80,
     "Minutes": 98,
@@ -170,6 +184,7 @@ var films = [
   {
     "Title": "Titanic",
     "TitleOriginal": "Titanic",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 3.81,
     "Minutes": 194,
@@ -182,6 +197,7 @@ var films = [
   {
     "Title": "Mass",
     "TitleOriginal": "Mass",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.06,
     "Minutes": 111,
@@ -194,6 +210,7 @@ var films = [
   {
     "Title": "Mean Girls",
     "TitleOriginal": "Mean Girls",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 3.83,
     "Minutes": 97,
@@ -206,6 +223,7 @@ var films = [
   {
     "Title": "Misery",
     "TitleOriginal": "Misery",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 3.98,
     "Minutes": 107,
@@ -218,6 +236,7 @@ var films = [
   {
     "Title": "Paddington 2",
     "TitleOriginal": "Paddington 2",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.16,
     "Minutes": 104,
@@ -230,6 +249,7 @@ var films = [
   {
     "Title": "Past Lives",
     "TitleOriginal": "Past Lives",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.18,
     "Minutes": 106,
@@ -242,6 +262,7 @@ var films = [
   {
     "Title": "Poor Things",
     "TitleOriginal": "Poor Things",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.02,
     "Minutes": 142,
@@ -254,6 +275,7 @@ var films = [
   {
     "Title": "Portrait of a Lady on Fire",
     "TitleOriginal": "Portrait de la jeune fille en feu",
+    "Language": "French",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.43,
     "Minutes": 121,
@@ -266,6 +288,7 @@ var films = [
   {
     "Title": "Requiem for a Dream",
     "TitleOriginal": "Requiem for a Dream",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.10,
     "Minutes": 102,
@@ -278,6 +301,7 @@ var films = [
   {
     "Title": "Room",
     "TitleOriginal": "Room",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 3.97,
     "Minutes": 118,
@@ -290,6 +314,7 @@ var films = [
   {
     "Title": "Schindler's List",
     "TitleOriginal": "Schindler's List",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.52,
     "Minutes": 195,
@@ -302,6 +327,7 @@ var films = [
   {
     "Title": "The Father",
     "TitleOriginal": "The Father",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.29,
     "Minutes": 96,
@@ -314,6 +340,7 @@ var films = [
   {
     "Title": "The Help",
     "TitleOriginal": "The Help",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 3.85,
     "Minutes": 146,
@@ -326,6 +353,7 @@ var films = [
   {
     "Title": "The Ice Storm",
     "TitleOriginal": "The Ice Storm",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 3.77,
     "Minutes": 112,
@@ -338,6 +366,7 @@ var films = [
   {
     "Title": "The Pianist",
     "TitleOriginal": "The Pianist",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.38,
     "Minutes": 150,
@@ -350,6 +379,7 @@ var films = [
   {
     "Title": "The Prestige",
     "TitleOriginal": "The Prestige",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.24,
     "Minutes": 130,
@@ -362,6 +392,7 @@ var films = [
   {
     "Title": "The Quiet Girl",
     "TitleOriginal": "An Cail\u00EDn Ci\u00FAin",
+    "Language": "Irish",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.05,
     "Minutes": 94,
@@ -374,6 +405,7 @@ var films = [
   {
     "Title": "The Shawshank Redemption",
     "TitleOriginal": "The Shawshank Redemption",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.56,
     "Minutes": 142,
@@ -386,6 +418,7 @@ var films = [
   {
     "Title": "The Shining",
     "TitleOriginal": "The Shining",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.24,
     "Minutes": 144,
@@ -398,6 +431,7 @@ var films = [
   {
     "Title": "The Silence of the Lambs",
     "TitleOriginal": "The Silence of the Lambs",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.33,
     "Minutes": 119,
@@ -410,6 +444,7 @@ var films = [
   {
     "Title": "The Whale",
     "TitleOriginal": "The Whale",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.66,
     "Minutes": 117,
@@ -422,6 +457,7 @@ var films = [
   {
     "Title": "But I'm a Cheerleader",
     "TitleOriginal": "But I'm a Cheerleader",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.00,
     "Minutes": 85,
@@ -434,6 +470,7 @@ var films = [
   {
     "Title": "Call Me by Your Name",
     "TitleOriginal": "Call Me by Your Name",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.85,
     "Minutes": 132,
@@ -446,6 +483,7 @@ var films = [
   {
     "Title": "Psycho",
     "TitleOriginal": "Psycho",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.32,
     "Minutes": 109,
@@ -458,6 +496,7 @@ var films = [
   {
     "Title": "2001: A Space Odyssey",
     "TitleOriginal": "2001: A Space Odyssey",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.29,
     "Minutes": 149,
@@ -470,6 +509,7 @@ var films = [
   {
     "Title": "GoodFellas",
     "TitleOriginal": "GoodFellas",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.47,
     "Minutes": 145,
@@ -482,6 +522,7 @@ var films = [
   {
     "Title": "Back to the Future",
     "TitleOriginal": "Back to the Future",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.20,
     "Minutes": 116,
@@ -494,6 +535,7 @@ var films = [
   {
     "Title": "12 Angry Men",
     "TitleOriginal": "12 Angry Men",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.62,
     "Minutes": 97,
@@ -506,6 +548,7 @@ var films = [
   {
     "Title": "Jojo Rabbit",
     "TitleOriginal": "Jojo Rabbit",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 4.03,
     "Minutes": 108,
@@ -518,6 +561,7 @@ var films = [
   {
     "Title": "The Wizard of Oz",
     "TitleOriginal": "The Wizard of Oz",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 3.95,
     "Minutes": 102,
@@ -530,6 +574,7 @@ var films = [
   {
     "Title": "Eternal Sunshine of the Spotless Mind",
     "TitleOriginal": "Eternal Sunshine of the Spotless Mind",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.25,
     "Minutes": 108,
@@ -542,6 +587,7 @@ var films = [
   {
     "Title": "Good Will Hunting",
     "TitleOriginal": "Good Will Hunting",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.32,
     "Minutes": 127,
@@ -554,6 +600,7 @@ var films = [
   {
     "Title": "Finding Nemo",
     "TitleOriginal": "Finding Nemo",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.04,
     "Minutes": 100,
@@ -566,6 +613,7 @@ var films = [
   {
     "Title": "The Godfather Part II",
     "TitleOriginal": "The Godfather Part II",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.59,
     "Minutes": 202,
@@ -578,6 +626,7 @@ var films = [
   {
     "Title": "Pulp Fiction",
     "TitleOriginal": "Pulp Fiction",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.26,
     "Minutes": 154,
@@ -590,6 +639,7 @@ var films = [
   {
     "Title": "It's a Wonderful Life",
     "TitleOriginal": "It's a Wonderful Life",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.39,
     "Minutes": 130,
@@ -602,6 +652,7 @@ var films = [
   {
     "Title": "There Will Be Blood",
     "TitleOriginal": "There Will Be Blood",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.45,
     "Minutes": 158,
@@ -614,6 +665,7 @@ var films = [
   {
     "Title": "American History X",
     "TitleOriginal": "American History X",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.13,
     "Minutes": 119,
@@ -626,6 +678,7 @@ var films = [
   {
     "Title": "The Truman Show",
     "TitleOriginal": "The Truman Show",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.22,
     "Minutes": 103,
@@ -638,6 +691,7 @@ var films = [
   {
     "Title": "Memento",
     "TitleOriginal": "Memento",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.17,
     "Minutes": 113,
@@ -650,6 +704,7 @@ var films = [
   {
     "Title": "Carol",
     "TitleOriginal": "Carol",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.01,
     "Minutes": 118,
@@ -662,6 +717,7 @@ var films = [
   {
     "Title": "Knives Out",
     "TitleOriginal": "Knives Out",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.98,
     "Minutes": 131,
@@ -674,6 +730,7 @@ var films = [
   {
     "Title": "Carrie",
     "TitleOriginal": "Carrie",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.85,
     "Minutes": 98,
@@ -686,6 +743,7 @@ var films = [
   {
     "Title": "About a Boy",
     "TitleOriginal": "About a Boy",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.51,
     "Minutes": 101,
@@ -698,6 +756,7 @@ var films = [
   {
     "Title": "American Pie",
     "TitleOriginal": "American Pie",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.10,
     "Minutes": 95,
@@ -710,6 +769,7 @@ var films = [
   {
     "Title": "Black Swan",
     "TitleOriginal": "Black Swan",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.15,
     "Minutes": 108,
@@ -722,6 +782,7 @@ var films = [
   {
     "Title": "Cruel Intentions",
     "TitleOriginal": "Cruel Intentions",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.25,
     "Minutes": 98,
@@ -734,6 +795,7 @@ var films = [
   {
     "Title": "Eyes Wide Shut",
     "TitleOriginal": "Eyes Wide Shut",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.01,
     "Minutes": 159,
@@ -746,6 +808,7 @@ var films = [
   {
     "Title": "Secretary",
     "TitleOriginal": "Secretary",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.46,
     "Minutes": 107,
@@ -758,6 +821,7 @@ var films = [
   {
     "Title": "Fifty Shades of Grey",
     "TitleOriginal": "Fifty Shades of Grey",
+    "Language": "English",
     "RatingSelf": 1,
     "RatingLetterboxd": 1.76,
     "Minutes": 125,
@@ -770,6 +834,7 @@ var films = [
   {
     "Title": "Children of Men",
     "TitleOriginal": "Children of Men",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.30,
     "Minutes": 109,
@@ -782,6 +847,7 @@ var films = [
   {
     "Title": "Heat",
     "TitleOriginal": "Heat",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 4.28,
     "Minutes": 170,
@@ -794,6 +860,7 @@ var films = [
   {
     "Title": "City of God",
     "TitleOriginal": "Cidade de Deus",
+    "Language": "Portuguese",
     "RatingSelf": null,
     "RatingLetterboxd": 4.53,
     "Minutes": 130,
@@ -806,6 +873,7 @@ var films = [
   {
     "Title": "The Matrix",
     "TitleOriginal": "The Matrix",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.16,
     "Minutes": 136,
@@ -818,6 +886,7 @@ var films = [
   {
     "Title": "The Godfather",
     "TitleOriginal": "The Godfather",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.55,
     "Minutes": 175,
@@ -830,6 +899,7 @@ var films = [
   {
     "Title": "Up",
     "TitleOriginal": "Up",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.09,
     "Minutes": 96,
@@ -842,6 +912,7 @@ var films = [
   {
     "Title": "Love Lies Bleeding",
     "TitleOriginal": "Love Lies Bleeding",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.58,
     "Minutes": 104,
@@ -854,6 +925,7 @@ var films = [
   {
     "Title": "Drive",
     "TitleOriginal": "Drive",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.93,
     "Minutes": 100,
@@ -866,6 +938,7 @@ var films = [
   {
     "Title": "Sin City",
     "TitleOriginal": "Sin City",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.68,
     "Minutes": 124,
@@ -878,6 +951,7 @@ var films = [
   {
     "Title": "Blue Velvet",
     "TitleOriginal": "Blue Velvet",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.09,
     "Minutes": 120,
@@ -890,6 +964,7 @@ var films = [
   {
     "Title": "Saltburn",
     "TitleOriginal": "Saltburn",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.41,
     "Minutes": 131,
@@ -902,6 +977,7 @@ var films = [
   {
     "Title": "No Country for Old Men",
     "TitleOriginal": "No Country for Old Men",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.33,
     "Minutes": 122,
@@ -914,6 +990,7 @@ var films = [
   {
     "Title": "One Hour Photo",
     "TitleOriginal": "One Hour Photo",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.47,
     "Minutes": 96,
@@ -926,6 +1003,7 @@ var films = [
   {
     "Title": "La La Land",
     "TitleOriginal": "La La Land",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 4.10,
     "Minutes": 129,
@@ -938,6 +1016,7 @@ var films = [
   {
     "Title": "Dead Poets Society",
     "TitleOriginal": "Dead Poets Society",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.27,
     "Minutes": 128,
@@ -950,6 +1029,7 @@ var films = [
   {
     "Title": "Little Women",
     "TitleOriginal": "Little Women",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.15,
     "Minutes": 135,
@@ -962,6 +1042,7 @@ var films = [
   {
     "Title": "Lady Bird",
     "TitleOriginal": "Lady Bird",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.85,
     "Minutes": 94,
@@ -974,6 +1055,7 @@ var films = [
   {
     "Title": "The Perks of Being a Wallflower",
     "TitleOriginal": "The Perks of Being a Wallflower",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.94,
     "Minutes": 103,
@@ -986,6 +1068,7 @@ var films = [
   {
     "Title": "Parasite",
     "TitleOriginal": "\uAE30\uC0DD\uCDA9",
+    "Language": "Korean",
     "RatingSelf": null,
     "RatingLetterboxd": 4.56,
     "Minutes": 133,
@@ -998,6 +1081,7 @@ var films = [
   {
     "Title": "Scream",
     "TitleOriginal": "Scream",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.02,
     "Minutes": 112,
@@ -1010,6 +1094,7 @@ var films = [
   {
     "Title": "Aftersun",
     "TitleOriginal": "Aftersun",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.23,
     "Minutes": 101,
@@ -1022,6 +1107,7 @@ var films = [
   {
     "Title": "The Grand Budapest Hotel",
     "TitleOriginal": "The Grand Budapest Hotel",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.24,
     "Minutes": 100,
@@ -1034,6 +1120,7 @@ var films = [
   {
     "Title": "Midsommar",
     "TitleOriginal": "Midsommar",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.78,
     "Minutes": 147,
@@ -1046,6 +1133,7 @@ var films = [
   {
     "Title": "Donnie Darko",
     "TitleOriginal": "Donnie Darko",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.98,
     "Minutes": 114,
@@ -1058,6 +1146,7 @@ var films = [
   {
     "Title": "Barbie",
     "TitleOriginal": "Barbie",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.83,
     "Minutes": 114,
@@ -1070,6 +1159,7 @@ var films = [
   {
     "Title": "Kill Bill: Vol. 1",
     "TitleOriginal": "Kill Bill: Vol. 1",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.19,
     "Minutes": 111,
@@ -1082,6 +1172,7 @@ var films = [
   {
     "Title": "The Hunger Games: Catching Fire",
     "TitleOriginal": "The Hunger Games: Catching Fire",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.82,
     "Minutes": 146,
@@ -1094,6 +1185,7 @@ var films = [
   {
     "Title": "Twilight",
     "TitleOriginal": "Twilight",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.94,
     "Minutes": 122,
@@ -1106,6 +1198,7 @@ var films = [
   {
     "Title": "Harry Potter and the Prisoner of Azkaban",
     "TitleOriginal": "Harry Potter and the Prisoner of Azkaban",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.10,
     "Minutes": 141,
@@ -1118,6 +1211,7 @@ var films = [
   {
     "Title": "The Devil Wears Prada",
     "TitleOriginal": "The Devil Wears Prada",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.79,
     "Minutes": 109,
@@ -1130,6 +1224,7 @@ var films = [
   {
     "Title": "Inglourious Basterds",
     "TitleOriginal": "Inglourious Basterds",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.34,
     "Minutes": 153,
@@ -1142,6 +1237,7 @@ var films = [
   {
     "Title": "Juno",
     "TitleOriginal": "Juno",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.74,
     "Minutes": 96,
@@ -1154,6 +1250,7 @@ var films = [
   {
     "Title": "Moonlight",
     "TitleOriginal": "Moonlight",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.20,
     "Minutes": 111,
@@ -1166,6 +1263,7 @@ var films = [
   {
     "Title": "Ratatouille",
     "TitleOriginal": "Ratatouille",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.21,
     "Minutes": 111,
@@ -1178,6 +1276,7 @@ var films = [
   {
     "Title": "American Psycho",
     "TitleOriginal": "American Psycho",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.85,
     "Minutes": 102,
@@ -1190,6 +1289,7 @@ var films = [
   {
     "Title": "Forrest Gump",
     "TitleOriginal": "Forrest Gump",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.14,
     "Minutes": 142,
@@ -1202,6 +1302,7 @@ var films = [
   {
     "Title": "Ferris Bueller's Day Off",
     "TitleOriginal": "Ferris Bueller's Day Off",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.94,
     "Minutes": 103,
@@ -1214,6 +1315,7 @@ var films = [
   {
     "Title": "Se7en",
     "TitleOriginal": "Se7en",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.33,
     "Minutes": 127,
@@ -1226,6 +1328,7 @@ var films = [
   {
     "Title": "The Rocky Horror Picture Show",
     "TitleOriginal": "The Rocky Horror Picture Show",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.01,
     "Minutes": 100,
@@ -1238,6 +1341,7 @@ var films = [
   {
     "Title": "The Florida Project",
     "TitleOriginal": "The Florida Project",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.10,
     "Minutes": 112,
@@ -1250,6 +1354,7 @@ var films = [
   {
     "Title": "Shutter Island",
     "TitleOriginal": "Shutter Island",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.12,
     "Minutes": 138,
@@ -1262,6 +1367,7 @@ var films = [
   {
     "Title": "Trainspotting",
     "TitleOriginal": "Trainspotting",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.20,
     "Minutes": 94,
@@ -1274,6 +1380,7 @@ var films = [
   {
     "Title": "Pearl",
     "TitleOriginal": "Pearl",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.73,
     "Minutes": 102,
@@ -1286,6 +1393,7 @@ var films = [
   {
     "Title": "Lost in Translation",
     "TitleOriginal": "Lost in Translation",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.81,
     "Minutes": 102,
@@ -1298,6 +1406,7 @@ var films = [
   {
     "Title": "The Dark Knight",
     "TitleOriginal": "The Dark Knight",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.47,
     "Minutes": 152,
@@ -1310,6 +1419,7 @@ var films = [
   {
     "Title": "Get Out",
     "TitleOriginal": "Get Out",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.16,
     "Minutes": 104,
@@ -1322,6 +1432,7 @@ var films = [
   {
     "Title": "Blue Is the Warmest Color",
     "TitleOriginal": "La Vie d'Ad\u00E8le - Chapitres 1 et 2",
+    "Language": "French",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.27,
     "Minutes": 180,
@@ -1334,6 +1445,7 @@ var films = [
   {
     "Title": "Brokeback Mountain",
     "TitleOriginal": "Brokeback Mountain",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.11,
     "Minutes": 134,
@@ -1346,6 +1458,7 @@ var films = [
   {
     "Title": "Closer",
     "TitleOriginal": "Closer",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.40,
     "Minutes": 104,
@@ -1358,6 +1471,7 @@ var films = [
   {
     "Title": "The Favourite",
     "TitleOriginal": "The Favourite",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.02,
     "Minutes": 119,
@@ -1370,6 +1484,7 @@ var films = [
   {
     "Title": "Lolita",
     "TitleOriginal": "Lolita",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.49,
     "Minutes": 154,
@@ -1382,6 +1497,7 @@ var films = [
   {
     "Title": "The Piano Teacher",
     "TitleOriginal": "La Pianiste",
+    "Language": "French",
     "RatingSelf": 2,
     "RatingLetterboxd": 4.09,
     "Minutes": 131,
@@ -1394,6 +1510,7 @@ var films = [
   {
     "Title": "The Lobster",
     "TitleOriginal": "The Lobster",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.78,
     "Minutes": 119,
@@ -1406,6 +1523,7 @@ var films = [
   {
     "Title": "The Room",
     "TitleOriginal": "The Room",
+    "Language": "English",
     "RatingSelf": 1,
     "RatingLetterboxd": 2.60,
     "Minutes": 99,
@@ -1418,6 +1536,7 @@ var films = [
   {
     "Title": "American Beauty",
     "TitleOriginal": "American Beauty",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.96,
     "Minutes": 122,
@@ -1430,6 +1549,7 @@ var films = [
   {
     "Title": "Mamma Mia!",
     "TitleOriginal": "Mamma Mia!",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.78,
     "Minutes": 108,
@@ -1442,6 +1562,7 @@ var films = [
   {
     "Title": "The Lord of the Rings: The Fellowship of the Ring",
     "TitleOriginal": "The Lord of the Rings: The Fellowship of the Ring",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.37,
     "Minutes": 179,
@@ -1454,6 +1575,7 @@ var films = [
   {
     "Title": "The Breakfast Club",
     "TitleOriginal": "The Breakfast Club",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 98,
@@ -1466,6 +1588,7 @@ var films = [
   {
     "Title": "The Lord of the Rings: The Return of the King",
     "TitleOriginal": "The Lord of the Rings: The Return of the King",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.51,
     "Minutes": 201,
@@ -1478,6 +1601,7 @@ var films = [
   {
     "Title": "The Thing",
     "TitleOriginal": "The Thing",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.35,
     "Minutes": 109,
@@ -1490,6 +1614,7 @@ var films = [
   {
     "Title": "Taxi Driver",
     "TitleOriginal": "Taxi Driver",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.16,
     "Minutes": 114,
@@ -1502,6 +1627,7 @@ var films = [
   {
     "Title": "Django Unchained",
     "TitleOriginal": "Django Unchained",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.28,
     "Minutes": 165,
@@ -1514,6 +1640,7 @@ var films = [
   {
     "Title": "Oppenheimer",
     "TitleOriginal": "Oppenheimer",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.22,
     "Minutes": 181,
@@ -1526,6 +1653,7 @@ var films = [
   {
     "Title": "Alien",
     "TitleOriginal": "Alien",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.27,
     "Minutes": 117,
@@ -1538,6 +1666,7 @@ var films = [
   {
     "Title": "The Big Lebowski",
     "TitleOriginal": "The Big Lebowski",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.13,
     "Minutes": 117,
@@ -1550,6 +1679,7 @@ var films = [
   {
     "Title": "The Social Network",
     "TitleOriginal": "The Social Network",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.94,
     "Minutes": 121,
@@ -1562,6 +1692,7 @@ var films = [
   {
     "Title": "Baby Driver",
     "TitleOriginal": "Baby Driver",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.71,
     "Minutes": 113,
@@ -1574,6 +1705,7 @@ var films = [
   {
     "Title": "The Lighthouse",
     "TitleOriginal": "The Lighthouse",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.03,
     "Minutes": 109,
@@ -1586,6 +1718,7 @@ var films = [
   {
     "Title": "The Wolf of Wall Street",
     "TitleOriginal": "The Wolf of Wall Street",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.00,
     "Minutes": 180,
@@ -1598,6 +1731,7 @@ var films = [
   {
     "Title": "A Clockwork Orange",
     "TitleOriginal": "A Clockwork Orange",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.12,
     "Minutes": 137,
@@ -1610,6 +1744,7 @@ var films = [
   {
     "Title": "Once Upon a Time... in Hollywood",
     "TitleOriginal": "Once Upon a Time... in Hollywood",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 162,
@@ -1622,6 +1757,7 @@ var films = [
   {
     "Title": "Raiders of the Lost Ark",
     "TitleOriginal": "Raiders of the Lost Ark",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.16,
     "Minutes": 115,
@@ -1634,6 +1770,7 @@ var films = [
   {
     "Title": "Jaws",
     "TitleOriginal": "Jaws",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.96,
     "Minutes": 124,
@@ -1646,6 +1783,7 @@ var films = [
   {
     "Title": "Apocalypse Now",
     "TitleOriginal": "Apocalypse Now",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.44,
     "Minutes": 147,
@@ -1658,6 +1796,7 @@ var films = [
   {
     "Title": "Spirited Away",
     "TitleOriginal": "\u5343\u3068\u5343\u5C0B\u306E\u795E\u96A0\u3057",
+    "Language": "Japanese",
     "RatingSelf": null,
     "RatingLetterboxd": 4.45,
     "Minutes": 125,
@@ -1670,6 +1809,7 @@ var films = [
   {
     "Title": "Joker",
     "TitleOriginal": "Joker",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.85,
     "Minutes": 122,
@@ -1682,6 +1822,7 @@ var films = [
   {
     "Title": "Superbad",
     "TitleOriginal": "Superbad",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.88,
     "Minutes": 113,
@@ -1694,6 +1835,7 @@ var films = [
   {
     "Title": "Gladiator",
     "TitleOriginal": "Gladiator",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.12,
     "Minutes": 155,
@@ -1706,6 +1848,7 @@ var films = [
   {
     "Title": "One Flew Over the Cuckoo's Nest",
     "TitleOriginal": "One Flew Over the Cuckoo's Nest",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.36,
     "Minutes": 133,
@@ -1718,6 +1861,7 @@ var films = [
   {
     "Title": "Shrek 2",
     "TitleOriginal": "Shrek 2",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.06,
     "Minutes": 92,
@@ -1730,6 +1874,7 @@ var films = [
   {
     "Title": "Little Miss Sunshine",
     "TitleOriginal": "Little Miss Sunshine",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.18,
     "Minutes": 102,
@@ -1742,6 +1887,7 @@ var films = [
   {
     "Title": "Silver Linings Playbook",
     "TitleOriginal": "Silver Linings Playbook",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.68,
     "Minutes": 122,
@@ -1754,6 +1900,7 @@ var films = [
   {
     "Title": "The Butterfly Effect",
     "TitleOriginal": "The Butterfly Effect",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.48,
     "Minutes": 120,
@@ -1766,6 +1913,7 @@ var films = [
   {
     "Title": "The Holdovers",
     "TitleOriginal": "The Holdovers",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 4.22,
     "Minutes": 133,
@@ -1778,6 +1926,7 @@ var films = [
   {
     "Title": "Hitman",
     "TitleOriginal": "Hitman",
+    "Language": "English",
     "RatingSelf": 1,
     "RatingLetterboxd": 2.35,
     "Minutes": 94,
@@ -1790,6 +1939,7 @@ var films = [
   {
     "Title": "The Emoji Movie",
     "TitleOriginal": "The Emoji Movie",
+    "Language": "English",
     "RatingSelf": 1,
     "RatingLetterboxd": 1.26,
     "Minutes": 86,
@@ -1802,6 +1952,7 @@ var films = [
   {
     "Title": "John Wick",
     "TitleOriginal": "John Wick",
+    "Language": "English",
     "RatingSelf": 1,
     "RatingLetterboxd": 3.81,
     "Minutes": 101,
@@ -1814,6 +1965,7 @@ var films = [
   {
     "Title": "Grave of the Fireflies",
     "TitleOriginal": "\u706B\u5782\u308B\u306E\u5893",
+    "Language": "Japanese",
     "RatingSelf": null,
     "RatingLetterboxd": 4.46,
     "Minutes": 89,
@@ -1826,6 +1978,7 @@ var films = [
   {
     "Title": "The Lord of the Rings: The Two Towers",
     "TitleOriginal": "The Lord of the Rings: The Two Towers",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.40,
     "Minutes": 179,
@@ -1838,6 +1991,7 @@ var films = [
   {
     "Title": "Rear Window",
     "TitleOriginal": "Rear Window",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.38,
     "Minutes": 115,
@@ -1850,6 +2004,7 @@ var films = [
   {
     "Title": "Princess Mononoke",
     "TitleOriginal": "\u3082\u306E\u306E\u3051\u59EB",
+    "Language": "Japanese",
     "RatingSelf": null,
     "RatingLetterboxd": 4.37,
     "Minutes": 134,
@@ -1862,6 +2017,7 @@ var films = [
   {
     "Title": "Perfect Days",
     "TitleOriginal": "PERFECT DAYS",
+    "Language": "Japanese",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.27,
     "Minutes": 124,
@@ -1874,6 +2030,7 @@ var films = [
   {
     "Title": "WALL\u00B7E",
     "TitleOriginal": "WALL\u00B7E",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.20,
     "Minutes": 98,
@@ -1886,6 +2043,7 @@ var films = [
   {
     "Title": "Night of the Living Dead",
     "TitleOriginal": "Night of the Living Dead",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.97,
     "Minutes": 96,
@@ -1898,6 +2056,7 @@ var films = [
   {
     "Title": "Marriage Story",
     "TitleOriginal": "Marriage Story",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.00,
     "Minutes": 137,
@@ -1910,6 +2069,7 @@ var films = [
   {
     "Title": "Casper",
     "TitleOriginal": "Casper",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.04,
     "Minutes": 100,
@@ -1922,6 +2082,7 @@ var films = [
   {
     "Title": "Fear and Loathing in Las Vegas",
     "TitleOriginal": "Fear and Loathing in Las Vegas",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.78,
     "Minutes": 118,
@@ -1934,6 +2095,7 @@ var films = [
   {
     "Title": "The Addams Family",
     "TitleOriginal": "The Addams Family",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.71,
     "Minutes": 102,
@@ -1946,6 +2108,7 @@ var films = [
   {
     "Title": "Buffalo '66",
     "TitleOriginal": "Buffalo '66",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.85,
     "Minutes": 110,
@@ -1958,6 +2121,7 @@ var films = [
   {
     "Title": "Sleepy Hollow",
     "TitleOriginal": "Sleepy Hollow",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.50,
     "Minutes": 105,
@@ -1970,6 +2134,7 @@ var films = [
   {
     "Title": "Addams Family Values",
     "TitleOriginal": "Addams Family Values",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 94,
@@ -1982,6 +2147,7 @@ var films = [
   {
     "Title": "Monster",
     "TitleOriginal": "Monster",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.64,
     "Minutes": 110,
@@ -1994,6 +2160,7 @@ var films = [
   {
     "Title": "Penelope",
     "TitleOriginal": "Penelope",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.17,
     "Minutes": 103,
@@ -2006,6 +2173,7 @@ var films = [
   {
     "Title": "Prozac Nation",
     "TitleOriginal": "Prozac Nation",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.35,
     "Minutes": 95,
@@ -2018,6 +2186,7 @@ var films = [
   {
     "Title": "Black Snake Moan",
     "TitleOriginal": "Black Snake Moan",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.24,
     "Minutes": 116,
@@ -2030,6 +2199,7 @@ var films = [
   {
     "Title": "The Opposite of Sex",
     "TitleOriginal": "The Opposite of Sex",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.14,
     "Minutes": 105,
@@ -2042,6 +2212,7 @@ var films = [
   {
     "Title": "Pecker",
     "TitleOriginal": "Pecker",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.40,
     "Minutes": 86,
@@ -2054,6 +2225,7 @@ var films = [
   {
     "Title": "House of Wax",
     "TitleOriginal": "House of Wax",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.50,
     "Minutes": 88,
@@ -2066,6 +2238,7 @@ var films = [
   {
     "Title": "Martyrs",
     "TitleOriginal": "Martyrs",
+    "Language": "French",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.65,
     "Minutes": 99,
@@ -2078,6 +2251,7 @@ var films = [
   {
     "Title": "The Texas Chain Saw Massacre",
     "TitleOriginal": "The Texas Chain Saw Massacre",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.84,
     "Minutes": 83,
@@ -2090,6 +2264,7 @@ var films = [
   {
     "Title": "Buffy the Vampire Slayer",
     "TitleOriginal": "Buffy the Vampire Slayer",
+    "Language": "English",
     "RatingSelf": 1,
     "RatingLetterboxd": 2.80,
     "Minutes": 86,
@@ -2102,6 +2277,7 @@ var films = [
   {
     "Title": "12 Years a Slave",
     "TitleOriginal": "12 Years a Slave",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.15,
     "Minutes": 134,
@@ -2114,6 +2290,7 @@ var films = [
   {
     "Title": "CODA",
     "TitleOriginal": "CODA",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.86,
     "Minutes": 112,
@@ -2126,6 +2303,7 @@ var films = [
   {
     "Title": "Dancer in the Dark",
     "TitleOriginal": "Dancer in the Dark",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.19,
     "Minutes": 140,
@@ -2138,6 +2316,7 @@ var films = [
   {
     "Title": "Ex Machina",
     "TitleOriginal": "Ex Machina",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.98,
     "Minutes": 108,
@@ -2150,6 +2329,7 @@ var films = [
   {
     "Title": "Fargo",
     "TitleOriginal": "Fargo",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.21,
     "Minutes": 98,
@@ -2162,6 +2342,7 @@ var films = [
   {
     "Title": "Interview with the Vampire",
     "TitleOriginal": "Interview with the Vampire",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.58,
     "Minutes": 123,
@@ -2174,6 +2355,7 @@ var films = [
   {
     "Title": "Half-Life: 25th Anniversary Documentary",
     "TitleOriginal": "Half-Life: 25th Anniversary Documentary",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": -1,
     "Minutes": 65,
@@ -2186,6 +2368,7 @@ var films = [
   {
     "Title": "Glass Onion",
     "TitleOriginal": "Glass Onion: A Knives Out Mystery",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.44,
     "Minutes": 140,
@@ -2198,6 +2381,7 @@ var films = [
   {
     "Title": "Gifted",
     "TitleOriginal": "Gifted",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.65,
     "Minutes": 101,
@@ -2210,6 +2394,7 @@ var films = [
   {
     "Title": "Frankenstein",
     "TitleOriginal": "Frankenstein",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.83,
     "Minutes": 71,
@@ -2222,6 +2407,7 @@ var films = [
   {
     "Title": "Lars and the Real Girl",
     "TitleOriginal": "Lars and the Real Girl",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.80,
     "Minutes": 106,
@@ -2234,6 +2420,7 @@ var films = [
   {
     "Title": "Lilya 4-ever",
     "TitleOriginal": "Lilja 4-Ever",
+    "Language": "Swedish",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.14,
     "Minutes": 109,
@@ -2246,6 +2433,7 @@ var films = [
   {
     "Title": "Mean Creek",
     "TitleOriginal": "Mean Creek",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.60,
     "Minutes": 90,
@@ -2258,6 +2446,7 @@ var films = [
   {
     "Title": "Raw",
     "TitleOriginal": "Grave",
+    "Language": "French",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.69,
     "Minutes": 99,
@@ -2270,6 +2459,7 @@ var films = [
   {
     "Title": "Spring, Summer, Fall, Winter... and Spring",
     "TitleOriginal": "\uBD04 \uC5EC\uB984 \uAC00\uC744 \uACA8\uC6B8 \uADF8\uB9AC\uACE0 \uBD04",
+    "Language": "Korean",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.20,
     "Minutes": 103,
@@ -2282,6 +2472,7 @@ var films = [
   {
     "Title": "The Revenant",
     "TitleOriginal": "The Revenant",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.87,
     "Minutes": 157,
@@ -2294,6 +2485,7 @@ var films = [
   {
     "Title": "The Menu",
     "TitleOriginal": "The Menu",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.53,
     "Minutes": 107,
@@ -2306,6 +2498,7 @@ var films = [
   {
     "Title": "The Killing",
     "TitleOriginal": "The Killing",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.99,
     "Minutes": 85,
@@ -2318,6 +2511,7 @@ var films = [
   {
     "Title": "The Barkley Marathons: The Race That Eats Its Young",
     "TitleOriginal": "The Barkley Marathons: The Race That Eats Its Young",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.93,
     "Minutes": 90,
@@ -2330,6 +2524,7 @@ var films = [
   {
     "Title": "The Banshees of Inisherin",
     "TitleOriginal": "The Banshees of Inisherin",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.11,
     "Minutes": 114,
@@ -2342,6 +2537,7 @@ var films = [
   {
     "Title": "The War Game",
     "TitleOriginal": "The War Game",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.05,
     "Minutes": 48,
@@ -2354,6 +2550,7 @@ var films = [
   {
     "Title": "Three Billboards Outside Ebbing, Missouri",
     "TitleOriginal": "Three Billboards Outside Ebbing, Missouri",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.04,
     "Minutes": 115,
@@ -2366,6 +2563,7 @@ var films = [
   {
     "Title": "Wild Tales",
     "TitleOriginal": "Relatos salvajes",
+    "Language": "Spanish",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.13,
     "Minutes": 122,
@@ -2378,6 +2576,7 @@ var films = [
   {
     "Title": "All Is Lost",
     "TitleOriginal": "All Is Lost",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.55,
     "Minutes": 106,
@@ -2390,6 +2589,7 @@ var films = [
   {
     "Title": "Birds Without Feathers",
     "TitleOriginal": "Birds Without Feathers",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": -1,
     "Minutes": 85,
@@ -2402,6 +2602,7 @@ var films = [
   {
     "Title": "Blue Jean",
     "TitleOriginal": "Blue Jean",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.82,
     "Minutes": 97,
@@ -2414,6 +2615,7 @@ var films = [
   {
     "Title": "Electrick Children",
     "TitleOriginal": "Electrick Children",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.51,
     "Minutes": 96,
@@ -2426,6 +2628,7 @@ var films = [
   {
     "Title": "Heavenly Creatures",
     "TitleOriginal": "Heavenly Creatures",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.76,
     "Minutes": 109,
@@ -2438,6 +2641,7 @@ var films = [
   {
     "Title": "Scoop",
     "TitleOriginal": "Scoop",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 2.98,
     "Minutes": 103,
@@ -2450,6 +2654,7 @@ var films = [
   {
     "Title": "Perfect Strangers",
     "TitleOriginal": "Perfetti sconosciuti",
+    "Language": "Italian",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.68,
     "Minutes": 97,
@@ -2462,6 +2667,7 @@ var films = [
   {
     "Title": "M\u00E4dchen in Uniform",
     "TitleOriginal": "M\u00E4dchen in Uniform",
+    "Language": "German",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.88,
     "Minutes": 88,
@@ -2474,6 +2680,7 @@ var films = [
   {
     "Title": "La Belle Noiseuse",
     "TitleOriginal": "La Belle Noiseuse",
+    "Language": "French",
     "RatingSelf": 3,
     "RatingLetterboxd": 4.18,
     "Minutes": 238,
@@ -2486,6 +2693,7 @@ var films = [
   {
     "Title": "Jackass Forever",
     "TitleOriginal": "Jackass Forever",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.57,
     "Minutes": 96,
@@ -2498,6 +2706,7 @@ var films = [
   {
     "Title": "Snatch",
     "TitleOriginal": "Snatch",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 4.02,
     "Minutes": 103,
@@ -2510,6 +2719,7 @@ var films = [
   {
     "Title": "The Exorcist",
     "TitleOriginal": "The Exorcist",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.98,
     "Minutes": 122,
@@ -2522,6 +2732,7 @@ var films = [
   {
     "Title": "The Prince",
     "TitleOriginal": "The Prince",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.77,
     "Minutes": 121,
@@ -2534,6 +2745,7 @@ var films = [
   {
     "Title": "Triangle of Sadness",
     "TitleOriginal": "Triangle of Sadness",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.69,
     "Minutes": 147,
@@ -2546,6 +2758,7 @@ var films = [
   {
     "Title": "Tyrannosaur",
     "TitleOriginal": "Tyrannosaur",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.86,
     "Minutes": 93,
@@ -2558,6 +2771,7 @@ var films = [
   {
     "Title": "Us",
     "TitleOriginal": "Us",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.66,
     "Minutes": 116,
@@ -2570,6 +2784,7 @@ var films = [
   {
     "Title": "Zombieland",
     "TitleOriginal": "Zombieland",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.53,
     "Minutes": 88,
@@ -2582,6 +2797,7 @@ var films = [
   {
     "Title": "Borat Subsequent Moviefilm",
     "TitleOriginal": "Borat Subsequent Moviefilm",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.28,
     "Minutes": 96,
@@ -2594,6 +2810,7 @@ var films = [
   {
     "Title": "Fuzzy Head",
     "TitleOriginal": "Fuzzy Head",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": -1,
     "Minutes": 84,
@@ -2606,6 +2823,7 @@ var films = [
   {
     "Title": "Gosford Park",
     "TitleOriginal": "Gosford Park",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.68,
     "Minutes": 137,
@@ -2618,6 +2836,7 @@ var films = [
   {
     "Title": "Sherlock Jr.",
     "TitleOriginal": "Sherlock Jr.",
+    "Language": "",
     "RatingSelf": null,
     "RatingLetterboxd": 4.37,
     "Minutes": 45,
@@ -2630,6 +2849,7 @@ var films = [
   {
     "Title": "Sicario",
     "TitleOriginal": "Sicario",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.98,
     "Minutes": 122,
@@ -2642,6 +2862,7 @@ var films = [
   {
     "Title": "The Assistant",
     "TitleOriginal": "The Assistant",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.52,
     "Minutes": 88,
@@ -2654,6 +2875,7 @@ var films = [
   {
     "Title": "The Killer",
     "TitleOriginal": "The Killer",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.39,
     "Minutes": 118,
@@ -2666,6 +2888,7 @@ var films = [
   {
     "Title": "The Purge",
     "TitleOriginal": "The Purge",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 2.71,
     "Minutes": 86,
@@ -2678,6 +2901,7 @@ var films = [
   {
     "Title": "The Royal Hotel",
     "TitleOriginal": "The Royal Hotel",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.06,
     "Minutes": 91,
@@ -2690,6 +2914,7 @@ var films = [
   {
     "Title": "Early Man",
     "TitleOriginal": "Early Man",
+    "Language": "English",
     "RatingSelf": 1,
     "RatingLetterboxd": 2.91,
     "Minutes": 89,
@@ -2702,6 +2927,7 @@ var films = [
   {
     "Title": "Who the #$\u0026% Is Jackson Pollock?",
     "TitleOriginal": "Who the #$\u0026% Is Jackson Pollock?",
+    "Language": "English",
     "RatingSelf": 1,
     "RatingLetterboxd": 3.41,
     "Minutes": 74,
@@ -2714,6 +2940,7 @@ var films = [
   {
     "Title": "Saving Private Ryan",
     "TitleOriginal": "Saving Private Ryan",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.24,
     "Minutes": 169,
@@ -2726,6 +2953,7 @@ var films = [
   {
     "Title": "Catch Me If You Can",
     "TitleOriginal": "Catch Me If You Can",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.04,
     "Minutes": 141,
@@ -2738,6 +2966,7 @@ var films = [
   {
     "Title": "Avatar",
     "TitleOriginal": "Avatar",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.60,
     "Minutes": 162,
@@ -2750,6 +2979,7 @@ var films = [
   {
     "Title": "A Beautiful Mind",
     "TitleOriginal": "A Beautiful Mind",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.83,
     "Minutes": 135,
@@ -2762,6 +2992,7 @@ var films = [
   {
     "Title": "The Wrestler",
     "TitleOriginal": "The Wrestler",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.06,
     "Minutes": 109,
@@ -2774,6 +3005,7 @@ var films = [
   {
     "Title": "1917",
     "TitleOriginal": "1917",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.11,
     "Minutes": 119,
@@ -2786,6 +3018,7 @@ var films = [
   {
     "Title": "Burn After Reading",
     "TitleOriginal": "Burn After Reading",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.61,
     "Minutes": 96,
@@ -2798,6 +3031,7 @@ var films = [
   {
     "Title": "The Hunt",
     "TitleOriginal": "Jagten",
+    "Language": "Danish",
     "RatingSelf": null,
     "RatingLetterboxd": 4.29,
     "Minutes": 116,
@@ -2810,6 +3044,7 @@ var films = [
   {
     "Title": "Whip It",
     "TitleOriginal": "Whip It",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.60,
     "Minutes": 111,
@@ -2822,6 +3057,7 @@ var films = [
   {
     "Title": "Nightcrawler",
     "TitleOriginal": "Nightcrawler",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.04,
     "Minutes": 118,
@@ -2834,6 +3070,7 @@ var films = [
   {
     "Title": "Green Book",
     "TitleOriginal": "Green Book",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.74,
     "Minutes": 130,
@@ -2846,6 +3083,7 @@ var films = [
   {
     "Title": "Love Actually",
     "TitleOriginal": "Love Actually",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.46,
     "Minutes": 135,
@@ -2858,6 +3096,7 @@ var films = [
   {
     "Title": "Bridget Jones's Diary",
     "TitleOriginal": "Bridget Jones's Diary",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.42,
     "Minutes": 97,
@@ -2870,6 +3109,7 @@ var films = [
   {
     "Title": "The Pursuit of Happyness",
     "TitleOriginal": "The Pursuit of Happyness",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.90,
     "Minutes": 117,
@@ -2882,6 +3122,7 @@ var films = [
   {
     "Title": "Hot Fuzz",
     "TitleOriginal": "Hot Fuzz",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.08,
     "Minutes": 121,
@@ -2894,6 +3135,7 @@ var films = [
   {
     "Title": "The Peanut Butter Falcon",
     "TitleOriginal": "The Peanut Butter Falcon",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.84,
     "Minutes": 97,
@@ -2906,6 +3148,7 @@ var films = [
   {
     "Title": "Notting Hill",
     "TitleOriginal": "Notting Hill",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.64,
     "Minutes": 124,
@@ -2918,6 +3161,7 @@ var films = [
   {
     "Title": "Shrek",
     "TitleOriginal": "Shrek",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.08,
     "Minutes": 90,
@@ -2930,6 +3174,7 @@ var films = [
   {
     "Title": "Idiocracy",
     "TitleOriginal": "Idiocracy",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.97,
     "Minutes": 84,
@@ -2942,6 +3187,7 @@ var films = [
   {
     "Title": "The Great Escape",
     "TitleOriginal": "The Great Escape",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.14,
     "Minutes": 173,
@@ -2954,6 +3200,7 @@ var films = [
   {
     "Title": "O Brother, Where Art Thou?",
     "TitleOriginal": "O Brother, Where Art Thou?",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.94,
     "Minutes": 107,
@@ -2966,6 +3213,7 @@ var films = [
   {
     "Title": "Thelma \u0026 Louise",
     "TitleOriginal": "Thelma \u0026 Louise",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.15,
     "Minutes": 130,
@@ -2978,6 +3226,7 @@ var films = [
   {
     "Title": "The Cabin in the Woods",
     "TitleOriginal": "The Cabin in the Woods",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.40,
     "Minutes": 95,
@@ -2990,6 +3239,7 @@ var films = [
   {
     "Title": "Kill Bill: Vol. 2",
     "TitleOriginal": "Kill Bill: Vol. 2",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.07,
     "Minutes": 136,
@@ -3002,6 +3252,7 @@ var films = [
   {
     "Title": "The Ring",
     "TitleOriginal": "The Ring",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.32,
     "Minutes": 115,
@@ -3014,6 +3265,7 @@ var films = [
   {
     "Title": "Milk",
     "TitleOriginal": "Milk",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 128,
@@ -3026,6 +3278,7 @@ var films = [
   {
     "Title": "The Sound of Music",
     "TitleOriginal": "The Sound of Music",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.13,
     "Minutes": 174,
@@ -3038,6 +3291,7 @@ var films = [
   {
     "Title": "E.T. the Extra-Terrestrial",
     "TitleOriginal": "E.T. the Extra-Terrestrial",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.84,
     "Minutes": 115,
@@ -3050,6 +3304,7 @@ var films = [
   {
     "Title": "The Parent Trap",
     "TitleOriginal": "The Parent Trap",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.71,
     "Minutes": 128,
@@ -3062,6 +3317,7 @@ var films = [
   {
     "Title": "This Is England",
     "TitleOriginal": "This Is England",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.07,
     "Minutes": 101,
@@ -3074,6 +3330,7 @@ var films = [
   {
     "Title": "Zero Dark Thirty",
     "TitleOriginal": "Zero Dark Thirty",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.67,
     "Minutes": 157,
@@ -3086,6 +3343,7 @@ var films = [
   {
     "Title": "L\u00E9on: The Professional",
     "TitleOriginal": "L\u00E9on: The Professional",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.02,
     "Minutes": 111,
@@ -3098,6 +3356,7 @@ var films = [
   {
     "Title": "Reservoir Dogs",
     "TitleOriginal": "Reservoir Dogs",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.15,
     "Minutes": 99,
@@ -3110,6 +3369,7 @@ var films = [
   {
     "Title": "Die Hard",
     "TitleOriginal": "Die Hard",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.07,
     "Minutes": 132,
@@ -3122,6 +3382,7 @@ var films = [
   {
     "Title": "Full Metal Jacket",
     "TitleOriginal": "Full Metal Jacket",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.21,
     "Minutes": 117,
@@ -3134,6 +3395,7 @@ var films = [
   {
     "Title": "Lock, Stock and Two Smoking Barrels",
     "TitleOriginal": "Lock, Stock and Two Smoking Barrels",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.97,
     "Minutes": 105,
@@ -3146,6 +3408,7 @@ var films = [
   {
     "Title": "V for Vendetta",
     "TitleOriginal": "V for Vendetta",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.85,
     "Minutes": 132,
@@ -3158,6 +3421,7 @@ var films = [
   {
     "Title": "Batman Begins",
     "TitleOriginal": "Batman Begins",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.80,
     "Minutes": 140,
@@ -3170,6 +3434,7 @@ var films = [
   {
     "Title": "Death Proof",
     "TitleOriginal": "Death Proof",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.57,
     "Minutes": 113,
@@ -3182,6 +3447,7 @@ var films = [
   {
     "Title": "Jackie Brown",
     "TitleOriginal": "Jackie Brown",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.87,
     "Minutes": 154,
@@ -3194,6 +3460,7 @@ var films = [
   {
     "Title": "The Hateful Eight",
     "TitleOriginal": "The Hateful Eight",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.96,
     "Minutes": 188,
@@ -3206,6 +3473,7 @@ var films = [
   {
     "Title": "Shaun of the Dead",
     "TitleOriginal": "Shaun of the Dead",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.97,
     "Minutes": 99,
@@ -3218,6 +3486,7 @@ var films = [
   {
     "Title": "Braveheart",
     "TitleOriginal": "Braveheart",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.88,
     "Minutes": 177,
@@ -3230,6 +3499,7 @@ var films = [
   {
     "Title": "The Terminator",
     "TitleOriginal": "The Terminator",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.89,
     "Minutes": 108,
@@ -3242,6 +3512,7 @@ var films = [
   {
     "Title": "Terminator 2: Judgment Day",
     "TitleOriginal": "Terminator 2: Judgment Day",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.28,
     "Minutes": 137,
@@ -3254,6 +3525,7 @@ var films = [
   {
     "Title": "In Bruges",
     "TitleOriginal": "In Bruges",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.11,
     "Minutes": 108,
@@ -3266,6 +3538,7 @@ var films = [
   {
     "Title": "The Great Gatsby",
     "TitleOriginal": "The Great Gatsby",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.40,
     "Minutes": 143,
@@ -3278,6 +3551,7 @@ var films = [
   {
     "Title": "Sleeping Beauty",
     "TitleOriginal": "Sleeping Beauty",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.75,
     "Minutes": 102,
@@ -3290,6 +3564,7 @@ var films = [
   {
     "Title": "The Trip",
     "TitleOriginal": "The Trip",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.66,
     "Minutes": 107,
@@ -3302,6 +3577,7 @@ var films = [
   {
     "Title": "Primer",
     "TitleOriginal": "Primer",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.61,
     "Minutes": 77,
@@ -3314,6 +3590,7 @@ var films = [
   {
     "Title": "The Simpsons Movie",
     "TitleOriginal": "The Simpsons Movie",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.45,
     "Minutes": 87,
@@ -3326,6 +3603,7 @@ var films = [
   {
     "Title": "Jarhead",
     "TitleOriginal": "Jarhead",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.60,
     "Minutes": 123,
@@ -3338,6 +3616,7 @@ var films = [
   {
     "Title": "Pirates of the Caribbean: The Curse of the Black Pearl",
     "TitleOriginal": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.93,
     "Minutes": 143,
@@ -3350,6 +3629,7 @@ var films = [
   {
     "Title": "The Fifth Element",
     "TitleOriginal": "The Fifth Element",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.75,
     "Minutes": 126,
@@ -3362,6 +3642,7 @@ var films = [
   {
     "Title": "Citizen Kane",
     "TitleOriginal": "Citizen Kane",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.21,
     "Minutes": 119,
@@ -3374,6 +3655,7 @@ var films = [
   {
     "Title": "Star Wars",
     "TitleOriginal": "Star Wars",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.17,
     "Minutes": 121,
@@ -3386,6 +3668,7 @@ var films = [
   {
     "Title": "The Perfect Host",
     "TitleOriginal": "The Perfect Host",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.14,
     "Minutes": 93,
@@ -3398,6 +3681,7 @@ var films = [
   {
     "Title": "Rise of the Planet of the Apes",
     "TitleOriginal": "Rise of the Planet of the Apes",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.64,
     "Minutes": 105,
@@ -3410,6 +3694,7 @@ var films = [
   {
     "Title": "The King's Speech",
     "TitleOriginal": "The King's Speech",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.79,
     "Minutes": 118,
@@ -3422,6 +3707,7 @@ var films = [
   {
     "Title": "Ghostbusters",
     "TitleOriginal": "Ghostbusters",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 107,
@@ -3434,6 +3720,7 @@ var films = [
   {
     "Title": "Senna",
     "TitleOriginal": "Senna",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.23,
     "Minutes": 106,
@@ -3446,6 +3733,7 @@ var films = [
   {
     "Title": "Johnny English Reborn",
     "TitleOriginal": "Johnny English Reborn",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.93,
     "Minutes": 101,
@@ -3458,6 +3746,7 @@ var films = [
   {
     "Title": "Final Destination 5",
     "TitleOriginal": "Final Destination 5",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.76,
     "Minutes": 92,
@@ -3470,6 +3759,7 @@ var films = [
   {
     "Title": "The Play House",
     "TitleOriginal": "The Play House",
+    "Language": "",
     "RatingSelf": null,
     "RatingLetterboxd": 3.58,
     "Minutes": 24,
@@ -3482,6 +3772,7 @@ var films = [
   {
     "Title": "The Goat",
     "TitleOriginal": "The Goat",
+    "Language": "",
     "RatingSelf": null,
     "RatingLetterboxd": 3.92,
     "Minutes": 23,
@@ -3494,6 +3785,7 @@ var films = [
   {
     "Title": "The Scarecrow",
     "TitleOriginal": "The Scarecrow",
+    "Language": "",
     "RatingSelf": null,
     "RatingLetterboxd": 3.87,
     "Minutes": 19,
@@ -3506,6 +3798,7 @@ var films = [
   {
     "Title": "TPB AFK: The Pirate Bay - Away from Keyboard",
     "TitleOriginal": "TPB AFK: The Pirate Bay - Away from Keyboard",
+    "Language": "Swedish",
     "RatingSelf": null,
     "RatingLetterboxd": 3.45,
     "Minutes": 82,
@@ -3518,6 +3811,7 @@ var films = [
   {
     "Title": "The High Sign",
     "TitleOriginal": "The High Sign",
+    "Language": "",
     "RatingSelf": null,
     "RatingLetterboxd": 3.84,
     "Minutes": 21,
@@ -3530,6 +3824,7 @@ var films = [
   {
     "Title": "Gnomeo \u0026 Juliet",
     "TitleOriginal": "Gnomeo \u0026 Juliet",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.73,
     "Minutes": 84,
@@ -3542,6 +3837,7 @@ var films = [
   {
     "Title": "127 Hours",
     "TitleOriginal": "127 Hours",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.48,
     "Minutes": 94,
@@ -3554,6 +3850,7 @@ var films = [
   {
     "Title": "Devil",
     "TitleOriginal": "Devil",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.64,
     "Minutes": 80,
@@ -3566,6 +3863,7 @@ var films = [
   {
     "Title": "I Am Love",
     "TitleOriginal": "Io sono l'amore",
+    "Language": "Italian",
     "RatingSelf": null,
     "RatingLetterboxd": 3.75,
     "Minutes": 120,
@@ -3578,6 +3876,7 @@ var films = [
   {
     "Title": "Cops",
     "TitleOriginal": "Cops",
+    "Language": "",
     "RatingSelf": null,
     "RatingLetterboxd": 3.84,
     "Minutes": 18,
@@ -3590,6 +3889,7 @@ var films = [
   {
     "Title": "Unthinkable",
     "TitleOriginal": "Unthinkable",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.09,
     "Minutes": 97,
@@ -3602,6 +3902,7 @@ var films = [
   {
     "Title": "The Incredible Journey",
     "TitleOriginal": "The Incredible Journey",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.25,
     "Minutes": 80,
@@ -3614,6 +3915,7 @@ var films = [
   {
     "Title": "Easy A",
     "TitleOriginal": "Easy A",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.42,
     "Minutes": 93,
@@ -3626,6 +3928,7 @@ var films = [
   {
     "Title": "The Railway Children",
     "TitleOriginal": "The Railway Children",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.55,
     "Minutes": 109,
@@ -3638,6 +3941,7 @@ var films = [
   {
     "Title": "Four Lions",
     "TitleOriginal": "Four Lions",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.88,
     "Minutes": 97,
@@ -3650,6 +3954,7 @@ var films = [
   {
     "Title": "The Human Centipede (First Sequence)",
     "TitleOriginal": "The Human Centipede (First Sequence)",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 1.90,
     "Minutes": 91,
@@ -3662,6 +3967,7 @@ var films = [
   {
     "Title": "The Naked Gun 2\u00BD: The Smell of Fear",
     "TitleOriginal": "The Naked Gun 2\u00BD: The Smell of Fear",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.40,
     "Minutes": 85,
@@ -3674,6 +3980,7 @@ var films = [
   {
     "Title": "The Naked Gun: From the Files of Police Squad!",
     "TitleOriginal": "The Naked Gun: From the Files of Police Squad!",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 86,
@@ -3686,6 +3993,7 @@ var films = [
   {
     "Title": "Falling Down",
     "TitleOriginal": "Falling Down",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.68,
     "Minutes": 113,
@@ -3698,6 +4006,7 @@ var films = [
   {
     "Title": "True Lies",
     "TitleOriginal": "True Lies",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.58,
     "Minutes": 140,
@@ -3710,6 +4019,7 @@ var films = [
   {
     "Title": "Die Another Day",
     "TitleOriginal": "Die Another Day",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.50,
     "Minutes": 133,
@@ -3722,6 +4032,7 @@ var films = [
   {
     "Title": "The World Is Not Enough",
     "TitleOriginal": "The World Is Not Enough",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.87,
     "Minutes": 128,
@@ -3734,6 +4045,7 @@ var films = [
   {
     "Title": "Naked Gun 33\u2153: The Final Insult",
     "TitleOriginal": "Naked Gun 33\u2153: The Final Insult",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.16,
     "Minutes": 83,
@@ -3746,6 +4058,7 @@ var films = [
   {
     "Title": "Casino Royale",
     "TitleOriginal": "Casino Royale",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.01,
     "Minutes": 144,
@@ -3758,6 +4071,7 @@ var films = [
   {
     "Title": "The NeverEnding Story",
     "TitleOriginal": "Die unendliche Geschichte",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.56,
     "Minutes": 102,
@@ -3770,6 +4084,7 @@ var films = [
   {
     "Title": "The Railrodder",
     "TitleOriginal": "The Railrodder",
+    "Language": "",
     "RatingSelf": null,
     "RatingLetterboxd": 3.49,
     "Minutes": 24,
@@ -3782,6 +4097,7 @@ var films = [
   {
     "Title": "Flawless",
     "TitleOriginal": "Flawless",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.16,
     "Minutes": 112,
@@ -3794,6 +4110,7 @@ var films = [
   {
     "Title": "Exam",
     "TitleOriginal": "Exam",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.93,
     "Minutes": 97,
@@ -3806,6 +4123,7 @@ var films = [
   {
     "Title": "The Lionshare",
     "TitleOriginal": "The Lionshare",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": -1,
     "Minutes": 66,
@@ -3818,6 +4136,7 @@ var films = [
   {
     "Title": "Buried",
     "TitleOriginal": "Buried",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.32,
     "Minutes": 94,
@@ -3830,6 +4149,7 @@ var films = [
   {
     "Title": "Precious",
     "TitleOriginal": "Precious",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.64,
     "Minutes": 110,
@@ -3842,6 +4162,7 @@ var films = [
   {
     "Title": "Taking Chance",
     "TitleOriginal": "Taking Chance",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.40,
     "Minutes": 77,
@@ -3854,6 +4175,7 @@ var films = [
   {
     "Title": "An Education",
     "TitleOriginal": "An Education",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.55,
     "Minutes": 100,
@@ -3866,6 +4188,7 @@ var films = [
   {
     "Title": "Fish Tank",
     "TitleOriginal": "Fish Tank",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.83,
     "Minutes": 123,
@@ -3878,6 +4201,7 @@ var films = [
   {
     "Title": "Nasty Old People",
     "TitleOriginal": "Nasty Old People",
+    "Language": "Swedish",
     "RatingSelf": null,
     "RatingLetterboxd": -1,
     "Minutes": 84,
@@ -3890,6 +4214,7 @@ var films = [
   {
     "Title": "One Week",
     "TitleOriginal": "One Week",
+    "Language": "",
     "RatingSelf": null,
     "RatingLetterboxd": 4.17,
     "Minutes": 24,
@@ -3902,6 +4227,7 @@ var films = [
   {
     "Title": "Up in the Air",
     "TitleOriginal": "Up in the Air",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.57,
     "Minutes": 110,
@@ -3914,6 +4240,7 @@ var films = [
   {
     "Title": "Carry On Up the Khyber",
     "TitleOriginal": "Carry On Up the Khyber",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.17,
     "Minutes": 88,
@@ -3926,6 +4253,7 @@ var films = [
   {
     "Title": "Safety Last!",
     "TitleOriginal": "Safety Last!",
+    "Language": "",
     "RatingSelf": null,
     "RatingLetterboxd": 4.10,
     "Minutes": 74,
@@ -3938,6 +4266,7 @@ var films = [
   {
     "Title": "Kissed",
     "TitleOriginal": "Kissed",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.45,
     "Minutes": 78,
@@ -3950,6 +4279,7 @@ var films = [
   {
     "Title": "The Book of Eli",
     "TitleOriginal": "The Book of Eli",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.23,
     "Minutes": 118,
@@ -3962,6 +4292,7 @@ var films = [
   {
     "Title": "Dad's Army",
     "TitleOriginal": "Dad's Army",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.31,
     "Minutes": 95,
@@ -3974,6 +4305,7 @@ var films = [
   {
     "Title": "The Hangover",
     "TitleOriginal": "The Hangover",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.62,
     "Minutes": 100,
@@ -3986,6 +4318,7 @@ var films = [
   {
     "Title": "Food, Inc.",
     "TitleOriginal": "Food, Inc.",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.60,
     "Minutes": 94,
@@ -3998,6 +4331,7 @@ var films = [
   {
     "Title": "Bronson",
     "TitleOriginal": "Bronson",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.64,
     "Minutes": 92,
@@ -4010,6 +4344,7 @@ var films = [
   {
     "Title": "The Yes Men Fix the World",
     "TitleOriginal": "The Yes Men Fix the World",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.56,
     "Minutes": 87,
@@ -4022,6 +4357,7 @@ var films = [
   {
     "Title": "Br\u00FCno",
     "TitleOriginal": "Br\u00FCno",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.92,
     "Minutes": 83,
@@ -4034,6 +4370,7 @@ var films = [
   {
     "Title": "District 9",
     "TitleOriginal": "District 9",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.81,
     "Minutes": 112,
@@ -4046,6 +4383,7 @@ var films = [
   {
     "Title": "Moon",
     "TitleOriginal": "Moon",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.86,
     "Minutes": 97,
@@ -4058,6 +4396,7 @@ var films = [
   {
     "Title": "Serenity",
     "TitleOriginal": "Serenity",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.66,
     "Minutes": 119,
@@ -4070,6 +4409,7 @@ var films = [
   {
     "Title": "The Wicker Man",
     "TitleOriginal": "The Wicker Man",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.96,
     "Minutes": 88,
@@ -4082,6 +4422,7 @@ var films = [
   {
     "Title": "Jackass 3D",
     "TitleOriginal": "Jackass 3D",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.41,
     "Minutes": 99,
@@ -4094,6 +4435,7 @@ var films = [
   {
     "Title": "Day Zero",
     "TitleOriginal": "Day Zero",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.07,
     "Minutes": 92,
@@ -4106,6 +4448,7 @@ var films = [
   {
     "Title": "Beautiful Creatures",
     "TitleOriginal": "Beautiful Creatures",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.06,
     "Minutes": 85,
@@ -4118,6 +4461,7 @@ var films = [
   {
     "Title": "Annie",
     "TitleOriginal": "Annie",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.30,
     "Minutes": 127,
@@ -4130,6 +4474,7 @@ var films = [
   {
     "Title": "The Girl Next Door",
     "TitleOriginal": "The Girl Next Door",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.84,
     "Minutes": 91,
@@ -4142,6 +4487,7 @@ var films = [
   {
     "Title": "Clue",
     "TitleOriginal": "Clue",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.86,
     "Minutes": 94,
@@ -4154,6 +4500,7 @@ var films = [
   {
     "Title": "Manic",
     "TitleOriginal": "Manic",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.69,
     "Minutes": 102,
@@ -4166,6 +4513,7 @@ var films = [
   {
     "Title": "Speak",
     "TitleOriginal": "Speak",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.77,
     "Minutes": 89,
@@ -4178,6 +4526,7 @@ var films = [
   {
     "Title": "Sex and Breakfast",
     "TitleOriginal": "Sex and Breakfast",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.77,
     "Minutes": 81,
@@ -4190,6 +4539,7 @@ var films = [
   {
     "Title": "The Fall",
     "TitleOriginal": "The Fall",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.09,
     "Minutes": 117,
@@ -4202,6 +4552,7 @@ var films = [
   {
     "Title": "The Condemned",
     "TitleOriginal": "The Condemned",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.61,
     "Minutes": 113,
@@ -4214,6 +4565,7 @@ var films = [
   {
     "Title": "Alone in the Wilderness",
     "TitleOriginal": "Alone in the Wilderness",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.17,
     "Minutes": 57,
@@ -4226,6 +4578,7 @@ var films = [
   {
     "Title": "Jackass 2.5",
     "TitleOriginal": "Jackass 2.5",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.12,
     "Minutes": 64,
@@ -4238,6 +4591,7 @@ var films = [
   {
     "Title": "The King of Kong: A Fistful of Quarters",
     "TitleOriginal": "The King of Kong: A Fistful of Quarters",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.99,
     "Minutes": 83,
@@ -4250,6 +4604,7 @@ var films = [
   {
     "Title": "Raising Cain",
     "TitleOriginal": "Raising Cain",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.26,
     "Minutes": 92,
@@ -4262,6 +4617,7 @@ var films = [
   {
     "Title": "The Air I Breathe",
     "TitleOriginal": "The Air I Breathe",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.91,
     "Minutes": 95,
@@ -4274,6 +4630,7 @@ var films = [
   {
     "Title": "Labyrinth",
     "TitleOriginal": "Labyrinth",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.70,
     "Minutes": 102,
@@ -4286,6 +4643,7 @@ var films = [
   {
     "Title": "The United States of Leland",
     "TitleOriginal": "The United States of Leland",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.30,
     "Minutes": 108,
@@ -4298,6 +4656,7 @@ var films = [
   {
     "Title": "Gaslight",
     "TitleOriginal": "Gaslight",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.00,
     "Minutes": 114,
@@ -4310,6 +4669,7 @@ var films = [
   {
     "Title": "The Man from Earth",
     "TitleOriginal": "The Man from Earth",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.75,
     "Minutes": 87,
@@ -4322,6 +4682,7 @@ var films = [
   {
     "Title": "Fast Times at Ridgemont High",
     "TitleOriginal": "Fast Times at Ridgemont High",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.49,
     "Minutes": 90,
@@ -4334,6 +4695,7 @@ var films = [
   {
     "Title": "Harold \u0026 Kumar Escape from Guantanamo Bay",
     "TitleOriginal": "Harold \u0026 Kumar Escape from Guantanamo Bay",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.93,
     "Minutes": 101,
@@ -4346,6 +4708,7 @@ var films = [
   {
     "Title": "Let the Right One In",
     "TitleOriginal": "L\u00E5t den r\u00E4tte komma in",
+    "Language": "Swedish",
     "RatingSelf": null,
     "RatingLetterboxd": 4.05,
     "Minutes": 114,
@@ -4358,6 +4721,7 @@ var films = [
   {
     "Title": "Death Race 2000",
     "TitleOriginal": "Death Race 2000",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.29,
     "Minutes": 80,
@@ -4370,6 +4734,7 @@ var films = [
   {
     "Title": "Butterfly on a Wheel",
     "TitleOriginal": "Butterfly on a Wheel",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.96,
     "Minutes": 95,
@@ -4382,6 +4747,7 @@ var films = [
   {
     "Title": "Gran Torino",
     "TitleOriginal": "Gran Torino",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.80,
     "Minutes": 116,
@@ -4394,6 +4760,7 @@ var films = [
   {
     "Title": "Wristcutters: A Love Story",
     "TitleOriginal": "Wristcutters: A Love Story",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.62,
     "Minutes": 88,
@@ -4406,6 +4773,7 @@ var films = [
   {
     "Title": "Teeth",
     "TitleOriginal": "Teeth",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.76,
     "Minutes": 94,
@@ -4418,6 +4786,7 @@ var films = [
   {
     "Title": "Starting Out in the Evening",
     "TitleOriginal": "Starting Out in the Evening",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.36,
     "Minutes": 111,
@@ -4430,6 +4799,7 @@ var films = [
   {
     "Title": "Rise of the Footsoldier",
     "TitleOriginal": "Rise of the Footsoldier",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.02,
     "Minutes": 119,
@@ -4442,6 +4812,7 @@ var films = [
   {
     "Title": "Felon",
     "TitleOriginal": "Felon",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.38,
     "Minutes": 103,
@@ -4454,6 +4825,7 @@ var films = [
   {
     "Title": "The Nines",
     "TitleOriginal": "The Nines",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.01,
     "Minutes": 100,
@@ -4466,6 +4838,7 @@ var films = [
   {
     "Title": "The Last Supper",
     "TitleOriginal": "The Last Supper",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.36,
     "Minutes": 92,
@@ -4478,6 +4851,7 @@ var films = [
   {
     "Title": "Harry Potter and the Deathly Hallows: Part 2",
     "TitleOriginal": "Harry Potter and the Deathly Hallows: Part 2",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.97,
     "Minutes": 130,
@@ -4490,6 +4864,7 @@ var films = [
   {
     "Title": "Harry Potter and the Deathly Hallows: Part 1",
     "TitleOriginal": "Harry Potter and the Deathly Hallows: Part 1",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.70,
     "Minutes": 146,
@@ -4502,6 +4877,7 @@ var films = [
   {
     "Title": "Slumdog Millionaire",
     "TitleOriginal": "Slumdog Millionaire",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.91,
     "Minutes": 120,
@@ -4514,6 +4890,7 @@ var films = [
   {
     "Title": "Me and Orson Welles",
     "TitleOriginal": "Me and Orson Welles",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.22,
     "Minutes": 114,
@@ -4526,6 +4903,7 @@ var films = [
   {
     "Title": "One Hundred and One Dalmatians",
     "TitleOriginal": "One Hundred and One Dalmatians",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.65,
     "Minutes": 79,
@@ -4538,6 +4916,7 @@ var films = [
   {
     "Title": "The Hurt Locker",
     "TitleOriginal": "The Hurt Locker",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.75,
     "Minutes": 131,
@@ -4550,6 +4929,7 @@ var films = [
   {
     "Title": "Alice in Wonderland",
     "TitleOriginal": "Alice in Wonderland",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.12,
     "Minutes": 108,
@@ -4562,6 +4942,7 @@ var films = [
   {
     "Title": "Chain Reaction",
     "TitleOriginal": "Chain Reaction",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.65,
     "Minutes": 107,
@@ -4574,6 +4955,7 @@ var films = [
   {
     "Title": "Jackass Number Two",
     "TitleOriginal": "Jackass Number Two",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.50,
     "Minutes": 92,
@@ -4586,6 +4968,7 @@ var films = [
   {
     "Title": "Spun",
     "TitleOriginal": "Spun",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.37,
     "Minutes": 101,
@@ -4598,6 +4981,7 @@ var films = [
   {
     "Title": "Murder by Numbers",
     "TitleOriginal": "Murder by Numbers",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.88,
     "Minutes": 120,
@@ -4610,6 +4994,7 @@ var films = [
   {
     "Title": "Death Sentence",
     "TitleOriginal": "Death Sentence",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.18,
     "Minutes": 105,
@@ -4622,6 +5007,7 @@ var films = [
   {
     "Title": "Sexy Beast",
     "TitleOriginal": "Sexy Beast",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.93,
     "Minutes": 89,
@@ -4634,6 +5020,7 @@ var films = [
   {
     "Title": "Weird Science",
     "TitleOriginal": "Weird Science",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.07,
     "Minutes": 93,
@@ -4646,6 +5033,7 @@ var films = [
   {
     "Title": "The Life of David Gale",
     "TitleOriginal": "The Life of David Gale",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.44,
     "Minutes": 130,
@@ -4658,6 +5046,7 @@ var films = [
   {
     "Title": "Stir of Echoes",
     "TitleOriginal": "Stir of Echoes",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.26,
     "Minutes": 99,
@@ -4670,6 +5059,7 @@ var films = [
   {
     "Title": "Toys",
     "TitleOriginal": "Toys",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.69,
     "Minutes": 118,
@@ -4682,6 +5072,7 @@ var films = [
   {
     "Title": "Jason and the Argonauts",
     "TitleOriginal": "Jason and the Argonauts",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.62,
     "Minutes": 104,
@@ -4694,6 +5085,7 @@ var films = [
   {
     "Title": "Frost/Nixon",
     "TitleOriginal": "Frost/Nixon",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.72,
     "Minutes": 122,
@@ -4706,6 +5098,7 @@ var films = [
   {
     "Title": "Psycho",
     "TitleOriginal": "Psycho",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 2.32,
     "Minutes": 103,
@@ -4718,6 +5111,7 @@ var films = [
   {
     "Title": "Freeway",
     "TitleOriginal": "Freeway",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.47,
     "Minutes": 105,
@@ -4730,6 +5124,7 @@ var films = [
   {
     "Title": "House of Sand and Fog",
     "TitleOriginal": "House of Sand and Fog",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.56,
     "Minutes": 126,
@@ -4742,6 +5137,7 @@ var films = [
   {
     "Title": "Audition",
     "TitleOriginal": "\u30AA\u30FC\u30C7\u30A3\u30B7\u30E7\u30F3",
+    "Language": "Japanese",
     "RatingSelf": null,
     "RatingLetterboxd": 3.82,
     "Minutes": 115,
@@ -4754,6 +5150,7 @@ var films = [
   {
     "Title": "This Is Spinal Tap",
     "TitleOriginal": "This Is Spinal Tap",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.95,
     "Minutes": 82,
@@ -4766,6 +5163,7 @@ var films = [
   {
     "Title": "Thirteen",
     "TitleOriginal": "Thirteen",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.49,
     "Minutes": 100,
@@ -4778,6 +5176,7 @@ var films = [
   {
     "Title": "Oliver Twist",
     "TitleOriginal": "Oliver Twist",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.74,
     "Minutes": 116,
@@ -4790,6 +5189,7 @@ var films = [
   {
     "Title": "Pinocchio",
     "TitleOriginal": "Pinocchio",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.48,
     "Minutes": 88,
@@ -4802,6 +5202,7 @@ var films = [
   {
     "Title": "Quills",
     "TitleOriginal": "Quills",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.48,
     "Minutes": 124,
@@ -4814,6 +5215,7 @@ var films = [
   {
     "Title": "Matilda",
     "TitleOriginal": "Matilda",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.71,
     "Minutes": 98,
@@ -4826,6 +5228,7 @@ var films = [
   {
     "Title": "Confidence",
     "TitleOriginal": "Confidence",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.05,
     "Minutes": 97,
@@ -4838,6 +5241,7 @@ var films = [
   {
     "Title": "Escape from Alcatraz",
     "TitleOriginal": "Escape from Alcatraz",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.77,
     "Minutes": 113,
@@ -4850,6 +5254,7 @@ var films = [
   {
     "Title": "American Psycho II: All American Girl",
     "TitleOriginal": "American Psycho II: All American Girl",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 1.59,
     "Minutes": 88,
@@ -4862,6 +5267,7 @@ var films = [
   {
     "Title": "Crazy/Beautiful",
     "TitleOriginal": "Crazy/Beautiful",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.03,
     "Minutes": 99,
@@ -4874,6 +5280,7 @@ var films = [
   {
     "Title": "Subway",
     "TitleOriginal": "Subway",
+    "Language": "French",
     "RatingSelf": null,
     "RatingLetterboxd": 3.45,
     "Minutes": 104,
@@ -4886,6 +5293,7 @@ var films = [
   {
     "Title": "Frequency",
     "TitleOriginal": "Frequency",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.52,
     "Minutes": 118,
@@ -4898,6 +5306,7 @@ var films = [
   {
     "Title": "The Italian Job",
     "TitleOriginal": "The Italian Job",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.52,
     "Minutes": 99,
@@ -4910,6 +5319,7 @@ var films = [
   {
     "Title": "In America",
     "TitleOriginal": "In America",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.78,
     "Minutes": 105,
@@ -4922,6 +5332,7 @@ var films = [
   {
     "Title": "Hackers",
     "TitleOriginal": "Hackers",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.24,
     "Minutes": 107,
@@ -4934,6 +5345,7 @@ var films = [
   {
     "Title": "The Eye",
     "TitleOriginal": "\u898B\u9B3C",
+    "Language": "Cantonese",
     "RatingSelf": null,
     "RatingLetterboxd": 3.18,
     "Minutes": 98,
@@ -4946,6 +5358,7 @@ var films = [
   {
     "Title": "Hunger",
     "TitleOriginal": "Hunger",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.01,
     "Minutes": 96,
@@ -4958,6 +5371,7 @@ var films = [
   {
     "Title": "Lady and the Tramp",
     "TitleOriginal": "Lady and the Tramp",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.53,
     "Minutes": 76,
@@ -4970,6 +5384,7 @@ var films = [
   {
     "Title": "He Was a Quiet Man",
     "TitleOriginal": "He Was a Quiet Man",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.13,
     "Minutes": 95,
@@ -4982,6 +5397,7 @@ var films = [
   {
     "Title": "A Simple Plan",
     "TitleOriginal": "A Simple Plan",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.85,
     "Minutes": 121,
@@ -4994,6 +5410,7 @@ var films = [
   {
     "Title": "Rounders",
     "TitleOriginal": "Rounders",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.57,
     "Minutes": 121,
@@ -5006,6 +5423,7 @@ var films = [
   {
     "Title": "The Witches",
     "TitleOriginal": "The Witches",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.40,
     "Minutes": 91,
@@ -5018,6 +5436,7 @@ var films = [
   {
     "Title": "The Little Mermaid",
     "TitleOriginal": "The Little Mermaid",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.68,
     "Minutes": 83,
@@ -5030,6 +5449,7 @@ var films = [
   {
     "Title": "Date Movie",
     "TitleOriginal": "Date Movie",
+    "Language": "English",
     "RatingSelf": 1,
     "RatingLetterboxd": 1.42,
     "Minutes": 83,
@@ -5042,6 +5462,7 @@ var films = [
   {
     "Title": "Beauty and the Beast",
     "TitleOriginal": "Beauty and the Beast",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.88,
     "Minutes": 84,
@@ -5054,6 +5475,7 @@ var films = [
   {
     "Title": "Cursed",
     "TitleOriginal": "Cursed",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.61,
     "Minutes": 99,
@@ -5066,6 +5488,7 @@ var films = [
   {
     "Title": "Rescue Dawn",
     "TitleOriginal": "Rescue Dawn",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.56,
     "Minutes": 120,
@@ -5078,6 +5501,7 @@ var films = [
   {
     "Title": "Shallow Grave",
     "TitleOriginal": "Shallow Grave",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 93,
@@ -5090,6 +5514,7 @@ var films = [
   {
     "Title": "Rat Race",
     "TitleOriginal": "Rat Race",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.09,
     "Minutes": 112,
@@ -5102,6 +5527,7 @@ var films = [
   {
     "Title": "Shallow Hal",
     "TitleOriginal": "Shallow Hal",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.51,
     "Minutes": 114,
@@ -5114,6 +5540,7 @@ var films = [
   {
     "Title": "Wolf Creek",
     "TitleOriginal": "Wolf Creek",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.00,
     "Minutes": 104,
@@ -5126,6 +5553,7 @@ var films = [
   {
     "Title": "Patriot Games",
     "TitleOriginal": "Patriot Games",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.27,
     "Minutes": 117,
@@ -5138,6 +5566,7 @@ var films = [
   {
     "Title": "Save the Last Dance",
     "TitleOriginal": "Save the Last Dance",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.97,
     "Minutes": 113,
@@ -5150,6 +5579,7 @@ var films = [
   {
     "Title": "The Incredibles",
     "TitleOriginal": "The Incredibles",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.07,
     "Minutes": 115,
@@ -5162,6 +5592,7 @@ var films = [
   {
     "Title": "The Rock",
     "TitleOriginal": "The Rock",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.56,
     "Minutes": 137,
@@ -5174,6 +5605,7 @@ var films = [
   {
     "Title": "Bridget Jones: The Edge of Reason",
     "TitleOriginal": "Bridget Jones: The Edge of Reason",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.94,
     "Minutes": 108,
@@ -5186,6 +5618,7 @@ var films = [
   {
     "Title": "The Fast and the Furious",
     "TitleOriginal": "The Fast and the Furious",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.35,
     "Minutes": 106,
@@ -5198,6 +5631,7 @@ var films = [
   {
     "Title": "Enemy of the State",
     "TitleOriginal": "Enemy of the State",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.45,
     "Minutes": 132,
@@ -5210,6 +5644,7 @@ var films = [
   {
     "Title": "Air Force One",
     "TitleOriginal": "Air Force One",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.21,
     "Minutes": 124,
@@ -5222,6 +5657,7 @@ var films = [
   {
     "Title": "Pumpkin",
     "TitleOriginal": "Pumpkin",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.98,
     "Minutes": 113,
@@ -5234,6 +5670,7 @@ var films = [
   {
     "Title": "Swordfish",
     "TitleOriginal": "Swordfish",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.72,
     "Minutes": 99,
@@ -5246,6 +5683,7 @@ var films = [
   {
     "Title": "Gone in Sixty Seconds",
     "TitleOriginal": "Gone in Sixty Seconds",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.98,
     "Minutes": 118,
@@ -5258,6 +5696,7 @@ var films = [
   {
     "Title": "Sideways",
     "TitleOriginal": "Sideways",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.80,
     "Minutes": 127,
@@ -5270,6 +5709,7 @@ var films = [
   {
     "Title": "The Italian Job",
     "TitleOriginal": "The Italian Job",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.19,
     "Minutes": 110,
@@ -5282,6 +5722,7 @@ var films = [
   {
     "Title": "Single White Female",
     "TitleOriginal": "Single White Female",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.23,
     "Minutes": 107,
@@ -5294,6 +5735,7 @@ var films = [
   {
     "Title": "Babe",
     "TitleOriginal": "Babe",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.39,
     "Minutes": 91,
@@ -5306,6 +5748,7 @@ var films = [
   {
     "Title": "Final Destination",
     "TitleOriginal": "Final Destination",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.15,
     "Minutes": 98,
@@ -5318,6 +5761,7 @@ var films = [
   {
     "Title": "Wedding Crashers",
     "TitleOriginal": "Wedding Crashers",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.14,
     "Minutes": 119,
@@ -5330,6 +5774,7 @@ var films = [
   {
     "Title": "Chopper",
     "TitleOriginal": "Chopper",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.63,
     "Minutes": 94,
@@ -5342,6 +5787,7 @@ var films = [
   {
     "Title": "Bully",
     "TitleOriginal": "Bully",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.41,
     "Minutes": 113,
@@ -5354,6 +5800,7 @@ var films = [
   {
     "Title": "Twins",
     "TitleOriginal": "Twins",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.99,
     "Minutes": 107,
@@ -5366,6 +5813,7 @@ var films = [
   {
     "Title": "You've Got Mail",
     "TitleOriginal": "You've Got Mail",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.49,
     "Minutes": 119,
@@ -5378,6 +5826,7 @@ var films = [
   {
     "Title": "Johnny English",
     "TitleOriginal": "Johnny English",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.99,
     "Minutes": 87,
@@ -5390,6 +5839,7 @@ var films = [
   {
     "Title": "Judge Dredd",
     "TitleOriginal": "Judge Dredd",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.56,
     "Minutes": 96,
@@ -5402,6 +5852,7 @@ var films = [
   {
     "Title": "The Bone Collector",
     "TitleOriginal": "The Bone Collector",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.17,
     "Minutes": 118,
@@ -5414,6 +5865,7 @@ var films = [
   {
     "Title": "Election",
     "TitleOriginal": "Election",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.80,
     "Minutes": 103,
@@ -5426,6 +5878,7 @@ var films = [
   {
     "Title": "Stepmom",
     "TitleOriginal": "Stepmom",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.50,
     "Minutes": 125,
@@ -5438,6 +5891,7 @@ var films = [
   {
     "Title": "Go",
     "TitleOriginal": "Go",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.65,
     "Minutes": 98,
@@ -5450,6 +5904,7 @@ var films = [
   {
     "Title": "The Descent",
     "TitleOriginal": "The Descent",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.59,
     "Minutes": 99,
@@ -5462,6 +5917,7 @@ var films = [
   {
     "Title": "Thank You for Smoking",
     "TitleOriginal": "Thank You for Smoking",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.65,
     "Minutes": 92,
@@ -5474,6 +5930,7 @@ var films = [
   {
     "Title": "The Texas Chainsaw Massacre",
     "TitleOriginal": "The Texas Chainsaw Massacre",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.97,
     "Minutes": 98,
@@ -5486,6 +5943,7 @@ var films = [
   {
     "Title": "Super Size Me",
     "TitleOriginal": "Super Size Me",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.07,
     "Minutes": 100,
@@ -5498,6 +5956,7 @@ var films = [
   {
     "Title": "Final Destination 2",
     "TitleOriginal": "Final Destination 2",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.89,
     "Minutes": 90,
@@ -5510,6 +5969,7 @@ var films = [
   {
     "Title": "Honey, I Shrunk the Kids",
     "TitleOriginal": "Honey, I Shrunk the Kids",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.16,
     "Minutes": 93,
@@ -5522,6 +5982,7 @@ var films = [
   {
     "Title": "EuroTrip",
     "TitleOriginal": "EuroTrip",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.97,
     "Minutes": 93,
@@ -5534,6 +5995,7 @@ var films = [
   {
     "Title": "Cliffhanger",
     "TitleOriginal": "Cliffhanger",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.20,
     "Minutes": 112,
@@ -5546,6 +6008,7 @@ var films = [
   {
     "Title": "The Mask of Zorro",
     "TitleOriginal": "The Mask of Zorro",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.36,
     "Minutes": 136,
@@ -5558,6 +6021,7 @@ var films = [
   {
     "Title": "The Goonies",
     "TitleOriginal": "The Goonies",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.79,
     "Minutes": 114,
@@ -5570,6 +6034,7 @@ var films = [
   {
     "Title": "Police Academy",
     "TitleOriginal": "Police Academy",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.16,
     "Minutes": 97,
@@ -5582,6 +6047,7 @@ var films = [
   {
     "Title": "The Jungle Book",
     "TitleOriginal": "The Jungle Book",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.67,
     "Minutes": 78,
@@ -5594,6 +6060,7 @@ var films = [
   {
     "Title": "Flightplan",
     "TitleOriginal": "Flightplan",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.01,
     "Minutes": 98,
@@ -5606,6 +6073,7 @@ var films = [
   {
     "Title": "Final Destination 3",
     "TitleOriginal": "Final Destination 3",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.99,
     "Minutes": 93,
@@ -5618,6 +6086,7 @@ var films = [
   {
     "Title": "Brick",
     "TitleOriginal": "Brick",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.71,
     "Minutes": 110,
@@ -5630,6 +6099,7 @@ var films = [
   {
     "Title": "DOA: Dead or Alive",
     "TitleOriginal": "DOA: Dead or Alive",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.40,
     "Minutes": 87,
@@ -5642,6 +6112,7 @@ var films = [
   {
     "Title": "Jackass: The Movie",
     "TitleOriginal": "Jackass: The Movie",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.36,
     "Minutes": 88,
@@ -5654,6 +6125,7 @@ var films = [
   {
     "Title": "Hancock",
     "TitleOriginal": "Hancock",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.75,
     "Minutes": 92,
@@ -5666,6 +6138,7 @@ var films = [
   {
     "Title": "Reservation Road",
     "TitleOriginal": "Reservation Road",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.16,
     "Minutes": 102,
@@ -5678,6 +6151,7 @@ var films = [
   {
     "Title": "Jeepers Creepers",
     "TitleOriginal": "Jeepers Creepers",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.05,
     "Minutes": 90,
@@ -5690,6 +6164,7 @@ var films = [
   {
     "Title": "Dude, Where's My Car?",
     "TitleOriginal": "Dude, Where's My Car?",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.64,
     "Minutes": 83,
@@ -5702,6 +6177,7 @@ var films = [
   {
     "Title": "The Bank Job",
     "TitleOriginal": "The Bank Job",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.21,
     "Minutes": 112,
@@ -5714,6 +6190,7 @@ var films = [
   {
     "Title": "Jumanji",
     "TitleOriginal": "Jumanji",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.62,
     "Minutes": 104,
@@ -5726,6 +6203,7 @@ var films = [
   {
     "Title": "Taken",
     "TitleOriginal": "Taken",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.49,
     "Minutes": 94,
@@ -5738,6 +6216,7 @@ var films = [
   {
     "Title": "Charlie Bartlett",
     "TitleOriginal": "Charlie Bartlett",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.33,
     "Minutes": 97,
@@ -5750,6 +6229,7 @@ var films = [
   {
     "Title": "Deep Impact",
     "TitleOriginal": "Deep Impact",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.91,
     "Minutes": 120,
@@ -5762,6 +6242,7 @@ var films = [
   {
     "Title": "The History Boys",
     "TitleOriginal": "The History Boys",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.36,
     "Minutes": 109,
@@ -5774,6 +6255,7 @@ var films = [
   {
     "Title": "The Lion King",
     "TitleOriginal": "The Lion King",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.22,
     "Minutes": 89,
@@ -5786,6 +6268,7 @@ var films = [
   {
     "Title": "Creep",
     "TitleOriginal": "Creep",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.80,
     "Minutes": 85,
@@ -5798,6 +6281,7 @@ var films = [
   {
     "Title": "Ali",
     "TitleOriginal": "Ali",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.48,
     "Minutes": 157,
@@ -5810,6 +6294,7 @@ var films = [
   {
     "Title": "Robin Hood: Prince of Thieves",
     "TitleOriginal": "Robin Hood: Prince of Thieves",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.23,
     "Minutes": 143,
@@ -5822,6 +6307,7 @@ var films = [
   {
     "Title": "Cast Away",
     "TitleOriginal": "Cast Away",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.87,
     "Minutes": 143,
@@ -5834,6 +6320,7 @@ var films = [
   {
     "Title": "My Big Fat Greek Wedding",
     "TitleOriginal": "My Big Fat Greek Wedding",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.38,
     "Minutes": 95,
@@ -5846,6 +6333,7 @@ var films = [
   {
     "Title": "American Pie Presents: Beta House",
     "TitleOriginal": "American Pie Presents: Beta House",
+    "Language": "English",
     "RatingSelf": 1,
     "RatingLetterboxd": 2.14,
     "Minutes": 89,
@@ -5858,6 +6346,7 @@ var films = [
   {
     "Title": "Disturbia",
     "TitleOriginal": "Disturbia",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.11,
     "Minutes": 105,
@@ -5870,6 +6359,7 @@ var films = [
   {
     "Title": "The Lookout",
     "TitleOriginal": "The Lookout",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.35,
     "Minutes": 99,
@@ -5882,6 +6372,7 @@ var films = [
   {
     "Title": "Jumper",
     "TitleOriginal": "Jumper",
+    "Language": "English",
     "RatingSelf": 1,
     "RatingLetterboxd": 2.61,
     "Minutes": 88,
@@ -5894,6 +6385,7 @@ var films = [
   {
     "Title": "8MM",
     "TitleOriginal": "8MM",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.19,
     "Minutes": 123,
@@ -5906,6 +6398,7 @@ var films = [
   {
     "Title": "Untraceable",
     "TitleOriginal": "Untraceable",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.78,
     "Minutes": 101,
@@ -5918,6 +6411,7 @@ var films = [
   {
     "Title": "21",
     "TitleOriginal": "21",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.05,
     "Minutes": 123,
@@ -5930,6 +6424,7 @@ var films = [
   {
     "Title": "Before the Devil Knows You're Dead",
     "TitleOriginal": "Before the Devil Knows You're Dead",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.73,
     "Minutes": 117,
@@ -5942,6 +6437,7 @@ var films = [
   {
     "Title": "Run Fatboy Run",
     "TitleOriginal": "Run Fatboy Run",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.02,
     "Minutes": 100,
@@ -5954,6 +6450,7 @@ var films = [
   {
     "Title": "Shooter",
     "TitleOriginal": "Shooter",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.16,
     "Minutes": 124,
@@ -5966,6 +6463,7 @@ var films = [
   {
     "Title": "xXx",
     "TitleOriginal": "xXx",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.50,
     "Minutes": 124,
@@ -5978,6 +6476,7 @@ var films = [
   {
     "Title": "Chicken Run",
     "TitleOriginal": "Chicken Run",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.59,
     "Minutes": 84,
@@ -5990,6 +6489,7 @@ var films = [
   {
     "Title": "The Bucket List",
     "TitleOriginal": "The Bucket List",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.27,
     "Minutes": 97,
@@ -6002,6 +6502,7 @@ var films = [
   {
     "Title": "City of Men",
     "TitleOriginal": "Cidade dos Homens",
+    "Language": "Portuguese",
     "RatingSelf": null,
     "RatingLetterboxd": 3.62,
     "Minutes": 106,
@@ -6014,6 +6515,7 @@ var films = [
   {
     "Title": "Alive",
     "TitleOriginal": "Alive",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.30,
     "Minutes": 127,
@@ -6026,6 +6528,7 @@ var films = [
   {
     "Title": "Futurama: Bender's Big Score",
     "TitleOriginal": "Futurama: Bender's Big Score",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.77,
     "Minutes": 88,
@@ -6038,6 +6541,7 @@ var films = [
   {
     "Title": "Cloverfield",
     "TitleOriginal": "Cloverfield",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.39,
     "Minutes": 85,
@@ -6050,6 +6554,7 @@ var films = [
   {
     "Title": "National Treasure: Book of Secrets",
     "TitleOriginal": "National Treasure: Book of Secrets",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.94,
     "Minutes": 124,
@@ -6062,6 +6567,7 @@ var films = [
   {
     "Title": "Arachnophobia",
     "TitleOriginal": "Arachnophobia",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.23,
     "Minutes": 109,
@@ -6074,6 +6580,7 @@ var films = [
   {
     "Title": "I Am Legend",
     "TitleOriginal": "I Am Legend",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.39,
     "Minutes": 101,
@@ -6086,6 +6593,7 @@ var films = [
   {
     "Title": "Junior",
     "TitleOriginal": "Junior",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.34,
     "Minutes": 109,
@@ -6098,6 +6606,7 @@ var films = [
   {
     "Title": "Spice World",
     "TitleOriginal": "Spice World",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.92,
     "Minutes": 93,
@@ -6110,6 +6619,7 @@ var films = [
   {
     "Title": "Murder by Death",
     "TitleOriginal": "Murder by Death",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.33,
     "Minutes": 94,
@@ -6122,6 +6632,7 @@ var films = [
   {
     "Title": "Romeo and Juliet",
     "TitleOriginal": "Romeo and Juliet",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.54,
     "Minutes": 138,
@@ -6134,6 +6645,7 @@ var films = [
   {
     "Title": "Into the Wild",
     "TitleOriginal": "Into the Wild",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.80,
     "Minutes": 148,
@@ -6146,6 +6658,7 @@ var films = [
   {
     "Title": "The Mist",
     "TitleOriginal": "The Mist",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.43,
     "Minutes": 126,
@@ -6158,6 +6671,7 @@ var films = [
   {
     "Title": "King of California",
     "TitleOriginal": "King of California",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.20,
     "Minutes": 93,
@@ -6170,6 +6684,7 @@ var films = [
   {
     "Title": "The Polar Express",
     "TitleOriginal": "The Polar Express",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.24,
     "Minutes": 100,
@@ -6182,6 +6697,7 @@ var films = [
   {
     "Title": "Rush Hour 2",
     "TitleOriginal": "Rush Hour 2",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.33,
     "Minutes": 90,
@@ -6194,6 +6710,7 @@ var films = [
   {
     "Title": "Rush Hour 3",
     "TitleOriginal": "Rush Hour 3",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.91,
     "Minutes": 91,
@@ -6206,6 +6723,7 @@ var films = [
   {
     "Title": "Severance",
     "TitleOriginal": "Severance",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.19,
     "Minutes": 96,
@@ -6218,6 +6736,7 @@ var films = [
   {
     "Title": "Knocked Up",
     "TitleOriginal": "Knocked Up",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.06,
     "Minutes": 129,
@@ -6230,6 +6749,7 @@ var films = [
   {
     "Title": "The Day of the Jackal",
     "TitleOriginal": "The Day of the Jackal",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.92,
     "Minutes": 143,
@@ -6242,6 +6762,7 @@ var films = [
   {
     "Title": "Gone Baby Gone",
     "TitleOriginal": "Gone Baby Gone",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.74,
     "Minutes": 113,
@@ -6254,6 +6775,7 @@ var films = [
   {
     "Title": "The Machinist",
     "TitleOriginal": "The Machinist",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 101,
@@ -6266,6 +6788,7 @@ var films = [
   {
     "Title": "Lady Vengeance",
     "TitleOriginal": "\uCE5C\uC808\uD55C \uAE08\uC790\uC528",
+    "Language": "Korean",
     "RatingSelf": null,
     "RatingLetterboxd": 4.04,
     "Minutes": 115,
@@ -6278,6 +6801,7 @@ var films = [
   {
     "Title": "Panic Room",
     "TitleOriginal": "Panic Room",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.50,
     "Minutes": 111,
@@ -6290,6 +6814,7 @@ var films = [
   {
     "Title": "Candy",
     "TitleOriginal": "Candy",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.73,
     "Minutes": 116,
@@ -6302,6 +6827,7 @@ var films = [
   {
     "Title": "The Kingdom",
     "TitleOriginal": "The Kingdom",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.17,
     "Minutes": 110,
@@ -6314,6 +6840,7 @@ var films = [
   {
     "Title": "Atonement",
     "TitleOriginal": "Atonement",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.98,
     "Minutes": 123,
@@ -6326,6 +6853,7 @@ var films = [
   {
     "Title": "Charlie's Angels",
     "TitleOriginal": "Charlie's Angels",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.11,
     "Minutes": 98,
@@ -6338,6 +6866,7 @@ var films = [
   {
     "Title": "Scary Movie",
     "TitleOriginal": "Scary Movie",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.08,
     "Minutes": 88,
@@ -6350,6 +6879,7 @@ var films = [
   {
     "Title": "Scream 2",
     "TitleOriginal": "Scream 2",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.27,
     "Minutes": 120,
@@ -6362,6 +6892,7 @@ var films = [
   {
     "Title": "Trade",
     "TitleOriginal": "Trade",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.36,
     "Minutes": 120,
@@ -6374,6 +6905,7 @@ var films = [
   {
     "Title": "Shoot 'Em Up",
     "TitleOriginal": "Shoot 'Em Up",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.12,
     "Minutes": 86,
@@ -6386,6 +6918,7 @@ var films = [
   {
     "Title": "Blow",
     "TitleOriginal": "Blow",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.49,
     "Minutes": 124,
@@ -6398,6 +6931,7 @@ var films = [
   {
     "Title": "I Know What You Did Last Summer",
     "TitleOriginal": "I Know What You Did Last Summer",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.92,
     "Minutes": 101,
@@ -6410,6 +6944,7 @@ var films = [
   {
     "Title": "Ransom",
     "TitleOriginal": "Ransom",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.26,
     "Minutes": 121,
@@ -6422,6 +6957,7 @@ var films = [
   {
     "Title": "Changeling",
     "TitleOriginal": "Changeling",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.67,
     "Minutes": 141,
@@ -6434,6 +6970,7 @@ var films = [
   {
     "Title": "I Now Pronounce You Chuck \u0026 Larry",
     "TitleOriginal": "I Now Pronounce You Chuck \u0026 Larry",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.39,
     "Minutes": 115,
@@ -6446,6 +6983,7 @@ var films = [
   {
     "Title": "U-571",
     "TitleOriginal": "U-571",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.18,
     "Minutes": 116,
@@ -6458,6 +6996,7 @@ var films = [
   {
     "Title": "Dirty Pretty Things",
     "TitleOriginal": "Dirty Pretty Things",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.56,
     "Minutes": 97,
@@ -6470,6 +7009,7 @@ var films = [
   {
     "Title": "The Yes Men",
     "TitleOriginal": "The Yes Men",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.41,
     "Minutes": 80,
@@ -6482,6 +7022,7 @@ var films = [
   {
     "Title": "Battle Royale",
     "TitleOriginal": "\u30D0\u30C8\u30EB\u30FB\u30ED\u30EF\u30A4\u30A2\u30EB",
+    "Language": "Japanese",
     "RatingSelf": null,
     "RatingLetterboxd": 3.86,
     "Minutes": 113,
@@ -6494,6 +7035,7 @@ var films = [
   {
     "Title": "Bambi",
     "TitleOriginal": "Bambi",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.51,
     "Minutes": 70,
@@ -6506,6 +7048,7 @@ var films = [
   {
     "Title": "American Pie 2",
     "TitleOriginal": "American Pie 2",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.90,
     "Minutes": 108,
@@ -6518,6 +7061,7 @@ var films = [
   {
     "Title": "Ring",
     "TitleOriginal": "\u30EA\u30F3\u30B0",
+    "Language": "Japanese",
     "RatingSelf": null,
     "RatingLetterboxd": 3.61,
     "Minutes": 96,
@@ -6530,6 +7074,7 @@ var films = [
   {
     "Title": "The Blair Witch Project",
     "TitleOriginal": "The Blair Witch Project",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.31,
     "Minutes": 81,
@@ -6542,6 +7087,7 @@ var films = [
   {
     "Title": "Pleasantville",
     "TitleOriginal": "Pleasantville",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.68,
     "Minutes": 124,
@@ -6554,6 +7100,7 @@ var films = [
   {
     "Title": "What Lies Beneath",
     "TitleOriginal": "What Lies Beneath",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.14,
     "Minutes": 130,
@@ -6566,6 +7113,7 @@ var films = [
   {
     "Title": "Hard Candy",
     "TitleOriginal": "Hard Candy",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.49,
     "Minutes": 104,
@@ -6578,6 +7126,7 @@ var films = [
   {
     "Title": "Planes, Trains and Automobiles",
     "TitleOriginal": "Planes, Trains and Automobiles",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 93,
@@ -6590,6 +7139,7 @@ var films = [
   {
     "Title": "The Bourne Ultimatum",
     "TitleOriginal": "The Bourne Ultimatum",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.71,
     "Minutes": 115,
@@ -6602,6 +7152,7 @@ var films = [
   {
     "Title": "The Bourne Supremacy",
     "TitleOriginal": "The Bourne Supremacy",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.60,
     "Minutes": 108,
@@ -6614,6 +7165,7 @@ var films = [
   {
     "Title": "The Bourne Identity",
     "TitleOriginal": "The Bourne Identity",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.73,
     "Minutes": 119,
@@ -6626,6 +7178,7 @@ var films = [
   {
     "Title": "Mr. Magorium's Wonder Emporium",
     "TitleOriginal": "Mr. Magorium's Wonder Emporium",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.05,
     "Minutes": 93,
@@ -6638,6 +7191,7 @@ var films = [
   {
     "Title": "Big",
     "TitleOriginal": "Big",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.59,
     "Minutes": 104,
@@ -6650,6 +7204,7 @@ var films = [
   {
     "Title": "Stardust",
     "TitleOriginal": "Stardust",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.61,
     "Minutes": 127,
@@ -6662,6 +7217,7 @@ var films = [
   {
     "Title": "Eastern Promises",
     "TitleOriginal": "Eastern Promises",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.87,
     "Minutes": 101,
@@ -6674,6 +7230,7 @@ var films = [
   {
     "Title": "Death at a Funeral",
     "TitleOriginal": "Death at a Funeral",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.58,
     "Minutes": 90,
@@ -6686,6 +7243,7 @@ var films = [
   {
     "Title": "The Perfect Storm",
     "TitleOriginal": "The Perfect Storm",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.12,
     "Minutes": 130,
@@ -6698,6 +7256,7 @@ var films = [
   {
     "Title": "L.A. Confidential",
     "TitleOriginal": "L.A. Confidential",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.07,
     "Minutes": 138,
@@ -6710,6 +7269,7 @@ var films = [
   {
     "Title": "Rush Hour",
     "TitleOriginal": "Rush Hour",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.56,
     "Minutes": 98,
@@ -6722,6 +7282,7 @@ var films = [
   {
     "Title": "National Treasure",
     "TitleOriginal": "National Treasure",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.28,
     "Minutes": 131,
@@ -6734,6 +7295,7 @@ var films = [
   {
     "Title": "I, Robot",
     "TitleOriginal": "I, Robot",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.14,
     "Minutes": 115,
@@ -6746,6 +7308,7 @@ var films = [
   {
     "Title": "The Gift",
     "TitleOriginal": "The Gift",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.16,
     "Minutes": 112,
@@ -6758,6 +7321,7 @@ var films = [
   {
     "Title": "The Diving Bell and the Butterfly",
     "TitleOriginal": "Le Scaphandre et le Papillon",
+    "Language": "French",
     "RatingSelf": null,
     "RatingLetterboxd": 4.11,
     "Minutes": 112,
@@ -6770,6 +7334,7 @@ var films = [
   {
     "Title": "Lara Croft: Tomb Raider",
     "TitleOriginal": "Lara Croft: Tomb Raider",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.63,
     "Minutes": 100,
@@ -6782,6 +7347,7 @@ var films = [
   {
     "Title": "Planet Terror",
     "TitleOriginal": "Planet Terror",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.36,
     "Minutes": 105,
@@ -6794,6 +7360,7 @@ var films = [
   {
     "Title": "The Beach",
     "TitleOriginal": "The Beach",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.15,
     "Minutes": 119,
@@ -6806,6 +7373,7 @@ var films = [
   {
     "Title": "Vanilla Sky",
     "TitleOriginal": "Vanilla Sky",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.43,
     "Minutes": 136,
@@ -6818,6 +7386,7 @@ var films = [
   {
     "Title": "Traffic",
     "TitleOriginal": "Traffic",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.69,
     "Minutes": 147,
@@ -6830,6 +7399,7 @@ var films = [
   {
     "Title": "Transformers",
     "TitleOriginal": "Transformers",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.15,
     "Minutes": 144,
@@ -6842,6 +7412,7 @@ var films = [
   {
     "Title": "Lord of War",
     "TitleOriginal": "Lord of War",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.58,
     "Minutes": 122,
@@ -6854,6 +7425,7 @@ var films = [
   {
     "Title": "Phone Booth",
     "TitleOriginal": "Phone Booth",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.30,
     "Minutes": 81,
@@ -6866,6 +7438,7 @@ var films = [
   {
     "Title": "Fahrenheit 9/11",
     "TitleOriginal": "Fahrenheit 9/11",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.55,
     "Minutes": 123,
@@ -6878,6 +7451,7 @@ var films = [
   {
     "Title": "Next",
     "TitleOriginal": "Next",
+    "Language": "English",
     "RatingSelf": 1,
     "RatingLetterboxd": 2.44,
     "Minutes": 96,
@@ -6890,6 +7464,7 @@ var films = [
   {
     "Title": "Con Air",
     "TitleOriginal": "Con Air",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.41,
     "Minutes": 116,
@@ -6902,6 +7477,7 @@ var films = [
   {
     "Title": "Bill \u0026 Ted's Excellent Adventure",
     "TitleOriginal": "Bill \u0026 Ted's Excellent Adventure",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.65,
     "Minutes": 90,
@@ -6914,6 +7490,7 @@ var films = [
   {
     "Title": "The Net",
     "TitleOriginal": "The Net",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.79,
     "Minutes": 114,
@@ -6926,6 +7503,7 @@ var films = [
   {
     "Title": "Crash",
     "TitleOriginal": "Crash",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.96,
     "Minutes": 112,
@@ -6938,6 +7516,7 @@ var films = [
   {
     "Title": "Speed 2: Cruise Control",
     "TitleOriginal": "Speed 2: Cruise Control",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 1.82,
     "Minutes": 125,
@@ -6950,6 +7529,7 @@ var films = [
   {
     "Title": "Speed",
     "TitleOriginal": "Speed",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.68,
     "Minutes": 116,
@@ -6962,6 +7542,7 @@ var films = [
   {
     "Title": "Free Willy",
     "TitleOriginal": "Free Willy",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.92,
     "Minutes": 112,
@@ -6974,6 +7555,7 @@ var films = [
   {
     "Title": "Trading Places",
     "TitleOriginal": "Trading Places",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.63,
     "Minutes": 116,
@@ -6986,6 +7568,7 @@ var films = [
   {
     "Title": "Meet the Parents",
     "TitleOriginal": "Meet the Parents",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.29,
     "Minutes": 108,
@@ -6998,6 +7581,7 @@ var films = [
   {
     "Title": "The Holiday",
     "TitleOriginal": "The Holiday",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.49,
     "Minutes": 136,
@@ -7010,6 +7594,7 @@ var films = [
   {
     "Title": "Rope",
     "TitleOriginal": "Rope",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.13,
     "Minutes": 81,
@@ -7022,6 +7607,7 @@ var films = [
   {
     "Title": "Resident Evil",
     "TitleOriginal": "Resident Evil",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.90,
     "Minutes": 100,
@@ -7034,6 +7620,7 @@ var films = [
   {
     "Title": "Die Hard 2",
     "TitleOriginal": "Die Hard 2",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.31,
     "Minutes": 124,
@@ -7046,6 +7633,7 @@ var films = [
   {
     "Title": "Die Hard With a Vengeance",
     "TitleOriginal": "Die Hard: With a Vengeance",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.69,
     "Minutes": 128,
@@ -7058,6 +7646,7 @@ var films = [
   {
     "Title": "Live Free or Die Hard",
     "TitleOriginal": "Live Free or Die Hard",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.92,
     "Minutes": 128,
@@ -7070,6 +7659,7 @@ var films = [
   {
     "Title": "28 Weeks Later",
     "TitleOriginal": "28 Weeks Later",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.13,
     "Minutes": 100,
@@ -7082,6 +7672,7 @@ var films = [
   {
     "Title": "Flatliners",
     "TitleOriginal": "Flatliners",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.16,
     "Minutes": 115,
@@ -7094,6 +7685,7 @@ var films = [
   {
     "Title": "Ghost World",
     "TitleOriginal": "Ghost World",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.61,
     "Minutes": 111,
@@ -7106,6 +7698,7 @@ var films = [
   {
     "Title": "Office Space",
     "TitleOriginal": "Office Space",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.73,
     "Minutes": 90,
@@ -7118,6 +7711,7 @@ var films = [
   {
     "Title": "Collateral",
     "TitleOriginal": "Collateral",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.85,
     "Minutes": 120,
@@ -7130,6 +7724,7 @@ var films = [
   {
     "Title": "Changing Lanes",
     "TitleOriginal": "Changing Lanes",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.04,
     "Minutes": 98,
@@ -7142,6 +7737,7 @@ var films = [
   {
     "Title": "Miss Congeniality",
     "TitleOriginal": "Miss Congeniality",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.33,
     "Minutes": 111,
@@ -7154,6 +7750,7 @@ var films = [
   {
     "Title": "Bowling for Columbine",
     "TitleOriginal": "Bowling for Columbine",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.90,
     "Minutes": 120,
@@ -7166,6 +7763,7 @@ var films = [
   {
     "Title": "25th Hour",
     "TitleOriginal": "25th Hour",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.86,
     "Minutes": 135,
@@ -7178,6 +7776,7 @@ var films = [
   {
     "Title": "The Fountain",
     "TitleOriginal": "The Fountain",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.54,
     "Minutes": 96,
@@ -7190,6 +7789,7 @@ var films = [
   {
     "Title": "Rocky",
     "TitleOriginal": "Rocky",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.08,
     "Minutes": 120,
@@ -7202,6 +7802,7 @@ var films = [
   {
     "Title": "Monster's Ball",
     "TitleOriginal": "Monster's Ball",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.31,
     "Minutes": 113,
@@ -7214,6 +7815,7 @@ var films = [
   {
     "Title": "Bean",
     "TitleOriginal": "Bean",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.16,
     "Minutes": 89,
@@ -7226,6 +7828,7 @@ var films = [
   {
     "Title": "Bridge to Terabithia",
     "TitleOriginal": "Bridge to Terabithia",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.61,
     "Minutes": 96,
@@ -7238,6 +7841,7 @@ var films = [
   {
     "Title": "Ghost Rider",
     "TitleOriginal": "Ghost Rider",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.35,
     "Minutes": 114,
@@ -7250,6 +7854,7 @@ var films = [
   {
     "Title": "The Talented Mr. Ripley",
     "TitleOriginal": "The Talented Mr. Ripley",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.84,
     "Minutes": 140,
@@ -7262,6 +7867,7 @@ var films = [
   {
     "Title": "The Queen",
     "TitleOriginal": "The Queen",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.49,
     "Minutes": 103,
@@ -7274,6 +7880,7 @@ var films = [
   {
     "Title": "Arlington Road",
     "TitleOriginal": "Arlington Road",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.50,
     "Minutes": 117,
@@ -7286,6 +7893,7 @@ var films = [
   {
     "Title": "Irreversible",
     "TitleOriginal": "Irr\u00E9versible",
+    "Language": "French",
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 94,
@@ -7298,6 +7906,7 @@ var films = [
   {
     "Title": "The General",
     "TitleOriginal": "The General",
+    "Language": "",
     "RatingSelf": null,
     "RatingLetterboxd": 4.20,
     "Minutes": 79,
@@ -7310,6 +7919,7 @@ var films = [
   {
     "Title": "Mission: Impossible II",
     "TitleOriginal": "Mission: Impossible II",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.63,
     "Minutes": 123,
@@ -7322,6 +7932,7 @@ var films = [
   {
     "Title": "Mission: Impossible",
     "TitleOriginal": "Mission: Impossible",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.60,
     "Minutes": 110,
@@ -7334,6 +7945,7 @@ var films = [
   {
     "Title": "Kindergarten Cop",
     "TitleOriginal": "Kindergarten Cop",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.11,
     "Minutes": 111,
@@ -7346,6 +7958,7 @@ var films = [
   {
     "Title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
     "TitleOriginal": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.30,
     "Minutes": 95,
@@ -7358,6 +7971,7 @@ var films = [
   {
     "Title": "Dawn of the Dead",
     "TitleOriginal": "Dawn of the Dead",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.41,
     "Minutes": 101,
@@ -7370,6 +7984,7 @@ var films = [
   {
     "Title": "The Thomas Crown Affair",
     "TitleOriginal": "The Thomas Crown Affair",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.35,
     "Minutes": 113,
@@ -7382,6 +7997,7 @@ var films = [
   {
     "Title": "Delicatessen",
     "TitleOriginal": "Delicatessen",
+    "Language": "French",
     "RatingSelf": null,
     "RatingLetterboxd": 3.82,
     "Minutes": 99,
@@ -7394,6 +8010,7 @@ var films = [
   {
     "Title": "Crash",
     "TitleOriginal": "Crash",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.68,
     "Minutes": 100,
@@ -7406,6 +8023,7 @@ var films = [
   {
     "Title": "Hook",
     "TitleOriginal": "Hook",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.40,
     "Minutes": 141,
@@ -7418,6 +8036,7 @@ var films = [
   {
     "Title": "Planet of the Apes",
     "TitleOriginal": "Planet of the Apes",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.00,
     "Minutes": 112,
@@ -7430,6 +8049,7 @@ var films = [
   {
     "Title": "Cool Runnings",
     "TitleOriginal": "Cool Runnings",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.51,
     "Minutes": 98,
@@ -7442,6 +8062,7 @@ var films = [
   {
     "Title": "Who Framed Roger Rabbit",
     "TitleOriginal": "Who Framed Roger Rabbit",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.95,
     "Minutes": 104,
@@ -7454,6 +8075,7 @@ var films = [
   {
     "Title": "Black Hawk Down",
     "TitleOriginal": "Black Hawk Down",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.66,
     "Minutes": 145,
@@ -7466,6 +8088,7 @@ var films = [
   {
     "Title": "The Mask",
     "TitleOriginal": "The Mask",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.34,
     "Minutes": 101,
@@ -7478,6 +8101,7 @@ var films = [
   {
     "Title": "Enemy at the Gates",
     "TitleOriginal": "Enemy at the Gates",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.51,
     "Minutes": 131,
@@ -7490,6 +8114,7 @@ var films = [
   {
     "Title": "Close Encounters of the Third Kind",
     "TitleOriginal": "Close Encounters of the Third Kind",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.83,
     "Minutes": 135,
@@ -7502,6 +8127,7 @@ var films = [
   {
     "Title": "Duel",
     "TitleOriginal": "Duel",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.81,
     "Minutes": 89,
@@ -7514,6 +8140,7 @@ var films = [
   {
     "Title": "Austin Powers: International Man of Mystery",
     "TitleOriginal": "Austin Powers: International Man of Mystery",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.41,
     "Minutes": 94,
@@ -7526,6 +8153,7 @@ var films = [
   {
     "Title": "Airplane!",
     "TitleOriginal": "Airplane!",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.84,
     "Minutes": 88,
@@ -7538,6 +8166,7 @@ var films = [
   {
     "Title": "Shrek the Third",
     "TitleOriginal": "Shrek the Third",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.83,
     "Minutes": 93,
@@ -7550,6 +8179,7 @@ var films = [
   {
     "Title": "Mrs. Doubtfire",
     "TitleOriginal": "Mrs. Doubtfire",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.63,
     "Minutes": 125,
@@ -7562,6 +8192,7 @@ var films = [
   {
     "Title": "Mr. \u0026 Mrs. Smith",
     "TitleOriginal": "Mr. \u0026 Mrs. Smith",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.21,
     "Minutes": 119,
@@ -7574,6 +8205,7 @@ var films = [
   {
     "Title": "Home Alone 2: Lost in New York",
     "TitleOriginal": "Home Alone 2: Lost in New York",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.48,
     "Minutes": 120,
@@ -7586,6 +8218,7 @@ var films = [
   {
     "Title": "Harry Potter and the Half-Blood Prince",
     "TitleOriginal": "Harry Potter and the Half-Blood Prince",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.68,
     "Minutes": 153,
@@ -7598,6 +8231,7 @@ var films = [
   {
     "Title": "Monty Python and the Holy Grail",
     "TitleOriginal": "Monty Python and the Holy Grail",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.14,
     "Minutes": 91,
@@ -7610,6 +8244,7 @@ var films = [
   {
     "Title": "From Dusk Till Dawn",
     "TitleOriginal": "From Dusk Till Dawn",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.51,
     "Minutes": 108,
@@ -7622,6 +8257,7 @@ var films = [
   {
     "Title": "Face/Off",
     "TitleOriginal": "Face/Off",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.54,
     "Minutes": 138,
@@ -7634,6 +8270,7 @@ var films = [
   {
     "Title": "The Sixth Sense",
     "TitleOriginal": "The Sixth Sense",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.04,
     "Minutes": 107,
@@ -7646,6 +8283,7 @@ var films = [
   {
     "Title": "Top Gun",
     "TitleOriginal": "Top Gun",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.39,
     "Minutes": 110,
@@ -7658,6 +8296,7 @@ var films = [
   {
     "Title": "Tomorrow Never Dies",
     "TitleOriginal": "Tomorrow Never Dies",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.02,
     "Minutes": 119,
@@ -7670,6 +8309,7 @@ var films = [
   {
     "Title": "Four Weddings and a Funeral",
     "TitleOriginal": "Four Weddings and a Funeral",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.38,
     "Minutes": 117,
@@ -7682,6 +8322,7 @@ var films = [
   {
     "Title": "GoldenEye",
     "TitleOriginal": "GoldenEye",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.55,
     "Minutes": 130,
@@ -7694,6 +8335,7 @@ var films = [
   {
     "Title": "Meet the Fockers",
     "TitleOriginal": "Meet the Fockers",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.92,
     "Minutes": 115,
@@ -7706,6 +8348,7 @@ var films = [
   {
     "Title": "Aliens",
     "TitleOriginal": "Aliens",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.13,
     "Minutes": 137,
@@ -7718,6 +8361,7 @@ var films = [
   {
     "Title": "Harry Potter and the Order of the Phoenix",
     "TitleOriginal": "Harry Potter and the Order of the Phoenix",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.65,
     "Minutes": 138,
@@ -7730,6 +8374,7 @@ var films = [
   {
     "Title": "Harry Potter and the Goblet of Fire",
     "TitleOriginal": "Harry Potter and the Goblet of Fire",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.82,
     "Minutes": 157,
@@ -7742,6 +8387,7 @@ var films = [
   {
     "Title": "Harry Potter and the Chamber of Secrets",
     "TitleOriginal": "Harry Potter and the Chamber of Secrets",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.60,
     "Minutes": 161,
@@ -7754,6 +8400,7 @@ var films = [
   {
     "Title": "Harry Potter and the Philosopher's Stone",
     "TitleOriginal": "Harry Potter and the Philosopher's Stone",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.77,
     "Minutes": 152,
@@ -7766,6 +8413,7 @@ var films = [
   {
     "Title": "Twister",
     "TitleOriginal": "Twister",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.26,
     "Minutes": 113,
@@ -7778,6 +8426,7 @@ var films = [
   {
     "Title": "Saw IV",
     "TitleOriginal": "Saw IV",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 2.67,
     "Minutes": 93,
@@ -7790,6 +8439,7 @@ var films = [
   {
     "Title": "Nosferatu",
     "TitleOriginal": "Nosferatu, eine Symphonie des Grauens",
+    "Language": "",
     "RatingSelf": null,
     "RatingLetterboxd": 3.89,
     "Minutes": 95,
@@ -7802,6 +8452,7 @@ var films = [
   {
     "Title": "A.I. Artificial Intelligence",
     "TitleOriginal": "A.I. Artificial Intelligence",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.61,
     "Minutes": 146,
@@ -7814,6 +8465,7 @@ var films = [
   {
     "Title": "A Fish Called Wanda",
     "TitleOriginal": "A Fish Called Wanda",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 109,
@@ -7826,6 +8478,7 @@ var films = [
   {
     "Title": "Grease",
     "TitleOriginal": "Grease",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.50,
     "Minutes": 110,
@@ -7838,6 +8491,7 @@ var films = [
   {
     "Title": "Downfall",
     "TitleOriginal": "Der Untergang",
+    "Language": "German",
     "RatingSelf": null,
     "RatingLetterboxd": 4.11,
     "Minutes": 155,
@@ -7850,6 +8504,7 @@ var films = [
   {
     "Title": "Men in Black II",
     "TitleOriginal": "Men in Black II",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.96,
     "Minutes": 88,
@@ -7862,6 +8517,7 @@ var films = [
   {
     "Title": "Men in Black",
     "TitleOriginal": "Men in Black",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.66,
     "Minutes": 98,
@@ -7874,6 +8530,7 @@ var films = [
   {
     "Title": "The Matrix Reloaded",
     "TitleOriginal": "The Matrix Reloaded",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.36,
     "Minutes": 138,
@@ -7886,6 +8543,7 @@ var films = [
   {
     "Title": "Independence Day",
     "TitleOriginal": "Independence Day",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.32,
     "Minutes": 145,
@@ -7898,6 +8556,7 @@ var films = [
   {
     "Title": "To Kill a Mockingbird",
     "TitleOriginal": "To Kill a Mockingbird",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.09,
     "Minutes": 129,
@@ -7910,6 +8569,7 @@ var films = [
   {
     "Title": "2 Fast 2 Furious",
     "TitleOriginal": "2 Fast 2 Furious",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.96,
     "Minutes": 108,
@@ -7922,6 +8582,7 @@ var films = [
   {
     "Title": "Life of Brian",
     "TitleOriginal": "Life of Brian",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.98,
     "Minutes": 94,
@@ -7934,6 +8595,7 @@ var films = [
   {
     "Title": "Apollo 13",
     "TitleOriginal": "Apollo 13",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.80,
     "Minutes": 140,
@@ -7946,6 +8608,7 @@ var films = [
   {
     "Title": "The Mummy",
     "TitleOriginal": "The Mummy",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.54,
     "Minutes": 124,
@@ -7958,6 +8621,7 @@ var films = [
   {
     "Title": "There's Something About Mary",
     "TitleOriginal": "There's Something About Mary",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.24,
     "Minutes": 119,
@@ -7970,6 +8634,7 @@ var films = [
   {
     "Title": "Wallace \u0026 Gromit: The Curse of the Were-Rabbit",
     "TitleOriginal": "Wallace \u0026 Gromit: The Curse of the Were-Rabbit",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.79,
     "Minutes": 85,
@@ -7982,6 +8647,7 @@ var films = [
   {
     "Title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
     "TitleOriginal": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.73,
     "Minutes": 84,
@@ -7994,6 +8660,7 @@ var films = [
   {
     "Title": "Pi",
     "TitleOriginal": "Pi",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.72,
     "Minutes": 84,
@@ -8006,6 +8673,7 @@ var films = [
   {
     "Title": "21 Grams",
     "TitleOriginal": "21 Grams",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.72,
     "Minutes": 124,
@@ -8018,6 +8686,7 @@ var films = [
   {
     "Title": "The Hole",
     "TitleOriginal": "The Hole",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 2.92,
     "Minutes": 102,
@@ -8030,6 +8699,7 @@ var films = [
   {
     "Title": "Klute",
     "TitleOriginal": "Klute",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.83,
     "Minutes": 114,
@@ -8042,6 +8712,7 @@ var films = [
   {
     "Title": "Romeo \u002B Juliet",
     "TitleOriginal": "Romeo \u002B Juliet",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.41,
     "Minutes": 120,
@@ -8054,6 +8725,7 @@ var films = [
   {
     "Title": "Leaving Las Vegas",
     "TitleOriginal": "Leaving Las Vegas",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.75,
     "Minutes": 111,
@@ -8066,6 +8738,7 @@ var films = [
   {
     "Title": "Mary Poppins",
     "TitleOriginal": "Mary Poppins",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.90,
     "Minutes": 139,
@@ -8078,6 +8751,7 @@ var films = [
   {
     "Title": "Cube",
     "TitleOriginal": "Cube",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.26,
     "Minutes": 90,
@@ -8090,6 +8764,7 @@ var films = [
   {
     "Title": "Vertigo",
     "TitleOriginal": "Vertigo",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.24,
     "Minutes": 129,
@@ -8102,6 +8777,7 @@ var films = [
   {
     "Title": "Ice Age",
     "TitleOriginal": "Ice Age",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.53,
     "Minutes": 81,
@@ -8114,6 +8790,7 @@ var films = [
   {
     "Title": "Basic Instinct",
     "TitleOriginal": "Basic Instinct",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.61,
     "Minutes": 128,
@@ -8126,6 +8803,7 @@ var films = [
   {
     "Title": "Garden State",
     "TitleOriginal": "Garden State",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.43,
     "Minutes": 102,
@@ -8138,6 +8816,7 @@ var films = [
   {
     "Title": "Inside Man",
     "TitleOriginal": "Inside Man",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.69,
     "Minutes": 129,
@@ -8150,6 +8829,7 @@ var films = [
   {
     "Title": "Jurassic Park III",
     "TitleOriginal": "Jurassic Park III",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.77,
     "Minutes": 92,
@@ -8162,6 +8842,7 @@ var films = [
   {
     "Title": "The Lost World: Jurassic Park",
     "TitleOriginal": "The Lost World: Jurassic Park",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.09,
     "Minutes": 129,
@@ -8174,6 +8855,7 @@ var films = [
   {
     "Title": "Snakes on a Plane",
     "TitleOriginal": "Snakes on a Plane",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 2.46,
     "Minutes": 105,
@@ -8186,6 +8868,7 @@ var films = [
   {
     "Title": "Mystic River",
     "TitleOriginal": "Mystic River",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.83,
     "Minutes": 138,
@@ -8198,6 +8881,7 @@ var films = [
   {
     "Title": "Ocean's Thirteen",
     "TitleOriginal": "Ocean's Thirteen",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.36,
     "Minutes": 122,
@@ -8210,6 +8894,7 @@ var films = [
   {
     "Title": "Terminator 3: Rise of the Machines",
     "TitleOriginal": "Terminator 3: Rise of the Machines",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.67,
     "Minutes": 109,
@@ -8222,6 +8907,7 @@ var films = [
   {
     "Title": "Willy Wonka \u0026 the Chocolate Factory",
     "TitleOriginal": "Willy Wonka \u0026 the Chocolate Factory",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.81,
     "Minutes": 99,
@@ -8234,6 +8920,7 @@ var films = [
   {
     "Title": "King Kong",
     "TitleOriginal": "King Kong",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.86,
     "Minutes": 104,
@@ -8246,6 +8933,7 @@ var films = [
   {
     "Title": "Indiana Jones and the Kingdom of the Crystal Skull",
     "TitleOriginal": "Indiana Jones and the Kingdom of the Crystal Skull",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 2.70,
     "Minutes": 122,
@@ -8258,6 +8946,7 @@ var films = [
   {
     "Title": "Saw II",
     "TitleOriginal": "Saw II",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.18,
     "Minutes": 93,
@@ -8270,6 +8959,7 @@ var films = [
   {
     "Title": "Saw III",
     "TitleOriginal": "Saw III",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.93,
     "Minutes": 108,
@@ -8282,6 +8972,7 @@ var films = [
   {
     "Title": "North by Northwest",
     "TitleOriginal": "North by Northwest",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.19,
     "Minutes": 136,
@@ -8294,6 +8985,7 @@ var films = [
   {
     "Title": "Lucky Number Slevin",
     "TitleOriginal": "Lucky Number Slevin",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.55,
     "Minutes": 110,
@@ -8306,6 +8998,7 @@ var films = [
   {
     "Title": "Minority Report",
     "TitleOriginal": "Minority Report",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.75,
     "Minutes": 145,
@@ -8318,6 +9011,7 @@ var films = [
   {
     "Title": "Saw",
     "TitleOriginal": "Saw",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.63,
     "Minutes": 103,
@@ -8330,6 +9024,7 @@ var films = [
   {
     "Title": "28 Days Later",
     "TitleOriginal": "28 Days Later",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.77,
     "Minutes": 113,
@@ -8342,6 +9037,7 @@ var films = [
   {
     "Title": "Back to the Future Part II",
     "TitleOriginal": "Back to the Future Part II",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.87,
     "Minutes": 108,
@@ -8354,6 +9050,7 @@ var films = [
   {
     "Title": "Ocean's Eleven",
     "TitleOriginal": "Ocean's Eleven",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.90,
     "Minutes": 116,
@@ -8366,6 +9063,7 @@ var films = [
   {
     "Title": "Crouching Tiger, Hidden Dragon",
     "TitleOriginal": "\u5367\u864E\u85CF\u9F8D",
+    "Language": "Mandarin",
     "RatingSelf": null,
     "RatingLetterboxd": 4.05,
     "Minutes": 120,
@@ -8378,6 +9076,7 @@ var films = [
   {
     "Title": "Groundhog Day",
     "TitleOriginal": "Groundhog Day",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.83,
     "Minutes": 101,
@@ -8390,6 +9089,7 @@ var films = [
   {
     "Title": "Predator",
     "TitleOriginal": "Predator",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.79,
     "Minutes": 107,
@@ -8402,6 +9102,7 @@ var films = [
   {
     "Title": "Armageddon",
     "TitleOriginal": "Armageddon",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.08,
     "Minutes": 151,
@@ -8414,6 +9115,7 @@ var films = [
   {
     "Title": "Indiana Jones and the Last Crusade",
     "TitleOriginal": "Indiana Jones and the Last Crusade",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.09,
     "Minutes": 127,
@@ -8426,6 +9128,7 @@ var films = [
   {
     "Title": "Indiana Jones and the Temple of Doom",
     "TitleOriginal": "Indiana Jones and the Temple of Doom",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.64,
     "Minutes": 118,
@@ -8438,6 +9141,7 @@ var films = [
   {
     "Title": "Million Dollar Baby",
     "TitleOriginal": "Million Dollar Baby",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.99,
     "Minutes": 132,
@@ -8450,6 +9154,7 @@ var films = [
   {
     "Title": "8 Mile",
     "TitleOriginal": "8 Mile",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.58,
     "Minutes": 111,
@@ -8462,6 +9167,7 @@ var films = [
   {
     "Title": "Hot Coffee",
     "TitleOriginal": "Hot Coffee",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.59,
     "Minutes": 85,
@@ -8474,6 +9180,7 @@ var films = [
   {
     "Title": "Prometheus",
     "TitleOriginal": "Prometheus",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.28,
     "Minutes": 124,
@@ -8486,6 +9193,7 @@ var films = [
   {
     "Title": "The Hunger Games",
     "TitleOriginal": "The Hunger Games",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.68,
     "Minutes": 142,
@@ -8498,6 +9206,7 @@ var films = [
   {
     "Title": "The Inbetweeners Movie",
     "TitleOriginal": "The Inbetweeners Movie",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.20,
     "Minutes": 97,
@@ -8510,6 +9219,7 @@ var films = [
   {
     "Title": "Halloween",
     "TitleOriginal": "Halloween",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.80,
     "Minutes": 91,
@@ -8522,6 +9232,7 @@ var films = [
   {
     "Title": "The Human Centipede 2 (Full Sequence)",
     "TitleOriginal": "The Human Centipede 2 (Full Sequence)",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 1.76,
     "Minutes": 91,
@@ -8534,6 +9245,7 @@ var films = [
   {
     "Title": "Jack Reacher",
     "TitleOriginal": "Jack Reacher",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.17,
     "Minutes": 130,
@@ -8546,6 +9258,7 @@ var films = [
   {
     "Title": "The Intouchables",
     "TitleOriginal": "Intouchables",
+    "Language": "French",
     "RatingSelf": null,
     "RatingLetterboxd": 4.13,
     "Minutes": 113,
@@ -8558,6 +9271,7 @@ var films = [
   {
     "Title": "Magic Mike",
     "TitleOriginal": "Magic Mike",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.98,
     "Minutes": 110,
@@ -8570,6 +9284,7 @@ var films = [
   {
     "Title": "The Cemetery Club",
     "TitleOriginal": "The Cemetery Club",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.17,
     "Minutes": 107,
@@ -8582,6 +9297,7 @@ var films = [
   {
     "Title": "The Impossible",
     "TitleOriginal": "The Impossible",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.59,
     "Minutes": 114,
@@ -8594,6 +9310,7 @@ var films = [
   {
     "Title": "Indie Game: The Movie",
     "TitleOriginal": "Indie Game: The Movie",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.70,
     "Minutes": 103,
@@ -8606,6 +9323,7 @@ var films = [
   {
     "Title": "The Borrowers",
     "TitleOriginal": "The Borrowers",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.00,
     "Minutes": 90,
@@ -8618,6 +9336,7 @@ var films = [
   {
     "Title": "Alone in the Wilderness Part II - 2011",
     "TitleOriginal": "Alone in the Wilderness Part II - 2011",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.71,
     "Minutes": 60,
@@ -8630,6 +9349,7 @@ var films = [
   {
     "Title": "Lawless",
     "TitleOriginal": "Lawless",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.37,
     "Minutes": 115,
@@ -8642,6 +9362,7 @@ var films = [
   {
     "Title": "Some Voices",
     "TitleOriginal": "Some Voices",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.47,
     "Minutes": 101,
@@ -8654,6 +9375,7 @@ var films = [
   {
     "Title": "Compliance",
     "TitleOriginal": "Compliance",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.20,
     "Minutes": 90,
@@ -8666,6 +9388,7 @@ var films = [
   {
     "Title": "Room 237",
     "TitleOriginal": "Room 237",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.07,
     "Minutes": 102,
@@ -8678,6 +9401,7 @@ var films = [
   {
     "Title": "Noah",
     "TitleOriginal": "Noah",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.56,
     "Minutes": 138,
@@ -8690,6 +9414,7 @@ var films = [
   {
     "Title": "Samsara",
     "TitleOriginal": "Samsara",
+    "Language": "",
     "RatingSelf": null,
     "RatingLetterboxd": 4.22,
     "Minutes": 102,
@@ -8702,6 +9427,7 @@ var films = [
   {
     "Title": "Rush",
     "TitleOriginal": "Rush",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.81,
     "Minutes": 123,
@@ -8714,6 +9440,7 @@ var films = [
   {
     "Title": "Would You Rather",
     "TitleOriginal": "Would You Rather",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.62,
     "Minutes": 93,
@@ -8726,6 +9453,7 @@ var films = [
   {
     "Title": "Under the Skin",
     "TitleOriginal": "Under the Skin",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.62,
     "Minutes": 108,
@@ -8738,6 +9466,7 @@ var films = [
   {
     "Title": "Line of Sight",
     "TitleOriginal": "Line of Sight",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": -1,
     "Minutes": 60,
@@ -8750,6 +9479,7 @@ var films = [
   {
     "Title": "Finding Dory",
     "TitleOriginal": "Finding Dory",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.25,
     "Minutes": 97,
@@ -8762,6 +9492,7 @@ var films = [
   {
     "Title": "Executive Target",
     "TitleOriginal": "Executive Target",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.11,
     "Minutes": 100,
@@ -8774,6 +9505,7 @@ var films = [
   {
     "Title": "Jurassic World",
     "TitleOriginal": "Jurassic World",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.04,
     "Minutes": 124,
@@ -8786,6 +9518,7 @@ var films = [
   {
     "Title": "Trolls",
     "TitleOriginal": "Trolls",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.72,
     "Minutes": 92,
@@ -8798,6 +9531,7 @@ var films = [
   {
     "Title": "The Angry Birds Movie",
     "TitleOriginal": "The Angry Birds Movie",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 2.58,
     "Minutes": 97,
@@ -8810,6 +9544,7 @@ var films = [
   {
     "Title": "Alan Partridge: Alpha Papa",
     "TitleOriginal": "Alan Partridge: Alpha Papa",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.55,
     "Minutes": 90,
@@ -8822,6 +9557,7 @@ var films = [
   {
     "Title": "Erasing Hate",
     "TitleOriginal": "Erasing Hate",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": -1,
     "Minutes": 91,
@@ -8834,6 +9570,7 @@ var films = [
   {
     "Title": "Star Trek Beyond",
     "TitleOriginal": "Star Trek Beyond",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.27,
     "Minutes": 122,
@@ -8846,6 +9583,7 @@ var films = [
   {
     "Title": "The Unbelievers",
     "TitleOriginal": "The Unbelievers",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.04,
     "Minutes": 77,
@@ -8858,6 +9596,7 @@ var films = [
   {
     "Title": "Jackass Presents: Bad Grandpa",
     "TitleOriginal": "Jackass Presents: Bad Grandpa",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 2.80,
     "Minutes": 92,
@@ -8870,6 +9609,7 @@ var films = [
   {
     "Title": "Ashens and the Quest for the Gamechild",
     "TitleOriginal": "Ashens and the Quest for the Gamechild",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.24,
     "Minutes": 88,
@@ -8882,6 +9622,7 @@ var films = [
   {
     "Title": "The Peanuts Movie",
     "TitleOriginal": "The Peanuts Movie",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.56,
     "Minutes": 88,
@@ -8894,6 +9635,7 @@ var films = [
   {
     "Title": "Mischief Night",
     "TitleOriginal": "Mischief Night",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.63,
     "Minutes": 86,
@@ -8906,6 +9648,7 @@ var films = [
   {
     "Title": "Spy",
     "TitleOriginal": "Spy",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.18,
     "Minutes": 120,
@@ -8918,6 +9661,7 @@ var films = [
   {
     "Title": "What We Do in the Shadows",
     "TitleOriginal": "What We Do in the Shadows",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.12,
     "Minutes": 86,
@@ -8930,6 +9674,7 @@ var films = [
   {
     "Title": "Free to Play",
     "TitleOriginal": "Free to Play",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.43,
     "Minutes": 75,
@@ -8942,6 +9687,7 @@ var films = [
   {
     "Title": "An Honest Liar",
     "TitleOriginal": "An Honest Liar",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.73,
     "Minutes": 90,
@@ -8954,6 +9700,7 @@ var films = [
   {
     "Title": "Magic Mike XXL",
     "TitleOriginal": "Magic Mike XXL",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.15,
     "Minutes": 115,
@@ -8966,6 +9713,7 @@ var films = [
   {
     "Title": "Jackass: The Lost Tapes",
     "TitleOriginal": "Jackass: The Lost Tapes",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.43,
     "Minutes": 105,
@@ -8978,6 +9726,7 @@ var films = [
   {
     "Title": "Ever",
     "TitleOriginal": "Ever",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": -1,
     "Minutes": 97,
@@ -8990,6 +9739,7 @@ var films = [
   {
     "Title": "Legend",
     "TitleOriginal": "Legend",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.23,
     "Minutes": 132,
@@ -9002,6 +9752,7 @@ var films = [
   {
     "Title": "Straight Outta Compton",
     "TitleOriginal": "Straight Outta Compton",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.78,
     "Minutes": 147,
@@ -9014,6 +9765,7 @@ var films = [
   {
     "Title": "Moana",
     "TitleOriginal": "Moana",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.72,
     "Minutes": 107,
@@ -9026,6 +9778,7 @@ var films = [
   {
     "Title": "Black Panther",
     "TitleOriginal": "Black Panther",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.65,
     "Minutes": 135,
@@ -9038,6 +9791,7 @@ var films = [
   {
     "Title": "The Martian",
     "TitleOriginal": "The Martian",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.75,
     "Minutes": 141,
@@ -9050,6 +9804,7 @@ var films = [
   {
     "Title": "Hello Ladies: The Movie",
     "TitleOriginal": "Hello Ladies: The Movie",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.23,
     "Minutes": 85,
@@ -9062,6 +9817,7 @@ var films = [
   {
     "Title": "Cyberbully",
     "TitleOriginal": "Cyberbully",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 2.85,
     "Minutes": 62,
@@ -9074,6 +9830,7 @@ var films = [
   {
     "Title": "Going Clear: Scientology and the Prison of Belief",
     "TitleOriginal": "Going Clear: Scientology and the Prison of Belief",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.80,
     "Minutes": 120,
@@ -9086,6 +9843,7 @@ var films = [
   {
     "Title": "The Big Short",
     "TitleOriginal": "The Big Short",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.82,
     "Minutes": 131,
@@ -9098,6 +9856,7 @@ var films = [
   {
     "Title": "Nerve",
     "TitleOriginal": "Nerve",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.93,
     "Minutes": 96,
@@ -9110,6 +9869,7 @@ var films = [
   {
     "Title": "Ready Player One",
     "TitleOriginal": "Ready Player One",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.26,
     "Minutes": 140,
@@ -9122,6 +9882,7 @@ var films = [
   {
     "Title": "10 Cloverfield Lane",
     "TitleOriginal": "10 Cloverfield Lane",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.57,
     "Minutes": 104,
@@ -9134,6 +9895,7 @@ var films = [
   {
     "Title": "Sing",
     "TitleOriginal": "Sing",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.05,
     "Minutes": 108,
@@ -9146,6 +9908,7 @@ var films = [
   {
     "Title": "Circle",
     "TitleOriginal": "Circle",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.56,
     "Minutes": 87,
@@ -9158,6 +9921,7 @@ var films = [
   {
     "Title": "Ford v Ferrari",
     "TitleOriginal": "Ford v Ferrari",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.97,
     "Minutes": 153,
@@ -9170,6 +9934,7 @@ var films = [
   {
     "Title": "My Scientology Movie",
     "TitleOriginal": "My Scientology Movie",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.37,
     "Minutes": 99,
@@ -9182,6 +9947,7 @@ var films = [
   {
     "Title": "Top Gun: Maverick",
     "TitleOriginal": "Top Gun: Maverick",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.98,
     "Minutes": 131,
@@ -9194,6 +9960,7 @@ var films = [
   {
     "Title": "The Red Pill",
     "TitleOriginal": "The Red Pill",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.99,
     "Minutes": 118,
@@ -9206,6 +9973,7 @@ var films = [
   {
     "Title": "No Time to Die",
     "TitleOriginal": "No Time to Die",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.50,
     "Minutes": 163,
@@ -9218,6 +9986,7 @@ var films = [
   {
     "Title": "Tickled",
     "TitleOriginal": "Tickled",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.75,
     "Minutes": 92,
@@ -9230,6 +9999,7 @@ var films = [
   {
     "Title": "Dunkirk",
     "TitleOriginal": "Dunkirk",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.77,
     "Minutes": 107,
@@ -9242,6 +10012,7 @@ var films = [
   {
     "Title": "Hidden Figures",
     "TitleOriginal": "Hidden Figures",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 3.85,
     "Minutes": 127,
@@ -9254,6 +10025,7 @@ var films = [
   {
     "Title": "Bird Box",
     "TitleOriginal": "Bird Box",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.87,
     "Minutes": 124,
@@ -9266,6 +10038,7 @@ var films = [
   {
     "Title": "Roof Culture Asia",
     "TitleOriginal": "Roof Culture Asia",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.61,
     "Minutes": 113,
@@ -9278,6 +10051,7 @@ var films = [
   {
     "Title": "A Quiet Place",
     "TitleOriginal": "A Quiet Place",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.65,
     "Minutes": 91,
@@ -9290,6 +10064,7 @@ var films = [
   {
     "Title": "AlphaGo",
     "TitleOriginal": "AlphaGo",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.87,
     "Minutes": 90,
@@ -9302,6 +10077,7 @@ var films = [
   {
     "Title": "BlacKkKlansman",
     "TitleOriginal": "BlacKkKlansman",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.95,
     "Minutes": 136,
@@ -9314,6 +10090,7 @@ var films = [
   {
     "Title": "Where Dreams Go To Die",
     "TitleOriginal": "Where Dreams Go To Die",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.56,
     "Minutes": 75,
@@ -9326,6 +10103,7 @@ var films = [
   {
     "Title": "Free Solo",
     "TitleOriginal": "Free Solo",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.05,
     "Minutes": 100,
@@ -9338,6 +10116,7 @@ var films = [
   {
     "Title": "King of Thieves",
     "TitleOriginal": "King of Thieves",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 2.56,
     "Minutes": 108,
@@ -9350,6 +10129,7 @@ var films = [
   {
     "Title": "Downton Abbey",
     "TitleOriginal": "Downton Abbey",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.47,
     "Minutes": 122,
@@ -9362,6 +10142,7 @@ var films = [
   {
     "Title": "They Shall Not Grow Old",
     "TitleOriginal": "They Shall Not Grow Old",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.11,
     "Minutes": 99,
@@ -9374,6 +10155,7 @@ var films = [
   {
     "Title": "El Camino: A Breaking Bad Movie",
     "TitleOriginal": "El Camino: A Breaking Bad Movie",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.56,
     "Minutes": 123,
@@ -9386,6 +10168,7 @@ var films = [
   {
     "Title": "The Great Hack",
     "TitleOriginal": "The Great Hack",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.27,
     "Minutes": 114,
@@ -9398,6 +10181,7 @@ var films = [
   {
     "Title": "Fyre",
     "TitleOriginal": "Fyre",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.33,
     "Minutes": 98,
@@ -9410,6 +10194,7 @@ var films = [
   {
     "Title": "The Platform",
     "TitleOriginal": "El hoyo",
+    "Language": "Spanish",
     "RatingSelf": null,
     "RatingLetterboxd": 3.26,
     "Minutes": 95,
@@ -9422,6 +10207,7 @@ var films = [
   {
     "Title": "Downton Abbey: A New Era",
     "TitleOriginal": "Downton Abbey: A New Era",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.46,
     "Minutes": 125,
@@ -9434,6 +10220,7 @@ var films = [
   {
     "Title": "Help",
     "TitleOriginal": "Help",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.93,
     "Minutes": 98,
@@ -9446,6 +10233,7 @@ var films = [
   {
     "Title": "Schumacher",
     "TitleOriginal": "Schumacher",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.58,
     "Minutes": 112,
@@ -9458,6 +10246,7 @@ var films = [
   {
     "Title": "Disney's FastPass: A Complicated History",
     "TitleOriginal": null,
+    "Language": null,
     "RatingSelf": null,
     "RatingLetterboxd": 4.04,
     "Minutes": null,
@@ -9470,6 +10259,7 @@ var films = [
   {
     "Title": "Secrets \u0026 Lies",
     "TitleOriginal": "Secrets \u0026 Lies",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.24,
     "Minutes": 142,
@@ -9482,6 +10272,7 @@ var films = [
   {
     "Title": "Run Lola Run",
     "TitleOriginal": "Lola rennt",
+    "Language": "German",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.84,
     "Minutes": 81,
@@ -9494,6 +10285,7 @@ var films = [
   {
     "Title": "Eighth Grade",
     "TitleOriginal": "Eighth Grade",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.78,
     "Minutes": 94,
@@ -9506,6 +10298,7 @@ var films = [
   {
     "Title": "20 Days in Mariupol",
     "TitleOriginal": "20 Days in Mariupol",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.26,
     "Minutes": 94,
@@ -9518,6 +10311,7 @@ var films = [
   {
     "Title": "The Handmaiden",
     "TitleOriginal": "\uC544\uAC00\uC528",
+    "Language": "Korean",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.41,
     "Minutes": 145,
@@ -9530,6 +10324,7 @@ var films = [
   {
     "Title": "Neighbors",
     "TitleOriginal": "Neighbors",
+    "Language": "",
     "RatingSelf": null,
     "RatingLetterboxd": 3.79,
     "Minutes": 18,
@@ -9542,6 +10337,7 @@ var films = [
   {
     "Title": "Weekend",
     "TitleOriginal": "Weekend",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.94,
     "Minutes": 96,
@@ -9554,6 +10350,7 @@ var films = [
   {
     "Title": "The Neon Demon",
     "TitleOriginal": "The Neon Demon",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.16,
     "Minutes": 118,
@@ -9566,6 +10363,7 @@ var films = [
   {
     "Title": "Yellow Yellow Yellow: The Indycar Safety Team",
     "TitleOriginal": "Yellow Yellow Yellow: The Indycar Safety Team",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": -1,
     "Minutes": 45,
@@ -9578,6 +10376,7 @@ var films = [
   {
     "Title": "My First Summer",
     "TitleOriginal": "My First Summer",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.84,
     "Minutes": 78,
@@ -9590,6 +10389,7 @@ var films = [
   {
     "Title": "Persona",
     "TitleOriginal": "Persona",
+    "Language": "Swedish",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.41,
     "Minutes": 83,
@@ -9602,6 +10402,7 @@ var films = [
   {
     "Title": "Neighbours",
     "TitleOriginal": "Neighbours",
+    "Language": "",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.99,
     "Minutes": 9,
@@ -9614,6 +10415,7 @@ var films = [
   {
     "Title": "Everything Beautiful Is Far Away",
     "TitleOriginal": "Everything Beautiful Is Far Away",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.43,
     "Minutes": 91,
@@ -9626,6 +10428,7 @@ var films = [
   {
     "Title": "When Bj\u00F6rk Met Attenborough",
     "TitleOriginal": "When Bj\u00F6rk Met Attenborough",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.67,
     "Minutes": 48,
@@ -9638,6 +10441,7 @@ var films = [
   {
     "Title": "Shiva Baby",
     "TitleOriginal": "Shiva Baby",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.85,
     "Minutes": 78,
@@ -9650,6 +10454,7 @@ var films = [
   {
     "Title": "Final Cut: Ladies and Gentlemen",
     "TitleOriginal": "Final Cut: H\u00F6lgyeim \u00E9s uraim",
+    "Language": "Hungarian",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.89,
     "Minutes": 84,
@@ -9662,6 +10467,7 @@ var films = [
   {
     "Title": "Funeral Parade of Roses",
     "TitleOriginal": "\u8594\u8587\u306E\u846C\u5217",
+    "Language": "Japanese",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.31,
     "Minutes": 105,
@@ -9674,6 +10480,7 @@ var films = [
   {
     "Title": "Bottoms",
     "TitleOriginal": "Bottoms",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.81,
     "Minutes": 91,
@@ -9686,6 +10493,7 @@ var films = [
   {
     "Title": "Our Girl",
     "TitleOriginal": "Our Girl",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.50,
     "Minutes": 90,
@@ -9698,6 +10506,7 @@ var films = [
   {
     "Title": "The Shape of Water",
     "TitleOriginal": "The Shape of Water",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 3.67,
     "Minutes": 123,
@@ -9710,6 +10519,7 @@ var films = [
   {
     "Title": "A Trip to the Moon",
     "TitleOriginal": "Le Voyage dans la Lune",
+    "Language": "",
     "RatingSelf": null,
     "RatingLetterboxd": 3.98,
     "Minutes": 15,
@@ -9722,6 +10532,7 @@ var films = [
   {
     "Title": "Furiosa: A Mad Max Saga",
     "TitleOriginal": "Furiosa: A Mad Max Saga",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.85,
     "Minutes": 149,
@@ -9734,6 +10545,7 @@ var films = [
   {
     "Title": "The Tribe",
     "TitleOriginal": "\u041F\u043B\u0435\u043C'\u044F",
+    "Language": "",
     "RatingSelf": 1,
     "RatingLetterboxd": 3.63,
     "Minutes": 130,
@@ -9746,6 +10558,7 @@ var films = [
   {
     "Title": "Tomboy",
     "TitleOriginal": "Tomboy",
+    "Language": "French",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.98,
     "Minutes": 82,
@@ -9758,6 +10571,7 @@ var films = [
   {
     "Title": "Porridge",
     "TitleOriginal": "Porridge",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.43,
     "Minutes": 93,
@@ -9770,6 +10584,7 @@ var films = [
   {
     "Title": "Water Lilies",
     "TitleOriginal": "Naissance des pieuvres",
+    "Language": "French",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.53,
     "Minutes": 85,
@@ -9782,6 +10597,7 @@ var films = [
   {
     "Title": "Titane",
     "TitleOriginal": "Titane",
+    "Language": "French",
     "RatingSelf": null,
     "RatingLetterboxd": 3.62,
     "Minutes": 108,
@@ -9794,6 +10610,7 @@ var films = [
   {
     "Title": "The Fly",
     "TitleOriginal": "The Fly",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.98,
     "Minutes": 96,
@@ -9806,6 +10623,7 @@ var films = [
   {
     "Title": "The Dam Busters",
     "TitleOriginal": "The Dam Busters",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.58,
     "Minutes": 124,
@@ -9818,6 +10636,7 @@ var films = [
   {
     "Title": "The Invisible Man",
     "TitleOriginal": "The Invisible Man",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.86,
     "Minutes": 71,
@@ -9830,6 +10649,7 @@ var films = [
   {
     "Title": "Tropico",
     "TitleOriginal": "Tropico",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.21,
     "Minutes": 27,
@@ -9842,6 +10662,7 @@ var films = [
   {
     "Title": "Swimming",
     "TitleOriginal": "Swimming",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.31,
     "Minutes": 91,
@@ -9854,6 +10675,7 @@ var films = [
   {
     "Title": "Imagine Me \u0026 You",
     "TitleOriginal": "Imagine Me \u0026 You",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.79,
     "Minutes": 93,
@@ -9866,6 +10688,7 @@ var films = [
   {
     "Title": "Society of the Snow",
     "TitleOriginal": "La sociedad de la nieve",
+    "Language": "Spanish",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.14,
     "Minutes": 144,
@@ -9878,6 +10701,7 @@ var films = [
   {
     "Title": "Grandma",
     "TitleOriginal": "Grandma",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.48,
     "Minutes": 78,
@@ -9890,6 +10714,7 @@ var films = [
   {
     "Title": "The Witch",
     "TitleOriginal": "The Witch",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.83,
     "Minutes": 92,
@@ -9902,6 +10727,7 @@ var films = [
   {
     "Title": "Fat Girl",
     "TitleOriginal": "\u00C0 ma soeur!",
+    "Language": "French",
     "RatingSelf": 1,
     "RatingLetterboxd": 3.49,
     "Minutes": 86,
@@ -9914,6 +10740,7 @@ var films = [
   {
     "Title": "Close",
     "TitleOriginal": "Close",
+    "Language": "French",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.10,
     "Minutes": 104,
@@ -9926,6 +10753,7 @@ var films = [
   {
     "Title": "Perfect Blue",
     "TitleOriginal": "PERFECT BLUE",
+    "Language": "Japanese",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.39,
     "Minutes": 82,
@@ -9938,6 +10766,7 @@ var films = [
   {
     "Title": "World of Tomorrow",
     "TitleOriginal": "World of Tomorrow",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.31,
     "Minutes": 17,
@@ -9950,6 +10779,7 @@ var films = [
   {
     "Title": "A Grand Day Out",
     "TitleOriginal": "A Grand Day Out",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.12,
     "Minutes": 23,
@@ -9962,6 +10792,7 @@ var films = [
   {
     "Title": "The Wrong Trousers",
     "TitleOriginal": "The Wrong Trousers",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.27,
     "Minutes": 30,
@@ -9974,6 +10805,7 @@ var films = [
   {
     "Title": "A Close Shave",
     "TitleOriginal": "A Close Shave",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 4.11,
     "Minutes": 30,
@@ -9986,6 +10818,7 @@ var films = [
   {
     "Title": "Comrade Kim Goes Flying",
     "TitleOriginal": "\uAE40\uB3D9\uBB34\uB294 \uD558\uB298\uC744 \uB09C\uB2E4",
+    "Language": "Korean",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.34,
     "Minutes": 77,
@@ -9998,6 +10831,7 @@ var films = [
   {
     "Title": "Grand Prix: The Killer Years",
     "TitleOriginal": "Grand Prix: The Killer Years",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": -1,
     "Minutes": 60,
@@ -10010,6 +10844,7 @@ var films = [
   {
     "Title": "Blade Runner",
     "TitleOriginal": "Blade Runner",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 4.10,
     "Minutes": 118,
@@ -10022,6 +10857,7 @@ var films = [
   {
     "Title": "Thoroughbreds",
     "TitleOriginal": "Thoroughbreds",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.54,
     "Minutes": 92,
@@ -10034,6 +10870,7 @@ var films = [
   {
     "Title": "You Can Live Forever",
     "TitleOriginal": "You Can Live Forever",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.58,
     "Minutes": 96,
@@ -10046,6 +10883,7 @@ var films = [
   {
     "Title": "Tomato Red",
     "TitleOriginal": "Tomato Red",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.29,
     "Minutes": 112,
@@ -10058,6 +10896,7 @@ var films = [
   {
     "Title": "Petite maman",
     "TitleOriginal": "Petite maman",
+    "Language": "French",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.10,
     "Minutes": 72,
@@ -10070,6 +10909,7 @@ var films = [
   {
     "Title": "Homeward Bound: The Incredible Journey",
     "TitleOriginal": "Homeward Bound: The Incredible Journey",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.45,
     "Minutes": 84,
@@ -10082,6 +10922,7 @@ var films = [
   {
     "Title": "Host",
     "TitleOriginal": "Host",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.20,
     "Minutes": 57,
@@ -10094,6 +10935,7 @@ var films = [
   {
     "Title": "The Gentlemen",
     "TitleOriginal": "The Gentlemen",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.71,
     "Minutes": 113,
@@ -10106,6 +10948,7 @@ var films = [
   {
     "Title": "The Passion of Joan of Arc",
     "TitleOriginal": "La Passion de Jeanne d'Arc",
+    "Language": "",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.43,
     "Minutes": 82,
@@ -10118,6 +10961,7 @@ var films = [
   {
     "Title": "Stand by Me",
     "TitleOriginal": "Stand by Me",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.15,
     "Minutes": 89,
@@ -10130,6 +10974,7 @@ var films = [
   {
     "Title": "Phantom Thread",
     "TitleOriginal": "Phantom Thread",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.14,
     "Minutes": 130,
@@ -10142,6 +10987,7 @@ var films = [
   {
     "Title": "The Miseducation of Cameron Post",
     "TitleOriginal": "The Miseducation of Cameron Post",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.48,
     "Minutes": 92,
@@ -10154,6 +11000,7 @@ var films = [
   {
     "Title": "Come and See",
     "TitleOriginal": "\u0418\u0434\u0438 \u0438 \u0441\u043C\u043E\u0442\u0440\u0438",
+    "Language": "Russian",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.63,
     "Minutes": 142,
@@ -10166,6 +11013,7 @@ var films = [
   {
     "Title": "Casablanca",
     "TitleOriginal": "Casablanca",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.27,
     "Minutes": 102,
@@ -10178,6 +11026,7 @@ var films = [
   {
     "Title": "Last Night in Soho",
     "TitleOriginal": "Last Night in Soho",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.41,
     "Minutes": 116,
@@ -10190,6 +11039,7 @@ var films = [
   {
     "Title": "Short Term 12",
     "TitleOriginal": "Short Term 12",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.16,
     "Minutes": 96,
@@ -10202,6 +11052,7 @@ var films = [
   {
     "Title": "Papers, Please: The Short Film",
     "TitleOriginal": "Papers, Please: The Short Film",
+    "Language": "Russian",
     "RatingSelf": null,
     "RatingLetterboxd": 3.61,
     "Minutes": 10,
@@ -10214,6 +11065,7 @@ var films = [
   {
     "Title": "Snow White and the Seven Dwarfs",
     "TitleOriginal": "Snow White and the Seven Dwarfs",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.43,
     "Minutes": 83,
@@ -10226,6 +11078,7 @@ var films = [
   {
     "Title": "Breathe",
     "TitleOriginal": "Respire",
+    "Language": "French",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.76,
     "Minutes": 91,
@@ -10238,6 +11091,7 @@ var films = [
   {
     "Title": "Booksmart",
     "TitleOriginal": "Booksmart",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 3.74,
     "Minutes": 102,
@@ -10250,6 +11104,7 @@ var films = [
   {
     "Title": "Leave No Trace",
     "TitleOriginal": "Leave No Trace",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.75,
     "Minutes": 109,
@@ -10262,6 +11117,7 @@ var films = [
   {
     "Title": "(500) Days of Summer",
     "TitleOriginal": "(500) Days of Summer",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.67,
     "Minutes": 95,
@@ -10274,6 +11130,7 @@ var films = [
   {
     "Title": "Black Bear",
     "TitleOriginal": "Black Bear",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.56,
     "Minutes": 106,
@@ -10286,6 +11143,7 @@ var films = [
   {
     "Title": "Bound",
     "TitleOriginal": "Bound",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 3.99,
     "Minutes": 105,
@@ -10298,6 +11156,7 @@ var films = [
   {
     "Title": "Tangerine",
     "TitleOriginal": "Tangerine",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.87,
     "Minutes": 87,
@@ -10310,6 +11169,7 @@ var films = [
   {
     "Title": "Sliding Doors",
     "TitleOriginal": "Sliding Doors",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.07,
     "Minutes": 99,
@@ -10322,6 +11182,7 @@ var films = [
   {
     "Title": "Beetlejuice",
     "TitleOriginal": "Beetlejuice",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 92,
@@ -10334,6 +11195,7 @@ var films = [
   {
     "Title": "Coherence",
     "TitleOriginal": "Coherence",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.75,
     "Minutes": 89,
@@ -10346,6 +11208,7 @@ var films = [
   {
     "Title": "X",
     "TitleOriginal": "X",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.41,
     "Minutes": 106,
@@ -10358,6 +11221,7 @@ var films = [
   {
     "Title": "MaXXXine",
     "TitleOriginal": "MaXXXine",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.14,
     "Minutes": 104,
@@ -10370,6 +11234,7 @@ var films = [
   {
     "Title": "Je Tu Il Elle",
     "TitleOriginal": "Je, tu, il, elle",
+    "Language": "French",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.73,
     "Minutes": 86,
@@ -10382,6 +11247,7 @@ var films = [
   {
     "Title": "How to Have Sex",
     "TitleOriginal": "How to Have Sex",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.61,
     "Minutes": 91,
@@ -10394,6 +11260,7 @@ var films = [
   {
     "Title": "An Evening with Beverly Luff Linn",
     "TitleOriginal": "An Evening with Beverly Luff Linn",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.13,
     "Minutes": 108,
@@ -10406,6 +11273,7 @@ var films = [
   {
     "Title": "Playground",
     "TitleOriginal": "Un monde",
+    "Language": "French",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.72,
     "Minutes": 72,
@@ -10418,6 +11286,7 @@ var films = [
   {
     "Title": "Are You There God? It's Me, Margaret.",
     "TitleOriginal": "Are You There God? It's Me, Margaret.",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.80,
     "Minutes": 107,
@@ -10430,6 +11299,7 @@ var films = [
   {
     "Title": "Chitty Chitty Bang Bang",
     "TitleOriginal": "Chitty Chitty Bang Bang",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.43,
     "Minutes": 144,
@@ -10442,6 +11312,7 @@ var films = [
   {
     "Title": "Ingrid Goes West",
     "TitleOriginal": "Ingrid Goes West",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.34,
     "Minutes": 97,
@@ -10454,6 +11325,7 @@ var films = [
   {
     "Title": "Valerie and Her Week of Wonders",
     "TitleOriginal": "Valerie a t\u00FDden div\u016F",
+    "Language": "Czech",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.53,
     "Minutes": 73,
@@ -10466,6 +11338,7 @@ var films = [
   {
     "Title": "Now and Then",
     "TitleOriginal": "Now and Then",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.57,
     "Minutes": 100,
@@ -10478,6 +11351,7 @@ var films = [
   {
     "Title": "Cruella",
     "TitleOriginal": "Cruella",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.46,
     "Minutes": 134,
@@ -10490,6 +11364,7 @@ var films = [
   {
     "Title": "Daisies",
     "TitleOriginal": "Sedmikr\u00E1sky",
+    "Language": "Czech",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.01,
     "Minutes": 76,
@@ -10502,6 +11377,7 @@ var films = [
   {
     "Title": "System Crasher",
     "TitleOriginal": "Systemsprenger",
+    "Language": "German",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.95,
     "Minutes": 118,
@@ -10514,6 +11390,7 @@ var films = [
   {
     "Title": "The Lost Daughter",
     "TitleOriginal": "The Lost Daughter",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.52,
     "Minutes": 121,
@@ -10526,6 +11403,7 @@ var films = [
   {
     "Title": "Girlhood",
     "TitleOriginal": "Bande de filles",
+    "Language": "French",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.73,
     "Minutes": 112,
@@ -10538,6 +11416,7 @@ var films = [
   {
     "Title": "Steamboat Willie",
     "TitleOriginal": "Steamboat Willie",
+    "Language": "",
     "RatingSelf": null,
     "RatingLetterboxd": 3.65,
     "Minutes": 8,
@@ -10550,6 +11429,7 @@ var films = [
   {
     "Title": "G.I. Jane",
     "TitleOriginal": "G.I. Jane",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.92,
     "Minutes": 125,
@@ -10562,6 +11442,7 @@ var films = [
   {
     "Title": "Broken Glass",
     "TitleOriginal": "Glerbrot",
+    "Language": "Icelandic",
     "RatingSelf": 1,
     "RatingLetterboxd": -1,
     "Minutes": 50,
@@ -10574,6 +11455,7 @@ var films = [
   {
     "Title": "Wicked Little Letters",
     "TitleOriginal": "Wicked Little Letters",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.46,
     "Minutes": 100,
@@ -10586,6 +11468,7 @@ var films = [
   {
     "Title": "The Juniper Tree",
     "TitleOriginal": "The Juniper Tree",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.54,
     "Minutes": 79,
@@ -10598,6 +11481,7 @@ var films = [
   {
     "Title": "The Negotiator",
     "TitleOriginal": "The Negotiator",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.51,
     "Minutes": 140,
@@ -10610,6 +11494,7 @@ var films = [
   {
     "Title": "The Farewell",
     "TitleOriginal": "The Farewell",
+    "Language": "Mandarin",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.07,
     "Minutes": 100,
@@ -10622,6 +11507,7 @@ var films = [
   {
     "Title": "The Children's Hour",
     "TitleOriginal": "The Children's Hour",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.06,
     "Minutes": 108,
@@ -10634,6 +11520,7 @@ var films = [
   {
     "Title": "Quiz Lady",
     "TitleOriginal": "Quiz Lady",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.30,
     "Minutes": 99,
@@ -10646,6 +11533,7 @@ var films = [
   {
     "Title": "Pariah",
     "TitleOriginal": "Pariah",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.01,
     "Minutes": 86,
@@ -10658,6 +11546,7 @@ var films = [
   {
     "Title": "Manifesto",
     "TitleOriginal": "Manifesto",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.50,
     "Minutes": 98,
@@ -10670,6 +11559,7 @@ var films = [
   {
     "Title": "Humanist Vampire Seeking Consenting Suicidal Person",
     "TitleOriginal": "Vampire humaniste cherche suicidaire consentant",
+    "Language": "French",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.88,
     "Minutes": 90,
@@ -10682,6 +11572,7 @@ var films = [
   {
     "Title": "#17 - To Finish The Barkley Marathons",
     "TitleOriginal": "#17 - To Finish The Barkley Marathons",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": -1,
     "Minutes": 63,
@@ -10694,6 +11585,7 @@ var films = [
   {
     "Title": "Longlegs",
     "TitleOriginal": "Longlegs",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.43,
     "Minutes": 101,
@@ -10706,6 +11598,7 @@ var films = [
   {
     "Title": "That Darn Cat",
     "TitleOriginal": "That Darn Cat",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 2.52,
     "Minutes": 89,
@@ -10718,6 +11611,7 @@ var films = [
   {
     "Title": "City Lights",
     "TitleOriginal": "City Lights",
+    "Language": "",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.34,
     "Minutes": 87,
@@ -10730,6 +11624,7 @@ var films = [
   {
     "Title": "Elisa \u0026 Marcela",
     "TitleOriginal": "Elisa y Marcela",
+    "Language": "Spanish",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.51,
     "Minutes": 118,
@@ -10742,6 +11637,7 @@ var films = [
   {
     "Title": "Anaconda",
     "TitleOriginal": "Anaconda",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 2.33,
     "Minutes": 89,
@@ -10754,6 +11650,7 @@ var films = [
   {
     "Title": "Nope",
     "TitleOriginal": "Nope",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.71,
     "Minutes": 130,
@@ -10766,6 +11663,7 @@ var films = [
   {
     "Title": "Gold Diggers: The Secret of Bear Mountain",
     "TitleOriginal": "Gold Diggers: The Secret of Bear Mountain",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.12,
     "Minutes": 94,
@@ -10778,6 +11676,7 @@ var films = [
   {
     "Title": "Alice in Wonderland",
     "TitleOriginal": "Alice in Wonderland",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.75,
     "Minutes": 75,
@@ -10790,6 +11689,7 @@ var films = [
   {
     "Title": "102 Minutes That Changed America",
     "TitleOriginal": "102 Minutes That Changed America",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.08,
     "Minutes": 102,
@@ -10802,6 +11702,7 @@ var films = [
   {
     "Title": "Kinds of Kindness",
     "TitleOriginal": "Kinds of Kindness",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.39,
     "Minutes": 164,
@@ -10814,6 +11715,7 @@ var films = [
   {
     "Title": "The Virgin Suicides",
     "TitleOriginal": "The Virgin Suicides",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.84,
     "Minutes": 97,
@@ -10826,6 +11728,7 @@ var films = [
   {
     "Title": "Coraline",
     "TitleOriginal": "Coraline",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.17,
     "Minutes": 100,
@@ -10838,6 +11741,7 @@ var films = [
   {
     "Title": "The Man Who Cried",
     "TitleOriginal": "The Man Who Cried",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 2.85,
     "Minutes": 96,
@@ -10850,6 +11754,7 @@ var films = [
   {
     "Title": "Helter Skelter",
     "TitleOriginal": "\u30D8\u30EB\u30BF\u30FC\u30B9\u30B1\u30EB\u30BF\u30FC",
+    "Language": "Japanese",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.83,
     "Minutes": 127,
@@ -10862,6 +11767,7 @@ var films = [
   {
     "Title": "Meshes of the Afternoon",
     "TitleOriginal": "Meshes of the Afternoon",
+    "Language": "",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.26,
     "Minutes": 14,
@@ -10874,6 +11780,7 @@ var films = [
   {
     "Title": "The Birds",
     "TitleOriginal": "The Birds",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.76,
     "Minutes": 120,
@@ -10886,6 +11793,7 @@ var films = [
   {
     "Title": "I, Tonya",
     "TitleOriginal": "I, Tonya",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.85,
     "Minutes": 120,
@@ -10898,6 +11806,7 @@ var films = [
   {
     "Title": "Heathers",
     "TitleOriginal": "Heathers",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.76,
     "Minutes": 103,
@@ -10910,6 +11819,7 @@ var films = [
   {
     "Title": "T\u00C1R",
     "TitleOriginal": "T\u00C1R",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 3.94,
     "Minutes": 158,
@@ -10922,6 +11832,7 @@ var films = [
   {
     "Title": "Black Mirror: Bandersnatch",
     "TitleOriginal": "Black Mirror: Bandersnatch",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.24,
     "Minutes": 90,
@@ -10934,6 +11845,7 @@ var films = [
   {
     "Title": "The Fast and the Furious: Tokyo Drift",
     "TitleOriginal": "The Fast and the Furious: Tokyo Drift",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.13,
     "Minutes": 104,
@@ -10946,6 +11858,7 @@ var films = [
   {
     "Title": "Disobedience",
     "TitleOriginal": "Disobedience",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.49,
     "Minutes": 114,
@@ -10958,6 +11871,7 @@ var films = [
   {
     "Title": "Roman Holiday",
     "TitleOriginal": "Roman Holiday",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.15,
     "Minutes": 119,
@@ -10970,6 +11884,7 @@ var films = [
   {
     "Title": "Maudie",
     "TitleOriginal": "Maudie",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.70,
     "Minutes": 115,
@@ -10982,6 +11897,7 @@ var films = [
   {
     "Title": "A Good Person",
     "TitleOriginal": "A Good Person",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.42,
     "Minutes": 128,
@@ -10994,6 +11910,7 @@ var films = [
   {
     "Title": "Funny Face",
     "TitleOriginal": "Funny Face",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.64,
     "Minutes": 103,
@@ -11006,6 +11923,7 @@ var films = [
   {
     "Title": "Suspense.",
     "TitleOriginal": "Suspense.",
+    "Language": "",
     "RatingSelf": null,
     "RatingLetterboxd": 3.78,
     "Minutes": 11,
@@ -11018,6 +11936,7 @@ var films = [
   {
     "Title": "Causeway",
     "TitleOriginal": "Causeway",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.43,
     "Minutes": 96,
@@ -11030,6 +11949,7 @@ var films = [
   {
     "Title": "Safety Not Guaranteed",
     "TitleOriginal": "Safety Not Guaranteed",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.29,
     "Minutes": 86,
@@ -11042,6 +11962,7 @@ var films = [
   {
     "Title": "Slums of Beverly Hills",
     "TitleOriginal": "Slums of Beverly Hills",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.49,
     "Minutes": 91,
@@ -11054,6 +11975,7 @@ var films = [
   {
     "Title": "Breakfast at Tiffany's",
     "TitleOriginal": "Breakfast at Tiffany's",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.76,
     "Minutes": 115,
@@ -11066,6 +11988,7 @@ var films = [
   {
     "Title": "Nomadland",
     "TitleOriginal": "Nomadland",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.83,
     "Minutes": 108,
@@ -11078,6 +12001,7 @@ var films = [
   {
     "Title": "Cl\u00E9o from 5 to 7",
     "TitleOriginal": "Cl\u00E9o de 5 \u00E0 7",
+    "Language": "French",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.20,
     "Minutes": 90,
@@ -11090,6 +12014,7 @@ var films = [
   {
     "Title": "Thelma",
     "TitleOriginal": "Thelma",
+    "Language": "Norwegian",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.70,
     "Minutes": 116,
@@ -11102,6 +12027,7 @@ var films = [
   {
     "Title": "Lady Macbeth",
     "TitleOriginal": "Lady Macbeth",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.46,
     "Minutes": 86,
@@ -11114,6 +12040,7 @@ var films = [
   {
     "Title": "Pan's Labyrinth",
     "TitleOriginal": "El laberinto del fauno",
+    "Language": "Spanish",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.16,
     "Minutes": 118,
@@ -11126,6 +12053,7 @@ var films = [
   {
     "Title": "The Eternal Memory",
     "TitleOriginal": "La memoria infinita",
+    "Language": "Spanish",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.83,
     "Minutes": 85,
@@ -11138,6 +12066,7 @@ var films = [
   {
     "Title": "Mulholland Drive",
     "TitleOriginal": "Mulholland Drive",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 4.24,
     "Minutes": 147,
@@ -11150,6 +12079,7 @@ var films = [
   {
     "Title": "Friends: The Reunion",
     "TitleOriginal": "Friends: The Reunion",
+    "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.60,
     "Minutes": 104,
@@ -11162,6 +12092,7 @@ var films = [
   {
     "Title": "The Listener",
     "TitleOriginal": "The Listener",
+    "Language": "English",
     "RatingSelf": 2,
     "RatingLetterboxd": 3.19,
     "Minutes": 96,
@@ -11174,6 +12105,7 @@ var films = [
   {
     "Title": "Sometimes I Think About Dying",
     "TitleOriginal": "Sometimes I Think About Dying",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.59,
     "Minutes": 94,
@@ -11186,6 +12118,7 @@ var films = [
   {
     "Title": "This Beautiful Fantastic",
     "TitleOriginal": "This Beautiful Fantastic",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.34,
     "Minutes": 100,
@@ -11198,6 +12131,7 @@ var films = [
   {
     "Title": "Orlando",
     "TitleOriginal": "Orlando",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.89,
     "Minutes": 90,
@@ -11210,6 +12144,7 @@ var films = [
   {
     "Title": "Emily the Criminal",
     "TitleOriginal": "Emily the Criminal",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.31,
     "Minutes": 97,
@@ -11222,6 +12157,7 @@ var films = [
   {
     "Title": "Suspiria",
     "TitleOriginal": "Suspiria",
+    "Language": "Italian",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.94,
     "Minutes": 99,
@@ -11234,6 +12170,7 @@ var films = [
   {
     "Title": "Passing",
     "TitleOriginal": "Passing",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.53,
     "Minutes": 98,
@@ -11246,6 +12183,7 @@ var films = [
   {
     "Title": "The Hunger",
     "TitleOriginal": "The Hunger",
+    "Language": "English",
     "RatingSelf": 5,
     "RatingLetterboxd": 3.57,
     "Minutes": 96,
@@ -11258,6 +12196,7 @@ var films = [
   {
     "Title": "Joan of Arc",
     "TitleOriginal": "Jeanne d'Arc",
+    "Language": "",
     "RatingSelf": null,
     "RatingLetterboxd": 3.49,
     "Minutes": 11,
@@ -11270,6 +12209,7 @@ var films = [
   {
     "Title": "Dirty Computer",
     "TitleOriginal": "Dirty Computer",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.02,
     "Minutes": 49,
@@ -11282,6 +12222,7 @@ var films = [
   {
     "Title": "The Consequences of Feminism",
     "TitleOriginal": "Les r\u00E9sultats du f\u00E9minisme",
+    "Language": "",
     "RatingSelf": null,
     "RatingLetterboxd": 3.77,
     "Minutes": 7,
@@ -11294,6 +12235,7 @@ var films = [
   {
     "Title": "The Lure",
     "TitleOriginal": "C\u00F3rki dancingu",
+    "Language": "Polish",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.34,
     "Minutes": 93,
@@ -11306,6 +12248,7 @@ var films = [
   {
     "Title": "Repulsion",
     "TitleOriginal": "Repulsion",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.92,
     "Minutes": 105,
@@ -11318,6 +12261,7 @@ var films = [
   {
     "Title": "Little Woods",
     "TitleOriginal": "Little Woods",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.37,
     "Minutes": 103,
@@ -11330,6 +12274,7 @@ var films = [
   {
     "Title": "Wait Until Dark",
     "TitleOriginal": "Wait Until Dark",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.90,
     "Minutes": 108,
@@ -11342,6 +12287,7 @@ var films = [
   {
     "Title": "Mermaids",
     "TitleOriginal": "Mermaids",
+    "Language": "English",
     "RatingSelf": 4,
     "RatingLetterboxd": 3.61,
     "Minutes": 110,
@@ -11354,6 +12300,7 @@ var films = [
   {
     "Title": "Fighting with My Family",
     "TitleOriginal": "Fighting with My Family",
+    "Language": "English",
     "RatingSelf": 3,
     "RatingLetterboxd": 3.37,
     "Minutes": 108,
@@ -11362,5 +12309,174 @@ var films = [
     "Poster": "/cVhe15rJLRjolunSWLBN6xQLyGU.jpg",
     "Year": 2019,
     "When": "2019-02-14"
+  },
+  {
+    "Title": "The Secret Garden",
+    "TitleOriginal": "The Secret Garden",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.63,
+    "Minutes": 102,
+    "Watched": 127923,
+    "Id": "1Uim",
+    "Poster": "/zf6h5dJ7wVG7LqMO9dhHGHVejzj.jpg",
+    "Year": 1993,
+    "When": "1993-08-13"
+  },
+  {
+    "Title": "Three Colours: Blue",
+    "TitleOriginal": "Trois couleurs : Bleu",
+    "Language": "French",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 4.17,
+    "Minutes": 98,
+    "Watched": 258114,
+    "Id": "2b7K",
+    "Poster": "/33wsWxzsNstI8N7dvuwzFmj1qBd.jpg",
+    "Year": 1993,
+    "When": "1993-09-08"
+  },
+  {
+    "Title": "Three Colours: White",
+    "TitleOriginal": "Trois couleurs : Blanc",
+    "Language": "Polish",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.82,
+    "Minutes": 92,
+    "Watched": 156933,
+    "Id": "2b7A",
+    "Poster": "/fdIet3NSa27gobMbaUml66oCQNT.jpg",
+    "Year": 1994,
+    "When": "1994-01-26"
+  },
+  {
+    "Title": "Three Colours: Red",
+    "TitleOriginal": "Trois couleurs : Rouge",
+    "Language": "French",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 4.34,
+    "Minutes": 100,
+    "Watched": 195032,
+    "Id": "2b7q",
+    "Poster": "/cTvIvblms2p4cEPT4lnJWTYG3DC.jpg",
+    "Year": 1994,
+    "When": "1994-05-12"
+  },
+  {
+    "Title": "We Need to Talk About Kevin",
+    "TitleOriginal": "We Need to Talk About Kevin",
+    "Language": "English",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.82,
+    "Minutes": 113,
+    "Watched": 511927,
+    "Id": "2pTS",
+    "Poster": "/auAmiRmbBQ5QIYGpWgcGBoBQY3b.jpg",
+    "Year": 2011,
+    "When": "2011-09-28"
+  },
+  {
+    "Title": "8 Women",
+    "TitleOriginal": "8 femmes",
+    "Language": "French",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.73,
+    "Minutes": 111,
+    "Watched": 46786,
+    "Id": "27Lm",
+    "Poster": "/bJu4Gm7NQb2woPiIovrPD5jNWzf.jpg",
+    "Year": 2002,
+    "When": "2002-02-06"
+  },
+  {
+    "Title": "Girlfriends",
+    "TitleOriginal": "Girlfriends",
+    "Language": "English",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.91,
+    "Minutes": 86,
+    "Watched": 28725,
+    "Id": "3JYU",
+    "Poster": "/cQmcKmtkQQeQFK0L07HHqdP3XIJ.jpg",
+    "Year": 1978,
+    "When": "1978-08-11"
+  },
+  {
+    "Title": "Winter's Bone",
+    "TitleOriginal": "Winter's Bone",
+    "Language": "English",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.54,
+    "Minutes": 101,
+    "Watched": 142426,
+    "Id": "14FI",
+    "Poster": "/a0qhPkNlxLfsf5B2jFyI1Pp04XV.jpg",
+    "Year": 2010,
+    "When": "2010-06-11"
+  },
+  {
+    "Title": "Shoes",
+    "TitleOriginal": "Shoes",
+    "Language": "",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.62,
+    "Minutes": 48,
+    "Watched": 4636,
+    "Id": "4xlI",
+    "Poster": "nlSqMGGl1bz2BpoSGF4ke4x9Shc.jpg",
+    "Year": 1916,
+    "When": "1916-06-26"
+  },
+  {
+    "Title": "Rosemary's Baby",
+    "TitleOriginal": "Rosemary's Baby",
+    "Language": "English",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 4.21,
+    "Minutes": 138,
+    "Watched": 580960,
+    "Id": "29zM",
+    "Poster": "/nclYFGpVzfbiORO5ELVVdxzt9Vg.jpg",
+    "Year": 1968,
+    "When": "1968-06-12"
+  },
+  {
+    "Title": "Apartment 7A",
+    "TitleOriginal": "Apartment 7A",
+    "Language": "English",
+    "RatingSelf": 2,
+    "RatingLetterboxd": 2.76,
+    "Minutes": 106,
+    "Watched": 2890,
+    "Id": "uock",
+    "Poster": "/oyjEPno8omeDYVNqUZS2RiEpuRC.jpg",
+    "Year": 2024,
+    "When": "2024-09-20"
+  },
+  {
+    "Title": "How to Steal a Million",
+    "TitleOriginal": "How to Steal a Million",
+    "Language": "English",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.81,
+    "Minutes": 123,
+    "Watched": 41801,
+    "Id": "25Yo",
+    "Poster": "/xaf3pwmITJvfz9Ab8DiGM8OOtBC.jpg",
+    "Year": 1966,
+    "When": "1966-07-13"
+  },
+  {
+    "Title": "C\u00E9line and Julie Go Boating",
+    "TitleOriginal": "C\u00E9line et Julie vont en bateau",
+    "Language": "French",
+    "RatingSelf": 5,
+    "RatingLetterboxd": 4.14,
+    "Minutes": 193,
+    "Watched": 24688,
+    "Id": "1sGA",
+    "Poster": "/xsWLui5vFHC1b1JjwK4Au9ljjgG.jpg",
+    "Year": 1974,
+    "When": "1974-09-18"
   }
 ]

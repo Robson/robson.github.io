@@ -1,35 +1,35 @@
 var data = {
-  "FilmsWithThemes": 876,
+  "FilmsWithThemes": 887,
   "Themes": [
     {
       "Url": "/theme/moving-relationship-stories/",
       "Text": "Moving relationship stories",
       "IsMini": false,
-      "Amount": 228
+      "Amount": 235
     },
     {
       "Url": "/theme/crude-humor-and-satire/",
       "Text": "Crude humor and satire",
       "IsMini": false,
-      "Amount": 214
+      "Amount": 215
     },
     {
       "Url": "/theme/intense-violence-and-sexual-transgression/",
       "Text": "Intense violence and sexual transgression",
       "IsMini": false,
-      "Amount": 195
+      "Amount": 198
     },
     {
       "Url": "/theme/humanity-and-the-world-around-us/",
       "Text": "Humanity and the world around us",
       "IsMini": false,
-      "Amount": 179
+      "Amount": 181
     },
     {
       "Url": "/mini-theme/thriller-suspense-twist-psychological-intriguing/",
       "Text": "Twisted dark psychological thriller",
       "IsMini": true,
-      "Amount": 150
+      "Amount": 152
     },
     {
       "Url": "/mini-theme/gag-chuckles-slapstick-amusing-jokes/",
@@ -41,7 +41,13 @@ var data = {
       "Url": "/mini-theme/sad-depressing-illness-heartbreaking-touching/",
       "Text": "Powerful stories of heartbreak and suffering",
       "IsMini": true,
-      "Amount": 133
+      "Amount": 135
+    },
+    {
+      "Url": "/mini-theme/touching-cry-family-sad-tear-jerker/",
+      "Text": "Touching and sentimental family stories",
+      "IsMini": true,
+      "Amount": 126
     },
     {
       "Url": "/mini-theme/jokes-humor-chuckles-crude-gag/",
@@ -53,13 +59,7 @@ var data = {
       "Url": "/theme/horror-the-undead-and-monster-classics/",
       "Text": "Horror, the undead and monster classics",
       "IsMini": false,
-      "Amount": 125
-    },
-    {
-      "Url": "/mini-theme/touching-cry-family-sad-tear-jerker/",
-      "Text": "Touching and sentimental family stories",
-      "IsMini": true,
-      "Amount": 124
+      "Amount": 126
     },
     {
       "Url": "/theme/high-speed-and-special-ops/",
@@ -71,17 +71,29 @@ var data = {
       "Url": "/mini-theme/humor-satire-jokes-amusing-humorous/",
       "Text": "Amusing jokes and witty satire",
       "IsMini": true,
-      "Amount": 111
+      "Amount": 112
     },
     {
       "Url": "/mini-theme/supernatural-chilling-eerie-terrifying-dread/",
       "Text": "Terrifying, haunted, and supernatural horror",
       "IsMini": true,
-      "Amount": 103
+      "Amount": 105
     },
     {
       "Url": "/mini-theme/killing-slasher-gruesome-gory-bloody/",
       "Text": "Gory, gruesome, and slasher horror",
+      "IsMini": true,
+      "Amount": 98
+    },
+    {
+      "Url": "/mini-theme/family-touching-kids-cry-tear-jerker/",
+      "Text": "Emotional and touching family dramas",
+      "IsMini": true,
+      "Amount": 97
+    },
+    {
+      "Url": "/mini-theme/chemistry-hilarious-romantic-comedy-sweet-or-humorous/",
+      "Text": "Laugh-out-loud relationship entanglements",
       "IsMini": true,
       "Amount": 97
     },
@@ -90,18 +102,6 @@ var data = {
       "Text": "Epic heroes",
       "IsMini": false,
       "Amount": 96
-    },
-    {
-      "Url": "/mini-theme/family-touching-kids-cry-tear-jerker/",
-      "Text": "Emotional and touching family dramas",
-      "IsMini": true,
-      "Amount": 95
-    },
-    {
-      "Url": "/mini-theme/chemistry-hilarious-romantic-comedy-sweet-or-humorous/",
-      "Text": "Laugh-out-loud relationship entanglements",
-      "IsMini": true,
-      "Amount": 95
     },
     {
       "Url": "/mini-theme/villain-superhero-action-packed-cool-exciting/",
@@ -113,7 +113,7 @@ var data = {
       "Url": "/theme/crime-drugs-and-gangsters/",
       "Text": "Crime, drugs and gangsters",
       "IsMini": false,
-      "Amount": 86
+      "Amount": 87
     },
     {
       "Url": "/mini-theme/quirky-humor-relationships-endearing-humorous/",
@@ -128,15 +128,21 @@ var data = {
       "Amount": 84
     },
     {
+      "Url": "/theme/relationship-comedy/",
+      "Text": "Relationship comedy",
+      "IsMini": false,
+      "Amount": 83
+    },
+    {
       "Url": "/theme/underdogs-and-coming-of-age/",
       "Text": "Underdogs and coming of age",
       "IsMini": false,
       "Amount": 83
     },
     {
-      "Url": "/theme/relationship-comedy/",
-      "Text": "Relationship comedy",
-      "IsMini": false,
+      "Url": "/mini-theme/death-symbolism-philosophical-thought-provoking-surreal/",
+      "Text": "Surreal and thought-provoking visions of life and death",
+      "IsMini": true,
       "Amount": 82
     },
     {
@@ -144,12 +150,6 @@ var data = {
       "Text": "Challenging or sexual themes \u0026amp; twists",
       "IsMini": true,
       "Amount": 79
-    },
-    {
-      "Url": "/mini-theme/death-symbolism-philosophical-thought-provoking-surreal/",
-      "Text": "Surreal and thought-provoking visions of life and death",
-      "IsMini": true,
-      "Amount": 78
     },
     {
       "Url": "/mini-theme/car-cars-racing-speed-adrenaline/",
@@ -173,19 +173,25 @@ var data = {
       "Url": "/mini-theme/chilling-eerie-terrifying-terror-frighten/",
       "Text": "Creepy, chilling, and terrifying horror",
       "IsMini": true,
-      "Amount": 69
+      "Amount": 70
     },
     {
       "Url": "/mini-theme/weird-surreal-dream-bizarre-confusing/",
       "Text": "Dreamlike, quirky, and surreal storytelling",
       "IsMini": true,
-      "Amount": 68
+      "Amount": 69
     },
     {
       "Url": "/mini-theme/family-moving-heartbreaking-sadness-sad/",
       "Text": "Heartbreaking and moving family drama",
       "IsMini": true,
-      "Amount": 64
+      "Amount": 68
+    },
+    {
+      "Url": "/mini-theme/romance-captivating-loves-lover-beauty/",
+      "Text": "Captivating relationships and charming romance",
+      "IsMini": true,
+      "Amount": 65
     },
     {
       "Url": "/mini-theme/brutal-graphic-brutality-revenge-violence/",
@@ -197,13 +203,7 @@ var data = {
       "Url": "/theme/thrillers-and-murder-mysteries/",
       "Text": "Thrillers and murder mysteries",
       "IsMini": false,
-      "Amount": 62
-    },
-    {
-      "Url": "/mini-theme/romance-captivating-loves-lover-beauty/",
-      "Text": "Captivating relationships and charming romance",
-      "IsMini": true,
-      "Amount": 61
+      "Amount": 63
     },
     {
       "Url": "/mini-theme/thriller-cops-suspense-killer-twist/",
@@ -212,14 +212,20 @@ var data = {
       "Amount": 58
     },
     {
-      "Url": "/mini-theme/guns-action-violence-cops-killing/",
-      "Text": "Violent action, guns, and crime",
+      "Url": "/mini-theme/robbery-heist-cops-twist-thriller/",
+      "Text": "Heists and thrilling action",
+      "IsMini": true,
+      "Amount": 56
+    },
+    {
+      "Url": "/mini-theme/murderer-clues-suspects-suspense-intriguing/",
+      "Text": "Intriguing and suspenseful murder mysteries",
       "IsMini": true,
       "Amount": 55
     },
     {
-      "Url": "/mini-theme/robbery-heist-cops-twist-thriller/",
-      "Text": "Heists and thrilling action",
+      "Url": "/mini-theme/guns-action-violence-cops-killing/",
+      "Text": "Violent action, guns, and crime",
       "IsMini": true,
       "Amount": 55
     },
@@ -227,12 +233,6 @@ var data = {
       "Url": "/theme/monsters-aliens-sci-fi-and-the-apocalypse/",
       "Text": "Monsters, aliens, sci-fi and the apocalypse",
       "IsMini": false,
-      "Amount": 54
-    },
-    {
-      "Url": "/mini-theme/murderer-clues-suspects-suspense-intriguing/",
-      "Text": "Intriguing and suspenseful murder mysteries",
-      "IsMini": true,
       "Amount": 54
     },
     {
@@ -245,7 +245,7 @@ var data = {
       "Url": "/mini-theme/eerie-blood-gothic-mysterious-bizarre/",
       "Text": "Gothic and eerie haunting horror",
       "IsMini": true,
-      "Amount": 52
+      "Amount": 53
     },
     {
       "Url": "/mini-theme/funny-nerds-girls-comedy-dork/",
@@ -254,14 +254,26 @@ var data = {
       "Amount": 51
     },
     {
+      "Url": "/mini-theme/comedy-funny-hilarious-broadway-musical/",
+      "Text": "Catchy songs and hilarious musical comedy",
+      "IsMini": true,
+      "Amount": 50
+    },
+    {
       "Url": "/mini-theme/teacher-student-classroom-kids-classmates/",
       "Text": "Student coming-of-age challenges",
       "IsMini": true,
       "Amount": 50
     },
     {
-      "Url": "/mini-theme/comedy-funny-hilarious-broadway-musical/",
-      "Text": "Catchy songs and hilarious musical comedy",
+      "Url": "/mini-theme/charming-witty-delightful-lovely-charm/",
+      "Text": "Charming romances and delightful chemistry",
+      "IsMini": true,
+      "Amount": 49
+    },
+    {
+      "Url": "/mini-theme/fantasy-imaginative-magic-fairy-tale-or-enchanted/",
+      "Text": "Fairy-tale fantasy and enchanted magic",
       "IsMini": true,
       "Amount": 49
     },
@@ -269,7 +281,7 @@ var data = {
       "Url": "/mini-theme/ruthless-underworld-gritty-stylish-violence/",
       "Text": "Gritty crime and ruthless gangsters",
       "IsMini": true,
-      "Amount": 48
+      "Amount": 49
     },
     {
       "Url": "/mini-theme/action-villain-silly-cool-hero/",
@@ -278,16 +290,16 @@ var data = {
       "Amount": 48
     },
     {
-      "Url": "/mini-theme/charming-witty-delightful-lovely-charm/",
-      "Text": "Charming romances and delightful chemistry",
+      "Url": "/mini-theme/drugs-gritty-cops-violence-powerful/",
+      "Text": "Violent crime and drugs",
       "IsMini": true,
-      "Amount": 47
+      "Amount": 45
     },
     {
-      "Url": "/mini-theme/fantasy-imaginative-magic-fairy-tale-or-enchanted/",
-      "Text": "Fairy-tale fantasy and enchanted magic",
+      "Url": "/mini-theme/terrorism-thriller-gripping-intense-political/",
+      "Text": "Intense political and terrorist thrillers",
       "IsMini": true,
-      "Amount": 47
+      "Amount": 45
     },
     {
       "Url": "/mini-theme/anime-graphics-storytelling-emotion-breathtaking/",
@@ -302,40 +314,34 @@ var data = {
       "Amount": 44
     },
     {
-      "Url": "/mini-theme/drugs-gritty-cops-violence-powerful/",
-      "Text": "Violent crime and drugs",
-      "IsMini": true,
-      "Amount": 44
-    },
-    {
-      "Url": "/mini-theme/terrorism-thriller-gripping-intense-political/",
-      "Text": "Intense political and terrorist thrillers",
-      "IsMini": true,
-      "Amount": 44
-    },
-    {
       "Url": "/mini-theme/murder-crime-drama-gripping-compelling/",
       "Text": "Gripping, intense violent crime",
       "IsMini": true,
-      "Amount": 42
+      "Amount": 44
     },
     {
       "Url": "/mini-theme/sex-sexuality-erotic-sensual-desire/",
       "Text": "Erotic relationships and desire",
       "IsMini": true,
-      "Amount": 41
+      "Amount": 42
     },
     {
       "Url": "/mini-theme/marriage-romance-affair-passionate-passion/",
       "Text": "Passion and romance",
       "IsMini": true,
-      "Amount": 41
+      "Amount": 42
     },
     {
       "Url": "/mini-theme/creature-monster-scary-horror-suspense/",
       "Text": "Sci-fi horror, creatures, and aliens",
       "IsMini": true,
       "Amount": 39
+    },
+    {
+      "Url": "/mini-theme/homosexuality-sexuality-homophobic-friendship-sex/",
+      "Text": "Emotional LGBTQ relationships",
+      "IsMini": true,
+      "Amount": 38
     },
     {
       "Url": "/mini-theme/dog-animals-adorable-heartwarming-family/",
@@ -350,12 +356,6 @@ var data = {
       "Amount": 38
     },
     {
-      "Url": "/mini-theme/homosexuality-sexuality-homophobic-friendship-sex/",
-      "Text": "Emotional LGBTQ relationships",
-      "IsMini": true,
-      "Amount": 37
-    },
-    {
       "Url": "/mini-theme/swords-battle-fantasy-epic-magic/",
       "Text": "Fantasy adventure, heroism, and swordplay",
       "IsMini": true,
@@ -368,28 +368,28 @@ var data = {
       "Amount": 36
     },
     {
+      "Url": "/theme/song-and-dance/",
+      "Text": "Song and dance",
+      "IsMini": false,
+      "Amount": 35
+    },
+    {
       "Url": "/mini-theme/spy-intrigue-thriller-suspense-tense/",
       "Text": "Exciting spy thrillers with tense intrigue",
       "IsMini": true,
       "Amount": 35
     },
     {
+      "Url": "/mini-theme/marriage-drama-family-dramas-melodrama/",
+      "Text": "Enduring stories of family and marital drama",
+      "IsMini": true,
+      "Amount": 34
+    },
+    {
       "Url": "/theme/war-and-historical-adventure/",
       "Text": "War and historical adventure",
       "IsMini": false,
       "Amount": 34
-    },
-    {
-      "Url": "/theme/song-and-dance/",
-      "Text": "Song and dance",
-      "IsMini": false,
-      "Amount": 34
-    },
-    {
-      "Url": "/mini-theme/marriage-drama-family-dramas-melodrama/",
-      "Text": "Enduring stories of family and marital drama",
-      "IsMini": true,
-      "Amount": 33
     },
     {
       "Url": "/mini-theme/film-noir-femme-fatale-1940s-thriller-or-intriguing/",
@@ -413,19 +413,25 @@ var data = {
       "Url": "/mini-theme/horror-spooky-scary-comical-creepy/",
       "Text": "Spooky, scary comedy",
       "IsMini": true,
-      "Amount": 25
+      "Amount": 26
     },
     {
       "Url": "/mini-theme/musical-lyrics-broadway-tune-vocals/",
       "Text": "Dazzling vocal performances and musicals",
       "IsMini": true,
-      "Amount": 25
+      "Amount": 26
     },
     {
       "Url": "/mini-theme/fought-army-battlefield-conflict-battle/",
       "Text": "Military combat and heroic soldiers",
       "IsMini": true,
       "Amount": 24
+    },
+    {
+      "Url": "/mini-theme/powerful-complexity-intellectual-poetic-emotional/",
+      "Text": "Powerful poetic and passionate drama",
+      "IsMini": true,
+      "Amount": 23
     },
     {
       "Url": "/mini-theme/racism-african-american-powerful-hatred-or-slavery/",
@@ -470,12 +476,6 @@ var data = {
       "Amount": 21
     },
     {
-      "Url": "/mini-theme/powerful-complexity-intellectual-poetic-emotional/",
-      "Text": "Powerful poetic and passionate drama",
-      "IsMini": true,
-      "Amount": 20
-    },
-    {
       "Url": "/mini-theme/destruction-disaster-scientific-mankind-scientist/",
       "Text": "Dangerous technology and the apocalypse",
       "IsMini": true,
@@ -506,6 +506,12 @@ var data = {
       "Amount": 17
     },
     {
+      "Url": "/mini-theme/moving-sadness-beauty-tragic-heartbreaking/",
+      "Text": "Tragic sadness and captivating beauty",
+      "IsMini": true,
+      "Amount": 16
+    },
+    {
       "Url": "/mini-theme/nazi-hitler-jewish-historical-holocaust/",
       "Text": "Nazis and World War II",
       "IsMini": true,
@@ -516,12 +522,6 @@ var data = {
       "Text": "Chilling experiments and classic monster horror",
       "IsMini": true,
       "Amount": 16
-    },
-    {
-      "Url": "/mini-theme/moving-sadness-beauty-tragic-heartbreaking/",
-      "Text": "Tragic sadness and captivating beauty",
-      "IsMini": true,
-      "Amount": 15
     },
     {
       "Url": "/mini-theme/documentary-sad-fascinating-emotional-heartbreaking/",
@@ -656,16 +656,718 @@ var data = {
       "Amount": 1
     }
   ],
-  "LastUpdated": "21 Sep 2024",
+  "Studios": [
+    {
+      "Id": 33,
+      "Title": "Universal Pictures",
+      "Poster": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+      "OriginCountry": "United States of America",
+      "Amount": 67
+    },
+    {
+      "Id": 4,
+      "Title": "Paramount Pictures",
+      "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+      "OriginCountry": "United States of America",
+      "Amount": 65
+    },
+    {
+      "Id": 174,
+      "Title": "Warner Bros. Pictures",
+      "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+      "OriginCountry": "United States of America",
+      "Amount": 60
+    },
+    {
+      "Id": 25,
+      "Title": "20th Century Fox",
+      "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+      "OriginCountry": "United States of America",
+      "Amount": 49
+    },
+    {
+      "Id": 5,
+      "Title": "Columbia Pictures",
+      "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+      "OriginCountry": "United States of America",
+      "Amount": 48
+    },
+    {
+      "Id": 6705,
+      "Title": "Film4 Productions",
+      "Poster": "/e8EXNSfwr5E9d3TR8dHKbQnQK4W.png",
+      "OriginCountry": "United Kingdom",
+      "Amount": 36
+    },
+    {
+      "Id": 10163,
+      "Title": "Working Title Films",
+      "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+      "OriginCountry": "United Kingdom",
+      "Amount": 26
+    },
+    {
+      "Id": 12,
+      "Title": "New Line Cinema",
+      "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+      "OriginCountry": "United States of America",
+      "Amount": 25
+    },
+    {
+      "Id": 56,
+      "Title": "Amblin Entertainment",
+      "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+      "OriginCountry": "United States of America",
+      "Amount": 22
+    },
+    {
+      "Id": 694,
+      "Title": "StudioCanal",
+      "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+      "OriginCountry": "France",
+      "Amount": 22
+    },
+    {
+      "Id": 7,
+      "Title": "DreamWorks Pictures",
+      "Poster": "/1kqoutvio9eDaQpp0l4gQoEF4Yf.png",
+      "OriginCountry": "United States of America",
+      "Amount": 20
+    },
+    {
+      "Id": 43,
+      "Title": "Fox Searchlight Pictures",
+      "Poster": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
+      "OriginCountry": "United States of America",
+      "Amount": 20
+    },
+    {
+      "Id": 1632,
+      "Title": "Lionsgate",
+      "Poster": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+      "OriginCountry": "United States of America",
+      "Amount": 20
+    },
+    {
+      "Id": 2,
+      "Title": "Walt Disney Pictures",
+      "Poster": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+      "OriginCountry": "United States of America",
+      "Amount": 19
+    },
+    {
+      "Id": 14,
+      "Title": "Miramax",
+      "Poster": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+      "OriginCountry": "United States of America",
+      "Amount": 18
+    },
+    {
+      "Id": 21,
+      "Title": "Metro-Goldwyn-Mayer",
+      "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+      "OriginCountry": "United States of America",
+      "Amount": 17
+    },
+    {
+      "Id": 60,
+      "Title": "United Artists",
+      "Poster": "/1SEj4nyG3JPBSKBbFhtdcHRaIF9.png",
+      "OriginCountry": "United States of America",
+      "Amount": 17
+    },
+    {
+      "Id": 9195,
+      "Title": "Touchstone Pictures",
+      "Poster": "/ou5BUbtulr6tIt699q6xJiEQTR9.png",
+      "OriginCountry": "United States of America",
+      "Amount": 16
+    },
+    {
+      "Id": 10146,
+      "Title": "Focus Features",
+      "Poster": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+      "OriginCountry": "United States of America",
+      "Amount": 15
+    },
+    {
+      "Id": 7295,
+      "Title": "Relativity Media",
+      "Poster": "/62E1B91PxZw8q4KNkge5Qemo7EM.png",
+      "OriginCountry": "United States of America",
+      "Amount": 15
+    },
+    {
+      "Id": 491,
+      "Title": "Summit Entertainment",
+      "Poster": "/5LvDUt3KmvRnXQ4NrdWJYHeuA8J.png",
+      "OriginCountry": "United States of America",
+      "Amount": 14
+    },
+    {
+      "Id": 288,
+      "Title": "BBC Film",
+      "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+      "OriginCountry": "United Kingdom",
+      "Amount": 14
+    },
+    {
+      "Id": 79,
+      "Title": "Village Roadshow Pictures",
+      "Poster": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
+      "OriginCountry": "United States of America",
+      "Amount": 13
+    },
+    {
+      "Id": 508,
+      "Title": "Regency Enterprises",
+      "Poster": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
+      "OriginCountry": "United States of America",
+      "Amount": 13
+    },
+    {
+      "Id": 437,
+      "Title": "Heyday Films",
+      "Poster": "/nu20mtwbEIhUNnQ5NXVhHsNknZj.png",
+      "OriginCountry": "United Kingdom",
+      "Amount": 13
+    },
+    {
+      "Id": 22213,
+      "Title": "TSG Entertainment",
+      "Poster": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+      "OriginCountry": "United States of America",
+      "Amount": 11
+    },
+    {
+      "Id": 258,
+      "Title": "Scott Rudin Productions",
+      "Poster": "",
+      "OriginCountry": "United States of America",
+      "Amount": 11
+    },
+    {
+      "Id": 444,
+      "Title": "Dune Entertainment",
+      "Poster": "",
+      "OriginCountry": "United States of America",
+      "Amount": 11
+    },
+    {
+      "Id": 23,
+      "Title": "Imagine Entertainment",
+      "Poster": "/bJOFo2ufq7iFC1F4qZm8aLxF5aS.png",
+      "OriginCountry": "United States of America",
+      "Amount": 11
+    },
+    {
+      "Id": 1382,
+      "Title": "PolyGram Filmed Entertainment",
+      "Poster": "/8b5XGJ8YhZoEo9LgFP8KRQWHjYL.png",
+      "OriginCountry": "United States of America",
+      "Amount": 10
+    },
+    {
+      "Id": 104,
+      "Title": "Canal\u002B",
+      "Poster": "/9aotxauvc9685tq9pTcRJszuT06.png",
+      "OriginCountry": "France",
+      "Amount": 9
+    },
+    {
+      "Id": 41077,
+      "Title": "A24",
+      "Poster": "/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png",
+      "OriginCountry": "United States of America",
+      "Amount": 9
+    },
+    {
+      "Id": 70,
+      "Title": "American Zoetrope",
+      "Poster": "/ueaENQkPcy8rlr5fGZVBXKOhlBh.png",
+      "OriginCountry": "United States of America",
+      "Amount": 9
+    },
+    {
+      "Id": 1885,
+      "Title": "Silver Pictures",
+      "Poster": "/xlvoOZr4s1PygosrwZyolIFe5xs.png",
+      "OriginCountry": "United States of America",
+      "Amount": 9
+    },
+    {
+      "Id": 7405,
+      "Title": "Dimension Films",
+      "Poster": "/rfnws0uY8rsNAsrLbx3gEIcYXx3.png",
+      "OriginCountry": "United States of America",
+      "Amount": 9
+    },
+    {
+      "Id": 2452,
+      "Title": "UK Film Council",
+      "Poster": "/6CLoZ59fLPG7UyxQtGTqRevjf58.png",
+      "OriginCountry": "United Kingdom",
+      "Amount": 9
+    },
+    {
+      "Id": 3166,
+      "Title": "Walt Disney Productions",
+      "Poster": "/vyyv4Gy9nPqAZKElPm2izLlEaVS.png",
+      "OriginCountry": "United States of America",
+      "Amount": 9
+    },
+    {
+      "Id": 7281,
+      "Title": "BFI",
+      "Poster": "/lkqIuaKTm2sg3umwTBScmqyzLX5.png",
+      "OriginCountry": "United Kingdom",
+      "Amount": 8
+    },
+    {
+      "Id": 94,
+      "Title": "ARTE France Cin\u00E9ma",
+      "Poster": "/huC7HqorvUThGIrENrbcHmQVUA0.png",
+      "OriginCountry": "France",
+      "Amount": 8
+    },
+    {
+      "Id": 10104,
+      "Title": "New Regency Pictures",
+      "Poster": "/wRn5HnYMGeJHmItRypgOZOC6gwY.png",
+      "OriginCountry": "United States of America",
+      "Amount": 8
+    },
+    {
+      "Id": 181992,
+      "Title": "Mandate International",
+      "Poster": "",
+      "OriginCountry": "United States of America",
+      "Amount": 8
+    },
+    {
+      "Id": 130,
+      "Title": "Jerry Bruckheimer Films",
+      "Poster": "/c9dVHPOL3cqCr2593Ahk0nEKTEM.png",
+      "OriginCountry": "United States of America",
+      "Amount": 8
+    },
+    {
+      "Id": 591,
+      "Title": "France 3 Cin\u00E9ma",
+      "Poster": "/q5I5RDwMEiqoNmfaJgd2LraEOJY.png",
+      "OriginCountry": "France",
+      "Amount": 7
+    },
+    {
+      "Id": 923,
+      "Title": "Legendary Pictures",
+      "Poster": "/8M99Dkt23MjQMTTWukq4m5XsEuo.png",
+      "OriginCountry": "United States of America",
+      "Amount": 7
+    },
+    {
+      "Id": 9996,
+      "Title": "Syncopy",
+      "Poster": "/3tvBqYsBhxWeHlu62SIJ1el93O7.png",
+      "OriginCountry": "United Kingdom",
+      "Amount": 7
+    },
+    {
+      "Id": 7503,
+      "Title": "Protozoa Pictures",
+      "Poster": "/3K8wbNkTn7O4wX89ucnp1ZYR1XF.png",
+      "OriginCountry": "United States of America",
+      "Amount": 7
+    },
+    {
+      "Id": 333,
+      "Title": "Original Film",
+      "Poster": "/5xUJfzPZ8jWJUDzYtIeuPO4qPIa.png",
+      "OriginCountry": "United States of America",
+      "Amount": 7
+    },
+    {
+      "Id": 856,
+      "Title": "Wild Bunch",
+      "Poster": "/3tfzS2CrX6Ntbu927XzHXEPDA6y.png",
+      "OriginCountry": "France",
+      "Amount": 7
+    },
+    {
+      "Id": 308,
+      "Title": "The Weinstein Company",
+      "Poster": "/e8F3mQM7DkJ5SfYYDp8FYzPBOGX.png",
+      "OriginCountry": "United States of America",
+      "Amount": 7
+    },
+    {
+      "Id": 1645,
+      "Title": "Scott Free Productions",
+      "Poster": "/6Ry6uNBaa0IbbSs1XYIgX5DkA9r.png",
+      "OriginCountry": "United Kingdom",
+      "Amount": 7
+    },
+    {
+      "Id": 3324,
+      "Title": "BBC",
+      "Poster": "/dqT3yOTlfJRmtvk52Ccd1O6dZ0A.png",
+      "OriginCountry": "United Kingdom",
+      "Amount": 7
+    },
+    {
+      "Id": 831,
+      "Title": "Saturn Films",
+      "Poster": "/vLENXiYTyITnMDrTKabUXhgTKX2.png",
+      "OriginCountry": "United States of America",
+      "Amount": 7
+    },
+    {
+      "Id": 9,
+      "Title": "Gaumont",
+      "Poster": "/nda3dTUYdDrJ6rZqBpYvY865aDv.png",
+      "OriginCountry": "France",
+      "Amount": 7
+    },
+    {
+      "Id": 559,
+      "Title": "TriStar Pictures",
+      "Poster": "/eC0bWHVjnjUducyA6YFoEFqnPMC.png",
+      "OriginCountry": "United States of America",
+      "Amount": 7
+    },
+    {
+      "Id": 13913,
+      "Title": "Joseph M. Schenck Productions",
+      "Poster": "",
+      "OriginCountry": "",
+      "Amount": 7
+    },
+    {
+      "Id": 746,
+      "Title": "MTV Films",
+      "Poster": "/kc7bdIVTBkJYy9aDK1QDDTAL463.png",
+      "OriginCountry": "United States of America",
+      "Amount": 7
+    },
+    {
+      "Id": 3353,
+      "Title": "Element Pictures",
+      "Poster": "/qv2v9HaStUTRjqonODM29YG0oFX.png",
+      "OriginCountry": "Ireland",
+      "Amount": 6
+    },
+    {
+      "Id": 385,
+      "Title": "Kubrick Productions",
+      "Poster": "",
+      "OriginCountry": "United Kingdom",
+      "Amount": 6
+    },
+    {
+      "Id": 3,
+      "Title": "Pixar",
+      "Poster": "/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png",
+      "OriginCountry": "United States of America",
+      "Amount": 6
+    },
+    {
+      "Id": 59,
+      "Title": "A Band Apart",
+      "Poster": "/yH7OMeSxhfP0AVM6iT0rsF3F4ZC.png",
+      "OriginCountry": "United States of America",
+      "Amount": 6
+    },
+    {
+      "Id": 11,
+      "Title": "WingNut Films",
+      "Poster": "/6FAuASQHybRkZUk08p9PzSs9ezM.png",
+      "OriginCountry": "New Zealand",
+      "Amount": 6
+    },
+    {
+      "Id": 1,
+      "Title": "Lucasfilm Ltd.",
+      "Poster": "/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
+      "OriginCountry": "United States of America",
+      "Amount": 6
+    },
+    {
+      "Id": 521,
+      "Title": "DreamWorks Animation",
+      "Poster": "/kP7t6RwGz2AvvTkvnI1uteEwHet.png",
+      "OriginCountry": "United States of America",
+      "Amount": 6
+    },
+    {
+      "Id": 284,
+      "Title": "DNA Films",
+      "Poster": "/6a26if3IKy7mlrQuGHHVp6ufQtF.png",
+      "OriginCountry": "United Kingdom",
+      "Amount": 6
+    },
+    {
+      "Id": 6328,
+      "Title": "Dickhouse Productions",
+      "Poster": "",
+      "OriginCountry": "",
+      "Amount": 6
+    },
+    {
+      "Id": 297,
+      "Title": "Aardman",
+      "Poster": "/58TnhYZqbMYgkHM6lg7dJoYJ4RH.png",
+      "OriginCountry": "United Kingdom",
+      "Amount": 6
+    },
+    {
+      "Id": 7576,
+      "Title": "EON Productions",
+      "Poster": "/oYcUi1byZ312Z3xiz5ojz9RQLND.png",
+      "OriginCountry": "United Kingdom",
+      "Amount": 6
+    },
+    {
+      "Id": 862,
+      "Title": "The Kennedy/Marshall Company",
+      "Poster": "/vdK6ZhC2CSW36j0VPEavRxOpbEg.png",
+      "OriginCountry": "United States of America",
+      "Amount": 6
+    },
+    {
+      "Id": 2376,
+      "Title": "Blueprint Pictures",
+      "Poster": "/yeNoWmSHZfvKsBYuL8uTRE4LPdQ.png",
+      "OriginCountry": "United Kingdom",
+      "Amount": 5
+    },
+    {
+      "Id": 127929,
+      "Title": "Searchlight Pictures",
+      "Poster": "/fCB4AVYvxxDvqumgYqsN6ehyN3G.png",
+      "OriginCountry": "United States of America",
+      "Amount": 5
+    },
+    {
+      "Id": 13184,
+      "Title": "Annapurna Pictures",
+      "Poster": "/pfUB1a62jSMIqp4Xmaq6z2cgW0B.png",
+      "OriginCountry": "United States of America",
+      "Amount": 5
+    },
+    {
+      "Id": 3172,
+      "Title": "Blumhouse Productions",
+      "Poster": "/rzKluDcRkIwHZK2pHsiT667A2Kw.png",
+      "OriginCountry": "United States of America",
+      "Amount": 5
+    },
+    {
+      "Id": 97,
+      "Title": "Castle Rock Entertainment",
+      "Poster": "/7znWcbDd4PcJzJUlJxYqAlPPykp.png",
+      "OriginCountry": "United States of America",
+      "Amount": 5
+    },
+    {
+      "Id": 43649,
+      "Title": "Lilies Films",
+      "Poster": "/5pv3tUlq25IiuMuok57YBZIiKn.png",
+      "OriginCountry": "France",
+      "Amount": 5
+    },
+    {
+      "Id": 7493,
+      "Title": "FilmNation Entertainment",
+      "Poster": "/fHitYiGUCkRafgt6VPYQlXWLkdp.png",
+      "OriginCountry": "United States of America",
+      "Amount": 5
+    },
+    {
+      "Id": 436,
+      "Title": "1492 Pictures",
+      "Poster": "/A7WCkG3F0NFvjGCwUnclpGdIu9E.png",
+      "OriginCountry": "United States of America",
+      "Amount": 5
+    },
+    {
+      "Id": 3169,
+      "Title": "Zide-Perry Productions",
+      "Poster": "",
+      "OriginCountry": "United States of America",
+      "Amount": 5
+    },
+    {
+      "Id": 15231,
+      "Title": "Muse Productions",
+      "Poster": "/iFbzMtXFBv2ekA9Ldrw6LqjLrvX.png",
+      "OriginCountry": "United States of America",
+      "Amount": 5
+    },
+    {
+      "Id": 6274,
+      "Title": "MK2 Films",
+      "Poster": "/7maUXkVK7nbKILS08jwlCJXWKZj.png",
+      "OriginCountry": "France",
+      "Amount": 5
+    },
+    {
+      "Id": 2801,
+      "Title": "Film i V\u00E4st",
+      "Poster": "/bswb1PLLsKDUXMLgy42bZtCtIde.png",
+      "OriginCountry": "Sweden",
+      "Amount": 5
+    },
+    {
+      "Id": 214539,
+      "Title": "Perfect World Pictures",
+      "Poster": "/7gLb5n9flgH3aGn28Q0jNtPhlwx.png",
+      "OriginCountry": "United States of America",
+      "Amount": 5
+    },
+    {
+      "Id": 907,
+      "Title": "Overbrook Entertainment",
+      "Poster": "/ca5SWI5uvU985f8Kbb4xc8AmVWH.png",
+      "OriginCountry": "United States of America",
+      "Amount": 5
+    },
+    {
+      "Id": 171,
+      "Title": "Malpaso Productions",
+      "Poster": "/bqLWwuNCHcY3IjB5e4o29h7l80D.png",
+      "OriginCountry": "United States of America",
+      "Amount": 5
+    },
+    {
+      "Id": 915,
+      "Title": "Hollywood Pictures",
+      "Poster": "/4neXXpjSJDZPBGBnfWtqysB5htV.png",
+      "OriginCountry": "United States of America",
+      "Amount": 5
+    },
+    {
+      "Id": 172,
+      "Title": "NPV Entertainment",
+      "Poster": "",
+      "OriginCountry": "United States of America",
+      "Amount": 5
+    },
+    {
+      "Id": 711,
+      "Title": "Fox 2000 Pictures",
+      "Poster": "/tEiIH5QesdheJmDAqQwvtN60727.png",
+      "OriginCountry": "United States of America",
+      "Amount": 4
+    },
+    {
+      "Id": 2266,
+      "Title": "Bold Films",
+      "Poster": "/owzVs2mguyyJ3vIn7EbgowpUPnk.png",
+      "OriginCountry": "United States of America",
+      "Amount": 4
+    },
+    {
+      "Id": 574,
+      "Title": "Lightstorm Entertainment",
+      "Poster": "/nLNW1TeFUYU0M5U0qmYUzOIwlB6.png",
+      "OriginCountry": "United States of America",
+      "Amount": 4
+    },
+    {
+      "Id": 1422,
+      "Title": "Killer Films",
+      "Poster": "/rIB6DuimR1qgLE14cBwpMABC2xx.png",
+      "OriginCountry": "United States of America",
+      "Amount": 4
+    },
+    {
+      "Id": 2188,
+      "Title": "Artisan Entertainment",
+      "Poster": "/f1zrx8bIsS81AHoPQq4riJx68Lt.png",
+      "OriginCountry": "United States of America",
+      "Amount": 4
+    },
+    {
+      "Id": 41,
+      "Title": "Orion Pictures",
+      "Poster": "/xAot4SSOIHiWQ2WEnVXYGR1lce9.png",
+      "OriginCountry": "United States of America",
+      "Amount": 4
+    },
+    {
+      "Id": 838,
+      "Title": "Paramount Vantage",
+      "Poster": "/tcW3UqV46Mdq6GyaS1ydEDocEDF.png",
+      "OriginCountry": "United States of America",
+      "Amount": 4
+    },
+    {
+      "Id": 2531,
+      "Title": "MRC",
+      "Poster": "/9MfCJ2G6Nrf9yyRj4tAgPmMiDcn.png",
+      "OriginCountry": "United States of America",
+      "Amount": 4
+    },
+    {
+      "Id": 183,
+      "Title": "Le Studio Canal\u002B",
+      "Poster": "/o5mj8CVyU7GhmYg8La21Nkop67R.png",
+      "OriginCountry": "France",
+      "Amount": 4
+    },
+    {
+      "Id": 7626,
+      "Title": "Trigger Street Productions",
+      "Poster": "/4839MGss4pPAalhqqYH1AD1CnEj.png",
+      "OriginCountry": "United States of America",
+      "Amount": 4
+    },
+    {
+      "Id": 771,
+      "Title": "Mandate Pictures",
+      "Poster": "",
+      "OriginCountry": "United States of America",
+      "Amount": 4
+    },
+    {
+      "Id": 359,
+      "Title": "Figment Films",
+      "Poster": "",
+      "OriginCountry": "",
+      "Amount": 4
+    },
+    {
+      "Id": 88934,
+      "Title": "Monkeypaw Productions",
+      "Poster": "/5Be96V9WXa7jJInSDPqDOqMBA0o.png",
+      "OriginCountry": "United States of America",
+      "Amount": 4
+    },
+    {
+      "Id": 4171,
+      "Title": "Playtone",
+      "Poster": "/ip8rzankhLLhJGGkvfCirfUM26d.png",
+      "OriginCountry": "United States of America",
+      "Amount": 4
+    },
+    {
+      "Id": 221513,
+      "Title": "Working Title Films",
+      "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+      "OriginCountry": "United States of America",
+      "Amount": 4
+    }
+  ],
+  "LastUpdated": "29 Sep 2024",
   "Username": "LaLunaLlena",
-  "TotalFilms": 947,
-  "RatedFilms": 298,
-  "FilmsWithGenres": 946,
-  "TotalMinutes": 101962,
-  "FilmsWithRuntime": 946,
-  "TotalMinutesFull": 101180,
-  "FilmsWithRuntimeFull": 917,
-  "AverageFilmYearMean": 2000.1224920802533,
+  "TotalFilms": 960,
+  "RatedFilms": 310,
+  "FilmsWithGenres": 959,
+  "TotalMinutes": 103373,
+  "FilmsWithRuntime": 959,
+  "TotalMinutesFull": 102543,
+  "FilmsWithRuntimeFull": 929,
+  "AverageFilmYearMean": 1999.9364583333333,
   "AverageFilmYearMedian": 2004,
   "AverageFilmYearMode": "2007",
   "Genres": {
@@ -685,14 +1387,14 @@ var data = {
       "RatingTotal": 21
     },
     "Comedy": {
-      "Count": 280,
-      "RatingCount": 72,
-      "RatingTotal": 235
+      "Count": 285,
+      "RatingCount": 77,
+      "RatingTotal": 255
     },
     "Crime": {
-      "Count": 171,
-      "RatingCount": 38,
-      "RatingTotal": 126
+      "Count": 172,
+      "RatingCount": 39,
+      "RatingTotal": 130
     },
     "Documentary": {
       "Count": 48,
@@ -700,19 +1402,19 @@ var data = {
       "RatingTotal": 42
     },
     "Drama": {
-      "Count": 493,
-      "RatingCount": 194,
-      "RatingTotal": 729
+      "Count": 503,
+      "RatingCount": 203,
+      "RatingTotal": 764
     },
     "Family": {
-      "Count": 79,
+      "Count": 80,
       "RatingCount": 12,
       "RatingTotal": 39
     },
     "Fantasy": {
-      "Count": 95,
-      "RatingCount": 21,
-      "RatingTotal": 82
+      "Count": 97,
+      "RatingCount": 22,
+      "RatingTotal": 87
     },
     "History": {
       "Count": 37,
@@ -720,9 +1422,9 @@ var data = {
       "RatingTotal": 53
     },
     "Horror": {
-      "Count": 105,
-      "RatingCount": 45,
-      "RatingTotal": 148
+      "Count": 107,
+      "RatingCount": 47,
+      "RatingTotal": 154
     },
     "Music": {
       "Count": 18,
@@ -730,14 +1432,14 @@ var data = {
       "RatingTotal": 33
     },
     "Mystery": {
-      "Count": 87,
-      "RatingCount": 26,
-      "RatingTotal": 94
+      "Count": 91,
+      "RatingCount": 30,
+      "RatingTotal": 108
     },
     "Romance": {
-      "Count": 137,
-      "RatingCount": 56,
-      "RatingTotal": 208
+      "Count": 139,
+      "RatingCount": 58,
+      "RatingTotal": 216
     },
     "Science Fiction": {
       "Count": 104,
@@ -745,9 +1447,9 @@ var data = {
       "RatingTotal": 100
     },
     "Thriller": {
-      "Count": 266,
-      "RatingCount": 65,
-      "RatingTotal": 209
+      "Count": 270,
+      "RatingCount": 69,
+      "RatingTotal": 223
     },
     "TV Movie": {
       "Count": 8,
@@ -765,13 +1467,13 @@ var data = {
       "RatingTotal": 4
     }
   },
-  "DirectorTotalAll": 1040,
-  "DirectorTotalFemale": 117,
-  "DirectorTotalMale": 893,
+  "DirectorTotalAll": 1053,
+  "DirectorTotalFemale": 123,
+  "DirectorTotalMale": 900,
   "DirectorTotalNonBinary": 1,
-  "DirectorUniqueAll": 696,
-  "DirectorUniqueFemale": 98,
-  "DirectorUniqueMale": 570,
+  "DirectorUniqueAll": 702,
+  "DirectorUniqueFemale": 102,
+  "DirectorUniqueMale": 572,
   "DirectorUniqueNonBinary": 1,
   "DirectorAll": [
     {
@@ -1174,6 +1876,13 @@ var data = {
       "Gender": 2
     },
     {
+      "ID": 1126,
+      "FullName": "Krzysztof Kie\u015Blowski",
+      "Amount": 3,
+      "Poster": "/zG9JD4kzQHhKJAtMOWbwrEolvun.jpg",
+      "Gender": 2
+    },
+    {
       "ID": 9340,
       "FullName": "Lana Wachowski",
       "Amount": 3,
@@ -1265,6 +1974,13 @@ var data = {
       "Gender": 2
     },
     {
+      "ID": 3556,
+      "FullName": "Roman Polanski",
+      "Amount": 3,
+      "Poster": "/yHwHSXdZatkoLgIjPeW14GKlrZs.jpg",
+      "Gender": 2
+    },
+    {
       "ID": 39,
       "FullName": "Sam Mendes",
       "Amount": 3,
@@ -1304,6 +2020,13 @@ var data = {
       "FullName": "Wes Craven",
       "Amount": 3,
       "Poster": "/eqwl6owrYykeTGTpKxwcAkbEJmg.jpg",
+      "Gender": 2
+    },
+    {
+      "ID": 10001,
+      "FullName": "William Wyler",
+      "Amount": 3,
+      "Poster": "/5g7xJnlLj3Vyph1WE6N4ak4K3la.jpg",
       "Gender": 2
     },
     {
@@ -1468,6 +2191,13 @@ var data = {
       "Gender": 2
     },
     {
+      "ID": 121873,
+      "FullName": "Debra Granik",
+      "Amount": 2,
+      "Poster": "/fgV1v014IAKTKJWLigH5IhxKisU.jpg",
+      "Gender": 1
+    },
+    {
       "ID": 116798,
       "FullName": "Dick Proenneke",
       "Amount": 2,
@@ -1563,6 +2293,13 @@ var data = {
       "FullName": "J. A. Bayona",
       "Amount": 2,
       "Poster": "/cnbbnS7K8Uu6yohAfSRHv5Kxc7r.jpg",
+      "Gender": 2
+    },
+    {
+      "ID": 73153,
+      "FullName": "Jacques Rivette",
+      "Amount": 2,
+      "Poster": "/pD8i53d3on1NbPPGsOxCeuDG8xF.jpg",
       "Gender": 2
     },
     {
@@ -1685,6 +2422,13 @@ var data = {
       "Gender": 2
     },
     {
+      "ID": 1037794,
+      "FullName": "Lois Weber",
+      "Amount": 2,
+      "Poster": "/c6YcUHNxlP9Fo5cxbJJQi3xAdGF.jpg",
+      "Gender": 1
+    },
+    {
       "ID": 87742,
       "FullName": "Marc Webb",
       "Amount": 2,
@@ -1804,13 +2548,6 @@ var data = {
       "Gender": 2
     },
     {
-      "ID": 3556,
-      "FullName": "Roman Polanski",
-      "Amount": 2,
-      "Poster": "/yHwHSXdZatkoLgIjPeW14GKlrZs.jpg",
-      "Gender": 2
-    },
-    {
       "ID": 15810,
       "FullName": "Ron Clements",
       "Amount": 2,
@@ -1923,13 +2660,6 @@ var data = {
       "Gender": 1
     },
     {
-      "ID": 10001,
-      "FullName": "William Wyler",
-      "Amount": 2,
-      "Poster": "/5g7xJnlLj3Vyph1WE6N4ak4K3la.jpg",
-      "Gender": 2
-    },
-    {
       "ID": 57314,
       "FullName": "Wolfgang Reitherman",
       "Amount": 2,
@@ -1981,6 +2711,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 121873,
+      "FullName": "Debra Granik",
+      "Amount": 2,
+      "Poster": "/fgV1v014IAKTKJWLigH5IhxKisU.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 1976040,
       "FullName": "Emma Seligman",
       "Amount": 2,
@@ -2006,6 +2743,13 @@ var data = {
       "FullName": "Kitty Green",
       "Amount": 2,
       "Poster": "/h5ODa9h7LuKGYvdpgion28lMU99.jpg",
+      "Gender": 0
+    },
+    {
+      "ID": 1037794,
+      "FullName": "Lois Weber",
+      "Amount": 2,
+      "Poster": "/c6YcUHNxlP9Fo5cxbJJQi3xAdGF.jpg",
       "Gender": 0
     },
     {
@@ -2041,6 +2785,13 @@ var data = {
       "FullName": "Agn\u00E8s Varda",
       "Amount": 1,
       "Poster": "/it7cIdm6jiuiKOOc3nnRvCGLtgY.jpg",
+      "Gender": 0
+    },
+    {
+      "ID": 1128,
+      "FullName": "Agnieszka Holland",
+      "Amount": 1,
+      "Poster": "/rfM2l3Z1Vm3ASuiEC50Zpf37jLj.jpg",
       "Gender": 0
     },
     {
@@ -2163,10 +2914,10 @@ var data = {
       "Gender": 0
     },
     {
-      "ID": 121873,
-      "FullName": "Debra Granik",
+      "ID": 167687,
+      "FullName": "Claudia Weill",
       "Amount": 1,
-      "Poster": "/fgV1v014IAKTKJWLigH5IhxKisU.jpg",
+      "Poster": "/7SkR4W2bRYr6MJoSrVHdpGPJK9J.jpg",
       "Gender": 0
     },
     {
@@ -2345,13 +3096,6 @@ var data = {
       "Gender": 0
     },
     {
-      "ID": 1037794,
-      "FullName": "Lois Weber",
-      "Amount": 1,
-      "Poster": "/c6YcUHNxlP9Fo5cxbJJQi3xAdGF.jpg",
-      "Gender": 0
-    },
-    {
       "ID": 1176,
       "FullName": "Lone Scherfig",
       "Amount": 1,
@@ -2370,6 +3114,13 @@ var data = {
       "FullName": "Lulu Wang",
       "Amount": 1,
       "Poster": "/ufhvyvzLhKuAEZdfbPxS97Ti1WZ.jpg",
+      "Gender": 0
+    },
+    {
+      "ID": 83287,
+      "FullName": "Lynne Ramsay",
+      "Amount": 1,
+      "Poster": "/hmSR9lVV65ojYHyyOtzmNPbVjSY.jpg",
       "Gender": 0
     },
     {
@@ -2433,6 +3184,13 @@ var data = {
       "FullName": "Molly Manning Walker",
       "Amount": 1,
       "Poster": "/1wgysCBNQM5damH3xBq4uXffbAZ.jpg",
+      "Gender": 0
+    },
+    {
+      "ID": 1661916,
+      "FullName": "Natalie Erika James",
+      "Amount": 1,
+      "Poster": "/yLeC93h8kOZsiZs9MllxjjJQYWF.jpg",
       "Gender": 0
     },
     {
@@ -3019,6 +3777,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 1126,
+      "FullName": "Krzysztof Kie\u015Blowski",
+      "Amount": 3,
+      "Poster": "/zG9JD4kzQHhKJAtMOWbwrEolvun.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 59,
       "FullName": "Luc Besson",
       "Amount": 3,
@@ -3096,6 +3861,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 3556,
+      "FullName": "Roman Polanski",
+      "Amount": 3,
+      "Poster": "/yHwHSXdZatkoLgIjPeW14GKlrZs.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 39,
       "FullName": "Sam Mendes",
       "Amount": 3,
@@ -3135,6 +3907,13 @@ var data = {
       "FullName": "Wes Craven",
       "Amount": 3,
       "Poster": "/eqwl6owrYykeTGTpKxwcAkbEJmg.jpg",
+      "Gender": 0
+    },
+    {
+      "ID": 10001,
+      "FullName": "William Wyler",
+      "Amount": 3,
+      "Poster": "/5g7xJnlLj3Vyph1WE6N4ak4K3la.jpg",
       "Gender": 0
     },
     {
@@ -3369,6 +4148,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 73153,
+      "FullName": "Jacques Rivette",
+      "Amount": 2,
+      "Poster": "/pD8i53d3on1NbPPGsOxCeuDG8xF.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 2127,
       "FullName": "James Wan",
       "Amount": 2,
@@ -3579,13 +4365,6 @@ var data = {
       "Gender": 0
     },
     {
-      "ID": 3556,
-      "FullName": "Roman Polanski",
-      "Amount": 2,
-      "Poster": "/yHwHSXdZatkoLgIjPeW14GKlrZs.jpg",
-      "Gender": 0
-    },
-    {
       "ID": 15810,
       "FullName": "Ron Clements",
       "Amount": 2,
@@ -3677,13 +4456,6 @@ var data = {
       "Gender": 0
     },
     {
-      "ID": 10001,
-      "FullName": "William Wyler",
-      "Amount": 2,
-      "Poster": "/5g7xJnlLj3Vyph1WE6N4ak4K3la.jpg",
-      "Gender": 0
-    },
-    {
       "ID": 57314,
       "FullName": "Wolfgang Reitherman",
       "Amount": 2,
@@ -3707,13 +4479,13 @@ var data = {
       "Gender": 0
     }
   ],
-  "ProtagonistTotalAll": 942,
-  "ProtagonistTotalFemale": 305,
-  "ProtagonistTotalMale": 620,
+  "ProtagonistTotalAll": 955,
+  "ProtagonistTotalFemale": 317,
+  "ProtagonistTotalMale": 621,
   "ProtagonistTotalNonBinary": 6,
-  "ProtagonistUniqueAll": 601,
-  "ProtagonistUniqueFemale": 217,
-  "ProtagonistUniqueMale": 370,
+  "ProtagonistUniqueAll": 609,
+  "ProtagonistUniqueFemale": 224,
+  "ProtagonistUniqueMale": 371,
   "ProtagonistUniqueNonBinary": 4,
   "ProtagonistAll": [
     {
@@ -3815,6 +4587,13 @@ var data = {
       "Gender": 1
     },
     {
+      "ID": 936970,
+      "FullName": "Julia Garner",
+      "Amount": 6,
+      "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
+      "Gender": 1
+    },
+    {
       "ID": 6384,
       "FullName": "Keanu Reeves",
       "Amount": 6,
@@ -3850,6 +4629,13 @@ var data = {
       "Gender": 1
     },
     {
+      "ID": 1932,
+      "FullName": "Audrey Hepburn",
+      "Amount": 5,
+      "Poster": "9T3dUBerC587ENb4zbVPQ2wjtud.jpg",
+      "Gender": 1
+    },
+    {
       "ID": 3894,
       "FullName": "Christian Bale",
       "Amount": 5,
@@ -3864,25 +4650,11 @@ var data = {
       "Gender": 2
     },
     {
-      "ID": 936970,
-      "FullName": "Julia Garner",
-      "Amount": 5,
-      "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
-      "Gender": 1
-    },
-    {
       "ID": 2157,
       "FullName": "Robin Williams",
       "Amount": 5,
       "Poster": "/3vypmub75rLItlC51uJUurNYkW0.jpg",
       "Gender": 2
-    },
-    {
-      "ID": 1932,
-      "FullName": "Audrey Hepburn",
-      "Amount": 4,
-      "Poster": "9T3dUBerC587ENb4zbVPQ2wjtud.jpg",
-      "Gender": 1
     },
     {
       "ID": 47,
@@ -3924,6 +4696,13 @@ var data = {
       "FullName": "Florence Pugh",
       "Amount": 4,
       "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
+      "Gender": 1
+    },
+    {
+      "ID": 72129,
+      "FullName": "Jennifer Lawrence",
+      "Amount": 4,
+      "Poster": "/mDKMsjOMytyBiy7MHNZTa7gp7wj.jpg",
       "Gender": 1
     },
     {
@@ -4032,6 +4811,13 @@ var data = {
       "Gender": 2
     },
     {
+      "ID": 50,
+      "FullName": "Catherine Deneuve",
+      "Amount": 3,
+      "Poster": "70w3iFsflEibu0NrCsBzAWXPzyc.jpg",
+      "Gender": 1
+    },
+    {
       "ID": 190,
       "FullName": "Clint Eastwood",
       "Amount": 3,
@@ -4114,13 +4900,6 @@ var data = {
       "Amount": 3,
       "Poster": "/hPwCMEq6jLAidsXAX5BfoYgIfg2.jpg",
       "Gender": 2
-    },
-    {
-      "ID": 72129,
-      "FullName": "Jennifer Lawrence",
-      "Amount": 3,
-      "Poster": "/mDKMsjOMytyBiy7MHNZTa7gp7wj.jpg",
-      "Gender": 1
     },
     {
       "ID": 206,
@@ -4256,6 +5035,13 @@ var data = {
       "Gender": 1
     },
     {
+      "ID": 3063,
+      "FullName": "Tilda Swinton",
+      "Amount": 3,
+      "Poster": "/gWbX3a7V2MgRMRzekfITNcb27xV.jpg",
+      "Gender": 1
+    },
+    {
       "ID": 2144,
       "FullName": "Tobin Bell",
       "Amount": 3,
@@ -4338,13 +5124,6 @@ var data = {
       "Amount": 2,
       "Poster": "/hcggAadv5SwdhoAb4yYMoAFYdWK.jpg",
       "Gender": 2
-    },
-    {
-      "ID": 50,
-      "FullName": "Catherine Deneuve",
-      "Amount": 2,
-      "Poster": "70w3iFsflEibu0NrCsBzAWXPzyc.jpg",
-      "Gender": 1
     },
     {
       "ID": 38673,
@@ -4718,13 +5497,6 @@ var data = {
       "Gender": 1
     },
     {
-      "ID": 3063,
-      "FullName": "Tilda Swinton",
-      "Amount": 2,
-      "Poster": "/gWbX3a7V2MgRMRzekfITNcb27xV.jpg",
-      "Gender": 1
-    },
-    {
       "ID": 13472,
       "FullName": "Tim Curry",
       "Amount": 2,
@@ -4776,6 +5548,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 936970,
+      "FullName": "Julia Garner",
+      "Amount": 6,
+      "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 18277,
       "FullName": "Sandra Bullock",
       "Amount": 6,
@@ -4790,16 +5569,9 @@ var data = {
       "Gender": 0
     },
     {
-      "ID": 936970,
-      "FullName": "Julia Garner",
-      "Amount": 5,
-      "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
-      "Gender": 0
-    },
-    {
       "ID": 1932,
       "FullName": "Audrey Hepburn",
-      "Amount": 4,
+      "Amount": 5,
       "Poster": "9T3dUBerC587ENb4zbVPQ2wjtud.jpg",
       "Gender": 0
     },
@@ -4832,10 +5604,24 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 72129,
+      "FullName": "Jennifer Lawrence",
+      "Amount": 4,
+      "Poster": "/mDKMsjOMytyBiy7MHNZTa7gp7wj.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 1397778,
       "FullName": "Anya Taylor-Joy",
       "Amount": 3,
       "Poster": "/yZpghhtKM2VZHDx6JGAZqAVU4PL.jpg",
+      "Gender": 0
+    },
+    {
+      "ID": 50,
+      "FullName": "Catherine Deneuve",
+      "Amount": 3,
+      "Poster": "70w3iFsflEibu0NrCsBzAWXPzyc.jpg",
       "Gender": 0
     },
     {
@@ -4850,13 +5636,6 @@ var data = {
       "FullName": "Frances McDormand",
       "Amount": 3,
       "Poster": "/r0A7hZsM1zuavTr0jN7bwmBcliR.jpg",
-      "Gender": 0
-    },
-    {
-      "ID": 72129,
-      "FullName": "Jennifer Lawrence",
-      "Amount": 3,
-      "Poster": "/mDKMsjOMytyBiy7MHNZTa7gp7wj.jpg",
       "Gender": 0
     },
     {
@@ -4902,6 +5681,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 3063,
+      "FullName": "Tilda Swinton",
+      "Amount": 3,
+      "Poster": "/gWbX3a7V2MgRMRzekfITNcb27xV.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 11701,
       "FullName": "Angelina Jolie",
       "Amount": 2,
@@ -4927,13 +5713,6 @@ var data = {
       "FullName": "Brie Larson",
       "Amount": 2,
       "Poster": "/iqZ5uKJWbwSITCK4CqdlUHZTnXD.jpg",
-      "Gender": 0
-    },
-    {
-      "ID": 50,
-      "FullName": "Catherine Deneuve",
-      "Amount": 2,
-      "Poster": "70w3iFsflEibu0NrCsBzAWXPzyc.jpg",
       "Gender": 0
     },
     {
@@ -5060,13 +5839,6 @@ var data = {
       "FullName": "Thora Birch",
       "Amount": 2,
       "Poster": "dENdXxclc0NZSFDii6hGnXsEIAs.jpg",
-      "Gender": 0
-    },
-    {
-      "ID": 3063,
-      "FullName": "Tilda Swinton",
-      "Amount": 2,
-      "Poster": "/gWbX3a7V2MgRMRzekfITNcb27xV.jpg",
       "Gender": 0
     },
     {
@@ -5525,6 +6297,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 1350,
+      "FullName": "Ir\u00E8ne Jacob",
+      "Amount": 1,
+      "Poster": "/yDpLjFtglSDlq3pvITr7O5AQfvg.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 6588,
       "FullName": "Isabella Rossellini",
       "Amount": 1,
@@ -5735,6 +6514,20 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 18228,
+      "FullName": "Juliet Berto",
+      "Amount": 1,
+      "Poster": "/8V15SItRZvoTRDdivqAHS8YIrVu.jpg",
+      "Gender": 0
+    },
+    {
+      "ID": 1137,
+      "FullName": "Juliette Binoche",
+      "Amount": 1,
+      "Poster": "/llNGfF2gNBa1l39iqmjhZuDDzn6.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 65437,
       "FullName": "Junko Iwao",
       "Amount": 1,
@@ -5753,6 +6546,13 @@ var data = {
       "FullName": "Karidja Tour\u00E9",
       "Amount": 1,
       "Poster": "/5YqrVYUzvy0suoSp6oQPD0YgbQs.jpg",
+      "Gender": 0
+    },
+    {
+      "ID": 13010,
+      "FullName": "Kate Maberly",
+      "Amount": 1,
+      "Poster": "/1sZWNt4CT4x6iDamvVN2dEL7u2I.jpg",
       "Gender": 0
     },
     {
@@ -5952,6 +6752,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 121060,
+      "FullName": "Mary MacLaren",
+      "Amount": 1,
+      "Poster": "/Agteg70nmBZmFT9XQMD72TVqiiw.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 96813,
       "FullName": "Maya Deren",
       "Amount": 1,
@@ -5980,10 +6787,24 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 83313,
+      "FullName": "Melanie Mayron",
+      "Amount": 1,
+      "Poster": "/p2dBLbvDR0tg1JyB7S27YPJ7lNo.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 55536,
       "FullName": "Melissa McCarthy",
       "Amount": 1,
       "Poster": "/yl0qva0O4u92fvtItakdvKmKrW9.jpg",
+      "Gender": 0
+    },
+    {
+      "ID": 12021,
+      "FullName": "Mia Farrow",
+      "Amount": 1,
+      "Poster": "/kuLfS2jQOnfIOwCO7RHlwjDIERQ.jpg",
       "Gender": 0
     },
     {
@@ -7020,13 +7841,13 @@ var data = {
       "Gender": 0
     }
   ],
-  "TopCastTotalAll": 2805,
-  "TopCastTotalFemale": 1045,
-  "TopCastTotalMale": 1686,
-  "TopCastTotalNonBinary": 11,
-  "TopCastUniqueAll": 1797,
-  "TopCastUniqueFemale": 695,
-  "TopCastUniqueMale": 1035,
+  "TopCastTotalAll": 2844,
+  "TopCastTotalFemale": 1067,
+  "TopCastTotalMale": 1701,
+  "TopCastTotalNonBinary": 12,
+  "TopCastUniqueAll": 1828,
+  "TopCastUniqueFemale": 711,
+  "TopCastUniqueMale": 1049,
   "TopCastUniqueNonBinary": 6,
   "TopCastAll": [
     {
@@ -7219,6 +8040,13 @@ var data = {
       "Gender": 2
     },
     {
+      "ID": 936970,
+      "FullName": "Julia Garner",
+      "Amount": 7,
+      "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
+      "Gender": 1
+    },
+    {
       "ID": 6384,
       "FullName": "Keanu Reeves",
       "Amount": 7,
@@ -7258,6 +8086,13 @@ var data = {
       "FullName": "Angelina Jolie",
       "Amount": 6,
       "Poster": "/nXA9vMvskmIDB5NqHCkTQPmemep.jpg",
+      "Gender": 1
+    },
+    {
+      "ID": 1932,
+      "FullName": "Audrey Hepburn",
+      "Amount": 6,
+      "Poster": "9T3dUBerC587ENb4zbVPQ2wjtud.jpg",
       "Gender": 1
     },
     {
@@ -7301,13 +8136,6 @@ var data = {
       "Amount": 6,
       "Poster": "/wcI594cwM4ArPwvRd2IU0Z0yLuh.jpg",
       "Gender": 2
-    },
-    {
-      "ID": 936970,
-      "FullName": "Julia Garner",
-      "Amount": 6,
-      "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
-      "Gender": 1
     },
     {
       "ID": 204,
@@ -7370,13 +8198,6 @@ var data = {
       "FullName": "Aubrey Plaza",
       "Amount": 5,
       "Poster": "9vNsQGpeWscRRZq00IN87bxtC98.jpg",
-      "Gender": 1
-    },
-    {
-      "ID": 1932,
-      "FullName": "Audrey Hepburn",
-      "Amount": 5,
-      "Poster": "9T3dUBerC587ENb4zbVPQ2wjtud.jpg",
       "Gender": 1
     },
     {
@@ -7462,6 +8283,13 @@ var data = {
       "Amount": 5,
       "Poster": "/hPwCMEq6jLAidsXAX5BfoYgIfg2.jpg",
       "Gender": 2
+    },
+    {
+      "ID": 72129,
+      "FullName": "Jennifer Lawrence",
+      "Amount": 5,
+      "Poster": "/mDKMsjOMytyBiy7MHNZTa7gp7wj.jpg",
+      "Gender": 1
     },
     {
       "ID": 1038,
@@ -7566,6 +8394,13 @@ var data = {
       "FullName": "Bj\u00F6rk",
       "Amount": 4,
       "Poster": "/Ahc3TWomYakLcbqZRVBDdf3rhMR.jpg",
+      "Gender": 1
+    },
+    {
+      "ID": 50,
+      "FullName": "Catherine Deneuve",
+      "Amount": 4,
+      "Poster": "70w3iFsflEibu0NrCsBzAWXPzyc.jpg",
       "Gender": 1
     },
     {
@@ -7685,13 +8520,6 @@ var data = {
       "FullName": "Jennifer Jason Leigh",
       "Amount": 4,
       "Poster": "/7DbG2AO3nygHAkNC866HLPKkxv9.jpg",
-      "Gender": 1
-    },
-    {
-      "ID": 72129,
-      "FullName": "Jennifer Lawrence",
-      "Amount": 4,
-      "Poster": "/mDKMsjOMytyBiy7MHNZTa7gp7wj.jpg",
       "Gender": 1
     },
     {
@@ -7835,6 +8663,13 @@ var data = {
       "Gender": 1
     },
     {
+      "ID": 3063,
+      "FullName": "Tilda Swinton",
+      "Amount": 4,
+      "Poster": "/gWbX3a7V2MgRMRzekfITNcb27xV.jpg",
+      "Gender": 1
+    },
+    {
       "ID": 3051,
       "FullName": "Toni Collette",
       "Amount": 4,
@@ -7900,6 +8735,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 936970,
+      "FullName": "Julia Garner",
+      "Amount": 7,
+      "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 18277,
       "FullName": "Sandra Bullock",
       "Amount": 7,
@@ -7914,6 +8756,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 1932,
+      "FullName": "Audrey Hepburn",
+      "Amount": 6,
+      "Poster": "9T3dUBerC587ENb4zbVPQ2wjtud.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 112,
       "FullName": "Cate Blanchett",
       "Amount": 6,
@@ -7925,13 +8774,6 @@ var data = {
       "FullName": "Jennifer Connelly",
       "Amount": 6,
       "Poster": "/bpILtSl6z5xc6YOAiPnDBlXDYMJ.jpg",
-      "Gender": 0
-    },
-    {
-      "ID": 936970,
-      "FullName": "Julia Garner",
-      "Amount": 6,
-      "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
       "Gender": 0
     },
     {
@@ -7977,13 +8819,6 @@ var data = {
       "Gender": 0
     },
     {
-      "ID": 1932,
-      "FullName": "Audrey Hepburn",
-      "Amount": 5,
-      "Poster": "9T3dUBerC587ENb4zbVPQ2wjtud.jpg",
-      "Gender": 0
-    },
-    {
       "ID": 530,
       "FullName": "Carrie-Anne Moss",
       "Amount": 5,
@@ -8016,6 +8851,13 @@ var data = {
       "FullName": "Franka Potente",
       "Amount": 5,
       "Poster": "/vA2puXpGOd53jKhpwlMbrqmTZqZ.jpg",
+      "Gender": 0
+    },
+    {
+      "ID": 72129,
+      "FullName": "Jennifer Lawrence",
+      "Amount": 5,
+      "Poster": "/mDKMsjOMytyBiy7MHNZTa7gp7wj.jpg",
       "Gender": 0
     },
     {
@@ -8068,6 +8910,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 50,
+      "FullName": "Catherine Deneuve",
+      "Amount": 4,
+      "Poster": "70w3iFsflEibu0NrCsBzAWXPzyc.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 6194,
       "FullName": "Claire Danes",
       "Amount": 4,
@@ -8100,13 +8949,6 @@ var data = {
       "FullName": "Jennifer Jason Leigh",
       "Amount": 4,
       "Poster": "/7DbG2AO3nygHAkNC866HLPKkxv9.jpg",
-      "Gender": 0
-    },
-    {
-      "ID": 72129,
-      "FullName": "Jennifer Lawrence",
-      "Amount": 4,
-      "Poster": "/mDKMsjOMytyBiy7MHNZTa7gp7wj.jpg",
       "Gender": 0
     },
     {
@@ -8152,6 +8994,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 3063,
+      "FullName": "Tilda Swinton",
+      "Amount": 4,
+      "Poster": "/gWbX3a7V2MgRMRzekfITNcb27xV.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 3051,
       "FullName": "Toni Collette",
       "Amount": 4,
@@ -8191,13 +9040,6 @@ var data = {
       "FullName": "Carey Mulligan",
       "Amount": 3,
       "Poster": "/iwVHhqoz5b62FR0SDpZ7wfsuTBI.jpg",
-      "Gender": 0
-    },
-    {
-      "ID": 50,
-      "FullName": "Catherine Deneuve",
-      "Amount": 3,
-      "Poster": "70w3iFsflEibu0NrCsBzAWXPzyc.jpg",
       "Gender": 0
     },
     {
@@ -8373,13 +9215,6 @@ var data = {
       "FullName": "Thomasin McKenzie",
       "Amount": 3,
       "Poster": "/WOpnEFG5Q8LWxP81MtUrskmVox.jpg",
-      "Gender": 0
-    },
-    {
-      "ID": 3063,
-      "FullName": "Tilda Swinton",
-      "Amount": 3,
-      "Poster": "/gWbX3a7V2MgRMRzekfITNcb27xV.jpg",
       "Gender": 0
     },
     {
@@ -8639,6 +9474,13 @@ var data = {
       "FullName": "Ingrid Bergman",
       "Amount": 2,
       "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
+      "Gender": 0
+    },
+    {
+      "ID": 17882,
+      "FullName": "Isabelle Huppert",
+      "Amount": 2,
+      "Poster": "/wGG9v1Uci3sfrbjt0bRXkLrTqjY.jpg",
       "Gender": 0
     },
     {
@@ -10004,6 +10846,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 132157,
+      "FullName": "Ezra Miller",
+      "Amount": 2,
+      "Poster": "/s6ulsRYtkaAArXsNC6cvinUiRNc.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 3505950,
       "FullName": "Eden Dambrine",
       "Amount": 1,
@@ -10018,13 +10867,6 @@ var data = {
       "Gender": 0
     },
     {
-      "ID": 132157,
-      "FullName": "Ezra Miller",
-      "Amount": 1,
-      "Poster": "/s6ulsRYtkaAArXsNC6cvinUiRNc.jpg",
-      "Gender": 0
-    },
-    {
       "ID": 3923758,
       "FullName": "Tianna Arnold",
       "Amount": 1,
@@ -10032,13 +10874,13 @@ var data = {
       "Gender": 0
     }
   ],
-  "EntireCastTotalAll": 39746,
-  "EntireCastTotalFemale": 9570,
-  "EntireCastTotalMale": 20397,
-  "EntireCastTotalNonBinary": 28,
-  "EntireCastUniqueAll": 31358,
-  "EntireCastUniqueFemale": 7483,
-  "EntireCastUniqueMale": 14329,
+  "EntireCastTotalAll": 40068,
+  "EntireCastTotalFemale": 9678,
+  "EntireCastTotalMale": 20525,
+  "EntireCastTotalNonBinary": 29,
+  "EntireCastUniqueAll": 31609,
+  "EntireCastUniqueFemale": 7562,
+  "EntireCastUniqueMale": 14421,
   "EntireCastUniqueNonBinary": 17,
   "EntireCastAll": [
     {
@@ -10070,6 +10912,13 @@ var data = {
       "Gender": 2
     },
     {
+      "ID": 10978,
+      "FullName": "Maggie Smith",
+      "Amount": 14,
+      "Poster": "/qZyJ7DaOtkfqw58Iv7EqADi428P.jpg",
+      "Gender": 1
+    },
+    {
       "ID": 2963,
       "FullName": "Nicolas Cage",
       "Amount": 14,
@@ -10096,13 +10945,6 @@ var data = {
       "Amount": 13,
       "Poster": "/2v9FVVBUrrkW2m3QOcYkuhq9A6o.jpg",
       "Gender": 2
-    },
-    {
-      "ID": 10978,
-      "FullName": "Maggie Smith",
-      "Amount": 13,
-      "Poster": "/qZyJ7DaOtkfqw58Iv7EqADi428P.jpg",
-      "Gender": 1
     },
     {
       "ID": 5658,
@@ -10462,6 +11304,13 @@ var data = {
       "Gender": 1
     },
     {
+      "ID": 3063,
+      "FullName": "Tilda Swinton",
+      "Amount": 9,
+      "Poster": "/gWbX3a7V2MgRMRzekfITNcb27xV.jpg",
+      "Gender": 1
+    },
+    {
       "ID": 10993,
       "FullName": "Tom Felton",
       "Amount": 9,
@@ -10609,6 +11458,13 @@ var data = {
       "Gender": 2
     },
     {
+      "ID": 16861,
+      "FullName": "John Hawkes",
+      "Amount": 8,
+      "Poster": "/nJZ0womUC7r5vKWGkLclQuo8qIi.jpg",
+      "Gender": 2
+    },
+    {
       "ID": 9656,
       "FullName": "Johnny Knoxville",
       "Amount": 8,
@@ -10621,6 +11477,13 @@ var data = {
       "Amount": 8,
       "Poster": "/dUWM0gIhQJayVTp30EsoafhLOWt.jpg",
       "Gender": 2
+    },
+    {
+      "ID": 936970,
+      "FullName": "Julia Garner",
+      "Amount": 8,
+      "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
+      "Gender": 1
     },
     {
       "ID": 96841,
@@ -10698,13 +11561,6 @@ var data = {
       "Amount": 8,
       "Poster": "/lQKdHMxfYcCBOvwRKBAxPZVNtkg.jpg",
       "Gender": 2
-    },
-    {
-      "ID": 3063,
-      "FullName": "Tilda Swinton",
-      "Amount": 8,
-      "Poster": "/gWbX3a7V2MgRMRzekfITNcb27xV.jpg",
-      "Gender": 1
     },
     {
       "ID": 2524,
@@ -10910,13 +11766,6 @@ var data = {
       "Gender": 2
     },
     {
-      "ID": 16861,
-      "FullName": "John Hawkes",
-      "Amount": 7,
-      "Poster": "/nJZ0womUC7r5vKWGkLclQuo8qIi.jpg",
-      "Gender": 2
-    },
-    {
       "ID": 6949,
       "FullName": "John Malkovich",
       "Amount": 7,
@@ -10957,13 +11806,6 @@ var data = {
       "Amount": 7,
       "Poster": "/9H577IoqFgCXonDzR3QEkF2xo5m.jpg",
       "Gender": 2
-    },
-    {
-      "ID": 936970,
-      "FullName": "Julia Garner",
-      "Amount": 7,
-      "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
-      "Gender": 1
     },
     {
       "ID": 204,
@@ -11115,17 +11957,17 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 10978,
+      "FullName": "Maggie Smith",
+      "Amount": 14,
+      "Poster": "/qZyJ7DaOtkfqw58Iv7EqADi428P.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 6941,
       "FullName": "Cameron Diaz",
       "Amount": 13,
       "Poster": "/y5DitIz69LzqFCTZd1omRpalpMy.jpg",
-      "Gender": 0
-    },
-    {
-      "ID": 10978,
-      "FullName": "Maggie Smith",
-      "Amount": 13,
-      "Poster": "/qZyJ7DaOtkfqw58Iv7EqADi428P.jpg",
       "Gender": 0
     },
     {
@@ -11185,6 +12027,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 3063,
+      "FullName": "Tilda Swinton",
+      "Amount": 9,
+      "Poster": "/gWbX3a7V2MgRMRzekfITNcb27xV.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 19,
       "FullName": "Allison Janney",
       "Amount": 8,
@@ -11220,17 +12069,17 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 936970,
+      "FullName": "Julia Garner",
+      "Amount": 8,
+      "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 368,
       "FullName": "Reese Witherspoon",
       "Amount": 8,
       "Poster": "ByeTccPuvVwtWrvkPpldFP38rS.jpg",
-      "Gender": 0
-    },
-    {
-      "ID": 3063,
-      "FullName": "Tilda Swinton",
-      "Amount": 8,
-      "Poster": "/gWbX3a7V2MgRMRzekfITNcb27xV.jpg",
       "Gender": 0
     },
     {
@@ -11266,13 +12115,6 @@ var data = {
       "FullName": "Jennifer Connelly",
       "Amount": 7,
       "Poster": "/bpILtSl6z5xc6YOAiPnDBlXDYMJ.jpg",
-      "Gender": 0
-    },
-    {
-      "ID": 936970,
-      "FullName": "Julia Garner",
-      "Amount": 7,
-      "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
       "Gender": 0
     },
     {
@@ -11329,6 +12171,13 @@ var data = {
       "FullName": "Angelina Jolie",
       "Amount": 6,
       "Poster": "/nXA9vMvskmIDB5NqHCkTQPmemep.jpg",
+      "Gender": 0
+    },
+    {
+      "ID": 1932,
+      "FullName": "Audrey Hepburn",
+      "Amount": 6,
+      "Poster": "9T3dUBerC587ENb4zbVPQ2wjtud.jpg",
       "Gender": 0
     },
     {
@@ -11479,13 +12328,6 @@ var data = {
       "Gender": 0
     },
     {
-      "ID": 1932,
-      "FullName": "Audrey Hepburn",
-      "Amount": 5,
-      "Poster": "9T3dUBerC587ENb4zbVPQ2wjtud.jpg",
-      "Gender": 0
-    },
-    {
       "ID": 5151,
       "FullName": "Beth Grant",
       "Amount": 5,
@@ -11626,6 +12468,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 72129,
+      "FullName": "Jennifer Lawrence",
+      "Amount": 5,
+      "Poster": "/mDKMsjOMytyBiy7MHNZTa7gp7wj.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 83002,
       "FullName": "Jessica Chastain",
       "Amount": 5,
@@ -11665,6 +12514,13 @@ var data = {
       "FullName": "Julie Andrews",
       "Amount": 5,
       "Poster": "/zYa6ApzrF688x7ckcc2q2Kuchbu.jpg",
+      "Gender": 0
+    },
+    {
+      "ID": 1146,
+      "FullName": "Julie Delpy",
+      "Amount": 5,
+      "Poster": "/rd40f4QpAUUne3hMaUhHrZtcK2c.jpg",
       "Gender": 0
     },
     {
@@ -11798,6 +12654,13 @@ var data = {
       "FullName": "Shirley Henderson",
       "Amount": 5,
       "Poster": "/rWE3okN5EUvCT8DVjK0xobKStfQ.jpg",
+      "Gender": 0
+    },
+    {
+      "ID": 6751,
+      "FullName": "Siobhan Fallon Hogan",
+      "Amount": 5,
+      "Poster": "/5OExagnRsUcOYLMPTSrv4x2G95R.jpg",
       "Gender": 0
     },
     {
@@ -12300,6 +13163,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 16861,
+      "FullName": "John Hawkes",
+      "Amount": 8,
+      "Poster": "/nJZ0womUC7r5vKWGkLclQuo8qIi.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 9656,
       "FullName": "Johnny Knoxville",
       "Amount": 8,
@@ -12552,13 +13422,6 @@ var data = {
       "Gender": 0
     },
     {
-      "ID": 16861,
-      "FullName": "John Hawkes",
-      "Amount": 7,
-      "Poster": "/nJZ0womUC7r5vKWGkLclQuo8qIi.jpg",
-      "Gender": 0
-    },
-    {
       "ID": 6949,
       "FullName": "John Malkovich",
       "Amount": 7,
@@ -12729,6 +13592,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 132157,
+      "FullName": "Ezra Miller",
+      "Amount": 2,
+      "Poster": "/s6ulsRYtkaAArXsNC6cvinUiRNc.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 6366,
       "FullName": "Laurence Fox",
       "Amount": 2,
@@ -12782,13 +13652,6 @@ var data = {
       "FullName": "Elsie Fisher",
       "Amount": 1,
       "Poster": "/lSmrN828nMMXHvwr7IgO1qlYPSa.jpg",
-      "Gender": 0
-    },
-    {
-      "ID": 132157,
-      "FullName": "Ezra Miller",
-      "Amount": 1,
-      "Poster": "/s6ulsRYtkaAArXsNC6cvinUiRNc.jpg",
       "Gender": 0
     },
     {
@@ -12860,7 +13723,7 @@ var data = {
     "1913": 1,
     "1914": 0,
     "1915": 0,
-    "1916": 0,
+    "1916": 1,
     "1917": 0,
     "1918": 0,
     "1919": 0,
@@ -12910,19 +13773,19 @@ var data = {
     "1963": 4,
     "1964": 2,
     "1965": 3,
-    "1966": 3,
+    "1966": 4,
     "1967": 2,
-    "1968": 6,
+    "1968": 7,
     "1969": 2,
     "1970": 2,
     "1971": 5,
     "1972": 1,
     "1973": 3,
-    "1974": 3,
+    "1974": 4,
     "1975": 5,
     "1976": 4,
     "1977": 3,
-    "1978": 2,
+    "1978": 3,
     "1979": 5,
     "1980": 2,
     "1981": 1,
@@ -12937,8 +13800,8 @@ var data = {
     "1990": 10,
     "1991": 10,
     "1992": 9,
-    "1993": 13,
-    "1994": 14,
+    "1993": 15,
+    "1994": 16,
     "1995": 17,
     "1996": 17,
     "1997": 25,
@@ -12946,7 +13809,7 @@ var data = {
     "1999": 25,
     "2000": 33,
     "2001": 36,
-    "2002": 34,
+    "2002": 35,
     "2003": 24,
     "2004": 32,
     "2005": 22,
@@ -12954,8 +13817,8 @@ var data = {
     "2007": 66,
     "2008": 30,
     "2009": 24,
-    "2010": 18,
-    "2011": 22,
+    "2010": 19,
+    "2011": 23,
     "2012": 22,
     "2013": 21,
     "2014": 16,
@@ -12968,7 +13831,7 @@ var data = {
     "2021": 14,
     "2022": 20,
     "2023": 24,
-    "2024": 8
+    "2024": 9
   },
   "FilmsWatchedPerDecade": {
     "1870": {
@@ -12992,9 +13855,9 @@ var data = {
       "RatingTotal": 0
     },
     "1910": {
-      "Count": 1,
-      "RatingCount": 0,
-      "RatingTotal": 0
+      "Count": 2,
+      "RatingCount": 1,
+      "RatingTotal": 4
     },
     "1920": {
       "Count": 13,
@@ -13017,14 +13880,14 @@ var data = {
       "RatingTotal": 27
     },
     "1960": {
-      "Count": 29,
-      "RatingCount": 14,
-      "RatingTotal": 60
+      "Count": 31,
+      "RatingCount": 16,
+      "RatingTotal": 68
     },
     "1970": {
-      "Count": 33,
-      "RatingCount": 8,
-      "RatingTotal": 29
+      "Count": 35,
+      "RatingCount": 10,
+      "RatingTotal": 38
     },
     "1980": {
       "Count": 50,
@@ -13032,24 +13895,24 @@ var data = {
       "RatingTotal": 39
     },
     "1990": {
-      "Count": 168,
-      "RatingCount": 32,
-      "RatingTotal": 123
+      "Count": 172,
+      "RatingCount": 35,
+      "RatingTotal": 134
     },
     "2000": {
-      "Count": 332,
-      "RatingCount": 43,
-      "RatingTotal": 132
+      "Count": 333,
+      "RatingCount": 44,
+      "RatingTotal": 136
     },
     "2010": {
-      "Count": 217,
-      "RatingCount": 108,
-      "RatingTotal": 373
+      "Count": 219,
+      "RatingCount": 110,
+      "RatingTotal": 380
     },
     "2020": {
-      "Count": 73,
-      "RatingCount": 65,
-      "RatingTotal": 231
+      "Count": 74,
+      "RatingCount": 66,
+      "RatingTotal": 233
     }
   },
   "LongestFilms": [
@@ -13058,6 +13921,7 @@ var data = {
     122,
     24,
     14,
+    959,
     266,
     126,
     110,
@@ -13151,8 +14015,7 @@ var data = {
     558,
     11,
     682,
-    723,
-    510
+    723
   ],
   "MostWatchedFilms": [
     4,
@@ -13295,6 +14158,7 @@ var data = {
     739,
     334,
     530,
+    957,
     539,
     314,
     737,
@@ -13307,6 +14171,7 @@ var data = {
     328,
     899,
     355,
+    955,
     754,
     292,
     369,
@@ -13354,9 +14219,7 @@ var data = {
     480,
     409,
     932,
-    939,
-    940,
-    406
+    939
   ],
   "HighestRatedFilms": [
     846,
@@ -13390,6 +14253,7 @@ var data = {
     142,
     9,
     123,
+    950,
     893,
     94,
     101,
@@ -13431,6 +14295,7 @@ var data = {
     147,
     126,
     52,
+    956,
     819,
     280,
     260,
@@ -13451,14 +14316,12 @@ var data = {
     206,
     144,
     19,
+    948,
     902,
     351,
     324,
     281,
-    53,
-    3,
-    926,
-    849
+    53
   ],
   "LowestRatedFilms": [
     149,
@@ -13510,6 +14373,7 @@ var data = {
     471,
     288,
     367,
+    957,
     348,
     679,
     492,
@@ -13559,8 +14423,7 @@ var data = {
     435,
     437,
     713,
-    446,
-    448
+    446
   ],
   "ShortestTitleFilms": [
     862,
@@ -13670,18 +14533,19 @@ var data = {
     940,
     173,
     663,
+    959,
     639,
     368,
     456,
     357,
+    951,
     802,
     734,
     695,
-    910,
-    215,
-    253
+    910
   ],
   "NewestReleasedFilms": [
+    957,
     891,
     863,
     900,
@@ -13780,14 +14644,14 @@ var data = {
     213,
     946,
     782,
-    783,
-    910
+    783
   ],
   "OldestReleasedFilms": [
     938,
     809,
     940,
     917,
+    955,
     324,
     291,
     794,
@@ -13846,6 +14710,7 @@ var data = {
     942,
     314,
     195,
+    958,
     799,
     874,
     465,
@@ -13854,6 +14719,7 @@ var data = {
     326,
     38,
     510,
+    956,
     157,
     869,
     408,
@@ -13869,6 +14735,7 @@ var data = {
     519,
     339,
     209,
+    959,
     173,
     47,
     864,
@@ -13879,20 +14746,16 @@ var data = {
     142,
     124,
     509,
-    56,
-    599,
-    935,
-    281,
-    624
+    56
   ],
   "FilmsPerThirtyMinutes": {
     "0": 19,
-    "30": 10,
-    "60": 129,
-    "90": 522,
-    "120": 223,
+    "30": 11,
+    "60": 130,
+    "90": 530,
+    "120": 225,
     "150": 34,
-    "180": 8,
+    "180": 9,
     "210": 1
   },
   "FilmsPerLanguage": {
@@ -13900,8 +14763,8 @@ var data = {
     "Cantonese": 1,
     "Czech": 2,
     "Danish": 1,
-    "English": 850,
-    "French": 24,
+    "English": 857,
+    "French": 28,
     "German": 4,
     "Hungarian": 1,
     "Icelandic": 1,
@@ -13910,9 +14773,9 @@ var data = {
     "Japanese": 10,
     "Korean": 5,
     "Mandarin": 2,
-    "No Spoken Language": 23,
+    "No Spoken Language": 24,
     "Norwegian": 1,
-    "Polish": 1,
+    "Polish": 2,
     "Portuguese": 2,
     "Russian": 2,
     "Spanish": 6,
@@ -13931,7 +14794,7 @@ var data = {
     "Czechia": 2,
     "Czechoslovakia": 2,
     "Denmark": 7,
-    "France": 37,
+    "France": 42,
     "Germany": 14,
     "Hong Kong": 2,
     "Hungary": 2,
@@ -13947,7 +14810,7 @@ var data = {
     "North Korea": 1,
     "Norway": 1,
     "Philippines": 1,
-    "Poland": 1,
+    "Poland": 2,
     "Russia": 1,
     "Saudi Arabia": 2,
     "Singapore": 2,
@@ -13956,12 +14819,12 @@ var data = {
     "Soviet Union": 1,
     "Spain": 7,
     "Sweden": 5,
-    "Switzerland": 2,
+    "Switzerland": 3,
     "Taiwan": 1,
     "Ukraine": 1,
     "United Arab Emirates": 1,
-    "United Kingdom": 166,
-    "United States of America": 761
+    "United Kingdom": 167,
+    "United States of America": 769
   },
   "FilmsPerCountryProduction": {
     "Angola": 1,
@@ -13979,7 +14842,7 @@ var data = {
     "Egypt": 1,
     "Ethiopia": 1,
     "Finland": 3,
-    "France": 88,
+    "France": 93,
     "Germany": 64,
     "Ghana": 1,
     "Greece": 4,
@@ -13990,7 +14853,7 @@ var data = {
     "Indonesia": 1,
     "Ireland": 14,
     "Israel": 1,
-    "Italy": 18,
+    "Italy": 19,
     "Japan": 14,
     "Jordan": 2,
     "Luxembourg": 1,
@@ -13998,13 +14861,13 @@ var data = {
     "Mexico": 7,
     "Myanmar": 1,
     "Namibia": 1,
-    "Netherlands": 10,
+    "Netherlands": 11,
     "New Zealand": 9,
     "North Korea": 1,
     "Norway": 2,
     "Peru": 1,
     "Philippines": 1,
-    "Poland": 2,
+    "Poland": 5,
     "Russia": 3,
     "Saudi Arabia": 2,
     "Singapore": 2,
@@ -14012,16 +14875,16 @@ var data = {
     "South Africa": 1,
     "South Korea": 6,
     "Soviet Union": 1,
-    "Spain": 16,
+    "Spain": 17,
     "Sweden": 10,
-    "Switzerland": 6,
+    "Switzerland": 9,
     "Taiwan": 2,
     "Thailand": 1,
     "Turkey": 2,
     "Ukraine": 2,
     "United Arab Emirates": 2,
-    "United Kingdom": 230,
-    "United States of America": 810
+    "United Kingdom": 231,
+    "United States of America": 818
   },
   "MostFrequentWords": {
     "movie": [
@@ -14202,12 +15065,26 @@ var data = {
       701,
       848
     ],
+    "baby": [
+      130,
+      520,
+      703,
+      803,
+      956
+    ],
     "big": [
       128,
       486,
       502,
       553,
       757
+    ],
+    "blue": [
+      73,
+      110,
+      200,
+      827,
+      948
     ],
     "death": [
       264,
@@ -14279,6 +15156,12 @@ var data = {
       518,
       531
     ],
+    "about": [
+      57,
+      663,
+      931,
+      951
+    ],
     "air": [
       325,
       355,
@@ -14297,23 +15180,11 @@ var data = {
       485,
       801
     ],
-    "baby": [
-      130,
-      520,
-      703,
-      803
-    ],
     "beautiful": [
       229,
       342,
       801,
       932
-    ],
-    "blue": [
-      73,
-      110,
-      200,
-      827
     ],
     "book": [
       236,
@@ -14441,10 +15312,11 @@ var data = {
       798,
       855
     ],
-    "about": [
-      57,
-      663,
-      931
+    "three": [
+      196,
+      948,
+      949,
+      950
     ],
     "all": [
       2,
@@ -14506,6 +15378,11 @@ var data = {
       121,
       714
     ],
+    "colours": [
+      948,
+      949,
+      950
+    ],
     "dawn": [
       422,
       613,
@@ -14546,6 +15423,11 @@ var data = {
       427,
       707
     ],
+    "go": [
+      453,
+      776,
+      959
+    ],
     "gone": [
       437,
       520,
@@ -14565,6 +15447,11 @@ var data = {
       51,
       480,
       788
+    ],
+    "how": [
+      612,
+      865,
+      958
     ],
     "impossible": [
       609,
@@ -14635,34 +15522,14 @@ var data = {
       75,
       323,
       780
-    ],
-    "or": [
-      469,
-      588,
-      612
-    ],
-    "pie": [
-      58,
-      487,
-      542
-    ],
-    "planet": [
-      283,
-      565,
-      618
-    ],
-    "prince": [
-      210,
-      484,
-      632
     ]
   },
   "Backdrops": [
     {
-      "ImageUrl": "xZtBJlyGsnhoYxyGLh4dHUDuFcK.jpg",
-      "FilmName": "The Virgin Suicides\u003Cbr/\u003E(1999)",
-      "LetterboxdId": "28JG",
-      "Colour": "#4E5A89"
+      "ImageUrl": "/8rmx3Wh6fQdSL2nzTmdFn9thcK8.jpg",
+      "FilmName": "Pearl\u003Cbr/\u003E(2022)",
+      "LetterboxdId": "zPbe",
+      "Colour": "#ED1626"
     }
   ],
   "Lists": [
@@ -17033,6 +17900,126 @@ var data = {
           "PrimaryLanguage": "English",
           "PosterUrl": "/cVhe15rJLRjolunSWLBN6xQLyGU.jpg",
           "RatingSelf": 3
+        },
+        {
+          "Order": 186,
+          "FilmName": "Three Colours: Blue",
+          "FilmNameOriginal": "Trois couleurs : Bleu",
+          "Year": 1993,
+          "LetterboxdIdentifier": "2b7K",
+          "PrimaryLanguage": "French",
+          "PosterUrl": "/33wsWxzsNstI8N7dvuwzFmj1qBd.jpg",
+          "RatingSelf": 4
+        },
+        {
+          "Order": 187,
+          "FilmName": "Three Colours: White",
+          "FilmNameOriginal": "Trois couleurs : Blanc",
+          "Year": 1994,
+          "LetterboxdIdentifier": "2b7A",
+          "PrimaryLanguage": "Polish",
+          "PosterUrl": "/fdIet3NSa27gobMbaUml66oCQNT.jpg",
+          "RatingSelf": 3
+        },
+        {
+          "Order": 188,
+          "FilmName": "Three Colours: Red",
+          "FilmNameOriginal": "Trois couleurs : Rouge",
+          "Year": 1994,
+          "LetterboxdIdentifier": "2b7q",
+          "PrimaryLanguage": "French",
+          "PosterUrl": "/cTvIvblms2p4cEPT4lnJWTYG3DC.jpg",
+          "RatingSelf": 4
+        },
+        {
+          "Order": 189,
+          "FilmName": "We Need to Talk About Kevin",
+          "FilmNameOriginal": "We Need to Talk About Kevin",
+          "Year": 2011,
+          "LetterboxdIdentifier": "2pTS",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/auAmiRmbBQ5QIYGpWgcGBoBQY3b.jpg",
+          "RatingSelf": 4
+        },
+        {
+          "Order": 190,
+          "FilmName": "8 Women",
+          "FilmNameOriginal": "8 femmes",
+          "Year": 2002,
+          "LetterboxdIdentifier": "27Lm",
+          "PrimaryLanguage": "French",
+          "PosterUrl": "/bJu4Gm7NQb2woPiIovrPD5jNWzf.jpg",
+          "RatingSelf": 4
+        },
+        {
+          "Order": 191,
+          "FilmName": "Girlfriends",
+          "FilmNameOriginal": "Girlfriends",
+          "Year": 1978,
+          "LetterboxdIdentifier": "3JYU",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/cQmcKmtkQQeQFK0L07HHqdP3XIJ.jpg",
+          "RatingSelf": 4
+        },
+        {
+          "Order": 192,
+          "FilmName": "Winter's Bone",
+          "FilmNameOriginal": "Winter's Bone",
+          "Year": 2010,
+          "LetterboxdIdentifier": "14FI",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/a0qhPkNlxLfsf5B2jFyI1Pp04XV.jpg",
+          "RatingSelf": 3
+        },
+        {
+          "Order": 193,
+          "FilmName": "Shoes",
+          "FilmNameOriginal": "Shoes",
+          "Year": 1916,
+          "LetterboxdIdentifier": "4xlI",
+          "PrimaryLanguage": "",
+          "PosterUrl": "nlSqMGGl1bz2BpoSGF4ke4x9Shc.jpg",
+          "RatingSelf": 4
+        },
+        {
+          "Order": 194,
+          "FilmName": "Rosemary's Baby",
+          "FilmNameOriginal": "Rosemary's Baby",
+          "Year": 1968,
+          "LetterboxdIdentifier": "29zM",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/nclYFGpVzfbiORO5ELVVdxzt9Vg.jpg",
+          "RatingSelf": 4
+        },
+        {
+          "Order": 195,
+          "FilmName": "Apartment 7A",
+          "FilmNameOriginal": "Apartment 7A",
+          "Year": 2024,
+          "LetterboxdIdentifier": "uock",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/oyjEPno8omeDYVNqUZS2RiEpuRC.jpg",
+          "RatingSelf": 2
+        },
+        {
+          "Order": 196,
+          "FilmName": "How to Steal a Million",
+          "FilmNameOriginal": "How to Steal a Million",
+          "Year": 1966,
+          "LetterboxdIdentifier": "25Yo",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/xaf3pwmITJvfz9Ab8DiGM8OOtBC.jpg",
+          "RatingSelf": 4
+        },
+        {
+          "Order": 197,
+          "FilmName": "C\u00E9line and Julie Go Boating",
+          "FilmNameOriginal": "C\u00E9line et Julie vont en bateau",
+          "Year": 1974,
+          "LetterboxdIdentifier": "1sGA",
+          "PrimaryLanguage": "French",
+          "PosterUrl": "/xsWLui5vFHC1b1JjwK4Au9ljjgG.jpg",
+          "RatingSelf": 5
         }
       ]
     }
