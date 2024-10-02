@@ -12556,5 +12556,44 @@ var films = [
     "Poster": "/bwQyPZKkr14UWwXTSkSA3XiuKif.jpg",
     "Year": 2012,
     "When": "2012-12-24"
+  },
+  {
+    "Title": "30/30 Vision: Three Decades of Strand Releasing",
+    "TitleOriginal": "30/30 Vision: Three Decades of Strand Releasing",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.25,
+    "Minutes": 63,
+    "Watched": 709,
+    "Id": "okQo",
+    "Poster": "/88FdEoGjEzvClNuWLdeZB6RjfHS.jpg",
+    "Year": 2019,
+    "When": "2019-12-14"
+  },
+  {
+    "Title": "Battleship Potemkin",
+    "TitleOriginal": "\u0411\u0440\u043E\u043D\u0435\u043D\u043E\u0441\u0435\u0446 \u041F\u043E\u0442\u0451\u043C\u043A\u0438\u043D",
+    "Language": "",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 4.00,
+    "Minutes": 75,
+    "Watched": 153306,
+    "Id": "29Vo",
+    "Poster": "bhLIcFmYMGumY8A7lX7QQj7grzL.jpg",
+    "Year": 1925,
+    "When": "1925-12-24"
+  },
+  {
+    "Title": "The Fits",
+    "TitleOriginal": "The Fits",
+    "Language": "English",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.61,
+    "Minutes": 72,
+    "Watched": 20364,
+    "Id": "cacO",
+    "Poster": "/sWKsJln7CBXuNCGJMMVnCj5xzlQ.jpg",
+    "Year": 2015,
+    "When": "2016-06-03"
   }
 ]
