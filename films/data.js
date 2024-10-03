@@ -1,11 +1,11 @@
 var data = {
-  "FilmsWithThemes": 894,
+  "FilmsWithThemes": 896,
   "Themes": [
     {
       "Url": "/theme/moving-relationship-stories/",
       "Text": "Moving relationship stories",
       "IsMini": false,
-      "Amount": 236
+      "Amount": 237
     },
     {
       "Url": "/theme/crude-humor-and-satire/",
@@ -17,13 +17,13 @@ var data = {
       "Url": "/theme/intense-violence-and-sexual-transgression/",
       "Text": "Intense violence and sexual transgression",
       "IsMini": false,
-      "Amount": 199
+      "Amount": 200
     },
     {
       "Url": "/theme/humanity-and-the-world-around-us/",
       "Text": "Humanity and the world around us",
       "IsMini": false,
-      "Amount": 181
+      "Amount": 182
     },
     {
       "Url": "/mini-theme/thriller-suspense-twist-psychological-intriguing/",
@@ -41,13 +41,13 @@ var data = {
       "Url": "/mini-theme/sad-depressing-illness-heartbreaking-touching/",
       "Text": "Powerful stories of heartbreak and suffering",
       "IsMini": true,
-      "Amount": 136
+      "Amount": 137
     },
     {
       "Url": "/mini-theme/touching-cry-family-sad-tear-jerker/",
       "Text": "Touching and sentimental family stories",
       "IsMini": true,
-      "Amount": 128
+      "Amount": 129
     },
     {
       "Url": "/mini-theme/jokes-humor-chuckles-crude-gag/",
@@ -83,13 +83,13 @@ var data = {
       "Url": "/mini-theme/family-touching-kids-cry-tear-jerker/",
       "Text": "Emotional and touching family dramas",
       "IsMini": true,
-      "Amount": 98
+      "Amount": 99
     },
     {
       "Url": "/mini-theme/killing-slasher-gruesome-gory-bloody/",
       "Text": "Gory, gruesome, and slasher horror",
       "IsMini": true,
-      "Amount": 98
+      "Amount": 99
     },
     {
       "Url": "/mini-theme/chemistry-hilarious-romantic-comedy-sweet-or-humorous/",
@@ -113,7 +113,7 @@ var data = {
       "Url": "/theme/crime-drugs-and-gangsters/",
       "Text": "Crime, drugs and gangsters",
       "IsMini": false,
-      "Amount": 87
+      "Amount": 88
     },
     {
       "Url": "/mini-theme/action-packed-villain-hero-adrenaline-explosives/",
@@ -149,7 +149,7 @@ var data = {
       "Url": "/mini-theme/sexuality-sex-disturbed-unconventional-or-challenging/",
       "Text": "Challenging or sexual themes \u0026amp; twists",
       "IsMini": true,
-      "Amount": 80
+      "Amount": 81
     },
     {
       "Url": "/mini-theme/car-cars-racing-speed-adrenaline/",
@@ -185,7 +185,7 @@ var data = {
       "Url": "/mini-theme/family-moving-heartbreaking-sadness-sad/",
       "Text": "Heartbreaking and moving family drama",
       "IsMini": true,
-      "Amount": 68
+      "Amount": 69
     },
     {
       "Url": "/mini-theme/romance-captivating-loves-lover-beauty/",
@@ -197,7 +197,7 @@ var data = {
       "Url": "/mini-theme/brutal-graphic-brutality-revenge-violence/",
       "Text": "Graphic violence and brutal revenge",
       "IsMini": true,
-      "Amount": 64
+      "Amount": 65
     },
     {
       "Url": "/theme/thrillers-and-murder-mysteries/",
@@ -212,6 +212,12 @@ var data = {
       "Amount": 58
     },
     {
+      "Url": "/mini-theme/guns-action-violence-cops-killing/",
+      "Text": "Violent action, guns, and crime",
+      "IsMini": true,
+      "Amount": 56
+    },
+    {
       "Url": "/mini-theme/robbery-heist-cops-twist-thriller/",
       "Text": "Heists and thrilling action",
       "IsMini": true,
@@ -220,12 +226,6 @@ var data = {
     {
       "Url": "/mini-theme/murderer-clues-suspects-suspense-intriguing/",
       "Text": "Intriguing and suspenseful murder mysteries",
-      "IsMini": true,
-      "Amount": 55
-    },
-    {
-      "Url": "/mini-theme/guns-action-violence-cops-killing/",
-      "Text": "Violent action, guns, and crime",
       "IsMini": true,
       "Amount": 55
     },
@@ -374,6 +374,12 @@ var data = {
       "Amount": 36
     },
     {
+      "Url": "/mini-theme/marriage-drama-family-dramas-melodrama/",
+      "Text": "Enduring stories of family and marital drama",
+      "IsMini": true,
+      "Amount": 35
+    },
+    {
       "Url": "/theme/war-and-historical-adventure/",
       "Text": "War and historical adventure",
       "IsMini": false,
@@ -384,12 +390,6 @@ var data = {
       "Text": "Song and dance",
       "IsMini": false,
       "Amount": 35
-    },
-    {
-      "Url": "/mini-theme/marriage-drama-family-dramas-melodrama/",
-      "Text": "Enduring stories of family and marital drama",
-      "IsMini": true,
-      "Amount": 34
     },
     {
       "Url": "/mini-theme/film-noir-femme-fatale-1940s-thriller-or-intriguing/",
@@ -434,14 +434,14 @@ var data = {
       "Amount": 24
     },
     {
-      "Url": "/mini-theme/powerful-complexity-intellectual-poetic-emotional/",
-      "Text": "Powerful poetic and passionate drama",
-      "IsMini": true,
-      "Amount": 23
-    },
-    {
       "Url": "/mini-theme/prison-jail-convicts-brutal-brutality/",
       "Text": "Brutal, violent prison drama",
+      "IsMini": true,
+      "Amount": 24
+    },
+    {
+      "Url": "/mini-theme/powerful-complexity-intellectual-poetic-emotional/",
+      "Text": "Powerful poetic and passionate drama",
       "IsMini": true,
       "Amount": 23
     },
@@ -676,7 +676,7 @@ var data = {
       "Title": "Warner Bros. Pictures",
       "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
       "OriginCountry": "United States of America",
-      "Amount": 60
+      "Amount": 61
     },
     {
       "Id": 25,
@@ -798,6 +798,13 @@ var data = {
       "Amount": 15
     },
     {
+      "Id": 508,
+      "Title": "Regency Enterprises",
+      "Poster": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
+      "OriginCountry": "United States of America",
+      "Amount": 14
+    },
+    {
       "Id": 491,
       "Title": "Summit Entertainment",
       "Poster": "/5LvDUt3KmvRnXQ4NrdWJYHeuA8J.png",
@@ -815,13 +822,6 @@ var data = {
       "Id": 79,
       "Title": "Village Roadshow Pictures",
       "Poster": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
-      "OriginCountry": "United States of America",
-      "Amount": 13
-    },
-    {
-      "Id": 508,
-      "Title": "Regency Enterprises",
-      "Poster": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
       "OriginCountry": "United States of America",
       "Amount": 13
     },
@@ -903,6 +903,13 @@ var data = {
       "Amount": 9
     },
     {
+      "Id": 10104,
+      "Title": "New Regency Pictures",
+      "Poster": "/wRn5HnYMGeJHmItRypgOZOC6gwY.png",
+      "OriginCountry": "United States of America",
+      "Amount": 9
+    },
+    {
       "Id": 2452,
       "Title": "UK Film Council",
       "Poster": "/6CLoZ59fLPG7UyxQtGTqRevjf58.png",
@@ -928,13 +935,6 @@ var data = {
       "Title": "ARTE France Cin\u00E9ma",
       "Poster": "/huC7HqorvUThGIrENrbcHmQVUA0.png",
       "OriginCountry": "France",
-      "Amount": 8
-    },
-    {
-      "Id": 10104,
-      "Title": "New Regency Pictures",
-      "Poster": "/wRn5HnYMGeJHmItRypgOZOC6gwY.png",
-      "OriginCountry": "United States of America",
       "Amount": 8
     },
     {
@@ -1358,16 +1358,16 @@ var data = {
       "Amount": 4
     }
   ],
-  "LastUpdated": "2 Oct 2024",
+  "LastUpdated": "4 Oct 2024",
   "Username": "LaLunaLlena",
-  "TotalFilms": 969,
-  "RatedFilms": 315,
-  "FilmsWithGenres": 968,
-  "TotalMinutes": 103962,
-  "FilmsWithRuntime": 968,
-  "TotalMinutesFull": 102894,
-  "FilmsWithRuntimeFull": 932,
-  "AverageFilmYearMean": 1999.7915376676985,
+  "TotalFilms": 971,
+  "RatedFilms": 316,
+  "FilmsWithGenres": 970,
+  "TotalMinutes": 104173,
+  "FilmsWithRuntime": 970,
+  "TotalMinutesFull": 103105,
+  "FilmsWithRuntimeFull": 934,
+  "AverageFilmYearMean": 1999.763130792997,
   "AverageFilmYearMedian": 2004,
   "AverageFilmYearMode": "2007",
   "Genres": {
@@ -1392,7 +1392,7 @@ var data = {
       "RatingTotal": 255
     },
     "Crime": {
-      "Count": 172,
+      "Count": 173,
       "RatingCount": 39,
       "RatingTotal": 130
     },
@@ -1402,9 +1402,9 @@ var data = {
       "RatingTotal": 46
     },
     "Drama": {
-      "Count": 507,
-      "RatingCount": 206,
-      "RatingTotal": 774
+      "Count": 509,
+      "RatingCount": 207,
+      "RatingTotal": 779
     },
     "Family": {
       "Count": 84,
@@ -1447,7 +1447,7 @@ var data = {
       "RatingTotal": 100
     },
     "Thriller": {
-      "Count": 271,
+      "Count": 272,
       "RatingCount": 70,
       "RatingTotal": 225
     },
@@ -1467,13 +1467,13 @@ var data = {
       "RatingTotal": 4
     }
   },
-  "DirectorTotalAll": 1101,
+  "DirectorTotalAll": 1103,
   "DirectorTotalFemale": 138,
-  "DirectorTotalMale": 931,
+  "DirectorTotalMale": 933,
   "DirectorTotalNonBinary": 1,
-  "DirectorUniqueAll": 746,
+  "DirectorUniqueAll": 747,
   "DirectorUniqueFemale": 115,
-  "DirectorUniqueMale": 601,
+  "DirectorUniqueMale": 602,
   "DirectorUniqueNonBinary": 1,
   "DirectorAll": [
     {
@@ -2293,6 +2293,13 @@ var data = {
       "FullName": "Hayao Miyazaki",
       "Amount": 2,
       "Poster": "/ouhjt9KugzhWtdEyBPipihB3ic8.jpg",
+      "Gender": 2
+    },
+    {
+      "ID": 6648,
+      "FullName": "Ingmar Bergman",
+      "Amount": 2,
+      "Poster": "/nkmOaXNRoioViN9OQf2n9Iu6akA.jpg",
       "Gender": 2
     },
     {
@@ -4253,6 +4260,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 6648,
+      "FullName": "Ingmar Bergman",
+      "Amount": 2,
+      "Poster": "/nkmOaXNRoioViN9OQf2n9Iu6akA.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 51894,
       "FullName": "J. A. Bayona",
       "Amount": 2,
@@ -4598,13 +4612,13 @@ var data = {
       "Gender": 0
     }
   ],
-  "ProtagonistTotalAll": 962,
-  "ProtagonistTotalFemale": 324,
-  "ProtagonistTotalMale": 622,
+  "ProtagonistTotalAll": 964,
+  "ProtagonistTotalFemale": 325,
+  "ProtagonistTotalMale": 623,
   "ProtagonistTotalNonBinary": 6,
-  "ProtagonistUniqueAll": 615,
-  "ProtagonistUniqueFemale": 230,
-  "ProtagonistUniqueMale": 372,
+  "ProtagonistUniqueAll": 617,
+  "ProtagonistUniqueFemale": 231,
+  "ProtagonistUniqueMale": 373,
   "ProtagonistUniqueNonBinary": 4,
   "ProtagonistAll": [
     {
@@ -6423,6 +6437,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 4111,
+      "FullName": "Ingrid Bergman",
+      "Amount": 1,
+      "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 1350,
       "FullName": "Ir\u00E8ne Jacob",
       "Amount": 1,
@@ -8002,12 +8023,12 @@ var data = {
       "Gender": 0
     }
   ],
-  "TopCastTotalAll": 2865,
-  "TopCastTotalFemale": 1083,
-  "TopCastTotalMale": 1710,
+  "TopCastTotalAll": 2871,
+  "TopCastTotalFemale": 1087,
+  "TopCastTotalMale": 1712,
   "TopCastTotalNonBinary": 12,
-  "TopCastUniqueAll": 1848,
-  "TopCastUniqueFemale": 726,
+  "TopCastUniqueAll": 1850,
+  "TopCastUniqueFemale": 728,
   "TopCastUniqueMale": 1058,
   "TopCastUniqueNonBinary": 6,
   "TopCastAll": [
@@ -8852,6 +8873,13 @@ var data = {
       "Gender": 2
     },
     {
+      "ID": 57755,
+      "FullName": "Woody Harrelson",
+      "Amount": 4,
+      "Poster": "/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg",
+      "Gender": 2
+    },
+    {
       "ID": 11664,
       "FullName": "Zooey Deschanel",
       "Amount": 4,
@@ -9260,6 +9288,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 4111,
+      "FullName": "Ingrid Bergman",
+      "Amount": 3,
+      "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 8944,
       "FullName": "Jamie Lee Curtis",
       "Amount": 3,
@@ -9631,13 +9666,6 @@ var data = {
       "Gender": 0
     },
     {
-      "ID": 4111,
-      "FullName": "Ingrid Bergman",
-      "Amount": 2,
-      "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
-      "Gender": 0
-    },
-    {
       "ID": 17882,
       "FullName": "Isabelle Huppert",
       "Amount": 2,
@@ -9782,6 +9810,13 @@ var data = {
       "FullName": "Lisa Kudrow",
       "Amount": 2,
       "Poster": "/ziatnwJRiBJIcc8jlk6xoClhfOy.jpg",
+      "Gender": 0
+    },
+    {
+      "ID": 11916,
+      "FullName": "Liv Ullmann",
+      "Amount": 2,
+      "Poster": "/sF0UHcLrpTsg0eaSaIYee2IxSBB.jpg",
       "Gender": 0
     },
     {
@@ -10536,6 +10571,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 57755,
+      "FullName": "Woody Harrelson",
+      "Amount": 4,
+      "Poster": "/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 1158,
       "FullName": "Al Pacino",
       "Amount": 3,
@@ -10982,13 +11024,6 @@ var data = {
       "Amount": 3,
       "Poster": "/Pi6wQ0vDX6mAaFUWWVFrmums3s.jpg",
       "Gender": 0
-    },
-    {
-      "ID": 57755,
-      "FullName": "Woody Harrelson",
-      "Amount": 3,
-      "Poster": "/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg",
-      "Gender": 0
     }
   ],
   "TopCastNonBinary": [
@@ -11035,13 +11070,13 @@ var data = {
       "Gender": 0
     }
   ],
-  "EntireCastTotalAll": 40200,
-  "EntireCastTotalFemale": 9718,
-  "EntireCastTotalMale": 20576,
+  "EntireCastTotalAll": 40267,
+  "EntireCastTotalFemale": 9737,
+  "EntireCastTotalMale": 20623,
   "EntireCastTotalNonBinary": 29,
-  "EntireCastUniqueAll": 31719,
-  "EntireCastUniqueFemale": 7593,
-  "EntireCastUniqueMale": 14459,
+  "EntireCastUniqueAll": 31749,
+  "EntireCastUniqueFemale": 7604,
+  "EntireCastUniqueMale": 14477,
   "EntireCastUniqueNonBinary": 17,
   "EntireCastAll": [
     {
@@ -12209,6 +12244,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 3202,
+      "FullName": "Edie McClurg",
+      "Amount": 5,
+      "Poster": "/vU5y4hZe1WhqDAPP5jEfrWv4Iaq.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 42998,
       "FullName": "Elizabeth Berrington",
       "Amount": 5,
@@ -13352,6 +13394,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 57755,
+      "FullName": "Woody Harrelson",
+      "Amount": 7,
+      "Poster": "/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 3982,
       "FullName": "Xander Berkeley",
       "Amount": 7,
@@ -13589,7 +13638,7 @@ var data = {
     "1975": 5,
     "1976": 4,
     "1977": 3,
-    "1978": 3,
+    "1978": 4,
     "1979": 5,
     "1980": 2,
     "1981": 1,
@@ -13605,7 +13654,7 @@ var data = {
     "1991": 10,
     "1992": 9,
     "1993": 15,
-    "1994": 16,
+    "1994": 17,
     "1995": 17,
     "1996": 17,
     "1997": 25,
@@ -13689,9 +13738,9 @@ var data = {
       "RatingTotal": 71
     },
     "1970": {
-      "Count": 35,
-      "RatingCount": 10,
-      "RatingTotal": 38
+      "Count": 36,
+      "RatingCount": 11,
+      "RatingTotal": 43
     },
     "1980": {
       "Count": 51,
@@ -13699,7 +13748,7 @@ var data = {
       "RatingTotal": 39
     },
     "1990": {
-      "Count": 172,
+      "Count": 173,
       "RatingCount": 35,
       "RatingTotal": 134
     },
@@ -14035,6 +14084,7 @@ var data = {
     66,
     24,
     122,
+    970,
     108,
     39,
     151,
@@ -14124,8 +14174,7 @@ var data = {
     902,
     351,
     324,
-    281,
-    53
+    281
   ],
   "LowestRatedFilms": [
     149,
@@ -14556,7 +14605,7 @@ var data = {
     "0": 22,
     "30": 11,
     "60": 134,
-    "90": 531,
+    "90": 533,
     "120": 226,
     "150": 34,
     "180": 9,
@@ -14567,7 +14616,7 @@ var data = {
     "Cantonese": 1,
     "Czech": 2,
     "Danish": 1,
-    "English": 862,
+    "English": 863,
     "French": 28,
     "German": 4,
     "Hungarian": 1,
@@ -14583,7 +14632,7 @@ var data = {
     "Portuguese": 2,
     "Russian": 2,
     "Spanish": 6,
-    "Swedish": 5
+    "Swedish": 6
   },
   "FilmsPerCountryOrigin": {
     "Angola": 1,
@@ -14599,7 +14648,7 @@ var data = {
     "Czechoslovakia": 2,
     "Denmark": 7,
     "France": 42,
-    "Germany": 14,
+    "Germany": 15,
     "Hong Kong": 2,
     "Hungary": 2,
     "Iceland": 2,
@@ -14622,13 +14671,13 @@ var data = {
     "South Korea": 4,
     "Soviet Union": 2,
     "Spain": 7,
-    "Sweden": 5,
+    "Sweden": 6,
     "Switzerland": 3,
     "Taiwan": 1,
     "Ukraine": 1,
     "United Arab Emirates": 1,
     "United Kingdom": 171,
-    "United States of America": 773
+    "United States of America": 774
   },
   "FilmsPerCountryProduction": {
     "Angola": 1,
@@ -14647,7 +14696,7 @@ var data = {
     "Ethiopia": 1,
     "Finland": 3,
     "France": 93,
-    "Germany": 64,
+    "Germany": 65,
     "Ghana": 1,
     "Greece": 4,
     "Hong Kong": 6,
@@ -14680,15 +14729,15 @@ var data = {
     "South Korea": 6,
     "Soviet Union": 2,
     "Spain": 17,
-    "Sweden": 10,
+    "Sweden": 11,
     "Switzerland": 9,
     "Taiwan": 2,
     "Thailand": 1,
     "Turkey": 2,
     "Ukraine": 2,
     "United Arab Emirates": 2,
-    "United Kingdom": 235,
-    "United States of America": 823
+    "United Kingdom": 236,
+    "United States of America": 824
   },
   "MostFrequentWords": {
     "movie": [
@@ -16436,7 +16485,7 @@ var data = {
           "Year": 2016,
           "LetterboxdIdentifier": "948A",
           "PrimaryLanguage": "Korean",
-          "PosterUrl": "/dLlH4aNHdnmf62umnInL8xPlPzw.jpg",
+          "PosterUrl": "oZrLMir5kxqErMoLQTG9gP4NCyk.jpg",
           "RatingSelf": 4
         },
         {
@@ -17888,6 +17937,16 @@ var data = {
           "PrimaryLanguage": "English",
           "PosterUrl": "/sWKsJln7CBXuNCGJMMVnCj5xzlQ.jpg",
           "RatingSelf": 3
+        },
+        {
+          "Order": 204,
+          "FilmName": "Autumn Sonata",
+          "FilmNameOriginal": "H\u00F6stsonaten",
+          "Year": 1978,
+          "LetterboxdIdentifier": "1Rio",
+          "PrimaryLanguage": "Swedish",
+          "PosterUrl": "/6beNbtCXv3GkzHkxkGYf38ib7v8.jpg",
+          "RatingSelf": 5
         }
       ]
     }

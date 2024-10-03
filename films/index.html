@@ -378,7 +378,7 @@
 			}
 
 			function showHidden() {
-				d3.select('.initially_hidden').style('display', 'block');
+				d3.selectAll('.initially_hidden').style('display', 'inline');
 			}
 
 			function showList(listName) {
@@ -1295,7 +1295,7 @@
                         '<tr' + tooltip + '>' +
 						'<td><a target="_blank" href="' + url + '">' + studio.Title + '</a></td>' +
                         '<td>' + studio.OriginCountry + '</td>' +
-                        '<td class="right">' + studio.Amount + '</td>' +                        
+                        '<td class="right">' + studio.Amount + '</td>' +
                         '</tr>');
                 }
 
@@ -1327,6 +1327,128 @@
 				output.sort();
 				alert(output.join('\r\n'));
 			}
+
+            function showTitleLengthChart() {
+
+                var titlesByLength = Array(1000);
+                var lengths = Array(1000);
+                for (var a = 0; a < lengths.length; a++) {
+                    lengths[a] = 0;
+                    titlesByLength[a] = [];
+                }
+                var highest = 0;
+                for (var index in films) {
+                    var film = films[index];
+                    lengths[film.Title.length]++;
+                    highest = Math.max(highest, film.Title.length);
+                    titlesByLength[film.Title.length].push(index);
+                }
+
+                highest += 10 - (highest % 10)
+
+                $('body').append('<div id="outside"><div class="title">Films Watched by Title Length</div><figure class="highcharts-figure"><div id="container"></div></figure></div>');
+
+                var cats = [];
+                var values = [];
+
+                for (var a = 0; a <= highest; a++) {
+                    cats.push(a)
+                    values.push(lengths[a])
+                }
+
+                Highcharts.chart('container', {
+                    chart: {
+                        type: 'column',
+                        width: '802',
+                        spacingLeft: 100,
+                        marginLeft: 70,
+                    },
+                    title: {
+                        text: null,
+                        enabled: false,
+                    },
+                    credits: {
+                        enabled: false
+                    },
+                    legend: {
+                        enabled: false
+                    },
+                    xAxis: {
+                        category: false,
+                        categories: cats,
+                        tickInterval: 10,
+                        tickColor: '#ddd',
+                        tickLength: 8,
+                        tickWidth: 1,
+                        tickmarkPlacement: 'between',
+                        title: {
+                            text: 'Characters'
+                        }
+                    },
+                    yAxis: {
+                        plotLines: [{
+                            color: '#ddd',
+                            value: 0,
+                            width: 1,
+                            zIndex: 5
+                        }],
+                        gridLineWidth: 1,
+                        tickColor: '#ddd',
+                        tickLength: 8,
+                        tickWidth: 1,
+                        tickmarkPlacement: 'between',
+                        title: {
+                            text: 'Films Watched'
+                        }
+                    },
+                    tooltip: {
+                        formatter: function () {
+                            return this.point.x + ' character' + (this.point.x == 1 ? '' : 's') + '<br/>' + this.point.y + ' film' + (this.point.y == 1 ? '' : 's')
+                        }
+                    },
+                    plotOptions: {
+                        column: {
+                            pointPadding: 0,
+                            borderWidth: 0,
+                            dataLabels: {
+                                enabled: false,
+                                align: 'center',
+                                x: 3
+                            },
+                            states: {
+                                hover: {
+                                    color: 'RGBA(229, 0, 126)',
+                                    enabled: true
+                                },
+                                inactive: {
+                                    opacity: 1
+                                }
+                            }
+                        },
+                    },
+                    series: [
+                        {
+                            groupPadding: 0,
+                            pointWidth: 4,
+                            borderRadius: 0,
+                            name: '',
+                            animation: false,
+                            color: 'black',
+                            data: values,
+                            enableMouseTracking: true,
+                            borderRadius: 0,
+                            cursor: 'pointer',
+                            point: {
+                                events: {
+                                    click: function () {
+                                        showFilms(titlesByLength[this.x].join(' '));
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                });
+            }
 
 			function showTitles() {
 
@@ -1418,7 +1540,7 @@
 
 				createNewTable();
 
-				thead.append('<tr class="topheader"><th colspan="3">First Letter of Title</th></tr>');
+				thead.append('<tr class="topheader"><th colspan="3">First Character of Title</th></tr>');
 				thead.append('<tr class="bottomheader"><th>Character</th><th>Amount</th><th>Bar</th></tr>');
 
 				var maxCharacters = 0;
@@ -1464,6 +1586,8 @@
 						3: { sorter: false },
 					}
 				});
+
+				showTitleLengthChart();
 
 				deactivateAll();
 				$(event.target).addClass('active');
@@ -2447,6 +2571,8 @@
 				//var lowest = shuffled.length >= galleryAmount - 1 ? shuffled[galleryAmount - 1].Amount : 0;
 
 				var shuffled = dataSource.filter(a => a.Amount > minimum);
+				shuffled = shuffleArray(shuffled);
+				shuffled = shuffled.sort((a, b) => b.Amount - a.Amount);
 
 				gallery.append('<div class="title">Most Frequent - ' + jobSpecific + (gender == 'All' ? '' : ' - ' + gender) + '</div>');
 				gallery.append('<div class="inside"></div>');

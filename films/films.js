@@ -10317,7 +10317,7 @@ var films = [
     "Minutes": 145,
     "Watched": 654559,
     "Id": "948A",
-    "Poster": "/dLlH4aNHdnmf62umnInL8xPlPzw.jpg",
+    "Poster": "oZrLMir5kxqErMoLQTG9gP4NCyk.jpg",
     "Year": 2016,
     "When": "2016-06-01"
   },
@@ -12595,5 +12595,31 @@ var films = [
     "Poster": "/sWKsJln7CBXuNCGJMMVnCj5xzlQ.jpg",
     "Year": 2015,
     "When": "2016-06-03"
+  },
+  {
+    "Title": "Natural Born Killers",
+    "TitleOriginal": "Natural Born Killers",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.61,
+    "Minutes": 118,
+    "Watched": 331293,
+    "Id": "2aNg",
+    "Poster": "/fEKZwT91gxvkAoyPgpNXo8W5fu0.jpg",
+    "Year": 1994,
+    "When": "1994-08-26"
+  },
+  {
+    "Title": "Autumn Sonata",
+    "TitleOriginal": "H\u00F6stsonaten",
+    "Language": "Swedish",
+    "RatingSelf": 5,
+    "RatingLetterboxd": 4.47,
+    "Minutes": 93,
+    "Watched": 112931,
+    "Id": "1Rio",
+    "Poster": "/6beNbtCXv3GkzHkxkGYf38ib7v8.jpg",
+    "Year": 1978,
+    "When": "1978-10-08"
   }
 ]
