@@ -10993,7 +10993,7 @@ var films = [
     "Minutes": 142,
     "Watched": 341769,
     "Id": "1w9q",
-    "Poster": "/qNbMsKVzigERgJUbwf8pKyZogpb.jpg",
+    "Poster": "1iFeTvTxSDFeGsUlYLDvqQNGEds.jpg",
     "Year": 1985,
     "When": "1985-10-17"
   },
@@ -12759,10 +12759,23 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.02,
     "Minutes": 100,
-    "Watched": 77698,
+    "Watched": 77711,
     "Id": "1Kce",
-    "Poster": "/93VKekQFOkIyQsPzmv2gVpNLtEZ.jpg",
+    "Poster": "/jSbFWWbkUq5N5ikewJHNATcWnxS.jpg",
     "Year": 1947,
     "When": "1947-05-26"
+  },
+  {
+    "Title": "For Sama",
+    "TitleOriginal": "For Sama",
+    "Language": "Arabic",
+    "RatingSelf": 5,
+    "RatingLetterboxd": 4.35,
+    "Minutes": 100,
+    "Watched": 32438,
+    "Id": "l9wQ",
+    "Poster": "/mDna51F8QfrJFZOgPGQUz3VKqsB.jpg",
+    "Year": 2019,
+    "When": "2019-07-26"
   }
 ]

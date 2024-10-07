@@ -1,5 +1,5 @@
 var data = {
-  "FilmsWithThemes": 903,
+  "FilmsWithThemes": 904,
   "Themes": [
     {
       "Url": "/theme/moving-relationship-stories/",
@@ -41,13 +41,13 @@ var data = {
       "Url": "/mini-theme/sad-depressing-illness-heartbreaking-touching/",
       "Text": "Powerful stories of heartbreak and suffering",
       "IsMini": true,
-      "Amount": 137
+      "Amount": 138
     },
     {
       "Url": "/mini-theme/touching-cry-family-sad-tear-jerker/",
       "Text": "Touching and sentimental family stories",
       "IsMini": true,
-      "Amount": 129
+      "Amount": 130
     },
     {
       "Url": "/theme/horror-the-undead-and-monster-classics/",
@@ -83,7 +83,7 @@ var data = {
       "Url": "/mini-theme/family-touching-kids-cry-tear-jerker/",
       "Text": "Emotional and touching family dramas",
       "IsMini": true,
-      "Amount": 99
+      "Amount": 100
     },
     {
       "Url": "/mini-theme/killing-slasher-gruesome-gory-bloody/",
@@ -176,16 +176,16 @@ var data = {
       "Amount": 71
     },
     {
-      "Url": "/mini-theme/chilling-eerie-terrifying-terror-frighten/",
-      "Text": "Creepy, chilling, and terrifying horror",
+      "Url": "/mini-theme/family-moving-heartbreaking-sadness-sad/",
+      "Text": "Heartbreaking and moving family drama",
       "IsMini": true,
       "Amount": 70
     },
     {
-      "Url": "/mini-theme/family-moving-heartbreaking-sadness-sad/",
-      "Text": "Heartbreaking and moving family drama",
+      "Url": "/mini-theme/chilling-eerie-terrifying-terror-frighten/",
+      "Text": "Creepy, chilling, and terrifying horror",
       "IsMini": true,
-      "Amount": 69
+      "Amount": 70
     },
     {
       "Url": "/mini-theme/romance-captivating-loves-lover-beauty/",
@@ -356,6 +356,12 @@ var data = {
       "Amount": 38
     },
     {
+      "Url": "/theme/war-and-historical-adventure/",
+      "Text": "War and historical adventure",
+      "IsMini": false,
+      "Amount": 37
+    },
+    {
       "Url": "/mini-theme/spy-intrigue-thriller-suspense-tense/",
       "Text": "Exciting spy thrillers with tense intrigue",
       "IsMini": true,
@@ -377,12 +383,6 @@ var data = {
       "Url": "/mini-theme/marriage-drama-family-dramas-melodrama/",
       "Text": "Enduring stories of family and marital drama",
       "IsMini": true,
-      "Amount": 36
-    },
-    {
-      "Url": "/theme/war-and-historical-adventure/",
-      "Text": "War and historical adventure",
-      "IsMini": false,
       "Amount": 36
     },
     {
@@ -527,7 +527,7 @@ var data = {
       "Url": "/mini-theme/documentary-sad-fascinating-emotional-heartbreaking/",
       "Text": "Fascinating, emotional stories and documentaries",
       "IsMini": true,
-      "Amount": 14
+      "Amount": 15
     },
     {
       "Url": "/mini-theme/zombies-undead-flesh-blood-infected/",
@@ -1360,14 +1360,14 @@ var data = {
   ],
   "LastUpdated": "7 Oct 2024",
   "Username": "LaLunaLlena",
-  "TotalFilms": 982,
-  "RatedFilms": 324,
-  "FilmsWithGenres": 981,
-  "TotalMinutes": 105206,
-  "FilmsWithRuntime": 981,
-  "TotalMinutesFull": 104081,
-  "FilmsWithRuntimeFull": 943,
-  "AverageFilmYearMean": 1999.6547861507129,
+  "TotalFilms": 983,
+  "RatedFilms": 325,
+  "FilmsWithGenres": 982,
+  "TotalMinutes": 105306,
+  "FilmsWithRuntime": 982,
+  "TotalMinutesFull": 104181,
+  "FilmsWithRuntimeFull": 944,
+  "AverageFilmYearMean": 1999.674465920651,
   "AverageFilmYearMedian": 2004,
   "AverageFilmYearMode": "2007",
   "Genres": {
@@ -1397,9 +1397,9 @@ var data = {
       "RatingTotal": 133
     },
     "Documentary": {
-      "Count": 50,
-      "RatingCount": 15,
-      "RatingTotal": 49
+      "Count": 51,
+      "RatingCount": 16,
+      "RatingTotal": 54
     },
     "Drama": {
       "Count": 518,
@@ -1457,9 +1457,9 @@ var data = {
       "RatingTotal": 14
     },
     "War": {
-      "Count": 32,
-      "RatingCount": 11,
-      "RatingTotal": 45
+      "Count": 33,
+      "RatingCount": 12,
+      "RatingTotal": 50
     },
     "Western": {
       "Count": 4,
@@ -1467,12 +1467,12 @@ var data = {
       "RatingTotal": 4
     }
   },
-  "DirectorTotalAll": 1113,
-  "DirectorTotalFemale": 145,
+  "DirectorTotalAll": 1115,
+  "DirectorTotalFemale": 146,
   "DirectorTotalMale": 936,
   "DirectorTotalNonBinary": 1,
-  "DirectorUniqueAll": 754,
-  "DirectorUniqueFemale": 119,
+  "DirectorUniqueAll": 756,
+  "DirectorUniqueFemale": 120,
   "DirectorUniqueMale": 605,
   "DirectorUniqueNonBinary": 1,
   "DirectorAll": [
@@ -3549,6 +3549,13 @@ var data = {
       "Amount": 1,
       "Poster": "/dDSlofPZbJxtYBO2f73XjNwcFVT.jpg",
       "Gender": 0
+    },
+    {
+      "ID": 2220265,
+      "FullName": "Waad al-Kateab",
+      "Amount": 1,
+      "Poster": "/rhpBO1OBzwdn4BtERlEmwy5JupZ.jpg",
+      "Gender": 0
     }
   ],
   "DirectorMale": [
@@ -4654,12 +4661,12 @@ var data = {
       "Gender": 0
     }
   ],
-  "ProtagonistTotalAll": 975,
-  "ProtagonistTotalFemale": 336,
+  "ProtagonistTotalAll": 976,
+  "ProtagonistTotalFemale": 337,
   "ProtagonistTotalMale": 623,
   "ProtagonistTotalNonBinary": 6,
-  "ProtagonistUniqueAll": 624,
-  "ProtagonistUniqueFemale": 237,
+  "ProtagonistUniqueAll": 625,
+  "ProtagonistUniqueFemale": 238,
   "ProtagonistUniqueMale": 374,
   "ProtagonistUniqueNonBinary": 4,
   "ProtagonistAll": [
@@ -7249,6 +7256,13 @@ var data = {
       "Gender": 0
     },
     {
+      "ID": 2461576,
+      "FullName": "Sama Al-Khateab",
+      "Amount": 1,
+      "Poster": "/ujR4KGJ7i2oqt7htGbdsvBxtUoL.jpg",
+      "Gender": 0
+    },
+    {
       "ID": 2206,
       "FullName": "Samantha Morton",
       "Amount": 1,
@@ -8107,12 +8121,12 @@ var data = {
       "Gender": 0
     }
   ],
-  "TopCastTotalAll": 2904,
-  "TopCastTotalFemale": 1111,
+  "TopCastTotalAll": 2907,
+  "TopCastTotalFemale": 1113,
   "TopCastTotalMale": 1720,
   "TopCastTotalNonBinary": 13,
-  "TopCastUniqueAll": 1870,
-  "TopCastUniqueFemale": 744,
+  "TopCastUniqueAll": 1873,
+  "TopCastUniqueFemale": 746,
   "TopCastUniqueMale": 1061,
   "TopCastUniqueNonBinary": 7,
   "TopCastAll": [
@@ -11189,12 +11203,12 @@ var data = {
       "Gender": 0
     }
   ],
-  "EntireCastTotalAll": 40577,
-  "EntireCastTotalFemale": 9893,
+  "EntireCastTotalAll": 40580,
+  "EntireCastTotalFemale": 9895,
   "EntireCastTotalMale": 20760,
   "EntireCastTotalNonBinary": 28,
-  "EntireCastUniqueAll": 31949,
-  "EntireCastUniqueFemale": 7703,
+  "EntireCastUniqueAll": 31952,
+  "EntireCastUniqueFemale": 7705,
   "EntireCastUniqueMale": 14556,
   "EntireCastUniqueNonBinary": 17,
   "EntireCastAll": [
@@ -13868,7 +13882,7 @@ var data = {
     "2016": 22,
     "2017": 25,
     "2018": 21,
-    "2019": 28,
+    "2019": 29,
     "2020": 7,
     "2021": 14,
     "2022": 20,
@@ -13947,9 +13961,9 @@ var data = {
       "RatingTotal": 138
     },
     "2010": {
-      "Count": 230,
-      "RatingCount": 118,
-      "RatingTotal": 404
+      "Count": 231,
+      "RatingCount": 119,
+      "RatingTotal": 409
     },
     "2020": {
       "Count": 74,
@@ -14295,6 +14309,7 @@ var data = {
     120,
     142,
     9,
+    982,
     123,
     949,
     892,
@@ -14362,8 +14377,7 @@ var data = {
     19,
     947,
     901,
-    350,
-    323
+    350
   ],
   "LowestRatedFilms": [
     149,
@@ -14677,6 +14691,7 @@ var data = {
     21,
     778,
     241,
+    982,
     134,
     883,
     86,
@@ -14685,8 +14700,7 @@ var data = {
     893,
     942,
     213,
-    945,
-    961
+    945
   ],
   "OldestReleasedFilms": [
     937,
@@ -14794,14 +14808,14 @@ var data = {
     "0": 23,
     "30": 12,
     "60": 135,
-    "90": 537,
+    "90": 538,
     "120": 230,
     "150": 34,
     "180": 9,
     "210": 1
   },
   "FilmsPerLanguage": {
-    "Arabic": 1,
+    "Arabic": 2,
     "Cantonese": 1,
     "Czech": 2,
     "Danish": 1,
@@ -14865,8 +14879,8 @@ var data = {
     "Taiwan": 1,
     "Ukraine": 1,
     "United Arab Emirates": 1,
-    "United Kingdom": 173,
-    "United States of America": 782
+    "United Kingdom": 174,
+    "United States of America": 783
   },
   "FilmsPerCountryProduction": {
     "Angola": 1,
@@ -14920,13 +14934,14 @@ var data = {
     "Spain": 17,
     "Sweden": 11,
     "Switzerland": 9,
+    "Syrian Arab Republic": 1,
     "Taiwan": 2,
     "Thailand": 1,
     "Turkey": 2,
     "Ukraine": 2,
     "United Arab Emirates": 2,
-    "United Kingdom": 237,
-    "United States of America": 832
+    "United Kingdom": 238,
+    "United States of America": 833
   },
   "MostFrequentWords": {
     "movie": [
@@ -15580,10 +15595,10 @@ var data = {
   },
   "Backdrops": [
     {
-      "ImageUrl": "dQFAmJ1pzF5kzVwbGte6x8g6Wro.jpg",
-      "FilmName": "Daisies\u003Cbr/\u003E(1966)",
-      "LetterboxdId": "LZk",
-      "Colour": "#416926"
+      "ImageUrl": "/foFq1RZWQIgFuCQ0nyYccywjFyX.jpg",
+      "FilmName": "Portrait of a Lady on Fire\u003Cbr/\u003E(2019)",
+      "LetterboxdId": "jkPq",
+      "Colour": "#18774A"
     }
   ],
   "Lists": [
@@ -17092,7 +17107,7 @@ var data = {
           "Year": 1985,
           "LetterboxdIdentifier": "1w9q",
           "PrimaryLanguage": "Russian",
-          "PosterUrl": "/qNbMsKVzigERgJUbwf8pKyZogpb.jpg",
+          "PosterUrl": "1iFeTvTxSDFeGsUlYLDvqQNGEds.jpg",
           "RatingSelf": 5
         },
         {
@@ -18232,8 +18247,18 @@ var data = {
           "Year": 1947,
           "LetterboxdIdentifier": "1Kce",
           "PrimaryLanguage": "English",
-          "PosterUrl": "/93VKekQFOkIyQsPzmv2gVpNLtEZ.jpg",
+          "PosterUrl": "/jSbFWWbkUq5N5ikewJHNATcWnxS.jpg",
           "RatingSelf": 4
+        },
+        {
+          "Order": 214,
+          "FilmName": "For Sama",
+          "FilmNameOriginal": "For Sama",
+          "Year": 2019,
+          "LetterboxdIdentifier": "l9wQ",
+          "PrimaryLanguage": "Arabic",
+          "PosterUrl": "/mDna51F8QfrJFZOgPGQUz3VKqsB.jpg",
+          "RatingSelf": 5
         }
       ]
     }

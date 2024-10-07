@@ -2033,7 +2033,7 @@
 						title = film.TitleOriginal + '<br>(&quot;' + title + '&quot;)';
 					}
 					insideGallery.append(
-						'<div class="item ttt" data-tooltip="' + film.Title + '">' +
+						'<div class="item ttt" data-tooltip="' + title + '">' +
 						'<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
 						'<div class="details">' + film.RatingLetterboxd + '<br/>' + film.Year + '<br>' + (film.RatingSelf > 0 ? '&#9670;'.repeat(film.RatingSelf) : '&nbsp;') + '</div>');
 					displayed++;
@@ -2053,7 +2053,7 @@
 					var film = films[index];
 					var title = film.Title;
 					if (film.TitleOriginal != film.Title) {
-						title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
+						title = film.TitleOriginal + '<br>(&quot;' + title + '&quot;)';
 					}
 					insideGallery.append(
 						'<div class="item ttt" data-tooltip="' + title + '">' +
