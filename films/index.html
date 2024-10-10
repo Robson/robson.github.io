@@ -307,55 +307,6 @@
 				$('body').append('<div class="gallery"></div>');
 			}
 
-			function makeJobRow(totalAll, totalFemale, totalMale, totalNonBinary, uniqueAll, uniqueFemale, uniqueMale, uniqueNonBinary) {
-
-				var total = totalFemale + totalMale + totalNonBinary;
-				var unique = uniqueFemale + uniqueMale + uniqueNonBinary;
-				totalFemalePercent = totalFemale / total * 100;
-				totalMalePercent = totalMale / total * 100;
-				totalNonBinaryPercent = totalNonBinary / total * 100;
-				uniqueFemalePercent = uniqueFemale / unique * 100;
-				uniqueMalePercent = uniqueMale / unique * 100;
-				uniqueNonBinaryPercent = uniqueNonBinary / unique * 100;
-
-				/*
-				createNewTable(false);
-				thead.append('<tr class="topheader"><th colspan="4">Total</th><th colspan="4">Distinct</th></tr>');
-				thead.append('<tr class="bottomheader"><th class="right">All</th><th class="right">Women</th><th class="right">Men</th><th class="right">Non-Binary</th><th class="right">All</th><th class="right">Women</th><th class="right">Men</th><th class="right">Non-Binary</th></tr>');
-
-				tbody.append(
-					'<tr>' +
-					'<td class="right">' + totalAll + '</td>' +
-					'<td class="right ttt" data-tooltip="' + totalFemalePercent.toFixed(2) + '% (' + totalFemale + ')">' + totalFemalePercent.toFixed(0) + '%</td>' +
-					'<td class="right ttt" data-tooltip="' + totalMalePercent.toFixed(2) + '% (' + totalMale + ')">' + totalMalePercent.toFixed(0) + '%</td>' +
-					'<td class="right ttt" data-tooltip="' + totalNonBinaryPercent.toFixed(2) + '% (' + totalNonBinary + ')">' + totalNonBinaryPercent.toFixed(0) + '%</td>' +
-					'<td class="right">' + uniqueAll + '</td>' +
-					'<td class="right ttt" data-tooltip="' + uniqueFemalePercent.toFixed(2) + '% (' + uniqueFemale + ')">' + uniqueFemalePercent.toFixed(0) + '%</td>' +
-					'<td class="right ttt" data-tooltip="' + uniqueMalePercent.toFixed(2) + '% (' + uniqueMale + ')">' + uniqueMalePercent.toFixed(0) + '%</td>' +
-					'<td class="right ttt" data-tooltip="' + uniqueNonBinaryPercent.toFixed(2) + '% (' + uniqueNonBinary + ')">' + uniqueNonBinaryPercent.toFixed(0) + '%</td>' +
-					'</tr>')
-				*/
-
-				createNewTable(false);
-
-				//<th class="right">All</th>
-				thead.append('<tr><th>&nbsp;</th><th class="right">Women</th><th class="right">Men</th><th class="right">Non-Binary</th></tr>');
-
-				tbody.append(
-					'<tr>' +
-					'<td>Total</td>' +
-					'<td class="right ttt" data-tooltip="' + totalFemalePercent.toFixed(2) + '% (' + totalFemale + ')">' + totalFemalePercent.toFixed(0) + '%</td>' +
-					'<td class="right ttt" data-tooltip="' + totalMalePercent.toFixed(2) + '% (' + totalMale + ')">' + totalMalePercent.toFixed(0) + '%</td>' +
-					'<td class="right ttt" data-tooltip="' + totalNonBinaryPercent.toFixed(2) + '% (' + totalNonBinary + ')">' + totalNonBinaryPercent.toFixed(0) + '%</td>' +
-					'</tr>' +
-					'<tr>' +
-					'<td>Distinct</td>' +
-					'<td class="right ttt" data-tooltip="' + uniqueFemalePercent.toFixed(2) + '% (' + uniqueFemale + ')">' + uniqueFemalePercent.toFixed(0) + '%</td>' +
-					'<td class="right ttt" data-tooltip="' + uniqueMalePercent.toFixed(2) + '% (' + uniqueMale + ')">' + uniqueMalePercent.toFixed(0) + '%</td>' +
-					'<td class="right ttt" data-tooltip="' + uniqueNonBinaryPercent.toFixed(2) + '% (' + uniqueNonBinary + ')">' + uniqueNonBinaryPercent.toFixed(0) + '%</td>' +
-					'</tr>')
-			}
-
 			function makeBox(number, description, tooltip = '', isYear = false) {
 				var attribs = ' class="tablesorter box"';
 				if (tooltip) {
@@ -404,7 +355,7 @@
 
 					details += '<br/>';
 					if (lbList.Entries[film].PrimaryLanguage.length == 0) {
-						details += 'No Spoken Language';
+						details += 'Silent';
 					} else if (lbList.Entries[film].PrimaryLanguage != "English") {
 						details += lbList.Entries[film].PrimaryLanguage;
 					} else {
@@ -438,7 +389,7 @@
 
 					var lang = '';
 					if (lbList.Entries[film].PrimaryLanguage.length == 0) {
-						lang = 'No Spoken Language';
+						lang = 'Silent';
 					} else if (lbList.Entries[film].PrimaryLanguage != "English") {
 						lang = lbList.Entries[film].PrimaryLanguage;
 					}
@@ -511,7 +462,7 @@
 
 					details += '<br/>';
 					if (film.PrimaryLanguage.length == 0) {
-						details += 'No Spoken Language';
+						details += 'Silent';
 					} else if (film.PrimaryLanguage != "English") {
 						details += film.PrimaryLanguage;
 					} else {
@@ -673,7 +624,7 @@
 							point: {
 								events: {
 									click: function () {
-										var year = (1920 + (this.x * 10) + this.series.name);
+										var year = (1900 + (this.x * 10) + this.series.name);
 										window.open('https://letterboxd.com/' + data.Username + '/films/year/' + year + '/by/name/size/large/', '_blank');
 									}
 								}
@@ -699,7 +650,8 @@
 
 				//$('body').append('<div class="boxes"></div>');
 				//$('.boxes').append(makeBox(Object.values(data.FilmsWatchedPerYear).filter(value => value > 0).length, 'Watched Years'));
-
+				
+				/*
 				createNewTable();
 
 				thead.append('<tr class="topheader"><th colspan="3">Films Watched by Release Year</th></tr>')
@@ -745,6 +697,7 @@
 						3: { sorter: false }
 					}
 				});
+				*/
 
 				var yearsWithoutFilms = [
 					1870, 1871, 1872, 1873, 1875, 1876, 1877, 1879,
@@ -769,10 +722,6 @@
 					}
 				}
 
-				$('body').append('<div class="boxes"></div>');
-				$('.boxes').last().append(makeBox(watched, 'Watched Years'));
-				$('.boxes').last().append(makeBox(unwatched, 'Unwatched Years'));
-
 				if (documentWidth > 480) {
 					createNewTable();
 					thead.append('<tr><th colspan="10">Years Without Watched Films</th></tr>');
@@ -796,6 +745,10 @@
 						tbody.append(output);
 					}
 				}
+
+                $('body').append('<div class="boxes"></div>');
+                $('.boxes').last().append(makeBox(watched, 'Watched Years'));
+                $('.boxes').last().append(makeBox(unwatched, 'Unwatched Years'));
 
 				createTooltipTriggers();
 
@@ -1606,7 +1559,7 @@
 				var highest = 0;
 				for (var index in films) {
 					var film = films[index];
-					if (film.Minutes > 0) {
+					if (film.Minutes > 1) {
 						minutes[+film.Minutes]++;
 						highest = Math.max(highest, film.Minutes);
 						filmsByLength[+film.Minutes].push(index);
@@ -1775,7 +1728,7 @@
 					(Math.floor(60 * seconds) + '').padStart(2, '0') + '<span style="opacity:0.333">s</span>';
 
 				$('body').append('<div class="boxes"></div>');
-				$('.boxes').last().append(makeBox(lenLabel, 'Average Film Length (Excluding Short Films)'));
+				$('.boxes').last().append(makeBox(lenLabel, 'Average Feature Film Length'));
 
 				createNewTable();
 
@@ -2440,7 +2393,7 @@
 					type: 'text'
 				});
 
-				$('#main').tablesorter({
+				table.tablesorter({
 					widgets: ['columns'],
 					usNumberFormat: true,
 					sortReset: false,
@@ -2485,7 +2438,7 @@
 					}
 				}
 
-				$('#main').last().tablesorter({
+                table.tablesorter({
 					widgets: ['columns'],
 					usNumberFormat: true,
 					sortReset: false,
@@ -2501,6 +2454,39 @@
 					},
 					cssHeaderRow: "tablesorter-headerRow"
 				});
+
+                createNewTable();
+
+                thead.append('<tr class="header"><th>Most Frequent Nanogenres</th><th>Films Σ</th></tr>');
+
+				var minimum = 0;
+				if (data.Nanogenres.length > 100) {
+					minimum = data.Nanogenres[100].Amount;
+				}
+
+                for (var nanogenre in data.Nanogenres.filter(a => a.Amount >= minimum)) {
+                    var watchedPercent = (data.Nanogenres[nanogenre].Amount / data.FilmsWithNanogenres) * 100;
+                    var barAmount = '';
+
+                    tbody.append(
+                        '<tr>' +
+                        '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/nanogenre/' + data.Nanogenres[nanogenre].Url + '/size/large/">' + data.Nanogenres[nanogenre].Text + '</a></td>' +
+                        '<td class="right">' + data.Nanogenres[nanogenre].Amount + '</td>' +
+                        '</tr>');
+                }
+
+                table.tablesorter({
+                    widgets: ['columns'],
+                    usNumberFormat: true,
+                    sortReset: false,
+                    sortRestart: false,
+                    sortList: [[1, 1]],
+                    headers: {
+                        0: { sortInitialOrder: 'asc' },
+                        1: { sortInitialOrder: 'desc' },
+                    },
+                    cssHeaderRow: "tablesorter-headerRow"
+                });
 
 				createTooltipTriggers();
 
@@ -2551,7 +2537,59 @@
 				return '<span style="color:' + colour + '">' + symbol + '</span>';
 			}
 
-			function showPeople(dataSource, job, jobSpecific, gender = '') {
+            function makeJobRow(totalAll, totalFemale, totalMale, totalNonBinary, uniqueAll, uniqueFemale, uniqueMale, uniqueNonBinary) {
+
+                var total = totalFemale + totalMale + totalNonBinary;
+                var unique = uniqueFemale + uniqueMale + uniqueNonBinary;
+                totalFemalePercent = totalFemale / total * 100;
+                totalMalePercent = totalMale / total * 100;
+                totalNonBinaryPercent = totalNonBinary / total * 100;
+                uniqueFemalePercent = uniqueFemale / unique * 100;
+                uniqueMalePercent = uniqueMale / unique * 100;
+                uniqueNonBinaryPercent = uniqueNonBinary / unique * 100;
+
+                /*
+                createNewTable(false);
+                thead.append('<tr class="topheader"><th colspan="4">Total</th><th colspan="4">Distinct</th></tr>');
+                thead.append('<tr class="bottomheader"><th class="right">All</th><th class="right">Women</th><th class="right">Men</th><th class="right">Non-Binary</th><th class="right">All</th><th class="right">Women</th><th class="right">Men</th><th class="right">Non-Binary</th></tr>');
+
+                tbody.append(
+                    '<tr>' +
+                    '<td class="right">' + totalAll + '</td>' +
+                    '<td class="right ttt" data-tooltip="' + totalFemalePercent.toFixed(2) + '% (' + totalFemale + ')">' + totalFemalePercent.toFixed(0) + '%</td>' +
+                    '<td class="right ttt" data-tooltip="' + totalMalePercent.toFixed(2) + '% (' + totalMale + ')">' + totalMalePercent.toFixed(0) + '%</td>' +
+                    '<td class="right ttt" data-tooltip="' + totalNonBinaryPercent.toFixed(2) + '% (' + totalNonBinary + ')">' + totalNonBinaryPercent.toFixed(0) + '%</td>' +
+                    '<td class="right">' + uniqueAll + '</td>' +
+                    '<td class="right ttt" data-tooltip="' + uniqueFemalePercent.toFixed(2) + '% (' + uniqueFemale + ')">' + uniqueFemalePercent.toFixed(0) + '%</td>' +
+                    '<td class="right ttt" data-tooltip="' + uniqueMalePercent.toFixed(2) + '% (' + uniqueMale + ')">' + uniqueMalePercent.toFixed(0) + '%</td>' +
+                    '<td class="right ttt" data-tooltip="' + uniqueNonBinaryPercent.toFixed(2) + '% (' + uniqueNonBinary + ')">' + uniqueNonBinaryPercent.toFixed(0) + '%</td>' +
+                    '</tr>')
+                */
+
+                createNewTable(false);
+
+                //<th class="right">All</th>
+                thead.append('<tr><th>&nbsp;</th><th class="right">Women</th><th class="right">Men</th><th class="right">Non-Binary</th></tr>');
+
+                tbody.append(
+                    '<tr>' +
+                    '<td>Total</td>' +
+                    '<td class="right ttt" data-tooltip="' + totalFemalePercent.toFixed(2) + '% (' + totalFemale + ')">' + totalFemalePercent.toFixed(0) + '%</td>' +
+                    '<td class="right ttt" data-tooltip="' + totalMalePercent.toFixed(2) + '% (' + totalMale + ')">' + totalMalePercent.toFixed(0) + '%</td>' +
+                    '<td class="right ttt" data-tooltip="' + totalNonBinaryPercent.toFixed(2) + '% (' + totalNonBinary + ')">' + totalNonBinaryPercent.toFixed(0) + '%</td>' +
+                    '</tr>' +
+                    '<tr>' +
+                    '<td>Distinct</td>' +
+                    '<td class="right ttt" data-tooltip="' + uniqueFemalePercent.toFixed(2) + '% (' + uniqueFemale + ')">' + uniqueFemalePercent.toFixed(0) + '%</td>' +
+                    '<td class="right ttt" data-tooltip="' + uniqueMalePercent.toFixed(2) + '% (' + uniqueMale + ')">' + uniqueMalePercent.toFixed(0) + '%</td>' +
+                    '<td class="right ttt" data-tooltip="' + uniqueNonBinaryPercent.toFixed(2) + '% (' + uniqueNonBinary + ')">' + uniqueNonBinaryPercent.toFixed(0) + '%</td>' +
+                    '</tr>')
+            }
+
+			function showPeople(job, jobSpecific, index = 'All') {			
+
+				var jobSpecificCleaned = jobSpecific.replace(' ', '').toLowerCase();				
+                dataSource = data.ProfessionDataSets[jobSpecificCleaned + '_' + index].PeopleData;
 
 				resetView();
 				createGallery();
@@ -2571,10 +2609,11 @@
 				//var lowest = shuffled.length >= galleryAmount - 1 ? shuffled[galleryAmount - 1].Amount : 0;
 
 				var shuffled = dataSource.filter(a => a.Amount > minimum);
-				shuffled = shuffleArray(shuffled);
+                shuffled = shuffled.sort((a, b) => b.FullName < a.FullName);
+				//shuffled = shuffleArray(shuffled);
 				shuffled = shuffled.sort((a, b) => b.Amount - a.Amount);
 
-				gallery.append('<div class="title">Most Frequent - ' + jobSpecific + (gender == 'All' ? '' : ' - ' + gender) + '</div>');
+				gallery.append('<div class="title">Most Frequent - ' + jobSpecific + (index == 'All' ? '' : ' - ' + ['Unknown', 'Women', 'Men', 'Non-Binary'][index]) + '</div>');
 				gallery.append('<div class="inside"></div>');
 				var insideGallery = $('.gallery .inside');
 
@@ -2594,106 +2633,20 @@
 				}
 
 				$('body').append('<div class="boxes"></div>');
-				switch (gender) {
-					case 'All':
-						switch (jobSpecific) {
-							case 'Director':
-								$('.boxes').append(makeBox(data.DirectorTotalAll, 'Total'));
-								$('.boxes').append(makeBox(data.DirectorUniqueAll, 'Distinct'));
-								break;
-							case 'Protagonist':
-								$('.boxes').append(makeBox(data.ProtagonistTotalAll, 'Total'));
-								$('.boxes').append(makeBox(data.ProtagonistUniqueAll, 'Distinct'));
-								break;
-							case 'Main Cast':
-								$('.boxes').append(makeBox(data.TopCastTotalAll, 'Total'));
-								$('.boxes').append(makeBox(data.TopCastUniqueAll, 'Distinct'));
-								break;
-							case 'Entire Cast':
-								$('.boxes').append(makeBox(data.EntireCastTotalAll, 'Total'));
-								$('.boxes').append(makeBox(data.EntireCastUniqueAll, 'Distinct'));
-								break;
-						}
-						break;
-					case 'Women':
-						switch (jobSpecific) {
-							case 'Director':
-								$('.boxes').append(makeBox(data.DirectorTotalFemale, 'Total'));
-								$('.boxes').append(makeBox(data.DirectorUniqueFemale, 'Distinct'));
-								break;
-							case 'Protagonist':
-								$('.boxes').append(makeBox(data.ProtagonistTotalFemale, 'Total'));
-								$('.boxes').append(makeBox(data.ProtagonistUniqueFemale, 'Distinct'));
-								break;
-							case 'Main Cast':
-								$('.boxes').append(makeBox(data.TopCastTotalFemale, 'Total'));
-								$('.boxes').append(makeBox(data.TopCastUniqueFemale, 'Distinct'));
-								break;
-							case 'Entire Cast':
-								$('.boxes').append(makeBox(data.EntireCastTotalFemale, 'Total'));
-								$('.boxes').append(makeBox(data.EntireCastUniqueFemale, 'Distinct'));
-								break;
-						}
-						break;
-					case 'Men':
-						switch (jobSpecific) {
-							case 'Director':
-								$('.boxes').append(makeBox(data.DirectorTotalMale, 'Total'));
-								$('.boxes').append(makeBox(data.DirectorUniqueMale, 'Distinct'));
-								break;
-							case 'Protagonist':
-								$('.boxes').append(makeBox(data.ProtagonistTotalMale, 'Total'));
-								$('.boxes').append(makeBox(data.ProtagonistUniqueMale, 'Distinct'));
-								break;
-							case 'Main Cast':
-								$('.boxes').append(makeBox(data.TopCastTotalMale, 'Total'));
-								$('.boxes').append(makeBox(data.TopCastUniqueMale, 'Distinct'));
-								break;
-							case 'Entire Cast':
-								$('.boxes').append(makeBox(data.EntireCastTotalMale, 'Total'));
-								$('.boxes').append(makeBox(data.EntireCastUniqueMale, 'Distinct'));
-								break;
-						}
-						break;
-					case 'Non-Binary':
-						switch (jobSpecific) {
-							case 'Director':
-								$('.boxes').append(makeBox(data.DirectorTotalNonBinary, 'Total'));
-								$('.boxes').append(makeBox(data.DirectorUniqueNonBinary, 'Distinct'));
-								break;
-							case 'Protagonist':
-								$('.boxes').append(makeBox(data.ProtagonistTotalNonBinary, 'Total'));
-								$('.boxes').append(makeBox(data.ProtagonistUniqueNonBinary, 'Distinct'));
-								break;
-							case 'Main Cast':
-								$('.boxes').append(makeBox(data.TopCastTotalNonBinary, 'Total'));
-								$('.boxes').append(makeBox(data.TopCastUniqueNonBinary, 'Distinct'));
-								break;
-							case 'Entire Cast':
-								$('.boxes').append(makeBox(data.EntireCastTotalNonBinary, 'Total'));
-								$('.boxes').append(makeBox(data.EntireCastUniqueNonBinary, 'Distinct'));
-								break;
-						}
-						break;
-				}
+                $('.boxes').append(makeBox(data.ProfessionDataSets[jobSpecificCleaned + '_' + index].Total, 'Total'));
+                $('.boxes').append(makeBox(data.ProfessionDataSets[jobSpecificCleaned + '_' + index].Unique, 'Distinct'));
 
-				if (gender == 'All') {
-					switch (jobSpecific) {
-						case 'Director':
-							makeJobRow(data.DirectorTotalAll, data.DirectorTotalFemale, data.DirectorTotalMale, data.DirectorTotalNonBinary, data.DirectorUniqueAll, data.DirectorUniqueFemale, data.DirectorUniqueMale, data.DirectorUniqueNonBinary);
-							break;
-						case 'Protagonist':
-							makeJobRow(data.ProtagonistTotalAll, data.ProtagonistTotalFemale, data.ProtagonistTotalMale, data.ProtagonistTotalNonBinary, data.ProtagonistUniqueAll, data.ProtagonistUniqueFemale, data.ProtagonistUniqueMale, data.ProtagonistUniqueNonBinary);
-							break;
-						case 'Main Cast':
-							makeJobRow(data.TopCastTotalAll, data.TopCastTotalFemale, data.TopCastTotalMale, data.TopCastTotalNonBinary, data.TopCastUniqueAll, data.TopCastUniqueFemale, data.TopCastUniqueMale, data.TopCastUniqueNonBinary);
-							break;
-						case 'Entire Cast':
-							makeJobRow(data.EntireCastTotalAll, data.EntireCastTotalFemale, data.EntireCastTotalMale, data.EntireCastTotalNonBinary, data.EntireCastUniqueAll, data.EntireCastUniqueFemale, data.EntireCastUniqueMale, data.EntireCastUniqueNonBinary);
-							break;
-					}
-				} else {
-
+				if (index == 'All') {
+					makeJobRow(
+						data.ProfessionDataSets[jobSpecificCleaned + '_All'].Total,
+						data.ProfessionDataSets[jobSpecificCleaned + '_1'].Total,
+						data.ProfessionDataSets[jobSpecificCleaned + '_2'].Total,
+						data.ProfessionDataSets[jobSpecificCleaned + '_3'].Total,
+						data.ProfessionDataSets[jobSpecificCleaned + '_All'].Unique,
+						data.ProfessionDataSets[jobSpecificCleaned + '_1'].Unique,
+						data.ProfessionDataSets[jobSpecificCleaned + '_2'].Unique,
+						data.ProfessionDataSets[jobSpecificCleaned + '_3'].Unique,
+					);
 				}
 
 				createNewTable();
@@ -2708,7 +2661,7 @@
 						extraClass = ' class="breaker"';
 					}
 					var dot = '';
-					if (gender == 'All') {
+					if (index == 'All') {
 						dot = makeDot(dataSource[a].Gender) + ' ';
 					}
 
@@ -2748,67 +2701,67 @@
 			}
 
 			function showDirectorsWomen() {
-				showPeople(data.DirectorFemale, 'Director', 'Director', 'Women');
+				showPeople('Director', 'Director', 1);
 			}
 
 			function showDirectorsMen() {
-				showPeople(data.DirectorMale, 'Director', 'Director', 'Men');
+				showPeople('Director', 'Director', 2);
 			}
 
 			function showDirectorsNonBinary() {
-				showPeople(data.DirectorNonBinary, 'Director', 'Director', 'Non-Binary');
+				showPeople('Director', 'Director', 3);
 			}
 
 			function showDirectorsAll() {
-				showPeople(data.DirectorAll, 'Director', 'Director', 'All');
+				showPeople('Director', 'Director');
 			}
 
 			function showProtagonistsWomen() {
-				showPeople(data.ProtagonistFemale, 'Actor', 'Protagonist', 'Women');
+				showPeople('Actor', 'Protagonist', 1);
 			}
 
 			function showProtagonistsMen() {
-				showPeople(data.ProtagonistMale, 'Actor', 'Protagonist', 'Men');
+				showPeople('Actor', 'Protagonist', 2);
 			}
 
 			function showProtagonistsNonBinary() {
-				showPeople(data.ProtagonistNonBinary, 'Actor', 'Protagonist', 'Non-Binary');
+				showPeople('Actor', 'Protagonist', 3);
 			}
 
 			function showProtagonistsAll() {
-				showPeople(data.ProtagonistAll, 'Actor', 'Protagonist', 'All');
+				showPeople('Actor', 'Protagonist');
 			}
 
 			function showTopCastWomen() {
-				showPeople(data.TopCastFemale, 'Actor', 'Main Cast', 'Women');
+				showPeople('Actor', 'Main Cast', 1);
 			}
 
 			function showTopCastMen() {
-				showPeople(data.TopCastMale, 'Actor', 'Main Cast', 'Men');
+				showPeople('Actor', 'Main Cast', 2);
 			}
 
 			function showTopCastNonBinary() {
-				showPeople(data.TopCastNonBinary, 'Actor', 'Main Cast', 'Non-Binary');
+				showPeople('Actor', 'Main Cast', 3);
 			}
 
 			function showTopCastAll() {
-				showPeople(data.TopCastAll, 'Actor', 'Main Cast', 'All');
+				showPeople('Actor', 'Main Cast');
 			}
 
 			function showEntireCastWomen() {
-				showPeople(data.EntireCastFemale, 'Actor', 'Entire Cast', 'Women');
+				showPeople('Actor', 'Entire Cast', 1);
 			}
 
 			function showEntireCastMen() {
-				showPeople(data.EntireCastMale, 'Actor', 'Entire Cast', 'Men');
+				showPeople('Actor', 'Entire Cast', 2);
 			}
 
 			function showEntireCastNonBinary() {
-				showPeople(data.EntireCastNonBinary, 'Actor', 'Entire Cast', 'Non-Binary');
+				showPeople('Actor', 'Entire Cast', 3);
 			}
 
 			function showEntireCastAll() {
-				showPeople(data.EntireCastAll, 'Actor', 'Entire Cast', 'All');
+				showPeople('Actor', 'Entire Cast');
 			}
 
 			showOverall();
