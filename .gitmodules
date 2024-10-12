@@ -37,3 +37,6 @@
 [submodule "bauhaus-pattern-creator"]
 	path = bauhaus-pattern-creator
 	url = https://github.com/Robson/Bauhaus-Pattern-Creator
+[submodule "chroma"]
+	path = chroma
+	url = https://github.com/Robson/Chroma
