@@ -10978,7 +10978,7 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 3.74,
     "Minutes": 102,
-    "Watched": 1043333,
+    "Watched": 1044552,
     "Id": "igNS",
     "Poster": "/micaVOa1UZsdzs4fKGA67ZMGOzc.jpg",
     "Year": 2019,
@@ -12777,5 +12777,18 @@ var films = [
     "Poster": "6WR8f0ZqQ53QSmZI9x9HPNaDKfi.jpg",
     "Year": 1975,
     "When": "1976-01-21"
+  },
+  {
+    "Title": "Don't Worry Darling",
+    "TitleOriginal": "Don't Worry Darling",
+    "Language": "English",
+    "RatingSelf": 2,
+    "RatingLetterboxd": 2.98,
+    "Minutes": 123,
+    "Watched": 1149989,
+    "Id": "mViu",
+    "Poster": "/wjAJWfuE5OQm5zerlOAbTxdHFMV.jpg",
+    "Year": 2022,
+    "When": "2022-09-21"
   }
 ]

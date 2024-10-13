@@ -1,5 +1,5 @@
 var data = {
-  "FilmsWithThemes": 904,
+  "FilmsWithThemes": 905,
   "Themes": [
     {
       "Url": "/theme/moving-relationship-stories/",
@@ -17,7 +17,7 @@ var data = {
       "Url": "/theme/intense-violence-and-sexual-transgression/",
       "Text": "Intense violence and sexual transgression",
       "IsMini": false,
-      "Amount": 203
+      "Amount": 204
     },
     {
       "Url": "/theme/humanity-and-the-world-around-us/",
@@ -29,7 +29,7 @@ var data = {
       "Url": "/mini-theme/thriller-suspense-twist-psychological-intriguing/",
       "Text": "Twisted dark psychological thriller",
       "IsMini": true,
-      "Amount": 152
+      "Amount": 153
     },
     {
       "Url": "/mini-theme/gag-chuckles-slapstick-amusing-jokes/",
@@ -206,14 +206,14 @@ var data = {
       "Amount": 63
     },
     {
-      "Url": "/mini-theme/robbery-heist-cops-twist-thriller/",
-      "Text": "Heists and thrilling action",
-      "IsMini": true,
-      "Amount": 57
-    },
-    {
       "Url": "/mini-theme/thriller-cops-suspense-killer-twist/",
       "Text": "Suspenseful crime thrillers",
+      "IsMini": true,
+      "Amount": 58
+    },
+    {
+      "Url": "/mini-theme/robbery-heist-cops-twist-thriller/",
+      "Text": "Heists and thrilling action",
       "IsMini": true,
       "Amount": 57
     },
@@ -290,14 +290,14 @@ var data = {
       "Amount": 47
     },
     {
-      "Url": "/mini-theme/christmas-holiday-heartwarming-family-adorable/",
-      "Text": "Holiday joy and heartwarming Christmas",
-      "IsMini": true,
-      "Amount": 46
-    },
-    {
       "Url": "/mini-theme/terrorism-thriller-gripping-intense-political/",
       "Text": "Intense political and terrorist thrillers",
+      "IsMini": true,
+      "Amount": 47
+    },
+    {
+      "Url": "/mini-theme/christmas-holiday-heartwarming-family-adorable/",
+      "Text": "Holiday joy and heartwarming Christmas",
       "IsMini": true,
       "Amount": 46
     },
@@ -656,12 +656,12 @@ var data = {
       "Amount": 1
     }
   ],
-  "FilmsWithNanogenres": 904,
+  "FilmsWithNanogenres": 905,
   "Nanogenres": [
     {
       "Url": "weird-disturbing-intriguing",
       "Text": "Weird, Disturbing, Intriguing",
-      "Amount": 29
+      "Amount": 30
     },
     {
       "Url": "suspense-guns-action-packed",
@@ -759,6 +759,11 @@ var data = {
       "Amount": 16
     },
     {
+      "Url": "scary-thriller-revelation",
+      "Text": "Scary, Thriller, Revelation",
+      "Amount": 16
+    },
+    {
       "Url": "school-girls-friendship",
       "Text": "School, Girls, Friendship",
       "Amount": 16
@@ -786,11 +791,6 @@ var data = {
     {
       "Url": "killing-twist-confused",
       "Text": "Killing, Twist, Confused",
-      "Amount": 15
-    },
-    {
-      "Url": "scary-thriller-revelation",
-      "Text": "Scary, Thriller, Revelation",
       "Amount": 15
     },
     {
@@ -829,6 +829,11 @@ var data = {
       "Amount": 13
     },
     {
+      "Url": "twist-mysterious-confusing",
+      "Text": "Twist, Mysterious, Confusing",
+      "Amount": 13
+    },
+    {
       "Url": "blood-shock-psychopath",
       "Text": "Blood, Shock, Psychopath",
       "Amount": 12
@@ -861,11 +866,6 @@ var data = {
     {
       "Url": "thrills-guessing-intriguing",
       "Text": "Thrills, Guessing, Intriguing",
-      "Amount": 12
-    },
-    {
-      "Url": "twist-mysterious-confusing",
-      "Text": "Twist, Mysterious, Confusing",
       "Amount": 12
     },
     {
@@ -1064,6 +1064,11 @@ var data = {
       "Amount": 9
     },
     {
+      "Url": "death-intriguing-confused",
+      "Text": "Death, Intriguing, Confused",
+      "Amount": 9
+    },
+    {
       "Url": "emotional-families-dramas",
       "Text": "Emotional, Families, Dramas",
       "Amount": 9
@@ -1111,6 +1116,11 @@ var data = {
     {
       "Url": "stunts-mission-weapons",
       "Text": "Stunts, Mission, Weapons",
+      "Amount": 9
+    },
+    {
+      "Url": "suspense-psychological-revelation",
+      "Text": "Suspense, Psychological, Revelation",
       "Amount": 9
     },
     {
@@ -1181,11 +1191,6 @@ var data = {
     {
       "Url": "dark-storytelling-captivating",
       "Text": "Dark, Storytelling, Captivating",
-      "Amount": 8
-    },
-    {
-      "Url": "death-intriguing-confused",
-      "Text": "Death, Intriguing, Confused",
       "Amount": 8
     },
     {
@@ -1306,11 +1311,6 @@ var data = {
     {
       "Url": "stunts-hero-non-stop",
       "Text": "Stunts, Hero, Non-Stop",
-      "Amount": 8
-    },
-    {
-      "Url": "suspense-psychological-revelation",
-      "Text": "Suspense, Psychological, Revelation",
       "Amount": 8
     },
     {
@@ -3794,6 +3794,11 @@ var data = {
       "Amount": 4
     },
     {
+      "Url": "twist-sinister-secret",
+      "Text": "Twist, Sinister, Secret",
+      "Amount": 4
+    },
+    {
       "Url": "villain-battle-flying",
       "Text": "Villain, Battle, Flying",
       "Amount": 4
@@ -5779,8 +5784,18 @@ var data = {
       "Amount": 3
     },
     {
+      "Url": "thriller-eerie-violence",
+      "Text": "Thriller, Eerie, Violence",
+      "Amount": 3
+    },
+    {
       "Url": "thriller-gruesome-terrifying",
       "Text": "Thriller, Gruesome, Terrifying",
+      "Amount": 3
+    },
+    {
+      "Url": "thriller-intense-menacing",
+      "Text": "Thriller, Intense, Menacing",
       "Amount": 3
     },
     {
@@ -5931,11 +5946,6 @@ var data = {
     {
       "Url": "twist-psychological-confusion",
       "Text": "Twist, Psychological, Confusion",
-      "Amount": 3
-    },
-    {
-      "Url": "twist-sinister-secret",
-      "Text": "Twist, Sinister, Secret",
       "Amount": 3
     },
     {
@@ -10089,6 +10099,11 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "tense-guessing-violence",
+      "Text": "Tense, Guessing, Violence",
+      "Amount": 2
+    },
+    {
       "Url": "tense-investigate-corruption",
       "Text": "Tense, Investigate, Corruption",
       "Amount": 2
@@ -10174,11 +10189,6 @@ var data = {
       "Amount": 2
     },
     {
-      "Url": "thriller-eerie-violence",
-      "Text": "Thriller, Eerie, Violence",
-      "Amount": 2
-    },
-    {
       "Url": "thriller-explosives-exciting",
       "Text": "Thriller, Explosives, Exciting",
       "Amount": 2
@@ -10191,11 +10201,6 @@ var data = {
     {
       "Url": "thriller-guns-exciting",
       "Text": "Thriller, Guns, Exciting",
-      "Amount": 2
-    },
-    {
-      "Url": "thriller-intense-menacing",
-      "Text": "Thriller, Intense, Menacing",
       "Amount": 2
     },
     {
@@ -13096,6 +13101,11 @@ var data = {
     {
       "Url": "drama-redemption-subtlety",
       "Text": "Drama, Redemption, Subtlety",
+      "Amount": 1
+    },
+    {
+      "Url": "drama-revelation-struggles",
+      "Text": "Drama, Revelation, Struggles",
       "Amount": 1
     },
     {
@@ -18599,11 +18609,6 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "tense-guessing-violence",
-      "Text": "Tense, Guessing, Violence",
-      "Amount": 1
-    },
-    {
       "Url": "tense-intriguing-psychological",
       "Text": "Tense, Intriguing, Psychological",
       "Amount": 1
@@ -19784,7 +19789,7 @@ var data = {
       "Title": "Warner Bros. Pictures",
       "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
       "OriginCountry": "United States of America",
-      "Amount": 60
+      "Amount": 61
     },
     {
       "Id": 25,
@@ -19812,7 +19817,7 @@ var data = {
       "Title": "New Line Cinema",
       "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
       "OriginCountry": "United States of America",
-      "Amount": 25
+      "Amount": 26
     },
     {
       "Id": 10163,
@@ -20466,16 +20471,16 @@ var data = {
       "Amount": 4
     }
   ],
-  "LastUpdated": "12 Oct 2024",
+  "LastUpdated": "13 Oct 2024",
   "Username": "LaLunaLlena",
-  "TotalFilms": 983,
-  "RatedFilms": 332,
-  "FilmsWithGenres": 982,
-  "TotalMinutes": 105576,
-  "FilmsWithRuntime": 982,
-  "TotalMinutesFull": 104543,
-  "FilmsWithRuntimeFull": 947,
-  "AverageFilmYearMean": 1999.439471007121,
+  "TotalFilms": 984,
+  "RatedFilms": 333,
+  "FilmsWithGenres": 983,
+  "TotalMinutes": 105699,
+  "FilmsWithRuntime": 983,
+  "TotalMinutesFull": 104666,
+  "FilmsWithRuntimeFull": 948,
+  "AverageFilmYearMean": 1999.4623983739837,
   "AverageFilmYearMedian": 2004,
   "AverageFilmYearMode": "2007",
   "Genres": {
@@ -20510,9 +20515,9 @@ var data = {
       "RatingTotal": 51
     },
     "Drama": {
-      "Count": 520,
-      "RatingCount": 220,
-      "RatingTotal": 826
+      "Count": 521,
+      "RatingCount": 221,
+      "RatingTotal": 828
     },
     "Family": {
       "Count": 83,
@@ -20540,9 +20545,9 @@ var data = {
       "RatingTotal": 33
     },
     "Mystery": {
-      "Count": 94,
-      "RatingCount": 33,
-      "RatingTotal": 117
+      "Count": 95,
+      "RatingCount": 34,
+      "RatingTotal": 119
     },
     "Romance": {
       "Count": 142,
@@ -20555,9 +20560,9 @@ var data = {
       "RatingTotal": 108
     },
     "Thriller": {
-      "Count": 274,
-      "RatingCount": 73,
-      "RatingTotal": 235
+      "Count": 275,
+      "RatingCount": 74,
+      "RatingTotal": 237
     },
     "TV Movie": {
       "Count": 9,
@@ -20577,7 +20582,7 @@ var data = {
   },
   "ProfessionDataSets": {
     "director_All": {
-      "Total": 1118,
+      "Total": 1119,
       "Unique": 758,
       "PeopleData": [
         {
@@ -21645,6 +21650,13 @@ var data = {
           "Gender": 2
         },
         {
+          "ID": 59315,
+          "FullName": "Olivia Wilde",
+          "Amount": 2,
+          "Poster": "/p8uodLtdvM9nhAh5At4ChoZdKPf.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 10099,
           "FullName": "Park Chan-wook",
           "Amount": 2,
@@ -22073,7 +22085,7 @@ var data = {
       ]
     },
     "director_1": {
-      "Total": 148,
+      "Total": 149,
       "Unique": 121,
       "PeopleData": [
         {
@@ -22200,6 +22212,13 @@ var data = {
           "FullName": "Nancy Meyers",
           "Amount": 2,
           "Poster": "/oguBZ1ubDnY1FTrUXxjULulbXKV.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 59315,
+          "FullName": "Olivia Wilde",
+          "Amount": 2,
+          "Poster": "/p8uodLtdvM9nhAh5At4ChoZdKPf.jpg",
           "Gender": 1
         },
         {
@@ -22725,13 +22744,6 @@ var data = {
           "FullName": "Nora Fingscheidt",
           "Amount": 1,
           "Poster": "/wjf96BGhggmdxiZVxOVJzWWVoq0.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 59315,
-          "FullName": "Olivia Wilde",
-          "Amount": 1,
-          "Poster": "/fMRIHXHeyMot5UAxkxQJkgudThT.jpg",
           "Gender": 1
         },
         {
@@ -24065,7 +24077,7 @@ var data = {
       ]
     },
     "protagonist_All": {
-      "Total": 967,
+      "Total": 968,
       "Unique": 618,
       "PeopleData": [
         {
@@ -24237,6 +24249,13 @@ var data = {
           "Gender": 2
         },
         {
+          "ID": 1373737,
+          "FullName": "Florence Pugh",
+          "Amount": 5,
+          "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 2157,
           "FullName": "Robin Williams",
           "Amount": 5,
@@ -24284,13 +24303,6 @@ var data = {
           "Amount": 4,
           "Poster": "/7UKRbJBNG7mxBl2QQc5XsAh6F8B.jpg",
           "Gender": 2
-        },
-        {
-          "ID": 1373737,
-          "FullName": "Florence Pugh",
-          "Amount": 4,
-          "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
-          "Gender": 1
         },
         {
           "ID": 8891,
@@ -25190,7 +25202,7 @@ var data = {
       ]
     },
     "protagonist_1": {
-      "Total": 341,
+      "Total": 342,
       "Unique": 238,
       "PeopleData": [
         {
@@ -25243,6 +25255,13 @@ var data = {
           "Gender": 1
         },
         {
+          "ID": 1373737,
+          "FullName": "Florence Pugh",
+          "Amount": 5,
+          "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 47,
           "FullName": "Bj\u00F6rk",
           "Amount": 4,
@@ -25268,13 +25287,6 @@ var data = {
           "FullName": "Catherine Deneuve",
           "Amount": 4,
           "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 1373737,
-          "FullName": "Florence Pugh",
-          "Amount": 4,
-          "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
           "Gender": 1
         },
         {
@@ -26247,7 +26259,7 @@ var data = {
           "ID": 481337,
           "FullName": "Kaitlyn Dever",
           "Amount": 1,
-          "Poster": "/apSHuWDHvFvPkN5zicG0li9nmmC.jpg",
+          "Poster": "/EdThUlyZdJMyOvP5tbsOXDrnhx.jpg",
           "Gender": 1
         },
         {
@@ -29471,8 +29483,8 @@ var data = {
       ]
     },
     "maincast_All": {
-      "Total": 2873,
-      "Unique": 1850,
+      "Total": 2876,
+      "Unique": 1851,
       "PeopleData": [
         {
           "ID": 6886,
@@ -29734,6 +29746,13 @@ var data = {
           "Gender": 2
         },
         {
+          "ID": 1373737,
+          "FullName": "Florence Pugh",
+          "Amount": 6,
+          "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 1461,
           "FullName": "George Clooney",
           "Amount": 6,
@@ -29900,13 +29919,6 @@ var data = {
           "Amount": 5,
           "Poster": "/a7rgJl8TYUWAfJuM4fxbLHgD7BL.jpg",
           "Gender": 2
-        },
-        {
-          "ID": 1373737,
-          "FullName": "Florence Pugh",
-          "Amount": 5,
-          "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
-          "Gender": 1
         },
         {
           "ID": 679,
@@ -30729,7 +30741,7 @@ var data = {
       ]
     },
     "maincast_1": {
-      "Total": 1109,
+      "Total": 1110,
       "Unique": 740,
       "PeopleData": [
         {
@@ -30810,6 +30822,13 @@ var data = {
           "Gender": 1
         },
         {
+          "ID": 1373737,
+          "FullName": "Florence Pugh",
+          "Amount": 6,
+          "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 6161,
           "FullName": "Jennifer Connelly",
           "Amount": 6,
@@ -30884,13 +30903,6 @@ var data = {
           "FullName": "Emily Blunt",
           "Amount": 5,
           "Poster": "/nPJXaRMvu1vh3COG16GzmdsBySQ.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 1373737,
-          "FullName": "Florence Pugh",
-          "Amount": 5,
-          "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
           "Gender": 1
         },
         {
@@ -31911,8 +31923,8 @@ var data = {
       ]
     },
     "maincast_2": {
-      "Total": 1693,
-      "Unique": 1047,
+      "Total": 1695,
+      "Unique": 1048,
       "PeopleData": [
         {
           "ID": 2963,
@@ -32938,8 +32950,8 @@ var data = {
       ]
     },
     "entirecast_All": {
-      "Total": 35092,
-      "Unique": 27702,
+      "Total": 35130,
+      "Unique": 27732,
       "PeopleData": [
         {
           "ID": 6886,
@@ -33663,6 +33675,13 @@ var data = {
           "Gender": 2
         },
         {
+          "ID": 1373737,
+          "FullName": "Florence Pugh",
+          "Amount": 7,
+          "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 58950,
           "FullName": "Greg Collins",
           "Amount": 7,
@@ -33875,8 +33894,8 @@ var data = {
       ]
     },
     "entirecast_0": {
-      "Total": 8429,
-      "Unique": 8289,
+      "Total": 8442,
+      "Unique": 8302,
       "PeopleData": [
         {
           "ID": 3000905,
@@ -34791,8 +34810,8 @@ var data = {
       ]
     },
     "entirecast_1": {
-      "Total": 8725,
-      "Unique": 6789,
+      "Total": 8740,
+      "Unique": 6799,
       "PeopleData": [
         {
           "ID": 6886,
@@ -34956,6 +34975,13 @@ var data = {
           "Gender": 1
         },
         {
+          "ID": 1373737,
+          "FullName": "Florence Pugh",
+          "Amount": 7,
+          "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 1283,
           "FullName": "Helena Bonham Carter",
           "Amount": 7,
@@ -35030,13 +35056,6 @@ var data = {
           "FullName": "Elizabeth Banks",
           "Amount": 6,
           "Poster": "/q0wvK0Nr6FCpvx9UCMTqTby6kNW.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 1373737,
-          "FullName": "Florence Pugh",
-          "Amount": 6,
-          "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
           "Gender": 1
         },
         {
@@ -36169,8 +36188,8 @@ var data = {
       ]
     },
     "entirecast_2": {
-      "Total": 17911,
-      "Unique": 12609,
+      "Total": 17921,
+      "Unique": 12616,
       "PeopleData": [
         {
           "ID": 2231,
@@ -37160,7 +37179,7 @@ var data = {
     "2019": 29,
     "2020": 7,
     "2021": 14,
-    "2022": 20,
+    "2022": 21,
     "2023": 24,
     "2024": 9
   },
@@ -37241,9 +37260,9 @@ var data = {
       "RatingTotal": 417
     },
     "2020": {
-      "Count": 74,
-      "RatingCount": 65,
-      "RatingTotal": 230
+      "Count": 75,
+      "RatingCount": 66,
+      "RatingTotal": 232
     }
   },
   "LongestFilms": [
@@ -37920,6 +37939,7 @@ var data = {
     84,
     194,
     900,
+    983,
     211,
     106,
     925,
@@ -37974,8 +37994,7 @@ var data = {
     844,
     885,
     934,
-    213,
-    937
+    213
   ],
   "OldestReleasedFilms": [
     929,
@@ -38084,7 +38103,7 @@ var data = {
     "30": 10,
     "60": 136,
     "90": 540,
-    "120": 229,
+    "120": 230,
     "150": 34,
     "180": 10,
     "210": 1
@@ -38094,7 +38113,7 @@ var data = {
     "Cantonese": 1,
     "Czech": 2,
     "Danish": 1,
-    "English": 870,
+    "English": 871,
     "French": 31,
     "German": 4,
     "Hungarian": 1,
@@ -38154,7 +38173,7 @@ var data = {
     "Ukraine": 1,
     "United Arab Emirates": 1,
     "United Kingdom": 174,
-    "United States of America": 782
+    "United States of America": 783
   },
   "FilmsPerCountryProduction": {
     "Angola": 1,
@@ -38215,7 +38234,7 @@ var data = {
     "Ukraine": 2,
     "United Arab Emirates": 2,
     "United Kingdom": 236,
-    "United States of America": 830
+    "United States of America": 831
   },
   "MostFrequentWords": {
     "movie": [
@@ -41584,6 +41603,16 @@ var data = {
           "PrimaryLanguage": "French",
           "PosterUrl": "6WR8f0ZqQ53QSmZI9x9HPNaDKfi.jpg",
           "RatingSelf": 5
+        },
+        {
+          "Order": 220,
+          "FilmName": "Don't Worry Darling",
+          "FilmNameOriginal": "Don't Worry Darling",
+          "Year": 2022,
+          "LetterboxdIdentifier": "mViu",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/wjAJWfuE5OQm5zerlOAbTxdHFMV.jpg",
+          "RatingSelf": 2
         }
       ]
     }
