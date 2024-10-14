@@ -1,5 +1,5 @@
 var data = {
-  "FilmsWithThemes": 907,
+  "FilmsWithThemes": 908,
   "Themes": [
     {
       "Url": "/theme/moving-relationship-stories/",
@@ -17,19 +17,19 @@ var data = {
       "Url": "/theme/intense-violence-and-sexual-transgression/",
       "Text": "Intense violence and sexual transgression",
       "IsMini": false,
-      "Amount": 204
+      "Amount": 205
     },
     {
       "Url": "/theme/humanity-and-the-world-around-us/",
       "Text": "Humanity and the world around us",
       "IsMini": false,
-      "Amount": 183
+      "Amount": 184
     },
     {
       "Url": "/mini-theme/thriller-suspense-twist-psychological-intriguing/",
       "Text": "Twisted dark psychological thriller",
       "IsMini": true,
-      "Amount": 153
+      "Amount": 154
     },
     {
       "Url": "/mini-theme/gag-chuckles-slapstick-amusing-jokes/",
@@ -53,7 +53,7 @@ var data = {
       "Url": "/theme/horror-the-undead-and-monster-classics/",
       "Text": "Horror, the undead and monster classics",
       "IsMini": false,
-      "Amount": 127
+      "Amount": 128
     },
     {
       "Url": "/mini-theme/jokes-humor-chuckles-crude-gag/",
@@ -134,28 +134,28 @@ var data = {
       "Amount": 86
     },
     {
+      "Url": "/mini-theme/sexuality-sex-disturbed-unconventional-or-challenging/",
+      "Text": "Challenging or sexual themes \u0026amp; twists",
+      "IsMini": true,
+      "Amount": 85
+    },
+    {
       "Url": "/mini-theme/quirky-humor-relationships-endearing-humorous/",
       "Text": "Quirky and endearing relationships",
       "IsMini": true,
       "Amount": 85
     },
     {
-      "Url": "/mini-theme/sexuality-sex-disturbed-unconventional-or-challenging/",
-      "Text": "Challenging or sexual themes \u0026amp; twists",
-      "IsMini": true,
-      "Amount": 84
-    },
-    {
       "Url": "/mini-theme/death-symbolism-philosophical-thought-provoking-surreal/",
       "Text": "Surreal and thought-provoking visions of life and death",
       "IsMini": true,
-      "Amount": 84
+      "Amount": 85
     },
     {
       "Url": "/mini-theme/weird-surreal-dream-bizarre-confusing/",
       "Text": "Dreamlike, quirky, and surreal storytelling",
       "IsMini": true,
-      "Amount": 79
+      "Amount": 80
     },
     {
       "Url": "/mini-theme/teenager-friendship-sad-adolescents-or-coming-of-age/",
@@ -197,7 +197,7 @@ var data = {
       "Url": "/mini-theme/brutal-graphic-brutality-revenge-violence/",
       "Text": "Graphic violence and brutal revenge",
       "IsMini": true,
-      "Amount": 65
+      "Amount": 66
     },
     {
       "Url": "/theme/thrillers-and-murder-mysteries/",
@@ -656,7 +656,7 @@ var data = {
       "Amount": 1
     }
   ],
-  "FilmsWithNanogenres": 907,
+  "FilmsWithNanogenres": 908,
   "Nanogenres": [
     {
       "Url": "weird-disturbing-intriguing",
@@ -674,6 +674,11 @@ var data = {
       "Amount": 22
     },
     {
+      "Url": "eerie-disturbing-fear",
+      "Text": "Eerie, Disturbing, Fear",
+      "Amount": 21
+    },
+    {
       "Url": "animation-jokes-cute",
       "Text": "Animation, Jokes, Cute",
       "Amount": 20
@@ -681,11 +686,6 @@ var data = {
     {
       "Url": "charm-imaginative-magic",
       "Text": "Charm, Imaginative, Magic",
-      "Amount": 20
-    },
-    {
-      "Url": "eerie-disturbing-fear",
-      "Text": "Eerie, Disturbing, Fear",
       "Amount": 20
     },
     {
@@ -844,6 +844,11 @@ var data = {
       "Amount": 12
     },
     {
+      "Url": "eerie-bloody-horrifying",
+      "Text": "Eerie, Bloody, Horrifying",
+      "Amount": 12
+    },
+    {
       "Url": "emotional-reality-overcome",
       "Text": "Emotional, Reality, Overcome",
       "Amount": 12
@@ -876,11 +881,6 @@ var data = {
     {
       "Url": "drugs-depressing-raw",
       "Text": "Drugs, Depressing, Raw",
-      "Amount": 11
-    },
-    {
-      "Url": "eerie-bloody-horrifying",
-      "Text": "Eerie, Bloody, Horrifying",
       "Amount": 11
     },
     {
@@ -1559,6 +1559,11 @@ var data = {
       "Amount": 7
     },
     {
+      "Url": "spooky-mystery-horrific",
+      "Text": "Spooky, Mystery, Horrific",
+      "Amount": 7
+    },
+    {
       "Url": "stunts-bullets-sexy",
       "Text": "Stunts, Bullets, Sexy",
       "Amount": 7
@@ -1924,6 +1929,11 @@ var data = {
       "Amount": 6
     },
     {
+      "Url": "scary-disturbing-sinister",
+      "Text": "Scary, Disturbing, Sinister",
+      "Amount": 6
+    },
+    {
       "Url": "sex-girls-boys",
       "Text": "Sex, Girls, Boys",
       "Amount": 6
@@ -1946,11 +1956,6 @@ var data = {
     {
       "Url": "spooky-guessing-horrific",
       "Text": "Spooky, Guessing, Horrific",
-      "Amount": 6
-    },
-    {
-      "Url": "spooky-mystery-horrific",
-      "Text": "Spooky, Mystery, Horrific",
       "Amount": 6
     },
     {
@@ -2389,6 +2394,11 @@ var data = {
       "Amount": 5
     },
     {
+      "Url": "horror-disgusting-nasty",
+      "Text": "Horror, Disgusting, Nasty",
+      "Amount": 5
+    },
+    {
       "Url": "humor-skit-outrageous",
       "Text": "Humor, Skit, Outrageous",
       "Amount": 5
@@ -2471,11 +2481,6 @@ var data = {
     {
       "Url": "scary-dark-discover",
       "Text": "Scary, Dark, Discover",
-      "Amount": 5
-    },
-    {
-      "Url": "scary-disturbing-sinister",
-      "Text": "Scary, Disturbing, Sinister",
       "Amount": 5
     },
     {
@@ -2721,6 +2726,11 @@ var data = {
     {
       "Url": "bizarre-creativity-unpredictable",
       "Text": "Bizarre, Creativity, Unpredictable",
+      "Amount": 4
+    },
+    {
+      "Url": "bizarre-extreme-cringe",
+      "Text": "Bizarre, Extreme, Cringe",
       "Amount": 4
     },
     {
@@ -3249,11 +3259,6 @@ var data = {
       "Amount": 4
     },
     {
-      "Url": "horror-disgusting-nasty",
-      "Text": "Horror, Disgusting, Nasty",
-      "Amount": 4
-    },
-    {
       "Url": "horror-murder-nasty",
       "Text": "Horror, Murder, Nasty",
       "Amount": 4
@@ -3301,6 +3306,11 @@ var data = {
     {
       "Url": "humor-villain-stunts",
       "Text": "Humor, Villain, Stunts",
+      "Amount": 4
+    },
+    {
+      "Url": "humorous-disturbed-quirky",
+      "Text": "Humorous, Disturbed, Quirky",
       "Amount": 4
     },
     {
@@ -3964,11 +3974,6 @@ var data = {
       "Amount": 3
     },
     {
-      "Url": "bizarre-extreme-cringe",
-      "Text": "Bizarre, Extreme, Cringe",
-      "Amount": 3
-    },
-    {
       "Url": "bizarre-symbolism-thought-provoking",
       "Text": "Bizarre, Symbolism, Thought-Provoking",
       "Amount": 3
@@ -3976,6 +3981,11 @@ var data = {
     {
       "Url": "blood-eerie-attacking",
       "Text": "Blood, Eerie, Attacking",
+      "Amount": 3
+    },
+    {
+      "Url": "blood-horrific-unsettling",
+      "Text": "Blood, Horrific, Unsettling",
       "Amount": 3
     },
     {
@@ -5016,11 +5026,6 @@ var data = {
     {
       "Url": "humorous-1980s-1990s",
       "Text": "Humorous, 1980s, 1990s",
-      "Amount": 3
-    },
-    {
-      "Url": "humorous-disturbed-quirky",
-      "Text": "Humorous, Disturbed, Quirky",
       "Amount": 3
     },
     {
@@ -6404,11 +6409,6 @@ var data = {
       "Amount": 2
     },
     {
-      "Url": "blood-horrific-unsettling",
-      "Text": "Blood, Horrific, Unsettling",
-      "Amount": 2
-    },
-    {
       "Url": "blood-horrifying-dread",
       "Text": "Blood, Horrifying, Dread",
       "Amount": 2
@@ -7276,6 +7276,11 @@ var data = {
     {
       "Url": "disturbing-bleak-raw",
       "Text": "Disturbing, Bleak, Raw",
+      "Amount": 2
+    },
+    {
+      "Url": "disturbing-brutally-nasty",
+      "Text": "Disturbing, Brutally, Nasty",
       "Amount": 2
     },
     {
@@ -12359,6 +12364,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "creepy-brutal-death",
+      "Text": "Creepy, Brutal, Death",
+      "Amount": 1
+    },
+    {
       "Url": "creepy-fear-discover",
       "Text": "Creepy, Fear, Discover",
       "Amount": 1
@@ -12851,11 +12861,6 @@ var data = {
     {
       "Url": "disturbing-bizarre-bodies",
       "Text": "Disturbing, Bizarre, Bodies",
-      "Amount": 1
-    },
-    {
-      "Url": "disturbing-brutally-nasty",
-      "Text": "Disturbing, Brutally, Nasty",
       "Amount": 1
     },
     {
@@ -19854,7 +19859,7 @@ var data = {
       "Title": "Working Title Films",
       "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
       "OriginCountry": "United Kingdom",
-      "Amount": 25
+      "Amount": 26
     },
     {
       "Id": 56,
@@ -20503,14 +20508,14 @@ var data = {
   ],
   "LastUpdated": "14 Oct 2024",
   "Username": "LaLunaLlena",
-  "TotalFilms": 987,
-  "RatedFilms": 334,
-  "FilmsWithGenres": 986,
-  "TotalMinutes": 105863,
-  "FilmsWithRuntime": 986,
-  "TotalMinutesFull": 104751,
-  "FilmsWithRuntimeFull": 949,
-  "AverageFilmYearMean": 1999.3444782168187,
+  "TotalFilms": 988,
+  "RatedFilms": 336,
+  "FilmsWithGenres": 987,
+  "TotalMinutes": 106004,
+  "FilmsWithRuntime": 987,
+  "TotalMinutesFull": 104892,
+  "FilmsWithRuntimeFull": 950,
+  "AverageFilmYearMean": 1999.3694331983806,
   "AverageFilmYearMedian": 2004,
   "AverageFilmYearMode": "2007",
   "Genres": {
@@ -20545,9 +20550,9 @@ var data = {
       "RatingTotal": 51
     },
     "Drama": {
-      "Count": 523,
-      "RatingCount": 222,
-      "RatingTotal": 831
+      "Count": 524,
+      "RatingCount": 224,
+      "RatingTotal": 840
     },
     "Family": {
       "Count": 83,
@@ -20565,9 +20570,9 @@ var data = {
       "RatingTotal": 60
     },
     "Horror": {
-      "Count": 108,
-      "RatingCount": 48,
-      "RatingTotal": 156
+      "Count": 109,
+      "RatingCount": 49,
+      "RatingTotal": 161
     },
     "Music": {
       "Count": 18,
@@ -20581,13 +20586,13 @@ var data = {
     },
     "Romance": {
       "Count": 144,
-      "RatingCount": 60,
-      "RatingTotal": 224
+      "RatingCount": 61,
+      "RatingTotal": 228
     },
     "Science Fiction": {
-      "Count": 108,
-      "RatingCount": 31,
-      "RatingTotal": 108
+      "Count": 109,
+      "RatingCount": 32,
+      "RatingTotal": 113
     },
     "Thriller": {
       "Count": 275,
@@ -20612,8 +20617,8 @@ var data = {
   },
   "ProfessionDataSets": {
     "director_All": {
-      "Total": 1122,
-      "Unique": 761,
+      "Total": 1123,
+      "Unique": 762,
       "PeopleData": [
         {
           "ID": 488,
@@ -22115,8 +22120,8 @@ var data = {
       ]
     },
     "director_1": {
-      "Total": 149,
-      "Unique": 121,
+      "Total": 150,
+      "Unique": 122,
       "PeopleData": [
         {
           "ID": 68813,
@@ -22410,6 +22415,13 @@ var data = {
           "FullName": "Claudia Weill",
           "Amount": 1,
           "Poster": "/7SkR4W2bRYr6MJoSrVHdpGPJK9J.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 1607016,
+          "FullName": "Coralie Fargeat",
+          "Amount": 1,
+          "Poster": "/8TlTqFD5RnJGBxxzarpvygZlRXC.jpg",
           "Gender": 1
         },
         {
@@ -24107,7 +24119,7 @@ var data = {
       ]
     },
     "protagonist_All": {
-      "Total": 971,
+      "Total": 972,
       "Unique": 619,
       "PeopleData": [
         {
@@ -24440,6 +24452,13 @@ var data = {
           "Gender": 2
         },
         {
+          "ID": 3416,
+          "FullName": "Demi Moore",
+          "Amount": 3,
+          "Poster": "daQIsKnFmw412UIkRCm3eoUgLLz.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 5292,
           "FullName": "Denzel Washington",
           "Amount": 3,
@@ -24767,13 +24786,6 @@ var data = {
           "Amount": 2,
           "Poster": "/jj2kZqJobjom36wlhlYhc38nTwN.jpg",
           "Gender": 2
-        },
-        {
-          "ID": 3416,
-          "FullName": "Demi Moore",
-          "Amount": 2,
-          "Poster": "/brENIHiNrGUpoBMPqIEQwFNdIsc.jpg",
-          "Gender": 1
         },
         {
           "ID": 116798,
@@ -25239,7 +25251,7 @@ var data = {
       ]
     },
     "protagonist_1": {
-      "Total": 344,
+      "Total": 345,
       "Unique": 238,
       "PeopleData": [
         {
@@ -25331,6 +25343,13 @@ var data = {
           "FullName": "Anya Taylor-Joy",
           "Amount": 3,
           "Poster": "/qYNofOjlRke2MlJVihmJmEdQI4v.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 3416,
+          "FullName": "Demi Moore",
+          "Amount": 3,
+          "Poster": "daQIsKnFmw412UIkRCm3eoUgLLz.jpg",
           "Gender": 1
         },
         {
@@ -25429,13 +25448,6 @@ var data = {
           "FullName": "Brie Larson",
           "Amount": 2,
           "Poster": "/iqZ5uKJWbwSITCK4CqdlUHZTnXD.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 3416,
-          "FullName": "Demi Moore",
-          "Amount": 2,
-          "Poster": "/brENIHiNrGUpoBMPqIEQwFNdIsc.jpg",
           "Gender": 1
         },
         {
@@ -29527,8 +29539,8 @@ var data = {
       ]
     },
     "maincast_All": {
-      "Total": 2883,
-      "Unique": 1856,
+      "Total": 2886,
+      "Unique": 1857,
       "PeopleData": [
         {
           "ID": 6886,
@@ -30799,8 +30811,8 @@ var data = {
       ]
     },
     "maincast_1": {
-      "Total": 1114,
-      "Unique": 742,
+      "Total": 1116,
+      "Unique": 743,
       "PeopleData": [
         {
           "ID": 6886,
@@ -31167,6 +31179,13 @@ var data = {
           "Gender": 1
         },
         {
+          "ID": 3416,
+          "FullName": "Demi Moore",
+          "Amount": 3,
+          "Poster": "daQIsKnFmw412UIkRCm3eoUgLLz.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 2882,
           "FullName": "Diane Lane",
           "Amount": 3,
@@ -31472,13 +31491,6 @@ var data = {
           "FullName": "Connie Nielsen",
           "Amount": 2,
           "Poster": "/lvQypTfeH2Gn2PTbzq6XkT2PLmn.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 3416,
-          "FullName": "Demi Moore",
-          "Amount": 2,
-          "Poster": "/brENIHiNrGUpoBMPqIEQwFNdIsc.jpg",
           "Gender": 1
         },
         {
@@ -31981,7 +31993,7 @@ var data = {
       ]
     },
     "maincast_2": {
-      "Total": 1697,
+      "Total": 1698,
       "Unique": 1050,
       "PeopleData": [
         {
@@ -32643,6 +32655,13 @@ var data = {
           "Gender": 2
         },
         {
+          "ID": 6065,
+          "FullName": "Dennis Quaid",
+          "Amount": 3,
+          "Poster": "/lMaDAJHzsKH7U3dln2B3kY3rOhE.jpg",
+          "Gender": 2
+        },
+        {
           "ID": 5292,
           "FullName": "Denzel Washington",
           "Amount": 3,
@@ -33008,8 +33027,8 @@ var data = {
       ]
     },
     "entirecast_All": {
-      "Total": 35152,
-      "Unique": 27751,
+      "Total": 35175,
+      "Unique": 27770,
       "PeopleData": [
         {
           "ID": 6886,
@@ -33952,8 +33971,8 @@ var data = {
       ]
     },
     "entirecast_0": {
-      "Total": 8449,
-      "Unique": 8309,
+      "Total": 8454,
+      "Unique": 8315,
       "PeopleData": [
         {
           "ID": 3000905,
@@ -33967,13 +33986,6 @@ var data = {
           "FullName": "Clyde Singleton",
           "Amount": 3,
           "Poster": "",
-          "Gender": 0
-        },
-        {
-          "ID": 1646992,
-          "FullName": "Duffy Gaver",
-          "Amount": 3,
-          "Poster": "/14yzdJuofSlzYvzfa4v8cSrSxFe.jpg",
           "Gender": 0
         },
         {
@@ -34177,6 +34189,13 @@ var data = {
           "FullName": "Doug Roberts",
           "Amount": 2,
           "Poster": "",
+          "Gender": 0
+        },
+        {
+          "ID": 1646992,
+          "FullName": "Duffy Gaver",
+          "Amount": 2,
+          "Poster": "/14yzdJuofSlzYvzfa4v8cSrSxFe.jpg",
           "Gender": 0
         },
         {
@@ -34868,8 +34887,8 @@ var data = {
       ]
     },
     "entirecast_1": {
-      "Total": 8747,
-      "Unique": 6804,
+      "Total": 8751,
+      "Unique": 6806,
       "PeopleData": [
         {
           "ID": 6886,
@@ -35581,8 +35600,8 @@ var data = {
       ]
     },
     "entirecast_2": {
-      "Total": 17929,
-      "Unique": 12623,
+      "Total": 17943,
+      "Unique": 12635,
       "PeopleData": [
         {
           "ID": 2231,
@@ -36574,7 +36593,7 @@ var data = {
     "2021": 14,
     "2022": 21,
     "2023": 24,
-    "2024": 9
+    "2024": 10
   },
   "FilmsWatchedPerDecade": {
     "1870": {
@@ -36619,8 +36638,8 @@ var data = {
     },
     "1950": {
       "Count": 14,
-      "RatingCount": 9,
-      "RatingTotal": 30
+      "RatingCount": 10,
+      "RatingTotal": 34
     },
     "1960": {
       "Count": 36,
@@ -36653,9 +36672,9 @@ var data = {
       "RatingTotal": 417
     },
     "2020": {
-      "Count": 75,
-      "RatingCount": 66,
-      "RatingTotal": 232
+      "Count": 76,
+      "RatingCount": 67,
+      "RatingTotal": 237
     }
   },
   "LongestFilms": [
@@ -36744,6 +36763,7 @@ var data = {
     92,
     614,
     748,
+    987,
     658,
     262,
     177,
@@ -36757,8 +36777,7 @@ var data = {
     667,
     632,
     640,
-    556,
-    11
+    556
   ],
   "MostWatchedFilms": [
     139,
@@ -37289,6 +37308,7 @@ var data = {
   ],
   "NewestReleasedFilms": [
     948,
+    987,
     882,
     854,
     891,
@@ -37386,8 +37406,7 @@ var data = {
     82,
     844,
     885,
-    934,
-    213
+    934
   ],
   "OldestReleasedFilms": [
     929,
@@ -37496,7 +37515,7 @@ var data = {
     "30": 11,
     "60": 137,
     "90": 540,
-    "120": 230,
+    "120": 231,
     "150": 34,
     "180": 10,
     "210": 1
@@ -37506,7 +37525,7 @@ var data = {
     "Cantonese": 1,
     "Czech": 2,
     "Danish": 1,
-    "English": 873,
+    "English": 874,
     "French": 32,
     "German": 4,
     "Hungarian": 1,
@@ -37565,7 +37584,7 @@ var data = {
     "Taiwan": 1,
     "Ukraine": 1,
     "United Arab Emirates": 1,
-    "United Kingdom": 175,
+    "United Kingdom": 176,
     "United States of America": 784
   },
   "FilmsPerCountryProduction": {
@@ -37584,7 +37603,7 @@ var data = {
     "Egypt": 1,
     "Ethiopia": 1,
     "Finland": 3,
-    "France": 98,
+    "France": 99,
     "Germany": 66,
     "Ghana": 1,
     "Greece": 4,
@@ -37626,7 +37645,7 @@ var data = {
     "Turkey": 2,
     "Ukraine": 2,
     "United Arab Emirates": 2,
-    "United Kingdom": 237,
+    "United Kingdom": 238,
     "United States of America": 832
   },
   "MostFrequentWords": {
@@ -38283,10 +38302,11 @@ var data = {
   },
   "Backdrops": [
     {
-      "ImageUrl": "/fgKoKVw0f2X2ajilfoyra3LFrwo.jpg",
-      "FilmName": "One Week\u003Cbr/\u003E(1920)",
-      "LetterboxdId": "1zr8",
-      "Colour": ""
+      "ImageUrl": "5X4Q4NFowtYHOmuXZX6Z4RnC9uA.jpg",
+      "FilmName": "The Substance\u003Cbr/\u003E(2024)",
+      "LetterboxdId": "zanS",
+      "Colour": "",
+      "Flags": "m"
     }
   ],
   "Lists": [
@@ -41026,7 +41046,17 @@ var data = {
           "LetterboxdIdentifier": "26o2",
           "PrimaryLanguage": "English",
           "PosterUrl": "/tjli2Rjwkn8fivuynxwthnnEzeo.jpg",
-          "RatingSelf": 0
+          "RatingSelf": 4
+        },
+        {
+          "Order": 223,
+          "FilmName": "The Substance",
+          "FilmNameOriginal": "The Substance",
+          "Year": 2024,
+          "LetterboxdIdentifier": "zanS",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/lqoMzCcZYEFK729d6qzt349fB4o.jpg",
+          "RatingSelf": 5
         }
       ]
     }

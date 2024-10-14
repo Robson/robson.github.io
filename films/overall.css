@@ -88,6 +88,14 @@ css-doodle {
     z-index: -1000;
 }
 
+#backdrop.mirror {
+    transform: scaleX(-1);
+}
+
+#backdrop.grey {
+    filter: grayscale(100%);
+}
+
 #buttons {
     text-align: center;
     position: fixed;

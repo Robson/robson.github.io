@@ -199,6 +199,16 @@
 				var backdrop = $('#backdrop');
 				backdrop.css('background-image', 'url("https://image.tmdb.org/t/p/w780/' + randomBackdrop.ImageUrl + '")');
 				backdrop.attr('data-tooltip', randomBackdrop.FilmName);
+                if (randomBackdrop.Flags != null && randomBackdrop.Flags.includes('m')) {
+					backdrop.addClass('mirror');
+				} else {
+                    backdrop.removeClass('mirror');
+				}
+                if (randomBackdrop.Flags != null && randomBackdrop.Flags.includes('g')) {
+                    backdrop.addClass('grey');
+                } else {
+                    backdrop.removeClass('grey');
+                }
 				$('#backdrop_link').attr('href', 'https://boxd.it/' + randomBackdrop.LetterboxdId);
 				createTooltipTriggers();
 
