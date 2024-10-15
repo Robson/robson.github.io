@@ -2863,7 +2863,7 @@ var films = [
     "Title": "The Assistant",
     "TitleOriginal": "The Assistant",
     "Language": "English",
-    "RatingSelf": 3,
+    "RatingSelf": null,
     "RatingLetterboxd": 3.52,
     "Minutes": 88,
     "Watched": 96608,
@@ -12842,5 +12842,31 @@ var films = [
     "Poster": "/lqoMzCcZYEFK729d6qzt349fB4o.jpg",
     "Year": 2024,
     "When": "2024-09-07"
+  },
+  {
+    "Title": "One Percent More Humid",
+    "TitleOriginal": "One Percent More Humid",
+    "Language": "English",
+    "RatingSelf": 2,
+    "RatingLetterboxd": 3.08,
+    "Minutes": 98,
+    "Watched": 663,
+    "Id": "f5dy",
+    "Poster": "/zP0FOglHkoGVE8VvHP7iz3nwTdF.jpg",
+    "Year": 2017,
+    "When": "2017-04-21"
+  },
+  {
+    "Title": "I Am Not Your Negro",
+    "TitleOriginal": "I Am Not Your Negro",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 4.17,
+    "Minutes": 93,
+    "Watched": 87702,
+    "Id": "etXy",
+    "Poster": "/zwd0Zti7BvY1mO0mTPzM0fRrtc6.jpg",
+    "Year": 2016,
+    "When": "2017-02-03"
   }
 ]
