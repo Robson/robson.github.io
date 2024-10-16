@@ -6942,19 +6942,6 @@ var films = [
     "When": "2008-10-24"
   },
   {
-    "Title": "I Now Pronounce You Chuck \u0026 Larry",
-    "TitleOriginal": "I Now Pronounce You Chuck \u0026 Larry",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 2.39,
-    "Minutes": 115,
-    "Watched": 152653,
-    "Id": "25cE",
-    "Poster": "/6wjJ9EnNw4cmTSZYgnao7RpI3X.jpg",
-    "Year": 2007,
-    "When": "2007-07-12"
-  },
-  {
     "Title": "U-571",
     "TitleOriginal": "U-571",
     "Language": "English",
