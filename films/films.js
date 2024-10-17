@@ -12855,5 +12855,31 @@ var films = [
     "Poster": "/zwd0Zti7BvY1mO0mTPzM0fRrtc6.jpg",
     "Year": 2016,
     "When": "2017-02-03"
+  },
+  {
+    "Title": "Kamikaze Girls",
+    "TitleOriginal": "\u4E0B\u59BB\u7269\u8A9E",
+    "Language": "Japanese",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 4.10,
+    "Minutes": 102,
+    "Watched": 33833,
+    "Id": "1ucC",
+    "Poster": "/xKTjRM2le4giFMm7pFRGtrBmwDU.jpg",
+    "Year": 2004,
+    "When": "2004-05-29"
+  },
+  {
+    "Title": "The Nun's Story",
+    "TitleOriginal": "The Nun's Story",
+    "Language": "English",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.62,
+    "Minutes": 151,
+    "Watched": 11099,
+    "Id": "1sFW",
+    "Poster": "/4vNWFhPyjTehPpZsvTnTywwXSiF.jpg",
+    "Year": 1959,
+    "When": "1959-06-18"
   }
 ]
