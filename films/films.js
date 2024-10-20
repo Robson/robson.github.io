@@ -5811,19 +5811,6 @@ var films = [
     "When": "2003-03-14"
   },
   {
-    "Title": "Judge Dredd",
-    "TitleOriginal": "Judge Dredd",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 2.57,
-    "Minutes": 96,
-    "Watched": 90348,
-    "Id": "1Yzm",
-    "Poster": "/cfSnKn8NDU3m8UxihjVcYprA0Aq.jpg",
-    "Year": 1995,
-    "When": "1995-06-30"
-  },
-  {
     "Title": "The Bone Collector",
     "TitleOriginal": "The Bone Collector",
     "Language": "English",
@@ -10166,19 +10153,6 @@ var films = [
     "When": "2021-09-15"
   },
   {
-    "Title": "Disney's FastPass: A Complicated History",
-    "TitleOriginal": null,
-    "Language": null,
-    "RatingSelf": null,
-    "RatingLetterboxd": 4.04,
-    "Minutes": null,
-    "Watched": 10723,
-    "Id": "EnIY",
-    "Poster": null,
-    "Year": 2021,
-    "When": null
-  },
-  {
     "Title": "Secrets \u0026 Lies",
     "TitleOriginal": "Secrets \u0026 Lies",
     "Language": "English",
@@ -12881,5 +12855,96 @@ var films = [
     "Poster": "/4vNWFhPyjTehPpZsvTnTywwXSiF.jpg",
     "Year": 1959,
     "When": "1959-06-18"
+  },
+  {
+    "Title": "Au Hasard Balthazar",
+    "TitleOriginal": "Au hasard Balthazar",
+    "Language": "French",
+    "RatingSelf": null,
+    "RatingLetterboxd": 4.08,
+    "Minutes": 96,
+    "Watched": 71806,
+    "Id": "1E3g",
+    "Poster": "/Ade51j8nRrjMXWBApiM5mkaZVSN.jpg",
+    "Year": 1966,
+    "When": "1966-05-25"
+  },
+  {
+    "Title": "Dawn of the Dead",
+    "TitleOriginal": "Dawn of the Dead",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.97,
+    "Minutes": 127,
+    "Watched": 234553,
+    "Id": "29gU",
+    "Poster": "/9kGESwH451kRgm1h6Q0svAVK60N.jpg",
+    "Year": 1978,
+    "When": "1978-09-02"
+  },
+  {
+    "Title": "Day of the Dead",
+    "TitleOriginal": "Day of the Dead",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.77,
+    "Minutes": 101,
+    "Watched": 117670,
+    "Id": "20dM",
+    "Poster": "/yJ2emwXWwQc6VHW3fO4GZr0hXBt.jpg",
+    "Year": 1985,
+    "When": "1985-07-03"
+  },
+  {
+    "Title": "The Wonder",
+    "TitleOriginal": "The Wonder",
+    "Language": "English",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.35,
+    "Minutes": 108,
+    "Watched": 174042,
+    "Id": "v3uY",
+    "Poster": "/kQAFHdt3I1TpYhtzcGeBb1ogwUP.jpg",
+    "Year": 2022,
+    "When": "2022-11-02"
+  },
+  {
+    "Title": "The Last Exorcism Part II",
+    "TitleOriginal": "The Last Exorcism Part II",
+    "Language": "English",
+    "RatingSelf": 1,
+    "RatingLetterboxd": 1.98,
+    "Minutes": 88,
+    "Watched": 10950,
+    "Id": "4E4a",
+    "Poster": "/260ztSWhGIYSLAjDC6smFWcdUSp.jpg",
+    "Year": 2013,
+    "When": "2013-02-28"
+  },
+  {
+    "Title": "The Adventurer",
+    "TitleOriginal": "The Adventurer",
+    "Language": "",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.62,
+    "Minutes": 26,
+    "Watched": 7616,
+    "Id": "1igs",
+    "Poster": "/khSBh0dDnPsWel6P2zyZCQ2UnMp.jpg",
+    "Year": 1917,
+    "When": "1917-10-22"
+  },
+  {
+    "Title": "The Brothers Bloom",
+    "TitleOriginal": "The Brothers Bloom",
+    "Language": "English",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.44,
+    "Minutes": 114,
+    "Watched": 45076,
+    "Id": "1Bqm",
+    "Poster": "/xIz8iwzyjgWGzcIwHKpqhBs77ML.jpg",
+    "Year": 2008,
+    "When": "2008-09-09"
   }
 ]
