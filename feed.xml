@@ -7,11 +7,18 @@
 	<language>en-gb</language>
 	<atom:link href="http://robson.plus/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+		<title>Chroma</title>
+		<pubDate>Thu, 24 Oct 2024 12:00:00 GMT</pubDate>
+		<link>https://robson.plus</link>
+		<guid>https://robson.plus#2024-10-24A</guid>
+		<description>A daily game where you guess the colour based on the name.</description>
+    </item>
+    <item>
 		<title>Bauhaus Pattern Creator</title>
 		<pubDate>Sun, 14 Jan 2024 12:00:00 GMT</pubDate>
 		<link>https://robson.plus</link>
 		<guid>https://robson.plus#2024-01-14A</guid>
-		<description> An interactive webpage for creating images in the Bauhaus pattern style.</description>
+		<description>An interactive webpage for creating images in the Bauhaus pattern style.</description>
     </item>	
     <item>
 		<title>Reel Time</title>
