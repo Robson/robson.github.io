@@ -2366,7 +2366,7 @@ var films = [
     "When": "2023-11-17"
   },
   {
-    "Title": "Glass Onion",
+    "Title": "Glass Onion: A Knives Out Mystery",
     "TitleOriginal": "Glass Onion: A Knives Out Mystery",
     "Language": "English",
     "RatingSelf": 4,
@@ -2832,19 +2832,6 @@ var films = [
     "Poster": "/7r8DeZuaaHCiOEbkqZC6MFmwJ69.jpg",
     "Year": 2001,
     "When": "2001-11-07"
-  },
-  {
-    "Title": "Sherlock Jr.",
-    "TitleOriginal": "Sherlock Jr.",
-    "Language": "",
-    "RatingSelf": null,
-    "RatingLetterboxd": 4.37,
-    "Minutes": 45,
-    "Watched": 124668,
-    "Id": "298m",
-    "Poster": "/1G9r3rqtbFAQuyWKOZm4Y5J5s7Q.jpg",
-    "Year": 1924,
-    "When": "1924-04-17"
   },
   {
     "Title": "Sicario",
@@ -4394,19 +4381,6 @@ var films = [
     "When": "1973-12-06"
   },
   {
-    "Title": "Jackass 3D",
-    "TitleOriginal": "Jackass 3D",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.41,
-    "Minutes": 99,
-    "Watched": 166396,
-    "Id": "1KpM",
-    "Poster": "/rqK0MkfpWT2DpFjNzkvjHf0vxZ4.jpg",
-    "Year": 2010,
-    "When": "2010-10-15"
-  },
-  {
     "Title": "Day Zero",
     "TitleOriginal": "Day Zero",
     "Language": "English",
@@ -4524,19 +4498,6 @@ var films = [
     "When": "2006-09-09"
   },
   {
-    "Title": "The Condemned",
-    "TitleOriginal": "The Condemned",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 2.61,
-    "Minutes": 113,
-    "Watched": 14486,
-    "Id": "1NGw",
-    "Poster": "/uC50pDHgQQtoDFNh9bBNDAvpsqu.jpg",
-    "Year": 2007,
-    "When": "2007-04-27"
-  },
-  {
     "Title": "Alone in the Wilderness",
     "TitleOriginal": "Alone in the Wilderness",
     "Language": "English",
@@ -4548,19 +4509,6 @@ var films = [
     "Poster": "/fOzc4vwTG9d9tlhX6EyPHu3cuiq.jpg",
     "Year": 2004,
     "When": "2004-10-08"
-  },
-  {
-    "Title": "Jackass 2.5",
-    "TitleOriginal": "Jackass 2.5",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.12,
-    "Minutes": 64,
-    "Watched": 65965,
-    "Id": "1OEw",
-    "Poster": "/qriTT0KQvvuCs73z0LyEduw6XX.jpg",
-    "Year": 2007,
-    "When": "2007-12-18"
   },
   {
     "Title": "The King of Kong: A Fistful of Quarters",
@@ -4771,19 +4719,6 @@ var films = [
     "When": "2007-11-23"
   },
   {
-    "Title": "Rise of the Footsoldier",
-    "TitleOriginal": "Rise of the Footsoldier",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.02,
-    "Minutes": 119,
-    "Watched": 5237,
-    "Id": "1QX6",
-    "Poster": "/k8lbsM0Nl0c1Qp7NnARWjS6TTRA.jpg",
-    "Year": 2007,
-    "When": "2007-09-07"
-  },
-  {
     "Title": "Felon",
     "TitleOriginal": "Felon",
     "Language": "English",
@@ -4795,19 +4730,6 @@ var films = [
     "Poster": "/1eYGh6DETJFXQt5PWjV8lp8YZvx.jpg",
     "Year": 2008,
     "When": "2008-07-17"
-  },
-  {
-    "Title": "The Nines",
-    "TitleOriginal": "The Nines",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.01,
-    "Minutes": 100,
-    "Watched": 9957,
-    "Id": "1R3o",
-    "Poster": "/AkIyPzbxBnR815XNCKH5D9T4RaE.jpg",
-    "Year": 2007,
-    "When": "2007-01-21"
   },
   {
     "Title": "The Last Supper",
@@ -4927,19 +4849,6 @@ var films = [
     "When": "1996-08-02"
   },
   {
-    "Title": "Jackass Number Two",
-    "TitleOriginal": "Jackass Number Two",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.50,
-    "Minutes": 92,
-    "Watched": 186405,
-    "Id": "1SyM",
-    "Poster": "/u73V8dMqUwjtPL6gWesCE7ji9GU.jpg",
-    "Year": 2006,
-    "When": "2006-09-22"
-  },
-  {
     "Title": "Spun",
     "TitleOriginal": "Spun",
     "Language": "English",
@@ -4964,19 +4873,6 @@ var films = [
     "Poster": "/plH3TujSUVttiIikToKfwdCorJI.jpg",
     "Year": 2002,
     "When": "2002-04-19"
-  },
-  {
-    "Title": "Death Sentence",
-    "TitleOriginal": "Death Sentence",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.18,
-    "Minutes": 105,
-    "Watched": 28863,
-    "Id": "1SYA",
-    "Poster": "/3rdEAMh4a3pc7GO6fSkJwpt7BWX.jpg",
-    "Year": 2007,
-    "When": "2007-08-31"
   },
   {
     "Title": "Sexy Beast",
@@ -6175,19 +6071,6 @@ var films = [
     "When": "2008-02-18"
   },
   {
-    "Title": "Charlie Bartlett",
-    "TitleOriginal": "Charlie Bartlett",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.33,
-    "Minutes": 97,
-    "Watched": 52767,
-    "Id": "1ZY8",
-    "Poster": "/l0jr9jSIW2TYFuunPtDQ1exyjtI.jpg",
-    "Year": 2007,
-    "When": "2008-02-22"
-  },
-  {
     "Title": "Deep Impact",
     "TitleOriginal": "Deep Impact",
     "Language": "English",
@@ -6318,19 +6201,6 @@ var films = [
     "When": "2007-04-12"
   },
   {
-    "Title": "The Lookout",
-    "TitleOriginal": "The Lookout",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.35,
-    "Minutes": 99,
-    "Watched": 21801,
-    "Id": "20ru",
-    "Poster": "/wTYyXCoIBy2TDxetoGS4Sc0VBP1.jpg",
-    "Year": 2007,
-    "When": "2007-03-09"
-  },
-  {
     "Title": "Jumper",
     "TitleOriginal": "Jumper",
     "Language": "English",
@@ -6383,20 +6253,7 @@ var films = [
     "When": "2008-03-27"
   },
   {
-    "Title": "Before the Devil Knows You're Dead",
-    "TitleOriginal": "Before the Devil Knows You're Dead",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.73,
-    "Minutes": 117,
-    "Watched": 96145,
-    "Id": "20Jy",
-    "Poster": "/egIP0s1ws6fGHqTsVqVNcaEa5i2.jpg",
-    "Year": 2007,
-    "When": "2007-09-26"
-  },
-  {
-    "Title": "Run Fatboy Run",
+    "Title": "Run, Fatboy, Run",
     "TitleOriginal": "Run Fatboy Run",
     "Language": "English",
     "RatingSelf": null,
@@ -6407,19 +6264,6 @@ var films = [
     "Poster": "/2MZNPXJquIG8OcwajiR8YkCr7ak.jpg",
     "Year": 2007,
     "When": "2007-09-06"
-  },
-  {
-    "Title": "Shooter",
-    "TitleOriginal": "Shooter",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.16,
-    "Minutes": 124,
-    "Watched": 152364,
-    "Id": "20TS",
-    "Poster": "/2aWGxo1E5polpBjPvtBRkWp7qaS.jpg",
-    "Year": 2007,
-    "When": "2007-03-22"
   },
   {
     "Title": "xXx",
@@ -6695,19 +6539,6 @@ var films = [
     "When": "2006-05-19"
   },
   {
-    "Title": "Knocked Up",
-    "TitleOriginal": "Knocked Up",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.06,
-    "Minutes": 129,
-    "Watched": 399792,
-    "Id": "23yS",
-    "Poster": "/b4OaXw2MW97VvIiZE0Sbn1NfxSh.jpg",
-    "Year": 2007,
-    "When": "2007-06-01"
-  },
-  {
     "Title": "The Day of the Jackal",
     "TitleOriginal": "The Day of the Jackal",
     "Language": "English",
@@ -6786,19 +6617,6 @@ var films = [
     "When": "2006-05-25"
   },
   {
-    "Title": "The Kingdom",
-    "TitleOriginal": "The Kingdom",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.17,
-    "Minutes": 110,
-    "Watched": 36176,
-    "Id": "24tY",
-    "Poster": "/1RkL0PGod3b75MSrc1nVJxZsoRT.jpg",
-    "Year": 2007,
-    "When": "2007-08-22"
-  },
-  {
     "Title": "Atonement",
     "TitleOriginal": "Atonement",
     "Language": "English",
@@ -6862,19 +6680,6 @@ var films = [
     "Poster": "/x2ckiEGoYz2AomOeviEPqnhrw7Q.jpg",
     "Year": 2007,
     "When": "2007-01-23"
-  },
-  {
-    "Title": "Shoot 'Em Up",
-    "TitleOriginal": "Shoot 'Em Up",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.12,
-    "Minutes": 86,
-    "Watched": 70770,
-    "Id": "24LI",
-    "Poster": "/pbHpZfjzF4hKomaSmSZWRWKhO0P.jpg",
-    "Year": 2007,
-    "When": "2007-07-26"
   },
   {
     "Title": "Blow",
@@ -7148,19 +6953,6 @@ var films = [
     "Poster": "/eWhCDJiwxvx3YXkAFRiHjimnF0j.jpg",
     "Year": 1988,
     "When": "1988-06-03"
-  },
-  {
-    "Title": "Stardust",
-    "TitleOriginal": "Stardust",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.61,
-    "Minutes": 127,
-    "Watched": 321741,
-    "Id": "272w",
-    "Poster": "/7zbFmxy3DqKYL2M8Hop6uylp2Uy.jpg",
-    "Year": 2007,
-    "When": "2007-08-09"
   },
   {
     "Title": "Eastern Promises",
@@ -7579,7 +7371,7 @@ var films = [
     "When": "1990-07-03"
   },
   {
-    "Title": "Die Hard With a Vengeance",
+    "Title": "Die Hard: With a Vengeance",
     "TitleOriginal": "Die Hard: With a Vengeance",
     "Language": "English",
     "RatingSelf": null,
@@ -8567,8 +8359,8 @@ var films = [
     "When": "1998-07-15"
   },
   {
-    "Title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
-    "TitleOriginal": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+    "Title": "Borat",
+    "TitleOriginal": "Borat",
     "Language": "English",
     "RatingSelf": null,
     "RatingLetterboxd": 3.74,
@@ -9620,19 +9412,6 @@ var films = [
     "When": "2015-07-01"
   },
   {
-    "Title": "Jackass: The Lost Tapes",
-    "TitleOriginal": "Jackass: The Lost Tapes",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.43,
-    "Minutes": 105,
-    "Watched": 3411,
-    "Id": "7U2A",
-    "Poster": "/9o0OFbGNX3qAOqlag6kvJvZkkAJ.jpg",
-    "Year": 2009,
-    "When": "2009-10-13"
-  },
-  {
     "Title": "Ever",
     "TitleOriginal": "Ever",
     "Language": "English",
@@ -10325,7 +10104,7 @@ var films = [
     "Title": "When Bj\u00F6rk Met Attenborough",
     "TitleOriginal": "When Bj\u00F6rk Met Attenborough",
     "Language": "English",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 3.67,
     "Minutes": 48,
     "Watched": 866,
@@ -10546,7 +10325,7 @@ var films = [
     "Title": "Tropico",
     "TitleOriginal": "Tropico",
     "Language": "English",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 4.21,
     "Minutes": 27,
     "Watched": 17010,
@@ -10751,7 +10530,7 @@ var films = [
     "When": "2017-02-24"
   },
   {
-    "Title": "Petite Maman",
+    "Title": "Petite maman",
     "TitleOriginal": "Petite maman",
     "Language": "French",
     "RatingSelf": 5,
@@ -11976,7 +11755,7 @@ var films = [
     "Title": "Orlando",
     "TitleOriginal": "Orlando",
     "Language": "English",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 3.89,
     "Minutes": 90,
     "Watched": 62220,
@@ -12168,7 +11947,7 @@ var films = [
     "When": "1993-08-13"
   },
   {
-    "Title": "Three Colours: Blue",
+    "Title": "Three Colors: Blue",
     "TitleOriginal": "Trois couleurs : Bleu",
     "Language": "French",
     "RatingSelf": 4,
@@ -12181,7 +11960,7 @@ var films = [
     "When": "1993-09-08"
   },
   {
-    "Title": "Three Colours: White",
+    "Title": "Three Colors: White",
     "TitleOriginal": "Trois couleurs : Blanc",
     "Language": "Polish",
     "RatingSelf": 3,
@@ -12194,7 +11973,7 @@ var films = [
     "When": "1994-01-26"
   },
   {
-    "Title": "Three Colours: Red",
+    "Title": "Three Colors: Red",
     "TitleOriginal": "Trois couleurs : Rouge",
     "Language": "French",
     "RatingSelf": 4,
@@ -12488,7 +12267,7 @@ var films = [
     "Minutes": 121,
     "Watched": 10382,
     "Id": "1f8A",
-    "Poster": "8ATqAwGvznKn9hgLPS6J5nJgBnB.jpg",
+    "Poster": "/xHP4SIfb8TqqQU1khvnAyvKZGH1.jpg",
     "Year": 2004,
     "When": "2005-01-12"
   },
@@ -12566,7 +12345,7 @@ var films = [
     "Minutes": 121,
     "Watched": 888040,
     "Id": "dgRU",
-    "Poster": "qQ69kTStBSj5yK6kse1bzF8MTjP.jpg",
+    "Poster": "/2yOKarmL8B4oXaLXUdHu882SUbu.jpg",
     "Year": 2017,
     "When": "2017-09-13"
   },
@@ -12579,12 +12358,12 @@ var films = [
     "Minutes": 113,
     "Watched": 130649,
     "Id": "21tc",
-    "Poster": "e1Po9NDrH7IJZhv89467gJH5FS0.jpg",
+    "Poster": "/8vvgKw3DbEPNlJAdHe7xXzhb2gN.jpg",
     "Year": 1954,
     "When": "1954-09-10"
   },
   {
-    "Title": "The Hunger Games: Mockingjay \u2013 Part 2",
+    "Title": "The Hunger Games: Mockingjay - Part 2",
     "TitleOriginal": "The Hunger Games: Mockingjay - Part 2",
     "Language": "English",
     "RatingSelf": 3,
@@ -12597,7 +12376,7 @@ var films = [
     "When": "2015-11-18"
   },
   {
-    "Title": "The Hunger Games: Mockingjay \u2013 Part 1",
+    "Title": "The Hunger Games: Mockingjay - Part 1",
     "TitleOriginal": "The Hunger Games: Mockingjay - Part 1",
     "Language": "English",
     "RatingSelf": 3,
@@ -12662,7 +12441,7 @@ var films = [
     "When": "2007-09-01"
   },
   {
-    "Title": "Le d\u00E9jeuner de minet",
+    "Title": "Pussy's Breakfast",
     "TitleOriginal": "Le D\u00E9jeuner de Minet",
     "Language": "",
     "RatingSelf": null,
@@ -12834,7 +12613,7 @@ var films = [
     "Title": "Kamikaze Girls",
     "TitleOriginal": "\u4E0B\u59BB\u7269\u8A9E",
     "Language": "Japanese",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 4.10,
     "Minutes": 102,
     "Watched": 33833,
@@ -12998,5 +12777,174 @@ var films = [
     "Poster": "vODOVn29fr0nLF9MVfpfKDcxuXF.jpg",
     "Year": 1927,
     "When": "1927-02-06"
+  },
+  {
+    "Title": "Malevolent",
+    "TitleOriginal": "Malevolent",
+    "Language": "English",
+    "RatingSelf": 2,
+    "RatingLetterboxd": 2.15,
+    "Minutes": 89,
+    "Watched": 48423,
+    "Id": "hijI",
+    "Poster": "/lm29Sf2uI69CmbCsUkWFn7sbvL6.jpg",
+    "Year": 2018,
+    "When": "2018-12-13"
+  },
+  {
+    "Title": "My Fair Lady",
+    "TitleOriginal": "My Fair Lady",
+    "Language": "English",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.61,
+    "Minutes": 170,
+    "Watched": 154785,
+    "Id": "1UBI",
+    "Poster": "3kqjmFdwZ9kXnTDkWsJQAfJn7gS.jpg",
+    "Year": 1964,
+    "When": "1964-10-21"
+  },
+  {
+    "Title": "Good One",
+    "TitleOriginal": "Good One",
+    "Language": "English",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.69,
+    "Minutes": 89,
+    "Watched": 9385,
+    "Id": "Gsyo",
+    "Poster": "/pAgeWPP8aAuiEsKgIRLw75Ug8bP.jpg",
+    "Year": 2024,
+    "When": "2024-08-09"
+  },
+  {
+    "Title": "Anatomy of a Fall",
+    "TitleOriginal": "Anatomie d'une chute",
+    "Language": "French",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 4.14,
+    "Minutes": 151,
+    "Watched": 1197952,
+    "Id": "yuDE",
+    "Poster": "/kQs6keheMwCxJxrzV83VUwFtHkB.jpg",
+    "Year": 2023,
+    "When": "2023-08-23"
+  },
+  {
+    "Title": "The Secret Life of Words",
+    "TitleOriginal": "The Secret Life of Words",
+    "Language": "English",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.68,
+    "Minutes": 115,
+    "Watched": 5285,
+    "Id": "2b1s",
+    "Poster": "/5V7i63rodY56cGWmPATxumzj4xv.jpg",
+    "Year": 2005,
+    "When": "2005-12-15"
+  },
+  {
+    "Title": "Spellbound",
+    "TitleOriginal": "Spellbound",
+    "Language": "English",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.77,
+    "Minutes": 111,
+    "Watched": 70003,
+    "Id": "24Ji",
+    "Poster": "/dPAox7jGScLBvxKLeRptJIBF7v.jpg",
+    "Year": 1945,
+    "When": "1945-11-08"
+  },
+  {
+    "Title": "They All Laughed",
+    "TitleOriginal": "They All Laughed",
+    "Language": "English",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.60,
+    "Minutes": 115,
+    "Watched": 7347,
+    "Id": "1i7g",
+    "Poster": "/kYFQNzDEp48JQrTGKnKLmEzFfwm.jpg",
+    "Year": 1981,
+    "When": "1981-11-20"
+  },
+  {
+    "Title": "The Piano",
+    "TitleOriginal": "The Piano",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.86,
+    "Minutes": 117,
+    "Watched": 149618,
+    "Id": "29Kq",
+    "Poster": "/rx8RKXn8OtuS6lqloYsjyrGOUp4.jpg",
+    "Year": 1993,
+    "When": "1993-05-18"
+  },
+  {
+    "Title": "Hereditary",
+    "TitleOriginal": "Hereditary",
+    "Language": "English",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.96,
+    "Minutes": 128,
+    "Watched": 2331264,
+    "Id": "hNVe",
+    "Poster": "/p9fmuz2Oj3HtEJEqbIwkFGUhVXD.jpg",
+    "Year": 2018,
+    "When": "2018-06-07"
+  },
+  {
+    "Title": "Green Mansions",
+    "TitleOriginal": "Green Mansions",
+    "Language": "English",
+    "RatingSelf": 2,
+    "RatingLetterboxd": 2.53,
+    "Minutes": 100,
+    "Watched": 2072,
+    "Id": "778",
+    "Poster": "/stdOrgddMWUMRUFB55sqNoWS3hY.jpg",
+    "Year": 1959,
+    "When": "1959-03-19"
+  },
+  {
+    "Title": "The Lady Vanishes",
+    "TitleOriginal": "The Lady Vanishes",
+    "Language": "English",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.90,
+    "Minutes": 96,
+    "Watched": 77655,
+    "Id": "29ea",
+    "Poster": "/c1t9LB76LvEARPanfEzXmkm7fwY.jpg",
+    "Year": 1938,
+    "When": "1938-10-07"
+  },
+  {
+    "Title": "His Three Daughters",
+    "TitleOriginal": "His Three Daughters",
+    "Language": "English",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.84,
+    "Minutes": 104,
+    "Watched": 70139,
+    "Id": "HGx2",
+    "Poster": "/yTIHBPLQyzhgz1c2spak3btJxsg.jpg",
+    "Year": 2023,
+    "When": "2024-09-05"
+  },
+  {
+    "Title": "It",
+    "TitleOriginal": "It",
+    "Language": "",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.51,
+    "Minutes": 72,
+    "Watched": 9385,
+    "Id": "2SMc",
+    "Poster": "/nkkhsKik9GILqn3S5BxoZdyml21.jpg",
+    "Year": 1927,
+    "When": "1927-02-05"
   }
 ]

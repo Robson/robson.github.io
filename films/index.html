@@ -655,7 +655,7 @@
 
 				$('body').append('<div class="boxes"></div>');
 				$('.boxes').append(makeBox(Math.round(data.AverageFilmYearMean), 'Film Year: Mean', data.AverageFilmYearMean.toFixed(2), true));
-				$('.boxes').append(makeBox(data.AverageFilmYearMedian, 'Film Year: Median', null, true));
+				$('.boxes').append(makeBox(data.AverageFilmYearMedian, 'Film Year: Median', data.AverageFilmYearMedianTooltip, true));
 				$('.boxes').append(makeBox(data.AverageFilmYearMode, 'Film Year: Mode', null, true));
 
 				//$('body').append('<div class="boxes"></div>');
