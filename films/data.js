@@ -1,11 +1,17 @@
 var data = {
-  "FilmsWithThemes": 916,
+  "FilmsWithThemes": 929,
   "Themes": [
     {
       "Url": "/theme/moving-relationship-stories/",
       "Text": "Moving relationship stories",
       "IsMini": false,
-      "Amount": 251
+      "Amount": 254
+    },
+    {
+      "Url": "/theme/intense-violence-and-sexual-transgression/",
+      "Text": "Intense violence and sexual transgression",
+      "IsMini": false,
+      "Amount": 209
     },
     {
       "Url": "/theme/crude-humor-and-satire/",
@@ -14,28 +20,22 @@ var data = {
       "Amount": 207
     },
     {
-      "Url": "/theme/intense-violence-and-sexual-transgression/",
-      "Text": "Intense violence and sexual transgression",
-      "IsMini": false,
-      "Amount": 206
-    },
-    {
       "Url": "/theme/humanity-and-the-world-around-us/",
       "Text": "Humanity and the world around us",
       "IsMini": false,
-      "Amount": 187
+      "Amount": 192
     },
     {
       "Url": "/mini-theme/thriller-suspense-twist-psychological-intriguing/",
       "Text": "Twisted dark psychological thriller",
       "IsMini": true,
-      "Amount": 155
+      "Amount": 158
     },
     {
       "Url": "/mini-theme/sad-depressing-illness-heartbreaking-touching/",
       "Text": "Powerful stories of heartbreak and suffering",
       "IsMini": true,
-      "Amount": 143
+      "Amount": 144
     },
     {
       "Url": "/mini-theme/gag-chuckles-slapstick-amusing-jokes/",
@@ -47,13 +47,13 @@ var data = {
       "Url": "/theme/horror-the-undead-and-monster-classics/",
       "Text": "Horror, the undead and monster classics",
       "IsMini": false,
-      "Amount": 133
+      "Amount": 135
     },
     {
       "Url": "/mini-theme/touching-cry-family-sad-tear-jerker/",
       "Text": "Touching and sentimental family stories",
       "IsMini": true,
-      "Amount": 133
+      "Amount": 135
     },
     {
       "Url": "/mini-theme/jokes-humor-chuckles-crude-gag/",
@@ -71,7 +71,7 @@ var data = {
       "Url": "/mini-theme/supernatural-chilling-eerie-terrifying-dread/",
       "Text": "Terrifying, haunted, and supernatural horror",
       "IsMini": true,
-      "Amount": 111
+      "Amount": 112
     },
     {
       "Url": "/mini-theme/humor-satire-jokes-amusing-humorous/",
@@ -83,19 +83,19 @@ var data = {
       "Url": "/mini-theme/killing-slasher-gruesome-gory-bloody/",
       "Text": "Gory, gruesome, and slasher horror",
       "IsMini": true,
-      "Amount": 104
+      "Amount": 105
     },
     {
       "Url": "/mini-theme/family-touching-kids-cry-tear-jerker/",
       "Text": "Emotional and touching family dramas",
       "IsMini": true,
-      "Amount": 102
+      "Amount": 103
     },
     {
       "Url": "/mini-theme/chemistry-hilarious-romantic-comedy-sweet-or-humorous/",
       "Text": "Laugh-out-loud relationship entanglements",
       "IsMini": true,
-      "Amount": 100
+      "Amount": 101
     },
     {
       "Url": "/theme/epic-heroes/",
@@ -110,28 +110,28 @@ var data = {
       "Amount": 94
     },
     {
-      "Url": "/theme/relationship-comedy/",
-      "Text": "Relationship comedy",
-      "IsMini": false,
-      "Amount": 86
-    },
-    {
       "Url": "/mini-theme/death-symbolism-philosophical-thought-provoking-surreal/",
       "Text": "Surreal and thought-provoking visions of life and death",
       "IsMini": true,
-      "Amount": 86
+      "Amount": 90
+    },
+    {
+      "Url": "/theme/relationship-comedy/",
+      "Text": "Relationship comedy",
+      "IsMini": false,
+      "Amount": 88
     },
     {
       "Url": "/mini-theme/sexuality-sex-disturbed-unconventional-or-challenging/",
       "Text": "Challenging or sexual themes \u0026amp; twists",
       "IsMini": true,
-      "Amount": 85
+      "Amount": 87
     },
     {
       "Url": "/mini-theme/quirky-humor-relationships-endearing-humorous/",
       "Text": "Quirky and endearing relationships",
       "IsMini": true,
-      "Amount": 85
+      "Amount": 86
     },
     {
       "Url": "/theme/underdogs-and-coming-of-age/",
@@ -146,16 +146,22 @@ var data = {
       "Amount": 82
     },
     {
+      "Url": "/mini-theme/weird-surreal-dream-bizarre-confusing/",
+      "Text": "Dreamlike, quirky, and surreal storytelling",
+      "IsMini": true,
+      "Amount": 81
+    },
+    {
       "Url": "/theme/crime-drugs-and-gangsters/",
       "Text": "Crime, drugs and gangsters",
       "IsMini": false,
       "Amount": 80
     },
     {
-      "Url": "/mini-theme/weird-surreal-dream-bizarre-confusing/",
-      "Text": "Dreamlike, quirky, and surreal storytelling",
+      "Url": "/mini-theme/teenager-friendship-sad-adolescents-or-coming-of-age/",
+      "Text": "Emotional teen coming-of-age stories",
       "IsMini": true,
-      "Amount": 79
+      "Amount": 77
     },
     {
       "Url": "/mini-theme/family-moving-heartbreaking-sadness-sad/",
@@ -164,26 +170,20 @@ var data = {
       "Amount": 76
     },
     {
-      "Url": "/mini-theme/teenager-friendship-sad-adolescents-or-coming-of-age/",
-      "Text": "Emotional teen coming-of-age stories",
-      "IsMini": true,
-      "Amount": 75
-    },
-    {
       "Url": "/mini-theme/chilling-eerie-terrifying-terror-frighten/",
       "Text": "Creepy, chilling, and terrifying horror",
+      "IsMini": true,
+      "Amount": 74
+    },
+    {
+      "Url": "/mini-theme/romance-captivating-loves-lover-beauty/",
+      "Text": "Captivating relationships and charming romance",
       "IsMini": true,
       "Amount": 73
     },
     {
       "Url": "/mini-theme/car-cars-racing-speed-adrenaline/",
       "Text": "Adrenaline-fueled action and fast cars",
-      "IsMini": true,
-      "Amount": 71
-    },
-    {
-      "Url": "/mini-theme/romance-captivating-loves-lover-beauty/",
-      "Text": "Captivating relationships and charming romance",
       "IsMini": true,
       "Amount": 71
     },
@@ -197,43 +197,43 @@ var data = {
       "Url": "/mini-theme/brutal-graphic-brutality-revenge-violence/",
       "Text": "Graphic violence and brutal revenge",
       "IsMini": true,
-      "Amount": 65
+      "Amount": 67
     },
     {
       "Url": "/theme/thrillers-and-murder-mysteries/",
       "Text": "Thrillers and murder mysteries",
       "IsMini": false,
-      "Amount": 64
-    },
-    {
-      "Url": "/mini-theme/murderer-clues-suspects-suspense-intriguing/",
-      "Text": "Intriguing and suspenseful murder mysteries",
-      "IsMini": true,
-      "Amount": 59
+      "Amount": 65
     },
     {
       "Url": "/mini-theme/thriller-cops-suspense-killer-twist/",
       "Text": "Suspenseful crime thrillers",
       "IsMini": true,
-      "Amount": 59
+      "Amount": 61
+    },
+    {
+      "Url": "/mini-theme/murderer-clues-suspects-suspense-intriguing/",
+      "Text": "Intriguing and suspenseful murder mysteries",
+      "IsMini": true,
+      "Amount": 60
     },
     {
       "Url": "/mini-theme/charming-witty-delightful-lovely-charm/",
       "Text": "Charming romances and delightful chemistry",
       "IsMini": true,
-      "Amount": 56
+      "Amount": 58
     },
     {
       "Url": "/mini-theme/eerie-blood-gothic-mysterious-bizarre/",
       "Text": "Gothic and eerie haunting horror",
       "IsMini": true,
-      "Amount": 55
+      "Amount": 57
     },
     {
       "Url": "/mini-theme/teacher-student-classroom-kids-classmates/",
       "Text": "Student coming-of-age challenges",
       "IsMini": true,
-      "Amount": 55
+      "Amount": 56
     },
     {
       "Url": "/mini-theme/robbery-heist-cops-twist-thriller/",
@@ -254,16 +254,22 @@ var data = {
       "Amount": 54
     },
     {
+      "Url": "/mini-theme/comedy-funny-hilarious-broadway-musical/",
+      "Text": "Catchy songs and hilarious musical comedy",
+      "IsMini": true,
+      "Amount": 51
+    },
+    {
       "Url": "/mini-theme/fantasy-imaginative-magic-fairy-tale-or-enchanted/",
       "Text": "Fairy-tale fantasy and enchanted magic",
       "IsMini": true,
       "Amount": 51
     },
     {
-      "Url": "/mini-theme/comedy-funny-hilarious-broadway-musical/",
-      "Text": "Catchy songs and hilarious musical comedy",
+      "Url": "/mini-theme/marriage-romance-affair-passionate-passion/",
+      "Text": "Passion and romance",
       "IsMini": true,
-      "Amount": 50
+      "Amount": 51
     },
     {
       "Url": "/mini-theme/funny-nerds-girls-comedy-dork/",
@@ -272,16 +278,16 @@ var data = {
       "Amount": 50
     },
     {
-      "Url": "/mini-theme/marriage-romance-affair-passionate-passion/",
-      "Text": "Passion and romance",
-      "IsMini": true,
-      "Amount": 49
-    },
-    {
       "Url": "/mini-theme/guns-action-violence-cops-killing/",
       "Text": "Violent action, guns, and crime",
       "IsMini": true,
       "Amount": 48
+    },
+    {
+      "Url": "/mini-theme/murder-crime-drama-gripping-compelling/",
+      "Text": "Gripping, intense violent crime",
+      "IsMini": true,
+      "Amount": 47
     },
     {
       "Url": "/mini-theme/christmas-holiday-heartwarming-family-adorable/",
@@ -296,14 +302,20 @@ var data = {
       "Amount": 46
     },
     {
+      "Url": "/mini-theme/terrorism-thriller-gripping-intense-political/",
+      "Text": "Intense political and terrorist thrillers",
+      "IsMini": true,
+      "Amount": 46
+    },
+    {
       "Url": "/mini-theme/action-villain-silly-cool-hero/",
       "Text": "Action comedy and silly heroics",
       "IsMini": true,
       "Amount": 45
     },
     {
-      "Url": "/mini-theme/terrorism-thriller-gripping-intense-political/",
-      "Text": "Intense political and terrorist thrillers",
+      "Url": "/mini-theme/sex-sexuality-erotic-sensual-desire/",
+      "Text": "Erotic relationships and desire",
       "IsMini": true,
       "Amount": 45
     },
@@ -312,18 +324,6 @@ var data = {
       "Text": "Emotional and captivating fantasy storytelling",
       "IsMini": true,
       "Amount": 44
-    },
-    {
-      "Url": "/mini-theme/sex-sexuality-erotic-sensual-desire/",
-      "Text": "Erotic relationships and desire",
-      "IsMini": true,
-      "Amount": 44
-    },
-    {
-      "Url": "/mini-theme/murder-crime-drama-gripping-compelling/",
-      "Text": "Gripping, intense violent crime",
-      "IsMini": true,
-      "Amount": 43
     },
     {
       "Url": "/mini-theme/drugs-gritty-cops-violence-powerful/",
@@ -338,16 +338,16 @@ var data = {
       "Amount": 41
     },
     {
+      "Url": "/mini-theme/marriage-drama-family-dramas-melodrama/",
+      "Text": "Enduring stories of family and marital drama",
+      "IsMini": true,
+      "Amount": 40
+    },
+    {
       "Url": "/theme/politics-and-human-rights/",
       "Text": "Politics and human rights",
       "IsMini": false,
       "Amount": 40
-    },
-    {
-      "Url": "/mini-theme/marriage-drama-family-dramas-melodrama/",
-      "Text": "Enduring stories of family and marital drama",
-      "IsMini": true,
-      "Amount": 39
     },
     {
       "Url": "/mini-theme/dog-animals-adorable-heartwarming-family/",
@@ -359,6 +359,12 @@ var data = {
       "Url": "/mini-theme/homosexuality-sexuality-homophobic-friendship-sex/",
       "Text": "Emotional LGBTQ relationships",
       "IsMini": true,
+      "Amount": 38
+    },
+    {
+      "Url": "/theme/song-and-dance/",
+      "Text": "Song and dance",
+      "IsMini": false,
       "Amount": 37
     },
     {
@@ -371,12 +377,6 @@ var data = {
       "Url": "/mini-theme/spy-intrigue-thriller-suspense-tense/",
       "Text": "Exciting spy thrillers with tense intrigue",
       "IsMini": true,
-      "Amount": 36
-    },
-    {
-      "Url": "/theme/song-and-dance/",
-      "Text": "Song and dance",
-      "IsMini": false,
       "Amount": 36
     },
     {
@@ -395,7 +395,13 @@ var data = {
       "Url": "/theme/epic-history-and-literature/",
       "Text": "Epic history and literature",
       "IsMini": false,
-      "Amount": 31
+      "Amount": 32
+    },
+    {
+      "Url": "/mini-theme/musical-lyrics-broadway-tune-vocals/",
+      "Text": "Dazzling vocal performances and musicals",
+      "IsMini": true,
+      "Amount": 30
     },
     {
       "Url": "/mini-theme/film-noir-femme-fatale-1940s-thriller-or-intriguing/",
@@ -404,10 +410,10 @@ var data = {
       "Amount": 30
     },
     {
-      "Url": "/mini-theme/musical-lyrics-broadway-tune-vocals/",
-      "Text": "Dazzling vocal performances and musicals",
+      "Url": "/mini-theme/powerful-complexity-intellectual-poetic-emotional/",
+      "Text": "Powerful poetic and passionate drama",
       "IsMini": true,
-      "Amount": 29
+      "Amount": 30
     },
     {
       "Url": "/mini-theme/space-spaceship-earth-mankind-scientific/",
@@ -416,16 +422,16 @@ var data = {
       "Amount": 28
     },
     {
-      "Url": "/mini-theme/powerful-complexity-intellectual-poetic-emotional/",
-      "Text": "Powerful poetic and passionate drama",
-      "IsMini": true,
-      "Amount": 28
-    },
-    {
       "Url": "/theme/faith-and-religion/",
       "Text": "Faith and religion",
       "IsMini": false,
       "Amount": 27
+    },
+    {
+      "Url": "/mini-theme/racism-african-american-powerful-hatred-or-slavery/",
+      "Text": "Racism and the powerful fight for justice",
+      "IsMini": true,
+      "Amount": 26
     },
     {
       "Url": "/mini-theme/horror-spooky-scary-comical-creepy/",
@@ -440,14 +446,14 @@ var data = {
       "Amount": 25
     },
     {
-      "Url": "/mini-theme/racism-african-american-powerful-hatred-or-slavery/",
-      "Text": "Racism and the powerful fight for justice",
-      "IsMini": true,
-      "Amount": 25
-    },
-    {
       "Url": "/mini-theme/duty-heroic-battle-pilot-patriotism/",
       "Text": "Bravery in War",
+      "IsMini": true,
+      "Amount": 23
+    },
+    {
+      "Url": "/mini-theme/prison-jail-convicts-brutal-brutality/",
+      "Text": "Brutal, violent prison drama",
       "IsMini": true,
       "Amount": 23
     },
@@ -468,12 +474,6 @@ var data = {
       "Text": "Politics, propaganda, and political documentaries",
       "IsMini": true,
       "Amount": 23
-    },
-    {
-      "Url": "/mini-theme/prison-jail-convicts-brutal-brutality/",
-      "Text": "Brutal, violent prison drama",
-      "IsMini": true,
-      "Amount": 22
     },
     {
       "Url": "/mini-theme/destruction-disaster-scientific-mankind-scientist/",
@@ -503,6 +503,12 @@ var data = {
       "Url": "/mini-theme/scientist-monster-doctor-experiment-creature/",
       "Text": "Chilling experiments and classic monster horror",
       "IsMini": true,
+      "Amount": 18
+    },
+    {
+      "Url": "/mini-theme/documentary-sad-fascinating-emotional-heartbreaking/",
+      "Text": "Fascinating, emotional stories and documentaries",
+      "IsMini": true,
       "Amount": 17
     },
     {
@@ -516,12 +522,6 @@ var data = {
       "Text": "Tragic sadness and captivating beauty",
       "IsMini": true,
       "Amount": 17
-    },
-    {
-      "Url": "/mini-theme/documentary-sad-fascinating-emotional-heartbreaking/",
-      "Text": "Fascinating, emotional stories and documentaries",
-      "IsMini": true,
-      "Amount": 16
     },
     {
       "Url": "/mini-theme/nazi-hitler-jewish-historical-holocaust/",
@@ -554,22 +554,22 @@ var data = {
       "Amount": 13
     },
     {
-      "Url": "/mini-theme/boxing-fighting-champion-fighter-underdog/",
-      "Text": "Underdog fighting and boxing stories",
-      "IsMini": true,
-      "Amount": 12
-    },
-    {
       "Url": "/mini-theme/vampires-blood-undead-cool-bloody/",
       "Text": "Bloody vampire horror",
       "IsMini": true,
-      "Amount": 11
+      "Amount": 12
     },
     {
       "Url": "/mini-theme/dancing-choreography-catchy-tune-lyrics/",
       "Text": "Dance rhythms and catchy tunes",
       "IsMini": true,
-      "Amount": 11
+      "Amount": 12
+    },
+    {
+      "Url": "/mini-theme/boxing-fighting-champion-fighter-underdog/",
+      "Text": "Underdog fighting and boxing stories",
+      "IsMini": true,
+      "Amount": 12
     },
     {
       "Url": "/mini-theme/holy-spiritual-beliefs-devil-sin/",
@@ -578,16 +578,16 @@ var data = {
       "Amount": 11
     },
     {
-      "Url": "/mini-theme/monster-creature-dinosaurs-scientist-beast/",
-      "Text": "Sci-fi monster and dinosaur adventures",
+      "Url": "/mini-theme/shakespearean-breathtaking-kings-captivating-tragic/",
+      "Text": "Captivating vision and Shakespearean drama",
       "IsMini": true,
       "Amount": 10
     },
     {
-      "Url": "/mini-theme/shakespearean-breathtaking-kings-captivating-tragic/",
-      "Text": "Captivating vision and Shakespearean drama",
+      "Url": "/mini-theme/monster-creature-dinosaurs-scientist-beast/",
+      "Text": "Sci-fi monster and dinosaur adventures",
       "IsMini": true,
-      "Amount": 9
+      "Amount": 10
     },
     {
       "Url": "/mini-theme/biography-artists-musician-songs-emotional/",
@@ -611,7 +611,7 @@ var data = {
       "Url": "/mini-theme/royalty-sumptuous-lavish-drama-kings/",
       "Text": "Lavish dramas and sumptuous royalty",
       "IsMini": true,
-      "Amount": 7
+      "Amount": 8
     },
     {
       "Url": "/mini-theme/band-songs-concert-musician-lyrics/",
@@ -656,12 +656,12 @@ var data = {
       "Amount": 1
     }
   ],
-  "FilmsWithNanogenres": 916,
+  "FilmsWithNanogenres": 929,
   "Nanogenres": [
     {
       "Url": "weird-disturbing-intriguing",
       "Text": "Weird, Disturbing, Intriguing",
-      "Amount": 32
+      "Amount": 33
     },
     {
       "Url": "suspense-guns-action-packed",
@@ -729,6 +729,11 @@ var data = {
       "Amount": 17
     },
     {
+      "Url": "weird-dream-journey",
+      "Text": "Weird, Dream, Journey",
+      "Amount": 17
+    },
+    {
       "Url": "action-epic-emotion",
       "Text": "Action, Epic, Emotion",
       "Amount": 16
@@ -749,13 +754,18 @@ var data = {
       "Amount": 16
     },
     {
+      "Url": "school-girls-friendship",
+      "Text": "School, Girls, Friendship",
+      "Amount": 16
+    },
+    {
       "Url": "suspense-slick-stylish",
       "Text": "Suspense, Slick, Stylish",
       "Amount": 16
     },
     {
-      "Url": "weird-dream-journey",
-      "Text": "Weird, Dream, Journey",
+      "Url": "terrifying-extreme-confused",
+      "Text": "Terrifying, Extreme, Confused",
       "Amount": 16
     },
     {
@@ -779,18 +789,8 @@ var data = {
       "Amount": 15
     },
     {
-      "Url": "school-girls-friendship",
-      "Text": "School, Girls, Friendship",
-      "Amount": 15
-    },
-    {
       "Url": "teenager-geeks-stereotype",
       "Text": "Teenager, Geeks, Stereotype",
-      "Amount": 15
-    },
-    {
-      "Url": "terrifying-extreme-confused",
-      "Text": "Terrifying, Extreme, Confused",
       "Amount": 15
     },
     {
@@ -869,6 +869,11 @@ var data = {
       "Amount": 12
     },
     {
+      "Url": "kids-fantasy-adventure",
+      "Text": "Kids, Fantasy, Adventure",
+      "Amount": 12
+    },
+    {
       "Url": "thrills-guessing-intriguing",
       "Text": "Thrills, Guessing, Intriguing",
       "Amount": 12
@@ -884,6 +889,11 @@ var data = {
       "Amount": 12
     },
     {
+      "Url": "weird-fantasy-vision",
+      "Text": "Weird, Fantasy, Vision",
+      "Amount": 12
+    },
+    {
       "Url": "drugs-depressing-raw",
       "Text": "Drugs, Depressing, Raw",
       "Amount": 11
@@ -896,11 +906,6 @@ var data = {
     {
       "Url": "jokes-delightful-cute",
       "Text": "Jokes, Delightful, Cute",
-      "Amount": 11
-    },
-    {
-      "Url": "kids-fantasy-adventure",
-      "Text": "Kids, Fantasy, Adventure",
       "Amount": 11
     },
     {
@@ -924,6 +929,11 @@ var data = {
       "Amount": 11
     },
     {
+      "Url": "terror-driving-psychopath",
+      "Text": "Terror, Driving, Psychopath",
+      "Amount": 11
+    },
+    {
       "Url": "thriller-explosives-danger",
       "Text": "Thriller, Explosives, Danger",
       "Amount": 11
@@ -931,11 +941,6 @@ var data = {
     {
       "Url": "voices-kids-toy",
       "Text": "Voices, Kids, Toy",
-      "Amount": 11
-    },
-    {
-      "Url": "weird-fantasy-vision",
-      "Text": "Weird, Fantasy, Vision",
       "Amount": 11
     },
     {
@@ -951,6 +956,11 @@ var data = {
     {
       "Url": "charm-enchanted-fantasy",
       "Text": "Charm, Enchanted, Fantasy",
+      "Amount": 10
+    },
+    {
+      "Url": "cliche-intense-extreme",
+      "Text": "Cliche, Intense, Extreme",
       "Amount": 10
     },
     {
@@ -974,6 +984,11 @@ var data = {
       "Amount": 10
     },
     {
+      "Url": "reality-dream-symbolism",
+      "Text": "Reality, Dream, Symbolism",
+      "Amount": 10
+    },
+    {
       "Url": "silly-witty-loves",
       "Text": "Silly, Witty, Loves",
       "Amount": 10
@@ -984,13 +999,13 @@ var data = {
       "Amount": 10
     },
     {
-      "Url": "terrifying-thriller-creep",
-      "Text": "Terrifying, Thriller, Creep",
+      "Url": "tear-jerker-disturbed-sensitive",
+      "Text": "Tear-Jerker, Disturbed, Sensitive",
       "Amount": 10
     },
     {
-      "Url": "terror-driving-psychopath",
-      "Text": "Terror, Driving, Psychopath",
+      "Url": "terrifying-thriller-creep",
+      "Text": "Terrifying, Thriller, Creep",
       "Amount": 10
     },
     {
@@ -1026,11 +1041,6 @@ var data = {
     {
       "Url": "cliche-college-school",
       "Text": "Cliche, College, School",
-      "Amount": 9
-    },
-    {
-      "Url": "cliche-intense-extreme",
-      "Text": "Cliche, Intense, Extreme",
       "Amount": 9
     },
     {
@@ -1114,18 +1124,8 @@ var data = {
       "Amount": 9
     },
     {
-      "Url": "reality-dream-symbolism",
-      "Text": "Reality, Dream, Symbolism",
-      "Amount": 9
-    },
-    {
       "Url": "stunts-mission-weapons",
       "Text": "Stunts, Mission, Weapons",
-      "Amount": 9
-    },
-    {
-      "Url": "tear-jerker-disturbed-sensitive",
-      "Text": "Tear-Jerker, Disturbed, Sensitive",
       "Amount": 9
     },
     {
@@ -1266,6 +1266,11 @@ var data = {
     {
       "Url": "humorous-criminal-wit",
       "Text": "Humorous, Criminal, Wit",
+      "Amount": 8
+    },
+    {
+      "Url": "killer-terror-brutally",
+      "Text": "Killer, Terror, Brutally",
       "Amount": 8
     },
     {
@@ -1524,8 +1529,8 @@ var data = {
       "Amount": 7
     },
     {
-      "Url": "killer-terror-brutally",
-      "Text": "Killer, Terror, Brutally",
+      "Url": "murderer-compelling-sympathy",
+      "Text": "Murderer, Compelling, Sympathy",
       "Amount": 7
     },
     {
@@ -1541,6 +1546,11 @@ var data = {
     {
       "Url": "relationships-adolescents-troubled",
       "Text": "Relationships, Adolescents, Troubled",
+      "Amount": 7
+    },
+    {
+      "Url": "relationships-reality-struggles",
+      "Text": "Relationships, Reality, Struggles",
       "Amount": 7
     },
     {
@@ -1724,6 +1734,11 @@ var data = {
       "Amount": 6
     },
     {
+      "Url": "drama-quirky-lover",
+      "Text": "Drama, Quirky, Lover",
+      "Amount": 6
+    },
+    {
       "Url": "eerie-murder-twist",
       "Text": "Eerie, Murder, Twist",
       "Amount": 6
@@ -1751,6 +1766,11 @@ var data = {
     {
       "Url": "emotional-disturbing-intriguing",
       "Text": "Emotional, Disturbing, Intriguing",
+      "Amount": 6
+    },
+    {
+      "Url": "emotional-gripping-horrific",
+      "Text": "Emotional, Gripping, Horrific",
       "Amount": 6
     },
     {
@@ -1904,11 +1924,6 @@ var data = {
       "Amount": 6
     },
     {
-      "Url": "murderer-compelling-sympathy",
-      "Text": "Murderer, Compelling, Sympathy",
-      "Amount": 6
-    },
-    {
       "Url": "musical-charm-adorable",
       "Text": "Musical, Charm, Adorable",
       "Amount": 6
@@ -1929,13 +1944,13 @@ var data = {
       "Amount": 6
     },
     {
-      "Url": "predictable-wins-gorgeous",
-      "Text": "Predictable, Wins, Gorgeous",
+      "Url": "predictable-unpredictable-revelation",
+      "Text": "Predictable, Unpredictable, Revelation",
       "Amount": 6
     },
     {
-      "Url": "relationships-reality-struggles",
-      "Text": "Relationships, Reality, Struggles",
+      "Url": "predictable-wins-gorgeous",
+      "Text": "Predictable, Wins, Gorgeous",
       "Amount": 6
     },
     {
@@ -2004,6 +2019,11 @@ var data = {
       "Amount": 6
     },
     {
+      "Url": "tune-charm-gorgeous",
+      "Text": "Tune, Charm, Gorgeous",
+      "Amount": 6
+    },
+    {
       "Url": "vampires-gruesome-frighten",
       "Text": "Vampires, Gruesome, Frighten",
       "Amount": 6
@@ -2066,6 +2086,11 @@ var data = {
     {
       "Url": "animation-imaginative-colorful",
       "Text": "Animation, Imaginative, Colorful",
+      "Amount": 5
+    },
+    {
+      "Url": "blood-disturbing-psychopath",
+      "Text": "Blood, Disturbing, Psychopath",
       "Amount": 5
     },
     {
@@ -2154,11 +2179,6 @@ var data = {
       "Amount": 5
     },
     {
-      "Url": "drama-quirky-lover",
-      "Text": "Drama, Quirky, Lover",
-      "Amount": 5
-    },
-    {
       "Url": "drama-sensitive-struggles",
       "Text": "Drama, Sensitive, Struggles",
       "Amount": 5
@@ -2216,11 +2236,6 @@ var data = {
     {
       "Url": "emotional-families-loving",
       "Text": "Emotional, Families, Loving",
-      "Amount": 5
-    },
-    {
-      "Url": "emotional-gripping-horrific",
-      "Text": "Emotional, Gripping, Horrific",
       "Amount": 5
     },
     {
@@ -2389,8 +2404,23 @@ var data = {
       "Amount": 5
     },
     {
+      "Url": "guessing-creepy-shock",
+      "Text": "Guessing, Creepy, Shock",
+      "Amount": 5
+    },
+    {
       "Url": "hilarious-chemistry-reality",
       "Text": "Hilarious, Chemistry, Reality",
+      "Amount": 5
+    },
+    {
+      "Url": "hilarious-popular-party",
+      "Text": "Hilarious, Popular, Party",
+      "Amount": 5
+    },
+    {
+      "Url": "horror-climax-confused",
+      "Text": "Horror, Climax, Confused",
       "Amount": 5
     },
     {
@@ -2469,8 +2499,8 @@ var data = {
       "Amount": 5
     },
     {
-      "Url": "predictable-unpredictable-revelation",
-      "Text": "Predictable, Unpredictable, Revelation",
+      "Url": "prison-brutal-intense",
+      "Text": "Prison, Brutal, Intense",
       "Amount": 5
     },
     {
@@ -2514,6 +2544,11 @@ var data = {
       "Amount": 5
     },
     {
+      "Url": "shock-rape-brutally",
+      "Text": "Shock, Rape, Brutally",
+      "Amount": 5
+    },
+    {
       "Url": "shock-twisted-insanity",
       "Text": "Shock, Twisted, Insanity",
       "Amount": 5
@@ -2521,6 +2556,11 @@ var data = {
     {
       "Url": "slapstick-witty-marriage",
       "Text": "Slapstick, Witty, Marriage",
+      "Amount": 5
+    },
+    {
+      "Url": "society-intellectual-daring",
+      "Text": "Society, Intellectual, Daring",
       "Amount": 5
     },
     {
@@ -2551,6 +2591,11 @@ var data = {
     {
       "Url": "sweet-prince-fairy-tale",
       "Text": "Sweet, Prince, Fairy-Tale",
+      "Amount": 5
+    },
+    {
+      "Url": "teacher-inspiring-environment",
+      "Text": "Teacher, Inspiring, Environment",
       "Amount": 5
     },
     {
@@ -2606,11 +2651,6 @@ var data = {
     {
       "Url": "touching-journey-soul",
       "Text": "Touching, Journey, Soul",
-      "Amount": 5
-    },
-    {
-      "Url": "tune-charm-gorgeous",
-      "Text": "Tune, Charm, Gorgeous",
       "Amount": 5
     },
     {
@@ -2746,11 +2786,6 @@ var data = {
     {
       "Url": "bizarre-extreme-cringe",
       "Text": "Bizarre, Extreme, Cringe",
-      "Amount": 4
-    },
-    {
-      "Url": "blood-disturbing-psychopath",
-      "Text": "Blood, Disturbing, Psychopath",
       "Amount": 4
     },
     {
@@ -2964,6 +2999,11 @@ var data = {
       "Amount": 4
     },
     {
+      "Url": "drama-redemption-troubled",
+      "Text": "Drama, Redemption, Troubled",
+      "Amount": 4
+    },
+    {
       "Url": "eerie-mystery-fear",
       "Text": "Eerie, Mystery, Fear",
       "Amount": 4
@@ -2976,6 +3016,11 @@ var data = {
     {
       "Url": "emotion-breathtaking-compelling",
       "Text": "Emotion, Breathtaking, Compelling",
+      "Amount": 4
+    },
+    {
+      "Url": "emotion-desire-naive",
+      "Text": "Emotion, Desire, Naive",
       "Amount": 4
     },
     {
@@ -3021,6 +3066,11 @@ var data = {
     {
       "Url": "emotional-gripping-riveting",
       "Text": "Emotional, Gripping, Riveting",
+      "Amount": 4
+    },
+    {
+      "Url": "emotional-lawyer-dramas",
+      "Text": "Emotional, Lawyer, Dramas",
       "Amount": 4
     },
     {
@@ -3184,11 +3234,6 @@ var data = {
       "Amount": 4
     },
     {
-      "Url": "guessing-creepy-shock",
-      "Text": "Guessing, Creepy, Shock",
-      "Amount": 4
-    },
-    {
       "Url": "hero-evil-menacing",
       "Text": "Hero, Evil, Menacing",
       "Amount": 4
@@ -3206,11 +3251,6 @@ var data = {
     {
       "Url": "hilarious-low-brow-dude",
       "Text": "Hilarious, Low-Brow, Dude",
-      "Amount": 4
-    },
-    {
-      "Url": "hilarious-popular-party",
-      "Text": "Hilarious, Popular, Party",
       "Amount": 4
     },
     {
@@ -3241,11 +3281,6 @@ var data = {
     {
       "Url": "horror-attacks-flesh",
       "Text": "Horror, Attacks, Flesh",
-      "Amount": 4
-    },
-    {
-      "Url": "horror-climax-confused",
-      "Text": "Horror, Climax, Confused",
       "Amount": 4
     },
     {
@@ -3374,6 +3409,16 @@ var data = {
       "Amount": 4
     },
     {
+      "Url": "murderer-shock-intriguing",
+      "Text": "Murderer, Shock, Intriguing",
+      "Amount": 4
+    },
+    {
+      "Url": "musical-lovely-delight",
+      "Text": "Musical, Lovely, Delight",
+      "Amount": 4
+    },
+    {
       "Url": "musical-lovely-dream",
       "Text": "Musical, Lovely, Dream",
       "Amount": 4
@@ -3396,6 +3441,11 @@ var data = {
     {
       "Url": "political-drama-lesson",
       "Text": "Political, Drama, Lesson",
+      "Amount": 4
+    },
+    {
+      "Url": "powerful-child-sympathy",
+      "Text": "Powerful, Child, Sympathy",
       "Amount": 4
     },
     {
@@ -3436,11 +3486,6 @@ var data = {
     {
       "Url": "prehistoric-creature-extinction",
       "Text": "Prehistoric, Creature, Extinction",
-      "Amount": 4
-    },
-    {
-      "Url": "prison-brutal-intense",
-      "Text": "Prison, Brutal, Intense",
       "Amount": 4
     },
     {
@@ -3569,11 +3614,6 @@ var data = {
       "Amount": 4
     },
     {
-      "Url": "society-intellectual-daring",
-      "Text": "Society, Intellectual, Daring",
-      "Amount": 4
-    },
-    {
       "Url": "soldiers-brutal-glory",
       "Text": "Soldiers, Brutal, Glory",
       "Amount": 4
@@ -3619,6 +3659,11 @@ var data = {
       "Amount": 4
     },
     {
+      "Url": "student-cry-inspiring",
+      "Text": "Student, Cry, Inspiring",
+      "Amount": 4
+    },
+    {
       "Url": "student-friendship-pressure",
       "Text": "Student, Friendship, Pressure",
       "Amount": 4
@@ -3644,6 +3689,11 @@ var data = {
       "Amount": 4
     },
     {
+      "Url": "suspense-jail-realism",
+      "Text": "Suspense, Jail, Realism",
+      "Amount": 4
+    },
+    {
       "Url": "suspense-solving-complicated",
       "Text": "Suspense, Solving, Complicated",
       "Amount": 4
@@ -3654,8 +3704,8 @@ var data = {
       "Amount": 4
     },
     {
-      "Url": "teacher-inspiring-environment",
-      "Text": "Teacher, Inspiring, Environment",
+      "Url": "tear-jerker-anger-riveting",
+      "Text": "Tear-Jerker, Anger, Riveting",
       "Amount": 4
     },
     {
@@ -4059,6 +4109,11 @@ var data = {
       "Amount": 3
     },
     {
+      "Url": "chemistry-gorgeous-magic",
+      "Text": "Chemistry, Gorgeous, Magic",
+      "Amount": 3
+    },
+    {
       "Url": "child-heartbreaking-sympathy",
       "Text": "Child, Heartbreaking, Sympathy",
       "Amount": 3
@@ -4339,6 +4394,11 @@ var data = {
       "Amount": 3
     },
     {
+      "Url": "delightful-heartwarming-smile",
+      "Text": "Delightful, Heartwarming, Smile",
+      "Amount": 3
+    },
+    {
       "Url": "disturbed-depressing-heartbreaking",
       "Text": "Disturbed, Depressing, Heartbreaking",
       "Amount": 3
@@ -4356,6 +4416,16 @@ var data = {
     {
       "Url": "disturbing-raw-realism",
       "Text": "Disturbing, Raw, Realism",
+      "Amount": 3
+    },
+    {
+      "Url": "disturbing-real-life-society",
+      "Text": "Disturbing, Real-Life, Society",
+      "Amount": 3
+    },
+    {
+      "Url": "drama-cynical-vulnerable",
+      "Text": "Drama, Cynical, Vulnerable",
       "Amount": 3
     },
     {
@@ -4384,6 +4454,11 @@ var data = {
       "Amount": 3
     },
     {
+      "Url": "drama-killing-compelling",
+      "Text": "Drama, Killing, Compelling",
+      "Amount": 3
+    },
+    {
       "Url": "drama-lovely-happiness",
       "Text": "Drama, Lovely, Happiness",
       "Amount": 3
@@ -4401,11 +4476,6 @@ var data = {
     {
       "Url": "drama-overcome-struggles",
       "Text": "Drama, Overcome, Struggles",
-      "Amount": 3
-    },
-    {
-      "Url": "drama-redemption-troubled",
-      "Text": "Drama, Redemption, Troubled",
       "Amount": 3
     },
     {
@@ -4464,6 +4534,11 @@ var data = {
       "Amount": 3
     },
     {
+      "Url": "emotion-captivating-desire",
+      "Text": "Emotion, Captivating, Desire",
+      "Amount": 3
+    },
+    {
       "Url": "emotion-captivating-intriguing",
       "Text": "Emotion, Captivating, Intriguing",
       "Amount": 3
@@ -4481,11 +4556,6 @@ var data = {
     {
       "Url": "emotion-cute-loving",
       "Text": "Emotion, Cute, Loving",
-      "Amount": 3
-    },
-    {
-      "Url": "emotion-desire-naive",
-      "Text": "Emotion, Desire, Naive",
       "Amount": 3
     },
     {
@@ -4516,6 +4586,11 @@ var data = {
     {
       "Url": "emotion-reality-raw",
       "Text": "Emotion, Reality, Raw",
+      "Amount": 3
+    },
+    {
+      "Url": "emotion-redemption-profound",
+      "Text": "Emotion, Redemption, Profound",
       "Amount": 3
     },
     {
@@ -4571,11 +4646,6 @@ var data = {
     {
       "Url": "emotional-depressed-honesty",
       "Text": "Emotional, Depressed, Honesty",
-      "Amount": 3
-    },
-    {
-      "Url": "emotional-lawyer-dramas",
-      "Text": "Emotional, Lawyer, Dramas",
       "Amount": 3
     },
     {
@@ -4664,6 +4734,11 @@ var data = {
       "Amount": 3
     },
     {
+      "Url": "feelings-despair-isolation",
+      "Text": "Feelings, Despair, Isolation",
+      "Amount": 3
+    },
+    {
       "Url": "feelings-heartbreaking-compassion",
       "Text": "Feelings, Heartbreaking, Compassion",
       "Amount": 3
@@ -4739,13 +4814,28 @@ var data = {
       "Amount": 3
     },
     {
+      "Url": "friendship-society-moral",
+      "Text": "Friendship, Society, Moral",
+      "Amount": 3
+    },
+    {
       "Url": "friendship-student-girlfriend",
       "Text": "Friendship, Student, Girlfriend",
       "Amount": 3
     },
     {
+      "Url": "friendship-teenager-immature",
+      "Text": "Friendship, Teenager, Immature",
+      "Amount": 3
+    },
+    {
       "Url": "frighten-ghosts-mysterious",
       "Text": "Frighten, Ghosts, Mysterious",
+      "Amount": 3
+    },
+    {
+      "Url": "frighten-gothic-stylish",
+      "Text": "Frighten, Gothic, Stylish",
       "Amount": 3
     },
     {
@@ -4801,6 +4891,11 @@ var data = {
     {
       "Url": "funny-sex-intelligent",
       "Text": "Funny, Sex, Intelligent",
+      "Amount": 3
+    },
+    {
+      "Url": "funny-sexuality-girlfriend",
+      "Text": "Funny, Sexual, Girlfriend",
       "Amount": 3
     },
     {
@@ -5069,6 +5164,11 @@ var data = {
       "Amount": 3
     },
     {
+      "Url": "jokes-musical-lovable",
+      "Text": "Jokes, Musical, Lovable",
+      "Amount": 3
+    },
+    {
       "Url": "jokes-quirky-co-worker",
       "Text": "Jokes, Quirky, Co-Worker",
       "Amount": 3
@@ -5194,6 +5294,11 @@ var data = {
       "Amount": 3
     },
     {
+      "Url": "murder-tense-gruesome",
+      "Text": "Murder, Tense, Gruesome",
+      "Amount": 3
+    },
+    {
       "Url": "murder-terror-disturbing",
       "Text": "Murder, Terror, Disturbing",
       "Amount": 3
@@ -5214,18 +5319,8 @@ var data = {
       "Amount": 3
     },
     {
-      "Url": "murderer-shock-intriguing",
-      "Text": "Murderer, Shock, Intriguing",
-      "Amount": 3
-    },
-    {
       "Url": "murderer-twist-disturbed",
       "Text": "Murderer, Twist, Disturbed",
-      "Amount": 3
-    },
-    {
-      "Url": "musical-lovely-delight",
-      "Text": "Musical, Lovely, Delight",
       "Amount": 3
     },
     {
@@ -5256,11 +5351,6 @@ var data = {
     {
       "Url": "popular-popularity-timeless",
       "Text": "Popular, Popularity, Timeless",
-      "Amount": 3
-    },
-    {
-      "Url": "powerful-child-sympathy",
-      "Text": "Powerful, Child, Sympathy",
       "Amount": 3
     },
     {
@@ -5384,6 +5474,11 @@ var data = {
       "Amount": 3
     },
     {
+      "Url": "relationships-teacher-class",
+      "Text": "Relationships, Teacher, Class",
+      "Amount": 3
+    },
+    {
       "Url": "romance-dating-boyfriend",
       "Text": "Romance, Dating, Boyfriend",
       "Amount": 3
@@ -5396,6 +5491,11 @@ var data = {
     {
       "Url": "romance-passion-affair",
       "Text": "Romance, Passion, Affair",
+      "Amount": 3
+    },
+    {
+      "Url": "romance-sensitive-lonely",
+      "Text": "Romance, Sensitive, Lonely",
       "Amount": 3
     },
     {
@@ -5474,11 +5574,6 @@ var data = {
       "Amount": 3
     },
     {
-      "Url": "shock-rape-brutally",
-      "Text": "Shock, Rape, Brutally",
-      "Amount": 3
-    },
-    {
       "Url": "shootout-cops-driving",
       "Text": "Shootout, Cops, Driving",
       "Amount": 3
@@ -5486,6 +5581,11 @@ var data = {
     {
       "Url": "silly-mindless-excitement",
       "Text": "Silly, Mindless, Excitement",
+      "Amount": 3
+    },
+    {
+      "Url": "singing-delight-dazzling",
+      "Text": "Singing, Delight, Dazzling",
       "Amount": 3
     },
     {
@@ -5599,11 +5699,6 @@ var data = {
       "Amount": 3
     },
     {
-      "Url": "student-cry-inspiring",
-      "Text": "Student, Cry, Inspiring",
-      "Amount": 3
-    },
-    {
       "Url": "stunts-cars-chasing",
       "Text": "Stunts, Cars, Chasing",
       "Amount": 3
@@ -5611,6 +5706,11 @@ var data = {
     {
       "Url": "superhero-nerds-justice",
       "Text": "Superhero, Nerds, Justice",
+      "Amount": 3
+    },
+    {
+      "Url": "supernatural-blood-heroine",
+      "Text": "Supernatural, Blood, Heroine",
       "Amount": 3
     },
     {
@@ -5649,13 +5749,13 @@ var data = {
       "Amount": 3
     },
     {
-      "Url": "suspense-jail-realism",
-      "Text": "Suspense, Jail, Realism",
+      "Url": "suspense-sea-excitement",
+      "Text": "Suspense, Sea, Excitement",
       "Amount": 3
     },
     {
-      "Url": "suspense-sea-excitement",
-      "Text": "Suspense, Sea, Excitement",
+      "Url": "sweet-chemistry-lovely",
+      "Text": "Sweet, Chemistry, Lovely",
       "Amount": 3
     },
     {
@@ -5676,11 +5776,6 @@ var data = {
     {
       "Url": "teacher-teenager-rebellious",
       "Text": "Teacher, Teenager, Rebellious",
-      "Amount": 3
-    },
-    {
-      "Url": "tear-jerker-anger-riveting",
-      "Text": "Tear-Jerker, Anger, Riveting",
       "Amount": 3
     },
     {
@@ -5884,6 +5979,11 @@ var data = {
       "Amount": 3
     },
     {
+      "Url": "touching-angst-profound",
+      "Text": "Touching, Angst, Profound",
+      "Amount": 3
+    },
+    {
       "Url": "touching-cute-pleasant",
       "Text": "Touching, Cute, Pleasant",
       "Amount": 3
@@ -5941,6 +6041,11 @@ var data = {
     {
       "Url": "tragic-shock-depressing",
       "Text": "Tragic, Shock, Depressing",
+      "Amount": 3
+    },
+    {
+      "Url": "tune-choreography-broadway",
+      "Text": "Tune, Choreography, Broadway",
       "Amount": 3
     },
     {
@@ -6049,6 +6154,11 @@ var data = {
       "Amount": 3
     },
     {
+      "Url": "violence-extreme-vicious",
+      "Text": "Violence, Extreme, Vicious",
+      "Amount": 3
+    },
+    {
       "Url": "violence-guns-anti-hero",
       "Text": "Violence, Guns, Anti-Hero",
       "Amount": 3
@@ -6096,6 +6206,11 @@ var data = {
     {
       "Url": "weird-imaginative-creativity",
       "Text": "Weird, Imaginative, Creativity",
+      "Amount": 3
+    },
+    {
+      "Url": "wit-sexy-gorgeous",
+      "Text": "Wit, Sexy, Gorgeous",
       "Amount": 3
     },
     {
@@ -6359,6 +6474,11 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "bizarre-confused-future",
+      "Text": "Bizarre, Confused, Future",
+      "Amount": 2
+    },
+    {
       "Url": "bizarre-engaging-fantasy",
       "Text": "Bizarre, Engaging, Fantasy",
       "Amount": 2
@@ -6381,6 +6501,11 @@ var data = {
     {
       "Url": "bizarre-twisted-daring",
       "Text": "Bizarre, Twisted, Daring",
+      "Amount": 2
+    },
+    {
+      "Url": "bizarre-twisted-screaming",
+      "Text": "Bizarre, Twisted, Screaming",
       "Amount": 2
     },
     {
@@ -6544,6 +6669,11 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "charming-intelligent-cynical",
+      "Text": "Charming, Intelligent, Cynical",
+      "Amount": 2
+    },
+    {
       "Url": "charming-lesson-feel-good",
       "Text": "Charming, Lesson, Feel-Good",
       "Amount": 2
@@ -6591,11 +6721,6 @@ var data = {
     {
       "Url": "chemistry-confused-complicated",
       "Text": "Chemistry, Confused, Complicated",
-      "Amount": 2
-    },
-    {
-      "Url": "chemistry-gorgeous-magic",
-      "Text": "Chemistry, Gorgeous, Magic",
       "Amount": 2
     },
     {
@@ -6989,6 +7114,11 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "creepy-vampires-campy",
+      "Text": "Creepy, Vampires, Campy",
+      "Amount": 2
+    },
+    {
       "Url": "creepy-violence-shock",
       "Text": "Creepy, Violence, Shock",
       "Amount": 2
@@ -7214,6 +7344,11 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "delightful-cynical-naive",
+      "Text": "Delightful, Cynical, Naive",
+      "Amount": 2
+    },
+    {
       "Url": "delightful-dancing-lesson",
       "Text": "Delightful, Dancing, Lesson",
       "Amount": 2
@@ -7221,11 +7356,6 @@ var data = {
     {
       "Url": "delightful-heartwarming-pleasant",
       "Text": "Delightful, Heartwarming, Pleasant",
-      "Amount": 2
-    },
-    {
-      "Url": "delightful-heartwarming-smile",
-      "Text": "Delightful, Heartwarming, Smile",
       "Amount": 2
     },
     {
@@ -7294,11 +7424,6 @@ var data = {
       "Amount": 2
     },
     {
-      "Url": "disturbing-real-life-society",
-      "Text": "Disturbing, Real-Life, Society",
-      "Amount": 2
-    },
-    {
       "Url": "disturbing-suffering-harrowing",
       "Text": "Disturbing, Suffering, Harrowing",
       "Amount": 2
@@ -7326,11 +7451,6 @@ var data = {
     {
       "Url": "drama-cry-endearing",
       "Text": "Drama, Cry, Endearing",
-      "Amount": 2
-    },
-    {
-      "Url": "drama-cynical-vulnerable",
-      "Text": "Drama, Cynical, Vulnerable",
       "Amount": 2
     },
     {
@@ -7394,11 +7514,6 @@ var data = {
       "Amount": 2
     },
     {
-      "Url": "drama-killing-compelling",
-      "Text": "Drama, Killing, Compelling",
-      "Amount": 2
-    },
-    {
       "Url": "drama-overcome-inspiring",
       "Text": "Drama, Overcome, Inspiring",
       "Amount": 2
@@ -7416,6 +7531,11 @@ var data = {
     {
       "Url": "drama-struggles-real-life",
       "Text": "Drama, Struggles, Real-Life",
+      "Amount": 2
+    },
+    {
+      "Url": "drama-sumptuous-lush",
+      "Text": "Drama, Sumptuous, Lush",
       "Amount": 2
     },
     {
@@ -7444,6 +7564,11 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "eerie-creep-freaky",
+      "Text": "Eerie, Creep, Freaky",
+      "Amount": 2
+    },
+    {
       "Url": "eerie-horrifying-psychological",
       "Text": "Eerie, Horrifying, Psychological",
       "Amount": 2
@@ -7451,6 +7576,11 @@ var data = {
     {
       "Url": "eerie-mystery-imaginative",
       "Text": "Eerie, Mystery, Imaginative",
+      "Amount": 2
+    },
+    {
+      "Url": "eerie-mystery-shadows",
+      "Text": "Eerie, Mystery, Shadows",
       "Amount": 2
     },
     {
@@ -7479,11 +7609,6 @@ var data = {
       "Amount": 2
     },
     {
-      "Url": "emotion-captivating-desire",
-      "Text": "Emotion, Captivating, Desire",
-      "Amount": 2
-    },
-    {
       "Url": "emotion-compelling-reality",
       "Text": "Emotion, Compelling, Reality",
       "Amount": 2
@@ -7491,6 +7616,11 @@ var data = {
     {
       "Url": "emotion-complex-vision",
       "Text": "Emotion, Complex, Vision",
+      "Amount": 2
+    },
+    {
+      "Url": "emotion-complexity-daring",
+      "Text": "Emotion, Complexity, Daring",
       "Amount": 2
     },
     {
@@ -7551,11 +7681,6 @@ var data = {
     {
       "Url": "emotion-profound-complicated",
       "Text": "Emotion, Profound, Complicated",
-      "Amount": 2
-    },
-    {
-      "Url": "emotion-redemption-profound",
-      "Text": "Emotion, Redemption, Profound",
       "Amount": 2
     },
     {
@@ -7634,6 +7759,16 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "emotional-family-conflict",
+      "Text": "Emotional, Family, Conflict",
+      "Amount": 2
+    },
+    {
+      "Url": "emotional-fate-bleak",
+      "Text": "Emotional, Fate, Bleak",
+      "Amount": 2
+    },
+    {
       "Url": "emotional-illness-suffering",
       "Text": "Emotional, Illness, Suffering",
       "Amount": 2
@@ -7651,6 +7786,11 @@ var data = {
     {
       "Url": "emotional-lover-beauty",
       "Text": "Emotional, Lover, Beauty",
+      "Amount": 2
+    },
+    {
+      "Url": "emotional-passion-beauty",
+      "Text": "Emotional, Passion, Beauty",
       "Amount": 2
     },
     {
@@ -7749,6 +7889,11 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "faith-society-community",
+      "Text": "Faith, Society, Community",
+      "Amount": 2
+    },
+    {
       "Url": "families-dream-inspiring",
       "Text": "Families, Dream, Inspiring",
       "Amount": 2
@@ -7806,11 +7951,6 @@ var data = {
     {
       "Url": "feelings-desire-profound",
       "Text": "Feelings, Desire, Profound",
-      "Amount": 2
-    },
-    {
-      "Url": "feelings-despair-isolation",
-      "Text": "Feelings, Despair, Isolation",
       "Amount": 2
     },
     {
@@ -8049,18 +8189,8 @@ var data = {
       "Amount": 2
     },
     {
-      "Url": "friendship-society-moral",
-      "Text": "Friendship, Society, Moral",
-      "Amount": 2
-    },
-    {
       "Url": "friendship-storytelling-complexity",
       "Text": "Friendship, Storytelling, Complexity",
-      "Amount": 2
-    },
-    {
-      "Url": "friendship-teenager-immature",
-      "Text": "Friendship, Teenager, Immature",
       "Amount": 2
     },
     {
@@ -8081,11 +8211,6 @@ var data = {
     {
       "Url": "frighten-death-dark",
       "Text": "Frighten, Death, Dark",
-      "Amount": 2
-    },
-    {
-      "Url": "frighten-gothic-stylish",
-      "Text": "Frighten, Gothic, Stylish",
       "Amount": 2
     },
     {
@@ -8196,11 +8321,6 @@ var data = {
     {
       "Url": "funny-restaurant-eating",
       "Text": "Funny, Restaurant, Eating",
-      "Amount": 2
-    },
-    {
-      "Url": "funny-sexuality-girlfriend",
-      "Text": "Funny, Sexual, Girlfriend",
       "Amount": 2
     },
     {
@@ -8504,6 +8624,11 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "hilarious-cliche-smile",
+      "Text": "Hilarious, Cliche, Smile",
+      "Amount": 2
+    },
+    {
       "Url": "hilarious-cops-smile",
       "Text": "Hilarious, Cops, Smile",
       "Amount": 2
@@ -8571,6 +8696,11 @@ var data = {
     {
       "Url": "hip-hop-stereotype-culture",
       "Text": "Hip-Hop, Stereotype, Culture",
+      "Amount": 2
+    },
+    {
+      "Url": "historic-intrigue-gorgeous",
+      "Text": "Historic, Intrigue, Gorgeous",
       "Amount": 2
     },
     {
@@ -8794,6 +8924,11 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "imaginative-child-creativity",
+      "Text": "Imaginative, Child, Creativity",
+      "Amount": 2
+    },
+    {
       "Url": "imaginative-mythology-quest",
       "Text": "Imaginative, Mythology, Quest",
       "Amount": 2
@@ -8811,6 +8946,11 @@ var data = {
     {
       "Url": "intelligent-reality-thoughtful",
       "Text": "Intelligent, Reality, Thoughtful",
+      "Amount": 2
+    },
+    {
+      "Url": "intelligent-society-thought-provoking",
+      "Text": "Intelligent, Society, Thought-Provoking",
       "Amount": 2
     },
     {
@@ -8931,11 +9071,6 @@ var data = {
     {
       "Url": "jokes-mocking-giggle",
       "Text": "Jokes, Mocking, Giggle",
-      "Amount": 2
-    },
-    {
-      "Url": "jokes-musical-lovable",
-      "Text": "Jokes, Musical, Lovable",
       "Amount": 2
     },
     {
@@ -9079,6 +9214,11 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "lyrics-broadway-melodies",
+      "Text": "Lyrics, Broadway, Melodies",
+      "Amount": 2
+    },
+    {
       "Url": "lyrics-popular-genius",
       "Text": "Lyrics, Popular, Genius",
       "Amount": 2
@@ -9189,13 +9329,13 @@ var data = {
       "Amount": 2
     },
     {
-      "Url": "murder-tense-gruesome",
-      "Text": "Murder, Tense, Gruesome",
+      "Url": "murderer-criminal-intense",
+      "Text": "Murderer, Criminal, Intense",
       "Amount": 2
     },
     {
-      "Url": "murderer-criminal-intense",
-      "Text": "Murderer, Criminal, Intense",
+      "Url": "murderer-gruesome-eerie",
+      "Text": "Murderer, Gruesome, Eerie",
       "Amount": 2
     },
     {
@@ -9359,8 +9499,18 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "powerful-marriage-lovely",
+      "Text": "Powerful, Marriage, Lovely",
+      "Amount": 2
+    },
+    {
       "Url": "powerful-moral-loyalty",
       "Text": "Powerful, Moral, Loyalty",
+      "Amount": 2
+    },
+    {
+      "Url": "powerful-overcome-heartbreaking",
+      "Text": "Powerful, Overcome, Heartbreaking",
       "Amount": 2
     },
     {
@@ -9396,6 +9546,11 @@ var data = {
     {
       "Url": "predictable-wit-sexy",
       "Text": "Predictable, Wit, Sexy",
+      "Amount": 2
+    },
+    {
+      "Url": "prison-crime-gritty",
+      "Text": "Prison, Crime, Gritty",
       "Amount": 2
     },
     {
@@ -9564,11 +9719,6 @@ var data = {
       "Amount": 2
     },
     {
-      "Url": "relationships-teacher-class",
-      "Text": "Relationships, Teacher, Class",
-      "Amount": 2
-    },
-    {
       "Url": "relationships-tear-jerker-passion",
       "Text": "Relationships, Tear-Jerker, Passion",
       "Amount": 2
@@ -9616,11 +9766,6 @@ var data = {
     {
       "Url": "romance-family-heartwarming",
       "Text": "Romance, Family, Heartwarming",
-      "Amount": 2
-    },
-    {
-      "Url": "romance-sensitive-lonely",
-      "Text": "Romance, Sensitive, Lonely",
       "Amount": 2
     },
     {
@@ -9739,6 +9884,11 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "shock-disgusting-nasty",
+      "Text": "Shock, Disgusting, Nasty",
+      "Amount": 2
+    },
+    {
       "Url": "shock-disturbed-twisted",
       "Text": "Shock, Disturbed, Twisted",
       "Amount": 2
@@ -9791,11 +9941,6 @@ var data = {
     {
       "Url": "singing-choreography-colorful",
       "Text": "Singing, Choreography, Colorful",
-      "Amount": 2
-    },
-    {
-      "Url": "singing-delight-dazzling",
-      "Text": "Singing, Delight, Dazzling",
       "Amount": 2
     },
     {
@@ -9969,6 +10114,11 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "student-kids-troubled",
+      "Text": "Student, Kids, Troubled",
+      "Amount": 2
+    },
+    {
       "Url": "student-teenager-cool",
       "Text": "Student, Teenager, Cool",
       "Amount": 2
@@ -9994,8 +10144,8 @@ var data = {
       "Amount": 2
     },
     {
-      "Url": "supernatural-blood-heroine",
-      "Text": "Supernatural, Blood, Heroine",
+      "Url": "surreal-dream-eccentric",
+      "Text": "Surreal, Dream, Eccentric",
       "Amount": 2
     },
     {
@@ -10061,11 +10211,6 @@ var data = {
     {
       "Url": "sweet-beauty-uplifting",
       "Text": "Sweet, Beauty, Uplifting",
-      "Amount": 2
-    },
-    {
-      "Url": "sweet-chemistry-lovely",
-      "Text": "Sweet, Chemistry, Lovely",
       "Amount": 2
     },
     {
@@ -10419,11 +10564,6 @@ var data = {
       "Amount": 2
     },
     {
-      "Url": "touching-angst-profound",
-      "Text": "Touching, Angst, Profound",
-      "Amount": 2
-    },
-    {
       "Url": "touching-breathtaking-beauty",
       "Text": "Touching, Breathtaking, Beauty",
       "Amount": 2
@@ -10529,6 +10669,11 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "touching-romance-commitment",
+      "Text": "Touching, Romance, Commitment",
+      "Amount": 2
+    },
+    {
       "Url": "touching-singing-troubled",
       "Text": "Touching, Singing, Troubled",
       "Amount": 2
@@ -10566,11 +10711,6 @@ var data = {
     {
       "Url": "trial-justice-moral",
       "Text": "Trial, Justice, Moral",
-      "Amount": 2
-    },
-    {
-      "Url": "tune-choreography-broadway",
-      "Text": "Tune, Choreography, Broadway",
       "Amount": 2
     },
     {
@@ -10654,11 +10794,6 @@ var data = {
       "Amount": 2
     },
     {
-      "Url": "violence-extreme-vicious",
-      "Text": "Violence, Extreme, Vicious",
-      "Amount": 2
-    },
-    {
       "Url": "violence-guns-dangerous",
       "Text": "Violence, Guns, Dangerous",
       "Amount": 2
@@ -10681,6 +10816,11 @@ var data = {
     {
       "Url": "voices-songs-bizarre",
       "Text": "Voices, Songs, Bizarre",
+      "Amount": 2
+    },
+    {
+      "Url": "war-convicts-guards",
+      "Text": "War, Convicts, Guards",
       "Amount": 2
     },
     {
@@ -10711,6 +10851,11 @@ var data = {
     {
       "Url": "weird-evil-screaming",
       "Text": "Weird, Evil, Screaming",
+      "Amount": 2
+    },
+    {
+      "Url": "weird-imaginative-insanity",
+      "Text": "Weird, Imaginative, Insanity",
       "Amount": 2
     },
     {
@@ -10746,11 +10891,6 @@ var data = {
     {
       "Url": "wit-england-unexpected",
       "Text": "Wit, England, Unexpected",
-      "Amount": 2
-    },
-    {
-      "Url": "wit-sexy-gorgeous",
-      "Text": "Wit, Sexy, Gorgeous",
       "Amount": 2
     },
     {
@@ -11349,11 +11489,6 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "bizarre-confused-future",
-      "Text": "Bizarre, Confused, Future",
-      "Amount": 1
-    },
-    {
       "Url": "bizarre-crazy-culture",
       "Text": "Bizarre, Crazy, Culture",
       "Amount": 1
@@ -11391,11 +11526,6 @@ var data = {
     {
       "Url": "bizarre-twisted-demented",
       "Text": "Bizarre, Twisted, Demented",
-      "Amount": 1
-    },
-    {
-      "Url": "bizarre-twisted-screaming",
-      "Text": "Bizarre, Twisted, Screaming",
       "Amount": 1
     },
     {
@@ -11516,6 +11646,11 @@ var data = {
     {
       "Url": "brutal-officer-law",
       "Text": "Brutal, Officer, Law",
+      "Amount": 1
+    },
+    {
+      "Url": "brutal-rape-revenge",
+      "Text": "Brutal, Rape, Revenge",
       "Amount": 1
     },
     {
@@ -11684,11 +11819,6 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "charming-intelligent-cynical",
-      "Text": "Charming, Intelligent, Cynical",
-      "Amount": 1
-    },
-    {
       "Url": "charming-magic-beloved",
       "Text": "Charming, Magic, Beloved",
       "Amount": 1
@@ -11834,6 +11964,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "chilling-gothic-menace",
+      "Text": "Chilling, Gothic, Menace",
+      "Amount": 1
+    },
+    {
       "Url": "chilling-intense-fear",
       "Text": "Chilling, Intense, Fear",
       "Amount": 1
@@ -11851,6 +11986,11 @@ var data = {
     {
       "Url": "chilling-monster-dark",
       "Text": "Chilling, Monster, Dark",
+      "Amount": 1
+    },
+    {
+      "Url": "chilling-psychotic-brutally",
+      "Text": "Chilling, Psychotic, Brutally",
       "Amount": 1
     },
     {
@@ -12364,6 +12504,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "convicts-criminal-redemption",
+      "Text": "Convicts, Criminal, Redemption",
+      "Amount": 1
+    },
+    {
       "Url": "cool-action-packed-danger",
       "Text": "Cool, Action-Packed, Danger",
       "Amount": 1
@@ -12479,6 +12624,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "creepy-bloody-tense",
+      "Text": "Creepy, Bloody, Tense",
+      "Amount": 1
+    },
+    {
       "Url": "creepy-brutal-death",
       "Text": "Creepy, Brutal, Death",
       "Amount": 1
@@ -12521,11 +12671,6 @@ var data = {
     {
       "Url": "creepy-survivor-screaming",
       "Text": "Creepy, Survivor, Screaming",
-      "Amount": 1
-    },
-    {
-      "Url": "creepy-vampires-campy",
-      "Text": "Creepy, Vampires, Campy",
       "Amount": 1
     },
     {
@@ -12606,6 +12751,11 @@ var data = {
     {
       "Url": "cry-cute-school",
       "Text": "Cry, Cute, School",
+      "Amount": 1
+    },
+    {
+      "Url": "cry-cute-smile",
+      "Text": "Cry, Cute, Smile",
       "Amount": 1
     },
     {
@@ -12754,6 +12904,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "dancing-joy-1940s",
+      "Text": "Dancing, Joy, 1940s",
+      "Amount": 1
+    },
+    {
       "Url": "dancing-loves-dream",
       "Text": "Dancing, Loves, Dream",
       "Amount": 1
@@ -12844,6 +12999,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "death-morality-cruel",
+      "Text": "Death, Morality, Cruel",
+      "Amount": 1
+    },
+    {
       "Url": "death-passion-sadness",
       "Text": "Death, Passion, Sadness",
       "Amount": 1
@@ -12891,11 +13051,6 @@ var data = {
     {
       "Url": "delightful-complicated-implausible",
       "Text": "Delightful, Complicated, Implausible",
-      "Amount": 1
-    },
-    {
-      "Url": "delightful-cynical-naive",
-      "Text": "Delightful, Cynical, Naive",
       "Amount": 1
     },
     {
@@ -13364,11 +13519,6 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "drama-sumptuous-lush",
-      "Text": "Drama, Sumptuous, Lush",
-      "Amount": 1
-    },
-    {
       "Url": "drama-sympathy-fascinating",
       "Text": "Drama, Sympathy, Fascinating",
       "Amount": 1
@@ -13439,11 +13589,6 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "eerie-creep-freaky",
-      "Text": "Eerie, Creep, Freaky",
-      "Amount": 1
-    },
-    {
       "Url": "eerie-darkness-shadows",
       "Text": "Eerie, Darkness, Shadows",
       "Amount": 1
@@ -13476,11 +13621,6 @@ var data = {
     {
       "Url": "eerie-murder-clues",
       "Text": "Eerie, Murder, Clues",
-      "Amount": 1
-    },
-    {
-      "Url": "eerie-mystery-shadows",
-      "Text": "Eerie, Mystery, Shadows",
       "Amount": 1
     },
     {
@@ -13526,11 +13666,6 @@ var data = {
     {
       "Url": "emotion-compelling-complex",
       "Text": "Emotion, Compelling, Complex",
-      "Amount": 1
-    },
-    {
-      "Url": "emotion-complexity-daring",
-      "Text": "Emotion, Complexity, Daring",
       "Amount": 1
     },
     {
@@ -13594,6 +13729,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "emotion-france-execution",
+      "Text": "Emotion, France, Execution",
+      "Amount": 1
+    },
+    {
       "Url": "emotion-gripping-subtlety",
       "Text": "Emotion, Gripping, Subtlety",
       "Amount": 1
@@ -13611,6 +13751,11 @@ var data = {
     {
       "Url": "emotion-journey-poetic",
       "Text": "Emotion, Journey, Poetic",
+      "Amount": 1
+    },
+    {
+      "Url": "emotion-lush-lavish",
+      "Text": "Emotion, Lush, Lavish",
       "Amount": 1
     },
     {
@@ -13734,6 +13879,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "emotional-affair-fate",
+      "Text": "Emotional, Affair, Fate",
+      "Amount": 1
+    },
+    {
       "Url": "emotional-anger-sympathy",
       "Text": "Emotional, Anger, Sympathy",
       "Amount": 1
@@ -13779,6 +13929,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "emotional-complicated-troubled",
+      "Text": "Emotional, Complicated, Troubled",
+      "Amount": 1
+    },
+    {
       "Url": "emotional-cynical-wealthy",
       "Text": "Emotional, Cynical, Wealthy",
       "Amount": 1
@@ -13786,6 +13941,11 @@ var data = {
     {
       "Url": "emotional-disturbing-fascinating",
       "Text": "Emotional, Disturbing, Fascinating",
+      "Amount": 1
+    },
+    {
+      "Url": "emotional-dramas-class",
+      "Text": "Emotional, Dramas, Class",
       "Amount": 1
     },
     {
@@ -13811,11 +13971,6 @@ var data = {
     {
       "Url": "emotional-family-class",
       "Text": "Emotional, Family, Class",
-      "Amount": 1
-    },
-    {
-      "Url": "emotional-family-conflict",
-      "Text": "Emotional, Family, Conflict",
       "Amount": 1
     },
     {
@@ -13896,11 +14051,6 @@ var data = {
     {
       "Url": "emotional-overcome-complicated",
       "Text": "Emotional, Overcome, Complicated",
-      "Amount": 1
-    },
-    {
-      "Url": "emotional-passion-beauty",
-      "Text": "Emotional, Passion, Beauty",
       "Amount": 1
     },
     {
@@ -14164,11 +14314,6 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "faith-society-community",
-      "Text": "Faith, Society, Community",
-      "Amount": 1
-    },
-    {
       "Url": "faith-thought-provoking-soul",
       "Text": "Faith, Thought-Provoking, Soul",
       "Amount": 1
@@ -14181,6 +14326,11 @@ var data = {
     {
       "Url": "families-conflict-dramas",
       "Text": "Families, Conflict, Dramas",
+      "Amount": 1
+    },
+    {
+      "Url": "families-courage-brave",
+      "Text": "Families, Courage, Brave",
       "Amount": 1
     },
     {
@@ -14251,6 +14401,11 @@ var data = {
     {
       "Url": "feelings-child-loving",
       "Text": "Feelings, Child, Loving",
+      "Amount": 1
+    },
+    {
+      "Url": "feelings-christian-sensitive",
+      "Text": "Feelings, Christian, Sensitive",
       "Amount": 1
     },
     {
@@ -14369,6 +14524,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "feelings-passion-affair",
+      "Text": "Feelings, Passion, Affair",
+      "Amount": 1
+    },
+    {
       "Url": "feelings-passion-lover",
       "Text": "Feelings, Passion, Lover",
       "Amount": 1
@@ -14376,6 +14536,11 @@ var data = {
     {
       "Url": "feelings-passion-tragic",
       "Text": "Feelings, Passion, Tragic",
+      "Amount": 1
+    },
+    {
+      "Url": "feelings-passionate-marriage",
+      "Text": "Feelings, Passionate, Marriage",
       "Amount": 1
     },
     {
@@ -15429,11 +15594,6 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "hilarious-cliche-smile",
-      "Text": "Hilarious, Cliche, Smile",
-      "Amount": 1
-    },
-    {
       "Url": "hilarious-crazy-popular",
       "Text": "Hilarious, Crazy, Popular",
       "Amount": 1
@@ -15564,8 +15724,8 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "historic-intrigue-gorgeous",
-      "Text": "Historic, Intrigue, Gorgeous",
+      "Url": "historical-america-europe",
+      "Text": "Historical, America, Europe",
       "Amount": 1
     },
     {
@@ -15596,6 +15756,11 @@ var data = {
     {
       "Url": "hitler-army-allied",
       "Text": "Hitler, Army, Allied",
+      "Amount": 1
+    },
+    {
+      "Url": "horror-curse-attacks",
+      "Text": "Horror, Curse, Attacks",
       "Amount": 1
     },
     {
@@ -16009,6 +16174,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "humorous-wit-trip",
+      "Text": "Humorous, Wit, Trip",
+      "Amount": 1
+    },
+    {
       "Url": "hysterical-sex-light-hearted",
       "Text": "Hysterical, Sex, Light-Hearted",
       "Amount": 1
@@ -16016,11 +16186,6 @@ var data = {
     {
       "Url": "imaginative-breathtaking-technology",
       "Text": "Imaginative, Breathtaking, Technology",
-      "Amount": 1
-    },
-    {
-      "Url": "imaginative-child-creativity",
-      "Text": "Imaginative, Child, Creativity",
       "Amount": 1
     },
     {
@@ -16041,11 +16206,6 @@ var data = {
     {
       "Url": "intelligent-moving-creativity",
       "Text": "Intelligent, Moving, Creativity",
-      "Amount": 1
-    },
-    {
-      "Url": "intelligent-society-thought-provoking",
-      "Text": "Intelligent, Society, Thought-Provoking",
       "Amount": 1
     },
     {
@@ -16494,8 +16654,8 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "lyrics-broadway-melodies",
-      "Text": "Lyrics, Broadway, Melodies",
+      "Url": "lyrics-choreography-chorus",
+      "Text": "Lyrics, Choreography, Chorus",
       "Amount": 1
     },
     {
@@ -16511,6 +16671,11 @@ var data = {
     {
       "Url": "lyrics-dancing-melodies",
       "Text": "Lyrics, Dancing, Melodies",
+      "Amount": 1
+    },
+    {
+      "Url": "lyrics-enchanted-captivating",
+      "Text": "Lyrics, Enchanted, Captivating",
       "Amount": 1
     },
     {
@@ -16624,6 +16789,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "moving-beauty-europe",
+      "Text": "Moving, Beauty, Europe",
+      "Amount": 1
+    },
+    {
       "Url": "moving-beauty-italy",
       "Text": "Moving, Beauty, Italy",
       "Amount": 1
@@ -16699,6 +16869,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "murder-horrific-raw",
+      "Text": "Murder, Horrific, Raw",
+      "Amount": 1
+    },
+    {
       "Url": "murder-horrific-witnessed",
       "Text": "Murder, Horrific, Witnessed",
       "Amount": 1
@@ -16726,6 +16901,11 @@ var data = {
     {
       "Url": "murder-terror-insanity",
       "Text": "Murder, Terror, Insanity",
+      "Amount": 1
+    },
+    {
+      "Url": "murder-terror-stylish",
+      "Text": "Murder, Terror, Stylish",
       "Amount": 1
     },
     {
@@ -16761,11 +16941,6 @@ var data = {
     {
       "Url": "murderer-eerie-creep",
       "Text": "Murderer, Eerie, Creep",
-      "Amount": 1
-    },
-    {
-      "Url": "murderer-gruesome-eerie",
-      "Text": "Murderer, Gruesome, Eerie",
       "Amount": 1
     },
     {
@@ -16831,6 +17006,11 @@ var data = {
     {
       "Url": "musical-sweet-kids",
       "Text": "Musical, Sweet, Kids",
+      "Amount": 1
+    },
+    {
+      "Url": "musical-voices-enchanted",
+      "Text": "Musical, Voices, Enchanted",
       "Amount": 1
     },
     {
@@ -17064,6 +17244,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "powerful-christian-thoughtful",
+      "Text": "Powerful, Christian, Thoughtful",
+      "Amount": 1
+    },
+    {
       "Url": "powerful-complexity-intellectual",
       "Text": "Powerful, Complexity, Intellectual",
       "Amount": 1
@@ -17179,18 +17364,8 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "powerful-marriage-lovely",
-      "Text": "Powerful, Marriage, Lovely",
-      "Amount": 1
-    },
-    {
       "Url": "powerful-moral-realism",
       "Text": "Powerful, Moral, Realism",
-      "Amount": 1
-    },
-    {
-      "Url": "powerful-overcome-heartbreaking",
-      "Text": "Powerful, Overcome, Heartbreaking",
       "Amount": 1
     },
     {
@@ -17299,11 +17474,6 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "prison-crime-gritty",
-      "Text": "Prison, Crime, Gritty",
-      "Amount": 1
-    },
-    {
       "Url": "prison-crime-justice",
       "Text": "Prison, Crime, Justice",
       "Amount": 1
@@ -17334,6 +17504,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "relationships-boats-child",
+      "Text": "Relationships, Boats, Child",
+      "Amount": 1
+    },
+    {
       "Url": "relationships-bold-depressing",
       "Text": "Relationships, Bold, Depressing",
       "Amount": 1
@@ -17361,6 +17536,11 @@ var data = {
     {
       "Url": "relationships-compassion-despair",
       "Text": "Relationships, Compassion, Despair",
+      "Amount": 1
+    },
+    {
+      "Url": "relationships-complex-class",
+      "Text": "Relationships, Complex, Class",
       "Amount": 1
     },
     {
@@ -17511,6 +17691,11 @@ var data = {
     {
       "Url": "relationships-sex-sensual",
       "Text": "Relationships, Sex, Sensual",
+      "Amount": 1
+    },
+    {
+      "Url": "relationships-soldiers-sacrifice",
+      "Text": "Relationships, Soldiers, Sacrifice",
       "Amount": 1
     },
     {
@@ -17759,6 +17944,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "sex-surreal-sensual",
+      "Text": "Sex, Surreal, Sensual",
+      "Amount": 1
+    },
+    {
       "Url": "sexuality-club-party",
       "Text": "Sexual, Club, Party",
       "Amount": 1
@@ -17841,11 +18031,6 @@ var data = {
     {
       "Url": "shock-clues-psychological",
       "Text": "Shock, Clues, Psychological",
-      "Amount": 1
-    },
-    {
-      "Url": "shock-disgusting-nasty",
-      "Text": "Shock, Disgusting, Nasty",
       "Amount": 1
     },
     {
@@ -18249,6 +18434,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "spooky-blood-bodies",
+      "Text": "Spooky, Blood, Bodies",
+      "Amount": 1
+    },
+    {
       "Url": "spooky-blood-madness",
       "Text": "Spooky, Blood, Madness",
       "Amount": 1
@@ -18321,11 +18511,6 @@ var data = {
     {
       "Url": "student-kids-class",
       "Text": "Student, Kids, Class",
-      "Amount": 1
-    },
-    {
-      "Url": "student-kids-troubled",
-      "Text": "Student, Kids, Troubled",
       "Amount": 1
     },
     {
@@ -18424,13 +18609,13 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "supernatural-weird-imaginative",
-      "Text": "Supernatural, Weird, Imaginative",
+      "Url": "supernatural-undead-confrontation",
+      "Text": "Supernatural, Undead, Confrontation",
       "Amount": 1
     },
     {
-      "Url": "surreal-dream-eccentric",
-      "Text": "Surreal, Dream, Eccentric",
+      "Url": "supernatural-weird-imaginative",
+      "Text": "Supernatural, Weird, Imaginative",
       "Amount": 1
     },
     {
@@ -18496,6 +18681,11 @@ var data = {
     {
       "Url": "suspense-england-intrigue",
       "Text": "Suspense, England, Intrigue",
+      "Amount": 1
+    },
+    {
+      "Url": "suspense-fascinating-secret",
+      "Text": "Suspense, Fascinating, Secret",
       "Amount": 1
     },
     {
@@ -18694,6 +18884,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "tear-jerker-cute-singing",
+      "Text": "Tear-Jerker, Cute, Singing",
+      "Amount": 1
+    },
+    {
       "Url": "tear-jerker-depressed-dramas",
       "Text": "Tear-Jerker, Depressed, Dramas",
       "Amount": 1
@@ -18784,6 +18979,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "tear-jerker-kids-lesson",
+      "Text": "Tear-Jerker, Kids, Lesson",
+      "Amount": 1
+    },
+    {
       "Url": "tear-jerker-loving-beloved",
       "Text": "Tear-Jerker, Loving, Beloved",
       "Amount": 1
@@ -18796,6 +18996,11 @@ var data = {
     {
       "Url": "tear-jerker-loving-unexpected",
       "Text": "Tear-Jerker, Loving, Unexpected",
+      "Amount": 1
+    },
+    {
+      "Url": "tear-jerker-marriage-middle-age",
+      "Text": "Tear-Jerker, Marriage, Middle-Age",
       "Amount": 1
     },
     {
@@ -19424,6 +19629,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "touching-faith-humanity",
+      "Text": "Touching, Faith, Humanity",
+      "Amount": 1
+    },
+    {
       "Url": "touching-faith-marriage",
       "Text": "Touching, Faith, Marriage",
       "Amount": 1
@@ -19489,6 +19699,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "touching-joy-real-life",
+      "Text": "Touching, Joy, Real-Life",
+      "Amount": 1
+    },
+    {
       "Url": "touching-lonely-bleak",
       "Text": "Touching, Lonely, Bleak",
       "Amount": 1
@@ -19521,11 +19736,6 @@ var data = {
     {
       "Url": "touching-romance-cliche",
       "Text": "Touching, Romance, Cliche",
-      "Amount": 1
-    },
-    {
-      "Url": "touching-romance-commitment",
-      "Text": "Touching, Romance, Commitment",
       "Amount": 1
     },
     {
@@ -19681,6 +19891,11 @@ var data = {
     {
       "Url": "victim-detective-dark",
       "Text": "Victim, Detective, Dark",
+      "Amount": 1
+    },
+    {
+      "Url": "victim-guilty-rage",
+      "Text": "Victim, Guilty, Rage",
       "Amount": 1
     },
     {
@@ -19849,11 +20064,6 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "war-convicts-guards",
-      "Text": "War, Convicts, Guards",
-      "Amount": 1
-    },
-    {
       "Url": "war-destruction-political",
       "Text": "War, Destruction, Political",
       "Amount": 1
@@ -19909,8 +20119,8 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "weird-imaginative-insanity",
-      "Text": "Weird, Imaginative, Insanity",
+      "Url": "weird-horror-inventive",
+      "Text": "Weird, Horror, Inventive",
       "Amount": 1
     },
     {
@@ -19951,6 +20161,11 @@ var data = {
     {
       "Url": "wit-charming-dating",
       "Text": "Wit, Charming, Dating",
+      "Amount": 1
+    },
+    {
+      "Url": "wit-cynical-dramas",
+      "Text": "Wit, Cynical, Dramas",
       "Amount": 1
     },
     {
@@ -20127,7 +20342,7 @@ var data = {
       "Title": "Universal Pictures",
       "Poster": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
       "OriginCountry": "United States of America",
-      "Amount": 63
+      "Amount": 64
     },
     {
       "Id": 174,
@@ -20137,18 +20352,18 @@ var data = {
       "Amount": 63
     },
     {
-      "Id": 5,
-      "Title": "Columbia Pictures",
-      "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
-      "OriginCountry": "United States of America",
-      "Amount": 49
-    },
-    {
       "Id": 25,
       "Title": "20th Century Fox",
       "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
       "OriginCountry": "United States of America",
-      "Amount": 48
+      "Amount": 50
+    },
+    {
+      "Id": 5,
+      "Title": "Columbia Pictures",
+      "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+      "OriginCountry": "United States of America",
+      "Amount": 50
     },
     {
       "Id": 6705,
@@ -20235,6 +20450,13 @@ var data = {
       "Amount": 16
     },
     {
+      "Id": 288,
+      "Title": "BBC Film",
+      "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+      "OriginCountry": "United Kingdom",
+      "Amount": 15
+    },
+    {
       "Id": 10146,
       "Title": "Focus Features",
       "Poster": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
@@ -20254,13 +20476,6 @@ var data = {
       "Poster": "/ou5BUbtulr6tIt699q6xJiEQTR9.png",
       "OriginCountry": "United States of America",
       "Amount": 15
-    },
-    {
-      "Id": 288,
-      "Title": "BBC Film",
-      "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
-      "OriginCountry": "United Kingdom",
-      "Amount": 14
     },
     {
       "Id": 508,
@@ -20291,6 +20506,13 @@ var data = {
       "Amount": 13
     },
     {
+      "Id": 70,
+      "Title": "American Zoetrope",
+      "Poster": "/ueaENQkPcy8rlr5fGZVBXKOhlBh.png",
+      "OriginCountry": "United States of America",
+      "Amount": 12
+    },
+    {
       "Id": 258,
       "Title": "Scott Rudin Productions",
       "Poster": "",
@@ -20303,13 +20525,6 @@ var data = {
       "Poster": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
       "OriginCountry": "United States of America",
       "Amount": 12
-    },
-    {
-      "Id": 70,
-      "Title": "American Zoetrope",
-      "Poster": "/ueaENQkPcy8rlr5fGZVBXKOhlBh.png",
-      "OriginCountry": "United States of America",
-      "Amount": 11
     },
     {
       "Id": 23,
@@ -20529,6 +20744,13 @@ var data = {
       "Amount": 6
     },
     {
+      "Id": 7493,
+      "Title": "FilmNation Entertainment",
+      "Poster": "/fHitYiGUCkRafgt6VPYQlXWLkdp.png",
+      "OriginCountry": "United States of America",
+      "Amount": 6
+    },
+    {
       "Id": 385,
       "Title": "Kubrick Productions",
       "Poster": "",
@@ -20620,17 +20842,17 @@ var data = {
       "Amount": 5
     },
     {
-      "Id": 7493,
-      "Title": "FilmNation Entertainment",
-      "Poster": "/fHitYiGUCkRafgt6VPYQlXWLkdp.png",
-      "OriginCountry": "United States of America",
-      "Amount": 5
-    },
-    {
       "Id": 43649,
       "Title": "Lilies Films",
       "Poster": "/5pv3tUlq25IiuMuok57YBZIiKn.png",
       "OriginCountry": "France",
+      "Amount": 5
+    },
+    {
+      "Id": 82968,
+      "Title": "LuckyChap Entertainment",
+      "Poster": "/gRROMOG5bpF6TIDMbfaa5gnFFzl.png",
+      "OriginCountry": "United States of America",
       "Amount": 5
     },
     {
@@ -20658,6 +20880,13 @@ var data = {
       "Id": 172,
       "Title": "NPV Entertainment",
       "Poster": "",
+      "OriginCountry": "United States of America",
+      "Amount": 5
+    },
+    {
+      "Id": 41,
+      "Title": "Orion Pictures",
+      "Poster": "/xAot4SSOIHiWQ2WEnVXYGR1lce9.png",
       "OriginCountry": "United States of America",
       "Amount": 5
     },
@@ -20800,34 +21029,20 @@ var data = {
       "Poster": "",
       "OriginCountry": "United States of America",
       "Amount": 4
-    },
-    {
-      "Id": 1187,
-      "Title": "Michael London Productions",
-      "Poster": "",
-      "OriginCountry": "United States of America",
-      "Amount": 4
-    },
-    {
-      "Id": 88934,
-      "Title": "Monkeypaw Productions",
-      "Poster": "/5Be96V9WXa7jJInSDPqDOqMBA0o.png",
-      "OriginCountry": "United States of America",
-      "Amount": 4
     }
   ],
-  "LastUpdated": "3 Nov 2024",
+  "LastUpdated": "14 Nov 2024",
   "Username": "LaLunaLlena",
-  "TotalFilms": 996,
-  "RatedFilms": 345,
-  "FilmsWithGenres": 996,
-  "TotalMinutes": 107072,
-  "FilmsWithRuntime": 996,
-  "TotalMinutesFull": 105979,
-  "FilmsWithRuntimeFull": 959,
-  "AverageFilmYearMean": 1998.9638554216867,
+  "TotalFilms": 1010,
+  "RatedFilms": 353,
+  "FilmsWithGenres": 1010,
+  "TotalMinutes": 108637,
+  "FilmsWithRuntime": 1010,
+  "TotalMinutesFull": 107544,
+  "FilmsWithRuntimeFull": 973,
+  "AverageFilmYearMean": 1998.9247524752475,
   "AverageFilmYearMedian": 2004,
-  "AverageFilmYearMedianTooltip": "10 \u003C n \u003C 22",
+  "AverageFilmYearMedianTooltip": "12 \u003C n \u003C 20",
   "AverageFilmYearMode": "2007",
   "Genres": {
     "Action": {
@@ -20846,14 +21061,14 @@ var data = {
       "RatingTotal": 24
     },
     "Comedy": {
-      "Count": 284,
+      "Count": 286,
       "RatingCount": 85,
       "RatingTotal": 280
     },
     "Crime": {
-      "Count": 169,
-      "RatingCount": 40,
-      "RatingTotal": 133
+      "Count": 171,
+      "RatingCount": 41,
+      "RatingTotal": 136
     },
     "Documentary": {
       "Count": 49,
@@ -20861,9 +21076,9 @@ var data = {
       "RatingTotal": 39
     },
     "Drama": {
-      "Count": 531,
-      "RatingCount": 227,
-      "RatingTotal": 846
+      "Count": 545,
+      "RatingCount": 235,
+      "RatingTotal": 876
     },
     "Family": {
       "Count": 83,
@@ -20871,19 +21086,19 @@ var data = {
       "RatingTotal": 50
     },
     "Fantasy": {
-      "Count": 99,
-      "RatingCount": 21,
-      "RatingTotal": 82
+      "Count": 101,
+      "RatingCount": 23,
+      "RatingTotal": 87
     },
     "History": {
-      "Count": 39,
-      "RatingCount": 13,
-      "RatingTotal": 56
+      "Count": 40,
+      "RatingCount": 14,
+      "RatingTotal": 60
     },
     "Horror": {
-      "Count": 114,
-      "RatingCount": 51,
-      "RatingTotal": 164
+      "Count": 115,
+      "RatingCount": 52,
+      "RatingTotal": 167
     },
     "Music": {
       "Count": 19,
@@ -20891,24 +21106,24 @@ var data = {
       "RatingTotal": 32
     },
     "Mystery": {
-      "Count": 99,
-      "RatingCount": 38,
-      "RatingTotal": 134
+      "Count": 100,
+      "RatingCount": 39,
+      "RatingTotal": 139
     },
     "Romance": {
-      "Count": 149,
-      "RatingCount": 68,
-      "RatingTotal": 249
+      "Count": 150,
+      "RatingCount": 66,
+      "RatingTotal": 241
     },
     "Science Fiction": {
-      "Count": 109,
-      "RatingCount": 33,
-      "RatingTotal": 118
+      "Count": 110,
+      "RatingCount": 34,
+      "RatingTotal": 120
     },
     "Thriller": {
-      "Count": 271,
-      "RatingCount": 79,
-      "RatingTotal": 254
+      "Count": 275,
+      "RatingCount": 82,
+      "RatingTotal": 264
     },
     "TV Movie": {
       "Count": 10,
@@ -20928,13 +21143,14 @@ var data = {
   },
   "ProfessionDataSets": {
     "director_All": {
-      "Total": 1133,
-      "Unique": 768,
+      "Total": 1147,
+      "Unique": 776,
       "PeopleData": [
         {
           "ID": 488,
           "FullName": "Steven Spielberg",
           "Amount": 17,
+          "Minutes": 2278,
           "Poster": "/tZxcg19YQ3e8fJ0pOs7hjlnmmr6.jpg",
           "Gender": 2
         },
@@ -20942,6 +21158,7 @@ var data = {
           "ID": 138,
           "FullName": "Quentin Tarantino",
           "Amount": 10,
+          "Minutes": 1435,
           "Poster": "/1gjcpAa99FAOWGnrUvHEXXsRs7o.jpg",
           "Gender": 2
         },
@@ -20949,6 +21166,7 @@ var data = {
           "ID": 2636,
           "FullName": "Alfred Hitchcock",
           "Amount": 8,
+          "Minutes": 897,
           "Poster": "/osE39XteDT85B6sML8uTXFFv1sb.jpg",
           "Gender": 2
         },
@@ -20956,6 +21174,7 @@ var data = {
           "ID": 8635,
           "FullName": "Buster Keaton",
           "Amount": 8,
+          "Minutes": 226,
           "Poster": "/iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
           "Gender": 2
         },
@@ -20963,6 +21182,7 @@ var data = {
           "ID": 525,
           "FullName": "Christopher Nolan",
           "Amount": 8,
+          "Minutes": 1140,
           "Poster": "/xuAIuYSmsUzKlUMBFGVZaWsY3DZ.jpg",
           "Gender": 2
         },
@@ -20970,6 +21190,7 @@ var data = {
           "ID": 6431,
           "FullName": "Darren Aronofsky",
           "Amount": 8,
+          "Minutes": 875,
           "Poster": "/tOjz8mVI2HeQBvU6KNjIExMBsXL.jpg",
           "Gender": 2
         },
@@ -20977,6 +21198,7 @@ var data = {
           "ID": 578,
           "FullName": "Ridley Scott",
           "Amount": 8,
+          "Minutes": 1055,
           "Poster": "/zABJmN9opmqD4orWl3KSdCaSo7Q.jpg",
           "Gender": 2
         },
@@ -20984,6 +21206,7 @@ var data = {
           "ID": 240,
           "FullName": "Stanley Kubrick",
           "Amount": 8,
+          "Minutes": 1040,
           "Poster": "/yFT0VyIelI9aegZrsAwOG5iVP4v.jpg",
           "Gender": 2
         },
@@ -20991,6 +21214,7 @@ var data = {
           "ID": 24,
           "FullName": "Robert Zemeckis",
           "Amount": 7,
+          "Minutes": 843,
           "Poster": "/lPYDQ5LYNJ12rJZENtyASmVZ1Ql.jpg",
           "Gender": 2
         },
@@ -20998,6 +21222,7 @@ var data = {
           "ID": 10965,
           "FullName": "Chris Columbus",
           "Amount": 6,
+          "Minutes": 786,
           "Poster": "/yCyEz90NqjEXKZ7HYcEhDXlLlPc.jpg",
           "Gender": 2
         },
@@ -21005,6 +21230,7 @@ var data = {
           "ID": 2034,
           "FullName": "Danny Boyle",
           "Amount": 6,
+          "Minutes": 633,
           "Poster": "/b5qQpFHmgNyvV1t81ou17Jt2fRj.jpg",
           "Gender": 2
         },
@@ -21012,6 +21238,7 @@ var data = {
           "ID": 13953,
           "FullName": "Edward F. Cline",
           "Amount": 6,
+          "Minutes": 124,
           "Poster": "/cyXhBZ3p53P3cgnQt0XldYKqdTP.jpg",
           "Gender": 2
         },
@@ -21019,6 +21246,7 @@ var data = {
           "ID": 2710,
           "FullName": "James Cameron",
           "Amount": 6,
+          "Minutes": 878,
           "Poster": "/5tXGxsQyp05biKpq99NKyGRuFHX.jpg",
           "Gender": 2
         },
@@ -21026,6 +21254,7 @@ var data = {
           "ID": 68813,
           "FullName": "C\u00E9line Sciamma",
           "Amount": 5,
+          "Minutes": 472,
           "Poster": "/j35wQETDUc6CdzIgbKWkeahlTlG.jpg",
           "Gender": 1
         },
@@ -21033,6 +21262,7 @@ var data = {
           "ID": 7467,
           "FullName": "David Fincher",
           "Amount": 5,
+          "Minutes": 616,
           "Poster": "/tpEczFclQZeKAiCeKZZ0adRvtfz.jpg",
           "Gender": 2
         },
@@ -21040,6 +21270,7 @@ var data = {
           "ID": 10943,
           "FullName": "Francis Lawrence",
           "Amount": 5,
+          "Minutes": 647,
           "Poster": "/pyGWo5mAwZ2Koe6leB2RjKd7vmc.jpg",
           "Gender": 2
         },
@@ -21047,6 +21278,7 @@ var data = {
           "ID": 108,
           "FullName": "Peter Jackson",
           "Amount": 5,
+          "Minutes": 767,
           "Poster": "/bNc908d59Ba8VDNr4eCcm4G1cR.jpg",
           "Gender": 2
         },
@@ -21054,13 +21286,23 @@ var data = {
           "ID": 6159,
           "FullName": "Ron Howard",
           "Amount": 5,
+          "Minutes": 641,
           "Poster": "/tDKn6gAgvARdQRfuem2JwyNcP3B.jpg",
           "Gender": 2
+        },
+        {
+          "ID": 1769,
+          "FullName": "Sofia Coppola",
+          "Amount": 5,
+          "Minutes": 522,
+          "Poster": "/dzHC2LxmarkBxWLhjp2DRa5oCev.jpg",
+          "Gender": 1
         },
         {
           "ID": 11434,
           "FullName": "Wilfred Jackson",
           "Amount": 5,
+          "Minutes": 386,
           "Poster": "/rTszyDc1jFOQQrzSYgnxEVLxd8W.jpg",
           "Gender": 2
         },
@@ -21068,6 +21310,7 @@ var data = {
           "ID": 5174,
           "FullName": "Barry Sonnenfeld",
           "Amount": 4,
+          "Minutes": 382,
           "Poster": "/n6y6vaAFfSqsJodgkwTxAey4NoG.jpg",
           "Gender": 2
         },
@@ -21075,6 +21318,7 @@ var data = {
           "ID": 190,
           "FullName": "Clint Eastwood",
           "Amount": 4,
+          "Minutes": 527,
           "Poster": "/dU35NnjZ4aGw5abIJe3WXVf3Eey.jpg",
           "Gender": 2
         },
@@ -21082,6 +21326,7 @@ var data = {
           "ID": 11343,
           "FullName": "David Yates",
           "Amount": 4,
+          "Minutes": 567,
           "Poster": "/hAHOxR0NK4cZDumqNIpDoEdGVAh.jpg",
           "Gender": 2
         },
@@ -21089,6 +21334,7 @@ var data = {
           "ID": 11694,
           "FullName": "Doug Liman",
           "Amount": 4,
+          "Minutes": 424,
           "Poster": "/kIT7NE6MDaiIrjPEbObXk4COFVa.jpg",
           "Gender": 2
         },
@@ -21096,6 +21342,7 @@ var data = {
           "ID": 11090,
           "FullName": "Edgar Wright",
           "Amount": 4,
+          "Minutes": 449,
           "Poster": "/gVbn2dWDfNUi4LERbhXpPEgJaCE.jpg",
           "Gender": 2
         },
@@ -21103,6 +21350,7 @@ var data = {
           "ID": 11429,
           "FullName": "Hamilton Luske",
           "Amount": 4,
+          "Minutes": 318,
           "Poster": "/bEccjwuG6QGc4V0AtA87rexRHYo.jpg",
           "Gender": 2
         },
@@ -21110,6 +21358,7 @@ var data = {
           "ID": 8858,
           "FullName": "Ivan Reitman",
           "Amount": 4,
+          "Minutes": 434,
           "Poster": "/qMyAjmRVihGFbJPhMTsqvpeOKfX.jpg",
           "Gender": 2
         },
@@ -21117,6 +21366,7 @@ var data = {
           "ID": 1223,
           "FullName": "Joel Coen",
           "Amount": 4,
+          "Minutes": 433,
           "Poster": "/rgVaJNkZCgMarUcZuUAsVfXMWk3.jpg",
           "Gender": 2
         },
@@ -21124,6 +21374,7 @@ var data = {
           "ID": 5572,
           "FullName": "Joel Schumacher",
           "Amount": 4,
+          "Minutes": 432,
           "Poster": "/ttXniaNjekrOBjLQpZqTv89AakA.jpg",
           "Gender": 2
         },
@@ -21131,6 +21382,7 @@ var data = {
           "ID": 11505,
           "FullName": "John Hughes",
           "Amount": 4,
+          "Minutes": 387,
           "Poster": "/1Pm0HXRXSwz5BON9HHNDLdl4HjZ.jpg",
           "Gender": 2
         },
@@ -21138,6 +21390,7 @@ var data = {
           "ID": 1090,
           "FullName": "John McTiernan",
           "Amount": 4,
+          "Minutes": 480,
           "Poster": "/yVfDkVbgQHD1A7JSV8Z47EjB1mU.jpg",
           "Gender": 2
         },
@@ -21145,6 +21398,7 @@ var data = {
           "ID": 1032,
           "FullName": "Martin Scorsese",
           "Amount": 4,
+          "Minutes": 577,
           "Poster": "/52dsh3ZXDgB6HPN5VqNBj3QOnjn.jpg",
           "Gender": 2
         },
@@ -21152,6 +21406,7 @@ var data = {
           "ID": 67367,
           "FullName": "Rian Johnson",
           "Amount": 4,
+          "Minutes": 495,
           "Poster": "/uPWwvdppeZVKPbYcjXKU8zyuAVh.jpg",
           "Gender": 2
         },
@@ -21159,20 +21414,15 @@ var data = {
           "ID": 3026,
           "FullName": "Rob Reiner",
           "Amount": 4,
+          "Minutes": 375,
           "Poster": "/rcmPU3YlhHQVzZlV197qhmRsgEL.jpg",
           "Gender": 2
-        },
-        {
-          "ID": 1769,
-          "FullName": "Sofia Coppola",
-          "Amount": 4,
-          "Poster": "/dzHC2LxmarkBxWLhjp2DRa5oCev.jpg",
-          "Gender": 1
         },
         {
           "ID": 1884,
           "FullName": "Steven Soderbergh",
           "Amount": 4,
+          "Minutes": 495,
           "Poster": "/872DPaUxTlAOhxBb70h3vaWhMvz.jpg",
           "Gender": 2
         },
@@ -21180,6 +21430,7 @@ var data = {
           "ID": 122423,
           "FullName": "Yorgos Lanthimos",
           "Amount": 4,
+          "Minutes": 544,
           "Poster": "/kwKfSubzU8B0uLCEiPvY1mGOVwZ.jpg",
           "Gender": 2
         },
@@ -21187,6 +21438,7 @@ var data = {
           "ID": 13235,
           "FullName": "Alexander Payne",
           "Amount": 3,
+          "Minutes": 363,
           "Poster": "/6U32ib4FEYLm2ojyeI920FfoBEs.jpg",
           "Gender": 2
         },
@@ -21194,6 +21446,7 @@ var data = {
           "ID": 7,
           "FullName": "Andrew Stanton",
           "Amount": 3,
+          "Minutes": 295,
           "Poster": "/fo6ePCWEVB0L1sccrvB99Iaoqcg.jpg",
           "Gender": 2
         },
@@ -21201,6 +21454,7 @@ var data = {
           "ID": 1614,
           "FullName": "Ang Lee",
           "Amount": 3,
+          "Minutes": 366,
           "Poster": "/lwhIzt4PVNrsfOXuZcKXhtPE83P.jpg",
           "Gender": 2
         },
@@ -21208,6 +21462,7 @@ var data = {
           "ID": 11426,
           "FullName": "Ben Sharpsteen",
           "Amount": 3,
+          "Minutes": 235,
           "Poster": "/nfruaWGIjvI99oXmyzmsnGkdDL9.jpg",
           "Gender": 2
         },
@@ -21215,6 +21470,7 @@ var data = {
           "ID": 11091,
           "FullName": "Brett Ratner",
           "Amount": 3,
+          "Minutes": 279,
           "Poster": "/uOtFtBPkLQaTq8TobPG0XvNKrvD.jpg",
           "Gender": 2
         },
@@ -21222,6 +21478,7 @@ var data = {
           "ID": 1150,
           "FullName": "Brian De Palma",
           "Amount": 3,
+          "Minutes": 300,
           "Poster": "/t29YojZlOEqNSWvfmY0DDYh3vnb.jpg",
           "Gender": 2
         },
@@ -21229,6 +21486,7 @@ var data = {
           "ID": 64864,
           "FullName": "Clyde Geronimi",
           "Amount": 3,
+          "Minutes": 230,
           "Poster": "/eAeqN6fPYuzKjGRSaR2jqhSeeMq.jpg",
           "Gender": 2
         },
@@ -21236,6 +21494,7 @@ var data = {
           "ID": 50767,
           "FullName": "Craig Gillespie",
           "Amount": 3,
+          "Minutes": 360,
           "Poster": "/pVHspL9QWsXCm3t3VXEaCJ9y8Zz.jpg",
           "Gender": 2
         },
@@ -21243,6 +21502,7 @@ var data = {
           "ID": 2675,
           "FullName": "Darren Lynn Bousman",
           "Amount": 3,
+          "Minutes": 294,
           "Poster": "/7cphExMhm74Y5ELqKCq4lR3fGn8.jpg",
           "Gender": 2
         },
@@ -21250,6 +21510,7 @@ var data = {
           "ID": 224,
           "FullName": "David Cronenberg",
           "Amount": 3,
+          "Minutes": 297,
           "Poster": "/3xh4e2gWHDilMLtucHzDGsmJMuQ.jpg",
           "Gender": 2
         },
@@ -21257,6 +21518,7 @@ var data = {
           "ID": 12987,
           "FullName": "David Zucker",
           "Amount": 3,
+          "Minutes": 259,
           "Poster": "/13iJccfZeC0X9WZgJnlI7ZphL7l.jpg",
           "Gender": 2
         },
@@ -21264,6 +21526,7 @@ var data = {
           "ID": 1224,
           "FullName": "Ethan Coen",
           "Amount": 3,
+          "Minutes": 335,
           "Poster": "/ccvoiEe3gEMAth1Oy8SJxVeMcAk.jpg",
           "Gender": 2
         },
@@ -21271,6 +21534,7 @@ var data = {
           "ID": 37932,
           "FullName": "F. Gary Gray",
           "Amount": 3,
+          "Minutes": 397,
           "Poster": "/lVbwLnxtdiQaS8oGWFZMkhATLc5.jpg",
           "Gender": 2
         },
@@ -21278,6 +21542,7 @@ var data = {
           "ID": 1776,
           "FullName": "Francis Ford Coppola",
           "Amount": 3,
+          "Minutes": 524,
           "Poster": "/3Pblihd6KjXliie9vj4iQJwbNPU.jpg",
           "Gender": 2
         },
@@ -21285,6 +21550,7 @@ var data = {
           "ID": 14999,
           "FullName": "George A. Romero",
           "Amount": 3,
+          "Minutes": 324,
           "Poster": "/w2zVF92x149qK79ZxwUowcSp2c6.jpg",
           "Gender": 2
         },
@@ -21292,6 +21558,7 @@ var data = {
           "ID": 45400,
           "FullName": "Greta Gerwig",
           "Amount": 3,
+          "Minutes": 343,
           "Poster": "/6MwQ2GstYr0wnhp1eTOAbVMNBGN.jpg",
           "Gender": 1
         },
@@ -21299,6 +21566,7 @@ var data = {
           "ID": 5216,
           "FullName": "Gus Van Sant",
           "Amount": 3,
+          "Minutes": 358,
           "Poster": "/kICHgrSh4eiICjz8piy9fTXIgph.jpg",
           "Gender": 2
         },
@@ -21306,6 +21574,7 @@ var data = {
           "ID": 956,
           "FullName": "Guy Ritchie",
           "Amount": 3,
+          "Minutes": 321,
           "Poster": "/9pLUnjMgIEWXi0mlHYzie9cKUTD.jpg",
           "Gender": 2
         },
@@ -21313,6 +21582,7 @@ var data = {
           "ID": 2209,
           "FullName": "Jan de Bont",
           "Amount": 3,
+          "Minutes": 354,
           "Poster": "/evj9vN5pxxjr4aFLZRvniU0gzof.jpg",
           "Gender": 2
         },
@@ -21320,6 +21590,7 @@ var data = {
           "ID": 52443,
           "FullName": "Jason Reitman",
           "Amount": 3,
+          "Minutes": 298,
           "Poster": "/eNNN1dwfB6b6p2hoEG1xyoa7H2p.jpg",
           "Gender": 2
         },
@@ -21327,6 +21598,7 @@ var data = {
           "ID": 6737,
           "FullName": "Jay Roach",
           "Amount": 3,
+          "Minutes": 317,
           "Poster": "/48uTxNDRlnP56quVewyByotKAen.jpg",
           "Gender": 2
         },
@@ -21334,6 +21606,7 @@ var data = {
           "ID": 56578,
           "FullName": "Jeff Tremaine",
           "Amount": 3,
+          "Minutes": 276,
           "Poster": "/3R8FemTgvyY1vLn9r0lYlL45P3Q.jpg",
           "Gender": 2
         },
@@ -21341,6 +21614,7 @@ var data = {
           "ID": 4945,
           "FullName": "Joe Johnston",
           "Amount": 3,
+          "Minutes": 289,
           "Poster": "/fbGZo6CG9Z9zKFh8D5wHunyu7gJ.jpg",
           "Gender": 2
         },
@@ -21348,6 +21622,7 @@ var data = {
           "ID": 12962,
           "FullName": "Jon Turteltaub",
           "Amount": 3,
+          "Minutes": 353,
           "Poster": "/embHCkQj1fs1PaISQSQQbi9TjHj.jpg",
           "Gender": 2
         },
@@ -21355,6 +21630,7 @@ var data = {
           "ID": 291263,
           "FullName": "Jordan Peele",
           "Amount": 3,
+          "Minutes": 350,
           "Poster": "/kFUKn5g3ebpyZ3CSZZZo2HFWRNQ.jpg",
           "Gender": 2
         },
@@ -21362,6 +21638,7 @@ var data = {
           "ID": 1126,
           "FullName": "Krzysztof Kie\u015Blowski",
           "Amount": 3,
+          "Minutes": 290,
           "Poster": "/zG9JD4kzQHhKJAtMOWbwrEolvun.jpg",
           "Gender": 2
         },
@@ -21369,6 +21646,7 @@ var data = {
           "ID": 9340,
           "FullName": "Lana Wachowski",
           "Amount": 3,
+          "Minutes": 379,
           "Poster": "/4nE4ttPQBuw1virOz0LYT08c1Vm.jpg",
           "Gender": 1
         },
@@ -21376,6 +21654,7 @@ var data = {
           "ID": 9339,
           "FullName": "Lilly Wachowski",
           "Amount": 3,
+          "Minutes": 379,
           "Poster": "/afRagUzIMpmaA3EyKtfsY5xA9TK.jpg",
           "Gender": 1
         },
@@ -21383,6 +21662,7 @@ var data = {
           "ID": 59,
           "FullName": "Luc Besson",
           "Amount": 3,
+          "Minutes": 341,
           "Poster": "/bLVPnHMVFZ7wrF6ovMVF5U1UX89.jpg",
           "Gender": 2
         },
@@ -21390,6 +21670,7 @@ var data = {
           "ID": 78160,
           "FullName": "Luca Guadagnino",
           "Amount": 3,
+          "Minutes": 384,
           "Poster": "/vnRLKqJxGGD2s1af46MExci1Bao.jpg",
           "Gender": 2
         },
@@ -21397,6 +21678,7 @@ var data = {
           "ID": 10702,
           "FullName": "Martin Campbell",
           "Amount": 3,
+          "Minutes": 410,
           "Poster": "/4AiUb5lciEXdgOXFWAdebQUhEb9.jpg",
           "Gender": 2
         },
@@ -21404,6 +21686,7 @@ var data = {
           "ID": 54472,
           "FullName": "Martin McDonagh",
           "Amount": 3,
+          "Minutes": 337,
           "Poster": "/pyDaAVKa8akTLHXzeTyF8oGymXN.jpg",
           "Gender": 2
         },
@@ -21411,6 +21694,7 @@ var data = {
           "ID": 865,
           "FullName": "Michael Bay",
           "Amount": 3,
+          "Minutes": 432,
           "Poster": "/8I9H9IKROECFEn7usvyChbRMhbI.jpg",
           "Gender": 2
         },
@@ -21418,6 +21702,7 @@ var data = {
           "ID": 21183,
           "FullName": "Nicolas Winding Refn",
           "Amount": 3,
+          "Minutes": 310,
           "Poster": "/o1PZZaqPbYt6f6e8PJkES73QKTG.jpg",
           "Gender": 2
         },
@@ -21425,6 +21710,7 @@ var data = {
           "ID": 3289,
           "FullName": "Paul Weitz",
           "Amount": 3,
+          "Minutes": 274,
           "Poster": "/54Np4lBqGM36uwpzRc4KztJxGJz.jpg",
           "Gender": 2
         },
@@ -21432,6 +21718,7 @@ var data = {
           "ID": 7396,
           "FullName": "Peter Farrelly",
           "Amount": 3,
+          "Minutes": 363,
           "Poster": "/3PDYOFfk5NLmNcEz6SFZmdmqVZr.jpg",
           "Gender": 2
         },
@@ -21439,6 +21726,7 @@ var data = {
           "ID": 2294,
           "FullName": "Robert Rodriguez",
           "Amount": 3,
+          "Minutes": 337,
           "Poster": "/bPqRdLWWwpOT8sBdj9PWOzNgwou.jpg",
           "Gender": 2
         },
@@ -21446,6 +21734,7 @@ var data = {
           "ID": 3556,
           "FullName": "Roman Polanski",
           "Amount": 3,
+          "Minutes": 393,
           "Poster": "/yHwHSXdZatkoLgIjPeW14GKlrZs.jpg",
           "Gender": 2
         },
@@ -21453,6 +21742,7 @@ var data = {
           "ID": 39,
           "FullName": "Sam Mendes",
           "Amount": 3,
+          "Minutes": 364,
           "Poster": "/5z89X9rB76JDblqMQ52fviwXxAN.jpg",
           "Gender": 2
         },
@@ -21460,13 +21750,23 @@ var data = {
           "ID": 5281,
           "FullName": "Spike Lee",
           "Amount": 3,
+          "Minutes": 400,
           "Poster": "/2KOHXgk2uoRXl6u7V9xpAIo3uay.jpg",
+          "Gender": 2
+        },
+        {
+          "ID": 280,
+          "FullName": "Terry Gilliam",
+          "Amount": 3,
+          "Minutes": 329,
+          "Poster": "/7qBkaXxANmnb6hqQCBc4iWqXEL6.jpg",
           "Gender": 2
         },
         {
           "ID": 101542,
           "FullName": "Ti West",
           "Amount": 3,
+          "Minutes": 312,
           "Poster": "/y65ZHU9m830lbdbggxC8eOT123S.jpg",
           "Gender": 2
         },
@@ -21474,6 +21774,7 @@ var data = {
           "ID": 510,
           "FullName": "Tim Burton",
           "Amount": 3,
+          "Minutes": 305,
           "Poster": "/6dhUiGpeXERsEs956Zaib7m7PJN.jpg",
           "Gender": 2
         },
@@ -21481,6 +21782,7 @@ var data = {
           "ID": 893,
           "FullName": "Tony Scott",
           "Amount": 3,
+          "Minutes": 338,
           "Poster": "/zEEbiNa8Pqw3U6pZ8Z2y3dlJJnC.jpg",
           "Gender": 2
         },
@@ -21488,6 +21790,7 @@ var data = {
           "ID": 5140,
           "FullName": "Wes Craven",
           "Amount": 3,
+          "Minutes": 331,
           "Poster": "/eqwl6owrYykeTGTpKxwcAkbEJmg.jpg",
           "Gender": 2
         },
@@ -21495,6 +21798,7 @@ var data = {
           "ID": 10001,
           "FullName": "William Wyler",
           "Amount": 3,
+          "Minutes": 350,
           "Poster": "/5g7xJnlLj3Vyph1WE6N4ak4K3la.jpg",
           "Gender": 2
         },
@@ -21502,6 +21806,7 @@ var data = {
           "ID": 5231,
           "FullName": "Wolfgang Petersen",
           "Amount": 3,
+          "Minutes": 356,
           "Poster": "/8TTijeJBFITOhvJruS68aCjwK9f.jpg",
           "Gender": 2
         },
@@ -21509,6 +21814,7 @@ var data = {
           "ID": 223,
           "FullName": "Alejandro Gonz\u00E1lez I\u00F1\u00E1rritu",
           "Amount": 2,
+          "Minutes": 281,
           "Poster": "/qWrltG9e0ssM3Y9pF86EAgteKHu.jpg",
           "Gender": 2
         },
@@ -21516,6 +21822,7 @@ var data = {
           "ID": 11218,
           "FullName": "Alfonso Cuar\u00F3n",
           "Amount": 2,
+          "Minutes": 250,
           "Poster": "/eoCHiXaQzGgx9RiwXnt3k239FLc.jpg",
           "Gender": 2
         },
@@ -21523,6 +21830,7 @@ var data = {
           "ID": 1071403,
           "FullName": "Alice Guy-Blach\u00E9",
           "Amount": 2,
+          "Minutes": 19,
           "Poster": "/tBjv7msfD134MkerVCoSHUrBbWA.jpg",
           "Gender": 1
         },
@@ -21530,6 +21838,7 @@ var data = {
           "ID": 57434,
           "FullName": "Amy Heckerling",
           "Amount": 2,
+          "Minutes": 187,
           "Poster": "/hIc3bQxLOPAcpGJ1CVFuzpzJRZ0.jpg",
           "Gender": 1
         },
@@ -21537,6 +21846,7 @@ var data = {
           "ID": 5524,
           "FullName": "Andrew Adamson",
           "Amount": 2,
+          "Minutes": 182,
           "Poster": "/qqIAVKAe5LHRbPyZUlptsqlo4Kb.jpg",
           "Gender": 2
         },
@@ -21544,6 +21854,7 @@ var data = {
           "ID": 586002,
           "FullName": "Andrew Haigh",
           "Amount": 2,
+          "Minutes": 202,
           "Poster": "/pJAv105SAZiQ3lGY2wGURz4bENp.jpg",
           "Gender": 2
         },
@@ -21551,6 +21862,7 @@ var data = {
           "ID": 1145520,
           "FullName": "Ari Aster",
           "Amount": 2,
+          "Minutes": 275,
           "Poster": "/wQVcT9XxuUaRpitr17iF4IMsTis.jpg",
           "Gender": 2
         },
@@ -21558,6 +21870,7 @@ var data = {
           "ID": 23393,
           "FullName": "Barbet Schroeder",
           "Amount": 2,
+          "Minutes": 227,
           "Poster": "/5uBKjaIcxAaq70v2RPBAvb9qcgM.jpg",
           "Gender": 2
         },
@@ -21565,6 +21878,7 @@ var data = {
           "ID": 11427,
           "FullName": "Bill Roberts",
           "Amount": 2,
+          "Minutes": 152,
           "Poster": "",
           "Gender": 2
         },
@@ -21572,6 +21886,7 @@ var data = {
           "ID": 47974,
           "FullName": "Bob Spiers",
           "Amount": 2,
+          "Minutes": 182,
           "Poster": "/l22gNZcPsph1B5xeNtm4tqf53fQ.jpg",
           "Gender": 2
         },
@@ -21579,6 +21894,7 @@ var data = {
           "ID": 1167437,
           "FullName": "Bob Swerer Jr.",
           "Amount": 2,
+          "Minutes": 117,
           "Poster": "",
           "Gender": 0
         },
@@ -21586,6 +21902,7 @@ var data = {
           "ID": 1607836,
           "FullName": "Bob Swerer Sr.",
           "Amount": 2,
+          "Minutes": 117,
           "Poster": "",
           "Gender": 0
         },
@@ -21593,6 +21910,7 @@ var data = {
           "ID": 7395,
           "FullName": "Bobby Farrelly",
           "Amount": 2,
+          "Minutes": 233,
           "Poster": "/i5mt42m2MjMpFVrVYlYmp5ylLDy.jpg",
           "Gender": 2
         },
@@ -21600,6 +21918,7 @@ var data = {
           "ID": 7087,
           "FullName": "Brad Bird",
           "Amount": 2,
+          "Minutes": 226,
           "Poster": "/z73rItPBDoRUowY5kuWDMlue3DB.jpg",
           "Gender": 2
         },
@@ -21607,6 +21926,7 @@ var data = {
           "ID": 6295,
           "FullName": "Catherine Breillat",
           "Amount": 2,
+          "Minutes": 149,
           "Poster": "/bD8hYMlanryLzimvCagK47wGYwF.jpg",
           "Gender": 1
         },
@@ -21614,6 +21934,7 @@ var data = {
           "ID": 19850,
           "FullName": "Catherine Hardwicke",
           "Amount": 2,
+          "Minutes": 222,
           "Poster": "/AcuShXY2w2soOxgpMjRjir40rq6.jpg",
           "Gender": 1
         },
@@ -21621,6 +21942,7 @@ var data = {
           "ID": 130030,
           "FullName": "Chantal Akerman",
           "Amount": 2,
+          "Minutes": 288,
           "Poster": "/6Q59Air1EjLHfq8NvvBpbTTgnWZ.jpg",
           "Gender": 1
         },
@@ -21628,6 +21950,7 @@ var data = {
           "ID": 13848,
           "FullName": "Charlie Chaplin",
           "Amount": 2,
+          "Minutes": 113,
           "Poster": "/qQZ2qDAyX9aw8KCkj9VZAQLKysK.jpg",
           "Gender": 2
         },
@@ -21635,6 +21958,7 @@ var data = {
           "ID": 31654,
           "FullName": "Chris Smith",
           "Amount": 2,
+          "Minutes": 178,
           "Poster": "",
           "Gender": 2
         },
@@ -21642,6 +21966,7 @@ var data = {
           "ID": 41041,
           "FullName": "Christopher Smith",
           "Amount": 2,
+          "Minutes": 181,
           "Poster": "/7Un0sQeq7V9DgJw9n3OEzdo4vod.jpg",
           "Gender": 2
         },
@@ -21649,6 +21974,7 @@ var data = {
           "ID": 930707,
           "FullName": "Colin Trevorrow",
           "Amount": 2,
+          "Minutes": 210,
           "Poster": "/i0HBClPMPKn3aq8QeQqyThS67EK.jpg",
           "Gender": 2
         },
@@ -21656,6 +21982,7 @@ var data = {
           "ID": 323,
           "FullName": "Curtis Hanson",
           "Amount": 2,
+          "Minutes": 249,
           "Poster": "/1ht0tJ0Icxc134W3ZpcGtwMtNLA.jpg",
           "Gender": 2
         },
@@ -21663,6 +21990,7 @@ var data = {
           "ID": 136495,
           "FullName": "Damien Chazelle",
           "Amount": 2,
+          "Minutes": 236,
           "Poster": "/14kRZ3XxNMyBv717YQSXr3wCucy.jpg",
           "Gender": 2
         },
@@ -21670,6 +21998,7 @@ var data = {
           "ID": 5446,
           "FullName": "David Hand",
           "Amount": 2,
+          "Minutes": 153,
           "Poster": "/fZ5OKDm8YJmAfzPdvatMGuCRDu6.jpg",
           "Gender": 2
         },
@@ -21677,6 +22006,7 @@ var data = {
           "ID": 5602,
           "FullName": "David Lynch",
           "Amount": 2,
+          "Minutes": 267,
           "Poster": "/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg",
           "Gender": 2
         },
@@ -21684,6 +22014,7 @@ var data = {
           "ID": 4755,
           "FullName": "David R. Ellis",
           "Amount": 2,
+          "Minutes": 195,
           "Poster": "/zw1ccRyxUBy0y7JDdXTZAYg96xd.jpg",
           "Gender": 2
         },
@@ -21691,6 +22022,7 @@ var data = {
           "ID": 27571,
           "FullName": "David Slade",
           "Amount": 2,
+          "Minutes": 194,
           "Poster": "/9jL9OasecqvhQFvGYQtB4K6omGf.jpg",
           "Gender": 2
         },
@@ -21698,6 +22030,7 @@ var data = {
           "ID": 121873,
           "FullName": "Debra Granik",
           "Amount": 2,
+          "Minutes": 210,
           "Poster": "/fgV1v014IAKTKJWLigH5IhxKisU.jpg",
           "Gender": 1
         },
@@ -21705,6 +22038,7 @@ var data = {
           "ID": 116798,
           "FullName": "Dick Proenneke",
           "Amount": 2,
+          "Minutes": 117,
           "Poster": "/vdz3bngVm575VtmxcKo1zXM36dI.jpg",
           "Gender": 2
         },
@@ -21712,13 +22046,23 @@ var data = {
           "ID": 58498,
           "FullName": "Dominic Sena",
           "Amount": 2,
+          "Minutes": 217,
           "Poster": "/oSmE4r1Lg3earvq4DLInp3N7UMF.jpg",
           "Gender": 2
+        },
+        {
+          "ID": 1252934,
+          "FullName": "Emerald Fennell",
+          "Amount": 2,
+          "Minutes": 244,
+          "Poster": "/ytyHUsPb7Saulczm8nCJHypIWQF.jpg",
+          "Gender": 1
         },
         {
           "ID": 1976040,
           "FullName": "Emma Seligman",
           "Amount": 2,
+          "Minutes": 169,
           "Poster": "/qtB5lB3wl3m04XF8iyTfhlBzaGn.jpg",
           "Gender": 1
         },
@@ -21726,6 +22070,7 @@ var data = {
           "ID": 4027,
           "FullName": "Frank Darabont",
           "Amount": 2,
+          "Minutes": 268,
           "Poster": "/7LqmE3p1XTwCdNCOmBxovq210Qk.jpg",
           "Gender": 2
         },
@@ -21733,6 +22078,7 @@ var data = {
           "ID": 664,
           "FullName": "Frank Marshall",
           "Amount": 2,
+          "Minutes": 236,
           "Poster": "/lt2aBdnfDRJI4hvBu4733ZPGaCa.jpg",
           "Gender": 2
         },
@@ -21740,6 +22086,7 @@ var data = {
           "ID": 4065,
           "FullName": "Fred Zinnemann",
           "Amount": 2,
+          "Minutes": 294,
           "Poster": "/vCdL6xfN6ey7Zb8SRb6ROiuFV8n.jpg",
           "Gender": 2
         },
@@ -21747,6 +22094,7 @@ var data = {
           "ID": 23964,
           "FullName": "Gary Ross",
           "Amount": 2,
+          "Minutes": 266,
           "Poster": "/fEZbjmP02SIaXf1PLYhBE7uzWGn.jpg",
           "Gender": 2
         },
@@ -21754,6 +22102,7 @@ var data = {
           "ID": 14674,
           "FullName": "George Cukor",
           "Amount": 2,
+          "Minutes": 284,
           "Poster": "/w7I9Af9fpL7nywdZiOogH0gBoZ2.jpg",
           "Gender": 2
         },
@@ -21761,6 +22110,7 @@ var data = {
           "ID": 20629,
           "FullName": "George Miller",
           "Amount": 2,
+          "Minutes": 270,
           "Poster": "/35NQ8HjFXQlGYDz9UkhT08lKl5C.jpg",
           "Gender": 2
         },
@@ -21768,6 +22118,7 @@ var data = {
           "ID": 11523,
           "FullName": "Georges M\u00E9li\u00E8s",
           "Amount": 2,
+          "Minutes": 26,
           "Poster": "/acx5saf22Qj6FV5WAsacRHlZAMn.jpg",
           "Gender": 2
         },
@@ -21775,6 +22126,7 @@ var data = {
           "ID": 1704,
           "FullName": "Gore Verbinski",
           "Amount": 2,
+          "Minutes": 258,
           "Poster": "/rSQRdmLNAwdKxrtvBSSlBmWeSsj.jpg",
           "Gender": 2
         },
@@ -21782,6 +22134,7 @@ var data = {
           "ID": 17812,
           "FullName": "Gregory Hoblit",
           "Amount": 2,
+          "Minutes": 219,
           "Poster": "/1YUF4UpcCX3j3J65a4L1KoLOHAl.jpg",
           "Gender": 2
         },
@@ -21789,6 +22142,7 @@ var data = {
           "ID": 10828,
           "FullName": "Guillermo del Toro",
           "Amount": 2,
+          "Minutes": 241,
           "Poster": "/gldeyCtKcaqnK1v4Vu9vqayhzUQ.jpg",
           "Gender": 2
         },
@@ -21796,6 +22150,7 @@ var data = {
           "ID": 608,
           "FullName": "Hayao Miyazaki",
           "Amount": 2,
+          "Minutes": 259,
           "Poster": "/ouhjt9KugzhWtdEyBPipihB3ic8.jpg",
           "Gender": 2
         },
@@ -21803,6 +22158,7 @@ var data = {
           "ID": 6648,
           "FullName": "Ingmar Bergman",
           "Amount": 2,
+          "Minutes": 176,
           "Poster": "/nkmOaXNRoioViN9OQf2n9Iu6akA.jpg",
           "Gender": 2
         },
@@ -21810,6 +22166,7 @@ var data = {
           "ID": 90,
           "FullName": "Isabel Coixet",
           "Amount": 2,
+          "Minutes": 233,
           "Poster": "/s2Hspn17nOf6LIuVrULvV3OOiX0.jpg",
           "Gender": 1
         },
@@ -21817,6 +22174,7 @@ var data = {
           "ID": 51894,
           "FullName": "J. A. Bayona",
           "Amount": 2,
+          "Minutes": 258,
           "Poster": "/cnbbnS7K8Uu6yohAfSRHv5Kxc7r.jpg",
           "Gender": 2
         },
@@ -21824,6 +22182,7 @@ var data = {
           "ID": 74565,
           "FullName": "Jack Kinney",
           "Amount": 2,
+          "Minutes": 152,
           "Poster": "/kmHThLI4VdyMVvsg8PDEBwZ1vWs.jpg",
           "Gender": 2
         },
@@ -21831,6 +22190,7 @@ var data = {
           "ID": 73153,
           "FullName": "Jacques Rivette",
           "Amount": 2,
+          "Minutes": 431,
           "Poster": "/pD8i53d3on1NbPPGsOxCeuDG8xF.jpg",
           "Gender": 2
         },
@@ -21838,6 +22198,7 @@ var data = {
           "ID": 366,
           "FullName": "James Mangold",
           "Amount": 2,
+          "Minutes": 280,
           "Poster": "/pk0GDjn99crNwR4qgCCEokDYd71.jpg",
           "Gender": 2
         },
@@ -21845,6 +22206,7 @@ var data = {
           "ID": 2917,
           "FullName": "James Whale",
           "Amount": 2,
+          "Minutes": 142,
           "Poster": "/cXE0gUlXfx7qqZMdnUb5AeQMKHr.jpg",
           "Gender": 2
         },
@@ -21852,6 +22214,7 @@ var data = {
           "ID": 57134,
           "FullName": "James Wong",
           "Amount": 2,
+          "Minutes": 191,
           "Poster": "/uIo0Bk5HG4RRuvekKRGANzwBZin.jpg",
           "Gender": 2
         },
@@ -21859,6 +22222,7 @@ var data = {
           "ID": 2419,
           "FullName": "Jean-Pierre Jeunet",
           "Amount": 2,
+          "Minutes": 221,
           "Poster": "/4DhPaNaxYnkgxVJHVLyL5gKmKpG.jpg",
           "Gender": 2
         },
@@ -21866,6 +22230,7 @@ var data = {
           "ID": 3415,
           "FullName": "Jerry Zucker",
           "Amount": 2,
+          "Minutes": 200,
           "Poster": "/iSzdnge16GBKLkBoTM4mqUIWIxi.jpg",
           "Gender": 2
         },
@@ -21873,6 +22238,7 @@ var data = {
           "ID": 11770,
           "FullName": "John Carpenter",
           "Amount": 2,
+          "Minutes": 200,
           "Poster": "/3Qp0mg61u1qSZNJh30BFEUZrIMG.jpg",
           "Gender": 2
         },
@@ -21880,6 +22246,7 @@ var data = {
           "ID": 15811,
           "FullName": "John Musker",
           "Amount": 2,
+          "Minutes": 190,
           "Poster": "/vSn1d9JpEpECu9cQbRGTFWZdLhA.jpg",
           "Gender": 2
         },
@@ -21887,6 +22254,7 @@ var data = {
           "ID": 10367,
           "FullName": "John Waters",
           "Amount": 2,
+          "Minutes": 149,
           "Poster": "/4foU1kJ24CJwz2RVZgyc7oxMs4i.jpg",
           "Gender": 2
         },
@@ -21894,6 +22262,7 @@ var data = {
           "ID": 11401,
           "FullName": "John Woo",
           "Amount": 2,
+          "Minutes": 261,
           "Poster": "/s7sDmQq8cegHnsTmD0u2eZ4ArYZ.jpg",
           "Gender": 2
         },
@@ -21901,6 +22270,7 @@ var data = {
           "ID": 66728,
           "FullName": "Jonathan Glazer",
           "Amount": 2,
+          "Minutes": 197,
           "Poster": "/8pFNxscgellE6rhT5399eM00GAG.jpg",
           "Gender": 2
         },
@@ -21908,6 +22278,7 @@ var data = {
           "ID": 7213,
           "FullName": "Jonathan Mostow",
           "Amount": 2,
+          "Minutes": 225,
           "Poster": "/yRMYvjGLIf0aOUKVLnU6jSpR1oQ.jpg",
           "Gender": 2
         },
@@ -21915,6 +22286,7 @@ var data = {
           "ID": 1392433,
           "FullName": "Julia Ducournau",
           "Amount": 2,
+          "Minutes": 207,
           "Poster": "/cAJtfXQyOGGh2CLPHhzVBcNNQaT.jpg",
           "Gender": 1
         },
@@ -21922,6 +22294,7 @@ var data = {
           "ID": 58189,
           "FullName": "Justin Lin",
           "Amount": 2,
+          "Minutes": 226,
           "Poster": "/w0ryazdt8iS3GBrjXfv0FIwvUGY.jpg",
           "Gender": 2
         },
@@ -21929,6 +22302,7 @@ var data = {
           "ID": 14392,
           "FullName": "Kathryn Bigelow",
           "Amount": 2,
+          "Minutes": 288,
           "Poster": "/IODNm2XtD61c7CNxjCXgRKtRP.jpg",
           "Gender": 1
         },
@@ -21936,6 +22310,7 @@ var data = {
           "ID": 12079,
           "FullName": "Kelly Asbury",
           "Amount": 2,
+          "Minutes": 176,
           "Poster": "/fzHQFYLc1zVVn3dUjr6pMuKdE0U.jpg",
           "Gender": 2
         },
@@ -21943,6 +22318,7 @@ var data = {
           "ID": 1731915,
           "FullName": "Kitty Green",
           "Amount": 2,
+          "Minutes": 179,
           "Poster": "/h5ODa9h7LuKGYvdpgion28lMU99.jpg",
           "Gender": 1
         },
@@ -21950,6 +22326,7 @@ var data = {
           "ID": 6767,
           "FullName": "Larry Charles",
           "Amount": 2,
+          "Minutes": 167,
           "Poster": "/rt48JIfeIJPNNZftESWnMEuzAXN.jpg",
           "Gender": 2
         },
@@ -21957,6 +22334,7 @@ var data = {
           "ID": 7256,
           "FullName": "Lee Tamahori",
           "Amount": 2,
+          "Minutes": 229,
           "Poster": "/lkivtT9U7gLXVnhq5qF9GL3k7NN.jpg",
           "Gender": 2
         },
@@ -21964,6 +22342,7 @@ var data = {
           "ID": 1037794,
           "FullName": "Lois Weber",
           "Amount": 2,
+          "Minutes": 59,
           "Poster": "/c6YcUHNxlP9Fo5cxbJJQi3xAdGF.jpg",
           "Gender": 1
         },
@@ -21971,6 +22350,7 @@ var data = {
           "ID": 1371324,
           "FullName": "Lulu Wang",
           "Amount": 2,
+          "Minutes": 163,
           "Poster": "/ufhvyvzLhKuAEZdfbPxS97Ti1WZ.jpg",
           "Gender": 1
         },
@@ -21978,6 +22358,7 @@ var data = {
           "ID": 87742,
           "FullName": "Marc Webb",
           "Amount": 2,
+          "Minutes": 196,
           "Poster": "/65tk6xLNEW4EG0CSrxbVeHDi03a.jpg",
           "Gender": 2
         },
@@ -21985,6 +22366,7 @@ var data = {
           "ID": 638,
           "FullName": "Michael Mann",
           "Amount": 2,
+          "Minutes": 327,
           "Poster": "/syowcptZIOosLMwVWbXFOU8jVvd.jpg",
           "Gender": 2
         },
@@ -21992,6 +22374,7 @@ var data = {
           "ID": 17087,
           "FullName": "Michael Moore",
           "Amount": 2,
+          "Minutes": 243,
           "Poster": "/m5YViuBUXfKAHNEUObGpzhzQPgE.jpg",
           "Gender": 2
         },
@@ -21999,6 +22382,7 @@ var data = {
           "ID": 17403,
           "FullName": "Mike Judge",
           "Amount": 2,
+          "Minutes": 174,
           "Poster": "/ol4kd4mSOK7Hx3r86ydez84bwEI.jpg",
           "Gender": 2
         },
@@ -22006,6 +22390,7 @@ var data = {
           "ID": 10723,
           "FullName": "Mike Newell",
           "Amount": 2,
+          "Minutes": 274,
           "Poster": "/zeLnvLZtyJaBP1wWceRM7HWkm0E.jpg",
           "Gender": 2
         },
@@ -22013,6 +22398,7 @@ var data = {
           "ID": 17698,
           "FullName": "Nancy Meyers",
           "Amount": 2,
+          "Minutes": 264,
           "Poster": "/oguBZ1ubDnY1FTrUXxjULulbXKV.jpg",
           "Gender": 1
         },
@@ -22020,13 +22406,23 @@ var data = {
           "ID": 7314,
           "FullName": "Nick Park",
           "Amount": 2,
+          "Minutes": 173,
           "Poster": "/52Y43KLvKWQ4PyVQOmjXyjOxUED.jpg",
           "Gender": 2
+        },
+        {
+          "ID": 1304847,
+          "FullName": "Nora Fingscheidt",
+          "Amount": 2,
+          "Minutes": 236,
+          "Poster": "/wjf96BGhggmdxiZVxOVJzWWVoq0.jpg",
+          "Gender": 1
         },
         {
           "ID": 226599,
           "FullName": "Norman Ferguson",
           "Amount": 2,
+          "Minutes": 152,
           "Poster": "/fp0NPNlKl08kKbEgrlgvmxJJC7L.jpg",
           "Gender": 2
         },
@@ -22034,6 +22430,7 @@ var data = {
           "ID": 59315,
           "FullName": "Olivia Wilde",
           "Amount": 2,
+          "Minutes": 225,
           "Poster": "/jYopRE6nhYGqpb64fVUKrbJVMy1.jpg",
           "Gender": 1
         },
@@ -22041,6 +22438,7 @@ var data = {
           "ID": 10099,
           "FullName": "Park Chan-wook",
           "Amount": 2,
+          "Minutes": 260,
           "Poster": "/jsSFCVB7MhuVbSLwTgESiXEiNjt.jpg",
           "Gender": 2
         },
@@ -22048,6 +22446,7 @@ var data = {
           "ID": 25598,
           "FullName": "Paul Greengrass",
           "Amount": 2,
+          "Minutes": 223,
           "Poster": "/kJxQWrERq8p7gxRP2fIcS8suwme.jpg",
           "Gender": 2
         },
@@ -22055,6 +22454,7 @@ var data = {
           "ID": 4762,
           "FullName": "Paul Thomas Anderson",
           "Amount": 2,
+          "Minutes": 288,
           "Poster": "/wKAs2LtLYSUzt3ZZ8pnxMwuEWuR.jpg",
           "Gender": 2
         },
@@ -22062,6 +22462,7 @@ var data = {
           "ID": 1230252,
           "FullName": "Peter Howitt",
           "Amount": 2,
+          "Minutes": 186,
           "Poster": "/rULzO7TsxYzdfgevc2kILxsoYWN.jpg",
           "Gender": 2
         },
@@ -22069,6 +22470,7 @@ var data = {
           "ID": 2690,
           "FullName": "Peter Weir",
           "Amount": 2,
+          "Minutes": 231,
           "Poster": "/4GxIZX5gtbMpW4ZgHwvGmLSIHOE.jpg",
           "Gender": 2
         },
@@ -22076,6 +22478,7 @@ var data = {
           "ID": 13015,
           "FullName": "Phillip Noyce",
           "Amount": 2,
+          "Minutes": 235,
           "Poster": "/t41FK8X4egnSLNDexVUZ5yGq3XB.jpg",
           "Gender": 2
         },
@@ -22083,6 +22486,7 @@ var data = {
           "ID": 16938,
           "FullName": "Renny Harlin",
           "Amount": 2,
+          "Minutes": 236,
           "Poster": "/IhXiDrZBrsLZpB5K5BmzUGkp4G.jpg",
           "Gender": 2
         },
@@ -22090,6 +22494,7 @@ var data = {
           "ID": 76462,
           "FullName": "Richard Schenkman",
           "Amount": 2,
+          "Minutes": 173,
           "Poster": "/dOtAJug3jZeAE5tji7Dg6HBlWsv.jpg",
           "Gender": 2
         },
@@ -22097,20 +22502,39 @@ var data = {
           "ID": 18878,
           "FullName": "Rob Cohen",
           "Amount": 2,
+          "Minutes": 230,
           "Poster": "/kVbB8Q0g8eXsn8l81flyC6TgMPW.jpg",
+          "Gender": 2
+        },
+        {
+          "ID": 9789,
+          "FullName": "Robert Altman",
+          "Amount": 2,
+          "Minutes": 261,
+          "Poster": "/wB1R6patGi35oaxKU5PWEGJlIZg.jpg",
           "Gender": 2
         },
         {
           "ID": 138781,
           "FullName": "Robert Eggers",
           "Amount": 2,
+          "Minutes": 201,
           "Poster": "/xdN30BowN6uLjeNXYWWZINeht12.jpg",
+          "Gender": 2
+        },
+        {
+          "ID": 4410,
+          "FullName": "Roberto Rossellini",
+          "Amount": 2,
+          "Minutes": 192,
+          "Poster": "/dEfCuU0CoIqhgoEDtHZpIoNWNVj.jpg",
           "Gender": 2
         },
         {
           "ID": 7017,
           "FullName": "Roger Michell",
           "Amount": 2,
+          "Minutes": 222,
           "Poster": "/lZP8wowfwLZ0rIld95KSkmGQd23.jpg",
           "Gender": 2
         },
@@ -22118,6 +22542,7 @@ var data = {
           "ID": 15810,
           "FullName": "Ron Clements",
           "Amount": 2,
+          "Minutes": 190,
           "Poster": "/u9k9yg2EGlDsxYo3ehf35yRUfcD.jpg",
           "Gender": 2
         },
@@ -22125,6 +22550,7 @@ var data = {
           "ID": 57206,
           "FullName": "Sally Potter",
           "Amount": 2,
+          "Minutes": 186,
           "Poster": "/7hzuG6C7GD8gbBtqdoHOfwQ3P5M.jpg",
           "Gender": 1
         },
@@ -22132,6 +22558,7 @@ var data = {
           "ID": 7623,
           "FullName": "Sam Raimi",
           "Amount": 2,
+          "Minutes": 233,
           "Poster": "/8gssvwiPrFRuFRlr5ruKx68k1Jl.jpg",
           "Gender": 2
         },
@@ -22139,6 +22566,7 @@ var data = {
           "ID": 118415,
           "FullName": "Sean Baker",
           "Amount": 2,
+          "Minutes": 199,
           "Poster": "/i0qiOKGXRHK3FqIUcjav09KAruk.jpg",
           "Gender": 2
         },
@@ -22146,6 +22574,7 @@ var data = {
           "ID": 1142171,
           "FullName": "Sebasti\u00E1n Lelio",
           "Amount": 2,
+          "Minutes": 222,
           "Poster": "/uzYhbqxO8BGkzBl4g5xHUZbaD7V.jpg",
           "Gender": 2
         },
@@ -22153,6 +22582,7 @@ var data = {
           "ID": 12786,
           "FullName": "Simon West",
           "Amount": 2,
+          "Minutes": 216,
           "Poster": "/yQpwEIsszmeVCmEAp8yrPP8LtvS.jpg",
           "Gender": 2
         },
@@ -22160,6 +22590,7 @@ var data = {
           "ID": 13284,
           "FullName": "Stanley Donen",
           "Amount": 2,
+          "Minutes": 215,
           "Poster": "/hvRi8etQyf6Zfh7MRsRP0pBR9Om.jpg",
           "Gender": 2
         },
@@ -22167,6 +22598,7 @@ var data = {
           "ID": 3224,
           "FullName": "Stephen Frears",
           "Amount": 2,
+          "Minutes": 200,
           "Poster": "/2QPhgz395c8MjRpBMidUdSWXOBN.jpg",
           "Gender": 2
         },
@@ -22174,6 +22606,7 @@ var data = {
           "ID": 39189,
           "FullName": "Stephen Merchant",
           "Amount": 2,
+          "Minutes": 193,
           "Poster": "/6WM2rK6390Nwk398syJbGcPvRct.jpg",
           "Gender": 2
         },
@@ -22181,6 +22614,7 @@ var data = {
           "ID": 72757,
           "FullName": "Steve McQueen",
           "Amount": 2,
+          "Minutes": 230,
           "Poster": "/toU1yd6PFn88utmDpWTZ69h5Pkr.jpg",
           "Gender": 2
         },
@@ -22188,20 +22622,15 @@ var data = {
           "ID": 55934,
           "FullName": "Taika Waititi",
           "Amount": 2,
+          "Minutes": 194,
           "Poster": "/aH6MgwFhomAPNBRPyO2fhpU5kbk.jpg",
-          "Gender": 2
-        },
-        {
-          "ID": 280,
-          "FullName": "Terry Gilliam",
-          "Amount": 2,
-          "Poster": "/7qBkaXxANmnb6hqQCBc4iWqXEL6.jpg",
           "Gender": 2
         },
         {
           "ID": 10707,
           "FullName": "Terry Jones",
           "Amount": 2,
+          "Minutes": 185,
           "Poster": "/keJpqxK8gykrrK2W6yeSeDUbYDK.jpg",
           "Gender": 2
         },
@@ -22209,6 +22638,7 @@ var data = {
           "ID": 57130,
           "FullName": "Todd Phillips",
           "Amount": 2,
+          "Minutes": 222,
           "Poster": "/A6FPht87DiqXzp456WjakLi2AtP.jpg",
           "Gender": 2
         },
@@ -22216,6 +22646,7 @@ var data = {
           "ID": 118639,
           "FullName": "Tom Six",
           "Amount": 2,
+          "Minutes": 182,
           "Poster": "/rp9BA1HtLeiAWOzM4IbrfrfLJ0l.jpg",
           "Gender": 2
         },
@@ -22223,6 +22654,7 @@ var data = {
           "ID": 1302197,
           "FullName": "Wendy McColm",
           "Amount": 2,
+          "Minutes": 169,
           "Poster": "/9rZGudRxg39XjAbhkDRFQZSikmy.jpg",
           "Gender": 1
         },
@@ -22230,6 +22662,7 @@ var data = {
           "ID": 57314,
           "FullName": "Wolfgang Reitherman",
           "Amount": 2,
+          "Minutes": 157,
           "Poster": "/vPQ0Hpf5mtlIcBKQcyKxExio8b0.jpg",
           "Gender": 2
         },
@@ -22237,6 +22670,7 @@ var data = {
           "ID": 5367,
           "FullName": "Zach Braff",
           "Amount": 2,
+          "Minutes": 230,
           "Poster": "/wUAj6juL6HErqEJ1GtuI63rbVea.jpg",
           "Gender": 2
         }
@@ -22250,6 +22684,7 @@ var data = {
           "ID": 1167437,
           "FullName": "Bob Swerer Jr.",
           "Amount": 2,
+          "Minutes": 117,
           "Poster": "",
           "Gender": 0
         },
@@ -22257,6 +22692,7 @@ var data = {
           "ID": 1607836,
           "FullName": "Bob Swerer Sr.",
           "Amount": 2,
+          "Minutes": 117,
           "Poster": "",
           "Gender": 0
         },
@@ -22264,6 +22700,7 @@ var data = {
           "ID": 2030799,
           "FullName": "Andrew Donoho",
           "Amount": 1,
+          "Minutes": 49,
           "Poster": "",
           "Gender": 0
         },
@@ -22271,6 +22708,7 @@ var data = {
           "ID": 584011,
           "FullName": "Benny Zenga",
           "Amount": 1,
+          "Minutes": 60,
           "Poster": "",
           "Gender": 0
         },
@@ -22278,6 +22716,7 @@ var data = {
           "ID": 1168073,
           "FullName": "Bill Brummel",
           "Amount": 1,
+          "Minutes": 91,
           "Poster": "",
           "Gender": 0
         },
@@ -22285,6 +22724,7 @@ var data = {
           "ID": 2026711,
           "FullName": "Chuck Lightning",
           "Amount": 1,
+          "Minutes": 49,
           "Poster": "",
           "Gender": 0
         },
@@ -22292,6 +22732,7 @@ var data = {
           "ID": 1550515,
           "FullName": "Dylan Reeve",
           "Amount": 1,
+          "Minutes": 92,
           "Poster": "/l2LTvoli0QjBpOqOQhVm1q9OMxu.jpg",
           "Gender": 0
         },
@@ -22299,6 +22740,7 @@ var data = {
           "ID": 2220266,
           "FullName": "Edward Watts",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "/xEWhh4MRvGZ5FZjUHXVNx8Zg1yJ.jpg",
           "Gender": 0
         },
@@ -22306,6 +22748,7 @@ var data = {
           "ID": 1460920,
           "FullName": "Ethan Newberry",
           "Amount": 1,
+          "Minutes": 75,
           "Poster": "",
           "Gender": 0
         },
@@ -22313,6 +22756,7 @@ var data = {
           "ID": 10948,
           "FullName": "Frank A. Cappello",
           "Amount": 1,
+          "Minutes": 95,
           "Poster": "",
           "Gender": 0
         },
@@ -22320,6 +22764,7 @@ var data = {
           "ID": 1085911,
           "FullName": "Gwang Hun Kim",
           "Amount": 1,
+          "Minutes": 77,
           "Poster": "",
           "Gender": 0
         },
@@ -22327,6 +22772,7 @@ var data = {
           "ID": 1373458,
           "FullName": "Harry Moses",
           "Amount": 1,
+          "Minutes": 74,
           "Poster": "",
           "Gender": 0
         },
@@ -22334,6 +22780,7 @@ var data = {
           "ID": 77883,
           "FullName": "Jordan Melamed",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "",
           "Gender": 0
         },
@@ -22341,6 +22788,7 @@ var data = {
           "ID": 99382,
           "FullName": "Josh Bernhard",
           "Amount": 1,
+          "Minutes": 66,
           "Poster": "",
           "Gender": 0
         },
@@ -22348,6 +22796,7 @@ var data = {
           "ID": 1103683,
           "FullName": "Justin Weinstein",
           "Amount": 1,
+          "Minutes": 90,
           "Poster": "",
           "Gender": 0
         },
@@ -22355,6 +22804,7 @@ var data = {
           "ID": 1739125,
           "FullName": "Karim Amer",
           "Amount": 1,
+          "Minutes": 114,
           "Poster": "/fGh2ts3ucshV4I8slP8hwf8VwPO.jpg",
           "Gender": 0
         },
@@ -22362,6 +22812,7 @@ var data = {
           "ID": 567559,
           "FullName": "Kurt Engfehr",
           "Amount": 1,
+          "Minutes": 87,
           "Poster": "",
           "Gender": 0
         },
@@ -22369,6 +22820,7 @@ var data = {
           "ID": 1087745,
           "FullName": "Mark Slutsky",
           "Amount": 1,
+          "Minutes": 96,
           "Poster": "",
           "Gender": 0
         },
@@ -22376,6 +22828,7 @@ var data = {
           "ID": 2396600,
           "FullName": "Michael Schwartz",
           "Amount": 1,
+          "Minutes": 97,
           "Poster": "/rTsNBzM7vYGyliQEXlBVMOcmknL.jpg",
           "Gender": 0
         },
@@ -22383,6 +22836,7 @@ var data = {
           "ID": 1279523,
           "FullName": "Mike Cahill",
           "Amount": 1,
+          "Minutes": 93,
           "Poster": "",
           "Gender": 0
         },
@@ -22390,6 +22844,7 @@ var data = {
           "ID": 77832,
           "FullName": "Miles Brandman",
           "Amount": 1,
+          "Minutes": 81,
           "Poster": "",
           "Gender": 0
         },
@@ -22397,6 +22852,7 @@ var data = {
           "ID": 1003004,
           "FullName": "Nicholas Bonner",
           "Amount": 1,
+          "Minutes": 77,
           "Poster": "",
           "Gender": 0
         },
@@ -22404,6 +22860,7 @@ var data = {
           "ID": 84036,
           "FullName": "Norman Cohen",
           "Amount": 1,
+          "Minutes": 95,
           "Poster": "",
           "Gender": 0
         },
@@ -22411,6 +22868,7 @@ var data = {
           "ID": 52528,
           "FullName": "Paulo Morelli",
           "Amount": 1,
+          "Minutes": 106,
           "Poster": "",
           "Gender": 0
         },
@@ -22418,6 +22876,7 @@ var data = {
           "ID": 125993,
           "FullName": "Percy Stow",
           "Amount": 1,
+          "Minutes": 9,
           "Poster": "",
           "Gender": 0
         },
@@ -22425,6 +22884,7 @@ var data = {
           "ID": 178575,
           "FullName": "Richard Heap",
           "Amount": 1,
+          "Minutes": 60,
           "Poster": "",
           "Gender": 0
         },
@@ -22432,6 +22892,7 @@ var data = {
           "ID": 1089880,
           "FullName": "Riyad Barmania",
           "Amount": 1,
+          "Minutes": 88,
           "Poster": "",
           "Gender": 0
         },
@@ -22439,6 +22900,7 @@ var data = {
           "ID": 1132116,
           "FullName": "Robert J. Siegel",
           "Amount": 1,
+          "Minutes": 91,
           "Poster": "",
           "Gender": 0
         },
@@ -22446,6 +22908,7 @@ var data = {
           "ID": 1517598,
           "FullName": "Roddy Bogawa",
           "Amount": 1,
+          "Minutes": 63,
           "Poster": "",
           "Gender": 0
         },
@@ -22453,26 +22916,29 @@ var data = {
           "ID": 1139058,
           "FullName": "Simon Klose",
           "Amount": 1,
+          "Minutes": 82,
           "Poster": "",
           "Gender": 0
         }
       ]
     },
     "director_1": {
-      "Total": 157,
-      "Unique": 127,
+      "Total": 164,
+      "Unique": 131,
       "PeopleData": [
         {
           "ID": 68813,
           "FullName": "C\u00E9line Sciamma",
           "Amount": 5,
+          "Minutes": 472,
           "Poster": "/j35wQETDUc6CdzIgbKWkeahlTlG.jpg",
           "Gender": 1
         },
         {
           "ID": 1769,
           "FullName": "Sofia Coppola",
-          "Amount": 4,
+          "Amount": 5,
+          "Minutes": 522,
           "Poster": "/dzHC2LxmarkBxWLhjp2DRa5oCev.jpg",
           "Gender": 1
         },
@@ -22480,6 +22946,7 @@ var data = {
           "ID": 45400,
           "FullName": "Greta Gerwig",
           "Amount": 3,
+          "Minutes": 343,
           "Poster": "/6MwQ2GstYr0wnhp1eTOAbVMNBGN.jpg",
           "Gender": 1
         },
@@ -22487,6 +22954,7 @@ var data = {
           "ID": 9340,
           "FullName": "Lana Wachowski",
           "Amount": 3,
+          "Minutes": 379,
           "Poster": "/4nE4ttPQBuw1virOz0LYT08c1Vm.jpg",
           "Gender": 1
         },
@@ -22494,6 +22962,7 @@ var data = {
           "ID": 9339,
           "FullName": "Lilly Wachowski",
           "Amount": 3,
+          "Minutes": 379,
           "Poster": "/afRagUzIMpmaA3EyKtfsY5xA9TK.jpg",
           "Gender": 1
         },
@@ -22501,6 +22970,7 @@ var data = {
           "ID": 1071403,
           "FullName": "Alice Guy-Blach\u00E9",
           "Amount": 2,
+          "Minutes": 19,
           "Poster": "/tBjv7msfD134MkerVCoSHUrBbWA.jpg",
           "Gender": 1
         },
@@ -22508,6 +22978,7 @@ var data = {
           "ID": 57434,
           "FullName": "Amy Heckerling",
           "Amount": 2,
+          "Minutes": 187,
           "Poster": "/hIc3bQxLOPAcpGJ1CVFuzpzJRZ0.jpg",
           "Gender": 1
         },
@@ -22515,6 +22986,7 @@ var data = {
           "ID": 6295,
           "FullName": "Catherine Breillat",
           "Amount": 2,
+          "Minutes": 149,
           "Poster": "/bD8hYMlanryLzimvCagK47wGYwF.jpg",
           "Gender": 1
         },
@@ -22522,6 +22994,7 @@ var data = {
           "ID": 19850,
           "FullName": "Catherine Hardwicke",
           "Amount": 2,
+          "Minutes": 222,
           "Poster": "/AcuShXY2w2soOxgpMjRjir40rq6.jpg",
           "Gender": 1
         },
@@ -22529,6 +23002,7 @@ var data = {
           "ID": 130030,
           "FullName": "Chantal Akerman",
           "Amount": 2,
+          "Minutes": 288,
           "Poster": "/6Q59Air1EjLHfq8NvvBpbTTgnWZ.jpg",
           "Gender": 1
         },
@@ -22536,13 +23010,23 @@ var data = {
           "ID": 121873,
           "FullName": "Debra Granik",
           "Amount": 2,
+          "Minutes": 210,
           "Poster": "/fgV1v014IAKTKJWLigH5IhxKisU.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 1252934,
+          "FullName": "Emerald Fennell",
+          "Amount": 2,
+          "Minutes": 244,
+          "Poster": "/ytyHUsPb7Saulczm8nCJHypIWQF.jpg",
           "Gender": 1
         },
         {
           "ID": 1976040,
           "FullName": "Emma Seligman",
           "Amount": 2,
+          "Minutes": 169,
           "Poster": "/qtB5lB3wl3m04XF8iyTfhlBzaGn.jpg",
           "Gender": 1
         },
@@ -22550,6 +23034,7 @@ var data = {
           "ID": 90,
           "FullName": "Isabel Coixet",
           "Amount": 2,
+          "Minutes": 233,
           "Poster": "/s2Hspn17nOf6LIuVrULvV3OOiX0.jpg",
           "Gender": 1
         },
@@ -22557,6 +23042,7 @@ var data = {
           "ID": 1392433,
           "FullName": "Julia Ducournau",
           "Amount": 2,
+          "Minutes": 207,
           "Poster": "/cAJtfXQyOGGh2CLPHhzVBcNNQaT.jpg",
           "Gender": 1
         },
@@ -22564,6 +23050,7 @@ var data = {
           "ID": 14392,
           "FullName": "Kathryn Bigelow",
           "Amount": 2,
+          "Minutes": 288,
           "Poster": "/IODNm2XtD61c7CNxjCXgRKtRP.jpg",
           "Gender": 1
         },
@@ -22571,6 +23058,7 @@ var data = {
           "ID": 1731915,
           "FullName": "Kitty Green",
           "Amount": 2,
+          "Minutes": 179,
           "Poster": "/h5ODa9h7LuKGYvdpgion28lMU99.jpg",
           "Gender": 1
         },
@@ -22578,6 +23066,7 @@ var data = {
           "ID": 1037794,
           "FullName": "Lois Weber",
           "Amount": 2,
+          "Minutes": 59,
           "Poster": "/c6YcUHNxlP9Fo5cxbJJQi3xAdGF.jpg",
           "Gender": 1
         },
@@ -22585,6 +23074,7 @@ var data = {
           "ID": 1371324,
           "FullName": "Lulu Wang",
           "Amount": 2,
+          "Minutes": 163,
           "Poster": "/ufhvyvzLhKuAEZdfbPxS97Ti1WZ.jpg",
           "Gender": 1
         },
@@ -22592,13 +23082,23 @@ var data = {
           "ID": 17698,
           "FullName": "Nancy Meyers",
           "Amount": 2,
+          "Minutes": 264,
           "Poster": "/oguBZ1ubDnY1FTrUXxjULulbXKV.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 1304847,
+          "FullName": "Nora Fingscheidt",
+          "Amount": 2,
+          "Minutes": 236,
+          "Poster": "/wjf96BGhggmdxiZVxOVJzWWVoq0.jpg",
           "Gender": 1
         },
         {
           "ID": 59315,
           "FullName": "Olivia Wilde",
           "Amount": 2,
+          "Minutes": 225,
           "Poster": "/jYopRE6nhYGqpb64fVUKrbJVMy1.jpg",
           "Gender": 1
         },
@@ -22606,6 +23106,7 @@ var data = {
           "ID": 57206,
           "FullName": "Sally Potter",
           "Amount": 2,
+          "Minutes": 186,
           "Poster": "/7hzuG6C7GD8gbBtqdoHOfwQ3P5M.jpg",
           "Gender": 1
         },
@@ -22613,6 +23114,7 @@ var data = {
           "ID": 1302197,
           "FullName": "Wendy McColm",
           "Amount": 2,
+          "Minutes": 169,
           "Poster": "/9rZGudRxg39XjAbhkDRFQZSikmy.jpg",
           "Gender": 1
         },
@@ -22620,6 +23122,7 @@ var data = {
           "ID": 6817,
           "FullName": "Agn\u00E8s Varda",
           "Amount": 1,
+          "Minutes": 90,
           "Poster": "/it7cIdm6jiuiKOOc3nnRvCGLtgY.jpg",
           "Gender": 1
         },
@@ -22627,6 +23130,7 @@ var data = {
           "ID": 1128,
           "FullName": "Agnieszka Holland",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "/rfM2l3Z1Vm3ASuiEC50Zpf37jLj.jpg",
           "Gender": 1
         },
@@ -22634,6 +23138,7 @@ var data = {
           "ID": 1557607,
           "FullName": "Agnieszka Smoczy\u0144ska",
           "Amount": 1,
+          "Minutes": 93,
           "Poster": "/sA55iFf9BargmD4X0W8QHcJ5rBA.jpg",
           "Gender": 1
         },
@@ -22641,6 +23146,7 @@ var data = {
           "ID": 133873,
           "FullName": "Aisling Walsh",
           "Amount": 1,
+          "Minutes": 115,
           "Poster": "/56Xf8s6StP0YDc4nvMWg0u1IFTx.jpg",
           "Gender": 1
         },
@@ -22648,6 +23154,7 @@ var data = {
           "ID": 4589976,
           "FullName": "Alice Duval-Barr\u00E9",
           "Amount": 1,
+          "Minutes": 63,
           "Poster": "",
           "Gender": 1
         },
@@ -22655,6 +23162,7 @@ var data = {
           "ID": 1485132,
           "FullName": "Amy Davis",
           "Amount": 1,
+          "Minutes": 63,
           "Poster": "/8av8QRJTsKjtlWvz5PlShYGbCNP.jpg",
           "Gender": 1
         },
@@ -22662,6 +23170,7 @@ var data = {
           "ID": 71082,
           "FullName": "Andrea Arnold",
           "Amount": 1,
+          "Minutes": 123,
           "Poster": "/cSKlVxDNVuc01Otyo5rXso4WyNB.jpg",
           "Gender": 1
         },
@@ -22669,6 +23178,7 @@ var data = {
           "ID": 1180536,
           "FullName": "Andrea Sisson",
           "Amount": 1,
+          "Minutes": 91,
           "Poster": "",
           "Gender": 1
         },
@@ -22676,6 +23186,7 @@ var data = {
           "ID": 1066034,
           "FullName": "Anja Daelemans",
           "Amount": 1,
+          "Minutes": 77,
           "Poster": "",
           "Gender": 1
         },
@@ -22683,13 +23194,23 @@ var data = {
           "ID": 2193206,
           "FullName": "Anna Franquesa Solano",
           "Amount": 1,
+          "Minutes": 63,
           "Poster": "",
+          "Gender": 1
+        },
+        {
+          "ID": 84223,
+          "FullName": "Anna Kendrick",
+          "Amount": 1,
+          "Minutes": 94,
+          "Poster": "/yirl6fEmeXY5xcvJw3nTcCNq9Cw.jpg",
           "Gender": 1
         },
         {
           "ID": 1309008,
           "FullName": "Anna Rose Holmer",
           "Amount": 1,
+          "Minutes": 72,
           "Poster": "/dithUDMnvoQN7iHWeSE86vc5MMU.jpg",
           "Gender": 1
         },
@@ -22697,6 +23218,7 @@ var data = {
           "ID": 1540871,
           "FullName": "Annika Iltis",
           "Amount": 1,
+          "Minutes": 90,
           "Poster": "",
           "Gender": 1
         },
@@ -22704,6 +23226,7 @@ var data = {
           "ID": 1453110,
           "FullName": "Ariane Louis-Seize",
           "Amount": 1,
+          "Minutes": 90,
           "Poster": "/8nK7JObOUbMBEEaEADpretgKCQS.jpg",
           "Gender": 1
         },
@@ -22711,6 +23234,7 @@ var data = {
           "ID": 236884,
           "FullName": "Athina Rachel Tsangari",
           "Amount": 1,
+          "Minutes": 63,
           "Poster": "/9rb6dWdCJzP6uptGTdq2NmkXx5N.jpg",
           "Gender": 1
         },
@@ -22718,6 +23242,7 @@ var data = {
           "ID": 20237,
           "FullName": "Beeban Kidron",
           "Amount": 1,
+          "Minutes": 108,
           "Poster": "/x6kMAF5aO2s7oNYMl6el1Z79ckT.jpg",
           "Gender": 1
         },
@@ -22725,6 +23250,7 @@ var data = {
           "ID": 1095805,
           "FullName": "Cassie Jaye",
           "Amount": 1,
+          "Minutes": 118,
           "Poster": "/wHxiyapqlTugXbR0v0Yj3TAOUBK.jpg",
           "Gender": 1
         },
@@ -22732,6 +23258,7 @@ var data = {
           "ID": 2518227,
           "FullName": "Celine Song",
           "Amount": 1,
+          "Minutes": 106,
           "Poster": "/y3LRIOp63f96fCSf2eTANgY8bQU.jpg",
           "Gender": 1
         },
@@ -22739,13 +23266,23 @@ var data = {
           "ID": 1904110,
           "FullName": "Charlotte Wells",
           "Amount": 1,
+          "Minutes": 101,
           "Poster": "/zXSwzw1HjNZPMfLzlPWtvpjBNpe.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 1150804,
+          "FullName": "Chinonye Chukwu",
+          "Amount": 1,
+          "Minutes": 112,
+          "Poster": "/k1ycXiTIiMCorzk2IUCxpCnmcqY.jpg",
           "Gender": 1
         },
         {
           "ID": 1395183,
           "FullName": "Chlo\u00E9 Zhao",
           "Amount": 1,
+          "Minutes": 108,
           "Poster": "/n0GzBiyx2KzwozZ9irQ8hJlf5By.jpg",
           "Gender": 1
         },
@@ -22753,6 +23290,7 @@ var data = {
           "ID": 1058100,
           "FullName": "Cindy Sherman",
           "Amount": 1,
+          "Minutes": 63,
           "Poster": "",
           "Gender": 1
         },
@@ -22760,6 +23298,7 @@ var data = {
           "ID": 167687,
           "FullName": "Claudia Weill",
           "Amount": 1,
+          "Minutes": 86,
           "Poster": "/7SkR4W2bRYr6MJoSrVHdpGPJK9J.jpg",
           "Gender": 1
         },
@@ -22767,6 +23306,7 @@ var data = {
           "ID": 1607016,
           "FullName": "Coralie Fargeat",
           "Amount": 1,
+          "Minutes": 141,
           "Poster": "/8TlTqFD5RnJGBxxzarpvygZlRXC.jpg",
           "Gender": 1
         },
@@ -22774,6 +23314,7 @@ var data = {
           "ID": 1078813,
           "FullName": "Cynthia Scott",
           "Amount": 1,
+          "Minutes": 101,
           "Poster": "/fTJL0aACXEnh7kZwRZtZv1TrrU1.jpg",
           "Gender": 1
         },
@@ -22781,6 +23322,7 @@ var data = {
           "ID": 472630,
           "FullName": "Dee Rees",
           "Amount": 1,
+          "Minutes": 86,
           "Poster": "/rtfooBEfbkubWgNZYDSFzruRAF9.jpg",
           "Gender": 1
         },
@@ -22788,6 +23330,7 @@ var data = {
           "ID": 1285174,
           "FullName": "Desiree Akhavan",
           "Amount": 1,
+          "Minutes": 92,
           "Poster": "/xus5HH2qSyrP5SNK6516LVajg6.jpg",
           "Gender": 1
         },
@@ -22795,6 +23338,7 @@ var data = {
           "ID": 122965,
           "FullName": "Dianne Jackson",
           "Amount": 1,
+          "Minutes": 25,
           "Poster": "/kouzqqzlV8WlE0Dr1wlOkVNRuDL.jpg",
           "Gender": 1
         },
@@ -22802,6 +23346,7 @@ var data = {
           "ID": 69597,
           "FullName": "Drew Barrymore",
           "Amount": 1,
+          "Minutes": 111,
           "Poster": "/9xMu2GLC5otUcC11sEWC5aEAERQ.jpg",
           "Gender": 1
         },
@@ -22809,6 +23354,7 @@ var data = {
           "ID": 1558601,
           "FullName": "Elisabeth Subrin",
           "Amount": 1,
+          "Minutes": 63,
           "Poster": "/9SmF4b5x7AVdQOCq57tlpROjBrs.jpg",
           "Gender": 1
         },
@@ -22816,20 +23362,15 @@ var data = {
           "ID": 1027910,
           "FullName": "Elizabeth Chai Vasarhelyi",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "/7owiof8AEtI4D7Un1SEx0JomJD1.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 1252934,
-          "FullName": "Emerald Fennell",
-          "Amount": 1,
-          "Poster": "/ytyHUsPb7Saulczm8nCJHypIWQF.jpg",
           "Gender": 1
         },
         {
           "ID": 1498538,
           "FullName": "Emma Westenberg",
           "Amount": 1,
+          "Minutes": 49,
           "Poster": "",
           "Gender": 1
         },
@@ -22837,6 +23378,7 @@ var data = {
           "ID": 64170,
           "FullName": "Fran Rubel Kuzui",
           "Amount": 1,
+          "Minutes": 86,
           "Poster": "/6puK1iTlKTlE4Q1dbNZFcdoQJAG.jpg",
           "Gender": 1
         },
@@ -22844,6 +23386,7 @@ var data = {
           "ID": 1674275,
           "FullName": "Georgia Oakley",
           "Amount": 1,
+          "Minutes": 97,
           "Poster": "/66WRf0ziJqQMdIlY856sLMmaRl0.jpg",
           "Gender": 1
         },
@@ -22851,6 +23394,7 @@ var data = {
           "ID": 1088579,
           "FullName": "Haifaa al-Mansour",
           "Amount": 1,
+          "Minutes": 98,
           "Poster": "/67UWpEJi36AXxY3aQf4DBSvGv9e.jpg",
           "Gender": 1
         },
@@ -22858,6 +23402,7 @@ var data = {
           "ID": 587313,
           "FullName": "Hilary Audus",
           "Amount": 1,
+          "Minutes": 24,
           "Poster": "",
           "Gender": 1
         },
@@ -22865,6 +23410,7 @@ var data = {
           "ID": 2355854,
           "FullName": "India Donaldson",
           "Amount": 1,
+          "Minutes": 89,
           "Poster": "/qfVbJrauB0WTjlcq94rXYqZ3jC5.jpg",
           "Gender": 1
         },
@@ -22872,6 +23418,7 @@ var data = {
           "ID": 59466,
           "FullName": "Jamie Babbit",
           "Amount": 1,
+          "Minutes": 85,
           "Poster": "/zySwCaK5XLylqpiJ4l2VhdO6Dw5.jpg",
           "Gender": 1
         },
@@ -22879,6 +23426,7 @@ var data = {
           "ID": 10757,
           "FullName": "Jane Campion",
           "Amount": 1,
+          "Minutes": 117,
           "Poster": "/zAkrfMl6m940Ja46ofWaM94gTNj.jpg",
           "Gender": 1
         },
@@ -22886,6 +23434,7 @@ var data = {
           "ID": 115892,
           "FullName": "Jehane Noujaim",
           "Amount": 1,
+          "Minutes": 114,
           "Poster": "/tzuPRUermMYuUUfcdNrvGC2Eq70.jpg",
           "Gender": 1
         },
@@ -22893,6 +23442,7 @@ var data = {
           "ID": 1088577,
           "FullName": "Jenni Olson",
           "Amount": 1,
+          "Minutes": 63,
           "Poster": "/vAmAofKPblfXzkTPLl84hfjSIFH.jpg",
           "Gender": 1
         },
@@ -22900,6 +23450,7 @@ var data = {
           "ID": 1120694,
           "FullName": "Jennifer Lee",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "/cRxBIe0sa2JcBtczzysV4aFUaEy.jpg",
           "Gender": 1
         },
@@ -22907,6 +23458,7 @@ var data = {
           "ID": 77831,
           "FullName": "Jessica Sharzer",
           "Amount": 1,
+          "Minutes": 89,
           "Poster": "/aJ1RSK14Gi0TzYejMdAISgi4KRq.jpg",
           "Gender": 1
         },
@@ -22914,6 +23466,7 @@ var data = {
           "ID": 19509,
           "FullName": "Jessica Yu",
           "Amount": 1,
+          "Minutes": 99,
           "Poster": "/eUkt2afdBtx261l5xz4fNSeFWIp.jpg",
           "Gender": 1
         },
@@ -22921,6 +23474,7 @@ var data = {
           "ID": 156680,
           "FullName": "Juanita Wilson",
           "Amount": 1,
+          "Minutes": 112,
           "Poster": "",
           "Gender": 1
         },
@@ -22928,6 +23482,7 @@ var data = {
           "ID": 239404,
           "FullName": "Julia Leigh",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "",
           "Gender": 1
         },
@@ -22935,6 +23490,7 @@ var data = {
           "ID": 1175620,
           "FullName": "Justine Triet",
           "Amount": 1,
+          "Minutes": 151,
           "Poster": "/mOn5lo038i8vw6qqJTwKw35KCL7.jpg",
           "Gender": 1
         },
@@ -22942,6 +23498,7 @@ var data = {
           "ID": 2770898,
           "FullName": "Katie Found",
           "Amount": 1,
+          "Minutes": 78,
           "Poster": "/mzvIwyLzmKO7LdroUGy7ZahH3nZ.jpg",
           "Gender": 1
         },
@@ -22949,6 +23506,7 @@ var data = {
           "ID": 983909,
           "FullName": "Kelly Fremon Craig",
           "Amount": 1,
+          "Minutes": 107,
           "Poster": "/knXjYHcC89uq6TDzeK4xsXLhZds.jpg",
           "Gender": 1
         },
@@ -22956,6 +23514,7 @@ var data = {
           "ID": 566678,
           "FullName": "Krist\u00EDn J\u00F3hannesd\u00F3ttir",
           "Amount": 1,
+          "Minutes": 50,
           "Poster": "/oPInvQnega9K2XNDrzG1MzNygNY.jpg",
           "Gender": 1
         },
@@ -22963,6 +23522,7 @@ var data = {
           "ID": 2030529,
           "FullName": "Lacey Duke",
           "Amount": 1,
+          "Minutes": 49,
           "Poster": "/ecivLz14lYvaQ9XCqhgytfBS5rE.jpg",
           "Gender": 1
         },
@@ -22970,6 +23530,7 @@ var data = {
           "ID": 1319437,
           "FullName": "Laura Wandel",
           "Amount": 1,
+          "Minutes": 72,
           "Poster": "/wn1zsTTQEyQmMO3Fq7M6SMmk6X5.jpg",
           "Gender": 1
         },
@@ -22977,6 +23538,7 @@ var data = {
           "ID": 1288710,
           "FullName": "Leah Meyerhoff",
           "Amount": 1,
+          "Minutes": 80,
           "Poster": "/aLQmsjvYD0cfbpGoWbghYt5cnDB.jpg",
           "Gender": 1
         },
@@ -22984,6 +23546,7 @@ var data = {
           "ID": 58343,
           "FullName": "Leontine Sagan",
           "Amount": 1,
+          "Minutes": 88,
           "Poster": "/poWRXXwJPtaPAgJfAH9gX98kKsm.jpg",
           "Gender": 1
         },
@@ -22991,6 +23554,7 @@ var data = {
           "ID": 15798,
           "FullName": "Lesli Linka Glatter",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "/8F13UPsRnXWTDcp8iA3ZXMtfJa3.jpg",
           "Gender": 1
         },
@@ -22998,6 +23562,7 @@ var data = {
           "ID": 2289991,
           "FullName": "Lila Neugebauer",
           "Amount": 1,
+          "Minutes": 96,
           "Poster": "/69BAJCXSODBx1H2iFuqMYXjImX6.jpg",
           "Gender": 1
         },
@@ -23005,6 +23570,7 @@ var data = {
           "ID": 1044256,
           "FullName": "Lisanne Pajot",
           "Amount": 1,
+          "Minutes": 103,
           "Poster": "",
           "Gender": 1
         },
@@ -23012,6 +23578,7 @@ var data = {
           "ID": 288710,
           "FullName": "Liz W. Garcia",
           "Amount": 1,
+          "Minutes": 98,
           "Poster": "/flUCA51HIIKBbSco2CaSphKDPn5.jpg",
           "Gender": 1
         },
@@ -23019,6 +23586,7 @@ var data = {
           "ID": 1176,
           "FullName": "Lone Scherfig",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "/oYkh2tQyqQaZQl1cOZFdEo3ikEN.jpg",
           "Gender": 1
         },
@@ -23026,6 +23594,7 @@ var data = {
           "ID": 992768,
           "FullName": "Louise Hooper",
           "Amount": 1,
+          "Minutes": 48,
           "Poster": "",
           "Gender": 1
         },
@@ -23033,6 +23602,7 @@ var data = {
           "ID": 17627,
           "FullName": "Lucile Hadzihalilovic",
           "Amount": 1,
+          "Minutes": 121,
           "Poster": "/gjtaiZBCY88wH6RuX51aboQeJ2Q.jpg",
           "Gender": 1
         },
@@ -23040,6 +23610,7 @@ var data = {
           "ID": 213613,
           "FullName": "Lynn Hershman-Leeson",
           "Amount": 1,
+          "Minutes": 63,
           "Poster": "/bB9lV7TTiyjKggMVTMWopROJXED.jpg",
           "Gender": 1
         },
@@ -23047,6 +23618,7 @@ var data = {
           "ID": 83287,
           "FullName": "Lynne Ramsay",
           "Amount": 1,
+          "Minutes": 113,
           "Poster": "/hmSR9lVV65ojYHyyOtzmNPbVjSY.jpg",
           "Gender": 1
         },
@@ -23054,6 +23626,7 @@ var data = {
           "ID": 1215282,
           "FullName": "Lynne Stopkewich",
           "Amount": 1,
+          "Minutes": 78,
           "Poster": "/c2uEfeQlkaxEVXm7rBN2iIvkmIL.jpg",
           "Gender": 1
         },
@@ -23061,6 +23634,7 @@ var data = {
           "ID": 1579,
           "FullName": "Maggie Gyllenhaal",
           "Amount": 1,
+          "Minutes": 121,
           "Poster": "/vsfkWdYWmA9CpzMHTJzrFxlDnEZ.jpg",
           "Gender": 1
         },
@@ -23068,6 +23642,7 @@ var data = {
           "ID": 1066930,
           "FullName": "Maite Alberdi",
           "Amount": 1,
+          "Minutes": 85,
           "Poster": "/71QbmYWxf33odXcPcfaFiaXfoCP.jpg",
           "Gender": 1
         },
@@ -23075,6 +23650,7 @@ var data = {
           "ID": 16378,
           "FullName": "Mary Harron",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "/NAUg6eMuJ8aIzkLiyxVVxPEKEX.jpg",
           "Gender": 1
         },
@@ -23082,13 +23658,23 @@ var data = {
           "ID": 96813,
           "FullName": "Maya Deren",
           "Amount": 1,
+          "Minutes": 14,
           "Poster": "/qqoPlF9cGcenZmB2Kslaa6pitET.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 55615,
+          "FullName": "Megan Park",
+          "Amount": 1,
+          "Minutes": 89,
+          "Poster": "/gKRr9DaU91WMh9BAAM3HgkauJhf.jpg",
           "Gender": 1
         },
         {
           "ID": 19119,
           "FullName": "M\u00E9lanie Laurent",
           "Amount": 1,
+          "Minutes": 91,
           "Poster": "/i99ogEo4gQyanCmHWYYoS6hsUqL.jpg",
           "Gender": 1
         },
@@ -23096,6 +23682,7 @@ var data = {
           "ID": 207718,
           "FullName": "Mika Ninagawa",
           "Amount": 1,
+          "Minutes": 127,
           "Poster": "/du21uaI5qHZ4tGSlKl9xzgmQXrL.jpg",
           "Gender": 1
         },
@@ -23103,6 +23690,7 @@ var data = {
           "ID": 51984,
           "FullName": "Mimi Leder",
           "Amount": 1,
+          "Minutes": 120,
           "Poster": "/A7bFqiiPtsBScQssuNucMgPpU2Y.jpg",
           "Gender": 1
         },
@@ -23110,6 +23698,7 @@ var data = {
           "ID": 1504740,
           "FullName": "Molly Manning Walker",
           "Amount": 1,
+          "Minutes": 91,
           "Poster": "/1wgysCBNQM5damH3xBq4uXffbAZ.jpg",
           "Gender": 1
         },
@@ -23117,6 +23706,7 @@ var data = {
           "ID": 1661916,
           "FullName": "Natalie Erika James",
           "Amount": 1,
+          "Minutes": 106,
           "Poster": "/yLeC93h8kOZsiZs9MllxjjJQYWF.jpg",
           "Gender": 1
         },
@@ -23124,6 +23714,7 @@ var data = {
           "ID": 3924680,
           "FullName": "Natasha Rickman",
           "Amount": 1,
+          "Minutes": 121,
           "Poster": "",
           "Gender": 1
         },
@@ -23131,6 +23722,7 @@ var data = {
           "ID": 1795072,
           "FullName": "Nia DaCosta",
           "Amount": 1,
+          "Minutes": 103,
           "Poster": "/zRyaLNXLT2gKgPvLreyg3GeEIdD.jpg",
           "Gender": 1
         },
@@ -23138,6 +23730,7 @@ var data = {
           "ID": 1246706,
           "FullName": "Nicole Rittenmeyer",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "/vLsNHlZXu8U0z1borYH0oldbZvm.jpg",
           "Gender": 1
         },
@@ -23145,6 +23738,7 @@ var data = {
           "ID": 231974,
           "FullName": "Nietzchka Keene",
           "Amount": 1,
+          "Minutes": 79,
           "Poster": "/p2QpmM2zOlPp8KbR9h9TOoj614Q.jpg",
           "Gender": 1
         },
@@ -23152,20 +23746,15 @@ var data = {
           "ID": 9248,
           "FullName": "Nora Ephron",
           "Amount": 1,
+          "Minutes": 119,
           "Poster": "/5m0iu8lT0TVu0nKk5eWOR7w2K0a.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 1304847,
-          "FullName": "Nora Fingscheidt",
-          "Amount": 1,
-          "Poster": "/wjf96BGhggmdxiZVxOVJzWWVoq0.jpg",
           "Gender": 1
         },
         {
           "ID": 6884,
           "FullName": "Patty Jenkins",
           "Amount": 1,
+          "Minutes": 110,
           "Poster": "/9zdvRFn2iapRqG6OzrE7E92ByHw.jpg",
           "Gender": 1
         },
@@ -23173,6 +23762,7 @@ var data = {
           "ID": 14911,
           "FullName": "Penny Marshall",
           "Amount": 1,
+          "Minutes": 104,
           "Poster": "/tENryuxNtctDMS26Tv5d8B7TclQ.jpg",
           "Gender": 1
         },
@@ -23180,6 +23770,7 @@ var data = {
           "ID": 71068,
           "FullName": "Phyllida Lloyd",
           "Amount": 1,
+          "Minutes": 108,
           "Poster": "/1uY3e0Mo2K2PYZIlW6dKtPrXKyo.jpg",
           "Gender": 1
         },
@@ -23187,6 +23778,7 @@ var data = {
           "ID": 1673686,
           "FullName": "Rachel Lambert",
           "Amount": 1,
+          "Minutes": 94,
           "Poster": "/9fT70WLvScXPErEhmCHNmhrXDay.jpg",
           "Gender": 1
         },
@@ -23194,6 +23786,7 @@ var data = {
           "ID": 1387584,
           "FullName": "Rachel Lears",
           "Amount": 1,
+          "Minutes": 86,
           "Poster": "/l1ogCR49F9RctE0dbtsYKb8uJsG.jpg",
           "Gender": 1
         },
@@ -23201,6 +23794,7 @@ var data = {
           "ID": 15556,
           "FullName": "Rebecca Hall",
           "Amount": 1,
+          "Minutes": 98,
           "Poster": "/coC58ANiDbqRIyle5zEl9QDektf.jpg",
           "Gender": 1
         },
@@ -23208,6 +23802,7 @@ var data = {
           "ID": 936974,
           "FullName": "Rebecca Thomas",
           "Amount": 1,
+          "Minutes": 96,
           "Poster": "/oBEuF3C430rN277VbP64csrwRwC.jpg",
           "Gender": 1
         },
@@ -23215,6 +23810,7 @@ var data = {
           "ID": 2219327,
           "FullName": "Rose Glass",
           "Amount": 1,
+          "Minutes": 104,
           "Poster": "/qsUviDuBAwcILnDLxGGqnzyxcvx.jpg",
           "Gender": 1
         },
@@ -23222,6 +23818,7 @@ var data = {
           "ID": 172993,
           "FullName": "Rose Troche",
           "Amount": 1,
+          "Minutes": 63,
           "Poster": "/ckljyPJpUXlTUPqnGg1b7UeaVf1.jpg",
           "Gender": 1
         },
@@ -23229,6 +23826,7 @@ var data = {
           "ID": 1137903,
           "FullName": "Sam Taylor-Johnson",
           "Amount": 1,
+          "Minutes": 125,
           "Poster": "/4iWEBM7B4nANVZcRaID9XHo4tPl.jpg",
           "Gender": 1
         },
@@ -23236,13 +23834,23 @@ var data = {
           "ID": 226493,
           "FullName": "Sandra Goldbacher",
           "Amount": 1,
+          "Minutes": 85,
           "Poster": "/9ih3RM3gEv8lMLjeylljI4eMgEY.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 98,
+          "FullName": "Sarah Polley",
+          "Amount": 1,
+          "Minutes": 104,
+          "Poster": "/qcdT6y6QEjaERHPUBC07YGKgR6k.jpg",
           "Gender": 1
         },
         {
           "ID": 31653,
           "FullName": "Sarah Price",
           "Amount": 1,
+          "Minutes": 80,
           "Poster": "",
           "Gender": 1
         },
@@ -23250,6 +23858,7 @@ var data = {
           "ID": 3509617,
           "FullName": "Sarah Watts",
           "Amount": 1,
+          "Minutes": 96,
           "Poster": "",
           "Gender": 1
         },
@@ -23257,6 +23866,7 @@ var data = {
           "ID": 9158,
           "FullName": "Sharon Maguire",
           "Amount": 1,
+          "Minutes": 97,
           "Poster": "/1EoTNYeTO4msaxZGWcKdL4FDrbZ.jpg",
           "Gender": 1
         },
@@ -23264,6 +23874,7 @@ var data = {
           "ID": 154865,
           "FullName": "Si\u00E2n Heder",
           "Amount": 1,
+          "Minutes": 112,
           "Poster": "/sTJnldwESQ7Bbc5EjzoE018KV0k.jpg",
           "Gender": 1
         },
@@ -23271,6 +23882,7 @@ var data = {
           "ID": 131397,
           "FullName": "So Yong Kim",
           "Amount": 1,
+          "Minutes": 63,
           "Poster": "/yqtYtkkcHq3v3Ji3465FbSr2MgU.jpg",
           "Gender": 1
         },
@@ -23278,6 +23890,7 @@ var data = {
           "ID": 72619,
           "FullName": "Stacy Title",
           "Amount": 1,
+          "Minutes": 92,
           "Poster": "/1JzCotsdV69GrsVULvaFX4l65x5.jpg",
           "Gender": 1
         },
@@ -23285,6 +23898,7 @@ var data = {
           "ID": 550527,
           "FullName": "Susan Saladoff",
           "Amount": 1,
+          "Minutes": 85,
           "Poster": "/hZwy29IAKZsDpeKvPgOOQi7hHIf.jpg",
           "Gender": 1
         },
@@ -23292,6 +23906,7 @@ var data = {
           "ID": 1011,
           "FullName": "Susanne Bier",
           "Amount": 1,
+          "Minutes": 124,
           "Poster": "/tVp2J7hMAgJnaXtQojFN3VTVYaY.jpg",
           "Gender": 1
         },
@@ -23299,6 +23914,7 @@ var data = {
           "ID": 54240,
           "FullName": "Tamara Jenkins",
           "Amount": 1,
+          "Minutes": 91,
           "Poster": "/oPnE0FiniJFX333Am6F6cDsT6gy.jpg",
           "Gender": 1
         },
@@ -23306,6 +23922,7 @@ var data = {
           "ID": 1096867,
           "FullName": "Thea Sharrock",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "/qFfzWqgNnAuYW1OZWQci4smF49F.jpg",
           "Gender": 1
         },
@@ -23313,6 +23930,7 @@ var data = {
           "ID": 77863,
           "FullName": "Toni Myers",
           "Amount": 1,
+          "Minutes": 45,
           "Poster": "",
           "Gender": 1
         },
@@ -23320,6 +23938,7 @@ var data = {
           "ID": 16960,
           "FullName": "Valerie Faris",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "/9xxrlnkbQREPUo2Lj54PIQBKxGS.jpg",
           "Gender": 1
         },
@@ -23327,6 +23946,7 @@ var data = {
           "ID": 2735906,
           "FullName": "Vanessa N\u00F6cker",
           "Amount": 1,
+          "Minutes": 112,
           "Poster": "",
           "Gender": 1
         },
@@ -23334,6 +23954,7 @@ var data = {
           "ID": 124137,
           "FullName": "V\u011Bra Chytilov\u00E1",
           "Amount": 1,
+          "Minutes": 76,
           "Poster": "/cSb6gIVeHl3tj8u0zP8CqQQwdt4.jpg",
           "Gender": 1
         },
@@ -23341,6 +23962,7 @@ var data = {
           "ID": 12058,
           "FullName": "Vicky Jenson",
           "Amount": 1,
+          "Minutes": 90,
           "Poster": "/dDSlofPZbJxtYBO2f73XjNwcFVT.jpg",
           "Gender": 1
         },
@@ -23348,19 +23970,21 @@ var data = {
           "ID": 2220265,
           "FullName": "Waad al-Kateab",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "/rhpBO1OBzwdn4BtERlEmwy5JupZ.jpg",
           "Gender": 1
         }
       ]
     },
     "director_2": {
-      "Total": 943,
-      "Unique": 610,
+      "Total": 950,
+      "Unique": 614,
       "PeopleData": [
         {
           "ID": 488,
           "FullName": "Steven Spielberg",
           "Amount": 17,
+          "Minutes": 2278,
           "Poster": "/tZxcg19YQ3e8fJ0pOs7hjlnmmr6.jpg",
           "Gender": 2
         },
@@ -23368,6 +23992,7 @@ var data = {
           "ID": 138,
           "FullName": "Quentin Tarantino",
           "Amount": 10,
+          "Minutes": 1435,
           "Poster": "/1gjcpAa99FAOWGnrUvHEXXsRs7o.jpg",
           "Gender": 2
         },
@@ -23375,6 +24000,7 @@ var data = {
           "ID": 2636,
           "FullName": "Alfred Hitchcock",
           "Amount": 8,
+          "Minutes": 897,
           "Poster": "/osE39XteDT85B6sML8uTXFFv1sb.jpg",
           "Gender": 2
         },
@@ -23382,6 +24008,7 @@ var data = {
           "ID": 8635,
           "FullName": "Buster Keaton",
           "Amount": 8,
+          "Minutes": 226,
           "Poster": "/iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
           "Gender": 2
         },
@@ -23389,6 +24016,7 @@ var data = {
           "ID": 525,
           "FullName": "Christopher Nolan",
           "Amount": 8,
+          "Minutes": 1140,
           "Poster": "/xuAIuYSmsUzKlUMBFGVZaWsY3DZ.jpg",
           "Gender": 2
         },
@@ -23396,6 +24024,7 @@ var data = {
           "ID": 6431,
           "FullName": "Darren Aronofsky",
           "Amount": 8,
+          "Minutes": 875,
           "Poster": "/tOjz8mVI2HeQBvU6KNjIExMBsXL.jpg",
           "Gender": 2
         },
@@ -23403,6 +24032,7 @@ var data = {
           "ID": 578,
           "FullName": "Ridley Scott",
           "Amount": 8,
+          "Minutes": 1055,
           "Poster": "/zABJmN9opmqD4orWl3KSdCaSo7Q.jpg",
           "Gender": 2
         },
@@ -23410,6 +24040,7 @@ var data = {
           "ID": 240,
           "FullName": "Stanley Kubrick",
           "Amount": 8,
+          "Minutes": 1040,
           "Poster": "/yFT0VyIelI9aegZrsAwOG5iVP4v.jpg",
           "Gender": 2
         },
@@ -23417,6 +24048,7 @@ var data = {
           "ID": 24,
           "FullName": "Robert Zemeckis",
           "Amount": 7,
+          "Minutes": 843,
           "Poster": "/lPYDQ5LYNJ12rJZENtyASmVZ1Ql.jpg",
           "Gender": 2
         },
@@ -23424,6 +24056,7 @@ var data = {
           "ID": 10965,
           "FullName": "Chris Columbus",
           "Amount": 6,
+          "Minutes": 786,
           "Poster": "/yCyEz90NqjEXKZ7HYcEhDXlLlPc.jpg",
           "Gender": 2
         },
@@ -23431,6 +24064,7 @@ var data = {
           "ID": 2034,
           "FullName": "Danny Boyle",
           "Amount": 6,
+          "Minutes": 633,
           "Poster": "/b5qQpFHmgNyvV1t81ou17Jt2fRj.jpg",
           "Gender": 2
         },
@@ -23438,6 +24072,7 @@ var data = {
           "ID": 13953,
           "FullName": "Edward F. Cline",
           "Amount": 6,
+          "Minutes": 124,
           "Poster": "/cyXhBZ3p53P3cgnQt0XldYKqdTP.jpg",
           "Gender": 2
         },
@@ -23445,6 +24080,7 @@ var data = {
           "ID": 2710,
           "FullName": "James Cameron",
           "Amount": 6,
+          "Minutes": 878,
           "Poster": "/5tXGxsQyp05biKpq99NKyGRuFHX.jpg",
           "Gender": 2
         },
@@ -23452,6 +24088,7 @@ var data = {
           "ID": 7467,
           "FullName": "David Fincher",
           "Amount": 5,
+          "Minutes": 616,
           "Poster": "/tpEczFclQZeKAiCeKZZ0adRvtfz.jpg",
           "Gender": 2
         },
@@ -23459,6 +24096,7 @@ var data = {
           "ID": 10943,
           "FullName": "Francis Lawrence",
           "Amount": 5,
+          "Minutes": 647,
           "Poster": "/pyGWo5mAwZ2Koe6leB2RjKd7vmc.jpg",
           "Gender": 2
         },
@@ -23466,6 +24104,7 @@ var data = {
           "ID": 108,
           "FullName": "Peter Jackson",
           "Amount": 5,
+          "Minutes": 767,
           "Poster": "/bNc908d59Ba8VDNr4eCcm4G1cR.jpg",
           "Gender": 2
         },
@@ -23473,6 +24112,7 @@ var data = {
           "ID": 6159,
           "FullName": "Ron Howard",
           "Amount": 5,
+          "Minutes": 641,
           "Poster": "/tDKn6gAgvARdQRfuem2JwyNcP3B.jpg",
           "Gender": 2
         },
@@ -23480,6 +24120,7 @@ var data = {
           "ID": 11434,
           "FullName": "Wilfred Jackson",
           "Amount": 5,
+          "Minutes": 386,
           "Poster": "/rTszyDc1jFOQQrzSYgnxEVLxd8W.jpg",
           "Gender": 2
         },
@@ -23487,6 +24128,7 @@ var data = {
           "ID": 5174,
           "FullName": "Barry Sonnenfeld",
           "Amount": 4,
+          "Minutes": 382,
           "Poster": "/n6y6vaAFfSqsJodgkwTxAey4NoG.jpg",
           "Gender": 2
         },
@@ -23494,6 +24136,7 @@ var data = {
           "ID": 190,
           "FullName": "Clint Eastwood",
           "Amount": 4,
+          "Minutes": 527,
           "Poster": "/dU35NnjZ4aGw5abIJe3WXVf3Eey.jpg",
           "Gender": 2
         },
@@ -23501,6 +24144,7 @@ var data = {
           "ID": 11343,
           "FullName": "David Yates",
           "Amount": 4,
+          "Minutes": 567,
           "Poster": "/hAHOxR0NK4cZDumqNIpDoEdGVAh.jpg",
           "Gender": 2
         },
@@ -23508,6 +24152,7 @@ var data = {
           "ID": 11694,
           "FullName": "Doug Liman",
           "Amount": 4,
+          "Minutes": 424,
           "Poster": "/kIT7NE6MDaiIrjPEbObXk4COFVa.jpg",
           "Gender": 2
         },
@@ -23515,6 +24160,7 @@ var data = {
           "ID": 11090,
           "FullName": "Edgar Wright",
           "Amount": 4,
+          "Minutes": 449,
           "Poster": "/gVbn2dWDfNUi4LERbhXpPEgJaCE.jpg",
           "Gender": 2
         },
@@ -23522,6 +24168,7 @@ var data = {
           "ID": 11429,
           "FullName": "Hamilton Luske",
           "Amount": 4,
+          "Minutes": 318,
           "Poster": "/bEccjwuG6QGc4V0AtA87rexRHYo.jpg",
           "Gender": 2
         },
@@ -23529,6 +24176,7 @@ var data = {
           "ID": 8858,
           "FullName": "Ivan Reitman",
           "Amount": 4,
+          "Minutes": 434,
           "Poster": "/qMyAjmRVihGFbJPhMTsqvpeOKfX.jpg",
           "Gender": 2
         },
@@ -23536,6 +24184,7 @@ var data = {
           "ID": 1223,
           "FullName": "Joel Coen",
           "Amount": 4,
+          "Minutes": 433,
           "Poster": "/rgVaJNkZCgMarUcZuUAsVfXMWk3.jpg",
           "Gender": 2
         },
@@ -23543,6 +24192,7 @@ var data = {
           "ID": 5572,
           "FullName": "Joel Schumacher",
           "Amount": 4,
+          "Minutes": 432,
           "Poster": "/ttXniaNjekrOBjLQpZqTv89AakA.jpg",
           "Gender": 2
         },
@@ -23550,6 +24200,7 @@ var data = {
           "ID": 11505,
           "FullName": "John Hughes",
           "Amount": 4,
+          "Minutes": 387,
           "Poster": "/1Pm0HXRXSwz5BON9HHNDLdl4HjZ.jpg",
           "Gender": 2
         },
@@ -23557,6 +24208,7 @@ var data = {
           "ID": 1090,
           "FullName": "John McTiernan",
           "Amount": 4,
+          "Minutes": 480,
           "Poster": "/yVfDkVbgQHD1A7JSV8Z47EjB1mU.jpg",
           "Gender": 2
         },
@@ -23564,6 +24216,7 @@ var data = {
           "ID": 1032,
           "FullName": "Martin Scorsese",
           "Amount": 4,
+          "Minutes": 577,
           "Poster": "/52dsh3ZXDgB6HPN5VqNBj3QOnjn.jpg",
           "Gender": 2
         },
@@ -23571,6 +24224,7 @@ var data = {
           "ID": 67367,
           "FullName": "Rian Johnson",
           "Amount": 4,
+          "Minutes": 495,
           "Poster": "/uPWwvdppeZVKPbYcjXKU8zyuAVh.jpg",
           "Gender": 2
         },
@@ -23578,6 +24232,7 @@ var data = {
           "ID": 3026,
           "FullName": "Rob Reiner",
           "Amount": 4,
+          "Minutes": 375,
           "Poster": "/rcmPU3YlhHQVzZlV197qhmRsgEL.jpg",
           "Gender": 2
         },
@@ -23585,6 +24240,7 @@ var data = {
           "ID": 1884,
           "FullName": "Steven Soderbergh",
           "Amount": 4,
+          "Minutes": 495,
           "Poster": "/872DPaUxTlAOhxBb70h3vaWhMvz.jpg",
           "Gender": 2
         },
@@ -23592,6 +24248,7 @@ var data = {
           "ID": 122423,
           "FullName": "Yorgos Lanthimos",
           "Amount": 4,
+          "Minutes": 544,
           "Poster": "/kwKfSubzU8B0uLCEiPvY1mGOVwZ.jpg",
           "Gender": 2
         },
@@ -23599,6 +24256,7 @@ var data = {
           "ID": 13235,
           "FullName": "Alexander Payne",
           "Amount": 3,
+          "Minutes": 363,
           "Poster": "/6U32ib4FEYLm2ojyeI920FfoBEs.jpg",
           "Gender": 2
         },
@@ -23606,6 +24264,7 @@ var data = {
           "ID": 7,
           "FullName": "Andrew Stanton",
           "Amount": 3,
+          "Minutes": 295,
           "Poster": "/fo6ePCWEVB0L1sccrvB99Iaoqcg.jpg",
           "Gender": 2
         },
@@ -23613,6 +24272,7 @@ var data = {
           "ID": 1614,
           "FullName": "Ang Lee",
           "Amount": 3,
+          "Minutes": 366,
           "Poster": "/lwhIzt4PVNrsfOXuZcKXhtPE83P.jpg",
           "Gender": 2
         },
@@ -23620,6 +24280,7 @@ var data = {
           "ID": 11426,
           "FullName": "Ben Sharpsteen",
           "Amount": 3,
+          "Minutes": 235,
           "Poster": "/nfruaWGIjvI99oXmyzmsnGkdDL9.jpg",
           "Gender": 2
         },
@@ -23627,6 +24288,7 @@ var data = {
           "ID": 11091,
           "FullName": "Brett Ratner",
           "Amount": 3,
+          "Minutes": 279,
           "Poster": "/uOtFtBPkLQaTq8TobPG0XvNKrvD.jpg",
           "Gender": 2
         },
@@ -23634,6 +24296,7 @@ var data = {
           "ID": 1150,
           "FullName": "Brian De Palma",
           "Amount": 3,
+          "Minutes": 300,
           "Poster": "/t29YojZlOEqNSWvfmY0DDYh3vnb.jpg",
           "Gender": 2
         },
@@ -23641,6 +24304,7 @@ var data = {
           "ID": 64864,
           "FullName": "Clyde Geronimi",
           "Amount": 3,
+          "Minutes": 230,
           "Poster": "/eAeqN6fPYuzKjGRSaR2jqhSeeMq.jpg",
           "Gender": 2
         },
@@ -23648,6 +24312,7 @@ var data = {
           "ID": 50767,
           "FullName": "Craig Gillespie",
           "Amount": 3,
+          "Minutes": 360,
           "Poster": "/pVHspL9QWsXCm3t3VXEaCJ9y8Zz.jpg",
           "Gender": 2
         },
@@ -23655,6 +24320,7 @@ var data = {
           "ID": 2675,
           "FullName": "Darren Lynn Bousman",
           "Amount": 3,
+          "Minutes": 294,
           "Poster": "/7cphExMhm74Y5ELqKCq4lR3fGn8.jpg",
           "Gender": 2
         },
@@ -23662,6 +24328,7 @@ var data = {
           "ID": 224,
           "FullName": "David Cronenberg",
           "Amount": 3,
+          "Minutes": 297,
           "Poster": "/3xh4e2gWHDilMLtucHzDGsmJMuQ.jpg",
           "Gender": 2
         },
@@ -23669,6 +24336,7 @@ var data = {
           "ID": 12987,
           "FullName": "David Zucker",
           "Amount": 3,
+          "Minutes": 259,
           "Poster": "/13iJccfZeC0X9WZgJnlI7ZphL7l.jpg",
           "Gender": 2
         },
@@ -23676,6 +24344,7 @@ var data = {
           "ID": 1224,
           "FullName": "Ethan Coen",
           "Amount": 3,
+          "Minutes": 335,
           "Poster": "/ccvoiEe3gEMAth1Oy8SJxVeMcAk.jpg",
           "Gender": 2
         },
@@ -23683,6 +24352,7 @@ var data = {
           "ID": 37932,
           "FullName": "F. Gary Gray",
           "Amount": 3,
+          "Minutes": 397,
           "Poster": "/lVbwLnxtdiQaS8oGWFZMkhATLc5.jpg",
           "Gender": 2
         },
@@ -23690,6 +24360,7 @@ var data = {
           "ID": 1776,
           "FullName": "Francis Ford Coppola",
           "Amount": 3,
+          "Minutes": 524,
           "Poster": "/3Pblihd6KjXliie9vj4iQJwbNPU.jpg",
           "Gender": 2
         },
@@ -23697,6 +24368,7 @@ var data = {
           "ID": 14999,
           "FullName": "George A. Romero",
           "Amount": 3,
+          "Minutes": 324,
           "Poster": "/w2zVF92x149qK79ZxwUowcSp2c6.jpg",
           "Gender": 2
         },
@@ -23704,6 +24376,7 @@ var data = {
           "ID": 5216,
           "FullName": "Gus Van Sant",
           "Amount": 3,
+          "Minutes": 358,
           "Poster": "/kICHgrSh4eiICjz8piy9fTXIgph.jpg",
           "Gender": 2
         },
@@ -23711,6 +24384,7 @@ var data = {
           "ID": 956,
           "FullName": "Guy Ritchie",
           "Amount": 3,
+          "Minutes": 321,
           "Poster": "/9pLUnjMgIEWXi0mlHYzie9cKUTD.jpg",
           "Gender": 2
         },
@@ -23718,6 +24392,7 @@ var data = {
           "ID": 2209,
           "FullName": "Jan de Bont",
           "Amount": 3,
+          "Minutes": 354,
           "Poster": "/evj9vN5pxxjr4aFLZRvniU0gzof.jpg",
           "Gender": 2
         },
@@ -23725,6 +24400,7 @@ var data = {
           "ID": 52443,
           "FullName": "Jason Reitman",
           "Amount": 3,
+          "Minutes": 298,
           "Poster": "/eNNN1dwfB6b6p2hoEG1xyoa7H2p.jpg",
           "Gender": 2
         },
@@ -23732,6 +24408,7 @@ var data = {
           "ID": 6737,
           "FullName": "Jay Roach",
           "Amount": 3,
+          "Minutes": 317,
           "Poster": "/48uTxNDRlnP56quVewyByotKAen.jpg",
           "Gender": 2
         },
@@ -23739,6 +24416,7 @@ var data = {
           "ID": 56578,
           "FullName": "Jeff Tremaine",
           "Amount": 3,
+          "Minutes": 276,
           "Poster": "/3R8FemTgvyY1vLn9r0lYlL45P3Q.jpg",
           "Gender": 2
         },
@@ -23746,6 +24424,7 @@ var data = {
           "ID": 4945,
           "FullName": "Joe Johnston",
           "Amount": 3,
+          "Minutes": 289,
           "Poster": "/fbGZo6CG9Z9zKFh8D5wHunyu7gJ.jpg",
           "Gender": 2
         },
@@ -23753,6 +24432,7 @@ var data = {
           "ID": 12962,
           "FullName": "Jon Turteltaub",
           "Amount": 3,
+          "Minutes": 353,
           "Poster": "/embHCkQj1fs1PaISQSQQbi9TjHj.jpg",
           "Gender": 2
         },
@@ -23760,6 +24440,7 @@ var data = {
           "ID": 291263,
           "FullName": "Jordan Peele",
           "Amount": 3,
+          "Minutes": 350,
           "Poster": "/kFUKn5g3ebpyZ3CSZZZo2HFWRNQ.jpg",
           "Gender": 2
         },
@@ -23767,6 +24448,7 @@ var data = {
           "ID": 1126,
           "FullName": "Krzysztof Kie\u015Blowski",
           "Amount": 3,
+          "Minutes": 290,
           "Poster": "/zG9JD4kzQHhKJAtMOWbwrEolvun.jpg",
           "Gender": 2
         },
@@ -23774,6 +24456,7 @@ var data = {
           "ID": 59,
           "FullName": "Luc Besson",
           "Amount": 3,
+          "Minutes": 341,
           "Poster": "/bLVPnHMVFZ7wrF6ovMVF5U1UX89.jpg",
           "Gender": 2
         },
@@ -23781,6 +24464,7 @@ var data = {
           "ID": 78160,
           "FullName": "Luca Guadagnino",
           "Amount": 3,
+          "Minutes": 384,
           "Poster": "/vnRLKqJxGGD2s1af46MExci1Bao.jpg",
           "Gender": 2
         },
@@ -23788,6 +24472,7 @@ var data = {
           "ID": 10702,
           "FullName": "Martin Campbell",
           "Amount": 3,
+          "Minutes": 410,
           "Poster": "/4AiUb5lciEXdgOXFWAdebQUhEb9.jpg",
           "Gender": 2
         },
@@ -23795,6 +24480,7 @@ var data = {
           "ID": 54472,
           "FullName": "Martin McDonagh",
           "Amount": 3,
+          "Minutes": 337,
           "Poster": "/pyDaAVKa8akTLHXzeTyF8oGymXN.jpg",
           "Gender": 2
         },
@@ -23802,6 +24488,7 @@ var data = {
           "ID": 865,
           "FullName": "Michael Bay",
           "Amount": 3,
+          "Minutes": 432,
           "Poster": "/8I9H9IKROECFEn7usvyChbRMhbI.jpg",
           "Gender": 2
         },
@@ -23809,6 +24496,7 @@ var data = {
           "ID": 21183,
           "FullName": "Nicolas Winding Refn",
           "Amount": 3,
+          "Minutes": 310,
           "Poster": "/o1PZZaqPbYt6f6e8PJkES73QKTG.jpg",
           "Gender": 2
         },
@@ -23816,6 +24504,7 @@ var data = {
           "ID": 3289,
           "FullName": "Paul Weitz",
           "Amount": 3,
+          "Minutes": 274,
           "Poster": "/54Np4lBqGM36uwpzRc4KztJxGJz.jpg",
           "Gender": 2
         },
@@ -23823,6 +24512,7 @@ var data = {
           "ID": 7396,
           "FullName": "Peter Farrelly",
           "Amount": 3,
+          "Minutes": 363,
           "Poster": "/3PDYOFfk5NLmNcEz6SFZmdmqVZr.jpg",
           "Gender": 2
         },
@@ -23830,6 +24520,7 @@ var data = {
           "ID": 2294,
           "FullName": "Robert Rodriguez",
           "Amount": 3,
+          "Minutes": 337,
           "Poster": "/bPqRdLWWwpOT8sBdj9PWOzNgwou.jpg",
           "Gender": 2
         },
@@ -23837,6 +24528,7 @@ var data = {
           "ID": 3556,
           "FullName": "Roman Polanski",
           "Amount": 3,
+          "Minutes": 393,
           "Poster": "/yHwHSXdZatkoLgIjPeW14GKlrZs.jpg",
           "Gender": 2
         },
@@ -23844,6 +24536,7 @@ var data = {
           "ID": 39,
           "FullName": "Sam Mendes",
           "Amount": 3,
+          "Minutes": 364,
           "Poster": "/5z89X9rB76JDblqMQ52fviwXxAN.jpg",
           "Gender": 2
         },
@@ -23851,13 +24544,23 @@ var data = {
           "ID": 5281,
           "FullName": "Spike Lee",
           "Amount": 3,
+          "Minutes": 400,
           "Poster": "/2KOHXgk2uoRXl6u7V9xpAIo3uay.jpg",
+          "Gender": 2
+        },
+        {
+          "ID": 280,
+          "FullName": "Terry Gilliam",
+          "Amount": 3,
+          "Minutes": 329,
+          "Poster": "/7qBkaXxANmnb6hqQCBc4iWqXEL6.jpg",
           "Gender": 2
         },
         {
           "ID": 101542,
           "FullName": "Ti West",
           "Amount": 3,
+          "Minutes": 312,
           "Poster": "/y65ZHU9m830lbdbggxC8eOT123S.jpg",
           "Gender": 2
         },
@@ -23865,6 +24568,7 @@ var data = {
           "ID": 510,
           "FullName": "Tim Burton",
           "Amount": 3,
+          "Minutes": 305,
           "Poster": "/6dhUiGpeXERsEs956Zaib7m7PJN.jpg",
           "Gender": 2
         },
@@ -23872,6 +24576,7 @@ var data = {
           "ID": 893,
           "FullName": "Tony Scott",
           "Amount": 3,
+          "Minutes": 338,
           "Poster": "/zEEbiNa8Pqw3U6pZ8Z2y3dlJJnC.jpg",
           "Gender": 2
         },
@@ -23879,6 +24584,7 @@ var data = {
           "ID": 5140,
           "FullName": "Wes Craven",
           "Amount": 3,
+          "Minutes": 331,
           "Poster": "/eqwl6owrYykeTGTpKxwcAkbEJmg.jpg",
           "Gender": 2
         },
@@ -23886,6 +24592,7 @@ var data = {
           "ID": 10001,
           "FullName": "William Wyler",
           "Amount": 3,
+          "Minutes": 350,
           "Poster": "/5g7xJnlLj3Vyph1WE6N4ak4K3la.jpg",
           "Gender": 2
         },
@@ -23893,6 +24600,7 @@ var data = {
           "ID": 5231,
           "FullName": "Wolfgang Petersen",
           "Amount": 3,
+          "Minutes": 356,
           "Poster": "/8TTijeJBFITOhvJruS68aCjwK9f.jpg",
           "Gender": 2
         },
@@ -23900,6 +24608,7 @@ var data = {
           "ID": 223,
           "FullName": "Alejandro Gonz\u00E1lez I\u00F1\u00E1rritu",
           "Amount": 2,
+          "Minutes": 281,
           "Poster": "/qWrltG9e0ssM3Y9pF86EAgteKHu.jpg",
           "Gender": 2
         },
@@ -23907,6 +24616,7 @@ var data = {
           "ID": 11218,
           "FullName": "Alfonso Cuar\u00F3n",
           "Amount": 2,
+          "Minutes": 250,
           "Poster": "/eoCHiXaQzGgx9RiwXnt3k239FLc.jpg",
           "Gender": 2
         },
@@ -23914,6 +24624,7 @@ var data = {
           "ID": 5524,
           "FullName": "Andrew Adamson",
           "Amount": 2,
+          "Minutes": 182,
           "Poster": "/qqIAVKAe5LHRbPyZUlptsqlo4Kb.jpg",
           "Gender": 2
         },
@@ -23921,6 +24632,7 @@ var data = {
           "ID": 586002,
           "FullName": "Andrew Haigh",
           "Amount": 2,
+          "Minutes": 202,
           "Poster": "/pJAv105SAZiQ3lGY2wGURz4bENp.jpg",
           "Gender": 2
         },
@@ -23928,6 +24640,7 @@ var data = {
           "ID": 1145520,
           "FullName": "Ari Aster",
           "Amount": 2,
+          "Minutes": 275,
           "Poster": "/wQVcT9XxuUaRpitr17iF4IMsTis.jpg",
           "Gender": 2
         },
@@ -23935,6 +24648,7 @@ var data = {
           "ID": 23393,
           "FullName": "Barbet Schroeder",
           "Amount": 2,
+          "Minutes": 227,
           "Poster": "/5uBKjaIcxAaq70v2RPBAvb9qcgM.jpg",
           "Gender": 2
         },
@@ -23942,6 +24656,7 @@ var data = {
           "ID": 11427,
           "FullName": "Bill Roberts",
           "Amount": 2,
+          "Minutes": 152,
           "Poster": "",
           "Gender": 2
         },
@@ -23949,6 +24664,7 @@ var data = {
           "ID": 47974,
           "FullName": "Bob Spiers",
           "Amount": 2,
+          "Minutes": 182,
           "Poster": "/l22gNZcPsph1B5xeNtm4tqf53fQ.jpg",
           "Gender": 2
         },
@@ -23956,6 +24672,7 @@ var data = {
           "ID": 7395,
           "FullName": "Bobby Farrelly",
           "Amount": 2,
+          "Minutes": 233,
           "Poster": "/i5mt42m2MjMpFVrVYlYmp5ylLDy.jpg",
           "Gender": 2
         },
@@ -23963,6 +24680,7 @@ var data = {
           "ID": 7087,
           "FullName": "Brad Bird",
           "Amount": 2,
+          "Minutes": 226,
           "Poster": "/z73rItPBDoRUowY5kuWDMlue3DB.jpg",
           "Gender": 2
         },
@@ -23970,6 +24688,7 @@ var data = {
           "ID": 13848,
           "FullName": "Charlie Chaplin",
           "Amount": 2,
+          "Minutes": 113,
           "Poster": "/qQZ2qDAyX9aw8KCkj9VZAQLKysK.jpg",
           "Gender": 2
         },
@@ -23977,6 +24696,7 @@ var data = {
           "ID": 31654,
           "FullName": "Chris Smith",
           "Amount": 2,
+          "Minutes": 178,
           "Poster": "",
           "Gender": 2
         },
@@ -23984,6 +24704,7 @@ var data = {
           "ID": 41041,
           "FullName": "Christopher Smith",
           "Amount": 2,
+          "Minutes": 181,
           "Poster": "/7Un0sQeq7V9DgJw9n3OEzdo4vod.jpg",
           "Gender": 2
         },
@@ -23991,6 +24712,7 @@ var data = {
           "ID": 930707,
           "FullName": "Colin Trevorrow",
           "Amount": 2,
+          "Minutes": 210,
           "Poster": "/i0HBClPMPKn3aq8QeQqyThS67EK.jpg",
           "Gender": 2
         },
@@ -23998,6 +24720,7 @@ var data = {
           "ID": 323,
           "FullName": "Curtis Hanson",
           "Amount": 2,
+          "Minutes": 249,
           "Poster": "/1ht0tJ0Icxc134W3ZpcGtwMtNLA.jpg",
           "Gender": 2
         },
@@ -24005,6 +24728,7 @@ var data = {
           "ID": 136495,
           "FullName": "Damien Chazelle",
           "Amount": 2,
+          "Minutes": 236,
           "Poster": "/14kRZ3XxNMyBv717YQSXr3wCucy.jpg",
           "Gender": 2
         },
@@ -24012,6 +24736,7 @@ var data = {
           "ID": 5446,
           "FullName": "David Hand",
           "Amount": 2,
+          "Minutes": 153,
           "Poster": "/fZ5OKDm8YJmAfzPdvatMGuCRDu6.jpg",
           "Gender": 2
         },
@@ -24019,6 +24744,7 @@ var data = {
           "ID": 5602,
           "FullName": "David Lynch",
           "Amount": 2,
+          "Minutes": 267,
           "Poster": "/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg",
           "Gender": 2
         },
@@ -24026,6 +24752,7 @@ var data = {
           "ID": 4755,
           "FullName": "David R. Ellis",
           "Amount": 2,
+          "Minutes": 195,
           "Poster": "/zw1ccRyxUBy0y7JDdXTZAYg96xd.jpg",
           "Gender": 2
         },
@@ -24033,6 +24760,7 @@ var data = {
           "ID": 27571,
           "FullName": "David Slade",
           "Amount": 2,
+          "Minutes": 194,
           "Poster": "/9jL9OasecqvhQFvGYQtB4K6omGf.jpg",
           "Gender": 2
         },
@@ -24040,6 +24768,7 @@ var data = {
           "ID": 116798,
           "FullName": "Dick Proenneke",
           "Amount": 2,
+          "Minutes": 117,
           "Poster": "/vdz3bngVm575VtmxcKo1zXM36dI.jpg",
           "Gender": 2
         },
@@ -24047,6 +24776,7 @@ var data = {
           "ID": 58498,
           "FullName": "Dominic Sena",
           "Amount": 2,
+          "Minutes": 217,
           "Poster": "/oSmE4r1Lg3earvq4DLInp3N7UMF.jpg",
           "Gender": 2
         },
@@ -24054,6 +24784,7 @@ var data = {
           "ID": 4027,
           "FullName": "Frank Darabont",
           "Amount": 2,
+          "Minutes": 268,
           "Poster": "/7LqmE3p1XTwCdNCOmBxovq210Qk.jpg",
           "Gender": 2
         },
@@ -24061,6 +24792,7 @@ var data = {
           "ID": 664,
           "FullName": "Frank Marshall",
           "Amount": 2,
+          "Minutes": 236,
           "Poster": "/lt2aBdnfDRJI4hvBu4733ZPGaCa.jpg",
           "Gender": 2
         },
@@ -24068,6 +24800,7 @@ var data = {
           "ID": 4065,
           "FullName": "Fred Zinnemann",
           "Amount": 2,
+          "Minutes": 294,
           "Poster": "/vCdL6xfN6ey7Zb8SRb6ROiuFV8n.jpg",
           "Gender": 2
         },
@@ -24075,6 +24808,7 @@ var data = {
           "ID": 23964,
           "FullName": "Gary Ross",
           "Amount": 2,
+          "Minutes": 266,
           "Poster": "/fEZbjmP02SIaXf1PLYhBE7uzWGn.jpg",
           "Gender": 2
         },
@@ -24082,6 +24816,7 @@ var data = {
           "ID": 14674,
           "FullName": "George Cukor",
           "Amount": 2,
+          "Minutes": 284,
           "Poster": "/w7I9Af9fpL7nywdZiOogH0gBoZ2.jpg",
           "Gender": 2
         },
@@ -24089,6 +24824,7 @@ var data = {
           "ID": 20629,
           "FullName": "George Miller",
           "Amount": 2,
+          "Minutes": 270,
           "Poster": "/35NQ8HjFXQlGYDz9UkhT08lKl5C.jpg",
           "Gender": 2
         },
@@ -24096,6 +24832,7 @@ var data = {
           "ID": 11523,
           "FullName": "Georges M\u00E9li\u00E8s",
           "Amount": 2,
+          "Minutes": 26,
           "Poster": "/acx5saf22Qj6FV5WAsacRHlZAMn.jpg",
           "Gender": 2
         },
@@ -24103,6 +24840,7 @@ var data = {
           "ID": 1704,
           "FullName": "Gore Verbinski",
           "Amount": 2,
+          "Minutes": 258,
           "Poster": "/rSQRdmLNAwdKxrtvBSSlBmWeSsj.jpg",
           "Gender": 2
         },
@@ -24110,6 +24848,7 @@ var data = {
           "ID": 17812,
           "FullName": "Gregory Hoblit",
           "Amount": 2,
+          "Minutes": 219,
           "Poster": "/1YUF4UpcCX3j3J65a4L1KoLOHAl.jpg",
           "Gender": 2
         },
@@ -24117,6 +24856,7 @@ var data = {
           "ID": 10828,
           "FullName": "Guillermo del Toro",
           "Amount": 2,
+          "Minutes": 241,
           "Poster": "/gldeyCtKcaqnK1v4Vu9vqayhzUQ.jpg",
           "Gender": 2
         },
@@ -24124,6 +24864,7 @@ var data = {
           "ID": 608,
           "FullName": "Hayao Miyazaki",
           "Amount": 2,
+          "Minutes": 259,
           "Poster": "/ouhjt9KugzhWtdEyBPipihB3ic8.jpg",
           "Gender": 2
         },
@@ -24131,6 +24872,7 @@ var data = {
           "ID": 6648,
           "FullName": "Ingmar Bergman",
           "Amount": 2,
+          "Minutes": 176,
           "Poster": "/nkmOaXNRoioViN9OQf2n9Iu6akA.jpg",
           "Gender": 2
         },
@@ -24138,6 +24880,7 @@ var data = {
           "ID": 51894,
           "FullName": "J. A. Bayona",
           "Amount": 2,
+          "Minutes": 258,
           "Poster": "/cnbbnS7K8Uu6yohAfSRHv5Kxc7r.jpg",
           "Gender": 2
         },
@@ -24145,6 +24888,7 @@ var data = {
           "ID": 74565,
           "FullName": "Jack Kinney",
           "Amount": 2,
+          "Minutes": 152,
           "Poster": "/kmHThLI4VdyMVvsg8PDEBwZ1vWs.jpg",
           "Gender": 2
         },
@@ -24152,6 +24896,7 @@ var data = {
           "ID": 73153,
           "FullName": "Jacques Rivette",
           "Amount": 2,
+          "Minutes": 431,
           "Poster": "/pD8i53d3on1NbPPGsOxCeuDG8xF.jpg",
           "Gender": 2
         },
@@ -24159,6 +24904,7 @@ var data = {
           "ID": 366,
           "FullName": "James Mangold",
           "Amount": 2,
+          "Minutes": 280,
           "Poster": "/pk0GDjn99crNwR4qgCCEokDYd71.jpg",
           "Gender": 2
         },
@@ -24166,6 +24912,7 @@ var data = {
           "ID": 2917,
           "FullName": "James Whale",
           "Amount": 2,
+          "Minutes": 142,
           "Poster": "/cXE0gUlXfx7qqZMdnUb5AeQMKHr.jpg",
           "Gender": 2
         },
@@ -24173,6 +24920,7 @@ var data = {
           "ID": 57134,
           "FullName": "James Wong",
           "Amount": 2,
+          "Minutes": 191,
           "Poster": "/uIo0Bk5HG4RRuvekKRGANzwBZin.jpg",
           "Gender": 2
         },
@@ -24180,6 +24928,7 @@ var data = {
           "ID": 2419,
           "FullName": "Jean-Pierre Jeunet",
           "Amount": 2,
+          "Minutes": 221,
           "Poster": "/4DhPaNaxYnkgxVJHVLyL5gKmKpG.jpg",
           "Gender": 2
         },
@@ -24187,6 +24936,7 @@ var data = {
           "ID": 3415,
           "FullName": "Jerry Zucker",
           "Amount": 2,
+          "Minutes": 200,
           "Poster": "/iSzdnge16GBKLkBoTM4mqUIWIxi.jpg",
           "Gender": 2
         },
@@ -24194,6 +24944,7 @@ var data = {
           "ID": 11770,
           "FullName": "John Carpenter",
           "Amount": 2,
+          "Minutes": 200,
           "Poster": "/3Qp0mg61u1qSZNJh30BFEUZrIMG.jpg",
           "Gender": 2
         },
@@ -24201,6 +24952,7 @@ var data = {
           "ID": 15811,
           "FullName": "John Musker",
           "Amount": 2,
+          "Minutes": 190,
           "Poster": "/vSn1d9JpEpECu9cQbRGTFWZdLhA.jpg",
           "Gender": 2
         },
@@ -24208,6 +24960,7 @@ var data = {
           "ID": 10367,
           "FullName": "John Waters",
           "Amount": 2,
+          "Minutes": 149,
           "Poster": "/4foU1kJ24CJwz2RVZgyc7oxMs4i.jpg",
           "Gender": 2
         },
@@ -24215,6 +24968,7 @@ var data = {
           "ID": 11401,
           "FullName": "John Woo",
           "Amount": 2,
+          "Minutes": 261,
           "Poster": "/s7sDmQq8cegHnsTmD0u2eZ4ArYZ.jpg",
           "Gender": 2
         },
@@ -24222,6 +24976,7 @@ var data = {
           "ID": 66728,
           "FullName": "Jonathan Glazer",
           "Amount": 2,
+          "Minutes": 197,
           "Poster": "/8pFNxscgellE6rhT5399eM00GAG.jpg",
           "Gender": 2
         },
@@ -24229,6 +24984,7 @@ var data = {
           "ID": 7213,
           "FullName": "Jonathan Mostow",
           "Amount": 2,
+          "Minutes": 225,
           "Poster": "/yRMYvjGLIf0aOUKVLnU6jSpR1oQ.jpg",
           "Gender": 2
         },
@@ -24236,6 +24992,7 @@ var data = {
           "ID": 58189,
           "FullName": "Justin Lin",
           "Amount": 2,
+          "Minutes": 226,
           "Poster": "/w0ryazdt8iS3GBrjXfv0FIwvUGY.jpg",
           "Gender": 2
         },
@@ -24243,6 +25000,7 @@ var data = {
           "ID": 12079,
           "FullName": "Kelly Asbury",
           "Amount": 2,
+          "Minutes": 176,
           "Poster": "/fzHQFYLc1zVVn3dUjr6pMuKdE0U.jpg",
           "Gender": 2
         },
@@ -24250,6 +25008,7 @@ var data = {
           "ID": 6767,
           "FullName": "Larry Charles",
           "Amount": 2,
+          "Minutes": 167,
           "Poster": "/rt48JIfeIJPNNZftESWnMEuzAXN.jpg",
           "Gender": 2
         },
@@ -24257,6 +25016,7 @@ var data = {
           "ID": 7256,
           "FullName": "Lee Tamahori",
           "Amount": 2,
+          "Minutes": 229,
           "Poster": "/lkivtT9U7gLXVnhq5qF9GL3k7NN.jpg",
           "Gender": 2
         },
@@ -24264,6 +25024,7 @@ var data = {
           "ID": 87742,
           "FullName": "Marc Webb",
           "Amount": 2,
+          "Minutes": 196,
           "Poster": "/65tk6xLNEW4EG0CSrxbVeHDi03a.jpg",
           "Gender": 2
         },
@@ -24271,6 +25032,7 @@ var data = {
           "ID": 638,
           "FullName": "Michael Mann",
           "Amount": 2,
+          "Minutes": 327,
           "Poster": "/syowcptZIOosLMwVWbXFOU8jVvd.jpg",
           "Gender": 2
         },
@@ -24278,6 +25040,7 @@ var data = {
           "ID": 17087,
           "FullName": "Michael Moore",
           "Amount": 2,
+          "Minutes": 243,
           "Poster": "/m5YViuBUXfKAHNEUObGpzhzQPgE.jpg",
           "Gender": 2
         },
@@ -24285,6 +25048,7 @@ var data = {
           "ID": 17403,
           "FullName": "Mike Judge",
           "Amount": 2,
+          "Minutes": 174,
           "Poster": "/ol4kd4mSOK7Hx3r86ydez84bwEI.jpg",
           "Gender": 2
         },
@@ -24292,6 +25056,7 @@ var data = {
           "ID": 10723,
           "FullName": "Mike Newell",
           "Amount": 2,
+          "Minutes": 274,
           "Poster": "/zeLnvLZtyJaBP1wWceRM7HWkm0E.jpg",
           "Gender": 2
         },
@@ -24299,6 +25064,7 @@ var data = {
           "ID": 7314,
           "FullName": "Nick Park",
           "Amount": 2,
+          "Minutes": 173,
           "Poster": "/52Y43KLvKWQ4PyVQOmjXyjOxUED.jpg",
           "Gender": 2
         },
@@ -24306,6 +25072,7 @@ var data = {
           "ID": 226599,
           "FullName": "Norman Ferguson",
           "Amount": 2,
+          "Minutes": 152,
           "Poster": "/fp0NPNlKl08kKbEgrlgvmxJJC7L.jpg",
           "Gender": 2
         },
@@ -24313,6 +25080,7 @@ var data = {
           "ID": 10099,
           "FullName": "Park Chan-wook",
           "Amount": 2,
+          "Minutes": 260,
           "Poster": "/jsSFCVB7MhuVbSLwTgESiXEiNjt.jpg",
           "Gender": 2
         },
@@ -24320,6 +25088,7 @@ var data = {
           "ID": 25598,
           "FullName": "Paul Greengrass",
           "Amount": 2,
+          "Minutes": 223,
           "Poster": "/kJxQWrERq8p7gxRP2fIcS8suwme.jpg",
           "Gender": 2
         },
@@ -24327,6 +25096,7 @@ var data = {
           "ID": 4762,
           "FullName": "Paul Thomas Anderson",
           "Amount": 2,
+          "Minutes": 288,
           "Poster": "/wKAs2LtLYSUzt3ZZ8pnxMwuEWuR.jpg",
           "Gender": 2
         },
@@ -24334,6 +25104,7 @@ var data = {
           "ID": 1230252,
           "FullName": "Peter Howitt",
           "Amount": 2,
+          "Minutes": 186,
           "Poster": "/rULzO7TsxYzdfgevc2kILxsoYWN.jpg",
           "Gender": 2
         },
@@ -24341,6 +25112,7 @@ var data = {
           "ID": 2690,
           "FullName": "Peter Weir",
           "Amount": 2,
+          "Minutes": 231,
           "Poster": "/4GxIZX5gtbMpW4ZgHwvGmLSIHOE.jpg",
           "Gender": 2
         },
@@ -24348,6 +25120,7 @@ var data = {
           "ID": 13015,
           "FullName": "Phillip Noyce",
           "Amount": 2,
+          "Minutes": 235,
           "Poster": "/t41FK8X4egnSLNDexVUZ5yGq3XB.jpg",
           "Gender": 2
         },
@@ -24355,6 +25128,7 @@ var data = {
           "ID": 16938,
           "FullName": "Renny Harlin",
           "Amount": 2,
+          "Minutes": 236,
           "Poster": "/IhXiDrZBrsLZpB5K5BmzUGkp4G.jpg",
           "Gender": 2
         },
@@ -24362,6 +25136,7 @@ var data = {
           "ID": 76462,
           "FullName": "Richard Schenkman",
           "Amount": 2,
+          "Minutes": 173,
           "Poster": "/dOtAJug3jZeAE5tji7Dg6HBlWsv.jpg",
           "Gender": 2
         },
@@ -24369,20 +25144,39 @@ var data = {
           "ID": 18878,
           "FullName": "Rob Cohen",
           "Amount": 2,
+          "Minutes": 230,
           "Poster": "/kVbB8Q0g8eXsn8l81flyC6TgMPW.jpg",
+          "Gender": 2
+        },
+        {
+          "ID": 9789,
+          "FullName": "Robert Altman",
+          "Amount": 2,
+          "Minutes": 261,
+          "Poster": "/wB1R6patGi35oaxKU5PWEGJlIZg.jpg",
           "Gender": 2
         },
         {
           "ID": 138781,
           "FullName": "Robert Eggers",
           "Amount": 2,
+          "Minutes": 201,
           "Poster": "/xdN30BowN6uLjeNXYWWZINeht12.jpg",
+          "Gender": 2
+        },
+        {
+          "ID": 4410,
+          "FullName": "Roberto Rossellini",
+          "Amount": 2,
+          "Minutes": 192,
+          "Poster": "/dEfCuU0CoIqhgoEDtHZpIoNWNVj.jpg",
           "Gender": 2
         },
         {
           "ID": 7017,
           "FullName": "Roger Michell",
           "Amount": 2,
+          "Minutes": 222,
           "Poster": "/lZP8wowfwLZ0rIld95KSkmGQd23.jpg",
           "Gender": 2
         },
@@ -24390,6 +25184,7 @@ var data = {
           "ID": 15810,
           "FullName": "Ron Clements",
           "Amount": 2,
+          "Minutes": 190,
           "Poster": "/u9k9yg2EGlDsxYo3ehf35yRUfcD.jpg",
           "Gender": 2
         },
@@ -24397,6 +25192,7 @@ var data = {
           "ID": 7623,
           "FullName": "Sam Raimi",
           "Amount": 2,
+          "Minutes": 233,
           "Poster": "/8gssvwiPrFRuFRlr5ruKx68k1Jl.jpg",
           "Gender": 2
         },
@@ -24404,6 +25200,7 @@ var data = {
           "ID": 118415,
           "FullName": "Sean Baker",
           "Amount": 2,
+          "Minutes": 199,
           "Poster": "/i0qiOKGXRHK3FqIUcjav09KAruk.jpg",
           "Gender": 2
         },
@@ -24411,6 +25208,7 @@ var data = {
           "ID": 1142171,
           "FullName": "Sebasti\u00E1n Lelio",
           "Amount": 2,
+          "Minutes": 222,
           "Poster": "/uzYhbqxO8BGkzBl4g5xHUZbaD7V.jpg",
           "Gender": 2
         },
@@ -24418,6 +25216,7 @@ var data = {
           "ID": 12786,
           "FullName": "Simon West",
           "Amount": 2,
+          "Minutes": 216,
           "Poster": "/yQpwEIsszmeVCmEAp8yrPP8LtvS.jpg",
           "Gender": 2
         },
@@ -24425,6 +25224,7 @@ var data = {
           "ID": 13284,
           "FullName": "Stanley Donen",
           "Amount": 2,
+          "Minutes": 215,
           "Poster": "/hvRi8etQyf6Zfh7MRsRP0pBR9Om.jpg",
           "Gender": 2
         },
@@ -24432,6 +25232,7 @@ var data = {
           "ID": 3224,
           "FullName": "Stephen Frears",
           "Amount": 2,
+          "Minutes": 200,
           "Poster": "/2QPhgz395c8MjRpBMidUdSWXOBN.jpg",
           "Gender": 2
         },
@@ -24439,6 +25240,7 @@ var data = {
           "ID": 39189,
           "FullName": "Stephen Merchant",
           "Amount": 2,
+          "Minutes": 193,
           "Poster": "/6WM2rK6390Nwk398syJbGcPvRct.jpg",
           "Gender": 2
         },
@@ -24446,6 +25248,7 @@ var data = {
           "ID": 72757,
           "FullName": "Steve McQueen",
           "Amount": 2,
+          "Minutes": 230,
           "Poster": "/toU1yd6PFn88utmDpWTZ69h5Pkr.jpg",
           "Gender": 2
         },
@@ -24453,20 +25256,15 @@ var data = {
           "ID": 55934,
           "FullName": "Taika Waititi",
           "Amount": 2,
+          "Minutes": 194,
           "Poster": "/aH6MgwFhomAPNBRPyO2fhpU5kbk.jpg",
-          "Gender": 2
-        },
-        {
-          "ID": 280,
-          "FullName": "Terry Gilliam",
-          "Amount": 2,
-          "Poster": "/7qBkaXxANmnb6hqQCBc4iWqXEL6.jpg",
           "Gender": 2
         },
         {
           "ID": 10707,
           "FullName": "Terry Jones",
           "Amount": 2,
+          "Minutes": 185,
           "Poster": "/keJpqxK8gykrrK2W6yeSeDUbYDK.jpg",
           "Gender": 2
         },
@@ -24474,6 +25272,7 @@ var data = {
           "ID": 57130,
           "FullName": "Todd Phillips",
           "Amount": 2,
+          "Minutes": 222,
           "Poster": "/A6FPht87DiqXzp456WjakLi2AtP.jpg",
           "Gender": 2
         },
@@ -24481,6 +25280,7 @@ var data = {
           "ID": 118639,
           "FullName": "Tom Six",
           "Amount": 2,
+          "Minutes": 182,
           "Poster": "/rp9BA1HtLeiAWOzM4IbrfrfLJ0l.jpg",
           "Gender": 2
         },
@@ -24488,6 +25288,7 @@ var data = {
           "ID": 57314,
           "FullName": "Wolfgang Reitherman",
           "Amount": 2,
+          "Minutes": 157,
           "Poster": "/vPQ0Hpf5mtlIcBKQcyKxExio8b0.jpg",
           "Gender": 2
         },
@@ -24495,6 +25296,7 @@ var data = {
           "ID": 5367,
           "FullName": "Zach Braff",
           "Amount": 2,
+          "Minutes": 230,
           "Poster": "/wUAj6juL6HErqEJ1GtuI63rbVea.jpg",
           "Gender": 2
         }
@@ -24508,19 +25310,21 @@ var data = {
           "ID": 90667,
           "FullName": "Ami-Ro Sk\u00F6ld",
           "Amount": 1,
+          "Minutes": 84,
           "Poster": "/gxIYGT158X46OwvahhYoakS5LP0.jpg",
           "Gender": 3
         }
       ]
     },
     "protagonist_All": {
-      "Total": 981,
-      "Unique": 629,
+      "Total": 995,
+      "Unique": 637,
       "PeopleData": [
         {
           "ID": 1932,
           "FullName": "Audrey Hepburn",
           "Amount": 11,
+          "Minutes": 1329,
           "Poster": "9SFLosAt3chN3MZBTYg9VQfXDPF.jpg",
           "Gender": 1
         },
@@ -24528,6 +25332,7 @@ var data = {
           "ID": 6886,
           "FullName": "Christina Ricci",
           "Amount": 10,
+          "Minutes": 1010,
           "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
           "Gender": 1
         },
@@ -24535,6 +25340,7 @@ var data = {
           "ID": 8635,
           "FullName": "Buster Keaton",
           "Amount": 9,
+          "Minutes": 250,
           "Poster": "/iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
           "Gender": 2
         },
@@ -24542,6 +25348,7 @@ var data = {
           "ID": 72129,
           "FullName": "Jennifer Lawrence",
           "Amount": 9,
+          "Minutes": 1051,
           "Poster": "/k6CsASaySnS3ag0Y2Ns2vqPahVn.jpg",
           "Gender": 1
         },
@@ -24549,6 +25356,7 @@ var data = {
           "ID": 6193,
           "FullName": "Leonardo DiCaprio",
           "Amount": 9,
+          "Minutes": 1382,
           "Poster": "/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg",
           "Gender": 2
         },
@@ -24556,6 +25364,7 @@ var data = {
           "ID": 2963,
           "FullName": "Nicolas Cage",
           "Amount": 9,
+          "Minutes": 1055,
           "Poster": "/ar33qcWbEgREn07ZpXv5Pbj8hbM.jpg",
           "Gender": 2
         },
@@ -24563,6 +25372,7 @@ var data = {
           "ID": 500,
           "FullName": "Tom Cruise",
           "Amount": 9,
+          "Minutes": 1167,
           "Poster": "/eOh4ubpOm2Igdg0QH2ghj0mFtC.jpg",
           "Gender": 2
         },
@@ -24570,6 +25380,7 @@ var data = {
           "ID": 1100,
           "FullName": "Arnold Schwarzenegger",
           "Amount": 8,
+          "Minutes": 928,
           "Poster": "/z6IbTtI2FWAVZE6b1V4mqEHjwO6.jpg",
           "Gender": 2
         },
@@ -24577,6 +25388,7 @@ var data = {
           "ID": 62,
           "FullName": "Bruce Willis",
           "Amount": 8,
+          "Minutes": 1020,
           "Poster": "/w3aXr1e7gQCn8MSp1vW4sXHn99P.jpg",
           "Gender": 2
         },
@@ -24584,6 +25396,7 @@ var data = {
           "ID": 10980,
           "FullName": "Daniel Radcliffe",
           "Amount": 8,
+          "Minutes": 1178,
           "Poster": "/iPg0J9UzAlPj1fLEJNllpW9IhGe.jpg",
           "Gender": 2
         },
@@ -24591,6 +25404,7 @@ var data = {
           "ID": 3,
           "FullName": "Harrison Ford",
           "Amount": 8,
+          "Minutes": 971,
           "Poster": "/zVnHagUvXkR2StdOtquEwsiwSVt.jpg",
           "Gender": 2
         },
@@ -24598,6 +25412,7 @@ var data = {
           "ID": 1892,
           "FullName": "Matt Damon",
           "Amount": 8,
+          "Minutes": 1024,
           "Poster": "/ehwS5WvU5yL5vKcUEqbzGK8Fh8B.jpg",
           "Gender": 2
         },
@@ -24605,13 +25420,15 @@ var data = {
           "ID": 1373737,
           "FullName": "Florence Pugh",
           "Amount": 7,
-          "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
+          "Minutes": 789,
+          "Poster": "f8e41Oon18FiEZr4zgyJDVUqOeh.jpg",
           "Gender": 1
         },
         {
           "ID": 2888,
           "FullName": "Will Smith",
           "Amount": 7,
+          "Minutes": 859,
           "Poster": "/1QqaRZ8neYlqLx7ODZC4as47wUV.jpg",
           "Gender": 2
         },
@@ -24619,6 +25436,7 @@ var data = {
           "ID": 54693,
           "FullName": "Emma Stone",
           "Amount": 6,
+          "Minutes": 798,
           "Poster": "/sFlktjWgUANqfUnqWJOhzICvp4v.jpg",
           "Gender": 1
         },
@@ -24626,6 +25444,7 @@ var data = {
           "ID": 1461,
           "FullName": "George Clooney",
           "Amount": 6,
+          "Minutes": 682,
           "Poster": "/qCShMw6NW9dWcmCQrCl4tLNQwiC.jpg",
           "Gender": 2
         },
@@ -24633,6 +25452,7 @@ var data = {
           "ID": 936970,
           "FullName": "Julia Garner",
           "Amount": 6,
+          "Minutes": 584,
           "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
           "Gender": 1
         },
@@ -24640,6 +25460,7 @@ var data = {
           "ID": 6384,
           "FullName": "Keanu Reeves",
           "Amount": 6,
+          "Minutes": 688,
           "Poster": "/4D0PpNI0kmP58hgrwGC3wCjxhnm.jpg",
           "Gender": 2
         },
@@ -24647,6 +25468,7 @@ var data = {
           "ID": 517,
           "FullName": "Pierce Brosnan",
           "Amount": 6,
+          "Minutes": 718,
           "Poster": "/dzXVwwJLPwiZeXOnf7YxorqVEEM.jpg",
           "Gender": 2
         },
@@ -24654,6 +25476,7 @@ var data = {
           "ID": 18277,
           "FullName": "Sandra Bullock",
           "Amount": 6,
+          "Minutes": 706,
           "Poster": "/hPHGKPAWZ8gArYXMk225rrYPoyJ.jpg",
           "Gender": 1
         },
@@ -24661,6 +25484,7 @@ var data = {
           "ID": 31,
           "FullName": "Tom Hanks",
           "Amount": 6,
+          "Minutes": 798,
           "Poster": "/eKF1sGJRrZJbfBG1KirPt1cfNd3.jpg",
           "Gender": 2
         },
@@ -24668,13 +25492,23 @@ var data = {
           "ID": 119592,
           "FullName": "Aubrey Plaza",
           "Amount": 5,
+          "Minutes": 494,
           "Poster": "/7MWqITTynu0ZGqeshaNj89s8G1X.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 50,
+          "FullName": "Catherine Deneuve",
+          "Amount": 5,
+          "Minutes": 539,
+          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
           "Gender": 1
         },
         {
           "ID": 3894,
           "FullName": "Christian Bale",
           "Amount": 5,
+          "Minutes": 615,
           "Poster": "/7Pxez9J8fuPd2Mn9kex13YALrCQ.jpg",
           "Gender": 2
         },
@@ -24682,13 +25516,23 @@ var data = {
           "ID": 8784,
           "FullName": "Daniel Craig",
           "Amount": 5,
+          "Minutes": 679,
           "Poster": "/iFerDZUmC5Fu26i4qI8xnUVEHc7.jpg",
           "Gender": 2
+        },
+        {
+          "ID": 4111,
+          "FullName": "Ingrid Bergman",
+          "Amount": 5,
+          "Minutes": 447,
+          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
+          "Gender": 1
         },
         {
           "ID": 2157,
           "FullName": "Robin Williams",
           "Amount": 5,
+          "Minutes": 571,
           "Poster": "/3vypmub75rLItlC51uJUurNYkW0.jpg",
           "Gender": 2
         },
@@ -24696,6 +25540,7 @@ var data = {
           "ID": 2231,
           "FullName": "Samuel L. Jackson",
           "Amount": 5,
+          "Minutes": 623,
           "Poster": "/AiAYAqwpM5xmiFrAIeQvUXDCVvo.jpg",
           "Gender": 2
         },
@@ -24703,6 +25548,7 @@ var data = {
           "ID": 47,
           "FullName": "Bj\u00F6rk",
           "Amount": 4,
+          "Minutes": 317,
           "Poster": "/Ahc3TWomYakLcbqZRVBDdf3rhMR.jpg",
           "Gender": 1
         },
@@ -24710,6 +25556,7 @@ var data = {
           "ID": 6941,
           "FullName": "Cameron Diaz",
           "Amount": 4,
+          "Minutes": 445,
           "Poster": "/y5DitIz69LzqFCTZd1omRpalpMy.jpg",
           "Gender": 1
         },
@@ -24717,20 +25564,15 @@ var data = {
           "ID": 112,
           "FullName": "Cate Blanchett",
           "Amount": 4,
+          "Minutes": 486,
           "Poster": "/9V83uemR0ra9Wd9iRXTMlfAQlTB.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 50,
-          "FullName": "Catherine Deneuve",
-          "Amount": 4,
-          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
           "Gender": 1
         },
         {
           "ID": 72466,
           "FullName": "Colin Farrell",
           "Amount": 4,
+          "Minutes": 422,
           "Poster": "/9BWYfxrVyzVpcvP8YT9QT8oQAfS.jpg",
           "Gender": 2
         },
@@ -24738,20 +25580,15 @@ var data = {
           "ID": 109,
           "FullName": "Elijah Wood",
           "Amount": 4,
+          "Minutes": 651,
           "Poster": "/7UKRbJBNG7mxBl2QQc5XsAh6F8B.jpg",
           "Gender": 2
-        },
-        {
-          "ID": 4111,
-          "FullName": "Ingrid Bergman",
-          "Amount": 4,
-          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
-          "Gender": 1
         },
         {
           "ID": 8891,
           "FullName": "John Travolta",
           "Amount": 4,
+          "Minutes": 501,
           "Poster": "/9GVufE87MMIrSn0CbJFLudkALdL.jpg",
           "Gender": 2
         },
@@ -24759,6 +25596,7 @@ var data = {
           "ID": 85,
           "FullName": "Johnny Depp",
           "Amount": 4,
+          "Minutes": 490,
           "Poster": "/wcI594cwM4ArPwvRd2IU0Z0yLuh.jpg",
           "Gender": 2
         },
@@ -24766,6 +25604,7 @@ var data = {
           "ID": 10297,
           "FullName": "Matthew McConaughey",
           "Amount": 4,
+          "Minutes": 506,
           "Poster": "/sY2mwpafcwqyYS1sOySu1MENDse.jpg",
           "Gender": 2
         },
@@ -24773,6 +25612,7 @@ var data = {
           "ID": 3392,
           "FullName": "Michael Douglas",
           "Amount": 4,
+          "Minutes": 481,
           "Poster": "/kVYGPIZowzXLEQfAGUNOqKjAbBb.jpg",
           "Gender": 2
         },
@@ -24780,6 +25620,7 @@ var data = {
           "ID": 12073,
           "FullName": "Mike Myers",
           "Amount": 4,
+          "Minutes": 369,
           "Poster": "/3cS8sGxRI7PKS4qMj44m1aHDX1d.jpg",
           "Gender": 2
         },
@@ -24787,6 +25628,7 @@ var data = {
           "ID": 10730,
           "FullName": "Rowan Atkinson",
           "Amount": 4,
+          "Minutes": 389,
           "Poster": "/wxTgS4SFanVKbnvu9xqOzNJWJwz.jpg",
           "Gender": 2
         },
@@ -24794,6 +25636,7 @@ var data = {
           "ID": 2228,
           "FullName": "Sean Penn",
           "Amount": 4,
+          "Minutes": 480,
           "Poster": "/lpZRNf56TmPsNNWZ7lhcgFM6rBc.jpg",
           "Gender": 2
         },
@@ -24801,6 +25644,7 @@ var data = {
           "ID": 10959,
           "FullName": "Shia LaBeouf",
           "Amount": 4,
+          "Minutes": 461,
           "Poster": "/ljlpaXEManszxIcshYQoqo4au03.jpg",
           "Gender": 2
         },
@@ -24808,6 +25652,7 @@ var data = {
           "ID": 1397778,
           "FullName": "Anya Taylor-Joy",
           "Amount": 3,
+          "Minutes": 348,
           "Poster": "/qYNofOjlRke2MlJVihmJmEdQI4v.jpg",
           "Gender": 1
         },
@@ -24815,6 +25660,7 @@ var data = {
           "ID": 1532,
           "FullName": "Bill Murray",
           "Amount": 3,
+          "Minutes": 310,
           "Poster": "/nnCsJc9x3ZiG3AFyiyc3FPehppy.jpg",
           "Gender": 2
         },
@@ -24822,6 +25668,7 @@ var data = {
           "ID": 287,
           "FullName": "Brad Pitt",
           "Amount": 3,
+          "Minutes": 375,
           "Poster": "/ajNaPmXVVMJFg9GWmu6MJzTaXdV.jpg",
           "Gender": 2
         },
@@ -24829,6 +25676,7 @@ var data = {
           "ID": 18269,
           "FullName": "Brendan Fraser",
           "Amount": 3,
+          "Minutes": 336,
           "Poster": "/tFj5PaWWQbb8rHBBhu1EHklznph.jpg",
           "Gender": 2
         },
@@ -24836,6 +25684,7 @@ var data = {
           "ID": 190,
           "FullName": "Clint Eastwood",
           "Amount": 3,
+          "Minutes": 361,
           "Poster": "/dU35NnjZ4aGw5abIJe3WXVf3Eey.jpg",
           "Gender": 2
         },
@@ -24843,6 +25692,7 @@ var data = {
           "ID": 3416,
           "FullName": "Demi Moore",
           "Amount": 3,
+          "Minutes": 374,
           "Poster": "daQIsKnFmw412UIkRCm3eoUgLLz.jpg",
           "Gender": 1
         },
@@ -24850,6 +25700,7 @@ var data = {
           "ID": 5292,
           "FullName": "Denzel Washington",
           "Amount": 3,
+          "Minutes": 365,
           "Poster": "/jj2Gcobpopokal0YstuCQW0ldJ4.jpg",
           "Gender": 2
         },
@@ -24857,6 +25708,7 @@ var data = {
           "ID": 819,
           "FullName": "Edward Norton",
           "Amount": 3,
+          "Minutes": 393,
           "Poster": "/8nytsqL59SFJTVYVrN72k6qkGgJ.jpg",
           "Gender": 2
         },
@@ -24864,6 +25716,7 @@ var data = {
           "ID": 9560,
           "FullName": "Ellen Burstyn",
           "Amount": 3,
+          "Minutes": 331,
           "Poster": "/wjxo9Yw8ZoKewcRlHShfTIZGVQF.jpg",
           "Gender": 1
         },
@@ -24871,6 +25724,7 @@ var data = {
           "ID": 27578,
           "FullName": "Elliot Page",
           "Amount": 3,
+          "Minutes": 311,
           "Poster": "/eCeFgzS8dYHnMfWQT0oQitCrsSz.jpg",
           "Gender": 3
         },
@@ -24878,6 +25732,7 @@ var data = {
           "ID": 3910,
           "FullName": "Frances McDormand",
           "Amount": 3,
+          "Minutes": 321,
           "Poster": "/r0A7hZsM1zuavTr0jN7bwmBcliR.jpg",
           "Gender": 1
         },
@@ -24885,6 +25740,7 @@ var data = {
           "ID": 3291,
           "FullName": "Hugh Grant",
           "Amount": 3,
+          "Minutes": 353,
           "Poster": "/piTC1mCFr6ZCS3SdaN5qF9Vnqu7.jpg",
           "Gender": 2
         },
@@ -24892,6 +25748,7 @@ var data = {
           "ID": 514,
           "FullName": "Jack Nicholson",
           "Amount": 3,
+          "Minutes": 374,
           "Poster": "/a7GOkGcxmrWHv1wr3e1zeWnasxq.jpg",
           "Gender": 2
         },
@@ -24899,6 +25756,7 @@ var data = {
           "ID": 18897,
           "FullName": "Jackie Chan",
           "Amount": 3,
+          "Minutes": 279,
           "Poster": "/nraZoTzwJQPHspAVsKfgl3RXKKa.jpg",
           "Gender": 2
         },
@@ -24906,6 +25764,7 @@ var data = {
           "ID": 131,
           "FullName": "Jake Gyllenhaal",
           "Amount": 3,
+          "Minutes": 355,
           "Poster": "/btORQRDyGCF0KNweGGYpmQXZK3P.jpg",
           "Gender": 2
         },
@@ -24913,6 +25772,7 @@ var data = {
           "ID": 854,
           "FullName": "James Stewart",
           "Amount": 3,
+          "Minutes": 374,
           "Poster": "/yId5fdDqShOkr0YjCoJbUOZipcX.jpg",
           "Gender": 2
         },
@@ -24920,6 +25780,7 @@ var data = {
           "ID": 206,
           "FullName": "Jim Carrey",
           "Amount": 3,
+          "Minutes": 312,
           "Poster": "/kuSlwTPsVlBMW0cvnFmbZce6PaV.jpg",
           "Gender": 2
         },
@@ -24927,6 +25788,7 @@ var data = {
           "ID": 73421,
           "FullName": "Joaquin Phoenix",
           "Amount": 3,
+          "Minutes": 350,
           "Poster": "/ls72wfQl8AhRVFeBnotmnAdy3JR.jpg",
           "Gender": 2
         },
@@ -24934,6 +25796,7 @@ var data = {
           "ID": 1038,
           "FullName": "Jodie Foster",
           "Amount": 3,
+          "Minutes": 328,
           "Poster": "/resiaRfWvj4N84TgJi9DPOafCpq.jpg",
           "Gender": 1
         },
@@ -24941,6 +25804,7 @@ var data = {
           "ID": 9656,
           "FullName": "Johnny Knoxville",
           "Amount": 3,
+          "Minutes": 276,
           "Poster": "/7XDKsHsLC4uNYaGsuWG1tQXWRnu.jpg",
           "Gender": 2
         },
@@ -24948,6 +25812,7 @@ var data = {
           "ID": 24045,
           "FullName": "Joseph Gordon-Levitt",
           "Amount": 3,
+          "Minutes": 307,
           "Poster": "/z2FA8js799xqtfiFjBTicFYdfk.jpg",
           "Gender": 2
         },
@@ -24955,6 +25820,7 @@ var data = {
           "ID": 1204,
           "FullName": "Julia Roberts",
           "Amount": 3,
+          "Minutes": 353,
           "Poster": "/AhQMyQ10kz5g8Y3Fp54GPhgDxQS.jpg",
           "Gender": 1
         },
@@ -24962,6 +25828,7 @@ var data = {
           "ID": 37917,
           "FullName": "Kristen Stewart",
           "Amount": 3,
+          "Minutes": 315,
           "Poster": "/rSWE4DfR0yVEDx7Pe7jleXQpQDt.jpg",
           "Gender": 1
         },
@@ -24969,6 +25836,7 @@ var data = {
           "ID": 7633,
           "FullName": "Leslie Nielsen",
           "Amount": 3,
+          "Minutes": 254,
           "Poster": "/u5vWl5dw69Nf89f905Qb5JqEVL3.jpg",
           "Gender": 2
         },
@@ -24976,6 +25844,7 @@ var data = {
           "ID": 11510,
           "FullName": "Macaulay Culkin",
           "Amount": 3,
+          "Minutes": 304,
           "Poster": "/hVagDqi5o8lZ21b1kXAl45Sj9wt.jpg",
           "Gender": 2
         },
@@ -24983,6 +25852,7 @@ var data = {
           "ID": 4756,
           "FullName": "Matthew Broderick",
           "Amount": 3,
+          "Minutes": 295,
           "Poster": "/papqFgpyroZJEqd7WvuNGN8ti2k.jpg",
           "Gender": 2
         },
@@ -24990,6 +25860,7 @@ var data = {
           "ID": 1137824,
           "FullName": "Mia Goth",
           "Amount": 3,
+          "Minutes": 312,
           "Poster": "/jlxfhuAiNpPEAsyswSfY3njn36m.jpg",
           "Gender": 1
         },
@@ -24997,6 +25868,7 @@ var data = {
           "ID": 521,
           "FullName": "Michael J. Fox",
           "Amount": 3,
+          "Minutes": 308,
           "Poster": "/2JB4FMgQmnhbBlQ4SxWFN9EIVDi.jpg",
           "Gender": 2
         },
@@ -25004,6 +25876,7 @@ var data = {
           "ID": 3489,
           "FullName": "Naomi Watts",
           "Amount": 3,
+          "Minutes": 376,
           "Poster": "/k6l8BWX1yqfGt95enzEkHoPvON4.jpg",
           "Gender": 1
         },
@@ -25011,6 +25884,7 @@ var data = {
           "ID": 3293,
           "FullName": "Rachel Weisz",
           "Amount": 3,
+          "Minutes": 313,
           "Poster": "/msTqKPA33ryVtcVNgOdeaJGYq16.jpg",
           "Gender": 1
         },
@@ -25018,6 +25892,7 @@ var data = {
           "ID": 934,
           "FullName": "Russell Crowe",
           "Amount": 3,
+          "Minutes": 428,
           "Poster": "/uxiXuVH4vNWrKlJMVVPG1sxAJFe.jpg",
           "Gender": 2
         },
@@ -25025,6 +25900,7 @@ var data = {
           "ID": 30614,
           "FullName": "Ryan Gosling",
           "Amount": 3,
+          "Minutes": 335,
           "Poster": "/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg",
           "Gender": 2
         },
@@ -25032,13 +25908,23 @@ var data = {
           "ID": 6730,
           "FullName": "Sacha Baron Cohen",
           "Amount": 3,
+          "Minutes": 263,
           "Poster": "/irirhgOX0siCyqvMrt2hoJpXfOG.jpg",
           "Gender": 2
+        },
+        {
+          "ID": 36592,
+          "FullName": "Saoirse Ronan",
+          "Amount": 3,
+          "Minutes": 347,
+          "Poster": "/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg",
+          "Gender": 1
         },
         {
           "ID": 98,
           "FullName": "Sarah Polley",
           "Amount": 3,
+          "Minutes": 314,
           "Poster": "/qcdT6y6QEjaERHPUBC07YGKgR6k.jpg",
           "Gender": 1
         },
@@ -25046,6 +25932,7 @@ var data = {
           "ID": 11108,
           "FullName": "Simon Pegg",
           "Amount": 3,
+          "Minutes": 320,
           "Poster": "/kIMnWkZciXXHYyD8GxMYvDLD29x.jpg",
           "Gender": 2
         },
@@ -25053,6 +25940,7 @@ var data = {
           "ID": 62561,
           "FullName": "Tessa Thompson",
           "Amount": 3,
+          "Minutes": 297,
           "Poster": "/ldbkM4avGwZb9Qupt9sQcRL8bq6.jpg",
           "Gender": 1
         },
@@ -25060,6 +25948,7 @@ var data = {
           "ID": 3063,
           "FullName": "Tilda Swinton",
           "Amount": 3,
+          "Minutes": 323,
           "Poster": "/gWbX3a7V2MgRMRzekfITNcb27xV.jpg",
           "Gender": 1
         },
@@ -25067,6 +25956,7 @@ var data = {
           "ID": 2144,
           "FullName": "Tobin Bell",
           "Amount": 3,
+          "Minutes": 294,
           "Poster": "/q21uuCtTioIVcGc3a1Q0DpdcNMO.jpg",
           "Gender": 2
         },
@@ -25074,6 +25964,7 @@ var data = {
           "ID": 2524,
           "FullName": "Tom Hardy",
           "Amount": 3,
+          "Minutes": 345,
           "Poster": "/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg",
           "Gender": 2
         },
@@ -25081,6 +25972,7 @@ var data = {
           "ID": 1158,
           "FullName": "Al Pacino",
           "Amount": 2,
+          "Minutes": 372,
           "Poster": "/2dGBb1fOcNdZjtQToVPFxXjm4ke.jpg",
           "Gender": 2
         },
@@ -25088,6 +25980,7 @@ var data = {
           "ID": 13,
           "FullName": "Albert Brooks",
           "Amount": 2,
+          "Minutes": 197,
           "Poster": "/8iDSGu5l93N7benjf6b3AysBore.jpg",
           "Gender": 2
         },
@@ -25095,13 +25988,23 @@ var data = {
           "ID": 11701,
           "FullName": "Angelina Jolie",
           "Amount": 2,
+          "Minutes": 241,
           "Poster": "/bXNxIKcJ5cNNW8QFrBPWcfTSu9x.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 84223,
+          "FullName": "Anna Kendrick",
+          "Amount": 2,
+          "Minutes": 186,
+          "Poster": "/cyGjHMJO7C6kQTq36n9hkLThY4G.jpg",
           "Gender": 1
         },
         {
           "ID": 18976,
           "FullName": "Ashton Kutcher",
           "Amount": 2,
+          "Minutes": 203,
           "Poster": "/4QrIyEezQ9sF8YO7tvQ739GjHVy.jpg",
           "Gender": 2
         },
@@ -25109,6 +26012,7 @@ var data = {
           "ID": 2405,
           "FullName": "Audrey Tautou",
           "Amount": 2,
+          "Minutes": 219,
           "Poster": "/moh0My0K3BP4d6AZx7jkPKqRORT.jpg",
           "Gender": 1
         },
@@ -25116,6 +26020,7 @@ var data = {
           "ID": 1625558,
           "FullName": "Awkwafina",
           "Amount": 2,
+          "Minutes": 199,
           "Poster": "/l5AKkg3H1QhMuXmTTmq1EyjyiRb.jpg",
           "Gender": 1
         },
@@ -25123,6 +26028,7 @@ var data = {
           "ID": 7399,
           "FullName": "Ben Stiller",
           "Amount": 2,
+          "Minutes": 223,
           "Poster": "/scgpxhI05JpdNXXfmpK6z0rPOWN.jpg",
           "Gender": 2
         },
@@ -25130,6 +26036,7 @@ var data = {
           "ID": 51329,
           "FullName": "Bradley Cooper",
           "Amount": 2,
+          "Minutes": 222,
           "Poster": "/fNc2ophIkZD5AqMyPsDnfM1yi5C.jpg",
           "Gender": 2
         },
@@ -25137,13 +26044,23 @@ var data = {
           "ID": 60073,
           "FullName": "Brie Larson",
           "Amount": 2,
+          "Minutes": 214,
           "Poster": "/iqZ5uKJWbwSITCK4CqdlUHZTnXD.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 36662,
+          "FullName": "Carey Mulligan",
+          "Amount": 2,
+          "Minutes": 213,
+          "Poster": "/iwVHhqoz5b62FR0SDpZ7wfsuTBI.jpg",
           "Gender": 1
         },
         {
           "ID": 1893,
           "FullName": "Casey Affleck",
           "Amount": 2,
+          "Minutes": 251,
           "Poster": "/hcggAadv5SwdhoAb4yYMoAFYdWK.jpg",
           "Gender": 2
         },
@@ -25151,6 +26068,7 @@ var data = {
           "ID": 38673,
           "FullName": "Channing Tatum",
           "Amount": 2,
+          "Minutes": 225,
           "Poster": "/xdnstENLdWMPWt9qyhtf695L4t6.jpg",
           "Gender": 2
         },
@@ -25158,6 +26076,7 @@ var data = {
           "ID": 13848,
           "FullName": "Charlie Chaplin",
           "Amount": 2,
+          "Minutes": 113,
           "Poster": "/qQZ2qDAyX9aw8KCkj9VZAQLKysK.jpg",
           "Gender": 2
         },
@@ -25165,6 +26084,7 @@ var data = {
           "ID": 2037,
           "FullName": "Cillian Murphy",
           "Amount": 2,
+          "Minutes": 294,
           "Poster": "/dm6V24NjjvjMiCtbMkc8Y2WPm2e.jpg",
           "Gender": 2
         },
@@ -25172,6 +26092,7 @@ var data = {
           "ID": 11856,
           "FullName": "Daniel Day-Lewis",
           "Amount": 2,
+          "Minutes": 288,
           "Poster": "/3kNA9VcmymoEwT0btQ4bvMYxzcP.jpg",
           "Gender": 2
         },
@@ -25179,6 +26100,7 @@ var data = {
           "ID": 206919,
           "FullName": "Daniel Kaluuya",
           "Amount": 2,
+          "Minutes": 234,
           "Poster": "/jj2kZqJobjom36wlhlYhc38nTwN.jpg",
           "Gender": 2
         },
@@ -25186,6 +26108,7 @@ var data = {
           "ID": 116798,
           "FullName": "Dick Proenneke",
           "Amount": 2,
+          "Minutes": 117,
           "Poster": "/vdz3bngVm575VtmxcKo1zXM36dI.jpg",
           "Gender": 2
         },
@@ -25193,6 +26116,7 @@ var data = {
           "ID": 4483,
           "FullName": "Dustin Hoffman",
           "Amount": 2,
+          "Minutes": 234,
           "Poster": "/yFjTzJHE6AFbwQifOlnNDzmiwlq.jpg",
           "Gender": 2
         },
@@ -25200,6 +26124,7 @@ var data = {
           "ID": 5081,
           "FullName": "Emily Blunt",
           "Amount": 2,
+          "Minutes": 213,
           "Poster": "/nPJXaRMvu1vh3COG16GzmdsBySQ.jpg",
           "Gender": 1
         },
@@ -25207,6 +26132,7 @@ var data = {
           "ID": 1687041,
           "FullName": "Fionn Whitehead",
           "Amount": 2,
+          "Minutes": 197,
           "Poster": "/gnZoQVp29ozHoMU8HysueZtmXs8.jpg",
           "Gender": 2
         },
@@ -25214,6 +26140,7 @@ var data = {
           "ID": 679,
           "FullName": "Franka Potente",
           "Amount": 2,
+          "Minutes": 166,
           "Poster": "/vA2puXpGOd53jKhpwlMbrqmTZqZ.jpg",
           "Gender": 1
         },
@@ -25221,6 +26148,7 @@ var data = {
           "ID": 10722,
           "FullName": "Graham Chapman",
           "Amount": 2,
+          "Minutes": 185,
           "Poster": "/qmTXDGNxuuwQ4IGNHwxmCdjuTGk.jpg",
           "Gender": 2
         },
@@ -25228,6 +26156,7 @@ var data = {
           "ID": 529,
           "FullName": "Guy Pearce",
           "Amount": 2,
+          "Minutes": 251,
           "Poster": "/hCzlUxrTLz3ntoPApW873sX0THf.jpg",
           "Gender": 2
         },
@@ -25235,6 +26164,7 @@ var data = {
           "ID": 12052,
           "FullName": "Gwyneth Paltrow",
           "Amount": 2,
+          "Minutes": 213,
           "Poster": "/3bE5i9bNVxoqQYbx9Dr7gY2n1tG.jpg",
           "Gender": 1
         },
@@ -25242,6 +26172,7 @@ var data = {
           "ID": 19923,
           "FullName": "Hugh Bonneville",
           "Amount": 2,
+          "Minutes": 247,
           "Poster": "/efsEe68avi6kKvnAcGRHDYxtiIm.jpg",
           "Gender": 2
         },
@@ -25249,6 +26180,7 @@ var data = {
           "ID": 6968,
           "FullName": "Hugh Jackman",
           "Amount": 2,
+          "Minutes": 226,
           "Poster": "/oX6CpXmnXCHLyqsa4NEed1DZAKx.jpg",
           "Gender": 2
         },
@@ -25256,6 +26188,7 @@ var data = {
           "ID": 5530,
           "FullName": "James McAvoy",
           "Amount": 2,
+          "Minutes": 207,
           "Poster": "/vB6qYlFXgONGVwwxWXE4gf0F8SQ.jpg",
           "Gender": 2
         },
@@ -25263,6 +26196,7 @@ var data = {
           "ID": 13548,
           "FullName": "James Spader",
           "Amount": 2,
+          "Minutes": 207,
           "Poster": "/uET0mbf2bMkUXbRb1Oxi8Qjqcw3.jpg",
           "Gender": 2
         },
@@ -25270,6 +26204,7 @@ var data = {
           "ID": 21593,
           "FullName": "Jason Biggs",
           "Amount": 2,
+          "Minutes": 203,
           "Poster": "/3nRgOQylYbNuDiddtNoh8uWTz5P.jpg",
           "Gender": 2
         },
@@ -25277,6 +26212,7 @@ var data = {
           "ID": 1229,
           "FullName": "Jeff Bridges",
           "Amount": 2,
+          "Minutes": 234,
           "Poster": "/xms1RAY6q7Lzp7wNeRCB0kzhucn.jpg",
           "Gender": 2
         },
@@ -25284,6 +26220,7 @@ var data = {
           "ID": 4785,
           "FullName": "Jeff Goldblum",
           "Amount": 2,
+          "Minutes": 225,
           "Poster": "/o3PahuK7OmCI0RAQUq38CUBWYZ9.jpg",
           "Gender": 2
         },
@@ -25291,6 +26228,7 @@ var data = {
           "ID": 44735,
           "FullName": "Jesse Eisenberg",
           "Amount": 2,
+          "Minutes": 209,
           "Poster": "/yYhwWRcxDHTn63gSEF1vnDAD7cD.jpg",
           "Gender": 2
         },
@@ -25298,6 +26236,7 @@ var data = {
           "ID": 2299,
           "FullName": "Josh Hartnett",
           "Amount": 2,
+          "Minutes": 255,
           "Poster": "/dCfu2EN7FjISACcjilaJu7evwEc.jpg",
           "Gender": 2
         },
@@ -25305,6 +26244,7 @@ var data = {
           "ID": 5823,
           "FullName": "Julie Andrews",
           "Amount": 2,
+          "Minutes": 313,
           "Poster": "/zYa6ApzrF688x7ckcc2q2Kuchbu.jpg",
           "Gender": 1
         },
@@ -25312,6 +26252,7 @@ var data = {
           "ID": 4724,
           "FullName": "Kevin Bacon",
           "Amount": 2,
+          "Minutes": 176,
           "Poster": "/rjX2Oz3tCZMfSwOoIAyEhdtXnTE.jpg",
           "Gender": 2
         },
@@ -25319,6 +26260,7 @@ var data = {
           "ID": 8945,
           "FullName": "Kevin Kline",
           "Amount": 2,
+          "Minutes": 232,
           "Poster": "/nbxtPbVNA6CjCXMOf5oqipiZFsW.jpg",
           "Gender": 2
         },
@@ -25326,6 +26268,7 @@ var data = {
           "ID": 1979,
           "FullName": "Kevin Spacey",
           "Amount": 2,
+          "Minutes": 252,
           "Poster": "/nPrUZDEbGQe6jwpVbHKJCXsMd7r.jpg",
           "Gender": 2
         },
@@ -25333,13 +26276,23 @@ var data = {
           "ID": 2628,
           "FullName": "Kiefer Sutherland",
           "Amount": 2,
+          "Minutes": 220,
           "Poster": "/3aMoxISGrslmqJ2JadQKwsu4GAI.jpg",
           "Gender": 2
+        },
+        {
+          "ID": 205,
+          "FullName": "Kirsten Dunst",
+          "Amount": 2,
+          "Minutes": 222,
+          "Poster": "/6RAAxI4oPnDMzXpXWgkkzSgnIAJ.jpg",
+          "Gender": 1
         },
         {
           "ID": 6856,
           "FullName": "Kurt Russell",
           "Amount": 2,
+          "Minutes": 222,
           "Poster": "/6g1d98oH4miG4k0ZiZWmF3Dt0bO.jpg",
           "Gender": 2
         },
@@ -25347,6 +26300,7 @@ var data = {
           "ID": 4139056,
           "FullName": "Lazarus Lake",
           "Amount": 2,
+          "Minutes": 165,
           "Poster": "/bwVpm6sRM3u1d2vVgvOgyuWsLWs.jpg",
           "Gender": 0
         },
@@ -25354,6 +26308,7 @@ var data = {
           "ID": 3896,
           "FullName": "Liam Neeson",
           "Amount": 2,
+          "Minutes": 289,
           "Poster": "/bboldwqSC6tdw2iL6631c98l2Mn.jpg",
           "Gender": 2
         },
@@ -25361,6 +26316,7 @@ var data = {
           "ID": 49265,
           "FullName": "Lindsay Lohan",
           "Amount": 2,
+          "Minutes": 225,
           "Poster": "/8TdcVkiHgPp2gIKBPQ42OVa6l0B.jpg",
           "Gender": 1
         },
@@ -25368,6 +26324,7 @@ var data = {
           "ID": 234352,
           "FullName": "Margot Robbie",
           "Amount": 2,
+          "Minutes": 234,
           "Poster": "/euDPyqLnuwaWMHajcU3oZ9uZezR.jpg",
           "Gender": 1
         },
@@ -25375,6 +26332,7 @@ var data = {
           "ID": 2461,
           "FullName": "Mel Gibson",
           "Amount": 2,
+          "Minutes": 298,
           "Poster": "/jnqHMaOslt8cef2atSmOpGRvNla.jpg",
           "Gender": 2
         },
@@ -25382,6 +26340,7 @@ var data = {
           "ID": 5064,
           "FullName": "Meryl Streep",
           "Amount": 2,
+          "Minutes": 217,
           "Poster": "/emAAzyK1rJ6aiMi0wsWYp51EC3h.jpg",
           "Gender": 1
         },
@@ -25389,6 +26348,7 @@ var data = {
           "ID": 3895,
           "FullName": "Michael Caine",
           "Amount": 2,
+          "Minutes": 207,
           "Poster": "/bVZRMlpjTAO2pJK6v90buFgVbSW.jpg",
           "Gender": 2
         },
@@ -25396,6 +26356,7 @@ var data = {
           "ID": 17288,
           "FullName": "Michael Fassbender",
           "Amount": 2,
+          "Minutes": 214,
           "Poster": "/xvbnUiB2ZBR3QIt595OzNy657Vw.jpg",
           "Gender": 2
         },
@@ -25403,6 +26364,7 @@ var data = {
           "ID": 17087,
           "FullName": "Michael Moore",
           "Amount": 2,
+          "Minutes": 243,
           "Poster": "/m5YViuBUXfKAHNEUObGpzhzQPgE.jpg",
           "Gender": 2
         },
@@ -25410,6 +26372,7 @@ var data = {
           "ID": 524,
           "FullName": "Natalie Portman",
           "Amount": 2,
+          "Minutes": 240,
           "Poster": "/edPU5HxncLWa1YkgRPNkSd68ONG.jpg",
           "Gender": 1
         },
@@ -25417,6 +26380,7 @@ var data = {
           "ID": 10871,
           "FullName": "Natasha Lyonne",
           "Amount": 2,
+          "Minutes": 176,
           "Poster": "/2QJoTBEIeYyjGSDot9qxv2ayPH3.jpg",
           "Gender": 1
         },
@@ -25424,6 +26388,7 @@ var data = {
           "ID": 39187,
           "FullName": "Olivia Colman",
           "Amount": 2,
+          "Minutes": 221,
           "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg",
           "Gender": 1
         },
@@ -25431,6 +26396,7 @@ var data = {
           "ID": 13242,
           "FullName": "Paul Giamatti",
           "Amount": 2,
+          "Minutes": 260,
           "Poster": "/ayEWNIXLVNYOrZQsNXrtlZTIZM8.jpg",
           "Gender": 2
         },
@@ -25438,6 +26404,7 @@ var data = {
           "ID": 8167,
           "FullName": "Paul Walker",
           "Amount": 2,
+          "Minutes": 214,
           "Poster": "/q2PLqKHYCs35HR7QybaNPH3JT96.jpg",
           "Gender": 2
         },
@@ -25445,6 +26412,7 @@ var data = {
           "ID": 1976054,
           "FullName": "Rachel Sennott",
           "Amount": 2,
+          "Minutes": 169,
           "Poster": "/fI9Fu7s5KHkdcYWQMAZW4PMY7h2.jpg",
           "Gender": 1
         },
@@ -25452,6 +26420,7 @@ var data = {
           "ID": 9137,
           "FullName": "Ren\u00E9e Zellweger",
           "Amount": 2,
+          "Minutes": 205,
           "Poster": "/gXk1rYzxRA0KRprahPtlBK21hlA.jpg",
           "Gender": 1
         },
@@ -25459,6 +26428,7 @@ var data = {
           "ID": 380,
           "FullName": "Robert De Niro",
           "Amount": 2,
+          "Minutes": 259,
           "Poster": "/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg",
           "Gender": 2
         },
@@ -25466,6 +26436,7 @@ var data = {
           "ID": 39658,
           "FullName": "Sally Hawkins",
           "Amount": 2,
+          "Minutes": 238,
           "Poster": "/osYgwtQIiNbPFc8JkFDxreBgqxZ.jpg",
           "Gender": 1
         },
@@ -25473,20 +26444,15 @@ var data = {
           "ID": 4783,
           "FullName": "Sam Neill",
           "Amount": 2,
+          "Minutes": 219,
           "Poster": "/iIfuxalf37xUayuGyK0zG7z6WEZ.jpg",
           "Gender": 2
-        },
-        {
-          "ID": 36592,
-          "FullName": "Saoirse Ronan",
-          "Amount": 2,
-          "Poster": "/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg",
-          "Gender": 1
         },
         {
           "ID": 4581,
           "FullName": "Steve Coogan",
           "Amount": 2,
+          "Minutes": 197,
           "Poster": "/tT7OXc2qA6hlREHXdwGLp0XihzA.jpg",
           "Gender": 2
         },
@@ -25494,6 +26460,7 @@ var data = {
           "ID": 16483,
           "FullName": "Sylvester Stallone",
           "Amount": 2,
+          "Minutes": 232,
           "Poster": "/Aprx4oBGwdTPHqlfcYbjWlCK3aI.jpg",
           "Gender": 2
         },
@@ -25501,6 +26468,7 @@ var data = {
           "ID": 1356758,
           "FullName": "Thomasin McKenzie",
           "Amount": 2,
+          "Minutes": 225,
           "Poster": "/WOpnEFG5Q8LWxP81MtUrskmVox.jpg",
           "Gender": 1
         },
@@ -25508,6 +26476,7 @@ var data = {
           "ID": 2155,
           "FullName": "Thora Birch",
           "Amount": 2,
+          "Minutes": 213,
           "Poster": "dENdXxclc0NZSFDii6hGnXsEIAs.jpg",
           "Gender": 1
         },
@@ -25515,6 +26484,7 @@ var data = {
           "ID": 13472,
           "FullName": "Tim Curry",
           "Amount": 2,
+          "Minutes": 194,
           "Poster": "/aWGnGa7scPeGCP5DRhHosTrYdfA.jpg",
           "Gender": 2
         },
@@ -25522,6 +26492,7 @@ var data = {
           "ID": 2176,
           "FullName": "Tommy Lee Jones",
           "Amount": 2,
+          "Minutes": 186,
           "Poster": "/mCiZNRAzbnPojJEZwVZWLw9kzxR.jpg",
           "Gender": 2
         },
@@ -25529,6 +26500,7 @@ var data = {
           "ID": 139,
           "FullName": "Uma Thurman",
           "Amount": 2,
+          "Minutes": 247,
           "Poster": "/xuxgPXyv6KjUHIM8cZaxx4ry25L.jpg",
           "Gender": 1
         },
@@ -25536,6 +26508,7 @@ var data = {
           "ID": 110,
           "FullName": "Viggo Mortensen",
           "Amount": 2,
+          "Minutes": 231,
           "Poster": "/vH5gVSpHAMhDaFWfh0Q7BG61O1y.jpg",
           "Gender": 2
         },
@@ -25543,6 +26516,7 @@ var data = {
           "ID": 1302197,
           "FullName": "Wendy McColm",
           "Amount": 2,
+          "Minutes": 182,
           "Poster": "/9rZGudRxg39XjAbhkDRFQZSikmy.jpg",
           "Gender": 1
         },
@@ -25550,6 +26524,7 @@ var data = {
           "ID": 1920,
           "FullName": "Winona Ryder",
           "Amount": 2,
+          "Minutes": 230,
           "Poster": "/nRB8LDsteteDJoUZPKLtu134GsS.jpg",
           "Gender": 1
         }
@@ -25563,6 +26538,7 @@ var data = {
           "ID": 4139056,
           "FullName": "Lazarus Lake",
           "Amount": 2,
+          "Minutes": 165,
           "Poster": "/bwVpm6sRM3u1d2vVgvOgyuWsLWs.jpg",
           "Gender": 0
         },
@@ -25570,6 +26546,7 @@ var data = {
           "ID": 1296895,
           "FullName": "Benedict Lim",
           "Amount": 1,
+          "Minutes": 75,
           "Poster": "/192X0I5Q0lYFue5HY1f1mSSFoAT.jpg",
           "Gender": 0
         },
@@ -25577,6 +26554,7 @@ var data = {
           "ID": 1740418,
           "FullName": "Benj Cave",
           "Amount": 1,
+          "Minutes": 113,
           "Poster": "",
           "Gender": 0
         },
@@ -25584,6 +26562,7 @@ var data = {
           "ID": 1178783,
           "FullName": "Bill Blakemore",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "",
           "Gender": 0
         },
@@ -25591,6 +26570,7 @@ var data = {
           "ID": 1168072,
           "FullName": "Bryon Widner",
           "Amount": 1,
+          "Minutes": 91,
           "Poster": "",
           "Gender": 0
         },
@@ -25598,6 +26578,7 @@ var data = {
           "ID": 96230,
           "FullName": "Gottfrid Svartholm",
           "Amount": 1,
+          "Minutes": 82,
           "Poster": "/m6pVQSGrFM3IdQE2x7vbD4sHzTl.jpg",
           "Gender": 0
         },
@@ -25605,6 +26586,7 @@ var data = {
           "ID": 1058278,
           "FullName": "Grant Munro",
           "Amount": 1,
+          "Minutes": 9,
           "Poster": "",
           "Gender": 0
         },
@@ -25612,6 +26594,7 @@ var data = {
           "ID": 1081504,
           "FullName": "Lucas Brunelle",
           "Amount": 1,
+          "Minutes": 60,
           "Poster": "",
           "Gender": 0
         },
@@ -25619,19 +26602,21 @@ var data = {
           "ID": 76112,
           "FullName": "Steve Wiebe",
           "Amount": 1,
+          "Minutes": 83,
           "Poster": "",
           "Gender": 0
         }
       ]
     },
     "protagonist_1": {
-      "Total": 370,
-      "Unique": 254,
+      "Total": 384,
+      "Unique": 262,
       "PeopleData": [
         {
           "ID": 1932,
           "FullName": "Audrey Hepburn",
           "Amount": 11,
+          "Minutes": 1329,
           "Poster": "9SFLosAt3chN3MZBTYg9VQfXDPF.jpg",
           "Gender": 1
         },
@@ -25639,6 +26624,7 @@ var data = {
           "ID": 6886,
           "FullName": "Christina Ricci",
           "Amount": 10,
+          "Minutes": 1010,
           "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
           "Gender": 1
         },
@@ -25646,6 +26632,7 @@ var data = {
           "ID": 72129,
           "FullName": "Jennifer Lawrence",
           "Amount": 9,
+          "Minutes": 1051,
           "Poster": "/k6CsASaySnS3ag0Y2Ns2vqPahVn.jpg",
           "Gender": 1
         },
@@ -25653,13 +26640,15 @@ var data = {
           "ID": 1373737,
           "FullName": "Florence Pugh",
           "Amount": 7,
-          "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
+          "Minutes": 789,
+          "Poster": "f8e41Oon18FiEZr4zgyJDVUqOeh.jpg",
           "Gender": 1
         },
         {
           "ID": 54693,
           "FullName": "Emma Stone",
           "Amount": 6,
+          "Minutes": 798,
           "Poster": "/sFlktjWgUANqfUnqWJOhzICvp4v.jpg",
           "Gender": 1
         },
@@ -25667,6 +26656,7 @@ var data = {
           "ID": 936970,
           "FullName": "Julia Garner",
           "Amount": 6,
+          "Minutes": 584,
           "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
           "Gender": 1
         },
@@ -25674,6 +26664,7 @@ var data = {
           "ID": 18277,
           "FullName": "Sandra Bullock",
           "Amount": 6,
+          "Minutes": 706,
           "Poster": "/hPHGKPAWZ8gArYXMk225rrYPoyJ.jpg",
           "Gender": 1
         },
@@ -25681,13 +26672,31 @@ var data = {
           "ID": 119592,
           "FullName": "Aubrey Plaza",
           "Amount": 5,
+          "Minutes": 494,
           "Poster": "/7MWqITTynu0ZGqeshaNj89s8G1X.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 50,
+          "FullName": "Catherine Deneuve",
+          "Amount": 5,
+          "Minutes": 539,
+          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 4111,
+          "FullName": "Ingrid Bergman",
+          "Amount": 5,
+          "Minutes": 447,
+          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
           "Gender": 1
         },
         {
           "ID": 47,
           "FullName": "Bj\u00F6rk",
           "Amount": 4,
+          "Minutes": 317,
           "Poster": "/Ahc3TWomYakLcbqZRVBDdf3rhMR.jpg",
           "Gender": 1
         },
@@ -25695,6 +26704,7 @@ var data = {
           "ID": 6941,
           "FullName": "Cameron Diaz",
           "Amount": 4,
+          "Minutes": 445,
           "Poster": "/y5DitIz69LzqFCTZd1omRpalpMy.jpg",
           "Gender": 1
         },
@@ -25702,27 +26712,15 @@ var data = {
           "ID": 112,
           "FullName": "Cate Blanchett",
           "Amount": 4,
+          "Minutes": 486,
           "Poster": "/9V83uemR0ra9Wd9iRXTMlfAQlTB.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 50,
-          "FullName": "Catherine Deneuve",
-          "Amount": 4,
-          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 4111,
-          "FullName": "Ingrid Bergman",
-          "Amount": 4,
-          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
           "Gender": 1
         },
         {
           "ID": 1397778,
           "FullName": "Anya Taylor-Joy",
           "Amount": 3,
+          "Minutes": 348,
           "Poster": "/qYNofOjlRke2MlJVihmJmEdQI4v.jpg",
           "Gender": 1
         },
@@ -25730,6 +26728,7 @@ var data = {
           "ID": 3416,
           "FullName": "Demi Moore",
           "Amount": 3,
+          "Minutes": 374,
           "Poster": "daQIsKnFmw412UIkRCm3eoUgLLz.jpg",
           "Gender": 1
         },
@@ -25737,6 +26736,7 @@ var data = {
           "ID": 9560,
           "FullName": "Ellen Burstyn",
           "Amount": 3,
+          "Minutes": 331,
           "Poster": "/wjxo9Yw8ZoKewcRlHShfTIZGVQF.jpg",
           "Gender": 1
         },
@@ -25744,6 +26744,7 @@ var data = {
           "ID": 3910,
           "FullName": "Frances McDormand",
           "Amount": 3,
+          "Minutes": 321,
           "Poster": "/r0A7hZsM1zuavTr0jN7bwmBcliR.jpg",
           "Gender": 1
         },
@@ -25751,6 +26752,7 @@ var data = {
           "ID": 1038,
           "FullName": "Jodie Foster",
           "Amount": 3,
+          "Minutes": 328,
           "Poster": "/resiaRfWvj4N84TgJi9DPOafCpq.jpg",
           "Gender": 1
         },
@@ -25758,6 +26760,7 @@ var data = {
           "ID": 1204,
           "FullName": "Julia Roberts",
           "Amount": 3,
+          "Minutes": 353,
           "Poster": "/AhQMyQ10kz5g8Y3Fp54GPhgDxQS.jpg",
           "Gender": 1
         },
@@ -25765,6 +26768,7 @@ var data = {
           "ID": 37917,
           "FullName": "Kristen Stewart",
           "Amount": 3,
+          "Minutes": 315,
           "Poster": "/rSWE4DfR0yVEDx7Pe7jleXQpQDt.jpg",
           "Gender": 1
         },
@@ -25772,6 +26776,7 @@ var data = {
           "ID": 1137824,
           "FullName": "Mia Goth",
           "Amount": 3,
+          "Minutes": 312,
           "Poster": "/jlxfhuAiNpPEAsyswSfY3njn36m.jpg",
           "Gender": 1
         },
@@ -25779,6 +26784,7 @@ var data = {
           "ID": 3489,
           "FullName": "Naomi Watts",
           "Amount": 3,
+          "Minutes": 376,
           "Poster": "/k6l8BWX1yqfGt95enzEkHoPvON4.jpg",
           "Gender": 1
         },
@@ -25786,13 +26792,23 @@ var data = {
           "ID": 3293,
           "FullName": "Rachel Weisz",
           "Amount": 3,
+          "Minutes": 313,
           "Poster": "/msTqKPA33ryVtcVNgOdeaJGYq16.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 36592,
+          "FullName": "Saoirse Ronan",
+          "Amount": 3,
+          "Minutes": 347,
+          "Poster": "/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg",
           "Gender": 1
         },
         {
           "ID": 98,
           "FullName": "Sarah Polley",
           "Amount": 3,
+          "Minutes": 314,
           "Poster": "/qcdT6y6QEjaERHPUBC07YGKgR6k.jpg",
           "Gender": 1
         },
@@ -25800,6 +26816,7 @@ var data = {
           "ID": 62561,
           "FullName": "Tessa Thompson",
           "Amount": 3,
+          "Minutes": 297,
           "Poster": "/ldbkM4avGwZb9Qupt9sQcRL8bq6.jpg",
           "Gender": 1
         },
@@ -25807,6 +26824,7 @@ var data = {
           "ID": 3063,
           "FullName": "Tilda Swinton",
           "Amount": 3,
+          "Minutes": 323,
           "Poster": "/gWbX3a7V2MgRMRzekfITNcb27xV.jpg",
           "Gender": 1
         },
@@ -25814,13 +26832,23 @@ var data = {
           "ID": 11701,
           "FullName": "Angelina Jolie",
           "Amount": 2,
+          "Minutes": 241,
           "Poster": "/bXNxIKcJ5cNNW8QFrBPWcfTSu9x.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 84223,
+          "FullName": "Anna Kendrick",
+          "Amount": 2,
+          "Minutes": 186,
+          "Poster": "/cyGjHMJO7C6kQTq36n9hkLThY4G.jpg",
           "Gender": 1
         },
         {
           "ID": 2405,
           "FullName": "Audrey Tautou",
           "Amount": 2,
+          "Minutes": 219,
           "Poster": "/moh0My0K3BP4d6AZx7jkPKqRORT.jpg",
           "Gender": 1
         },
@@ -25828,6 +26856,7 @@ var data = {
           "ID": 1625558,
           "FullName": "Awkwafina",
           "Amount": 2,
+          "Minutes": 199,
           "Poster": "/l5AKkg3H1QhMuXmTTmq1EyjyiRb.jpg",
           "Gender": 1
         },
@@ -25835,13 +26864,23 @@ var data = {
           "ID": 60073,
           "FullName": "Brie Larson",
           "Amount": 2,
+          "Minutes": 214,
           "Poster": "/iqZ5uKJWbwSITCK4CqdlUHZTnXD.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 36662,
+          "FullName": "Carey Mulligan",
+          "Amount": 2,
+          "Minutes": 213,
+          "Poster": "/iwVHhqoz5b62FR0SDpZ7wfsuTBI.jpg",
           "Gender": 1
         },
         {
           "ID": 5081,
           "FullName": "Emily Blunt",
           "Amount": 2,
+          "Minutes": 213,
           "Poster": "/nPJXaRMvu1vh3COG16GzmdsBySQ.jpg",
           "Gender": 1
         },
@@ -25849,6 +26888,7 @@ var data = {
           "ID": 679,
           "FullName": "Franka Potente",
           "Amount": 2,
+          "Minutes": 166,
           "Poster": "/vA2puXpGOd53jKhpwlMbrqmTZqZ.jpg",
           "Gender": 1
         },
@@ -25856,6 +26896,7 @@ var data = {
           "ID": 12052,
           "FullName": "Gwyneth Paltrow",
           "Amount": 2,
+          "Minutes": 213,
           "Poster": "/3bE5i9bNVxoqQYbx9Dr7gY2n1tG.jpg",
           "Gender": 1
         },
@@ -25863,13 +26904,23 @@ var data = {
           "ID": 5823,
           "FullName": "Julie Andrews",
           "Amount": 2,
+          "Minutes": 313,
           "Poster": "/zYa6ApzrF688x7ckcc2q2Kuchbu.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 205,
+          "FullName": "Kirsten Dunst",
+          "Amount": 2,
+          "Minutes": 222,
+          "Poster": "/6RAAxI4oPnDMzXpXWgkkzSgnIAJ.jpg",
           "Gender": 1
         },
         {
           "ID": 49265,
           "FullName": "Lindsay Lohan",
           "Amount": 2,
+          "Minutes": 225,
           "Poster": "/8TdcVkiHgPp2gIKBPQ42OVa6l0B.jpg",
           "Gender": 1
         },
@@ -25877,6 +26928,7 @@ var data = {
           "ID": 234352,
           "FullName": "Margot Robbie",
           "Amount": 2,
+          "Minutes": 234,
           "Poster": "/euDPyqLnuwaWMHajcU3oZ9uZezR.jpg",
           "Gender": 1
         },
@@ -25884,6 +26936,7 @@ var data = {
           "ID": 5064,
           "FullName": "Meryl Streep",
           "Amount": 2,
+          "Minutes": 217,
           "Poster": "/emAAzyK1rJ6aiMi0wsWYp51EC3h.jpg",
           "Gender": 1
         },
@@ -25891,6 +26944,7 @@ var data = {
           "ID": 524,
           "FullName": "Natalie Portman",
           "Amount": 2,
+          "Minutes": 240,
           "Poster": "/edPU5HxncLWa1YkgRPNkSd68ONG.jpg",
           "Gender": 1
         },
@@ -25898,6 +26952,7 @@ var data = {
           "ID": 10871,
           "FullName": "Natasha Lyonne",
           "Amount": 2,
+          "Minutes": 176,
           "Poster": "/2QJoTBEIeYyjGSDot9qxv2ayPH3.jpg",
           "Gender": 1
         },
@@ -25905,6 +26960,7 @@ var data = {
           "ID": 39187,
           "FullName": "Olivia Colman",
           "Amount": 2,
+          "Minutes": 221,
           "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg",
           "Gender": 1
         },
@@ -25912,6 +26968,7 @@ var data = {
           "ID": 1976054,
           "FullName": "Rachel Sennott",
           "Amount": 2,
+          "Minutes": 169,
           "Poster": "/fI9Fu7s5KHkdcYWQMAZW4PMY7h2.jpg",
           "Gender": 1
         },
@@ -25919,6 +26976,7 @@ var data = {
           "ID": 9137,
           "FullName": "Ren\u00E9e Zellweger",
           "Amount": 2,
+          "Minutes": 205,
           "Poster": "/gXk1rYzxRA0KRprahPtlBK21hlA.jpg",
           "Gender": 1
         },
@@ -25926,20 +26984,15 @@ var data = {
           "ID": 39658,
           "FullName": "Sally Hawkins",
           "Amount": 2,
+          "Minutes": 238,
           "Poster": "/osYgwtQIiNbPFc8JkFDxreBgqxZ.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 36592,
-          "FullName": "Saoirse Ronan",
-          "Amount": 2,
-          "Poster": "/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg",
           "Gender": 1
         },
         {
           "ID": 1356758,
           "FullName": "Thomasin McKenzie",
           "Amount": 2,
+          "Minutes": 225,
           "Poster": "/WOpnEFG5Q8LWxP81MtUrskmVox.jpg",
           "Gender": 1
         },
@@ -25947,6 +27000,7 @@ var data = {
           "ID": 2155,
           "FullName": "Thora Birch",
           "Amount": 2,
+          "Minutes": 213,
           "Poster": "dENdXxclc0NZSFDii6hGnXsEIAs.jpg",
           "Gender": 1
         },
@@ -25954,6 +27008,7 @@ var data = {
           "ID": 139,
           "FullName": "Uma Thurman",
           "Amount": 2,
+          "Minutes": 247,
           "Poster": "/xuxgPXyv6KjUHIM8cZaxx4ry25L.jpg",
           "Gender": 1
         },
@@ -25961,6 +27016,7 @@ var data = {
           "ID": 1302197,
           "FullName": "Wendy McColm",
           "Amount": 2,
+          "Minutes": 182,
           "Poster": "/9rZGudRxg39XjAbhkDRFQZSikmy.jpg",
           "Gender": 1
         },
@@ -25968,6 +27024,7 @@ var data = {
           "ID": 1920,
           "FullName": "Winona Ryder",
           "Amount": 2,
+          "Minutes": 230,
           "Poster": "/nRB8LDsteteDJoUZPKLtu134GsS.jpg",
           "Gender": 1
         },
@@ -25975,6 +27032,7 @@ var data = {
           "ID": 17236,
           "FullName": "A.J. Cook",
           "Amount": 1,
+          "Minutes": 90,
           "Poster": "/3uJJU3gFggHeJ60NB0EJifwXDSE.jpg",
           "Gender": 1
         },
@@ -25982,6 +27040,7 @@ var data = {
           "ID": 37260,
           "FullName": "Abbie Cornish",
           "Amount": 1,
+          "Minutes": 116,
           "Poster": "/dgbIbPhVEyWIz0HIuaLGrH6BUEz.jpg",
           "Gender": 1
         },
@@ -25989,6 +27048,7 @@ var data = {
           "ID": 1360010,
           "FullName": "Abby Ryder Fortson",
           "Amount": 1,
+          "Minutes": 107,
           "Poster": "/DPIxORe7Sco6xVIKVbIsHlRYCI.jpg",
           "Gender": 1
         },
@@ -25996,6 +27056,7 @@ var data = {
           "ID": 2935409,
           "FullName": "Abigail Thorn",
           "Amount": 1,
+          "Minutes": 121,
           "Poster": "/hiiGnXrCLApl5nEuqpahPOsTpFD.jpg",
           "Gender": 1
         },
@@ -26003,6 +27064,7 @@ var data = {
           "ID": 467633,
           "FullName": "Adepero Oduye",
           "Amount": 1,
+          "Minutes": 86,
           "Poster": "/w9axk9dSTVpZPnoDH08iClklmF4.jpg",
           "Gender": 1
         },
@@ -26010,6 +27072,7 @@ var data = {
           "ID": 87933,
           "FullName": "Aileen Quinn",
           "Amount": 1,
+          "Minutes": 127,
           "Poster": "/cOa57ipOwg8Wxe7Kz43BP6ZyHD2.jpg",
           "Gender": 1
         },
@@ -26017,13 +27080,23 @@ var data = {
           "ID": 2073292,
           "FullName": "Alexandria Ocasio-Cortez",
           "Amount": 1,
+          "Minutes": 86,
           "Poster": "/zRCSdgQZQ1r4HODKi8VDu3oS8O8.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 1981,
+          "FullName": "Alfre Woodard",
+          "Amount": 1,
+          "Minutes": 112,
+          "Poster": "/70AVFDROBAeVhWDEMKWfXPpBVYq.jpg",
           "Gender": 1
         },
         {
           "ID": 1006679,
           "FullName": "Alice Diabo",
           "Amount": 1,
+          "Minutes": 101,
           "Poster": "",
           "Gender": 1
         },
@@ -26031,6 +27104,7 @@ var data = {
           "ID": 5588,
           "FullName": "Alicia Silverstone",
           "Amount": 1,
+          "Minutes": 97,
           "Poster": "/pyxqkP4i0ubVdoRe5hoiiiwkHkb.jpg",
           "Gender": 1
         },
@@ -26038,6 +27112,7 @@ var data = {
           "ID": 3128,
           "FullName": "Alicia Witt",
           "Amount": 1,
+          "Minutes": 84,
           "Poster": "/vQ2McAjHjY3A7oDrPMx6aLSsvkW.jpg",
           "Gender": 1
         },
@@ -26045,6 +27120,7 @@ var data = {
           "ID": 21595,
           "FullName": "Alyson Hannigan",
           "Amount": 1,
+          "Minutes": 83,
           "Poster": "/bO16z8rAzZWdjCga8dcbJ2AFAh2.jpg",
           "Gender": 1
         },
@@ -26052,6 +27128,7 @@ var data = {
           "ID": 7705,
           "FullName": "Ana\u00EFs Reboux",
           "Amount": 1,
+          "Minutes": 86,
           "Poster": "/w7QFHCG02g558RmpQYFSY6HUSfJ.jpg",
           "Gender": 1
         },
@@ -26059,6 +27136,7 @@ var data = {
           "ID": 65261,
           "FullName": "Angelica Lee",
           "Amount": 1,
+          "Minutes": 98,
           "Poster": "/xTOOAEE8JYQuS7yd9RkTVKKnyP2.jpg",
           "Gender": 1
         },
@@ -26066,6 +27144,7 @@ var data = {
           "ID": 5657,
           "FullName": "Anjelica Huston",
           "Amount": 1,
+          "Minutes": 94,
           "Poster": "/6hnYeHa7Rc1w1MmQ3JsLSIb7yCX.jpg",
           "Gender": 1
         },
@@ -26073,6 +27152,7 @@ var data = {
           "ID": 43366,
           "FullName": "Ann Dowd",
           "Amount": 1,
+          "Minutes": 90,
           "Poster": "/k7c47mgCFos0ng1Sr1VF874MaqA.jpg",
           "Gender": 1
         },
@@ -26080,20 +27160,15 @@ var data = {
           "ID": 1772,
           "FullName": "Anna Faris",
           "Amount": 1,
+          "Minutes": 88,
           "Poster": "/lFJKV8m051as4lWNF8NjiXvbLvR.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 84223,
-          "FullName": "Anna Kendrick",
-          "Amount": 1,
-          "Poster": "/cyGjHMJO7C6kQTq36n9hkLThY4G.jpg",
           "Gender": 1
         },
         {
           "ID": 18227,
           "FullName": "Anne Wiazemsky",
           "Amount": 1,
+          "Minutes": 96,
           "Poster": "/1YF6xvQQXHgED5vJKSFKTTis7Y6.jpg",
           "Gender": 1
         },
@@ -26101,6 +27176,7 @@ var data = {
           "ID": 1918870,
           "FullName": "Anwen O'Driscoll",
           "Amount": 1,
+          "Minutes": 96,
           "Poster": "/fcnsCqKJd7zJCexXCTur6mD6phY.jpg",
           "Gender": 1
         },
@@ -26108,6 +27184,7 @@ var data = {
           "ID": 120248,
           "FullName": "Ashley Bell",
           "Amount": 1,
+          "Minutes": 88,
           "Poster": "/ccTdQ1pmVSVFoxzRDVeh5EAOWcZ.jpg",
           "Gender": 1
         },
@@ -26115,6 +27192,7 @@ var data = {
           "ID": 1564846,
           "FullName": "Auli'i Cravalho",
           "Amount": 1,
+          "Minutes": 107,
           "Poster": "/vEroqcnM2g6yY7qXDAie7hx2Cyp.jpg",
           "Gender": 1
         },
@@ -26122,13 +27200,23 @@ var data = {
           "ID": 64871,
           "FullName": "Barbara Luddy",
           "Amount": 1,
+          "Minutes": 76,
           "Poster": "/jXXbYWessv2MgXPu6fPg0B6sXDi.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 3380,
+          "FullName": "Bette Davis",
+          "Amount": 1,
+          "Minutes": 139,
+          "Poster": "/uBRNCljWHEG9cW9em2ZyoGWQQN5.jpg",
           "Gender": 1
         },
         {
           "ID": 6657,
           "FullName": "Bibi Andersson",
           "Amount": 1,
+          "Minutes": 83,
           "Poster": "/1oVFJtQSOv6mG8HjsReDy3aipt8.jpg",
           "Gender": 1
         },
@@ -26136,6 +27224,7 @@ var data = {
           "ID": 78139,
           "FullName": "Blythe Auffarth",
           "Amount": 1,
+          "Minutes": 91,
           "Poster": "/hFef835SYvxNgd5i8DVd7RFZx5X.jpg",
           "Gender": 1
         },
@@ -26143,6 +27232,7 @@ var data = {
           "ID": 4154,
           "FullName": "Brenda Blethyn",
           "Amount": 1,
+          "Minutes": 142,
           "Poster": "/mxENo8tEvN0998PrNidYkN4wGGO.jpg",
           "Gender": 1
         },
@@ -26150,6 +27240,7 @@ var data = {
           "ID": 2233,
           "FullName": "Bridget Fonda",
           "Amount": 1,
+          "Minutes": 107,
           "Poster": "/huy47Gj6dB9mcicgo7bMqpzPmdy.jpg",
           "Gender": 1
         },
@@ -26157,6 +27248,7 @@ var data = {
           "ID": 75,
           "FullName": "Brigitte Helm",
           "Amount": 1,
+          "Minutes": 149,
           "Poster": "/a7mwxoeF34BCxmteoHQSB1ENth0.jpg",
           "Gender": 1
         },
@@ -26164,6 +27256,7 @@ var data = {
           "ID": 2359379,
           "FullName": "Brittany Kaiser",
           "Amount": 1,
+          "Minutes": 114,
           "Poster": "/dTT6N5edu82P7XMyRanK4rrWDlR.jpg",
           "Gender": 1
         },
@@ -26171,6 +27264,7 @@ var data = {
           "ID": 29221,
           "FullName": "Brittany Snow",
           "Amount": 1,
+          "Minutes": 93,
           "Poster": "/uSQW2E7caOaXHBbvL2jdzGbwDwH.jpg",
           "Gender": 1
         },
@@ -26178,6 +27272,7 @@ var data = {
           "ID": 1704640,
           "FullName": "Brooklynn Prince",
           "Amount": 1,
+          "Minutes": 112,
           "Poster": "/n3moAfxKpkRIuHvHBJZe8jZWA50.jpg",
           "Gender": 1
         },
@@ -26185,20 +27280,15 @@ var data = {
           "ID": 1683343,
           "FullName": "Cailee Spaeny",
           "Amount": 1,
+          "Minutes": 110,
           "Poster": "/nquUc6o2dK4Pg4zjvl2HmZOfiRS.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 36662,
-          "FullName": "Carey Mulligan",
-          "Amount": 1,
-          "Poster": "/iwVHhqoz5b62FR0SDpZ7wfsuTBI.jpg",
           "Gender": 1
         },
         {
           "ID": 2744,
           "FullName": "Carmen Maura",
           "Amount": 1,
+          "Minutes": 88,
           "Poster": "/sXvr7BvxscBkYpGTcYjpqbzkUSH.jpg",
           "Gender": 1
         },
@@ -26206,6 +27296,7 @@ var data = {
           "ID": 1308445,
           "FullName": "Carrie Coon",
           "Amount": 1,
+          "Minutes": 104,
           "Poster": "/kbuScim9S6q2UKP1jCpp5UZB0P5.jpg",
           "Gender": 1
         },
@@ -26213,6 +27304,7 @@ var data = {
           "ID": 1095805,
           "FullName": "Cassie Jaye",
           "Amount": 1,
+          "Minutes": 118,
           "Poster": "/wHxiyapqlTugXbR0v0Yj3TAOUBK.jpg",
           "Gender": 1
         },
@@ -26220,6 +27312,7 @@ var data = {
           "ID": 3421869,
           "FullName": "Catherine Clinch",
           "Amount": 1,
+          "Minutes": 94,
           "Poster": "/945TtPrgJphkrDkpQPARCNUnSze.jpg",
           "Gender": 1
         },
@@ -26227,6 +27320,7 @@ var data = {
           "ID": 130030,
           "FullName": "Chantal Akerman",
           "Amount": 1,
+          "Minutes": 86,
           "Poster": "/6Q59Air1EjLHfq8NvvBpbTTgnWZ.jpg",
           "Gender": 1
         },
@@ -26234,6 +27328,7 @@ var data = {
           "ID": 6885,
           "FullName": "Charlize Theron",
           "Amount": 1,
+          "Minutes": 110,
           "Poster": "/gd7ShD0yt4bsR2STeQ19KQ6hvXL.jpg",
           "Gender": 1
         },
@@ -26241,6 +27336,7 @@ var data = {
           "ID": 38225,
           "FullName": "Cher",
           "Amount": 1,
+          "Minutes": 110,
           "Poster": "/yDglV70XMu2cBWZigp5Jxd4etfv.jpg",
           "Gender": 1
         },
@@ -26248,6 +27344,7 @@ var data = {
           "ID": 56734,
           "FullName": "Chlo\u00EB Grace Moretz",
           "Amount": 1,
+          "Minutes": 92,
           "Poster": "/j9d4i2xsLGUhwpuy5y0fkx1qAcz.jpg",
           "Gender": 1
         },
@@ -26255,6 +27352,7 @@ var data = {
           "ID": 58136,
           "FullName": "Christine Cavanaugh",
           "Amount": 1,
+          "Minutes": 91,
           "Poster": "/qOUpGURljNhgFzZ5SmV5miAmT9x.jpg",
           "Gender": 1
         },
@@ -26262,6 +27360,7 @@ var data = {
           "ID": 102499,
           "FullName": "Clara Bow",
           "Amount": 1,
+          "Minutes": 72,
           "Poster": "/5WCRk8X1Gk5gO9CJSFIx0VZdcuK.jpg",
           "Gender": 1
         },
@@ -26269,6 +27368,7 @@ var data = {
           "ID": 7565,
           "FullName": "Corinne Marchand",
           "Amount": 1,
+          "Minutes": 90,
           "Poster": "/dv4Bp0Q2v7vULEmwTt6bMKMJuE0.jpg",
           "Gender": 1
         },
@@ -26276,6 +27376,7 @@ var data = {
           "ID": 1315036,
           "FullName": "Daisy Ridley",
           "Amount": 1,
+          "Minutes": 94,
           "Poster": "/kDTRF2bLgS48y5gcgZ66AHZFxSd.jpg",
           "Gender": 1
         },
@@ -26283,6 +27384,7 @@ var data = {
           "ID": 501,
           "FullName": "Dakota Fanning",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "/2rzf9VHMRQc4MTIKt9EDvwurcHE.jpg",
           "Gender": 1
         },
@@ -26290,6 +27392,7 @@ var data = {
           "ID": 118545,
           "FullName": "Dakota Johnson",
           "Amount": 1,
+          "Minutes": 125,
           "Poster": "/rtxJfCCLdp1oi7bQ1ENVZRRkrJ5.jpg",
           "Gender": 1
         },
@@ -26297,6 +27400,7 @@ var data = {
           "ID": 20141,
           "FullName": "Deborah Kerr",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "/dHFhOEhHnn5cQjQN29IGRxzoxBP.jpg",
           "Gender": 1
         },
@@ -26304,6 +27408,7 @@ var data = {
           "ID": 3508,
           "FullName": "Delphine Seyrig",
           "Amount": 1,
+          "Minutes": 202,
           "Poster": "/xffVQ7uiMhO8zDHRCtfVjEAWxOu.jpg",
           "Gender": 1
         },
@@ -26311,6 +27416,7 @@ var data = {
           "ID": 2882,
           "FullName": "Diane Lane",
           "Amount": 1,
+          "Minutes": 101,
           "Poster": "/pNNIs1bCQ2qFL9rekkV7utunUfl.jpg",
           "Gender": 1
         },
@@ -26318,6 +27424,7 @@ var data = {
           "ID": 118239,
           "FullName": "Dinah Sheridan",
           "Amount": 1,
+          "Minutes": 109,
           "Poster": "/9DBEFocvJYMIsOxgDnPPHp0QYZO.jpg",
           "Gender": 1
         },
@@ -26325,6 +27432,7 @@ var data = {
           "ID": 1198672,
           "FullName": "Eili Harboe",
           "Amount": 1,
+          "Minutes": 116,
           "Poster": "/c9dWPvhL6WqpkM78RfdJ8V7tgvS.jpg",
           "Gender": 1
         },
@@ -26332,6 +27440,7 @@ var data = {
           "ID": 18050,
           "FullName": "Elle Fanning",
           "Amount": 1,
+          "Minutes": 118,
           "Poster": "/e8CUyxQSE99y5IOfzSLtHC0B0Ch.jpg",
           "Gender": 1
         },
@@ -26339,6 +27448,7 @@ var data = {
           "ID": 1331023,
           "FullName": "Emilia Jones",
           "Amount": 1,
+          "Minutes": 112,
           "Poster": "/vQHfiR6bSKf7bJcYyDvfUSXlB9Q.jpg",
           "Gender": 1
         },
@@ -26346,6 +27456,7 @@ var data = {
           "ID": 47313,
           "FullName": "Emilia Unda",
           "Amount": 1,
+          "Minutes": 88,
           "Poster": "/oE6ajDsmJA0wWdtfvbVgIFTSTy3.jpg",
           "Gender": 1
         },
@@ -26353,6 +27464,7 @@ var data = {
           "ID": 209200,
           "FullName": "Emily Baldoni",
           "Amount": 1,
+          "Minutes": 89,
           "Poster": "/kqbxjJwalHP3itqY9dn2LVLlKXU.jpg",
           "Gender": 1
         },
@@ -26360,6 +27472,7 @@ var data = {
           "ID": 70456,
           "FullName": "Emily Browning",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "/silK3Pdugbf1YOtIdXev1eZxzvF.jpg",
           "Gender": 1
         },
@@ -26367,6 +27480,7 @@ var data = {
           "ID": 34847,
           "FullName": "Emma Roberts",
           "Amount": 1,
+          "Minutes": 96,
           "Poster": "/87w6fTvmJTQScgKKJFS91hYJ33a.jpg",
           "Gender": 1
         },
@@ -26374,6 +27488,7 @@ var data = {
           "ID": 10990,
           "FullName": "Emma Watson",
           "Amount": 1,
+          "Minutes": 85,
           "Poster": "/A14lLCZYDhfYdBa0fFRpwMDiwRN.jpg",
           "Gender": 1
         },
@@ -26381,6 +27496,7 @@ var data = {
           "ID": 52806,
           "FullName": "Erika Sawajiri",
           "Amount": 1,
+          "Minutes": 127,
           "Poster": "/iTbOYimZDSgsDFOQEzFwIcevnpD.jpg",
           "Gender": 1
         },
@@ -26388,6 +27504,7 @@ var data = {
           "ID": 3902983,
           "FullName": "Estelle Roy de Menditte",
           "Amount": 1,
+          "Minutes": 1,
           "Poster": "",
           "Gender": 1
         },
@@ -26395,6 +27512,7 @@ var data = {
           "ID": 38940,
           "FullName": "Evan Rachel Wood",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "/buYe0jVJmyetysOBOCEc4bQWcqC.jpg",
           "Gender": 1
         },
@@ -26402,6 +27520,7 @@ var data = {
           "ID": 3046049,
           "FullName": "Febe Nilsson",
           "Amount": 1,
+          "Minutes": 84,
           "Poster": "",
           "Gender": 1
         },
@@ -26409,6 +27528,7 @@ var data = {
           "ID": 109560,
           "FullName": "Gabourey Sidibe",
           "Amount": 1,
+          "Minutes": 110,
           "Poster": "/d0p0MGqM1GrrnBw4b3V9uM6HCl2.jpg",
           "Gender": 1
         },
@@ -26416,6 +27536,7 @@ var data = {
           "ID": 1144473,
           "FullName": "Garance Marillier",
           "Amount": 1,
+          "Minutes": 99,
           "Poster": "/oGF1oAa4myOc6QUCA1AgvWA1CGx.jpg",
           "Gender": 1
         },
@@ -26423,6 +27544,7 @@ var data = {
           "ID": 12214,
           "FullName": "Gillian Anderson",
           "Amount": 1,
+          "Minutes": 103,
           "Poster": "/gsxQC7yJT4vqnUqAN9bpsysxwO2.jpg",
           "Gender": 1
         },
@@ -26430,6 +27552,7 @@ var data = {
           "ID": 11150,
           "FullName": "Gina Gershon",
           "Amount": 1,
+          "Minutes": 105,
           "Poster": "/aMZdAg2lIBO01Z38jNpCsw5cUXZ.jpg",
           "Gender": 1
         },
@@ -26437,13 +27560,23 @@ var data = {
           "ID": 56356,
           "FullName": "Gina Philips",
           "Amount": 1,
+          "Minutes": 90,
           "Poster": "/xwghO5XyUbQDnM6tdenXi5MvkGn.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 100779,
+          "FullName": "Gloria Holden",
+          "Amount": 1,
+          "Minutes": 71,
+          "Poster": "/cuyP722J6jgs1cltb2KzmyZ5Pcr.jpg",
           "Gender": 1
         },
         {
           "ID": 1260481,
           "FullName": "Greta Lee",
           "Amount": 1,
+          "Minutes": 106,
           "Poster": "/6SydTis4XUcovlwIGskT59JowLX.jpg",
           "Gender": 1
         },
@@ -26451,6 +27584,7 @@ var data = {
           "ID": 1929090,
           "FullName": "Haley Bishop",
           "Amount": 1,
+          "Minutes": 57,
           "Poster": "/wWFhlde4TnYaZxaLeH44NtEiqTG.jpg",
           "Gender": 1
         },
@@ -26458,6 +27592,7 @@ var data = {
           "ID": 2166050,
           "FullName": "Han Jong-sim",
           "Amount": 1,
+          "Minutes": 77,
           "Poster": "/z1ArIHS4o72GGxbmxqQNqjEnogJ.jpg",
           "Gender": 1
         },
@@ -26465,6 +27600,7 @@ var data = {
           "ID": 26851,
           "FullName": "Heather Donahue",
           "Amount": 1,
+          "Minutes": 81,
           "Poster": "/Ootqoaw1eJF9cJ38FfAgblgJjh.jpg",
           "Gender": 1
         },
@@ -26472,6 +27608,7 @@ var data = {
           "ID": 9994,
           "FullName": "Helen Hunt",
           "Amount": 1,
+          "Minutes": 113,
           "Poster": "/aJVortGgkGkvK0DMiY0I7Fv77Qb.jpg",
           "Gender": 1
         },
@@ -26479,6 +27616,7 @@ var data = {
           "ID": 15735,
           "FullName": "Helen Mirren",
           "Amount": 1,
+          "Minutes": 103,
           "Poster": "/1reKRrsdsHXJaRVHVyOEg4oPTcZ.jpg",
           "Gender": 1
         },
@@ -26486,6 +27624,7 @@ var data = {
           "ID": 1756490,
           "FullName": "Helena Zengel",
           "Amount": 1,
+          "Minutes": 118,
           "Poster": "/bUzX1rQkwgLzFL9JiklxjL5B9hn.jpg",
           "Gender": 1
         },
@@ -26493,6 +27632,7 @@ var data = {
           "ID": 18686,
           "FullName": "Holly Hunter",
           "Amount": 1,
+          "Minutes": 117,
           "Poster": "/kC7KX03VAWvogOCuwKbMo4V6TuU.jpg",
           "Gender": 1
         },
@@ -26500,6 +27640,7 @@ var data = {
           "ID": 1350,
           "FullName": "Ir\u00E8ne Jacob",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "/yDpLjFtglSDlq3pvITr7O5AQfvg.jpg",
           "Gender": 1
         },
@@ -26507,6 +27648,7 @@ var data = {
           "ID": 6588,
           "FullName": "Isabella Rossellini",
           "Amount": 1,
+          "Minutes": 120,
           "Poster": "/z0zojT6nwDxi35HMcXlVpBfuBAU.jpg",
           "Gender": 1
         },
@@ -26514,6 +27656,7 @@ var data = {
           "ID": 6553,
           "FullName": "Isabelle Adjani",
           "Amount": 1,
+          "Minutes": 104,
           "Poster": "/buIW2T5TWtGpz7vqADX6Byd0n69.jpg",
           "Gender": 1
         },
@@ -26521,6 +27664,7 @@ var data = {
           "ID": 17882,
           "FullName": "Isabelle Huppert",
           "Amount": 1,
+          "Minutes": 131,
           "Poster": "/wGG9v1Uci3sfrbjt0bRXkLrTqjY.jpg",
           "Gender": 1
         },
@@ -26528,6 +27672,7 @@ var data = {
           "ID": 16970,
           "FullName": "Ivana Baquero",
           "Amount": 1,
+          "Minutes": 118,
           "Poster": "/82lpu56szh5cVm85PWRqogBYVgv.jpg",
           "Gender": 1
         },
@@ -26535,6 +27680,7 @@ var data = {
           "ID": 56824,
           "FullName": "Jaime Pressly",
           "Amount": 1,
+          "Minutes": 87,
           "Poster": "/cPS3VVmV0syoWn14W3AY7ALgtFV.jpg",
           "Gender": 1
         },
@@ -26542,6 +27688,7 @@ var data = {
           "ID": 8944,
           "FullName": "Jamie Lee Curtis",
           "Amount": 1,
+          "Minutes": 109,
           "Poster": "/9KWvPVeiLOXlOGl0XVyHZtJWQtx.jpg",
           "Gender": 1
         },
@@ -26549,6 +27696,7 @@ var data = {
           "ID": 6352,
           "FullName": "Jane Fonda",
           "Amount": 1,
+          "Minutes": 114,
           "Poster": "/5Yb3nmRWXXZAxNhfhEuOMdfyVNN.jpg",
           "Gender": 1
         },
@@ -26556,6 +27704,7 @@ var data = {
           "ID": 588759,
           "FullName": "Jaroslava Schallerov\u00E1",
           "Amount": 1,
+          "Minutes": 73,
           "Poster": "/asdfIwo324DNKyrR2IdSt2DwPf7.jpg",
           "Gender": 1
         },
@@ -26563,6 +27712,7 @@ var data = {
           "ID": 4148673,
           "FullName": "Jeanne Calvi\u00E8re",
           "Amount": 1,
+          "Minutes": 11,
           "Poster": "/aN1NqKOLHIgT2Pe0VDPJYvsWmhs.jpg",
           "Gender": 1
         },
@@ -26570,6 +27720,7 @@ var data = {
           "ID": 4491,
           "FullName": "Jennifer Aniston",
           "Amount": 1,
+          "Minutes": 104,
           "Poster": "/qPXG41rYdUGldZhMhuZFvmpZKRp.jpg",
           "Gender": 1
         },
@@ -26577,6 +27728,7 @@ var data = {
           "ID": 6161,
           "FullName": "Jennifer Connelly",
           "Amount": 1,
+          "Minutes": 126,
           "Poster": "/bpILtSl6z5xc6YOAiPnDBlXDYMJ.jpg",
           "Gender": 1
         },
@@ -26584,6 +27736,7 @@ var data = {
           "ID": 16866,
           "FullName": "Jennifer Lopez",
           "Amount": 1,
+          "Minutes": 89,
           "Poster": "/icNEXl1ziSvOKsnhtydi8BZppsY.jpg",
           "Gender": 1
         },
@@ -26591,6 +27744,7 @@ var data = {
           "ID": 33259,
           "FullName": "Jennifer Love Hewitt",
           "Amount": 1,
+          "Minutes": 101,
           "Poster": "/gEDepjLEFGokSaexd1FzmtH1hlq.jpg",
           "Gender": 1
         },
@@ -26598,6 +27752,7 @@ var data = {
           "ID": 76999,
           "FullName": "Jess Weixler",
           "Amount": 1,
+          "Minutes": 94,
           "Poster": "/2X0PjIXMLPjm7opUGEq8X5lvqjV.jpg",
           "Gender": 1
         },
@@ -26605,6 +27760,7 @@ var data = {
           "ID": 10860,
           "FullName": "Jessica Biel",
           "Amount": 1,
+          "Minutes": 98,
           "Poster": "/pinWUmBolfwxEjOT48SZy4QPEyp.jpg",
           "Gender": 1
         },
@@ -26612,6 +27768,7 @@ var data = {
           "ID": 567269,
           "FullName": "Jessica Brown Findlay",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "/xrvuOGSkS0ufxQohk2DhUV57QmE.jpg",
           "Gender": 1
         },
@@ -26619,6 +27776,7 @@ var data = {
           "ID": 83002,
           "FullName": "Jessica Chastain",
           "Amount": 1,
+          "Minutes": 157,
           "Poster": "/vOFrDeYXILnj747dOleaNh4jK3l.jpg",
           "Gender": 1
         },
@@ -26626,6 +27784,7 @@ var data = {
           "ID": 69055,
           "FullName": "Jessica Harper",
           "Amount": 1,
+          "Minutes": 99,
           "Poster": "/sSTbKuf4bY83cSRx9lmVdGobcsg.jpg",
           "Gender": 1
         },
@@ -26633,6 +27792,7 @@ var data = {
           "ID": 227898,
           "FullName": "Jitka Cerhov\u00E1",
           "Amount": 1,
+          "Minutes": 76,
           "Poster": "/5VsHZILrIet3IGIWKpksQrZ24Dc.jpg",
           "Gender": 1
         },
@@ -26640,13 +27800,23 @@ var data = {
           "ID": 938867,
           "FullName": "Joan Claybrook",
           "Amount": 1,
+          "Minutes": 85,
           "Poster": "",
+          "Gender": 1
+        },
+        {
+          "ID": 8338,
+          "FullName": "Jodelle Ferland",
+          "Amount": 1,
+          "Minutes": 120,
+          "Poster": "/5N83sI2aDqnvcxIXsoXk0kBUwDz.jpg",
           "Gender": 1
         },
         {
           "ID": 63978,
           "FullName": "Jodi Benson",
           "Amount": 1,
+          "Minutes": 83,
           "Poster": "/2qX8QKHCaFWnCcIhb3VgZeX9HPz.jpg",
           "Gender": 1
         },
@@ -26654,6 +27824,7 @@ var data = {
           "ID": 1388593,
           "FullName": "Jodie Comer",
           "Amount": 1,
+          "Minutes": 98,
           "Poster": "/ye7rdpq4KY7c0OqfRqeWMUZaneb.jpg",
           "Gender": 1
         },
@@ -26661,6 +27832,7 @@ var data = {
           "ID": 544665,
           "FullName": "Jos\u00E9phine Japy",
           "Amount": 1,
+          "Minutes": 91,
           "Poster": "/Aw6TZ5WWX5IPu86mK45AyTlo0hd.jpg",
           "Gender": 1
         },
@@ -26668,6 +27840,7 @@ var data = {
           "ID": 2973328,
           "FullName": "Jos\u00E9phine Sanz",
           "Amount": 1,
+          "Minutes": 72,
           "Poster": "/4vpeQ5rn6G5EyWbrnAarTQROQPF.jpg",
           "Gender": 1
         },
@@ -26675,6 +27848,7 @@ var data = {
           "ID": 97913,
           "FullName": "Judith O'Dea",
           "Amount": 1,
+          "Minutes": 96,
           "Poster": "/nihfq3xdU22xnxHKmqA0Mv9rUvv.jpg",
           "Gender": 1
         },
@@ -26682,6 +27856,7 @@ var data = {
           "ID": 9066,
           "FullName": "Judy Garland",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "/4qba0YjUiFFuLRn40zGc0EsPOZd.jpg",
           "Gender": 1
         },
@@ -26689,6 +27864,7 @@ var data = {
           "ID": 1117034,
           "FullName": "Julia Pott",
           "Amount": 1,
+          "Minutes": 17,
           "Poster": "/gUoxDkPIQE1hT0halFq5t1XW39q.jpg",
           "Gender": 1
         },
@@ -26696,6 +27872,7 @@ var data = {
           "ID": 53328,
           "FullName": "Julia Sawalha",
           "Amount": 1,
+          "Minutes": 84,
           "Poster": "/xDx3F15W0FpTMTaIrnGkdyRWL2g.jpg",
           "Gender": 1
         },
@@ -26703,6 +27880,7 @@ var data = {
           "ID": 12041,
           "FullName": "Julia Stiles",
           "Amount": 1,
+          "Minutes": 113,
           "Poster": "/okcblz7pqeapHorLvxtxd3iNNic.jpg",
           "Gender": 1
         },
@@ -26710,6 +27888,7 @@ var data = {
           "ID": 35551,
           "FullName": "Julie Benz",
           "Amount": 1,
+          "Minutes": 87,
           "Poster": "/avcCYkQjRM7qgE0MZ5VXcK3XcKz.jpg",
           "Gender": 1
         },
@@ -26717,6 +27896,7 @@ var data = {
           "ID": 18228,
           "FullName": "Juliet Berto",
           "Amount": 1,
+          "Minutes": 193,
           "Poster": "/8V15SItRZvoTRDdivqAHS8YIrVu.jpg",
           "Gender": 1
         },
@@ -26724,6 +27904,7 @@ var data = {
           "ID": 1137,
           "FullName": "Juliette Binoche",
           "Amount": 1,
+          "Minutes": 98,
           "Poster": "/llNGfF2gNBa1l39iqmjhZuDDzn6.jpg",
           "Gender": 1
         },
@@ -26731,6 +27912,7 @@ var data = {
           "ID": 65437,
           "FullName": "Junko Iwao",
           "Amount": 1,
+          "Minutes": 82,
           "Poster": "/bKyMLT1MgDTnXafsq2ur32VMwY5.jpg",
           "Gender": 1
         },
@@ -26738,6 +27920,7 @@ var data = {
           "ID": 36594,
           "FullName": "Juno Temple",
           "Amount": 1,
+          "Minutes": 98,
           "Poster": "/wMpZcKp7zaHnmNQooqbve33577Q.jpg",
           "Gender": 1
         },
@@ -26745,6 +27928,7 @@ var data = {
           "ID": 481337,
           "FullName": "Kaitlyn Dever",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "/EdThUlyZdJMyOvP5tbsOXDrnhx.jpg",
           "Gender": 1
         },
@@ -26752,6 +27936,7 @@ var data = {
           "ID": 1312204,
           "FullName": "Karidja Tour\u00E9",
           "Amount": 1,
+          "Minutes": 112,
           "Poster": "/5YqrVYUzvy0suoSp6oQPD0YgbQs.jpg",
           "Gender": 1
         },
@@ -26759,6 +27944,7 @@ var data = {
           "ID": 13010,
           "FullName": "Kate Maberly",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "/1sZWNt4CT4x6iDamvVN2dEL7u2I.jpg",
           "Gender": 1
         },
@@ -26766,6 +27952,7 @@ var data = {
           "ID": 67228,
           "FullName": "Kathryn Beaumont",
           "Amount": 1,
+          "Minutes": 75,
           "Poster": "/dHQ51n2i2vjdt4bdgAYXWvJQips.jpg",
           "Gender": 1
         },
@@ -26773,6 +27960,7 @@ var data = {
           "ID": 1053170,
           "FullName": "Katie Chang",
           "Amount": 1,
+          "Minutes": 90,
           "Poster": "/nh8R2GNqWNoowPlAd7743IL9VjP.jpg",
           "Gender": 1
         },
@@ -26780,6 +27968,7 @@ var data = {
           "ID": 91643,
           "FullName": "Katie Jarvis",
           "Amount": 1,
+          "Minutes": 123,
           "Poster": "/afll1BEx7eGFt1LqLYhxs2gnTbp.jpg",
           "Gender": 1
         },
@@ -26787,6 +27976,7 @@ var data = {
           "ID": 17258,
           "FullName": "Kerry Fox",
           "Amount": 1,
+          "Minutes": 93,
           "Poster": "/qTN8PjqgOdICj6egcAhJ7qXfEk1.jpg",
           "Gender": 1
         },
@@ -26794,6 +27984,7 @@ var data = {
           "ID": 123664,
           "FullName": "Kim Min-hee",
           "Amount": 1,
+          "Minutes": 145,
           "Poster": "/zZ41nW0GJqesHB75hFP6qllPS9y.jpg",
           "Gender": 1
         },
@@ -26801,20 +27992,15 @@ var data = {
           "ID": 107517,
           "FullName": "Kinga Preis",
           "Amount": 1,
+          "Minutes": 93,
           "Poster": "/labe9glC79Ue3Hdo1nY3f1tHXkB.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 205,
-          "FullName": "Kirsten Dunst",
-          "Amount": 1,
-          "Poster": "/6RAAxI4oPnDMzXpXWgkkzSgnIAJ.jpg",
           "Gender": 1
         },
         {
           "ID": 1393915,
           "FullName": "Kitana Kiki Rodriguez",
           "Amount": 1,
+          "Minutes": 87,
           "Poster": "/iR8bJguB5TGPXJCHIT42ICIWTBs.jpg",
           "Gender": 1
         },
@@ -26822,6 +28008,7 @@ var data = {
           "ID": 40462,
           "FullName": "Kristen Bell",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "/rP74dJXl7EjinGM0shQtUOlH5s2.jpg",
           "Gender": 1
         },
@@ -26829,6 +28016,7 @@ var data = {
           "ID": 210824,
           "FullName": "Kristen Connolly",
           "Amount": 1,
+          "Minutes": 95,
           "Poster": "/zPXAK1KoQ78lYyBS7nmzbQNVxpl.jpg",
           "Gender": 1
         },
@@ -26836,6 +28024,7 @@ var data = {
           "ID": 56128,
           "FullName": "Kristy Swanson",
           "Amount": 1,
+          "Minutes": 86,
           "Poster": "/8gPVElKDCBllmfIP0pjZL9zISKv.jpg",
           "Gender": 1
         },
@@ -26843,6 +28032,7 @@ var data = {
           "ID": 13253,
           "FullName": "Kyoko Fukada",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "/qip0npPSxHyKG5xCiX9fkg3eSXa.jpg",
           "Gender": 1
         },
@@ -26850,6 +28040,7 @@ var data = {
           "ID": 1037254,
           "FullName": "Lacey Turner",
           "Amount": 1,
+          "Minutes": 90,
           "Poster": "/zF6CaWNIfKvXtw1lSrD18nFTHcf.jpg",
           "Gender": 1
         },
@@ -26857,6 +28048,7 @@ var data = {
           "ID": 579551,
           "FullName": "Lana Del Rey",
           "Amount": 1,
+          "Minutes": 27,
           "Poster": "/wpwC6oB5WD8BijO4G9vsUn69NNY.jpg",
           "Gender": 1
         },
@@ -26864,6 +28056,7 @@ var data = {
           "ID": 54470,
           "FullName": "Lauren Ambrose",
           "Amount": 1,
+          "Minutes": 91,
           "Poster": "/67oLiPwWKhy0zqdfm6NX9cXD5is.jpg",
           "Gender": 1
         },
@@ -26871,6 +28064,7 @@ var data = {
           "ID": 121529,
           "FullName": "L\u00E9a Seydoux",
           "Amount": 1,
+          "Minutes": 180,
           "Poster": "/bAIvEBxYfENqgqbxz0Gz5C2Zh2b.jpg",
           "Gender": 1
         },
@@ -26878,6 +28072,7 @@ var data = {
           "ID": 25001,
           "FullName": "Lee Young-ae",
           "Amount": 1,
+          "Minutes": 115,
           "Poster": "/3YRo3MwheRf7lR0ZNa4FG12RVRn.jpg",
           "Gender": 1
         },
@@ -26885,6 +28080,7 @@ var data = {
           "ID": 4046500,
           "FullName": "Lily Collias",
           "Amount": 1,
+          "Minutes": 89,
           "Poster": "/rGGlEvmEnk8Y53BULxWzLcH5PQY.jpg",
           "Gender": 1
         },
@@ -26892,6 +28088,7 @@ var data = {
           "ID": 10437,
           "FullName": "Lily Tomlin",
           "Amount": 1,
+          "Minutes": 78,
           "Poster": "/5y0iICTKzvLbAG3lgvxG4fH9ZUk.jpg",
           "Gender": 1
         },
@@ -26899,6 +28096,7 @@ var data = {
           "ID": 51988,
           "FullName": "Lizzy Caplan",
           "Amount": 1,
+          "Minutes": 85,
           "Poster": "/xOLXlzpSJExsBlKroCyCNGhzQEU.jpg",
           "Gender": 1
         },
@@ -26906,6 +28104,7 @@ var data = {
           "ID": 1037794,
           "FullName": "Lois Weber",
           "Amount": 1,
+          "Minutes": 11,
           "Poster": "/c6YcUHNxlP9Fo5cxbJJQi3xAdGF.jpg",
           "Gender": 1
         },
@@ -26913,6 +28112,7 @@ var data = {
           "ID": 54853,
           "FullName": "Lori Cardille",
           "Amount": 1,
+          "Minutes": 101,
           "Poster": "/n0xnxURr1aUUVDxXJ4YHHLh4SiY.jpg",
           "Gender": 1
         },
@@ -26920,6 +28120,7 @@ var data = {
           "ID": 1267329,
           "FullName": "Lupita Nyong'o",
           "Amount": 1,
+          "Minutes": 116,
           "Poster": "/y40Wu1T742kynOqtwXASc5Qgm49.jpg",
           "Gender": 1
         },
@@ -26927,6 +28128,7 @@ var data = {
           "ID": 10978,
           "FullName": "Maggie Smith",
           "Amount": 1,
+          "Minutes": 137,
           "Poster": "/rbqNuVbXRvyZoYGeARXfoJgmAQr.jpg",
           "Gender": 1
         },
@@ -26934,6 +28136,7 @@ var data = {
           "ID": 1094091,
           "FullName": "Maika Monroe",
           "Amount": 1,
+          "Minutes": 101,
           "Poster": "/x4yiKkMnCdf8g4eOrDoqla9FYEA.jpg",
           "Gender": 1
         },
@@ -26941,13 +28144,23 @@ var data = {
           "ID": 1181313,
           "FullName": "Maisie Williams",
           "Amount": 1,
+          "Minutes": 62,
           "Poster": "/5RjD4dDpRDAhalFtvcUj7zdLWYB.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 1104567,
+          "FullName": "Maisy Stella",
+          "Amount": 1,
+          "Minutes": 89,
+          "Poster": "/hv01GL5eT8cI7WK73e7XcbAgkPU.jpg",
           "Gender": 1
         },
         {
           "ID": 11717,
           "FullName": "Mara Wilson",
           "Amount": 1,
+          "Minutes": 98,
           "Poster": "/twOrYpIdB2Hd2RZ7VG13Jpq91Fq.jpg",
           "Gender": 1
         },
@@ -26955,6 +28168,7 @@ var data = {
           "ID": 14298,
           "FullName": "Margaret Lockwood",
           "Amount": 1,
+          "Minutes": 96,
           "Poster": "/fJYOZdBuBjBd4Gi8yLsnoSaAfB5.jpg",
           "Gender": 1
         },
@@ -26962,6 +28176,7 @@ var data = {
           "ID": 11589,
           "FullName": "Maria Falconetti",
           "Amount": 1,
+          "Minutes": 82,
           "Poster": "/zlZX11vxjxukuBW76ZhF11ffPh5.jpg",
           "Gender": 1
         },
@@ -26969,6 +28184,7 @@ var data = {
           "ID": 27798,
           "FullName": "Marilyn Burns",
           "Amount": 1,
+          "Minutes": 83,
           "Poster": "/eTgbAuZkD7Qa2GxtqlveHE95bV0.jpg",
           "Gender": 1
         },
@@ -26976,6 +28192,7 @@ var data = {
           "ID": 2138256,
           "FullName": "Markella Kavenagh",
           "Amount": 1,
+          "Minutes": 78,
           "Poster": "/wLXCCBQ6f456K2mQtbY8vgiOJoK.jpg",
           "Gender": 1
         },
@@ -26983,6 +28200,7 @@ var data = {
           "ID": 17495,
           "FullName": "Martha Plimpton",
           "Amount": 1,
+          "Minutes": 111,
           "Poster": "/bCfhOm4WRb2X5RQdfz5TpMvMZ1.jpg",
           "Gender": 1
         },
@@ -26990,6 +28208,7 @@ var data = {
           "ID": 8488,
           "FullName": "Mary Badham",
           "Amount": 1,
+          "Minutes": 129,
           "Poster": "/vxwDF4T03QHzjsjP2K14M0Q9RPE.jpg",
           "Gender": 1
         },
@@ -26997,6 +28216,7 @@ var data = {
           "ID": 17628,
           "FullName": "Mary Elizabeth Winstead",
           "Amount": 1,
+          "Minutes": 93,
           "Poster": "/9SqooMmR1knkQGc5I8gRMRaGg46.jpg",
           "Gender": 1
         },
@@ -27004,6 +28224,7 @@ var data = {
           "ID": 121060,
           "FullName": "Mary MacLaren",
           "Amount": 1,
+          "Minutes": 48,
           "Poster": "/Agteg70nmBZmFT9XQMD72TVqiiw.jpg",
           "Gender": 1
         },
@@ -27011,6 +28232,7 @@ var data = {
           "ID": 125995,
           "FullName": "May Clark",
           "Amount": 1,
+          "Minutes": 9,
           "Poster": "",
           "Gender": 1
         },
@@ -27018,6 +28240,7 @@ var data = {
           "ID": 96813,
           "FullName": "Maya Deren",
           "Amount": 1,
+          "Minutes": 14,
           "Poster": "/qqoPlF9cGcenZmB2Kslaa6pitET.jpg",
           "Gender": 1
         },
@@ -27025,6 +28248,7 @@ var data = {
           "ID": 3113106,
           "FullName": "Maya Vanderbeque",
           "Amount": 1,
+          "Minutes": 72,
           "Poster": "/nHzqA7oIjYaFLGI7cZbJo93aXYM.jpg",
           "Gender": 1
         },
@@ -27032,6 +28256,7 @@ var data = {
           "ID": 5344,
           "FullName": "Meg Ryan",
           "Amount": 1,
+          "Minutes": 119,
           "Poster": "/mC2AEB7X99pZYaPZvbVgdb4G52B.jpg",
           "Gender": 1
         },
@@ -27039,6 +28264,7 @@ var data = {
           "ID": 15091,
           "FullName": "Melanie Lynskey",
           "Amount": 1,
+          "Minutes": 109,
           "Poster": "/kzrWI1sTgnA0H7TCIKzDOUtOW4n.jpg",
           "Gender": 1
         },
@@ -27046,6 +28272,7 @@ var data = {
           "ID": 83313,
           "FullName": "Melanie Mayron",
           "Amount": 1,
+          "Minutes": 86,
           "Poster": "/p2dBLbvDR0tg1JyB7S27YPJ7lNo.jpg",
           "Gender": 1
         },
@@ -27053,6 +28280,7 @@ var data = {
           "ID": 55536,
           "FullName": "Melissa McCarthy",
           "Amount": 1,
+          "Minutes": 120,
           "Poster": "/yl0qva0O4u92fvtItakdvKmKrW9.jpg",
           "Gender": 1
         },
@@ -27060,6 +28288,7 @@ var data = {
           "ID": 12021,
           "FullName": "Mia Farrow",
           "Amount": 1,
+          "Minutes": 138,
           "Poster": "/kuLfS2jQOnfIOwCO7RHlwjDIERQ.jpg",
           "Gender": 1
         },
@@ -27067,6 +28296,7 @@ var data = {
           "ID": 113236,
           "FullName": "Mia McKenna-Bruce",
           "Amount": 1,
+          "Minutes": 91,
           "Poster": "/3CbwQW082wmd8C0IpmgDvxJUjog.jpg",
           "Gender": 1
         },
@@ -27074,6 +28304,7 @@ var data = {
           "ID": 76070,
           "FullName": "Mia Wasikowska",
           "Amount": 1,
+          "Minutes": 108,
           "Poster": "/9DjwPFi0aFQKOF6p2OyqH38qKAB.jpg",
           "Gender": 1
         },
@@ -27081,6 +28312,7 @@ var data = {
           "ID": 18973,
           "FullName": "Mila Kunis",
           "Amount": 1,
+          "Minutes": 88,
           "Poster": "/811vCRSr9s2MFwCIOo1jWHltu3R.jpg",
           "Gender": 1
         },
@@ -27088,6 +28320,7 @@ var data = {
           "ID": 63,
           "FullName": "Milla Jovovich",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "/sDES3xDYZoDwsDxE4dd3IGMiQSn.jpg",
           "Gender": 1
         },
@@ -27095,6 +28328,7 @@ var data = {
           "ID": 27125,
           "FullName": "Molly Parker",
           "Amount": 1,
+          "Minutes": 78,
           "Poster": "/xo0GT4MAUkqCKKL8qq6WEmHDre5.jpg",
           "Gender": 1
         },
@@ -27102,6 +28336,7 @@ var data = {
           "ID": 28782,
           "FullName": "Monica Bellucci",
           "Amount": 1,
+          "Minutes": 94,
           "Poster": "/gva84YhRwrHvUCLAeE3FNzAhyxi.jpg",
           "Gender": 1
         },
@@ -27109,6 +28344,7 @@ var data = {
           "ID": 59612,
           "FullName": "Morjana Alaoui",
           "Amount": 1,
+          "Minutes": 99,
           "Poster": "/tlhkok7ndk5gPWTk45vaJgAmkkh.jpg",
           "Gender": 1
         },
@@ -27116,6 +28352,7 @@ var data = {
           "ID": 27776,
           "FullName": "Nanako Matsushima",
           "Amount": 1,
+          "Minutes": 96,
           "Poster": "/s8fAUcWvIBsax1chMjvNBFHV7qG.jpg",
           "Gender": 1
         },
@@ -27123,6 +28360,7 @@ var data = {
           "ID": 1270686,
           "FullName": "Natalia de Molina",
           "Amount": 1,
+          "Minutes": 118,
           "Poster": "/6wlQQgxW8sQTCQU79sNpEL4lYfs.jpg",
           "Gender": 1
         },
@@ -27130,6 +28368,7 @@ var data = {
           "ID": 1039011,
           "FullName": "Natalia Dyer",
           "Amount": 1,
+          "Minutes": 80,
           "Poster": "/bR65dHhAEod0TpBsuq5cpQH0Lai.jpg",
           "Gender": 1
         },
@@ -27137,6 +28376,7 @@ var data = {
           "ID": 9206,
           "FullName": "Neve Campbell",
           "Amount": 1,
+          "Minutes": 120,
           "Poster": "/cOSUgtHhsvmxrpjBiLbLQ4bbHZa.jpg",
           "Gender": 1
         },
@@ -27144,6 +28384,7 @@ var data = {
           "ID": 1163026,
           "FullName": "Ni Made Megahadi Pratiwi",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "",
           "Gender": 1
         },
@@ -27151,6 +28392,7 @@ var data = {
           "ID": 54645,
           "FullName": "Nia Vardalos",
           "Amount": 1,
+          "Minutes": 95,
           "Poster": "/vEsVp3bbVG72BBPJW3ciIcsUOX5.jpg",
           "Gender": 1
         },
@@ -27158,6 +28400,7 @@ var data = {
           "ID": 5888,
           "FullName": "Nicole de Boer",
           "Amount": 1,
+          "Minutes": 90,
           "Poster": "/5Mj1cUdqN4jgxVLG6ZBQ0AtQub5.jpg",
           "Gender": 1
         },
@@ -27165,6 +28408,7 @@ var data = {
           "ID": 1051408,
           "FullName": "Noell Coet",
           "Amount": 1,
+          "Minutes": 86,
           "Poster": "/yNz6Y5wXU7E7uczQwbm1gqAFsD3.jpg",
           "Gender": 1
         },
@@ -27172,6 +28416,7 @@ var data = {
           "ID": 1385600,
           "FullName": "No\u00E9mie Merlant",
           "Amount": 1,
+          "Minutes": 121,
           "Poster": "/8RSXb9RPD5nKbmEa3FciGXdrmBX.jpg",
           "Gender": 1
         },
@@ -27179,6 +28424,7 @@ var data = {
           "ID": 87722,
           "FullName": "Noomi Rapace",
           "Amount": 1,
+          "Minutes": 124,
           "Poster": "/y3qFKAdWrBlM227aTKpYxuqzY1X.jpg",
           "Gender": 1
         },
@@ -27186,6 +28432,7 @@ var data = {
           "ID": 77667,
           "FullName": "Oksana Akinshina",
           "Amount": 1,
+          "Minutes": 109,
           "Poster": "/1j05cOkkSvoTHp6vOOLbSzGHKr1.jpg",
           "Gender": 1
         },
@@ -27193,6 +28440,7 @@ var data = {
           "ID": 1173984,
           "FullName": "Olivia Cooke",
           "Amount": 1,
+          "Minutes": 92,
           "Poster": "/yZNcUEqmvDJQQ7avMfJfCh7sVk9.jpg",
           "Gender": 1
         },
@@ -27200,6 +28448,7 @@ var data = {
           "ID": 62050,
           "FullName": "Paige O'Hara",
           "Amount": 1,
+          "Minutes": 84,
           "Poster": "/g61DJhK2rUOJJ2Rk4Kw0svUPWRh.jpg",
           "Gender": 1
         },
@@ -27207,6 +28456,7 @@ var data = {
           "ID": 2230,
           "FullName": "Pam Grier",
           "Amount": 1,
+          "Minutes": 154,
           "Poster": "/irCJf8OTSaPkThijP8PWkP1A7ls.jpg",
           "Gender": 1
         },
@@ -27214,6 +28464,7 @@ var data = {
           "ID": 1260894,
           "FullName": "Paulina Urrutia",
           "Amount": 1,
+          "Minutes": 85,
           "Poster": "/jvyispcqR1XpGFlcPpNp3XNLdal.jpg",
           "Gender": 1
         },
@@ -27221,6 +28472,7 @@ var data = {
           "ID": 68814,
           "FullName": "Pauline Acquart",
           "Amount": 1,
+          "Minutes": 85,
           "Poster": "/50FvVPu34CZmLQyb6x2lNSAg94c.jpg",
           "Gender": 1
         },
@@ -27228,6 +28480,7 @@ var data = {
           "ID": 15555,
           "FullName": "Piper Perabo",
           "Amount": 1,
+          "Minutes": 93,
           "Poster": "/5XrzISDEox0KubRDzJU668Oxmxy.jpg",
           "Gender": 1
         },
@@ -27235,6 +28488,7 @@ var data = {
           "ID": 1153105,
           "FullName": "Reem Abdullah",
           "Amount": 1,
+          "Minutes": 98,
           "Poster": "/5nWI6Z0RsTl9S96q6X29xXAtTzV.jpg",
           "Gender": 1
         },
@@ -27242,13 +28496,23 @@ var data = {
           "ID": 66786,
           "FullName": "Ronnie Barker",
           "Amount": 1,
+          "Minutes": 93,
           "Poster": "/n7Ngv3HrOnYlIpykoe6WzgtO1gV.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 108916,
+          "FullName": "Rooney Mara",
+          "Amount": 1,
+          "Minutes": 104,
+          "Poster": "/zT6UyHFHEQ9RcKykplWCycKBnoS.jpg",
           "Gender": 1
         },
         {
           "ID": 16850,
           "FullName": "Rose McGowan",
           "Amount": 1,
+          "Minutes": 105,
           "Poster": "/x8sHWjQ7cWVcHKhqGR09x0Y0tsP.jpg",
           "Gender": 1
         },
@@ -27256,6 +28520,7 @@ var data = {
           "ID": 2648396,
           "FullName": "Rosy McEwen",
           "Amount": 1,
+          "Minutes": 97,
           "Poster": "/zJqY4dIvlqDC7mMmGd678cuJ0Ok.jpg",
           "Gender": 1
         },
@@ -27263,6 +28528,7 @@ var data = {
           "ID": 1507050,
           "FullName": "Royalty Hightower",
           "Amount": 1,
+          "Minutes": 72,
           "Poster": "/ykYMaEL9qtm8y0X1TQt8rEKjrwS.jpg",
           "Gender": 1
         },
@@ -27270,13 +28536,23 @@ var data = {
           "ID": 19587,
           "FullName": "Rumi Hiiragi",
           "Amount": 1,
+          "Minutes": 125,
           "Poster": "/zITaVtFyc4xSM3mxSoPRWHbqgJI.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 100766,
+          "FullName": "Sakura Ando",
+          "Amount": 1,
+          "Minutes": 125,
+          "Poster": "/k2R2ryEFEuUe2f3Dsd5yH8aRdqV.jpg",
           "Gender": 1
         },
         {
           "ID": 2461576,
           "FullName": "Sama Al-Khateab",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "/ujR4KGJ7i2oqt7htGbdsvBxtUoL.jpg",
           "Gender": 1
         },
@@ -27284,6 +28560,7 @@ var data = {
           "ID": 2206,
           "FullName": "Samantha Morton",
           "Amount": 1,
+          "Minutes": 105,
           "Poster": "/v84b7MENeD9rwX6xTD7fSdhSOC9.jpg",
           "Gender": 1
         },
@@ -27291,6 +28568,7 @@ var data = {
           "ID": 7152,
           "FullName": "Sandra H\u00FCller",
           "Amount": 1,
+          "Minutes": 151,
           "Poster": "/t7wGqC2dRwTEnt9Fk5pxQ0uXTqs.jpg",
           "Gender": 1
         },
@@ -27298,6 +28576,7 @@ var data = {
           "ID": 2372688,
           "FullName": "Sara Montpetit",
           "Amount": 1,
+          "Minutes": 90,
           "Poster": "/lKMnPTkc8GCNoWrBS97dQpWwIJG.jpg",
           "Gender": 1
         },
@@ -27305,6 +28584,7 @@ var data = {
           "ID": 1245,
           "FullName": "Scarlett Johansson",
           "Amount": 1,
+          "Minutes": 108,
           "Poster": "zHPkXk66ucTVtSij8lVJKg21LLs.jpg",
           "Gender": 1
         },
@@ -27312,13 +28592,23 @@ var data = {
           "ID": 57574,
           "FullName": "Shauna Macdonald",
           "Amount": 1,
+          "Minutes": 99,
           "Poster": "/37npPeVbx8ZZ0e54gs9JrrxAxoA.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 10409,
+          "FullName": "Shelley Duvall",
+          "Amount": 1,
+          "Minutes": 124,
+          "Poster": "/6lG3fmyhXatvyAG4X9WxwMWoPUS.jpg",
           "Gender": 1
         },
         {
           "ID": 4090,
           "FullName": "Shirley MacLaine",
           "Amount": 1,
+          "Minutes": 108,
           "Poster": "/vU4QsP3GRj03S8Z92vrZfkdb7rO.jpg",
           "Gender": 1
         },
@@ -27326,6 +28616,7 @@ var data = {
           "ID": 10205,
           "FullName": "Sigourney Weaver",
           "Amount": 1,
+          "Minutes": 137,
           "Poster": "/flfhep27iBxseZIlxOMHt6zJFX1.jpg",
           "Gender": 1
         },
@@ -27333,6 +28624,7 @@ var data = {
           "ID": 5606,
           "FullName": "Sissy Spacek",
           "Amount": 1,
+          "Minutes": 98,
           "Poster": "/wY1d3ek9t4G3bAF04ZrDhcYx5OD.jpg",
           "Gender": 1
         },
@@ -27340,6 +28632,7 @@ var data = {
           "ID": 4038,
           "FullName": "Susan Sarandon",
           "Amount": 1,
+          "Minutes": 130,
           "Poster": "/oHYYL8bNakAREaLUBtMul5uMG0A.jpg",
           "Gender": 1
         },
@@ -27347,6 +28640,7 @@ var data = {
           "ID": 40036,
           "FullName": "Taraji P. Henson",
           "Amount": 1,
+          "Minutes": 127,
           "Poster": "/jUU2X9mDwJaAniEmJOfvImBS9qb.jpg",
           "Gender": 1
         },
@@ -27354,6 +28648,7 @@ var data = {
           "ID": 4927263,
           "FullName": "Teri Horton",
           "Amount": 1,
+          "Minutes": 74,
           "Poster": "",
           "Gender": 1
         },
@@ -27361,6 +28656,7 @@ var data = {
           "ID": 6929,
           "FullName": "Tippi Hedren",
           "Amount": 1,
+          "Minutes": 120,
           "Poster": "/7BrleQqFVU4d0sMDDHLbeJfyqBf.jpg",
           "Gender": 1
         },
@@ -27368,6 +28664,7 @@ var data = {
           "ID": 3051,
           "FullName": "Toni Collette",
           "Amount": 1,
+          "Minutes": 128,
           "Poster": "/lzXRh16qe4HHeBN6tMyw0DHvaMn.jpg",
           "Gender": 1
         },
@@ -27375,6 +28672,7 @@ var data = {
           "ID": 47983,
           "FullName": "Victoria Beckham",
           "Amount": 1,
+          "Minutes": 93,
           "Poster": "/eezAvFhdn90ijS0u9V2w8lFMaEE.jpg",
           "Gender": 1
         },
@@ -27382,6 +28680,7 @@ var data = {
           "ID": 77165,
           "FullName": "Virginia McKenna",
           "Amount": 1,
+          "Minutes": 95,
           "Poster": "/j8LdwFE8Wy5iUoI2exl9FsCsomA.jpg",
           "Gender": 1
         },
@@ -27389,6 +28688,7 @@ var data = {
           "ID": 505710,
           "FullName": "Zendaya",
           "Amount": 1,
+          "Minutes": 132,
           "Poster": "/lS9cGBflBYB6VkzMdFC4nygLVCX.jpg",
           "Gender": 1
         },
@@ -27396,6 +28696,7 @@ var data = {
           "ID": 427932,
           "FullName": "Zo\u00E9 Auclair",
           "Amount": 1,
+          "Minutes": 121,
           "Poster": "",
           "Gender": 1
         },
@@ -27403,6 +28704,7 @@ var data = {
           "ID": 240732,
           "FullName": "Zo\u00E9 H\u00E9ran",
           "Amount": 1,
+          "Minutes": 82,
           "Poster": "/vByQ6qSLwDr9nJVYL779PWxsIv5.jpg",
           "Gender": 1
         }
@@ -27416,6 +28718,7 @@ var data = {
           "ID": 8635,
           "FullName": "Buster Keaton",
           "Amount": 9,
+          "Minutes": 250,
           "Poster": "/iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
           "Gender": 2
         },
@@ -27423,6 +28726,7 @@ var data = {
           "ID": 6193,
           "FullName": "Leonardo DiCaprio",
           "Amount": 9,
+          "Minutes": 1382,
           "Poster": "/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg",
           "Gender": 2
         },
@@ -27430,6 +28734,7 @@ var data = {
           "ID": 2963,
           "FullName": "Nicolas Cage",
           "Amount": 9,
+          "Minutes": 1055,
           "Poster": "/ar33qcWbEgREn07ZpXv5Pbj8hbM.jpg",
           "Gender": 2
         },
@@ -27437,6 +28742,7 @@ var data = {
           "ID": 500,
           "FullName": "Tom Cruise",
           "Amount": 9,
+          "Minutes": 1167,
           "Poster": "/eOh4ubpOm2Igdg0QH2ghj0mFtC.jpg",
           "Gender": 2
         },
@@ -27444,6 +28750,7 @@ var data = {
           "ID": 1100,
           "FullName": "Arnold Schwarzenegger",
           "Amount": 8,
+          "Minutes": 928,
           "Poster": "/z6IbTtI2FWAVZE6b1V4mqEHjwO6.jpg",
           "Gender": 2
         },
@@ -27451,6 +28758,7 @@ var data = {
           "ID": 62,
           "FullName": "Bruce Willis",
           "Amount": 8,
+          "Minutes": 1020,
           "Poster": "/w3aXr1e7gQCn8MSp1vW4sXHn99P.jpg",
           "Gender": 2
         },
@@ -27458,6 +28766,7 @@ var data = {
           "ID": 10980,
           "FullName": "Daniel Radcliffe",
           "Amount": 8,
+          "Minutes": 1178,
           "Poster": "/iPg0J9UzAlPj1fLEJNllpW9IhGe.jpg",
           "Gender": 2
         },
@@ -27465,6 +28774,7 @@ var data = {
           "ID": 3,
           "FullName": "Harrison Ford",
           "Amount": 8,
+          "Minutes": 971,
           "Poster": "/zVnHagUvXkR2StdOtquEwsiwSVt.jpg",
           "Gender": 2
         },
@@ -27472,6 +28782,7 @@ var data = {
           "ID": 1892,
           "FullName": "Matt Damon",
           "Amount": 8,
+          "Minutes": 1024,
           "Poster": "/ehwS5WvU5yL5vKcUEqbzGK8Fh8B.jpg",
           "Gender": 2
         },
@@ -27479,6 +28790,7 @@ var data = {
           "ID": 2888,
           "FullName": "Will Smith",
           "Amount": 7,
+          "Minutes": 859,
           "Poster": "/1QqaRZ8neYlqLx7ODZC4as47wUV.jpg",
           "Gender": 2
         },
@@ -27486,6 +28798,7 @@ var data = {
           "ID": 1461,
           "FullName": "George Clooney",
           "Amount": 6,
+          "Minutes": 682,
           "Poster": "/qCShMw6NW9dWcmCQrCl4tLNQwiC.jpg",
           "Gender": 2
         },
@@ -27493,6 +28806,7 @@ var data = {
           "ID": 6384,
           "FullName": "Keanu Reeves",
           "Amount": 6,
+          "Minutes": 688,
           "Poster": "/4D0PpNI0kmP58hgrwGC3wCjxhnm.jpg",
           "Gender": 2
         },
@@ -27500,6 +28814,7 @@ var data = {
           "ID": 517,
           "FullName": "Pierce Brosnan",
           "Amount": 6,
+          "Minutes": 718,
           "Poster": "/dzXVwwJLPwiZeXOnf7YxorqVEEM.jpg",
           "Gender": 2
         },
@@ -27507,6 +28822,7 @@ var data = {
           "ID": 31,
           "FullName": "Tom Hanks",
           "Amount": 6,
+          "Minutes": 798,
           "Poster": "/eKF1sGJRrZJbfBG1KirPt1cfNd3.jpg",
           "Gender": 2
         },
@@ -27514,6 +28830,7 @@ var data = {
           "ID": 3894,
           "FullName": "Christian Bale",
           "Amount": 5,
+          "Minutes": 615,
           "Poster": "/7Pxez9J8fuPd2Mn9kex13YALrCQ.jpg",
           "Gender": 2
         },
@@ -27521,6 +28838,7 @@ var data = {
           "ID": 8784,
           "FullName": "Daniel Craig",
           "Amount": 5,
+          "Minutes": 679,
           "Poster": "/iFerDZUmC5Fu26i4qI8xnUVEHc7.jpg",
           "Gender": 2
         },
@@ -27528,6 +28846,7 @@ var data = {
           "ID": 2157,
           "FullName": "Robin Williams",
           "Amount": 5,
+          "Minutes": 571,
           "Poster": "/3vypmub75rLItlC51uJUurNYkW0.jpg",
           "Gender": 2
         },
@@ -27535,6 +28854,7 @@ var data = {
           "ID": 2231,
           "FullName": "Samuel L. Jackson",
           "Amount": 5,
+          "Minutes": 623,
           "Poster": "/AiAYAqwpM5xmiFrAIeQvUXDCVvo.jpg",
           "Gender": 2
         },
@@ -27542,6 +28862,7 @@ var data = {
           "ID": 72466,
           "FullName": "Colin Farrell",
           "Amount": 4,
+          "Minutes": 422,
           "Poster": "/9BWYfxrVyzVpcvP8YT9QT8oQAfS.jpg",
           "Gender": 2
         },
@@ -27549,6 +28870,7 @@ var data = {
           "ID": 109,
           "FullName": "Elijah Wood",
           "Amount": 4,
+          "Minutes": 651,
           "Poster": "/7UKRbJBNG7mxBl2QQc5XsAh6F8B.jpg",
           "Gender": 2
         },
@@ -27556,6 +28878,7 @@ var data = {
           "ID": 8891,
           "FullName": "John Travolta",
           "Amount": 4,
+          "Minutes": 501,
           "Poster": "/9GVufE87MMIrSn0CbJFLudkALdL.jpg",
           "Gender": 2
         },
@@ -27563,6 +28886,7 @@ var data = {
           "ID": 85,
           "FullName": "Johnny Depp",
           "Amount": 4,
+          "Minutes": 490,
           "Poster": "/wcI594cwM4ArPwvRd2IU0Z0yLuh.jpg",
           "Gender": 2
         },
@@ -27570,6 +28894,7 @@ var data = {
           "ID": 10297,
           "FullName": "Matthew McConaughey",
           "Amount": 4,
+          "Minutes": 506,
           "Poster": "/sY2mwpafcwqyYS1sOySu1MENDse.jpg",
           "Gender": 2
         },
@@ -27577,6 +28902,7 @@ var data = {
           "ID": 3392,
           "FullName": "Michael Douglas",
           "Amount": 4,
+          "Minutes": 481,
           "Poster": "/kVYGPIZowzXLEQfAGUNOqKjAbBb.jpg",
           "Gender": 2
         },
@@ -27584,6 +28910,7 @@ var data = {
           "ID": 12073,
           "FullName": "Mike Myers",
           "Amount": 4,
+          "Minutes": 369,
           "Poster": "/3cS8sGxRI7PKS4qMj44m1aHDX1d.jpg",
           "Gender": 2
         },
@@ -27591,6 +28918,7 @@ var data = {
           "ID": 10730,
           "FullName": "Rowan Atkinson",
           "Amount": 4,
+          "Minutes": 389,
           "Poster": "/wxTgS4SFanVKbnvu9xqOzNJWJwz.jpg",
           "Gender": 2
         },
@@ -27598,6 +28926,7 @@ var data = {
           "ID": 2228,
           "FullName": "Sean Penn",
           "Amount": 4,
+          "Minutes": 480,
           "Poster": "/lpZRNf56TmPsNNWZ7lhcgFM6rBc.jpg",
           "Gender": 2
         },
@@ -27605,6 +28934,7 @@ var data = {
           "ID": 10959,
           "FullName": "Shia LaBeouf",
           "Amount": 4,
+          "Minutes": 461,
           "Poster": "/ljlpaXEManszxIcshYQoqo4au03.jpg",
           "Gender": 2
         },
@@ -27612,6 +28942,7 @@ var data = {
           "ID": 1532,
           "FullName": "Bill Murray",
           "Amount": 3,
+          "Minutes": 310,
           "Poster": "/nnCsJc9x3ZiG3AFyiyc3FPehppy.jpg",
           "Gender": 2
         },
@@ -27619,6 +28950,7 @@ var data = {
           "ID": 287,
           "FullName": "Brad Pitt",
           "Amount": 3,
+          "Minutes": 375,
           "Poster": "/ajNaPmXVVMJFg9GWmu6MJzTaXdV.jpg",
           "Gender": 2
         },
@@ -27626,6 +28958,7 @@ var data = {
           "ID": 18269,
           "FullName": "Brendan Fraser",
           "Amount": 3,
+          "Minutes": 336,
           "Poster": "/tFj5PaWWQbb8rHBBhu1EHklznph.jpg",
           "Gender": 2
         },
@@ -27633,6 +28966,7 @@ var data = {
           "ID": 190,
           "FullName": "Clint Eastwood",
           "Amount": 3,
+          "Minutes": 361,
           "Poster": "/dU35NnjZ4aGw5abIJe3WXVf3Eey.jpg",
           "Gender": 2
         },
@@ -27640,6 +28974,7 @@ var data = {
           "ID": 5292,
           "FullName": "Denzel Washington",
           "Amount": 3,
+          "Minutes": 365,
           "Poster": "/jj2Gcobpopokal0YstuCQW0ldJ4.jpg",
           "Gender": 2
         },
@@ -27647,6 +28982,7 @@ var data = {
           "ID": 819,
           "FullName": "Edward Norton",
           "Amount": 3,
+          "Minutes": 393,
           "Poster": "/8nytsqL59SFJTVYVrN72k6qkGgJ.jpg",
           "Gender": 2
         },
@@ -27654,6 +28990,7 @@ var data = {
           "ID": 3291,
           "FullName": "Hugh Grant",
           "Amount": 3,
+          "Minutes": 353,
           "Poster": "/piTC1mCFr6ZCS3SdaN5qF9Vnqu7.jpg",
           "Gender": 2
         },
@@ -27661,6 +28998,7 @@ var data = {
           "ID": 514,
           "FullName": "Jack Nicholson",
           "Amount": 3,
+          "Minutes": 374,
           "Poster": "/a7GOkGcxmrWHv1wr3e1zeWnasxq.jpg",
           "Gender": 2
         },
@@ -27668,6 +29006,7 @@ var data = {
           "ID": 18897,
           "FullName": "Jackie Chan",
           "Amount": 3,
+          "Minutes": 279,
           "Poster": "/nraZoTzwJQPHspAVsKfgl3RXKKa.jpg",
           "Gender": 2
         },
@@ -27675,6 +29014,7 @@ var data = {
           "ID": 131,
           "FullName": "Jake Gyllenhaal",
           "Amount": 3,
+          "Minutes": 355,
           "Poster": "/btORQRDyGCF0KNweGGYpmQXZK3P.jpg",
           "Gender": 2
         },
@@ -27682,6 +29022,7 @@ var data = {
           "ID": 854,
           "FullName": "James Stewart",
           "Amount": 3,
+          "Minutes": 374,
           "Poster": "/yId5fdDqShOkr0YjCoJbUOZipcX.jpg",
           "Gender": 2
         },
@@ -27689,6 +29030,7 @@ var data = {
           "ID": 206,
           "FullName": "Jim Carrey",
           "Amount": 3,
+          "Minutes": 312,
           "Poster": "/kuSlwTPsVlBMW0cvnFmbZce6PaV.jpg",
           "Gender": 2
         },
@@ -27696,6 +29038,7 @@ var data = {
           "ID": 73421,
           "FullName": "Joaquin Phoenix",
           "Amount": 3,
+          "Minutes": 350,
           "Poster": "/ls72wfQl8AhRVFeBnotmnAdy3JR.jpg",
           "Gender": 2
         },
@@ -27703,6 +29046,7 @@ var data = {
           "ID": 9656,
           "FullName": "Johnny Knoxville",
           "Amount": 3,
+          "Minutes": 276,
           "Poster": "/7XDKsHsLC4uNYaGsuWG1tQXWRnu.jpg",
           "Gender": 2
         },
@@ -27710,6 +29054,7 @@ var data = {
           "ID": 24045,
           "FullName": "Joseph Gordon-Levitt",
           "Amount": 3,
+          "Minutes": 307,
           "Poster": "/z2FA8js799xqtfiFjBTicFYdfk.jpg",
           "Gender": 2
         },
@@ -27717,6 +29062,7 @@ var data = {
           "ID": 7633,
           "FullName": "Leslie Nielsen",
           "Amount": 3,
+          "Minutes": 254,
           "Poster": "/u5vWl5dw69Nf89f905Qb5JqEVL3.jpg",
           "Gender": 2
         },
@@ -27724,6 +29070,7 @@ var data = {
           "ID": 11510,
           "FullName": "Macaulay Culkin",
           "Amount": 3,
+          "Minutes": 304,
           "Poster": "/hVagDqi5o8lZ21b1kXAl45Sj9wt.jpg",
           "Gender": 2
         },
@@ -27731,6 +29078,7 @@ var data = {
           "ID": 4756,
           "FullName": "Matthew Broderick",
           "Amount": 3,
+          "Minutes": 295,
           "Poster": "/papqFgpyroZJEqd7WvuNGN8ti2k.jpg",
           "Gender": 2
         },
@@ -27738,6 +29086,7 @@ var data = {
           "ID": 521,
           "FullName": "Michael J. Fox",
           "Amount": 3,
+          "Minutes": 308,
           "Poster": "/2JB4FMgQmnhbBlQ4SxWFN9EIVDi.jpg",
           "Gender": 2
         },
@@ -27745,6 +29094,7 @@ var data = {
           "ID": 934,
           "FullName": "Russell Crowe",
           "Amount": 3,
+          "Minutes": 428,
           "Poster": "/uxiXuVH4vNWrKlJMVVPG1sxAJFe.jpg",
           "Gender": 2
         },
@@ -27752,6 +29102,7 @@ var data = {
           "ID": 30614,
           "FullName": "Ryan Gosling",
           "Amount": 3,
+          "Minutes": 335,
           "Poster": "/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg",
           "Gender": 2
         },
@@ -27759,6 +29110,7 @@ var data = {
           "ID": 6730,
           "FullName": "Sacha Baron Cohen",
           "Amount": 3,
+          "Minutes": 263,
           "Poster": "/irirhgOX0siCyqvMrt2hoJpXfOG.jpg",
           "Gender": 2
         },
@@ -27766,6 +29118,7 @@ var data = {
           "ID": 11108,
           "FullName": "Simon Pegg",
           "Amount": 3,
+          "Minutes": 320,
           "Poster": "/kIMnWkZciXXHYyD8GxMYvDLD29x.jpg",
           "Gender": 2
         },
@@ -27773,6 +29126,7 @@ var data = {
           "ID": 2144,
           "FullName": "Tobin Bell",
           "Amount": 3,
+          "Minutes": 294,
           "Poster": "/q21uuCtTioIVcGc3a1Q0DpdcNMO.jpg",
           "Gender": 2
         },
@@ -27780,6 +29134,7 @@ var data = {
           "ID": 2524,
           "FullName": "Tom Hardy",
           "Amount": 3,
+          "Minutes": 345,
           "Poster": "/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg",
           "Gender": 2
         },
@@ -27787,6 +29142,7 @@ var data = {
           "ID": 1158,
           "FullName": "Al Pacino",
           "Amount": 2,
+          "Minutes": 372,
           "Poster": "/2dGBb1fOcNdZjtQToVPFxXjm4ke.jpg",
           "Gender": 2
         },
@@ -27794,6 +29150,7 @@ var data = {
           "ID": 13,
           "FullName": "Albert Brooks",
           "Amount": 2,
+          "Minutes": 197,
           "Poster": "/8iDSGu5l93N7benjf6b3AysBore.jpg",
           "Gender": 2
         },
@@ -27801,6 +29158,7 @@ var data = {
           "ID": 18976,
           "FullName": "Ashton Kutcher",
           "Amount": 2,
+          "Minutes": 203,
           "Poster": "/4QrIyEezQ9sF8YO7tvQ739GjHVy.jpg",
           "Gender": 2
         },
@@ -27808,6 +29166,7 @@ var data = {
           "ID": 7399,
           "FullName": "Ben Stiller",
           "Amount": 2,
+          "Minutes": 223,
           "Poster": "/scgpxhI05JpdNXXfmpK6z0rPOWN.jpg",
           "Gender": 2
         },
@@ -27815,6 +29174,7 @@ var data = {
           "ID": 51329,
           "FullName": "Bradley Cooper",
           "Amount": 2,
+          "Minutes": 222,
           "Poster": "/fNc2ophIkZD5AqMyPsDnfM1yi5C.jpg",
           "Gender": 2
         },
@@ -27822,6 +29182,7 @@ var data = {
           "ID": 1893,
           "FullName": "Casey Affleck",
           "Amount": 2,
+          "Minutes": 251,
           "Poster": "/hcggAadv5SwdhoAb4yYMoAFYdWK.jpg",
           "Gender": 2
         },
@@ -27829,6 +29190,7 @@ var data = {
           "ID": 38673,
           "FullName": "Channing Tatum",
           "Amount": 2,
+          "Minutes": 225,
           "Poster": "/xdnstENLdWMPWt9qyhtf695L4t6.jpg",
           "Gender": 2
         },
@@ -27836,6 +29198,7 @@ var data = {
           "ID": 13848,
           "FullName": "Charlie Chaplin",
           "Amount": 2,
+          "Minutes": 113,
           "Poster": "/qQZ2qDAyX9aw8KCkj9VZAQLKysK.jpg",
           "Gender": 2
         },
@@ -27843,6 +29206,7 @@ var data = {
           "ID": 2037,
           "FullName": "Cillian Murphy",
           "Amount": 2,
+          "Minutes": 294,
           "Poster": "/dm6V24NjjvjMiCtbMkc8Y2WPm2e.jpg",
           "Gender": 2
         },
@@ -27850,6 +29214,7 @@ var data = {
           "ID": 11856,
           "FullName": "Daniel Day-Lewis",
           "Amount": 2,
+          "Minutes": 288,
           "Poster": "/3kNA9VcmymoEwT0btQ4bvMYxzcP.jpg",
           "Gender": 2
         },
@@ -27857,6 +29222,7 @@ var data = {
           "ID": 206919,
           "FullName": "Daniel Kaluuya",
           "Amount": 2,
+          "Minutes": 234,
           "Poster": "/jj2kZqJobjom36wlhlYhc38nTwN.jpg",
           "Gender": 2
         },
@@ -27864,6 +29230,7 @@ var data = {
           "ID": 116798,
           "FullName": "Dick Proenneke",
           "Amount": 2,
+          "Minutes": 117,
           "Poster": "/vdz3bngVm575VtmxcKo1zXM36dI.jpg",
           "Gender": 2
         },
@@ -27871,6 +29238,7 @@ var data = {
           "ID": 4483,
           "FullName": "Dustin Hoffman",
           "Amount": 2,
+          "Minutes": 234,
           "Poster": "/yFjTzJHE6AFbwQifOlnNDzmiwlq.jpg",
           "Gender": 2
         },
@@ -27878,6 +29246,7 @@ var data = {
           "ID": 1687041,
           "FullName": "Fionn Whitehead",
           "Amount": 2,
+          "Minutes": 197,
           "Poster": "/gnZoQVp29ozHoMU8HysueZtmXs8.jpg",
           "Gender": 2
         },
@@ -27885,6 +29254,7 @@ var data = {
           "ID": 10722,
           "FullName": "Graham Chapman",
           "Amount": 2,
+          "Minutes": 185,
           "Poster": "/qmTXDGNxuuwQ4IGNHwxmCdjuTGk.jpg",
           "Gender": 2
         },
@@ -27892,6 +29262,7 @@ var data = {
           "ID": 529,
           "FullName": "Guy Pearce",
           "Amount": 2,
+          "Minutes": 251,
           "Poster": "/hCzlUxrTLz3ntoPApW873sX0THf.jpg",
           "Gender": 2
         },
@@ -27899,6 +29270,7 @@ var data = {
           "ID": 19923,
           "FullName": "Hugh Bonneville",
           "Amount": 2,
+          "Minutes": 247,
           "Poster": "/efsEe68avi6kKvnAcGRHDYxtiIm.jpg",
           "Gender": 2
         },
@@ -27906,6 +29278,7 @@ var data = {
           "ID": 6968,
           "FullName": "Hugh Jackman",
           "Amount": 2,
+          "Minutes": 226,
           "Poster": "/oX6CpXmnXCHLyqsa4NEed1DZAKx.jpg",
           "Gender": 2
         },
@@ -27913,6 +29286,7 @@ var data = {
           "ID": 5530,
           "FullName": "James McAvoy",
           "Amount": 2,
+          "Minutes": 207,
           "Poster": "/vB6qYlFXgONGVwwxWXE4gf0F8SQ.jpg",
           "Gender": 2
         },
@@ -27920,6 +29294,7 @@ var data = {
           "ID": 13548,
           "FullName": "James Spader",
           "Amount": 2,
+          "Minutes": 207,
           "Poster": "/uET0mbf2bMkUXbRb1Oxi8Qjqcw3.jpg",
           "Gender": 2
         },
@@ -27927,6 +29302,7 @@ var data = {
           "ID": 21593,
           "FullName": "Jason Biggs",
           "Amount": 2,
+          "Minutes": 203,
           "Poster": "/3nRgOQylYbNuDiddtNoh8uWTz5P.jpg",
           "Gender": 2
         },
@@ -27934,6 +29310,7 @@ var data = {
           "ID": 1229,
           "FullName": "Jeff Bridges",
           "Amount": 2,
+          "Minutes": 234,
           "Poster": "/xms1RAY6q7Lzp7wNeRCB0kzhucn.jpg",
           "Gender": 2
         },
@@ -27941,6 +29318,7 @@ var data = {
           "ID": 4785,
           "FullName": "Jeff Goldblum",
           "Amount": 2,
+          "Minutes": 225,
           "Poster": "/o3PahuK7OmCI0RAQUq38CUBWYZ9.jpg",
           "Gender": 2
         },
@@ -27948,6 +29326,7 @@ var data = {
           "ID": 44735,
           "FullName": "Jesse Eisenberg",
           "Amount": 2,
+          "Minutes": 209,
           "Poster": "/yYhwWRcxDHTn63gSEF1vnDAD7cD.jpg",
           "Gender": 2
         },
@@ -27955,6 +29334,7 @@ var data = {
           "ID": 2299,
           "FullName": "Josh Hartnett",
           "Amount": 2,
+          "Minutes": 255,
           "Poster": "/dCfu2EN7FjISACcjilaJu7evwEc.jpg",
           "Gender": 2
         },
@@ -27962,6 +29342,7 @@ var data = {
           "ID": 4724,
           "FullName": "Kevin Bacon",
           "Amount": 2,
+          "Minutes": 176,
           "Poster": "/rjX2Oz3tCZMfSwOoIAyEhdtXnTE.jpg",
           "Gender": 2
         },
@@ -27969,6 +29350,7 @@ var data = {
           "ID": 8945,
           "FullName": "Kevin Kline",
           "Amount": 2,
+          "Minutes": 232,
           "Poster": "/nbxtPbVNA6CjCXMOf5oqipiZFsW.jpg",
           "Gender": 2
         },
@@ -27976,6 +29358,7 @@ var data = {
           "ID": 1979,
           "FullName": "Kevin Spacey",
           "Amount": 2,
+          "Minutes": 252,
           "Poster": "/nPrUZDEbGQe6jwpVbHKJCXsMd7r.jpg",
           "Gender": 2
         },
@@ -27983,6 +29366,7 @@ var data = {
           "ID": 2628,
           "FullName": "Kiefer Sutherland",
           "Amount": 2,
+          "Minutes": 220,
           "Poster": "/3aMoxISGrslmqJ2JadQKwsu4GAI.jpg",
           "Gender": 2
         },
@@ -27990,6 +29374,7 @@ var data = {
           "ID": 6856,
           "FullName": "Kurt Russell",
           "Amount": 2,
+          "Minutes": 222,
           "Poster": "/6g1d98oH4miG4k0ZiZWmF3Dt0bO.jpg",
           "Gender": 2
         },
@@ -27997,6 +29382,7 @@ var data = {
           "ID": 3896,
           "FullName": "Liam Neeson",
           "Amount": 2,
+          "Minutes": 289,
           "Poster": "/bboldwqSC6tdw2iL6631c98l2Mn.jpg",
           "Gender": 2
         },
@@ -28004,6 +29390,7 @@ var data = {
           "ID": 2461,
           "FullName": "Mel Gibson",
           "Amount": 2,
+          "Minutes": 298,
           "Poster": "/jnqHMaOslt8cef2atSmOpGRvNla.jpg",
           "Gender": 2
         },
@@ -28011,6 +29398,7 @@ var data = {
           "ID": 3895,
           "FullName": "Michael Caine",
           "Amount": 2,
+          "Minutes": 207,
           "Poster": "/bVZRMlpjTAO2pJK6v90buFgVbSW.jpg",
           "Gender": 2
         },
@@ -28018,6 +29406,7 @@ var data = {
           "ID": 17288,
           "FullName": "Michael Fassbender",
           "Amount": 2,
+          "Minutes": 214,
           "Poster": "/xvbnUiB2ZBR3QIt595OzNy657Vw.jpg",
           "Gender": 2
         },
@@ -28025,6 +29414,7 @@ var data = {
           "ID": 17087,
           "FullName": "Michael Moore",
           "Amount": 2,
+          "Minutes": 243,
           "Poster": "/m5YViuBUXfKAHNEUObGpzhzQPgE.jpg",
           "Gender": 2
         },
@@ -28032,6 +29422,7 @@ var data = {
           "ID": 13242,
           "FullName": "Paul Giamatti",
           "Amount": 2,
+          "Minutes": 260,
           "Poster": "/ayEWNIXLVNYOrZQsNXrtlZTIZM8.jpg",
           "Gender": 2
         },
@@ -28039,6 +29430,7 @@ var data = {
           "ID": 8167,
           "FullName": "Paul Walker",
           "Amount": 2,
+          "Minutes": 214,
           "Poster": "/q2PLqKHYCs35HR7QybaNPH3JT96.jpg",
           "Gender": 2
         },
@@ -28046,6 +29438,7 @@ var data = {
           "ID": 380,
           "FullName": "Robert De Niro",
           "Amount": 2,
+          "Minutes": 259,
           "Poster": "/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg",
           "Gender": 2
         },
@@ -28053,6 +29446,7 @@ var data = {
           "ID": 4783,
           "FullName": "Sam Neill",
           "Amount": 2,
+          "Minutes": 219,
           "Poster": "/iIfuxalf37xUayuGyK0zG7z6WEZ.jpg",
           "Gender": 2
         },
@@ -28060,6 +29454,7 @@ var data = {
           "ID": 4581,
           "FullName": "Steve Coogan",
           "Amount": 2,
+          "Minutes": 197,
           "Poster": "/tT7OXc2qA6hlREHXdwGLp0XihzA.jpg",
           "Gender": 2
         },
@@ -28067,6 +29462,7 @@ var data = {
           "ID": 16483,
           "FullName": "Sylvester Stallone",
           "Amount": 2,
+          "Minutes": 232,
           "Poster": "/Aprx4oBGwdTPHqlfcYbjWlCK3aI.jpg",
           "Gender": 2
         },
@@ -28074,6 +29470,7 @@ var data = {
           "ID": 13472,
           "FullName": "Tim Curry",
           "Amount": 2,
+          "Minutes": 194,
           "Poster": "/aWGnGa7scPeGCP5DRhHosTrYdfA.jpg",
           "Gender": 2
         },
@@ -28081,6 +29478,7 @@ var data = {
           "ID": 2176,
           "FullName": "Tommy Lee Jones",
           "Amount": 2,
+          "Minutes": 186,
           "Poster": "/mCiZNRAzbnPojJEZwVZWLw9kzxR.jpg",
           "Gender": 2
         },
@@ -28088,6 +29486,7 @@ var data = {
           "ID": 110,
           "FullName": "Viggo Mortensen",
           "Amount": 2,
+          "Minutes": 231,
           "Poster": "/vH5gVSpHAMhDaFWfh0Q7BG61O1y.jpg",
           "Gender": 2
         },
@@ -28095,6 +29494,7 @@ var data = {
           "ID": 6383,
           "FullName": "Aaron Eckhart",
           "Amount": 1,
+          "Minutes": 92,
           "Poster": "/6rI3cYhdxOaOFSRB4C29MalpwDC.jpg",
           "Gender": 2
         },
@@ -28102,6 +29502,7 @@ var data = {
           "ID": 84497,
           "FullName": "Aaron Paul",
           "Amount": 1,
+          "Minutes": 123,
           "Poster": "/8Ac9uuoYwZoYVAIJfRLzzLsGGJn.jpg",
           "Gender": 2
         },
@@ -28109,6 +29510,7 @@ var data = {
           "ID": 1023139,
           "FullName": "Adam Driver",
           "Amount": 1,
+          "Minutes": 137,
           "Poster": "/zYxEjEMM1ZizgFcylHejEhtnkUc.jpg",
           "Gender": 2
         },
@@ -28116,6 +29518,7 @@ var data = {
           "ID": 3490,
           "FullName": "Adrien Brody",
           "Amount": 1,
+          "Minutes": 150,
           "Poster": "/1dBItgLFBNGEXnI48VvnnN2vFaX.jpg",
           "Gender": 2
         },
@@ -28123,6 +29526,7 @@ var data = {
           "ID": 7447,
           "FullName": "Alec Baldwin",
           "Amount": 1,
+          "Minutes": 92,
           "Poster": "/hzKy7x574eeUS3wt1R3yvWBRpeR.jpg",
           "Gender": 2
         },
@@ -28130,6 +29534,7 @@ var data = {
           "ID": 9609,
           "FullName": "Aleksandr Antonov",
           "Amount": 1,
+          "Minutes": 75,
           "Poster": "/2SsBRWuIQr3T0Ou7K75HarJoNIo.jpg",
           "Gender": 2
         },
@@ -28137,6 +29542,7 @@ var data = {
           "ID": 93407,
           "FullName": "Aleksei Kravchenko",
           "Amount": 1,
+          "Minutes": 142,
           "Poster": "/o7UD6o30iJ29dTHPCbtOScv9s5E.jpg",
           "Gender": 2
         },
@@ -28144,6 +29550,7 @@ var data = {
           "ID": 107800,
           "FullName": "Alex Honnold",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "/zGQBJtvZINei4iCVcuXpdcTjBv4.jpg",
           "Gender": 2
         },
@@ -28151,6 +29558,7 @@ var data = {
           "ID": 8595,
           "FullName": "Alexandre Rodrigues",
           "Amount": 1,
+          "Minutes": 130,
           "Poster": "/sN0o245HMVYTnEWPBYt3qdiQupq.jpg",
           "Gender": 2
         },
@@ -28158,6 +29566,7 @@ var data = {
           "ID": 125660,
           "FullName": "Andrew Scott",
           "Amount": 1,
+          "Minutes": 106,
           "Poster": "/akbGBP3RI4siNLPr8Pa6YcD2NJt.jpg",
           "Gender": 2
         },
@@ -28165,6 +29574,7 @@ var data = {
           "ID": 31656,
           "FullName": "Andy Bichlbaum",
           "Amount": 1,
+          "Minutes": 87,
           "Poster": "/tkYLhys0XBsdQAiUoiUwMVR7BAW.jpg",
           "Gender": 2
         },
@@ -28172,6 +29582,7 @@ var data = {
           "ID": 1333,
           "FullName": "Andy Serkis",
           "Amount": 1,
+          "Minutes": 105,
           "Poster": "/eNGqhebQ4cDssjVeNFrKtUvweV5.jpg",
           "Gender": 2
         },
@@ -28179,6 +29590,7 @@ var data = {
           "ID": 1159982,
           "FullName": "Ansel Elgort",
           "Amount": 1,
+          "Minutes": 113,
           "Poster": "/pbU6qz8eudly20UE6u9T7jUXTgT.jpg",
           "Gender": 2
         },
@@ -28186,6 +29598,7 @@ var data = {
           "ID": 4173,
           "FullName": "Anthony Hopkins",
           "Amount": 1,
+          "Minutes": 96,
           "Poster": "/iehVUf9U3erYg94hrQMI6KxWXYZ.jpg",
           "Gender": 2
         },
@@ -28193,6 +29606,7 @@ var data = {
           "ID": 1904,
           "FullName": "Anthony Michael Hall",
           "Amount": 1,
+          "Minutes": 93,
           "Poster": "/nLthzoCuNxxd3KteIrnnMg1066G.jpg",
           "Gender": 2
         },
@@ -28200,6 +29614,7 @@ var data = {
           "ID": 7301,
           "FullName": "Anthony Perkins",
           "Amount": 1,
+          "Minutes": 109,
           "Poster": "/2BD15q5z5xpO0lAymi6VSGESk9Z.jpg",
           "Gender": 2
         },
@@ -28207,6 +29622,7 @@ var data = {
           "ID": 3131,
           "FullName": "Antonio Banderas",
           "Amount": 1,
+          "Minutes": 136,
           "Poster": "/5BmWgSeW8Rg6hkisEeqLM5P0OBZ.jpg",
           "Gender": 2
         },
@@ -28214,6 +29630,7 @@ var data = {
           "ID": 53807,
           "FullName": "Armie Hammer",
           "Amount": 1,
+          "Minutes": 132,
           "Poster": "/2zq984Jrw53AxDshTQPKpTPGLe8.jpg",
           "Gender": 2
         },
@@ -28221,6 +29638,7 @@ var data = {
           "ID": 39024,
           "FullName": "Arthur Lowe",
           "Amount": 1,
+          "Minutes": 95,
           "Poster": "/8QkpkLQvEnJQavSgZ4heaEujN0A.jpg",
           "Gender": 2
         },
@@ -28228,6 +29646,7 @@ var data = {
           "ID": 1290466,
           "FullName": "Barry Keoghan",
           "Amount": 1,
+          "Minutes": 131,
           "Poster": "/ngoitknM6hw8fffLywyvjzy6Iti.jpg",
           "Gender": 2
         },
@@ -28235,6 +29654,7 @@ var data = {
           "ID": 880,
           "FullName": "Ben Affleck",
           "Amount": 1,
+          "Minutes": 98,
           "Poster": "/u525jeDOzg9hVdvYfeehTGnw7Aa.jpg",
           "Gender": 2
         },
@@ -28242,6 +29662,7 @@ var data = {
           "ID": 670,
           "FullName": "Ben Burtt",
           "Amount": 1,
+          "Minutes": 98,
           "Poster": "/16OhOb7WngOi4WOnGpRpbDSzYnd.jpg",
           "Gender": 2
         },
@@ -28249,6 +29670,7 @@ var data = {
           "ID": 17064,
           "FullName": "Ben Whishaw",
           "Amount": 1,
+          "Minutes": 104,
           "Poster": "/e74Cz65ifeNb9zHfUTvF5rTix0d.jpg",
           "Gender": 2
         },
@@ -28256,6 +29678,7 @@ var data = {
           "ID": 2053,
           "FullName": "Bill Paxton",
           "Amount": 1,
+          "Minutes": 121,
           "Poster": "/aLdNe6mt1cSi2zWlUYRregzfis5.jpg",
           "Gender": 2
         },
@@ -28263,6 +29686,7 @@ var data = {
           "ID": 879,
           "FullName": "Billy Bob Thornton",
           "Amount": 1,
+          "Minutes": 113,
           "Poster": "/uJBFml6efjg34u2jvT5ugVa1cPI.jpg",
           "Gender": 2
         },
@@ -28270,6 +29694,7 @@ var data = {
           "ID": 23679,
           "FullName": "Billy West",
           "Amount": 1,
+          "Minutes": 88,
           "Poster": "/iNQtBsgV4wr3z5CEEFhR5U4Yedk.jpg",
           "Gender": 2
         },
@@ -28277,6 +29702,7 @@ var data = {
           "ID": 382,
           "FullName": "Bob Hoskins",
           "Amount": 1,
+          "Minutes": 104,
           "Poster": "/xC2jSX4rN4t5CbUEA7PEnU8PWc6.jpg",
           "Gender": 2
         },
@@ -28284,6 +29710,7 @@ var data = {
           "ID": 51214,
           "FullName": "Brad Renfro",
           "Amount": 1,
+          "Minutes": 113,
           "Poster": "/oOtzyE9wkbBV58ZxyYsGzyPxoSw.jpg",
           "Gender": 2
         },
@@ -28291,6 +29718,7 @@ var data = {
           "ID": 57331,
           "FullName": "Bruce Reitherman",
           "Amount": 1,
+          "Minutes": 78,
           "Poster": "/uNhDojXYNB1AvgJzhzKNXXD2o6c.jpg",
           "Gender": 2
         },
@@ -28298,6 +29726,7 @@ var data = {
           "ID": 2310,
           "FullName": "Bruno Ganz",
           "Amount": 1,
+          "Minutes": 155,
           "Poster": "/siuPo91XYmYLXeCdq2DZTyNtpYq.jpg",
           "Gender": 2
         },
@@ -28305,6 +29734,7 @@ var data = {
           "ID": 2130,
           "FullName": "Cary Elwes",
           "Amount": 1,
+          "Minutes": 103,
           "Poster": "/9P0JD0LC4j3Y43s6TGM8rOqmbwb.jpg",
           "Gender": 2
         },
@@ -28312,6 +29742,7 @@ var data = {
           "ID": 2638,
           "FullName": "Cary Grant",
           "Amount": 1,
+          "Minutes": 136,
           "Poster": "/oF5Vj64OEEDAy7DzpBP0W8fSwC6.jpg",
           "Gender": 2
         },
@@ -28319,6 +29750,7 @@ var data = {
           "ID": 172069,
           "FullName": "Chadwick Boseman",
           "Amount": 1,
+          "Minutes": 135,
           "Poster": "/nL16SKfyP1b7Hk6LsuWiqMfbdb8.jpg",
           "Gender": 2
         },
@@ -28326,6 +29758,7 @@ var data = {
           "ID": 29519,
           "FullName": "Charles Boyer",
           "Amount": 1,
+          "Minutes": 114,
           "Poster": "/wFFkKeY4RqC8ChYd64KJiAaSVWy.jpg",
           "Gender": 2
         },
@@ -28333,6 +29766,7 @@ var data = {
           "ID": 10017,
           "FullName": "Charlton Heston",
           "Amount": 1,
+          "Minutes": 112,
           "Poster": "/2wiaCoobBNm8nLO5C9ht3lN8Lt3.jpg",
           "Gender": 2
         },
@@ -28340,6 +29774,7 @@ var data = {
           "ID": 5294,
           "FullName": "Chiwetel Ejiofor",
           "Amount": 1,
+          "Minutes": 134,
           "Poster": "/kq5DDnqqofoRI0t6ddtRlsJnNPT.jpg",
           "Gender": 2
         },
@@ -28347,6 +29782,7 @@ var data = {
           "ID": 1619,
           "FullName": "Chow Yun-fat",
           "Amount": 1,
+          "Minutes": 120,
           "Poster": "/uDPYSiZrW7OZ79qgcgkWefALlXY.jpg",
           "Gender": 2
         },
@@ -28354,6 +29790,7 @@ var data = {
           "ID": 16828,
           "FullName": "Chris Evans",
           "Amount": 1,
+          "Minutes": 101,
           "Poster": "/3bOGNsHlrswhyW79uvIHH1V43JI.jpg",
           "Gender": 2
         },
@@ -28361,6 +29798,7 @@ var data = {
           "ID": 74568,
           "FullName": "Chris Hemsworth",
           "Amount": 1,
+          "Minutes": 123,
           "Poster": "/xkHHiJXraaMFXgRYspN6KVrFn17.jpg",
           "Gender": 2
         },
@@ -28368,6 +29806,7 @@ var data = {
           "ID": 61659,
           "FullName": "Chris Messina",
           "Amount": 1,
+          "Minutes": 80,
           "Poster": "/l9DbQTK5pI6SOGpmfbADGLhdOYS.jpg",
           "Gender": 2
         },
@@ -28375,6 +29814,7 @@ var data = {
           "ID": 62064,
           "FullName": "Chris Pine",
           "Amount": 1,
+          "Minutes": 122,
           "Poster": "/c3t25zVaWD3IzsMdCDqg4FsoHFl.jpg",
           "Gender": 2
         },
@@ -28382,6 +29822,7 @@ var data = {
           "ID": 73457,
           "FullName": "Chris Pratt",
           "Amount": 1,
+          "Minutes": 124,
           "Poster": "/83o3koL82jt30EJ0rz4Bnzrt2dd.jpg",
           "Gender": 2
         },
@@ -28389,6 +29830,7 @@ var data = {
           "ID": 2224,
           "FullName": "Christian Slater",
           "Amount": 1,
+          "Minutes": 95,
           "Poster": "/6ww3uweEEXMlvtNjTlgBHxLErPF.jpg",
           "Gender": 2
         },
@@ -28396,6 +29838,7 @@ var data = {
           "ID": 2040,
           "FullName": "Christopher Eccleston",
           "Amount": 1,
+          "Minutes": 90,
           "Poster": "/eZKYy6lxKFiO89TdKk3sX4gi9tD.jpg",
           "Gender": 2
         },
@@ -28403,6 +29846,7 @@ var data = {
           "ID": 13524,
           "FullName": "Christopher Guest",
           "Amount": 1,
+          "Minutes": 82,
           "Poster": "/blRS1tkcgZROLC7ObGigFEzvp2r.jpg",
           "Gender": 2
         },
@@ -28410,6 +29854,7 @@ var data = {
           "ID": 4113,
           "FullName": "Claude Rains",
           "Amount": 1,
+          "Minutes": 71,
           "Poster": "/agbKGRcw65QRfMPm1aDijUL1Lqd.jpg",
           "Gender": 2
         },
@@ -28417,6 +29862,7 @@ var data = {
           "ID": 2296,
           "FullName": "Clive Owen",
           "Amount": 1,
+          "Minutes": 109,
           "Poster": "/ed0LT4wH1rUCviCFexd4XPZVHE1.jpg",
           "Gender": 2
         },
@@ -28424,6 +29870,7 @@ var data = {
           "ID": 2923,
           "FullName": "Colin Clive",
           "Amount": 1,
+          "Minutes": 71,
           "Poster": "/2z1OvrR1P443wWMifJAem0j3z0c.jpg",
           "Gender": 2
         },
@@ -28431,6 +29878,7 @@ var data = {
           "ID": 5472,
           "FullName": "Colin Firth",
           "Amount": 1,
+          "Minutes": 118,
           "Poster": "/4VBeYEUQbfhnivdkqInM36u5fda.jpg",
           "Gender": 2
         },
@@ -28438,6 +29886,7 @@ var data = {
           "ID": 8977,
           "FullName": "Craig T. Nelson",
           "Amount": 1,
+          "Minutes": 115,
           "Poster": "/rMh8qdexFKmc7mq7oLzsLLvCCjs.jpg",
           "Gender": 2
         },
@@ -28445,6 +29894,7 @@ var data = {
           "ID": 707,
           "FullName": "Dan Aykroyd",
           "Amount": 1,
+          "Minutes": 116,
           "Poster": "/iVMmeVJx8IpCEjlGBZWzIWvX5Qo.jpg",
           "Gender": 2
         },
@@ -28452,6 +29902,7 @@ var data = {
           "ID": 198,
           "FullName": "Dan Castellaneta",
           "Amount": 1,
+          "Minutes": 87,
           "Poster": "/AmeqWhP4A46AWkM4kVphg6jOTQX.jpg",
           "Gender": 2
         },
@@ -28459,6 +29910,7 @@ var data = {
           "ID": 41042,
           "FullName": "Danny Dyer",
           "Amount": 1,
+          "Minutes": 96,
           "Poster": "/jkRpiR5pwkyeiIBdQF8og9D4reP.jpg",
           "Gender": 2
         },
@@ -28466,6 +29918,7 @@ var data = {
           "ID": 15234,
           "FullName": "David Arquette",
           "Amount": 1,
+          "Minutes": 112,
           "Poster": "/1C5sLNLNVZ3P8sMy7HUQ32IKdqX.jpg",
           "Gender": 2
         },
@@ -28473,6 +29926,7 @@ var data = {
           "ID": 7487,
           "FullName": "David Bowie",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "/qrqQJivS0zLzxZKfgNZnDtjbqpI.jpg",
           "Gender": 2
         },
@@ -28480,6 +29934,7 @@ var data = {
           "ID": 141,
           "FullName": "David Carradine",
           "Amount": 1,
+          "Minutes": 80,
           "Poster": "/1X2GlkMKS9FIG1kGou7o6LRqAjz.jpg",
           "Gender": 2
         },
@@ -28487,6 +29942,7 @@ var data = {
           "ID": 15069,
           "FullName": "David Emge",
           "Amount": 1,
+          "Minutes": 127,
           "Poster": "/82TWgmmCIIdiuKXD2MoUUoFyLzI.jpg",
           "Gender": 2
         },
@@ -28494,6 +29950,7 @@ var data = {
           "ID": 1473954,
           "FullName": "David Farrier",
           "Amount": 1,
+          "Minutes": 92,
           "Poster": "/ugvUGx8reE4aQ7rWPkRCB6G0Jm2.jpg",
           "Gender": 2
         },
@@ -28501,6 +29958,7 @@ var data = {
           "ID": 11076,
           "FullName": "David Hyde Pierce",
           "Amount": 1,
+          "Minutes": 93,
           "Poster": "/9BSgq4yxjPry1Oghqq92S4wUIvs.jpg",
           "Gender": 2
         },
@@ -28508,6 +29966,7 @@ var data = {
           "ID": 56112,
           "FullName": "David Lee Smith",
           "Amount": 1,
+          "Minutes": 87,
           "Poster": "/A3vP0a0CqmQSdslPRnEYDiyIZ3V.jpg",
           "Gender": 2
         },
@@ -28515,6 +29974,7 @@ var data = {
           "ID": 6065,
           "FullName": "Dennis Quaid",
           "Amount": 1,
+          "Minutes": 118,
           "Poster": "/lMaDAJHzsKH7U3dln2B3kY3rOhE.jpg",
           "Gender": 2
         },
@@ -28522,6 +29982,7 @@ var data = {
           "ID": 12422,
           "FullName": "Dennis Weaver",
           "Amount": 1,
+          "Minutes": 89,
           "Poster": "/ed8NnlU9Kxtmwxb4Io4VlWSIY71.jpg",
           "Gender": 2
         },
@@ -28529,6 +29990,7 @@ var data = {
           "ID": 76788,
           "FullName": "Dev Patel",
           "Amount": 1,
+          "Minutes": 120,
           "Poster": "/1g07SUVwZHvKgM1Z7H4RYIEOXcm.jpg",
           "Gender": 2
         },
@@ -28536,6 +29998,7 @@ var data = {
           "ID": 50398,
           "FullName": "Devon Sawa",
           "Amount": 1,
+          "Minutes": 98,
           "Poster": "/yvMbpZ0UFQ1IBwlWm8quCA6fNc5.jpg",
           "Gender": 2
         },
@@ -28543,6 +30006,7 @@ var data = {
           "ID": 61303,
           "FullName": "Dick Van Dyke",
           "Amount": 1,
+          "Minutes": 144,
           "Poster": "/9FdcMWGMT03AOvlLzslXl1dksgK.jpg",
           "Gender": 2
         },
@@ -28550,6 +30014,7 @@ var data = {
           "ID": 23721,
           "FullName": "Dieter Laser",
           "Amount": 1,
+          "Minutes": 91,
           "Poster": "/xBhIIbhkFV0M0WRBokHXPS7zUYq.jpg",
           "Gender": 2
         },
@@ -28557,6 +30022,7 @@ var data = {
           "ID": 93210,
           "FullName": "Domhnall Gleeson",
           "Amount": 1,
+          "Minutes": 108,
           "Poster": "/uDbwncuKlqL0fAuucXSvgakJDrc.jpg",
           "Gender": 2
         },
@@ -28564,6 +30030,7 @@ var data = {
           "ID": 2413,
           "FullName": "Dominique Pinon",
           "Amount": 1,
+          "Minutes": 99,
           "Poster": "/rIPUhNwGSglgKLgMQWz0JNCqIzf.jpg",
           "Gender": 2
         },
@@ -28571,6 +30038,7 @@ var data = {
           "ID": 1896,
           "FullName": "Don Cheadle",
           "Amount": 1,
+          "Minutes": 108,
           "Poster": "/vPzvP0Qik5yHNf6dF2uqLH9HrX1.jpg",
           "Gender": 2
         },
@@ -28578,6 +30046,7 @@ var data = {
           "ID": 9221,
           "FullName": "Donald Pleasence",
           "Amount": 1,
+          "Minutes": 91,
           "Poster": "/crtSwLnlrEidYFPupkVBSL9wK9Z.jpg",
           "Gender": 2
         },
@@ -28585,6 +30054,7 @@ var data = {
           "ID": 8598,
           "FullName": "Douglas Silva",
           "Amount": 1,
+          "Minutes": 106,
           "Poster": "/8GAtzTf0qjTf9HgePUFwsFbQVbn.jpg",
           "Gender": 2
         },
@@ -28592,6 +30062,7 @@ var data = {
           "ID": 68812,
           "FullName": "Ed Asner",
           "Amount": 1,
+          "Minutes": 96,
           "Poster": "/uj5TQBVb1jdPrvSEdwjzT6DRmqi.jpg",
           "Gender": 2
         },
@@ -28599,6 +30070,7 @@ var data = {
           "ID": 37632,
           "FullName": "Eddie Redmayne",
           "Amount": 1,
+          "Minutes": 89,
           "Poster": "/Ll3cAE9RIsSX4cvTi5K1KNQizI.jpg",
           "Gender": 2
         },
@@ -28606,6 +30078,7 @@ var data = {
           "ID": 1052104,
           "FullName": "Edmund McMillen",
           "Amount": 1,
+          "Minutes": 103,
           "Poster": "/3yIE8uPsVKESPtsN0Qr7rjwJNTe.jpg",
           "Gender": 2
         },
@@ -28613,6 +30086,7 @@ var data = {
           "ID": 32437,
           "FullName": "Edward Brophy",
           "Amount": 1,
+          "Minutes": 64,
           "Poster": "/gxAnTjS7tnVOFdhUjkWYcsdXhWm.jpg",
           "Gender": 2
         },
@@ -28620,6 +30094,7 @@ var data = {
           "ID": 12833,
           "FullName": "Edward Burns",
           "Amount": 1,
+          "Minutes": 97,
           "Poster": "/pTLdPUSxDUcdmvy91LGCF3pk0AM.jpg",
           "Gender": 2
         },
@@ -28627,6 +30102,7 @@ var data = {
           "ID": 9126,
           "FullName": "Edward Fox",
           "Amount": 1,
+          "Minutes": 143,
           "Poster": "/mRAgZvRscftn6roAKdLQwrrrWrS.jpg",
           "Gender": 2
         },
@@ -28634,6 +30110,7 @@ var data = {
           "ID": 820,
           "FullName": "Edward Furlong",
           "Amount": 1,
+          "Minutes": 86,
           "Poster": "/e221dMIBgb6Lk092GIkHB9ohQF1.jpg",
           "Gender": 2
         },
@@ -28641,6 +30118,7 @@ var data = {
           "ID": 39188,
           "FullName": "Edward Woodward",
           "Amount": 1,
+          "Minutes": 88,
           "Poster": "/2MWfWJsjCTeeuIRKhcIxj1vzuR6.jpg",
           "Gender": 2
         },
@@ -28648,6 +30126,7 @@ var data = {
           "ID": 178884,
           "FullName": "\u00C9mile Genest",
           "Amount": 1,
+          "Minutes": 80,
           "Poster": "/lQSJKakQuE42kolDPEwnECAQlr8.jpg",
           "Gender": 2
         },
@@ -28655,6 +30134,7 @@ var data = {
           "ID": 46593,
           "FullName": "Emile Hirsch",
           "Amount": 1,
+          "Minutes": 148,
           "Poster": "/Ah8BYOB7P8tX9jnQVrnAbL2kxYJ.jpg",
           "Gender": 2
         },
@@ -28662,6 +30142,7 @@ var data = {
           "ID": 2880,
           "FullName": "Emilio Estevez",
           "Amount": 1,
+          "Minutes": 98,
           "Poster": "/6TNIik0wBLo8DTvmJNDkKDqKWme.jpg",
           "Gender": 2
         },
@@ -28669,6 +30150,7 @@ var data = {
           "ID": 325,
           "FullName": "Eminem",
           "Amount": 1,
+          "Minutes": 111,
           "Poster": "/bRrrk9r1cYG6KVnYzjwYGT0g1Qi.jpg",
           "Gender": 2
         },
@@ -28676,6 +30158,7 @@ var data = {
           "ID": 3301646,
           "FullName": "Enzo Vogrincic",
           "Amount": 1,
+          "Minutes": 144,
           "Poster": "/ebRL8vHFjA0vCYw66CmUa4UJ9Be.jpg",
           "Gender": 2
         },
@@ -28683,6 +30166,7 @@ var data = {
           "ID": 8783,
           "FullName": "Eric Bana",
           "Amount": 1,
+          "Minutes": 94,
           "Poster": "/xIjQVywxkymHbbSO7lD2F9f377W.jpg",
           "Gender": 2
         },
@@ -28690,6 +30174,7 @@ var data = {
           "ID": 569,
           "FullName": "Ethan Hawke",
           "Amount": 1,
+          "Minutes": 86,
           "Poster": "/a7rgJl8TYUWAfJuM4fxbLHgD7BL.jpg",
           "Gender": 2
         },
@@ -28697,6 +30182,7 @@ var data = {
           "ID": 3061,
           "FullName": "Ewan McGregor",
           "Amount": 1,
+          "Minutes": 94,
           "Poster": "/q2UDxfwWnmXTB7khOUF3J9puBVP.jpg",
           "Gender": 2
         },
@@ -28704,6 +30190,7 @@ var data = {
           "ID": 33161,
           "FullName": "Fran\u00E7ois Cluzet",
           "Amount": 1,
+          "Minutes": 113,
           "Poster": "/4ioxRGRJdSjItLxAQ2pp7byWkd3.jpg",
           "Gender": 2
         },
@@ -28711,6 +30198,7 @@ var data = {
           "ID": 8924,
           "FullName": "Frank Langella",
           "Amount": 1,
+          "Minutes": 111,
           "Poster": "/86DEo3sBguyc1l46606yVKD28T4.jpg",
           "Gender": 2
         },
@@ -28718,6 +30206,7 @@ var data = {
           "ID": 3460,
           "FullName": "Gene Wilder",
           "Amount": 1,
+          "Minutes": 99,
           "Poster": "/mwwOSWS2m8ArpiUKnoxVVyT8fND.jpg",
           "Gender": 2
         },
@@ -28725,6 +30214,7 @@ var data = {
           "ID": 118,
           "FullName": "Geoffrey Rush",
           "Amount": 1,
+          "Minutes": 124,
           "Poster": "/npXFjaFQzBNroCEPllGPTZ5IisA.jpg",
           "Gender": 2
         },
@@ -28732,6 +30222,7 @@ var data = {
           "ID": 146750,
           "FullName": "George MacKay",
           "Amount": 1,
+          "Minutes": 119,
           "Poster": "/wnDAg1CyCbBCklQAZ9I1dj5X6QY.jpg",
           "Gender": 2
         },
@@ -28739,6 +30230,7 @@ var data = {
           "ID": 11523,
           "FullName": "Georges M\u00E9li\u00E8s",
           "Amount": 1,
+          "Minutes": 15,
           "Poster": "/acx5saf22Qj6FV5WAsacRHlZAMn.jpg",
           "Gender": 2
         },
@@ -28746,6 +30238,7 @@ var data = {
           "ID": 7541,
           "FullName": "Giuseppe Battiston",
           "Amount": 1,
+          "Minutes": 97,
           "Poster": "/22btW2Wybe7CKcI53EcB2uv43sS.jpg",
           "Gender": 2
         },
@@ -28753,6 +30246,7 @@ var data = {
           "ID": 17141,
           "FullName": "Greg Kinnear",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "/w4CVkyjjCBuZXVsdoiKxKeJzFYn.jpg",
           "Gender": 2
         },
@@ -28760,6 +30254,7 @@ var data = {
           "ID": 9640,
           "FullName": "Haley Joel Osment",
           "Amount": 1,
+          "Minutes": 146,
           "Poster": "/2rnMTQB9Q3vLtmRyyUaenVwSgfY.jpg",
           "Gender": 2
         },
@@ -28767,6 +30262,7 @@ var data = {
           "ID": 88953,
           "FullName": "Harold Lloyd",
           "Amount": 1,
+          "Minutes": 74,
           "Poster": "/alOOCzYnr08aEYekwsA3onrdeXk.jpg",
           "Gender": 2
         },
@@ -28774,6 +30270,7 @@ var data = {
           "ID": 1716493,
           "FullName": "Harris Dickinson",
           "Amount": 1,
+          "Minutes": 147,
           "Poster": "/jQwNdAhHb9ONOBo19eOzQcHYJfI.jpg",
           "Gender": 2
         },
@@ -28781,6 +30278,7 @@ var data = {
           "ID": 1037,
           "FullName": "Harvey Keitel",
           "Amount": 1,
+          "Minutes": 99,
           "Poster": "/7P30hza1neYWW3r7rSQOC736K2Z.jpg",
           "Gender": 2
         },
@@ -28788,6 +30286,7 @@ var data = {
           "ID": 17244,
           "FullName": "Hayden Christensen",
           "Amount": 1,
+          "Minutes": 88,
           "Poster": "/hqEgJYEUvZvL9ytmmiYBbbt63qd.jpg",
           "Gender": 2
         },
@@ -28795,6 +30294,7 @@ var data = {
           "ID": 1810,
           "FullName": "Heath Ledger",
           "Amount": 1,
+          "Minutes": 134,
           "Poster": "/5Y9HnYYa9jF4NunY9lSgJGjSe8E.jpg",
           "Gender": 2
         },
@@ -28802,6 +30302,7 @@ var data = {
           "ID": 9976,
           "FullName": "Henry Thomas",
           "Amount": 1,
+          "Minutes": 115,
           "Poster": "/l5OZ4qrrRGnEPeNhZ8PcL5vhwOI.jpg",
           "Gender": 2
         },
@@ -28809,6 +30310,7 @@ var data = {
           "ID": 1324044,
           "FullName": "Hryhoriy Fesenko",
           "Amount": 1,
+          "Minutes": 130,
           "Poster": "/2cer30c2f8RqCvRY6TDqB3q6vC3.jpg",
           "Gender": 2
         },
@@ -28816,6 +30318,7 @@ var data = {
           "ID": 4110,
           "FullName": "Humphrey Bogart",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "/4pk2VbOb2td7iBZyir6Ji46HH4N.jpg",
           "Gender": 2
         },
@@ -28823,6 +30326,7 @@ var data = {
           "ID": 31422,
           "FullName": "Ivan Massagu\u00E9",
           "Amount": 1,
+          "Minutes": 95,
           "Poster": "/dmnJo2sGlfFjtKb8FDPlNjRhfyc.jpg",
           "Gender": 2
         },
@@ -28830,6 +30334,7 @@ var data = {
           "ID": 3085,
           "FullName": "James Caan",
           "Amount": 1,
+          "Minutes": 107,
           "Poster": "/v3flJtQEyczxENi29yJyvnN6LVt.jpg",
           "Gender": 2
         },
@@ -28837,6 +30342,7 @@ var data = {
           "ID": 17051,
           "FullName": "James Franco",
           "Amount": 1,
+          "Minutes": 94,
           "Poster": "/tTzie9cpKHxajFRqUOZBaIWGZGM.jpg",
           "Gender": 2
         },
@@ -28844,6 +30350,7 @@ var data = {
           "ID": 2008810,
           "FullName": "James Hinchcliffe",
           "Amount": 1,
+          "Minutes": 45,
           "Poster": "/rTRzobn57dc2Gzo1qjft8V9nk6l.jpg",
           "Gender": 2
         },
@@ -28851,6 +30358,7 @@ var data = {
           "ID": 2091,
           "FullName": "James Mason",
           "Amount": 1,
+          "Minutes": 154,
           "Poster": "/8iun5pwVh2hBRJ1Nq51mys39Dy1.jpg",
           "Gender": 2
         },
@@ -28858,6 +30366,7 @@ var data = {
           "ID": 1214745,
           "FullName": "James Randi",
           "Amount": 1,
+          "Minutes": 90,
           "Poster": "/hfTTZtTxDJI6v8ydnQd10fsFfbx.jpg",
           "Gender": 2
         },
@@ -28865,6 +30374,7 @@ var data = {
           "ID": 4512,
           "FullName": "James Woods",
           "Amount": 1,
+          "Minutes": 97,
           "Poster": "/tLH7mpH4KqkWL5VgjueTbewGsfK.jpg",
           "Gender": 2
         },
@@ -28872,6 +30382,7 @@ var data = {
           "ID": 134,
           "FullName": "Jamie Foxx",
           "Amount": 1,
+          "Minutes": 165,
           "Poster": "/hPwCMEq6jLAidsXAX5BfoYgIfg2.jpg",
           "Gender": 2
         },
@@ -28879,6 +30390,7 @@ var data = {
           "ID": 55157,
           "FullName": "Jasen Fisher",
           "Amount": 1,
+          "Minutes": 91,
           "Poster": "/alyFImePdX6GBNWJl8zTQhKgI5M.jpg",
           "Gender": 2
         },
@@ -28886,6 +30398,7 @@ var data = {
           "ID": 18259,
           "FullName": "Jason James Richter",
           "Amount": 1,
+          "Minutes": 112,
           "Poster": "/bo00PwEHdDSwynXsbiqcZeVF05v.jpg",
           "Gender": 2
         },
@@ -28893,6 +30406,7 @@ var data = {
           "ID": 17881,
           "FullName": "Jason Schwartzman",
           "Amount": 1,
+          "Minutes": 101,
           "Poster": "/gCjMdmW1DiPAClHVl4zHEIffIsE.jpg",
           "Gender": 2
         },
@@ -28900,6 +30414,7 @@ var data = {
           "ID": 976,
           "FullName": "Jason Statham",
           "Amount": 1,
+          "Minutes": 112,
           "Poster": "/whNwkEQYWLFJA8ij0WyOOAD5xhQ.jpg",
           "Gender": 2
         },
@@ -28907,6 +30422,7 @@ var data = {
           "ID": 58224,
           "FullName": "Jason Sudeikis",
           "Amount": 1,
+          "Minutes": 97,
           "Poster": "/uuacnP9DOHMsmj8FhBi0cWWDgrn.jpg",
           "Gender": 2
         },
@@ -28914,6 +30430,7 @@ var data = {
           "ID": 3810,
           "FullName": "Javier Bardem",
           "Amount": 1,
+          "Minutes": 122,
           "Poster": "/9c8hrcQ2fXwqgybG08jhch9REaH.jpg",
           "Gender": 2
         },
@@ -28921,6 +30438,7 @@ var data = {
           "ID": 9960,
           "FullName": "Jean N\u00E9groni",
           "Amount": 1,
+          "Minutes": 28,
           "Poster": "/xYAVdEbiIvYJgDjlW6gROBSAf0L.jpg",
           "Gender": 2
         },
@@ -28928,6 +30446,7 @@ var data = {
           "ID": 1003,
           "FullName": "Jean Reno",
           "Amount": 1,
+          "Minutes": 111,
           "Poster": "/e8eBRcTp1zldvKxAlVCsjY6aZ8h.jpg",
           "Gender": 2
         },
@@ -28935,6 +30454,7 @@ var data = {
           "ID": 8447,
           "FullName": "Jeff Daniels",
           "Amount": 1,
+          "Minutes": 109,
           "Poster": "/cMQb76YP0BcO9xzHUwz4yCIK8GO.jpg",
           "Gender": 2
         },
@@ -28942,6 +30462,7 @@ var data = {
           "ID": 55936,
           "FullName": "Jemaine Clement",
           "Amount": 1,
+          "Minutes": 86,
           "Poster": "/6eiNbeurpHb2fxIeT0RrJ0wRI25.jpg",
           "Gender": 2
         },
@@ -28949,6 +30470,7 @@ var data = {
           "ID": 17604,
           "FullName": "Jeremy Renner",
           "Amount": 1,
+          "Minutes": 131,
           "Poster": "/yB84D1neTYXfWBaV0QOE9RF2VCu.jpg",
           "Gender": 2
         },
@@ -28956,6 +30478,7 @@ var data = {
           "ID": 38941,
           "FullName": "Jim Sturgess",
           "Amount": 1,
+          "Minutes": 123,
           "Poster": "/c1Q99UEGfU4Laa4o8yu7kGJFIY1.jpg",
           "Gender": 2
         },
@@ -28963,6 +30486,7 @@ var data = {
           "ID": 68842,
           "FullName": "John Cho",
           "Amount": 1,
+          "Minutes": 101,
           "Poster": "/4Lar4uy8gk78cEocq6ERPRFWt3e.jpg",
           "Gender": 2
         },
@@ -28970,6 +30494,7 @@ var data = {
           "ID": 14504,
           "FullName": "John Dall",
           "Amount": 1,
+          "Minutes": 81,
           "Poster": "/p3oAurWYeiIvfgA2xfcIpUdPIdJ.jpg",
           "Gender": 2
         },
@@ -28977,6 +30502,7 @@ var data = {
           "ID": 1117313,
           "FullName": "John David Washington",
           "Amount": 1,
+          "Minutes": 136,
           "Poster": "/qoOp8XvZ4v7B0C9ZmtoRCl9CDSO.jpg",
           "Gender": 2
         },
@@ -28984,6 +30510,7 @@ var data = {
           "ID": 1230,
           "FullName": "John Goodman",
           "Amount": 1,
+          "Minutes": 104,
           "Poster": "/yyYqoyKHO7hE1zpgEV2XlqYWcNV.jpg",
           "Gender": 2
         },
@@ -28991,6 +30518,7 @@ var data = {
           "ID": 67616,
           "FullName": "John Howard Davies",
           "Amount": 1,
+          "Minutes": 116,
           "Poster": "/xe4IWezr7ZTqk3FPZMIsu3xGE4k.jpg",
           "Gender": 2
         },
@@ -28998,6 +30526,7 @@ var data = {
           "ID": 45210,
           "FullName": "John Jarratt",
           "Amount": 1,
+          "Minutes": 104,
           "Poster": "/xzZQEkVgpVSCxX7rKPWXyEPKfl9.jpg",
           "Gender": 2
         },
@@ -29005,6 +30534,7 @@ var data = {
           "ID": 12074,
           "FullName": "John Lithgow",
           "Amount": 1,
+          "Minutes": 92,
           "Poster": "/8Y1sjBdnVR483S8PrnAQzlESwhx.jpg",
           "Gender": 2
         },
@@ -29012,6 +30542,7 @@ var data = {
           "ID": 26973,
           "FullName": "John White",
           "Amount": 1,
+          "Minutes": 89,
           "Poster": "/3iaiCj09Kl8JnMNVEzQUCB6n0eM.jpg",
           "Gender": 2
         },
@@ -29019,6 +30550,7 @@ var data = {
           "ID": 21007,
           "FullName": "Jonah Hill",
           "Amount": 1,
+          "Minutes": 113,
           "Poster": "/cymlWttB83MsAGR2EkTgANtjeRH.jpg",
           "Gender": 2
         },
@@ -29026,6 +30558,7 @@ var data = {
           "ID": 9012,
           "FullName": "Jonny Lee Miller",
           "Amount": 1,
+          "Minutes": 107,
           "Poster": "/otCQdDtnrMvZ5tPC62zLx0SaXeR.jpg",
           "Gender": 2
         },
@@ -29033,6 +30566,7 @@ var data = {
           "ID": 52419,
           "FullName": "Josh Hamilton",
           "Amount": 1,
+          "Minutes": 127,
           "Poster": "/7nuAUPd7E8iOE5lhUcNpogS2akP.jpg",
           "Gender": 2
         },
@@ -29040,6 +30574,7 @@ var data = {
           "ID": 27972,
           "FullName": "Josh Hutcherson",
           "Amount": 1,
+          "Minutes": 96,
           "Poster": "/1gFNyijWyHL2Gq4Td74l6QWBYaj.jpg",
           "Gender": 2
         },
@@ -29047,6 +30582,7 @@ var data = {
           "ID": 1206334,
           "FullName": "Josh O'Connor",
           "Amount": 1,
+          "Minutes": 105,
           "Poster": "/fiDjDWCGSZ7xDaN1rKAP4gvRn1a.jpg",
           "Gender": 2
         },
@@ -29054,6 +30590,7 @@ var data = {
           "ID": 9642,
           "FullName": "Jude Law",
           "Amount": 1,
+          "Minutes": 131,
           "Poster": "/9H577IoqFgCXonDzR3QEkF2xo5m.jpg",
           "Gender": 2
         },
@@ -29061,6 +30598,7 @@ var data = {
           "ID": 74382,
           "FullName": "K\u00E5re Hedebrant",
           "Amount": 1,
+          "Minutes": 114,
           "Poster": "/t1hmgD3UPSDn0uxJadm0gkj8v2s.jpg",
           "Gender": 2
         },
@@ -29068,6 +30606,7 @@ var data = {
           "ID": 2628071,
           "FullName": "Karel Sabbe",
           "Amount": 1,
+          "Minutes": 63,
           "Poster": "/r7RaeoMNMp0Yq5uDrDzjmtUkZgK.jpg",
           "Gender": 2
         },
@@ -29075,6 +30614,7 @@ var data = {
           "ID": 245,
           "FullName": "Keir Dullea",
           "Amount": 1,
+          "Minutes": 149,
           "Poster": "/dL9i0nCk2fCgInZNaYVjGck2IBp.jpg",
           "Gender": 2
         },
@@ -29082,6 +30622,7 @@ var data = {
           "ID": 1269,
           "FullName": "Kevin Costner",
           "Amount": 1,
+          "Minutes": 143,
           "Poster": "/bykmxJHLfbFM3NT05RZXhx8YTzF.jpg",
           "Gender": 2
         },
@@ -29089,6 +30630,7 @@ var data = {
           "ID": 18056,
           "FullName": "Koji Yakusho",
           "Amount": 1,
+          "Minutes": 124,
           "Poster": "/r2WyVRyl6EJgyPKUJCB7D9cKYPE.jpg",
           "Gender": 2
         },
@@ -29096,6 +30638,7 @@ var data = {
           "ID": 573773,
           "FullName": "Laurence R. Harvey",
           "Amount": 1,
+          "Minutes": 91,
           "Poster": "/creAwfzRydEocUpWklkXHswsT6U.jpg",
           "Gender": 2
         },
@@ -29103,6 +30646,7 @@ var data = {
           "ID": 72095,
           "FullName": "Lee Pace",
           "Amount": 1,
+          "Minutes": 117,
           "Poster": "/5gMIBiRGuG4XmoSYMtcqBzCVBIl.jpg",
           "Gender": 2
         },
@@ -29110,6 +30654,7 @@ var data = {
           "ID": 1839169,
           "FullName": "Lee Se-dol",
           "Amount": 1,
+          "Minutes": 90,
           "Poster": "/m5bM9uS85xb4aAWlcjWWk5xlieo.jpg",
           "Gender": 2
         },
@@ -29117,6 +30662,7 @@ var data = {
           "ID": 12974,
           "FullName": "Leon",
           "Amount": 1,
+          "Minutes": 98,
           "Poster": "/uhLVZV2rH0nnXwQKtsIT0qGsTyg.jpg",
           "Gender": 2
         },
@@ -29124,6 +30670,7 @@ var data = {
           "ID": 30426,
           "FullName": "Leonard Whiting",
           "Amount": 1,
+          "Minutes": 138,
           "Poster": "/uSkKSMm0LPSifam23CtxKBW4CoZ.jpg",
           "Gender": 2
         },
@@ -29131,6 +30678,7 @@ var data = {
           "ID": 33235,
           "FullName": "Logan Lerman",
           "Amount": 1,
+          "Minutes": 103,
           "Poster": "/qWbN2toEEQgW9DFjgy3gT2VoVlQ.jpg",
           "Gender": 2
         },
@@ -29138,6 +30686,7 @@ var data = {
           "ID": 219396,
           "FullName": "Louis Theroux",
           "Amount": 1,
+          "Minutes": 99,
           "Poster": "/bd1aUigEuidrND9C1vumCN3pC0o.jpg",
           "Gender": 2
         },
@@ -29145,6 +30694,7 @@ var data = {
           "ID": 155,
           "FullName": "Lucas Black",
           "Amount": 1,
+          "Minutes": 104,
           "Poster": "/w2oImwC4Y0RDtyvaKGTCFCKsvwh.jpg",
           "Gender": 2
         },
@@ -29152,6 +30702,7 @@ var data = {
           "ID": 68307,
           "FullName": "Luke Mably",
           "Amount": 1,
+          "Minutes": 97,
           "Poster": "/jTMAb14IELP0s2FjpFsM0Bo5rJk.jpg",
           "Gender": 2
         },
@@ -29159,6 +30710,7 @@ var data = {
           "ID": 36422,
           "FullName": "Luke Wilson",
           "Amount": 1,
+          "Minutes": 84,
           "Poster": "/nH1h9dZGSBuWIOyX27HpYyYykvr.jpg",
           "Gender": 2
         },
@@ -29166,6 +30718,7 @@ var data = {
           "ID": 1432684,
           "FullName": "Mace Greenleaf",
           "Amount": 1,
+          "Minutes": 12,
           "Poster": "/5yG8nYiSi8WouQw7tpfilDPxIW0.jpg",
           "Gender": 2
         },
@@ -29173,6 +30726,7 @@ var data = {
           "ID": 1019,
           "FullName": "Mads Mikkelsen",
           "Amount": 1,
+          "Minutes": 116,
           "Poster": "/ntwPvV4GKGGHO3I7LcHMwhXfsw9.jpg",
           "Gender": 2
         },
@@ -29180,6 +30734,7 @@ var data = {
           "ID": 56057,
           "FullName": "Malachi Pearson",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "/7AvzsokeNuvefXIWTUQ9fQITCB6.jpg",
           "Gender": 2
         },
@@ -29187,6 +30742,7 @@ var data = {
           "ID": 56890,
           "FullName": "Malcolm McDowell",
           "Amount": 1,
+          "Minutes": 137,
           "Poster": "/w8DeJpl5CLbbNe6xPw1oewmp4Ns.jpg",
           "Gender": 2
         },
@@ -29194,6 +30750,7 @@ var data = {
           "ID": 2,
           "FullName": "Mark Hamill",
           "Amount": 1,
+          "Minutes": 121,
           "Poster": "/2ZulC2Ccq1yv3pemusks6Zlfy2s.jpg",
           "Gender": 2
         },
@@ -29201,6 +30758,7 @@ var data = {
           "ID": 13240,
           "FullName": "Mark Wahlberg",
           "Amount": 1,
+          "Minutes": 110,
           "Poster": "/bTEFpaWd7A6AZVWOqKKBWzKEUe8.jpg",
           "Gender": 2
         },
@@ -29208,6 +30766,7 @@ var data = {
           "ID": 3084,
           "FullName": "Marlon Brando",
           "Amount": 1,
+          "Minutes": 175,
           "Poster": "/fuTEPMsBtV1zE98ujPONbKiYDc2.jpg",
           "Gender": 2
         },
@@ -29215,6 +30774,7 @@ var data = {
           "ID": 1936,
           "FullName": "Martin Balsam",
           "Amount": 1,
+          "Minutes": 97,
           "Poster": "/2j4LJJfTPQtvnjp8LfSGOvWFATO.jpg",
           "Gender": 2
         },
@@ -29222,6 +30782,7 @@ var data = {
           "ID": 8349,
           "FullName": "Martin Sheen",
           "Amount": 1,
+          "Minutes": 147,
           "Poster": "/m2Y3Q0uyuW6htrn2W9UWCWMkpZu.jpg",
           "Gender": 2
         },
@@ -29229,6 +30790,7 @@ var data = {
           "ID": 8789,
           "FullName": "Mathieu Amalric",
           "Amount": 1,
+          "Minutes": 112,
           "Poster": "/fMhfoTbjlXQy2Iojp7oYx49hLQl.jpg",
           "Gender": 2
         },
@@ -29236,6 +30798,7 @@ var data = {
           "ID": 15576,
           "FullName": "Matthew Macfadyen",
           "Amount": 1,
+          "Minutes": 90,
           "Poster": "/2FF3Yjxd7DYR4EIJL6s2GpKDMkJ.jpg",
           "Gender": 2
         },
@@ -29243,6 +30806,7 @@ var data = {
           "ID": 8654,
           "FullName": "Matthew Modine",
           "Amount": 1,
+          "Minutes": 117,
           "Poster": "/z974QEHL12qUvLyk6hlWGAmDgom.jpg",
           "Gender": 2
         },
@@ -29250,6 +30814,7 @@ var data = {
           "ID": 9839,
           "FullName": "Max Schreck",
           "Amount": 1,
+          "Minutes": 95,
           "Poster": "/uKVNFFt6VA8R7pp7HIPJF4e5PfX.jpg",
           "Gender": 2
         },
@@ -29257,6 +30822,7 @@ var data = {
           "ID": 95569,
           "FullName": "Michael Aspel",
           "Amount": 1,
+          "Minutes": 48,
           "Poster": "/1W5cvSB6QZH4ClsmUIAoxiJBn9g.jpg",
           "Gender": 2
         },
@@ -29264,6 +30830,7 @@ var data = {
           "ID": 147,
           "FullName": "Michael Madsen",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "/69cqjkTNKI1muAfnvorfmWNVgIe.jpg",
           "Gender": 2
         },
@@ -29271,6 +30838,7 @@ var data = {
           "ID": 99380,
           "FullName": "Michael Pantozzi",
           "Amount": 1,
+          "Minutes": 66,
           "Poster": "/pt75uPfThOvp2KZCOyzjB3EZUHP.jpg",
           "Gender": 2
         },
@@ -29278,6 +30846,7 @@ var data = {
           "ID": 83261,
           "FullName": "Michael Pollan",
           "Amount": 1,
+          "Minutes": 94,
           "Poster": "/rumIWmiYXEs9uPkTQXhPrUClvKT.jpg",
           "Gender": 2
         },
@@ -29285,6 +30854,7 @@ var data = {
           "ID": 3968,
           "FullName": "Michael Sheen",
           "Amount": 1,
+          "Minutes": 122,
           "Poster": "/nGxIcIcfJjdPN3k8zFabtA1gRqL.jpg",
           "Gender": 2
         },
@@ -29292,6 +30862,7 @@ var data = {
           "ID": 3784,
           "FullName": "Michel Piccoli",
           "Amount": 1,
+          "Minutes": 238,
           "Poster": "/6yZaIIeMfYgQtcdNo4dubL2N5YT.jpg",
           "Gender": 2
         },
@@ -29299,6 +30870,7 @@ var data = {
           "ID": 2295,
           "FullName": "Mickey Rourke",
           "Amount": 1,
+          "Minutes": 109,
           "Poster": "/i6vXukUwRsJa7S9yhZgoKt9xLDv.jpg",
           "Gender": 2
         },
@@ -29306,6 +30878,7 @@ var data = {
           "ID": 31655,
           "FullName": "Mike Bonanno",
           "Amount": 1,
+          "Minutes": 80,
           "Poster": "",
           "Gender": 2
         },
@@ -29313,6 +30886,7 @@ var data = {
           "ID": 996701,
           "FullName": "Miles Teller",
           "Amount": 1,
+          "Minutes": 107,
           "Poster": "/cg3LW0xX6RKr8dmescxq1bepcb5.jpg",
           "Gender": 2
         },
@@ -29320,6 +30894,7 @@ var data = {
           "ID": 192,
           "FullName": "Morgan Freeman",
           "Amount": 1,
+          "Minutes": 127,
           "Poster": "/jPsLqiYGSofU4s6BjrxnefMfabb.jpg",
           "Gender": 2
         },
@@ -29327,6 +30902,7 @@ var data = {
           "ID": 57492,
           "FullName": "Morgan Spurlock",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "/umV7q1bhSeDosEWpS3MhgdwZIXk.jpg",
           "Gender": 2
         },
@@ -29334,6 +30910,7 @@ var data = {
           "ID": 3820182,
           "FullName": "Mstyslav Chernov",
           "Amount": 1,
+          "Minutes": 94,
           "Poster": "/nIN9Q0DykLKbhM6Imnbh2IHj9Bk.jpg",
           "Gender": 2
         },
@@ -29341,6 +30918,7 @@ var data = {
           "ID": 51797,
           "FullName": "Nathan Fillion",
           "Amount": 1,
+          "Minutes": 119,
           "Poster": "/aW6vCxkUZtwb6iH2Wf88Uq0XNVv.jpg",
           "Gender": 2
         },
@@ -29348,6 +30926,7 @@ var data = {
           "ID": 37059,
           "FullName": "Nicholas D'Agosto",
           "Amount": 1,
+          "Minutes": 92,
           "Poster": "/pKLIlotHTzciDyaDxAMUACjxNLS.jpg",
           "Gender": 2
         },
@@ -29355,6 +30934,7 @@ var data = {
           "ID": 29509,
           "FullName": "Noah Hathaway",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "/tYskHvYZJQhdaVBIds0n1KypKfv.jpg",
           "Gender": 2
         },
@@ -29362,6 +30942,7 @@ var data = {
           "ID": 1393177,
           "FullName": "Noah Schnapp",
           "Amount": 1,
+          "Minutes": 88,
           "Poster": "/3GSWWrqQjio6G8L42ugGBGNks37.jpg",
           "Gender": 2
         },
@@ -29369,6 +30950,7 @@ var data = {
           "ID": 1371398,
           "FullName": "O'Shea Jackson Jr.",
           "Amount": 1,
+          "Minutes": 147,
           "Poster": "/zov23iUpL3QFHqzjdtzrBGOQYaF.jpg",
           "Gender": 2
         },
@@ -29376,6 +30958,7 @@ var data = {
           "ID": 1048070,
           "FullName": "Oh Young-soo",
           "Amount": 1,
+          "Minutes": 103,
           "Poster": "/kUzd955UTVnac2sVG0tYmt9w5jb.jpg",
           "Gender": 2
         },
@@ -29383,6 +30966,7 @@ var data = {
           "ID": 40,
           "FullName": "Orson Welles",
           "Amount": 1,
+          "Minutes": 119,
           "Poster": "/e9lGmqQq3EsHeUQgQLByo275hcc.jpg",
           "Gender": 2
         },
@@ -29390,6 +30974,7 @@ var data = {
           "ID": 887,
           "FullName": "Owen Wilson",
           "Amount": 1,
+          "Minutes": 119,
           "Poster": "/ntN3DL1Us5G2PCvlfq112vLXRKa.jpg",
           "Gender": 2
         },
@@ -29397,6 +30982,7 @@ var data = {
           "ID": 11663,
           "FullName": "Patrick Fugit",
           "Amount": 1,
+          "Minutes": 88,
           "Poster": "/bsONcodcqRKV97p1Oo1jcPkEnDA.jpg",
           "Gender": 2
         },
@@ -29404,6 +30990,7 @@ var data = {
           "ID": 10872,
           "FullName": "Patton Oswalt",
           "Amount": 1,
+          "Minutes": 111,
           "Poster": "/ljQvjbPmcIAl205Lb2Mu4CW8WO7.jpg",
           "Gender": 2
         },
@@ -29411,6 +30998,7 @@ var data = {
           "ID": 455,
           "FullName": "Paul Haggis",
           "Amount": 1,
+          "Minutes": 120,
           "Poster": "/bO2CPKFOtv1uigPM8crWTC071wr.jpg",
           "Gender": 2
         },
@@ -29418,6 +31006,7 @@ var data = {
           "ID": 2326151,
           "FullName": "Paul Mescal",
           "Amount": 1,
+          "Minutes": 101,
           "Poster": "/zltxB3Ppt1f2nQ8DSHx8Yad6ny6.jpg",
           "Gender": 2
         },
@@ -29425,6 +31014,7 @@ var data = {
           "ID": 3064,
           "FullName": "Peter Mullan",
           "Amount": 1,
+          "Minutes": 93,
           "Poster": "/7Y6oHcv719kfYxpWcYAE7wXzE7C.jpg",
           "Gender": 2
         },
@@ -29432,6 +31022,7 @@ var data = {
           "ID": 12446,
           "FullName": "Peter Sellers",
           "Amount": 1,
+          "Minutes": 95,
           "Poster": "/tdgIIb5HQJ4cgiEssuhJc89He11.jpg",
           "Gender": 2
         },
@@ -29439,6 +31030,7 @@ var data = {
           "ID": 5469,
           "FullName": "Ralph Fiennes",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "/tJr9GcmGNHhLVVEH3i7QYbj6hBi.jpg",
           "Gender": 2
         },
@@ -29446,6 +31038,7 @@ var data = {
           "ID": 27888,
           "FullName": "Ra\u00FAl Juli\u00E1",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "/rC9ALBVjGMWQEFtRiIS20Ps38dq.jpg",
           "Gender": 2
         },
@@ -29453,6 +31046,7 @@ var data = {
           "ID": 15757,
           "FullName": "Ray Romano",
           "Amount": 1,
+          "Minutes": 81,
           "Poster": "/zWT03QvuVYySlrjmHCojKrNYjoC.jpg",
           "Gender": 2
         },
@@ -29460,6 +31054,7 @@ var data = {
           "ID": 5538,
           "FullName": "Ray Winstone",
           "Amount": 1,
+          "Minutes": 89,
           "Poster": "/kDShEv6zPfArgcwXliGWKR65Mmo.jpg",
           "Gender": 2
         },
@@ -29467,6 +31062,7 @@ var data = {
           "ID": 69310,
           "FullName": "Ricardo Dar\u00EDn",
           "Amount": 1,
+          "Minutes": 122,
           "Poster": "/v5QjMW1Pc6ham06EejNzIkaJsb9.jpg",
           "Gender": 2
         },
@@ -29474,6 +31070,7 @@ var data = {
           "ID": 74093,
           "FullName": "Richard Dawkins",
           "Amount": 1,
+          "Minutes": 77,
           "Poster": "/eHM9PMTDmdtwsfjFVC8S0ugd7rn.jpg",
           "Gender": 2
         },
@@ -29481,6 +31078,7 @@ var data = {
           "ID": 3037,
           "FullName": "Richard Dreyfuss",
           "Amount": 1,
+          "Minutes": 135,
           "Poster": "/q2BPu6zWwFtnzQfpl4fgbKqURXM.jpg",
           "Gender": 2
         },
@@ -29488,6 +31086,7 @@ var data = {
           "ID": 10983,
           "FullName": "Richard Griffiths",
           "Amount": 1,
+          "Minutes": 109,
           "Poster": "/4H4uQfMzvgs11RCLaoSMQsyElw8.jpg",
           "Gender": 2
         },
@@ -29495,6 +31094,7 @@ var data = {
           "ID": 20393,
           "FullName": "Richard Todd",
           "Amount": 1,
+          "Minutes": 124,
           "Poster": "/3HRtRwg4PB3IeYkco9bXsQ6XBUr.jpg",
           "Gender": 2
         },
@@ -29502,6 +31102,7 @@ var data = {
           "ID": 8872,
           "FullName": "Rick Moranis",
           "Amount": 1,
+          "Minutes": 93,
           "Poster": "/nCIh203hALUsQW44x3dzpjSA4yf.jpg",
           "Gender": 2
         },
@@ -29509,6 +31110,7 @@ var data = {
           "ID": 53240,
           "FullName": "Riz Ahmed",
           "Amount": 1,
+          "Minutes": 97,
           "Poster": "/1uP9RaX7BGVx7XGTEmwObBJJzsC.jpg",
           "Gender": 2
         },
@@ -29516,6 +31118,7 @@ var data = {
           "ID": 3243,
           "FullName": "Robert Armstrong",
           "Amount": 1,
+          "Minutes": 104,
           "Poster": "/5dZFHqLd8bJri8MpSSjpSOG1Dju.jpg",
           "Gender": 2
         },
@@ -29523,6 +31126,7 @@ var data = {
           "ID": 18023,
           "FullName": "Robert Carlyle",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "/yOdTewlmmvxqDaKbWJ7eAk0ULCf.jpg",
           "Gender": 2
         },
@@ -29530,6 +31134,7 @@ var data = {
           "ID": 3087,
           "FullName": "Robert Duvall",
           "Amount": 1,
+          "Minutes": 120,
           "Poster": "/ybMmK25h4IVtfE7qrnlVp47RQlh.jpg",
           "Gender": 2
         },
@@ -29537,6 +31142,7 @@ var data = {
           "ID": 14416,
           "FullName": "Robert Hays",
           "Amount": 1,
+          "Minutes": 88,
           "Poster": "/qbfxPYo5eAsO8LGkOPei4o4SH92.jpg",
           "Gender": 2
         },
@@ -29544,6 +31150,7 @@ var data = {
           "ID": 11288,
           "FullName": "Robert Pattinson",
           "Amount": 1,
+          "Minutes": 109,
           "Poster": "/8A4PS5iG7GWEAVFftyqMZKl3qcr.jpg",
           "Gender": 2
         },
@@ -29551,6 +31158,7 @@ var data = {
           "ID": 4135,
           "FullName": "Robert Redford",
           "Amount": 1,
+          "Minutes": 106,
           "Poster": "/rra8c7kXwiOxwFdM3mJ83VPgFBT.jpg",
           "Gender": 2
         },
@@ -29558,6 +31166,7 @@ var data = {
           "ID": 8229,
           "FullName": "Rod Taylor",
           "Amount": 1,
+          "Minutes": 79,
           "Poster": "/nSpfs8lXHxWcksZW3qC9ArMLAqZ.jpg",
           "Gender": 2
         },
@@ -29565,6 +31174,7 @@ var data = {
           "ID": 2054851,
           "FullName": "Roman Griffin Davis",
           "Amount": 1,
+          "Minutes": 108,
           "Poster": "/1zQLes0vhspVA6WqYEFQEvRr4xH.jpg",
           "Gender": 2
         },
@@ -29572,6 +31182,7 @@ var data = {
           "ID": 17402,
           "FullName": "Ron Livingston",
           "Amount": 1,
+          "Minutes": 90,
           "Poster": "/pr5CjWnkaf5WKTIYh8wtNufjmyb.jpg",
           "Gender": 2
         },
@@ -29579,6 +31190,7 @@ var data = {
           "ID": 28042,
           "FullName": "Rory Culkin",
           "Amount": 1,
+          "Minutes": 90,
           "Poster": "/6SkUiLHFlPEEFtKpLc7VrczaqDx.jpg",
           "Gender": 2
         },
@@ -29586,6 +31198,7 @@ var data = {
           "ID": 6355,
           "FullName": "Roy Scheider",
           "Amount": 1,
+          "Minutes": 124,
           "Poster": "/y0MTwkCm5fIKjM1xH90tZbjAHql.jpg",
           "Gender": 2
         },
@@ -29593,6 +31206,7 @@ var data = {
           "ID": 11864,
           "FullName": "Ryan Phillippe",
           "Amount": 1,
+          "Minutes": 98,
           "Poster": "/fp0GlHdZBt8NGjoms3k3od0w7Qd.jpg",
           "Gender": 2
         },
@@ -29600,6 +31214,7 @@ var data = {
           "ID": 10859,
           "FullName": "Ryan Reynolds",
           "Amount": 1,
+          "Minutes": 94,
           "Poster": "/2Orm6l3z3zukF1q0AgIOUqvwLeB.jpg",
           "Gender": 2
         },
@@ -29607,6 +31222,7 @@ var data = {
           "ID": 4994,
           "FullName": "Ryo Ishibashi",
           "Amount": 1,
+          "Minutes": 115,
           "Poster": "/1q8noUaI5E0ykjLdXRZcn7U79LN.jpg",
           "Gender": 2
         },
@@ -29614,6 +31230,7 @@ var data = {
           "ID": 6807,
           "FullName": "Sam Rockwell",
           "Amount": 1,
+          "Minutes": 97,
           "Poster": "/1LvWTTwpxFjFhmNWUPWwfViOkrv.jpg",
           "Gender": 2
         },
@@ -29621,6 +31238,7 @@ var data = {
           "ID": 65731,
           "FullName": "Sam Worthington",
           "Amount": 1,
+          "Minutes": 162,
           "Poster": "/mflBcox36s9ZPbsZPVOuhf6axaJ.jpg",
           "Gender": 2
         },
@@ -29628,6 +31246,7 @@ var data = {
           "ID": 41464,
           "FullName": "Scott Mechlowicz",
           "Amount": 1,
+          "Minutes": 93,
           "Poster": "/2PMsSnuukuRmHCKcQqqCnD0MIN8.jpg",
           "Gender": 2
         },
@@ -29635,6 +31254,7 @@ var data = {
           "ID": 1328,
           "FullName": "Sean Astin",
           "Amount": 1,
+          "Minutes": 114,
           "Poster": "/ywH1VvdwqlcnuwUVr0pV0HUZJQA.jpg",
           "Gender": 2
         },
@@ -29642,6 +31262,7 @@ var data = {
           "ID": 738,
           "FullName": "Sean Connery",
           "Amount": 1,
+          "Minutes": 137,
           "Poster": "/qQ9GkO4yMEbMKeMgo0SnQ7jPA1X.jpg",
           "Gender": 2
         },
@@ -29649,6 +31270,7 @@ var data = {
           "ID": 6432,
           "FullName": "Sean Gullette",
           "Amount": 1,
+          "Minutes": 84,
           "Poster": "/wziMZnskBjMe4Nnt1TaIaky3KMv.jpg",
           "Gender": 2
         },
@@ -29656,6 +31278,7 @@ var data = {
           "ID": 76624,
           "FullName": "Shane Carruth",
           "Amount": 1,
+          "Minutes": 77,
           "Poster": "/zytHHEqP385IHKUW7t8JKg85atg.jpg",
           "Gender": 2
         },
@@ -29663,6 +31286,7 @@ var data = {
           "ID": 82191,
           "FullName": "Sharlto Copley",
           "Amount": 1,
+          "Minutes": 112,
           "Poster": "/em89OJJvBRX7kNJJPASmNKQujsC.jpg",
           "Gender": 2
         },
@@ -29670,6 +31294,7 @@ var data = {
           "ID": 17538,
           "FullName": "Shinnosuke Ikehata",
           "Amount": 1,
+          "Minutes": 105,
           "Poster": "/4pdhgc97UQszmI7176AZ8vvXjwx.jpg",
           "Gender": 2
         },
@@ -29677,6 +31302,7 @@ var data = {
           "ID": 40952,
           "FullName": "Sid James",
           "Amount": 1,
+          "Minutes": 88,
           "Poster": "/cjldtyJMt8J0nuWwVIuBSn0o70w.jpg",
           "Gender": 2
         },
@@ -29684,6 +31310,7 @@ var data = {
           "ID": 218948,
           "FullName": "Simon Bird",
           "Amount": 1,
+          "Minutes": 97,
           "Poster": "/c626edNGkm1WfJB6Cm7ufc3wkeJ.jpg",
           "Gender": 2
         },
@@ -29691,6 +31318,7 @@ var data = {
           "ID": 20738,
           "FullName": "Song Kang-ho",
           "Amount": 1,
+          "Minutes": 133,
           "Poster": "/7dw9wIpFZ5nJZ3zqrue8t7hUUgQ.jpg",
           "Gender": 2
         },
@@ -29698,6 +31326,7 @@ var data = {
           "ID": 10822,
           "FullName": "Stephen Dorff",
           "Amount": 1,
+          "Minutes": 103,
           "Poster": "/kuFyGa2HZB7hAQTUn3WKlgKAVjm.jpg",
           "Gender": 2
         },
@@ -29705,6 +31334,7 @@ var data = {
           "ID": 39189,
           "FullName": "Stephen Merchant",
           "Amount": 1,
+          "Minutes": 85,
           "Poster": "/6WM2rK6390Nwk398syJbGcPvRct.jpg",
           "Gender": 2
         },
@@ -29712,6 +31342,7 @@ var data = {
           "ID": 3088,
           "FullName": "Sterling Hayden",
           "Amount": 1,
+          "Minutes": 85,
           "Poster": "/eRKaKeHjMKjNPOuENLccfVuyfVm.jpg",
           "Gender": 2
         },
@@ -29719,6 +31350,7 @@ var data = {
           "ID": 4495,
           "FullName": "Steve Carell",
           "Amount": 1,
+          "Minutes": 131,
           "Poster": "/dA6n0qpnlMFBlTr8SBULsZbWkvn.jpg",
           "Gender": 2
         },
@@ -29726,6 +31358,7 @@ var data = {
           "ID": 26472,
           "FullName": "Steve Guttenberg",
           "Amount": 1,
+          "Minutes": 97,
           "Poster": "/ghTMepliFNcRQHNELs8pgNDsZyW.jpg",
           "Gender": 2
         },
@@ -29733,6 +31366,7 @@ var data = {
           "ID": 67773,
           "FullName": "Steve Martin",
           "Amount": 1,
+          "Minutes": 93,
           "Poster": "/d0KthX8hVWU9BxTCG1QUO8FURRm.jpg",
           "Gender": 2
         },
@@ -29740,6 +31374,7 @@ var data = {
           "ID": 13565,
           "FullName": "Steve McQueen",
           "Amount": 1,
+          "Minutes": 173,
           "Poster": "/xUxg7SAM17eEc0rF90gz59Ap0w1.jpg",
           "Gender": 2
         },
@@ -29747,6 +31382,7 @@ var data = {
           "ID": 230572,
           "FullName": "Stuart Ashen",
           "Amount": 1,
+          "Minutes": 88,
           "Poster": "/rTqk7VnQiqv6cHvjSmWGOBSt9VN.jpg",
           "Gender": 2
         },
@@ -29754,6 +31390,7 @@ var data = {
           "ID": 51990,
           "FullName": "T.J. Miller",
           "Amount": 1,
+          "Minutes": 86,
           "Poster": "/rRrVvBxOkyYM5XdLXimShHR1Itn.jpg",
           "Gender": 2
         },
@@ -29761,6 +31398,7 @@ var data = {
           "ID": 31078,
           "FullName": "Tatsuya Fujiwara",
           "Amount": 1,
+          "Minutes": 113,
           "Poster": "/1nR5cYgh9SaA7fGdQAXznyqObPv.jpg",
           "Gender": 2
         },
@@ -29768,6 +31406,7 @@ var data = {
           "ID": 3065660,
           "FullName": "Thomas Adlam",
           "Amount": 1,
+          "Minutes": 99,
           "Poster": "",
           "Gender": 2
         },
@@ -29775,6 +31414,7 @@ var data = {
           "ID": 11155,
           "FullName": "Thomas Jane",
           "Amount": 1,
+          "Minutes": 126,
           "Poster": "/9frnlc2zoDcoeqZALB6aeYSQddl.jpg",
           "Gender": 2
         },
@@ -29782,6 +31422,7 @@ var data = {
           "ID": 70517,
           "FullName": "Thomas Turgoose",
           "Amount": 1,
+          "Minutes": 101,
           "Poster": "/3PsCUvclNzVrjDGg69Q3blw83ei.jpg",
           "Gender": 2
         },
@@ -29789,6 +31430,7 @@ var data = {
           "ID": 504,
           "FullName": "Tim Robbins",
           "Amount": 1,
+          "Minutes": 142,
           "Poster": "/djLVFETFTvPyVUdrd7aLVykobof.jpg",
           "Gender": 2
         },
@@ -29796,6 +31438,7 @@ var data = {
           "ID": 18082,
           "FullName": "Timothy Olyphant",
           "Amount": 1,
+          "Minutes": 94,
           "Poster": "/7pHmRHE2wBNC9cBgNIRCBqFLoyZ.jpg",
           "Gender": 2
         },
@@ -29803,6 +31446,7 @@ var data = {
           "ID": 2219,
           "FullName": "Tobey Maguire",
           "Amount": 1,
+          "Minutes": 124,
           "Poster": "/s6PwSvq6gC7PGEjIku69tPbvR8M.jpg",
           "Gender": 2
         },
@@ -29810,6 +31454,7 @@ var data = {
           "ID": 40241,
           "FullName": "Todd Armstrong",
           "Amount": 1,
+          "Minutes": 104,
           "Poster": "/4f0A4Ia62nH9TCCYwh0k2aWP6Rl.jpg",
           "Gender": 2
         },
@@ -29817,6 +31462,7 @@ var data = {
           "ID": 586000,
           "FullName": "Tom Cullen",
           "Amount": 1,
+          "Minutes": 96,
           "Poster": "/3nHhudU7OZasMDkGozD9a2gbcxs.jpg",
           "Gender": 2
         },
@@ -29824,6 +31470,7 @@ var data = {
           "ID": 4139,
           "FullName": "Tom Skerritt",
           "Amount": 1,
+          "Minutes": 117,
           "Poster": "/8iTZjd5W1EFKg3NRNsKht0akdGB.jpg",
           "Gender": 2
         },
@@ -29831,6 +31478,7 @@ var data = {
           "ID": 81916,
           "FullName": "Tommy Wiseau",
           "Amount": 1,
+          "Minutes": 99,
           "Poster": "/mDiPtAoCFOM2NoHI0Jx1Zh2t5rV.jpg",
           "Gender": 2
         },
@@ -29838,6 +31486,7 @@ var data = {
           "ID": 1650301,
           "FullName": "Trevante Rhodes",
           "Amount": 1,
+          "Minutes": 111,
           "Poster": "/w5mqvAJ4FQAO5iZbO5Q5vv0MJ5s.jpg",
           "Gender": 2
         },
@@ -29845,6 +31494,7 @@ var data = {
           "ID": 1930,
           "FullName": "Truman Capote",
           "Amount": 1,
+          "Minutes": 94,
           "Poster": "/lkBM2Xu5tlGkcMgdlxo1BPJWOiP.jpg",
           "Gender": 2
         },
@@ -29852,6 +31502,7 @@ var data = {
           "ID": 72413,
           "FullName": "Tsutomu Tatsumi",
           "Amount": 1,
+          "Minutes": 89,
           "Poster": "",
           "Gender": 2
         },
@@ -29859,6 +31510,7 @@ var data = {
           "ID": 1034681,
           "FullName": "Tye Sheridan",
           "Amount": 1,
+          "Minutes": 140,
           "Poster": "/d5ZS2fjqC98cIGkhEGX0fRYhku4.jpg",
           "Gender": 2
         },
@@ -29866,6 +31518,7 @@ var data = {
           "ID": 12835,
           "FullName": "Vin Diesel",
           "Amount": 1,
+          "Minutes": 124,
           "Poster": "/nZdVry7lnUkE24PnXakok9okvL4.jpg",
           "Gender": 2
         },
@@ -29873,6 +31526,7 @@ var data = {
           "ID": 4937,
           "FullName": "Vince Vaughn",
           "Amount": 1,
+          "Minutes": 103,
           "Poster": "/A9fJ88dfXZGpgFTnQIK0bOtjMrj.jpg",
           "Gender": 2
         },
@@ -29880,6 +31534,7 @@ var data = {
           "ID": 22461,
           "FullName": "Vincent Gallo",
           "Amount": 1,
+          "Minutes": 110,
           "Poster": "/2H8ucxG6LWAHCJAJf9OGfhSXpqQ.jpg",
           "Gender": 2
         },
@@ -29887,6 +31542,7 @@ var data = {
           "ID": 5443,
           "FullName": "Vincent Lindon",
           "Amount": 1,
+          "Minutes": 108,
           "Poster": "/tjRKMKfsIH7MrqtN7cMPIZubSXa.jpg",
           "Gender": 2
         },
@@ -29894,6 +31550,7 @@ var data = {
           "ID": 1905,
           "FullName": "Vincent Price",
           "Amount": 1,
+          "Minutes": 88,
           "Poster": "/7JIv7U5kwveryP7hrPYgHlKea4d.jpg",
           "Gender": 2
         },
@@ -29901,6 +31558,7 @@ var data = {
           "ID": 980,
           "FullName": "Vinnie Jones",
           "Amount": 1,
+          "Minutes": 105,
           "Poster": "/tkYWG9gY2QpoBfOh4OWNz8yQfsw.jpg",
           "Gender": 2
         },
@@ -29908,6 +31566,7 @@ var data = {
           "ID": 3033,
           "FullName": "Wil Wheaton",
           "Amount": 1,
+          "Minutes": 89,
           "Poster": "/yqEW17L7Fdg2RDRLLo4SqRHkjyw.jpg",
           "Gender": 2
         },
@@ -29915,6 +31574,7 @@ var data = {
           "ID": 57755,
           "FullName": "Woody Harrelson",
           "Amount": 1,
+          "Minutes": 118,
           "Poster": "/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg",
           "Gender": 2
         },
@@ -29922,6 +31582,7 @@ var data = {
           "ID": 622,
           "FullName": "Youji Matsuda",
           "Amount": 1,
+          "Minutes": 134,
           "Poster": "/42WeHwCymsgJh3mLAyknCdRcef8.jpg",
           "Gender": 2
         },
@@ -29929,6 +31590,7 @@ var data = {
           "ID": 29222,
           "FullName": "Zac Efron",
           "Amount": 1,
+          "Minutes": 114,
           "Poster": "/6yL3AGhT3QBQBY6SSWIFWwdQySl.jpg",
           "Gender": 2
         },
@@ -29936,6 +31598,7 @@ var data = {
           "ID": 5367,
           "FullName": "Zach Braff",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "/wUAj6juL6HErqEJ1GtuI63rbVea.jpg",
           "Gender": 2
         },
@@ -29943,6 +31606,7 @@ var data = {
           "ID": 1145,
           "FullName": "Zbigniew Zamachowski",
           "Amount": 1,
+          "Minutes": 92,
           "Poster": "/mLntjL4Jp1LEz41NgcrHlsB7OmB.jpg",
           "Gender": 2
         }
@@ -29956,6 +31620,7 @@ var data = {
           "ID": 27578,
           "FullName": "Elliot Page",
           "Amount": 3,
+          "Minutes": 311,
           "Poster": "/eCeFgzS8dYHnMfWQT0oQitCrsSz.jpg",
           "Gender": 3
         },
@@ -29963,6 +31628,7 @@ var data = {
           "ID": 3505950,
           "FullName": "Eden Dambrine",
           "Amount": 1,
+          "Minutes": 104,
           "Poster": "/9u8byzr9LpFvuvYk7bep6l8U5Ow.jpg",
           "Gender": 3
         },
@@ -29970,6 +31636,7 @@ var data = {
           "ID": 122851,
           "FullName": "Elsie Fisher",
           "Amount": 1,
+          "Minutes": 94,
           "Poster": "/lSmrN828nMMXHvwr7IgO1qlYPSa.jpg",
           "Gender": 3
         },
@@ -29977,19 +31644,21 @@ var data = {
           "ID": 1005852,
           "FullName": "Janelle Mon\u00E1e",
           "Amount": 1,
+          "Minutes": 49,
           "Poster": "/axTIbPz6ZbqlcCwkNBgD59gY3lx.jpg",
           "Gender": 3
         }
       ]
     },
     "maincast_All": {
-      "Total": 2911,
-      "Unique": 1889,
+      "Total": 2953,
+      "Unique": 1916,
       "PeopleData": [
         {
           "ID": 6886,
           "FullName": "Christina Ricci",
           "Amount": 16,
+          "Minutes": 1631,
           "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
           "Gender": 1
         },
@@ -29997,6 +31666,7 @@ var data = {
           "ID": 1932,
           "FullName": "Audrey Hepburn",
           "Amount": 12,
+          "Minutes": 1437,
           "Poster": "9SFLosAt3chN3MZBTYg9VQfXDPF.jpg",
           "Gender": 1
         },
@@ -30004,6 +31674,7 @@ var data = {
           "ID": 10990,
           "FullName": "Emma Watson",
           "Amount": 12,
+          "Minutes": 1591,
           "Poster": "/A14lLCZYDhfYdBa0fFRpwMDiwRN.jpg",
           "Gender": 1
         },
@@ -30011,6 +31682,7 @@ var data = {
           "ID": 2963,
           "FullName": "Nicolas Cage",
           "Amount": 12,
+          "Minutes": 1431,
           "Poster": "/ar33qcWbEgREn07ZpXv5Pbj8hbM.jpg",
           "Gender": 2
         },
@@ -30018,6 +31690,7 @@ var data = {
           "ID": 1892,
           "FullName": "Matt Damon",
           "Amount": 11,
+          "Minutes": 1443,
           "Poster": "/ehwS5WvU5yL5vKcUEqbzGK8Fh8B.jpg",
           "Gender": 2
         },
@@ -30025,6 +31698,7 @@ var data = {
           "ID": 2231,
           "FullName": "Samuel L. Jackson",
           "Amount": 11,
+          "Minutes": 1361,
           "Poster": "/AiAYAqwpM5xmiFrAIeQvUXDCVvo.jpg",
           "Gender": 2
         },
@@ -30032,6 +31706,7 @@ var data = {
           "ID": 72129,
           "FullName": "Jennifer Lawrence",
           "Amount": 10,
+          "Minutes": 1173,
           "Poster": "/k6CsASaySnS3ag0Y2Ns2vqPahVn.jpg",
           "Gender": 1
         },
@@ -30039,6 +31714,7 @@ var data = {
           "ID": 936970,
           "FullName": "Julia Garner",
           "Amount": 10,
+          "Minutes": 928,
           "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
           "Gender": 1
         },
@@ -30046,6 +31722,7 @@ var data = {
           "ID": 6193,
           "FullName": "Leonardo DiCaprio",
           "Amount": 10,
+          "Minutes": 1547,
           "Poster": "/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg",
           "Gender": 2
         },
@@ -30053,6 +31730,7 @@ var data = {
           "ID": 3293,
           "FullName": "Rachel Weisz",
           "Amount": 10,
+          "Minutes": 1106,
           "Poster": "/msTqKPA33ryVtcVNgOdeaJGYq16.jpg",
           "Gender": 1
         },
@@ -30060,6 +31738,7 @@ var data = {
           "ID": 287,
           "FullName": "Brad Pitt",
           "Amount": 9,
+          "Minutes": 1144,
           "Poster": "/ajNaPmXVVMJFg9GWmu6MJzTaXdV.jpg",
           "Gender": 2
         },
@@ -30067,6 +31746,7 @@ var data = {
           "ID": 8635,
           "FullName": "Buster Keaton",
           "Amount": 9,
+          "Minutes": 250,
           "Poster": "/iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
           "Gender": 2
         },
@@ -30074,6 +31754,7 @@ var data = {
           "ID": 6941,
           "FullName": "Cameron Diaz",
           "Amount": 9,
+          "Minutes": 957,
           "Poster": "/y5DitIz69LzqFCTZd1omRpalpMy.jpg",
           "Gender": 1
         },
@@ -30081,6 +31762,7 @@ var data = {
           "ID": 3,
           "FullName": "Harrison Ford",
           "Amount": 9,
+          "Minutes": 1092,
           "Poster": "/zVnHagUvXkR2StdOtquEwsiwSVt.jpg",
           "Gender": 2
         },
@@ -30088,6 +31770,7 @@ var data = {
           "ID": 3895,
           "FullName": "Michael Caine",
           "Amount": 9,
+          "Minutes": 1101,
           "Poster": "/bVZRMlpjTAO2pJK6v90buFgVbSW.jpg",
           "Gender": 2
         },
@@ -30095,6 +31778,7 @@ var data = {
           "ID": 192,
           "FullName": "Morgan Freeman",
           "Amount": 9,
+          "Minutes": 1099,
           "Poster": "/jPsLqiYGSofU4s6BjrxnefMfabb.jpg",
           "Gender": 2
         },
@@ -30102,6 +31786,7 @@ var data = {
           "ID": 500,
           "FullName": "Tom Cruise",
           "Amount": 9,
+          "Minutes": 1167,
           "Poster": "/eOh4ubpOm2Igdg0QH2ghj0mFtC.jpg",
           "Gender": 2
         },
@@ -30109,6 +31794,7 @@ var data = {
           "ID": 31,
           "FullName": "Tom Hanks",
           "Amount": 9,
+          "Minutes": 1154,
           "Poster": "/eKF1sGJRrZJbfBG1KirPt1cfNd3.jpg",
           "Gender": 2
         },
@@ -30116,6 +31802,7 @@ var data = {
           "ID": 2888,
           "FullName": "Will Smith",
           "Amount": 9,
+          "Minutes": 1045,
           "Poster": "/1QqaRZ8neYlqLx7ODZC4as47wUV.jpg",
           "Gender": 2
         },
@@ -30123,6 +31810,7 @@ var data = {
           "ID": 1100,
           "FullName": "Arnold Schwarzenegger",
           "Amount": 8,
+          "Minutes": 928,
           "Poster": "/z6IbTtI2FWAVZE6b1V4mqEHjwO6.jpg",
           "Gender": 2
         },
@@ -30130,6 +31818,7 @@ var data = {
           "ID": 62,
           "FullName": "Bruce Willis",
           "Amount": 8,
+          "Minutes": 1020,
           "Poster": "/w3aXr1e7gQCn8MSp1vW4sXHn99P.jpg",
           "Gender": 2
         },
@@ -30137,6 +31826,7 @@ var data = {
           "ID": 3894,
           "FullName": "Christian Bale",
           "Amount": 8,
+          "Minutes": 1029,
           "Poster": "/3qx2QFUbG6t6IlzR0F9k3Z6Yhf7.jpg",
           "Gender": 2
         },
@@ -30144,6 +31834,7 @@ var data = {
           "ID": 10980,
           "FullName": "Daniel Radcliffe",
           "Amount": 8,
+          "Minutes": 1178,
           "Poster": "/iPg0J9UzAlPj1fLEJNllpW9IhGe.jpg",
           "Gender": 2
         },
@@ -30151,6 +31842,7 @@ var data = {
           "ID": 54693,
           "FullName": "Emma Stone",
           "Amount": 8,
+          "Minutes": 1015,
           "Poster": "/sFlktjWgUANqfUnqWJOhzICvp4v.jpg",
           "Gender": 1
         },
@@ -30158,13 +31850,15 @@ var data = {
           "ID": 1373737,
           "FullName": "Florence Pugh",
           "Amount": 8,
-          "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
+          "Minutes": 924,
+          "Poster": "f8e41Oon18FiEZr4zgyJDVUqOeh.jpg",
           "Gender": 1
         },
         {
           "ID": 380,
           "FullName": "Robert De Niro",
           "Amount": 8,
+          "Minutes": 1050,
           "Poster": "/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg",
           "Gender": 2
         },
@@ -30172,6 +31866,7 @@ var data = {
           "ID": 10989,
           "FullName": "Rupert Grint",
           "Amount": 8,
+          "Minutes": 1178,
           "Poster": "/q2KZZ0ltTEl7Sf8volNFV1JDEP4.jpg",
           "Gender": 2
         },
@@ -30179,13 +31874,23 @@ var data = {
           "ID": 11701,
           "FullName": "Angelina Jolie",
           "Amount": 7,
+          "Minutes": 830,
           "Poster": "/bXNxIKcJ5cNNW8QFrBPWcfTSu9x.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 4111,
+          "FullName": "Ingrid Bergman",
+          "Amount": 7,
+          "Minutes": 663,
+          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
           "Gender": 1
         },
         {
           "ID": 6384,
           "FullName": "Keanu Reeves",
           "Amount": 7,
+          "Minutes": 800,
           "Poster": "/4D0PpNI0kmP58hgrwGC3wCjxhnm.jpg",
           "Gender": 2
         },
@@ -30193,6 +31898,7 @@ var data = {
           "ID": 4724,
           "FullName": "Kevin Bacon",
           "Amount": 7,
+          "Minutes": 786,
           "Poster": "/rjX2Oz3tCZMfSwOoIAyEhdtXnTE.jpg",
           "Gender": 2
         },
@@ -30200,6 +31906,7 @@ var data = {
           "ID": 1979,
           "FullName": "Kevin Spacey",
           "Amount": 7,
+          "Minutes": 863,
           "Poster": "/nPrUZDEbGQe6jwpVbHKJCXsMd7r.jpg",
           "Gender": 2
         },
@@ -30207,6 +31914,7 @@ var data = {
           "ID": 517,
           "FullName": "Pierce Brosnan",
           "Amount": 7,
+          "Minutes": 826,
           "Poster": "/dzXVwwJLPwiZeXOnf7YxorqVEEM.jpg",
           "Gender": 2
         },
@@ -30214,6 +31922,7 @@ var data = {
           "ID": 2157,
           "FullName": "Robin Williams",
           "Amount": 7,
+          "Minutes": 839,
           "Poster": "/3vypmub75rLItlC51uJUurNYkW0.jpg",
           "Gender": 2
         },
@@ -30221,20 +31930,39 @@ var data = {
           "ID": 18277,
           "FullName": "Sandra Bullock",
           "Amount": 7,
+          "Minutes": 822,
           "Poster": "/hPHGKPAWZ8gArYXMk225rrYPoyJ.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 119592,
+          "FullName": "Aubrey Plaza",
+          "Amount": 6,
+          "Minutes": 583,
+          "Poster": "/7MWqITTynu0ZGqeshaNj89s8G1X.jpg",
           "Gender": 1
         },
         {
           "ID": 112,
           "FullName": "Cate Blanchett",
           "Amount": 6,
+          "Minutes": 704,
           "Poster": "/9V83uemR0ra9Wd9iRXTMlfAQlTB.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 50,
+          "FullName": "Catherine Deneuve",
+          "Amount": 6,
+          "Minutes": 679,
+          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
           "Gender": 1
         },
         {
           "ID": 8784,
           "FullName": "Daniel Craig",
           "Amount": 6,
+          "Minutes": 779,
           "Poster": "/iFerDZUmC5Fu26i4qI8xnUVEHc7.jpg",
           "Gender": 2
         },
@@ -30242,6 +31970,7 @@ var data = {
           "ID": 819,
           "FullName": "Edward Norton",
           "Amount": 6,
+          "Minutes": 764,
           "Poster": "/8nytsqL59SFJTVYVrN72k6qkGgJ.jpg",
           "Gender": 2
         },
@@ -30249,6 +31978,7 @@ var data = {
           "ID": 1461,
           "FullName": "George Clooney",
           "Amount": 6,
+          "Minutes": 682,
           "Poster": "/qCShMw6NW9dWcmCQrCl4tLNQwiC.jpg",
           "Gender": 2
         },
@@ -30256,20 +31986,15 @@ var data = {
           "ID": 3291,
           "FullName": "Hugh Grant",
           "Amount": 6,
+          "Minutes": 682,
           "Poster": "/piTC1mCFr6ZCS3SdaN5qF9Vnqu7.jpg",
           "Gender": 2
-        },
-        {
-          "ID": 4111,
-          "FullName": "Ingrid Bergman",
-          "Amount": 6,
-          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
-          "Gender": 1
         },
         {
           "ID": 6161,
           "FullName": "Jennifer Connelly",
           "Amount": 6,
+          "Minutes": 705,
           "Poster": "/bpILtSl6z5xc6YOAiPnDBlXDYMJ.jpg",
           "Gender": 1
         },
@@ -30277,6 +32002,7 @@ var data = {
           "ID": 73421,
           "FullName": "Joaquin Phoenix",
           "Amount": 6,
+          "Minutes": 752,
           "Poster": "/ls72wfQl8AhRVFeBnotmnAdy3JR.jpg",
           "Gender": 2
         },
@@ -30284,6 +32010,7 @@ var data = {
           "ID": 85,
           "FullName": "Johnny Depp",
           "Amount": 6,
+          "Minutes": 694,
           "Poster": "/wcI594cwM4ArPwvRd2IU0Z0yLuh.jpg",
           "Gender": 2
         },
@@ -30291,6 +32018,7 @@ var data = {
           "ID": 204,
           "FullName": "Kate Winslet",
           "Amount": 6,
+          "Minutes": 801,
           "Poster": "/e3tdop3WhseRnn8KwMVLAV25Ybv.jpg",
           "Gender": 1
         },
@@ -30298,6 +32026,7 @@ var data = {
           "ID": 524,
           "FullName": "Natalie Portman",
           "Amount": 6,
+          "Minutes": 650,
           "Poster": "/edPU5HxncLWa1YkgRPNkSd68ONG.jpg",
           "Gender": 1
         },
@@ -30305,6 +32034,7 @@ var data = {
           "ID": 39187,
           "FullName": "Olivia Colman",
           "Amount": 6,
+          "Minutes": 648,
           "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg",
           "Gender": 1
         },
@@ -30312,6 +32042,7 @@ var data = {
           "ID": 30614,
           "FullName": "Ryan Gosling",
           "Amount": 6,
+          "Minutes": 677,
           "Poster": "/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg",
           "Gender": 2
         },
@@ -30319,6 +32050,7 @@ var data = {
           "ID": 1245,
           "FullName": "Scarlett Johansson",
           "Amount": 6,
+          "Minutes": 692,
           "Poster": "zHPkXk66ucTVtSij8lVJKg21LLs.jpg",
           "Gender": 1
         },
@@ -30326,6 +32058,7 @@ var data = {
           "ID": 2524,
           "FullName": "Tom Hardy",
           "Amount": 6,
+          "Minutes": 724,
           "Poster": "/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg",
           "Gender": 2
         },
@@ -30333,6 +32066,7 @@ var data = {
           "ID": 110,
           "FullName": "Viggo Mortensen",
           "Amount": 6,
+          "Minutes": 915,
           "Poster": "/vH5gVSpHAMhDaFWfh0Q7BG61O1y.jpg",
           "Gender": 2
         },
@@ -30340,20 +32074,15 @@ var data = {
           "ID": 1397778,
           "FullName": "Anya Taylor-Joy",
           "Amount": 5,
+          "Minutes": 556,
           "Poster": "/qYNofOjlRke2MlJVihmJmEdQI4v.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 119592,
-          "FullName": "Aubrey Plaza",
-          "Amount": 5,
-          "Poster": "/7MWqITTynu0ZGqeshaNj89s8G1X.jpg",
           "Gender": 1
         },
         {
           "ID": 2282,
           "FullName": "Ben Kingsley",
           "Amount": 5,
+          "Minutes": 658,
           "Poster": "/vQtBqpF2HDdzbfXHDzR4u37i1Ac.jpg",
           "Gender": 2
         },
@@ -30361,20 +32090,15 @@ var data = {
           "ID": 530,
           "FullName": "Carrie-Anne Moss",
           "Amount": 5,
+          "Minutes": 589,
           "Poster": "/xD4jTA3KmVp5Rq3aHcymL9DUGjD.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 50,
-          "FullName": "Catherine Deneuve",
-          "Amount": 5,
-          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
           "Gender": 1
         },
         {
           "ID": 6885,
           "FullName": "Charlize Theron",
           "Amount": 5,
+          "Minutes": 557,
           "Poster": "/gd7ShD0yt4bsR2STeQ19KQ6hvXL.jpg",
           "Gender": 1
         },
@@ -30382,6 +32106,7 @@ var data = {
           "ID": 21594,
           "FullName": "Chris Klein",
           "Amount": 5,
+          "Minutes": 506,
           "Poster": "/56kCtPVfvjm5IRPa2GyaQHTPIOy.jpg",
           "Gender": 2
         },
@@ -30389,6 +32114,7 @@ var data = {
           "ID": 1062,
           "FullName": "Christopher Lloyd",
           "Amount": 5,
+          "Minutes": 524,
           "Poster": "/nxVjpyb3UrfbPZnEyDNlQVlFAs5.jpg",
           "Gender": 2
         },
@@ -30396,6 +32122,7 @@ var data = {
           "ID": 228,
           "FullName": "Ed Harris",
           "Amount": 5,
+          "Minutes": 622,
           "Poster": "/aAu9lJ02jlg0GAvv2vVnpJSDV1Y.jpg",
           "Gender": 2
         },
@@ -30403,6 +32130,7 @@ var data = {
           "ID": 109,
           "FullName": "Elijah Wood",
           "Amount": 5,
+          "Minutes": 771,
           "Poster": "/7UKRbJBNG7mxBl2QQc5XsAh6F8B.jpg",
           "Gender": 2
         },
@@ -30410,6 +32138,7 @@ var data = {
           "ID": 5081,
           "FullName": "Emily Blunt",
           "Amount": 5,
+          "Minutes": 587,
           "Poster": "/nPJXaRMvu1vh3COG16GzmdsBySQ.jpg",
           "Gender": 1
         },
@@ -30417,6 +32146,7 @@ var data = {
           "ID": 679,
           "FullName": "Franka Potente",
           "Amount": 5,
+          "Minutes": 517,
           "Poster": "/vA2puXpGOd53jKhpwlMbrqmTZqZ.jpg",
           "Gender": 1
         },
@@ -30424,6 +32154,7 @@ var data = {
           "ID": 64,
           "FullName": "Gary Oldman",
           "Amount": 5,
+          "Minutes": 594,
           "Poster": "/2v9FVVBUrrkW2m3QOcYkuhq9A6o.jpg",
           "Gender": 2
         },
@@ -30431,6 +32162,7 @@ var data = {
           "ID": 1037,
           "FullName": "Harvey Keitel",
           "Amount": 5,
+          "Minutes": 570,
           "Poster": "/7P30hza1neYWW3r7rSQOC736K2Z.jpg",
           "Gender": 2
         },
@@ -30438,6 +32170,7 @@ var data = {
           "ID": 1038,
           "FullName": "Jodie Foster",
           "Amount": 5,
+          "Minutes": 571,
           "Poster": "/resiaRfWvj4N84TgJi9DPOafCpq.jpg",
           "Gender": 1
         },
@@ -30445,6 +32178,7 @@ var data = {
           "ID": 27972,
           "FullName": "Josh Hutcherson",
           "Amount": 5,
+          "Minutes": 644,
           "Poster": "/1gFNyijWyHL2Gq4Td74l6QWBYaj.jpg",
           "Gender": 2
         },
@@ -30452,6 +32186,7 @@ var data = {
           "ID": 9642,
           "FullName": "Jude Law",
           "Amount": 5,
+          "Minutes": 657,
           "Poster": "/nBGVXLHsNzlG7ouoh4bDggaGKN1.jpg",
           "Gender": 2
         },
@@ -30459,13 +32194,23 @@ var data = {
           "ID": 1204,
           "FullName": "Julia Roberts",
           "Amount": 5,
+          "Minutes": 609,
           "Poster": "/AhQMyQ10kz5g8Y3Fp54GPhgDxQS.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 205,
+          "FullName": "Kirsten Dunst",
+          "Amount": 5,
+          "Minutes": 531,
+          "Poster": "/6RAAxI4oPnDMzXpXWgkkzSgnIAJ.jpg",
           "Gender": 1
         },
         {
           "ID": 10297,
           "FullName": "Matthew McConaughey",
           "Amount": 5,
+          "Minutes": 616,
           "Poster": "/sY2mwpafcwqyYS1sOySu1MENDse.jpg",
           "Gender": 2
         },
@@ -30473,6 +32218,7 @@ var data = {
           "ID": 17288,
           "FullName": "Michael Fassbender",
           "Amount": 5,
+          "Minutes": 595,
           "Poster": "/xvbnUiB2ZBR3QIt595OzNy657Vw.jpg",
           "Gender": 2
         },
@@ -30480,6 +32226,7 @@ var data = {
           "ID": 3489,
           "FullName": "Naomi Watts",
           "Amount": 5,
+          "Minutes": 601,
           "Poster": "/k6l8BWX1yqfGt95enzEkHoPvON4.jpg",
           "Gender": 1
         },
@@ -30487,6 +32234,7 @@ var data = {
           "ID": 368,
           "FullName": "Reese Witherspoon",
           "Amount": 5,
+          "Minutes": 538,
           "Poster": "/ByeTccPuvVwtWrvkPpldFP38rS.jpg",
           "Gender": 1
         },
@@ -30494,6 +32242,7 @@ var data = {
           "ID": 10205,
           "FullName": "Sigourney Weaver",
           "Amount": 5,
+          "Minutes": 635,
           "Poster": "/flfhep27iBxseZIlxOMHt6zJFX1.jpg",
           "Gender": 1
         },
@@ -30501,6 +32250,7 @@ var data = {
           "ID": 2155,
           "FullName": "Thora Birch",
           "Amount": 5,
+          "Minutes": 552,
           "Poster": "dENdXxclc0NZSFDii6hGnXsEIAs.jpg",
           "Gender": 1
         },
@@ -30508,6 +32258,7 @@ var data = {
           "ID": 3051,
           "FullName": "Toni Collette",
           "Amount": 5,
+          "Minutes": 536,
           "Poster": "/JUvXYgduDNGM2lHEjMWvxXEpGF.jpg",
           "Gender": 1
         },
@@ -30515,6 +32266,7 @@ var data = {
           "ID": 5293,
           "FullName": "Willem Dafoe",
           "Amount": 5,
+          "Minutes": 652,
           "Poster": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
           "Gender": 2
         },
@@ -30522,6 +32274,7 @@ var data = {
           "ID": 2053,
           "FullName": "Bill Paxton",
           "Amount": 4,
+          "Minutes": 490,
           "Poster": "/aLdNe6mt1cSi2zWlUYRregzfis5.jpg",
           "Gender": 2
         },
@@ -30529,13 +32282,23 @@ var data = {
           "ID": 47,
           "FullName": "Bj\u00F6rk",
           "Amount": 4,
+          "Minutes": 317,
           "Poster": "/Ahc3TWomYakLcbqZRVBDdf3rhMR.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 36662,
+          "FullName": "Carey Mulligan",
+          "Amount": 4,
+          "Minutes": 456,
+          "Poster": "/iwVHhqoz5b62FR0SDpZ7wfsuTBI.jpg",
           "Gender": 1
         },
         {
           "ID": 72466,
           "FullName": "Colin Farrell",
           "Amount": 4,
+          "Minutes": 422,
           "Poster": "/9BWYfxrVyzVpcvP8YT9QT8oQAfS.jpg",
           "Gender": 2
         },
@@ -30543,6 +32306,7 @@ var data = {
           "ID": 1896,
           "FullName": "Don Cheadle",
           "Amount": 4,
+          "Minutes": 421,
           "Poster": "/vPzvP0Qik5yHNf6dF2uqLH9HrX1.jpg",
           "Gender": 2
         },
@@ -30550,6 +32314,7 @@ var data = {
           "ID": 776,
           "FullName": "Eddie Murphy",
           "Amount": 4,
+          "Minutes": 391,
           "Poster": "/gyzOLqFROvWaVew1yWV2UcATv5t.jpg",
           "Gender": 2
         },
@@ -30557,6 +32322,7 @@ var data = {
           "ID": 9560,
           "FullName": "Ellen Burstyn",
           "Amount": 4,
+          "Minutes": 427,
           "Poster": "/wjxo9Yw8ZoKewcRlHShfTIZGVQF.jpg",
           "Gender": 1
         },
@@ -30564,6 +32330,7 @@ var data = {
           "ID": 569,
           "FullName": "Ethan Hawke",
           "Amount": 4,
+          "Minutes": 456,
           "Poster": "/a7rgJl8TYUWAfJuM4fxbLHgD7BL.jpg",
           "Gender": 2
         },
@@ -30571,6 +32338,7 @@ var data = {
           "ID": 3061,
           "FullName": "Ewan McGregor",
           "Amount": 4,
+          "Minutes": 446,
           "Poster": "/q2UDxfwWnmXTB7khOUF3J9puBVP.jpg",
           "Gender": 2
         },
@@ -30578,6 +32346,7 @@ var data = {
           "ID": 3910,
           "FullName": "Frances McDormand",
           "Amount": 4,
+          "Minutes": 417,
           "Poster": "/r0A7hZsM1zuavTr0jN7bwmBcliR.jpg",
           "Gender": 1
         },
@@ -30585,6 +32354,7 @@ var data = {
           "ID": 12052,
           "FullName": "Gwyneth Paltrow",
           "Amount": 4,
+          "Minutes": 480,
           "Poster": "/3bE5i9bNVxoqQYbx9Dr7gY2n1tG.jpg",
           "Gender": 1
         },
@@ -30592,6 +32362,7 @@ var data = {
           "ID": 1810,
           "FullName": "Heath Ledger",
           "Amount": 4,
+          "Minutes": 515,
           "Poster": "/5Y9HnYYa9jF4NunY9lSgJGjSe8E.jpg",
           "Gender": 2
         },
@@ -30599,6 +32370,7 @@ var data = {
           "ID": 18686,
           "FullName": "Holly Hunter",
           "Amount": 4,
+          "Minutes": 432,
           "Poster": "/kC7KX03VAWvogOCuwKbMo4V6TuU.jpg",
           "Gender": 1
         },
@@ -30606,6 +32378,7 @@ var data = {
           "ID": 131,
           "FullName": "Jake Gyllenhaal",
           "Amount": 4,
+          "Minutes": 489,
           "Poster": "/btORQRDyGCF0KNweGGYpmQXZK3P.jpg",
           "Gender": 2
         },
@@ -30613,6 +32386,7 @@ var data = {
           "ID": 854,
           "FullName": "James Stewart",
           "Amount": 4,
+          "Minutes": 455,
           "Poster": "/yId5fdDqShOkr0YjCoJbUOZipcX.jpg",
           "Gender": 2
         },
@@ -30620,6 +32394,7 @@ var data = {
           "ID": 1005852,
           "FullName": "Janelle Mon\u00E1e",
           "Amount": 4,
+          "Minutes": 427,
           "Poster": "/axTIbPz6ZbqlcCwkNBgD59gY3lx.jpg",
           "Gender": 3
         },
@@ -30627,6 +32402,7 @@ var data = {
           "ID": 4785,
           "FullName": "Jeff Goldblum",
           "Amount": 4,
+          "Minutes": 497,
           "Poster": "/o3PahuK7OmCI0RAQUq38CUBWYZ9.jpg",
           "Gender": 2
         },
@@ -30634,6 +32410,7 @@ var data = {
           "ID": 10431,
           "FullName": "Jennifer Jason Leigh",
           "Amount": 4,
+          "Minutes": 486,
           "Poster": "/7DbG2AO3nygHAkNC866HLPKkxv9.jpg",
           "Gender": 1
         },
@@ -30641,6 +32418,7 @@ var data = {
           "ID": 8930,
           "FullName": "John Cleese",
           "Amount": 4,
+          "Minutes": 406,
           "Poster": "/yonuTnGcc3q9A1w5P7N3dDRdPSh.jpg",
           "Gender": 2
         },
@@ -30648,6 +32426,7 @@ var data = {
           "ID": 8891,
           "FullName": "John Travolta",
           "Amount": 4,
+          "Minutes": 501,
           "Poster": "/9GVufE87MMIrSn0CbJFLudkALdL.jpg",
           "Gender": 2
         },
@@ -30655,6 +32434,7 @@ var data = {
           "ID": 10127,
           "FullName": "Jon Voight",
           "Amount": 4,
+          "Minutes": 488,
           "Poster": "/nuiTfACxhKRE2D2FWbK93m5MgSS.jpg",
           "Gender": 2
         },
@@ -30662,6 +32442,7 @@ var data = {
           "ID": 24045,
           "FullName": "Joseph Gordon-Levitt",
           "Amount": 4,
+          "Minutes": 455,
           "Poster": "/z2FA8js799xqtfiFjBTicFYdfk.jpg",
           "Gender": 2
         },
@@ -30669,6 +32450,7 @@ var data = {
           "ID": 16851,
           "FullName": "Josh Brolin",
           "Amount": 4,
+          "Minutes": 486,
           "Poster": "/sX2etBbIkxRaCsATyw5ZpOVMPTD.jpg",
           "Gender": 2
         },
@@ -30676,20 +32458,15 @@ var data = {
           "ID": 1231,
           "FullName": "Julianne Moore",
           "Amount": 4,
+          "Minutes": 445,
           "Poster": "/3YF19rWusxWfEI59ZM33dFhasRq.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 205,
-          "FullName": "Kirsten Dunst",
-          "Amount": 4,
-          "Poster": "/6RAAxI4oPnDMzXpXWgkkzSgnIAJ.jpg",
           "Gender": 1
         },
         {
           "ID": 37917,
           "FullName": "Kristen Stewart",
           "Amount": 4,
+          "Minutes": 426,
           "Poster": "/rSWE4DfR0yVEDx7Pe7jleXQpQDt.jpg",
           "Gender": 1
         },
@@ -30697,6 +32474,7 @@ var data = {
           "ID": 7633,
           "FullName": "Leslie Nielsen",
           "Amount": 4,
+          "Minutes": 342,
           "Poster": "/u5vWl5dw69Nf89f905Qb5JqEVL3.jpg",
           "Gender": 2
         },
@@ -30704,6 +32482,7 @@ var data = {
           "ID": 96066,
           "FullName": "Liam Hemsworth",
           "Amount": 4,
+          "Minutes": 548,
           "Poster": "/7UIm9RoBnlqS1uLlbElAY8urdWD.jpg",
           "Gender": 2
         },
@@ -30711,6 +32490,7 @@ var data = {
           "ID": 234352,
           "FullName": "Margot Robbie",
           "Amount": 4,
+          "Minutes": 576,
           "Poster": "/euDPyqLnuwaWMHajcU3oZ9uZezR.jpg",
           "Gender": 1
         },
@@ -30718,6 +32498,7 @@ var data = {
           "ID": 3392,
           "FullName": "Michael Douglas",
           "Amount": 4,
+          "Minutes": 481,
           "Poster": "/kVYGPIZowzXLEQfAGUNOqKjAbBb.jpg",
           "Gender": 2
         },
@@ -30725,6 +32506,7 @@ var data = {
           "ID": 12073,
           "FullName": "Mike Myers",
           "Amount": 4,
+          "Minutes": 369,
           "Poster": "/3cS8sGxRI7PKS4qMj44m1aHDX1d.jpg",
           "Gender": 2
         },
@@ -30732,6 +32514,7 @@ var data = {
           "ID": 5469,
           "FullName": "Ralph Fiennes",
           "Amount": 4,
+          "Minutes": 510,
           "Poster": "/tJr9GcmGNHhLVVEH3i7QYbj6hBi.jpg",
           "Gender": 2
         },
@@ -30739,6 +32522,7 @@ var data = {
           "ID": 10730,
           "FullName": "Rowan Atkinson",
           "Amount": 4,
+          "Minutes": 389,
           "Poster": "/wxTgS4SFanVKbnvu9xqOzNJWJwz.jpg",
           "Gender": 2
         },
@@ -30746,13 +32530,23 @@ var data = {
           "ID": 934,
           "FullName": "Russell Crowe",
           "Amount": 4,
+          "Minutes": 566,
           "Poster": "/uxiXuVH4vNWrKlJMVVPG1sxAJFe.jpg",
           "Gender": 2
+        },
+        {
+          "ID": 36592,
+          "FullName": "Saoirse Ronan",
+          "Amount": 4,
+          "Minutes": 470,
+          "Poster": "/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg",
+          "Gender": 1
         },
         {
           "ID": 2228,
           "FullName": "Sean Penn",
           "Amount": 4,
+          "Minutes": 480,
           "Poster": "/lpZRNf56TmPsNNWZ7lhcgFM6rBc.jpg",
           "Gender": 2
         },
@@ -30760,6 +32554,7 @@ var data = {
           "ID": 10959,
           "FullName": "Shia LaBeouf",
           "Amount": 4,
+          "Minutes": 461,
           "Poster": "/ljlpaXEManszxIcshYQoqo4au03.jpg",
           "Gender": 2
         },
@@ -30767,6 +32562,7 @@ var data = {
           "ID": 4038,
           "FullName": "Susan Sarandon",
           "Amount": 4,
+          "Minutes": 451,
           "Poster": "/oHYYL8bNakAREaLUBtMul5uMG0A.jpg",
           "Gender": 1
         },
@@ -30774,6 +32570,7 @@ var data = {
           "ID": 62561,
           "FullName": "Tessa Thompson",
           "Amount": 4,
+          "Minutes": 346,
           "Poster": "/ldbkM4avGwZb9Qupt9sQcRL8bq6.jpg",
           "Gender": 1
         },
@@ -30781,6 +32578,7 @@ var data = {
           "ID": 3063,
           "FullName": "Tilda Swinton",
           "Amount": 4,
+          "Minutes": 441,
           "Poster": "/gWbX3a7V2MgRMRzekfITNcb27xV.jpg",
           "Gender": 1
         },
@@ -30788,6 +32586,7 @@ var data = {
           "ID": 504,
           "FullName": "Tim Robbins",
           "Amount": 4,
+          "Minutes": 512,
           "Poster": "/djLVFETFTvPyVUdrd7aLVykobof.jpg",
           "Gender": 2
         },
@@ -30795,6 +32594,7 @@ var data = {
           "ID": 3905,
           "FullName": "William H. Macy",
           "Amount": 4,
+          "Minutes": 409,
           "Poster": "/hdVEGSrP8qWlJnt0v5vSVcGOjy7.jpg",
           "Gender": 2
         },
@@ -30802,6 +32602,7 @@ var data = {
           "ID": 1920,
           "FullName": "Winona Ryder",
           "Amount": 4,
+          "Minutes": 432,
           "Poster": "/zjwpCIeaFumamhhqz90ExqsBNqE.jpg",
           "Gender": 1
         },
@@ -30809,6 +32610,7 @@ var data = {
           "ID": 57755,
           "FullName": "Woody Harrelson",
           "Amount": 4,
+          "Minutes": 468,
           "Poster": "/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg",
           "Gender": 2
         },
@@ -30816,6 +32618,7 @@ var data = {
           "ID": 11664,
           "FullName": "Zooey Deschanel",
           "Amount": 4,
+          "Minutes": 385,
           "Poster": "/30KQyjsXfrdm4Dcori7bDFTg9Le.jpg",
           "Gender": 1
         }
@@ -30829,6 +32632,7 @@ var data = {
           "ID": 4139056,
           "FullName": "Lazarus Lake",
           "Amount": 3,
+          "Minutes": 228,
           "Poster": "/bwVpm6sRM3u1d2vVgvOgyuWsLWs.jpg",
           "Gender": 0
         },
@@ -30836,6 +32640,7 @@ var data = {
           "ID": 122287,
           "FullName": "Abdul Henderson",
           "Amount": 1,
+          "Minutes": 123,
           "Poster": "",
           "Gender": 0
         },
@@ -30843,6 +32648,7 @@ var data = {
           "ID": 1153107,
           "FullName": "Abdullrahman Algohani",
           "Amount": 1,
+          "Minutes": 98,
           "Poster": "",
           "Gender": 0
         },
@@ -30850,6 +32656,7 @@ var data = {
           "ID": 3087655,
           "FullName": "Adam Cohen",
           "Amount": 1,
+          "Minutes": 86,
           "Poster": "",
           "Gender": 0
         },
@@ -30857,6 +32664,7 @@ var data = {
           "ID": 1963838,
           "FullName": "Alexander Stasko",
           "Amount": 1,
+          "Minutes": 85,
           "Poster": "/1QY4wHpBy5HnZ3zlmgPy7optL4z.jpg",
           "Gender": 0
         },
@@ -30864,6 +32672,7 @@ var data = {
           "ID": 1081507,
           "FullName": "Alfred Bob\u00E9 Jr.",
           "Amount": 1,
+          "Minutes": 60,
           "Poster": "",
           "Gender": 0
         },
@@ -30871,6 +32680,7 @@ var data = {
           "ID": 1753482,
           "FullName": "Attila Vinczer",
           "Amount": 1,
+          "Minutes": 118,
           "Poster": "",
           "Gender": 0
         },
@@ -30878,6 +32688,7 @@ var data = {
           "ID": 1296895,
           "FullName": "Benedict Lim",
           "Amount": 1,
+          "Minutes": 75,
           "Poster": "/192X0I5Q0lYFue5HY1f1mSSFoAT.jpg",
           "Gender": 0
         },
@@ -30885,6 +32696,7 @@ var data = {
           "ID": 1740418,
           "FullName": "Benj Cave",
           "Amount": 1,
+          "Minutes": 113,
           "Poster": "",
           "Gender": 0
         },
@@ -30892,6 +32704,7 @@ var data = {
           "ID": 1178783,
           "FullName": "Bill Blakemore",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "",
           "Gender": 0
         },
@@ -30899,6 +32712,7 @@ var data = {
           "ID": 1167437,
           "FullName": "Bob Swerer Jr.",
           "Amount": 1,
+          "Minutes": 57,
           "Poster": "",
           "Gender": 0
         },
@@ -30906,6 +32720,7 @@ var data = {
           "ID": 1607836,
           "FullName": "Bob Swerer Sr.",
           "Amount": 1,
+          "Minutes": 60,
           "Poster": "",
           "Gender": 0
         },
@@ -30913,6 +32728,7 @@ var data = {
           "ID": 3635399,
           "FullName": "Brooklyn Toulson",
           "Amount": 1,
+          "Minutes": 101,
           "Poster": "",
           "Gender": 0
         },
@@ -30920,6 +32736,7 @@ var data = {
           "ID": 1168072,
           "FullName": "Bryon Widner",
           "Amount": 1,
+          "Minutes": 91,
           "Poster": "",
           "Gender": 0
         },
@@ -30927,6 +32744,7 @@ var data = {
           "ID": 1557393,
           "FullName": "Carl Dietrich Carls",
           "Amount": 1,
+          "Minutes": 98,
           "Poster": "",
           "Gender": 0
         },
@@ -30934,6 +32752,7 @@ var data = {
           "ID": 110171,
           "FullName": "Casey Gooden",
           "Amount": 1,
+          "Minutes": 77,
           "Poster": "/1LIFlANscRuELaS9lOUNPxN7Plv.jpg",
           "Gender": 0
         },
@@ -30941,6 +32760,7 @@ var data = {
           "ID": 1081508,
           "FullName": "Christian Thormann",
           "Amount": 1,
+          "Minutes": 60,
           "Poster": "",
           "Gender": 0
         },
@@ -30948,6 +32768,7 @@ var data = {
           "ID": 232055,
           "FullName": "Clifford Ba\u00F1agale",
           "Amount": 1,
+          "Minutes": 83,
           "Poster": "/9DxwQHYRzNnFYOmwQUjwa0TMeZe.jpg",
           "Gender": 0
         },
@@ -30955,6 +32776,7 @@ var data = {
           "ID": 1296897,
           "FullName": "Clinton Loomis",
           "Amount": 1,
+          "Minutes": 75,
           "Poster": "/nqzUkjK54A9SpZlfZZCmYpxoawX.jpg",
           "Gender": 0
         },
@@ -30962,6 +32784,7 @@ var data = {
           "ID": 1963837,
           "FullName": "Cooper Oznowicz",
           "Amount": 1,
+          "Minutes": 85,
           "Poster": "",
           "Gender": 0
         },
@@ -30969,6 +32792,7 @@ var data = {
           "ID": 1296896,
           "FullName": "Danil Ishutin",
           "Amount": 1,
+          "Minutes": 75,
           "Poster": "/oF8PAtXjC3vevfkEqEmOrAxjxvG.jpg",
           "Gender": 0
         },
@@ -30976,6 +32800,7 @@ var data = {
           "ID": 57493,
           "FullName": "Daryl Isaacs",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "",
           "Gender": 0
         },
@@ -30983,6 +32808,7 @@ var data = {
           "ID": 2359378,
           "FullName": "David Carroll",
           "Amount": 1,
+          "Minutes": 114,
           "Poster": "/MIaVNPK5UzQKSWAoqt7rZahiAm.jpg",
           "Gender": 0
         },
@@ -30990,6 +32816,7 @@ var data = {
           "ID": 1689848,
           "FullName": "David Starr",
           "Amount": 1,
+          "Minutes": 92,
           "Poster": "",
           "Gender": 0
         },
@@ -30997,6 +32824,7 @@ var data = {
           "ID": 9962,
           "FullName": "Davos Hanich",
           "Amount": 1,
+          "Minutes": 28,
           "Poster": "/rjS5UyIrHaI3NNNIK5AT78zoUgV.jpg",
           "Gender": 0
         },
@@ -31004,6 +32832,7 @@ var data = {
           "ID": 1939095,
           "FullName": "Dominique Henry",
           "Amount": 1,
+          "Minutes": 113,
           "Poster": "",
           "Gender": 0
         },
@@ -31011,6 +32840,7 @@ var data = {
           "ID": 1550515,
           "FullName": "Dylan Reeve",
           "Amount": 1,
+          "Minutes": 92,
           "Poster": "/l2LTvoli0QjBpOqOQhVm1q9OMxu.jpg",
           "Gender": 0
         },
@@ -31018,6 +32848,7 @@ var data = {
           "ID": 143033,
           "FullName": "Fran\u00E7ois Lafarge",
           "Amount": 1,
+          "Minutes": 96,
           "Poster": "",
           "Gender": 0
         },
@@ -31025,6 +32856,7 @@ var data = {
           "ID": 4631138,
           "FullName": "Gary Robbins",
           "Amount": 1,
+          "Minutes": 75,
           "Poster": "",
           "Gender": 0
         },
@@ -31032,6 +32864,7 @@ var data = {
           "ID": 1178784,
           "FullName": "Geoffrey Cocks",
           "Amount": 1,
+          "Minutes": 102,
           "Poster": "",
           "Gender": 0
         },
@@ -31039,6 +32872,7 @@ var data = {
           "ID": 96230,
           "FullName": "Gottfrid Svartholm",
           "Amount": 1,
+          "Minutes": 82,
           "Poster": "/m6pVQSGrFM3IdQE2x7vbD4sHzTl.jpg",
           "Gender": 0
         },
@@ -31046,6 +32880,7 @@ var data = {
           "ID": 1058278,
           "FullName": "Grant Munro",
           "Amount": 1,
+          "Minutes": 9,
           "Poster": "",
           "Gender": 0
         },
@@ -31053,6 +32888,7 @@ var data = {
           "ID": 3113105,
           "FullName": "G\u00FCnter Duret",
           "Amount": 1,
+          "Minutes": 72,
           "Poster": "",
           "Gender": 0
         },
@@ -31060,6 +32896,7 @@ var data = {
           "ID": 2461575,
           "FullName": "Hamza Al-Khateab",
           "Amount": 1,
+          "Minutes": 100,
           "Poster": "/tAmMSHrK5gcfTdCFkD5FMnzr7Tf.jpg",
           "Gender": 0
         },
@@ -31067,6 +32904,7 @@ var data = {
           "ID": 1058279,
           "FullName": "Jean Paul Ladouceur",
           "Amount": 1,
+          "Minutes": 9,
           "Poster": "",
           "Gender": 0
         },
@@ -31074,6 +32912,7 @@ var data = {
           "ID": 2008811,
           "FullName": "Jeff Horton",
           "Amount": 1,
+          "Minutes": 45,
           "Poster": "",
           "Gender": 0
         },
@@ -31081,6 +32920,7 @@ var data = {
           "ID": 3133525,
           "FullName": "Jeffrey Wayne Sutherland",
           "Amount": 1,
+          "Minutes": 27,
           "Poster": "",
           "Gender": 0
         },
@@ -31088,6 +32928,7 @@ var data = {
           "ID": 4202678,
           "FullName": "Joe McConaughy",
           "Amount": 1,
+          "Minutes": 63,
           "Poster": "/o0328yoYbbDoU83l7cerhw3Muut.jpg",
           "Gender": 0
         },
@@ -31095,6 +32936,7 @@ var data = {
           "ID": 3065662,
           "FullName": "John Ashby",
           "Amount": 1,
+          "Minutes": 99,
           "Poster": "",
           "Gender": 0
         },
@@ -31102,6 +32944,7 @@ var data = {
           "ID": 1236153,
           "FullName": "John Drainie",
           "Amount": 1,
+          "Minutes": 80,
           "Poster": "/oHTlp7J0I7uQzGq5AJWwePXgBsM.jpg",
           "Gender": 0
         },
@@ -31109,6 +32952,7 @@ var data = {
           "ID": 1562478,
           "FullName": "Jonathan Race",
           "Amount": 1,
+          "Minutes": 96,
           "Poster": "/xPlggzUykeoUZoyJWkjhG39Gclz.jpg",
           "Gender": 0
         },
@@ -31116,6 +32960,7 @@ var data = {
           "ID": 1081504,
           "FullName": "Lucas Brunelle",
           "Amount": 1,
+          "Minutes": 60,
           "Poster": "",
           "Gender": 0
         },
@@ -31123,6 +32968,7 @@ var data = {
           "ID": 1393184,
           "FullName": "Marleik 'Mar Mar' Walker",
           "Amount": 1,
+          "Minutes": 88,
           "Poster": "/vrcIi9Le44t1pjj2BlKnfm6pjhC.jpg",
           "Gender": 0
         },
@@ -31130,6 +32976,7 @@ var data = {
           "ID": 1740421,
           "FullName": "Max Cave",
           "Amount": 1,
+          "Minutes": 113,
           "Poster": "",
           "Gender": 0
         },
@@ -31137,6 +32984,7 @@ var data = {
           "ID": 101384,
           "FullName": "Nell Becker",
           "Amount": 1,
+          "Minutes": 66,
           "Poster": "",
           "Gender": 0
         },
@@ -31144,6 +32992,7 @@ var data = {
           "ID": 2965,
           "FullName": "Nicholas Art",
           "Amount": 1,
+          "Minutes": 77,
           "Poster": "",
           "Gender": 0
         },
@@ -31151,6 +33000,7 @@ var data = {
           "ID": 17539,
           "FullName": "Osamu Ogasawara",
           "Amount": 1,
+          "Minutes": 105,
           "Poster": "",
           "Gender": 0
         },
@@ -31158,6 +33008,7 @@ var data = {
           "ID": 2166051,
           "FullName": "Pak Chung-Guk",
           "Amount": 1,
+          "Minutes": 77,
           "Poster": "",
           "Gender": 0
         },
@@ -31165,6 +33016,7 @@ var data = {
           "ID": 2372056,
           "FullName": "Paul-Olivier Dehaye",
           "Amount": 1,
+          "Minutes": 114,
           "Poster": "/bBMTFjfOShp3sRQ3ZUMCx8cbRLp.jpg",
           "Gender": 0
         },
@@ -31172,6 +33024,7 @@ var data = {
           "ID": 1532950,
           "FullName": "Richard Lobb",
           "Amount": 1,
+          "Minutes": 94,
           "Poster": "",
           "Gender": 0
         },
@@ -31179,6 +33032,7 @@ var data = {
           "ID": 27784,
           "FullName": "Rikiya \u00D4taka",
           "Amount": 1,
+          "Minutes": 96,
           "Poster": "",
           "Gender": 0
         },
@@ -31186,6 +33040,7 @@ var data = {
           "ID": 76112,
           "FullName": "Steve Wiebe",
           "Amount": 1,
+          "Minutes": 83,
           "Poster": "",
           "Gender": 0
         },
@@ -31193,6 +33048,7 @@ var data = {
           "ID": 1523952,
           "FullName": "Tom De Vocht",
           "Amount": 1,
+          "Minutes": 99,
           "Poster": "",
           "Gender": 0
         },
@@ -31200,6 +33056,7 @@ var data = {
           "ID": 1234210,
           "FullName": "Tony Kanaan",
           "Amount": 1,
+          "Minutes": 45,
           "Poster": "/b5ps8eit59wvUuQN2NZ4NrkPse7.jpg",
           "Gender": 0
         },
@@ -31207,6 +33064,7 @@ var data = {
           "ID": 76113,
           "FullName": "Walter Day",
           "Amount": 1,
+          "Minutes": 83,
           "Poster": "",
           "Gender": 0
         },
@@ -31214,6 +33072,7 @@ var data = {
           "ID": 1167438,
           "FullName": "Wendy Ishii",
           "Amount": 1,
+          "Minutes": 57,
           "Poster": "",
           "Gender": 0
         },
@@ -31221,6 +33080,7 @@ var data = {
           "ID": 1183061,
           "FullName": "Yong-ho Ri",
           "Amount": 1,
+          "Minutes": 77,
           "Poster": "",
           "Gender": 0
         },
@@ -31228,19 +33088,21 @@ var data = {
           "ID": 1633770,
           "FullName": "Zack Gottsagen",
           "Amount": 1,
+          "Minutes": 97,
           "Poster": "/8B7Hm9cfZsLBVqMdbBAQRXfxMmw.jpg",
           "Gender": 0
         }
       ]
     },
     "maincast_1": {
-      "Total": 1142,
-      "Unique": 762,
+      "Total": 1167,
+      "Unique": 775,
       "PeopleData": [
         {
           "ID": 6886,
           "FullName": "Christina Ricci",
           "Amount": 16,
+          "Minutes": 1631,
           "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
           "Gender": 1
         },
@@ -31248,6 +33110,7 @@ var data = {
           "ID": 1932,
           "FullName": "Audrey Hepburn",
           "Amount": 12,
+          "Minutes": 1437,
           "Poster": "9SFLosAt3chN3MZBTYg9VQfXDPF.jpg",
           "Gender": 1
         },
@@ -31255,6 +33118,7 @@ var data = {
           "ID": 10990,
           "FullName": "Emma Watson",
           "Amount": 12,
+          "Minutes": 1591,
           "Poster": "/A14lLCZYDhfYdBa0fFRpwMDiwRN.jpg",
           "Gender": 1
         },
@@ -31262,6 +33126,7 @@ var data = {
           "ID": 72129,
           "FullName": "Jennifer Lawrence",
           "Amount": 10,
+          "Minutes": 1173,
           "Poster": "/k6CsASaySnS3ag0Y2Ns2vqPahVn.jpg",
           "Gender": 1
         },
@@ -31269,6 +33134,7 @@ var data = {
           "ID": 936970,
           "FullName": "Julia Garner",
           "Amount": 10,
+          "Minutes": 928,
           "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
           "Gender": 1
         },
@@ -31276,6 +33142,7 @@ var data = {
           "ID": 3293,
           "FullName": "Rachel Weisz",
           "Amount": 10,
+          "Minutes": 1106,
           "Poster": "/msTqKPA33ryVtcVNgOdeaJGYq16.jpg",
           "Gender": 1
         },
@@ -31283,6 +33150,7 @@ var data = {
           "ID": 6941,
           "FullName": "Cameron Diaz",
           "Amount": 9,
+          "Minutes": 957,
           "Poster": "/y5DitIz69LzqFCTZd1omRpalpMy.jpg",
           "Gender": 1
         },
@@ -31290,6 +33158,7 @@ var data = {
           "ID": 54693,
           "FullName": "Emma Stone",
           "Amount": 8,
+          "Minutes": 1015,
           "Poster": "/sFlktjWgUANqfUnqWJOhzICvp4v.jpg",
           "Gender": 1
         },
@@ -31297,41 +33166,63 @@ var data = {
           "ID": 1373737,
           "FullName": "Florence Pugh",
           "Amount": 8,
-          "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
+          "Minutes": 924,
+          "Poster": "f8e41Oon18FiEZr4zgyJDVUqOeh.jpg",
           "Gender": 1
         },
         {
           "ID": 11701,
           "FullName": "Angelina Jolie",
           "Amount": 7,
+          "Minutes": 830,
           "Poster": "/bXNxIKcJ5cNNW8QFrBPWcfTSu9x.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 4111,
+          "FullName": "Ingrid Bergman",
+          "Amount": 7,
+          "Minutes": 663,
+          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
           "Gender": 1
         },
         {
           "ID": 18277,
           "FullName": "Sandra Bullock",
           "Amount": 7,
+          "Minutes": 822,
           "Poster": "/hPHGKPAWZ8gArYXMk225rrYPoyJ.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 119592,
+          "FullName": "Aubrey Plaza",
+          "Amount": 6,
+          "Minutes": 583,
+          "Poster": "/7MWqITTynu0ZGqeshaNj89s8G1X.jpg",
           "Gender": 1
         },
         {
           "ID": 112,
           "FullName": "Cate Blanchett",
           "Amount": 6,
+          "Minutes": 704,
           "Poster": "/9V83uemR0ra9Wd9iRXTMlfAQlTB.jpg",
           "Gender": 1
         },
         {
-          "ID": 4111,
-          "FullName": "Ingrid Bergman",
+          "ID": 50,
+          "FullName": "Catherine Deneuve",
           "Amount": 6,
-          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
+          "Minutes": 679,
+          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
           "Gender": 1
         },
         {
           "ID": 6161,
           "FullName": "Jennifer Connelly",
           "Amount": 6,
+          "Minutes": 705,
           "Poster": "/bpILtSl6z5xc6YOAiPnDBlXDYMJ.jpg",
           "Gender": 1
         },
@@ -31339,6 +33230,7 @@ var data = {
           "ID": 204,
           "FullName": "Kate Winslet",
           "Amount": 6,
+          "Minutes": 801,
           "Poster": "/e3tdop3WhseRnn8KwMVLAV25Ybv.jpg",
           "Gender": 1
         },
@@ -31346,6 +33238,7 @@ var data = {
           "ID": 524,
           "FullName": "Natalie Portman",
           "Amount": 6,
+          "Minutes": 650,
           "Poster": "/edPU5HxncLWa1YkgRPNkSd68ONG.jpg",
           "Gender": 1
         },
@@ -31353,6 +33246,7 @@ var data = {
           "ID": 39187,
           "FullName": "Olivia Colman",
           "Amount": 6,
+          "Minutes": 648,
           "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg",
           "Gender": 1
         },
@@ -31360,6 +33254,7 @@ var data = {
           "ID": 1245,
           "FullName": "Scarlett Johansson",
           "Amount": 6,
+          "Minutes": 692,
           "Poster": "zHPkXk66ucTVtSij8lVJKg21LLs.jpg",
           "Gender": 1
         },
@@ -31367,34 +33262,23 @@ var data = {
           "ID": 1397778,
           "FullName": "Anya Taylor-Joy",
           "Amount": 5,
+          "Minutes": 556,
           "Poster": "/qYNofOjlRke2MlJVihmJmEdQI4v.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 119592,
-          "FullName": "Aubrey Plaza",
-          "Amount": 5,
-          "Poster": "/7MWqITTynu0ZGqeshaNj89s8G1X.jpg",
           "Gender": 1
         },
         {
           "ID": 530,
           "FullName": "Carrie-Anne Moss",
           "Amount": 5,
+          "Minutes": 589,
           "Poster": "/xD4jTA3KmVp5Rq3aHcymL9DUGjD.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 50,
-          "FullName": "Catherine Deneuve",
-          "Amount": 5,
-          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
           "Gender": 1
         },
         {
           "ID": 6885,
           "FullName": "Charlize Theron",
           "Amount": 5,
+          "Minutes": 557,
           "Poster": "/gd7ShD0yt4bsR2STeQ19KQ6hvXL.jpg",
           "Gender": 1
         },
@@ -31402,6 +33286,7 @@ var data = {
           "ID": 5081,
           "FullName": "Emily Blunt",
           "Amount": 5,
+          "Minutes": 587,
           "Poster": "/nPJXaRMvu1vh3COG16GzmdsBySQ.jpg",
           "Gender": 1
         },
@@ -31409,6 +33294,7 @@ var data = {
           "ID": 679,
           "FullName": "Franka Potente",
           "Amount": 5,
+          "Minutes": 517,
           "Poster": "/vA2puXpGOd53jKhpwlMbrqmTZqZ.jpg",
           "Gender": 1
         },
@@ -31416,6 +33302,7 @@ var data = {
           "ID": 1038,
           "FullName": "Jodie Foster",
           "Amount": 5,
+          "Minutes": 571,
           "Poster": "/resiaRfWvj4N84TgJi9DPOafCpq.jpg",
           "Gender": 1
         },
@@ -31423,13 +33310,23 @@ var data = {
           "ID": 1204,
           "FullName": "Julia Roberts",
           "Amount": 5,
+          "Minutes": 609,
           "Poster": "/AhQMyQ10kz5g8Y3Fp54GPhgDxQS.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 205,
+          "FullName": "Kirsten Dunst",
+          "Amount": 5,
+          "Minutes": 531,
+          "Poster": "/6RAAxI4oPnDMzXpXWgkkzSgnIAJ.jpg",
           "Gender": 1
         },
         {
           "ID": 3489,
           "FullName": "Naomi Watts",
           "Amount": 5,
+          "Minutes": 601,
           "Poster": "/k6l8BWX1yqfGt95enzEkHoPvON4.jpg",
           "Gender": 1
         },
@@ -31437,6 +33334,7 @@ var data = {
           "ID": 368,
           "FullName": "Reese Witherspoon",
           "Amount": 5,
+          "Minutes": 538,
           "Poster": "/ByeTccPuvVwtWrvkPpldFP38rS.jpg",
           "Gender": 1
         },
@@ -31444,6 +33342,7 @@ var data = {
           "ID": 10205,
           "FullName": "Sigourney Weaver",
           "Amount": 5,
+          "Minutes": 635,
           "Poster": "/flfhep27iBxseZIlxOMHt6zJFX1.jpg",
           "Gender": 1
         },
@@ -31451,6 +33350,7 @@ var data = {
           "ID": 2155,
           "FullName": "Thora Birch",
           "Amount": 5,
+          "Minutes": 552,
           "Poster": "dENdXxclc0NZSFDii6hGnXsEIAs.jpg",
           "Gender": 1
         },
@@ -31458,6 +33358,7 @@ var data = {
           "ID": 3051,
           "FullName": "Toni Collette",
           "Amount": 5,
+          "Minutes": 536,
           "Poster": "/JUvXYgduDNGM2lHEjMWvxXEpGF.jpg",
           "Gender": 1
         },
@@ -31465,13 +33366,23 @@ var data = {
           "ID": 47,
           "FullName": "Bj\u00F6rk",
           "Amount": 4,
+          "Minutes": 317,
           "Poster": "/Ahc3TWomYakLcbqZRVBDdf3rhMR.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 36662,
+          "FullName": "Carey Mulligan",
+          "Amount": 4,
+          "Minutes": 456,
+          "Poster": "/iwVHhqoz5b62FR0SDpZ7wfsuTBI.jpg",
           "Gender": 1
         },
         {
           "ID": 9560,
           "FullName": "Ellen Burstyn",
           "Amount": 4,
+          "Minutes": 427,
           "Poster": "/wjxo9Yw8ZoKewcRlHShfTIZGVQF.jpg",
           "Gender": 1
         },
@@ -31479,6 +33390,7 @@ var data = {
           "ID": 3910,
           "FullName": "Frances McDormand",
           "Amount": 4,
+          "Minutes": 417,
           "Poster": "/r0A7hZsM1zuavTr0jN7bwmBcliR.jpg",
           "Gender": 1
         },
@@ -31486,6 +33398,7 @@ var data = {
           "ID": 12052,
           "FullName": "Gwyneth Paltrow",
           "Amount": 4,
+          "Minutes": 480,
           "Poster": "/3bE5i9bNVxoqQYbx9Dr7gY2n1tG.jpg",
           "Gender": 1
         },
@@ -31493,6 +33406,7 @@ var data = {
           "ID": 18686,
           "FullName": "Holly Hunter",
           "Amount": 4,
+          "Minutes": 432,
           "Poster": "/kC7KX03VAWvogOCuwKbMo4V6TuU.jpg",
           "Gender": 1
         },
@@ -31500,6 +33414,7 @@ var data = {
           "ID": 10431,
           "FullName": "Jennifer Jason Leigh",
           "Amount": 4,
+          "Minutes": 486,
           "Poster": "/7DbG2AO3nygHAkNC866HLPKkxv9.jpg",
           "Gender": 1
         },
@@ -31507,20 +33422,15 @@ var data = {
           "ID": 1231,
           "FullName": "Julianne Moore",
           "Amount": 4,
+          "Minutes": 445,
           "Poster": "/3YF19rWusxWfEI59ZM33dFhasRq.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 205,
-          "FullName": "Kirsten Dunst",
-          "Amount": 4,
-          "Poster": "/6RAAxI4oPnDMzXpXWgkkzSgnIAJ.jpg",
           "Gender": 1
         },
         {
           "ID": 37917,
           "FullName": "Kristen Stewart",
           "Amount": 4,
+          "Minutes": 426,
           "Poster": "/rSWE4DfR0yVEDx7Pe7jleXQpQDt.jpg",
           "Gender": 1
         },
@@ -31528,13 +33438,23 @@ var data = {
           "ID": 234352,
           "FullName": "Margot Robbie",
           "Amount": 4,
+          "Minutes": 576,
           "Poster": "/euDPyqLnuwaWMHajcU3oZ9uZezR.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 36592,
+          "FullName": "Saoirse Ronan",
+          "Amount": 4,
+          "Minutes": 470,
+          "Poster": "/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg",
           "Gender": 1
         },
         {
           "ID": 4038,
           "FullName": "Susan Sarandon",
           "Amount": 4,
+          "Minutes": 451,
           "Poster": "/oHYYL8bNakAREaLUBtMul5uMG0A.jpg",
           "Gender": 1
         },
@@ -31542,6 +33462,7 @@ var data = {
           "ID": 62561,
           "FullName": "Tessa Thompson",
           "Amount": 4,
+          "Minutes": 346,
           "Poster": "/ldbkM4avGwZb9Qupt9sQcRL8bq6.jpg",
           "Gender": 1
         },
@@ -31549,6 +33470,7 @@ var data = {
           "ID": 3063,
           "FullName": "Tilda Swinton",
           "Amount": 4,
+          "Minutes": 441,
           "Poster": "/gWbX3a7V2MgRMRzekfITNcb27xV.jpg",
           "Gender": 1
         },
@@ -31556,6 +33478,7 @@ var data = {
           "ID": 1920,
           "FullName": "Winona Ryder",
           "Amount": 4,
+          "Minutes": 432,
           "Poster": "/zjwpCIeaFumamhhqz90ExqsBNqE.jpg",
           "Gender": 1
         },
@@ -31563,6 +33486,7 @@ var data = {
           "ID": 11664,
           "FullName": "Zooey Deschanel",
           "Amount": 4,
+          "Minutes": 385,
           "Poster": "/30KQyjsXfrdm4Dcori7bDFTg9Le.jpg",
           "Gender": 1
         },
@@ -31570,27 +33494,31 @@ var data = {
           "ID": 5657,
           "FullName": "Anjelica Huston",
           "Amount": 3,
+          "Minutes": 287,
           "Poster": "/6hnYeHa7Rc1w1MmQ3JsLSIb7yCX.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 84223,
+          "FullName": "Anna Kendrick",
+          "Amount": 3,
+          "Minutes": 296,
+          "Poster": "/cyGjHMJO7C6kQTq36n9hkLThY4G.jpg",
           "Gender": 1
         },
         {
           "ID": 1813,
           "FullName": "Anne Hathaway",
           "Amount": 3,
+          "Minutes": 386,
           "Poster": "/s6tflSD20MGz04ZR2R1lZvhmC4Y.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 36662,
-          "FullName": "Carey Mulligan",
-          "Amount": 3,
-          "Poster": "/iwVHhqoz5b62FR0SDpZ7wfsuTBI.jpg",
           "Gender": 1
         },
         {
           "ID": 14405,
           "FullName": "Courteney Cox",
           "Amount": 3,
+          "Minutes": 336,
           "Poster": "/gfPFo174v4JqoRaaxUmqLVBrVID.jpg",
           "Gender": 1
         },
@@ -31598,6 +33526,7 @@ var data = {
           "ID": 118545,
           "FullName": "Dakota Johnson",
           "Amount": 3,
+          "Minutes": 343,
           "Poster": "/rtxJfCCLdp1oi7bQ1ENVZRRkrJ5.jpg",
           "Gender": 1
         },
@@ -31605,6 +33534,7 @@ var data = {
           "ID": 3416,
           "FullName": "Demi Moore",
           "Amount": 3,
+          "Minutes": 374,
           "Poster": "daQIsKnFmw412UIkRCm3eoUgLLz.jpg",
           "Gender": 1
         },
@@ -31612,6 +33542,7 @@ var data = {
           "ID": 7056,
           "FullName": "Emma Thompson",
           "Amount": 3,
+          "Minutes": 378,
           "Poster": "/xr8Ki3CIqweWWqS5q0kUYdiK6oQ.jpg",
           "Gender": 1
         },
@@ -31619,6 +33550,7 @@ var data = {
           "ID": 38940,
           "FullName": "Evan Rachel Wood",
           "Amount": 3,
+          "Minutes": 302,
           "Poster": "/t81MqnwzqoTs4mktzsP7OQqMJqT.jpg",
           "Gender": 1
         },
@@ -31626,6 +33558,7 @@ var data = {
           "ID": 16935,
           "FullName": "Geena Davis",
           "Amount": 3,
+          "Minutes": 318,
           "Poster": "/bx9ufx5cS7FfHDFFeT71syBh428.jpg",
           "Gender": 1
         },
@@ -31633,13 +33566,23 @@ var data = {
           "ID": 8944,
           "FullName": "Jamie Lee Curtis",
           "Amount": 3,
+          "Minutes": 340,
           "Poster": "/9KWvPVeiLOXlOGl0XVyHZtJWQtx.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 1498158,
+          "FullName": "Jessie Buckley",
+          "Amount": 3,
+          "Minutes": 325,
+          "Poster": "/jKhDQOMVQ1JP4gaUXCQg75gvsrm.jpg",
           "Gender": 1
         },
         {
           "ID": 11148,
           "FullName": "Joan Allen",
           "Amount": 3,
+          "Minutes": 368,
           "Poster": "/2w40UhN3WoW9G9EkLzhDcfF3t9W.jpg",
           "Gender": 1
         },
@@ -31647,6 +33590,7 @@ var data = {
           "ID": 116,
           "FullName": "Keira Knightley",
           "Amount": 3,
+          "Minutes": 368,
           "Poster": "/bRC1B2VwV0wK3ElciFAK6QZf2wD.jpg",
           "Gender": 1
         },
@@ -31654,6 +33598,7 @@ var data = {
           "ID": 17286,
           "FullName": "Lena Headey",
           "Amount": 3,
+          "Minutes": 287,
           "Poster": "/5SL4Y4alOYF9EahObfsb6GaDHg4.jpg",
           "Gender": 1
         },
@@ -31661,6 +33606,7 @@ var data = {
           "ID": 1267329,
           "FullName": "Lupita Nyong'o",
           "Amount": 3,
+          "Minutes": 385,
           "Poster": "/y40Wu1T742kynOqtwXASc5Qgm49.jpg",
           "Gender": 1
         },
@@ -31668,6 +33614,7 @@ var data = {
           "ID": 4726,
           "FullName": "Marcia Gay Harden",
           "Amount": 3,
+          "Minutes": 337,
           "Poster": "/cBAFNVmGdVwMJqSGPjBHeYVaTdH.jpg",
           "Gender": 1
         },
@@ -31675,6 +33622,7 @@ var data = {
           "ID": 1137824,
           "FullName": "Mia Goth",
           "Amount": 3,
+          "Minutes": 312,
           "Poster": "/jlxfhuAiNpPEAsyswSfY3njn36m.jpg",
           "Gender": 1
         },
@@ -31682,6 +33630,7 @@ var data = {
           "ID": 18973,
           "FullName": "Mila Kunis",
           "Amount": 3,
+          "Minutes": 314,
           "Poster": "/811vCRSr9s2MFwCIOo1jWHltu3R.jpg",
           "Gender": 1
         },
@@ -31689,6 +33638,7 @@ var data = {
           "ID": 10871,
           "FullName": "Natasha Lyonne",
           "Amount": 3,
+          "Minutes": 280,
           "Poster": "/2QJoTBEIeYyjGSDot9qxv2ayPH3.jpg",
           "Gender": 1
         },
@@ -31696,6 +33646,7 @@ var data = {
           "ID": 12949,
           "FullName": "Priscilla Presley",
           "Amount": 3,
+          "Minutes": 254,
           "Poster": "/kCEeX9e3UqXclQuWyDTQOn0fuOQ.jpg",
           "Gender": 1
         },
@@ -31703,6 +33654,7 @@ var data = {
           "ID": 53714,
           "FullName": "Rachel McAdams",
           "Amount": 3,
+          "Minutes": 318,
           "Poster": "/2zyOjda95OfAAsJvuwTV0UaznPZ.jpg",
           "Gender": 1
         },
@@ -31710,6 +33662,7 @@ var data = {
           "ID": 14343,
           "FullName": "Rene Russo",
           "Amount": 3,
+          "Minutes": 352,
           "Poster": "/yWPSqrv3nfPPKC6I2S0sRTWZ5Yi.jpg",
           "Gender": 1
         },
@@ -31717,20 +33670,15 @@ var data = {
           "ID": 39658,
           "FullName": "Sally Hawkins",
           "Amount": 3,
+          "Minutes": 342,
           "Poster": "/osYgwtQIiNbPFc8JkFDxreBgqxZ.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 36592,
-          "FullName": "Saoirse Ronan",
-          "Amount": 3,
-          "Poster": "/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg",
           "Gender": 1
         },
         {
           "ID": 98,
           "FullName": "Sarah Polley",
           "Amount": 3,
+          "Minutes": 314,
           "Poster": "/qcdT6y6QEjaERHPUBC07YGKgR6k.jpg",
           "Gender": 1
         },
@@ -31738,6 +33686,7 @@ var data = {
           "ID": 9030,
           "FullName": "Thandiwe Newton",
           "Amount": 3,
+          "Minutes": 340,
           "Poster": "/oy3zyt5lSzf6G1JoMM6gTZRJxjj.jpg",
           "Gender": 1
         },
@@ -31745,6 +33694,7 @@ var data = {
           "ID": 1356758,
           "FullName": "Thomasin McKenzie",
           "Amount": 3,
+          "Minutes": 333,
           "Poster": "/WOpnEFG5Q8LWxP81MtUrskmVox.jpg",
           "Gender": 1
         },
@@ -31752,6 +33702,7 @@ var data = {
           "ID": 139,
           "FullName": "Uma Thurman",
           "Amount": 3,
+          "Minutes": 401,
           "Poster": "/xuxgPXyv6KjUHIM8cZaxx4ry25L.jpg",
           "Gender": 1
         },
@@ -31759,6 +33710,7 @@ var data = {
           "ID": 1302197,
           "FullName": "Wendy McColm",
           "Amount": 3,
+          "Minutes": 266,
           "Poster": "/9rZGudRxg39XjAbhkDRFQZSikmy.jpg",
           "Gender": 1
         },
@@ -31766,6 +33718,7 @@ var data = {
           "ID": 68816,
           "FullName": "Ad\u00E8le Haenel",
           "Amount": 2,
+          "Minutes": 206,
           "Poster": "/uf2BVprWBZB7hxv0lj1RO48EDEZ.jpg",
           "Gender": 1
         },
@@ -31773,6 +33726,7 @@ var data = {
           "ID": 17303,
           "FullName": "Ali Larter",
           "Amount": 2,
+          "Minutes": 188,
           "Poster": "/e1LF7oh0C5jg30hdNS27a1pXPxU.jpg",
           "Gender": 1
         },
@@ -31780,6 +33734,7 @@ var data = {
           "ID": 1533,
           "FullName": "Andie MacDowell",
           "Amount": 2,
+          "Minutes": 218,
           "Poster": "/akeheO4i3cR1HpSU8yu9HrLcsKm.jpg",
           "Gender": 1
         },
@@ -31787,6 +33742,7 @@ var data = {
           "ID": 43366,
           "FullName": "Ann Dowd",
           "Amount": 2,
+          "Minutes": 201,
           "Poster": "/k7c47mgCFos0ng1Sr1VF874MaqA.jpg",
           "Gender": 1
         },
@@ -31794,20 +33750,15 @@ var data = {
           "ID": 1772,
           "FullName": "Anna Faris",
           "Amount": 2,
+          "Minutes": 174,
           "Poster": "/lFJKV8m051as4lWNF8NjiXvbLvR.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 84223,
-          "FullName": "Anna Kendrick",
-          "Amount": 2,
-          "Poster": "/cyGjHMJO7C6kQTq36n9hkLThY4G.jpg",
           "Gender": 1
         },
         {
           "ID": 8256,
           "FullName": "Anne Heche",
           "Amount": 2,
+          "Minutes": 198,
           "Poster": "/8ypIeRAZ1qnHAKESUqSwetVKEXy.jpg",
           "Gender": 1
         },
@@ -31815,6 +33766,7 @@ var data = {
           "ID": 121575,
           "FullName": "Ashlynn Yennie",
           "Amount": 2,
+          "Minutes": 182,
           "Poster": "/8GIgCCdqxFfSeNEagpvKPBjSWDm.jpg",
           "Gender": 1
         },
@@ -31822,6 +33774,7 @@ var data = {
           "ID": 2405,
           "FullName": "Audrey Tautou",
           "Amount": 2,
+          "Minutes": 219,
           "Poster": "/moh0My0K3BP4d6AZx7jkPKqRORT.jpg",
           "Gender": 1
         },
@@ -31829,6 +33782,7 @@ var data = {
           "ID": 1625558,
           "FullName": "Awkwafina",
           "Amount": 2,
+          "Minutes": 199,
           "Poster": "/l5AKkg3H1QhMuXmTTmq1EyjyiRb.jpg",
           "Gender": 1
         },
@@ -31836,6 +33790,7 @@ var data = {
           "ID": 4154,
           "FullName": "Brenda Blethyn",
           "Amount": 2,
+          "Minutes": 255,
           "Poster": "/mxENo8tEvN0998PrNidYkN4wGGO.jpg",
           "Gender": 1
         },
@@ -31843,6 +33798,7 @@ var data = {
           "ID": 2233,
           "FullName": "Bridget Fonda",
           "Amount": 2,
+          "Minutes": 228,
           "Poster": "/huy47Gj6dB9mcicgo7bMqpzPmdy.jpg",
           "Gender": 1
         },
@@ -31850,6 +33806,7 @@ var data = {
           "ID": 18354,
           "FullName": "Bridget Moynahan",
           "Amount": 2,
+          "Minutes": 237,
           "Poster": "/5y5CRPu9aw5Wx3EwyX1A2RpuLQP.jpg",
           "Gender": 1
         },
@@ -31857,6 +33814,7 @@ var data = {
           "ID": 60073,
           "FullName": "Brie Larson",
           "Amount": 2,
+          "Minutes": 214,
           "Poster": "/iqZ5uKJWbwSITCK4CqdlUHZTnXD.jpg",
           "Gender": 1
         },
@@ -31864,6 +33822,7 @@ var data = {
           "ID": 328,
           "FullName": "Brittany Murphy",
           "Amount": 2,
+          "Minutes": 198,
           "Poster": "/uLOrqcSk2h5o3ekNfcuGFDzN13W.jpg",
           "Gender": 1
         },
@@ -31871,6 +33830,7 @@ var data = {
           "ID": 29221,
           "FullName": "Brittany Snow",
           "Amount": 2,
+          "Minutes": 199,
           "Poster": "/uSQW2E7caOaXHBbvL2jdzGbwDwH.jpg",
           "Gender": 1
         },
@@ -31878,6 +33838,7 @@ var data = {
           "ID": 18997,
           "FullName": "Bryce Dallas Howard",
           "Amount": 2,
+          "Minutes": 270,
           "Poster": "/qQX1rhQaJ1G8eMG2RknFKiXfNRc.jpg",
           "Gender": 1
         },
@@ -31885,6 +33846,7 @@ var data = {
           "ID": 1922,
           "FullName": "Catherine Zeta-Jones",
           "Amount": 2,
+          "Minutes": 283,
           "Poster": "/iwNMWV5OJjgZ2pPsNWzOKxZwmV7.jpg",
           "Gender": 1
         },
@@ -31892,6 +33854,7 @@ var data = {
           "ID": 6194,
           "FullName": "Claire Danes",
           "Amount": 2,
+          "Minutes": 223,
           "Poster": "/ustSV3r790QyskweHVC2XqDWs7U.jpg",
           "Gender": 1
         },
@@ -31899,6 +33862,7 @@ var data = {
           "ID": 20387,
           "FullName": "Clea DuVall",
           "Amount": 2,
+          "Minutes": 212,
           "Poster": "/yueygn1Lmmni7EaMQD9LslexDlu.jpg",
           "Gender": 1
         },
@@ -31906,6 +33870,7 @@ var data = {
           "ID": 935,
           "FullName": "Connie Nielsen",
           "Amount": 2,
+          "Minutes": 251,
           "Poster": "/lvQypTfeH2Gn2PTbzq6XkT2PLmn.jpg",
           "Gender": 1
         },
@@ -31913,6 +33878,7 @@ var data = {
           "ID": 9824,
           "FullName": "Diane Kruger",
           "Amount": 2,
+          "Minutes": 255,
           "Poster": "/o5gVowcjVw4ThYi0L3883Y4X7kH.jpg",
           "Gender": 1
         },
@@ -31920,6 +33886,7 @@ var data = {
           "ID": 2882,
           "FullName": "Diane Lane",
           "Amount": 2,
+          "Minutes": 231,
           "Poster": "/pNNIs1bCQ2qFL9rekkV7utunUfl.jpg",
           "Gender": 1
         },
@@ -31927,6 +33894,7 @@ var data = {
           "ID": 69597,
           "FullName": "Drew Barrymore",
           "Amount": 2,
+          "Minutes": 213,
           "Poster": "/9xMu2GLC5otUcC11sEWC5aEAERQ.jpg",
           "Gender": 1
         },
@@ -31934,6 +33902,7 @@ var data = {
           "ID": 550843,
           "FullName": "Elizabeth Olsen",
           "Amount": 2,
+          "Minutes": 201,
           "Poster": "/wIU675y4dofIDVuhaNWPizJNtep.jpg",
           "Gender": 1
         },
@@ -31941,6 +33910,7 @@ var data = {
           "ID": 20,
           "FullName": "Elizabeth Perkins",
           "Amount": 2,
+          "Minutes": 193,
           "Poster": "/vTWYllD9V76rgv9XAbtkkjjeunG.jpg",
           "Gender": 1
         },
@@ -31948,6 +33918,7 @@ var data = {
           "ID": 18050,
           "FullName": "Elle Fanning",
           "Amount": 2,
+          "Minutes": 220,
           "Poster": "/e8CUyxQSE99y5IOfzSLtHC0B0Ch.jpg",
           "Gender": 1
         },
@@ -31955,6 +33926,7 @@ var data = {
           "ID": 14,
           "FullName": "Ellen DeGeneres",
           "Amount": 2,
+          "Minutes": 197,
           "Poster": "/z8IEEid4z63CBlJtxrTKEfsW7NA.jpg",
           "Gender": 1
         },
@@ -31962,6 +33934,7 @@ var data = {
           "ID": 70456,
           "FullName": "Emily Browning",
           "Amount": 2,
+          "Minutes": 234,
           "Poster": "/silK3Pdugbf1YOtIdXev1eZxzvF.jpg",
           "Gender": 1
         },
@@ -31969,6 +33942,7 @@ var data = {
           "ID": 4885,
           "FullName": "Emmanuelle B\u00E9art",
           "Amount": 2,
+          "Minutes": 348,
           "Poster": "/imQFccO9AZtzjeyqkHh9YMtGKOC.jpg",
           "Gender": 1
         },
@@ -31976,6 +33950,7 @@ var data = {
           "ID": 8170,
           "FullName": "Eva Mendes",
           "Amount": 2,
+          "Minutes": 222,
           "Poster": "/uj6IaUDEUB7swj46dPjHAi3TEk4.jpg",
           "Gender": 1
         },
@@ -31983,6 +33958,7 @@ var data = {
           "ID": 76792,
           "FullName": "Freida Pinto",
           "Amount": 2,
+          "Minutes": 225,
           "Poster": "/fhUEcLvlsy13hHO5xJb0fV3AiYw.jpg",
           "Gender": 1
         },
@@ -31990,6 +33966,7 @@ var data = {
           "ID": 1144473,
           "FullName": "Garance Marillier",
           "Amount": 2,
+          "Minutes": 207,
           "Poster": "/oGF1oAa4myOc6QUCA1AgvWA1CGx.jpg",
           "Gender": 1
         },
@@ -31997,6 +33974,7 @@ var data = {
           "ID": 12214,
           "FullName": "Gillian Anderson",
           "Amount": 2,
+          "Minutes": 204,
           "Poster": "/gsxQC7yJT4vqnUqAN9bpsysxwO2.jpg",
           "Gender": 1
         },
@@ -32004,6 +33982,7 @@ var data = {
           "ID": 4587,
           "FullName": "Halle Berry",
           "Amount": 2,
+          "Minutes": 246,
           "Poster": "/9aLI0LSi7cbieyiskOdsBaneKmp.jpg",
           "Gender": 1
         },
@@ -32011,6 +33990,7 @@ var data = {
           "ID": 9994,
           "FullName": "Helen Hunt",
           "Amount": 2,
+          "Minutes": 256,
           "Poster": "/aJVortGgkGkvK0DMiY0I7Fv77Qb.jpg",
           "Gender": 1
         },
@@ -32018,6 +33998,7 @@ var data = {
           "ID": 588760,
           "FullName": "Helena An\u00FD\u017Eov\u00E1",
           "Amount": 2,
+          "Minutes": 149,
           "Poster": "/kogI1voFJwGBxsyBe4QCxbIP9fX.jpg",
           "Gender": 1
         },
@@ -32025,6 +34006,7 @@ var data = {
           "ID": 1283,
           "FullName": "Helena Bonham Carter",
           "Amount": 2,
+          "Minutes": 257,
           "Poster": "/DDeITcCpnBd0CkAIRPhggy9bt5.jpg",
           "Gender": 1
         },
@@ -32032,6 +34014,7 @@ var data = {
           "ID": 17882,
           "FullName": "Isabelle Huppert",
           "Amount": 2,
+          "Minutes": 242,
           "Poster": "/wGG9v1Uci3sfrbjt0bRXkLrTqjY.jpg",
           "Gender": 1
         },
@@ -32039,6 +34022,7 @@ var data = {
           "ID": 20089,
           "FullName": "Jena Malone",
           "Amount": 2,
+          "Minutes": 232,
           "Poster": "/1qmkanVCFr3ZaXcxSXVDO8andb0.jpg",
           "Gender": 1
         },
@@ -32046,6 +34030,7 @@ var data = {
           "ID": 4491,
           "FullName": "Jennifer Aniston",
           "Amount": 2,
+          "Minutes": 194,
           "Poster": "/qPXG41rYdUGldZhMhuZFvmpZKRp.jpg",
           "Gender": 1
         },
@@ -32053,13 +34038,23 @@ var data = {
           "ID": 9278,
           "FullName": "Jennifer Garner",
           "Amount": 2,
+          "Minutes": 179,
           "Poster": "/ftymEXqdTnXfaI6dGd9qrJoFOSE.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 7906,
+          "FullName": "Jennifer Tilly",
+          "Amount": 2,
+          "Minutes": 225,
+          "Poster": "/jrWj0LKOLGyn8BjxCPfwxX3BXC4.jpg",
           "Gender": 1
         },
         {
           "ID": 10860,
           "FullName": "Jessica Biel",
           "Amount": 2,
+          "Minutes": 194,
           "Poster": "/pinWUmBolfwxEjOT48SZy4QPEyp.jpg",
           "Gender": 1
         },
@@ -32067,20 +34062,15 @@ var data = {
           "ID": 83002,
           "FullName": "Jessica Chastain",
           "Amount": 2,
+          "Minutes": 298,
           "Poster": "/vOFrDeYXILnj747dOleaNh4jK3l.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 1498158,
-          "FullName": "Jessie Buckley",
-          "Amount": 2,
-          "Poster": "/jKhDQOMVQ1JP4gaUXCQg75gvsrm.jpg",
           "Gender": 1
         },
         {
           "ID": 3234,
           "FullName": "Joan Cusack",
           "Amount": 2,
+          "Minutes": 235,
           "Poster": "/59UIeHZFYrKyP20lXqijtfTXglO.jpg",
           "Gender": 1
         },
@@ -32088,6 +34078,7 @@ var data = {
           "ID": 12041,
           "FullName": "Julia Stiles",
           "Amount": 2,
+          "Minutes": 228,
           "Poster": "/okcblz7pqeapHorLvxtxd3iNNic.jpg",
           "Gender": 1
         },
@@ -32095,6 +34086,7 @@ var data = {
           "ID": 5823,
           "FullName": "Julie Andrews",
           "Amount": 2,
+          "Minutes": 313,
           "Poster": "/zYa6ApzrF688x7ckcc2q2Kuchbu.jpg",
           "Gender": 1
         },
@@ -32102,6 +34094,7 @@ var data = {
           "ID": 481337,
           "FullName": "Kaitlyn Dever",
           "Amount": 2,
+          "Minutes": 198,
           "Poster": "/apSHuWDHvFvPkN5zicG0li9nmmC.jpg",
           "Gender": 1
         },
@@ -32109,6 +34102,7 @@ var data = {
           "ID": 650,
           "FullName": "Karen Allen",
           "Amount": 2,
+          "Minutes": 237,
           "Poster": "/eJszpndpRzrXbSlz7RUlApoTykn.jpg",
           "Gender": 1
         },
@@ -32116,6 +34110,7 @@ var data = {
           "ID": 8534,
           "FullName": "Kathy Bates",
           "Amount": 2,
+          "Minutes": 214,
           "Poster": "/qZRTzTjV4OC1Ii9a0n8QBS9zMOd.jpg",
           "Gender": 1
         },
@@ -32123,6 +34118,7 @@ var data = {
           "ID": 5470,
           "FullName": "Kristin Scott Thomas",
           "Amount": 2,
+          "Minutes": 254,
           "Poster": "/kFy1U9bTI2yIA0LyrgsqU5isFl0.jpg",
           "Gender": 1
         },
@@ -32130,6 +34126,7 @@ var data = {
           "ID": 4784,
           "FullName": "Laura Dern",
           "Amount": 2,
+          "Minutes": 264,
           "Poster": "/gB9PnGEvxKg33OSlcqptQwTBwPE.jpg",
           "Gender": 1
         },
@@ -32137,6 +34134,7 @@ var data = {
           "ID": 350,
           "FullName": "Laura Linney",
           "Amount": 2,
+          "Minutes": 233,
           "Poster": "/ztQXGmNLzhDV22rAvcXzCG4d0cy.jpg",
           "Gender": 1
         },
@@ -32144,6 +34142,7 @@ var data = {
           "ID": 54470,
           "FullName": "Lauren Ambrose",
           "Amount": 2,
+          "Minutes": 202,
           "Poster": "/67oLiPwWKhy0zqdfm6NX9cXD5is.jpg",
           "Gender": 1
         },
@@ -32151,6 +34150,7 @@ var data = {
           "ID": 121529,
           "FullName": "L\u00E9a Seydoux",
           "Amount": 2,
+          "Minutes": 343,
           "Poster": "/bAIvEBxYfENqgqbxz0Gz5C2Zh2b.jpg",
           "Gender": 1
         },
@@ -32158,6 +34158,7 @@ var data = {
           "ID": 1016168,
           "FullName": "Lily James",
           "Amount": 2,
+          "Minutes": 216,
           "Poster": "/2w8tMEdCxBXB44X05RQDC2Kvbap.jpg",
           "Gender": 1
         },
@@ -32165,6 +34166,7 @@ var data = {
           "ID": 2713,
           "FullName": "Linda Hamilton",
           "Amount": 2,
+          "Minutes": 245,
           "Poster": "/7FNn9Z5xkRS9EFbGL2tpmpph9xV.jpg",
           "Gender": 1
         },
@@ -32172,6 +34174,7 @@ var data = {
           "ID": 49265,
           "FullName": "Lindsay Lohan",
           "Amount": 2,
+          "Minutes": 225,
           "Poster": "/8TdcVkiHgPp2gIKBPQ42OVa6l0B.jpg",
           "Gender": 1
         },
@@ -32179,6 +34182,7 @@ var data = {
           "ID": 14406,
           "FullName": "Lisa Kudrow",
           "Amount": 2,
+          "Minutes": 209,
           "Poster": "/ziatnwJRiBJIcc8jlk6xoClhfOy.jpg",
           "Gender": 1
         },
@@ -32186,6 +34190,7 @@ var data = {
           "ID": 11916,
           "FullName": "Liv Ullmann",
           "Amount": 2,
+          "Minutes": 176,
           "Poster": "/sF0UHcLrpTsg0eaSaIYee2IxSBB.jpg",
           "Gender": 1
         },
@@ -32193,6 +34198,7 @@ var data = {
           "ID": 51988,
           "FullName": "Lizzy Caplan",
           "Amount": 2,
+          "Minutes": 182,
           "Poster": "/xOLXlzpSJExsBlKroCyCNGhzQEU.jpg",
           "Gender": 1
         },
@@ -32200,6 +34206,7 @@ var data = {
           "ID": 140,
           "FullName": "Lucy Liu",
           "Amount": 2,
+          "Minutes": 209,
           "Poster": "/dW6JDvYhXWW87P04W2SfNpiAwCO.jpg",
           "Gender": 1
         },
@@ -32207,6 +34214,7 @@ var data = {
           "ID": 10978,
           "FullName": "Maggie Smith",
           "Amount": 2,
+          "Minutes": 262,
           "Poster": "/rbqNuVbXRvyZoYGeARXfoJgmAQr.jpg",
           "Gender": 1
         },
@@ -32214,6 +34222,7 @@ var data = {
           "ID": 1181313,
           "FullName": "Maisie Williams",
           "Amount": 2,
+          "Minutes": 151,
           "Poster": "/5RjD4dDpRDAhalFtvcUj7zdLWYB.jpg",
           "Gender": 1
         },
@@ -32221,6 +34230,7 @@ var data = {
           "ID": 49,
           "FullName": "Maria Bello",
           "Amount": 2,
+          "Minutes": 187,
           "Poster": "/it1f5mxiGIWO0DzTBfwtLTjphZb.jpg",
           "Gender": 1
         },
@@ -32228,6 +34238,7 @@ var data = {
           "ID": 3141,
           "FullName": "Marisa Tomei",
           "Amount": 2,
+          "Minutes": 200,
           "Poster": "/5w6qM8FWsl5SutKSpx6Va64eCTE.jpg",
           "Gender": 1
         },
@@ -32235,6 +34246,7 @@ var data = {
           "ID": 17628,
           "FullName": "Mary Elizabeth Winstead",
           "Amount": 2,
+          "Minutes": 197,
           "Poster": "/9SqooMmR1knkQGc5I8gRMRaGg46.jpg",
           "Gender": 1
         },
@@ -32242,6 +34254,7 @@ var data = {
           "ID": 5064,
           "FullName": "Meryl Streep",
           "Amount": 2,
+          "Minutes": 217,
           "Poster": "/emAAzyK1rJ6aiMi0wsWYp51EC3h.jpg",
           "Gender": 1
         },
@@ -32249,6 +34262,7 @@ var data = {
           "ID": 17647,
           "FullName": "Michelle Rodriguez",
           "Amount": 2,
+          "Minutes": 206,
           "Poster": "/xSvkVrLz6xas1mCeOR9i4QtmhnQ.jpg",
           "Gender": 1
         },
@@ -32256,6 +34270,7 @@ var data = {
           "ID": 1812,
           "FullName": "Michelle Williams",
           "Amount": 2,
+          "Minutes": 272,
           "Poster": "/jn3BVMVbIptz2gc6Fhxo1qwJVvW.jpg",
           "Gender": 1
         },
@@ -32263,6 +34278,7 @@ var data = {
           "ID": 1620,
           "FullName": "Michelle Yeoh",
           "Amount": 2,
+          "Minutes": 239,
           "Poster": "/nrbHNzSMydpWK9um5VqWIFJihB5.jpg",
           "Gender": 1
         },
@@ -32270,6 +34286,7 @@ var data = {
           "ID": 63,
           "FullName": "Milla Jovovich",
           "Amount": 2,
+          "Minutes": 226,
           "Poster": "/sDES3xDYZoDwsDxE4dd3IGMiQSn.jpg",
           "Gender": 1
         },
@@ -32277,6 +34294,7 @@ var data = {
           "ID": 9206,
           "FullName": "Neve Campbell",
           "Amount": 2,
+          "Minutes": 232,
           "Poster": "/cOSUgtHhsvmxrpjBiLbLQ4bbHZa.jpg",
           "Gender": 1
         },
@@ -32284,6 +34302,7 @@ var data = {
           "ID": 1385600,
           "FullName": "No\u00E9mie Merlant",
           "Amount": 2,
+          "Minutes": 279,
           "Poster": "/8RSXb9RPD5nKbmEa3FciGXdrmBX.jpg",
           "Gender": 1
         },
@@ -32291,6 +34310,7 @@ var data = {
           "ID": 1173984,
           "FullName": "Olivia Cooke",
           "Amount": 2,
+          "Minutes": 232,
           "Poster": "/4Sm50Z6hmaoVw9a33OoyF33OuVv.jpg",
           "Gender": 1
         },
@@ -32298,6 +34318,7 @@ var data = {
           "ID": 14699,
           "FullName": "Pamela Reed",
           "Amount": 2,
+          "Minutes": 200,
           "Poster": "/xnl8fp434SpB2e1iPw7NpEcYHNd.jpg",
           "Gender": 1
         },
@@ -32305,6 +34326,7 @@ var data = {
           "ID": 955,
           "FullName": "Pen\u00E9lope Cruz",
           "Amount": 2,
+          "Minutes": 260,
           "Poster": "/2Lbc8QXgHik1D1saPqQ5qEWwUEh.jpg",
           "Gender": 1
         },
@@ -32312,6 +34334,7 @@ var data = {
           "ID": 114470,
           "FullName": "Polly Draper",
           "Amount": 2,
+          "Minutes": 172,
           "Poster": "/drwT4RU1klEZ5xD0V7DP9SCMyS9.jpg",
           "Gender": 1
         },
@@ -32319,6 +34342,7 @@ var data = {
           "ID": 1976054,
           "FullName": "Rachel Sennott",
           "Amount": 2,
+          "Minutes": 169,
           "Poster": "/fI9Fu7s5KHkdcYWQMAZW4PMY7h2.jpg",
           "Gender": 1
         },
@@ -32326,13 +34350,23 @@ var data = {
           "ID": 9137,
           "FullName": "Ren\u00E9e Zellweger",
           "Amount": 2,
+          "Minutes": 205,
           "Poster": "/gXk1rYzxRA0KRprahPtlBK21hlA.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 108916,
+          "FullName": "Rooney Mara",
+          "Amount": 2,
+          "Minutes": 222,
+          "Poster": "/ixcGTDGHtwaQnNLpLS1S7V01DUJ.jpg",
           "Gender": 1
         },
         {
           "ID": 10882,
           "FullName": "Rosamund Pike",
           "Amount": 2,
+          "Minutes": 261,
           "Poster": "/8ObNklHDi2hjdz0ayzJFB9jtqzm.jpg",
           "Gender": 1
         },
@@ -32340,6 +34374,7 @@ var data = {
           "ID": 9827,
           "FullName": "Rose Byrne",
           "Amount": 2,
+          "Minutes": 220,
           "Poster": "/4oQWCLK7gd6RNKF0WJipJo7TyFP.jpg",
           "Gender": 1
         },
@@ -32347,6 +34382,7 @@ var data = {
           "ID": 35,
           "FullName": "Sally Field",
           "Amount": 2,
+          "Minutes": 209,
           "Poster": "/5fBK36MdmdwQQMuP0W70rXADXih.jpg",
           "Gender": 1
         },
@@ -32354,6 +34390,7 @@ var data = {
           "ID": 2206,
           "FullName": "Samantha Morton",
           "Amount": 2,
+          "Minutes": 250,
           "Poster": "/v84b7MENeD9rwX6xTD7fSdhSOC9.jpg",
           "Gender": 1
         },
@@ -32361,6 +34398,7 @@ var data = {
           "ID": 25540,
           "FullName": "Sandra Oh",
           "Amount": 2,
+          "Minutes": 203,
           "Poster": "/zU8vjebHxcP60ESEL5Ok68KWZvj.jpg",
           "Gender": 1
         },
@@ -32368,6 +34406,7 @@ var data = {
           "ID": 11863,
           "FullName": "Sarah Michelle Gellar",
           "Amount": 2,
+          "Minutes": 199,
           "Poster": "/grlhyolOpwZAnpeFvuTC3SQAUij.jpg",
           "Gender": 1
         },
@@ -32375,13 +34414,31 @@ var data = {
           "ID": 2138,
           "FullName": "Shawnee Smith",
           "Amount": 2,
+          "Minutes": 201,
           "Poster": "/s2Ouz4b7xqDH72aU48TSW5zS40v.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 10409,
+          "FullName": "Shelley Duvall",
+          "Amount": 2,
+          "Minutes": 268,
+          "Poster": "/y1L2a0GNcYmE6rI6kuiTxQExns7.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 5606,
+          "FullName": "Sissy Spacek",
+          "Amount": 2,
+          "Minutes": 222,
+          "Poster": "/wY1d3ek9t4G3bAF04ZrDhcYx5OD.jpg",
           "Gender": 1
         },
         {
           "ID": 1957,
           "FullName": "Sophie Marceau",
           "Amount": 2,
+          "Minutes": 305,
           "Poster": "/b56TRCVVMZ2LMZqzXg0FxeGMd0u.jpg",
           "Gender": 1
         },
@@ -32389,19 +34446,21 @@ var data = {
           "ID": 4939,
           "FullName": "T\u00E9a Leoni",
           "Amount": 2,
+          "Minutes": 212,
           "Poster": "/1Jb6J8Q6zW8IAWMjrCd3c0NIlKL.jpg",
           "Gender": 1
         }
       ]
     },
     "maincast_2": {
-      "Total": 1696,
-      "Unique": 1062,
+      "Total": 1713,
+      "Unique": 1076,
       "PeopleData": [
         {
           "ID": 2963,
           "FullName": "Nicolas Cage",
           "Amount": 12,
+          "Minutes": 1431,
           "Poster": "/ar33qcWbEgREn07ZpXv5Pbj8hbM.jpg",
           "Gender": 2
         },
@@ -32409,6 +34468,7 @@ var data = {
           "ID": 1892,
           "FullName": "Matt Damon",
           "Amount": 11,
+          "Minutes": 1443,
           "Poster": "/ehwS5WvU5yL5vKcUEqbzGK8Fh8B.jpg",
           "Gender": 2
         },
@@ -32416,6 +34476,7 @@ var data = {
           "ID": 2231,
           "FullName": "Samuel L. Jackson",
           "Amount": 11,
+          "Minutes": 1361,
           "Poster": "/AiAYAqwpM5xmiFrAIeQvUXDCVvo.jpg",
           "Gender": 2
         },
@@ -32423,6 +34484,7 @@ var data = {
           "ID": 6193,
           "FullName": "Leonardo DiCaprio",
           "Amount": 10,
+          "Minutes": 1547,
           "Poster": "/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg",
           "Gender": 2
         },
@@ -32430,6 +34492,7 @@ var data = {
           "ID": 287,
           "FullName": "Brad Pitt",
           "Amount": 9,
+          "Minutes": 1144,
           "Poster": "/ajNaPmXVVMJFg9GWmu6MJzTaXdV.jpg",
           "Gender": 2
         },
@@ -32437,6 +34500,7 @@ var data = {
           "ID": 8635,
           "FullName": "Buster Keaton",
           "Amount": 9,
+          "Minutes": 250,
           "Poster": "/iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
           "Gender": 2
         },
@@ -32444,6 +34508,7 @@ var data = {
           "ID": 3,
           "FullName": "Harrison Ford",
           "Amount": 9,
+          "Minutes": 1092,
           "Poster": "/zVnHagUvXkR2StdOtquEwsiwSVt.jpg",
           "Gender": 2
         },
@@ -32451,6 +34516,7 @@ var data = {
           "ID": 3895,
           "FullName": "Michael Caine",
           "Amount": 9,
+          "Minutes": 1101,
           "Poster": "/bVZRMlpjTAO2pJK6v90buFgVbSW.jpg",
           "Gender": 2
         },
@@ -32458,6 +34524,7 @@ var data = {
           "ID": 192,
           "FullName": "Morgan Freeman",
           "Amount": 9,
+          "Minutes": 1099,
           "Poster": "/jPsLqiYGSofU4s6BjrxnefMfabb.jpg",
           "Gender": 2
         },
@@ -32465,6 +34532,7 @@ var data = {
           "ID": 500,
           "FullName": "Tom Cruise",
           "Amount": 9,
+          "Minutes": 1167,
           "Poster": "/eOh4ubpOm2Igdg0QH2ghj0mFtC.jpg",
           "Gender": 2
         },
@@ -32472,6 +34540,7 @@ var data = {
           "ID": 31,
           "FullName": "Tom Hanks",
           "Amount": 9,
+          "Minutes": 1154,
           "Poster": "/eKF1sGJRrZJbfBG1KirPt1cfNd3.jpg",
           "Gender": 2
         },
@@ -32479,6 +34548,7 @@ var data = {
           "ID": 2888,
           "FullName": "Will Smith",
           "Amount": 9,
+          "Minutes": 1045,
           "Poster": "/1QqaRZ8neYlqLx7ODZC4as47wUV.jpg",
           "Gender": 2
         },
@@ -32486,6 +34556,7 @@ var data = {
           "ID": 1100,
           "FullName": "Arnold Schwarzenegger",
           "Amount": 8,
+          "Minutes": 928,
           "Poster": "/z6IbTtI2FWAVZE6b1V4mqEHjwO6.jpg",
           "Gender": 2
         },
@@ -32493,6 +34564,7 @@ var data = {
           "ID": 62,
           "FullName": "Bruce Willis",
           "Amount": 8,
+          "Minutes": 1020,
           "Poster": "/w3aXr1e7gQCn8MSp1vW4sXHn99P.jpg",
           "Gender": 2
         },
@@ -32500,6 +34572,7 @@ var data = {
           "ID": 3894,
           "FullName": "Christian Bale",
           "Amount": 8,
+          "Minutes": 1029,
           "Poster": "/3qx2QFUbG6t6IlzR0F9k3Z6Yhf7.jpg",
           "Gender": 2
         },
@@ -32507,6 +34580,7 @@ var data = {
           "ID": 10980,
           "FullName": "Daniel Radcliffe",
           "Amount": 8,
+          "Minutes": 1178,
           "Poster": "/iPg0J9UzAlPj1fLEJNllpW9IhGe.jpg",
           "Gender": 2
         },
@@ -32514,6 +34588,7 @@ var data = {
           "ID": 380,
           "FullName": "Robert De Niro",
           "Amount": 8,
+          "Minutes": 1050,
           "Poster": "/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg",
           "Gender": 2
         },
@@ -32521,6 +34596,7 @@ var data = {
           "ID": 10989,
           "FullName": "Rupert Grint",
           "Amount": 8,
+          "Minutes": 1178,
           "Poster": "/q2KZZ0ltTEl7Sf8volNFV1JDEP4.jpg",
           "Gender": 2
         },
@@ -32528,6 +34604,7 @@ var data = {
           "ID": 6384,
           "FullName": "Keanu Reeves",
           "Amount": 7,
+          "Minutes": 800,
           "Poster": "/4D0PpNI0kmP58hgrwGC3wCjxhnm.jpg",
           "Gender": 2
         },
@@ -32535,6 +34612,7 @@ var data = {
           "ID": 4724,
           "FullName": "Kevin Bacon",
           "Amount": 7,
+          "Minutes": 786,
           "Poster": "/rjX2Oz3tCZMfSwOoIAyEhdtXnTE.jpg",
           "Gender": 2
         },
@@ -32542,6 +34620,7 @@ var data = {
           "ID": 1979,
           "FullName": "Kevin Spacey",
           "Amount": 7,
+          "Minutes": 863,
           "Poster": "/nPrUZDEbGQe6jwpVbHKJCXsMd7r.jpg",
           "Gender": 2
         },
@@ -32549,6 +34628,7 @@ var data = {
           "ID": 517,
           "FullName": "Pierce Brosnan",
           "Amount": 7,
+          "Minutes": 826,
           "Poster": "/dzXVwwJLPwiZeXOnf7YxorqVEEM.jpg",
           "Gender": 2
         },
@@ -32556,6 +34636,7 @@ var data = {
           "ID": 2157,
           "FullName": "Robin Williams",
           "Amount": 7,
+          "Minutes": 839,
           "Poster": "/3vypmub75rLItlC51uJUurNYkW0.jpg",
           "Gender": 2
         },
@@ -32563,6 +34644,7 @@ var data = {
           "ID": 8784,
           "FullName": "Daniel Craig",
           "Amount": 6,
+          "Minutes": 779,
           "Poster": "/iFerDZUmC5Fu26i4qI8xnUVEHc7.jpg",
           "Gender": 2
         },
@@ -32570,6 +34652,7 @@ var data = {
           "ID": 819,
           "FullName": "Edward Norton",
           "Amount": 6,
+          "Minutes": 764,
           "Poster": "/8nytsqL59SFJTVYVrN72k6qkGgJ.jpg",
           "Gender": 2
         },
@@ -32577,6 +34660,7 @@ var data = {
           "ID": 1461,
           "FullName": "George Clooney",
           "Amount": 6,
+          "Minutes": 682,
           "Poster": "/qCShMw6NW9dWcmCQrCl4tLNQwiC.jpg",
           "Gender": 2
         },
@@ -32584,6 +34668,7 @@ var data = {
           "ID": 3291,
           "FullName": "Hugh Grant",
           "Amount": 6,
+          "Minutes": 682,
           "Poster": "/piTC1mCFr6ZCS3SdaN5qF9Vnqu7.jpg",
           "Gender": 2
         },
@@ -32591,6 +34676,7 @@ var data = {
           "ID": 73421,
           "FullName": "Joaquin Phoenix",
           "Amount": 6,
+          "Minutes": 752,
           "Poster": "/ls72wfQl8AhRVFeBnotmnAdy3JR.jpg",
           "Gender": 2
         },
@@ -32598,6 +34684,7 @@ var data = {
           "ID": 85,
           "FullName": "Johnny Depp",
           "Amount": 6,
+          "Minutes": 694,
           "Poster": "/wcI594cwM4ArPwvRd2IU0Z0yLuh.jpg",
           "Gender": 2
         },
@@ -32605,6 +34692,7 @@ var data = {
           "ID": 30614,
           "FullName": "Ryan Gosling",
           "Amount": 6,
+          "Minutes": 677,
           "Poster": "/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg",
           "Gender": 2
         },
@@ -32612,6 +34700,7 @@ var data = {
           "ID": 2524,
           "FullName": "Tom Hardy",
           "Amount": 6,
+          "Minutes": 724,
           "Poster": "/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg",
           "Gender": 2
         },
@@ -32619,6 +34708,7 @@ var data = {
           "ID": 110,
           "FullName": "Viggo Mortensen",
           "Amount": 6,
+          "Minutes": 915,
           "Poster": "/vH5gVSpHAMhDaFWfh0Q7BG61O1y.jpg",
           "Gender": 2
         },
@@ -32626,6 +34716,7 @@ var data = {
           "ID": 2282,
           "FullName": "Ben Kingsley",
           "Amount": 5,
+          "Minutes": 658,
           "Poster": "/vQtBqpF2HDdzbfXHDzR4u37i1Ac.jpg",
           "Gender": 2
         },
@@ -32633,6 +34724,7 @@ var data = {
           "ID": 21594,
           "FullName": "Chris Klein",
           "Amount": 5,
+          "Minutes": 506,
           "Poster": "/56kCtPVfvjm5IRPa2GyaQHTPIOy.jpg",
           "Gender": 2
         },
@@ -32640,6 +34732,7 @@ var data = {
           "ID": 1062,
           "FullName": "Christopher Lloyd",
           "Amount": 5,
+          "Minutes": 524,
           "Poster": "/nxVjpyb3UrfbPZnEyDNlQVlFAs5.jpg",
           "Gender": 2
         },
@@ -32647,6 +34740,7 @@ var data = {
           "ID": 228,
           "FullName": "Ed Harris",
           "Amount": 5,
+          "Minutes": 622,
           "Poster": "/aAu9lJ02jlg0GAvv2vVnpJSDV1Y.jpg",
           "Gender": 2
         },
@@ -32654,6 +34748,7 @@ var data = {
           "ID": 109,
           "FullName": "Elijah Wood",
           "Amount": 5,
+          "Minutes": 771,
           "Poster": "/7UKRbJBNG7mxBl2QQc5XsAh6F8B.jpg",
           "Gender": 2
         },
@@ -32661,6 +34756,7 @@ var data = {
           "ID": 64,
           "FullName": "Gary Oldman",
           "Amount": 5,
+          "Minutes": 594,
           "Poster": "/2v9FVVBUrrkW2m3QOcYkuhq9A6o.jpg",
           "Gender": 2
         },
@@ -32668,6 +34764,7 @@ var data = {
           "ID": 1037,
           "FullName": "Harvey Keitel",
           "Amount": 5,
+          "Minutes": 570,
           "Poster": "/7P30hza1neYWW3r7rSQOC736K2Z.jpg",
           "Gender": 2
         },
@@ -32675,6 +34772,7 @@ var data = {
           "ID": 27972,
           "FullName": "Josh Hutcherson",
           "Amount": 5,
+          "Minutes": 644,
           "Poster": "/1gFNyijWyHL2Gq4Td74l6QWBYaj.jpg",
           "Gender": 2
         },
@@ -32682,6 +34780,7 @@ var data = {
           "ID": 9642,
           "FullName": "Jude Law",
           "Amount": 5,
+          "Minutes": 657,
           "Poster": "/nBGVXLHsNzlG7ouoh4bDggaGKN1.jpg",
           "Gender": 2
         },
@@ -32689,6 +34788,7 @@ var data = {
           "ID": 10297,
           "FullName": "Matthew McConaughey",
           "Amount": 5,
+          "Minutes": 616,
           "Poster": "/sY2mwpafcwqyYS1sOySu1MENDse.jpg",
           "Gender": 2
         },
@@ -32696,6 +34796,7 @@ var data = {
           "ID": 17288,
           "FullName": "Michael Fassbender",
           "Amount": 5,
+          "Minutes": 595,
           "Poster": "/xvbnUiB2ZBR3QIt595OzNy657Vw.jpg",
           "Gender": 2
         },
@@ -32703,6 +34804,7 @@ var data = {
           "ID": 5293,
           "FullName": "Willem Dafoe",
           "Amount": 5,
+          "Minutes": 652,
           "Poster": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
           "Gender": 2
         },
@@ -32710,6 +34812,7 @@ var data = {
           "ID": 2053,
           "FullName": "Bill Paxton",
           "Amount": 4,
+          "Minutes": 490,
           "Poster": "/aLdNe6mt1cSi2zWlUYRregzfis5.jpg",
           "Gender": 2
         },
@@ -32717,6 +34820,7 @@ var data = {
           "ID": 72466,
           "FullName": "Colin Farrell",
           "Amount": 4,
+          "Minutes": 422,
           "Poster": "/9BWYfxrVyzVpcvP8YT9QT8oQAfS.jpg",
           "Gender": 2
         },
@@ -32724,6 +34828,7 @@ var data = {
           "ID": 1896,
           "FullName": "Don Cheadle",
           "Amount": 4,
+          "Minutes": 421,
           "Poster": "/vPzvP0Qik5yHNf6dF2uqLH9HrX1.jpg",
           "Gender": 2
         },
@@ -32731,6 +34836,7 @@ var data = {
           "ID": 776,
           "FullName": "Eddie Murphy",
           "Amount": 4,
+          "Minutes": 391,
           "Poster": "/gyzOLqFROvWaVew1yWV2UcATv5t.jpg",
           "Gender": 2
         },
@@ -32738,6 +34844,7 @@ var data = {
           "ID": 569,
           "FullName": "Ethan Hawke",
           "Amount": 4,
+          "Minutes": 456,
           "Poster": "/a7rgJl8TYUWAfJuM4fxbLHgD7BL.jpg",
           "Gender": 2
         },
@@ -32745,6 +34852,7 @@ var data = {
           "ID": 3061,
           "FullName": "Ewan McGregor",
           "Amount": 4,
+          "Minutes": 446,
           "Poster": "/q2UDxfwWnmXTB7khOUF3J9puBVP.jpg",
           "Gender": 2
         },
@@ -32752,6 +34860,7 @@ var data = {
           "ID": 1810,
           "FullName": "Heath Ledger",
           "Amount": 4,
+          "Minutes": 515,
           "Poster": "/5Y9HnYYa9jF4NunY9lSgJGjSe8E.jpg",
           "Gender": 2
         },
@@ -32759,6 +34868,7 @@ var data = {
           "ID": 131,
           "FullName": "Jake Gyllenhaal",
           "Amount": 4,
+          "Minutes": 489,
           "Poster": "/btORQRDyGCF0KNweGGYpmQXZK3P.jpg",
           "Gender": 2
         },
@@ -32766,6 +34876,7 @@ var data = {
           "ID": 854,
           "FullName": "James Stewart",
           "Amount": 4,
+          "Minutes": 455,
           "Poster": "/yId5fdDqShOkr0YjCoJbUOZipcX.jpg",
           "Gender": 2
         },
@@ -32773,6 +34884,7 @@ var data = {
           "ID": 4785,
           "FullName": "Jeff Goldblum",
           "Amount": 4,
+          "Minutes": 497,
           "Poster": "/o3PahuK7OmCI0RAQUq38CUBWYZ9.jpg",
           "Gender": 2
         },
@@ -32780,6 +34892,7 @@ var data = {
           "ID": 8930,
           "FullName": "John Cleese",
           "Amount": 4,
+          "Minutes": 406,
           "Poster": "/yonuTnGcc3q9A1w5P7N3dDRdPSh.jpg",
           "Gender": 2
         },
@@ -32787,6 +34900,7 @@ var data = {
           "ID": 8891,
           "FullName": "John Travolta",
           "Amount": 4,
+          "Minutes": 501,
           "Poster": "/9GVufE87MMIrSn0CbJFLudkALdL.jpg",
           "Gender": 2
         },
@@ -32794,6 +34908,7 @@ var data = {
           "ID": 10127,
           "FullName": "Jon Voight",
           "Amount": 4,
+          "Minutes": 488,
           "Poster": "/nuiTfACxhKRE2D2FWbK93m5MgSS.jpg",
           "Gender": 2
         },
@@ -32801,6 +34916,7 @@ var data = {
           "ID": 24045,
           "FullName": "Joseph Gordon-Levitt",
           "Amount": 4,
+          "Minutes": 455,
           "Poster": "/z2FA8js799xqtfiFjBTicFYdfk.jpg",
           "Gender": 2
         },
@@ -32808,6 +34924,7 @@ var data = {
           "ID": 16851,
           "FullName": "Josh Brolin",
           "Amount": 4,
+          "Minutes": 486,
           "Poster": "/sX2etBbIkxRaCsATyw5ZpOVMPTD.jpg",
           "Gender": 2
         },
@@ -32815,6 +34932,7 @@ var data = {
           "ID": 7633,
           "FullName": "Leslie Nielsen",
           "Amount": 4,
+          "Minutes": 342,
           "Poster": "/u5vWl5dw69Nf89f905Qb5JqEVL3.jpg",
           "Gender": 2
         },
@@ -32822,6 +34940,7 @@ var data = {
           "ID": 96066,
           "FullName": "Liam Hemsworth",
           "Amount": 4,
+          "Minutes": 548,
           "Poster": "/7UIm9RoBnlqS1uLlbElAY8urdWD.jpg",
           "Gender": 2
         },
@@ -32829,6 +34948,7 @@ var data = {
           "ID": 3392,
           "FullName": "Michael Douglas",
           "Amount": 4,
+          "Minutes": 481,
           "Poster": "/kVYGPIZowzXLEQfAGUNOqKjAbBb.jpg",
           "Gender": 2
         },
@@ -32836,6 +34956,7 @@ var data = {
           "ID": 12073,
           "FullName": "Mike Myers",
           "Amount": 4,
+          "Minutes": 369,
           "Poster": "/3cS8sGxRI7PKS4qMj44m1aHDX1d.jpg",
           "Gender": 2
         },
@@ -32843,6 +34964,7 @@ var data = {
           "ID": 5469,
           "FullName": "Ralph Fiennes",
           "Amount": 4,
+          "Minutes": 510,
           "Poster": "/tJr9GcmGNHhLVVEH3i7QYbj6hBi.jpg",
           "Gender": 2
         },
@@ -32850,6 +34972,7 @@ var data = {
           "ID": 10730,
           "FullName": "Rowan Atkinson",
           "Amount": 4,
+          "Minutes": 389,
           "Poster": "/wxTgS4SFanVKbnvu9xqOzNJWJwz.jpg",
           "Gender": 2
         },
@@ -32857,6 +34980,7 @@ var data = {
           "ID": 934,
           "FullName": "Russell Crowe",
           "Amount": 4,
+          "Minutes": 566,
           "Poster": "/uxiXuVH4vNWrKlJMVVPG1sxAJFe.jpg",
           "Gender": 2
         },
@@ -32864,6 +34988,7 @@ var data = {
           "ID": 2228,
           "FullName": "Sean Penn",
           "Amount": 4,
+          "Minutes": 480,
           "Poster": "/lpZRNf56TmPsNNWZ7lhcgFM6rBc.jpg",
           "Gender": 2
         },
@@ -32871,6 +34996,7 @@ var data = {
           "ID": 10959,
           "FullName": "Shia LaBeouf",
           "Amount": 4,
+          "Minutes": 461,
           "Poster": "/ljlpaXEManszxIcshYQoqo4au03.jpg",
           "Gender": 2
         },
@@ -32878,6 +35004,7 @@ var data = {
           "ID": 504,
           "FullName": "Tim Robbins",
           "Amount": 4,
+          "Minutes": 512,
           "Poster": "/djLVFETFTvPyVUdrd7aLVykobof.jpg",
           "Gender": 2
         },
@@ -32885,6 +35012,7 @@ var data = {
           "ID": 3905,
           "FullName": "William H. Macy",
           "Amount": 4,
+          "Minutes": 409,
           "Poster": "/hdVEGSrP8qWlJnt0v5vSVcGOjy7.jpg",
           "Gender": 2
         },
@@ -32892,6 +35020,7 @@ var data = {
           "ID": 57755,
           "FullName": "Woody Harrelson",
           "Amount": 4,
+          "Minutes": 468,
           "Poster": "/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg",
           "Gender": 2
         },
@@ -32899,6 +35028,7 @@ var data = {
           "ID": 1158,
           "FullName": "Al Pacino",
           "Amount": 3,
+          "Minutes": 547,
           "Poster": "/2dGBb1fOcNdZjtQToVPFxXjm4ke.jpg",
           "Gender": 2
         },
@@ -32906,6 +35036,7 @@ var data = {
           "ID": 1271,
           "FullName": "Andy Garc\u00EDa",
           "Amount": 3,
+          "Minutes": 308,
           "Poster": "/aRooE4lECWf0YXd2NefeM4Wu4rn.jpg",
           "Gender": 2
         },
@@ -32913,6 +35044,7 @@ var data = {
           "ID": 4173,
           "FullName": "Anthony Hopkins",
           "Amount": 3,
+          "Minutes": 351,
           "Poster": "/iehVUf9U3erYg94hrQMI6KxWXYZ.jpg",
           "Gender": 2
         },
@@ -32920,6 +35052,7 @@ var data = {
           "ID": 3131,
           "FullName": "Antonio Banderas",
           "Amount": 3,
+          "Minutes": 347,
           "Poster": "/5BmWgSeW8Rg6hkisEeqLM5P0OBZ.jpg",
           "Gender": 2
         },
@@ -32927,6 +35060,7 @@ var data = {
           "ID": 880,
           "FullName": "Ben Affleck",
           "Amount": 3,
+          "Minutes": 376,
           "Poster": "/u525jeDOzg9hVdvYfeehTGnw7Aa.jpg",
           "Gender": 2
         },
@@ -32934,6 +35068,7 @@ var data = {
           "ID": 7399,
           "FullName": "Ben Stiller",
           "Amount": 3,
+          "Minutes": 342,
           "Poster": "/scgpxhI05JpdNXXfmpK6z0rPOWN.jpg",
           "Gender": 2
         },
@@ -32941,6 +35076,7 @@ var data = {
           "ID": 1121,
           "FullName": "Benicio del Toro",
           "Amount": 3,
+          "Minutes": 387,
           "Poster": "/s1EVFX10YJZTcvkAAq4AcPniS3t.jpg",
           "Gender": 2
         },
@@ -32948,6 +35084,7 @@ var data = {
           "ID": 1532,
           "FullName": "Bill Murray",
           "Amount": 3,
+          "Minutes": 310,
           "Poster": "/nnCsJc9x3ZiG3AFyiyc3FPehppy.jpg",
           "Gender": 2
         },
@@ -32955,6 +35092,7 @@ var data = {
           "ID": 879,
           "FullName": "Billy Bob Thornton",
           "Amount": 3,
+          "Minutes": 385,
           "Poster": "/uJBFml6efjg34u2jvT5ugVa1cPI.jpg",
           "Gender": 2
         },
@@ -32962,6 +35100,7 @@ var data = {
           "ID": 18269,
           "FullName": "Brendan Fraser",
           "Amount": 3,
+          "Minutes": 336,
           "Poster": "/tFj5PaWWQbb8rHBBhu1EHklznph.jpg",
           "Gender": 2
         },
@@ -32969,6 +35108,7 @@ var data = {
           "ID": 2039,
           "FullName": "Brendan Gleeson",
           "Amount": 3,
+          "Minutes": 335,
           "Poster": "/379TXtBPRrkBDrEBWPQ5v3up7kT.jpg",
           "Gender": 2
         },
@@ -32976,6 +35116,7 @@ var data = {
           "ID": 5294,
           "FullName": "Chiwetel Ejiofor",
           "Amount": 3,
+          "Minutes": 340,
           "Poster": "/kq5DDnqqofoRI0t6ddtRlsJnNPT.jpg",
           "Gender": 2
         },
@@ -32983,6 +35124,7 @@ var data = {
           "ID": 74568,
           "FullName": "Chris Hemsworth",
           "Amount": 3,
+          "Minutes": 367,
           "Poster": "/xkHHiJXraaMFXgRYspN6KVrFn17.jpg",
           "Gender": 2
         },
@@ -32990,6 +35132,7 @@ var data = {
           "ID": 66,
           "FullName": "Chris Tucker",
           "Amount": 3,
+          "Minutes": 279,
           "Poster": "/f3oQKRJEGjK8Yc4qSMrD5P9oYbg.jpg",
           "Gender": 2
         },
@@ -32997,6 +35140,7 @@ var data = {
           "ID": 2040,
           "FullName": "Christopher Eccleston",
           "Amount": 3,
+          "Minutes": 315,
           "Poster": "/eZKYy6lxKFiO89TdKk3sX4gi9tD.jpg",
           "Gender": 2
         },
@@ -33004,6 +35148,7 @@ var data = {
           "ID": 190,
           "FullName": "Clint Eastwood",
           "Amount": 3,
+          "Minutes": 361,
           "Poster": "/dU35NnjZ4aGw5abIJe3WXVf3Eey.jpg",
           "Gender": 2
         },
@@ -33011,6 +35156,7 @@ var data = {
           "ID": 2296,
           "FullName": "Clive Owen",
           "Amount": 3,
+          "Minutes": 362,
           "Poster": "/ed0LT4wH1rUCviCFexd4XPZVHE1.jpg",
           "Gender": 2
         },
@@ -33018,6 +35164,7 @@ var data = {
           "ID": 5472,
           "FullName": "Colin Firth",
           "Amount": 3,
+          "Minutes": 323,
           "Poster": "/4VBeYEUQbfhnivdkqInM36u5fda.jpg",
           "Gender": 2
         },
@@ -33025,6 +35172,7 @@ var data = {
           "ID": 518,
           "FullName": "Danny DeVito",
           "Amount": 3,
+          "Minutes": 314,
           "Poster": "/gNHF2SNXFFCRqwIQ2Xv6r6aV6UD.jpg",
           "Gender": 2
         },
@@ -33032,6 +35180,7 @@ var data = {
           "ID": 6065,
           "FullName": "Dennis Quaid",
           "Amount": 3,
+          "Minutes": 387,
           "Poster": "/lMaDAJHzsKH7U3dln2B3kY3rOhE.jpg",
           "Gender": 2
         },
@@ -33039,6 +35188,7 @@ var data = {
           "ID": 5292,
           "FullName": "Denzel Washington",
           "Amount": 3,
+          "Minutes": 365,
           "Poster": "/jj2Gcobpopokal0YstuCQW0ldJ4.jpg",
           "Gender": 2
         },
@@ -33046,6 +35196,7 @@ var data = {
           "ID": 4483,
           "FullName": "Dustin Hoffman",
           "Amount": 3,
+          "Minutes": 349,
           "Poster": "/yFjTzJHE6AFbwQifOlnNDzmiwlq.jpg",
           "Gender": 2
         },
@@ -33053,6 +35204,7 @@ var data = {
           "ID": 820,
           "FullName": "Edward Furlong",
           "Amount": 3,
+          "Minutes": 342,
           "Poster": "/e221dMIBgb6Lk092GIkHB9ohQF1.jpg",
           "Gender": 2
         },
@@ -33060,6 +35212,7 @@ var data = {
           "ID": 46593,
           "FullName": "Emile Hirsch",
           "Amount": 3,
+          "Minutes": 384,
           "Poster": "/Ah8BYOB7P8tX9jnQVrnAbL2kxYJ.jpg",
           "Gender": 2
         },
@@ -33067,6 +35220,7 @@ var data = {
           "ID": 118,
           "FullName": "Geoffrey Rush",
           "Amount": 3,
+          "Minutes": 358,
           "Poster": "/npXFjaFQzBNroCEPllGPTZ5IisA.jpg",
           "Gender": 2
         },
@@ -33074,6 +35228,7 @@ var data = {
           "ID": 8487,
           "FullName": "Gregory Peck",
           "Amount": 3,
+          "Minutes": 359,
           "Poster": "/2Ojm5IwpTF5qdMTjEmdBh8UZM6K.jpg",
           "Gender": 2
         },
@@ -33081,6 +35236,7 @@ var data = {
           "ID": 19923,
           "FullName": "Hugh Bonneville",
           "Amount": 3,
+          "Minutes": 351,
           "Poster": "/efsEe68avi6kKvnAcGRHDYxtiIm.jpg",
           "Gender": 2
         },
@@ -33088,6 +35244,7 @@ var data = {
           "ID": 6968,
           "FullName": "Hugh Jackman",
           "Amount": 3,
+          "Minutes": 325,
           "Poster": "/oX6CpXmnXCHLyqsa4NEed1DZAKx.jpg",
           "Gender": 2
         },
@@ -33095,6 +35252,7 @@ var data = {
           "ID": 1327,
           "FullName": "Ian McKellen",
           "Amount": 3,
+          "Minutes": 559,
           "Poster": "/5cnnnpnJG6TiYUSS7qgJheUZgnv.jpg",
           "Gender": 2
         },
@@ -33102,6 +35260,7 @@ var data = {
           "ID": 514,
           "FullName": "Jack Nicholson",
           "Amount": 3,
+          "Minutes": 374,
           "Poster": "/a7GOkGcxmrWHv1wr3e1zeWnasxq.jpg",
           "Gender": 2
         },
@@ -33109,6 +35268,7 @@ var data = {
           "ID": 18897,
           "FullName": "Jackie Chan",
           "Amount": 3,
+          "Minutes": 279,
           "Poster": "/nraZoTzwJQPHspAVsKfgl3RXKKa.jpg",
           "Gender": 2
         },
@@ -33116,6 +35276,7 @@ var data = {
           "ID": 5530,
           "FullName": "James McAvoy",
           "Amount": 3,
+          "Minutes": 310,
           "Poster": "/vB6qYlFXgONGVwwxWXE4gf0F8SQ.jpg",
           "Gender": 2
         },
@@ -33123,6 +35284,7 @@ var data = {
           "ID": 134,
           "FullName": "Jamie Foxx",
           "Amount": 3,
+          "Minutes": 445,
           "Poster": "/hPwCMEq6jLAidsXAX5BfoYgIfg2.jpg",
           "Gender": 2
         },
@@ -33130,6 +35292,7 @@ var data = {
           "ID": 21593,
           "FullName": "Jason Biggs",
           "Amount": 3,
+          "Minutes": 298,
           "Poster": "/3nRgOQylYbNuDiddtNoh8uWTz5P.jpg",
           "Gender": 2
         },
@@ -33137,6 +35300,7 @@ var data = {
           "ID": 976,
           "FullName": "Jason Statham",
           "Amount": 3,
+          "Minutes": 335,
           "Poster": "/whNwkEQYWLFJA8ij0WyOOAD5xhQ.jpg",
           "Gender": 2
         },
@@ -33144,6 +35308,7 @@ var data = {
           "ID": 44735,
           "FullName": "Jesse Eisenberg",
           "Amount": 3,
+          "Minutes": 308,
           "Poster": "/yYhwWRcxDHTn63gSEF1vnDAD7cD.jpg",
           "Gender": 2
         },
@@ -33151,6 +35316,7 @@ var data = {
           "ID": 206,
           "FullName": "Jim Carrey",
           "Amount": 3,
+          "Minutes": 312,
           "Poster": "/kuSlwTPsVlBMW0cvnFmbZce6PaV.jpg",
           "Gender": 2
         },
@@ -33158,6 +35324,7 @@ var data = {
           "ID": 4517,
           "FullName": "Joe Pesci",
           "Amount": 3,
+          "Minutes": 368,
           "Poster": "/4AO0Rwdg2ky8Usmgzgj0dvhy7Zw.jpg",
           "Gender": 2
         },
@@ -33165,6 +35332,7 @@ var data = {
           "ID": 1230,
           "FullName": "John Goodman",
           "Amount": 3,
+          "Minutes": 330,
           "Poster": "/yyYqoyKHO7hE1zpgEV2XlqYWcNV.jpg",
           "Gender": 2
         },
@@ -33172,6 +35340,7 @@ var data = {
           "ID": 6949,
           "FullName": "John Malkovich",
           "Amount": 3,
+          "Minutes": 381,
           "Poster": "/5coH0AExljEnbseCXKL4CDOVQj8.jpg",
           "Gender": 2
         },
@@ -33179,6 +35348,7 @@ var data = {
           "ID": 9656,
           "FullName": "Johnny Knoxville",
           "Amount": 3,
+          "Minutes": 276,
           "Poster": "/7XDKsHsLC4uNYaGsuWG1tQXWRnu.jpg",
           "Gender": 2
         },
@@ -33186,6 +35356,7 @@ var data = {
           "ID": 8945,
           "FullName": "Kevin Kline",
           "Amount": 3,
+          "Minutes": 341,
           "Poster": "/nbxtPbVNA6CjCXMOf5oqipiZFsW.jpg",
           "Gender": 2
         },
@@ -33193,6 +35364,7 @@ var data = {
           "ID": 2628,
           "FullName": "Kiefer Sutherland",
           "Amount": 3,
+          "Minutes": 301,
           "Poster": "/3aMoxISGrslmqJ2JadQKwsu4GAI.jpg",
           "Gender": 2
         },
@@ -33200,6 +35372,7 @@ var data = {
           "ID": 6856,
           "FullName": "Kurt Russell",
           "Amount": 3,
+          "Minutes": 410,
           "Poster": "/6g1d98oH4miG4k0ZiZWmF3Dt0bO.jpg",
           "Gender": 2
         },
@@ -33207,6 +35380,7 @@ var data = {
           "ID": 3896,
           "FullName": "Liam Neeson",
           "Amount": 3,
+          "Minutes": 429,
           "Poster": "/bboldwqSC6tdw2iL6631c98l2Mn.jpg",
           "Gender": 2
         },
@@ -33214,6 +35388,7 @@ var data = {
           "ID": 11510,
           "FullName": "Macaulay Culkin",
           "Amount": 3,
+          "Minutes": 304,
           "Poster": "/hVagDqi5o8lZ21b1kXAl45Sj9wt.jpg",
           "Gender": 2
         },
@@ -33221,6 +35396,7 @@ var data = {
           "ID": 103,
           "FullName": "Mark Ruffalo",
           "Amount": 3,
+          "Minutes": 394,
           "Poster": "/z3dvKqMNDQWk3QLxzumloQVR0pv.jpg",
           "Gender": 2
         },
@@ -33228,6 +35404,7 @@ var data = {
           "ID": 4756,
           "FullName": "Matthew Broderick",
           "Amount": 3,
+          "Minutes": 295,
           "Poster": "/papqFgpyroZJEqd7WvuNGN8ti2k.jpg",
           "Gender": 2
         },
@@ -33235,6 +35412,7 @@ var data = {
           "ID": 2461,
           "FullName": "Mel Gibson",
           "Amount": 3,
+          "Minutes": 382,
           "Poster": "/jnqHMaOslt8cef2atSmOpGRvNla.jpg",
           "Gender": 2
         },
@@ -33242,6 +35420,7 @@ var data = {
           "ID": 521,
           "FullName": "Michael J. Fox",
           "Amount": 3,
+          "Minutes": 308,
           "Poster": "/2JB4FMgQmnhbBlQ4SxWFN9EIVDi.jpg",
           "Gender": 2
         },
@@ -33249,6 +35428,7 @@ var data = {
           "ID": 17087,
           "FullName": "Michael Moore",
           "Amount": 3,
+          "Minutes": 323,
           "Poster": "/m5YViuBUXfKAHNEUObGpzhzQPgE.jpg",
           "Gender": 2
         },
@@ -33256,6 +35436,7 @@ var data = {
           "ID": 3968,
           "FullName": "Michael Sheen",
           "Amount": 3,
+          "Minutes": 322,
           "Poster": "/nGxIcIcfJjdPN3k8zFabtA1gRqL.jpg",
           "Gender": 2
         },
@@ -33263,6 +35444,7 @@ var data = {
           "ID": 3292,
           "FullName": "Nicholas Hoult",
           "Amount": 3,
+          "Minutes": 329,
           "Poster": "/laeAYQVBV9U3DkJ1B4Cn1XhpT8P.jpg",
           "Gender": 2
         },
@@ -33270,6 +35452,7 @@ var data = {
           "ID": 11109,
           "FullName": "Nick Frost",
           "Amount": 3,
+          "Minutes": 328,
           "Poster": "/peEPLuiLp9M0UwAHPUEFBd8Q7SQ.jpg",
           "Gender": 2
         },
@@ -33277,6 +35460,7 @@ var data = {
           "ID": 133,
           "FullName": "Peter Sarsgaard",
           "Amount": 3,
+          "Minutes": 321,
           "Poster": "/gYnEJjeHgZVBZh6aGzgfzm4jIHM.jpg",
           "Gender": 2
         },
@@ -33284,6 +35468,7 @@ var data = {
           "ID": 3087,
           "FullName": "Robert Duvall",
           "Amount": 3,
+          "Minutes": 435,
           "Poster": "/ybMmK25h4IVtfE7qrnlVp47RQlh.jpg",
           "Gender": 2
         },
@@ -33291,6 +35476,7 @@ var data = {
           "ID": 6730,
           "FullName": "Sacha Baron Cohen",
           "Amount": 3,
+          "Minutes": 263,
           "Poster": "/irirhgOX0siCyqvMrt2hoJpXfOG.jpg",
           "Gender": 2
         },
@@ -33298,6 +35484,7 @@ var data = {
           "ID": 4783,
           "FullName": "Sam Neill",
           "Amount": 3,
+          "Minutes": 336,
           "Poster": "/iIfuxalf37xUayuGyK0zG7z6WEZ.jpg",
           "Gender": 2
         },
@@ -33305,13 +35492,23 @@ var data = {
           "ID": 11108,
           "FullName": "Simon Pegg",
           "Amount": 3,
+          "Minutes": 320,
           "Poster": "/kIMnWkZciXXHYyD8GxMYvDLD29x.jpg",
+          "Gender": 2
+        },
+        {
+          "ID": 4581,
+          "FullName": "Steve Coogan",
+          "Amount": 3,
+          "Minutes": 320,
+          "Poster": "/tT7OXc2qA6hlREHXdwGLp0XihzA.jpg",
           "Gender": 2
         },
         {
           "ID": 16483,
           "FullName": "Sylvester Stallone",
           "Amount": 3,
+          "Minutes": 312,
           "Poster": "/Aprx4oBGwdTPHqlfcYbjWlCK3aI.jpg",
           "Gender": 2
         },
@@ -33319,6 +35516,7 @@ var data = {
           "ID": 18082,
           "FullName": "Timothy Olyphant",
           "Amount": 3,
+          "Minutes": 320,
           "Poster": "/7pHmRHE2wBNC9cBgNIRCBqFLoyZ.jpg",
           "Gender": 2
         },
@@ -33326,6 +35524,7 @@ var data = {
           "ID": 2219,
           "FullName": "Tobey Maguire",
           "Amount": 3,
+          "Minutes": 385,
           "Poster": "/kOJelnLSb89SeivbOCt1l94Hz2d.jpg",
           "Gender": 2
         },
@@ -33333,6 +35532,7 @@ var data = {
           "ID": 2144,
           "FullName": "Tobin Bell",
           "Amount": 3,
+          "Minutes": 294,
           "Poster": "/q21uuCtTioIVcGc3a1Q0DpdcNMO.jpg",
           "Gender": 2
         },
@@ -33340,6 +35540,7 @@ var data = {
           "ID": 2176,
           "FullName": "Tommy Lee Jones",
           "Amount": 3,
+          "Minutes": 308,
           "Poster": "/mCiZNRAzbnPojJEZwVZWLw9kzxR.jpg",
           "Gender": 2
         },
@@ -33347,6 +35548,7 @@ var data = {
           "ID": 5576,
           "FullName": "Val Kilmer",
           "Amount": 3,
+          "Minutes": 383,
           "Poster": "/dZEGiq4XmCiXq9hmz0vVLId010z.jpg",
           "Gender": 2
         },
@@ -33354,6 +35556,7 @@ var data = {
           "ID": 4937,
           "FullName": "Vince Vaughn",
           "Amount": 3,
+          "Minutes": 341,
           "Poster": "/A9fJ88dfXZGpgFTnQIK0bOtjMrj.jpg",
           "Gender": 2
         },
@@ -33361,6 +35564,7 @@ var data = {
           "ID": 1925,
           "FullName": "Vincent Cassel",
           "Amount": 3,
+          "Minutes": 303,
           "Poster": "/Pi6wQ0vDX6mAaFUWWVFrmums3s.jpg",
           "Gender": 2
         }
@@ -33374,6 +35578,7 @@ var data = {
           "ID": 1005852,
           "FullName": "Janelle Mon\u00E1e",
           "Amount": 4,
+          "Minutes": 427,
           "Poster": "/axTIbPz6ZbqlcCwkNBgD59gY3lx.jpg",
           "Gender": 3
         },
@@ -33381,6 +35586,7 @@ var data = {
           "ID": 27578,
           "FullName": "Elliot Page",
           "Amount": 3,
+          "Minutes": 311,
           "Poster": "/eCeFgzS8dYHnMfWQT0oQitCrsSz.jpg",
           "Gender": 3
         },
@@ -33388,6 +35594,7 @@ var data = {
           "ID": 132157,
           "FullName": "Ezra Miller",
           "Amount": 2,
+          "Minutes": 216,
           "Poster": "/s6ulsRYtkaAArXsNC6cvinUiRNc.jpg",
           "Gender": 3
         },
@@ -33395,6 +35602,7 @@ var data = {
           "ID": 3505950,
           "FullName": "Eden Dambrine",
           "Amount": 1,
+          "Minutes": 104,
           "Poster": "/9u8byzr9LpFvuvYk7bep6l8U5Ow.jpg",
           "Gender": 3
         },
@@ -33402,6 +35610,7 @@ var data = {
           "ID": 122851,
           "FullName": "Elsie Fisher",
           "Amount": 1,
+          "Minutes": 94,
           "Poster": "/lSmrN828nMMXHvwr7IgO1qlYPSa.jpg",
           "Gender": 3
         },
@@ -33409,6 +35618,7 @@ var data = {
           "ID": 99381,
           "FullName": "Jessi Kneeland",
           "Amount": 1,
+          "Minutes": 66,
           "Poster": "",
           "Gender": 3
         },
@@ -33416,19 +35626,21 @@ var data = {
           "ID": 3923758,
           "FullName": "Tianna Arnold",
           "Amount": 1,
+          "Minutes": 121,
           "Poster": "/zGYs00VeVySNgDiaNX2SfBj09wt.jpg",
           "Gender": 3
         }
       ]
     },
     "entirecast_All": {
-      "Total": 35116,
-      "Unique": 27903,
+      "Total": 35480,
+      "Unique": 28191,
       "PeopleData": [
         {
           "ID": 6886,
           "FullName": "Christina Ricci",
           "Amount": 21,
+          "Minutes": 2164,
           "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
           "Gender": 1
         },
@@ -33436,6 +35648,7 @@ var data = {
           "ID": 2231,
           "FullName": "Samuel L. Jackson",
           "Amount": 18,
+          "Minutes": 2290,
           "Poster": "/AiAYAqwpM5xmiFrAIeQvUXDCVvo.jpg",
           "Gender": 2
         },
@@ -33443,6 +35656,7 @@ var data = {
           "ID": 10978,
           "FullName": "Maggie Smith",
           "Amount": 14,
+          "Minutes": 1837,
           "Poster": "/qZyJ7DaOtkfqw58Iv7EqADi428P.jpg",
           "Gender": 1
         },
@@ -33450,6 +35664,7 @@ var data = {
           "ID": 1892,
           "FullName": "Matt Damon",
           "Amount": 14,
+          "Minutes": 1874,
           "Poster": "/ehwS5WvU5yL5vKcUEqbzGK8Fh8B.jpg",
           "Gender": 2
         },
@@ -33457,6 +35672,7 @@ var data = {
           "ID": 287,
           "FullName": "Brad Pitt",
           "Amount": 13,
+          "Minutes": 1655,
           "Poster": "/ajNaPmXVVMJFg9GWmu6MJzTaXdV.jpg",
           "Gender": 2
         },
@@ -33464,6 +35680,7 @@ var data = {
           "ID": 10990,
           "FullName": "Emma Watson",
           "Amount": 13,
+          "Minutes": 1729,
           "Poster": "/A14lLCZYDhfYdBa0fFRpwMDiwRN.jpg",
           "Gender": 1
         },
@@ -33471,6 +35688,7 @@ var data = {
           "ID": 5658,
           "FullName": "Michael Gambon",
           "Amount": 13,
+          "Minutes": 1673,
           "Poster": "/3jdWkDKf4IODbG4JKTeaC7AzxZH.jpg",
           "Gender": 2
         },
@@ -33478,6 +35696,7 @@ var data = {
           "ID": 2963,
           "FullName": "Nicolas Cage",
           "Amount": 13,
+          "Minutes": 1521,
           "Poster": "/ar33qcWbEgREn07ZpXv5Pbj8hbM.jpg",
           "Gender": 2
         },
@@ -33485,6 +35704,7 @@ var data = {
           "ID": 4566,
           "FullName": "Alan Rickman",
           "Amount": 12,
+          "Minutes": 1696,
           "Poster": "/nKl8ZRYjBJya7aj7phJUyrtSll6.jpg",
           "Gender": 2
         },
@@ -33492,6 +35712,7 @@ var data = {
           "ID": 1932,
           "FullName": "Audrey Hepburn",
           "Amount": 12,
+          "Minutes": 1437,
           "Poster": "9SFLosAt3chN3MZBTYg9VQfXDPF.jpg",
           "Gender": 1
         },
@@ -33499,6 +35720,7 @@ var data = {
           "ID": 228,
           "FullName": "Ed Harris",
           "Amount": 12,
+          "Minutes": 1485,
           "Poster": "/aAu9lJ02jlg0GAvv2vVnpJSDV1Y.jpg",
           "Gender": 2
         },
@@ -33506,6 +35728,7 @@ var data = {
           "ID": 64,
           "FullName": "Gary Oldman",
           "Amount": 12,
+          "Minutes": 1633,
           "Poster": "/2v9FVVBUrrkW2m3QOcYkuhq9A6o.jpg",
           "Gender": 2
         },
@@ -33513,6 +35736,7 @@ var data = {
           "ID": 3895,
           "FullName": "Michael Caine",
           "Amount": 12,
+          "Minutes": 1482,
           "Poster": "/bVZRMlpjTAO2pJK6v90buFgVbSW.jpg",
           "Gender": 2
         },
@@ -33520,6 +35744,7 @@ var data = {
           "ID": 192,
           "FullName": "Morgan Freeman",
           "Amount": 12,
+          "Minutes": 1511,
           "Poster": "/jPsLqiYGSofU4s6BjrxnefMfabb.jpg",
           "Gender": 2
         },
@@ -33527,6 +35752,7 @@ var data = {
           "ID": 9191,
           "FullName": "Timothy Spall",
           "Amount": 12,
+          "Minutes": 1504,
           "Poster": "/kcXnzkIPUHgCFtWQ7sUjQCrSIME.jpg",
           "Gender": 2
         },
@@ -33534,6 +35760,7 @@ var data = {
           "ID": 5293,
           "FullName": "Willem Dafoe",
           "Amount": 12,
+          "Minutes": 1377,
           "Poster": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
           "Gender": 2
         },
@@ -33541,6 +35768,7 @@ var data = {
           "ID": 2053,
           "FullName": "Bill Paxton",
           "Amount": 11,
+          "Minutes": 1372,
           "Poster": "/aLdNe6mt1cSi2zWlUYRregzfis5.jpg",
           "Gender": 2
         },
@@ -33548,6 +35776,7 @@ var data = {
           "ID": 62,
           "FullName": "Bruce Willis",
           "Amount": 11,
+          "Minutes": 1389,
           "Poster": "/A1XBu3CffBpSK8HEIJM8q7Mn4lz.jpg",
           "Gender": 2
         },
@@ -33555,6 +35784,7 @@ var data = {
           "ID": 6941,
           "FullName": "Cameron Diaz",
           "Amount": 11,
+          "Minutes": 1152,
           "Poster": "/y5DitIz69LzqFCTZd1omRpalpMy.jpg",
           "Gender": 1
         },
@@ -33562,6 +35792,7 @@ var data = {
           "ID": 8930,
           "FullName": "John Cleese",
           "Amount": 11,
+          "Minutes": 1257,
           "Poster": "/yonuTnGcc3q9A1w5P7N3dDRdPSh.jpg",
           "Gender": 2
         },
@@ -33569,6 +35800,7 @@ var data = {
           "ID": 936970,
           "FullName": "Julia Garner",
           "Amount": 11,
+          "Minutes": 1031,
           "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
           "Gender": 1
         },
@@ -33576,6 +35808,7 @@ var data = {
           "ID": 3293,
           "FullName": "Rachel Weisz",
           "Amount": 11,
+          "Minutes": 1207,
           "Poster": "/msTqKPA33ryVtcVNgOdeaJGYq16.jpg",
           "Gender": 1
         },
@@ -33583,6 +35816,7 @@ var data = {
           "ID": 1923,
           "FullName": "Robbie Coltrane",
           "Amount": 11,
+          "Minutes": 1550,
           "Poster": "/jOHs3xvlwRiiG2CLtso5zzmGCXg.jpg",
           "Gender": 2
         },
@@ -33590,6 +35824,7 @@ var data = {
           "ID": 2039,
           "FullName": "Brendan Gleeson",
           "Amount": 10,
+          "Minutes": 1326,
           "Poster": "/dTS2y7FLsnrskf0tPb8f9H7KAP3.jpg",
           "Gender": 2
         },
@@ -33597,6 +35832,7 @@ var data = {
           "ID": 112,
           "FullName": "Cate Blanchett",
           "Amount": 10,
+          "Minutes": 1403,
           "Poster": "/9V83uemR0ra9Wd9iRXTMlfAQlTB.jpg",
           "Gender": 1
         },
@@ -33604,6 +35840,7 @@ var data = {
           "ID": 3,
           "FullName": "Harrison Ford",
           "Amount": 10,
+          "Minutes": 1239,
           "Poster": "/zVnHagUvXkR2StdOtquEwsiwSVt.jpg",
           "Gender": 2
         },
@@ -33611,6 +35848,7 @@ var data = {
           "ID": 1037,
           "FullName": "Harvey Keitel",
           "Amount": 10,
+          "Minutes": 1193,
           "Poster": "/7P30hza1neYWW3r7rSQOC736K2Z.jpg",
           "Gender": 2
         },
@@ -33618,6 +35856,7 @@ var data = {
           "ID": 72129,
           "FullName": "Jennifer Lawrence",
           "Amount": 10,
+          "Minutes": 1173,
           "Poster": "/k6CsASaySnS3ag0Y2Ns2vqPahVn.jpg",
           "Gender": 1
         },
@@ -33625,6 +35864,7 @@ var data = {
           "ID": 477,
           "FullName": "Julie Walters",
           "Amount": 10,
+          "Minutes": 1317,
           "Poster": "/brjHeYleabCyEyJ7ugMyjjpLsFF.jpg",
           "Gender": 1
         },
@@ -33632,6 +35872,7 @@ var data = {
           "ID": 6193,
           "FullName": "Leonardo DiCaprio",
           "Amount": 10,
+          "Minutes": 1547,
           "Poster": "/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg",
           "Gender": 2
         },
@@ -33639,6 +35880,7 @@ var data = {
           "ID": 147,
           "FullName": "Michael Madsen",
           "Amount": 10,
+          "Minutes": 1295,
           "Poster": "/69cqjkTNKI1muAfnvorfmWNVgIe.jpg",
           "Gender": 2
         },
@@ -33646,6 +35888,7 @@ var data = {
           "ID": 5469,
           "FullName": "Ralph Fiennes",
           "Amount": 10,
+          "Minutes": 1375,
           "Poster": "/tJr9GcmGNHhLVVEH3i7QYbj6hBi.jpg",
           "Gender": 2
         },
@@ -33653,6 +35896,7 @@ var data = {
           "ID": 31,
           "FullName": "Tom Hanks",
           "Amount": 10,
+          "Minutes": 1241,
           "Poster": "/eKF1sGJRrZJbfBG1KirPt1cfNd3.jpg",
           "Gender": 2
         },
@@ -33660,6 +35904,7 @@ var data = {
           "ID": 11184,
           "FullName": "Warwick Davis",
           "Amount": 10,
+          "Minutes": 1368,
           "Poster": "/nGorSpUIQWAEErxq8KdDcIF6Q00.jpg",
           "Gender": 2
         },
@@ -33667,6 +35912,7 @@ var data = {
           "ID": 8635,
           "FullName": "Buster Keaton",
           "Amount": 9,
+          "Minutes": 250,
           "Poster": "/iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
           "Gender": 2
         },
@@ -33674,6 +35920,7 @@ var data = {
           "ID": 109,
           "FullName": "Elijah Wood",
           "Amount": 9,
+          "Minutes": 1223,
           "Poster": "/7UKRbJBNG7mxBl2QQc5XsAh6F8B.jpg",
           "Gender": 2
         },
@@ -33681,6 +35928,7 @@ var data = {
           "ID": 54693,
           "FullName": "Emma Stone",
           "Amount": 9,
+          "Minutes": 1128,
           "Poster": "/sFlktjWgUANqfUnqWJOhzICvp4v.jpg",
           "Gender": 1
         },
@@ -33688,13 +35936,15 @@ var data = {
           "ID": 1373737,
           "FullName": "Florence Pugh",
           "Amount": 9,
-          "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
+          "Minutes": 1105,
+          "Poster": "f8e41Oon18FiEZr4zgyJDVUqOeh.jpg",
           "Gender": 1
         },
         {
           "ID": 10988,
           "FullName": "Geraldine Somerville",
           "Amount": 9,
+          "Minutes": 1267,
           "Poster": "/vyLIquF45MpN6OOPmk8L7gnmKrY.jpg",
           "Gender": 1
         },
@@ -33702,6 +35952,7 @@ var data = {
           "ID": 3291,
           "FullName": "Hugh Grant",
           "Amount": 9,
+          "Minutes": 1039,
           "Poster": "/hsSfxSHzkKJ6ZKq1Ofngcp7aAnT.jpg",
           "Gender": 2
         },
@@ -33709,6 +35960,7 @@ var data = {
           "ID": 1331,
           "FullName": "Hugo Weaving",
           "Amount": 9,
+          "Minutes": 1291,
           "Poster": "/t4ScpYIHlXVD41scEyiGdQDYflX.jpg",
           "Gender": 2
         },
@@ -33716,6 +35968,7 @@ var data = {
           "ID": 96851,
           "FullName": "James Phelps",
           "Amount": 9,
+          "Minutes": 1294,
           "Poster": "/dk7kTamtnbgSA40Lg00aE36hljs.jpg",
           "Gender": 2
         },
@@ -33723,6 +35976,7 @@ var data = {
           "ID": 20089,
           "FullName": "Jena Malone",
           "Amount": 9,
+          "Minutes": 1123,
           "Poster": "/1qmkanVCFr3ZaXcxSXVDO8andb0.jpg",
           "Gender": 1
         },
@@ -33730,6 +35984,7 @@ var data = {
           "ID": 10127,
           "FullName": "Jon Voight",
           "Amount": 9,
+          "Minutes": 1157,
           "Poster": "/nuiTfACxhKRE2D2FWbK93m5MgSS.jpg",
           "Gender": 2
         },
@@ -33737,6 +35992,7 @@ var data = {
           "ID": 65827,
           "FullName": "Keith David",
           "Amount": 9,
+          "Minutes": 1042,
           "Poster": "/jJLJuR7FNHYL1fB5igjj7IXzOel.jpg",
           "Gender": 2
         },
@@ -33744,6 +36000,7 @@ var data = {
           "ID": 4724,
           "FullName": "Kevin Bacon",
           "Amount": 9,
+          "Minutes": 983,
           "Poster": "/rjX2Oz3tCZMfSwOoIAyEhdtXnTE.jpg",
           "Gender": 2
         },
@@ -33751,6 +36008,7 @@ var data = {
           "ID": 1979,
           "FullName": "Kevin Spacey",
           "Amount": 9,
+          "Minutes": 1098,
           "Poster": "/nPrUZDEbGQe6jwpVbHKJCXsMd7r.jpg",
           "Gender": 2
         },
@@ -33758,6 +36016,7 @@ var data = {
           "ID": 1173,
           "FullName": "Mark Margolis",
           "Amount": 9,
+          "Minutes": 954,
           "Poster": "/rT5TYJIPLBkTqsrUs00AixGeaMM.jpg",
           "Gender": 2
         },
@@ -33765,6 +36024,7 @@ var data = {
           "ID": 140368,
           "FullName": "Oliver Phelps",
           "Amount": 9,
+          "Minutes": 1294,
           "Poster": "/kb00uK7sCDB5K6tiH5rav9kzAfl.jpg",
           "Gender": 2
         },
@@ -33772,6 +36032,7 @@ var data = {
           "ID": 10983,
           "FullName": "Richard Griffiths",
           "Amount": 9,
+          "Minutes": 1122,
           "Poster": "/4H4uQfMzvgs11RCLaoSMQsyElw8.jpg",
           "Gender": 2
         },
@@ -33779,6 +36040,7 @@ var data = {
           "ID": 380,
           "FullName": "Robert De Niro",
           "Amount": 9,
+          "Minutes": 1252,
           "Poster": "/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg",
           "Gender": 2
         },
@@ -33786,6 +36048,7 @@ var data = {
           "ID": 3087,
           "FullName": "Robert Duvall",
           "Amount": 9,
+          "Minutes": 1226,
           "Poster": "/ybMmK25h4IVtfE7qrnlVp47RQlh.jpg",
           "Gender": 2
         },
@@ -33793,6 +36056,7 @@ var data = {
           "ID": 3063,
           "FullName": "Tilda Swinton",
           "Amount": 9,
+          "Minutes": 940,
           "Poster": "/gWbX3a7V2MgRMRzekfITNcb27xV.jpg",
           "Gender": 1
         },
@@ -33800,6 +36064,7 @@ var data = {
           "ID": 500,
           "FullName": "Tom Cruise",
           "Amount": 9,
+          "Minutes": 1167,
           "Poster": "/eOh4ubpOm2Igdg0QH2ghj0mFtC.jpg",
           "Gender": 2
         },
@@ -33807,13 +36072,23 @@ var data = {
           "ID": 10993,
           "FullName": "Tom Felton",
           "Amount": 9,
+          "Minutes": 1283,
           "Poster": "/k22yJiIXmHyw6kjE6qbZU9frKLq.jpg",
+          "Gender": 2
+        },
+        {
+          "ID": 2524,
+          "FullName": "Tom Hardy",
+          "Amount": 9,
+          "Minutes": 1140,
+          "Poster": "/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg",
           "Gender": 2
         },
         {
           "ID": 2888,
           "FullName": "Will Smith",
           "Amount": 9,
+          "Minutes": 1045,
           "Poster": "/1QqaRZ8neYlqLx7ODZC4as47wUV.jpg",
           "Gender": 2
         },
@@ -33821,6 +36096,7 @@ var data = {
           "ID": 57755,
           "FullName": "Woody Harrelson",
           "Amount": 9,
+          "Minutes": 1138,
           "Poster": "/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg",
           "Gender": 2
         },
@@ -33828,6 +36104,7 @@ var data = {
           "ID": 19,
           "FullName": "Allison Janney",
           "Amount": 8,
+          "Minutes": 913,
           "Poster": "/hpBKWV1jjoXQbr1s0iUZTSvw582.jpg",
           "Gender": 1
         },
@@ -33835,6 +36112,7 @@ var data = {
           "ID": 1100,
           "FullName": "Arnold Schwarzenegger",
           "Amount": 8,
+          "Minutes": 928,
           "Poster": "/z6IbTtI2FWAVZE6b1V4mqEHjwO6.jpg",
           "Gender": 2
         },
@@ -33842,6 +36120,7 @@ var data = {
           "ID": 121718,
           "FullName": "Bill Camp",
           "Amount": 8,
+          "Minutes": 922,
           "Poster": "/yNUJsgkJcJXi5CK3Pk77DmUU8G8.jpg",
           "Gender": 2
         },
@@ -33849,6 +36128,7 @@ var data = {
           "ID": 10991,
           "FullName": "Bonnie Wright",
           "Amount": 8,
+          "Minutes": 1178,
           "Poster": "/eCDdCvGYYlUM3neNJ1dwaPEgzqG.jpg",
           "Gender": 1
         },
@@ -33856,6 +36136,7 @@ var data = {
           "ID": 1248,
           "FullName": "Brian Cox",
           "Amount": 8,
+          "Minutes": 992,
           "Poster": "/scSjbFCTRngXlkJRoKptM5kQGw7.jpg",
           "Gender": 2
         },
@@ -33863,6 +36144,7 @@ var data = {
           "ID": 1893,
           "FullName": "Casey Affleck",
           "Amount": 8,
+          "Minutes": 1074,
           "Poster": "/hcggAadv5SwdhoAb4yYMoAFYdWK.jpg",
           "Gender": 2
         },
@@ -33870,6 +36152,7 @@ var data = {
           "ID": 8191,
           "FullName": "Chris Ellis",
           "Amount": 8,
+          "Minutes": 1003,
           "Poster": "/zSoBhmD7KtHi9YrBVrHK9QSl8DU.jpg",
           "Gender": 2
         },
@@ -33877,6 +36160,7 @@ var data = {
           "ID": 3894,
           "FullName": "Christian Bale",
           "Amount": 8,
+          "Minutes": 1029,
           "Poster": "/3qx2QFUbG6t6IlzR0F9k3Z6Yhf7.jpg",
           "Gender": 2
         },
@@ -33884,6 +36168,7 @@ var data = {
           "ID": 13023,
           "FullName": "Colleen Camp",
           "Amount": 8,
+          "Minutes": 902,
           "Poster": "/hNAIkUVtsQfpC95BDkXr1lmoI2F.jpg",
           "Gender": 1
         },
@@ -33891,6 +36176,7 @@ var data = {
           "ID": 10980,
           "FullName": "Daniel Radcliffe",
           "Amount": 8,
+          "Minutes": 1178,
           "Poster": "/iPg0J9UzAlPj1fLEJNllpW9IhGe.jpg",
           "Gender": 2
         },
@@ -33898,6 +36184,7 @@ var data = {
           "ID": 11180,
           "FullName": "David Bradley",
           "Amount": 8,
+          "Minutes": 1153,
           "Poster": "/2ZblKClJrHiifvjWNm6WjbuZriQ.jpg",
           "Gender": 2
         },
@@ -33905,6 +36192,7 @@ var data = {
           "ID": 234922,
           "FullName": "Devon Murray",
           "Amount": 8,
+          "Minutes": 1178,
           "Poster": "/2z6tYeavTWh7muPvfTOKEZGyjjM.jpg",
           "Gender": 2
         },
@@ -33912,6 +36200,7 @@ var data = {
           "ID": 55636,
           "FullName": "Donald Sutherland",
           "Amount": 8,
+          "Minutes": 980,
           "Poster": "/yM8WO2BYqFvgQXAvf4CIuCYnY4j.jpg",
           "Gender": 2
         },
@@ -33919,6 +36208,7 @@ var data = {
           "ID": 819,
           "FullName": "Edward Norton",
           "Amount": 8,
+          "Minutes": 1003,
           "Poster": "/8nytsqL59SFJTVYVrN72k6qkGgJ.jpg",
           "Gender": 2
         },
@@ -33926,6 +36216,7 @@ var data = {
           "ID": 7056,
           "FullName": "Emma Thompson",
           "Amount": 8,
+          "Minutes": 988,
           "Poster": "/xr8Ki3CIqweWWqS5q0kUYdiK6oQ.jpg",
           "Gender": 1
         },
@@ -33933,6 +36224,7 @@ var data = {
           "ID": 9138,
           "FullName": "Gemma Jones",
           "Amount": 8,
+          "Minutes": 939,
           "Poster": "/hFApnOEWXyE55ONGGXis6a0PPHM.jpg",
           "Gender": 1
         },
@@ -33940,6 +36232,7 @@ var data = {
           "ID": 11355,
           "FullName": "Jason Isaacs",
           "Amount": 8,
+          "Minutes": 1139,
           "Poster": "/s6XRFjqUsrDJfDQuXPOoExAYPmb.jpg",
           "Gender": 2
         },
@@ -33947,6 +36240,7 @@ var data = {
           "ID": 388,
           "FullName": "Jim Broadbent",
           "Amount": 8,
+          "Minutes": 943,
           "Poster": "/s7lXYfrsJoGA4vKmyv61SPgABmR.jpg",
           "Gender": 2
         },
@@ -33954,6 +36248,7 @@ var data = {
           "ID": 11212,
           "FullName": "Josh Herdman",
           "Amount": 8,
+          "Minutes": 1178,
           "Poster": "/dUWM0gIhQJayVTp30EsoafhLOWt.jpg",
           "Gender": 2
         },
@@ -33961,6 +36256,7 @@ var data = {
           "ID": 6384,
           "FullName": "Keanu Reeves",
           "Amount": 8,
+          "Minutes": 918,
           "Poster": "/4D0PpNI0kmP58hgrwGC3wCjxhnm.jpg",
           "Gender": 2
         },
@@ -33968,6 +36264,7 @@ var data = {
           "ID": 20999,
           "FullName": "Mark Williams",
           "Amount": 8,
+          "Minutes": 1115,
           "Poster": "/gdlEDhxSmPv3hWHbpTuwCI5Jrtk.jpg",
           "Gender": 2
         },
@@ -33975,6 +36272,7 @@ var data = {
           "ID": 96841,
           "FullName": "Matthew Lewis",
           "Amount": 8,
+          "Minutes": 1178,
           "Poster": "/aPQCLK2gxWOallsFoEwjb1p9lWE.jpg",
           "Gender": 2
         },
@@ -33982,6 +36280,7 @@ var data = {
           "ID": 13242,
           "FullName": "Paul Giamatti",
           "Amount": 8,
+          "Minutes": 1050,
           "Poster": "/ayEWNIXLVNYOrZQsNXrtlZTIZM8.jpg",
           "Gender": 2
         },
@@ -33989,6 +36288,7 @@ var data = {
           "ID": 53,
           "FullName": "Peter Stormare",
           "Amount": 8,
+          "Minutes": 1004,
           "Poster": "/5muzSVt66Qxc8KuVbq0phZIN9tj.jpg",
           "Gender": 2
         },
@@ -33996,6 +36296,7 @@ var data = {
           "ID": 517,
           "FullName": "Pierce Brosnan",
           "Amount": 8,
+          "Minutes": 951,
           "Poster": "/dzXVwwJLPwiZeXOnf7YxorqVEEM.jpg",
           "Gender": 2
         },
@@ -34003,6 +36304,7 @@ var data = {
           "ID": 368,
           "FullName": "Reese Witherspoon",
           "Amount": 8,
+          "Minutes": 847,
           "Poster": "/ByeTccPuvVwtWrvkPpldFP38rS.jpg",
           "Gender": 1
         },
@@ -34010,6 +36312,7 @@ var data = {
           "ID": 2157,
           "FullName": "Robin Williams",
           "Amount": 8,
+          "Minutes": 985,
           "Poster": "/3vypmub75rLItlC51uJUurNYkW0.jpg",
           "Gender": 2
         },
@@ -34017,6 +36320,7 @@ var data = {
           "ID": 10730,
           "FullName": "Rowan Atkinson",
           "Amount": 8,
+          "Minutes": 821,
           "Poster": "/wxTgS4SFanVKbnvu9xqOzNJWJwz.jpg",
           "Gender": 2
         },
@@ -34024,6 +36328,7 @@ var data = {
           "ID": 10989,
           "FullName": "Rupert Grint",
           "Amount": 8,
+          "Minutes": 1178,
           "Poster": "/q2KZZ0ltTEl7Sf8volNFV1JDEP4.jpg",
           "Gender": 2
         },
@@ -34031,6 +36336,7 @@ var data = {
           "ID": 1245,
           "FullName": "Scarlett Johansson",
           "Amount": 8,
+          "Minutes": 930,
           "Poster": "zHPkXk66ucTVtSij8lVJKg21LLs.jpg",
           "Gender": 1
         },
@@ -34038,6 +36344,7 @@ var data = {
           "ID": 48,
           "FullName": "Sean Bean",
           "Amount": 8,
+          "Minutes": 1176,
           "Poster": "/kTjiABk3TJ3yI0Cto5RsvyT6V3o.jpg",
           "Gender": 2
         },
@@ -34045,6 +36352,7 @@ var data = {
           "ID": 10205,
           "FullName": "Sigourney Weaver",
           "Amount": 8,
+          "Minutes": 925,
           "Poster": "/flfhep27iBxseZIlxOMHt6zJFX1.jpg",
           "Gender": 1
         },
@@ -34052,6 +36360,7 @@ var data = {
           "ID": 17401,
           "FullName": "Stephen Root",
           "Amount": 8,
+          "Minutes": 777,
           "Poster": "/2Zwi6AydqQQ9InVdhjYcfJXNzkp.jpg",
           "Gender": 2
         },
@@ -34059,20 +36368,15 @@ var data = {
           "ID": 13014,
           "FullName": "Toby Jones",
           "Amount": 8,
+          "Minutes": 1041,
           "Poster": "/1qNisdp4f1KstdfvAgYXMdrhwfk.jpg",
-          "Gender": 2
-        },
-        {
-          "ID": 2524,
-          "FullName": "Tom Hardy",
-          "Amount": 8,
-          "Poster": "/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg",
           "Gender": 2
         },
         {
           "ID": 3905,
           "FullName": "William H. Macy",
           "Amount": 8,
+          "Minutes": 846,
           "Poster": "/hdVEGSrP8qWlJnt0v5vSVcGOjy7.jpg",
           "Gender": 2
         },
@@ -34080,6 +36384,7 @@ var data = {
           "ID": 234923,
           "FullName": "Alfred Enoch",
           "Amount": 7,
+          "Minutes": 1032,
           "Poster": "/eEVvPHmxRBcEGqtoTujncmwNDhR.jpg",
           "Gender": 2
         },
@@ -34087,6 +36392,7 @@ var data = {
           "ID": 11701,
           "FullName": "Angelina Jolie",
           "Amount": 7,
+          "Minutes": 830,
           "Poster": "/bXNxIKcJ5cNNW8QFrBPWcfTSu9x.jpg",
           "Gender": 1
         },
@@ -34094,6 +36400,7 @@ var data = {
           "ID": 17449,
           "FullName": "Bob Stephenson",
           "Amount": 7,
+          "Minutes": 849,
           "Poster": "/htF2P5zyyFFB1jpBNGVvTiGH01F.jpg",
           "Gender": 2
         },
@@ -34101,6 +36408,7 @@ var data = {
           "ID": 5294,
           "FullName": "Chiwetel Ejiofor",
           "Amount": 7,
+          "Minutes": 864,
           "Poster": "/kq5DDnqqofoRI0t6ddtRlsJnNPT.jpg",
           "Gender": 2
         },
@@ -34108,6 +36416,7 @@ var data = {
           "ID": 1062,
           "FullName": "Christopher Lloyd",
           "Amount": 7,
+          "Minutes": 751,
           "Poster": "/nxVjpyb3UrfbPZnEyDNlQVlFAs5.jpg",
           "Gender": 2
         },
@@ -34115,6 +36424,7 @@ var data = {
           "ID": 38582,
           "FullName": "David Krumholtz",
           "Amount": 7,
+          "Minutes": 811,
           "Poster": "/6M2kk44Z1DyUhuVGyy2UDbCKZuM.jpg",
           "Gender": 2
         },
@@ -34122,6 +36432,7 @@ var data = {
           "ID": 11207,
           "FullName": "David Thewlis",
           "Amount": 7,
+          "Minutes": 957,
           "Poster": "/sNuYyT8ocLlQr3TdAW9CoKVbCU8.jpg",
           "Gender": 2
         },
@@ -34129,6 +36440,7 @@ var data = {
           "ID": 1665,
           "FullName": "Eddie Marsan",
           "Amount": 7,
+          "Minutes": 783,
           "Poster": "/9atfOgIxhfOKvv2be8HEp6SzOct.jpg",
           "Gender": 2
         },
@@ -34136,6 +36448,7 @@ var data = {
           "ID": 58950,
           "FullName": "Greg Collins",
           "Amount": 7,
+          "Minutes": 946,
           "Poster": "/42p7hsOck2OzIkr4b9Wtp0HckkG.jpg",
           "Gender": 2
         },
@@ -34143,6 +36456,7 @@ var data = {
           "ID": 1283,
           "FullName": "Helena Bonham Carter",
           "Amount": 7,
+          "Minutes": 932,
           "Poster": "/DDeITcCpnBd0CkAIRPhggy9bt5.jpg",
           "Gender": 1
         },
@@ -34150,6 +36464,7 @@ var data = {
           "ID": 65,
           "FullName": "Ian Holm",
           "Amount": 7,
+          "Minutes": 958,
           "Poster": "/tz81JSiPdcLM7b624W1BcYdxd4D.jpg",
           "Gender": 2
         },
@@ -34157,13 +36472,23 @@ var data = {
           "ID": 11356,
           "FullName": "Imelda Staunton",
           "Amount": 7,
+          "Minutes": 827,
           "Poster": "/95KKeFajyuRlqc65mBBKgXkXGpL.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 4111,
+          "FullName": "Ingrid Bergman",
+          "Amount": 7,
+          "Minutes": 663,
+          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
           "Gender": 1
         },
         {
           "ID": 18999,
           "FullName": "J.K. Simmons",
           "Amount": 7,
+          "Minutes": 742,
           "Poster": "/lttONArmyaWqgZizymc4Jv5SFqy.jpg",
           "Gender": 2
         },
@@ -34171,6 +36496,7 @@ var data = {
           "ID": 1736,
           "FullName": "James Remar",
           "Amount": 7,
+          "Minutes": 960,
           "Poster": "/ctMVpFDKKWCty60lLORf3IoJcv9.jpg",
           "Gender": 2
         },
@@ -34178,6 +36504,7 @@ var data = {
           "ID": 6161,
           "FullName": "Jennifer Connelly",
           "Amount": 7,
+          "Minutes": 836,
           "Poster": "/bpILtSl6z5xc6YOAiPnDBlXDYMJ.jpg",
           "Gender": 1
         },
@@ -34185,6 +36512,7 @@ var data = {
           "ID": 84495,
           "FullName": "Jess Harnell",
           "Amount": 7,
+          "Minutes": 732,
           "Poster": "/zQ2zg7PL3ut4JhfXMKSRV4FMnxR.jpg",
           "Gender": 2
         },
@@ -34192,6 +36520,7 @@ var data = {
           "ID": 68842,
           "FullName": "John Cho",
           "Amount": 7,
+          "Minutes": 721,
           "Poster": "/4Lar4uy8gk78cEocq6ERPRFWt3e.jpg",
           "Gender": 2
         },
@@ -34199,6 +36528,7 @@ var data = {
           "ID": 16861,
           "FullName": "John Hawkes",
           "Amount": 7,
+          "Minutes": 737,
           "Poster": "/nJZ0womUC7r5vKWGkLclQuo8qIi.jpg",
           "Gender": 2
         },
@@ -34206,6 +36536,7 @@ var data = {
           "ID": 7907,
           "FullName": "John Ratzenberger",
           "Amount": 7,
+          "Minutes": 706,
           "Poster": "/oRtDEOuIO1yDhTz5dORBdxXuLMO.jpg",
           "Gender": 2
         },
@@ -34213,6 +36544,7 @@ var data = {
           "ID": 19498,
           "FullName": "Jon Bernthal",
           "Amount": 7,
+          "Minutes": 852,
           "Poster": "/2NZGL8ukRncF55S3seNn14Zj84i.jpg",
           "Gender": 2
         },
@@ -34220,6 +36552,7 @@ var data = {
           "ID": 24045,
           "FullName": "Joseph Gordon-Levitt",
           "Amount": 7,
+          "Minutes": 840,
           "Poster": "/z2FA8js799xqtfiFjBTicFYdfk.jpg",
           "Gender": 2
         },
@@ -34227,6 +36560,7 @@ var data = {
           "ID": 9642,
           "FullName": "Jude Law",
           "Amount": 7,
+          "Minutes": 877,
           "Poster": "/9H577IoqFgCXonDzR3QEkF2xo5m.jpg",
           "Gender": 2
         },
@@ -34234,13 +36568,23 @@ var data = {
           "ID": 1231,
           "FullName": "Julianne Moore",
           "Amount": 7,
+          "Minutes": 814,
           "Poster": "/3YF19rWusxWfEI59ZM33dFhasRq.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 205,
+          "FullName": "Kirsten Dunst",
+          "Amount": 7,
+          "Minutes": 781,
+          "Poster": "/6RAAxI4oPnDMzXpXWgkkzSgnIAJ.jpg",
           "Gender": 1
         },
         {
           "ID": 524,
           "FullName": "Natalie Portman",
           "Amount": 7,
+          "Minutes": 820,
           "Poster": "/edPU5HxncLWa1YkgRPNkSd68ONG.jpg",
           "Gender": 1
         },
@@ -34248,6 +36592,7 @@ var data = {
           "ID": 2141,
           "FullName": "Ned Bellamy",
           "Amount": 7,
+          "Minutes": 835,
           "Poster": "/9qj6thu0g6iUc2hvfoEYlO4GSbY.jpg",
           "Gender": 2
         },
@@ -34255,6 +36600,7 @@ var data = {
           "ID": 39187,
           "FullName": "Olivia Colman",
           "Amount": 7,
+          "Minutes": 769,
           "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg",
           "Gender": 1
         },
@@ -34262,6 +36608,7 @@ var data = {
           "ID": 1233,
           "FullName": "Philip Seymour Hoffman",
           "Amount": 7,
+          "Minutes": 911,
           "Poster": "/50rqDkmvXwjwVhFH7q6ph2Rkw7S.jpg",
           "Gender": 2
         },
@@ -34269,6 +36616,7 @@ var data = {
           "ID": 30614,
           "FullName": "Ryan Gosling",
           "Amount": 7,
+          "Minutes": 808,
           "Poster": "/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg",
           "Gender": 2
         },
@@ -34276,6 +36624,7 @@ var data = {
           "ID": 18277,
           "FullName": "Sandra Bullock",
           "Amount": 7,
+          "Minutes": 822,
           "Poster": "/hPHGKPAWZ8gArYXMk225rrYPoyJ.jpg",
           "Gender": 1
         },
@@ -34283,6 +36632,7 @@ var data = {
           "ID": 2138,
           "FullName": "Shawnee Smith",
           "Amount": 7,
+          "Minutes": 786,
           "Poster": "/s2Ouz4b7xqDH72aU48TSW5zS40v.jpg",
           "Gender": 1
         },
@@ -34290,6 +36640,7 @@ var data = {
           "ID": 2283,
           "FullName": "Stanley Tucci",
           "Amount": 7,
+          "Minutes": 860,
           "Poster": "/q4TanMDI5Rgsvw4SfyNbPBh4URr.jpg",
           "Gender": 2
         },
@@ -34297,6 +36648,7 @@ var data = {
           "ID": 537,
           "FullName": "Stephen Tobolowsky",
           "Amount": 7,
+          "Minutes": 758,
           "Poster": "/uL8yfcm0dCFYFQt052kczVQVvac.jpg",
           "Gender": 2
         },
@@ -34304,6 +36656,7 @@ var data = {
           "ID": 884,
           "FullName": "Steve Buscemi",
           "Amount": 7,
+          "Minutes": 846,
           "Poster": "/lQKdHMxfYcCBOvwRKBAxPZVNtkg.jpg",
           "Gender": 2
         },
@@ -34311,6 +36664,7 @@ var data = {
           "ID": 43010,
           "FullName": "Thomas Rosales Jr.",
           "Amount": 7,
+          "Minutes": 899,
           "Poster": "/tlJzLctGc6UmB7JQrkFcdMEuRx3.jpg",
           "Gender": 2
         },
@@ -34318,6 +36672,7 @@ var data = {
           "ID": 110,
           "FullName": "Viggo Mortensen",
           "Amount": 7,
+          "Minutes": 1018,
           "Poster": "/vH5gVSpHAMhDaFWfh0Q7BG61O1y.jpg",
           "Gender": 2
         },
@@ -34325,19 +36680,21 @@ var data = {
           "ID": 886,
           "FullName": "William Fichtner",
           "Amount": 7,
+          "Minutes": 958,
           "Poster": "/wWtJOoaNAwPparpzMNuRBjvxwEf.jpg",
           "Gender": 2
         }
       ]
     },
     "entirecast_0": {
-      "Total": 8456,
-      "Unique": 8328,
+      "Total": 8528,
+      "Unique": 8400,
       "PeopleData": [
         {
           "ID": 3000905,
           "FullName": "Burton Zucker",
           "Amount": 3,
+          "Minutes": 254,
           "Poster": "/qthRJ8Ah1jwDa1Gjh3YEh7K2Q6d.jpg",
           "Gender": 0
         },
@@ -34345,6 +36702,7 @@ var data = {
           "ID": 1236547,
           "FullName": "Harry Hutchinson",
           "Amount": 3,
+          "Minutes": 373,
           "Poster": "",
           "Gender": 0
         },
@@ -34352,6 +36710,7 @@ var data = {
           "ID": 1140088,
           "FullName": "J.J. Kandel",
           "Amount": 3,
+          "Minutes": 401,
           "Poster": "",
           "Gender": 0
         },
@@ -34359,6 +36718,7 @@ var data = {
           "ID": 179028,
           "FullName": "John Young",
           "Amount": 3,
+          "Minutes": 273,
           "Poster": "/gz9wbxh0QOF7sHdABcEij1nm8zE.jpg",
           "Gender": 0
         },
@@ -34366,6 +36726,7 @@ var data = {
           "ID": 4139056,
           "FullName": "Lazarus Lake",
           "Amount": 3,
+          "Minutes": 228,
           "Poster": "/bwVpm6sRM3u1d2vVgvOgyuWsLWs.jpg",
           "Gender": 0
         },
@@ -34373,6 +36734,7 @@ var data = {
           "ID": 1309154,
           "FullName": "Randall Paul",
           "Amount": 3,
+          "Minutes": 386,
           "Poster": "",
           "Gender": 0
         },
@@ -34380,6 +36742,7 @@ var data = {
           "ID": 953505,
           "FullName": "Abdoulaye NGom",
           "Amount": 2,
+          "Minutes": 217,
           "Poster": "/bQU2etlAnG5PxTfKx8Pyt23FBRB.jpg",
           "Gender": 0
         },
@@ -34387,6 +36750,7 @@ var data = {
           "ID": 2626925,
           "FullName": "Adrian Preater",
           "Amount": 2,
+          "Minutes": 272,
           "Poster": "",
           "Gender": 0
         },
@@ -34394,6 +36758,7 @@ var data = {
           "ID": 1522106,
           "FullName": "Afram Bill Williams",
           "Amount": 2,
+          "Minutes": 222,
           "Poster": "",
           "Gender": 0
         },
@@ -34401,6 +36766,7 @@ var data = {
           "ID": 2632815,
           "FullName": "Alex Procopio",
           "Amount": 2,
+          "Minutes": 269,
           "Poster": "",
           "Gender": 0
         },
@@ -34408,6 +36774,7 @@ var data = {
           "ID": 1237301,
           "FullName": "Andy Prosky",
           "Amount": 2,
+          "Minutes": 223,
           "Poster": "/jfDrzDZWGZBKFPqseIfK7bnjUbX.jpg",
           "Gender": 0
         },
@@ -34415,6 +36782,7 @@ var data = {
           "ID": 1367502,
           "FullName": "Andy Ryan",
           "Amount": 2,
+          "Minutes": 288,
           "Poster": "",
           "Gender": 0
         },
@@ -34422,6 +36790,7 @@ var data = {
           "ID": 40671,
           "FullName": "Anna Farnworth",
           "Amount": 2,
+          "Minutes": 222,
           "Poster": "",
           "Gender": 0
         },
@@ -34429,6 +36798,7 @@ var data = {
           "ID": 10986,
           "FullName": "Ben Borowiecki",
           "Amount": 2,
+          "Minutes": 313,
           "Poster": "",
           "Gender": 0
         },
@@ -34436,6 +36806,7 @@ var data = {
           "ID": 1607836,
           "FullName": "Bob Swerer Sr.",
           "Amount": 2,
+          "Minutes": 117,
           "Poster": "",
           "Gender": 0
         },
@@ -34443,6 +36814,7 @@ var data = {
           "ID": 568395,
           "FullName": "Bob Yves Van Hellenberg Hubar",
           "Amount": 2,
+          "Minutes": 276,
           "Poster": "",
           "Gender": 0
         },
@@ -34450,6 +36822,7 @@ var data = {
           "ID": 1193101,
           "FullName": "Bubba Dean Rambo",
           "Amount": 2,
+          "Minutes": 238,
           "Poster": "/62MjDPJQN8vDmjPX7ybPrKn14Ay.jpg",
           "Gender": 0
         },
@@ -34457,6 +36830,7 @@ var data = {
           "ID": 2931175,
           "FullName": "Caleb Archer",
           "Amount": 2,
+          "Minutes": 211,
           "Poster": "",
           "Gender": 0
         },
@@ -34464,6 +36838,7 @@ var data = {
           "ID": 2154096,
           "FullName": "Carl J. Johnson",
           "Amount": 2,
+          "Minutes": 186,
           "Poster": "",
           "Gender": 0
         },
@@ -34471,6 +36846,7 @@ var data = {
           "ID": 54721,
           "FullName": "Casey Margolis",
           "Amount": 2,
+          "Minutes": 213,
           "Poster": "",
           "Gender": 0
         },
@@ -34478,6 +36854,7 @@ var data = {
           "ID": 2949398,
           "FullName": "Charlie Watson",
           "Amount": 2,
+          "Minutes": 247,
           "Poster": "/5e8Za3eiZhxmLhcUJUtTgfF342B.jpg",
           "Gender": 0
         },
@@ -34485,6 +36862,7 @@ var data = {
           "ID": 52467,
           "FullName": "Cindy Daly",
           "Amount": 2,
+          "Minutes": 190,
           "Poster": "",
           "Gender": 0
         },
@@ -34492,6 +36870,7 @@ var data = {
           "ID": 1503838,
           "FullName": "Clifton 'Fou Fou' Eddie",
           "Amount": 2,
+          "Minutes": 236,
           "Poster": "/jIxkjRSTGvfnr06zVRHeOk3uDsb.jpg",
           "Gender": 0
         },
@@ -34499,6 +36878,7 @@ var data = {
           "ID": 1378664,
           "FullName": "Clint Ward",
           "Amount": 2,
+          "Minutes": 257,
           "Poster": "",
           "Gender": 0
         },
@@ -34506,6 +36886,7 @@ var data = {
           "ID": 1265139,
           "FullName": "David Katz",
           "Amount": 2,
+          "Minutes": 256,
           "Poster": "",
           "Gender": 0
         },
@@ -34513,6 +36894,7 @@ var data = {
           "ID": 1506479,
           "FullName": "Deema Aitken",
           "Amount": 2,
+          "Minutes": 276,
           "Poster": "/bNEhGDfuRUpxEfHlPaGYmM4LeUp.jpg",
           "Gender": 0
         },
@@ -34520,6 +36902,7 @@ var data = {
           "ID": 31118,
           "FullName": "Don Brockett",
           "Amount": 2,
+          "Minutes": 220,
           "Poster": "",
           "Gender": 0
         },
@@ -34527,6 +36910,7 @@ var data = {
           "ID": 1387766,
           "FullName": "Doug Roberts",
           "Amount": 2,
+          "Minutes": 218,
           "Poster": "",
           "Gender": 0
         },
@@ -34534,6 +36918,7 @@ var data = {
           "ID": 1646992,
           "FullName": "Duffy Gaver",
           "Amount": 2,
+          "Minutes": 389,
           "Poster": "/14yzdJuofSlzYvzfa4v8cSrSxFe.jpg",
           "Gender": 0
         },
@@ -34541,6 +36926,7 @@ var data = {
           "ID": 1392774,
           "FullName": "E. Matthew Yavne",
           "Amount": 2,
+          "Minutes": 228,
           "Poster": "",
           "Gender": 0
         },
@@ -34548,6 +36934,7 @@ var data = {
           "ID": 227460,
           "FullName": "Eddie Holden",
           "Amount": 2,
+          "Minutes": 134,
           "Poster": "",
           "Gender": 0
         },
@@ -34555,6 +36942,7 @@ var data = {
           "ID": 1539591,
           "FullName": "Eden Falk",
           "Amount": 2,
+          "Minutes": 245,
           "Poster": "",
           "Gender": 0
         },
@@ -34562,6 +36950,7 @@ var data = {
           "ID": 1985977,
           "FullName": "Eric Sigmundsson",
           "Amount": 2,
+          "Minutes": 270,
           "Poster": "/25d39zqpgnuCOi7FXnVZfgA2vk7.jpg",
           "Gender": 0
         },
@@ -34569,6 +36958,7 @@ var data = {
           "ID": 1569711,
           "FullName": "Erica Grant",
           "Amount": 2,
+          "Minutes": 273,
           "Poster": "",
           "Gender": 0
         },
@@ -34576,6 +36966,7 @@ var data = {
           "ID": 2949399,
           "FullName": "Eva Samms",
           "Amount": 2,
+          "Minutes": 247,
           "Poster": "",
           "Gender": 0
         },
@@ -34583,6 +36974,7 @@ var data = {
           "ID": 84064,
           "FullName": "F. Valentino Morales",
           "Amount": 2,
+          "Minutes": 230,
           "Poster": "/3rqEJlOs5qdfxb1P4OYKGHiYzDO.jpg",
           "Gender": 0
         },
@@ -34590,6 +36982,7 @@ var data = {
           "ID": 2247109,
           "FullName": "Fifi Hart",
           "Amount": 2,
+          "Minutes": 247,
           "Poster": "/TwQrkHkSVtq2NArM5n5p9lujPF.jpg",
           "Gender": 0
         },
@@ -34597,6 +36990,7 @@ var data = {
           "ID": 171851,
           "FullName": "Fran McGee",
           "Amount": 2,
+          "Minutes": 265,
           "Poster": "",
           "Gender": 0
         },
@@ -34604,6 +36998,7 @@ var data = {
           "ID": 1770993,
           "FullName": "Gaetano Lisi",
           "Amount": 2,
+          "Minutes": 238,
           "Poster": "",
           "Gender": 0
         },
@@ -34611,6 +37006,7 @@ var data = {
           "ID": 2088551,
           "FullName": "G\u00E9rard L'Heureux",
           "Amount": 2,
+          "Minutes": 233,
           "Poster": "",
           "Gender": 0
         },
@@ -34618,6 +37014,7 @@ var data = {
           "ID": 1200792,
           "FullName": "Granville 'Danny' Young",
           "Amount": 2,
+          "Minutes": 224,
           "Poster": "/yZb1cIcFKL0V5wchWRSYnYBRsvH.jpg",
           "Gender": 0
         },
@@ -34625,6 +37022,7 @@ var data = {
           "ID": 1838565,
           "FullName": "Hans Georg Struhar",
           "Amount": 2,
+          "Minutes": 261,
           "Poster": "",
           "Gender": 0
         },
@@ -34632,6 +37030,7 @@ var data = {
           "ID": 1651955,
           "FullName": "Harold Gervais",
           "Amount": 2,
+          "Minutes": 295,
           "Poster": "",
           "Gender": 0
         },
@@ -34639,6 +37038,7 @@ var data = {
           "ID": 1314246,
           "FullName": "Howard Spiegel",
           "Amount": 2,
+          "Minutes": 207,
           "Poster": "",
           "Gender": 0
         },
@@ -34646,6 +37046,7 @@ var data = {
           "ID": 1977051,
           "FullName": "Ian Harrod",
           "Amount": 2,
+          "Minutes": 246,
           "Poster": "",
           "Gender": 0
         },
@@ -34653,6 +37054,7 @@ var data = {
           "ID": 1163717,
           "FullName": "Isaiah Stone",
           "Amount": 2,
+          "Minutes": 210,
           "Poster": "/xoOFTn5wpqxKv6cnPtAv4Xs36G7.jpg",
           "Gender": 0
         },
@@ -34660,6 +37062,7 @@ var data = {
           "ID": 4045400,
           "FullName": "Jacques Disses",
           "Amount": 2,
+          "Minutes": 190,
           "Poster": "",
           "Gender": 0
         },
@@ -34667,6 +37070,7 @@ var data = {
           "ID": 77014,
           "FullName": "Janni Brenn",
           "Amount": 2,
+          "Minutes": 209,
           "Poster": "/gwnUDoLEc8OfAH6GdV21trOTnmd.jpg",
           "Gender": 0
         },
@@ -34674,6 +37078,7 @@ var data = {
           "ID": 1375036,
           "FullName": "Jason Konopisos-Alvarez",
           "Amount": 2,
+          "Minutes": 185,
           "Poster": "/vWunN0rdthwvaX3FOj1tmQIMylD.jpg",
           "Gender": 0
         },
@@ -34681,6 +37086,7 @@ var data = {
           "ID": 1047726,
           "FullName": "Jason Maves",
           "Amount": 2,
+          "Minutes": 249,
           "Poster": "",
           "Gender": 0
         },
@@ -34688,6 +37094,7 @@ var data = {
           "ID": 37824,
           "FullName": "Jed Gillin",
           "Amount": 2,
+          "Minutes": 258,
           "Poster": "",
           "Gender": 0
         },
@@ -34695,6 +37102,7 @@ var data = {
           "ID": 1379081,
           "FullName": "Jerald Vincent",
           "Amount": 2,
+          "Minutes": 192,
           "Poster": "",
           "Gender": 0
         },
@@ -34702,6 +37110,7 @@ var data = {
           "ID": 2458257,
           "FullName": "Jessica Hale",
           "Amount": 2,
+          "Minutes": 235,
           "Poster": "",
           "Gender": 0
         },
@@ -34709,6 +37118,7 @@ var data = {
           "ID": 2423261,
           "FullName": "John Robb",
           "Amount": 2,
+          "Minutes": 240,
           "Poster": "",
           "Gender": 0
         },
@@ -34716,6 +37126,7 @@ var data = {
           "ID": 2306798,
           "FullName": "Joyce Flick Wendl",
           "Amount": 2,
+          "Minutes": 218,
           "Poster": "",
           "Gender": 0
         },
@@ -34723,6 +37134,7 @@ var data = {
           "ID": 949895,
           "FullName": "Judi M. Durand",
           "Amount": 2,
+          "Minutes": 186,
           "Poster": "/c6BBWqnfZoFhT1KpwOuMnBF0kNh.jpg",
           "Gender": 0
         },
@@ -34730,6 +37142,7 @@ var data = {
           "ID": 568394,
           "FullName": "Judith Sharp",
           "Amount": 2,
+          "Minutes": 276,
           "Poster": "",
           "Gender": 0
         },
@@ -34737,6 +37150,7 @@ var data = {
           "ID": 1379150,
           "FullName": "Judy Ovitz",
           "Amount": 2,
+          "Minutes": 217,
           "Poster": "",
           "Gender": 0
         },
@@ -34744,6 +37158,7 @@ var data = {
           "ID": 156788,
           "FullName": "Julia Pearlstein",
           "Amount": 2,
+          "Minutes": 203,
           "Poster": "",
           "Gender": 0
         },
@@ -34751,6 +37166,7 @@ var data = {
           "ID": 1535021,
           "FullName": "Justin Hackney",
           "Amount": 2,
+          "Minutes": 212,
           "Poster": "",
           "Gender": 0
         },
@@ -34758,6 +37174,7 @@ var data = {
           "ID": 2949400,
           "FullName": "Karina Samms",
           "Amount": 2,
+          "Minutes": 247,
           "Poster": "",
           "Gender": 0
         },
@@ -34765,6 +37182,7 @@ var data = {
           "ID": 1716449,
           "FullName": "Kevin Patrick Kelly",
           "Amount": 2,
+          "Minutes": 246,
           "Poster": "",
           "Gender": 0
         },
@@ -34772,6 +37190,7 @@ var data = {
           "ID": 1542616,
           "FullName": "Kimberly Bailey",
           "Amount": 2,
+          "Minutes": 172,
           "Poster": "/6es4CpmmlA7j6VCxpVvlSTfvi76.jpg",
           "Gender": 0
         },
@@ -34779,6 +37198,7 @@ var data = {
           "ID": 1741692,
           "FullName": "Kris Andersson",
           "Amount": 2,
+          "Minutes": 314,
           "Poster": "",
           "Gender": 0
         },
@@ -34786,6 +37206,7 @@ var data = {
           "ID": 192268,
           "FullName": "Lawrence T. Wrentz",
           "Amount": 2,
+          "Minutes": 228,
           "Poster": "/sDi4IxpyGQnId2PETXMep4TuCmL.jpg",
           "Gender": 0
         },
@@ -34793,6 +37214,7 @@ var data = {
           "ID": 2082666,
           "FullName": "Lee Hartley",
           "Amount": 2,
+          "Minutes": 380,
           "Poster": "/bOx0jOOgP1VOvBPK6CIZ0oQVOyP.jpg",
           "Gender": 0
         },
@@ -34800,6 +37222,7 @@ var data = {
           "ID": 103229,
           "FullName": "Lee Terri",
           "Amount": 2,
+          "Minutes": 173,
           "Poster": "",
           "Gender": 0
         },
@@ -34807,6 +37230,7 @@ var data = {
           "ID": 4249578,
           "FullName": "Leslie Maier",
           "Amount": 2,
+          "Minutes": 171,
           "Poster": "",
           "Gender": 0
         },
@@ -34814,6 +37238,7 @@ var data = {
           "ID": 2011839,
           "FullName": "Lisa Reynolds",
           "Amount": 2,
+          "Minutes": 256,
           "Poster": "/kBFTzvYveef33Ci4PlKuDe7wGuD.jpg",
           "Gender": 0
         },
@@ -34821,6 +37246,7 @@ var data = {
           "ID": 1200794,
           "FullName": "Lloyd L. Tolbert",
           "Amount": 2,
+          "Minutes": 224,
           "Poster": "/a2fYqHKHWlNOt8EQ2Xt0QLmv8zE.jpg",
           "Gender": 0
         },
@@ -34828,6 +37254,7 @@ var data = {
           "ID": 1780367,
           "FullName": "Manfred Witt",
           "Amount": 2,
+          "Minutes": 239,
           "Poster": "",
           "Gender": 0
         },
@@ -34835,6 +37262,7 @@ var data = {
           "ID": 2670694,
           "FullName": "Marion Gray",
           "Amount": 2,
+          "Minutes": 216,
           "Poster": "",
           "Gender": 0
         },
@@ -34842,6 +37270,7 @@ var data = {
           "ID": 2614645,
           "FullName": "Marisa Johnston",
           "Amount": 2,
+          "Minutes": 243,
           "Poster": "",
           "Gender": 0
         },
@@ -34849,6 +37278,7 @@ var data = {
           "ID": 176228,
           "FullName": "Mark Spalding",
           "Amount": 2,
+          "Minutes": 224,
           "Poster": "/nPYMu2B7Iu3faMa9TpAAsqhU6RL.jpg",
           "Gender": 0
         },
@@ -34856,6 +37286,7 @@ var data = {
           "ID": 2021331,
           "FullName": "Michael Hansen",
           "Amount": 2,
+          "Minutes": 223,
           "Poster": "",
           "Gender": 0
         },
@@ -34863,6 +37294,7 @@ var data = {
           "ID": 1872824,
           "FullName": "Michael N. Fujimoto",
           "Amount": 2,
+          "Minutes": 245,
           "Poster": "",
           "Gender": 0
         },
@@ -34870,6 +37302,7 @@ var data = {
           "ID": 1726332,
           "FullName": "Michel Lisowski",
           "Amount": 2,
+          "Minutes": 190,
           "Poster": "",
           "Gender": 0
         },
@@ -34877,6 +37310,7 @@ var data = {
           "ID": 1392686,
           "FullName": "Mike Garibaldi",
           "Amount": 2,
+          "Minutes": 229,
           "Poster": "",
           "Gender": 0
         },
@@ -34884,6 +37318,7 @@ var data = {
           "ID": 1803774,
           "FullName": "Monica Devereux",
           "Amount": 2,
+          "Minutes": 223,
           "Poster": "/qiAHx2rn5yajaqaXsLdfe83zM2w.jpg",
           "Gender": 0
         },
@@ -34891,6 +37326,7 @@ var data = {
           "ID": 1569718,
           "FullName": "Morgan Eastwood",
           "Amount": 2,
+          "Minutes": 273,
           "Poster": "",
           "Gender": 0
         },
@@ -34898,6 +37334,7 @@ var data = {
           "ID": 175393,
           "FullName": "Nick Ewans",
           "Amount": 2,
+          "Minutes": 212,
           "Poster": "/sDNGQJ30Yb2Ip9YIx3Zui8Opxo.jpg",
           "Gender": 0
         },
@@ -34905,6 +37342,7 @@ var data = {
           "ID": 1392786,
           "FullName": "Nicole Brier",
           "Amount": 2,
+          "Minutes": 239,
           "Poster": "",
           "Gender": 0
         },
@@ -34912,6 +37350,7 @@ var data = {
           "ID": 213391,
           "FullName": "Nizwar Karanj",
           "Amount": 2,
+          "Minutes": 215,
           "Poster": "",
           "Gender": 0
         },
@@ -34919,6 +37358,7 @@ var data = {
           "ID": 1865313,
           "FullName": "Oliver Barker",
           "Amount": 2,
+          "Minutes": 247,
           "Poster": "",
           "Gender": 0
         },
@@ -34926,6 +37366,7 @@ var data = {
           "ID": 1781527,
           "FullName": "Paige Pollack",
           "Amount": 2,
+          "Minutes": 199,
           "Poster": "",
           "Gender": 0
         },
@@ -34933,6 +37374,7 @@ var data = {
           "ID": 1433510,
           "FullName": "Patrick Illig",
           "Amount": 2,
+          "Minutes": 264,
           "Poster": "",
           "Gender": 0
         },
@@ -34940,6 +37382,7 @@ var data = {
           "ID": 1493821,
           "FullName": "Patrick Shea",
           "Amount": 2,
+          "Minutes": 251,
           "Poster": "",
           "Gender": 0
         },
@@ -34947,6 +37390,7 @@ var data = {
           "ID": 1231415,
           "FullName": "Paul Doonan",
           "Amount": 2,
+          "Minutes": 178,
           "Poster": "",
           "Gender": 0
         },
@@ -34954,6 +37398,7 @@ var data = {
           "ID": 1648657,
           "FullName": "Paul Garcia",
           "Amount": 2,
+          "Minutes": 285,
           "Poster": "",
           "Gender": 0
         },
@@ -34961,6 +37406,7 @@ var data = {
           "ID": 568393,
           "FullName": "Peter G. Reed",
           "Amount": 2,
+          "Minutes": 276,
           "Poster": "",
           "Gender": 0
         },
@@ -34968,6 +37414,7 @@ var data = {
           "ID": 138097,
           "FullName": "Peter Hock",
           "Amount": 2,
+          "Minutes": 261,
           "Poster": "",
           "Gender": 0
         },
@@ -34975,6 +37422,7 @@ var data = {
           "ID": 2021332,
           "FullName": "Peter Pantaleo",
           "Amount": 2,
+          "Minutes": 223,
           "Poster": "",
           "Gender": 0
         },
@@ -34982,6 +37430,7 @@ var data = {
           "ID": 158045,
           "FullName": "Phillip Troy Linger",
           "Amount": 2,
+          "Minutes": 279,
           "Poster": "/2u66AE59z9CpGSkP08Y5LnoYWlw.jpg",
           "Gender": 0
         },
@@ -34989,6 +37438,7 @@ var data = {
           "ID": 46346,
           "FullName": "Rich Turner",
           "Amount": 2,
+          "Minutes": 253,
           "Poster": "/1CbZLB0OczrxfPgwEjpFvx8II5x.jpg",
           "Gender": 0
         },
@@ -34996,6 +37446,7 @@ var data = {
           "ID": 1488514,
           "FullName": "Richard Caruso",
           "Amount": 2,
+          "Minutes": 206,
           "Poster": "",
           "Gender": 0
         },
@@ -35003,6 +37454,7 @@ var data = {
           "ID": 1531448,
           "FullName": "Robert J. Elisberg",
           "Amount": 2,
+          "Minutes": 168,
           "Poster": "",
           "Gender": 0
         },
@@ -35010,6 +37462,7 @@ var data = {
           "ID": 545572,
           "FullName": "Roberta Hanley",
           "Amount": 2,
+          "Minutes": 202,
           "Poster": "",
           "Gender": 0
         },
@@ -35017,6 +37470,7 @@ var data = {
           "ID": 3365615,
           "FullName": "Robyn Elwell",
           "Amount": 2,
+          "Minutes": 221,
           "Poster": "",
           "Gender": 0
         },
@@ -35024,6 +37478,7 @@ var data = {
           "ID": 1674112,
           "FullName": "Rod Sell",
           "Amount": 2,
+          "Minutes": 221,
           "Poster": "",
           "Gender": 0
         },
@@ -35031,6 +37486,7 @@ var data = {
           "ID": 1805901,
           "FullName": "Ron Young",
           "Amount": 2,
+          "Minutes": 229,
           "Poster": "",
           "Gender": 0
         },
@@ -35038,6 +37494,7 @@ var data = {
           "ID": 2125187,
           "FullName": "Ronnie Yoshiko Fujiyama",
           "Amount": 2,
+          "Minutes": 247,
           "Poster": "/7HeaPJGUqE3uJVlTQQLIDyvicNW.jpg",
           "Gender": 0
         },
@@ -35045,6 +37502,7 @@ var data = {
           "ID": 2432592,
           "FullName": "Ryan Ramirez",
           "Amount": 2,
+          "Minutes": 291,
           "Poster": "",
           "Gender": 0
         },
@@ -35052,6 +37510,7 @@ var data = {
           "ID": 240770,
           "FullName": "Scott Beringer",
           "Amount": 2,
+          "Minutes": 239,
           "Poster": "",
           "Gender": 0
         },
@@ -35059,6 +37518,7 @@ var data = {
           "ID": 1734184,
           "FullName": "Shyan Tonga",
           "Amount": 2,
+          "Minutes": 270,
           "Poster": "",
           "Gender": 0
         },
@@ -35066,6 +37526,7 @@ var data = {
           "ID": 60854,
           "FullName": "Somkuan 'Kuan' Siroon",
           "Amount": 2,
+          "Minutes": 239,
           "Poster": "",
           "Gender": 0
         },
@@ -35073,6 +37534,7 @@ var data = {
           "ID": 1854342,
           "FullName": "Sonni Chidiebere",
           "Amount": 2,
+          "Minutes": 234,
           "Poster": "",
           "Gender": 0
         },
@@ -35080,6 +37542,7 @@ var data = {
           "ID": 2150236,
           "FullName": "Steve Ruge",
           "Amount": 2,
+          "Minutes": 262,
           "Poster": "",
           "Gender": 0
         },
@@ -35087,6 +37550,7 @@ var data = {
           "ID": 1218231,
           "FullName": "Susan Varon",
           "Amount": 2,
+          "Minutes": 243,
           "Poster": "/vZksgxU5BMSYif3G1PPBg3gC6S0.jpg",
           "Gender": 0
         },
@@ -35094,6 +37558,7 @@ var data = {
           "ID": 2154091,
           "FullName": "Thom Fountain",
           "Amount": 2,
+          "Minutes": 186,
           "Poster": "",
           "Gender": 0
         },
@@ -35101,6 +37566,7 @@ var data = {
           "ID": 1841433,
           "FullName": "Thom Osborn",
           "Amount": 2,
+          "Minutes": 186,
           "Poster": "",
           "Gender": 0
         },
@@ -35108,6 +37574,7 @@ var data = {
           "ID": 1172392,
           "FullName": "Tom Morris",
           "Amount": 2,
+          "Minutes": 246,
           "Poster": "",
           "Gender": 0
         },
@@ -35115,6 +37582,7 @@ var data = {
           "ID": 3750710,
           "FullName": "Tom Nolan",
           "Amount": 2,
+          "Minutes": 247,
           "Poster": "",
           "Gender": 0
         },
@@ -35122,6 +37590,7 @@ var data = {
           "ID": 2156085,
           "FullName": "Tom Whitenight",
           "Amount": 2,
+          "Minutes": 233,
           "Poster": "/ncLgcHNUul1HYsiqZK50vx06G1X.jpg",
           "Gender": 0
         },
@@ -35129,6 +37598,7 @@ var data = {
           "ID": 1200791,
           "FullName": "Tommy Thomas",
           "Amount": 2,
+          "Minutes": 224,
           "Poster": "/zr179n9ays1bN1e2UgPx1yNIIeo.jpg",
           "Gender": 0
         },
@@ -35136,6 +37606,7 @@ var data = {
           "ID": 568396,
           "FullName": "Tony Kirwood",
           "Amount": 2,
+          "Minutes": 276,
           "Poster": "",
           "Gender": 0
         },
@@ -35143,6 +37614,7 @@ var data = {
           "ID": 205150,
           "FullName": "Ty Granderson Jones",
           "Amount": 2,
+          "Minutes": 223,
           "Poster": "/9oHPeVWxKofKTnIMbbloW7uT2U8.jpg",
           "Gender": 0
         },
@@ -35150,6 +37622,7 @@ var data = {
           "ID": 30148,
           "FullName": "Van Ling",
           "Amount": 2,
+          "Minutes": 331,
           "Poster": "",
           "Gender": 0
         },
@@ -35157,6 +37630,7 @@ var data = {
           "ID": 2311637,
           "FullName": "Wayne A. Evenson",
           "Amount": 2,
+          "Minutes": 219,
           "Poster": "",
           "Gender": 0
         },
@@ -35164,6 +37638,7 @@ var data = {
           "ID": 1815533,
           "FullName": "Wendy Hogan",
           "Amount": 2,
+          "Minutes": 168,
           "Poster": "",
           "Gender": 0
         },
@@ -35171,6 +37646,7 @@ var data = {
           "ID": 2478219,
           "FullName": "Will Coogan",
           "Amount": 2,
+          "Minutes": 233,
           "Poster": "",
           "Gender": 0
         },
@@ -35178,6 +37654,7 @@ var data = {
           "ID": 1654747,
           "FullName": "Yoshiko Yamaguchi",
           "Amount": 2,
+          "Minutes": 247,
           "Poster": "",
           "Gender": 0
         },
@@ -35185,19 +37662,21 @@ var data = {
           "ID": 1865309,
           "FullName": "Zac Barker",
           "Amount": 2,
+          "Minutes": 247,
           "Poster": "",
           "Gender": 0
         }
       ]
     },
     "entirecast_1": {
-      "Total": 8827,
-      "Unique": 6890,
+      "Total": 8953,
+      "Unique": 6981,
       "PeopleData": [
         {
           "ID": 6886,
           "FullName": "Christina Ricci",
           "Amount": 21,
+          "Minutes": 2164,
           "Poster": "/dzB58d6fNrTEi7nBAU1tySJc2at.jpg",
           "Gender": 1
         },
@@ -35205,6 +37684,7 @@ var data = {
           "ID": 10978,
           "FullName": "Maggie Smith",
           "Amount": 14,
+          "Minutes": 1837,
           "Poster": "/qZyJ7DaOtkfqw58Iv7EqADi428P.jpg",
           "Gender": 1
         },
@@ -35212,6 +37692,7 @@ var data = {
           "ID": 10990,
           "FullName": "Emma Watson",
           "Amount": 13,
+          "Minutes": 1729,
           "Poster": "/A14lLCZYDhfYdBa0fFRpwMDiwRN.jpg",
           "Gender": 1
         },
@@ -35219,6 +37700,7 @@ var data = {
           "ID": 1932,
           "FullName": "Audrey Hepburn",
           "Amount": 12,
+          "Minutes": 1437,
           "Poster": "9SFLosAt3chN3MZBTYg9VQfXDPF.jpg",
           "Gender": 1
         },
@@ -35226,6 +37708,7 @@ var data = {
           "ID": 6941,
           "FullName": "Cameron Diaz",
           "Amount": 11,
+          "Minutes": 1152,
           "Poster": "/y5DitIz69LzqFCTZd1omRpalpMy.jpg",
           "Gender": 1
         },
@@ -35233,6 +37716,7 @@ var data = {
           "ID": 936970,
           "FullName": "Julia Garner",
           "Amount": 11,
+          "Minutes": 1031,
           "Poster": "hM4wijORSEE3UqyRCLHZmKMTF02.jpg",
           "Gender": 1
         },
@@ -35240,6 +37724,7 @@ var data = {
           "ID": 3293,
           "FullName": "Rachel Weisz",
           "Amount": 11,
+          "Minutes": 1207,
           "Poster": "/msTqKPA33ryVtcVNgOdeaJGYq16.jpg",
           "Gender": 1
         },
@@ -35247,6 +37732,7 @@ var data = {
           "ID": 112,
           "FullName": "Cate Blanchett",
           "Amount": 10,
+          "Minutes": 1403,
           "Poster": "/9V83uemR0ra9Wd9iRXTMlfAQlTB.jpg",
           "Gender": 1
         },
@@ -35254,6 +37740,7 @@ var data = {
           "ID": 72129,
           "FullName": "Jennifer Lawrence",
           "Amount": 10,
+          "Minutes": 1173,
           "Poster": "/k6CsASaySnS3ag0Y2Ns2vqPahVn.jpg",
           "Gender": 1
         },
@@ -35261,6 +37748,7 @@ var data = {
           "ID": 477,
           "FullName": "Julie Walters",
           "Amount": 10,
+          "Minutes": 1317,
           "Poster": "/brjHeYleabCyEyJ7ugMyjjpLsFF.jpg",
           "Gender": 1
         },
@@ -35268,6 +37756,7 @@ var data = {
           "ID": 54693,
           "FullName": "Emma Stone",
           "Amount": 9,
+          "Minutes": 1128,
           "Poster": "/sFlktjWgUANqfUnqWJOhzICvp4v.jpg",
           "Gender": 1
         },
@@ -35275,13 +37764,15 @@ var data = {
           "ID": 1373737,
           "FullName": "Florence Pugh",
           "Amount": 9,
-          "Poster": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
+          "Minutes": 1105,
+          "Poster": "f8e41Oon18FiEZr4zgyJDVUqOeh.jpg",
           "Gender": 1
         },
         {
           "ID": 10988,
           "FullName": "Geraldine Somerville",
           "Amount": 9,
+          "Minutes": 1267,
           "Poster": "/vyLIquF45MpN6OOPmk8L7gnmKrY.jpg",
           "Gender": 1
         },
@@ -35289,6 +37780,7 @@ var data = {
           "ID": 20089,
           "FullName": "Jena Malone",
           "Amount": 9,
+          "Minutes": 1123,
           "Poster": "/1qmkanVCFr3ZaXcxSXVDO8andb0.jpg",
           "Gender": 1
         },
@@ -35296,6 +37788,7 @@ var data = {
           "ID": 3063,
           "FullName": "Tilda Swinton",
           "Amount": 9,
+          "Minutes": 940,
           "Poster": "/gWbX3a7V2MgRMRzekfITNcb27xV.jpg",
           "Gender": 1
         },
@@ -35303,6 +37796,7 @@ var data = {
           "ID": 19,
           "FullName": "Allison Janney",
           "Amount": 8,
+          "Minutes": 913,
           "Poster": "/hpBKWV1jjoXQbr1s0iUZTSvw582.jpg",
           "Gender": 1
         },
@@ -35310,6 +37804,7 @@ var data = {
           "ID": 10991,
           "FullName": "Bonnie Wright",
           "Amount": 8,
+          "Minutes": 1178,
           "Poster": "/eCDdCvGYYlUM3neNJ1dwaPEgzqG.jpg",
           "Gender": 1
         },
@@ -35317,6 +37812,7 @@ var data = {
           "ID": 13023,
           "FullName": "Colleen Camp",
           "Amount": 8,
+          "Minutes": 902,
           "Poster": "/hNAIkUVtsQfpC95BDkXr1lmoI2F.jpg",
           "Gender": 1
         },
@@ -35324,6 +37820,7 @@ var data = {
           "ID": 7056,
           "FullName": "Emma Thompson",
           "Amount": 8,
+          "Minutes": 988,
           "Poster": "/xr8Ki3CIqweWWqS5q0kUYdiK6oQ.jpg",
           "Gender": 1
         },
@@ -35331,6 +37828,7 @@ var data = {
           "ID": 9138,
           "FullName": "Gemma Jones",
           "Amount": 8,
+          "Minutes": 939,
           "Poster": "/hFApnOEWXyE55ONGGXis6a0PPHM.jpg",
           "Gender": 1
         },
@@ -35338,6 +37836,7 @@ var data = {
           "ID": 368,
           "FullName": "Reese Witherspoon",
           "Amount": 8,
+          "Minutes": 847,
           "Poster": "/ByeTccPuvVwtWrvkPpldFP38rS.jpg",
           "Gender": 1
         },
@@ -35345,6 +37844,7 @@ var data = {
           "ID": 1245,
           "FullName": "Scarlett Johansson",
           "Amount": 8,
+          "Minutes": 930,
           "Poster": "zHPkXk66ucTVtSij8lVJKg21LLs.jpg",
           "Gender": 1
         },
@@ -35352,6 +37852,7 @@ var data = {
           "ID": 10205,
           "FullName": "Sigourney Weaver",
           "Amount": 8,
+          "Minutes": 925,
           "Poster": "/flfhep27iBxseZIlxOMHt6zJFX1.jpg",
           "Gender": 1
         },
@@ -35359,6 +37860,7 @@ var data = {
           "ID": 11701,
           "FullName": "Angelina Jolie",
           "Amount": 7,
+          "Minutes": 830,
           "Poster": "/bXNxIKcJ5cNNW8QFrBPWcfTSu9x.jpg",
           "Gender": 1
         },
@@ -35366,6 +37868,7 @@ var data = {
           "ID": 1283,
           "FullName": "Helena Bonham Carter",
           "Amount": 7,
+          "Minutes": 932,
           "Poster": "/DDeITcCpnBd0CkAIRPhggy9bt5.jpg",
           "Gender": 1
         },
@@ -35373,13 +37876,23 @@ var data = {
           "ID": 11356,
           "FullName": "Imelda Staunton",
           "Amount": 7,
+          "Minutes": 827,
           "Poster": "/95KKeFajyuRlqc65mBBKgXkXGpL.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 4111,
+          "FullName": "Ingrid Bergman",
+          "Amount": 7,
+          "Minutes": 663,
+          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
           "Gender": 1
         },
         {
           "ID": 6161,
           "FullName": "Jennifer Connelly",
           "Amount": 7,
+          "Minutes": 836,
           "Poster": "/bpILtSl6z5xc6YOAiPnDBlXDYMJ.jpg",
           "Gender": 1
         },
@@ -35387,13 +37900,23 @@ var data = {
           "ID": 1231,
           "FullName": "Julianne Moore",
           "Amount": 7,
+          "Minutes": 814,
           "Poster": "/3YF19rWusxWfEI59ZM33dFhasRq.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 205,
+          "FullName": "Kirsten Dunst",
+          "Amount": 7,
+          "Minutes": 781,
+          "Poster": "/6RAAxI4oPnDMzXpXWgkkzSgnIAJ.jpg",
           "Gender": 1
         },
         {
           "ID": 524,
           "FullName": "Natalie Portman",
           "Amount": 7,
+          "Minutes": 820,
           "Poster": "/edPU5HxncLWa1YkgRPNkSd68ONG.jpg",
           "Gender": 1
         },
@@ -35401,6 +37924,7 @@ var data = {
           "ID": 39187,
           "FullName": "Olivia Colman",
           "Amount": 7,
+          "Minutes": 769,
           "Poster": "/4ZwZ66zXZyX26Kf2wfeMt1tQZQf.jpg",
           "Gender": 1
         },
@@ -35408,6 +37932,7 @@ var data = {
           "ID": 18277,
           "FullName": "Sandra Bullock",
           "Amount": 7,
+          "Minutes": 822,
           "Poster": "/hPHGKPAWZ8gArYXMk225rrYPoyJ.jpg",
           "Gender": 1
         },
@@ -35415,6 +37940,7 @@ var data = {
           "ID": 2138,
           "FullName": "Shawnee Smith",
           "Amount": 7,
+          "Minutes": 786,
           "Poster": "/s2Ouz4b7xqDH72aU48TSW5zS40v.jpg",
           "Gender": 1
         },
@@ -35422,20 +37948,39 @@ var data = {
           "ID": 10691,
           "FullName": "April Grace",
           "Amount": 6,
+          "Minutes": 702,
           "Poster": "/nV8nnymN0ClT3xppwhlAtUnjSxa.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 119592,
+          "FullName": "Aubrey Plaza",
+          "Amount": 6,
+          "Minutes": 583,
+          "Poster": "/7MWqITTynu0ZGqeshaNj89s8G1X.jpg",
           "Gender": 1
         },
         {
           "ID": 328,
           "FullName": "Brittany Murphy",
           "Amount": 6,
+          "Minutes": 665,
           "Poster": "/uLOrqcSk2h5o3ekNfcuGFDzN13W.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 50,
+          "FullName": "Catherine Deneuve",
+          "Amount": 6,
+          "Minutes": 679,
+          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
           "Gender": 1
         },
         {
           "ID": 3202,
           "FullName": "Edie McClurg",
           "Amount": 6,
+          "Minutes": 597,
           "Poster": "/vU5y4hZe1WhqDAPP5jEfrWv4Iaq.jpg",
           "Gender": 1
         },
@@ -35443,20 +37988,15 @@ var data = {
           "ID": 9281,
           "FullName": "Elizabeth Banks",
           "Amount": 6,
+          "Minutes": 804,
           "Poster": "/q0wvK0Nr6FCpvx9UCMTqTby6kNW.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 4111,
-          "FullName": "Ingrid Bergman",
-          "Amount": 6,
-          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
           "Gender": 1
         },
         {
           "ID": 11148,
           "FullName": "Joan Allen",
           "Amount": 6,
+          "Minutes": 715,
           "Poster": "/2w40UhN3WoW9G9EkLzhDcfF3t9W.jpg",
           "Gender": 1
         },
@@ -35464,6 +38004,7 @@ var data = {
           "ID": 1204,
           "FullName": "Julia Roberts",
           "Amount": 6,
+          "Minutes": 725,
           "Poster": "/AhQMyQ10kz5g8Y3Fp54GPhgDxQS.jpg",
           "Gender": 1
         },
@@ -35471,6 +38012,7 @@ var data = {
           "ID": 204,
           "FullName": "Kate Winslet",
           "Amount": 6,
+          "Minutes": 801,
           "Poster": "/e3tdop3WhseRnn8KwMVLAV25Ybv.jpg",
           "Gender": 1
         },
@@ -35478,20 +38020,15 @@ var data = {
           "ID": 3897,
           "FullName": "Katie Holmes",
           "Amount": 6,
+          "Minutes": 635,
           "Poster": "/gDhc9rLbhpXdY8lISD7yPiIhvp4.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 205,
-          "FullName": "Kirsten Dunst",
-          "Amount": 6,
-          "Poster": "/6RAAxI4oPnDMzXpXWgkkzSgnIAJ.jpg",
           "Gender": 1
         },
         {
           "ID": 37917,
           "FullName": "Kristen Stewart",
           "Amount": 6,
+          "Minutes": 662,
           "Poster": "/rSWE4DfR0yVEDx7Pe7jleXQpQDt.jpg",
           "Gender": 1
         },
@@ -35499,6 +38036,7 @@ var data = {
           "ID": 4726,
           "FullName": "Marcia Gay Harden",
           "Amount": 6,
+          "Minutes": 726,
           "Poster": "/cBAFNVmGdVwMJqSGPjBHeYVaTdH.jpg",
           "Gender": 1
         },
@@ -35506,6 +38044,7 @@ var data = {
           "ID": 3283,
           "FullName": "Margaret Travolta",
           "Amount": 6,
+          "Minutes": 729,
           "Poster": "/r9bQhcoB7iBbUu4NF5JWLopjSnj.jpg",
           "Gender": 1
         },
@@ -35513,6 +38052,7 @@ var data = {
           "ID": 1812,
           "FullName": "Michelle Williams",
           "Amount": 6,
+          "Minutes": 698,
           "Poster": "/jn3BVMVbIptz2gc6Fhxo1qwJVvW.jpg",
           "Gender": 1
         },
@@ -35520,6 +38060,7 @@ var data = {
           "ID": 84493,
           "FullName": "Mickie McGowan",
           "Amount": 6,
+          "Minutes": 585,
           "Poster": "/4K1HF10EvDjdaIoDAnWqFZjnmvk.jpg",
           "Gender": 1
         },
@@ -35527,13 +38068,23 @@ var data = {
           "ID": 10871,
           "FullName": "Natasha Lyonne",
           "Amount": 6,
+          "Minutes": 623,
           "Poster": "/2QJoTBEIeYyjGSDot9qxv2ayPH3.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 1834,
+          "FullName": "Shirley Henderson",
+          "Amount": 6,
+          "Minutes": 740,
+          "Poster": "/rWE3okN5EUvCT8DVjK0xobKStfQ.jpg",
           "Gender": 1
         },
         {
           "ID": 3051,
           "FullName": "Toni Collette",
           "Amount": 6,
+          "Minutes": 667,
           "Poster": "/JUvXYgduDNGM2lHEjMWvxXEpGF.jpg",
           "Gender": 1
         },
@@ -35541,6 +38092,7 @@ var data = {
           "ID": 234926,
           "FullName": "Afshan Azad",
           "Amount": 5,
+          "Minutes": 724,
           "Poster": "",
           "Gender": 1
         },
@@ -35548,6 +38100,7 @@ var data = {
           "ID": 5657,
           "FullName": "Anjelica Huston",
           "Amount": 5,
+          "Minutes": 479,
           "Poster": "/6hnYeHa7Rc1w1MmQ3JsLSIb7yCX.jpg",
           "Gender": 1
         },
@@ -35555,6 +38108,7 @@ var data = {
           "ID": 43366,
           "FullName": "Ann Dowd",
           "Amount": 5,
+          "Minutes": 508,
           "Poster": "/k7c47mgCFos0ng1Sr1VF874MaqA.jpg",
           "Gender": 1
         },
@@ -35562,41 +38116,39 @@ var data = {
           "ID": 1397778,
           "FullName": "Anya Taylor-Joy",
           "Amount": 5,
+          "Minutes": 556,
           "Poster": "/qYNofOjlRke2MlJVihmJmEdQI4v.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 119592,
-          "FullName": "Aubrey Plaza",
-          "Amount": 5,
-          "Poster": "/7MWqITTynu0ZGqeshaNj89s8G1X.jpg",
           "Gender": 1
         },
         {
           "ID": 5151,
           "FullName": "Beth Grant",
           "Amount": 5,
+          "Minutes": 569,
           "Poster": "/6THLoPYhIu422TqUmQDgnQRfYxA.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 36662,
+          "FullName": "Carey Mulligan",
+          "Amount": 5,
+          "Minutes": 587,
+          "Poster": "/iwVHhqoz5b62FR0SDpZ7wfsuTBI.jpg",
           "Gender": 1
         },
         {
           "ID": 530,
           "FullName": "Carrie-Anne Moss",
           "Amount": 5,
+          "Minutes": 589,
           "Poster": "/xD4jTA3KmVp5Rq3aHcymL9DUGjD.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 50,
-          "FullName": "Catherine Deneuve",
-          "Amount": 5,
-          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
           "Gender": 1
         },
         {
           "ID": 6885,
           "FullName": "Charlize Theron",
           "Amount": 5,
+          "Minutes": 557,
           "Poster": "/gd7ShD0yt4bsR2STeQ19KQ6hvXL.jpg",
           "Gender": 1
         },
@@ -35604,6 +38156,7 @@ var data = {
           "ID": 1932918,
           "FullName": "Charlotte Zucker",
           "Amount": 5,
+          "Minutes": 454,
           "Poster": "/tXx1VEglP6L0IYKr2rE4lVgtvb4.jpg",
           "Gender": 1
         },
@@ -35611,6 +38164,7 @@ var data = {
           "ID": 11291,
           "FullName": "Cl\u00E9mence Po\u00E9sy",
           "Amount": 5,
+          "Minutes": 635,
           "Poster": "/1R6HBAwboHRfAdy4A1Dn2hXmobj.jpg",
           "Gender": 1
         },
@@ -35618,6 +38172,7 @@ var data = {
           "ID": 13314,
           "FullName": "Dana Ivey",
           "Amount": 5,
+          "Minutes": 553,
           "Poster": "/oQEeRwEb9w4TuSVp334OP9z6Ljm.jpg",
           "Gender": 1
         },
@@ -35625,6 +38180,7 @@ var data = {
           "ID": 69597,
           "FullName": "Drew Barrymore",
           "Amount": 5,
+          "Minutes": 550,
           "Poster": "/9xMu2GLC5otUcC11sEWC5aEAERQ.jpg",
           "Gender": 1
         },
@@ -35632,6 +38188,7 @@ var data = {
           "ID": 42998,
           "FullName": "Elizabeth Berrington",
           "Amount": 5,
+          "Minutes": 580,
           "Poster": "/wFz71bIKTlQoa8v1s243TIh5wUm.jpg",
           "Gender": 1
         },
@@ -35639,6 +38196,7 @@ var data = {
           "ID": 9560,
           "FullName": "Ellen Burstyn",
           "Amount": 5,
+          "Minutes": 596,
           "Poster": "/wjxo9Yw8ZoKewcRlHShfTIZGVQF.jpg",
           "Gender": 1
         },
@@ -35646,6 +38204,7 @@ var data = {
           "ID": 5081,
           "FullName": "Emily Blunt",
           "Amount": 5,
+          "Minutes": 587,
           "Poster": "/nPJXaRMvu1vh3COG16GzmdsBySQ.jpg",
           "Gender": 1
         },
@@ -35653,6 +38212,7 @@ var data = {
           "ID": 10981,
           "FullName": "Fiona Shaw",
           "Amount": 5,
+          "Minutes": 738,
           "Poster": "/tjM74LcxwnYM77Csg1EtlXb1F9a.jpg",
           "Gender": 1
         },
@@ -35660,13 +38220,23 @@ var data = {
           "ID": 47468,
           "FullName": "Frances de la Tour",
           "Amount": 5,
+          "Minutes": 638,
           "Poster": "/aDSge7DWhUyMyA0rEXEZpGiZzGO.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 3910,
+          "FullName": "Frances McDormand",
+          "Amount": 5,
+          "Minutes": 521,
+          "Poster": "/r0A7hZsM1zuavTr0jN7bwmBcliR.jpg",
           "Gender": 1
         },
         {
           "ID": 679,
           "FullName": "Franka Potente",
           "Amount": 5,
+          "Minutes": 517,
           "Poster": "/vA2puXpGOd53jKhpwlMbrqmTZqZ.jpg",
           "Gender": 1
         },
@@ -35674,6 +38244,7 @@ var data = {
           "ID": 12052,
           "FullName": "Gwyneth Paltrow",
           "Amount": 5,
+          "Minutes": 621,
           "Poster": "/3bE5i9bNVxoqQYbx9Dr7gY2n1tG.jpg",
           "Gender": 1
         },
@@ -35681,6 +38252,7 @@ var data = {
           "ID": 15737,
           "FullName": "Helen McCrory",
           "Amount": 5,
+          "Minutes": 655,
           "Poster": "/3FyO7Z8WigeCQsUpW4B1x3qfmFx.jpg",
           "Gender": 1
         },
@@ -35688,6 +38260,7 @@ var data = {
           "ID": 8944,
           "FullName": "Jamie Lee Curtis",
           "Amount": 5,
+          "Minutes": 587,
           "Poster": "/9KWvPVeiLOXlOGl0XVyHZtJWQtx.jpg",
           "Gender": 1
         },
@@ -35695,6 +38268,7 @@ var data = {
           "ID": 83002,
           "FullName": "Jessica Chastain",
           "Amount": 5,
+          "Minutes": 728,
           "Poster": "/vOFrDeYXILnj747dOleaNh4jK3l.jpg",
           "Gender": 1
         },
@@ -35702,6 +38276,7 @@ var data = {
           "ID": 1038,
           "FullName": "Jodie Foster",
           "Amount": 5,
+          "Minutes": 571,
           "Poster": "/resiaRfWvj4N84TgJi9DPOafCpq.jpg",
           "Gender": 1
         },
@@ -35709,6 +38284,7 @@ var data = {
           "ID": 5309,
           "FullName": "Judi Dench",
           "Amount": 5,
+          "Minutes": 654,
           "Poster": "/scnG4M2r6ZxtYyyihlsbGKhgezG.jpg",
           "Gender": 1
         },
@@ -35716,6 +38292,7 @@ var data = {
           "ID": 12041,
           "FullName": "Julia Stiles",
           "Amount": 5,
+          "Minutes": 577,
           "Poster": "/okcblz7pqeapHorLvxtxd3iNNic.jpg",
           "Gender": 1
         },
@@ -35723,6 +38300,7 @@ var data = {
           "ID": 1146,
           "FullName": "Julie Delpy",
           "Amount": 5,
+          "Minutes": 470,
           "Poster": "/rd40f4QpAUUne3hMaUhHrZtcK2c.jpg",
           "Gender": 1
         },
@@ -35730,6 +38308,7 @@ var data = {
           "ID": 234933,
           "FullName": "Katie Leung",
           "Amount": 5,
+          "Minutes": 724,
           "Poster": "/umKxfBnY4SVl4344of8NniU5MQ0.jpg",
           "Gender": 1
         },
@@ -35737,6 +38316,7 @@ var data = {
           "ID": 9015,
           "FullName": "Kelly Macdonald",
           "Amount": 5,
+          "Minutes": 584,
           "Poster": "/k0yVocTnTMWlNdaeOO7YRViCdhO.jpg",
           "Gender": 1
         },
@@ -35744,6 +38324,7 @@ var data = {
           "ID": 35159,
           "FullName": "Laraine Newman",
           "Amount": 5,
+          "Minutes": 488,
           "Poster": "/62i0sFf0IwmkQkBW9Osucgx8qGr.jpg",
           "Gender": 1
         },
@@ -35751,6 +38332,7 @@ var data = {
           "ID": 4784,
           "FullName": "Laura Dern",
           "Amount": 5,
+          "Minutes": 611,
           "Poster": "/gB9PnGEvxKg33OSlcqptQwTBwPE.jpg",
           "Gender": 1
         },
@@ -35758,6 +38340,7 @@ var data = {
           "ID": 121529,
           "FullName": "L\u00E9a Seydoux",
           "Amount": 5,
+          "Minutes": 715,
           "Poster": "/bAIvEBxYfENqgqbxz0Gz5C2Zh2b.jpg",
           "Gender": 1
         },
@@ -35765,6 +38348,7 @@ var data = {
           "ID": 14548,
           "FullName": "Marcia Jean Kurtz",
           "Amount": 5,
+          "Minutes": 569,
           "Poster": "/qRZMvp6EllY83RRpKzcBdKklgoU.jpg",
           "Gender": 1
         },
@@ -35772,6 +38356,7 @@ var data = {
           "ID": 52792,
           "FullName": "Maya Rudolph",
           "Amount": 5,
+          "Minutes": 462,
           "Poster": "/bpEVMFMyHEQ8wLdii9WKB279w8p.jpg",
           "Gender": 1
         },
@@ -35779,6 +38364,7 @@ var data = {
           "ID": 55536,
           "FullName": "Melissa McCarthy",
           "Amount": 5,
+          "Minutes": 559,
           "Poster": "/yl0qva0O4u92fvtItakdvKmKrW9.jpg",
           "Gender": 1
         },
@@ -35786,6 +38372,7 @@ var data = {
           "ID": 8211,
           "FullName": "Mena Suvari",
           "Amount": 5,
+          "Minutes": 517,
           "Poster": "/2hRoibF2WkPyML3PD0ijmJo2OKE.jpg",
           "Gender": 1
         },
@@ -35793,6 +38380,7 @@ var data = {
           "ID": 3489,
           "FullName": "Naomi Watts",
           "Amount": 5,
+          "Minutes": 601,
           "Poster": "/k6l8BWX1yqfGt95enzEkHoPvON4.jpg",
           "Gender": 1
         },
@@ -35800,6 +38388,7 @@ var data = {
           "ID": 3300,
           "FullName": "Natalia Tena",
           "Amount": 5,
+          "Minutes": 668,
           "Poster": "/7kN9NpECZoR4NLXb4SlpHOaJx7T.jpg",
           "Gender": 1
         },
@@ -35807,6 +38396,7 @@ var data = {
           "ID": 47533,
           "FullName": "Paula Malcomson",
           "Amount": 5,
+          "Minutes": 694,
           "Poster": "/9lJy6ze86ZfVcBcyBK9UZq8FJiC.jpg",
           "Gender": 1
         },
@@ -35814,6 +38404,7 @@ var data = {
           "ID": 10882,
           "FullName": "Rosamund Pike",
           "Amount": 5,
+          "Minutes": 595,
           "Poster": "/8ObNklHDi2hjdz0ayzJFB9jtqzm.jpg",
           "Gender": 1
         },
@@ -35821,13 +38412,23 @@ var data = {
           "ID": 10699,
           "FullName": "Samantha Bond",
           "Amount": 5,
+          "Minutes": 635,
           "Poster": "/apo13y77RnKUWTjY1FsW1DcQdkY.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 36592,
+          "FullName": "Saoirse Ronan",
+          "Amount": 5,
+          "Minutes": 570,
+          "Poster": "/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg",
           "Gender": 1
         },
         {
           "ID": 21596,
           "FullName": "Shannon Elizabeth",
           "Amount": 5,
+          "Minutes": 525,
           "Poster": "/NttGD7i2OgoMBZPDmpaSfoUUAm.jpg",
           "Gender": 1
         },
@@ -35835,20 +38436,15 @@ var data = {
           "ID": 214701,
           "FullName": "Sherry Lynn",
           "Amount": 5,
+          "Minutes": 461,
           "Poster": "/cp7SYig9JVbBWgc2YD4wEUNQGzh.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 1834,
-          "FullName": "Shirley Henderson",
-          "Amount": 5,
-          "Poster": "/rWE3okN5EUvCT8DVjK0xobKStfQ.jpg",
           "Gender": 1
         },
         {
           "ID": 6751,
           "FullName": "Siobhan Fallon Hogan",
           "Amount": 5,
+          "Minutes": 633,
           "Poster": "/5OExagnRsUcOYLMPTSrv4x2G95R.jpg",
           "Gender": 1
         },
@@ -35856,6 +38452,7 @@ var data = {
           "ID": 9030,
           "FullName": "Thandiwe Newton",
           "Amount": 5,
+          "Minutes": 575,
           "Poster": "/5BCyGUiUsXD6XzJgPPolqgWFFtj.jpg",
           "Gender": 1
         },
@@ -35863,6 +38460,7 @@ var data = {
           "ID": 2155,
           "FullName": "Thora Birch",
           "Amount": 5,
+          "Minutes": 552,
           "Poster": "dENdXxclc0NZSFDii6hGnXsEIAs.jpg",
           "Gender": 1
         },
@@ -35870,6 +38468,7 @@ var data = {
           "ID": 1920,
           "FullName": "Winona Ryder",
           "Amount": 5,
+          "Minutes": 540,
           "Poster": "/zjwpCIeaFumamhhqz90ExqsBNqE.jpg",
           "Gender": 1
         },
@@ -35877,684 +38476,21 @@ var data = {
           "ID": 20494,
           "FullName": "Zo\u00EB Bell",
           "Amount": 5,
+          "Minutes": 739,
           "Poster": "/fDckmfcIrrdcOgyGifVF2FvQtiE.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 948015,
-          "FullName": "Alexandra Balahoutis",
-          "Amount": 4,
-          "Poster": "/wpTfZyWnalztlsJLqPc6685wP20.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 1772,
-          "FullName": "Anna Faris",
-          "Amount": 4,
-          "Poster": "/lFJKV8m051as4lWNF8NjiXvbLvR.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 1813,
-          "FullName": "Anne Hathaway",
-          "Amount": 4,
-          "Poster": "/s6tflSD20MGz04ZR2R1lZvhmC4Y.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 77264,
-          "FullName": "Ashlie Atkinson",
-          "Amount": 4,
-          "Poster": "/odZ2gzlXX8ZVyUZSDkINkgVdcUh.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 47,
-          "FullName": "Bj\u00F6rk",
-          "Amount": 4,
-          "Poster": "/Ahc3TWomYakLcbqZRVBDdf3rhMR.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 87287,
-          "FullName": "Bonnie Aarons",
-          "Amount": 4,
-          "Poster": "/iEtWuoXKx4ZKbIWwJp1V76Heavy.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 4154,
-          "FullName": "Brenda Blethyn",
-          "Amount": 4,
-          "Poster": "/mxENo8tEvN0998PrNidYkN4wGGO.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 2617,
-          "FullName": "Cara Seymour",
-          "Amount": 4,
-          "Poster": "/dYzhA0tw1OPU50vtXsfgSGKSwpf.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 36662,
-          "FullName": "Carey Mulligan",
-          "Amount": 4,
-          "Poster": "/iwVHhqoz5b62FR0SDpZ7wfsuTBI.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 2229,
-          "FullName": "Catherine Keener",
-          "Amount": 4,
-          "Poster": "/n4CTwGszs6cwS1wJRlDQ5Mlh7Ex.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 11514,
-          "FullName": "Catherine O'Hara",
-          "Amount": 4,
-          "Poster": "/8Sf2dWSDXhFEaDBENlaLCdCTtm6.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 1139812,
-          "FullName": "Celeste Oliva",
-          "Amount": 4,
-          "Poster": "/9lgzJtLM3igvxUpopDkHJkAbilB.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 9139,
-          "FullName": "Celia Imrie",
-          "Amount": 4,
-          "Poster": "/eEtVfESOVnkkdPLYkyQpalEwAwj.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 11870,
-          "FullName": "Christine Baranski",
-          "Amount": 4,
-          "Poster": "/x6jNFlGrzaM0LwK2GsxBNdCN41N.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 7574,
-          "FullName": "Cleo King",
-          "Amount": 4,
-          "Poster": "/teEPJgvrvPrNEh83FdOroNSLJzO.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 52776,
-          "FullName": "Dagmara Dominczyk",
-          "Amount": 4,
-          "Poster": "/zoZ8cJNOgAsU1rxSbhhziSTOJbZ.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 118545,
-          "FullName": "Dakota Johnson",
-          "Amount": 4,
-          "Poster": "/rtxJfCCLdp1oi7bQ1ENVZRRkrJ5.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 3416,
-          "FullName": "Demi Moore",
-          "Amount": 4,
-          "Poster": "daQIsKnFmw412UIkRCm3eoUgLLz.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 2133,
-          "FullName": "Dina Meyer",
-          "Amount": 4,
-          "Poster": "/bKte4cIXI1aQat8JLVNONZE4Y2.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 20300,
-          "FullName": "Eileen Atkins",
-          "Amount": 4,
-          "Poster": "/8gac03PfTFz2vByZi1aun0NiTqM.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 32798,
-          "FullName": "Elisabeth Moss",
-          "Amount": 4,
-          "Poster": "/vZDe22EtLtcHvPr28l4ZM0b7qjG.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 7430,
-          "FullName": "Elizabeth Pe\u00F1a",
-          "Amount": 4,
-          "Poster": "/uyUrPmtbwiGFOq8pIfYVQYgmBmK.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 6368,
-          "FullName": "Embeth Davidtz",
-          "Amount": 4,
-          "Poster": "/nwsdu9lOsKJ5v9RwOCc7kAiuxSO.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 140367,
-          "FullName": "Evanna Lynch",
-          "Amount": 4,
-          "Poster": "/mebDQC5FnPVYYRxqmhCVVdl8fVM.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 11794,
-          "FullName": "Frances Bay",
-          "Amount": 4,
-          "Poster": "/1mtcINBBbvb7E4ySgOr86u34XLJ.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 3910,
-          "FullName": "Frances McDormand",
-          "Amount": 4,
-          "Poster": "/r0A7hZsM1zuavTr0jN7bwmBcliR.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 15735,
-          "FullName": "Helen Mirren",
-          "Amount": 4,
-          "Poster": "/1reKRrsdsHXJaRVHVyOEg4oPTcZ.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 18686,
-          "FullName": "Holly Hunter",
-          "Amount": 4,
-          "Poster": "/kC7KX03VAWvogOCuwKbMo4V6TuU.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 7796,
-          "FullName": "Illeana Douglas",
-          "Amount": 4,
-          "Poster": "/tICmPFccAUAOmMXmqcpK8q03kYG.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 17606,
-          "FullName": "Imogen Poots",
-          "Amount": 4,
-          "Poster": "/1g8o4JB4SiqZZ4aRE2MUmcYYXvL.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 29930,
-          "FullName": "Ivana Mili\u010Devi\u0107",
-          "Amount": 4,
-          "Poster": "/nADYJLuKzgCSNgIHI5owYMrWlR3.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 5385,
-          "FullName": "Jackie Hoffman",
-          "Amount": 4,
-          "Poster": "/jtvytvZxpRwGlJQxVMkvYRLjGWo.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 9575,
-          "FullName": "Jada Pinkett Smith",
-          "Amount": 4,
-          "Poster": "/vt1Z1Fsu7gjp4L0OHey9Aa79lWj.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 1232500,
-          "FullName": "Jayne Houdyshell",
-          "Amount": 4,
-          "Poster": "/AlYIzwmfxuZ0yvU4L9F9h0tJGmZ.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 3981,
-          "FullName": "Jenette Goldstein",
-          "Amount": 4,
-          "Poster": "/4YZVLLWEFtxPLaOAlndfzxH1WG1.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 49971,
-          "FullName": "Jennifer Ehle",
-          "Amount": 4,
-          "Poster": "/kMddVKineLFpxsUoGrb3E6edkOv.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 10431,
-          "FullName": "Jennifer Jason Leigh",
-          "Amount": 4,
-          "Poster": "/7DbG2AO3nygHAkNC866HLPKkxv9.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 12094,
-          "FullName": "Jennifer Saunders",
-          "Amount": 4,
-          "Poster": "/pTgxwHcz9L8SNVYvPJS0o0lgHya.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 47730,
-          "FullName": "Jessica Hynes",
-          "Amount": 4,
-          "Poster": "/eyJ9aC1FXyPAI5xose0HqA26bnm.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 3234,
-          "FullName": "Joan Cusack",
-          "Amount": 4,
-          "Poster": "/59UIeHZFYrKyP20lXqijtfTXglO.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 42286,
-          "FullName": "Julene Renee",
-          "Amount": 4,
-          "Poster": "/fJVzlYLGnUhojDUP9uzn5f3THID.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 1836,
-          "FullName": "Julia Davis",
-          "Amount": 4,
-          "Poster": "/wsUNCSKoNQTgSdlr9FIeIR6hRAd.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 168881,
-          "FullName": "Julia Vera",
-          "Amount": 4,
-          "Poster": "/lmB2sxRlUi2I8krf3XpPOVbfp0K.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 5823,
-          "FullName": "Julie Andrews",
-          "Amount": 4,
-          "Poster": "/zYa6ApzrF688x7ckcc2q2Kuchbu.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 3196,
-          "FullName": "Juliette Lewis",
-          "Amount": 4,
-          "Poster": "/oErIsGmtxeluwtzRoWI3dx2pYGQ.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 15012,
-          "FullName": "Katharine Towne",
-          "Amount": 4,
-          "Poster": "/AvjkrYbYI8GWOUEss1jMh29Bp2d.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 116,
-          "FullName": "Keira Knightley",
-          "Amount": 4,
-          "Poster": "/bRC1B2VwV0wK3ElciFAK6QZf2wD.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 11703,
-          "FullName": "Kerry Washington",
-          "Amount": 4,
-          "Poster": "/yufNCkn9YuYei9ThzSgApczUe4K.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 41091,
-          "FullName": "Kristen Wiig",
-          "Amount": 4,
-          "Poster": "/p4QYkJ7EboyhzQcexH86SgCOki7.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 350,
-          "FullName": "Laura Linney",
-          "Amount": 4,
-          "Poster": "/ztQXGmNLzhDV22rAvcXzCG4d0cy.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 1216985,
-          "FullName": "Lela Ivey",
-          "Amount": 4,
-          "Poster": "/nX9UtfjM026DZSEKfM5zQpFT8fm.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 14406,
-          "FullName": "Lisa Kudrow",
-          "Amount": 4,
-          "Poster": "/ziatnwJRiBJIcc8jlk6xoClhfOy.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 882,
-          "FullName": "Liv Tyler",
-          "Amount": 4,
-          "Poster": "/zFYfs907Gw4INwobr6R4iv6Ccpu.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 159747,
-          "FullName": "Lois de Banzie",
-          "Amount": 4,
-          "Poster": "/j1nMePZAB0Vna8yMSz4mZEO8Yre.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 2207,
-          "FullName": "Lois Smith",
-          "Amount": 4,
-          "Poster": "/unvPSZshdNoj7c5wl6D30gPwKtS.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 5148,
-          "FullName": "Lucinda Jenney",
-          "Amount": 4,
-          "Poster": "/ahR0bNUJRi9Phpd7RZWx4ILiMEb.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 140,
-          "FullName": "Lucy Liu",
-          "Amount": 4,
-          "Poster": "/dW6JDvYhXWW87P04W2SfNpiAwCO.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 2792835,
-          "FullName": "Mallory Sandler",
-          "Amount": 4,
-          "Poster": "/bffCIWrFLq3usFr1pGVsusJuANF.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 1392137,
-          "FullName": "Margaret Qualley",
-          "Amount": 4,
-          "Poster": "/uoFKNAsKaN6Zk8sazzqRulfMt7Q.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 234352,
-          "FullName": "Margot Robbie",
-          "Amount": 4,
-          "Poster": "/euDPyqLnuwaWMHajcU3oZ9uZezR.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 6407,
-          "FullName": "Marley Shelton",
-          "Amount": 4,
-          "Poster": "/6fqY7QzZI5yoCCJZpvX0MceL6kZ.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 17628,
-          "FullName": "Mary Elizabeth Winstead",
-          "Amount": 4,
-          "Poster": "/9SqooMmR1knkQGc5I8gRMRaGg46.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 1172108,
-          "FullName": "Mckenna Grace",
-          "Amount": 4,
-          "Poster": "/e8pnblWxirhG54tlNTQyXNjXQd4.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 15091,
-          "FullName": "Melanie Lynskey",
-          "Amount": 4,
-          "Poster": "/kzrWI1sTgnA0H7TCIKzDOUtOW4n.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 5064,
-          "FullName": "Meryl Streep",
-          "Amount": 4,
-          "Poster": "/emAAzyK1rJ6aiMi0wsWYp51EC3h.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 11705,
-          "FullName": "Michelle Monaghan",
-          "Amount": 4,
-          "Poster": "/jB47BoGdudHELszn9ZAZqnnUy8N.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 8436,
-          "FullName": "Miranda Richardson",
-          "Amount": 4,
-          "Poster": "/2IEW3fxqHb4AHBl5xU8JuipJbNK.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 6199,
-          "FullName": "Miriam Margolyes",
-          "Amount": 4,
-          "Poster": "/q73xMZveDogt3e5uFknWMExLIyH.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 58502,
-          "FullName": "Natalie Dormer",
-          "Amount": 4,
-          "Poster": "/3OlkHjDKDj9NKkFWXfLk7gcb2C.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 58778,
-          "FullName": "Nina Young",
-          "Amount": 4,
-          "Poster": "/mzR6dmNI5jluErFSM1eWkOb7smI.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 18286,
-          "FullName": "Nona Gaye",
-          "Amount": 4,
-          "Poster": "/nD6Gawyx0QOQIKsFtJXBWMzjLw3.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 6944,
-          "FullName": "Octavia Spencer",
-          "Amount": 4,
-          "Poster": "/35SOy4yQZ9xRSJ0q1L5RLhXfhqN.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 51992,
-          "FullName": "Odette Annable",
-          "Amount": 4,
-          "Poster": "/fWPmTC9QfqAKi3JKJKp2LKrm8Ix.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 1276,
-          "FullName": "Patricia Clarkson",
-          "Amount": 4,
-          "Poster": "/rHHM9G83fpBAcFathbSyV4Tot5j.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 1249,
-          "FullName": "Penelope Wilton",
-          "Amount": 4,
-          "Poster": "/7sXOk96XiaeqI5ARr8tnBQHQGCf.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 53714,
-          "FullName": "Rachel McAdams",
-          "Amount": 4,
-          "Poster": "/2zyOjda95OfAAsJvuwTV0UaznPZ.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 58579,
-          "FullName": "Rita Davies",
-          "Amount": 4,
-          "Poster": "/6gneXsd2BmPr2z0ievdRnvubZ3j.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 5916,
-          "FullName": "Rosario Dawson",
-          "Amount": 4,
-          "Poster": "/1mm7JGHIUX3GRRGXEV9QCzsI0ao.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 39658,
-          "FullName": "Sally Hawkins",
-          "Amount": 4,
-          "Poster": "/osYgwtQIiNbPFc8JkFDxreBgqxZ.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 25540,
-          "FullName": "Sandra Oh",
-          "Amount": 4,
-          "Poster": "/zU8vjebHxcP60ESEL5Ok68KWZvj.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 36592,
-          "FullName": "Saoirse Ronan",
-          "Amount": 4,
-          "Poster": "/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 11863,
-          "FullName": "Sarah Michelle Gellar",
-          "Amount": 4,
-          "Poster": "/grlhyolOpwZAnpeFvuTC3SQAUij.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 34490,
-          "FullName": "Sarah Paulson",
-          "Amount": 4,
-          "Poster": "/n2pcyP6jp1YNo4TFVYS5vyZ2M2s.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 104059,
-          "FullName": "Susan Barnes",
-          "Amount": 4,
-          "Poster": "/uToxda0KL8I9Rn8JhLPbMKleKL1.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 1932923,
-          "FullName": "Susan Breslau",
-          "Amount": 4,
-          "Poster": "",
-          "Gender": 1
-        },
-        {
-          "ID": 42571,
-          "FullName": "Susan Lynch",
-          "Amount": 4,
-          "Poster": "/sTl2Tn2nzLRjKdk0CKMBb87Gz8X.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 4038,
-          "FullName": "Susan Sarandon",
-          "Amount": 4,
-          "Poster": "/oHYYL8bNakAREaLUBtMul5uMG0A.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 1234,
-          "FullName": "Tara Reid",
-          "Amount": 4,
-          "Poster": "/s7BRT4eypYGJxV4qeO1iMYFrnCq.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 62561,
-          "FullName": "Tessa Thompson",
-          "Amount": 4,
-          "Poster": "/ldbkM4avGwZb9Qupt9sQcRL8bq6.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 13333,
-          "FullName": "Vanessa Redgrave",
-          "Amount": 4,
-          "Poster": "/5hZQCw25juHi0Q9oLP9RBsUZgZA.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 1174009,
-          "FullName": "Venessia Valentino",
-          "Amount": 4,
-          "Poster": "",
-          "Gender": 1
-        },
-        {
-          "ID": 67290,
-          "FullName": "Verna Felton",
-          "Amount": 4,
-          "Poster": "/xJ7mohLuufsNn6dkvzjKi5nlaFn.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 93620,
-          "FullName": "Welker White",
-          "Amount": 4,
-          "Poster": "/aSkPNk7fIWa0B9HJ2RjwLNBcCiu.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 530025,
-          "FullName": "Willow Shields",
-          "Amount": 4,
-          "Poster": "/c9Zna579entVQBdx7kTtKJjl9CB.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 11664,
-          "FullName": "Zooey Deschanel",
-          "Amount": 4,
-          "Poster": "/30KQyjsXfrdm4Dcori7bDFTg9Le.jpg",
           "Gender": 1
         }
       ]
     },
     "entirecast_2": {
-      "Total": 17808,
-      "Unique": 12671,
+      "Total": 17972,
+      "Unique": 12794,
       "PeopleData": [
         {
           "ID": 2231,
           "FullName": "Samuel L. Jackson",
           "Amount": 18,
+          "Minutes": 2290,
           "Poster": "/AiAYAqwpM5xmiFrAIeQvUXDCVvo.jpg",
           "Gender": 2
         },
@@ -36562,6 +38498,7 @@ var data = {
           "ID": 1892,
           "FullName": "Matt Damon",
           "Amount": 14,
+          "Minutes": 1874,
           "Poster": "/ehwS5WvU5yL5vKcUEqbzGK8Fh8B.jpg",
           "Gender": 2
         },
@@ -36569,6 +38506,7 @@ var data = {
           "ID": 287,
           "FullName": "Brad Pitt",
           "Amount": 13,
+          "Minutes": 1655,
           "Poster": "/ajNaPmXVVMJFg9GWmu6MJzTaXdV.jpg",
           "Gender": 2
         },
@@ -36576,6 +38514,7 @@ var data = {
           "ID": 5658,
           "FullName": "Michael Gambon",
           "Amount": 13,
+          "Minutes": 1673,
           "Poster": "/3jdWkDKf4IODbG4JKTeaC7AzxZH.jpg",
           "Gender": 2
         },
@@ -36583,6 +38522,7 @@ var data = {
           "ID": 2963,
           "FullName": "Nicolas Cage",
           "Amount": 13,
+          "Minutes": 1521,
           "Poster": "/ar33qcWbEgREn07ZpXv5Pbj8hbM.jpg",
           "Gender": 2
         },
@@ -36590,6 +38530,7 @@ var data = {
           "ID": 4566,
           "FullName": "Alan Rickman",
           "Amount": 12,
+          "Minutes": 1696,
           "Poster": "/nKl8ZRYjBJya7aj7phJUyrtSll6.jpg",
           "Gender": 2
         },
@@ -36597,6 +38538,7 @@ var data = {
           "ID": 228,
           "FullName": "Ed Harris",
           "Amount": 12,
+          "Minutes": 1485,
           "Poster": "/aAu9lJ02jlg0GAvv2vVnpJSDV1Y.jpg",
           "Gender": 2
         },
@@ -36604,6 +38546,7 @@ var data = {
           "ID": 64,
           "FullName": "Gary Oldman",
           "Amount": 12,
+          "Minutes": 1633,
           "Poster": "/2v9FVVBUrrkW2m3QOcYkuhq9A6o.jpg",
           "Gender": 2
         },
@@ -36611,6 +38554,7 @@ var data = {
           "ID": 3895,
           "FullName": "Michael Caine",
           "Amount": 12,
+          "Minutes": 1482,
           "Poster": "/bVZRMlpjTAO2pJK6v90buFgVbSW.jpg",
           "Gender": 2
         },
@@ -36618,6 +38562,7 @@ var data = {
           "ID": 192,
           "FullName": "Morgan Freeman",
           "Amount": 12,
+          "Minutes": 1511,
           "Poster": "/jPsLqiYGSofU4s6BjrxnefMfabb.jpg",
           "Gender": 2
         },
@@ -36625,6 +38570,7 @@ var data = {
           "ID": 9191,
           "FullName": "Timothy Spall",
           "Amount": 12,
+          "Minutes": 1504,
           "Poster": "/kcXnzkIPUHgCFtWQ7sUjQCrSIME.jpg",
           "Gender": 2
         },
@@ -36632,6 +38578,7 @@ var data = {
           "ID": 5293,
           "FullName": "Willem Dafoe",
           "Amount": 12,
+          "Minutes": 1377,
           "Poster": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
           "Gender": 2
         },
@@ -36639,6 +38586,7 @@ var data = {
           "ID": 2053,
           "FullName": "Bill Paxton",
           "Amount": 11,
+          "Minutes": 1372,
           "Poster": "/aLdNe6mt1cSi2zWlUYRregzfis5.jpg",
           "Gender": 2
         },
@@ -36646,6 +38594,7 @@ var data = {
           "ID": 62,
           "FullName": "Bruce Willis",
           "Amount": 11,
+          "Minutes": 1389,
           "Poster": "/A1XBu3CffBpSK8HEIJM8q7Mn4lz.jpg",
           "Gender": 2
         },
@@ -36653,6 +38602,7 @@ var data = {
           "ID": 8930,
           "FullName": "John Cleese",
           "Amount": 11,
+          "Minutes": 1257,
           "Poster": "/yonuTnGcc3q9A1w5P7N3dDRdPSh.jpg",
           "Gender": 2
         },
@@ -36660,6 +38610,7 @@ var data = {
           "ID": 1923,
           "FullName": "Robbie Coltrane",
           "Amount": 11,
+          "Minutes": 1550,
           "Poster": "/jOHs3xvlwRiiG2CLtso5zzmGCXg.jpg",
           "Gender": 2
         },
@@ -36667,6 +38618,7 @@ var data = {
           "ID": 2039,
           "FullName": "Brendan Gleeson",
           "Amount": 10,
+          "Minutes": 1326,
           "Poster": "/dTS2y7FLsnrskf0tPb8f9H7KAP3.jpg",
           "Gender": 2
         },
@@ -36674,6 +38626,7 @@ var data = {
           "ID": 3,
           "FullName": "Harrison Ford",
           "Amount": 10,
+          "Minutes": 1239,
           "Poster": "/zVnHagUvXkR2StdOtquEwsiwSVt.jpg",
           "Gender": 2
         },
@@ -36681,6 +38634,7 @@ var data = {
           "ID": 1037,
           "FullName": "Harvey Keitel",
           "Amount": 10,
+          "Minutes": 1193,
           "Poster": "/7P30hza1neYWW3r7rSQOC736K2Z.jpg",
           "Gender": 2
         },
@@ -36688,6 +38642,7 @@ var data = {
           "ID": 6193,
           "FullName": "Leonardo DiCaprio",
           "Amount": 10,
+          "Minutes": 1547,
           "Poster": "/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg",
           "Gender": 2
         },
@@ -36695,6 +38650,7 @@ var data = {
           "ID": 147,
           "FullName": "Michael Madsen",
           "Amount": 10,
+          "Minutes": 1295,
           "Poster": "/69cqjkTNKI1muAfnvorfmWNVgIe.jpg",
           "Gender": 2
         },
@@ -36702,6 +38658,7 @@ var data = {
           "ID": 5469,
           "FullName": "Ralph Fiennes",
           "Amount": 10,
+          "Minutes": 1375,
           "Poster": "/tJr9GcmGNHhLVVEH3i7QYbj6hBi.jpg",
           "Gender": 2
         },
@@ -36709,6 +38666,7 @@ var data = {
           "ID": 31,
           "FullName": "Tom Hanks",
           "Amount": 10,
+          "Minutes": 1241,
           "Poster": "/eKF1sGJRrZJbfBG1KirPt1cfNd3.jpg",
           "Gender": 2
         },
@@ -36716,6 +38674,7 @@ var data = {
           "ID": 11184,
           "FullName": "Warwick Davis",
           "Amount": 10,
+          "Minutes": 1368,
           "Poster": "/nGorSpUIQWAEErxq8KdDcIF6Q00.jpg",
           "Gender": 2
         },
@@ -36723,6 +38682,7 @@ var data = {
           "ID": 8635,
           "FullName": "Buster Keaton",
           "Amount": 9,
+          "Minutes": 250,
           "Poster": "/iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
           "Gender": 2
         },
@@ -36730,6 +38690,7 @@ var data = {
           "ID": 109,
           "FullName": "Elijah Wood",
           "Amount": 9,
+          "Minutes": 1223,
           "Poster": "/7UKRbJBNG7mxBl2QQc5XsAh6F8B.jpg",
           "Gender": 2
         },
@@ -36737,6 +38698,7 @@ var data = {
           "ID": 3291,
           "FullName": "Hugh Grant",
           "Amount": 9,
+          "Minutes": 1039,
           "Poster": "/hsSfxSHzkKJ6ZKq1Ofngcp7aAnT.jpg",
           "Gender": 2
         },
@@ -36744,6 +38706,7 @@ var data = {
           "ID": 1331,
           "FullName": "Hugo Weaving",
           "Amount": 9,
+          "Minutes": 1291,
           "Poster": "/t4ScpYIHlXVD41scEyiGdQDYflX.jpg",
           "Gender": 2
         },
@@ -36751,6 +38714,7 @@ var data = {
           "ID": 96851,
           "FullName": "James Phelps",
           "Amount": 9,
+          "Minutes": 1294,
           "Poster": "/dk7kTamtnbgSA40Lg00aE36hljs.jpg",
           "Gender": 2
         },
@@ -36758,6 +38722,7 @@ var data = {
           "ID": 10127,
           "FullName": "Jon Voight",
           "Amount": 9,
+          "Minutes": 1157,
           "Poster": "/nuiTfACxhKRE2D2FWbK93m5MgSS.jpg",
           "Gender": 2
         },
@@ -36765,6 +38730,7 @@ var data = {
           "ID": 65827,
           "FullName": "Keith David",
           "Amount": 9,
+          "Minutes": 1042,
           "Poster": "/jJLJuR7FNHYL1fB5igjj7IXzOel.jpg",
           "Gender": 2
         },
@@ -36772,6 +38738,7 @@ var data = {
           "ID": 4724,
           "FullName": "Kevin Bacon",
           "Amount": 9,
+          "Minutes": 983,
           "Poster": "/rjX2Oz3tCZMfSwOoIAyEhdtXnTE.jpg",
           "Gender": 2
         },
@@ -36779,6 +38746,7 @@ var data = {
           "ID": 1979,
           "FullName": "Kevin Spacey",
           "Amount": 9,
+          "Minutes": 1098,
           "Poster": "/nPrUZDEbGQe6jwpVbHKJCXsMd7r.jpg",
           "Gender": 2
         },
@@ -36786,6 +38754,7 @@ var data = {
           "ID": 1173,
           "FullName": "Mark Margolis",
           "Amount": 9,
+          "Minutes": 954,
           "Poster": "/rT5TYJIPLBkTqsrUs00AixGeaMM.jpg",
           "Gender": 2
         },
@@ -36793,6 +38762,7 @@ var data = {
           "ID": 140368,
           "FullName": "Oliver Phelps",
           "Amount": 9,
+          "Minutes": 1294,
           "Poster": "/kb00uK7sCDB5K6tiH5rav9kzAfl.jpg",
           "Gender": 2
         },
@@ -36800,6 +38770,7 @@ var data = {
           "ID": 10983,
           "FullName": "Richard Griffiths",
           "Amount": 9,
+          "Minutes": 1122,
           "Poster": "/4H4uQfMzvgs11RCLaoSMQsyElw8.jpg",
           "Gender": 2
         },
@@ -36807,6 +38778,7 @@ var data = {
           "ID": 380,
           "FullName": "Robert De Niro",
           "Amount": 9,
+          "Minutes": 1252,
           "Poster": "/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg",
           "Gender": 2
         },
@@ -36814,6 +38786,7 @@ var data = {
           "ID": 3087,
           "FullName": "Robert Duvall",
           "Amount": 9,
+          "Minutes": 1226,
           "Poster": "/ybMmK25h4IVtfE7qrnlVp47RQlh.jpg",
           "Gender": 2
         },
@@ -36821,6 +38794,7 @@ var data = {
           "ID": 500,
           "FullName": "Tom Cruise",
           "Amount": 9,
+          "Minutes": 1167,
           "Poster": "/eOh4ubpOm2Igdg0QH2ghj0mFtC.jpg",
           "Gender": 2
         },
@@ -36828,13 +38802,23 @@ var data = {
           "ID": 10993,
           "FullName": "Tom Felton",
           "Amount": 9,
+          "Minutes": 1283,
           "Poster": "/k22yJiIXmHyw6kjE6qbZU9frKLq.jpg",
+          "Gender": 2
+        },
+        {
+          "ID": 2524,
+          "FullName": "Tom Hardy",
+          "Amount": 9,
+          "Minutes": 1140,
+          "Poster": "/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg",
           "Gender": 2
         },
         {
           "ID": 2888,
           "FullName": "Will Smith",
           "Amount": 9,
+          "Minutes": 1045,
           "Poster": "/1QqaRZ8neYlqLx7ODZC4as47wUV.jpg",
           "Gender": 2
         },
@@ -36842,6 +38826,7 @@ var data = {
           "ID": 57755,
           "FullName": "Woody Harrelson",
           "Amount": 9,
+          "Minutes": 1138,
           "Poster": "/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg",
           "Gender": 2
         },
@@ -36849,6 +38834,7 @@ var data = {
           "ID": 1100,
           "FullName": "Arnold Schwarzenegger",
           "Amount": 8,
+          "Minutes": 928,
           "Poster": "/z6IbTtI2FWAVZE6b1V4mqEHjwO6.jpg",
           "Gender": 2
         },
@@ -36856,6 +38842,7 @@ var data = {
           "ID": 121718,
           "FullName": "Bill Camp",
           "Amount": 8,
+          "Minutes": 922,
           "Poster": "/yNUJsgkJcJXi5CK3Pk77DmUU8G8.jpg",
           "Gender": 2
         },
@@ -36863,6 +38850,7 @@ var data = {
           "ID": 1248,
           "FullName": "Brian Cox",
           "Amount": 8,
+          "Minutes": 992,
           "Poster": "/scSjbFCTRngXlkJRoKptM5kQGw7.jpg",
           "Gender": 2
         },
@@ -36870,6 +38858,7 @@ var data = {
           "ID": 1893,
           "FullName": "Casey Affleck",
           "Amount": 8,
+          "Minutes": 1074,
           "Poster": "/hcggAadv5SwdhoAb4yYMoAFYdWK.jpg",
           "Gender": 2
         },
@@ -36877,6 +38866,7 @@ var data = {
           "ID": 8191,
           "FullName": "Chris Ellis",
           "Amount": 8,
+          "Minutes": 1003,
           "Poster": "/zSoBhmD7KtHi9YrBVrHK9QSl8DU.jpg",
           "Gender": 2
         },
@@ -36884,6 +38874,7 @@ var data = {
           "ID": 3894,
           "FullName": "Christian Bale",
           "Amount": 8,
+          "Minutes": 1029,
           "Poster": "/3qx2QFUbG6t6IlzR0F9k3Z6Yhf7.jpg",
           "Gender": 2
         },
@@ -36891,6 +38882,7 @@ var data = {
           "ID": 10980,
           "FullName": "Daniel Radcliffe",
           "Amount": 8,
+          "Minutes": 1178,
           "Poster": "/iPg0J9UzAlPj1fLEJNllpW9IhGe.jpg",
           "Gender": 2
         },
@@ -36898,6 +38890,7 @@ var data = {
           "ID": 11180,
           "FullName": "David Bradley",
           "Amount": 8,
+          "Minutes": 1153,
           "Poster": "/2ZblKClJrHiifvjWNm6WjbuZriQ.jpg",
           "Gender": 2
         },
@@ -36905,6 +38898,7 @@ var data = {
           "ID": 234922,
           "FullName": "Devon Murray",
           "Amount": 8,
+          "Minutes": 1178,
           "Poster": "/2z6tYeavTWh7muPvfTOKEZGyjjM.jpg",
           "Gender": 2
         },
@@ -36912,6 +38906,7 @@ var data = {
           "ID": 55636,
           "FullName": "Donald Sutherland",
           "Amount": 8,
+          "Minutes": 980,
           "Poster": "/yM8WO2BYqFvgQXAvf4CIuCYnY4j.jpg",
           "Gender": 2
         },
@@ -36919,6 +38914,7 @@ var data = {
           "ID": 819,
           "FullName": "Edward Norton",
           "Amount": 8,
+          "Minutes": 1003,
           "Poster": "/8nytsqL59SFJTVYVrN72k6qkGgJ.jpg",
           "Gender": 2
         },
@@ -36926,6 +38922,7 @@ var data = {
           "ID": 11355,
           "FullName": "Jason Isaacs",
           "Amount": 8,
+          "Minutes": 1139,
           "Poster": "/s6XRFjqUsrDJfDQuXPOoExAYPmb.jpg",
           "Gender": 2
         },
@@ -36933,6 +38930,7 @@ var data = {
           "ID": 388,
           "FullName": "Jim Broadbent",
           "Amount": 8,
+          "Minutes": 943,
           "Poster": "/s7lXYfrsJoGA4vKmyv61SPgABmR.jpg",
           "Gender": 2
         },
@@ -36940,6 +38938,7 @@ var data = {
           "ID": 11212,
           "FullName": "Josh Herdman",
           "Amount": 8,
+          "Minutes": 1178,
           "Poster": "/dUWM0gIhQJayVTp30EsoafhLOWt.jpg",
           "Gender": 2
         },
@@ -36947,6 +38946,7 @@ var data = {
           "ID": 6384,
           "FullName": "Keanu Reeves",
           "Amount": 8,
+          "Minutes": 918,
           "Poster": "/4D0PpNI0kmP58hgrwGC3wCjxhnm.jpg",
           "Gender": 2
         },
@@ -36954,6 +38954,7 @@ var data = {
           "ID": 20999,
           "FullName": "Mark Williams",
           "Amount": 8,
+          "Minutes": 1115,
           "Poster": "/gdlEDhxSmPv3hWHbpTuwCI5Jrtk.jpg",
           "Gender": 2
         },
@@ -36961,6 +38962,7 @@ var data = {
           "ID": 96841,
           "FullName": "Matthew Lewis",
           "Amount": 8,
+          "Minutes": 1178,
           "Poster": "/aPQCLK2gxWOallsFoEwjb1p9lWE.jpg",
           "Gender": 2
         },
@@ -36968,6 +38970,7 @@ var data = {
           "ID": 13242,
           "FullName": "Paul Giamatti",
           "Amount": 8,
+          "Minutes": 1050,
           "Poster": "/ayEWNIXLVNYOrZQsNXrtlZTIZM8.jpg",
           "Gender": 2
         },
@@ -36975,6 +38978,7 @@ var data = {
           "ID": 53,
           "FullName": "Peter Stormare",
           "Amount": 8,
+          "Minutes": 1004,
           "Poster": "/5muzSVt66Qxc8KuVbq0phZIN9tj.jpg",
           "Gender": 2
         },
@@ -36982,6 +38986,7 @@ var data = {
           "ID": 517,
           "FullName": "Pierce Brosnan",
           "Amount": 8,
+          "Minutes": 951,
           "Poster": "/dzXVwwJLPwiZeXOnf7YxorqVEEM.jpg",
           "Gender": 2
         },
@@ -36989,6 +38994,7 @@ var data = {
           "ID": 2157,
           "FullName": "Robin Williams",
           "Amount": 8,
+          "Minutes": 985,
           "Poster": "/3vypmub75rLItlC51uJUurNYkW0.jpg",
           "Gender": 2
         },
@@ -36996,6 +39002,7 @@ var data = {
           "ID": 10730,
           "FullName": "Rowan Atkinson",
           "Amount": 8,
+          "Minutes": 821,
           "Poster": "/wxTgS4SFanVKbnvu9xqOzNJWJwz.jpg",
           "Gender": 2
         },
@@ -37003,6 +39010,7 @@ var data = {
           "ID": 10989,
           "FullName": "Rupert Grint",
           "Amount": 8,
+          "Minutes": 1178,
           "Poster": "/q2KZZ0ltTEl7Sf8volNFV1JDEP4.jpg",
           "Gender": 2
         },
@@ -37010,6 +39018,7 @@ var data = {
           "ID": 48,
           "FullName": "Sean Bean",
           "Amount": 8,
+          "Minutes": 1176,
           "Poster": "/kTjiABk3TJ3yI0Cto5RsvyT6V3o.jpg",
           "Gender": 2
         },
@@ -37017,6 +39026,7 @@ var data = {
           "ID": 17401,
           "FullName": "Stephen Root",
           "Amount": 8,
+          "Minutes": 777,
           "Poster": "/2Zwi6AydqQQ9InVdhjYcfJXNzkp.jpg",
           "Gender": 2
         },
@@ -37024,20 +39034,15 @@ var data = {
           "ID": 13014,
           "FullName": "Toby Jones",
           "Amount": 8,
+          "Minutes": 1041,
           "Poster": "/1qNisdp4f1KstdfvAgYXMdrhwfk.jpg",
-          "Gender": 2
-        },
-        {
-          "ID": 2524,
-          "FullName": "Tom Hardy",
-          "Amount": 8,
-          "Poster": "/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg",
           "Gender": 2
         },
         {
           "ID": 3905,
           "FullName": "William H. Macy",
           "Amount": 8,
+          "Minutes": 846,
           "Poster": "/hdVEGSrP8qWlJnt0v5vSVcGOjy7.jpg",
           "Gender": 2
         },
@@ -37045,6 +39050,7 @@ var data = {
           "ID": 234923,
           "FullName": "Alfred Enoch",
           "Amount": 7,
+          "Minutes": 1032,
           "Poster": "/eEVvPHmxRBcEGqtoTujncmwNDhR.jpg",
           "Gender": 2
         },
@@ -37052,6 +39058,7 @@ var data = {
           "ID": 17449,
           "FullName": "Bob Stephenson",
           "Amount": 7,
+          "Minutes": 849,
           "Poster": "/htF2P5zyyFFB1jpBNGVvTiGH01F.jpg",
           "Gender": 2
         },
@@ -37059,6 +39066,7 @@ var data = {
           "ID": 5294,
           "FullName": "Chiwetel Ejiofor",
           "Amount": 7,
+          "Minutes": 864,
           "Poster": "/kq5DDnqqofoRI0t6ddtRlsJnNPT.jpg",
           "Gender": 2
         },
@@ -37066,6 +39074,7 @@ var data = {
           "ID": 1062,
           "FullName": "Christopher Lloyd",
           "Amount": 7,
+          "Minutes": 751,
           "Poster": "/nxVjpyb3UrfbPZnEyDNlQVlFAs5.jpg",
           "Gender": 2
         },
@@ -37073,6 +39082,7 @@ var data = {
           "ID": 38582,
           "FullName": "David Krumholtz",
           "Amount": 7,
+          "Minutes": 811,
           "Poster": "/6M2kk44Z1DyUhuVGyy2UDbCKZuM.jpg",
           "Gender": 2
         },
@@ -37080,6 +39090,7 @@ var data = {
           "ID": 11207,
           "FullName": "David Thewlis",
           "Amount": 7,
+          "Minutes": 957,
           "Poster": "/sNuYyT8ocLlQr3TdAW9CoKVbCU8.jpg",
           "Gender": 2
         },
@@ -37087,6 +39098,7 @@ var data = {
           "ID": 1665,
           "FullName": "Eddie Marsan",
           "Amount": 7,
+          "Minutes": 783,
           "Poster": "/9atfOgIxhfOKvv2be8HEp6SzOct.jpg",
           "Gender": 2
         },
@@ -37094,6 +39106,7 @@ var data = {
           "ID": 58950,
           "FullName": "Greg Collins",
           "Amount": 7,
+          "Minutes": 946,
           "Poster": "/42p7hsOck2OzIkr4b9Wtp0HckkG.jpg",
           "Gender": 2
         },
@@ -37101,6 +39114,7 @@ var data = {
           "ID": 65,
           "FullName": "Ian Holm",
           "Amount": 7,
+          "Minutes": 958,
           "Poster": "/tz81JSiPdcLM7b624W1BcYdxd4D.jpg",
           "Gender": 2
         },
@@ -37108,6 +39122,7 @@ var data = {
           "ID": 18999,
           "FullName": "J.K. Simmons",
           "Amount": 7,
+          "Minutes": 742,
           "Poster": "/lttONArmyaWqgZizymc4Jv5SFqy.jpg",
           "Gender": 2
         },
@@ -37115,6 +39130,7 @@ var data = {
           "ID": 1736,
           "FullName": "James Remar",
           "Amount": 7,
+          "Minutes": 960,
           "Poster": "/ctMVpFDKKWCty60lLORf3IoJcv9.jpg",
           "Gender": 2
         },
@@ -37122,6 +39138,7 @@ var data = {
           "ID": 84495,
           "FullName": "Jess Harnell",
           "Amount": 7,
+          "Minutes": 732,
           "Poster": "/zQ2zg7PL3ut4JhfXMKSRV4FMnxR.jpg",
           "Gender": 2
         },
@@ -37129,6 +39146,7 @@ var data = {
           "ID": 68842,
           "FullName": "John Cho",
           "Amount": 7,
+          "Minutes": 721,
           "Poster": "/4Lar4uy8gk78cEocq6ERPRFWt3e.jpg",
           "Gender": 2
         },
@@ -37136,6 +39154,7 @@ var data = {
           "ID": 16861,
           "FullName": "John Hawkes",
           "Amount": 7,
+          "Minutes": 737,
           "Poster": "/nJZ0womUC7r5vKWGkLclQuo8qIi.jpg",
           "Gender": 2
         },
@@ -37143,6 +39162,7 @@ var data = {
           "ID": 7907,
           "FullName": "John Ratzenberger",
           "Amount": 7,
+          "Minutes": 706,
           "Poster": "/oRtDEOuIO1yDhTz5dORBdxXuLMO.jpg",
           "Gender": 2
         },
@@ -37150,6 +39170,7 @@ var data = {
           "ID": 19498,
           "FullName": "Jon Bernthal",
           "Amount": 7,
+          "Minutes": 852,
           "Poster": "/2NZGL8ukRncF55S3seNn14Zj84i.jpg",
           "Gender": 2
         },
@@ -37157,6 +39178,7 @@ var data = {
           "ID": 24045,
           "FullName": "Joseph Gordon-Levitt",
           "Amount": 7,
+          "Minutes": 840,
           "Poster": "/z2FA8js799xqtfiFjBTicFYdfk.jpg",
           "Gender": 2
         },
@@ -37164,6 +39186,7 @@ var data = {
           "ID": 9642,
           "FullName": "Jude Law",
           "Amount": 7,
+          "Minutes": 877,
           "Poster": "/9H577IoqFgCXonDzR3QEkF2xo5m.jpg",
           "Gender": 2
         },
@@ -37171,6 +39194,7 @@ var data = {
           "ID": 2141,
           "FullName": "Ned Bellamy",
           "Amount": 7,
+          "Minutes": 835,
           "Poster": "/9qj6thu0g6iUc2hvfoEYlO4GSbY.jpg",
           "Gender": 2
         },
@@ -37178,6 +39202,7 @@ var data = {
           "ID": 1233,
           "FullName": "Philip Seymour Hoffman",
           "Amount": 7,
+          "Minutes": 911,
           "Poster": "/50rqDkmvXwjwVhFH7q6ph2Rkw7S.jpg",
           "Gender": 2
         },
@@ -37185,6 +39210,7 @@ var data = {
           "ID": 30614,
           "FullName": "Ryan Gosling",
           "Amount": 7,
+          "Minutes": 808,
           "Poster": "/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg",
           "Gender": 2
         },
@@ -37192,6 +39218,7 @@ var data = {
           "ID": 2283,
           "FullName": "Stanley Tucci",
           "Amount": 7,
+          "Minutes": 860,
           "Poster": "/q4TanMDI5Rgsvw4SfyNbPBh4URr.jpg",
           "Gender": 2
         },
@@ -37199,6 +39226,7 @@ var data = {
           "ID": 537,
           "FullName": "Stephen Tobolowsky",
           "Amount": 7,
+          "Minutes": 758,
           "Poster": "/uL8yfcm0dCFYFQt052kczVQVvac.jpg",
           "Gender": 2
         },
@@ -37206,6 +39234,7 @@ var data = {
           "ID": 884,
           "FullName": "Steve Buscemi",
           "Amount": 7,
+          "Minutes": 846,
           "Poster": "/lQKdHMxfYcCBOvwRKBAxPZVNtkg.jpg",
           "Gender": 2
         },
@@ -37213,6 +39242,7 @@ var data = {
           "ID": 43010,
           "FullName": "Thomas Rosales Jr.",
           "Amount": 7,
+          "Minutes": 899,
           "Poster": "/tlJzLctGc6UmB7JQrkFcdMEuRx3.jpg",
           "Gender": 2
         },
@@ -37220,6 +39250,7 @@ var data = {
           "ID": 110,
           "FullName": "Viggo Mortensen",
           "Amount": 7,
+          "Minutes": 1018,
           "Poster": "/vH5gVSpHAMhDaFWfh0Q7BG61O1y.jpg",
           "Gender": 2
         },
@@ -37227,6 +39258,7 @@ var data = {
           "ID": 886,
           "FullName": "William Fichtner",
           "Amount": 7,
+          "Minutes": 958,
           "Poster": "/wWtJOoaNAwPparpzMNuRBjvxwEf.jpg",
           "Gender": 2
         },
@@ -37234,6 +39266,7 @@ var data = {
           "ID": 1081122,
           "FullName": "Abraham Aronofsky",
           "Amount": 6,
+          "Minutes": 620,
           "Poster": "/oaKRM2enyDW6qkujzLRMKlqN1no.jpg",
           "Gender": 2
         },
@@ -37241,6 +39274,7 @@ var data = {
           "ID": 1643,
           "FullName": "Adrian Rawlins",
           "Amount": 6,
+          "Minutes": 864,
           "Poster": "/G0PGZqTjenuVTAQiib4ScU7vAI.jpg",
           "Gender": 2
         },
@@ -37248,6 +39282,7 @@ var data = {
           "ID": 21088,
           "FullName": "Alan Tudyk",
           "Amount": 6,
+          "Minutes": 614,
           "Poster": "/jUuUbPuMGonFT5E2pcs4alfqaCN.jpg",
           "Gender": 2
         },
@@ -37255,6 +39290,7 @@ var data = {
           "ID": 1333,
           "FullName": "Andy Serkis",
           "Amount": 6,
+          "Minutes": 929,
           "Poster": "/eNGqhebQ4cDssjVeNFrKtUvweV5.jpg",
           "Gender": 2
         },
@@ -37262,6 +39298,7 @@ var data = {
           "ID": 2282,
           "FullName": "Ben Kingsley",
           "Amount": 6,
+          "Minutes": 804,
           "Poster": "/vQtBqpF2HDdzbfXHDzR4u37i1Ac.jpg",
           "Gender": 2
         },
@@ -37269,6 +39306,7 @@ var data = {
           "ID": 1121,
           "FullName": "Benicio del Toro",
           "Amount": 6,
+          "Minutes": 738,
           "Poster": "/s1EVFX10YJZTcvkAAq4AcPniS3t.jpg",
           "Gender": 2
         },
@@ -37276,6 +39314,7 @@ var data = {
           "ID": 1532,
           "FullName": "Bill Murray",
           "Amount": 6,
+          "Minutes": 596,
           "Poster": "/nnCsJc9x3ZiG3AFyiyc3FPehppy.jpg",
           "Gender": 2
         },
@@ -37283,6 +39322,7 @@ var data = {
           "ID": 1838353,
           "FullName": "Billy Devlin",
           "Amount": 6,
+          "Minutes": 744,
           "Poster": "/dnxo4BhdJk2LWYnhz7zLiuZZ9mt.jpg",
           "Gender": 2
         },
@@ -37290,6 +39330,7 @@ var data = {
           "ID": 66,
           "FullName": "Chris Tucker",
           "Amount": 6,
+          "Minutes": 681,
           "Poster": "/f3oQKRJEGjK8Yc4qSMrD5P9oYbg.jpg",
           "Gender": 2
         },
@@ -37297,6 +39338,7 @@ var data = {
           "ID": 113,
           "FullName": "Christopher Lee",
           "Amount": 6,
+          "Minutes": 860,
           "Poster": "/dA26fBr3t7mKqjn3OYW6kbD1LXM.jpg",
           "Gender": 2
         },
@@ -37304,6 +39346,7 @@ var data = {
           "ID": 290,
           "FullName": "Christopher Plummer",
           "Amount": 6,
+          "Minutes": 796,
           "Poster": "/iZh3s9Vy9vYD4DYnAda6C1kdeco.jpg",
           "Gender": 2
         },
@@ -37311,6 +39354,7 @@ var data = {
           "ID": 2037,
           "FullName": "Cillian Murphy",
           "Amount": 6,
+          "Minutes": 841,
           "Poster": "/dm6V24NjjvjMiCtbMkc8Y2WPm2e.jpg",
           "Gender": 2
         },
@@ -37318,6 +39362,7 @@ var data = {
           "ID": 2296,
           "FullName": "Clive Owen",
           "Amount": 6,
+          "Minutes": 722,
           "Poster": "/ed0LT4wH1rUCviCFexd4XPZVHE1.jpg",
           "Gender": 2
         },
@@ -37325,6 +39370,7 @@ var data = {
           "ID": 72466,
           "FullName": "Colin Farrell",
           "Amount": 6,
+          "Minutes": 680,
           "Poster": "/9BWYfxrVyzVpcvP8YT9QT8oQAfS.jpg",
           "Gender": 2
         },
@@ -37332,6 +39378,7 @@ var data = {
           "ID": 5472,
           "FullName": "Colin Firth",
           "Amount": 6,
+          "Minutes": 685,
           "Poster": "/4VBeYEUQbfhnivdkqInM36u5fda.jpg",
           "Gender": 2
         },
@@ -37339,6 +39386,7 @@ var data = {
           "ID": 5414,
           "FullName": "Colin Salmon",
           "Amount": 6,
+          "Minutes": 689,
           "Poster": "/mLlAU6Zl2MIL5znp5UHdX3sVTN7.jpg",
           "Gender": 2
         },
@@ -37346,6 +39394,7 @@ var data = {
           "ID": 6486,
           "FullName": "Dan Hedaya",
           "Amount": 6,
+          "Minutes": 668,
           "Poster": "/evL3mV8hNIjZOb1XG3qtgmiTgS5.jpg",
           "Gender": 2
         },
@@ -37353,6 +39402,7 @@ var data = {
           "ID": 8784,
           "FullName": "Daniel Craig",
           "Amount": 6,
+          "Minutes": 779,
           "Poster": "/iFerDZUmC5Fu26i4qI8xnUVEHc7.jpg",
           "Gender": 2
         },
@@ -37360,6 +39410,7 @@ var data = {
           "ID": 518,
           "FullName": "Danny DeVito",
           "Amount": 6,
+          "Minutes": 682,
           "Poster": "/gNHF2SNXFFCRqwIQ2Xv6r6aV6UD.jpg",
           "Gender": 2
         },
@@ -37367,6 +39418,7 @@ var data = {
           "ID": 11160,
           "FullName": "Danny Trejo",
           "Amount": 6,
+          "Minutes": 712,
           "Poster": "/7JrUkRGBscZ1Hy5JinaaXjjzSCF.jpg",
           "Gender": 2
         },
@@ -37374,6 +39426,7 @@ var data = {
           "ID": 1896,
           "FullName": "Don Cheadle",
           "Amount": 6,
+          "Minutes": 690,
           "Poster": "/vPzvP0Qik5yHNf6dF2uqLH9HrX1.jpg",
           "Gender": 2
         },
@@ -37381,6 +39434,7 @@ var data = {
           "ID": 569,
           "FullName": "Ethan Hawke",
           "Amount": 6,
+          "Minutes": 718,
           "Poster": "/a7rgJl8TYUWAfJuM4fxbLHgD7BL.jpg",
           "Gender": 2
         },
@@ -37388,6 +39442,7 @@ var data = {
           "ID": 15831,
           "FullName": "Frank Welker",
           "Amount": 6,
+          "Minutes": 573,
           "Poster": "/xXODQ5AX6pG4my8ieeEIuiAREXs.jpg",
           "Gender": 2
         },
@@ -37395,6 +39450,7 @@ var data = {
           "ID": 1461,
           "FullName": "George Clooney",
           "Amount": 6,
+          "Minutes": 682,
           "Poster": "/qCShMw6NW9dWcmCQrCl4tLNQwiC.jpg",
           "Gender": 2
         },
@@ -37402,6 +39458,7 @@ var data = {
           "ID": 1771,
           "FullName": "Giovanni Ribisi",
           "Amount": 6,
+          "Minutes": 760,
           "Poster": "/nABPeuB360wvWnVMqgpJHq6wHFz.jpg",
           "Gender": 2
         },
@@ -37409,6 +39466,7 @@ var data = {
           "ID": 122545,
           "FullName": "Gregg Bello",
           "Amount": 6,
+          "Minutes": 708,
           "Poster": "/5vj3QZSfQc66Cd6MKL8rn7WOHvW.jpg",
           "Gender": 2
         },
@@ -37416,6 +39474,7 @@ var data = {
           "ID": 529,
           "FullName": "Guy Pearce",
           "Amount": 6,
+          "Minutes": 739,
           "Poster": "/hCzlUxrTLz3ntoPApW873sX0THf.jpg",
           "Gender": 2
         },
@@ -37423,6 +39482,7 @@ var data = {
           "ID": 2505,
           "FullName": "James Cromwell",
           "Amount": 6,
+          "Minutes": 661,
           "Poster": "/vpNQQbM5PtxsYmVm4oh79SGFyUK.jpg",
           "Gender": 2
         },
@@ -37430,6 +39490,7 @@ var data = {
           "ID": 956224,
           "FullName": "Jamie Waylett",
           "Amount": 6,
+          "Minutes": 902,
           "Poster": "/2Eg3ImAsq5c5tNAyJFHcFC1lejf.jpg",
           "Gender": 2
         },
@@ -37437,6 +39498,7 @@ var data = {
           "ID": 7499,
           "FullName": "Jared Leto",
           "Amount": 6,
+          "Minutes": 703,
           "Poster": "/aNUvy7cpa78NRjCvHi5vYuNJRtj.jpg",
           "Gender": 2
         },
@@ -37444,6 +39506,7 @@ var data = {
           "ID": 976,
           "FullName": "Jason Statham",
           "Amount": 6,
+          "Minutes": 634,
           "Poster": "/whNwkEQYWLFJA8ij0WyOOAD5xhQ.jpg",
           "Gender": 2
         },
@@ -37451,6 +39514,7 @@ var data = {
           "ID": 2954,
           "FullName": "Jeffrey Wright",
           "Amount": 6,
+          "Minutes": 870,
           "Poster": "/yGcuHGW4glqRpOPxgiCvjcren7F.jpg",
           "Gender": 2
         },
@@ -37458,6 +39522,7 @@ var data = {
           "ID": 73421,
           "FullName": "Joaquin Phoenix",
           "Amount": 6,
+          "Minutes": 752,
           "Poster": "/ls72wfQl8AhRVFeBnotmnAdy3JR.jpg",
           "Gender": 2
         },
@@ -37465,6 +39530,7 @@ var data = {
           "ID": 141762,
           "FullName": "Joe Chrest",
           "Amount": 6,
+          "Minutes": 662,
           "Poster": "/7mcsJGnqRoVPTtxAUZEKt2dZnlw.jpg",
           "Gender": 2
         },
@@ -37472,6 +39538,7 @@ var data = {
           "ID": 3911,
           "FullName": "John Carroll Lynch",
           "Amount": 6,
+          "Minutes": 705,
           "Poster": "/cIx1HYFOHmfeAGRDBJwdFK9ZMIM.jpg",
           "Gender": 2
         },
@@ -37479,6 +39546,7 @@ var data = {
           "ID": 5049,
           "FullName": "John Hurt",
           "Amount": 6,
+          "Minutes": 799,
           "Poster": "/kFNlnnjCm7MsRNJ5yzZEH2YJIPC.jpg",
           "Gender": 2
         },
@@ -37486,6 +39554,7 @@ var data = {
           "ID": 6949,
           "FullName": "John Malkovich",
           "Amount": 6,
+          "Minutes": 685,
           "Poster": "/5coH0AExljEnbseCXKL4CDOVQj8.jpg",
           "Gender": 2
         },
@@ -37493,6 +39562,7 @@ var data = {
           "ID": 85,
           "FullName": "Johnny Depp",
           "Amount": 6,
+          "Minutes": 694,
           "Poster": "/wcI594cwM4ArPwvRd2IU0Z0yLuh.jpg",
           "Gender": 2
         },
@@ -37500,6 +39570,7 @@ var data = {
           "ID": 27972,
           "FullName": "Josh Hutcherson",
           "Amount": 6,
+          "Minutes": 744,
           "Poster": "/1gFNyijWyHL2Gq4Td74l6QWBYaj.jpg",
           "Gender": 2
         },
@@ -37507,6 +39578,7 @@ var data = {
           "ID": 6181,
           "FullName": "Josh Pais",
           "Amount": 6,
+          "Minutes": 644,
           "Poster": "/uH90fGfLLzYCX02yOW3kH4LMO7n.jpg",
           "Gender": 2
         },
@@ -37514,6 +39586,7 @@ var data = {
           "ID": 17413,
           "FullName": "Julio Oscar Mechoso",
           "Amount": 6,
+          "Minutes": 611,
           "Poster": "/2m1vtlRlSxozMOoHeobCY2pbrPi.jpg",
           "Gender": 2
         },
@@ -37521,6 +39594,7 @@ var data = {
           "ID": 2449,
           "FullName": "Kevin McNally",
           "Amount": 6,
+          "Minutes": 660,
           "Poster": "/1QvG7MbfeWxb4LlZrlR4OtwvB8v.jpg",
           "Gender": 2
         },
@@ -37528,6 +39602,7 @@ var data = {
           "ID": 11519,
           "FullName": "Larry Hankin",
           "Amount": 6,
+          "Minutes": 663,
           "Poster": "/2uR8SZ9geiSQOpBhKrerh9qY7CX.jpg",
           "Gender": 2
         },
@@ -37535,6 +39610,7 @@ var data = {
           "ID": 2221,
           "FullName": "Leland Orser",
           "Amount": 6,
+          "Minutes": 750,
           "Poster": "/vvVcWhActW8k2gQz95UatVP4Duf.jpg",
           "Gender": 2
         },
@@ -37542,6 +39618,7 @@ var data = {
           "ID": 29237,
           "FullName": "Leo Bill",
           "Amount": 6,
+          "Minutes": 723,
           "Poster": "/lQqaDu2LxHVpqHcdWxNG2ZiGn23.jpg",
           "Gender": 2
         },
@@ -37549,6 +39626,7 @@ var data = {
           "ID": 534,
           "FullName": "Mark Boone Junior",
           "Amount": 6,
+          "Minutes": 700,
           "Poster": "/rcncVr356hpfKX9qOrKL3SJlEO7.jpg",
           "Gender": 2
         },
@@ -37556,6 +39634,7 @@ var data = {
           "ID": 20982,
           "FullName": "Marton Csokas",
           "Amount": 6,
+          "Minutes": 858,
           "Poster": "/jKtjjwf8MHnUsQ3YA56LH9pJjee.jpg",
           "Gender": 2
         },
@@ -37563,6 +39642,7 @@ var data = {
           "ID": 10297,
           "FullName": "Matthew McConaughey",
           "Amount": 6,
+          "Minutes": 796,
           "Poster": "/sY2mwpafcwqyYS1sOySu1MENDse.jpg",
           "Gender": 2
         },
@@ -37570,6 +39650,7 @@ var data = {
           "ID": 58744,
           "FullName": "Michael Bacall",
           "Amount": 6,
+          "Minutes": 758,
           "Poster": "/7KfRp9Amz76Q7w1UVrNdYgL5NMg.jpg",
           "Gender": 2
         },
@@ -37577,6 +39658,7 @@ var data = {
           "ID": 17288,
           "FullName": "Michael Fassbender",
           "Amount": 6,
+          "Minutes": 748,
           "Poster": "/xvbnUiB2ZBR3QIt595OzNy657Vw.jpg",
           "Gender": 2
         },
@@ -37584,6 +39666,7 @@ var data = {
           "ID": 2536,
           "FullName": "Michael Parks",
           "Amount": 6,
+          "Minutes": 738,
           "Poster": "/sXK8vnVNyYzJl2oE6lxKLtxG9px.jpg",
           "Gender": 2
         },
@@ -37591,6 +39674,7 @@ var data = {
           "ID": 335,
           "FullName": "Michael Shannon",
           "Amount": 6,
+          "Minutes": 709,
           "Poster": "/6mMczfjM8CiS1WuBOgo5Xom1TcR.jpg",
           "Gender": 2
         },
@@ -37598,6 +39682,7 @@ var data = {
           "ID": 34,
           "FullName": "Mykelti Williamson",
           "Amount": 6,
+          "Minutes": 807,
           "Poster": "/e5f7XCZAUEQ55rVhdphqzdMMI8b.jpg",
           "Gender": 2
         },
@@ -37605,6 +39690,7 @@ var data = {
           "ID": 887,
           "FullName": "Owen Wilson",
           "Amount": 6,
+          "Minutes": 682,
           "Poster": "/ntN3DL1Us5G2PCvlfq112vLXRKa.jpg",
           "Gender": 2
         },
@@ -37612,6 +39698,7 @@ var data = {
           "ID": 3064,
           "FullName": "Peter Mullan",
           "Amount": 6,
+          "Minutes": 712,
           "Poster": "/7Y6oHcv719kfYxpWcYAE7wXzE7C.jpg",
           "Gender": 2
         },
@@ -37619,6 +39706,7 @@ var data = {
           "ID": 4492,
           "FullName": "Philip Baker Hall",
           "Amount": 6,
+          "Minutes": 659,
           "Poster": "/ef7M9soBIv6iGnGEiCdsQ6ppjFl.jpg",
           "Gender": 2
         },
@@ -37626,6 +39714,7 @@ var data = {
           "ID": 138,
           "FullName": "Quentin Tarantino",
           "Amount": 6,
+          "Minutes": 744,
           "Poster": "/1gjcpAa99FAOWGnrUvHEXXsRs7o.jpg",
           "Gender": 2
         },
@@ -37633,6 +39722,7 @@ var data = {
           "ID": 1118,
           "FullName": "Rade \u0160erbed\u017Eija",
           "Amount": 6,
+          "Minutes": 764,
           "Poster": "/eGK40yJnDCJOhtGXZrhkrkfVOwu.jpg",
           "Gender": 2
         },
@@ -37640,6 +39730,7 @@ var data = {
           "ID": 22250,
           "FullName": "Rance Howard",
           "Amount": 6,
+          "Minutes": 757,
           "Poster": "/rYejoZAvgvy0jyRu9fMH9PBKOWM.jpg",
           "Gender": 2
         },
@@ -37647,13 +39738,23 @@ var data = {
           "ID": 18262,
           "FullName": "Richard Riehle",
           "Amount": 6,
+          "Minutes": 577,
           "Poster": "/wgjBsgpzRvardVXZhNGixSw63g2.jpg",
+          "Gender": 2
+        },
+        {
+          "ID": 31028,
+          "FullName": "Richard Schiff",
+          "Amount": 6,
+          "Minutes": 705,
+          "Poster": "/oFDka3Y5H3DBiZRqbdPabtX8ncP.jpg",
           "Gender": 2
         },
         {
           "ID": 5694,
           "FullName": "Robert Forster",
           "Amount": 6,
+          "Minutes": 734,
           "Poster": "/8OiwipCStS3HyfIm7h7qwEEqIaF.jpg",
           "Gender": 2
         },
@@ -37661,6 +39762,7 @@ var data = {
           "ID": 1217939,
           "FullName": "Robert Peters",
           "Amount": 6,
+          "Minutes": 676,
           "Poster": "/ub1u7ydCng5T71w1gtHfH3KC2Hl.jpg",
           "Gender": 2
         },
@@ -37668,6 +39770,7 @@ var data = {
           "ID": 17072,
           "FullName": "Sam Douglas",
           "Amount": 6,
+          "Minutes": 763,
           "Poster": "/hGtVDo5BF4utyCbrEUm3RDNA28B.jpg",
           "Gender": 2
         },
@@ -37675,6 +39778,7 @@ var data = {
           "ID": 10959,
           "FullName": "Shia LaBeouf",
           "Amount": 6,
+          "Minutes": 698,
           "Poster": "/ljlpaXEManszxIcshYQoqo4au03.jpg",
           "Gender": 2
         },
@@ -37682,6 +39786,7 @@ var data = {
           "ID": 11275,
           "FullName": "Stephen Fry",
           "Amount": 6,
+          "Minutes": 669,
           "Poster": "/dH7GuUZ8QPM9RN99ak9KKOkSkdS.jpg",
           "Gender": 2
         },
@@ -37689,6 +39794,7 @@ var data = {
           "ID": 39189,
           "FullName": "Stephen Merchant",
           "Amount": 6,
+          "Minutes": 606,
           "Poster": "/6WM2rK6390Nwk398syJbGcPvRct.jpg",
           "Gender": 2
         },
@@ -37696,6 +39802,7 @@ var data = {
           "ID": 18082,
           "FullName": "Timothy Olyphant",
           "Amount": 6,
+          "Minutes": 720,
           "Poster": "/7pHmRHE2wBNC9cBgNIRCBqFLoyZ.jpg",
           "Gender": 2
         },
@@ -37703,6 +39810,7 @@ var data = {
           "ID": 11161,
           "FullName": "Tom Savini",
           "Amount": 6,
+          "Minutes": 709,
           "Poster": "/zBYnzxzlAIEoanEU00bGYJmRS6k.jpg",
           "Gender": 2
         },
@@ -37710,6 +39818,7 @@ var data = {
           "ID": 19384,
           "FullName": "Tony Todd",
           "Amount": 6,
+          "Minutes": 597,
           "Poster": "/6mzKpHdwfFY6sUpTS7cMPCoLzB3.jpg",
           "Gender": 2
         },
@@ -37717,6 +39826,7 @@ var data = {
           "ID": 4937,
           "FullName": "Vince Vaughn",
           "Amount": 6,
+          "Minutes": 726,
           "Poster": "/A9fJ88dfXZGpgFTnQIK0bOtjMrj.jpg",
           "Gender": 2
         },
@@ -37724,6 +39834,7 @@ var data = {
           "ID": 568374,
           "FullName": "William Melling",
           "Amount": 6,
+          "Minutes": 824,
           "Poster": "",
           "Gender": 2
         },
@@ -37731,19 +39842,21 @@ var data = {
           "ID": 3982,
           "FullName": "Xander Berkeley",
           "Amount": 6,
+          "Minutes": 776,
           "Poster": "/oBoKGfngGGZmSVGFslphYjc23WO.jpg",
           "Gender": 2
         }
       ]
     },
     "entirecast_3": {
-      "Total": 25,
-      "Unique": 16,
+      "Total": 27,
+      "Unique": 18,
       "PeopleData": [
         {
           "ID": 27578,
           "FullName": "Elliot Page",
           "Amount": 4,
+          "Minutes": 459,
           "Poster": "/eCeFgzS8dYHnMfWQT0oQitCrsSz.jpg",
           "Gender": 3
         },
@@ -37751,6 +39864,7 @@ var data = {
           "ID": 1005852,
           "FullName": "Janelle Mon\u00E1e",
           "Amount": 4,
+          "Minutes": 427,
           "Poster": "/axTIbPz6ZbqlcCwkNBgD59gY3lx.jpg",
           "Gender": 3
         },
@@ -37758,6 +39872,7 @@ var data = {
           "ID": 1926,
           "FullName": "Eddie Izzard",
           "Amount": 2,
+          "Minutes": 199,
           "Poster": "/H8zar1LxJu5jgThl33z59g2iqO.jpg",
           "Gender": 3
         },
@@ -37765,6 +39880,7 @@ var data = {
           "ID": 1586573,
           "FullName": "Eliot Sumner",
           "Amount": 2,
+          "Minutes": 276,
           "Poster": "/uhBXuf4YFCd1Uxfqh8umbdoJMoq.jpg",
           "Gender": 3
         },
@@ -37772,6 +39888,7 @@ var data = {
           "ID": 132157,
           "FullName": "Ezra Miller",
           "Amount": 2,
+          "Minutes": 216,
           "Poster": "/s6ulsRYtkaAArXsNC6cvinUiRNc.jpg",
           "Gender": 3
         },
@@ -37779,13 +39896,23 @@ var data = {
           "ID": 561869,
           "FullName": "Amandla Stenberg",
           "Amount": 1,
+          "Minutes": 142,
           "Poster": "/5blEjiO4zA8x2AFPyfVds7J3yhq.jpg",
+          "Gender": 3
+        },
+        {
+          "ID": 1477963,
+          "FullName": "August Winter",
+          "Amount": 1,
+          "Minutes": 104,
+          "Poster": "/wdL12vuudqykm5hR6xj1KhyDmOU.jpg",
           "Gender": 3
         },
         {
           "ID": 1725576,
           "FullName": "Becca Blackwell",
           "Amount": 1,
+          "Minutes": 137,
           "Poster": "/uieDJ7TSYgAZsXdUH4ZR5kzUaKW.jpg",
           "Gender": 3
         },
@@ -37793,13 +39920,23 @@ var data = {
           "ID": 2835905,
           "FullName": "Blu del Barrio",
           "Amount": 1,
+          "Minutes": 96,
           "Poster": "/g1EYG2rUSqeg2Z6VeUIlc2dRsyI.jpg",
+          "Gender": 3
+        },
+        {
+          "ID": 3903124,
+          "FullName": "Carter Trozzolo",
+          "Amount": 1,
+          "Minutes": 89,
+          "Poster": "/9oZ4pWKGXYba6KoC3c3URNyl4jc.jpg",
           "Gender": 3
         },
         {
           "ID": 1972881,
           "FullName": "Celeste O'Connor",
           "Amount": 1,
+          "Minutes": 128,
           "Poster": "/jI3pNOhj9Gr7ym9cUcv8vsI0lCF.jpg",
           "Gender": 3
         },
@@ -37807,6 +39944,7 @@ var data = {
           "ID": 93285,
           "FullName": "Charlyne Yi",
           "Amount": 1,
+          "Minutes": 85,
           "Poster": "/1lNDk1RfiGlGdgLEF5E35PpEc22.jpg",
           "Gender": 3
         },
@@ -37814,6 +39952,7 @@ var data = {
           "ID": 3505950,
           "FullName": "Eden Dambrine",
           "Amount": 1,
+          "Minutes": 104,
           "Poster": "/9u8byzr9LpFvuvYk7bep6l8U5Ow.jpg",
           "Gender": 3
         },
@@ -37821,6 +39960,7 @@ var data = {
           "ID": 122851,
           "FullName": "Elsie Fisher",
           "Amount": 1,
+          "Minutes": 94,
           "Poster": "/lSmrN828nMMXHvwr7IgO1qlYPSa.jpg",
           "Gender": 3
         },
@@ -37828,6 +39968,7 @@ var data = {
           "ID": 99381,
           "FullName": "Jessi Kneeland",
           "Amount": 1,
+          "Minutes": 66,
           "Poster": "",
           "Gender": 3
         },
@@ -37835,6 +39976,7 @@ var data = {
           "ID": 1786255,
           "FullName": "Lacy Dmitriew",
           "Amount": 1,
+          "Minutes": 137,
           "Poster": "/eC1KUnQemdBJxHE0IbDpOt6lUmn.jpg",
           "Gender": 3
         },
@@ -37842,6 +39984,7 @@ var data = {
           "ID": 125055,
           "FullName": "Sara Ramirez",
           "Amount": 1,
+          "Minutes": 119,
           "Poster": "/5hi4tZfMQe5Cw236c7eIFYi0D1F.jpg",
           "Gender": 3
         },
@@ -37849,6 +39992,7 @@ var data = {
           "ID": 3923758,
           "FullName": "Tianna Arnold",
           "Amount": 1,
+          "Minutes": 121,
           "Poster": "/zGYs00VeVySNgDiaNX2SfBj09wt.jpg",
           "Gender": 3
         }
@@ -37922,7 +40066,7 @@ var data = {
     "1933": 2,
     "1934": 0,
     "1935": 0,
-    "1936": 0,
+    "1936": 1,
     "1937": 1,
     "1938": 1,
     "1939": 1,
@@ -37936,7 +40080,7 @@ var data = {
     "1947": 1,
     "1948": 2,
     "1949": 0,
-    "1950": 0,
+    "1950": 2,
     "1951": 1,
     "1952": 1,
     "1953": 2,
@@ -37953,7 +40097,7 @@ var data = {
     "1964": 3,
     "1965": 3,
     "1966": 7,
-    "1967": 4,
+    "1967": 5,
     "1968": 7,
     "1969": 2,
     "1970": 2,
@@ -37963,7 +40107,7 @@ var data = {
     "1974": 4,
     "1975": 6,
     "1976": 4,
-    "1977": 3,
+    "1977": 4,
     "1978": 5,
     "1979": 5,
     "1980": 2,
@@ -37991,8 +40135,8 @@ var data = {
     "2002": 35,
     "2003": 24,
     "2004": 33,
-    "2005": 22,
-    "2006": 30,
+    "2005": 23,
+    "2006": 31,
     "2007": 54,
     "2008": 31,
     "2009": 23,
@@ -38005,12 +40149,12 @@ var data = {
     "2016": 23,
     "2017": 26,
     "2018": 22,
-    "2019": 29,
-    "2020": 7,
+    "2019": 30,
+    "2020": 8,
     "2021": 13,
-    "2022": 22,
-    "2023": 27,
-    "2024": 11
+    "2022": 23,
+    "2023": 29,
+    "2024": 13
   },
   "FilmsWatchedPerDecade": {
     "1870": {
@@ -38044,9 +40188,9 @@ var data = {
       "RatingTotal": 17
     },
     "1930": {
-      "Count": 8,
-      "RatingCount": 7,
-      "RatingTotal": 28
+      "Count": 9,
+      "RatingCount": 8,
+      "RatingTotal": 31
     },
     "1940": {
       "Count": 12,
@@ -38054,17 +40198,17 @@ var data = {
       "RatingTotal": 20
     },
     "1950": {
-      "Count": 16,
+      "Count": 18,
       "RatingCount": 12,
       "RatingTotal": 40
     },
     "1960": {
-      "Count": 38,
+      "Count": 39,
       "RatingCount": 21,
       "RatingTotal": 84
     },
     "1970": {
-      "Count": 38,
+      "Count": 39,
       "RatingCount": 12,
       "RatingTotal": 48
     },
@@ -38079,19 +40223,19 @@ var data = {
       "RatingTotal": 140
     },
     "2000": {
-      "Count": 320,
-      "RatingCount": 46,
-      "RatingTotal": 142
+      "Count": 322,
+      "RatingCount": 48,
+      "RatingTotal": 148
     },
     "2010": {
-      "Count": 235,
+      "Count": 236,
       "RatingCount": 117,
       "RatingTotal": 390
     },
     "2020": {
-      "Count": 80,
-      "RatingCount": 72,
-      "RatingTotal": 256
+      "Count": 86,
+      "RatingCount": 77,
+      "RatingTotal": 277
     }
   },
   "LongestFilms": [
@@ -38194,7 +40338,7 @@ var data = {
     854,
     583,
     306,
-    4
+    998
   ],
   "MostWatchedFilms": [
     139,
@@ -38385,6 +40529,7 @@ var data = {
     936,
     750,
     931,
+    1004,
     943,
     193,
     769,
@@ -38397,8 +40542,7 @@ var data = {
     425,
     754,
     291,
-    351,
-    195
+    351
   ],
   "HighestRatedFilms": [
     818,
@@ -38431,6 +40575,7 @@ var data = {
     120,
     9,
     142,
+    998,
     954,
     123,
     921,
@@ -38442,6 +40587,8 @@ var data = {
     33,
     45,
     37,
+    1008,
+    999,
     803,
     780,
     591,
@@ -38497,10 +40644,7 @@ var data = {
     177,
     1,
     206,
-    144,
-    19,
-    969,
-    919
+    144
   ],
   "LowestRatedFilms": [
     149,
@@ -38712,6 +40856,7 @@ var data = {
     805,
     911,
     173,
+    999,
     642,
     930,
     618,
@@ -38721,11 +40866,13 @@ var data = {
     351,
     922,
     777,
-    711,
-    672
+    711
   ],
   "NewestReleasedFilms": [
+    1005,
+    1009,
     928,
+    1002,
     967,
     994,
     985,
@@ -38759,6 +40906,7 @@ var data = {
     88,
     126,
     767,
+    1008,
     19,
     839,
     808,
@@ -38766,6 +40914,7 @@ var data = {
     210,
     200,
     216,
+    996,
     34,
     191,
     182,
@@ -38801,12 +40950,14 @@ var data = {
     778,
     893,
     25,
+    997,
     827,
     812,
     773,
     215,
     219,
     813,
+    1004,
     230,
     79,
     937,
@@ -38817,14 +40968,7 @@ var data = {
     131,
     757,
     139,
-    158,
-    846,
-    21,
-    755,
-    240,
-    954,
-    134,
-    855
+    158
   ],
   "OldestReleasedFilms": [
     909,
@@ -38856,6 +41000,7 @@ var data = {
     205,
     663,
     793,
+    1006,
     822,
     993,
     43,
@@ -38871,6 +41016,8 @@ var data = {
     953,
     564,
     388,
+    1001,
+    998,
     869,
     775,
     171,
@@ -38912,6 +41059,7 @@ var data = {
     964,
     774,
     845,
+    999,
     955,
     959,
     454,
@@ -38922,18 +41070,14 @@ var data = {
     495,
     927,
     157,
-    840,
-    398,
-    780,
-    842,
-    300
+    840
   ],
   "FilmsPerThirtyMinutes": {
     "0": 24,
     "30": 10,
-    "60": 140,
-    "90": 543,
-    "120": 231,
+    "60": 142,
+    "90": 549,
+    "120": 237,
     "150": 37,
     "180": 10,
     "210": 1
@@ -38943,14 +41087,14 @@ var data = {
     "Cantonese": 1,
     "Czech": 2,
     "Danish": 1,
-    "English": 877,
-    "French": 34,
+    "English": 888,
+    "French": 35,
     "German": 4,
     "Hungarian": 1,
     "Icelandic": 1,
     "Irish": 1,
-    "Italian": 3,
-    "Japanese": 11,
+    "Italian": 4,
+    "Japanese": 12,
     "Korean": 5,
     "Mandarin": 2,
     "No Spoken Language": 32,
@@ -38968,20 +41112,20 @@ var data = {
     "Austria": 1,
     "Belgium": 6,
     "Brazil": 4,
-    "Canada": 24,
+    "Canada": 25,
     "Chile": 1,
     "China": 1,
     "Czechia": 2,
     "Czechoslovakia": 2,
     "Denmark": 7,
-    "France": 50,
+    "France": 51,
     "Germany": 16,
     "Hong Kong": 2,
     "Hungary": 2,
     "Iceland": 2,
     "Ireland": 11,
-    "Italy": 5,
-    "Japan": 12,
+    "Italy": 6,
+    "Japan": 13,
     "Mali": 1,
     "Mexico": 1,
     "Myanmar": 1,
@@ -39002,8 +41146,8 @@ var data = {
     "Taiwan": 1,
     "Ukraine": 1,
     "United Arab Emirates": 1,
-    "United Kingdom": 177,
-    "United States of America": 784
+    "United Kingdom": 179,
+    "United States of America": 793
   },
   "FilmsPerCountryProduction": {
     "Angola": 1,
@@ -39012,7 +41156,7 @@ var data = {
     "Austria": 2,
     "Belgium": 14,
     "Brazil": 8,
-    "Canada": 44,
+    "Canada": 45,
     "Chile": 1,
     "China": 6,
     "Czechia": 5,
@@ -39021,8 +41165,8 @@ var data = {
     "Egypt": 1,
     "Ethiopia": 1,
     "Finland": 3,
-    "France": 103,
-    "Germany": 66,
+    "France": 105,
+    "Germany": 67,
     "Ghana": 1,
     "Greece": 4,
     "Hong Kong": 6,
@@ -39032,8 +41176,8 @@ var data = {
     "Indonesia": 1,
     "Ireland": 16,
     "Israel": 1,
-    "Italy": 22,
-    "Japan": 16,
+    "Italy": 23,
+    "Japan": 18,
     "Jordan": 2,
     "Luxembourg": 2,
     "Mali": 1,
@@ -39063,8 +41207,8 @@ var data = {
     "Turkey": 2,
     "Ukraine": 2,
     "United Arab Emirates": 2,
-    "United Kingdom": 238,
-    "United States of America": 832
+    "United Kingdom": 240,
+    "United States of America": 842
   },
   "MostFrequentWords": {
     "movie": [
@@ -39202,6 +41346,15 @@ var data = {
       800,
       961
     ],
+    "hour": [
+      76,
+      500,
+      501,
+      539,
+      576,
+      856,
+      1005
+    ],
     "last": [
       324,
       364,
@@ -39227,14 +41380,6 @@ var data = {
       447,
       456,
       779
-    ],
-    "hour": [
-      76,
-      500,
-      501,
-      539,
-      576,
-      856
     ],
     "hunger": [
       90,
@@ -39267,6 +41412,20 @@ var data = {
       921,
       937,
       994
+    ],
+    "about": [
+      57,
+      642,
+      902,
+      922,
+      998
+    ],
+    "all": [
+      2,
+      198,
+      394,
+      989,
+      998
     ],
     "baby": [
       130,
@@ -39380,23 +41539,18 @@ var data = {
       666,
       670
     ],
-    "about": [
-      57,
-      642,
-      902,
-      922
+    "women": [
+      79,
+      923,
+      979,
+      996,
+      1003
     ],
     "air": [
       322,
       349,
       424,
       554
-    ],
-    "all": [
-      2,
-      198,
-      394,
-      989
     ],
     "alone": [
       7,
@@ -39499,6 +41653,12 @@ var data = {
       756,
       890,
       969
+    ],
+    "old": [
+      75,
+      320,
+      756,
+      1002
     ],
     "out": [
       55,
@@ -39656,6 +41816,11 @@ var data = {
       638,
       882
     ],
+    "girls": [
+      16,
+      970,
+      999
+    ],
     "go": [
       442,
       752,
@@ -39710,29 +41875,14 @@ var data = {
       398,
       429,
       464
-    ],
-    "journey": [
-      298,
-      811,
-      965
-    ],
-    "kill": [
-      89,
-      247,
-      637
-    ],
-    "mr": [
-      533,
-      583,
-      609
     ]
   },
   "Backdrops": [
     {
-      "ImageUrl": "/6TBaTZCq0FdjrXcj9mKdHGpcr2D.jpg",
-      "FilmName": "The Ring\u003Cbr/\u003E(2002)",
-      "LetterboxdId": "2a70",
-      "Colour": "#45AEBE #258E9E",
+      "ImageUrl": "/d0B1WqBsxwk5vGr3nc9TbrkUHcf.jpg",
+      "FilmName": "Nosferatu, eine Symphonie des Grauens\u003Cbr\u003E(\u0026quot;Nosferatu\u0026quot;)\u003Cbr/\u003E(1922)",
+      "LetterboxdId": "29TM",
+      "Colour": "",
       "Flags": "."
     }
   ],
@@ -41823,7 +43973,7 @@ var data = {
           "LetterboxdIdentifier": "ceaW",
           "PrimaryLanguage": "English",
           "PosterUrl": "/wu9RPdV0uEemFEewJQ6fWwJ9ZcU.jpg",
-          "RatingSelf": 4
+          "RatingSelf": 0
         },
         {
           "Order": 158,
@@ -42163,7 +44313,7 @@ var data = {
           "LetterboxdIdentifier": "3JYU",
           "PrimaryLanguage": "English",
           "PosterUrl": "/cQmcKmtkQQeQFK0L07HHqdP3XIJ.jpg",
-          "RatingSelf": 4
+          "RatingSelf": 0
         },
         {
           "Order": 192,
@@ -42473,7 +44623,7 @@ var data = {
           "LetterboxdIdentifier": "26o2",
           "PrimaryLanguage": "English",
           "PosterUrl": "/tjli2Rjwkn8fivuynxwthnnEzeo.jpg",
-          "RatingSelf": 4
+          "RatingSelf": 0
         },
         {
           "Order": 223,
@@ -42734,6 +44884,146 @@ var data = {
           "PrimaryLanguage": "",
           "PosterUrl": "/nkkhsKik9GILqn3S5BxoZdyml21.jpg",
           "RatingSelf": 3
+        },
+        {
+          "Order": 249,
+          "FilmName": "Women Talking",
+          "FilmNameOriginal": "Women Talking",
+          "Year": 2022,
+          "LetterboxdIdentifier": "tdq4",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/wcTc9GveMMjAdHSlzdE0FaRCtqi.jpg",
+          "RatingSelf": 5
+        },
+        {
+          "Order": 250,
+          "FilmName": "Promising Young Woman",
+          "FilmNameOriginal": "Promising Young Woman",
+          "Year": 2020,
+          "LetterboxdIdentifier": "loRE",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/73QoFJFmUrJfDG2EynFjNc5gJxk.jpg",
+          "RatingSelf": 0
+        },
+        {
+          "Order": 251,
+          "FilmName": "All About Eve",
+          "FilmNameOriginal": "All About Eve",
+          "Year": 1950,
+          "LetterboxdIdentifier": "29LI",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/6numIZH6uR3NlJgY9m7nGH0jhs.jpg",
+          "RatingSelf": 4
+        },
+        {
+          "Order": 252,
+          "FilmName": "The Young Girls of Rochefort",
+          "FilmNameOriginal": "Les Demoiselles de Rochefort",
+          "Year": 1967,
+          "LetterboxdIdentifier": "26K8",
+          "PrimaryLanguage": "French",
+          "PosterUrl": "/jtxhyGaYhurH6KsjvP1jV3dDypz.jpg",
+          "RatingSelf": 0
+        },
+        {
+          "Order": 253,
+          "FilmName": "Marie Antoinette",
+          "FilmNameOriginal": "Marie Antoinette",
+          "Year": 2006,
+          "LetterboxdIdentifier": "27Wa",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/cybXGmv8Rjd5Os8Xml6YxMBQ0Zt.jpg",
+          "RatingSelf": 4
+        },
+        {
+          "Order": 254,
+          "FilmName": "Stromboli",
+          "FilmNameOriginal": "Stromboli (Terra di Dio)",
+          "Year": 1950,
+          "LetterboxdIdentifier": "24Js",
+          "PrimaryLanguage": "Italian",
+          "PosterUrl": "/nGQwqxXyhciDe1oDp7K87D1tRh5.jpg",
+          "RatingSelf": 0
+        },
+        {
+          "Order": 255,
+          "FilmName": "My Old Ass",
+          "FilmNameOriginal": "My Old Ass",
+          "Year": 2024,
+          "LetterboxdIdentifier": "zLP0",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/yUs4Sw9AyTg2sA1qWBkNpD2mGSj.jpg",
+          "RatingSelf": 4
+        },
+        {
+          "Order": 256,
+          "FilmName": "3 Women",
+          "FilmNameOriginal": "3 Women",
+          "Year": 1977,
+          "LetterboxdIdentifier": "YPs",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/uL5Yg8MEgHGXymTaJBYXn9g0xsH.jpg",
+          "RatingSelf": 4
+        },
+        {
+          "Order": 257,
+          "FilmName": "Clemency",
+          "FilmNameOriginal": "Clemency",
+          "Year": 2019,
+          "LetterboxdIdentifier": "kIko",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/c03mA6GYRqcRLgxXQpKcYWEKxRn.jpg",
+          "RatingSelf": 4
+        },
+        {
+          "Order": 258,
+          "FilmName": "Woman of the Hour",
+          "FilmNameOriginal": "Woman of the Hour",
+          "Year": 2023,
+          "LetterboxdIdentifier": "vuz2",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/nc9ZqrJFbcUdlMg9lxXXtJb24jU.jpg",
+          "RatingSelf": 3
+        },
+        {
+          "Order": 259,
+          "FilmName": "Dracula's Daughter",
+          "FilmNameOriginal": "Dracula's Daughter",
+          "Year": 1936,
+          "LetterboxdIdentifier": "1Azs",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/y7xBkkRLcg1I0fXHO4yYC5SwBCX.jpg",
+          "RatingSelf": 3
+        },
+        {
+          "Order": 260,
+          "FilmName": "Tideland",
+          "FilmNameOriginal": "Tideland",
+          "Year": 2005,
+          "LetterboxdIdentifier": "1Tyy",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/sTFBvoJ5HcKRQ4XwL6n9jINYiP9.jpg",
+          "RatingSelf": 2
+        },
+        {
+          "Order": 261,
+          "FilmName": "Monster",
+          "FilmNameOriginal": "\u602A\u7269",
+          "Year": 2023,
+          "LetterboxdIdentifier": "DJEM",
+          "PrimaryLanguage": "Japanese",
+          "PosterUrl": "/kvUJUyUGOhEoiWWNH04IXoExPE2.jpg",
+          "RatingSelf": 5
+        },
+        {
+          "Order": 262,
+          "FilmName": "The Outrun",
+          "FilmNameOriginal": "The Outrun",
+          "Year": 2024,
+          "LetterboxdIdentifier": "txPo",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/zfRR2CkbvYrLuOPQFm8vBaENyMy.jpg",
+          "RatingSelf": 4
         }
       ]
     }

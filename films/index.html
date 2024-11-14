@@ -2629,6 +2629,10 @@
 
 				var displayed = 0;
 				for (var person of shuffled) {
+                    var hours = 0, minutes = 0;
+                    hours = Math.floor(person.Minutes / 60);
+					minutes = person.Minutes - (hours * 60);
+                    // data-tooltip="Time: ' + hours + 'h' + minutes + 'm"
 					var url = 'https://letterboxd.com/' + data.Username + '/films/with/' + job.toLowerCase() + '/' + urlSafe(person.FullName.replace(/ /g, '-').toLowerCase()) + '/by/name/size/large/';
 					insideGallery.append(
 						'<div class="item' + (person.Amount == minimum ? ' lowlight' : '') + '">' +
