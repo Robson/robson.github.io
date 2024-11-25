@@ -350,7 +350,7 @@ p {
 }
 
 .gallery .lowlight {
-    opacity: 0.6666;
+    opacity: 0.5;
 }
 
 .gallery .lowlight:hover {
@@ -377,6 +377,10 @@ p {
 
 .highcharts-xaxis .highcharts-tick {
     stroke: #888;
+}
+
+.highcharts-data-label span {
+    background: white;
 }
 
 #outside .title {

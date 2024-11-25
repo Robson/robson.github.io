@@ -1560,25 +1560,31 @@
 
 			function showFilmLengthChart() {
 
+				const MaximumHours = 4;
+
 				var filmsByLength = Array(1000);
 				var minutes = Array(1000);
 				for (var a = 0; a < minutes.length; a++) {
-					minutes[a] = 0;
-					filmsByLength[a] = [];
+					if (a <= MaximumHours * 60) {
+						minutes[a] = 0;
+						filmsByLength[a] = [];
+					}
 				}
 				var highest = 0;
 				for (var index in films) {
 					var film = films[index];
 					if (film.Minutes > 1) {
-						minutes[+film.Minutes]++;
-						highest = Math.max(highest, film.Minutes);
-						filmsByLength[+film.Minutes].push(index);
+						if (film.Minutes <= MaximumHours * 60) {
+							minutes[+film.Minutes]++;
+							highest = Math.max(highest, film.Minutes);
+							filmsByLength[+film.Minutes].push(index);
+						}
 					}
 				}
 
 				highest += 10 - (highest % 10)
 
-				$('body').append('<div id="outside"><div class="title">Films Watched by Length</div><figure class="highcharts-figure"><div id="container"></div></figure></div>');
+                $('body').append('<div id="outside"><div class="title">Films Watched by Length <span class="subtitle">capped at ' + MaximumHours + ' hours</span></div><figure class="highcharts-figure"><div id="container"></div></figure></div>');
 
 				var cats = [];
 				var values = [];
@@ -1765,7 +1771,8 @@
 					highest = Math.max(highest, data.FilmsPerThirtyMinutes[thirty]);
 				}
 
-				for (var thirty in data.FilmsPerThirtyMinutes) {
+                var isEmpty = false;
+				for (var thirty in data.FilmsPerThirtyMinutes) {                    
 					//var label = (thirty / 60).toFixed(1) + "h <= x < " + ((+thirty + 30) / 60).toFixed(1) + "h";
 					var number = +thirty;
 					var label =
@@ -1774,16 +1781,33 @@
 						Math.floor(number / 60) + "h" + (number % 60 == 0 ? '29' : '59') + "m";
 					var percent = (data.FilmsPerThirtyMinutes[thirty] / data.TotalFilms) * 100;
 					var bar = '';
-					if (documentWidth >= 500) {
-						bar = '<td class="chart" data-value="' + data.FilmsPerThirtyMinutes[thirty] + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.FilmsPerThirtyMinutes[thirty] / highest) * 100) + 'px">&nbsp;</span></span></td>';
+					if (data.FilmsPerThirtyMinutes[thirty] == 0) {
+						if (!isEmpty) {
+                            if (documentWidth >= 500) {
+                                bar = '<td class="chart" data-value="' + data.FilmsPerThirtyMinutes[thirty] + '">...</td>';
+                            }
+                            tbody.append(
+                                '<tr>' +
+                                '<td data-value="' + number + '">...</td>' +
+                                '<td class="right">...</td>' +
+                                '<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerThirtyMinutes[thirty] + '">...</td>' +
+                                bar +
+                                '</tr>');
+						}		
+                        isEmpty = true;
+					} else {						
+						if (documentWidth >= 500) {
+							bar = '<td class="chart" data-value="' + data.FilmsPerThirtyMinutes[thirty] + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.FilmsPerThirtyMinutes[thirty] / highest) * 100) + 'px">&nbsp;</span></span></td>';
+						}
+						tbody.append(
+							'<tr>' +
+							'<td data-value="' + number + '">' + label + '</td>' +
+							'<td class="right">' + data.FilmsPerThirtyMinutes[thirty] + '</td>' +
+							'<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerThirtyMinutes[thirty] + '">' + percent.toFixed(0) + '%</td>' +
+							bar +
+							'</tr>');
+                        isEmpty = false;
 					}
-					tbody.append(
-						'<tr>' +
-						'<td data-value="' + number + '">' + label + '</td>' +
-						'<td class="right">' + data.FilmsPerThirtyMinutes[thirty] + '</td>' +
-						'<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerThirtyMinutes[thirty] + '">' + percent.toFixed(0) + '%</td>' +
-						bar +
-						'</tr>');
 				}
 
 				$.tablesorter.addParser({

@@ -1,17 +1,17 @@
 var data = {
-  "FilmsWithThemes": 929,
+  "FilmsWithThemes": 935,
   "Themes": [
     {
       "Url": "/theme/moving-relationship-stories/",
       "Text": "Moving relationship stories",
       "IsMini": false,
-      "Amount": 254
+      "Amount": 258
     },
     {
       "Url": "/theme/intense-violence-and-sexual-transgression/",
       "Text": "Intense violence and sexual transgression",
       "IsMini": false,
-      "Amount": 209
+      "Amount": 210
     },
     {
       "Url": "/theme/crude-humor-and-satire/",
@@ -35,7 +35,13 @@ var data = {
       "Url": "/mini-theme/sad-depressing-illness-heartbreaking-touching/",
       "Text": "Powerful stories of heartbreak and suffering",
       "IsMini": true,
-      "Amount": 144
+      "Amount": 146
+    },
+    {
+      "Url": "/mini-theme/touching-cry-family-sad-tear-jerker/",
+      "Text": "Touching and sentimental family stories",
+      "IsMini": true,
+      "Amount": 137
     },
     {
       "Url": "/mini-theme/gag-chuckles-slapstick-amusing-jokes/",
@@ -47,12 +53,6 @@ var data = {
       "Url": "/theme/horror-the-undead-and-monster-classics/",
       "Text": "Horror, the undead and monster classics",
       "IsMini": false,
-      "Amount": 135
-    },
-    {
-      "Url": "/mini-theme/touching-cry-family-sad-tear-jerker/",
-      "Text": "Touching and sentimental family stories",
-      "IsMini": true,
       "Amount": 135
     },
     {
@@ -80,16 +80,16 @@ var data = {
       "Amount": 106
     },
     {
-      "Url": "/mini-theme/killing-slasher-gruesome-gory-bloody/",
-      "Text": "Gory, gruesome, and slasher horror",
+      "Url": "/mini-theme/family-touching-kids-cry-tear-jerker/",
+      "Text": "Emotional and touching family dramas",
       "IsMini": true,
       "Amount": 105
     },
     {
-      "Url": "/mini-theme/family-touching-kids-cry-tear-jerker/",
-      "Text": "Emotional and touching family dramas",
+      "Url": "/mini-theme/killing-slasher-gruesome-gory-bloody/",
+      "Text": "Gory, gruesome, and slasher horror",
       "IsMini": true,
-      "Amount": 103
+      "Amount": 105
     },
     {
       "Url": "/mini-theme/chemistry-hilarious-romantic-comedy-sweet-or-humorous/",
@@ -131,7 +131,7 @@ var data = {
       "Url": "/mini-theme/quirky-humor-relationships-endearing-humorous/",
       "Text": "Quirky and endearing relationships",
       "IsMini": true,
-      "Amount": 86
+      "Amount": 87
     },
     {
       "Url": "/theme/underdogs-and-coming-of-age/",
@@ -158,28 +158,28 @@ var data = {
       "Amount": 80
     },
     {
+      "Url": "/mini-theme/family-moving-heartbreaking-sadness-sad/",
+      "Text": "Heartbreaking and moving family drama",
+      "IsMini": true,
+      "Amount": 78
+    },
+    {
       "Url": "/mini-theme/teenager-friendship-sad-adolescents-or-coming-of-age/",
       "Text": "Emotional teen coming-of-age stories",
       "IsMini": true,
       "Amount": 77
     },
     {
-      "Url": "/mini-theme/family-moving-heartbreaking-sadness-sad/",
-      "Text": "Heartbreaking and moving family drama",
+      "Url": "/mini-theme/romance-captivating-loves-lover-beauty/",
+      "Text": "Captivating relationships and charming romance",
       "IsMini": true,
-      "Amount": 76
+      "Amount": 74
     },
     {
       "Url": "/mini-theme/chilling-eerie-terrifying-terror-frighten/",
       "Text": "Creepy, chilling, and terrifying horror",
       "IsMini": true,
       "Amount": 74
-    },
-    {
-      "Url": "/mini-theme/romance-captivating-loves-lover-beauty/",
-      "Text": "Captivating relationships and charming romance",
-      "IsMini": true,
-      "Amount": 73
     },
     {
       "Url": "/mini-theme/car-cars-racing-speed-adrenaline/",
@@ -221,7 +221,7 @@ var data = {
       "Url": "/mini-theme/charming-witty-delightful-lovely-charm/",
       "Text": "Charming romances and delightful chemistry",
       "IsMini": true,
-      "Amount": 58
+      "Amount": 59
     },
     {
       "Url": "/mini-theme/eerie-blood-gothic-mysterious-bizarre/",
@@ -254,10 +254,10 @@ var data = {
       "Amount": 54
     },
     {
-      "Url": "/mini-theme/comedy-funny-hilarious-broadway-musical/",
-      "Text": "Catchy songs and hilarious musical comedy",
+      "Url": "/mini-theme/marriage-romance-affair-passionate-passion/",
+      "Text": "Passion and romance",
       "IsMini": true,
-      "Amount": 51
+      "Amount": 52
     },
     {
       "Url": "/mini-theme/fantasy-imaginative-magic-fairy-tale-or-enchanted/",
@@ -266,10 +266,10 @@ var data = {
       "Amount": 51
     },
     {
-      "Url": "/mini-theme/marriage-romance-affair-passionate-passion/",
-      "Text": "Passion and romance",
+      "Url": "/mini-theme/comedy-funny-hilarious-broadway-musical/",
+      "Text": "Catchy songs and hilarious musical comedy",
       "IsMini": true,
-      "Amount": 51
+      "Amount": 50
     },
     {
       "Url": "/mini-theme/funny-nerds-girls-comedy-dork/",
@@ -278,16 +278,16 @@ var data = {
       "Amount": 50
     },
     {
+      "Url": "/mini-theme/murder-crime-drama-gripping-compelling/",
+      "Text": "Gripping, intense violent crime",
+      "IsMini": true,
+      "Amount": 49
+    },
+    {
       "Url": "/mini-theme/guns-action-violence-cops-killing/",
       "Text": "Violent action, guns, and crime",
       "IsMini": true,
       "Amount": 48
-    },
-    {
-      "Url": "/mini-theme/murder-crime-drama-gripping-compelling/",
-      "Text": "Gripping, intense violent crime",
-      "IsMini": true,
-      "Amount": 47
     },
     {
       "Url": "/mini-theme/christmas-holiday-heartwarming-family-adorable/",
@@ -326,6 +326,12 @@ var data = {
       "Amount": 44
     },
     {
+      "Url": "/mini-theme/marriage-drama-family-dramas-melodrama/",
+      "Text": "Enduring stories of family and marital drama",
+      "IsMini": true,
+      "Amount": 42
+    },
+    {
       "Url": "/mini-theme/drugs-gritty-cops-violence-powerful/",
       "Text": "Violent crime and drugs",
       "IsMini": true,
@@ -336,12 +342,6 @@ var data = {
       "Text": "Sci-fi horror, creatures, and aliens",
       "IsMini": true,
       "Amount": 41
-    },
-    {
-      "Url": "/mini-theme/marriage-drama-family-dramas-melodrama/",
-      "Text": "Enduring stories of family and marital drama",
-      "IsMini": true,
-      "Amount": 40
     },
     {
       "Url": "/theme/politics-and-human-rights/",
@@ -365,7 +365,7 @@ var data = {
       "Url": "/theme/song-and-dance/",
       "Text": "Song and dance",
       "IsMini": false,
-      "Amount": 37
+      "Amount": 38
     },
     {
       "Url": "/mini-theme/spaceship-space-technology-future-destruction/",
@@ -395,23 +395,23 @@ var data = {
       "Url": "/theme/epic-history-and-literature/",
       "Text": "Epic history and literature",
       "IsMini": false,
-      "Amount": 32
+      "Amount": 33
     },
     {
       "Url": "/mini-theme/musical-lyrics-broadway-tune-vocals/",
       "Text": "Dazzling vocal performances and musicals",
       "IsMini": true,
-      "Amount": 30
-    },
-    {
-      "Url": "/mini-theme/film-noir-femme-fatale-1940s-thriller-or-intriguing/",
-      "Text": "Noir and dark crime dramas",
-      "IsMini": true,
-      "Amount": 30
+      "Amount": 31
     },
     {
       "Url": "/mini-theme/powerful-complexity-intellectual-poetic-emotional/",
       "Text": "Powerful poetic and passionate drama",
+      "IsMini": true,
+      "Amount": 31
+    },
+    {
+      "Url": "/mini-theme/film-noir-femme-fatale-1940s-thriller-or-intriguing/",
+      "Text": "Noir and dark crime dramas",
       "IsMini": true,
       "Amount": 30
     },
@@ -428,6 +428,12 @@ var data = {
       "Amount": 27
     },
     {
+      "Url": "/mini-theme/fought-army-battlefield-conflict-battle/",
+      "Text": "Military combat and heroic soldiers",
+      "IsMini": true,
+      "Amount": 26
+    },
+    {
       "Url": "/mini-theme/racism-african-american-powerful-hatred-or-slavery/",
       "Text": "Racism and the powerful fight for justice",
       "IsMini": true,
@@ -440,10 +446,10 @@ var data = {
       "Amount": 26
     },
     {
-      "Url": "/mini-theme/fought-army-battlefield-conflict-battle/",
-      "Text": "Military combat and heroic soldiers",
+      "Url": "/mini-theme/fought-army-fighting-heroic-battle/",
+      "Text": "Historical battles and epic heroism",
       "IsMini": true,
-      "Amount": 25
+      "Amount": 24
     },
     {
       "Url": "/mini-theme/duty-heroic-battle-pilot-patriotism/",
@@ -464,26 +470,20 @@ var data = {
       "Amount": 23
     },
     {
-      "Url": "/mini-theme/fought-army-fighting-heroic-battle/",
-      "Text": "Historical battles and epic heroism",
-      "IsMini": true,
-      "Amount": 23
-    },
-    {
       "Url": "/mini-theme/documentary-propaganda-democracy-politician-patriot/",
       "Text": "Politics, propaganda, and political documentaries",
       "IsMini": true,
       "Amount": 23
     },
     {
-      "Url": "/mini-theme/destruction-disaster-scientific-mankind-scientist/",
-      "Text": "Dangerous technology and the apocalypse",
-      "IsMini": true,
-      "Amount": 21
-    },
-    {
       "Url": "/mini-theme/historical-propaganda-political-patriotism-historic/",
       "Text": "Political drama, patriotism, and war",
+      "IsMini": true,
+      "Amount": 22
+    },
+    {
+      "Url": "/mini-theme/destruction-disaster-scientific-mankind-scientist/",
+      "Text": "Dangerous technology and the apocalypse",
       "IsMini": true,
       "Amount": 21
     },
@@ -572,16 +572,16 @@ var data = {
       "Amount": 12
     },
     {
-      "Url": "/mini-theme/holy-spiritual-beliefs-devil-sin/",
-      "Text": "Faith and spiritual journeys",
+      "Url": "/mini-theme/shakespearean-breathtaking-kings-captivating-tragic/",
+      "Text": "Captivating vision and Shakespearean drama",
       "IsMini": true,
       "Amount": 11
     },
     {
-      "Url": "/mini-theme/shakespearean-breathtaking-kings-captivating-tragic/",
-      "Text": "Captivating vision and Shakespearean drama",
+      "Url": "/mini-theme/holy-spiritual-beliefs-devil-sin/",
+      "Text": "Faith and spiritual journeys",
       "IsMini": true,
-      "Amount": 10
+      "Amount": 11
     },
     {
       "Url": "/mini-theme/monster-creature-dinosaurs-scientist-beast/",
@@ -656,7 +656,7 @@ var data = {
       "Amount": 1
     }
   ],
-  "FilmsWithNanogenres": 929,
+  "FilmsWithNanogenres": 935,
   "Nanogenres": [
     {
       "Url": "weird-disturbing-intriguing",
@@ -1399,6 +1399,11 @@ var data = {
       "Amount": 7
     },
     {
+      "Url": "cry-dying-sadness",
+      "Text": "Cry, Dying, Sadness",
+      "Amount": 7
+    },
+    {
       "Url": "cry-poignant-sensitive",
       "Text": "Cry, Poignant, Sensitive",
       "Amount": 7
@@ -1709,11 +1714,6 @@ var data = {
       "Amount": 6
     },
     {
-      "Url": "cry-dying-sadness",
-      "Text": "Cry, Dying, Sadness",
-      "Amount": 6
-    },
-    {
       "Url": "death-intense-fear",
       "Text": "Death, Intense, Fear",
       "Amount": 6
@@ -1766,6 +1766,11 @@ var data = {
     {
       "Url": "emotional-disturbing-intriguing",
       "Text": "Emotional, Disturbing, Intriguing",
+      "Amount": 6
+    },
+    {
+      "Url": "emotional-families-loving",
+      "Text": "Emotional, Families, Loving",
       "Amount": 6
     },
     {
@@ -1954,6 +1959,16 @@ var data = {
       "Amount": 6
     },
     {
+      "Url": "relationships-child-journey",
+      "Text": "Relationships, Child, Journey",
+      "Amount": 6
+    },
+    {
+      "Url": "relationships-lovely-beauty",
+      "Text": "Relationships, Lovely, Beauty",
+      "Amount": 6
+    },
+    {
       "Url": "relationships-tear-jerker-adolescents",
       "Text": "Relationships, Tear-Jerker, Adolescents",
       "Amount": 6
@@ -1971,6 +1986,11 @@ var data = {
     {
       "Url": "shock-insanity-sadistic",
       "Text": "Shock, Insanity, Sadistic",
+      "Amount": 6
+    },
+    {
+      "Url": "shock-rape-brutally",
+      "Text": "Shock, Rape, Brutally",
       "Amount": 6
     },
     {
@@ -2009,8 +2029,18 @@ var data = {
       "Amount": 6
     },
     {
+      "Url": "tense-victim-mystery",
+      "Text": "Tense, Victim, Mystery",
+      "Amount": 6
+    },
+    {
       "Url": "terrifying-madness-psychological",
       "Text": "Terrifying, Madness, Psychological",
+      "Amount": 6
+    },
+    {
+      "Url": "thriller-victim-intense",
+      "Text": "Thriller, Victim, Intense",
       "Amount": 6
     },
     {
@@ -2234,11 +2264,6 @@ var data = {
       "Amount": 5
     },
     {
-      "Url": "emotional-families-loving",
-      "Text": "Emotional, Families, Loving",
-      "Amount": 5
-    },
-    {
       "Url": "emotional-intense-realism",
       "Text": "Emotional, Intense, Realism",
       "Amount": 5
@@ -2251,6 +2276,11 @@ var data = {
     {
       "Url": "emotional-marriage-desire",
       "Text": "Emotional, Marriage, Desire",
+      "Amount": 5
+    },
+    {
+      "Url": "emotional-suffering-depressed",
+      "Text": "Emotional, Suffering, Depressed",
       "Amount": 5
     },
     {
@@ -2504,23 +2534,23 @@ var data = {
       "Amount": 5
     },
     {
-      "Url": "relationships-child-journey",
-      "Text": "Relationships, Child, Journey",
-      "Amount": 5
-    },
-    {
       "Url": "relationships-complex-confused",
       "Text": "Relationships, Complex, Confused",
       "Amount": 5
     },
     {
-      "Url": "relationships-lovely-beauty",
-      "Text": "Relationships, Lovely, Beauty",
+      "Url": "relationships-family-loving",
+      "Text": "Relationships, Family, Loving",
       "Amount": 5
     },
     {
       "Url": "relationships-neurotic-insecurity",
       "Text": "Relationships, Neurotic, Insecurity",
+      "Amount": 5
+    },
+    {
+      "Url": "relationships-sentimental-loves",
+      "Text": "Relationships, Sentimental, Loves",
       "Amount": 5
     },
     {
@@ -2541,11 +2571,6 @@ var data = {
     {
       "Url": "school-sex-raunchy",
       "Text": "School, Sex, Raunchy",
-      "Amount": 5
-    },
-    {
-      "Url": "shock-rape-brutally",
-      "Text": "Shock, Rape, Brutally",
       "Amount": 5
     },
     {
@@ -2609,13 +2634,13 @@ var data = {
       "Amount": 5
     },
     {
-      "Url": "technological-moving-reality",
-      "Text": "Technological, Moving, Reality",
+      "Url": "tear-jerker-family-loving",
+      "Text": "Tear-Jerker, Family, Loving",
       "Amount": 5
     },
     {
-      "Url": "tense-victim-mystery",
-      "Text": "Tense, Victim, Mystery",
+      "Url": "technological-moving-reality",
+      "Text": "Technological, Moving, Reality",
       "Amount": 5
     },
     {
@@ -2626,11 +2651,6 @@ var data = {
     {
       "Url": "terrifying-psychopath-sadistic",
       "Text": "Terrifying, Psychopath, Sadistic",
-      "Amount": 5
-    },
-    {
-      "Url": "thriller-victim-intense",
-      "Text": "Thriller, Victim, Intense",
       "Amount": 5
     },
     {
@@ -2899,6 +2919,11 @@ var data = {
       "Amount": 4
     },
     {
+      "Url": "criminal-car-raw",
+      "Text": "Criminal, Car, Raw",
+      "Amount": 4
+    },
+    {
       "Url": "cry-depressing-heartbreaking",
       "Text": "Cry, Depressing, Heartbreaking",
       "Amount": 4
@@ -2999,6 +3024,11 @@ var data = {
       "Amount": 4
     },
     {
+      "Url": "drama-killing-compelling",
+      "Text": "Drama, Killing, Compelling",
+      "Amount": 4
+    },
+    {
       "Url": "drama-redemption-troubled",
       "Text": "Drama, Redemption, Troubled",
       "Amount": 4
@@ -3071,11 +3101,6 @@ var data = {
     {
       "Url": "emotional-lawyer-dramas",
       "Text": "Emotional, Lawyer, Dramas",
-      "Amount": 4
-    },
-    {
-      "Url": "emotional-suffering-depressed",
-      "Text": "Emotional, Suffering, Depressed",
       "Amount": 4
     },
     {
@@ -3494,8 +3519,8 @@ var data = {
       "Amount": 4
     },
     {
-      "Url": "relationships-family-loving",
-      "Text": "Relationships, Family, Loving",
+      "Url": "relationships-crying-depressed",
+      "Text": "Relationships, Crying, Depressed",
       "Amount": 4
     },
     {
@@ -3511,11 +3536,6 @@ var data = {
     {
       "Url": "relationships-sentimental-crying",
       "Text": "Relationships, Sentimental, Crying",
-      "Amount": 4
-    },
-    {
-      "Url": "relationships-sentimental-loves",
-      "Text": "Relationships, Sentimental, Loves",
       "Amount": 4
     },
     {
@@ -3601,6 +3621,11 @@ var data = {
     {
       "Url": "shock-twisted-madness",
       "Text": "Shock, Twisted, Madness",
+      "Amount": 4
+    },
+    {
+      "Url": "singing-delight-dazzling",
+      "Text": "Singing, Delight, Dazzling",
       "Amount": 4
     },
     {
@@ -3719,13 +3744,13 @@ var data = {
       "Amount": 4
     },
     {
-      "Url": "tear-jerker-family-loving",
-      "Text": "Tear-Jerker, Family, Loving",
+      "Url": "tear-jerker-intellectual-inspiring",
+      "Text": "Tear-Jerker, Intellectual, Inspiring",
       "Amount": 4
     },
     {
-      "Url": "tear-jerker-intellectual-inspiring",
-      "Text": "Tear-Jerker, Intellectual, Inspiring",
+      "Url": "tear-jerker-loves-dream",
+      "Text": "Tear-Jerker, Loves, Dream",
       "Amount": 4
     },
     {
@@ -4294,11 +4319,6 @@ var data = {
       "Amount": 3
     },
     {
-      "Url": "criminal-car-raw",
-      "Text": "Criminal, Car, Raw",
-      "Amount": 3
-    },
-    {
       "Url": "criminal-moral-realism",
       "Text": "Criminal, Moral, Realism",
       "Amount": 3
@@ -4324,8 +4344,18 @@ var data = {
       "Amount": 3
     },
     {
+      "Url": "cry-dancing-sweet",
+      "Text": "Cry, Dancing, Sweet",
+      "Amount": 3
+    },
+    {
       "Url": "cry-family-loving",
       "Text": "Cry, Family, Loving",
+      "Amount": 3
+    },
+    {
+      "Url": "cry-heartbreaking-anger",
+      "Text": "Cry, Heartbreaking, Anger",
       "Amount": 3
     },
     {
@@ -4449,13 +4479,13 @@ var data = {
       "Amount": 3
     },
     {
-      "Url": "drama-inspiring-determination",
-      "Text": "Drama, Inspiring, Determination",
+      "Url": "drama-gripping-vulnerable",
+      "Text": "Drama, Gripping, Vulnerable",
       "Amount": 3
     },
     {
-      "Url": "drama-killing-compelling",
-      "Text": "Drama, Killing, Compelling",
+      "Url": "drama-inspiring-determination",
+      "Text": "Drama, Inspiring, Determination",
       "Amount": 3
     },
     {
@@ -4649,6 +4679,11 @@ var data = {
       "Amount": 3
     },
     {
+      "Url": "emotional-fate-bleak",
+      "Text": "Emotional, Fate, Bleak",
+      "Amount": 3
+    },
+    {
       "Url": "emotional-passion-vulnerable",
       "Text": "Emotional, Passion, Vulnerable",
       "Amount": 3
@@ -4729,6 +4764,11 @@ var data = {
       "Amount": 3
     },
     {
+      "Url": "feelings-crying-soul",
+      "Text": "Feelings, Crying, Soul",
+      "Amount": 3
+    },
+    {
       "Url": "feelings-depressed-desire",
       "Text": "Feelings, Depressed, Desire",
       "Amount": 3
@@ -4736,6 +4776,11 @@ var data = {
     {
       "Url": "feelings-despair-isolation",
       "Text": "Feelings, Despair, Isolation",
+      "Amount": 3
+    },
+    {
+      "Url": "feelings-family-moving",
+      "Text": "Feelings, Family, Moving",
       "Amount": 3
     },
     {
@@ -5284,6 +5329,11 @@ var data = {
       "Amount": 3
     },
     {
+      "Url": "moving-spirit-soul",
+      "Text": "Moving, Spirit, Soul",
+      "Amount": 3
+    },
+    {
       "Url": "murder-storytelling-flashy",
       "Text": "Murder, Storytelling, Flashy",
       "Amount": 3
@@ -5424,13 +5474,13 @@ var data = {
       "Amount": 3
     },
     {
-      "Url": "relationships-chick-flick-light-hearted",
-      "Text": "Relationships, Chick-Flick, Light-Hearted",
+      "Url": "reality-revelation-intellectual",
+      "Text": "Reality, Revelation, Intellectual",
       "Amount": 3
     },
     {
-      "Url": "relationships-crying-depressed",
-      "Text": "Relationships, Crying, Depressed",
+      "Url": "relationships-chick-flick-light-hearted",
+      "Text": "Relationships, Chick-Flick, Light-Hearted",
       "Amount": 3
     },
     {
@@ -5581,11 +5631,6 @@ var data = {
     {
       "Url": "silly-mindless-excitement",
       "Text": "Silly, Mindless, Excitement",
-      "Amount": 3
-    },
-    {
-      "Url": "singing-delight-dazzling",
-      "Text": "Singing, Delight, Dazzling",
       "Amount": 3
     },
     {
@@ -5749,6 +5794,11 @@ var data = {
       "Amount": 3
     },
     {
+      "Url": "suspense-lawyer-guilty",
+      "Text": "Suspense, Lawyer, Guilty",
+      "Amount": 3
+    },
+    {
       "Url": "suspense-sea-excitement",
       "Text": "Suspense, Sea, Excitement",
       "Amount": 3
@@ -5789,11 +5839,6 @@ var data = {
       "Amount": 3
     },
     {
-      "Url": "tear-jerker-loves-dream",
-      "Text": "Tear-Jerker, Loves, Dream",
-      "Amount": 3
-    },
-    {
       "Url": "tear-jerker-loving-childhood",
       "Text": "Tear-Jerker, Loving, Childhood",
       "Amount": 3
@@ -5801,6 +5846,11 @@ var data = {
     {
       "Url": "tear-jerker-passion-fascinating",
       "Text": "Tear-Jerker, Passion, Fascinating",
+      "Amount": 3
+    },
+    {
+      "Url": "tear-jerker-profound-thoughtful",
+      "Text": "Tear-Jerker, Profound, Thoughtful",
       "Amount": 3
     },
     {
@@ -6041,6 +6091,11 @@ var data = {
     {
       "Url": "tragic-shock-depressing",
       "Text": "Tragic, Shock, Depressing",
+      "Amount": 3
+    },
+    {
+      "Url": "trial-justice-moral",
+      "Text": "Trial, Justice, Moral",
       "Amount": 3
     },
     {
@@ -6451,6 +6506,11 @@ var data = {
     {
       "Url": "army-historical-europe",
       "Text": "Army, Historical, Europe",
+      "Amount": 2
+    },
+    {
+      "Url": "army-russia-conflict",
+      "Text": "Army, Russia, Conflict",
       "Amount": 2
     },
     {
@@ -7124,8 +7184,18 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "crime-bank-thief",
+      "Text": "Crime, Bank, Thief",
+      "Amount": 2
+    },
+    {
       "Url": "crime-officer-shootings",
       "Text": "Crime, Officer, Shootings",
+      "Amount": 2
+    },
+    {
+      "Url": "criminal-bank-realism",
+      "Text": "Criminal, Bank, Realism",
       "Amount": 2
     },
     {
@@ -7169,11 +7239,6 @@ var data = {
       "Amount": 2
     },
     {
-      "Url": "cry-dancing-sweet",
-      "Text": "Cry, Dancing, Sweet",
-      "Amount": 2
-    },
-    {
       "Url": "cry-depressing-tragic",
       "Text": "Cry, Depressing, Tragic",
       "Amount": 2
@@ -7201,11 +7266,6 @@ var data = {
     {
       "Url": "cry-homosexuality-stereotype",
       "Text": "Cry, Gay, Stereotype",
-      "Amount": 2
-    },
-    {
-      "Url": "cry-heartbreaking-anger",
-      "Text": "Cry, Heartbreaking, Anger",
       "Amount": 2
     },
     {
@@ -7489,11 +7549,6 @@ var data = {
       "Amount": 2
     },
     {
-      "Url": "drama-gripping-vulnerable",
-      "Text": "Drama, Gripping, Vulnerable",
-      "Amount": 2
-    },
-    {
       "Url": "drama-heartbreaking-cruel",
       "Text": "Drama, Heartbreaking, Cruel",
       "Amount": 2
@@ -7654,6 +7709,11 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "emotion-historical-spectacle",
+      "Text": "Emotion, Historical, Spectacle",
+      "Amount": 2
+    },
+    {
       "Url": "emotion-insanity-mentally",
       "Text": "Emotion, Insanity, Mentally",
       "Amount": 2
@@ -7764,8 +7824,8 @@ var data = {
       "Amount": 2
     },
     {
-      "Url": "emotional-fate-bleak",
-      "Text": "Emotional, Fate, Bleak",
+      "Url": "emotional-family-intense",
+      "Text": "Emotional, Family, Intense",
       "Amount": 2
     },
     {
@@ -7809,6 +7869,11 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "emotional-troubled-symbolism",
+      "Text": "Emotional, Troubled, Symbolism",
+      "Amount": 2
+    },
+    {
       "Url": "emotional-vulnerable-brave",
       "Text": "Emotional, Vulnerable, Brave",
       "Amount": 2
@@ -7826,6 +7891,11 @@ var data = {
     {
       "Url": "england-class-society",
       "Text": "England, Class, Society",
+      "Amount": 2
+    },
+    {
+      "Url": "epic-army-victory",
+      "Text": "Epic, Army, Victory",
       "Amount": 2
     },
     {
@@ -7929,13 +7999,13 @@ var data = {
       "Amount": 2
     },
     {
-      "Url": "feelings-compelling-gripping",
-      "Text": "Feelings, Compelling, Gripping",
+      "Url": "feelings-child-loving",
+      "Text": "Feelings, Child, Loving",
       "Amount": 2
     },
     {
-      "Url": "feelings-crying-soul",
-      "Text": "Feelings, Crying, Soul",
+      "Url": "feelings-compelling-gripping",
+      "Text": "Feelings, Compelling, Gripping",
       "Amount": 2
     },
     {
@@ -7966,11 +8036,6 @@ var data = {
     {
       "Url": "feelings-ensemble-happiness",
       "Text": "Feelings, Ensemble, Happiness",
-      "Amount": 2
-    },
-    {
-      "Url": "feelings-family-moving",
-      "Text": "Feelings, Family, Moving",
       "Amount": 2
     },
     {
@@ -9279,11 +9344,6 @@ var data = {
       "Amount": 2
     },
     {
-      "Url": "moving-spirit-soul",
-      "Text": "Moving, Spirit, Soul",
-      "Amount": 2
-    },
-    {
       "Url": "moving-timeless-captivating",
       "Text": "Moving, Timeless, Captivating",
       "Amount": 2
@@ -9301,6 +9361,11 @@ var data = {
     {
       "Url": "murder-confusing-intrigue",
       "Text": "Murder, Confusing, Intrigue",
+      "Amount": 2
+    },
+    {
+      "Url": "murder-dark-twisted",
+      "Text": "Murder, Dark, Twisted",
       "Amount": 2
     },
     {
@@ -9366,6 +9431,11 @@ var data = {
     {
       "Url": "musical-delightful-joy",
       "Text": "Musical, Delightful, Joy",
+      "Amount": 2
+    },
+    {
+      "Url": "musical-voices-enchanted",
+      "Text": "Musical, Voices, Enchanted",
       "Amount": 2
     },
     {
@@ -9446,6 +9516,11 @@ var data = {
     {
       "Url": "powerful-abuse-realism",
       "Text": "Powerful, Abuse, Realism",
+      "Amount": 2
+    },
+    {
+      "Url": "powerful-child-despair",
+      "Text": "Powerful, Child, Despair",
       "Amount": 2
     },
     {
@@ -9576,11 +9651,6 @@ var data = {
     {
       "Url": "reality-realism-honesty",
       "Text": "Reality, Realism, Honesty",
-      "Amount": 2
-    },
-    {
-      "Url": "reality-revelation-intellectual",
-      "Text": "Reality, Revelation, Intellectual",
       "Amount": 2
     },
     {
@@ -9769,6 +9839,11 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "romance-poignant-loving",
+      "Text": "Romance, Poignant, Loving",
+      "Amount": 2
+    },
+    {
       "Url": "romance-surreal-sexuality",
       "Text": "Romance, Surreal, Sexual",
       "Amount": 2
@@ -9954,6 +10029,11 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "singing-lovely-magic",
+      "Text": "Singing, Lovely, Magic",
+      "Amount": 2
+    },
+    {
       "Url": "singing-poignant-loves",
       "Text": "Singing, Poignant, Loves",
       "Amount": 2
@@ -10031,6 +10111,11 @@ var data = {
     {
       "Url": "songs-band-popularity",
       "Text": "Songs, Band, Popularity",
+      "Amount": 2
+    },
+    {
+      "Url": "songs-voices-joy",
+      "Text": "Songs, Voices, Joy",
       "Amount": 2
     },
     {
@@ -10159,6 +10244,11 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "suspense-cops-intense",
+      "Text": "Suspense, Cops, Intense",
+      "Amount": 2
+    },
+    {
       "Url": "suspense-driving-fear",
       "Text": "Suspense, Driving, Fear",
       "Amount": 2
@@ -10184,11 +10274,6 @@ var data = {
       "Amount": 2
     },
     {
-      "Url": "suspense-lawyer-guilty",
-      "Text": "Suspense, Lawyer, Guilty",
-      "Amount": 2
-    },
-    {
       "Url": "suspense-predictable-intense",
       "Text": "Suspense, Predictable, Intense",
       "Amount": 2
@@ -10211,6 +10296,11 @@ var data = {
     {
       "Url": "sweet-beauty-uplifting",
       "Text": "Sweet, Beauty, Uplifting",
+      "Amount": 2
+    },
+    {
+      "Url": "sweet-breathtaking-dazzling",
+      "Text": "Sweet, Breathtaking, Dazzling",
       "Amount": 2
     },
     {
@@ -10264,6 +10354,11 @@ var data = {
       "Amount": 2
     },
     {
+      "Url": "tear-jerker-happiness-soul",
+      "Text": "Tear-Jerker, Happiness, Soul",
+      "Amount": 2
+    },
+    {
       "Url": "tear-jerker-humanity-compassion",
       "Text": "Tear-Jerker, Humanity, Compassion",
       "Amount": 2
@@ -10296,11 +10391,6 @@ var data = {
     {
       "Url": "tear-jerker-marriage-sensitive",
       "Text": "Tear-Jerker, Marriage, Sensitive",
-      "Amount": 2
-    },
-    {
-      "Url": "tear-jerker-profound-thoughtful",
-      "Text": "Tear-Jerker, Profound, Thoughtful",
       "Amount": 2
     },
     {
@@ -10706,11 +10796,6 @@ var data = {
     {
       "Url": "tragic-breathtaking-dazzling",
       "Text": "Tragic, Breathtaking, Dazzling",
-      "Amount": 2
-    },
-    {
-      "Url": "trial-justice-moral",
-      "Text": "Trial, Justice, Moral",
       "Amount": 2
     },
     {
@@ -11416,11 +11501,6 @@ var data = {
     {
       "Url": "army-political-orders",
       "Text": "Army, Political, Orders",
-      "Amount": 1
-    },
-    {
-      "Url": "army-russia-conflict",
-      "Text": "Army, Russia, Conflict",
       "Amount": 1
     },
     {
@@ -12674,11 +12754,6 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "crime-bank-thief",
-      "Text": "Crime, Bank, Thief",
-      "Amount": 1
-    },
-    {
       "Url": "crime-dangerous-jail",
       "Text": "Crime, Dangerous, Jail",
       "Amount": 1
@@ -12691,11 +12766,6 @@ var data = {
     {
       "Url": "crime-gritty-moral",
       "Text": "Crime, Gritty, Moral",
-      "Amount": 1
-    },
-    {
-      "Url": "criminal-bank-realism",
-      "Text": "Criminal, Bank, Realism",
       "Amount": 1
     },
     {
@@ -13384,6 +13454,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "drama-moving-compelling",
+      "Text": "Drama, Moving, Compelling",
+      "Amount": 1
+    },
+    {
       "Url": "drama-moving-complex",
       "Text": "Drama, Moving, Complex",
       "Amount": 1
@@ -13729,6 +13804,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "emotion-fascinating-vision",
+      "Text": "Emotion, Fascinating, Vision",
+      "Amount": 1
+    },
+    {
       "Url": "emotion-france-execution",
       "Text": "Emotion, France, Execution",
       "Amount": 1
@@ -13739,13 +13819,13 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "emotion-historical-spectacle",
-      "Text": "Emotion, Historical, Spectacle",
+      "Url": "emotion-humanity-complexity",
+      "Text": "Emotion, Humanity, Complexity",
       "Amount": 1
     },
     {
-      "Url": "emotion-humanity-complexity",
-      "Text": "Emotion, Humanity, Complexity",
+      "Url": "emotion-humanity-poetic",
+      "Text": "Emotion, Humanity, Poetic",
       "Amount": 1
     },
     {
@@ -13974,11 +14054,6 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "emotional-family-intense",
-      "Text": "Emotional, Family, Intense",
-      "Amount": 1
-    },
-    {
       "Url": "emotional-fate-europe",
       "Text": "Emotional, Fate, Europe",
       "Amount": 1
@@ -14124,11 +14199,6 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "emotional-troubled-symbolism",
-      "Text": "Emotional, Troubled, Symbolism",
-      "Amount": 1
-    },
-    {
       "Url": "emotional-uplifting-honesty",
       "Text": "Emotional, Uplifting, Honesty",
       "Amount": 1
@@ -14151,11 +14221,6 @@ var data = {
     {
       "Url": "england-fascinating-fate",
       "Text": "England, Fascinating, Fate",
-      "Amount": 1
-    },
-    {
-      "Url": "epic-army-victory",
-      "Text": "Epic, Army, Victory",
       "Amount": 1
     },
     {
@@ -14186,6 +14251,11 @@ var data = {
     {
       "Url": "evil-campy-screaming",
       "Text": "Evil, Campy, Screaming",
+      "Amount": 1
+    },
+    {
+      "Url": "evil-corruption-law",
+      "Text": "Evil, Corruption, Law",
       "Amount": 1
     },
     {
@@ -14369,6 +14439,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "family-sympathy-cruel",
+      "Text": "Family, Sympathy, Cruel",
+      "Amount": 1
+    },
+    {
       "Url": "fascinating-loves-glory",
       "Text": "Fascinating, Loves, Glory",
       "Amount": 1
@@ -14396,11 +14471,6 @@ var data = {
     {
       "Url": "feelings-chick-flick-girls",
       "Text": "Feelings, Chick-Flick, Girls",
-      "Amount": 1
-    },
-    {
-      "Url": "feelings-child-loving",
-      "Text": "Feelings, Child, Loving",
       "Amount": 1
     },
     {
@@ -15729,6 +15799,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "historical-democracy-authentic",
+      "Text": "Historical, Democracy, Authentic",
+      "Amount": 1
+    },
+    {
       "Url": "historical-determination-victory",
       "Text": "Historical, Determination, Victory",
       "Amount": 1
@@ -16244,6 +16319,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "italy-tragic-europe",
+      "Text": "Italy, Tragic, Europe",
+      "Amount": 1
+    },
+    {
       "Url": "jail-trial-justice",
       "Text": "Jail, Trial, Justice",
       "Amount": 1
@@ -16649,6 +16729,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "lyrics-beauty-melodies",
+      "Text": "Lyrics, Beauty, Melodies",
+      "Amount": 1
+    },
+    {
       "Url": "lyrics-broadway-1930s",
       "Text": "Lyrics, Broadway, 1930s",
       "Amount": 1
@@ -16854,11 +16939,6 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "murder-dark-twisted",
-      "Text": "Murder, Dark, Twisted",
-      "Amount": 1
-    },
-    {
       "Url": "murder-disturbing-sexy",
       "Text": "Murder, Disturbing, Sexy",
       "Amount": 1
@@ -17006,11 +17086,6 @@ var data = {
     {
       "Url": "musical-sweet-kids",
       "Text": "Musical, Sweet, Kids",
-      "Amount": 1
-    },
-    {
-      "Url": "musical-voices-enchanted",
-      "Text": "Musical, Voices, Enchanted",
       "Amount": 1
     },
     {
@@ -17234,11 +17309,6 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "powerful-child-despair",
-      "Text": "Powerful, Child, Despair",
-      "Amount": 1
-    },
-    {
       "Url": "powerful-child-loving",
       "Text": "Powerful, Child, Loving",
       "Amount": 1
@@ -17309,6 +17379,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "powerful-government-historical",
+      "Text": "Powerful, Government, Historical",
+      "Amount": 1
+    },
+    {
       "Url": "powerful-government-paranoia",
       "Text": "Powerful, Government, Paranoia",
       "Amount": 1
@@ -17366,6 +17441,11 @@ var data = {
     {
       "Url": "powerful-moral-realism",
       "Text": "Powerful, Moral, Realism",
+      "Amount": 1
+    },
+    {
+      "Url": "powerful-philosophical-intellectual",
+      "Text": "Powerful, Philosophical, Intellectual",
       "Amount": 1
     },
     {
@@ -17486,6 +17566,11 @@ var data = {
     {
       "Url": "prison-powerful-freedom",
       "Text": "Prison, Powerful, Freedom",
+      "Amount": 1
+    },
+    {
+      "Url": "prison-powerful-justice",
+      "Text": "Prison, Powerful, Justice",
       "Amount": 1
     },
     {
@@ -17791,11 +17876,6 @@ var data = {
     {
       "Url": "romance-loving-happiness",
       "Text": "Romance, Loving, Happiness",
-      "Amount": 1
-    },
-    {
-      "Url": "romance-poignant-loving",
-      "Text": "Romance, Poignant, Loving",
       "Amount": 1
     },
     {
@@ -18109,11 +18189,6 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "singing-lovely-magic",
-      "Text": "Singing, Lovely, Magic",
-      "Amount": 1
-    },
-    {
       "Url": "singing-silly-outrageous",
       "Text": "Singing, Silly, Outrageous",
       "Amount": 1
@@ -18314,6 +18389,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "soldiers-fighting-epic",
+      "Text": "Soldiers, Fighting, Epic",
+      "Amount": 1
+    },
+    {
       "Url": "soldiers-realism-reality",
       "Text": "Soldiers, Realism, Reality",
       "Amount": 1
@@ -18339,13 +18419,13 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "songs-reality-sensitive",
-      "Text": "Songs, Reality, Sensitive",
+      "Url": "songs-loving-loves",
+      "Text": "Songs, Loving, Loves",
       "Amount": 1
     },
     {
-      "Url": "songs-voices-joy",
-      "Text": "Songs, Voices, Joy",
+      "Url": "songs-reality-sensitive",
+      "Text": "Songs, Reality, Sensitive",
       "Amount": 1
     },
     {
@@ -18644,11 +18724,6 @@ var data = {
       "Amount": 1
     },
     {
-      "Url": "suspense-cops-intense",
-      "Text": "Suspense, Cops, Intense",
-      "Amount": 1
-    },
-    {
       "Url": "suspense-crime-bloody",
       "Text": "Suspense, Crime, Bloody",
       "Amount": 1
@@ -18766,11 +18841,6 @@ var data = {
     {
       "Url": "suspense-violence-bullets",
       "Text": "Suspense, Violence, Bullets",
-      "Amount": 1
-    },
-    {
-      "Url": "sweet-breathtaking-dazzling",
-      "Text": "Sweet, Breathtaking, Dazzling",
       "Amount": 1
     },
     {
@@ -18966,11 +19036,6 @@ var data = {
     {
       "Url": "tear-jerker-happiness-depressing",
       "Text": "Tear-Jerker, Happiness, Depressing",
-      "Amount": 1
-    },
-    {
-      "Url": "tear-jerker-happiness-soul",
-      "Text": "Tear-Jerker, Happiness, Soul",
       "Amount": 1
     },
     {
@@ -19714,6 +19779,11 @@ var data = {
       "Amount": 1
     },
     {
+      "Url": "touching-profound-soul",
+      "Text": "Touching, Profound, Soul",
+      "Amount": 1
+    },
+    {
       "Url": "touching-profound-suffering",
       "Text": "Touching, Profound, Suffering",
       "Amount": 1
@@ -20356,7 +20426,7 @@ var data = {
       "Title": "20th Century Fox",
       "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
       "OriginCountry": "United States of America",
-      "Amount": 50
+      "Amount": 51
     },
     {
       "Id": 5,
@@ -20443,18 +20513,18 @@ var data = {
       "Amount": 17
     },
     {
+      "Id": 288,
+      "Title": "BBC Film",
+      "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+      "OriginCountry": "United Kingdom",
+      "Amount": 16
+    },
+    {
       "Id": 21,
       "Title": "Metro-Goldwyn-Mayer",
       "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
       "OriginCountry": "United States of America",
       "Amount": 16
-    },
-    {
-      "Id": 288,
-      "Title": "BBC Film",
-      "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
-      "OriginCountry": "United Kingdom",
-      "Amount": 15
     },
     {
       "Id": 10146,
@@ -20534,6 +20604,13 @@ var data = {
       "Amount": 11
     },
     {
+      "Id": 41077,
+      "Title": "A24",
+      "Poster": "/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png",
+      "OriginCountry": "United States of America",
+      "Amount": 10
+    },
+    {
       "Id": 444,
       "Title": "Dune Entertainment",
       "Poster": "",
@@ -20553,13 +20630,6 @@ var data = {
       "Poster": "/vyyv4Gy9nPqAZKElPm2izLlEaVS.png",
       "OriginCountry": "United States of America",
       "Amount": 10
-    },
-    {
-      "Id": 41077,
-      "Title": "A24",
-      "Poster": "/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png",
-      "OriginCountry": "United States of America",
-      "Amount": 9
     },
     {
       "Id": 7405,
@@ -20975,6 +21045,13 @@ var data = {
       "Amount": 4
     },
     {
+      "Id": 49,
+      "Title": "El Deseo",
+      "Poster": "/xpf5iHdvvBtsH8jBMlgIJHAET0c.png",
+      "OriginCountry": "Spain",
+      "Amount": 4
+    },
+    {
       "Id": 359,
       "Title": "Figment Films",
       "Poster": "",
@@ -21022,27 +21099,20 @@ var data = {
       "Poster": "/nLNW1TeFUYU0M5U0qmYUzOIwlB6.png",
       "OriginCountry": "United States of America",
       "Amount": 4
-    },
-    {
-      "Id": 771,
-      "Title": "Mandate Pictures",
-      "Poster": "",
-      "OriginCountry": "United States of America",
-      "Amount": 4
     }
   ],
-  "LastUpdated": "14 Nov 2024",
+  "LastUpdated": "25 Nov 2024",
   "Username": "LaLunaLlena",
-  "TotalFilms": 1010,
-  "RatedFilms": 353,
-  "FilmsWithGenres": 1010,
-  "TotalMinutes": 108637,
-  "FilmsWithRuntime": 1010,
-  "TotalMinutesFull": 107544,
-  "FilmsWithRuntimeFull": 973,
-  "AverageFilmYearMean": 1998.9247524752475,
+  "TotalFilms": 1020,
+  "RatedFilms": 358,
+  "FilmsWithGenres": 1020,
+  "TotalMinutes": 109927,
+  "FilmsWithRuntime": 1020,
+  "TotalMinutesFull": 108816,
+  "FilmsWithRuntimeFull": 982,
+  "AverageFilmYearMean": 1998.7098039215687,
   "AverageFilmYearMedian": 2004,
-  "AverageFilmYearMedianTooltip": "12 \u003C n \u003C 20",
+  "AverageFilmYearMedianTooltip": "9 \u003C n \u003C 23",
   "AverageFilmYearMode": "2007",
   "Genres": {
     "Action": {
@@ -21066,9 +21136,9 @@ var data = {
       "RatingTotal": 280
     },
     "Crime": {
-      "Count": 171,
-      "RatingCount": 41,
-      "RatingTotal": 136
+      "Count": 172,
+      "RatingCount": 42,
+      "RatingTotal": 140
     },
     "Documentary": {
       "Count": 49,
@@ -21076,9 +21146,9 @@ var data = {
       "RatingTotal": 39
     },
     "Drama": {
-      "Count": 545,
-      "RatingCount": 235,
-      "RatingTotal": 876
+      "Count": 555,
+      "RatingCount": 240,
+      "RatingTotal": 894
     },
     "Family": {
       "Count": 83,
@@ -21086,14 +21156,14 @@ var data = {
       "RatingTotal": 50
     },
     "Fantasy": {
-      "Count": 101,
+      "Count": 102,
       "RatingCount": 23,
       "RatingTotal": 87
     },
     "History": {
-      "Count": 40,
-      "RatingCount": 14,
-      "RatingTotal": 60
+      "Count": 41,
+      "RatingCount": 15,
+      "RatingTotal": 65
     },
     "Horror": {
       "Count": 115,
@@ -21106,12 +21176,12 @@ var data = {
       "RatingTotal": 32
     },
     "Mystery": {
-      "Count": 100,
+      "Count": 101,
       "RatingCount": 39,
       "RatingTotal": 139
     },
     "Romance": {
-      "Count": 150,
+      "Count": 152,
       "RatingCount": 66,
       "RatingTotal": 241
     },
@@ -21121,19 +21191,19 @@ var data = {
       "RatingTotal": 120
     },
     "Thriller": {
-      "Count": 275,
+      "Count": 276,
       "RatingCount": 82,
       "RatingTotal": 264
     },
     "TV Movie": {
-      "Count": 10,
-      "RatingCount": 7,
-      "RatingTotal": 19
+      "Count": 11,
+      "RatingCount": 8,
+      "RatingTotal": 21
     },
     "War": {
-      "Count": 33,
-      "RatingCount": 12,
-      "RatingTotal": 50
+      "Count": 34,
+      "RatingCount": 13,
+      "RatingTotal": 55
     },
     "Western": {
       "Count": 4,
@@ -21143,8 +21213,8 @@ var data = {
   },
   "ProfessionDataSets": {
     "director_All": {
-      "Total": 1147,
-      "Unique": 776,
+      "Total": 1158,
+      "Unique": 782,
       "PeopleData": [
         {
           "ID": 488,
@@ -21174,8 +21244,8 @@ var data = {
           "ID": 8635,
           "FullName": "Buster Keaton",
           "Amount": 8,
-          "Minutes": 226,
-          "Poster": "/iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
+          "Minutes": 227,
+          "Poster": "iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
           "Gender": 2
         },
         {
@@ -21238,8 +21308,8 @@ var data = {
           "ID": 13953,
           "FullName": "Edward F. Cline",
           "Amount": 6,
-          "Minutes": 124,
-          "Poster": "/cyXhBZ3p53P3cgnQt0XldYKqdTP.jpg",
+          "Minutes": 125,
+          "Poster": "cyXhBZ3p53P3cgnQt0XldYKqdTP.jpg",
           "Gender": 2
         },
         {
@@ -21483,6 +21553,14 @@ var data = {
           "Gender": 2
         },
         {
+          "ID": 130030,
+          "FullName": "Chantal Akerman",
+          "Amount": 3,
+          "Minutes": 416,
+          "Poster": "/6Q59Air1EjLHfq8NvvBpbTTgnWZ.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 64864,
           "FullName": "Clyde Geronimi",
           "Amount": 3,
@@ -21576,6 +21654,22 @@ var data = {
           "Amount": 3,
           "Minutes": 321,
           "Poster": "/9pLUnjMgIEWXi0mlHYzie9cKUTD.jpg",
+          "Gender": 2
+        },
+        {
+          "ID": 90,
+          "FullName": "Isabel Coixet",
+          "Amount": 3,
+          "Minutes": 339,
+          "Poster": "/s2Hspn17nOf6LIuVrULvV3OOiX0.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 73153,
+          "FullName": "Jacques Rivette",
+          "Amount": 3,
+          "Minutes": 552,
+          "Poster": "/pD8i53d3on1NbPPGsOxCeuDG8xF.jpg",
           "Gender": 2
         },
         {
@@ -21859,6 +21953,14 @@ var data = {
           "Gender": 2
         },
         {
+          "ID": 1309008,
+          "FullName": "Anna Rose Holmer",
+          "Amount": 2,
+          "Minutes": 173,
+          "Poster": "/dithUDMnvoQN7iHWeSE86vc5MMU.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 1145520,
           "FullName": "Ari Aster",
           "Amount": 2,
@@ -21936,14 +22038,6 @@ var data = {
           "Amount": 2,
           "Minutes": 222,
           "Poster": "/AcuShXY2w2soOxgpMjRjir40rq6.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 130030,
-          "FullName": "Chantal Akerman",
-          "Amount": 2,
-          "Minutes": 288,
-          "Poster": "/6Q59Air1EjLHfq8NvvBpbTTgnWZ.jpg",
           "Gender": 1
         },
         {
@@ -22163,14 +22257,6 @@ var data = {
           "Gender": 2
         },
         {
-          "ID": 90,
-          "FullName": "Isabel Coixet",
-          "Amount": 2,
-          "Minutes": 233,
-          "Poster": "/s2Hspn17nOf6LIuVrULvV3OOiX0.jpg",
-          "Gender": 1
-        },
-        {
           "ID": 51894,
           "FullName": "J. A. Bayona",
           "Amount": 2,
@@ -22187,11 +22273,11 @@ var data = {
           "Gender": 2
         },
         {
-          "ID": 73153,
-          "FullName": "Jacques Rivette",
+          "ID": 24882,
+          "FullName": "Jacques Demy",
           "Amount": 2,
-          "Minutes": 431,
-          "Poster": "/pD8i53d3on1NbPPGsOxCeuDG8xF.jpg",
+          "Minutes": 218,
+          "Poster": "/e01xXR9nxtEupIfrWaEqiLBxiGE.jpg",
           "Gender": 2
         },
         {
@@ -22923,8 +23009,8 @@ var data = {
       ]
     },
     "director_1": {
-      "Total": 164,
-      "Unique": 131,
+      "Total": 170,
+      "Unique": 134,
       "PeopleData": [
         {
           "ID": 68813,
@@ -22943,11 +23029,27 @@ var data = {
           "Gender": 1
         },
         {
+          "ID": 130030,
+          "FullName": "Chantal Akerman",
+          "Amount": 3,
+          "Minutes": 416,
+          "Poster": "/6Q59Air1EjLHfq8NvvBpbTTgnWZ.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 45400,
           "FullName": "Greta Gerwig",
           "Amount": 3,
           "Minutes": 343,
           "Poster": "/6MwQ2GstYr0wnhp1eTOAbVMNBGN.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 90,
+          "FullName": "Isabel Coixet",
+          "Amount": 3,
+          "Minutes": 339,
+          "Poster": "/s2Hspn17nOf6LIuVrULvV3OOiX0.jpg",
           "Gender": 1
         },
         {
@@ -22983,6 +23085,14 @@ var data = {
           "Gender": 1
         },
         {
+          "ID": 1309008,
+          "FullName": "Anna Rose Holmer",
+          "Amount": 2,
+          "Minutes": 173,
+          "Poster": "/dithUDMnvoQN7iHWeSE86vc5MMU.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 6295,
           "FullName": "Catherine Breillat",
           "Amount": 2,
@@ -22996,14 +23106,6 @@ var data = {
           "Amount": 2,
           "Minutes": 222,
           "Poster": "/AcuShXY2w2soOxgpMjRjir40rq6.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 130030,
-          "FullName": "Chantal Akerman",
-          "Amount": 2,
-          "Minutes": 288,
-          "Poster": "/6Q59Air1EjLHfq8NvvBpbTTgnWZ.jpg",
           "Gender": 1
         },
         {
@@ -23028,14 +23130,6 @@ var data = {
           "Amount": 2,
           "Minutes": 169,
           "Poster": "/qtB5lB3wl3m04XF8iyTfhlBzaGn.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 90,
-          "FullName": "Isabel Coixet",
-          "Amount": 2,
-          "Minutes": 233,
-          "Poster": "/s2Hspn17nOf6LIuVrULvV3OOiX0.jpg",
           "Gender": 1
         },
         {
@@ -23207,14 +23301,6 @@ var data = {
           "Gender": 1
         },
         {
-          "ID": 1309008,
-          "FullName": "Anna Rose Holmer",
-          "Amount": 1,
-          "Minutes": 72,
-          "Poster": "/dithUDMnvoQN7iHWeSE86vc5MMU.jpg",
-          "Gender": 1
-        },
-        {
           "ID": 1540871,
           "FullName": "Annika Iltis",
           "Amount": 1,
@@ -23236,6 +23322,14 @@ var data = {
           "Amount": 1,
           "Minutes": 63,
           "Poster": "/9rb6dWdCJzP6uptGTdq2NmkXx5N.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 123012,
+          "FullName": "Barbara Loden",
+          "Amount": 1,
+          "Minutes": 103,
+          "Poster": "/3WE8Wy6ctYv5MoTIZa7RY8DVtFu.jpg",
           "Gender": 1
         },
         {
@@ -23743,6 +23837,14 @@ var data = {
           "Gender": 1
         },
         {
+          "ID": 1394638,
+          "FullName": "Nikole Beckwith",
+          "Amount": 1,
+          "Minutes": 99,
+          "Poster": "/lCObvbBQfbXkGr0BGiNUq8FNYT8.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 9248,
           "FullName": "Nora Ephron",
           "Amount": 1,
@@ -23820,6 +23922,14 @@ var data = {
           "Amount": 1,
           "Minutes": 63,
           "Poster": "/ckljyPJpUXlTUPqnGg1b7UeaVf1.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 1418192,
+          "FullName": "Saela Davis",
+          "Amount": 1,
+          "Minutes": 101,
+          "Poster": "/qrFISioLXhMvJa3pPLXqnXdODQT.jpg",
           "Gender": 1
         },
         {
@@ -23977,8 +24087,8 @@ var data = {
       ]
     },
     "director_2": {
-      "Total": 950,
-      "Unique": 614,
+      "Total": 955,
+      "Unique": 617,
       "PeopleData": [
         {
           "ID": 488,
@@ -24008,8 +24118,8 @@ var data = {
           "ID": 8635,
           "FullName": "Buster Keaton",
           "Amount": 8,
-          "Minutes": 226,
-          "Poster": "/iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
+          "Minutes": 227,
+          "Poster": "iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
           "Gender": 2
         },
         {
@@ -24072,8 +24182,8 @@ var data = {
           "ID": 13953,
           "FullName": "Edward F. Cline",
           "Amount": 6,
-          "Minutes": 124,
-          "Poster": "/cyXhBZ3p53P3cgnQt0XldYKqdTP.jpg",
+          "Minutes": 125,
+          "Poster": "cyXhBZ3p53P3cgnQt0XldYKqdTP.jpg",
           "Gender": 2
         },
         {
@@ -24386,6 +24496,14 @@ var data = {
           "Amount": 3,
           "Minutes": 321,
           "Poster": "/9pLUnjMgIEWXi0mlHYzie9cKUTD.jpg",
+          "Gender": 2
+        },
+        {
+          "ID": 73153,
+          "FullName": "Jacques Rivette",
+          "Amount": 3,
+          "Minutes": 552,
+          "Poster": "/pD8i53d3on1NbPPGsOxCeuDG8xF.jpg",
           "Gender": 2
         },
         {
@@ -24893,11 +25011,11 @@ var data = {
           "Gender": 2
         },
         {
-          "ID": 73153,
-          "FullName": "Jacques Rivette",
+          "ID": 24882,
+          "FullName": "Jacques Demy",
           "Amount": 2,
-          "Minutes": 431,
-          "Poster": "/pD8i53d3on1NbPPGsOxCeuDG8xF.jpg",
+          "Minutes": 218,
+          "Poster": "/e01xXR9nxtEupIfrWaEqiLBxiGE.jpg",
           "Gender": 2
         },
         {
@@ -25317,8 +25435,8 @@ var data = {
       ]
     },
     "protagonist_All": {
-      "Total": 995,
-      "Unique": 637,
+      "Total": 1005,
+      "Unique": 642,
       "PeopleData": [
         {
           "ID": 1932,
@@ -25340,8 +25458,8 @@ var data = {
           "ID": 8635,
           "FullName": "Buster Keaton",
           "Amount": 9,
-          "Minutes": 250,
-          "Poster": "/iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
+          "Minutes": 251,
+          "Poster": "iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
           "Gender": 2
         },
         {
@@ -25433,6 +25551,14 @@ var data = {
           "Gender": 2
         },
         {
+          "ID": 50,
+          "FullName": "Catherine Deneuve",
+          "Amount": 6,
+          "Minutes": 631,
+          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 54693,
           "FullName": "Emma Stone",
           "Amount": 6,
@@ -25447,6 +25573,14 @@ var data = {
           "Minutes": 682,
           "Poster": "/qCShMw6NW9dWcmCQrCl4tLNQwiC.jpg",
           "Gender": 2
+        },
+        {
+          "ID": 4111,
+          "FullName": "Ingrid Bergman",
+          "Amount": 6,
+          "Minutes": 547,
+          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
+          "Gender": 1
         },
         {
           "ID": 936970,
@@ -25497,14 +25631,6 @@ var data = {
           "Gender": 1
         },
         {
-          "ID": 50,
-          "FullName": "Catherine Deneuve",
-          "Amount": 5,
-          "Minutes": 539,
-          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
-          "Gender": 1
-        },
-        {
           "ID": 3894,
           "FullName": "Christian Bale",
           "Amount": 5,
@@ -25519,14 +25645,6 @@ var data = {
           "Minutes": 679,
           "Poster": "/iFerDZUmC5Fu26i4qI8xnUVEHc7.jpg",
           "Gender": 2
-        },
-        {
-          "ID": 4111,
-          "FullName": "Ingrid Bergman",
-          "Amount": 5,
-          "Minutes": 447,
-          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
-          "Gender": 1
         },
         {
           "ID": 2157,
@@ -25631,6 +25749,22 @@ var data = {
           "Minutes": 389,
           "Poster": "/wxTgS4SFanVKbnvu9xqOzNJWJwz.jpg",
           "Gender": 2
+        },
+        {
+          "ID": 36592,
+          "FullName": "Saoirse Ronan",
+          "Amount": 4,
+          "Minutes": 446,
+          "Poster": "/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 98,
+          "FullName": "Sarah Polley",
+          "Amount": 4,
+          "Minutes": 420,
+          "Poster": "/qcdT6y6QEjaERHPUBC07YGKgR6k.jpg",
+          "Gender": 1
         },
         {
           "ID": 2228,
@@ -25911,22 +26045,6 @@ var data = {
           "Minutes": 263,
           "Poster": "/irirhgOX0siCyqvMrt2hoJpXfOG.jpg",
           "Gender": 2
-        },
-        {
-          "ID": 36592,
-          "FullName": "Saoirse Ronan",
-          "Amount": 3,
-          "Minutes": 347,
-          "Poster": "/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 98,
-          "FullName": "Sarah Polley",
-          "Amount": 3,
-          "Minutes": 314,
-          "Poster": "/qcdT6y6QEjaERHPUBC07YGKgR6k.jpg",
-          "Gender": 1
         },
         {
           "ID": 11108,
@@ -26246,6 +26364,14 @@ var data = {
           "Amount": 2,
           "Minutes": 313,
           "Poster": "/zYa6ApzrF688x7ckcc2q2Kuchbu.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 18228,
+          "FullName": "Juliet Berto",
+          "Amount": 2,
+          "Minutes": 314,
+          "Poster": "/8V15SItRZvoTRDdivqAHS8YIrVu.jpg",
           "Gender": 1
         },
         {
@@ -26609,8 +26735,8 @@ var data = {
       ]
     },
     "protagonist_1": {
-      "Total": 384,
-      "Unique": 262,
+      "Total": 394,
+      "Unique": 267,
       "PeopleData": [
         {
           "ID": 1932,
@@ -26645,11 +26771,27 @@ var data = {
           "Gender": 1
         },
         {
+          "ID": 50,
+          "FullName": "Catherine Deneuve",
+          "Amount": 6,
+          "Minutes": 631,
+          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 54693,
           "FullName": "Emma Stone",
           "Amount": 6,
           "Minutes": 798,
           "Poster": "/sFlktjWgUANqfUnqWJOhzICvp4v.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 4111,
+          "FullName": "Ingrid Bergman",
+          "Amount": 6,
+          "Minutes": 547,
+          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
           "Gender": 1
         },
         {
@@ -26677,22 +26819,6 @@ var data = {
           "Gender": 1
         },
         {
-          "ID": 50,
-          "FullName": "Catherine Deneuve",
-          "Amount": 5,
-          "Minutes": 539,
-          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 4111,
-          "FullName": "Ingrid Bergman",
-          "Amount": 5,
-          "Minutes": 447,
-          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
-          "Gender": 1
-        },
-        {
           "ID": 47,
           "FullName": "Bj\u00F6rk",
           "Amount": 4,
@@ -26714,6 +26840,22 @@ var data = {
           "Amount": 4,
           "Minutes": 486,
           "Poster": "/9V83uemR0ra9Wd9iRXTMlfAQlTB.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 36592,
+          "FullName": "Saoirse Ronan",
+          "Amount": 4,
+          "Minutes": 446,
+          "Poster": "/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 98,
+          "FullName": "Sarah Polley",
+          "Amount": 4,
+          "Minutes": 420,
+          "Poster": "/qcdT6y6QEjaERHPUBC07YGKgR6k.jpg",
           "Gender": 1
         },
         {
@@ -26794,22 +26936,6 @@ var data = {
           "Amount": 3,
           "Minutes": 313,
           "Poster": "/msTqKPA33ryVtcVNgOdeaJGYq16.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 36592,
-          "FullName": "Saoirse Ronan",
-          "Amount": 3,
-          "Minutes": 347,
-          "Poster": "/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 98,
-          "FullName": "Sarah Polley",
-          "Amount": 3,
-          "Minutes": 314,
-          "Poster": "/qcdT6y6QEjaERHPUBC07YGKgR6k.jpg",
           "Gender": 1
         },
         {
@@ -26906,6 +27032,14 @@ var data = {
           "Amount": 2,
           "Minutes": 313,
           "Poster": "/zYa6ApzrF688x7ckcc2q2Kuchbu.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 18228,
+          "FullName": "Juliet Berto",
+          "Amount": 2,
+          "Minutes": 314,
+          "Poster": "/8V15SItRZvoTRDdivqAHS8YIrVu.jpg",
           "Gender": 1
         },
         {
@@ -27197,6 +27331,22 @@ var data = {
           "Gender": 1
         },
         {
+          "ID": 9893,
+          "FullName": "Aurore Cl\u00E9ment",
+          "Amount": 1,
+          "Minutes": 128,
+          "Poster": "/cFkUc4AUCdy82IpzPgMVeK3N1rc.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 123012,
+          "FullName": "Barbara Loden",
+          "Amount": 1,
+          "Minutes": 103,
+          "Poster": "/3WE8Wy6ctYv5MoTIZa7RY8DVtFu.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 64871,
           "FullName": "Barbara Luddy",
           "Amount": 1,
@@ -27218,6 +27368,14 @@ var data = {
           "Amount": 1,
           "Minutes": 83,
           "Poster": "/1oVFJtQSOv6mG8HjsReDy3aipt8.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 100045,
+          "FullName": "Blanche Sweet",
+          "Amount": 1,
+          "Minutes": 17,
+          "Poster": "/xlcBzlENawXKPIQnpORlUCNkHmj.jpg",
           "Gender": 1
         },
         {
@@ -27474,6 +27632,14 @@ var data = {
           "Amount": 1,
           "Minutes": 102,
           "Poster": "/silK3Pdugbf1YOtIdXev1eZxzvF.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 1639,
+          "FullName": "Emily Watson",
+          "Amount": 1,
+          "Minutes": 101,
+          "Poster": "/bd0qiJXHoLNpkCqABsh67AKRtjC.jpg",
           "Gender": 1
         },
         {
@@ -27893,14 +28059,6 @@ var data = {
           "Gender": 1
         },
         {
-          "ID": 18228,
-          "FullName": "Juliet Berto",
-          "Amount": 1,
-          "Minutes": 193,
-          "Poster": "/8V15SItRZvoTRDdivqAHS8YIrVu.jpg",
-          "Gender": 1
-        },
-        {
           "ID": 1137,
           "FullName": "Juliette Binoche",
           "Amount": 1,
@@ -28114,6 +28272,14 @@ var data = {
           "Amount": 1,
           "Minutes": 101,
           "Poster": "/n0xnxURr1aUUVDxXJ4YHHLh4SiY.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 19584,
+          "FullName": "Ludmila Savelyeva",
+          "Amount": 1,
+          "Minutes": 422,
+          "Poster": "/tkdjeRAA6wq6ElAhZFoEFbbXSGS.jpg",
           "Gender": 1
         },
         {
@@ -28718,8 +28884,8 @@ var data = {
           "ID": 8635,
           "FullName": "Buster Keaton",
           "Amount": 9,
-          "Minutes": 250,
-          "Poster": "/iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
+          "Minutes": 251,
+          "Poster": "iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
           "Gender": 2
         },
         {
@@ -31651,8 +31817,8 @@ var data = {
       ]
     },
     "maincast_All": {
-      "Total": 2953,
-      "Unique": 1916,
+      "Total": 2983,
+      "Unique": 1938,
       "PeopleData": [
         {
           "ID": 6886,
@@ -31746,8 +31912,8 @@ var data = {
           "ID": 8635,
           "FullName": "Buster Keaton",
           "Amount": 9,
-          "Minutes": 250,
-          "Poster": "/iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
+          "Minutes": 251,
+          "Poster": "iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
           "Gender": 2
         },
         {
@@ -31855,6 +32021,14 @@ var data = {
           "Gender": 1
         },
         {
+          "ID": 4111,
+          "FullName": "Ingrid Bergman",
+          "Amount": 8,
+          "Minutes": 763,
+          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 380,
           "FullName": "Robert De Niro",
           "Amount": 8,
@@ -31879,11 +32053,11 @@ var data = {
           "Gender": 1
         },
         {
-          "ID": 4111,
-          "FullName": "Ingrid Bergman",
+          "ID": 50,
+          "FullName": "Catherine Deneuve",
           "Amount": 7,
-          "Minutes": 663,
-          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
+          "Minutes": 771,
+          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
           "Gender": 1
         },
         {
@@ -31948,14 +32122,6 @@ var data = {
           "Amount": 6,
           "Minutes": 704,
           "Poster": "/9V83uemR0ra9Wd9iRXTMlfAQlTB.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 50,
-          "FullName": "Catherine Deneuve",
-          "Amount": 6,
-          "Minutes": 679,
-          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
           "Gender": 1
         },
         {
@@ -32236,6 +32402,14 @@ var data = {
           "Amount": 5,
           "Minutes": 538,
           "Poster": "/ByeTccPuvVwtWrvkPpldFP38rS.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 36592,
+          "FullName": "Saoirse Ronan",
+          "Amount": 5,
+          "Minutes": 569,
+          "Poster": "/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg",
           "Gender": 1
         },
         {
@@ -32535,11 +32709,11 @@ var data = {
           "Gender": 2
         },
         {
-          "ID": 36592,
-          "FullName": "Saoirse Ronan",
+          "ID": 98,
+          "FullName": "Sarah Polley",
           "Amount": 4,
-          "Minutes": 470,
-          "Poster": "/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg",
+          "Minutes": 420,
+          "Poster": "/qcdT6y6QEjaERHPUBC07YGKgR6k.jpg",
           "Gender": 1
         },
         {
@@ -33095,8 +33269,8 @@ var data = {
       ]
     },
     "maincast_1": {
-      "Total": 1167,
-      "Unique": 775,
+      "Total": 1186,
+      "Unique": 788,
       "PeopleData": [
         {
           "ID": 6886,
@@ -33171,6 +33345,14 @@ var data = {
           "Gender": 1
         },
         {
+          "ID": 4111,
+          "FullName": "Ingrid Bergman",
+          "Amount": 8,
+          "Minutes": 763,
+          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 11701,
           "FullName": "Angelina Jolie",
           "Amount": 7,
@@ -33179,11 +33361,11 @@ var data = {
           "Gender": 1
         },
         {
-          "ID": 4111,
-          "FullName": "Ingrid Bergman",
+          "ID": 50,
+          "FullName": "Catherine Deneuve",
           "Amount": 7,
-          "Minutes": 663,
-          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
+          "Minutes": 771,
+          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
           "Gender": 1
         },
         {
@@ -33208,14 +33390,6 @@ var data = {
           "Amount": 6,
           "Minutes": 704,
           "Poster": "/9V83uemR0ra9Wd9iRXTMlfAQlTB.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 50,
-          "FullName": "Catherine Deneuve",
-          "Amount": 6,
-          "Minutes": 679,
-          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
           "Gender": 1
         },
         {
@@ -33339,6 +33513,14 @@ var data = {
           "Gender": 1
         },
         {
+          "ID": 36592,
+          "FullName": "Saoirse Ronan",
+          "Amount": 5,
+          "Minutes": 569,
+          "Poster": "/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 10205,
           "FullName": "Sigourney Weaver",
           "Amount": 5,
@@ -33443,11 +33625,11 @@ var data = {
           "Gender": 1
         },
         {
-          "ID": 36592,
-          "FullName": "Saoirse Ronan",
+          "ID": 98,
+          "FullName": "Sarah Polley",
           "Amount": 4,
-          "Minutes": 470,
-          "Poster": "/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg",
+          "Minutes": 420,
+          "Poster": "/qcdT6y6QEjaERHPUBC07YGKgR6k.jpg",
           "Gender": 1
         },
         {
@@ -33675,14 +33857,6 @@ var data = {
           "Gender": 1
         },
         {
-          "ID": 98,
-          "FullName": "Sarah Polley",
-          "Amount": 3,
-          "Minutes": 314,
-          "Poster": "/qcdT6y6QEjaERHPUBC07YGKgR6k.jpg",
-          "Gender": 1
-        },
-        {
           "ID": 9030,
           "FullName": "Thandiwe Newton",
           "Amount": 3,
@@ -33840,6 +34014,14 @@ var data = {
           "Amount": 2,
           "Minutes": 270,
           "Poster": "/qQX1rhQaJ1G8eMG2RknFKiXfNRc.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 38341,
+          "FullName": "Bulle Ogier",
+          "Amount": 2,
+          "Minutes": 314,
+          "Poster": "/5Dt5BN8I1gTCOBG4YsZQT3em8yS.jpg",
           "Gender": 1
         },
         {
@@ -34088,6 +34270,14 @@ var data = {
           "Amount": 2,
           "Minutes": 313,
           "Poster": "/zYa6ApzrF688x7ckcc2q2Kuchbu.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 18228,
+          "FullName": "Juliet Berto",
+          "Amount": 2,
+          "Minutes": 314,
+          "Poster": "/8V15SItRZvoTRDdivqAHS8YIrVu.jpg",
           "Gender": 1
         },
         {
@@ -34453,8 +34643,8 @@ var data = {
       ]
     },
     "maincast_2": {
-      "Total": 1713,
-      "Unique": 1076,
+      "Total": 1724,
+      "Unique": 1085,
       "PeopleData": [
         {
           "ID": 2963,
@@ -34500,8 +34690,8 @@ var data = {
           "ID": 8635,
           "FullName": "Buster Keaton",
           "Amount": 9,
-          "Minutes": 250,
-          "Poster": "/iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
+          "Minutes": 251,
+          "Poster": "iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
           "Gender": 2
         },
         {
@@ -35457,6 +35647,14 @@ var data = {
           "Gender": 2
         },
         {
+          "ID": 2326151,
+          "FullName": "Paul Mescal",
+          "Amount": 3,
+          "Minutes": 308,
+          "Poster": "/zltxB3Ppt1f2nQ8DSHx8Yad6ny6.jpg",
+          "Gender": 2
+        },
+        {
           "ID": 133,
           "FullName": "Peter Sarsgaard",
           "Amount": 3,
@@ -35633,8 +35831,8 @@ var data = {
       ]
     },
     "entirecast_All": {
-      "Total": 35480,
-      "Unique": 28191,
+      "Total": 35755,
+      "Unique": 28432,
       "PeopleData": [
         {
           "ID": 6886,
@@ -35912,8 +36110,8 @@ var data = {
           "ID": 8635,
           "FullName": "Buster Keaton",
           "Amount": 9,
-          "Minutes": 250,
-          "Poster": "/iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
+          "Minutes": 251,
+          "Poster": "iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
           "Gender": 2
         },
         {
@@ -35970,6 +36168,14 @@ var data = {
           "Amount": 9,
           "Minutes": 1294,
           "Poster": "/dk7kTamtnbgSA40Lg00aE36hljs.jpg",
+          "Gender": 2
+        },
+        {
+          "ID": 11355,
+          "FullName": "Jason Isaacs",
+          "Amount": 9,
+          "Minutes": 1238,
+          "Poster": "/s6XRFjqUsrDJfDQuXPOoExAYPmb.jpg",
           "Gender": 2
         },
         {
@@ -36229,12 +36435,12 @@ var data = {
           "Gender": 1
         },
         {
-          "ID": 11355,
-          "FullName": "Jason Isaacs",
+          "ID": 4111,
+          "FullName": "Ingrid Bergman",
           "Amount": 8,
-          "Minutes": 1139,
-          "Poster": "/s6XRFjqUsrDJfDQuXPOoExAYPmb.jpg",
-          "Gender": 2
+          "Minutes": 763,
+          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
+          "Gender": 1
         },
         {
           "ID": 388,
@@ -36405,6 +36611,14 @@ var data = {
           "Gender": 2
         },
         {
+          "ID": 50,
+          "FullName": "Catherine Deneuve",
+          "Amount": 7,
+          "Minutes": 771,
+          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 5294,
           "FullName": "Chiwetel Ejiofor",
           "Amount": 7,
@@ -36474,14 +36688,6 @@ var data = {
           "Amount": 7,
           "Minutes": 827,
           "Poster": "/95KKeFajyuRlqc65mBBKgXkXGpL.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 4111,
-          "FullName": "Ingrid Bergman",
-          "Amount": 7,
-          "Minutes": 663,
-          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
           "Gender": 1
         },
         {
@@ -36687,8 +36893,8 @@ var data = {
       ]
     },
     "entirecast_0": {
-      "Total": 8528,
-      "Unique": 8400,
+      "Total": 8565,
+      "Unique": 8433,
       "PeopleData": [
         {
           "ID": 3000905,
@@ -36803,6 +37009,14 @@ var data = {
           "Gender": 0
         },
         {
+          "ID": 2496411,
+          "FullName": "Bernard Fradet",
+          "Amount": 2,
+          "Minutes": 218,
+          "Poster": "",
+          "Gender": 0
+        },
+        {
           "ID": 1607836,
           "FullName": "Bob Swerer Sr.",
           "Amount": 2,
@@ -36863,6 +37077,14 @@ var data = {
           "FullName": "Cindy Daly",
           "Amount": 2,
           "Minutes": 190,
+          "Poster": "",
+          "Gender": 0
+        },
+        {
+          "ID": 2496415,
+          "FullName": "Claudine Meunier",
+          "Amount": 2,
+          "Minutes": 218,
           "Poster": "",
           "Gender": 0
         },
@@ -37119,6 +37341,14 @@ var data = {
           "FullName": "John Robb",
           "Amount": 2,
           "Minutes": 240,
+          "Poster": "",
+          "Gender": 0
+        },
+        {
+          "ID": 1446351,
+          "FullName": "Jos\u00E9 Bartel",
+          "Amount": 2,
+          "Minutes": 218,
           "Poster": "",
           "Gender": 0
         },
@@ -37435,6 +37665,14 @@ var data = {
           "Gender": 0
         },
         {
+          "ID": 46938,
+          "FullName": "Pierre Caden",
+          "Amount": 2,
+          "Minutes": 218,
+          "Poster": "",
+          "Gender": 0
+        },
+        {
           "ID": 46346,
           "FullName": "Rich Turner",
           "Amount": 2,
@@ -37669,8 +37907,8 @@ var data = {
       ]
     },
     "entirecast_1": {
-      "Total": 8953,
-      "Unique": 6981,
+      "Total": 9031,
+      "Unique": 7042,
       "PeopleData": [
         {
           "ID": 6886,
@@ -37833,6 +38071,14 @@ var data = {
           "Gender": 1
         },
         {
+          "ID": 4111,
+          "FullName": "Ingrid Bergman",
+          "Amount": 8,
+          "Minutes": 763,
+          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 368,
           "FullName": "Reese Witherspoon",
           "Amount": 8,
@@ -37865,6 +38111,14 @@ var data = {
           "Gender": 1
         },
         {
+          "ID": 50,
+          "FullName": "Catherine Deneuve",
+          "Amount": 7,
+          "Minutes": 771,
+          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
+          "Gender": 1
+        },
+        {
           "ID": 1283,
           "FullName": "Helena Bonham Carter",
           "Amount": 7,
@@ -37878,14 +38132,6 @@ var data = {
           "Amount": 7,
           "Minutes": 827,
           "Poster": "/95KKeFajyuRlqc65mBBKgXkXGpL.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 4111,
-          "FullName": "Ingrid Bergman",
-          "Amount": 7,
-          "Minutes": 663,
-          "Poster": "/9LdhzK5CVkLZjRdQ08V9C0Oiu9I.jpg",
           "Gender": 1
         },
         {
@@ -37966,14 +38212,6 @@ var data = {
           "Amount": 6,
           "Minutes": 665,
           "Poster": "/uLOrqcSk2h5o3ekNfcuGFDzN13W.jpg",
-          "Gender": 1
-        },
-        {
-          "ID": 50,
-          "FullName": "Catherine Deneuve",
-          "Amount": 6,
-          "Minutes": 679,
-          "Poster": "/a6Ku0amMUmaEs4gP13lag3za5Sh.jpg",
           "Gender": 1
         },
         {
@@ -38070,6 +38308,14 @@ var data = {
           "Amount": 6,
           "Minutes": 623,
           "Poster": "/2QJoTBEIeYyjGSDot9qxv2ayPH3.jpg",
+          "Gender": 1
+        },
+        {
+          "ID": 36592,
+          "FullName": "Saoirse Ronan",
+          "Amount": 6,
+          "Minutes": 669,
+          "Poster": "/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg",
           "Gender": 1
         },
         {
@@ -38417,14 +38663,6 @@ var data = {
           "Gender": 1
         },
         {
-          "ID": 36592,
-          "FullName": "Saoirse Ronan",
-          "Amount": 5,
-          "Minutes": 570,
-          "Poster": "/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg",
-          "Gender": 1
-        },
-        {
           "ID": 21596,
           "FullName": "Shannon Elizabeth",
           "Amount": 5,
@@ -38483,8 +38721,8 @@ var data = {
       ]
     },
     "entirecast_2": {
-      "Total": 17972,
-      "Unique": 12794,
+      "Total": 18132,
+      "Unique": 12941,
       "PeopleData": [
         {
           "ID": 2231,
@@ -38682,8 +38920,8 @@ var data = {
           "ID": 8635,
           "FullName": "Buster Keaton",
           "Amount": 9,
-          "Minutes": 250,
-          "Poster": "/iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
+          "Minutes": 251,
+          "Poster": "iP0of33Hi6hGGojegJQ4sjNwW2l.jpg",
           "Gender": 2
         },
         {
@@ -38716,6 +38954,14 @@ var data = {
           "Amount": 9,
           "Minutes": 1294,
           "Poster": "/dk7kTamtnbgSA40Lg00aE36hljs.jpg",
+          "Gender": 2
+        },
+        {
+          "ID": 11355,
+          "FullName": "Jason Isaacs",
+          "Amount": 9,
+          "Minutes": 1238,
+          "Poster": "/s6XRFjqUsrDJfDQuXPOoExAYPmb.jpg",
           "Gender": 2
         },
         {
@@ -38916,14 +39162,6 @@ var data = {
           "Amount": 8,
           "Minutes": 1003,
           "Poster": "/8nytsqL59SFJTVYVrN72k6qkGgJ.jpg",
-          "Gender": 2
-        },
-        {
-          "ID": 11355,
-          "FullName": "Jason Isaacs",
-          "Amount": 8,
-          "Minutes": 1139,
-          "Poster": "/s6XRFjqUsrDJfDQuXPOoExAYPmb.jpg",
           "Gender": 2
         },
         {
@@ -39423,6 +39661,14 @@ var data = {
           "Gender": 2
         },
         {
+          "ID": 37204,
+          "FullName": "David Warshofsky",
+          "Amount": 6,
+          "Minutes": 732,
+          "Poster": "/pLABX1wyaVE4CcEZVmoM2Y5XbQU.jpg",
+          "Gender": 2
+        },
+        {
           "ID": 1896,
           "FullName": "Don Cheadle",
           "Amount": 6,
@@ -39628,6 +39874,14 @@ var data = {
           "Amount": 6,
           "Minutes": 700,
           "Poster": "/rcncVr356hpfKX9qOrKL3SJlEO7.jpg",
+          "Gender": 2
+        },
+        {
+          "ID": 103,
+          "FullName": "Mark Ruffalo",
+          "Amount": 6,
+          "Minutes": 710,
+          "Poster": "/z3dvKqMNDQWk3QLxzumloQVR0pv.jpg",
           "Gender": 2
         },
         {
@@ -40041,7 +40295,7 @@ var data = {
     "1908": 0,
     "1909": 0,
     "1910": 0,
-    "1911": 0,
+    "1911": 1,
     "1912": 1,
     "1913": 1,
     "1914": 0,
@@ -40094,21 +40348,21 @@ var data = {
     "1961": 3,
     "1962": 4,
     "1963": 4,
-    "1964": 3,
+    "1964": 5,
     "1965": 3,
     "1966": 7,
-    "1967": 5,
+    "1967": 6,
     "1968": 7,
     "1969": 2,
-    "1970": 2,
+    "1970": 3,
     "1971": 5,
     "1972": 1,
     "1973": 3,
     "1974": 4,
     "1975": 6,
-    "1976": 4,
+    "1976": 5,
     "1977": 4,
-    "1978": 5,
+    "1978": 6,
     "1979": 5,
     "1980": 2,
     "1981": 2,
@@ -40133,7 +40387,7 @@ var data = {
     "2000": 32,
     "2001": 36,
     "2002": 35,
-    "2003": 24,
+    "2003": 25,
     "2004": 33,
     "2005": 23,
     "2006": 31,
@@ -40145,14 +40399,14 @@ var data = {
     "2012": 23,
     "2013": 24,
     "2014": 18,
-    "2015": 29,
+    "2015": 30,
     "2016": 23,
     "2017": 26,
     "2018": 22,
     "2019": 30,
     "2020": 8,
     "2021": 13,
-    "2022": 23,
+    "2022": 24,
     "2023": 29,
     "2024": 13
   },
@@ -40178,7 +40432,7 @@ var data = {
       "RatingTotal": 0
     },
     "1910": {
-      "Count": 4,
+      "Count": 5,
       "RatingCount": 2,
       "RatingTotal": 7
     },
@@ -40203,14 +40457,14 @@ var data = {
       "RatingTotal": 40
     },
     "1960": {
-      "Count": 39,
-      "RatingCount": 21,
-      "RatingTotal": 84
+      "Count": 42,
+      "RatingCount": 22,
+      "RatingTotal": 89
     },
     "1970": {
-      "Count": 39,
-      "RatingCount": 12,
-      "RatingTotal": 48
+      "Count": 42,
+      "RatingCount": 13,
+      "RatingTotal": 52
     },
     "1980": {
       "Count": 53,
@@ -40223,22 +40477,23 @@ var data = {
       "RatingTotal": 140
     },
     "2000": {
-      "Count": 322,
-      "RatingCount": 48,
-      "RatingTotal": 148
+      "Count": 323,
+      "RatingCount": 49,
+      "RatingTotal": 152
     },
     "2010": {
-      "Count": 236,
-      "RatingCount": 117,
-      "RatingTotal": 390
+      "Count": 237,
+      "RatingCount": 118,
+      "RatingTotal": 392
     },
     "2020": {
-      "Count": 86,
-      "RatingCount": 77,
-      "RatingTotal": 277
+      "Count": 87,
+      "RatingCount": 78,
+      "RatingTotal": 280
     }
   },
   "LongestFilms": [
+    1011,
     206,
     962,
     47,
@@ -40337,8 +40592,7 @@ var data = {
     932,
     854,
     583,
-    306,
-    998
+    306
   ],
   "MostWatchedFilms": [
     139,
@@ -40475,6 +40729,7 @@ var data = {
     224,
     718,
     901,
+    1012,
     788,
     697,
     327,
@@ -40487,6 +40742,7 @@ var data = {
     992,
     331,
     513,
+    1017,
     520,
     714,
     312,
@@ -40510,6 +40766,7 @@ var data = {
     792,
     358,
     300,
+    1010,
     874,
     989,
     498,
@@ -40519,8 +40776,8 @@ var data = {
     731,
     392,
     863,
-    287,
     298,
+    287,
     909,
     364,
     461,
@@ -40528,21 +40785,18 @@ var data = {
     995,
     936,
     750,
+    1016,
     931,
     1004,
     943,
     193,
-    769,
     976,
+    769,
     971,
     485,
     914,
     368,
-    722,
-    425,
-    754,
-    291,
-    351
+    722
   ],
   "HighestRatedFilms": [
     818,
@@ -40587,6 +40841,7 @@ var data = {
     33,
     45,
     37,
+    1011,
     1008,
     999,
     803,
@@ -40643,8 +40898,7 @@ var data = {
     667,
     177,
     1,
-    206,
-    144
+    206
   ],
   "LowestRatedFilms": [
     149,
@@ -40708,6 +40962,7 @@ var data = {
     607,
     874,
     731,
+    1017,
     747,
     308,
     374,
@@ -40745,8 +41000,7 @@ var data = {
     638,
     203,
     425,
-    427,
-    449
+    427
   ],
   "ShortestTitleFilms": [
     833,
@@ -40923,6 +41177,7 @@ var data = {
     889,
     84,
     194,
+    1013,
     880,
     963,
     211,
@@ -40967,8 +41222,7 @@ var data = {
     42,
     131,
     757,
-    139,
-    158
+    139
   ],
   "OldestReleasedFilms": [
     909,
@@ -40976,6 +41230,7 @@ var data = {
     931,
     957,
     911,
+    1010,
     944,
     888,
     926,
@@ -41047,6 +41302,8 @@ var data = {
     244,
     298,
     591,
+    1019,
+    1012,
     984,
     649,
     250,
@@ -41067,28 +41324,32 @@ var data = {
     597,
     323,
     38,
-    495,
-    927,
-    157,
-    840
+    495
   ],
   "FilmsPerThirtyMinutes": {
-    "0": 24,
+    "0": 25,
     "30": 10,
     "60": 142,
-    "90": 549,
-    "120": 237,
+    "90": 555,
+    "120": 239,
     "150": 37,
     "180": 10,
-    "210": 1
+    "210": 1,
+    "240": 0,
+    "270": 0,
+    "300": 0,
+    "330": 0,
+    "360": 0,
+    "390": 0,
+    "420": 1
   },
   "FilmsPerLanguage": {
     "Arabic": 2,
     "Cantonese": 1,
     "Czech": 2,
     "Danish": 1,
-    "English": 888,
-    "French": 35,
+    "English": 893,
+    "French": 38,
     "German": 4,
     "Hungarian": 1,
     "Icelandic": 1,
@@ -41097,11 +41358,11 @@ var data = {
     "Japanese": 12,
     "Korean": 5,
     "Mandarin": 2,
-    "No Spoken Language": 32,
+    "No Spoken Language": 33,
     "Norwegian": 1,
     "Polish": 2,
     "Portuguese": 2,
-    "Russian": 1,
+    "Russian": 2,
     "Spanish": 7,
     "Swedish": 6
   },
@@ -41112,18 +41373,18 @@ var data = {
     "Austria": 1,
     "Belgium": 6,
     "Brazil": 4,
-    "Canada": 25,
+    "Canada": 26,
     "Chile": 1,
     "China": 1,
     "Czechia": 2,
     "Czechoslovakia": 2,
     "Denmark": 7,
-    "France": 51,
+    "France": 54,
     "Germany": 16,
     "Hong Kong": 2,
     "Hungary": 2,
     "Iceland": 2,
-    "Ireland": 11,
+    "Ireland": 12,
     "Italy": 6,
     "Japan": 13,
     "Mali": 1,
@@ -41139,7 +41400,7 @@ var data = {
     "Singapore": 2,
     "Slovenia": 1,
     "South Korea": 4,
-    "Soviet Union": 2,
+    "Soviet Union": 3,
     "Spain": 9,
     "Sweden": 6,
     "Switzerland": 3,
@@ -41147,16 +41408,16 @@ var data = {
     "Ukraine": 1,
     "United Arab Emirates": 1,
     "United Kingdom": 179,
-    "United States of America": 793
+    "United States of America": 797
   },
   "FilmsPerCountryProduction": {
     "Angola": 1,
     "Argentina": 1,
     "Australia": 14,
     "Austria": 2,
-    "Belgium": 14,
+    "Belgium": 15,
     "Brazil": 8,
-    "Canada": 45,
+    "Canada": 46,
     "Chile": 1,
     "China": 6,
     "Czechia": 5,
@@ -41165,8 +41426,8 @@ var data = {
     "Egypt": 1,
     "Ethiopia": 1,
     "Finland": 3,
-    "France": 105,
-    "Germany": 67,
+    "France": 109,
+    "Germany": 70,
     "Ghana": 1,
     "Greece": 4,
     "Hong Kong": 6,
@@ -41174,9 +41435,9 @@ var data = {
     "Iceland": 3,
     "India": 4,
     "Indonesia": 1,
-    "Ireland": 16,
+    "Ireland": 17,
     "Israel": 1,
-    "Italy": 23,
+    "Italy": 24,
     "Japan": 18,
     "Jordan": 2,
     "Luxembourg": 2,
@@ -41197,8 +41458,8 @@ var data = {
     "Slovenia": 1,
     "South Africa": 1,
     "South Korea": 6,
-    "Soviet Union": 2,
-    "Spain": 19,
+    "Soviet Union": 3,
+    "Spain": 20,
     "Sweden": 12,
     "Switzerland": 9,
     "Syrian Arab Republic": 1,
@@ -41207,8 +41468,8 @@ var data = {
     "Turkey": 2,
     "Ukraine": 2,
     "United Arab Emirates": 2,
-    "United Kingdom": 240,
-    "United States of America": 842
+    "United Kingdom": 241,
+    "United States of America": 847
   },
   "MostFrequentWords": {
     "movie": [
@@ -41497,6 +41758,13 @@ var data = {
       538,
       966
     ],
+    "life": [
+      49,
+      377,
+      639,
+      987,
+      1018
+    ],
     "little": [
       79,
       144,
@@ -41635,12 +41903,6 @@ var data = {
       306,
       527,
       764
-    ],
-    "life": [
-      49,
-      377,
-      639,
-      987
     ],
     "lord": [
       120,
@@ -41781,6 +42043,11 @@ var data = {
       920,
       921
     ],
+    "creatures": [
+      202,
+      338,
+      1013
+    ],
     "down": [
       305,
       600,
@@ -41870,19 +42137,14 @@ var data = {
       207,
       459,
       715
-    ],
-    "job": [
-      398,
-      429,
-      464
     ]
   },
   "Backdrops": [
     {
-      "ImageUrl": "/d0B1WqBsxwk5vGr3nc9TbrkUHcf.jpg",
-      "FilmName": "Nosferatu, eine Symphonie des Grauens\u003Cbr\u003E(\u0026quot;Nosferatu\u0026quot;)\u003Cbr/\u003E(1922)",
-      "LetterboxdId": "29TM",
-      "Colour": "",
+      "ImageUrl": "jPh99WA8mN2jvWs4XxSIHF6lRq2.jpg",
+      "FilmName": "Sedmikr\u00E1sky\u003Cbr\u003E(\u0026quot;Daisies\u0026quot;)\u003Cbr/\u003E(1966)",
+      "LetterboxdId": "LZk",
+      "Colour": "#416926",
       "Flags": "."
     }
   ],
@@ -44573,7 +44835,7 @@ var data = {
           "LetterboxdIdentifier": "29Uq",
           "PrimaryLanguage": "French",
           "PosterUrl": "/iUAFECovwPA0cVV9bo4uNGLJSGL.jpg",
-          "RatingSelf": 4
+          "RatingSelf": 0
         },
         {
           "Order": 218,
@@ -45024,6 +45286,96 @@ var data = {
           "PrimaryLanguage": "English",
           "PosterUrl": "/zfRR2CkbvYrLuOPQFm8vBaENyMy.jpg",
           "RatingSelf": 4
+        },
+        {
+          "Order": 263,
+          "FilmName": "War and Peace",
+          "FilmNameOriginal": "\u0412\u043E\u0439\u043D\u0430 \u0438 \u043C\u0438\u0440",
+          "Year": 1967,
+          "LetterboxdIdentifier": "1nRy",
+          "PrimaryLanguage": "Russian",
+          "PosterUrl": "/tvMJ84g2lx2XusA29wvOeaanwWZ.jpg",
+          "RatingSelf": 5
+        },
+        {
+          "Order": 264,
+          "FilmName": "The Visit",
+          "FilmNameOriginal": "The Visit",
+          "Year": 1964,
+          "LetterboxdIdentifier": "4LFM",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/aZAfLgWqXQd42uvBfQvvpB946PP.jpg",
+          "RatingSelf": 4
+        },
+        {
+          "Order": 265,
+          "FilmName": "God's Creatures",
+          "FilmNameOriginal": "God's Creatures",
+          "Year": 2022,
+          "LetterboxdIdentifier": "veBc",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/4xjkwZ8EwDzZ3dsQRvyW1fntqXT.jpg",
+          "RatingSelf": 3
+        },
+        {
+          "Order": 266,
+          "FilmName": "The Meetings of Anna",
+          "FilmNameOriginal": "Les Rendez-vous d'Anna",
+          "Year": 1978,
+          "LetterboxdIdentifier": "3gEG",
+          "PrimaryLanguage": "French",
+          "PosterUrl": "/5EU7BNT3m5TG4UfSzTiSOaC0Hrg.jpg",
+          "RatingSelf": 0
+        },
+        {
+          "Order": 267,
+          "FilmName": "Wanda",
+          "FilmNameOriginal": "Wanda",
+          "Year": 1970,
+          "LetterboxdIdentifier": "2OjK",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/izuJ7cUhcihFnTpfsdSnkMCHsRQ.jpg",
+          "RatingSelf": 4
+        },
+        {
+          "Order": 268,
+          "FilmName": "Duelle",
+          "FilmNameOriginal": "Duelle",
+          "Year": 1976,
+          "LetterboxdIdentifier": "2WK",
+          "PrimaryLanguage": "French",
+          "PosterUrl": "/fYaFwG0MWtPqUO93eyrd3sdgiHl.jpg",
+          "RatingSelf": 0
+        },
+        {
+          "Order": 269,
+          "FilmName": "Stockholm, Pennsylvania",
+          "FilmNameOriginal": "Stockholm, Pennsylvania",
+          "Year": 2015,
+          "LetterboxdIdentifier": "9Szw",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/AoapXic9H8w3PdXIJICuoZMVWoV.jpg",
+          "RatingSelf": 2
+        },
+        {
+          "Order": 270,
+          "FilmName": "My Life Without Me",
+          "FilmNameOriginal": "My Life Without Me",
+          "Year": 2003,
+          "LetterboxdIdentifier": "710",
+          "PrimaryLanguage": "English",
+          "PosterUrl": "/pFEtVPW88pWflYV84UFL0h1iJr3.jpg",
+          "RatingSelf": 4
+        },
+        {
+          "Order": 271,
+          "FilmName": "The Umbrellas of Cherbourg",
+          "FilmNameOriginal": "Les Parapluies de Cherbourg",
+          "Year": 1964,
+          "LetterboxdIdentifier": "22fK",
+          "PrimaryLanguage": "French",
+          "PosterUrl": "/7XHxvEo1C1GzbTkZuH8aAU8wOeV.jpg",
+          "RatingSelf": 0
         }
       ]
     }
