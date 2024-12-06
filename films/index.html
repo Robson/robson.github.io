@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -660,7 +661,7 @@
 
 				//$('body').append('<div class="boxes"></div>');
 				//$('.boxes').append(makeBox(Object.values(data.FilmsWatchedPerYear).filter(value => value > 0).length, 'Watched Years'));
-				
+
 				/*
 				createNewTable();
 
@@ -1772,7 +1773,7 @@
 				}
 
                 var isEmpty = false;
-				for (var thirty in data.FilmsPerThirtyMinutes) {                    
+				for (var thirty in data.FilmsPerThirtyMinutes) {
 					//var label = (thirty / 60).toFixed(1) + "h <= x < " + ((+thirty + 30) / 60).toFixed(1) + "h";
 					var number = +thirty;
 					var label =
@@ -1793,9 +1794,9 @@
                                 '<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerThirtyMinutes[thirty] + '">...</td>' +
                                 bar +
                                 '</tr>');
-						}		
+						}
                         isEmpty = true;
-					} else {						
+					} else {
 						if (documentWidth >= 500) {
 							bar = '<td class="chart" data-value="' + data.FilmsPerThirtyMinutes[thirty] + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.FilmsPerThirtyMinutes[thirty] / highest) * 100) + 'px">&nbsp;</span></span></td>';
 						}
@@ -2620,9 +2621,9 @@
                     '</tr>')
             }
 
-			function showPeople(job, jobSpecific, index = 'All') {			
+			function showPeople(job, jobSpecific, index = 'All') {
 
-				var jobSpecificCleaned = jobSpecific.replace(' ', '').toLowerCase();				
+				var jobSpecificCleaned = jobSpecific.replace(' ', '').toLowerCase();
                 dataSource = data.ProfessionDataSets[jobSpecificCleaned + '_' + index].PeopleData;
 
 				resetView();
