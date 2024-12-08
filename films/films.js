@@ -1,4 +1,3 @@
-
 var films = [
   {
     "Title": "Challengers",

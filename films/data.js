@@ -1,4 +1,3 @@
-
 var data = {
   "FilmsWithThemes": 942,
   "Themes": [
@@ -21227,7 +21226,7 @@ var data = {
       "Amount": 4
     }
   ],
-  "LastUpdated": "6 Dec 2024",
+  "LastUpdated": "8 Dec 2024",
   "Username": "LaLunaLlena",
   "TotalFilms": 1030,
   "RatedFilms": 357,
@@ -42466,10 +42465,10 @@ var data = {
   },
   "Backdrops": [
     {
-      "ImageUrl": "/oVDkfWqMMTNryxq60eQdVMMYaw7.jpg",
-      "FilmName": "Vertigo\u003Cbr/\u003E(1958)",
-      "LetterboxdId": "2apI",
-      "Colour": "#EE2C04",
+      "ImageUrl": "dQFAmJ1pzF5kzVwbGte6x8g6Wro.jpg",
+      "FilmName": "Sedmikr\u00E1sky\u003Cbr\u003E(\u0026quot;Daisies\u0026quot;)\u003Cbr/\u003E(1966)",
+      "LetterboxdId": "LZk",
+      "Colour": "#416926",
       "Flags": "."
     }
   ],
