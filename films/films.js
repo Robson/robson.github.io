@@ -4381,19 +4381,6 @@ var films = [
     "When": "1973-12-06"
   },
   {
-    "Title": "Day Zero",
-    "TitleOriginal": "Day Zero",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.07,
-    "Minutes": 92,
-    "Watched": 501,
-    "Id": "1L0e",
-    "Poster": "/ai7qo5yqXnNM1Wx9bAwvkmGrceP.jpg",
-    "Year": 2007,
-    "When": "2007-04-27"
-  },
-  {
     "Title": "Beautiful Creatures",
     "TitleOriginal": "Beautiful Creatures",
     "Language": "English",
@@ -6175,19 +6162,6 @@ var films = [
     "When": "2002-04-19"
   },
   {
-    "Title": "American Pie Presents: Beta House",
-    "TitleOriginal": "American Pie Presents: Beta House",
-    "Language": "English",
-    "RatingSelf": 1,
-    "RatingLetterboxd": 2.14,
-    "Minutes": 89,
-    "Watched": 56575,
-    "Id": "20qm",
-    "Poster": "/j7eGbwVb9hTaRFWMlSa7C1OYp3T.jpg",
-    "Year": 2007,
-    "When": "2007-12-26"
-  },
-  {
     "Title": "Disturbia",
     "TitleOriginal": "Disturbia",
     "Language": "English",
@@ -6498,32 +6472,6 @@ var films = [
     "Poster": "/eOoCzH0MqeGr2taUZO4SwG416PF.jpg",
     "Year": 2004,
     "When": "2004-11-10"
-  },
-  {
-    "Title": "Rush Hour 2",
-    "TitleOriginal": "Rush Hour 2",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.34,
-    "Minutes": 90,
-    "Watched": 308372,
-    "Id": "23ga",
-    "Poster": "/aBQf2vMiCINeVC9v6BGVYKXurTh.jpg",
-    "Year": 2001,
-    "When": "2001-08-03"
-  },
-  {
-    "Title": "Rush Hour 3",
-    "TitleOriginal": "Rush Hour 3",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 2.91,
-    "Minutes": 91,
-    "Watched": 220053,
-    "Id": "23gk",
-    "Poster": "/rZ7IxJlPhNNJ6Rn8z1rzsXuA70P.jpg",
-    "Year": 2007,
-    "When": "2007-08-08"
   },
   {
     "Title": "Severance",
@@ -7553,19 +7501,6 @@ var films = [
     "When": "1997-07-03"
   },
   {
-    "Title": "Bridge to Terabithia",
-    "TitleOriginal": "Bridge to Terabithia",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.62,
-    "Minutes": 96,
-    "Watched": 634702,
-    "Id": "28YG",
-    "Poster": "/3xFxGodKPMFLheS8rujFSmLfcq4.jpg",
-    "Year": 2007,
-    "When": "2007-02-15"
-  },
-  {
     "Title": "Ghost Rider",
     "TitleOriginal": "Ghost Rider",
     "Language": "English",
@@ -7889,19 +7824,6 @@ var films = [
     "Poster": "/7Q3efxd3AF1vQjlSxnlerSA7RzN.jpg",
     "Year": 1980,
     "When": "1980-07-02"
-  },
-  {
-    "Title": "Shrek the Third",
-    "TitleOriginal": "Shrek the Third",
-    "Language": "English",
-    "RatingSelf": null,
-    "RatingLetterboxd": 2.84,
-    "Minutes": 93,
-    "Watched": 1129633,
-    "Id": "29yY",
-    "Poster": "/n4SexGGQzI26E269tfpa80MZaGV.jpg",
-    "Year": 2007,
-    "When": "2007-05-17"
   },
   {
     "Title": "Mrs. Doubtfire",
@@ -13518,5 +13440,31 @@ var films = [
     "Poster": "/2KFfwiPct1hwqi9dkKqoom0BenC.jpg",
     "Year": 1985,
     "When": "1985-12-04"
+  },
+  {
+    "Title": "Anora",
+    "TitleOriginal": "Anora",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 4.14,
+    "Minutes": 139,
+    "Watched": 469259,
+    "Id": "Egcw",
+    "Poster": "/7MrgIUeq0DD2iF7GR6wqJfYZNeC.jpg",
+    "Year": 2024,
+    "When": "2024-10-14"
+  },
+  {
+    "Title": "Portrait of a Young Girl at the End of the 60s in Brussels",
+    "TitleOriginal": "Portrait d\u2019une jeune fille de la fin des ann\u00E9es 60 \u00E0 Bruxelles",
+    "Language": "French",
+    "RatingSelf": null,
+    "RatingLetterboxd": 4.14,
+    "Minutes": 60,
+    "Watched": 10839,
+    "Id": "462a",
+    "Poster": "/xRlnt5UqGdBZdkccOlRgQTGpLAh.jpg",
+    "Year": 1994,
+    "When": "1994-11-04"
   }
 ]
