@@ -2583,6 +2583,10 @@
                     '</tr>')
             }
 
+			function SortableName(name) {
+				return name.split(' ').reverse().join(' ');
+			}
+
 			function showPeople(job, jobSpecific, index = 'All') {			
 
 				var jobSpecificCleaned = jobSpecific.replace(' ', '').toLowerCase();				
@@ -2606,7 +2610,7 @@
 				//var lowest = shuffled.length >= galleryAmount - 1 ? shuffled[galleryAmount - 1].Amount : 0;
 
 				var shuffled = dataSource.filter(a => a.Amount > minimum);
-                shuffled = shuffled.sort((a, b) => b.FullName < a.FullName);
+                shuffled = shuffled.sort((a, b) => SortableName(b.FullName) < SortableName(a.FullName));
 				//shuffled = shuffleArray(shuffled);
 				shuffled = shuffled.sort((a, b) => b.Amount - a.Amount);
 

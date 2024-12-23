@@ -13432,7 +13432,7 @@ var films = [
     "Title": "Vagabond",
     "TitleOriginal": "Sans toit ni loi",
     "Language": "French",
-    "RatingSelf": null,
+    "RatingSelf": 4,
     "RatingLetterboxd": 4.10,
     "Minutes": 105,
     "Watched": 85119,
@@ -13466,5 +13466,57 @@ var films = [
     "Poster": "/xRlnt5UqGdBZdkccOlRgQTGpLAh.jpg",
     "Year": 1994,
     "When": "1994-11-04"
+  },
+  {
+    "Title": "Miranda",
+    "TitleOriginal": "Miranda",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.02,
+    "Minutes": 93,
+    "Watched": 912,
+    "Id": "DA2",
+    "Poster": "/sGwsgiVBKgjNzwuhXELIAgDqdmN.jpg",
+    "Year": 2002,
+    "When": "2002-01-18"
+  },
+  {
+    "Title": "Cathy Come Home",
+    "TitleOriginal": "Cathy Come Home",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.84,
+    "Minutes": 75,
+    "Watched": 3309,
+    "Id": "7QwQ",
+    "Poster": "/jLMqpwSaRnw6Qm34SaVOTimYnUO.jpg",
+    "Year": 1966,
+    "When": "1966-11-16"
+  },
+  {
+    "Title": "Celia",
+    "TitleOriginal": "Celia",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.64,
+    "Minutes": 103,
+    "Watched": 6355,
+    "Id": "2bAM",
+    "Poster": "/vrhapMkOMjaX2sPGgAryxyH9S8L.jpg",
+    "Year": 1989,
+    "When": "1989-05-18"
+  },
+  {
+    "Title": "Outrage",
+    "TitleOriginal": "Outrage",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.66,
+    "Minutes": 75,
+    "Watched": 6093,
+    "Id": "2vFW",
+    "Poster": "/2zGupaPiJBU3iR9WgY1kMpYalY2.jpg",
+    "Year": 1950,
+    "When": "1950-09-27"
   }
 ]
