@@ -513,7 +513,7 @@
 					series.data = [];
 					for (var b = 0; b < cats.length; b++) {
 						var year = 1900 + (b * 10) + a;
-						series.data.push(Math.min(40, data.FilmsWatchedPerYear[year]));
+						series.data.push(data.FilmsWatchedPerYear[year]);
 					}
 					groups.push(series);
 				}
@@ -2659,20 +2659,24 @@
 				thead.append('<tr class="topheader"><th colspan="2">Top ' + Object.values(dataSource).length + ' Most Frequent</th></tr>');
 				thead.append('<tr class="bottomheader"><th>Person</th><th>Amount</th></tr>');
 
-				for (var a = 0; a < dataSource.length; a++) {
-					var url = 'https://letterboxd.com/' + data.Username + '/films/with/' + job.toLowerCase() + '/' + urlSafe(dataSource[a].FullName.replace(/ /g, '-').toLowerCase()) + '/by/name/size/large/';
+                var sorted = dataSource.slice(0);
+                sorted = sorted.sort((a, b) => SortableName(b.FullName) < SortableName(a.FullName)).sort((a, b) => b.Amount > a.Amount);
+
+
+                for (var a = 0; a < sorted.length; a++) {
+                    var url = 'https://letterboxd.com/' + data.Username + '/films/with/' + job.toLowerCase() + '/' + urlSafe(sorted[a].FullName.replace(/ /g, '-').toLowerCase()) + '/by/name/size/large/';
 					var extraClass = '';
-					if (a < dataSource.length - 1 && dataSource[a].Amount != dataSource[a + 1].Amount) {
+                    if (a < sorted.length - 1 && sorted[a].Amount != sorted[a + 1].Amount) {
 						extraClass = ' class="breaker"';
 					}
 					var dot = '';
 					if (index == 'All') {
-						dot = makeDot(dataSource[a].Gender) + ' ';
+                        dot = makeDot(sorted[a].Gender) + ' ';
 					}
 
 					var tooltip = '';
-					if (dataSource[a].Poster.length > 0) {
-						tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + dataSource[a].Poster + '\'>"';
+                    if (sorted[a].Poster.length > 0) {
+                        tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + sorted[a].Poster + '\'>"';
 						if (extraClass.length > 0) {
 							tooltip = tooltip.replace('ttt', 'ttt breaker');
 							extraClass = '';
@@ -2681,8 +2685,8 @@
 
 					tbody.append(
 						'<tr' + extraClass + tooltip + '>' +
-						'<td><a target="_blank" href="' + url + '">' + dot + dataSource[a].FullName + '</a></td>' +
-						'<td class="right">' + dataSource[a].Amount + '</td>' +
+                        '<td><a target="_blank" href="' + url + '">' + dot + sorted[a].FullName + '</a></td>' +
+                        '<td class="right">' + sorted[a].Amount + '</td>' +
 						'</tr>');
 				}
 
