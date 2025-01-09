@@ -107,12 +107,6 @@
 		<span class="displayer inline ttt" data-tooltip="Men" onmousedown="javascript:showEntireCastMen()">M</span>
 		&#9670;
 		<span class="displayer inline ttt" data-tooltip="Non-Binary" onmousedown="javascript:showEntireCastNonBinary()">NB</span>
-		<div class="initially_hidden">
-			<div class="title">Watched</div>
-			<span class="displayer inline" onmousedown="javascript:showList('Watched in 2023')">In 2023</span>
-			&#9670;
-			<span class="displayer inline" onmousedown="javascript:showList('Watched in 2024')">In 2024</span>
-		</div>
 	</div>
 
 		<div id="tt" style="display: none">
@@ -264,8 +258,10 @@
 				window.scrollTo(0, 0);
 				setRandomBackdrop();
 				$('.info').remove();
+                $('button').remove();
 				$('table').remove();
 				$('.boxes').remove();
+                $('#posters').remove();
 				$('#outside').remove();
 				$('.gallery').remove();
 			}
@@ -462,6 +458,168 @@
 				deactivateAll();
 			}
 
+            function copyRecentTable() {
+				var tbl = document.getElementById('main');
+                $(tbl).css('display', 'inline');
+                var body = document.body, range, sel;
+                if (document.createRange && window.getSelection) {
+                    range = document.createRange();
+                    sel = window.getSelection();
+                    sel.removeAllRanges();
+                    try {
+                        range.selectNodeContents(tbl);
+                        sel.addRange(range);
+                    } catch (e) {
+                        range.selectNode(tbl);
+                        sel.addRange(range);
+                    }
+                } else if (body.createTextRange) {
+                    range = body.createTextRange();
+                    range.moveToElementText(tbl);
+                    range.select();
+                }
+				document.execCommand("Copy");
+			}
+
+            function copyRecentPosters() {
+				var tbl = document.getElementById('posters');
+                $(tbl).css('display', 'block');
+                var body = document.body, range, sel;
+                if (document.createRange && window.getSelection) {
+                    range = document.createRange();
+                    sel = window.getSelection();
+                    sel.removeAllRanges();
+                    try {
+                        range.selectNodeContents(tbl);
+                        sel.addRange(range);
+                    } catch (e) {
+                        range.selectNode(tbl);
+                        sel.addRange(range);
+                    }
+                } else if (body.createTextRange) {
+                    range = body.createTextRange();
+                    range.moveToElementText(tbl);
+                    range.select();
+                }
+                document.execCommand("Copy");
+			}
+
+            function copyRecentGrid() {
+				var tbl = document.getElementById('grid');
+                $(tbl).css('display', 'inline-block');
+                var body = document.body, range, sel;
+                if (document.createRange && window.getSelection) {
+                    range = document.createRange();
+                    sel = window.getSelection();
+                    sel.removeAllRanges();
+                    try {
+                        range.selectNodeContents(tbl);
+                        sel.addRange(range);
+                    } catch (e) {
+                        range.selectNode(tbl);
+                        sel.addRange(range);
+                    }
+                } else if (body.createTextRange) {
+                    range = body.createTextRange();
+                    range.moveToElementText(tbl);
+                    range.select();
+                }
+                document.execCommand("Copy");
+            }
+
+            function showTableRecent(listName, listTitle, amount = galleryAmount) {
+
+				var lbList = data.Lists.filter(a => a.ListName == listName)[0];
+
+                $('body').append('<button onclick="copyRecentTable()">Copy Recently Watched Films</button>');
+
+				createNewTable();
+
+				table.css('display', 'none');
+
+                tbody.append('<tr class="topheader"><td colspan="5"><span style="font-weight:bold">Recently Watched</span> <span class="subtitle">(starting with the most recent)</span></td></tr>');
+                tbody.append('<tr class="bottomheader" style="font-weight:bold"><td>Title</td><td>Year</td><td>Rating</td><td>Language</td><td>Genre</td></tr>');
+
+                var listFilms = lbList.Entries.slice(-amount).reverse();
+
+				for (var film of listFilms) {
+					var html = '<tr>';					
+					html += '<td><a title="test" href="https://boxd.it/' + film.LetterboxdIdentifier + '">' + film.FilmName + '</a></td>';
+                    html += '<td>' + film.Year + '</td>';
+                    //tbody.append('<td>' + film.Protagonist + '</td>');
+					var ratingDetail = '&nbsp;';
+                    if (film.RatingSelf > 0) {
+                        ratingDetail = '&#9670;'.repeat(film.RatingSelf);
+                    }
+                    html += '<td>' + ratingDetail + '</td>';
+					var languageDetail = '&nbsp;';
+                    if (film.PrimaryLanguage.length == 0) {
+                        languageDetail = 'Silent';
+                    } else if (film.PrimaryLanguage != "English") {
+                        languageDetail = film.PrimaryLanguage;
+                    } else {
+                        languageDetail = '&nbsp;';
+                    }
+                    html += '<td>' + languageDetail + '</td>';
+                    html += '<td title="Hello World">' + film.Genres.join(', ') + '</td>';
+                    html += '</tr>';
+					var overviewDetails = film.Overview;
+                    if (overviewDetails.length > 90) {
+                        overviewDetails = overviewDetails.substr(0, 89).trim() + '...';
+					}
+					//tbody.append('<tr style="color:grey"><td colspan="6">' + overviewDetails + '</td></tr>');
+					tbody.append(html);
+				}
+
+                table.tablesorter({
+                    widgets: ['columns'],
+                    usNumberFormat: true,
+                    sortReset: false,
+                    sortRestart: false,
+                    headers: {
+                        0: { sorter: false },
+                        1: { sorter: false },
+                        2: { sorter: false },
+                    }
+				});
+
+				$('body').append('<button onclick="copyRecentPosters()">Copy Recently Watched Posters</button>');
+				var posterHtml = '';
+				for (var film of listFilms) {
+                    posterHtml += '<a target="_blank" href="https://boxd.it/' + film.LetterboxdIdentifier + '"><img alt="' + film.FilmName + ' (' + film.Year + ')" width="110" height="175" src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.PosterUrl + '"></a>';
+				}
+				$('body').append('<div id="posters" style="display:none">' + posterHtml + '</div>');
+
+				$('body').append('<button onclick="copyRecentGrid()">Copy Recently Watched Grid</button>');
+                var html = '<tr>';
+				for (var a = 0; a <= 5; a += 5) {					
+					for (var film of listFilms.slice(a, a+5)) {
+						html += '<td><img alt="`' + film.FilmName + '` \r\n' + film.Overview.replace(/"/g, "''") + '" width="110" height="175" src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.PosterUrl + '"></td>';
+					}
+					html += '</tr><tr>';
+					for (var film of listFilms.slice(a, a+5)) {
+						html += '<td><a target="_blank" href="https://boxd.it/' + film.LetterboxdIdentifier + '">' + film.Year + '</a><br/>';
+						if (film.RatingSelf > 0) {
+							html += '&#9670;'.repeat(film.RatingSelf);
+						} else {
+							html += '.';
+						}
+						html += '<br>';
+						if (film.PrimaryLanguage.length == 0) {
+							html += 'Silent';
+						} else if (film.PrimaryLanguage != "English") {
+							html += film.PrimaryLanguage;
+						} else {
+							html += '.';
+						}
+						html += '</td>';
+					}
+					html += '</tr>';
+				}
+
+                $('body').append('<table id="grid" style="display:none">' + html + '</div>');
+            }
+
 			function showOverall() {
 
 				resetView();
@@ -484,7 +642,8 @@
 
 				//$('body').append('<div class="info"><a target="_blank" href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '\'s Letterboxd</a>.</div>');
 
-				showListRecent('Watched in 2024', "Recently Watched <span class='subtitle'>starting with the most recent</span>", galleryAmount);
+				showListRecent('Recently Watched', "Recently Watched <span class='subtitle'>starting with the most recent</span>", galleryAmount);
+                showTableRecent('Recently Watched', "Recently Watched <span class='subtitle'>starting with the most recent</span>", 10);
 
 				createTooltipTriggers();
 

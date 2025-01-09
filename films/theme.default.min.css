@@ -6,7 +6,7 @@
 	text-align: left;
 }
 
-.tablesorter td {
+.tablesorter tbody td {
 	border-bottom: 1px solid #ddd;	
 }
 
@@ -14,79 +14,89 @@
 	border-bottom: 1px solid #333;
 }
 
-.tablesorter tr:first-child td {
+.tablesorter tbody tr:first-child td {
 	border-top: 4px solid white;
 }
 
-.tablesorter td:last-child {
+.tablesorter tbody td:last-child {
 	border-right: 0;
 }
 
-.tablesorter td:last-child .bar {
-	xmargin-right: 0;
-}
-
-.tablesorter tr:last-child td {
+.tablesorter tbody tr:last-child td {
 	border-bottom: 8px solid white;
 }
 
-.tablesorter tr:last-child td:first-child {
+.tablesorter tbody tr:last-child td:first-child {
 	border-bottom-left-radius: 8px;
 }
 
-.tablesorter tr:last-child td:last-child {
+.tablesorter tbody tr:last-child td:last-child {
 	border-bottom-right-radius: 8px;
 }
 
-.tablesorter tr td:first-child {
+.tablesorter tbody tr td:first-child {
 	padding-left: 8px;
 }
 
-.tablesorter tr td:last-child {
+.tablesorter tbody tr td:last-child {
 	padding-right: 8px;
 }
 
-.tablesorter thead th {
+.tablesorter thead th,
+.tablesorter tbody .topheader td,
+.tablesorter tbody .bottomheader td {
 	border-right: 3px solid #fff;
 	font-size: 18px;
 }
 
-.tablesorter thead th:first-child {
+.tablesorter thead th:first-child,
+.tablesorter tbody .topheader td:first-child,
+.tablesorter tbody .bottomheader td:first-child {
 	border-top-left-radius: 8px;
 	padding-left: 8px;
 }
 
-.tablesorter thead th:last-child {
+.tablesorter thead th:last-child,
+.tablesorter tbody .topheader td:last-child,
+.tablesorter tbody .bottomheader td:last-child {
 	border-right: 0;
 	border-top-right-radius: 8px;
 	padding-right: 8px;
 }
 
-.tablesorter thead .topheader th {
+.tablesorter thead .topheader th,
+.tablesorter tbody .topheader td {
 	padding-top: 5px;
+	font-weight: bold;
 }
 
-.tablesorter thead .topheader th:first-child {
+.tablesorter thead .topheader th:first-child,
+.tablesorter tbody .topheader td:first-child {
 	border-top-left-radius: 8px;
 	padding-left: 8px;
 }
 
-.tablesorter thead .topheader th:last-child {
+.tablesorter thead .topheader th:last-child,
+.tablesorter tbody .topheader td:last-child {
 	border-right: 0;
 	border-top-right-radius: 8px;
 	padding-right: 8px;
 }
 
-.tablesorter thead .bottomheader th {
+.tablesorter thead .bottomheader th,
+.tablesorter tbody .bottomheader td {
 	padding-bottom: 5px;
+	font-weight: bold;
 }
 
-.tablesorter thead .bottomheader th:first-child {
+.tablesorter thead .bottomheader th:first-child,
+.tablesorter tbody .bottomheader td:first-child {
 	border-top-left-radius: 0;
 	padding-left: 8px;
 }
 
-.tablesorter thead .bottomheader th:last-child {
+.tablesorter thead .bottomheader th:last-child,
+.tablesorter tbody .bottomheader td:last-child {
 	border-right: 0;
 	border-top-right-radius: 0;
 	padding-right: 8px;
@@ -96,12 +106,22 @@
 .tablesorter caption,
 .tablesorter th,
 .tablesorter thead td,
+.tablesorter tbody .topheader td,
+.tablesorter tbody .bottomheader td,
 .tablesorter tfoot th,
 .tablesorter tfoot td {
 	font-weight: 500;
 	font-size: 16px;
 	color: white;
 	padding: 5px 8px;
+}
+
+.tablesorter tbody .topheader td,
+.tablesorter tbody .bottomheader td {
+	font-size: 18px;
+	font-weight: bold;
+	border-top: 0 !important;
+	border-bottom: 0 !important;
 }
 
 .tablesorter .header,

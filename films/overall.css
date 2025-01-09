@@ -20,6 +20,8 @@ table {
 .tablesorter caption,
 .tablesorter th,
 .tablesorter thead td,
+.tablesorter tbody .topheader td,
+.tablesorter tbody .bottomheader td,
 .tablesorter tfoot th,
 .tablesorter tfoot td {
     background-color: var(--primary-colour);
@@ -259,6 +261,11 @@ p {
 
 /**** TABLES *****/
 
+#grid {
+    text-align: center;
+    font-size: 12px;
+    padding: 4px;
+}
 
 /**** BOXES *****/
 
@@ -357,6 +364,17 @@ p {
     opacity: 1;
 }
 
+#posters {
+    background: white;
+    border-radius: 8px;
+    padding: 4px 4px 0;
+    max-width: 1180px;
+}
+
+#posters img {
+    margin: 4px;
+}
+
 /***** CHARTS *****/
 
 #outside {
@@ -398,6 +416,20 @@ p {
     opacity: 0.7;
     font-size: 70%;
     vertical-align: baseline;
+}
+
+/***** BUTTONS *****/
+
+button {
+    color: black;
+    background: white;
+    border: 0;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 15px 0 5px;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    display: block;
 }
 
 /***** MOBILE *****/
