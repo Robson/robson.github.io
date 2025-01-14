@@ -2073,7 +2073,7 @@
 				createGallery();
 				var gallery = $('.gallery');
 
-				gallery.append('<div class="title">Top ' + galleryAmount + ' Most Watched Films by Letterboxd Users</div>');
+                gallery.append('<div class="title">Watched films with the most watches by Letterboxd users</div>');
 				gallery.append('<div class="inside"></div>');
 				var insideGallery = $('.gallery .inside');
 
@@ -2097,7 +2097,7 @@
 				createGallery();
 				gallery = $('.gallery').last();
 
-				gallery.append('<div class="title">Top ' + galleryAmount + ' Least Watched Films by Letterboxd Users</div>');
+                gallery.append('<div class="title">Watched films with the least watches by Letterboxd users</div>');
 				gallery.append('<div class="inside"></div>');
 				var insideGallery = $('.gallery .inside').last();
 
@@ -2130,7 +2130,7 @@
 				createGallery();
 				var gallery = $('.gallery');
 
-				gallery.append('<div class="title">Top ' + galleryAmount + ' Highest Rated Films by Letterboxd Users</div>');
+				gallery.append('<div class="title">Watched films with the highest ratings on Letterboxd</div>');
 				gallery.append('<div class="inside"></div>');
 				var insideGallery = $('.gallery .inside');
 
@@ -2153,7 +2153,7 @@
 				createGallery();
 				gallery = $('.gallery').last();
 
-				gallery.append('<div class="title">Top ' + galleryAmount + ' Lowest Rated Films by Letterboxd Users</div>');
+                gallery.append('<div class="title">Watched films with the lowest ratings on Letterboxd</div>');
 				gallery.append('<div class="inside"></div>');
 				var insideGallery = $('.gallery .inside').last();
 
@@ -2493,6 +2493,110 @@
 						cssHeaderRow: "tablesorter-headerRow"
 					});
 				}
+
+				// sets
+
+                createNewTable();
+
+                if (documentWidth < 600) {
+                    thead.append('<tr class="topheader"><th>&nbsp;</th><th colspan="2">Films</th><th>Rating</th></tr>');
+                    thead.append('<tr class="bottomheader"><th>Top Genre Sets</th><th>Σ</th><th>%</th><th>Average</th></tr>');
+                } else {
+                    thead.append('<tr class="topheader"><th>&nbsp;</th><th colspan="3">Films</th><th colspan="2">Rating</th></tr>');
+                    thead.append('<tr class="bottomheader"><th>Top Genre Sets</th><th>Σ</th><th>%</th><th>Bar</th><th>Average</th><th>Bar</th></tr>');
+                }
+
+                var total = data.FilmsWithGenres;
+
+                var highest = 0;
+                for (var key in data.GenreSets) {
+                    highest = Math.max(highest, data.GenreSets[key].Count);
+                }
+
+                var highestRating = 5;
+                for (var key in data.GenreSets) {
+                    var rating = "";
+                    if (data.GenreSets[key].RatingCount > 0) {
+                        rating = (data.GenreSets[key].RatingTotal / data.GenreSets[key].RatingCount).toFixed(1);
+                        highestRating = Math.max(rating, highestRating);
+                    }
+				}
+
+                let genreArray = Object.entries(data.GenreSets);
+				genreArray.sort((a, b) => b[1].Count - a[1].Count);
+				let sortedGenreSets = Object.fromEntries(genreArray);
+				data.GenreSets = sortedGenreSets;                
+
+				var count = 0;
+                for (var key in data.GenreSets) {
+                    var rating = "";
+                    if (data.GenreSets[key].RatingCount > 0) {
+                        rating = (data.GenreSets[key].RatingTotal / data.GenreSets[key].RatingCount).toFixed(1);
+                    }
+
+                    var watchedPercent = (data.GenreSets[key].Count / total) * 100;
+                    var lowBase = data.GenreSets[key].RatingCount < sufficientBase;
+                    var barAmount = '', barRating = '';
+                    if (documentWidth >= 600) {
+                        barAmount = '<td class="chart" data-value="' + data.GenreSets[key].Count + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.GenreSets[key].Count / data.FilmsWithGenres) * 100) + 'px">&nbsp;</span></span></td>';
+                        barRating = '<td class="' + (lowBase ? 'lowbase ' : '') + 'chart" data-value="' + rating + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((rating / highestRating) * 100) + 'px">&nbsp;</span></span></td>';
+                    }
+
+					tbody.append(
+						'<tr>' +
+						'<td>' + key + '</td>' +
+                        '<td class="right">' + data.GenreSets[key].Count + '</td>' +
+                        '<td class="right ttt" data-tooltip="' + watchedPercent.toFixed(2) + '%" data-value="' + data.GenreSets[key].Count + '">' + watchedPercent.toFixed(0) + '%</td>' +
+                        barAmount +
+                        '<td class="' + (lowBase ? 'lowbase ' : '') + 'right ttt" data-tooltip="Based on ' + data.GenreSets[key].RatingCount + ' rated film(s)."><span>' + rating + '</span></td>' +
+                        barRating +
+						'</tr>');
+
+					count++;
+					if (count >= 10) {
+						break;
+					}
+                }
+
+                if (documentWidth < 600) {
+                    table.tablesorter({
+                        widgets: ['columns'],
+                        usNumberFormat: true,
+                        sortReset: false,
+                        sortRestart: false,
+                        sortList: [[1, 1]],
+                        headers: {
+                            0: { sorter: false },
+                            1: { sorter: false },
+                            2: { sorter: false },
+                            3: { sortInitialOrder: 'asc' },
+                            4: { sortInitialOrder: 'desc' },
+                            5: { sortInitialOrder: 'desc', sorter: 'data-value' },
+                            6: { sortInitialOrder: 'desc' },
+                        },
+                        cssHeaderRow: "tablesorter-headerRow"
+                    });
+                } else {
+                    table.tablesorter({
+                        widgets: ['columns'],
+                        usNumberFormat: true,
+                        sortReset: false,
+                        sortRestart: false,
+                        sortList: [[1, 1]],
+                        headers: {
+                            0: { sorter: false },
+                            1: { sorter: false },
+                            2: { sorter: false },
+                            3: { sortInitialOrder: 'asc' },
+                            4: { sortInitialOrder: 'desc' },
+                            5: { sortInitialOrder: 'desc', sorter: 'data-value' },
+                            6: { sorter: false },
+                            7: { sortInitialOrder: 'desc' },
+                            8: { sorter: false },
+                        },
+                        cssHeaderRow: "tablesorter-headerRow"
+                    });
+                }
 
 				createTooltipTriggers();
 
