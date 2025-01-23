@@ -13,7 +13,7 @@
 	<script src="data.js"></script>
 	<script src="https://code.highcharts.com/highcharts.js"></script>
 	<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
-	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
 	<script src="jquery.tablesorter.min.js"></script>
 	<script src="jquery.tablesorter.widgets.min.js"></script>
 </head>
@@ -249,6 +249,8 @@
 						return 'russian-federation';
 					case 'soviet union':
 						return 'ussr';
+					case 'türkiye':
+						return 'turkey';
 					default:
 						return country.replace(/ /g, '-');
 				}
@@ -260,6 +262,7 @@
 				$('.info').remove();
                 $('button').remove();
 				$('table').remove();
+                $('#mapFrame').remove();
 				$('.boxes').remove();
                 $('#posters').remove();
 				$('#outside').remove();
@@ -740,7 +743,7 @@
 							borderWidth: 0,
 							states: {
 								hover: {
-									color: 'RGBA(229, 0, 126)',
+                                    color: document.documentElement.style.getPropertyValue('--secondary-colour'),
 									enabled: true
 								},
 								inactive: {
@@ -945,6 +948,15 @@
 									textAlign: 'center',
 								},
 							},
+                            states: {
+                                hover: {
+                                    color: document.documentElement.style.getPropertyValue('--secondary-colour'),
+                                    enabled: true
+                                },
+                                inactive: {
+                                    opacity: 1
+                                }
+                            }
 						},
 					},
 					series: [
@@ -1502,7 +1514,7 @@
                             },
                             states: {
                                 hover: {
-                                    color: 'RGBA(229, 0, 126)',
+                                    color: document.documentElement.style.getPropertyValue('--secondary-colour'),
                                     enabled: true
                                 },
                                 inactive: {
@@ -1779,15 +1791,15 @@
 								align: 'center',
 								x: 3
 							},
-							states: {
-								hover: {
-									color: 'RGBA(229, 0, 126)',
-									enabled: true
-								},
-								inactive: {
-									opacity: 1
-								}
-							}
+                            states: {
+                                hover: {
+                                    color: document.documentElement.style.getPropertyValue('--secondary-colour'),
+                                    enabled: true
+                                },
+                                inactive: {
+                                    opacity: 1
+                                }
+                            }
 						},
 					},
 					series: [
@@ -1801,7 +1813,7 @@
 							data: values,
 							enableMouseTracking: true,
 							borderRadius: 0,
-							cursor: 'pointer',
+							cursor: 'zoom-in',
 							point: {
 								events: {
 									click: function () {
@@ -2195,14 +2207,14 @@
 				resetView();
 
 				$('body').append('<div class="boxes"></div>');
-				$('.boxes').append(makeBox(Object.values(data.FilmsPerLanguage).length, 'Languages'));
+				$('.boxes').append(makeBox(Object.values(data.FilmsPerLanguage).length, 'Primary Languages'));
 
 				createNewTable();
 
 				if (documentWidth < 500) {
-					thead.append('<tr><th>Language</th><th>Films #</th><th>Films %</th></tr>');
+					thead.append('<tr><th>Primary Language</th><th>Films #</th><th>Films %</th></tr>');
 				} else {
-					thead.append('<tr><th>Language</th><th>Films #</th><th>Films %</th><th>Bar</th></tr>');
+                    thead.append('<tr><th>Primary Language</th><th>Films #</th><th>Films %</th><th>Bar</th></tr>');
 				}
 
 				var highest = data.TotalFilms;
@@ -2258,129 +2270,201 @@
 				createTooltipTriggers();
 			}
 
+			function flagCode(isoCode) {
+				switch (isoCode) {
+					case 'su': // soviet union
+					case 'xc': // czechoslavakia
+                    case 'xk': // kosovo
+                        return '_generic';
+					default:
+						return isoCode;
+				}
+			}
+
 			function showFilmsPerCountry() {
 
-				resetView();
+				resetView();			
+				var isShowingMap = documentWidth >= 1000;
 
-				$('body').append('<div class="boxes"></div>');
-				$('.boxes').append(makeBox(Object.values(data.FilmsPerCountryOrigin).length, 'Origin Countries'));
+				if (isShowingMap) {
+					$('body').append('<iframe id="mapFrame" src="map.html" width="978" height="584"></iframe>');
+				}
+
+                $('body').append('<div class="boxes"></div>');
+                $('.boxes').last().append(makeBox(Object.values(data.FilmsPerCountryOrigin).length, 'Origin Countries'));
 
 				createNewTable();
 
-				if (documentWidth < 500) {
-					thead.append('<tr class="topheader"><th colspan="3">Origin Countries</th></tr>');
-					thead.append('<tr class="bottomheader"><th>Name</th><th>Films Σ</th><th>Films %</th></tr>');
-				} else {
-					thead.append('<tr class="topheader"><th colspan="4">Origin Countries</th></tr>');
-					thead.append('<tr class="bottomheader"><th>Name</th><th>Films Σ</th><th>Films %</th><th>Bar</th></tr>');
-				}
+                var highlights = [];
 
-				var highest = data.TotalFilms;
-				for (var country in data.FilmsPerCountryOrigin) {
-					highest = Math.max(highest, data.FilmsPerCountryOrigin[country]);
-				}
+                if (documentWidth < 500) {
+                    thead.append('<tr class="topheader"><th colspan="3">Origin Countries</th></tr>');
+                    thead.append('<tr class="bottomheader"><th>Name</th><th>Films Σ</th><th>Films %</th></tr>');
+                } else {
+                    thead.append('<tr class="topheader"><th colspan="4">Origin Countries</th></tr>');
+                    thead.append('<tr class="bottomheader"><th>Name</th><th>Films Σ</th><th>Films %</th><th>Bar</th></tr>');
+                }
 
-				for (var country in data.FilmsPerCountryOrigin) {
-					var percent = (data.FilmsPerCountryOrigin[country] / data.TotalFilms) * 100;
-					var bar = '';
-					if (documentWidth >= 500) {
-						bar = '<td class="chart" data-value="' + data.FilmsPerCountryOrigin[country] + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.FilmsPerCountryOrigin[country] / highest) * 100) + 'px">&nbsp;</span></span></td>';
-					}
-					tbody.append(
-						'<tr>' +
-						'<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/country/' + countryNameToUrl(country) + '/by/name/size/large/">' + country + '</a></td>' +
-						'<td class="right">' + data.FilmsPerCountryOrigin[country] + '</td>' +
-						'<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerCountryOrigin[country] + '">' + percent.toFixed(0) + '%</td>' +
-						bar +
+                var highest = data.TotalFilms;
+                for (var country in data.FilmsPerCountryOrigin) {
+                    highest = Math.max(highest, data.FilmsPerCountryOrigin[country]);
+                }
+
+                for (var country in data.FilmsPerCountryOrigin) {
+                    var percent = (data.FilmsPerCountryOrigin[country] / data.TotalFilms) * 100;
+                    var bar = '';
+                    if (documentWidth >= 500) {
+                        bar = '<td class="chart" data-value="' + data.FilmsPerCountryOrigin[country] + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.FilmsPerCountryOrigin[country] / highest) * 100) + 'px">&nbsp;</span></span></td>';
+                    }
+
+                    var iso = flagCode(country.slice(-3, -1).toLowerCase());
+					var imageLocation = "https://raw.githubusercontent.com/joielechong/iso-country-flags-svg-collection/refs/heads/master/svg/country-4x3/" + iso + ".svg";
+					countryLabel = country.split(' [')[0];
+                    var url = 'https://letterboxd.com/' + data.Username + '/films/country/' + countryNameToUrl(countryLabel) + '/by/name/size/large/';
+                    highlights.push([country.slice(-3, -1), url, '<img src="' + imageLocation + '" class="flag" /> ' + countryLabel, data.FilmsPerCountryOrigin[country], 0]);
+
+                    tbody.append(
+                        '<tr>' +
+                        '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/country/' + countryNameToUrl(countryLabel) + '/by/name/size/large/"><img src="' + imageLocation + '" class="flag" /> ' + countryLabel + '</a></td>' +
+                        '<td class="right">' + data.FilmsPerCountryOrigin[country] + '</td>' +
+                        '<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerCountryOrigin[country] + '">' + percent.toFixed(0) + '%</td>' +
+                        bar +
+                        '</tr>');
+                }
+
+                $.tablesorter.addParser({
+                    id: 'data-value',
+                    is: function () {
+                        return false;
+                    },
+                    format: function (s, table, cell) {
+                        return $(cell).attr('data-value') || s;
+                    },
+                    type: 'text'
+                });
+
+                table.tablesorter({
+                    widgets: ['columns'],
+                    usNumberFormat: true,
+                    sortReset: false,
+                    sortRestart: false,
+                    sortList: [[1, 1]],
+                    headers: {
+                        0: { sorter: false },
+                        1: { sortInitialOrder: 'asc' },
+                        2: { sortInitialOrder: 'desc' },
+                        3: { sortInitialOrder: 'desc', sorter: 'data-value' },
+                        4: { sorter: false },
+                    }
+				});
+
+                $('body').append('<div class="boxes"></div>');
+                $('.boxes').last().append(makeBox(Object.values(data.FilmsPerCountryProduction).length, 'Production Countries'));
+
+                createNewTable();
+
+                if (documentWidth < 500) {
+                    thead.append('<tr class="topheader"><th colspan="3">Production Countries</th></tr>');
+                    thead.append('<tr class="bottomheader"><th>Name</th><th>Films Σ</th><th>Films %</th></tr>');
+                } else {
+                    thead.append('<tr class="topheader"><th colspan="4">Production Countries</th></tr>');
+                    thead.append('<tr class="bottomheader"><th>Name</th><th>Films Σ</th><th>Films %</th><th>Bar</th></tr>');
+                }
+
+                var highest = data.TotalFilms;
+                for (var country in data.FilmsPerCountryProduction) {
+                    highest = Math.max(highest, data.FilmsPerCountryProduction[country]);
+                }                
+
+                for (var country in data.FilmsPerCountryProduction) {
+                    var percent = (data.FilmsPerCountryProduction[country] / data.TotalFilms) * 100;
+                    var bar = '';
+                    if (documentWidth >= 500) {
+                        bar = '<td class="chart" data-value="' + data.FilmsPerCountryProduction[country] + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.FilmsPerCountryProduction[country] / highest) * 100) + 'px">&nbsp;</span></span></td>';
+                    }
+                    var iso = flagCode(country.slice(-3, -1).toLowerCase());
+                    var imageLocation = "https://raw.githubusercontent.com/joielechong/iso-country-flags-svg-collection/refs/heads/master/svg/country-4x3/" + iso + ".svg";
+                    countryLabel = country.split(' [')[0];
+                    var url = 'https://letterboxd.com/' + data.Username + '/films/country/' + countryNameToUrl(countryLabel) + '/by/name/size/large/';
+                    tbody.append(
+                        '<tr>' +
+                        '<td><a target="_blank" href="' + url + '"><img src="' + imageLocation + '" class="flag" /> ' + countryLabel + '</a></td>' +
+                        '<td class="right">' + data.FilmsPerCountryProduction[country] + '</td>' +
+                        '<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerCountryProduction[country] + '">' + percent.toFixed(0) + '%</td>' +
+                        bar +
 						'</tr>');
-				}
-
-				$.tablesorter.addParser({
-					id: 'data-value',
-					is: function () {
-						return false;
-					},
-					format: function (s, table, cell) {
-						return $(cell).attr('data-value') || s;
-					},
-					type: 'text'
-				});
-
-				table.tablesorter({
-					widgets: ['columns'],
-					usNumberFormat: true,
-					sortReset: false,
-					sortRestart: false,
-					sortList: [[1, 1]],
-					headers: {
-						0: { sorter: false },
-						1: { sortInitialOrder: 'asc' },
-						2: { sortInitialOrder: 'desc' },
-						3: { sortInitialOrder: 'desc', sorter: 'data-value' },
-						4: { sorter: false },
+					var countryExists = highlights.findIndex(a => a[0] == country.slice(-3, -1));
+                    if (countryExists >= 0) {
+                        highlights[countryExists][4] = data.FilmsPerCountryProduction[country];
+					} else {
+                        highlights.push([country.slice(-3, -1), url, '<img src="' + imageLocation + '" class="flag" /> ' + countryLabel, 0, data.FilmsPerCountryProduction[country]]);
 					}
-				});
+                }
 
-				$('body').append('<div class="boxes"></div>');
-				$('.boxes').last().append(makeBox(Object.values(data.FilmsPerCountryProduction).length, 'Production Countries'));
+                $.tablesorter.addParser({
+                    id: 'data-value',
+                    is: function () {
+                        return false;
+                    },
+                    format: function (s, table, cell) {
+                        return $(cell).attr('data-value') || s;
+                    },
+                    type: 'text'
+                });
 
-				createNewTable();
+                table.tablesorter({
+                    widgets: ['columns'],
+                    usNumberFormat: true,
+                    sortReset: false,
+                    sortRestart: false,
+                    sortList: [[1, 1]],
+                    headers: {
+                        0: { sorter: false },
+                        1: { sortInitialOrder: 'asc' },
+                        2: { sortInitialOrder: 'desc' },
+                        3: { sortInitialOrder: 'desc', sorter: 'data-value' },
+                        4: { sorter: false },
+                    }
+                });
 
-				if (documentWidth < 500) {
-					thead.append('<tr class="topheader"><th colspan="3">Production Countries</th></tr>');
-					thead.append('<tr class="bottomheader"><th>Name</th><th>Films Σ</th><th>Films %</th></tr>');
-				} else {
-					thead.append('<tr class="topheader"><th colspan="4">Production Countries</th></tr>');
-					thead.append('<tr class="bottomheader"><th>Name</th><th>Films Σ</th><th>Films %</th><th>Bar</th></tr>');
-				}
+				makeInfo(
+					'Note',
+					'Country information is obtained from TMDB, which is sometimes different to Letterboxd.<br/>' +
+					'<br/>Percentages add to more than 100% because many films are created/produced by more than one country.');
 
-				var highest = data.TotalFilms;
-				for (var country in data.FilmsPerCountryProduction) {
-					highest = Math.max(highest, data.FilmsPerCountryProduction[country]);
-				}
-
-				for (var country in data.FilmsPerCountryProduction) {
-					var percent = (data.FilmsPerCountryProduction[country] / data.TotalFilms) * 100;
-					var bar = '';
-					if (documentWidth >= 500) {
-						bar = '<td class="chart" data-value="' + data.FilmsPerCountryProduction[country] + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.FilmsPerCountryProduction[country] / highest) * 100) + 'px">&nbsp;</span></span></td>';
-					}
-					tbody.append(
-						'<tr>' +
-						'<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/country/' + countryNameToUrl(country) + '/by/name/size/large/">' + country + '</a></td>' +
-						'<td class="right">' + data.FilmsPerCountryProduction[country] + '</td>' +
-						'<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerCountryProduction[country] + '">' + percent.toFixed(0) + '%</td>' +
-						bar +
-						'</tr>');
-				}
-
-				$.tablesorter.addParser({
-					id: 'data-value',
-					is: function () {
-						return false;
-					},
-					format: function (s, table, cell) {
-						return $(cell).attr('data-value') || s;
-					},
-					type: 'text'
-				});
-
-				table.tablesorter({
-					widgets: ['columns'],
-					usNumberFormat: true,
-					sortReset: false,
-					sortRestart: false,
-					sortList: [[1, 1]],
-					headers: {
-						0: { sorter: false },
-						1: { sortInitialOrder: 'asc' },
-						2: { sortInitialOrder: 'desc' },
-						3: { sortInitialOrder: 'desc', sorter: 'data-value' },
-						4: { sorter: false },
-					}
-				});
-
-				makeInfo('Note', 'Country information is obtained from TMDB, which is sometimes different to Letterboxd.<br/><br/>Percentages add to more than 100% because many films are created/produced by more than one country.');
+                if (isShowingMap) {
+                    document.getElementById('mapFrame').onload = function () {
+                        var iframe = document.getElementById('mapFrame');
+                        var iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                        var countries = iframeDoc.querySelectorAll('.svgMap-country');
+                        countries.forEach(function (country) {
+                            country.setAttribute('fill', '#bbb');
+                        });
+                        highlights.forEach(function (row) {
+                            var place = iframeDoc.querySelectorAll('.svgMap-country[data-id="' + row[0] + '"]');
+                            place.forEach(function (country) {
+								country.setAttribute('fill', document.documentElement.style.getPropertyValue('--secondary-colour'));
+								if (row[3] == 0) {
+                                    country.setAttribute('opacity', '0.5');
+								}
+                                country.classList.add('clickable');
+                                country.addEventListener('click', function () {
+                                    window.open(row[1]);
+                                });
+                                country.addEventListener('mouseenter', function () {
+                                    var infoParagraph = iframeDoc.querySelector('#hover');
+                                    infoParagraph.innerHTML = row[2] + '<br/>Originated Films: ' + row[3] + ' ◆ Produced Films: ' + row[4];
+                                    country.classList.add('hovered');
+                                });
+                                country.addEventListener('mouseleave', function () {
+                                    var infoParagraph = iframeDoc.querySelector('#hover');
+                                    infoParagraph.innerHTML = "";
+                                    country.classList.remove('hovered');
+                                });
+                            })
+                        })
+                    };
+                }
 
 				deactivateAll();
 				$(event.target).addClass('active');

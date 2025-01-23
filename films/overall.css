@@ -52,6 +52,12 @@ table {
     opacity: 0.1;
 }
 
+/***** FRAME *****/
+
+iframe {
+    border: 0;
+}
+
 /***** DOODLE *****/
 
 css-doodle {
@@ -324,7 +330,7 @@ p {
 }
 
 .gallery .poster:hover {
-    background: var(--primary-colour);
+    background: var(--secondary-colour);
 }
 
 .gallery .item {
@@ -373,6 +379,16 @@ p {
 
 #posters img {
     margin: 4px;
+}
+
+/***** FLAGS *****/
+
+.flag {
+    vertical-align: bottom;
+    margin-bottom: 1px;
+    height: 15px;
+    width: 20px;
+    border: 1px solid black;
 }
 
 /***** CHARTS *****/
