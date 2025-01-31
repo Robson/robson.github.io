@@ -212,10 +212,12 @@ css-doodle {
 a {
     text-decoration: none;
     color: var(--secondary-colour);
+    border-bottom: 2px dotted transparent;
 }
 
 a:hover {
     color: var(--secondary-colour);
+    border-bottom: 2px dotted var(--secondary-colour);
 }
 
 p {
@@ -438,7 +440,7 @@ p {
 
 button {
     cursor: pointer;
-    color: black;
+    color: var(--secondary-colour);
     background: white;
     border: 0;
     border-radius: 0;
@@ -451,14 +453,14 @@ button {
 }
 button:hover {
     margin-top: 16px;
-    color: var(--primary-colour);
-    border-bottom: 5px solid var(--primary-colour);
+    color: var(--secondary-colour);
+    border-bottom: 5px solid var(--secondary-colour);
 }
 
 button:active {
     margin-top: 20px;
-    color: var(--primary-colour);
-    border-bottom: 1px solid var(--primary-colour);
+    color: var(--secondary-colour);
+    border-bottom: 1px solid var(--secondary-colour);
 }
 
 /***** MOBILE *****/

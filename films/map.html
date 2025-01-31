@@ -22,7 +22,6 @@
         }
 
         .svgMap-country {
-            stroke-width: 0.5px;
             stroke: white;
         }
 
@@ -66,14 +65,16 @@
         const g = svg.select("g");
 
         const zoom = d3.zoom()
-            .scaleExtent([1, 5])
+            .scaleExtent([1, 10])
             .translateExtent([[0, 0], [962, 518]])
             .on("zoom", (event) => {
                 g.attr("transform", event.transform);
+                d3.selectAll('.svgMap-country').style('stroke-width', Math.max(0.1, Math.round(8 - event.transform.k) / 10) + 'px');
             });
 
         svg.call(zoom);
 
+        d3.selectAll('.svgMap-country').style('stroke-width', '0.5px');
         document.getElementById('map').onwheel = function () { return false; }
 
     </script>

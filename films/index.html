@@ -56,8 +56,10 @@
 		&#9670;
 		<span class="displayer inline" onmousedown="javascript:showFilmsPerLanguages()">Language</span>
 		<div class="title">Attributes</div>
-		<span class="displayer inline" onmousedown="javascript:showGenres()">Genre</span>
+		<span class="displayer inline" onmousedown="javascript:showBAW()">Black & White</span>
 		&#9670;
+		<span class="displayer inline" onmousedown="javascript:showGenres()">Genre</span>
+		<br />
 		<span class="displayer inline" onmousedown="javascript:showLengthStats()">Length</span>
 		&#9670;
 		<span class="displayer inline" onmousedown="javascript:showStudios()">Studio</span>
@@ -68,9 +70,13 @@
 		</div>
 		<span class="displayer inline" onmousedown="javascript:showTitles()">Title</span>
 		<div class="title">Letterboxd</div>
-		<span class="displayer inline" onmousedown="javascript:showPopularity()">Popularity</span>
+		<span class="displayer inline" onmousedown="javascript:showFans()">Fans</span>
+		&#9670;
+		<span class="displayer inline" onmousedown="javascript:showLikes()">Likes</span>
 		&#9670;
 		<span class="displayer inline" onmousedown="javascript:showRatings()">Rating</span>
+		&#9670;
+		<span class="displayer inline" onmousedown="javascript:showPopularity()">Watches</span>
 		<div class="title">People</div>
 		<em class="subtitle">Director:</em>
 		<span class="displayer inline" onmousedown="javascript:showDirectorsAll()">All</span>
@@ -81,7 +87,7 @@
 		&#9670;
 		<span class="displayer inline ttt" data-tooltip="Non-Binary" onmousedown="javascript:showDirectorsNonBinary()">NB</span>
 		<br>
-		<em class="subtitle">Protagonist:</em>
+		<em class="subtitle ttt" data-tooltip="Top Billing">Protagonist:</em>
 		<span class="displayer inline" onmousedown="javascript:showProtagonistsAll()">All</span>
 		&#9670;
 		<span class="displayer inline ttt" data-tooltip="Women" onmousedown="javascript:showProtagonistsWomen()">W</span>
@@ -90,7 +96,7 @@
 		&#9670;
 		<span class="displayer inline ttt" data-tooltip="Non-Binary" onmousedown="javascript:showProtagonistsNonBinary()">NB</span>
 		<br>
-		<em class="subtitle">Main Cast:</em>
+		<em class="subtitle ttt" data-tooltip="Top 3 Billing">Main Cast:</em>
 		<span class="displayer inline" onmousedown="javascript:showTopCastAll()">All</span>
 		&#9670;
 		<span class="displayer inline ttt" data-tooltip="Women" onmousedown="javascript:showTopCastWomen()">W</span>
@@ -99,7 +105,7 @@
 		&#9670;
 		<span class="displayer inline ttt" data-tooltip="Non-Binary" onmousedown="javascript:showTopCastNonBinary()">NB</span>
 		<br>
-		<em class="subtitle">Entire Cast:</em>
+		<em class="subtitle ttt" data-tooltip="Any Billing">Entire Cast:</em>
 		<span class="displayer inline" onmousedown="javascript:showEntireCastAll()">All</span>
 		&#9670;
 		<span class="displayer inline ttt" data-tooltip="Women" onmousedown="javascript:showEntireCastWomen()">W</span>
@@ -147,8 +153,8 @@
 						document.documentElement.style.setProperty('--secondary-colour', colourData);
 					}
 				} else {
-					document.documentElement.style.setProperty('--primary-colour', '#EF3340');
-					document.documentElement.style.setProperty('--secondary-colour', '#EF3340');
+                    document.documentElement.style.setProperty('--primary-colour', '#EF3340');
+                    document.documentElement.style.setProperty('--secondary-colour', '#27C');
 				}
 			}
 
@@ -181,8 +187,8 @@
 						document.documentElement.style.setProperty('--secondary-colour', colourData);
 					}
 				} else {
-					document.documentElement.style.setProperty('--primary-colour', '#EF3340');
-					document.documentElement.style.setProperty('--secondary-colour', '#EF3340');
+                    document.documentElement.style.setProperty('--primary-colour', '#EF3340');
+                    document.documentElement.style.setProperty('--secondary-colour', '#27C');
 				}
 
 				backdropIndex++;
@@ -219,7 +225,7 @@
 							y = d3.event.pageY + 10;
 						}
 
-						tt.style('left', Math.floor(x - (+tt.style('width').replace('px', '') / 2)) + 'px');
+						tt.style('left', Math.max(0, Math.floor(x - (+tt.style('width').replace('px', '') / 2))) + 'px');
 						tt.style('top', Math.floor(y + 5) + 'px');
 						tt.style('opacity', '1');
 
@@ -296,7 +302,7 @@
 
 			function makeInfo(title, text) {
 				$('body').append(
-					'<table class="tablesorter">' +
+					'<table class="tablesorter infobox">' +
 					'<thead><tr><th>' + title + '</th></tr></thead>' +
 					'<tbody><tr><td>' + text + '</td></tr></tbody>' +
 					'</table>');
@@ -534,7 +540,7 @@
 
 				var lbList = data.Lists.filter(a => a.ListName == listName)[0];
 
-                $('body').append('<button onclick="copyRecentTable()">Copy Recently Watched Films</button>');
+                $('body').append('<button onclick="copyRecentTable()">Copy Recently Watched: Table</button>');
 
 				createNewTable();
 
@@ -586,14 +592,14 @@
                     }
 				});
 
-				$('body').append('<button onclick="copyRecentPosters()">Copy Recently Watched Posters</button>');
+				$('body').append('<button onclick="copyRecentPosters()">Copy Recently Watched: Posters</button>');
 				var posterHtml = '';
 				for (var film of listFilms) {
                     posterHtml += '<a target="_blank" href="https://boxd.it/' + film.LetterboxdIdentifier + '"><img alt="' + film.FilmName + ' (' + film.Year + ')" width="110" height="175" src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.PosterUrl + '"></a>';
 				}
 				$('body').append('<div id="posters" style="display:none">' + posterHtml + '</div>');
 
-				$('body').append('<button onclick="copyRecentGrid()">Copy Recently Watched Grid</button>');
+				$('body').append('<button onclick="copyRecentGrid()">Copy Recently Watched: Grid</button>');
                 var html = '<tr>';
 				for (var a = 0; a <= 5; a += 5) {					
 					for (var film of listFilms.slice(a, a+5)) {
@@ -1329,6 +1335,208 @@
 
 				createTooltipTriggers();
 			}
+
+            function showBAWChart() {
+
+                $('body').append('<div id="outside"><div class="title">Black & White Films Watched by Release Year <span class="subtitle">capped at 40</span></div><figure class="highcharts-figure"><div id="container"></div></figure></div>');
+
+                var cats = []
+                var groups = []
+                var counter = 0;
+                for (var a = 1900; a <= new Date().getFullYear(); a += 10) {
+                    cats.push(a + 's')
+                }
+
+                for (var a = 0; a < 10; a++) {
+					var seriesBAW = {}, seriesAll = {};
+                    seriesBAW.color = 'black';
+                    seriesBAW.animation = false;
+                    seriesBAW.name = counter;
+					seriesBAW.data = [];
+					seriesBAW.pointPlacement = -0.02;
+                    seriesBAW.pointPadding = 0;
+                    seriesAll.color = document.documentElement.style.getPropertyValue('--secondary-colour');
+                    seriesAll.animation = false;
+                    seriesAll.name = counter++;
+                    seriesAll.data = [];
+                    seriesAll.pointPlacement = 0.03;
+					seriesAll.pointPadding = 0;
+                    for (var b = 0; b < cats.length; b++) {
+                        var year = 1900 + (b * 10) + a;
+                        seriesAll.data.push(data.FilmsWatchedPerYear[year]);
+                        seriesBAW.data.push(films.filter(a => a.Year == year && a.BlackAndWhite == true).length);
+					}                    
+					groups.push(seriesAll);                                        
+                    groups.push(seriesBAW);
+                }
+
+				Highcharts.chart('container', {
+					chart: {
+						type: 'column',
+						width: 730,
+						spacingLeft: 0,
+						marginLeft: 70,
+					},
+					title: {
+						text: null,
+						enabled: false
+					},
+					subtitle: {
+						enabled: false
+					},
+					credits: {
+						enabled: false
+					},
+					xAxis: {
+						category: false,
+						categories: cats,
+						gridLineWidth: 1,
+						tickInterval: 1,
+						gridLineColor: '#ddd',
+						tickColor: '#ddd',
+						tickLength: 8,
+						tickWidth: 1,
+						tickmarkPlacement: 'between',
+						title: {
+							text: 'Release Year'
+						}
+					},
+					yAxis: {
+						min: 0,
+						max: 40,
+						plotLines: [{
+							color: '#ddd',
+							value: 0,
+							width: 1,
+							zIndex: 5
+						}],
+						gridLineWidth: 1,
+						tickColor: '#ddd',
+						tickLength: 8,
+						tickWidth: 1,
+						tickmarkPlacement: 'between',
+						title: {
+							text: 'Films Watched'
+						}
+					},
+					legend: {
+						enabled: false
+					},
+					tooltip: {
+						formatter: function () {
+							var year = 1900 + (this.point.x * 10) + +this.series.name;
+							var typeBlackAndWhite = 0, typeColour = 0;
+							typeBlackAndWhite = films.filter(a => a.Year == year && a.BlackAndWhite == true).length;
+							typeColour = data.FilmsWatchedPerYear[year] - typeBlackAndWhite;
+                            return (1900 + (this.point.x * 10) + this.series.name) + '<br/>' + typeColour + ' colour film' + (typeColour == 1 ? '' : 's') + '<br/>' + typeBlackAndWhite + ' black & white film' + (typeBlackAndWhite == 1 ? '' : 's');
+                        }
+                    },
+                    plotOptions: {
+						column: {
+                            borderWidth: 0,
+                            states: {
+                                hover: {
+                                    enabled: true
+								},
+                                inactive: {
+                                    opacity: 1
+                                }
+                            }
+                        },
+						series: {
+                            groupPadding: 0,
+							pointWidth: 4,
+                            borderRadius: 0,
+                            cursor: 'pointer',
+                            point: {
+                                events: {
+                                    click: function () {
+                                        var year = (1900 + (this.x * 10) + this.series.name);
+                                        window.open('https://letterboxd.com/' + data.Username + '/films/year/' + year + '/by/name/size/large/', '_blank');
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    series: groups
+                });
+            }
+
+            function showBAW() {
+
+				resetView();
+
+                if (documentWidth > 820) {
+                    showBAWChart();
+                }
+
+                $('body').append('<div class="boxes"></div>');
+                $('.boxes').append(makeBox(data.BlackAndWhiteFilms.length, 'Watched Black & White Films'));
+
+                createGallery();
+				var gallery = $('.gallery');
+
+                gallery.append('<div class="title">Black & White Films <span class="subtitle">starting with the most recently released</span></div>');
+                gallery.append('<div class="inside"></div>');
+				var insideGallery = $('.gallery .inside');
+
+                for (var index of data.BlackAndWhiteFilms.toReversed()) {
+                    var film = films[index];
+                    var title = film.Title;
+                    if (film.TitleOriginal != film.Title) {
+                        title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
+                    }
+                    insideGallery.append(
+                        '<div class="item ttt" data-tooltip="' + title + '">' +
+						'<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img style="filter:grayscale(100%)" src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
+                        '<div class="details">' + film.Year + '<br>' + (film.RatingSelf > 0 ? '&#9670;'.repeat(film.RatingSelf) : '&nbsp;') + '</div>' +
+                        '</div>');
+				}
+
+				/*
+
+                createNewTable();
+
+                thead.append('<tr class="topheader"><th colspan="2">Black & White Films</th></tr>');
+                thead.append('<tr class="bottomheader"><th>Year</th><th>Title</th></tr>');
+
+                for (var index of data.BlackAndWhiteFilms) {
+                    var film = films[index];
+                    var tooltip = '';
+                    if (film.Poster.length > 0) {
+                        tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>"';
+                    }
+                    var title = film.Title;
+                    if (film.TitleOriginal != film.Title) {
+                        title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
+                    }
+                    tbody.append(
+                        '<tr' + tooltip + '>' +
+                        '<td class="right">' + film.Year + '</td>' +
+                        '<td><a target="_blank" href="https://boxd.it/' + film.Id + '">' + title + '</a></td>' +
+                        '</tr>');
+                }
+
+                $('#main').tablesorter({
+                    widgets: ['columns'],
+                    usNumberFormat: true,
+                    sortReset: false,
+                    sortRestart: false,
+                    sortList: [[0, 1]],
+                    headers: {
+                        0: { sorter: false },
+                        1: { sortInitialOrder: 'desc' },
+                        2: { sortInitialOrder: 'asc' }
+                    }
+                });
+
+				*/
+
+                deactivateAll();
+                $(event.target).addClass('active');
+
+                createTooltipTriggers();
+            }
 
 			function letterboxdStudioId(studio) {
 				switch (studio) {
@@ -2072,12 +2280,134 @@
 			}
 
 			function formatNumber(number) {
-				if (number >= 1000000) {
+				if (number >= 950000) {
 					return (Math.round(number / 100000) / 10) + 'm';
+				} else if (number >= 9500) {
+                    return Math.round(number / 1000) + 'k';
 				} else {
 					return number.toLocaleString();
 				}
 			}
+
+            function showFans() {
+
+				resetView();
+
+                makeInfo(
+                    'Note',
+                    '<b>Fans</b> on Letterboxd are users who consider the film to be one of their top 4 films.');
+
+                createGallery();
+                var gallery = $('.gallery');
+
+                gallery.append('<div class="title">Watched films with the most fans on Letterboxd</div>');
+                gallery.append('<div class="inside"></div>');
+                var insideGallery = $('.gallery .inside');
+
+                var displayed = 0;
+                for (var index of data.HighestFansFilms) {
+                    var film = films[index];
+                    var title = film.Title;
+                    if (film.TitleOriginal != film.Title) {
+                        title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
+                    }
+                    insideGallery.append(
+                        '<div class="item">' +
+                        '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
+                        '<div class="details ttt" data-tooltip="' + film.Fans.toLocaleString() + ' Fans">' + formatNumber(film.Fans) + '<br/>' + film.Year + '<br>' + (film.RatingSelf > 0 ? '&#9670;'.repeat(film.RatingSelf) : '&nbsp;') + '</div>' +
+                        '</a></div>');
+                    displayed++;
+                    if (displayed == galleryAmount)
+                        break;
+                }
+
+                //createGallery();
+                //gallery = $('.gallery').last();
+
+                //gallery.append('<div class="title">Watched films with the least fans on Letterboxd</div>');
+                //gallery.append('<div class="inside"></div>');
+                //var insideGallery = $('.gallery .inside').last();
+
+                //displayed = 0;
+                //for (var index of data.LowestFansFilms) {
+                //    var film = films[index];
+                //    var title = film.Title;
+                //    if (film.TitleOriginal != film.Title) {
+                //        title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
+                //    }
+                //    insideGallery.append(
+                //        '<div class="item">' +
+                //        '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
+                //        '<div class="details ttt" data-tooltip="' + film.Fans.toLocaleString() + ' Fans">' + formatNumber(film.Fans) + '<br/>' + film.Year + '<br>' + (film.RatingSelf > 0 ? '&#9670;'.repeat(film.RatingSelf) : '&nbsp;') + '</div>' +
+                //        '</a></div>');
+                //    displayed++;
+                //    if (displayed == galleryAmount)
+                //        break;
+                //}
+
+                deactivateAll();
+                $(event.target).addClass('active');
+
+                createTooltipTriggers();
+			}
+
+            function showLikes() {
+
+                resetView();
+
+                createGallery();
+                var gallery = $('.gallery');
+
+                gallery.append('<div class="title">Watched films with the most likes on Letterboxd</div>');
+                gallery.append('<div class="inside"></div>');
+                var insideGallery = $('.gallery .inside');
+
+                var displayed = 0;
+                for (var index of data.HighestLikesFilms) {
+                    var film = films[index];
+                    var title = film.Title;
+                    if (film.TitleOriginal != film.Title) {
+                        title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
+                    }
+                    insideGallery.append(
+                        '<div class="item">' +
+                        '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
+                        '<div class="details ttt" data-tooltip="' + film.Likes.toLocaleString() + ' Likes">' + formatNumber(film.Likes) + '<br/>' + film.Year + '<br>' + (film.RatingSelf > 0 ? '&#9670;'.repeat(film.RatingSelf) : '&nbsp;') + '</div>' +
+                        '</a></div>');
+                    displayed++;
+                    if (displayed == galleryAmount)
+                        break;
+                }
+
+                createGallery();
+                gallery = $('.gallery').last();
+
+                gallery.append('<div class="title">Watched films with the least likes on Letterboxd</div>');
+                gallery.append('<div class="inside"></div>');
+                var insideGallery = $('.gallery .inside').last();
+
+                displayed = 0;
+                for (var index of data.LowestLikesFilms) {
+                    var film = films[index];
+                    var title = film.Title;
+                    if (film.TitleOriginal != film.Title) {
+                        title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
+                    }
+                    insideGallery.append(
+                        '<div class="item">' +
+                        '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
+                        '<div class="details ttt" data-tooltip="' + film.Likes.toLocaleString() + ' Likes">' + formatNumber(film.Likes) + '<br/>' + film.Year + '<br>' + (film.RatingSelf > 0 ? '&#9670;'.repeat(film.RatingSelf) : '&nbsp;') + '</div>' +
+                        '</a></div>');
+                    displayed++;
+                    if (displayed == galleryAmount)
+                        break;
+                }
+
+                deactivateAll();
+                $(event.target).addClass('active');
+
+                createTooltipTriggers();
+            }
 
 			function showPopularity() {
 
@@ -2097,9 +2427,9 @@
 						title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
 					}
 					insideGallery.append(
-						'<div class="item ttt" data-tooltip="' + title + '">' +
-						'<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
-						'<div class="details ttt" data-tooltip="' + film.Watched.toLocaleString() + '">' + formatNumber(film.Watched) + '<br/>' + film.Year + '<br>' + (film.RatingSelf > 0 ? '&#9670;'.repeat(film.RatingSelf) : '&nbsp;') + '</div>' +
+                        '<div class="item">' +
+                        '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
+						'<div class="details ttt" data-tooltip="' + film.Watched.toLocaleString() + ' Watches">' + formatNumber(film.Watched) + '<br/>' + film.Year + '<br>' + (film.RatingSelf > 0 ? '&#9670;'.repeat(film.RatingSelf) : '&nbsp;') + '</div>' +
 						'</a></div>');
 					displayed++;
 					if (displayed == galleryAmount)
@@ -2121,9 +2451,9 @@
 						title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
 					}
 					insideGallery.append(
-						'<div class="item ttt" data-tooltip="' + title + '">' +
-						'<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
-						'<div class="details ttt" data-tooltip="' + film.Watched.toLocaleString() + '">' + formatNumber(film.Watched) + '<br/>' + film.Year + '<br>' + (film.RatingSelf > 0 ? '&#9670;'.repeat(film.RatingSelf) : '&nbsp;') + '</div>' +
+                        '<div class="item">' +
+                        '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
+						'<div class="details ttt" data-tooltip="' + film.Watched.toLocaleString() + ' Watches">' + formatNumber(film.Watched) + '<br/>' + film.Year + '<br>' + (film.RatingSelf > 0 ? '&#9670;'.repeat(film.RatingSelf) : '&nbsp;') + '</div>' +
 						'</a></div>');
 					displayed++;
 					if (displayed == galleryAmount)

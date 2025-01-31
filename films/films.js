@@ -6,24 +6,30 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.15,
     "Minutes": 124,
-    "Watched": 72266,
+    "Watched": 73137,
+    "Fans": 1621,
+    "Likes": 27731,
     "Id": "YPs",
     "Poster": "/uL5Yg8MEgHGXymTaJBYXn9g0xsH.jpg",
     "Year": 1977,
-    "When": "1977-04-10"
+    "When": "1977-04-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "Romeo and Juliet",
     "TitleOriginal": "Romeo and Juliet",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.56,
+    "RatingLetterboxd": 3.57,
     "Minutes": 138,
-    "Watched": 81674,
+    "Watched": 82992,
+    "Fans": 768,
+    "Likes": 14378,
     "Id": "22cQ",
     "Poster": "/vaBQKLbSWkXGTOlsz9ARdJP4lvg.jpg",
     "Year": 1968,
-    "When": "1968-04-02"
+    "When": "1968-04-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "Passing",
@@ -32,11 +38,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.53,
     "Minutes": 98,
-    "Watched": 70694,
+    "Watched": 71062,
+    "Fans": 91,
+    "Likes": 15521,
     "Id": "jKdM",
     "Poster": "/t4tYUT1oSWOP6XKZBoclPAG96KP.jpg",
     "Year": 2021,
-    "When": "2021-10-27"
+    "When": "2021-10-27",
+    "BlackAndWhite": true
   },
   {
     "Title": "The Human Voice",
@@ -45,11 +54,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.42,
     "Minutes": 51,
-    "Watched": 474,
+    "Watched": 480,
+    "Fans": 1,
+    "Likes": 117,
     "Id": "i9Zs",
     "Poster": "/9TOfdJPqiBTRk31MHSJuTZEYblw.jpg",
     "Year": 1966,
-    "When": "1966-08-12"
+    "When": "1966-08-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Lolita",
@@ -58,11 +70,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.48,
     "Minutes": 154,
-    "Watched": 312770,
+    "Watched": 317025,
+    "Fans": 1234,
+    "Likes": 56496,
     "Id": "29Ag",
     "Poster": "/8Puqbeh0D95DpXFWep1rmH78btu.jpg",
     "Year": 1962,
-    "When": "1962-06-13"
+    "When": "1962-06-13",
+    "BlackAndWhite": true
   },
   {
     "Title": "Apollo 13",
@@ -71,37 +86,46 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.80,
     "Minutes": 140,
-    "Watched": 370306,
+    "Watched": 375899,
+    "Fans": 1180,
+    "Likes": 68932,
     "Id": "2a6G",
     "Poster": "/oYUZHYMwNKnE1ef4WE5Hw2a9OAY.jpg",
     "Year": 1995,
-    "When": "1995-06-30"
+    "When": "1995-06-30",
+    "BlackAndWhite": false
   },
   {
     "Title": "Murder by Death",
     "TitleOriginal": "Murder by Death",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.33,
+    "RatingLetterboxd": 3.32,
     "Minutes": 94,
-    "Watched": 39632,
+    "Watched": 40073,
+    "Fans": 246,
+    "Likes": 8491,
     "Id": "228k",
     "Poster": "/7YGYam05qzHy0ZSzfjBSDkVvvU7.jpg",
     "Year": 1976,
-    "When": "1976-06-23"
+    "When": "1976-06-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Penelope",
     "TitleOriginal": "Penelope",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.19,
+    "RatingLetterboxd": 3.20,
     "Minutes": 103,
-    "Watched": 160270,
+    "Watched": 163450,
+    "Fans": 836,
+    "Likes": 28463,
     "Id": "20HW",
     "Poster": "/stsGbgMhDo3VjLLsrbeiz0fuj8d.jpg",
     "Year": 2006,
-    "When": "2006-03-01"
+    "When": "2006-03-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Killer",
@@ -110,11 +134,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.38,
     "Minutes": 118,
-    "Watched": 777021,
+    "Watched": 786618,
+    "Fans": 595,
+    "Likes": 181295,
     "Id": "u6WE",
     "Poster": "/e7Jvsry47JJQruuezjU2X1Z6J77.jpg",
     "Year": 2023,
-    "When": "2023-10-25"
+    "When": "2023-10-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Noah",
@@ -123,37 +150,46 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.56,
     "Minutes": 138,
-    "Watched": 263673,
+    "Watched": 266205,
+    "Fans": 42,
+    "Likes": 18980,
     "Id": "34QA",
     "Poster": "/trtD17IqSWV9Nbn4OILztc9GuCX.jpg",
     "Year": 2014,
-    "When": "2014-03-07"
+    "When": "2014-03-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "2001: A Space Odyssey",
     "TitleOriginal": "2001: A Space Odyssey",
     "Language": "English",
     "RatingSelf": 5,
-    "RatingLetterboxd": 4.29,
+    "RatingLetterboxd": 4.28,
     "Minutes": 149,
-    "Watched": 1520713,
+    "Watched": 1543688,
+    "Fans": 51409,
+    "Likes": 551133,
     "Id": "2bf0",
     "Poster": "/ve72VxNqjGM69Uky4WTo2bK6rfq.jpg",
     "Year": 1968,
-    "When": "1968-04-02"
+    "When": "1968-04-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "Jumper",
     "TitleOriginal": "Jumper",
     "Language": "English",
     "RatingSelf": 1,
-    "RatingLetterboxd": 2.63,
+    "RatingLetterboxd": 2.64,
     "Minutes": 88,
-    "Watched": 269991,
+    "Watched": 273210,
+    "Fans": 329,
+    "Likes": 26538,
     "Id": "20ss",
     "Poster": "/3pPZ9JhNz3VMmASVir5SMHvTDUU.jpg",
     "Year": 2008,
-    "When": "2008-02-13"
+    "When": "2008-02-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Florida Project",
@@ -162,11 +198,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.10,
     "Minutes": 112,
-    "Watched": 961452,
+    "Watched": 979462,
+    "Fans": 22820,
+    "Likes": 383559,
     "Id": "dMG0",
     "Poster": "/eE1J6nCMw8UhsAOI6HhhItarWmN.jpg",
     "Year": 2017,
-    "When": "2017-10-06"
+    "When": "2017-10-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "Jackass Forever",
@@ -175,11 +214,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.56,
     "Minutes": 96,
-    "Watched": 282046,
+    "Watched": 284827,
+    "Fans": 271,
+    "Likes": 75921,
     "Id": "opUg",
     "Poster": "/ugIdyvtAzHWOguD91UjHKoAvfum.jpg",
     "Year": 2022,
-    "When": "2022-02-01"
+    "When": "2022-02-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Cool Runnings",
@@ -188,11 +230,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.52,
     "Minutes": 98,
-    "Watched": 211459,
+    "Watched": 214236,
+    "Fans": 813,
+    "Likes": 37276,
     "Id": "29qg",
     "Poster": "/6fXuGEb7EqGmAeUodxm7l5ELPZ.jpg",
     "Year": 1993,
-    "When": "1993-10-01"
+    "When": "1993-10-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "21 Grams",
@@ -201,24 +246,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.73,
     "Minutes": 124,
-    "Watched": 145216,
+    "Watched": 146729,
+    "Fans": 435,
+    "Likes": 25959,
     "Id": "2ajK",
     "Poster": "/imIqC8ufkxwgz1YNlNQIugsFbrQ.jpg",
     "Year": 2003,
-    "When": "2003-09-06"
+    "When": "2003-09-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Substance",
     "TitleOriginal": "The Substance",
     "Language": "English",
     "RatingSelf": 5,
-    "RatingLetterboxd": 3.83,
+    "RatingLetterboxd": 3.82,
     "Minutes": 141,
-    "Watched": 1900725,
+    "Watched": 2094285,
+    "Fans": 21875,
+    "Likes": 734654,
     "Id": "zanS",
     "Poster": "/lqoMzCcZYEFK729d6qzt349fB4o.jpg",
     "Year": 2024,
-    "When": "2024-09-07"
+    "When": "2024-09-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Basic Instinct",
@@ -227,11 +278,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.61,
     "Minutes": 128,
-    "Watched": 321329,
+    "Watched": 328051,
+    "Fans": 1308,
+    "Likes": 65746,
     "Id": "2asM",
     "Poster": "/76Ts0yoHk8kVQj9MMnoMixhRWoh.jpg",
     "Year": 1992,
-    "When": "1992-03-20"
+    "When": "1992-03-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Schindler's List",
@@ -240,11 +294,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.53,
     "Minutes": 195,
-    "Watched": 1490898,
+    "Watched": 1520378,
+    "Fans": 19968,
+    "Likes": 473099,
     "Id": "2aq2",
     "Poster": "/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
     "Year": 1993,
-    "When": "1993-12-15"
+    "When": "1993-12-15",
+    "BlackAndWhite": true
   },
   {
     "Title": "Face/Off",
@@ -253,24 +310,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.55,
     "Minutes": 139,
-    "Watched": 397971,
+    "Watched": 403169,
+    "Fans": 1254,
+    "Likes": 85246,
     "Id": "29I0",
     "Poster": "/69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg",
     "Year": 1997,
-    "When": "1997-06-27"
+    "When": "1997-06-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Knives Out",
     "TitleOriginal": "Knives Out",
     "Language": "English",
     "RatingSelf": 4,
-    "RatingLetterboxd": 3.98,
+    "RatingLetterboxd": 3.97,
     "Minutes": 131,
-    "Watched": 3878221,
+    "Watched": 3939133,
+    "Fans": 35552,
+    "Likes": 1662472,
     "Id": "jWEA",
     "Poster": "/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
     "Year": 2019,
-    "When": "2019-11-27"
+    "When": "2019-11-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Borat",
@@ -279,11 +342,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.73,
     "Minutes": 84,
-    "Watched": 990682,
+    "Watched": 1005165,
+    "Fans": 3290,
+    "Likes": 218729,
     "Id": "2agQ",
     "Poster": "/kfkyALfD4G1mlBJI1lOt2QCra4i.jpg",
     "Year": 2006,
-    "When": "2006-11-01"
+    "When": "2006-11-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Jackie Brown",
@@ -292,11 +358,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.88,
     "Minutes": 154,
-    "Watched": 654751,
+    "Watched": 663896,
+    "Fans": 3925,
+    "Likes": 184090,
     "Id": "2aVO",
     "Poster": "/wPofeSAfuOwRGNJQqJtjZk1c7hl.jpg",
     "Year": 1997,
-    "When": "1997-12-25"
+    "When": "1997-12-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "National Treasure: Book of Secrets",
@@ -305,24 +374,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.95,
     "Minutes": 124,
-    "Watched": 345905,
+    "Watched": 350028,
+    "Fans": 207,
+    "Likes": 38531,
     "Id": "21rq",
     "Poster": "/xxoIBbvmTj1ZttzV439jAvoovTw.jpg",
     "Year": 2007,
-    "When": "2007-12-13"
+    "When": "2007-12-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Nerve",
     "TitleOriginal": "Nerve",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 2.94,
+    "RatingLetterboxd": 2.95,
     "Minutes": 96,
-    "Watched": 511721,
+    "Watched": 520700,
+    "Fans": 2172,
+    "Likes": 78194,
     "Id": "aJIc",
     "Poster": "/qmSpHC0CSNyNll9WhlwWYuwoQ28.jpg",
     "Year": 2016,
-    "When": "2016-06-27"
+    "When": "2016-06-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Wadjda",
@@ -331,11 +406,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 3.81,
     "Minutes": 98,
-    "Watched": 32590,
+    "Watched": 32899,
+    "Fans": 115,
+    "Likes": 8115,
     "Id": "4drw",
     "Poster": "/w4iCIZ1kWSOCt0yELjfUMNAToUF.jpg",
     "Year": 2012,
-    "When": "2012-08-31"
+    "When": "2012-08-31",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Texas Chain Saw Massacre",
@@ -344,11 +422,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.83,
     "Minutes": 83,
-    "Watched": 905223,
+    "Watched": 917717,
+    "Fans": 15863,
+    "Likes": 278252,
     "Id": "1lcS",
     "Poster": "/lk6je5jykNzsQxumZEryxMLbJjD.jpg",
     "Year": 1974,
-    "When": "1974-10-11"
+    "When": "1974-10-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Ford v Ferrari",
@@ -357,24 +438,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.98,
     "Minutes": 153,
-    "Watched": 940032,
+    "Watched": 954682,
+    "Fans": 8414,
+    "Likes": 295749,
     "Id": "ce74",
     "Poster": "/dR1Ju50iudrOh3YgfwkAU1g2HZe.jpg",
     "Year": 2019,
-    "When": "2019-11-13"
+    "When": "2019-11-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Shaun of the Dead",
     "TitleOriginal": "Shaun of the Dead",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.97,
+    "RatingLetterboxd": 3.96,
     "Minutes": 99,
-    "Watched": 1389747,
+    "Watched": 1408402,
+    "Fans": 12435,
+    "Likes": 455458,
     "Id": "29J8",
     "Poster": "/dgXPhzNJH8HFTBjXPB177yNx6RI.jpg",
     "Year": 2004,
-    "When": "2004-04-09"
+    "When": "2004-04-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Scary Movie",
@@ -383,11 +470,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.12,
     "Minutes": 88,
-    "Watched": 891586,
+    "Watched": 906426,
+    "Fans": 2414,
+    "Likes": 154796,
     "Id": "24CG",
     "Poster": "/lRQiJXETkCnVVurHmglNvMXrZOx.jpg",
     "Year": 2000,
-    "When": "2000-07-07"
+    "When": "2000-07-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Requiem for a Dream",
@@ -396,11 +486,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.10,
     "Minutes": 102,
-    "Watched": 1521930,
+    "Watched": 1551010,
+    "Fans": 33712,
+    "Likes": 494006,
     "Id": "29VI",
     "Poster": "/nOd6vjEmzCT0k4VYqsA2hwyi87C.jpg",
     "Year": 2000,
-    "When": "2000-10-06"
+    "When": "2000-10-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "A Beautiful Planet",
@@ -409,11 +502,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.52,
     "Minutes": 45,
-    "Watched": 1764,
+    "Watched": 1772,
+    "Fans": 1,
+    "Likes": 286,
     "Id": "cFpu",
     "Poster": "/9naxphfpDgtArLPKnf0dJgGo7bS.jpg",
     "Year": 2016,
-    "When": "2016-04-16"
+    "When": "2016-04-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Hot Fuzz",
@@ -422,11 +518,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.08,
     "Minutes": 121,
-    "Watched": 1112237,
+    "Watched": 1126222,
+    "Fans": 20465,
+    "Likes": 369516,
     "Id": "2416",
     "Poster": "/zPib4ukTSdXvHP9pxGkFCe34f3y.jpg",
     "Year": 2007,
-    "When": "2007-02-14"
+    "When": "2007-02-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Night of the Living Dead",
@@ -435,11 +534,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.96,
     "Minutes": 96,
-    "Watched": 384656,
+    "Watched": 388598,
+    "Fans": 2053,
+    "Likes": 117443,
     "Id": "1WwA",
     "Poster": "/inNUOa9WZGdyRXQlt7eqmHtCttl.jpg",
     "Year": 1968,
-    "When": "1968-10-04"
+    "When": "1968-10-04",
+    "BlackAndWhite": true
   },
   {
     "Title": "Fighting with My Family",
@@ -448,11 +550,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.37,
     "Minutes": 108,
-    "Watched": 165772,
+    "Watched": 167460,
+    "Fans": 109,
+    "Likes": 36023,
     "Id": "fRyO",
     "Poster": "/cVhe15rJLRjolunSWLBN6xQLyGU.jpg",
     "Year": 2019,
-    "When": "2019-02-14"
+    "When": "2019-02-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Two for the Road",
@@ -461,11 +566,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.86,
     "Minutes": 112,
-    "Watched": 21255,
+    "Watched": 21492,
+    "Fans": 318,
+    "Likes": 6481,
     "Id": "22AI",
     "Poster": "/f9GAaL5gXzSP8LhXJcAx8Remfy3.jpg",
     "Year": 1967,
-    "When": "1967-04-27"
+    "When": "1967-04-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Blade Runner",
@@ -474,11 +582,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 4.11,
     "Minutes": 118,
-    "Watched": 1567252,
+    "Watched": 1587615,
+    "Fans": 48313,
+    "Likes": 550033,
     "Id": "2bcA",
     "Poster": "/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg",
     "Year": 1982,
-    "When": "1982-06-25"
+    "When": "1982-06-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Air Force One",
@@ -487,37 +598,46 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.22,
     "Minutes": 124,
-    "Watched": 189673,
+    "Watched": 191878,
+    "Fans": 136,
+    "Likes": 27447,
     "Id": "1XQw",
     "Poster": "/juRFEbyx5JlNuYrZM50vcZmtN78.jpg",
     "Year": 1997,
-    "When": "1997-07-25"
+    "When": "1997-07-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Emoji Movie",
     "TitleOriginal": "The Emoji Movie",
     "Language": "English",
     "RatingSelf": 1,
-    "RatingLetterboxd": 1.29,
+    "RatingLetterboxd": 1.30,
     "Minutes": 86,
-    "Watched": 335483,
+    "Watched": 343092,
+    "Fans": 682,
+    "Likes": 15707,
     "Id": "d9x4",
     "Poster": "/60bTx5z9zL1AqCjZ0gmWoRMJ6Bb.jpg",
     "Year": 2017,
-    "When": "2017-07-23"
+    "When": "2017-07-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Murdering the Devil",
     "TitleOriginal": "Vra\u017Eda ing. \u010Certa",
     "Language": "Czech",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.68,
+    "RatingLetterboxd": 3.69,
     "Minutes": 77,
-    "Watched": 1922,
+    "Watched": 1951,
+    "Fans": 15,
+    "Likes": 660,
     "Id": "7XkW",
     "Poster": "/bqLf8xanzN2H0Bfw1vDRFIGGBKC.jpg",
     "Year": 1970,
-    "When": "1970-09-18"
+    "When": "1970-09-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Women Talking",
@@ -526,11 +646,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 3.79,
     "Minutes": 104,
-    "Watched": 214818,
+    "Watched": 216199,
+    "Fans": 732,
+    "Likes": 59355,
     "Id": "tdq4",
     "Poster": "/wcTc9GveMMjAdHSlzdE0FaRCtqi.jpg",
     "Year": 2022,
-    "When": "2022-12-23"
+    "When": "2022-12-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Wizard of Oz",
@@ -539,11 +662,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 3.96,
     "Minutes": 102,
-    "Watched": 1145692,
+    "Watched": 1169815,
+    "Fans": 11091,
+    "Likes": 283280,
     "Id": "29Xu",
     "Poster": "kqXwDmucP5jfNPBxuD1yB66fO2m.jpg",
     "Year": 1939,
-    "When": "1939-08-15"
+    "When": "1939-08-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Mist",
@@ -552,11 +678,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.43,
     "Minutes": 126,
-    "Watched": 491454,
+    "Watched": 499268,
+    "Fans": 1074,
+    "Likes": 102720,
     "Id": "22r2",
     "Poster": "/1CvJ6diBACKPVGOpcWuY4XPQdqX.jpg",
     "Year": 2007,
-    "When": "2007-11-21"
+    "When": "2007-11-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Outrage",
@@ -565,11 +694,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.66,
     "Minutes": 75,
-    "Watched": 6198,
+    "Watched": 6241,
+    "Fans": 5,
+    "Likes": 1633,
     "Id": "2vFW",
     "Poster": "/2zGupaPiJBU3iR9WgY1kMpYalY2.jpg",
     "Year": 1950,
-    "When": "1950-09-27"
+    "When": "1950-09-27",
+    "BlackAndWhite": true
   },
   {
     "Title": "Saw IV",
@@ -578,11 +710,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 2.70,
     "Minutes": 93,
-    "Watched": 355386,
+    "Watched": 360106,
+    "Fans": 480,
+    "Likes": 49373,
     "Id": "29Sa",
     "Poster": "/wd6mhwDjlpeOufuMUF1FAeMliWZ.jpg",
     "Year": 2007,
-    "When": "2007-10-25"
+    "When": "2007-10-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Breathe",
@@ -591,11 +726,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.76,
     "Minutes": 91,
-    "Watched": 28933,
+    "Watched": 29171,
+    "Fans": 168,
+    "Likes": 7844,
     "Id": "87L4",
     "Poster": "/z568idoup0lE4qxlUfQt4T1F7tO.jpg",
     "Year": 2014,
-    "When": "2014-11-12"
+    "When": "2014-11-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Gift",
@@ -604,11 +742,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.17,
     "Minutes": 112,
-    "Watched": 59712,
+    "Watched": 60502,
+    "Fans": 25,
+    "Likes": 8840,
     "Id": "27ys",
     "Poster": "/cqNpfX27gF5BFvL2zRCjMLTQ7Fn.jpg",
     "Year": 2000,
-    "When": "2000-03-16"
+    "When": "2000-03-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Indiana Jones and the Last Crusade",
@@ -617,11 +758,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.10,
     "Minutes": 127,
-    "Watched": 1106954,
+    "Watched": 1121713,
+    "Fans": 8728,
+    "Likes": 293385,
     "Id": "2baO",
     "Poster": "/npUCnxl1fqgt3aQiMQq0iJdZMZp.jpg",
     "Year": 1989,
-    "When": "1989-05-24"
+    "When": "1989-05-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "Mai-chan's Daily Life",
@@ -630,11 +774,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.55,
     "Minutes": 63,
-    "Watched": 2725,
+    "Watched": 2796,
+    "Fans": 49,
+    "Likes": 601,
     "Id": "cWII",
     "Poster": "/631oaSK4rC17pDP2jXzkgPRT6qs.jpg",
     "Year": 2014,
-    "When": "2016-02-25"
+    "When": "2016-02-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Baby Driver",
@@ -643,11 +790,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.71,
     "Minutes": 113,
-    "Watched": 3131174,
+    "Watched": 3182566,
+    "Fans": 35135,
+    "Likes": 1092037,
     "Id": "bhF2",
     "Poster": "/rmnQ9jKW72bHu8uKlMjPIb2VLMI.jpg",
     "Year": 2017,
-    "When": "2017-06-28"
+    "When": "2017-06-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "Bound",
@@ -656,24 +806,30 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.00,
     "Minutes": 105,
-    "Watched": 164209,
+    "Watched": 167399,
+    "Fans": 4054,
+    "Likes": 67267,
     "Id": "1Z1g",
     "Poster": "/nfXU25TsAUsLMTJ6oHlgxPUcUOF.jpg",
     "Year": 1996,
-    "When": "1996-09-13"
+    "When": "1996-09-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Big",
     "TitleOriginal": "Big",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.60,
+    "RatingLetterboxd": 3.59,
     "Minutes": 104,
-    "Watched": 491985,
+    "Watched": 497547,
+    "Fans": 771,
+    "Likes": 91215,
     "Id": "271S",
     "Poster": "/eWhCDJiwxvx3YXkAFRiHjimnF0j.jpg",
     "Year": 1988,
-    "When": "1988-06-03"
+    "When": "1988-06-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Ferris Bueller's Day Off",
@@ -682,11 +838,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.94,
     "Minutes": 103,
-    "Watched": 1711993,
+    "Watched": 1735150,
+    "Fans": 30796,
+    "Likes": 553962,
     "Id": "1YPY",
     "Poster": "/w7gDfRXdK8S8GKLvpVepFSLxVZv.jpg",
     "Year": 1986,
-    "When": "1986-06-11"
+    "When": "1986-06-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Lord of the Rings: The Fellowship of the Ring",
@@ -695,11 +854,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.38,
     "Minutes": 179,
-    "Watched": 2957173,
+    "Watched": 3009016,
+    "Fans": 60329,
+    "Likes": 1080451,
     "Id": "2b5O",
     "Poster": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
     "Year": 2001,
-    "When": "2001-12-18"
+    "When": "2001-12-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Battle Royale",
@@ -708,37 +870,46 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.86,
     "Minutes": 113,
-    "Watched": 407544,
+    "Watched": 415152,
+    "Fans": 4625,
+    "Likes": 120469,
     "Id": "25zS",
     "Poster": "/gFX7NuBUeKysOB9nEzRqVpHNT32.jpg",
     "Year": 2000,
-    "When": "2000-12-16"
+    "When": "2000-12-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Lock, Stock and Two Smoking Barrels",
     "TitleOriginal": "Lock, Stock and Two Smoking Barrels",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.98,
+    "RatingLetterboxd": 3.99,
     "Minutes": 105,
-    "Watched": 345149,
+    "Watched": 349635,
+    "Fans": 3405,
+    "Likes": 92518,
     "Id": "2b92",
     "Poster": "/wt2TRBmFmBn5M5MBcPTwovlREaB.jpg",
     "Year": 1998,
-    "When": "1998-08-28"
+    "When": "1998-08-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "Joker",
     "TitleOriginal": "Joker",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.85,
+    "RatingLetterboxd": 3.84,
     "Minutes": 122,
-    "Watched": 4649740,
+    "Watched": 4721172,
+    "Fans": 27469,
+    "Likes": 1861192,
     "Id": "h4cS",
     "Poster": "/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
     "Year": 2019,
-    "When": "2019-10-01"
+    "When": "2019-10-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Breakfast at Tiffany's",
@@ -747,11 +918,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.77,
     "Minutes": 115,
-    "Watched": 639064,
+    "Watched": 649150,
+    "Fans": 11693,
+    "Likes": 171056,
     "Id": "2aYS",
     "Poster": "/79xm4gXw4l7A5D0XukUOJRocFYQ.jpg",
     "Year": 1961,
-    "When": "1961-10-06"
+    "When": "1961-10-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "Lord of War",
@@ -760,11 +934,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.59,
     "Minutes": 122,
-    "Watched": 237790,
+    "Watched": 241140,
+    "Fans": 530,
+    "Likes": 45331,
     "Id": "284y",
     "Poster": "/3MGQD4yXokufNlW1AyRXdiy7ytP.jpg",
     "Year": 2005,
-    "When": "2005-09-16"
+    "When": "2005-09-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Zero Dark Thirty",
@@ -773,24 +950,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.68,
     "Minutes": 157,
-    "Watched": 339780,
+    "Watched": 344938,
+    "Fans": 503,
+    "Likes": 60624,
     "Id": "3n1w",
     "Poster": "/coeTvXKAYZlrcIfsCfYV5Hw1npu.jpg",
     "Year": 2012,
-    "When": "2012-12-19"
+    "When": "2012-12-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "TPB AFK: The Pirate Bay - Away from Keyboard",
     "TitleOriginal": "TPB AFK: The Pirate Bay - Away from Keyboard",
     "Language": "Swedish",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.46,
+    "RatingLetterboxd": 3.47,
     "Minutes": 82,
-    "Watched": 5367,
+    "Watched": 5399,
+    "Fans": 4,
+    "Likes": 537,
     "Id": "E1M",
     "Poster": "/tTgeYhe5V7tF3gV7ZPwgsTqVDfO.jpg",
     "Year": 2013,
-    "When": "2013-02-08"
+    "When": "2013-02-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "This Is Spinal Tap",
@@ -799,11 +982,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.95,
     "Minutes": 82,
-    "Watched": 244584,
+    "Watched": 246747,
+    "Fans": 1699,
+    "Likes": 67771,
     "Id": "1UOs",
     "Poster": "/z2LA8eBTSuuPC4NBhIZRNIwpimH.jpg",
     "Year": 1984,
-    "When": "1984-03-02"
+    "When": "1984-03-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Bourne Identity",
@@ -812,11 +998,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.73,
     "Minutes": 119,
-    "Watched": 633090,
+    "Watched": 640769,
+    "Fans": 1489,
+    "Likes": 120311,
     "Id": "26EO",
     "Poster": "/aP8swke3gmowbkfZ6lmNidu0y9p.jpg",
     "Year": 2002,
-    "When": "2002-06-14"
+    "When": "2002-06-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Bully",
@@ -825,11 +1014,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.41,
     "Minutes": 113,
-    "Watched": 49753,
+    "Watched": 50384,
+    "Fans": 333,
+    "Likes": 11444,
     "Id": "1Yu2",
     "Poster": "/vMJ2WHBbK4Jr3eDuF1e7O6lbC8m.jpg",
     "Year": 2001,
-    "When": "2001-07-13"
+    "When": "2001-07-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Martian",
@@ -838,11 +1030,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 141,
-    "Watched": 2013124,
+    "Watched": 2041444,
+    "Fans": 7755,
+    "Likes": 523218,
     "Id": "8SeG",
     "Poster": "/3ndAx3weG6KDkJIRMCi5vXX6Dyb.jpg",
     "Year": 2015,
-    "When": "2015-09-30"
+    "When": "2015-09-30",
+    "BlackAndWhite": false
   },
   {
     "Title": "Se7en",
@@ -851,11 +1046,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.34,
     "Minutes": 127,
-    "Watched": 2973115,
+    "Watched": 3042119,
+    "Fans": 71877,
+    "Likes": 1208663,
     "Id": "29zs",
     "Poster": "/191nKfP0ehp3uIvWqgPbFmI4lv9.jpg",
     "Year": 1995,
-    "When": "1995-09-22"
+    "When": "1995-09-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Fits",
@@ -864,11 +1062,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.61,
     "Minutes": 72,
-    "Watched": 20750,
+    "Watched": 20821,
+    "Fans": 32,
+    "Likes": 4954,
     "Id": "cacO",
     "Poster": "/sWKsJln7CBXuNCGJMMVnCj5xzlQ.jpg",
     "Year": 2015,
-    "When": "2016-06-03"
+    "When": "2016-06-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "In Bruges",
@@ -877,11 +1078,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.12,
     "Minutes": 108,
-    "Watched": 676716,
+    "Watched": 685684,
+    "Fans": 13449,
+    "Likes": 220899,
     "Id": "20n8",
     "Poster": "/jMiBBqk72VRo1Y39x2ZbbenEU3a.jpg",
     "Year": 2008,
-    "When": "2008-02-08"
+    "When": "2008-02-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "City of Men",
@@ -890,24 +1094,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.62,
     "Minutes": 106,
-    "Watched": 12079,
+    "Watched": 12231,
+    "Fans": 57,
+    "Likes": 2213,
     "Id": "20Zm",
     "Poster": "/8x7C0WF0oJDnfdeWkuaaHj4BbqL.jpg",
     "Year": 2007,
-    "When": "2007-08-31"
+    "When": "2007-08-31",
+    "BlackAndWhite": false
   },
   {
     "Title": "Monster",
     "TitleOriginal": "\u602A\u7269",
     "Language": "Japanese",
     "RatingSelf": 5,
-    "RatingLetterboxd": 4.31,
+    "RatingLetterboxd": 4.32,
     "Minutes": 125,
-    "Watched": 300974,
+    "Watched": 309052,
+    "Fans": 16627,
+    "Likes": 147464,
     "Id": "DJEM",
     "Poster": "/kvUJUyUGOhEoiWWNH04IXoExPE2.jpg",
     "Year": 2023,
-    "When": "2023-06-02"
+    "When": "2023-06-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "Independence Day",
@@ -916,11 +1126,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.33,
     "Minutes": 145,
-    "Watched": 644680,
+    "Watched": 651898,
+    "Fans": 1087,
+    "Likes": 105753,
     "Id": "2a1w",
     "Poster": "/p0BPQGSPoSa8Ml0DAf2mB2kCU0R.jpg",
     "Year": 1996,
-    "When": "1996-06-25"
+    "When": "1996-06-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Anatomy of a Fall",
@@ -929,11 +1142,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.13,
     "Minutes": 151,
-    "Watched": 1318629,
+    "Watched": 1343778,
+    "Fans": 10629,
+    "Likes": 479533,
     "Id": "yuDE",
     "Poster": "/kQs6keheMwCxJxrzV83VUwFtHkB.jpg",
     "Year": 2023,
-    "When": "2023-08-23"
+    "When": "2023-08-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Police Academy",
@@ -942,11 +1158,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.17,
     "Minutes": 97,
-    "Watched": 127293,
+    "Watched": 128717,
+    "Fans": 119,
+    "Likes": 16666,
     "Id": "1YWg",
     "Poster": "/m5a1U549gokC1kxsqgQoRb6XpFg.jpg",
     "Year": 1984,
-    "When": "1984-03-22"
+    "When": "1984-03-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "Shiva Baby",
@@ -955,11 +1174,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.83,
     "Minutes": 78,
-    "Watched": 616865,
+    "Watched": 631687,
+    "Fans": 6062,
+    "Likes": 213707,
     "Id": "oIv0",
     "Poster": "/4sdqVsT6SHqtbCYZS7bhVoEftlL.jpg",
     "Year": 2020,
-    "When": "2021-03-26"
+    "When": "2021-03-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Inglourious Basterds",
@@ -968,11 +1190,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.35,
     "Minutes": 153,
-    "Watched": 3173440,
+    "Watched": 3232826,
+    "Fans": 67002,
+    "Likes": 1335573,
     "Id": "1JzG",
     "Poster": "/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg",
     "Year": 2009,
-    "When": "2009-08-02"
+    "When": "2009-08-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "Deep Impact",
@@ -981,11 +1206,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.92,
     "Minutes": 121,
-    "Watched": 139026,
+    "Watched": 140465,
+    "Fans": 104,
+    "Likes": 13944,
     "Id": "1ZYM",
     "Poster": "/a3vQS7JKqlOb3MdVJHuTCP9s7Mg.jpg",
     "Year": 1998,
-    "When": "1998-05-08"
+    "When": "1998-05-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "House of Wax",
@@ -994,24 +1222,30 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.50,
     "Minutes": 88,
-    "Watched": 34570,
+    "Watched": 34859,
+    "Fans": 43,
+    "Likes": 8253,
     "Id": "1GGE",
     "Poster": "/qJmINK85CwxaoXN2PFDMO4eNxLS.jpg",
     "Year": 1953,
-    "When": "1953-04-16"
+    "When": "1953-04-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Gnomeo \u0026 Juliet",
     "TitleOriginal": "Gnomeo \u0026 Juliet",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 2.79,
+    "RatingLetterboxd": 2.80,
     "Minutes": 84,
-    "Watched": 311055,
+    "Watched": 317459,
+    "Fans": 1229,
+    "Likes": 37992,
     "Id": "OKi",
     "Poster": "/vVQwgfS9gSFviVT4gS7tZAmhRFc.jpg",
     "Year": 2011,
-    "When": "2011-01-13"
+    "When": "2011-01-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Life of Brian",
@@ -1020,11 +1254,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.98,
     "Minutes": 94,
-    "Watched": 523941,
+    "Watched": 529009,
+    "Fans": 3216,
+    "Likes": 140424,
     "Id": "2a4q",
     "Poster": "/lSSA64WF0M0BXnjwr2quMh6shCl.jpg",
     "Year": 1979,
-    "When": "1979-08-17"
+    "When": "1979-08-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "I Am Love",
@@ -1033,11 +1270,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 120,
-    "Watched": 42867,
+    "Watched": 43504,
+    "Fans": 456,
+    "Likes": 10760,
     "Id": "10ac",
     "Poster": "/ss57QaZX5OE3YxoTZeKW5Y6U83S.jpg",
     "Year": 2009,
-    "When": "2010-03-19"
+    "When": "2010-03-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Nightcrawler",
@@ -1046,11 +1286,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.04,
     "Minutes": 118,
-    "Watched": 1757861,
+    "Watched": 1781142,
+    "Fans": 14059,
+    "Likes": 605340,
     "Id": "780m",
     "Poster": "/j9HrX8f7GbZQm1BrBiR40uFQZSb.jpg",
     "Year": 2014,
-    "When": "2014-10-23"
+    "When": "2014-10-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Magic Mike XXL",
@@ -1059,11 +1302,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.15,
     "Minutes": 115,
-    "Watched": 127284,
+    "Watched": 128446,
+    "Fans": 402,
+    "Likes": 22317,
     "Id": "7TTS",
     "Poster": "/jkuCNd3wOmf4sDlZ89HEt8jmsqr.jpg",
     "Year": 2015,
-    "When": "2015-07-01"
+    "When": "2015-07-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Perfect Blue",
@@ -1072,11 +1318,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.39,
     "Minutes": 82,
-    "Watched": 934295,
+    "Watched": 951667,
+    "Fans": 39719,
+    "Likes": 433610,
     "Id": "1W7A",
-    "Poster": "/6WTiOCfDPP8XV4jqfloiVWf7KHq.jpg",
+    "Poster": "/bee6ZQVaSAUhlBinsP9In8x8vO1.jpg",
     "Year": 1997,
-    "When": "1998-02-28"
+    "When": "1998-02-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "Teeth",
@@ -1085,11 +1334,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.75,
     "Minutes": 94,
-    "Watched": 102747,
+    "Watched": 104006,
+    "Fans": 194,
+    "Likes": 15377,
     "Id": "1QMM",
     "Poster": "/p7OIPkN2LOBprQxQx7EZBa6m6W4.jpg",
     "Year": 2007,
-    "When": "2008-01-18"
+    "When": "2008-01-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "I Am Not Your Negro",
@@ -1098,11 +1350,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.18,
     "Minutes": 93,
-    "Watched": 91303,
+    "Watched": 92026,
+    "Fans": 107,
+    "Likes": 26064,
     "Id": "etXy",
     "Poster": "/zwd0Zti7BvY1mO0mTPzM0fRrtc6.jpg",
     "Year": 2016,
-    "When": "2017-02-03"
+    "When": "2017-02-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Back to the Future",
@@ -1111,11 +1366,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.20,
     "Minutes": 116,
-    "Watched": 2918633,
+    "Watched": 2969610,
+    "Fans": 67746,
+    "Likes": 1014229,
     "Id": "2b8e",
-    "Poster": "/fNOH9f1aA7XRTzl1sAOx9iF553Q.jpg",
+    "Poster": "/rej4R5DIdlx29I2soNePfInICG3.jpg",
     "Year": 1985,
-    "When": "1985-07-03"
+    "When": "1985-07-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "No Time to Die",
@@ -1124,11 +1382,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.51,
     "Minutes": 163,
-    "Watched": 906058,
+    "Watched": 917256,
+    "Fans": 912,
+    "Likes": 197359,
     "Id": "cPX2",
     "Poster": "/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg",
     "Year": 2021,
-    "When": "2021-09-29"
+    "When": "2021-09-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "Indiana Jones and the Temple of Doom",
@@ -1137,24 +1398,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.64,
     "Minutes": 118,
-    "Watched": 1049549,
+    "Watched": 1063474,
+    "Fans": 2142,
+    "Likes": 228725,
     "Id": "2bb8",
     "Poster": "/om61eim8XwLfh6QXzh2r0Q4blBz.jpg",
     "Year": 1984,
-    "When": "1984-05-23"
+    "When": "1984-05-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Lilya 4-ever",
-    "TitleOriginal": "Lilja 4-Ever",
+    "TitleOriginal": "Lilja 4-ever",
     "Language": "Swedish",
     "RatingSelf": 4,
     "RatingLetterboxd": 4.15,
     "Minutes": 109,
-    "Watched": 144631,
+    "Watched": 150032,
+    "Fans": 7374,
+    "Likes": 59645,
     "Id": "1SyW",
-    "Poster": "/y2PN2K3Wa1ybBrp5cIEiKvK9z67.jpg",
+    "Poster": "/m1xeLa00P3her902OnwL2gIHsXm.jpg",
     "Year": 2002,
-    "When": "2002-08-23"
+    "When": "2002-08-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Dude, Where's My Car?",
@@ -1163,24 +1430,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.66,
     "Minutes": 83,
-    "Watched": 188628,
+    "Watched": 190848,
+    "Fans": 576,
+    "Likes": 24525,
     "Id": "1ZJi",
     "Poster": "/A5FBQplPsSVVvdYn4NHgtWYF8un.jpg",
     "Year": 2000,
-    "When": "2000-12-15"
+    "When": "2000-12-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Water Lilies",
     "TitleOriginal": "Naissance des pieuvres",
     "Language": "French",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.53,
+    "RatingLetterboxd": 3.52,
     "Minutes": 85,
-    "Watched": 93955,
+    "Watched": 95414,
+    "Fans": 837,
+    "Likes": 25577,
     "Id": "1VjK",
     "Poster": "/oNrs9disgGDtOORToDt5dIqYFBi.jpg",
     "Year": 2007,
-    "When": "2007-05-17"
+    "When": "2007-05-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Stand by Me",
@@ -1189,11 +1462,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.16,
     "Minutes": 89,
-    "Watched": 1061090,
+    "Watched": 1083133,
+    "Fans": 32727,
+    "Likes": 391545,
     "Id": "2aOe",
     "Poster": "/vz0w9BSehcqjDcJOjRaCk7fgJe7.jpg",
     "Year": 1986,
-    "When": "1986-08-08"
+    "When": "1986-08-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Neon Demon",
@@ -1202,11 +1478,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.16,
     "Minutes": 118,
-    "Watched": 365553,
+    "Watched": 369245,
+    "Fans": 1882,
+    "Likes": 79926,
     "Id": "9AnW",
     "Poster": "/d93h9dHIez9zRg4ooG6o1ZiQ776.jpg",
     "Year": 2016,
-    "When": "2016-05-31"
+    "When": "2016-05-31",
+    "BlackAndWhite": false
   },
   {
     "Title": "Sin City",
@@ -1215,11 +1494,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.69,
     "Minutes": 124,
-    "Watched": 514301,
+    "Watched": 519903,
+    "Fans": 1579,
+    "Likes": 109576,
     "Id": "2aVk",
     "Poster": "/i66G50wATMmPrvpP95f0XP6ZdVS.jpg",
     "Year": 2005,
-    "When": "2005-04-01"
+    "When": "2005-04-01",
+    "BlackAndWhite": true
   },
   {
     "Title": "Hereditary",
@@ -1228,11 +1510,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.96,
     "Minutes": 128,
-    "Watched": 2520660,
+    "Watched": 2566840,
+    "Fans": 40382,
+    "Likes": 935177,
     "Id": "hNVe",
     "Poster": "/p9fmuz2Oj3HtEJEqbIwkFGUhVXD.jpg",
     "Year": 2018,
-    "When": "2018-06-07"
+    "When": "2018-06-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Tickled",
@@ -1241,11 +1526,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.75,
     "Minutes": 92,
-    "Watched": 74229,
+    "Watched": 74776,
+    "Fans": 58,
+    "Likes": 15707,
     "Id": "cWEG",
     "Poster": "/qxUbPwyhzNEyUZYOZm6t8yYSQf.jpg",
     "Year": 2016,
-    "When": "2016-05-26"
+    "When": "2016-05-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Human Centipede 2 (Full Sequence)",
@@ -1254,11 +1542,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 1.75,
     "Minutes": 91,
-    "Watched": 103176,
+    "Watched": 104820,
+    "Fans": 306,
+    "Likes": 7554,
     "Id": "2yqg",
     "Poster": "gMGDqPParsbPRtSbVZ2pNLmdXz1.jpg",
     "Year": 2011,
-    "When": "2011-10-06"
+    "When": "2011-10-06",
+    "BlackAndWhite": true
   },
   {
     "Title": "Princess Mononoke",
@@ -1267,11 +1558,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.38,
     "Minutes": 134,
-    "Watched": 1505247,
+    "Watched": 1533244,
+    "Fans": 51620,
+    "Likes": 620058,
     "Id": "2b4w",
     "Poster": "/cMYCDADoLKLbB83g4WnJegaZimC.jpg",
     "Year": 1997,
-    "When": "1997-07-12"
+    "When": "1997-07-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Us",
@@ -1280,24 +1574,30 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.66,
     "Minutes": 116,
-    "Watched": 2275838,
+    "Watched": 2307976,
+    "Fans": 11932,
+    "Likes": 724207,
     "Id": "gnV6",
     "Poster": "/ux2dU1jQ2ACIMShzB3yP93Udpzc.jpg",
     "Year": 2019,
-    "When": "2019-03-14"
+    "When": "2019-03-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Lawless",
     "TitleOriginal": "Lawless",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.37,
+    "RatingLetterboxd": 3.38,
     "Minutes": 115,
-    "Watched": 129536,
+    "Watched": 130806,
+    "Fans": 178,
+    "Likes": 20596,
     "Id": "2TIK",
     "Poster": "/Ahtzwts22ayviD3LEVslfL4nRWB.jpg",
     "Year": 2012,
-    "When": "2012-08-29"
+    "When": "2012-08-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "Cruel Intentions",
@@ -1306,11 +1606,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.26,
     "Minutes": 98,
-    "Watched": 383313,
+    "Watched": 389934,
+    "Fans": 3532,
+    "Likes": 80133,
     "Id": "29Be",
     "Poster": "/76cCsRtQ5MJBAqoigojXsLXLJwh.jpg",
     "Year": 1999,
-    "When": "1999-03-05"
+    "When": "1999-03-05",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Naked Gun: From the Files of Police Squad!",
@@ -1319,11 +1622,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.77,
     "Minutes": 86,
-    "Watched": 340914,
+    "Watched": 345880,
+    "Fans": 1452,
+    "Likes": 82028,
     "Id": "18YE",
     "Poster": "/wQHTHJ3jBKtz2c6VT9JZ8TD73yl.jpg",
     "Year": 1988,
-    "When": "1988-12-02"
+    "When": "1988-12-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "Misery",
@@ -1332,11 +1638,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 3.98,
     "Minutes": 107,
-    "Watched": 583685,
+    "Watched": 591452,
+    "Fans": 2487,
+    "Likes": 168966,
     "Id": "28gY",
     "Poster": "/23Y65uWaVMpqfbZTN3CT0aei4D5.jpg",
     "Year": 1990,
-    "When": "1990-11-30"
+    "When": "1990-11-30",
+    "BlackAndWhite": false
   },
   {
     "Title": "Twins",
@@ -1345,11 +1654,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.00,
     "Minutes": 107,
-    "Watched": 149683,
+    "Watched": 151682,
+    "Fans": 65,
+    "Likes": 19952,
     "Id": "1YxK",
     "Poster": "/stJx9BQZbXrZnTGf9Erc7d2UMVc.jpg",
     "Year": 1988,
-    "When": "1988-12-09"
+    "When": "1988-12-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Miranda",
@@ -1358,24 +1670,30 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.01,
     "Minutes": 93,
-    "Watched": 948,
+    "Watched": 968,
+    "Fans": 2,
+    "Likes": 126,
     "Id": "DA2",
     "Poster": "/sGwsgiVBKgjNzwuhXELIAgDqdmN.jpg",
     "Year": 2002,
-    "When": "2002-01-18"
+    "When": "2002-01-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "My First Summer",
     "TitleOriginal": "My First Summer",
     "Language": "English",
     "RatingSelf": 4,
-    "RatingLetterboxd": 3.84,
+    "RatingLetterboxd": 3.83,
     "Minutes": 78,
-    "Watched": 61560,
+    "Watched": 62989,
+    "Fans": 2596,
+    "Likes": 29184,
     "Id": "rOjg",
     "Poster": "/7GBMVO09clB7HUgfqbjZmOVAPOi.jpg",
     "Year": 2020,
-    "When": "2020-10-24"
+    "When": "2020-10-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "Enemy of the State",
@@ -1384,11 +1702,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.46,
     "Minutes": 132,
-    "Watched": 144499,
+    "Watched": 146156,
+    "Fans": 97,
+    "Likes": 22353,
     "Id": "1XME",
     "Poster": "/x9pXrMKLsBGGOFyyZ0Gwt9YpVub.jpg",
     "Year": 1998,
-    "When": "1998-11-20"
+    "When": "1998-11-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Promising Young Woman",
@@ -1397,24 +1718,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.67,
     "Minutes": 113,
-    "Watched": 860393,
+    "Watched": 869364,
+    "Fans": 6565,
+    "Likes": 251996,
     "Id": "loRE",
-    "Poster": "/nGgtZ2d0u3igwk1b4a1JrOm0LY2.jpg",
+    "Poster": "/73QoFJFmUrJfDG2EynFjNc5gJxk.jpg",
     "Year": 2020,
-    "When": "2020-12-13"
+    "When": "2020-12-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Mulholland Drive",
     "TitleOriginal": "Mulholland Drive",
     "Language": "English",
     "RatingSelf": 5,
-    "RatingLetterboxd": 4.24,
+    "RatingLetterboxd": 4.25,
     "Minutes": 147,
-    "Watched": 1001686,
+    "Watched": 1070164,
+    "Fans": 48919,
+    "Likes": 395891,
     "Id": "297o",
     "Poster": "/tVxGt7uffLVhIIcwuldXOMpFBPX.jpg",
     "Year": 2001,
-    "When": "2001-06-06"
+    "When": "2001-06-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "Black Narcissus",
@@ -1423,11 +1750,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.01,
     "Minutes": 100,
-    "Watched": 86900,
+    "Watched": 88673,
+    "Fans": 664,
+    "Likes": 26830,
     "Id": "1Kce",
     "Poster": "/jSbFWWbkUq5N5ikewJHNATcWnxS.jpg",
     "Year": 1947,
-    "When": "1947-05-26"
+    "When": "1947-05-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Save the Last Dance",
@@ -1436,11 +1766,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.99,
     "Minutes": 113,
-    "Watched": 91280,
+    "Watched": 92591,
+    "Fans": 364,
+    "Likes": 13463,
     "Id": "1XK4",
     "Poster": "/sV8GIxT3BjHIiwgKUNwk1S8VSLa.jpg",
     "Year": 2001,
-    "When": "2001-01-12"
+    "When": "2001-01-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Star Trek Beyond",
@@ -1449,11 +1782,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.27,
     "Minutes": 122,
-    "Watched": 326017,
+    "Watched": 328888,
+    "Fans": 208,
+    "Likes": 53628,
     "Id": "5Ik4",
     "Poster": "/cnQp8GmOWahIgQaH60Kwez3TNzw.jpg",
     "Year": 2016,
-    "When": "2016-07-07"
+    "When": "2016-07-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Company of Strangers",
@@ -1462,11 +1798,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.24,
     "Minutes": 101,
-    "Watched": 6441,
+    "Watched": 6614,
+    "Fans": 372,
+    "Likes": 3368,
     "Id": "44PO",
     "Poster": "/hlXFhekstIC0hsVjbhLjjC5EWBy.jpg",
     "Year": 1990,
-    "When": "1990-10-01"
+    "When": "1990-10-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "M\u00E4dchen in Uniform",
@@ -1475,24 +1814,30 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.88,
     "Minutes": 88,
-    "Watched": 20344,
+    "Watched": 20625,
+    "Fans": 121,
+    "Likes": 6644,
     "Id": "1Y8g",
     "Poster": "c4ZanTXGgbQbeIgUC1UYAOn3ztE.jpg",
     "Year": 1931,
-    "When": "1931-11-27"
+    "When": "1931-11-27",
+    "BlackAndWhite": true
   },
   {
     "Title": "It",
     "TitleOriginal": "It",
     "Language": "",
     "RatingSelf": 3,
-    "RatingLetterboxd": 3.51,
+    "RatingLetterboxd": 3.52,
     "Minutes": 72,
-    "Watched": 10018,
+    "Watched": 10179,
+    "Fans": 50,
+    "Likes": 2885,
     "Id": "2SMc",
     "Poster": "/nkkhsKik9GILqn3S5BxoZdyml21.jpg",
     "Year": 1927,
-    "When": "1927-02-05"
+    "When": "1927-02-05",
+    "BlackAndWhite": true
   },
   {
     "Title": "Halloween",
@@ -1501,37 +1846,46 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.79,
     "Minutes": 91,
-    "Watched": 1227520,
+    "Watched": 1241379,
+    "Fans": 20101,
+    "Likes": 370389,
     "Id": "2wRu",
     "Poster": "/wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg",
     "Year": 1978,
-    "When": "1978-10-24"
+    "When": "1978-10-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "Poor Things",
     "TitleOriginal": "Poor Things",
     "Language": "English",
     "RatingSelf": 5,
-    "RatingLetterboxd": 4.00,
+    "RatingLetterboxd": 3.99,
     "Minutes": 141,
-    "Watched": 2240421,
+    "Watched": 2286747,
+    "Fans": 27366,
+    "Likes": 857417,
     "Id": "tNWU",
     "Poster": "/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg",
     "Year": 2023,
-    "When": "2023-12-07"
+    "When": "2023-12-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Home Alone 2: Lost in New York",
     "TitleOriginal": "Home Alone 2: Lost in New York",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.52,
+    "RatingLetterboxd": 3.53,
     "Minutes": 120,
-    "Watched": 1437303,
+    "Watched": 1460048,
+    "Fans": 1632,
+    "Likes": 271750,
     "Id": "29F6",
     "Poster": "/uuitWHpJwxD1wruFl2nZHIb4UGN.jpg",
     "Year": 1992,
-    "When": "1992-11-15"
+    "When": "1992-11-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Junior",
@@ -1540,11 +1894,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.36,
     "Minutes": 110,
-    "Watched": 86851,
+    "Watched": 87973,
+    "Fans": 41,
+    "Likes": 5650,
     "Id": "21Qg",
     "Poster": "/fKVUEtfWoX7RMlwxC6EOaXUk9KM.jpg",
     "Year": 1994,
-    "When": "1994-11-22"
+    "When": "1994-11-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "Funeral Parade of Roses",
@@ -1553,37 +1910,46 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.31,
     "Minutes": 105,
-    "Watched": 72201,
+    "Watched": 73257,
+    "Fans": 3312,
+    "Likes": 32692,
     "Id": "28Cg",
     "Poster": "/7cRQ6rSGajW2soWDr3voEN2rgYO.jpg",
     "Year": 1969,
-    "When": "1969-09-13"
+    "When": "1969-09-13",
+    "BlackAndWhite": true
   },
   {
     "Title": "The Young Girls of Rochefort",
     "TitleOriginal": "Les Demoiselles de Rochefort",
     "Language": "French",
     "RatingSelf": null,
-    "RatingLetterboxd": 4.31,
+    "RatingLetterboxd": 4.32,
     "Minutes": 126,
-    "Watched": 108074,
+    "Watched": 109958,
+    "Fans": 5839,
+    "Likes": 48394,
     "Id": "26K8",
     "Poster": "/jtxhyGaYhurH6KsjvP1jV3dDypz.jpg",
     "Year": 1967,
-    "When": "1967-03-08"
+    "When": "1967-03-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Exorcist",
     "TitleOriginal": "The Exorcist",
     "Language": "English",
     "RatingSelf": 3,
-    "RatingLetterboxd": 3.98,
+    "RatingLetterboxd": 3.97,
     "Minutes": 122,
-    "Watched": 1157008,
+    "Watched": 1172553,
+    "Fans": 10535,
+    "Likes": 316941,
     "Id": "1Yoo",
     "Poster": "/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
     "Year": 1973,
-    "When": "1973-12-26"
+    "When": "1973-12-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Lady Vanishes",
@@ -1592,11 +1958,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.90,
     "Minutes": 96,
-    "Watched": 81728,
+    "Watched": 82604,
+    "Fans": 224,
+    "Likes": 21715,
     "Id": "29ea",
     "Poster": "/e9yjeqzcsFEhwTsv2Lv9RTZhHaJ.jpg",
     "Year": 1938,
-    "When": "1938-10-07"
+    "When": "1938-10-07",
+    "BlackAndWhite": true
   },
   {
     "Title": "Sing",
@@ -1605,11 +1974,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.08,
     "Minutes": 108,
-    "Watched": 747464,
+    "Watched": 762604,
+    "Fans": 932,
+    "Likes": 99916,
     "Id": "b5EQ",
     "Poster": "/zZTlF2eVVUkbdmccd3bNUU9T9sD.jpg",
     "Year": 2016,
-    "When": "2016-11-23"
+    "When": "2016-11-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Spring, Summer, Fall, Winter... and Spring",
@@ -1618,24 +1990,30 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.20,
     "Minutes": 103,
-    "Watched": 76998,
+    "Watched": 78090,
+    "Fans": 1372,
+    "Likes": 24185,
     "Id": "2b6W",
     "Poster": "/6SQQ5REuAz7k0FMQ9mSCT40T2LN.jpg",
     "Year": 2003,
-    "When": "2003-09-19"
+    "When": "2003-09-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Ransom",
     "TitleOriginal": "Ransom",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.26,
+    "RatingLetterboxd": 3.27,
     "Minutes": 121,
-    "Watched": 69153,
+    "Watched": 69891,
+    "Fans": 16,
+    "Likes": 8057,
     "Id": "258s",
     "Poster": "/tQAFHGWvrKuNFkgZsN8qAp0Tk9E.jpg",
     "Year": 1996,
-    "When": "1996-11-08"
+    "When": "1996-11-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "Reservation Road",
@@ -1644,11 +2022,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.16,
     "Minutes": 102,
-    "Watched": 9486,
+    "Watched": 9566,
+    "Fans": 0,
+    "Likes": 881,
     "Id": "1Zvq",
     "Poster": "/pZaYofgshgEkeW4Huo3o6tEX89C.jpg",
     "Year": 2007,
-    "When": "2007-09-13"
+    "When": "2007-09-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Lady Bird",
@@ -1657,11 +2038,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.85,
     "Minutes": 94,
-    "Watched": 3161344,
+    "Watched": 3212164,
+    "Fans": 75536,
+    "Likes": 1281275,
     "Id": "dGNE",
     "Poster": "/gl66K7zRdtNYGrxyS2YDUP5ASZd.jpg",
     "Year": 2017,
-    "When": "2017-09-01"
+    "When": "2017-09-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Black Bear",
@@ -1670,11 +2054,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.57,
     "Minutes": 106,
-    "Watched": 100946,
+    "Watched": 101669,
+    "Fans": 592,
+    "Likes": 26673,
     "Id": "n8ru",
     "Poster": "/nqZFjQRWfW6PjFTc17pzJ5LRAAv.jpg",
     "Year": 2020,
-    "When": "2020-12-04"
+    "When": "2020-12-04",
+    "BlackAndWhite": false
   },
   {
     "Title": "Carrie",
@@ -1683,11 +2070,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.85,
     "Minutes": 98,
-    "Watched": 946599,
+    "Watched": 959511,
+    "Fans": 7411,
+    "Likes": 287910,
     "Id": "20ZQ",
     "Poster": "/bJJ3xK4pMnfao0wfzySfC47dp8G.jpg",
     "Year": 1976,
-    "When": "1976-11-03"
+    "When": "1976-11-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Friends \u0026 Family Christmas",
@@ -1696,24 +2086,30 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.09,
     "Minutes": 85,
-    "Watched": 6970,
+    "Watched": 7019,
+    "Fans": 11,
+    "Likes": 1729,
     "Id": "IMaU",
     "Poster": "/naLwVZJKN1G4OQatuoMNcHwQDRw.jpg",
     "Year": 2023,
-    "When": "2023-12-17"
+    "When": "2023-12-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Meet the Parents",
     "TitleOriginal": "Meet the Parents",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.30,
+    "RatingLetterboxd": 3.31,
     "Minutes": 108,
-    "Watched": 567736,
+    "Watched": 577569,
+    "Fans": 297,
+    "Likes": 78885,
     "Id": "28vE",
     "Poster": "/5tXJ9ctuyEOMUFLaeqRisbXowWs.jpg",
     "Year": 2000,
-    "When": "2000-10-06"
+    "When": "2000-10-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Lion King",
@@ -1722,11 +2118,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.22,
     "Minutes": 89,
-    "Watched": 2803038,
+    "Watched": 2849276,
+    "Fans": 19982,
+    "Likes": 731206,
     "Id": "201Q",
     "Poster": "/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
     "Year": 1994,
-    "When": "1994-06-24"
+    "When": "1994-06-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "The King of Kong: A Fistful of Quarters",
@@ -1735,11 +2134,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.99,
     "Minutes": 83,
-    "Watched": 51990,
+    "Watched": 52496,
+    "Fans": 144,
+    "Likes": 12449,
     "Id": "1P2y",
     "Poster": "/wACtXGiO08EBbJhqsD2nUzPsrKe.jpg",
     "Year": 2007,
-    "When": "2007-03-25"
+    "When": "2007-03-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "12 Years a Slave",
@@ -1748,11 +2150,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.15,
     "Minutes": 134,
-    "Watched": 923467,
+    "Watched": 933849,
+    "Fans": 1158,
+    "Likes": 207285,
     "Id": "2D2e",
     "Poster": "/xdANQijuNrJaw1HA61rDccME4Tm.jpg",
     "Year": 2013,
-    "When": "2013-10-18"
+    "When": "2013-10-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "What We Do in the Shadows",
@@ -1761,11 +2166,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.12,
     "Minutes": 86,
-    "Watched": 747435,
+    "Watched": 754783,
+    "Fans": 11270,
+    "Likes": 295222,
     "Id": "7eQy",
     "Poster": "/a2rD3i3DBMeYbA34rBv6z3B9S3a.jpg",
     "Year": 2014,
-    "When": "2014-06-19"
+    "When": "2014-06-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Death Proof",
@@ -1774,11 +2182,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.58,
     "Minutes": 113,
-    "Watched": 504228,
+    "Watched": 511351,
+    "Fans": 4205,
+    "Likes": 134558,
     "Id": "27GG",
-    "Poster": "/ity61Y1zyLDEZ5aYguqmhgRQ7rd.jpg",
+    "Poster": "/vtu6H4NWnQVqEp3aanUq3hNeeot.jpg",
     "Year": 2007,
-    "When": "2007-05-22"
+    "When": "2007-05-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "Phone Booth",
@@ -1787,11 +2198,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.31,
     "Minutes": 81,
-    "Watched": 225412,
+    "Watched": 228429,
+    "Fans": 268,
+    "Likes": 33250,
     "Id": "285G",
     "Poster": "/r6lIwPKVDa6Q76qH2TbIBqPhXL3.jpg",
     "Year": 2002,
-    "When": "2003-04-04"
+    "When": "2003-04-04",
+    "BlackAndWhite": false
   },
   {
     "Title": "Wolf Creek",
@@ -1800,24 +2214,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.00,
     "Minutes": 104,
-    "Watched": 77460,
+    "Watched": 78364,
+    "Fans": 68,
+    "Likes": 11408,
     "Id": "1XC0",
     "Poster": "/8NiRpqO3vx7ny6jagrEN61hu7qG.jpg",
     "Year": 2005,
-    "When": "2005-09-16"
+    "When": "2005-09-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Frozen",
     "TitleOriginal": "Frozen",
     "Language": "English",
     "RatingSelf": 3,
-    "RatingLetterboxd": 3.42,
+    "RatingLetterboxd": 3.43,
     "Minutes": 102,
-    "Watched": 2276419,
+    "Watched": 2316338,
+    "Fans": 5242,
+    "Likes": 363495,
     "Id": "3GNa",
     "Poster": "/mmWheq3cFI4tYrZDiATOkCNTqgK.jpg",
     "Year": 2013,
-    "When": "2013-11-20"
+    "When": "2013-11-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "It's a Wonderful Life",
@@ -1826,11 +2246,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.41,
     "Minutes": 130,
-    "Watched": 780366,
+    "Watched": 790510,
+    "Fans": 21311,
+    "Likes": 277369,
     "Id": "28xA",
     "Poster": "/bSqt9rhDZx1Q7UZ86dBPKdNomp2.jpg",
     "Year": 1946,
-    "When": "1946-12-20"
+    "When": "1946-12-20",
+    "BlackAndWhite": true
   },
   {
     "Title": "Clemency",
@@ -1839,11 +2262,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.49,
     "Minutes": 112,
-    "Watched": 10499,
+    "Watched": 10555,
+    "Fans": 3,
+    "Likes": 1798,
     "Id": "kIko",
     "Poster": "/c03mA6GYRqcRLgxXQpKcYWEKxRn.jpg",
     "Year": 2019,
-    "When": "2019-12-27"
+    "When": "2019-12-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Wild Tales",
@@ -1852,11 +2278,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.14,
     "Minutes": 122,
-    "Watched": 252415,
+    "Watched": 256242,
+    "Fans": 3672,
+    "Likes": 89583,
     "Id": "7UmK",
     "Poster": "/ucFsh8uU0Lsw7zouQFaRrs2ElOs.jpg",
     "Year": 2014,
-    "When": "2014-08-21"
+    "When": "2014-08-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Fruit of Paradise",
@@ -1865,11 +2294,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 3.66,
     "Minutes": 99,
-    "Watched": 6294,
+    "Watched": 6366,
+    "Fans": 60,
+    "Likes": 1838,
     "Id": "2N24",
     "Poster": "/m0S3Jek3a9l4LvtKkSzvZy96jbD.jpg",
     "Year": 1970,
-    "When": "1970-07-31"
+    "When": "1970-07-31",
+    "BlackAndWhite": false
   },
   {
     "Title": "Cloverfield",
@@ -1878,24 +2310,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.39,
     "Minutes": 85,
-    "Watched": 560841,
+    "Watched": 567339,
+    "Fans": 1830,
+    "Likes": 111748,
     "Id": "2192",
     "Poster": "/qIegUGJqyMMCRjkKV1s7A9MqdJ8.jpg",
     "Year": 2008,
-    "When": "2008-01-15"
+    "When": "2008-01-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Precious",
     "TitleOriginal": "Precious",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.66,
+    "RatingLetterboxd": 3.67,
     "Minutes": 110,
-    "Watched": 169590,
+    "Watched": 172758,
+    "Fans": 552,
+    "Likes": 29760,
     "Id": "1v6K",
     "Poster": "/d4ltLIDbvZskSwbzXqi0Hfv5ma4.jpg",
     "Year": 2009,
-    "When": "2009-11-06"
+    "When": "2009-11-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "Free Willy",
@@ -1904,11 +2342,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.94,
     "Minutes": 112,
-    "Watched": 184012,
+    "Watched": 186278,
+    "Fans": 407,
+    "Likes": 13727,
     "Id": "28qO",
     "Poster": "/1WLTjNznfvr3bkHf4p9PR4ctBKK.jpg",
     "Year": 1993,
-    "When": "1993-07-16"
+    "When": "1993-07-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Freeway",
@@ -1917,11 +2358,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.48,
     "Minutes": 105,
-    "Watched": 43806,
+    "Watched": 44320,
+    "Fans": 179,
+    "Likes": 12411,
     "Id": "1Uju",
     "Poster": "/m0pAARUq3foDWFsrUmlYDHtNPE9.jpg",
     "Year": 1996,
-    "When": "1996-08-23"
+    "When": "1996-08-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Orlando",
@@ -1930,11 +2374,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.89,
     "Minutes": 90,
-    "Watched": 67633,
+    "Watched": 68515,
+    "Fans": 1306,
+    "Likes": 22210,
     "Id": "1Z1K",
     "Poster": "/otSCGdKzEeVgbfNl0YslOpRZHgk.jpg",
     "Year": 1992,
-    "When": "1992-12-11"
+    "When": "1992-12-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Steamboat Willie",
@@ -1943,11 +2390,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.65,
     "Minutes": 8,
-    "Watched": 99735,
+    "Watched": 100795,
+    "Fans": 21,
+    "Likes": 16731,
     "Id": "wgk",
     "Poster": "/rjgjDtdz41ZgzhYsZQY6HPqz6Js.jpg",
     "Year": 1928,
-    "When": "1928-05-15"
+    "When": "1928-05-15",
+    "BlackAndWhite": true
   },
   {
     "Title": "Winter's Bone",
@@ -1956,11 +2406,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.53,
     "Minutes": 101,
-    "Watched": 149880,
+    "Watched": 151230,
+    "Fans": 158,
+    "Likes": 23232,
     "Id": "14FI",
     "Poster": "/a0qhPkNlxLfsf5B2jFyI1Pp04XV.jpg",
     "Year": 2010,
-    "When": "2010-06-11"
+    "When": "2010-06-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Rosemary's Baby",
@@ -1969,24 +2422,30 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.21,
     "Minutes": 138,
-    "Watched": 648922,
+    "Watched": 656953,
+    "Fans": 9165,
+    "Likes": 214109,
     "Id": "29zM",
     "Poster": "/nclYFGpVzfbiORO5ELVVdxzt9Vg.jpg",
     "Year": 1968,
-    "When": "1968-06-12"
+    "When": "1968-06-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Ghostbusters",
     "TitleOriginal": "Ghostbusters",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.76,
+    "RatingLetterboxd": 3.75,
     "Minutes": 107,
-    "Watched": 1337421,
+    "Watched": 1354647,
+    "Fans": 7148,
+    "Likes": 305396,
     "Id": "g2w",
     "Poster": "/7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg",
     "Year": 1984,
-    "When": "1984-06-08"
+    "When": "1984-06-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "Indie Game: The Movie",
@@ -1995,11 +2454,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.71,
     "Minutes": 103,
-    "Watched": 28971,
+    "Watched": 29080,
+    "Fans": 42,
+    "Likes": 5285,
     "Id": "2Nju",
     "Poster": "/2B1IqPg97ZhpEov4Fg3si4hI1Kw.jpg",
     "Year": 2012,
-    "When": "2012-05-18"
+    "When": "2012-05-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Delicatessen",
@@ -2008,11 +2470,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.82,
     "Minutes": 99,
-    "Watched": 123961,
+    "Watched": 125498,
+    "Fans": 1015,
+    "Likes": 31343,
     "Id": "29lK",
     "Poster": "/gNtOgQHxE5B8e08zuNRAdDpmK5Z.jpg",
     "Year": 1991,
-    "When": "1991-04-17"
+    "When": "1991-04-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Quills",
@@ -2021,11 +2486,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.48,
     "Minutes": 124,
-    "Watched": 35932,
+    "Watched": 36451,
+    "Fans": 138,
+    "Likes": 6269,
     "Id": "1Vay",
     "Poster": "/AvGdw3BpvJV2wHmK2qY0N7XHqET.jpg",
     "Year": 2000,
-    "When": "2000-11-22"
+    "When": "2000-11-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "Home Alone",
@@ -2034,11 +2502,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 3.83,
     "Minutes": 103,
-    "Watched": 3033732,
+    "Watched": 3087871,
+    "Fans": 5339,
+    "Likes": 759931,
     "Id": "29Fg",
     "Poster": "/onTSipZ8R3bliBdKfPtsDuHTdlL.jpg",
     "Year": 1990,
-    "When": "1990-11-16"
+    "When": "1990-11-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Dogville",
@@ -2047,11 +2518,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.17,
     "Minutes": 178,
-    "Watched": 215234,
+    "Watched": 218582,
+    "Fans": 4793,
+    "Likes": 67295,
     "Id": "2a8W",
     "Poster": "/lraVawavIXh5geMlVjpzCw9TGwR.jpg",
     "Year": 2003,
-    "When": "2003-05-21"
+    "When": "2003-05-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Batman Begins",
@@ -2060,11 +2534,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.81,
     "Minutes": 140,
-    "Watched": 2228603,
+    "Watched": 2262164,
+    "Fans": 4266,
+    "Likes": 589155,
     "Id": "2aIg",
     "Poster": "/4MpN4kIEqUjW8OPtOQJXlTdHiJV.jpg",
     "Year": 2005,
-    "When": "2005-06-10"
+    "When": "2005-06-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Thing",
@@ -2073,11 +2550,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.35,
     "Minutes": 109,
-    "Watched": 1142209,
+    "Watched": 1159057,
+    "Fans": 49604,
+    "Likes": 476618,
     "Id": "294O",
     "Poster": "/tzGY49kseSE9QAKk47uuDGwnSCu.jpg",
     "Year": 1982,
-    "When": "1982-06-25"
+    "When": "1982-06-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Witch",
@@ -2086,11 +2566,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.83,
     "Minutes": 92,
-    "Watched": 1498884,
+    "Watched": 1529663,
+    "Fans": 18793,
+    "Likes": 508533,
     "Id": "9X0m",
     "Poster": "/zap5hpFCWSvdWSuPGAQyjUv2wAC.jpg",
     "Year": 2015,
-    "When": "2016-02-19"
+    "When": "2016-02-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Silences of the Palace",
@@ -2099,24 +2582,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.93,
     "Minutes": 124,
-    "Watched": 2996,
+    "Watched": 3031,
+    "Fans": 52,
+    "Likes": 1017,
     "Id": "Slw",
     "Poster": "/c8QQRaI3k3LNUqYKmlKldhLpgYK.jpg",
     "Year": 1994,
-    "When": "1994-09-30"
+    "When": "1994-09-30",
+    "BlackAndWhite": false
   },
   {
     "Title": "Four Lions",
     "TitleOriginal": "Four Lions",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.88,
+    "RatingLetterboxd": 3.89,
     "Minutes": 97,
-    "Watched": 134522,
+    "Watched": 136159,
+    "Fans": 1177,
+    "Likes": 35330,
     "Id": "18do",
     "Poster": "/x4JzaRPXBs9wiHCe3e3ymXWuwfd.jpg",
     "Year": 2010,
-    "When": "2010-05-07"
+    "When": "2010-05-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "La Jet\u00E9e",
@@ -2125,11 +2614,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.33,
     "Minutes": 28,
-    "Watched": 179810,
+    "Watched": 182039,
+    "Fans": 2533,
+    "Likes": 66483,
     "Id": "29Sk",
     "Poster": "/tEmHd86DRbTTK7guyxSy7KwlgoI.jpg",
     "Year": 1962,
-    "When": "1962-02-16"
+    "When": "1962-02-16",
+    "BlackAndWhite": true
   },
   {
     "Title": "AlphaGo",
@@ -2138,24 +2630,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.87,
     "Minutes": 90,
-    "Watched": 10415,
+    "Watched": 10544,
+    "Fans": 29,
+    "Likes": 2584,
     "Id": "geTA",
-    "Poster": "/mBebKFGVVuv6tDnUP8F5wKqxuNA.jpg",
+    "Poster": "/zDxZwTCX22gYREAy73wiibzu9H6.jpg",
     "Year": 2017,
-    "When": "2017-04-21"
+    "When": "2017-04-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "He Was a Quiet Man",
     "TitleOriginal": "He Was a Quiet Man",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.13,
+    "RatingLetterboxd": 3.14,
     "Minutes": 95,
-    "Watched": 5733,
+    "Watched": 5778,
+    "Fans": 4,
+    "Likes": 583,
     "Id": "1WJ0",
     "Poster": "/iNchxsjU0zkOnkPQnRItkRNVvRF.jpg",
     "Year": 2007,
-    "When": "2007-11-23"
+    "When": "2007-11-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Help",
@@ -2164,24 +2662,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.93,
     "Minutes": 98,
-    "Watched": 19939,
+    "Watched": 20075,
+    "Fans": 70,
+    "Likes": 5506,
     "Id": "vaiU",
-    "Poster": "/33Z4AmHQYUpMWiM0T1jYq3xPdKI.jpg",
+    "Poster": "/xuB589szYuTcBJ0lZa0MSGAf1Ok.jpg",
     "Year": 2021,
-    "When": "2021-09-16"
+    "When": "2021-09-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Visit",
     "TitleOriginal": "The Visit",
     "Language": "English",
     "RatingSelf": 4,
-    "RatingLetterboxd": 3.65,
+    "RatingLetterboxd": 3.66,
     "Minutes": 100,
-    "Watched": 1249,
+    "Watched": 1267,
+    "Fans": 11,
+    "Likes": 333,
     "Id": "4LFM",
     "Poster": "/aZAfLgWqXQd42uvBfQvvpB946PP.jpg",
     "Year": 1964,
-    "When": "1964-05-06"
+    "When": "1964-05-06",
+    "BlackAndWhite": true
   },
   {
     "Title": "Mustang",
@@ -2190,11 +2694,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.15,
     "Minutes": 97,
-    "Watched": 133562,
+    "Watched": 135214,
+    "Fans": 2979,
+    "Likes": 45891,
     "Id": "baaw",
     "Poster": "/8lrsjdydRxhKlKiGuMbbzuFKrdN.jpg",
     "Year": 2015,
-    "When": "2015-06-17"
+    "When": "2015-06-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Rocky",
@@ -2203,11 +2710,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.08,
     "Minutes": 120,
-    "Watched": 1036604,
+    "Watched": 1052850,
+    "Fans": 13479,
+    "Likes": 283780,
     "Id": "28Uk",
-    "Poster": "/9zmxMBUq1QEevBm2IbMN72nQulX.jpg",
+    "Poster": "/uhX5kYBMcW9AT0FwWGElx19rpL6.jpg",
     "Year": 1976,
-    "When": "1976-11-20"
+    "When": "1976-11-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "21",
@@ -2216,50 +2726,62 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.07,
     "Minutes": 123,
-    "Watched": 268119,
+    "Watched": 272169,
+    "Fans": 472,
+    "Likes": 31188,
     "Id": "20BO",
     "Poster": "/BQzE6oTStXIZ5dqjXmRIVp19YB.jpg",
     "Year": 2008,
-    "When": "2008-03-27"
+    "When": "2008-03-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Harry Potter and the Half-Blood Prince",
     "TitleOriginal": "Harry Potter and the Half-Blood Prince",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.69,
+    "RatingLetterboxd": 3.70,
     "Minutes": 153,
-    "Watched": 2468542,
+    "Watched": 2515396,
+    "Fans": 6777,
+    "Likes": 537350,
     "Id": "29FU",
     "Poster": "/z7uo9zmQdQwU5ZJHFpv2Upl30i1.jpg",
     "Year": 2009,
-    "When": "2009-07-15"
+    "When": "2009-07-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Interstellar",
     "TitleOriginal": "Interstellar",
     "Language": "English",
     "RatingSelf": 5,
-    "RatingLetterboxd": 4.39,
+    "RatingLetterboxd": 4.40,
     "Minutes": 169,
-    "Watched": 4532218,
+    "Watched": 4669875,
+    "Fans": 295229,
+    "Likes": 2222319,
     "Id": "4VZ8",
     "Poster": "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
     "Year": 2014,
-    "When": "2014-11-05"
+    "When": "2014-11-05",
+    "BlackAndWhite": false
   },
   {
     "Title": "Dead Poets Society",
     "TitleOriginal": "Dead Poets Society",
     "Language": "English",
     "RatingSelf": 4,
-    "RatingLetterboxd": 4.29,
+    "RatingLetterboxd": 4.30,
     "Minutes": 128,
-    "Watched": 2477896,
+    "Watched": 2538846,
+    "Fans": 170025,
+    "Likes": 1112049,
     "Id": "2aSg",
     "Poster": "/hmGAF5NDoYB6S39UONevjHCESOI.jpg",
     "Year": 1989,
-    "When": "1989-06-02"
+    "When": "1989-06-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Secret Life of Words",
@@ -2268,24 +2790,30 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.69,
     "Minutes": 115,
-    "Watched": 5533,
+    "Watched": 5573,
+    "Fans": 35,
+    "Likes": 1051,
     "Id": "2b1s",
     "Poster": "/xtggfM8o8CtJphOrDsUqDaHDpyu.jpg",
     "Year": 2005,
-    "When": "2005-12-15"
+    "When": "2005-12-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "The World Is Not Enough",
     "TitleOriginal": "The World Is Not Enough",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 2.88,
+    "RatingLetterboxd": 2.89,
     "Minutes": 128,
-    "Watched": 173397,
+    "Watched": 175177,
+    "Fans": 30,
+    "Likes": 16572,
     "Id": "1a94",
     "Poster": "/wCb2msgoZPK01WIqry24M4xsM73.jpg",
     "Year": 1999,
-    "When": "1999-11-17"
+    "When": "1999-11-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Rounders",
@@ -2294,11 +2822,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.58,
     "Minutes": 121,
-    "Watched": 120507,
+    "Watched": 122251,
+    "Fans": 674,
+    "Likes": 25024,
     "Id": "1WMS",
-    "Poster": "/xJ9NnZK0PHJN48G4NH35C01xQ81.jpg",
+    "Poster": "/mqbMwYGwIChnaCO55h7v8DG8Wwy.jpg",
     "Year": 1998,
-    "When": "1998-09-11"
+    "When": "1998-09-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Dark Knight",
@@ -2307,11 +2838,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.48,
     "Minutes": 152,
-    "Watched": 4189908,
+    "Watched": 4257719,
+    "Fans": 103776,
+    "Likes": 1891161,
     "Id": "2b0k",
     "Poster": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
     "Year": 2008,
-    "When": "2008-07-16"
+    "When": "2008-07-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Fahrenheit 9/11",
@@ -2320,11 +2854,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.57,
     "Minutes": 123,
-    "Watched": 116209,
+    "Watched": 117344,
+    "Fans": 19,
+    "Likes": 12651,
     "Id": "28a2",
     "Poster": "/1WQgOCJj22zF7Bsr0pIBgGBr71q.jpg",
     "Year": 2004,
-    "When": "2004-06-25"
+    "When": "2004-06-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Me and Orson Welles",
@@ -2333,11 +2870,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.23,
     "Minutes": 114,
-    "Watched": 12306,
+    "Watched": 12380,
+    "Fans": 5,
+    "Likes": 1456,
     "Id": "1S3O",
     "Poster": "/jU7KFn4O1HLgzj9WkkmBkzJNPlN.jpg",
     "Year": 2008,
-    "When": "2008-09-05"
+    "When": "2008-09-05",
+    "BlackAndWhite": false
   },
   {
     "Title": "Porridge",
@@ -2346,11 +2886,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.44,
     "Minutes": 93,
-    "Watched": 1498,
+    "Watched": 1554,
+    "Fans": 1,
+    "Likes": 300,
     "Id": "16k8",
     "Poster": "/ugFjZndHPI4lKZQtOVxWabmsi7K.jpg",
     "Year": 1979,
-    "When": "1979-08-12"
+    "When": "1979-08-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Atonement",
@@ -2359,11 +2902,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.99,
     "Minutes": 123,
-    "Watched": 656630,
+    "Watched": 674486,
+    "Fans": 12647,
+    "Likes": 209264,
     "Id": "24ui",
     "Poster": "/hMRIyBjPzxaSXWM06se3OcNjIQa.jpg",
     "Year": 2007,
-    "When": "2007-02-27"
+    "When": "2007-02-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Run Lola Run",
@@ -2372,11 +2918,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.85,
     "Minutes": 81,
-    "Watched": 286407,
+    "Watched": 291920,
+    "Fans": 2781,
+    "Likes": 78854,
     "Id": "2b8o",
     "Poster": "/u34YzbFvX067IvJX1ocI4JBvYPa.jpg",
     "Year": 1998,
-    "When": "1998-08-20"
+    "When": "1998-08-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Parent Trap",
@@ -2385,11 +2934,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.74,
     "Minutes": 128,
-    "Watched": 1357906,
+    "Watched": 1388610,
+    "Fans": 18899,
+    "Likes": 336219,
     "Id": "1XJq",
     "Poster": "/dNqgjqxHIdfsQRQL5XTujNfX9pj.jpg",
     "Year": 1998,
-    "When": "1998-07-28"
+    "When": "1998-07-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Nun's Story",
@@ -2398,11 +2950,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.63,
     "Minutes": 151,
-    "Watched": 11911,
+    "Watched": 12061,
+    "Fans": 38,
+    "Likes": 2404,
     "Id": "1sFW",
     "Poster": "/4vNWFhPyjTehPpZsvTnTywwXSiF.jpg",
     "Year": 1959,
-    "When": "1959-06-18"
+    "When": "1959-06-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Trip",
@@ -2411,11 +2966,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.67,
     "Minutes": 107,
-    "Watched": 37892,
+    "Watched": 38184,
+    "Fans": 68,
+    "Likes": 7991,
     "Id": "6Bc",
     "Poster": "/tjGrjHNjsR0klih0bkGBHbukMdX.jpg",
     "Year": 2010,
-    "When": "2011-04-24"
+    "When": "2011-04-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "Lara Croft: Tomb Raider",
@@ -2424,24 +2982,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.65,
     "Minutes": 100,
-    "Watched": 297972,
+    "Watched": 302266,
+    "Fans": 302,
+    "Likes": 25989,
     "Id": "27G2",
     "Poster": "/7WyMvoqPYJe5g1ENsbLTv40pUrX.jpg",
     "Year": 2001,
-    "When": "2001-06-11"
+    "When": "2001-06-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Mean Girls",
     "TitleOriginal": "Mean Girls",
     "Language": "English",
     "RatingSelf": 5,
-    "RatingLetterboxd": 3.84,
+    "RatingLetterboxd": 3.83,
     "Minutes": 97,
-    "Watched": 3122892,
+    "Watched": 3189053,
+    "Fans": 26027,
+    "Likes": 989593,
     "Id": "1VNg",
     "Poster": "/qWQrMAVtWEOVkZk8iLFgI5qzqlA.jpg",
     "Year": 2004,
-    "When": "2004-04-30"
+    "When": "2004-04-30",
+    "BlackAndWhite": false
   },
   {
     "Title": "Fifty Shades of Grey",
@@ -2450,11 +3014,14 @@ var films = [
     "RatingSelf": 1,
     "RatingLetterboxd": 1.78,
     "Minutes": 125,
-    "Watched": 583486,
+    "Watched": 595267,
+    "Fans": 816,
+    "Likes": 35093,
     "Id": "6qLo",
     "Poster": "/63kGofUkt1Mx0SIL4XI4Z5AoSgt.jpg",
     "Year": 2015,
-    "When": "2015-02-11"
+    "When": "2015-02-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Piano",
@@ -2463,11 +3030,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.86,
     "Minutes": 120,
-    "Watched": 158134,
+    "Watched": 160085,
+    "Fans": 1668,
+    "Likes": 37392,
     "Id": "29Kq",
     "Poster": "/rx8RKXn8OtuS6lqloYsjyrGOUp4.jpg",
     "Year": 1993,
-    "When": "1993-05-18"
+    "When": "1993-05-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Die Hard: With a Vengeance",
@@ -2476,11 +3046,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.70,
     "Minutes": 128,
-    "Watched": 321121,
+    "Watched": 324827,
+    "Fans": 558,
+    "Likes": 65423,
     "Id": "28zG",
     "Poster": "/amwo4CjYKynZ2yKvKMxoiRSsaE1.jpg",
     "Year": 1995,
-    "When": "1995-05-19"
+    "When": "1995-05-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Mummy",
@@ -2489,24 +3062,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.55,
     "Minutes": 124,
-    "Watched": 884877,
+    "Watched": 898983,
+    "Fans": 7518,
+    "Likes": 189145,
     "Id": "2a7a",
     "Poster": "/yhIsVvcUm7QxzLfT6HW2wLf5ajY.jpg",
     "Year": 1999,
-    "When": "1999-04-16"
+    "When": "1999-04-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Taken",
     "TitleOriginal": "Taken",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.50,
+    "RatingLetterboxd": 3.51,
     "Minutes": 94,
-    "Watched": 634664,
+    "Watched": 644209,
+    "Fans": 1293,
+    "Likes": 102075,
     "Id": "1ZXa",
     "Poster": "/y5Va1WXDX6nZElVirPrGxf6w99B.jpg",
     "Year": 2008,
-    "When": "2008-02-18"
+    "When": "2008-02-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Portrait of a Young Girl at the End of the 60s in Brussels",
@@ -2515,11 +3094,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.14,
     "Minutes": 60,
-    "Watched": 11217,
+    "Watched": 11382,
+    "Fans": 255,
+    "Likes": 5315,
     "Id": "462a",
     "Poster": "/xRlnt5UqGdBZdkccOlRgQTGpLAh.jpg",
     "Year": 1994,
-    "When": "1994-11-04"
+    "When": "1994-11-04",
+    "BlackAndWhite": false
   },
   {
     "Title": "Arachnophobia",
@@ -2528,11 +3110,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.24,
     "Minutes": 109,
-    "Watched": 88881,
+    "Watched": 89622,
+    "Fans": 48,
+    "Likes": 14719,
     "Id": "21Co",
     "Poster": "/lHjpwv1Yv2RcGcTQb4Lc1cKw1y9.jpg",
     "Year": 1990,
-    "When": "1990-07-20"
+    "When": "1990-07-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Knock Down the House",
@@ -2541,11 +3126,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.81,
     "Minutes": 86,
-    "Watched": 37357,
+    "Watched": 37481,
+    "Fans": 21,
+    "Likes": 8800,
     "Id": "kIss",
     "Poster": "/uAfixuZIFVbWIsWytzROJDY85D7.jpg",
     "Year": 2019,
-    "When": "2019-01-27"
+    "When": "2019-01-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Hitman",
@@ -2554,11 +3142,14 @@ var films = [
     "RatingSelf": 1,
     "RatingLetterboxd": 2.35,
     "Minutes": 94,
-    "Watched": 81972,
+    "Watched": 83163,
+    "Fans": 52,
+    "Likes": 5843,
     "Id": "28sU",
     "Poster": "/h69UJOOKlrHcvhl5H2LY74N61DQ.jpg",
     "Year": 2007,
-    "When": "2007-11-21"
+    "When": "2007-11-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Mean Creek",
@@ -2567,11 +3158,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.61,
     "Minutes": 90,
-    "Watched": 25320,
+    "Watched": 25565,
+    "Fans": 89,
+    "Likes": 5359,
     "Id": "1S7c",
     "Poster": "/47icHsfwq7qpfPTuGwZxAtQ0olJ.jpg",
     "Year": 2004,
-    "When": "2004-08-20"
+    "When": "2004-08-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Aliens",
@@ -2580,24 +3174,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.12,
     "Minutes": 137,
-    "Watched": 978863,
+    "Watched": 991911,
+    "Fans": 12221,
+    "Likes": 323012,
     "Id": "29PA",
     "Poster": "/r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg",
     "Year": 1986,
-    "When": "1986-07-18"
+    "When": "1986-07-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Eternal Memory",
     "TitleOriginal": "La memoria infinita",
     "Language": "Spanish",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.84,
+    "RatingLetterboxd": 3.85,
     "Minutes": 85,
-    "Watched": 29566,
+    "Watched": 29867,
+    "Fans": 142,
+    "Likes": 11362,
     "Id": "D4g0",
     "Poster": "/dKIcHpK6EtKocvE2PHVfmkYtrdK.jpg",
     "Year": 2023,
-    "When": "2023-08-11"
+    "When": "2023-08-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Superbad",
@@ -2606,11 +3206,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.89,
     "Minutes": 113,
-    "Watched": 2171261,
+    "Watched": 2211046,
+    "Fans": 27473,
+    "Likes": 712187,
     "Id": "20hO",
     "Poster": "/ek8e8txUyUwd2BNqj6lFEerJfbq.jpg",
     "Year": 2007,
-    "When": "2007-03-20"
+    "When": "2007-03-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Thirteen",
@@ -2619,24 +3222,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.49,
     "Minutes": 100,
-    "Watched": 529314,
+    "Watched": 545052,
+    "Fans": 11168,
+    "Likes": 163236,
     "Id": "1UPK",
     "Poster": "/uzTLlZrNF6rMPBh5mUQu6vLnTtX.jpg",
     "Year": 2003,
-    "When": "2003-08-20"
+    "When": "2003-08-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Bling Ring",
     "TitleOriginal": "The Bling Ring",
     "Language": "English",
     "RatingSelf": 3,
-    "RatingLetterboxd": 2.92,
+    "RatingLetterboxd": 2.93,
     "Minutes": 90,
-    "Watched": 426173,
+    "Watched": 432652,
+    "Fans": 1830,
+    "Likes": 72436,
     "Id": "3lPY",
     "Poster": "/tYLHIM8LIhqCYKS2wdaIOX8tetf.jpg",
     "Year": 2013,
-    "When": "2013-06-12"
+    "When": "2013-06-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "The King's Speech",
@@ -2645,24 +3254,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.79,
     "Minutes": 118,
-    "Watched": 700009,
+    "Watched": 708017,
+    "Fans": 1235,
+    "Likes": 135117,
     "Id": "dX0",
     "Poster": "/pVNKXVQFukBaCz6ML7GH3kiPlQP.jpg",
     "Year": 2010,
-    "When": "2010-11-26"
+    "When": "2010-11-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Groundhog Day",
     "TitleOriginal": "Groundhog Day",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.83,
+    "RatingLetterboxd": 3.82,
     "Minutes": 101,
-    "Watched": 1116972,
+    "Watched": 1132384,
+    "Fans": 4711,
+    "Likes": 270011,
     "Id": "2b3e",
     "Poster": "/gCgt1WARPZaXnq523ySQEUKinCs.jpg",
     "Year": 1993,
-    "When": "1993-02-11"
+    "When": "1993-02-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "District 9",
@@ -2671,11 +3286,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.81,
     "Minutes": 112,
-    "Watched": 693063,
+    "Watched": 700454,
+    "Fans": 2447,
+    "Likes": 165497,
     "Id": "1Iik",
     "Poster": "/tuGlQkqLxnodDSk6mp5c2wvxUEd.jpg",
     "Year": 2009,
-    "When": "2009-08-05"
+    "When": "2009-08-05",
+    "BlackAndWhite": false
   },
   {
     "Title": "Three Colors: White",
@@ -2684,11 +3302,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.83,
     "Minutes": 92,
-    "Watched": 168199,
+    "Watched": 170480,
+    "Fans": 386,
+    "Likes": 41941,
     "Id": "2b7A",
     "Poster": "/fdIet3NSa27gobMbaUml66oCQNT.jpg",
     "Year": 1994,
-    "When": "1994-01-26"
+    "When": "1994-01-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Run Fatboy Run",
@@ -2697,11 +3318,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.03,
     "Minutes": 100,
-    "Watched": 42712,
+    "Watched": 43041,
+    "Fans": 16,
+    "Likes": 4381,
     "Id": "20K2",
     "Poster": "/2MZNPXJquIG8OcwajiR8YkCr7ak.jpg",
     "Year": 2007,
-    "When": "2007-09-06"
+    "When": "2007-09-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Perfect Storm",
@@ -2710,11 +3334,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.13,
     "Minutes": 130,
-    "Watched": 113392,
+    "Watched": 114701,
+    "Fans": 97,
+    "Likes": 12429,
     "Id": "27n0",
     "Poster": "/vJPoxqgpfFNbGi0HyoNsjFeLCio.jpg",
     "Year": 2000,
-    "When": "2000-06-29"
+    "When": "2000-06-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "Catch Me If You Can",
@@ -2723,11 +3350,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.04,
     "Minutes": 141,
-    "Watched": 2298399,
+    "Watched": 2339816,
+    "Fans": 15562,
+    "Likes": 699363,
     "Id": "29VS",
     "Poster": "/sdYgEkKCDPWNU6KnoL4qd8xZ4w7.jpg",
     "Year": 2002,
-    "When": "2002-12-16"
+    "When": "2002-12-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Comrade Kim Goes Flying",
@@ -2736,11 +3366,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.34,
     "Minutes": 77,
-    "Watched": 834,
+    "Watched": 840,
+    "Fans": 2,
+    "Likes": 177,
     "Id": "4bu4",
     "Poster": "/qvhbzcqes1ZTQX63vszyvBEXPRd.jpg",
     "Year": 2012,
-    "When": "2012-09-09"
+    "When": "2012-09-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Apocalypse Now",
@@ -2749,11 +3382,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.44,
     "Minutes": 147,
-    "Watched": 1008741,
+    "Watched": 1023148,
+    "Fans": 33111,
+    "Likes": 351411,
     "Id": "6ZS",
     "Poster": "/gQB8Y5RCMkv2zwzFHbUJX3kAhvA.jpg",
     "Year": 1979,
-    "When": "1979-05-19"
+    "When": "1979-05-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Prometheus",
@@ -2762,11 +3398,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.29,
     "Minutes": 124,
-    "Watched": 799494,
+    "Watched": 809754,
+    "Fans": 1714,
+    "Likes": 163082,
     "Id": "2s9e",
     "Poster": "/m7nZCtHJyDLncBUarfM5h5mrppx.jpg",
     "Year": 2012,
-    "When": "2012-05-30"
+    "When": "2012-05-30",
+    "BlackAndWhite": false
   },
   {
     "Title": "Lost in Translation",
@@ -2775,11 +3414,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.80,
     "Minutes": 102,
-    "Watched": 1494752,
+    "Watched": 1518016,
+    "Fans": 35987,
+    "Likes": 469784,
     "Id": "2b0E",
-    "Poster": "/wkSzJs7oMf8MIr9CQVICsvRfwA7.jpg",
+    "Poster": "/4k4Yz08WGfbu8ITIjaG99XTeco8.jpg",
     "Year": 2003,
-    "When": "2003-09-18"
+    "When": "2003-09-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Closer",
@@ -2788,11 +3430,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.39,
     "Minutes": 104,
-    "Watched": 449034,
+    "Watched": 457861,
+    "Fans": 5060,
+    "Likes": 102875,
     "Id": "270K",
     "Poster": "/fGGaokx4k00S0J603VG53Qlr9jz.jpg",
     "Year": 2004,
-    "When": "2004-12-03"
+    "When": "2004-12-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Pleasure",
@@ -2801,11 +3446,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.39,
     "Minutes": 108,
-    "Watched": 94909,
+    "Watched": 95745,
+    "Fans": 64,
+    "Likes": 16908,
     "Id": "lPcy",
     "Poster": "/7Z2K08J0WantJHNa0vLTOmii41l.jpg",
     "Year": 2021,
-    "When": "2021-10-08"
+    "When": "2021-10-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "My Big Fat Greek Wedding",
@@ -2814,11 +3462,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.39,
     "Minutes": 95,
-    "Watched": 346273,
+    "Watched": 352244,
+    "Fans": 1385,
+    "Likes": 64532,
     "Id": "20k4",
     "Poster": "/ztc05ym0T3stnBpRHdxEs3Zwsmp.jpg",
     "Year": 2002,
-    "When": "2002-04-19"
+    "When": "2002-04-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Alan Partridge: Alpha Papa",
@@ -2827,11 +3478,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.56,
     "Minutes": 90,
-    "Watched": 33535,
+    "Watched": 33762,
+    "Fans": 78,
+    "Likes": 7129,
     "Id": "5rFE",
     "Poster": "/oqdSe46XQ9CKcj1WMyfD2LaVoER.jpg",
     "Year": 2013,
-    "When": "2013-07-24"
+    "When": "2013-07-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "Dirty Computer",
@@ -2840,11 +3494,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.02,
     "Minutes": 49,
-    "Watched": 16181,
+    "Watched": 16262,
+    "Fans": 37,
+    "Likes": 6008,
     "Id": "iLhe",
     "Poster": "/s0DmUmSXuQmlHq83OsX0g13blaK.jpg",
     "Year": 2018,
-    "When": "2018-04-23"
+    "When": "2018-04-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Go",
@@ -2853,11 +3510,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.67,
     "Minutes": 98,
-    "Watched": 72595,
+    "Watched": 73370,
+    "Fans": 496,
+    "Likes": 20344,
     "Id": "1YHA",
     "Poster": "/kP0OOAa4GTZSUPW8fgPbk1OmKEW.jpg",
     "Year": 1999,
-    "When": "1999-04-09"
+    "When": "1999-04-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Mask",
@@ -2866,11 +3526,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.36,
     "Minutes": 101,
-    "Watched": 1160502,
+    "Watched": 1181063,
+    "Fans": 2561,
+    "Likes": 201430,
     "Id": "29rS",
     "Poster": "/xbbXp9px4o8Oe7IbGd0yIbla8mZ.jpg",
     "Year": 1994,
-    "When": "1994-07-29"
+    "When": "1994-07-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "Oppenheimer",
@@ -2879,11 +3542,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.20,
     "Minutes": 181,
-    "Watched": 3372671,
+    "Watched": 3445442,
+    "Fans": 37261,
+    "Likes": 1340627,
     "Id": "wUow",
     "Poster": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
     "Year": 2023,
-    "When": "2023-07-19"
+    "When": "2023-07-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Goat",
@@ -2892,11 +3558,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.92,
     "Minutes": 23,
-    "Watched": 16090,
+    "Watched": 16308,
+    "Fans": 5,
+    "Likes": 5091,
     "Id": "BAE",
     "Poster": "/wwyhlEIHW79y2NqNQ79Xc6LHRVZ.jpg",
     "Year": 1921,
-    "When": "1921-05-15"
+    "When": "1921-05-15",
+    "BlackAndWhite": true
   },
   {
     "Title": "Kill Bill: Vol. 2",
@@ -2905,11 +3574,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.08,
     "Minutes": 136,
-    "Watched": 1632203,
+    "Watched": 1659279,
+    "Fans": 7981,
+    "Likes": 515855,
     "Id": "2au4",
-    "Poster": "/nZlx4AacM0OwUCjvhrjNYUXGFCv.jpg",
+    "Poster": "/2yhg0mZQMhDyvUQ4rG1IZ4oIA8L.jpg",
     "Year": 2004,
-    "When": "2004-04-16"
+    "When": "2004-04-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Memento",
@@ -2918,11 +3590,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.17,
     "Minutes": 113,
-    "Watched": 1821829,
+    "Watched": 1854006,
+    "Fans": 25549,
+    "Likes": 610783,
     "Id": "2bcK",
     "Poster": "/nWtySDlffTfwAa0rSfq61o33ZXV.jpg",
     "Year": 2000,
-    "When": "2000-10-11"
+    "When": "2000-10-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Suspense.",
@@ -2931,11 +3606,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.78,
     "Minutes": 11,
-    "Watched": 19231,
+    "Watched": 19931,
+    "Fans": 6,
+    "Likes": 5166,
     "Id": "3zPo",
     "Poster": "/xZcieHUQYeOwuDErPMqhQdzXVIj.jpg",
     "Year": 1913,
-    "When": "1913-07-06"
+    "When": "1913-07-06",
+    "BlackAndWhite": true
   },
   {
     "Title": "Ocean's Thirteen",
@@ -2944,11 +3622,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.37,
     "Minutes": 122,
-    "Watched": 503856,
+    "Watched": 510962,
+    "Fans": 433,
+    "Likes": 78754,
     "Id": "2aEy",
     "Poster": "/pBsZs4zYUiUTemqbikTZ76iQRaU.jpg",
     "Year": 2007,
-    "When": "2007-06-05"
+    "When": "2007-06-05",
+    "BlackAndWhite": false
   },
   {
     "Title": "Free to Play",
@@ -2957,11 +3638,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.44,
     "Minutes": 75,
-    "Watched": 4347,
+    "Watched": 4373,
+    "Fans": 5,
+    "Likes": 588,
     "Id": "7zhu",
     "Poster": "/ohLJT2UiFLsiw3SeXrbw6dxT7Fg.jpg",
     "Year": 2014,
-    "When": "2014-03-19"
+    "When": "2014-03-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Into the Wild",
@@ -2970,24 +3654,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.81,
     "Minutes": 148,
-    "Watched": 764999,
+    "Watched": 775576,
+    "Fans": 14443,
+    "Likes": 191293,
     "Id": "22m2",
     "Poster": "/jnLnLYP5pGDfri04gxtAqAvkHMw.jpg",
     "Year": 2007,
-    "When": "2007-09-21"
+    "When": "2007-09-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "That Darn Cat",
     "TitleOriginal": "That Darn Cat",
     "Language": "English",
     "RatingSelf": 2,
-    "RatingLetterboxd": 2.54,
+    "RatingLetterboxd": 2.55,
     "Minutes": 89,
-    "Watched": 8885,
+    "Watched": 8972,
+    "Fans": 3,
+    "Likes": 640,
     "Id": "1CZ8",
     "Poster": "/6ePLTI633Qyb9iSylyObUPxnlYr.jpg",
     "Year": 1997,
-    "When": "1997-02-14"
+    "When": "1997-02-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Jack Reacher",
@@ -2996,11 +3686,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.18,
     "Minutes": 130,
-    "Watched": 281179,
+    "Watched": 284335,
+    "Fans": 103,
+    "Likes": 38267,
     "Id": "2BUo",
     "Poster": "/uQBbjrLVsUibWxNDGA4Czzo8lwz.jpg",
     "Year": 2012,
-    "When": "2012-12-20"
+    "When": "2012-12-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Django Unchained",
@@ -3009,11 +3702,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.29,
     "Minutes": 165,
-    "Watched": 3068021,
+    "Watched": 3119802,
+    "Fans": 48382,
+    "Likes": 1212694,
     "Id": "2cCk",
-    "Poster": "/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg",
+    "Poster": "/bV0rWoiRo7pHUTQkh6Oio6irlXO.jpg",
     "Year": 2012,
-    "When": "2012-12-25"
+    "When": "2012-12-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "28 Weeks Later",
@@ -3022,11 +3718,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.10,
     "Minutes": 100,
-    "Watched": 280838,
+    "Watched": 288549,
+    "Fans": 278,
+    "Likes": 42820,
     "Id": "28Bi",
     "Poster": "/ja8nzgtzhJq0vtX3BJcnbceIxCF.jpg",
     "Year": 2007,
-    "When": "2007-04-26"
+    "When": "2007-04-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Prestige",
@@ -3035,11 +3734,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.25,
     "Minutes": 130,
-    "Watched": 1675031,
+    "Watched": 1704715,
+    "Fans": 31821,
+    "Likes": 568282,
     "Id": "293w",
     "Poster": "/bdN3gXuIZYaJP7ftKK2sU0nPtEA.jpg",
     "Year": 2006,
-    "When": "2006-10-17"
+    "When": "2006-10-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Resident Evil",
@@ -3048,11 +3750,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.91,
     "Minutes": 100,
-    "Watched": 350321,
+    "Watched": 355152,
+    "Fans": 914,
+    "Likes": 53604,
     "Id": "28z2",
     "Poster": "/1UKNef590A0ZaMnxsscIcWuK1Em.jpg",
     "Year": 2002,
-    "When": "2002-03-15"
+    "When": "2002-03-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Pleasantville",
@@ -3061,24 +3766,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.69,
     "Minutes": 124,
-    "Watched": 193118,
+    "Watched": 195264,
+    "Fans": 791,
+    "Likes": 41915,
     "Id": "26uY",
     "Poster": "/m1hhYP6OScjKU5Z9iZaWirSn4I6.jpg",
     "Year": 1998,
-    "When": "1998-09-17"
+    "When": "1998-09-17",
+    "BlackAndWhite": true
   },
   {
     "Title": "Final Cut: Ladies and Gentlemen",
     "TitleOriginal": "Final Cut: H\u00F6lgyeim \u00E9s uraim",
     "Language": "Hungarian",
     "RatingSelf": 3,
-    "RatingLetterboxd": 3.88,
+    "RatingLetterboxd": 3.87,
     "Minutes": 84,
-    "Watched": 6418,
+    "Watched": 6536,
+    "Fans": 17,
+    "Likes": 1791,
     "Id": "491E",
     "Poster": "/eoMO14iZVBTILw1BppQu6ZHaJdA.jpg",
     "Year": 2012,
-    "When": "2012-02-04"
+    "When": "2012-02-04",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Grand Budapest Hotel",
@@ -3087,11 +3798,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.24,
     "Minutes": 100,
-    "Watched": 2986522,
+    "Watched": 3033825,
+    "Fans": 70091,
+    "Likes": 1301159,
     "Id": "3ZqO",
     "Poster": "/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
     "Year": 2014,
-    "When": "2014-02-26"
+    "When": "2014-02-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Helter Skelter",
@@ -3100,11 +3814,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.84,
     "Minutes": 127,
-    "Watched": 59375,
+    "Watched": 61997,
+    "Fans": 4334,
+    "Likes": 27083,
     "Id": "3ybW",
     "Poster": "/nrTHLNNjejHgoVVkJUowkTpndI0.jpg",
     "Year": 2012,
-    "When": "2012-07-14"
+    "When": "2012-07-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Willy Wonka \u0026 the Chocolate Factory",
@@ -3113,11 +3830,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.81,
     "Minutes": 99,
-    "Watched": 919160,
+    "Watched": 932004,
+    "Fans": 4541,
+    "Likes": 200421,
     "Id": "2aLu",
-    "Poster": "/4yDIYI90akVOsaqk4ct2jlvjpYz.jpg",
+    "Poster": "/xL2GISX0MODJfpHrMdLdZF6xWgW.jpg",
     "Year": 1971,
-    "When": "1971-06-29"
+    "When": "1971-06-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "My Life Without Me",
@@ -3126,11 +3846,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.67,
     "Minutes": 106,
-    "Watched": 15113,
+    "Watched": 15295,
+    "Fans": 131,
+    "Likes": 3400,
     "Id": "710",
     "Poster": "/pFEtVPW88pWflYV84UFL0h1iJr3.jpg",
     "Year": 2003,
-    "When": "2003-03-07"
+    "When": "2003-03-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "John Wick",
@@ -3139,11 +3862,14 @@ var films = [
     "RatingSelf": 1,
     "RatingLetterboxd": 3.82,
     "Minutes": 101,
-    "Watched": 1934757,
+    "Watched": 1964820,
+    "Fans": 9519,
+    "Likes": 586481,
     "Id": "7dEc",
     "Poster": "/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg",
     "Year": 2014,
-    "When": "2014-10-22"
+    "When": "2014-10-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "Men in Black",
@@ -3152,11 +3878,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.67,
     "Minutes": 98,
-    "Watched": 1374327,
+    "Watched": 1395380,
+    "Fans": 1745,
+    "Likes": 276334,
     "Id": "2a0I",
     "Poster": "/uLOmOF5IzWoyrgIF5MfUnh5pa1X.jpg",
     "Year": 1997,
-    "When": "1997-07-02"
+    "When": "1997-07-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "The 51st State",
@@ -3165,11 +3894,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.90,
     "Minutes": 93,
-    "Watched": 15259,
+    "Watched": 15433,
+    "Fans": 11,
+    "Likes": 1546,
     "Id": "28tS",
     "Poster": "/5MaF1WIt8s9aEGQpYfaKhEOgVjK.jpg",
     "Year": 2001,
-    "When": "2001-12-07"
+    "When": "2001-12-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Food, Inc.",
@@ -3178,11 +3910,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.61,
     "Minutes": 94,
-    "Watched": 43195,
+    "Watched": 43475,
+    "Fans": 12,
+    "Likes": 3964,
     "Id": "1GGY",
     "Poster": "/zdwN4o7OGAZGJw9T64lRAGTEP8b.jpg",
     "Year": 2008,
-    "When": "2008-09-07"
+    "When": "2008-09-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Changeling",
@@ -3191,11 +3926,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.69,
     "Minutes": 141,
-    "Watched": 151842,
+    "Watched": 153680,
+    "Fans": 352,
+    "Likes": 24699,
     "Id": "25aS",
     "Poster": "/iECXjFF8JkTnNJvik14WbPpc9s9.jpg",
     "Year": 2008,
-    "When": "2008-10-24"
+    "When": "2008-10-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "L.A. Confidential",
@@ -3204,11 +3942,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.07,
     "Minutes": 138,
-    "Watched": 443644,
+    "Watched": 449538,
+    "Fans": 2420,
+    "Likes": 116851,
     "Id": "27oC",
     "Poster": "/lWCgf5sD5FpMljjpkRhcC8pXcch.jpg",
     "Year": 1997,
-    "When": "1997-09-19"
+    "When": "1997-09-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "A Trip to the Moon",
@@ -3217,11 +3958,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.98,
     "Minutes": 15,
-    "Watched": 442436,
+    "Watched": 449166,
+    "Fans": 448,
+    "Likes": 99533,
     "Id": "29EC",
     "Poster": "/9o0v5LLFk51nyTBHZSre6OB37n2.jpg",
     "Year": 1902,
-    "When": "1902-06-21"
+    "When": "1902-06-21",
+    "BlackAndWhite": true
   },
   {
     "Title": "Falling Leaves",
@@ -3230,24 +3974,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.57,
     "Minutes": 12,
-    "Watched": 15833,
+    "Watched": 16091,
+    "Fans": 18,
+    "Likes": 4167,
     "Id": "4GkO",
     "Poster": "/qgxrwkkTyc7lzvXwY4zk6yCzet9.jpg",
     "Year": 1912,
-    "When": "1912-03-15"
+    "When": "1912-03-15",
+    "BlackAndWhite": true
   },
   {
     "Title": "Rope",
     "TitleOriginal": "Rope",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 4.14,
+    "RatingLetterboxd": 4.13,
     "Minutes": 81,
-    "Watched": 328206,
+    "Watched": 332654,
+    "Fans": 3066,
+    "Likes": 110089,
     "Id": "28yo",
     "Poster": "/9ar6rxLDB8kagAnXZKn6h9smscr.jpg",
     "Year": 1948,
-    "When": "1948-03-11"
+    "When": "1948-03-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Godfather Part II",
@@ -3256,11 +4006,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.59,
     "Minutes": 202,
-    "Watched": 1335264,
+    "Watched": 1358143,
+    "Fans": 33793,
+    "Likes": 494331,
     "Id": "2aNq",
     "Poster": "/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg",
     "Year": 1974,
-    "When": "1974-12-20"
+    "When": "1974-12-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Ingrid Goes West",
@@ -3269,11 +4022,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.33,
     "Minutes": 97,
-    "Watched": 219342,
+    "Watched": 221715,
+    "Fans": 499,
+    "Likes": 48015,
     "Id": "evUQ",
     "Poster": "/3LEyW11onDltXHo0L1X23j9Nnvg.jpg",
     "Year": 2017,
-    "When": "2017-08-11"
+    "When": "2017-08-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "We Need to Talk About Kevin",
@@ -3282,11 +4038,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.81,
     "Minutes": 113,
-    "Watched": 556562,
+    "Watched": 563814,
+    "Fans": 2520,
+    "Likes": 143077,
     "Id": "2pTS",
     "Poster": "/auAmiRmbBQ5QIYGpWgcGBoBQY3b.jpg",
     "Year": 2011,
-    "When": "2011-09-28"
+    "When": "2011-09-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Queen",
@@ -3295,24 +4054,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.49,
     "Minutes": 103,
-    "Watched": 73424,
+    "Watched": 74082,
+    "Fans": 32,
+    "Likes": 8536,
     "Id": "292e",
     "Poster": "/v08RH5Cx9EFAQMBWQuE5jHAgHYs.jpg",
     "Year": 2006,
-    "When": "2006-09-15"
+    "When": "2006-09-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Shallow Hal",
     "TitleOriginal": "Shallow Hal",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 2.52,
+    "RatingLetterboxd": 2.53,
     "Minutes": 114,
-    "Watched": 240796,
+    "Watched": 243999,
+    "Fans": 88,
+    "Likes": 20032,
     "Id": "1XBm",
-    "Poster": "/21WkqRgEY0zHCBQxIJyChGeGXTX.jpg",
+    "Poster": "/gtcsIu8yBlfONaOENj78UFJLbjQ.jpg",
     "Year": 2001,
-    "When": "2001-11-01"
+    "When": "2001-11-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "My Fair Lady",
@@ -3321,11 +4086,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.62,
     "Minutes": 170,
-    "Watched": 166133,
+    "Watched": 168407,
+    "Fans": 821,
+    "Likes": 33253,
     "Id": "1UBI",
     "Poster": "3kqjmFdwZ9kXnTDkWsJQAfJn7gS.jpg",
     "Year": 1964,
-    "When": "1964-10-21"
+    "When": "1964-10-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "One Week",
@@ -3334,11 +4102,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.18,
     "Minutes": 25,
-    "Watched": 39985,
+    "Watched": 40657,
+    "Fans": 101,
+    "Likes": 14655,
     "Id": "1zr8",
     "Poster": "/43KTefZOLOaXw4Rbywn3uu8BiJn.jpg",
     "Year": 1920,
-    "When": "1920-08-29"
+    "When": "1920-08-29",
+    "BlackAndWhite": true
   },
   {
     "Title": "Everything Beautiful Is Far Away",
@@ -3347,24 +4118,30 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.43,
     "Minutes": 91,
-    "Watched": 1696,
+    "Watched": 1708,
+    "Fans": 26,
+    "Likes": 542,
     "Id": "gqjE",
     "Poster": "/71KHPoAOTeOiIpgelNkXCwSkU5p.jpg",
     "Year": 2017,
-    "When": "2017-06-21"
+    "When": "2017-06-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "American Pie 2",
     "TitleOriginal": "American Pie 2",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 2.91,
+    "RatingLetterboxd": 2.92,
     "Minutes": 108,
-    "Watched": 301961,
+    "Watched": 305943,
+    "Fans": 275,
+    "Likes": 32040,
     "Id": "26kO",
     "Poster": "/854ZZxXdeabAs90mrV72NqShJqR.jpg",
     "Year": 2001,
-    "When": "2001-08-10"
+    "When": "2001-08-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Holiday",
@@ -3373,11 +4150,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.54,
     "Minutes": 136,
-    "Watched": 972558,
+    "Watched": 991981,
+    "Fans": 6860,
+    "Likes": 254538,
     "Id": "28ye",
     "Poster": "/h1ITOpvJN3Tw4Sy60w2QTfYMvdd.jpg",
     "Year": 2006,
-    "When": "2006-12-05"
+    "When": "2006-12-05",
+    "BlackAndWhite": false
   },
   {
     "Title": "Room 237",
@@ -3386,11 +4166,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.06,
     "Minutes": 102,
-    "Watched": 69491,
+    "Watched": 69861,
+    "Fans": 13,
+    "Likes": 8970,
     "Id": "2Y46",
     "Poster": "/wPXxJSz36VjAkxa4MZ0C28uOdwA.jpg",
     "Year": 2012,
-    "When": "2012-10-26"
+    "When": "2012-10-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Pariah",
@@ -3399,11 +4182,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.02,
     "Minutes": 86,
-    "Watched": 43176,
+    "Watched": 43540,
+    "Fans": 431,
+    "Likes": 15110,
     "Id": "2wWk",
     "Poster": "/lX9Ss9LH3bsAoGWDvsPv4zZG9fa.jpg",
     "Year": 2011,
-    "When": "2011-12-27"
+    "When": "2011-12-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Women on the Verge of a Nervous Breakdown",
@@ -3412,11 +4198,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.10,
     "Minutes": 88,
-    "Watched": 218790,
+    "Watched": 224197,
+    "Fans": 6558,
+    "Likes": 87588,
     "Id": "24GI",
     "Poster": "/8C5FJlUo96pj1xAs2BKnB58PYzi.jpg",
     "Year": 1988,
-    "When": "1988-03-25"
+    "When": "1988-03-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Butterfly on a Wheel",
@@ -3425,11 +4214,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.97,
     "Minutes": 95,
-    "Watched": 6561,
+    "Watched": 6624,
+    "Fans": 4,
+    "Likes": 600,
     "Id": "1QxC",
     "Poster": "/qcjjYcMaaSKD2C8xn0hy6o6yj2L.jpg",
     "Year": 2007,
-    "When": "2007-07-27"
+    "When": "2007-07-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Grave of the Fireflies",
@@ -3438,11 +4230,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.47,
     "Minutes": 89,
-    "Watched": 880635,
+    "Watched": 904569,
+    "Fans": 15093,
+    "Likes": 341616,
     "Id": "1RUM",
     "Poster": "/k9tv1rXZbOhH7eiCk378x61kNQ1.jpg",
     "Year": 1988,
-    "When": "1988-04-16"
+    "When": "1988-04-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Stockholm, Pennsylvania",
@@ -3451,11 +4246,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 2.86,
     "Minutes": 99,
-    "Watched": 3056,
+    "Watched": 3097,
+    "Fans": 2,
+    "Likes": 302,
     "Id": "9Szw",
     "Poster": "/AoapXic9H8w3PdXIJICuoZMVWoV.jpg",
     "Year": 2015,
-    "When": "2015-01-23"
+    "When": "2015-01-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Indiana Jones and the Kingdom of the Crystal Skull",
@@ -3464,24 +4262,30 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 2.72,
     "Minutes": 122,
-    "Watched": 838916,
+    "Watched": 848800,
+    "Fans": 186,
+    "Likes": 89873,
     "Id": "2aR8",
     "Poster": "/56As6XEM1flWvprX4LgkPl8ii4K.jpg",
     "Year": 2008,
-    "When": "2008-05-21"
+    "When": "2008-05-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Unbelievers",
     "TitleOriginal": "The Unbelievers",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.05,
+    "RatingLetterboxd": 3.06,
     "Minutes": 77,
-    "Watched": 3391,
+    "Watched": 3416,
+    "Fans": 1,
+    "Likes": 291,
     "Id": "5MB4",
     "Poster": "/e3rRgbUY2Fon26zwJMkei9b26hg.jpg",
     "Year": 2013,
-    "When": "2013-12-13"
+    "When": "2013-12-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Dancer in the Dark",
@@ -3490,11 +4294,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.20,
     "Minutes": 140,
-    "Watched": 211433,
+    "Watched": 214584,
+    "Fans": 6107,
+    "Likes": 74155,
     "Id": "71E",
     "Poster": "/9rsivF4sWfmBzrNr4LPu6TNJhXX.jpg",
     "Year": 2000,
-    "When": "2000-09-01"
+    "When": "2000-09-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Creep",
@@ -3503,11 +4310,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.78,
     "Minutes": 85,
-    "Watched": 30471,
+    "Watched": 30947,
+    "Fans": 15,
+    "Likes": 3769,
     "Id": "203C",
     "Poster": "/w5oxV6MDEfL48FMK9BmYTD2wQRm.jpg",
     "Year": 2004,
-    "When": "2004-08-10"
+    "When": "2004-08-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Lonedale Operator",
@@ -3516,24 +4326,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.31,
     "Minutes": 17,
-    "Watched": 7184,
+    "Watched": 7283,
+    "Fans": 2,
+    "Likes": 896,
     "Id": "4fG4",
     "Poster": "/3MdTy7ampj1kE7PYwqxoektrGko.jpg",
     "Year": 1911,
-    "When": "1911-03-23"
+    "When": "1911-03-23",
+    "BlackAndWhite": true
   },
   {
     "Title": "Casper",
     "TitleOriginal": "Casper",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.07,
+    "RatingLetterboxd": 3.08,
     "Minutes": 100,
-    "Watched": 462222,
+    "Watched": 468147,
+    "Fans": 378,
+    "Likes": 57352,
     "Id": "1ZMw",
     "Poster": "/vCaVCizHfxuoczd9Dlcz7et61eJ.jpg",
     "Year": 1995,
-    "When": "1995-05-26"
+    "When": "1995-05-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Changing Lanes",
@@ -3542,24 +4358,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.04,
     "Minutes": 98,
-    "Watched": 34368,
+    "Watched": 35067,
+    "Fans": 1,
+    "Likes": 3123,
     "Id": "28Fa",
     "Poster": "/8wh9WzTKo5pJw3EgHYWA60W7Kbl.jpg",
     "Year": 2002,
-    "When": "2002-04-07"
+    "When": "2002-04-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Mamma Mia!",
     "TitleOriginal": "Mamma Mia!",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.80,
+    "RatingLetterboxd": 3.81,
     "Minutes": 108,
-    "Watched": 1961254,
+    "Watched": 2005940,
+    "Fans": 68707,
+    "Likes": 646085,
     "Id": "1Tnq",
     "Poster": "/zdUA4FNHbXPadzVOJiU0Rgn6cHR.jpg",
     "Year": 2008,
-    "When": "2008-07-03"
+    "When": "2008-07-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Harry Potter and the Deathly Hallows: Part 1",
@@ -3568,11 +4390,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.71,
     "Minutes": 146,
-    "Watched": 2460713,
+    "Watched": 2506336,
+    "Fans": 2022,
+    "Likes": 527664,
     "Id": "1RYu",
     "Poster": "/iGoXIpQb7Pot00EEdwpwPajheZ5.jpg",
     "Year": 2010,
-    "When": "2010-11-17"
+    "When": "2010-11-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "A Letter to Three Wives",
@@ -3581,11 +4406,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.81,
     "Minutes": 103,
-    "Watched": 10978,
+    "Watched": 11091,
+    "Fans": 24,
+    "Likes": 2836,
     "Id": "Pc2",
     "Poster": "/bSfwTLt2K8IeEeppsiDq7svikbV.jpg",
     "Year": 1949,
-    "When": "1949-01-20"
+    "When": "1949-01-20",
+    "BlackAndWhite": true
   },
   {
     "Title": "Neighbours",
@@ -3594,11 +4422,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 4.00,
     "Minutes": 9,
-    "Watched": 22820,
+    "Watched": 23142,
+    "Fans": 21,
+    "Likes": 7450,
     "Id": "BtS",
     "Poster": "/ccpiARQxBBWaL2Ik8ke9yjq7qrM.jpg",
     "Year": 1952,
-    "When": "1952-01-01"
+    "When": "1952-01-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Cast Away",
@@ -3607,11 +4438,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.88,
     "Minutes": 143,
-    "Watched": 996330,
+    "Watched": 1012353,
+    "Fans": 2036,
+    "Likes": 209000,
     "Id": "20i8",
     "Poster": "/7lLJgKnAicAcR5UEuo8xhSMj18w.jpg",
     "Year": 2000,
-    "When": "2000-12-22"
+    "When": "2000-12-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "Schumacher",
@@ -3620,11 +4454,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.59,
     "Minutes": 112,
-    "Watched": 37902,
+    "Watched": 38320,
+    "Fans": 78,
+    "Likes": 8262,
     "Id": "wk2k",
     "Poster": "/vqPZwu7tkheack5ZVNT6CArANSd.jpg",
     "Year": 2021,
-    "When": "2021-09-15"
+    "When": "2021-09-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Borat Subsequent Moviefilm",
@@ -3633,11 +4470,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.28,
     "Minutes": 96,
-    "Watched": 579905,
+    "Watched": 585465,
+    "Fans": 156,
+    "Likes": 107164,
     "Id": "rNS0",
     "Poster": "/3L1Ml5RWjFVfVq3rQENvgFymT0U.jpg",
     "Year": 2020,
-    "When": "2020-10-23"
+    "When": "2020-10-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Don't Worry Darling",
@@ -3646,11 +4486,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.01,
     "Minutes": 123,
-    "Watched": 1289441,
+    "Watched": 1313523,
+    "Fans": 3930,
+    "Likes": 263009,
     "Id": "mViu",
     "Poster": "/jOqxKIOC92BVyinYO1Fm73XY7Tc.jpg",
     "Year": 2022,
-    "When": "2022-09-21"
+    "When": "2022-09-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Hunger",
@@ -3659,24 +4502,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.02,
     "Minutes": 96,
-    "Watched": 104045,
+    "Watched": 105191,
+    "Fans": 416,
+    "Likes": 24567,
     "Id": "1Wso",
     "Poster": "/84HdTM39G2MzyTl8N9R0wVU9I5b.jpg",
     "Year": 2008,
-    "When": "2008-05-15"
+    "When": "2008-05-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Spice World",
     "TitleOriginal": "Spice World",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 2.94,
+    "RatingLetterboxd": 2.95,
     "Minutes": 93,
-    "Watched": 75888,
+    "Watched": 76850,
+    "Fans": 624,
+    "Likes": 12869,
     "Id": "222Q",
     "Poster": "/vKiAnV1QAGIJP38vatwCZp4dCrH.jpg",
     "Year": 1997,
-    "When": "1997-12-18"
+    "When": "1997-12-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Perfect Days",
@@ -3685,11 +4534,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.29,
     "Minutes": 124,
-    "Watched": 561415,
+    "Watched": 579175,
+    "Fans": 22660,
+    "Likes": 267461,
     "Id": "ATh8",
     "Poster": "/mjEk5Wwx6TYVqw29zSaUHclMIgp.jpg",
     "Year": 2023,
-    "When": "2023-11-10"
+    "When": "2023-11-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "Tomboy",
@@ -3698,24 +4550,30 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.98,
     "Minutes": 82,
-    "Watched": 108015,
+    "Watched": 109001,
+    "Fans": 694,
+    "Likes": 30278,
     "Id": "49U",
     "Poster": "/plEV1Q5u5caYASlG3pq3ON7acN7.jpg",
     "Year": 2011,
-    "When": "2011-04-20"
+    "When": "2011-04-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Flawless",
     "TitleOriginal": "Flawless",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.11,
+    "RatingLetterboxd": 3.12,
     "Minutes": 108,
-    "Watched": 8353,
+    "Watched": 8505,
+    "Fans": 4,
+    "Likes": 866,
     "Id": "1QCs",
     "Poster": "/qENzVKfdyNBAwShcS0YhWeJe34M.jpg",
     "Year": 2007,
-    "When": "2007-09-01"
+    "When": "2007-09-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Jumanji",
@@ -3724,11 +4582,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.63,
     "Minutes": 104,
-    "Watched": 1188143,
+    "Watched": 1207462,
+    "Fans": 1563,
+    "Likes": 225103,
     "Id": "1ZLI",
     "Poster": "/p67m5dzwyxWd46a6of2c9IVfQz7.jpg",
     "Year": 1995,
-    "When": "1995-12-15"
+    "When": "1995-12-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "From Dusk Till Dawn",
@@ -3737,11 +4598,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.51,
     "Minutes": 108,
-    "Watched": 438715,
+    "Watched": 444300,
+    "Fans": 1541,
+    "Likes": 105861,
     "Id": "29HQ",
     "Poster": "/uBoQytp3KTQFaVqTe6d0ECGaKh9.jpg",
     "Year": 1996,
-    "When": "1996-01-19"
+    "When": "1996-01-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Heat",
@@ -3750,11 +4614,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 4.28,
     "Minutes": 170,
-    "Watched": 890368,
+    "Watched": 905466,
+    "Fans": 22433,
+    "Likes": 315370,
     "Id": "2bg8",
     "Poster": "/umSVjVdbVwtx5ryCA2QXL44Durm.jpg",
     "Year": 1995,
-    "When": "1995-12-15"
+    "When": "1995-12-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Handmaiden",
@@ -3763,11 +4630,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.40,
     "Minutes": 145,
-    "Watched": 715213,
+    "Watched": 725586,
+    "Fans": 35943,
+    "Likes": 305073,
     "Id": "948A",
     "Poster": "oZrLMir5kxqErMoLQTG9gP4NCyk.jpg",
     "Year": 2016,
-    "When": "2016-06-01"
+    "When": "2016-06-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Lost Daughter",
@@ -3776,11 +4646,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.52,
     "Minutes": 121,
-    "Watched": 305803,
+    "Watched": 308287,
+    "Fans": 432,
+    "Likes": 63703,
     "Id": "kgww",
     "Poster": "/t1oLNRFixpFOVsyz1HCqCUW3wiW.jpg",
     "Year": 2021,
-    "When": "2021-12-15"
+    "When": "2021-12-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "War and Peace",
@@ -3789,11 +4662,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.33,
     "Minutes": 422,
-    "Watched": 18341,
+    "Watched": 18695,
+    "Fans": 531,
+    "Likes": 6561,
     "Id": "1nRy",
     "Poster": "/tvMJ84g2lx2XusA29wvOeaanwWZ.jpg",
     "Year": 1967,
-    "When": "1968-04-28"
+    "When": "1968-04-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "Cube",
@@ -3802,11 +4678,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.26,
     "Minutes": 90,
-    "Watched": 310686,
+    "Watched": 314320,
+    "Fans": 866,
+    "Likes": 54894,
     "Id": "2aoU",
     "Poster": "/cRp5XzTdXs2BdvL4MF19HPP831z.jpg",
     "Year": 1997,
-    "When": "1997-12-10"
+    "When": "1997-12-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "Come and See",
@@ -3815,11 +4694,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.63,
     "Minutes": 142,
-    "Watched": 380506,
+    "Watched": 387119,
+    "Fans": 14889,
+    "Likes": 159796,
     "Id": "1w9q",
     "Poster": "1iFeTvTxSDFeGsUlYLDvqQNGEds.jpg",
     "Year": 1985,
-    "When": "1985-10-17"
+    "When": "1985-10-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Kill Bill: Vol. 1",
@@ -3828,11 +4710,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.20,
     "Minutes": 111,
-    "Watched": 2865012,
+    "Watched": 2916143,
+    "Fans": 59074,
+    "Likes": 1118364,
     "Id": "70w",
     "Poster": "/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg",
     "Year": 2003,
-    "When": "2003-10-10"
+    "When": "2003-10-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "Last Night in Soho",
@@ -3841,11 +4726,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.42,
     "Minutes": 116,
-    "Watched": 990582,
+    "Watched": 1001839,
+    "Fans": 7784,
+    "Likes": 285252,
     "Id": "lbJC",
     "Poster": "/n1ZRmjlk1BJTY7aASqACfPAaLn2.jpg",
     "Year": 2021,
-    "When": "2021-10-21"
+    "When": "2021-10-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "God's Creatures",
@@ -3854,11 +4742,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.23,
     "Minutes": 101,
-    "Watched": 20793,
+    "Watched": 20959,
+    "Fans": 9,
+    "Likes": 3203,
     "Id": "veBc",
     "Poster": "/4xjkwZ8EwDzZ3dsQRvyW1fntqXT.jpg",
     "Year": 2022,
-    "When": "2022-09-30"
+    "When": "2022-09-30",
+    "BlackAndWhite": false
   },
   {
     "Title": "Short Term 12",
@@ -3867,24 +4758,30 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.17,
     "Minutes": 96,
-    "Watched": 189622,
+    "Watched": 190948,
+    "Fans": 2848,
+    "Likes": 63708,
     "Id": "5f6s",
     "Poster": "/qKnsyaJZLXfiL2JhIJEkpA8C3LU.jpg",
     "Year": 2013,
-    "When": "2013-08-23"
+    "When": "2013-08-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Vanilla Sky",
     "TitleOriginal": "Vanilla Sky",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.44,
+    "RatingLetterboxd": 3.45,
     "Minutes": 136,
-    "Watched": 335273,
+    "Watched": 340483,
+    "Fans": 2962,
+    "Likes": 67025,
     "Id": "27TK",
     "Poster": "/cAh2pCiNPftsY3aSqJuIOde7uWr.jpg",
     "Year": 2001,
-    "When": "2001-12-14"
+    "When": "2001-12-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "I Know What You Did Last Summer",
@@ -3893,11 +4790,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.94,
     "Minutes": 101,
-    "Watched": 372309,
+    "Watched": 378043,
+    "Fans": 647,
+    "Likes": 59896,
     "Id": "2588",
     "Poster": "/aYcLakDaAJtu2HtVvOXNx8inNlK.jpg",
     "Year": 1997,
-    "When": "1997-10-17"
+    "When": "1997-10-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Platform",
@@ -3906,37 +4806,46 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.25,
     "Minutes": 95,
-    "Watched": 910319,
+    "Watched": 926036,
+    "Fans": 1765,
+    "Likes": 161066,
     "Id": "mUm6",
     "Poster": "/iXvQnzy6JCAx1PiQEKXuTY04ZHl.jpg",
     "Year": 2019,
-    "When": "2019-11-08"
+    "When": "2019-11-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Adventurer",
     "TitleOriginal": "The Adventurer",
     "Language": "",
     "RatingSelf": 3,
-    "RatingLetterboxd": 3.62,
+    "RatingLetterboxd": 3.63,
     "Minutes": 26,
-    "Watched": 8040,
+    "Watched": 8124,
+    "Fans": 2,
+    "Likes": 1669,
     "Id": "1igs",
     "Poster": "/khSBh0dDnPsWel6P2zyZCQ2UnMp.jpg",
     "Year": 1917,
-    "When": "1917-10-22"
+    "When": "1917-10-22",
+    "BlackAndWhite": true
   },
   {
     "Title": "Dirty Pretty Things",
     "TitleOriginal": "Dirty Pretty Things",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.56,
+    "RatingLetterboxd": 3.57,
     "Minutes": 97,
-    "Watched": 21248,
+    "Watched": 21487,
+    "Fans": 25,
+    "Likes": 3262,
     "Id": "25mY",
     "Poster": "/nWpXOqB1STDq8ji3rQawcg1fGS9.jpg",
     "Year": 2002,
-    "When": "2002-09-05"
+    "When": "2002-09-05",
+    "BlackAndWhite": false
   },
   {
     "Title": "Harry Potter and the Chamber of Secrets",
@@ -3945,11 +4854,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.61,
     "Minutes": 161,
-    "Watched": 2816695,
+    "Watched": 2869607,
+    "Fans": 3268,
+    "Likes": 642665,
     "Id": "29QI",
     "Poster": "/sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg",
     "Year": 2002,
-    "When": "2002-11-13"
+    "When": "2002-11-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Barbie",
@@ -3958,11 +4870,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.80,
     "Minutes": 114,
-    "Watched": 4762433,
+    "Watched": 4867100,
+    "Fans": 25100,
+    "Likes": 2028980,
     "Id": "bCLK",
     "Poster": "/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
     "Year": 2023,
-    "When": "2023-07-19"
+    "When": "2023-07-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Back to the Future Part II",
@@ -3971,11 +4886,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.88,
     "Minutes": 108,
-    "Watched": 1368162,
+    "Watched": 1390132,
+    "Fans": 7388,
+    "Likes": 337981,
     "Id": "2aYI",
     "Poster": "/YBawEsTkUZBDajKbd5LiHkmMGf.jpg",
     "Year": 1989,
-    "When": "1989-11-22"
+    "When": "1989-11-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Little Mermaid",
@@ -3984,11 +4902,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.69,
     "Minutes": 83,
-    "Watched": 1248511,
+    "Watched": 1268614,
+    "Fans": 3821,
+    "Likes": 215426,
     "Id": "1WYO",
     "Poster": "/8qddUnMT7CgIISEpZi7VCAwDiei.jpg",
     "Year": 1989,
-    "When": "1989-11-17"
+    "When": "1989-11-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Sound of Music",
@@ -3997,11 +4918,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.16,
     "Minutes": 174,
-    "Watched": 787408,
+    "Watched": 803017,
+    "Fans": 20506,
+    "Likes": 214956,
     "Id": "1MLK",
     "Poster": "/pV7zAVpD6QpR5J1KihhTVNN7d0u.jpg",
     "Year": 1965,
-    "When": "1965-03-29"
+    "When": "1965-03-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "Paris Is Burning",
@@ -4010,24 +4934,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.51,
     "Minutes": 78,
-    "Watched": 207308,
+    "Watched": 212114,
+    "Fans": 4006,
+    "Likes": 91602,
     "Id": "1jzg",
     "Poster": "/3P1CqwwCqgwETklacItjUmNR2tf.jpg",
     "Year": 1990,
-    "When": "1991-03-13"
+    "When": "1991-03-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Black Hawk Down",
     "TitleOriginal": "Black Hawk Down",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.66,
+    "RatingLetterboxd": 3.67,
     "Minutes": 145,
-    "Watched": 312756,
+    "Watched": 316948,
+    "Fans": 1098,
+    "Likes": 56764,
     "Id": "29rI",
     "Poster": "/aFngnxnmX6EsMT0q3stYYAvq7TV.jpg",
     "Year": 2001,
-    "When": "2001-12-28"
+    "When": "2001-12-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "Crash",
@@ -4036,11 +4966,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.68,
     "Minutes": 100,
-    "Watched": 229060,
+    "Watched": 233139,
+    "Fans": 3909,
+    "Likes": 63477,
     "Id": "29n2",
     "Poster": "/gpai5oUFyFGLHOCsYTvVMqlbY7A.jpg",
     "Year": 1996,
-    "When": "1996-07-17"
+    "When": "1996-07-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Thoroughbreds",
@@ -4049,11 +4982,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.54,
     "Minutes": 92,
-    "Watched": 196655,
+    "Watched": 197657,
+    "Fans": 1041,
+    "Likes": 51938,
     "Id": "dVHQ",
     "Poster": "/ioZZMP2b4M0velHG7Z0FspwAHd1.jpg",
     "Year": 2017,
-    "When": "2018-03-09"
+    "When": "2018-03-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Petite Maman",
@@ -4062,11 +4998,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.10,
     "Minutes": 72,
-    "Watched": 155188,
+    "Watched": 156778,
+    "Fans": 2260,
+    "Likes": 61817,
     "Id": "s6je",
     "Poster": "/kQKutT7apVjqnhdkGQPqgSPDoDV.jpg",
     "Year": 2021,
-    "When": "2021-06-02"
+    "When": "2021-06-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "Beauty and the Beast",
@@ -4075,11 +5014,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.89,
     "Minutes": 84,
-    "Watched": 1390647,
+    "Watched": 1414290,
+    "Fans": 6282,
+    "Likes": 269430,
     "Id": "1XhG",
     "Poster": "/hUJ0UvQ5tgE2Z9WpfuduVSdiCiU.jpg",
     "Year": 1991,
-    "When": "1991-10-22"
+    "When": "1991-10-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Revenant",
@@ -4088,11 +5030,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.88,
     "Minutes": 157,
-    "Watched": 1570200,
+    "Watched": 1591951,
+    "Fans": 5486,
+    "Likes": 398690,
     "Id": "8H5e",
     "Poster": "/ji3ecJphATlVgWNY0B0RVXZizdf.jpg",
     "Year": 2015,
-    "When": "2015-12-25"
+    "When": "2015-12-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Kes",
@@ -4101,11 +5046,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.23,
     "Minutes": 111,
-    "Watched": 55004,
+    "Watched": 55900,
+    "Fans": 1110,
+    "Likes": 17901,
     "Id": "1Qi8",
     "Poster": "/r1FMq75irhsQBVGjXhPU4xA9SDo.jpg",
     "Year": 1969,
-    "When": "1970-04-03"
+    "When": "1970-04-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Heavenly Creatures",
@@ -4114,37 +5062,46 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.76,
     "Minutes": 109,
-    "Watched": 89990,
+    "Watched": 90981,
+    "Fans": 684,
+    "Likes": 21629,
     "Id": "2974",
     "Poster": "/uvb86wVCIqD3Rlbr0GTNgWDF7Zo.jpg",
     "Year": 1994,
-    "When": "1994-09-12"
+    "When": "1994-09-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Johnny English",
     "TitleOriginal": "Johnny English",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.01,
+    "RatingLetterboxd": 3.02,
     "Minutes": 89,
-    "Watched": 222417,
+    "Watched": 225923,
+    "Fans": 231,
+    "Likes": 24098,
     "Id": "1YyI",
     "Poster": "/mmzW88tnkB2MnOV3Un2F9IUxSnZ.jpg",
     "Year": 2003,
-    "When": "2003-03-14"
+    "When": "2003-03-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Eyes Wide Shut",
     "TitleOriginal": "Eyes Wide Shut",
     "Language": "English",
     "RatingSelf": 4,
-    "RatingLetterboxd": 4.01,
+    "RatingLetterboxd": 4.00,
     "Minutes": 159,
-    "Watched": 1091952,
+    "Watched": 1117732,
+    "Fans": 21251,
+    "Likes": 341158,
     "Id": "2axs",
     "Poster": "/knEIz1eNGl5MQDbrEAVWA7iRqF9.jpg",
     "Year": 1999,
-    "When": "1999-07-16"
+    "When": "1999-07-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Cruella",
@@ -4153,11 +5110,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.47,
     "Minutes": 134,
-    "Watched": 1306580,
+    "Watched": 1333017,
+    "Fans": 5996,
+    "Likes": 335499,
     "Id": "bbKg",
     "Poster": "/ohYlHBRntmtGkjB3ghE8W4A7Ydf.jpg",
     "Year": 2021,
-    "When": "2021-05-26"
+    "When": "2021-05-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Up",
@@ -4166,11 +5126,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.10,
     "Minutes": 96,
-    "Watched": 3642341,
+    "Watched": 3706558,
+    "Fans": 8401,
+    "Likes": 1077581,
     "Id": "1OEc",
     "Poster": "/mFvoEwSfLqbcWwFsDjQebn9bzFe.jpg",
     "Year": 2009,
-    "When": "2009-05-28"
+    "When": "2009-05-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "Snatch",
@@ -4179,11 +5142,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 4.03,
     "Minutes": 103,
-    "Watched": 757659,
+    "Watched": 771814,
+    "Fans": 11832,
+    "Likes": 228205,
     "Id": "2b7U",
     "Poster": "/8KSDI7ijEv7QVZdIyrLw5Gnhhr8.jpg",
     "Year": 2000,
-    "When": "2000-09-01"
+    "When": "2000-09-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Hunger Games: Mockingjay - Part 2",
@@ -4192,11 +5158,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.35,
     "Minutes": 137,
-    "Watched": 1681636,
+    "Watched": 1712706,
+    "Fans": 1750,
+    "Likes": 312755,
     "Id": "4hk0",
     "Poster": "/ihOhtXO1MnKe3GLqM8FvdkPYQub.jpg",
     "Year": 2015,
-    "When": "2015-11-18"
+    "When": "2015-11-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Jurassic Park III",
@@ -4205,11 +5174,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.80,
     "Minutes": 92,
-    "Watched": 581607,
+    "Watched": 589955,
+    "Fans": 716,
+    "Likes": 68504,
     "Id": "2azI",
     "Poster": "/oQXj4NUfS3r3gHXtDOzcJgj1lLc.jpg",
     "Year": 2001,
-    "When": "2001-07-18"
+    "When": "2001-07-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Planet Terror",
@@ -4218,11 +5190,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.37,
     "Minutes": 105,
-    "Watched": 207935,
+    "Watched": 210386,
+    "Fans": 451,
+    "Likes": 42442,
     "Id": "27Gw",
     "Poster": "/3705GxG0RN9XDV5y9IiXKYHw1fK.jpg",
     "Year": 2007,
-    "When": "2007-04-06"
+    "When": "2007-04-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Truman Show",
@@ -4231,11 +5206,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.22,
     "Minutes": 103,
-    "Watched": 4020091,
+    "Watched": 4101431,
+    "Fans": 66090,
+    "Likes": 1663850,
     "Id": "18U8",
     "Poster": "/vuza0WqY239yBXOadKlGwJsZJFE.jpg",
     "Year": 1998,
-    "When": "1998-06-04"
+    "When": "1998-06-04",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Witches",
@@ -4244,11 +5222,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.41,
     "Minutes": 91,
-    "Watched": 158856,
+    "Watched": 160585,
+    "Fans": 181,
+    "Likes": 30234,
     "Id": "1WVg",
     "Poster": "/mPYBjVkeHakkPGY7WaKyyNU4RWm.jpg",
     "Year": 1990,
-    "When": "1990-05-25"
+    "When": "1990-05-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Call Me by Your Name",
@@ -4257,24 +5238,30 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.86,
     "Minutes": 132,
-    "Watched": 2705312,
+    "Watched": 2763834,
+    "Fans": 103649,
+    "Likes": 1037129,
     "Id": "dYmm",
-    "Poster": "/mZ4gBdfkhP9tvLH1DO4m4HYtiyi.jpg",
+    "Poster": "/gXiE0WveDnT0n5J4sW9TMxXF4oT.jpg",
     "Year": 2017,
-    "When": "2017-07-28"
+    "When": "2017-07-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "8 Women",
     "TitleOriginal": "8 femmes",
     "Language": "French",
     "RatingSelf": 4,
-    "RatingLetterboxd": 3.73,
+    "RatingLetterboxd": 3.74,
     "Minutes": 111,
-    "Watched": 53623,
+    "Watched": 54530,
+    "Fans": 750,
+    "Likes": 14778,
     "Id": "27Lm",
     "Poster": "/bJu4Gm7NQb2woPiIovrPD5jNWzf.jpg",
     "Year": 2002,
-    "When": "2002-02-06"
+    "When": "2002-02-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "Her",
@@ -4283,11 +5270,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.00,
     "Minutes": 126,
-    "Watched": 2348216,
+    "Watched": 2384747,
+    "Fans": 38630,
+    "Likes": 859509,
     "Id": "4O24",
     "Poster": "/eCOtqtfvn7mxGl6nfmq4b1exJRc.jpg",
     "Year": 2013,
-    "When": "2013-12-18"
+    "When": "2013-12-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Simpsons Movie",
@@ -4296,11 +5286,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.47,
     "Minutes": 87,
-    "Watched": 900602,
+    "Watched": 911736,
+    "Fans": 1523,
+    "Likes": 145615,
     "Id": "6YU",
     "Poster": "/gzb6P78zeFTnv9eoFYnaJ2YrZ5q.jpg",
     "Year": 2007,
-    "When": "2007-07-25"
+    "When": "2007-07-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Secret Garden",
@@ -4309,11 +5302,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.65,
     "Minutes": 102,
-    "Watched": 142291,
+    "Watched": 144768,
+    "Fans": 1666,
+    "Likes": 29079,
     "Id": "1Uim",
-    "Poster": "/43z8koFiEosqrYpalBXnOMlEJiU.jpg",
+    "Poster": "/zf6h5dJ7wVG7LqMO9dhHGHVejzj.jpg",
     "Year": 1993,
-    "When": "1993-08-13"
+    "When": "1993-08-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Dracula's Daughter",
@@ -4322,11 +5318,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.22,
     "Minutes": 71,
-    "Watched": 20198,
+    "Watched": 20456,
+    "Fans": 45,
+    "Likes": 5413,
     "Id": "1Azs",
     "Poster": "/y7xBkkRLcg1I0fXHO4yYC5SwBCX.jpg",
     "Year": 1936,
-    "When": "1936-05-11"
+    "When": "1936-05-11",
+    "BlackAndWhite": true
   },
   {
     "Title": "Pandora's Box",
@@ -4335,11 +5334,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.87,
     "Minutes": 133,
-    "Watched": 25575,
+    "Watched": 25910,
+    "Fans": 154,
+    "Likes": 6608,
     "Id": "29jE",
     "Poster": "/3B2A5g8t3HZltKp1fplNn2xW4us.jpg",
     "Year": 1929,
-    "When": "1929-01-30"
+    "When": "1929-01-30",
+    "BlackAndWhite": true
   },
   {
     "Title": "Ocean's Eleven",
@@ -4348,11 +5350,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.91,
     "Minutes": 116,
-    "Watched": 1427987,
+    "Watched": 1450604,
+    "Fans": 13269,
+    "Likes": 374916,
     "Id": "2aZm",
     "Poster": "/hQQCdZrsHtZyR6NbKH2YyCqd2fR.jpg",
     "Year": 2001,
-    "When": "2001-12-07"
+    "When": "2001-12-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Stepmom",
@@ -4361,11 +5366,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.54,
     "Minutes": 125,
-    "Watched": 117233,
+    "Watched": 119064,
+    "Fans": 672,
+    "Likes": 24920,
     "Id": "1YFO",
     "Poster": "/wMPv2Yz6QDzv6YhSbaqM48Medl1.jpg",
     "Year": 1998,
-    "When": "1998-12-25"
+    "When": "1998-12-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Innocence",
@@ -4374,11 +5382,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.70,
     "Minutes": 121,
-    "Watched": 10989,
+    "Watched": 11106,
+    "Fans": 129,
+    "Likes": 3048,
     "Id": "1f8A",
     "Poster": "/xHP4SIfb8TqqQU1khvnAyvKZGH1.jpg",
     "Year": 2004,
-    "When": "2005-01-12"
+    "When": "2005-01-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Pursuit of Happyness",
@@ -4387,37 +5398,46 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.92,
     "Minutes": 117,
-    "Watched": 1071923,
+    "Watched": 1095048,
+    "Fans": 8831,
+    "Likes": 246024,
     "Id": "28PE",
     "Poster": "/lBYOKAMcxIvuk9s9hMuecB9dPBV.jpg",
     "Year": 2006,
-    "When": "2006-12-14"
+    "When": "2006-12-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Wristcutters: A Love Story",
     "TitleOriginal": "Wristcutters: A Love Story",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.64,
+    "RatingLetterboxd": 3.65,
     "Minutes": 88,
-    "Watched": 53608,
+    "Watched": 54309,
+    "Fans": 1461,
+    "Likes": 15729,
     "Id": "1QBY",
     "Poster": "/qModiIR60IMLP28ruGZluQOtsOj.jpg",
     "Year": 2006,
-    "When": "2007-10-19"
+    "When": "2007-10-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Journey to Italy",
     "TitleOriginal": "Viaggio in Italia",
     "Language": "Italian",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.83,
+    "RatingLetterboxd": 3.82,
     "Minutes": 85,
-    "Watched": 39536,
+    "Watched": 39957,
+    "Fans": 138,
+    "Likes": 9563,
     "Id": "26o2",
     "Poster": "/tjli2Rjwkn8fivuynxwthnnEzeo.jpg",
     "Year": 1954,
-    "When": "1954-09-07"
+    "When": "1954-09-07",
+    "BlackAndWhite": true
   },
   {
     "Title": "Grease",
@@ -4426,11 +5446,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.52,
     "Minutes": 110,
-    "Watched": 1394217,
+    "Watched": 1419605,
+    "Fans": 12306,
+    "Likes": 296984,
     "Id": "29YW",
     "Poster": "/czVhhAaSBFpakur7U8pOIDV9NUG.jpg",
     "Year": 1978,
-    "When": "1978-07-07"
+    "When": "1978-07-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "L\u00E9on: The Professional",
@@ -4439,24 +5462,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.02,
     "Minutes": 111,
-    "Watched": 1513566,
+    "Watched": 1536253,
+    "Fans": 23507,
+    "Likes": 496827,
     "Id": "2b8S",
     "Poster": "/yI6X2cCM5YPJtxMhUd3dPGqDAhw.jpg",
     "Year": 1994,
-    "When": "1994-09-14"
+    "When": "1994-09-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "An Evening with Beverly Luff Linn",
     "TitleOriginal": "An Evening with Beverly Luff Linn",
     "Language": "English",
     "RatingSelf": 2,
-    "RatingLetterboxd": 3.13,
+    "RatingLetterboxd": 3.12,
     "Minutes": 108,
-    "Watched": 18828,
+    "Watched": 18963,
+    "Fans": 83,
+    "Likes": 4250,
     "Id": "fUcw",
     "Poster": "/aTrgVu1QIPXMMfFbO0zxNqzk63p.jpg",
     "Year": 2018,
-    "When": "2018-05-25"
+    "When": "2018-05-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "GoldenEye",
@@ -4465,11 +5494,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.55,
     "Minutes": 130,
-    "Watched": 281539,
+    "Watched": 284455,
+    "Fans": 480,
+    "Likes": 48163,
     "Id": "29KU",
     "Poster": "/z0ljRnNxIO7CRBhLEO0DvLgAFPR.jpg",
     "Year": 1995,
-    "When": "1995-11-16"
+    "When": "1995-11-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Spun",
@@ -4478,11 +5510,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.39,
     "Minutes": 101,
-    "Watched": 37122,
+    "Watched": 37745,
+    "Fans": 458,
+    "Likes": 9951,
     "Id": "1SAo",
-    "Poster": "/ya6Iz9sAQWgkWqW2Vzkh0mZDIns.jpg",
+    "Poster": "/jEhuHadrIMql3C8bZZZbOLVEAY5.jpg",
     "Year": 2002,
-    "When": "2003-02-07"
+    "When": "2003-02-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Friends: The Reunion",
@@ -4491,11 +5526,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.62,
     "Minutes": 104,
-    "Watched": 171893,
+    "Watched": 173623,
+    "Fans": 88,
+    "Likes": 36035,
     "Id": "pOQq",
     "Poster": "/bT3c4TSOP8vBmMoXZRDPTII6eDa.jpg",
     "Year": 2021,
-    "When": "2021-05-27"
+    "When": "2021-05-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Stromboli",
@@ -4504,11 +5542,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.84,
     "Minutes": 107,
-    "Watched": 23597,
+    "Watched": 23843,
+    "Fans": 119,
+    "Likes": 6067,
     "Id": "24Js",
     "Poster": "/nGQwqxXyhciDe1oDp7K87D1tRh5.jpg",
     "Year": 1950,
-    "When": "1950-02-15"
+    "When": "1950-02-15",
+    "BlackAndWhite": true
   },
   {
     "Title": "This Is England",
@@ -4517,11 +5558,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.07,
     "Minutes": 101,
-    "Watched": 132157,
+    "Watched": 134055,
+    "Fans": 2084,
+    "Likes": 35252,
     "Id": "1T44",
     "Poster": "/bmhVn89BoAAIziFklH3TusE26H0.jpg",
     "Year": 2006,
-    "When": "2007-04-27"
+    "When": "2007-04-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Holdovers",
@@ -4530,11 +5574,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.24,
     "Minutes": 133,
-    "Watched": 1266445,
+    "Watched": 1290112,
+    "Fans": 25919,
+    "Likes": 562505,
     "Id": "vHza",
     "Poster": "/VHSzNBTwxV8vh7wylo7O9CLdac.jpg",
     "Year": 2023,
-    "When": "2023-10-27"
+    "When": "2023-10-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Babe",
@@ -4543,11 +5590,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.41,
     "Minutes": 92,
-    "Watched": 393951,
+    "Watched": 398355,
+    "Fans": 818,
+    "Likes": 46407,
     "Id": "1Yh8",
     "Poster": "/zKuQMtnbVTz9DsOnOJmlW71v4qH.jpg",
     "Year": 1995,
-    "When": "1995-07-18"
+    "When": "1995-07-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Angry Birds Movie",
@@ -4556,24 +5606,30 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 2.60,
     "Minutes": 97,
-    "Watched": 245853,
+    "Watched": 250821,
+    "Fans": 228,
+    "Likes": 22561,
     "Id": "4PBu",
     "Poster": "/yFXMNfyuQpbvoHibtDakK17DHW4.jpg",
     "Year": 2016,
-    "When": "2016-05-11"
+    "When": "2016-05-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Final Destination 5",
     "TitleOriginal": "Final Destination 5",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 2.77,
+    "RatingLetterboxd": 2.78,
     "Minutes": 92,
-    "Watched": 253896,
+    "Watched": 257914,
+    "Fans": 171,
+    "Likes": 34303,
     "Id": "r1k",
     "Poster": "/5uRF7zATPr0hIMfDcMEfnhMGw6a.jpg",
     "Year": 2011,
-    "When": "2011-08-12"
+    "When": "2011-08-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Hangover",
@@ -4582,11 +5638,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.65,
     "Minutes": 100,
-    "Watched": 1916349,
+    "Watched": 1955101,
+    "Fans": 8831,
+    "Likes": 423988,
     "Id": "1GjK",
     "Poster": "/wTt2BoyAGhr0M00eR1ewVZyQoUq.jpg",
     "Year": 2009,
-    "When": "2009-06-02"
+    "When": "2009-06-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "Fargo",
@@ -4595,11 +5654,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.20,
     "Minutes": 98,
-    "Watched": 1297485,
+    "Watched": 1318616,
+    "Fans": 14059,
+    "Likes": 445867,
     "Id": "2aHM",
     "Poster": "/rUjUCT6GvFS475sKJVfHWZUdnv5.jpg",
     "Year": 1996,
-    "When": "1996-03-08"
+    "When": "1996-03-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "Pinocchio",
@@ -4608,11 +5670,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.48,
     "Minutes": 88,
-    "Watched": 730524,
+    "Watched": 740339,
+    "Fans": 434,
+    "Likes": 84777,
     "Id": "1V8C",
     "Poster": "/bnZJrLRnoQHpzEJdka1KYfsAF3N.jpg",
     "Year": 1940,
-    "When": "1940-02-23"
+    "When": "1940-02-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "C\u00E9line and Julie Go Boating",
@@ -4621,11 +5686,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.15,
     "Minutes": 193,
-    "Watched": 26417,
+    "Watched": 26707,
+    "Fans": 1081,
+    "Likes": 10344,
     "Id": "1sGA",
     "Poster": "xsWLui5vFHC1b1JjwK4Au9ljjgG.jpg",
     "Year": 1974,
-    "When": "1974-09-18"
+    "When": "1974-09-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Longlegs",
@@ -4634,11 +5702,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.37,
     "Minutes": 101,
-    "Watched": 1303416,
+    "Watched": 1344787,
+    "Fans": 4722,
+    "Likes": 364012,
     "Id": "KzLM",
     "Poster": "/1EwNyiiNFd863H4e8nWEzutnZD7.jpg",
     "Year": 2024,
-    "When": "2024-07-10"
+    "When": "2024-07-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "I, Tonya",
@@ -4647,24 +5718,30 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.86,
     "Minutes": 120,
-    "Watched": 1342302,
+    "Watched": 1364783,
+    "Fans": 7579,
+    "Likes": 412239,
     "Id": "dzR0",
     "Poster": "/6gNXwSHxaksR1PjVZRqNapmkgj3.jpg",
     "Year": 2017,
-    "When": "2017-12-08"
+    "When": "2017-12-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Shining",
     "TitleOriginal": "The Shining",
     "Language": "English",
     "RatingSelf": 5,
-    "RatingLetterboxd": 4.24,
+    "RatingLetterboxd": 4.23,
     "Minutes": 144,
-    "Watched": 3171298,
+    "Watched": 3221474,
+    "Fans": 58731,
+    "Likes": 1270112,
     "Id": "29Nu",
     "Poster": "/fFYAlrOudDJRYs8tvuHbUk0OGdL.jpg",
     "Year": 1980,
-    "When": "1980-05-23"
+    "When": "1980-05-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Interview with the Vampire",
@@ -4673,11 +5750,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.58,
     "Minutes": 123,
-    "Watched": 585276,
+    "Watched": 595564,
+    "Fans": 6916,
+    "Likes": 153478,
     "Id": "29XO",
     "Poster": "/2162lAT2MP36MyJd2sttmj5du5T.jpg",
     "Year": 1994,
-    "When": "1994-11-11"
+    "When": "1994-11-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Children of Men",
@@ -4686,11 +5766,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.30,
     "Minutes": 109,
-    "Watched": 813336,
+    "Watched": 823864,
+    "Fans": 16756,
+    "Likes": 280338,
     "Id": "1Y2i",
     "Poster": "/8Xgvmx7WWc7Z9Ws9RAYk7uya2kh.jpg",
     "Year": 2006,
-    "When": "2006-09-22"
+    "When": "2006-09-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Fly",
@@ -4699,11 +5782,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.99,
     "Minutes": 96,
-    "Watched": 561761,
+    "Watched": 569241,
+    "Fans": 4073,
+    "Likes": 174940,
     "Id": "1YIe",
     "Poster": "/8gZWMhJHRvaXdXsNhERtqNHYpH3.jpg",
     "Year": 1986,
-    "When": "1986-08-15"
+    "When": "1986-08-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Single White Female",
@@ -4712,11 +5798,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.23,
     "Minutes": 107,
-    "Watched": 54717,
+    "Watched": 55318,
+    "Fans": 37,
+    "Likes": 8947,
     "Id": "1Yg0",
     "Poster": "/2B6spN9XvzbK9hKDQtvTa4wVoys.jpg",
     "Year": 1992,
-    "When": "1992-08-14"
+    "When": "1992-08-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Miseducation of Cameron Post",
@@ -4725,11 +5814,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.48,
     "Minutes": 92,
-    "Watched": 149350,
+    "Watched": 150686,
+    "Fans": 557,
+    "Likes": 34668,
     "Id": "f6B2",
     "Poster": "/uEd38H98vfoZfGesoVnFdqg1QLG.jpg",
     "Year": 2018,
-    "When": "2018-07-18"
+    "When": "2018-07-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Harry Potter and the Order of the Phoenix",
@@ -4738,24 +5830,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.67,
     "Minutes": 138,
-    "Watched": 2585135,
+    "Watched": 2634164,
+    "Fans": 4592,
+    "Likes": 565348,
     "Id": "29Qe",
     "Poster": "/5aOyriWkPec0zUDxmHFP9qMmBaj.jpg",
     "Year": 2007,
-    "When": "2007-07-08"
+    "When": "2007-07-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "Avatar",
     "TitleOriginal": "Avatar",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.62,
+    "RatingLetterboxd": 3.63,
     "Minutes": 162,
-    "Watched": 3041132,
+    "Watched": 3092320,
+    "Fans": 21231,
+    "Likes": 699026,
     "Id": "1Efm",
     "Poster": "/kyeqWdyUXW608qlYkRqosgbbJyK.jpg",
     "Year": 2009,
-    "When": "2009-12-15"
+    "When": "2009-12-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Compliance",
@@ -4764,37 +5862,46 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.16,
     "Minutes": 90,
-    "Watched": 45208,
+    "Watched": 46210,
+    "Fans": 14,
+    "Likes": 6162,
     "Id": "2XNE",
     "Poster": "/bLdu28fr9txYlHLmEOyGplDT3nH.jpg",
     "Year": 2012,
-    "When": "2012-08-23"
+    "When": "2012-08-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Piano Teacher",
     "TitleOriginal": "La Pianiste",
     "Language": "French",
     "RatingSelf": null,
-    "RatingLetterboxd": 4.09,
+    "RatingLetterboxd": 4.08,
     "Minutes": 131,
-    "Watched": 277279,
+    "Watched": 283898,
+    "Fans": 8515,
+    "Likes": 86433,
     "Id": "2886",
     "Poster": "/gNHKYQnP1RnqEhkivHJzBPb4MOP.jpg",
     "Year": 2001,
-    "When": "2001-09-05"
+    "When": "2001-09-05",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Quiet Girl",
     "TitleOriginal": "An Cail\u00EDn Ci\u00FAin",
     "Language": "Irish",
     "RatingSelf": 5,
-    "RatingLetterboxd": 4.06,
+    "RatingLetterboxd": 4.07,
     "Minutes": 94,
-    "Watched": 87417,
+    "Watched": 88492,
+    "Fans": 1051,
+    "Likes": 31676,
     "Id": "yvgm",
     "Poster": "/6Njyz53N417cgxE0d7cBEWHUEjc.jpg",
     "Year": 2022,
-    "When": "2022-05-12"
+    "When": "2022-05-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Trolls",
@@ -4803,11 +5910,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.74,
     "Minutes": 92,
-    "Watched": 348829,
+    "Watched": 355830,
+    "Fans": 1115,
+    "Likes": 40482,
     "Id": "4p8Q",
     "Poster": "/9VlK2j0THZWzhQPq0W3Oc0IIdBB.jpg",
     "Year": 2016,
-    "When": "2016-10-13"
+    "When": "2016-10-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Kinds of Kindness",
@@ -4816,11 +5926,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.34,
     "Minutes": 164,
-    "Watched": 476833,
+    "Watched": 488736,
+    "Fans": 877,
+    "Likes": 114766,
     "Id": "CWPw",
     "Poster": "6dXSJaxLrqSwi1iPTDsUll4oynj.jpg",
     "Year": 2024,
-    "When": "2024-05-30"
+    "When": "2024-05-30",
+    "BlackAndWhite": false
   },
   {
     "Title": "No Vacancy",
@@ -4829,11 +5942,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 2.97,
     "Minutes": 84,
-    "Watched": 419,
+    "Watched": 421,
+    "Fans": 0,
+    "Likes": 32,
     "Id": "enM",
     "Poster": "/2WSdY6kRIpc5MgqyOtWhAsVmxtN.jpg",
     "Year": 1999,
-    "When": "1999-04-16"
+    "When": "1999-04-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Room",
@@ -4842,11 +5958,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 3.97,
     "Minutes": 118,
-    "Watched": 1086093,
+    "Watched": 1097204,
+    "Fans": 2670,
+    "Likes": 278877,
     "Id": "7T0y",
     "Poster": "/pCURNjeomWbMSdiP64gj8NVVHTQ.jpg",
     "Year": 2015,
-    "When": "2015-10-16"
+    "When": "2015-10-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Psycho",
@@ -4855,11 +5974,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.32,
     "Minutes": 109,
-    "Watched": 1475420,
+    "Watched": 1495918,
+    "Fans": 15643,
+    "Likes": 513352,
     "Id": "2ab2",
     "Poster": "/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg",
     "Year": 1960,
-    "When": "1960-06-22"
+    "When": "1960-06-22",
+    "BlackAndWhite": true
   },
   {
     "Title": "Under the Skin",
@@ -4868,11 +5990,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.62,
     "Minutes": 108,
-    "Watched": 445457,
+    "Watched": 449253,
+    "Fans": 3618,
+    "Likes": 118256,
     "Id": "3mDa",
     "Poster": "/55wmcXJIDYITr7JDijJTdvwSaAv.jpg",
     "Year": 2013,
-    "When": "2014-03-14"
+    "When": "2014-03-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Tomorrow Never Dies",
@@ -4881,11 +6006,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.04,
     "Minutes": 119,
-    "Watched": 203176,
+    "Watched": 205288,
+    "Fans": 60,
+    "Likes": 21434,
     "Id": "29Kg",
     "Poster": "/gZm002w7q9yLOkltxT76TWGfdZX.jpg",
     "Year": 1997,
-    "When": "1997-12-11"
+    "When": "1997-12-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Ali",
@@ -4894,11 +6022,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.48,
     "Minutes": 157,
-    "Watched": 93902,
+    "Watched": 94865,
+    "Fans": 59,
+    "Likes": 15286,
     "Id": "205e",
     "Poster": "/hBE9VTgwmHbIBkJ0uxrnmqJOpkm.jpg",
     "Year": 2001,
-    "When": "2001-12-10"
+    "When": "2001-12-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Peanut Butter Falcon",
@@ -4907,11 +6038,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.84,
     "Minutes": 97,
-    "Watched": 317094,
+    "Watched": 322414,
+    "Fans": 2413,
+    "Likes": 100330,
     "Id": "gzu2",
     "Poster": "/qyQcRGvdW3VtxHR4fSDgPOePEip.jpg",
     "Year": 2019,
-    "When": "2019-08-09"
+    "When": "2019-08-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Opposite of Sex",
@@ -4920,11 +6054,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.14,
     "Minutes": 105,
-    "Watched": 14095,
+    "Watched": 14273,
+    "Fans": 9,
+    "Likes": 1895,
     "Id": "1XFI",
     "Poster": "/xpILzxKHywYngftBC8AmvsqUfBj.jpg",
     "Year": 1998,
-    "When": "1998-05-22"
+    "When": "1998-05-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "Predator",
@@ -4933,24 +6070,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.78,
     "Minutes": 107,
-    "Watched": 622451,
+    "Watched": 630817,
+    "Fans": 3527,
+    "Likes": 167227,
     "Id": "2b84",
     "Poster": "/k3mW4qfJo6SKqe6laRyNGnbB9n5.jpg",
     "Year": 1987,
-    "When": "1987-06-12"
+    "When": "1987-06-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Naked Gun 33\u2153: The Final Insult",
     "TitleOriginal": "Naked Gun 33\u2153: The Final Insult",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.17,
+    "RatingLetterboxd": 3.18,
     "Minutes": 83,
-    "Watched": 103954,
+    "Watched": 105134,
+    "Fans": 59,
+    "Likes": 15041,
     "Id": "1afQ",
-    "Poster": "/dSZx6OlIb5WTRnGtaGhQQWK2SS.jpg",
+    "Poster": "/p0AYsdgkudR9P5fNV5AjzbwQt8W.jpg",
     "Year": 1994,
-    "When": "1994-03-18"
+    "When": "1994-03-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Wicked Little Letters",
@@ -4959,11 +6102,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.45,
     "Minutes": 100,
-    "Watched": 133554,
+    "Watched": 136835,
+    "Fans": 82,
+    "Likes": 32640,
     "Id": "AQXU",
     "Poster": "/scAU7YudKNVeZlOfgSEWntAUSJ.jpg",
     "Year": 2023,
-    "When": "2024-02-23"
+    "When": "2024-02-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Saw",
@@ -4972,11 +6118,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.64,
     "Minutes": 103,
-    "Watched": 1202276,
+    "Watched": 1221500,
+    "Fans": 16940,
+    "Likes": 302087,
     "Id": "2aWW",
     "Poster": "/4da0TS3iQ1IzuyhDS8elgkmOfrN.jpg",
     "Year": 2004,
-    "When": "2004-10-01"
+    "When": "2004-10-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Diving Bell and the Butterfly",
@@ -4985,11 +6134,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.12,
     "Minutes": 112,
-    "Watched": 76054,
+    "Watched": 76652,
+    "Fans": 601,
+    "Likes": 17579,
     "Id": "27Di",
     "Poster": "/3MJUo4bCPai5r9zrw7nTS8sVzQ7.jpg",
     "Year": 2007,
-    "When": "2007-05-23"
+    "When": "2007-05-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Thelma \u0026 Louise",
@@ -4998,11 +6150,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.16,
     "Minutes": 130,
-    "Watched": 520695,
+    "Watched": 528871,
+    "Fans": 10102,
+    "Likes": 178691,
     "Id": "28Ew",
     "Poster": "/y66rxathLobXk7xaUgPr4etBkRN.jpg",
     "Year": 1991,
-    "When": "1991-05-24"
+    "When": "1991-05-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Blair Witch Project",
@@ -5011,11 +6166,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.31,
     "Minutes": 81,
-    "Watched": 1002867,
+    "Watched": 1018667,
+    "Fans": 4905,
+    "Likes": 210550,
     "Id": "26ua",
     "Poster": "/9050VGrYjYrEjpOvDZVAngLbg1f.jpg",
     "Year": 1999,
-    "When": "1999-07-14"
+    "When": "1999-07-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Downton Abbey",
@@ -5024,11 +6182,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.48,
     "Minutes": 122,
-    "Watched": 69348,
+    "Watched": 70227,
+    "Fans": 134,
+    "Likes": 14103,
     "Id": "jvdM",
     "Poster": "/pWt1iRuhNpeVDNP2QiUT2C5OiBt.jpg",
     "Year": 2019,
-    "When": "2019-09-12"
+    "When": "2019-09-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Finding Nemo",
@@ -5037,24 +6198,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.04,
     "Minutes": 100,
-    "Watched": 3176542,
+    "Watched": 3230270,
+    "Fans": 6864,
+    "Likes": 769855,
     "Id": "72i",
     "Poster": "/eHuGQ10FUzK1mdOY69wF5pGgEf5.jpg",
     "Year": 2003,
-    "When": "2003-05-30"
+    "When": "2003-05-30",
+    "BlackAndWhite": false
   },
   {
     "Title": "Pussy's Breakfast",
     "TitleOriginal": "Le D\u00E9jeuner de Minet",
     "Language": "",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.40,
+    "RatingLetterboxd": 3.41,
     "Minutes": 1,
-    "Watched": 1699,
+    "Watched": 1716,
+    "Fans": 0,
+    "Likes": 405,
     "Id": "quC6",
     "Poster": "/7kU475SidAATJEHdNWjXXONqmyf.jpg",
     "Year": 1905,
-    "When": "1905-04-24"
+    "When": "1905-04-24",
+    "BlackAndWhite": true
   },
   {
     "Title": "Alice in Wonderland",
@@ -5063,11 +6230,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.77,
     "Minutes": 75,
-    "Watched": 852625,
+    "Watched": 867530,
+    "Fans": 7153,
+    "Likes": 166527,
     "Id": "1Sz6",
     "Poster": "/20cvfwfaFqNbe9Fc3VEHJuPRxmn.jpg",
     "Year": 1951,
-    "When": "1951-07-28"
+    "When": "1951-07-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Girl Next Door",
@@ -5076,11 +6246,14 @@ var films = [
     "RatingSelf": 1,
     "RatingLetterboxd": 2.83,
     "Minutes": 91,
-    "Watched": 25725,
+    "Watched": 26033,
+    "Fans": 17,
+    "Likes": 2646,
     "Id": "1MoQ",
     "Poster": "/dXjLp7k7ILyg22T0s9VvpPKc9jn.jpg",
     "Year": 2007,
-    "When": "2007-07-19"
+    "When": "2007-07-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Harry Potter and the Goblet of Fire",
@@ -5089,11 +6262,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.84,
     "Minutes": 157,
-    "Watched": 2772217,
+    "Watched": 2825575,
+    "Fans": 11202,
+    "Likes": 684253,
     "Id": "29Qo",
     "Poster": "/fECBtHlr0RB3foNHDiCBXeg9Bv9.jpg",
     "Year": 2005,
-    "When": "2005-11-16"
+    "When": "2005-11-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Titanic",
@@ -5102,11 +6278,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 3.82,
     "Minutes": 194,
-    "Watched": 3436523,
+    "Watched": 3503541,
+    "Fans": 39698,
+    "Likes": 874366,
     "Id": "2a2k",
     "Poster": "/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
     "Year": 1997,
-    "When": "1997-11-18"
+    "When": "1997-11-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Pi",
@@ -5115,11 +6294,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.72,
     "Minutes": 84,
-    "Watched": 200928,
+    "Watched": 202744,
+    "Fans": 1773,
+    "Likes": 46664,
     "Id": "2ajq",
     "Poster": "/fJA22FjlAW8rzrOw9Mwanl6oTc9.jpg",
     "Year": 1998,
-    "When": "1998-07-10"
+    "When": "1998-07-10",
+    "BlackAndWhite": true
   },
   {
     "Title": "Apartment 7A",
@@ -5128,11 +6310,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 2.72,
     "Minutes": 106,
-    "Watched": 38613,
+    "Watched": 40452,
+    "Fans": 18,
+    "Likes": 6310,
     "Id": "uock",
-    "Poster": "/mch69S8zHKVCHIrX8p17jN8VCGy.jpg",
+    "Poster": "/uipHKJHY1nNEQyprXjfNzH0GIOF.jpg",
     "Year": 2024,
-    "When": "2024-09-20"
+    "When": "2024-09-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Descent",
@@ -5141,11 +6326,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.59,
     "Minutes": 99,
-    "Watched": 438945,
+    "Watched": 444466,
+    "Fans": 2526,
+    "Likes": 115798,
     "Id": "1YNy",
     "Poster": "/dnsIGj7cxeRD5t9g4arKOiN1w9u.jpg",
     "Year": 2005,
-    "When": "2005-07-08"
+    "When": "2005-07-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "Alien",
@@ -5154,24 +6342,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.26,
     "Minutes": 117,
-    "Watched": 1927133,
+    "Watched": 1955413,
+    "Fans": 45919,
+    "Likes": 712969,
     "Id": "2awY",
     "Poster": "/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg",
     "Year": 1979,
-    "When": "1979-05-25"
+    "When": "1979-05-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Moon",
     "TitleOriginal": "Moon",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.86,
+    "RatingLetterboxd": 3.85,
     "Minutes": 97,
-    "Watched": 393445,
+    "Watched": 396710,
+    "Fans": 1585,
+    "Likes": 105213,
     "Id": "1IGQ",
     "Poster": "/32Bz9CBTDFLQZCLIcj6Ew6iOxhj.jpg",
     "Year": 2009,
-    "When": "2009-06-12"
+    "When": "2009-06-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "E.T. the Extra-Terrestrial",
@@ -5180,11 +6374,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.84,
     "Minutes": 115,
-    "Watched": 1815722,
+    "Watched": 1843062,
+    "Fans": 6904,
+    "Likes": 384573,
     "Id": "2a1G",
     "Poster": "/an0nD6uq6byfxXCfk6lQBzdL2J1.jpg",
     "Year": 1982,
-    "When": "1982-06-11"
+    "When": "1982-06-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Little Woods",
@@ -5193,11 +6390,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.37,
     "Minutes": 103,
-    "Watched": 11778,
+    "Watched": 11824,
+    "Fans": 9,
+    "Likes": 2412,
     "Id": "g76c",
     "Poster": "/gvyikwFv2pwUyapTPx8Mx6JKZzX.jpg",
     "Year": 2018,
-    "When": "2019-04-19"
+    "When": "2019-04-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "American Psycho II: All American Girl",
@@ -5206,11 +6406,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 1.58,
     "Minutes": 88,
-    "Watched": 42631,
+    "Watched": 43111,
+    "Fans": 85,
+    "Likes": 3960,
     "Id": "1VxC",
     "Poster": "/pfVfdKUd9ZXTggcSIfTdfsexuc2.jpg",
     "Year": 2002,
-    "When": "2002-04-22"
+    "When": "2002-04-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "Pecker",
@@ -5219,11 +6422,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.42,
     "Minutes": 86,
-    "Watched": 22990,
+    "Watched": 23240,
+    "Fans": 84,
+    "Likes": 6071,
     "Id": "1SVw",
-    "Poster": "/qI6ehXl6BefNHAE8WfsZIiVAUBP.jpg",
+    "Poster": "/ox6Myr2r36zr7aqnisQGZp2EW33.jpg",
     "Year": 1998,
-    "When": "1998-09-25"
+    "When": "1998-09-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Raiders of the Lost Ark",
@@ -5232,11 +6438,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.16,
     "Minutes": 115,
-    "Watched": 1592517,
+    "Watched": 1614140,
+    "Fans": 17120,
+    "Likes": 470354,
     "Id": "2bbs",
     "Poster": "/ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
     "Year": 1981,
-    "When": "1981-06-12"
+    "When": "1981-06-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Let the Right One In",
@@ -5245,11 +6454,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.05,
     "Minutes": 115,
-    "Watched": 293990,
+    "Watched": 296884,
+    "Fans": 2772,
+    "Likes": 86346,
     "Id": "1Qr0",
     "Poster": "/7IG4WjaAOVDlLvLUkh513HSwhW8.jpg",
     "Year": 2008,
-    "When": "2008-10-24"
+    "When": "2008-10-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "Manifesto",
@@ -5258,37 +6470,46 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.50,
     "Minutes": 98,
-    "Watched": 21036,
+    "Watched": 21190,
+    "Fans": 100,
+    "Likes": 4396,
     "Id": "diI6",
     "Poster": "/eszm6c7GxD0ztbRQpqkG04P8iui.jpg",
     "Year": 2015,
-    "When": "2017-05-10"
+    "When": "2017-05-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "Armageddon",
     "TitleOriginal": "Armageddon",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.10,
+    "RatingLetterboxd": 3.11,
     "Minutes": 151,
-    "Watched": 394325,
+    "Watched": 399244,
+    "Fans": 1253,
+    "Likes": 53448,
     "Id": "2b9Q",
     "Poster": "/eTM3qtGhDU8cvjpoa6KEt5E2auU.jpg",
     "Year": 1998,
-    "When": "1998-07-01"
+    "When": "1998-07-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Catwoman",
     "TitleOriginal": "Catwoman",
     "Language": "English",
     "RatingSelf": 1,
-    "RatingLetterboxd": 1.53,
+    "RatingLetterboxd": 1.54,
     "Minutes": 104,
-    "Watched": 202175,
+    "Watched": 204441,
+    "Fans": 251,
+    "Likes": 12381,
     "Id": "2aBY",
     "Poster": "/pvnPgukFyEKgCzyOxyLiwyZ8T1C.jpg",
     "Year": 2004,
-    "When": "2004-07-22"
+    "When": "2004-07-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "Garden State",
@@ -5297,11 +6518,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.44,
     "Minutes": 102,
-    "Watched": 221771,
+    "Watched": 224650,
+    "Fans": 2520,
+    "Likes": 45343,
     "Id": "2asW",
     "Poster": "/h3iqYiGS6F3y7GxaS4AT8nFxZ2i.jpg",
     "Year": 2004,
-    "When": "2004-07-28"
+    "When": "2004-07-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "Falling Down",
@@ -5310,24 +6534,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.69,
     "Minutes": 113,
-    "Watched": 209117,
+    "Watched": 211890,
+    "Fans": 885,
+    "Likes": 49135,
     "Id": "194M",
     "Poster": "/7ujqyF96Zg3rfrsh9M0cEF0Yzqj.jpg",
     "Year": 1993,
-    "When": "1993-02-26"
+    "When": "1993-02-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Texas Chainsaw Massacre",
     "TitleOriginal": "The Texas Chainsaw Massacre",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 2.99,
+    "RatingLetterboxd": 3.00,
     "Minutes": 98,
-    "Watched": 179823,
+    "Watched": 182019,
+    "Fans": 748,
+    "Likes": 30190,
     "Id": "1YQs",
     "Poster": "/qJ9Cw1J4EmhBApoue4qlhqVrCZ7.jpg",
     "Year": 2003,
-    "When": "2003-05-21"
+    "When": "2003-05-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Close",
@@ -5336,24 +6566,30 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.11,
     "Minutes": 104,
-    "Watched": 372238,
+    "Watched": 383190,
+    "Fans": 10973,
+    "Likes": 159708,
     "Id": "y4qa",
     "Poster": "/hjoSRso1ZslGWHowrVtBIfNT56b.jpg",
     "Year": 2022,
-    "When": "2022-11-01"
+    "When": "2022-11-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Drive",
     "TitleOriginal": "Drive",
     "Language": "English",
     "RatingSelf": 3,
-    "RatingLetterboxd": 3.93,
+    "RatingLetterboxd": 3.92,
     "Minutes": 100,
-    "Watched": 1972392,
+    "Watched": 1999256,
+    "Fans": 29339,
+    "Likes": 684093,
     "Id": "IG",
     "Poster": "/602vevIURmpDfzbnv5Ubi6wIkQm.jpg",
     "Year": 2011,
-    "When": "2011-09-15"
+    "When": "2011-09-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Fight Club",
@@ -5362,11 +6598,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.27,
     "Minutes": 139,
-    "Watched": 4675493,
+    "Watched": 4762886,
+    "Fans": 147828,
+    "Likes": 2195356,
     "Id": "2a9q",
     "Poster": "/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
     "Year": 1999,
-    "When": "1999-10-15"
+    "When": "1999-10-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "El Camino: A Breaking Bad Movie",
@@ -5375,11 +6614,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.57,
     "Minutes": 123,
-    "Watched": 753685,
+    "Watched": 765013,
+    "Fans": 1416,
+    "Likes": 181604,
     "Id": "kv0q",
     "Poster": "/ePXuKdXZuJx8hHMNr2yM4jY2L7Z.jpg",
     "Year": 2019,
-    "When": "2019-10-11"
+    "When": "2019-10-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Rise of the Planet of the Apes",
@@ -5388,24 +6630,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.65,
     "Minutes": 105,
-    "Watched": 1123092,
+    "Watched": 1138673,
+    "Fans": 1741,
+    "Likes": 245466,
     "Id": "cS4",
     "Poster": "/oqA45qMyyo1TtrnVEBKxqmTPhbN.jpg",
     "Year": 2011,
-    "When": "2011-08-03"
+    "When": "2011-08-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Blue Velvet",
     "TitleOriginal": "Blue Velvet",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 4.09,
+    "RatingLetterboxd": 4.10,
     "Minutes": 120,
-    "Watched": 663337,
+    "Watched": 735635,
+    "Fans": 16574,
+    "Likes": 254605,
     "Id": "29BI",
     "Poster": "/7hlgzJXLgyECS1mk3LSN3E72l5N.jpg",
     "Year": 1986,
-    "When": "1986-09-19"
+    "When": "1986-09-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Suspiria",
@@ -5414,11 +6662,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.93,
     "Minutes": 99,
-    "Watched": 589893,
+    "Watched": 597163,
+    "Fans": 12942,
+    "Likes": 212418,
     "Id": "1SNW",
     "Poster": "/5ya8jTbNZTrCFUx9OwpNBjCivXY.jpg",
     "Year": 1977,
-    "When": "1977-02-01"
+    "When": "1977-02-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Chopper",
@@ -5427,11 +6678,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.63,
     "Minutes": 94,
-    "Watched": 31481,
+    "Watched": 31912,
+    "Fans": 105,
+    "Likes": 7214,
     "Id": "1YtI",
     "Poster": "/hOdSDhWLgFKfqRf2kazY04iXtn6.jpg",
     "Year": 2000,
-    "When": "2000-06-21"
+    "When": "2000-06-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Martyrs",
@@ -5440,11 +6694,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.64,
     "Minutes": 99,
-    "Watched": 242377,
+    "Watched": 246016,
+    "Fans": 4311,
+    "Likes": 65665,
     "Id": "1Yqu",
     "Poster": "/5kymocKK0SfyEEV0ohNEBz1lxNx.jpg",
     "Year": 2008,
-    "When": "2008-06-12"
+    "When": "2008-06-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Citizen Kane",
@@ -5453,11 +6710,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.20,
     "Minutes": 119,
-    "Watched": 768378,
+    "Watched": 777766,
+    "Fans": 5633,
+    "Likes": 212713,
     "Id": "71O",
     "Poster": "/sav0jxhqiH0bPr2vZFU0Kjt2nZL.jpg",
     "Year": 1941,
-    "When": "1941-04-17"
+    "When": "1941-04-17",
+    "BlackAndWhite": true
   },
   {
     "Title": "Felon",
@@ -5466,11 +6726,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.39,
     "Minutes": 103,
-    "Watched": 14860,
+    "Watched": 15156,
+    "Fans": 11,
+    "Likes": 2196,
     "Id": "1R1C",
     "Poster": "/1eYGh6DETJFXQt5PWjV8lp8YZvx.jpg",
     "Year": 2008,
-    "When": "2008-07-17"
+    "When": "2008-07-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Speed 2: Cruise Control",
@@ -5479,11 +6742,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 1.82,
     "Minutes": 125,
-    "Watched": 74838,
+    "Watched": 75655,
+    "Fans": 12,
+    "Likes": 3055,
     "Id": "28qa",
     "Poster": "/gnK1ocpwUTj24zAktzomOJsD2bu.jpg",
     "Year": 1997,
-    "When": "1997-06-13"
+    "When": "1997-06-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Tropico",
@@ -5492,24 +6758,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.23,
     "Minutes": 27,
-    "Watched": 18721,
+    "Watched": 19017,
+    "Fans": 215,
+    "Likes": 8459,
     "Id": "760u",
     "Poster": "/71T5V5yRn5TD5q0L7BrhTodcf1K.jpg",
     "Year": 2013,
-    "When": "2013-12-04"
+    "When": "2013-12-04",
+    "BlackAndWhite": false
   },
   {
     "Title": "Jeepers Creepers",
     "TitleOriginal": "Jeepers Creepers",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.06,
+    "RatingLetterboxd": 3.07,
     "Minutes": 90,
-    "Watched": 272556,
+    "Watched": 276261,
+    "Fans": 1008,
+    "Likes": 51750,
     "Id": "1ZAg",
     "Poster": "/g410Y1U1ELbmJG14Zru3UAimm1G.jpg",
     "Year": 2001,
-    "When": "2001-07-01"
+    "When": "2001-07-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Railrodder",
@@ -5518,11 +6790,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.51,
     "Minutes": 24,
-    "Watched": 3529,
+    "Watched": 3565,
+    "Fans": 2,
+    "Likes": 941,
     "Id": "1hgc",
     "Poster": "/cUmMg7adLloEPon09uOMmuCmIyp.jpg",
     "Year": 1965,
-    "When": "1965-06-20"
+    "When": "1965-06-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Carry On Up the Khyber",
@@ -5531,11 +6806,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.17,
     "Minutes": 88,
-    "Watched": 4322,
+    "Watched": 4382,
+    "Fans": 5,
+    "Likes": 589,
     "Id": "1zRg",
     "Poster": "/onwpgb0KjgmKbclw3XUE2XgkZfM.jpg",
     "Year": 1968,
-    "When": "1968-02-12"
+    "When": "1968-02-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Celia",
@@ -5544,11 +6822,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.64,
     "Minutes": 103,
-    "Watched": 6458,
+    "Watched": 6525,
+    "Fans": 21,
+    "Likes": 2066,
     "Id": "2bAM",
     "Poster": "/vrhapMkOMjaX2sPGgAryxyH9S8L.jpg",
     "Year": 1989,
-    "When": "1989-05-18"
+    "When": "1989-05-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Speed",
@@ -5557,11 +6838,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.68,
     "Minutes": 116,
-    "Watched": 535016,
+    "Watched": 542350,
+    "Fans": 1653,
+    "Likes": 118665,
     "Id": "28qk",
     "Poster": "/o1Zs7VaS9y2GYH9CLeWxaVLWd3x.jpg",
     "Year": 1994,
-    "When": "1994-06-09"
+    "When": "1994-06-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "G.I. Jane",
@@ -5570,11 +6854,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.94,
     "Minutes": 125,
-    "Watched": 63404,
+    "Watched": 64309,
+    "Fans": 72,
+    "Likes": 6365,
     "Id": "24my",
     "Poster": "/6yBgZJYqaR4XkxwjsB9tS4GK1ZN.jpg",
     "Year": 1997,
-    "When": "1997-08-19"
+    "When": "1997-08-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Favourite",
@@ -5583,11 +6870,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.02,
     "Minutes": 120,
-    "Watched": 1041713,
+    "Watched": 1053285,
+    "Fans": 7526,
+    "Likes": 332984,
     "Id": "d2hI",
     "Poster": "/cwBq0onfmeilU5xgqNNjJAMPfpw.jpg",
     "Year": 2018,
-    "When": "2018-11-23"
+    "When": "2018-11-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Jaws",
@@ -5596,11 +6886,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.95,
     "Minutes": 124,
-    "Watched": 1877042,
+    "Watched": 1904956,
+    "Fans": 21703,
+    "Likes": 486920,
     "Id": "2a5e",
     "Poster": "/lxM6kqilAdpdhqUl2biYp5frUxE.jpg",
     "Year": 1975,
-    "When": "1975-06-20"
+    "When": "1975-06-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Terminator 3: Rise of the Machines",
@@ -5609,11 +6902,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.68,
     "Minutes": 109,
-    "Watched": 318185,
+    "Watched": 322003,
+    "Fans": 61,
+    "Likes": 27542,
     "Id": "2aES",
     "Poster": "/vvevzdYIrk2636maNW4qeWmlPFG.jpg",
     "Year": 2003,
-    "When": "2003-07-02"
+    "When": "2003-07-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "Jackass Presents: Bad Grandpa",
@@ -5622,11 +6918,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 2.81,
     "Minutes": 92,
-    "Watched": 109846,
+    "Watched": 110847,
+    "Fans": 31,
+    "Likes": 11964,
     "Id": "6e3u",
     "Poster": "/dDSMzBEaM0LYSy9Muo0zsCo77Vh.jpg",
     "Year": 2013,
-    "When": "2013-10-22"
+    "When": "2013-10-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "Carol",
@@ -5635,11 +6934,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.02,
     "Minutes": 118,
-    "Watched": 679528,
+    "Watched": 689948,
+    "Fans": 18207,
+    "Likes": 242536,
     "Id": "7DPK",
     "Poster": "/cJeled7EyPdur6TnCA5GYg0UVna.jpg",
     "Year": 2015,
-    "When": "2015-11-20"
+    "When": "2015-11-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "My Old Ass",
@@ -5648,11 +6950,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.54,
     "Minutes": 89,
-    "Watched": 245379,
+    "Watched": 264064,
+    "Fans": 1620,
+    "Likes": 84119,
     "Id": "zLP0",
     "Poster": "/yUs4Sw9AyTg2sA1qWBkNpD2mGSj.jpg",
     "Year": 2024,
-    "When": "2024-09-13"
+    "When": "2024-09-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Roof Culture Asia",
@@ -5661,11 +6966,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.63,
     "Minutes": 113,
-    "Watched": 631,
+    "Watched": 639,
+    "Fans": 9,
+    "Likes": 205,
     "Id": "fLkw",
     "Poster": "/aeAe6WOKXROmmXySeZN6dWccWPX.jpg",
     "Year": 2017,
-    "When": "2017-09-04"
+    "When": "2017-09-04",
+    "BlackAndWhite": false
   },
   {
     "Title": "True Lies",
@@ -5674,11 +6982,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.59,
     "Minutes": 140,
-    "Watched": 245041,
+    "Watched": 247712,
+    "Fans": 259,
+    "Likes": 52243,
     "Id": "19pq",
     "Poster": "/pweFTnzzTfGK68woSVkiTgjLzWm.jpg",
     "Year": 1994,
-    "When": "1994-07-15"
+    "When": "1994-07-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Saw II",
@@ -5687,11 +6998,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.20,
     "Minutes": 93,
-    "Watched": 616728,
+    "Watched": 625508,
+    "Fans": 2578,
+    "Likes": 113542,
     "Id": "2aRs",
     "Poster": "/gTnaTysN8HsvVQqTRUh8m35mmUA.jpg",
     "Year": 2005,
-    "When": "2005-10-28"
+    "When": "2005-10-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Hunger",
@@ -5700,11 +7014,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 3.58,
     "Minutes": 96,
-    "Watched": 85364,
+    "Watched": 86362,
+    "Fans": 698,
+    "Likes": 26787,
     "Id": "1Tk2",
     "Poster": "/emOEOkrH4HT7dsjvIRbI9kaWUvL.jpg",
     "Year": 1983,
-    "When": "1983-04-29"
+    "When": "1983-04-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "City of God",
@@ -5713,11 +7030,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.54,
     "Minutes": 129,
-    "Watched": 951446,
+    "Watched": 970184,
+    "Fans": 44690,
+    "Likes": 391700,
     "Id": "2a2a",
     "Poster": "/k7eYdWvhYQyRQoU2TB2A2Xu2TfD.jpg",
     "Year": 2002,
-    "When": "2002-08-30"
+    "When": "2002-08-30",
+    "BlackAndWhite": false
   },
   {
     "Title": "Lady Vengeance",
@@ -5726,24 +7046,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.04,
     "Minutes": 115,
-    "Watched": 191838,
+    "Watched": 194358,
+    "Fans": 3259,
+    "Likes": 63508,
     "Id": "248G",
     "Poster": "/7F7Ozn0QpqkVvuv1kC2XpbuFvn9.jpg",
     "Year": 2005,
-    "When": "2005-07-29"
+    "When": "2005-07-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "Annie",
     "TitleOriginal": "Annie",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.31,
+    "RatingLetterboxd": 3.32,
     "Minutes": 127,
-    "Watched": 189185,
+    "Watched": 192027,
+    "Fans": 517,
+    "Likes": 23792,
     "Id": "1LCi",
     "Poster": "/6dG7UTAISJGh6FqTKIwN7sR11w2.jpg",
     "Year": 1982,
-    "When": "1982-05-21"
+    "When": "1982-05-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Vertigo",
@@ -5752,11 +7078,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.24,
     "Minutes": 128,
-    "Watched": 860153,
+    "Watched": 872850,
+    "Fans": 15709,
+    "Likes": 277722,
     "Id": "2apI",
     "Poster": "/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg",
     "Year": 1958,
-    "When": "1958-05-28"
+    "When": "1958-05-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "Patriot Games",
@@ -5765,11 +7094,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.27,
     "Minutes": 117,
-    "Watched": 93788,
+    "Watched": 94857,
+    "Fans": 21,
+    "Likes": 13396,
     "Id": "1XEA",
     "Poster": "/yToAJg67r3hk3Ux3sfXOdpiqxU.jpg",
     "Year": 1992,
-    "When": "1992-06-04"
+    "When": "1992-06-04",
+    "BlackAndWhite": false
   },
   {
     "Title": "Cries and Whispers",
@@ -5778,11 +7110,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.22,
     "Minutes": 95,
-    "Watched": 91486,
+    "Watched": 92492,
+    "Fans": 1266,
+    "Likes": 29327,
     "Id": "1WK8",
     "Poster": "/a1bMgB09YDvvRN9SitCclUYragr.jpg",
     "Year": 1972,
-    "When": "1972-12-21"
+    "When": "1972-12-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Matilda",
@@ -5791,11 +7126,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.73,
     "Minutes": 98,
-    "Watched": 1309761,
+    "Watched": 1335256,
+    "Fans": 10484,
+    "Likes": 297672,
     "Id": "1VhY",
     "Poster": "/wYoDpWInsBEVSmWStnRH06ddoyk.jpg",
     "Year": 1996,
-    "When": "1996-08-02"
+    "When": "1996-08-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "An Honest Liar",
@@ -5804,11 +7142,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.73,
     "Minutes": 90,
-    "Watched": 12311,
+    "Watched": 12377,
+    "Fans": 2,
+    "Likes": 2397,
     "Id": "7NJM",
     "Poster": "/sXgXPtynmZnLLISonrrc7XtrLKv.jpg",
     "Year": 2014,
-    "When": "2014-04-18"
+    "When": "2014-04-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Good Will Hunting",
@@ -5817,11 +7158,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.33,
     "Minutes": 127,
-    "Watched": 2463671,
+    "Watched": 2522620,
+    "Fans": 100872,
+    "Likes": 965964,
     "Id": "2ahY",
     "Poster": "/z2FnLKpFi1HPO7BEJxdkv6hpJSU.jpg",
     "Year": 1997,
-    "When": "1997-12-05"
+    "When": "1997-12-05",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Meetings of Anna",
@@ -5830,11 +7174,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.10,
     "Minutes": 128,
-    "Watched": 15562,
+    "Watched": 15820,
+    "Fans": 344,
+    "Likes": 5998,
     "Id": "3gEG",
     "Poster": "/7F84UMMsYQo2YyajwNjD1gbtf1v.jpg",
     "Year": 1978,
-    "When": "1978-10-08"
+    "When": "1978-10-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "Buffy the Vampire Slayer",
@@ -5843,11 +7190,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 2.79,
     "Minutes": 86,
-    "Watched": 103670,
+    "Watched": 104763,
+    "Fans": 183,
+    "Likes": 17667,
     "Id": "1WP8",
     "Poster": "/so4tTMItoq90wphs18lWbV0ASVV.jpg",
     "Year": 1992,
-    "When": "1992-07-24"
+    "When": "1992-07-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Terminator",
@@ -5856,11 +7206,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.89,
     "Minutes": 108,
-    "Watched": 1148494,
+    "Watched": 1164047,
+    "Fans": 3444,
+    "Likes": 282707,
     "Id": "2aQY",
     "Poster": "/hzXSE66v6KthZ8nPoLZmsi2G05j.jpg",
     "Year": 1984,
-    "When": "1984-10-26"
+    "When": "1984-10-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Italian Job",
@@ -5869,11 +7222,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.20,
     "Minutes": 110,
-    "Watched": 272174,
+    "Watched": 275350,
+    "Fans": 579,
+    "Likes": 36373,
     "Id": "1Y86",
     "Poster": "/eSkjK4kctyrWpFhxl35GPvSs6tI.jpg",
     "Year": 2003,
-    "When": "2003-05-30"
+    "When": "2003-05-30",
+    "BlackAndWhite": false
   },
   {
     "Title": "Funny Face",
@@ -5882,11 +7238,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.65,
     "Minutes": 103,
-    "Watched": 110599,
+    "Watched": 112283,
+    "Fans": 1953,
+    "Likes": 31527,
     "Id": "1Qpy",
     "Poster": "/7yFRrAAClKMycrOB4500hqQEx53.jpg",
     "Year": 1957,
-    "When": "1957-02-13"
+    "When": "1957-02-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Birds Without Feathers",
@@ -5895,37 +7254,46 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": -1,
     "Minutes": 85,
-    "Watched": 187,
+    "Watched": 188,
+    "Fans": 1,
+    "Likes": 32,
     "Id": "i2d2",
     "Poster": "/rYP8hZpfXxjyv2mbT1ELxRGt9Kc.jpg",
     "Year": 2018,
-    "When": "2018-01-19"
+    "When": "2018-01-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Blue Is the Warmest Color",
     "TitleOriginal": "La Vie d'Ad\u00E8le - Chapitres 1 et 2",
     "Language": "French",
     "RatingSelf": 3,
-    "RatingLetterboxd": 3.26,
+    "RatingLetterboxd": 3.25,
     "Minutes": 180,
-    "Watched": 491060,
+    "Watched": 497517,
+    "Fans": 1646,
+    "Likes": 82439,
     "Id": "4O40",
     "Poster": "/wvpblFu3phIXdtdKsj5SafNQgFP.jpg",
     "Year": 2013,
-    "When": "2013-10-09"
+    "When": "2013-10-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Nosferatu",
     "TitleOriginal": "Nosferatu, eine Symphonie des Grauens",
     "Language": "",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.85,
+    "RatingLetterboxd": 3.84,
     "Minutes": 95,
-    "Watched": 457515,
+    "Watched": 475879,
+    "Fans": 2759,
+    "Likes": 137089,
     "Id": "29TM",
     "Poster": "zv7J85D8CC9qYagAEhPM63CIG6j.jpg",
     "Year": 1922,
-    "When": "1922-02-16"
+    "When": "1922-02-16",
+    "BlackAndWhite": true
   },
   {
     "Title": "The Banshees of Inisherin",
@@ -5934,11 +7302,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.11,
     "Minutes": 114,
-    "Watched": 1198372,
+    "Watched": 1212101,
+    "Fans": 14601,
+    "Likes": 436971,
     "Id": "p7XS",
     "Poster": "/4yFG6cSPaCaPhyJ1vtGOtMD1lgh.jpg",
     "Year": 2022,
-    "When": "2022-10-20"
+    "When": "2022-10-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Girl, Interrupted",
@@ -5947,11 +7318,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 3.92,
     "Minutes": 127,
-    "Watched": 1227765,
+    "Watched": 1256635,
+    "Fans": 47570,
+    "Likes": 479458,
     "Id": "25ds",
     "Poster": "/dOBdatHIVppvmRFw2z7bf9VKJr9.jpg",
     "Year": 1999,
-    "When": "1999-12-21"
+    "When": "1999-12-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "DOA: Dead or Alive",
@@ -5960,11 +7334,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.43,
     "Minutes": 87,
-    "Watched": 21340,
+    "Watched": 21643,
+    "Fans": 62,
+    "Likes": 2805,
     "Id": "1ZhI",
     "Poster": "/gtlai95IERRDgRhPCK0WEuwCRP0.jpg",
     "Year": 2006,
-    "When": "2006-09-07"
+    "When": "2006-09-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Neighbors",
@@ -5973,11 +7350,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.80,
     "Minutes": 18,
-    "Watched": 11440,
+    "Watched": 11548,
+    "Fans": 6,
+    "Likes": 3060,
     "Id": "BAY",
     "Poster": "/k1UjHdeHAIS3vlgmdiwP5ITKVu5.jpg",
     "Year": 1920,
-    "When": "1920-12-12"
+    "When": "1920-12-12",
+    "BlackAndWhite": true
   },
   {
     "Title": "Enemy at the Gates",
@@ -5986,11 +7366,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.52,
     "Minutes": 131,
-    "Watched": 124347,
+    "Watched": 125934,
+    "Fans": 233,
+    "Likes": 20013,
     "Id": "29s2",
     "Poster": "/9cSoNnB31hGY2mL78VT8mAbz6nR.jpg",
     "Year": 2001,
-    "When": "2001-02-28"
+    "When": "2001-02-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "Senna",
@@ -5999,11 +7382,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.24,
     "Minutes": 106,
-    "Watched": 104946,
+    "Watched": 106500,
+    "Fans": 604,
+    "Likes": 31509,
     "Id": "kfE",
     "Poster": "/nZbLCbRoP6iJq5sr8daHQzjnzFh.jpg",
     "Year": 2010,
-    "When": "2010-10-07"
+    "When": "2010-10-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Shrek",
@@ -6012,11 +7398,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.10,
     "Minutes": 90,
-    "Watched": 3112911,
+    "Watched": 3171225,
+    "Fans": 14972,
+    "Likes": 860529,
     "Id": "29zi",
     "Poster": "/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
     "Year": 2001,
-    "When": "2001-05-18"
+    "When": "2001-05-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Talented Mr. Ripley",
@@ -6025,11 +7414,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.85,
     "Minutes": 140,
-    "Watched": 630740,
+    "Watched": 640147,
+    "Fans": 7198,
+    "Likes": 162328,
     "Id": "2924",
     "Poster": "/6ojHgqtIR41O2qLKa7LFUVj0cZa.jpg",
     "Year": 1999,
-    "When": "1999-12-25"
+    "When": "1999-12-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Man from Earth",
@@ -6038,11 +7430,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.76,
     "Minutes": 87,
-    "Watched": 116611,
+    "Watched": 118708,
+    "Fans": 2229,
+    "Likes": 32489,
     "Id": "1Ql2",
     "Poster": "/x795RrV92JbLXh4pBSEEe62Nmv0.jpg",
     "Year": 2007,
-    "When": "2007-06-10"
+    "When": "2007-06-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "Chicken Run",
@@ -6051,11 +7446,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.61,
     "Minutes": 84,
-    "Watched": 800394,
+    "Watched": 810586,
+    "Fans": 1800,
+    "Likes": 140875,
     "Id": "20Xg",
     "Poster": "/8XgmIsbpVamdhwcNVsYzohFZTtT.jpg",
     "Year": 2000,
-    "When": "2000-06-23"
+    "When": "2000-06-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Hancock",
@@ -6064,24 +7462,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.76,
     "Minutes": 92,
-    "Watched": 574790,
+    "Watched": 581435,
+    "Fans": 134,
+    "Likes": 55262,
     "Id": "1Zv6",
     "Poster": "/7DyuV2G0hLEqHeueDfOqhZ2DVut.jpg",
     "Year": 2008,
-    "When": "2008-07-01"
+    "When": "2008-07-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Twilight",
     "TitleOriginal": "Twilight",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 2.98,
+    "RatingLetterboxd": 2.99,
     "Minutes": 122,
-    "Watched": 2174527,
+    "Watched": 2226924,
+    "Fans": 34174,
+    "Likes": 462195,
     "Id": "1Zui",
     "Poster": "/3Gkb6jm6962ADUPaCBqzz9CTbn9.jpg",
     "Year": 2008,
-    "When": "2008-11-20"
+    "When": "2008-11-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Fountain",
@@ -6090,11 +7494,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.54,
     "Minutes": 96,
-    "Watched": 194664,
+    "Watched": 196500,
+    "Fans": 3367,
+    "Likes": 42841,
     "Id": "28RU",
     "Poster": "/4ZZX5hqdnWtR64LkjUGBhzNabce.jpg",
     "Year": 2006,
-    "When": "2006-11-22"
+    "When": "2006-11-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "Society of the Snow",
@@ -6103,11 +7510,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.14,
     "Minutes": 144,
-    "Watched": 993917,
+    "Watched": 1013259,
+    "Fans": 8442,
+    "Likes": 365503,
     "Id": "y9aw",
     "Poster": "/2e853FDVSIso600RqAMunPxiZjq.jpg",
     "Year": 2023,
-    "When": "2023-12-15"
+    "When": "2023-12-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Milk",
@@ -6116,11 +7526,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.77,
     "Minutes": 128,
-    "Watched": 173497,
+    "Watched": 175119,
+    "Fans": 120,
+    "Likes": 28600,
     "Id": "1WZC",
     "Poster": "/ot4ImF4b7QbS6XsTdMH3pWxNmX2.jpg",
     "Year": 2008,
-    "When": "2008-11-05"
+    "When": "2008-11-05",
+    "BlackAndWhite": false
   },
   {
     "Title": "Saltburn",
@@ -6129,11 +7542,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.40,
     "Minutes": 131,
-    "Watched": 2677627,
+    "Watched": 2737352,
+    "Fans": 13459,
+    "Likes": 782586,
     "Id": "z4eg",
     "Poster": "/zGTfMwG112BC66mpaveVxoWPOaB.jpg",
     "Year": 2023,
-    "When": "2023-11-16"
+    "When": "2023-11-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "U-571",
@@ -6142,11 +7558,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.19,
     "Minutes": 116,
-    "Watched": 38172,
+    "Watched": 38530,
+    "Fans": 26,
+    "Likes": 4838,
     "Id": "25gm",
     "Poster": "/yeUhRSrlFcXhsuUai2ozWH6rNnK.jpg",
     "Year": 2000,
-    "When": "2000-04-20"
+    "When": "2000-04-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Harry Potter and the Prisoner of Azkaban",
@@ -6155,11 +7574,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.11,
     "Minutes": 141,
-    "Watched": 3260486,
+    "Watched": 3324225,
+    "Fans": 42057,
+    "Likes": 1029979,
     "Id": "29Qy",
     "Poster": "/aWxwnYoe8p2d2fcxOqtvAtJ72Rw.jpg",
     "Year": 2004,
-    "When": "2004-05-31"
+    "When": "2004-05-31",
+    "BlackAndWhite": false
   },
   {
     "Title": "Good One",
@@ -6168,11 +7590,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.66,
     "Minutes": 90,
-    "Watched": 16962,
+    "Watched": 18059,
+    "Fans": 57,
+    "Likes": 5667,
     "Id": "Gsyo",
     "Poster": "/dd5FO4vMKDXrvf81XJGAle0Zba1.jpg",
     "Year": 2024,
-    "When": "2024-08-09"
+    "When": "2024-08-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Virgin Suicides",
@@ -6181,11 +7606,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.84,
     "Minutes": 97,
-    "Watched": 1046235,
+    "Watched": 1074171,
+    "Fans": 46314,
+    "Likes": 396438,
     "Id": "28JG",
     "Poster": "/1NCQtXPQnaHRjOZVmktA9BSM35F.jpg",
     "Year": 1999,
-    "When": "2000-04-21"
+    "When": "2000-04-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Dumbo",
@@ -6194,11 +7622,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.38,
     "Minutes": 64,
-    "Watched": 589421,
+    "Watched": 596695,
+    "Fans": 425,
+    "Likes": 65342,
     "Id": "1U2o",
     "Poster": "/hKDdllslMtsU9JixAv5HR9biXlp.jpg",
     "Year": 1941,
-    "When": "1941-10-31"
+    "When": "1941-10-31",
+    "BlackAndWhite": false
   },
   {
     "Title": "Moana",
@@ -6207,37 +7638,46 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.72,
     "Minutes": 107,
-    "Watched": 2087450,
+    "Watched": 2126468,
+    "Fans": 5633,
+    "Likes": 469920,
     "Id": "8tfY",
     "Poster": "/9tzN8sPbyod2dsa0lwuvrwBDWra.jpg",
     "Year": 2016,
-    "When": "2016-10-13"
+    "When": "2016-10-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Nope",
     "TitleOriginal": "Nope",
     "Language": "English",
     "RatingSelf": 2,
-    "RatingLetterboxd": 3.70,
+    "RatingLetterboxd": 3.69,
     "Minutes": 130,
-    "Watched": 2042232,
+    "Watched": 2071827,
+    "Fans": 15041,
+    "Likes": 709814,
     "Id": "sDCe",
     "Poster": "/AcKVlWaNVVVFQwro3nLXqPljcYA.jpg",
     "Year": 2022,
-    "When": "2022-07-20"
+    "When": "2022-07-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Love Lies Bleeding",
     "TitleOriginal": "Love Lies Bleeding",
     "Language": "English",
     "RatingSelf": 4,
-    "RatingLetterboxd": 3.56,
+    "RatingLetterboxd": 3.55,
     "Minutes": 104,
-    "Watched": 581492,
+    "Watched": 595019,
+    "Fans": 3303,
+    "Likes": 186117,
     "Id": "zN4q",
     "Poster": "/p7jyFWiLyHPttqYBFAlLJwtYTYH.jpg",
     "Year": 2024,
-    "When": "2024-03-07"
+    "When": "2024-03-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Impossible",
@@ -6246,11 +7686,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.61,
     "Minutes": 114,
-    "Watched": 420847,
+    "Watched": 428072,
+    "Fans": 1165,
+    "Likes": 73814,
     "Id": "2N9k",
     "Poster": "/5dtla4cclnzfhou3IADsHERLEyk.jpg",
     "Year": 2012,
-    "When": "2012-09-09"
+    "When": "2012-09-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Airplane!",
@@ -6259,11 +7702,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.84,
     "Minutes": 88,
-    "Watched": 685389,
+    "Watched": 694659,
+    "Fans": 5047,
+    "Likes": 185928,
     "Id": "29yu",
     "Poster": "/7Q3efxd3AF1vQjlSxnlerSA7RzN.jpg",
     "Year": 1980,
-    "When": "1980-07-02"
+    "When": "1980-07-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "Date Movie",
@@ -6272,11 +7718,14 @@ var films = [
     "RatingSelf": 1,
     "RatingLetterboxd": 1.43,
     "Minutes": 83,
-    "Watched": 53347,
+    "Watched": 53981,
+    "Fans": 17,
+    "Likes": 2276,
     "Id": "1X9M",
     "Poster": "/xjLK0EmD0MAM7B049SRCUQaqkdL.jpg",
     "Year": 2006,
-    "When": "2006-02-17"
+    "When": "2006-02-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Wrestler",
@@ -6285,24 +7734,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.06,
     "Minutes": 109,
-    "Watched": 274409,
+    "Watched": 276857,
+    "Fans": 1370,
+    "Likes": 70991,
     "Id": "1So8",
-    "Poster": "/7QH5p5BF582k6qHufCKjftfkqWH.jpg",
+    "Poster": "/n7kYxe4UPF1IZ1jp8o4Qtn06Cj6.jpg",
     "Year": 2008,
-    "When": "2008-09-07"
+    "When": "2008-09-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Matrix Reloaded",
     "TitleOriginal": "The Matrix Reloaded",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.37,
+    "RatingLetterboxd": 3.38,
     "Minutes": 138,
-    "Watched": 917810,
+    "Watched": 930415,
+    "Fans": 1044,
+    "Likes": 156435,
     "Id": "2a1c",
     "Poster": "/9TGHDvWrqKBzwDxDodHYXEmOE6J.jpg",
     "Year": 2003,
-    "When": "2003-05-15"
+    "When": "2003-05-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Invisible Man",
@@ -6311,11 +7766,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.87,
     "Minutes": 71,
-    "Watched": 105246,
+    "Watched": 106281,
+    "Fans": 555,
+    "Likes": 34187,
     "Id": "1VoK",
     "Poster": "/ewfUA5pMEJrmQCdI4TsHmLlIUbf.jpg",
     "Year": 1933,
-    "When": "1933-11-03"
+    "When": "1933-11-03",
+    "BlackAndWhite": true
   },
   {
     "Title": "Escape from Alcatraz",
@@ -6324,11 +7782,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.78,
     "Minutes": 113,
-    "Watched": 166744,
+    "Watched": 168800,
+    "Fans": 270,
+    "Likes": 35462,
     "Id": "1Vwk",
     "Poster": "/uORr2GXQnyqgBOg6tVsRCJD2qxc.jpg",
     "Year": 1979,
-    "When": "1979-06-22"
+    "When": "1979-06-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "The High Sign",
@@ -6337,11 +7798,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.85,
     "Minutes": 21,
-    "Watched": 12814,
+    "Watched": 12962,
+    "Fans": 11,
+    "Likes": 3941,
     "Id": "N0S",
     "Poster": "/oIrAPIj3EnRGcp7IiaRrntgcMaq.jpg",
     "Year": 1921,
-    "When": "1921-04-18"
+    "When": "1921-04-18",
+    "BlackAndWhite": true
   },
   {
     "Title": "Ring",
@@ -6350,11 +7814,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.61,
     "Minutes": 96,
-    "Watched": 258455,
+    "Watched": 262475,
+    "Fans": 1087,
+    "Likes": 58061,
     "Id": "26tw",
     "Poster": "/1YINof6kN5yRdePEbcU5360ejoq.jpg",
     "Year": 1998,
-    "When": "1998-01-31"
+    "When": "1998-01-31",
+    "BlackAndWhite": false
   },
   {
     "Title": "Je Tu Il Elle",
@@ -6363,11 +7830,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.73,
     "Minutes": 86,
-    "Watched": 35319,
+    "Watched": 35961,
+    "Fans": 481,
+    "Likes": 11582,
     "Id": "3gWK",
     "Poster": "/4arnTs41WSLWsnENWdljFKo0pu1.jpg",
     "Year": 1974,
-    "When": "1974-12-31"
+    "When": "1974-12-31",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Yes Men",
@@ -6376,11 +7846,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.41,
     "Minutes": 80,
-    "Watched": 3027,
+    "Watched": 3044,
+    "Fans": 0,
+    "Likes": 293,
     "Id": "25t6",
     "Poster": "/lbwXEMe4fz6hj3ySwgstRJx38Wz.jpg",
     "Year": 2003,
-    "When": "2003-09-07"
+    "When": "2003-09-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Love Actually",
@@ -6389,11 +7862,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.47,
     "Minutes": 135,
-    "Watched": 1311791,
+    "Watched": 1334153,
+    "Fans": 8654,
+    "Likes": 308278,
     "Id": "2aeU",
     "Poster": "/7QPeVsr9rcFU9Gl90yg0gTOTpVv.jpg",
     "Year": 2003,
-    "When": "2003-09-07"
+    "When": "2003-09-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Fifth Element",
@@ -6402,11 +7878,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 126,
-    "Watched": 649454,
+    "Watched": 658923,
+    "Fans": 9009,
+    "Likes": 178937,
     "Id": "71k",
     "Poster": "/fPtlCO1yQtnoLHOwKtWz7db6RGU.jpg",
     "Year": 1997,
-    "When": "1997-05-02"
+    "When": "1997-05-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "Cursed",
@@ -6415,11 +7894,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.63,
     "Minutes": 99,
-    "Watched": 44422,
+    "Watched": 45116,
+    "Fans": 44,
+    "Likes": 7779,
     "Id": "1XiY",
     "Poster": "/em45jL4CfTMyj5V83kj7rhdorJu.jpg",
     "Year": 2005,
-    "When": "2005-02-25"
+    "When": "2005-02-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Father",
@@ -6428,11 +7910,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.29,
     "Minutes": 97,
-    "Watched": 427588,
+    "Watched": 433023,
+    "Fans": 2322,
+    "Likes": 142927,
     "Id": "m8Ie",
     "Poster": "/xxHNaCMycynHMKdEZHHQCzaPbZl.jpg",
     "Year": 2020,
-    "When": "2020-12-23"
+    "When": "2020-12-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Shape of Water",
@@ -6441,11 +7926,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 3.67,
     "Minutes": 123,
-    "Watched": 1279458,
+    "Watched": 1293843,
+    "Fans": 7159,
+    "Likes": 345702,
     "Id": "dZ5m",
     "Poster": "/9zfwPffUXpBrEP26yp0q1ckXDcj.jpg",
     "Year": 2017,
-    "When": "2017-12-01"
+    "When": "2017-12-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Early Man",
@@ -6454,11 +7942,14 @@ var films = [
     "RatingSelf": 1,
     "RatingLetterboxd": 2.91,
     "Minutes": 89,
-    "Watched": 49964,
+    "Watched": 50565,
+    "Fans": 7,
+    "Likes": 6072,
     "Id": "dwyu",
     "Poster": "/5iW2rntwLZoGlFCYYy8TjHyblbw.jpg",
     "Year": 2018,
-    "When": "2018-01-26"
+    "When": "2018-01-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "A Simple Plan",
@@ -6467,11 +7958,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.86,
     "Minutes": 121,
-    "Watched": 73531,
+    "Watched": 74656,
+    "Fans": 115,
+    "Likes": 18281,
     "Id": "1WMo",
     "Poster": "/oyr2lW8HhyRQHMw5LZSx2m9ujwt.jpg",
     "Year": 1998,
-    "When": "1998-12-11"
+    "When": "1998-12-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Million Dollar Baby",
@@ -6480,11 +7974,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.01,
     "Minutes": 132,
-    "Watched": 524959,
+    "Watched": 534809,
+    "Fans": 2610,
+    "Likes": 119718,
     "Id": "2bdI",
     "Poster": "/jcfEqKdWF1zeyvECPqp3mkWLct2.jpg",
     "Year": 2004,
-    "When": "2004-12-15"
+    "When": "2004-12-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Die Hard 2",
@@ -6493,24 +7990,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.32,
     "Minutes": 124,
-    "Watched": 333807,
+    "Watched": 337873,
+    "Fans": 157,
+    "Likes": 52465,
     "Id": "28zw",
     "Poster": "/wUEizkONxPZmIWQ2lnMttW0suXH.jpg",
     "Year": 1990,
-    "When": "1990-07-03"
+    "When": "1990-07-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Sleepy Hollow",
     "TitleOriginal": "Sleepy Hollow",
     "Language": "English",
     "RatingSelf": 4,
-    "RatingLetterboxd": 3.51,
+    "RatingLetterboxd": 3.52,
     "Minutes": 105,
-    "Watched": 552271,
+    "Watched": 559961,
+    "Fans": 2289,
+    "Likes": 121681,
     "Id": "26u0",
     "Poster": "/1GuK965FLJxqUw9fd1pmvjbFAlv.jpg",
     "Year": 1999,
-    "When": "1999-11-19"
+    "When": "1999-11-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Pulp Fiction",
@@ -6519,11 +8022,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.26,
     "Minutes": 154,
-    "Watched": 4063413,
+    "Watched": 4134339,
+    "Fans": 92688,
+    "Likes": 1804526,
     "Id": "29Pq",
     "Poster": "/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
     "Year": 1994,
-    "When": "1994-09-10"
+    "When": "1994-09-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "Nomadland",
@@ -6532,11 +8038,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.83,
     "Minutes": 108,
-    "Watched": 614778,
+    "Watched": 620263,
+    "Fans": 2796,
+    "Likes": 162613,
     "Id": "lnRy",
     "Poster": "/k5XzjWihzum1YgLMlqRDRZDmVMn.jpg",
     "Year": 2020,
-    "When": "2021-01-29"
+    "When": "2021-01-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "Die Hard",
@@ -6545,11 +8054,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.06,
     "Minutes": 132,
-    "Watched": 1364295,
+    "Watched": 1382844,
+    "Fans": 8998,
+    "Likes": 408416,
     "Id": "2a7u",
     "Poster": "/1NnCbaFaWgHczKjH5Eii46VmpPp.jpg",
     "Year": 1988,
-    "When": "1988-07-15"
+    "When": "1988-07-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Swimming",
@@ -6558,24 +8070,30 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.31,
     "Minutes": 91,
-    "Watched": 418,
+    "Watched": 423,
+    "Fans": 8,
+    "Likes": 109,
     "Id": "3E06",
     "Poster": "/weFuIrqz2WNUBsidca5ql2DmkAY.jpg",
     "Year": 2000,
-    "When": "2000-03-09"
+    "When": "2000-03-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Four Weddings and a Funeral",
     "TitleOriginal": "Four Weddings and a Funeral",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.38,
+    "RatingLetterboxd": 3.37,
     "Minutes": 117,
-    "Watched": 317474,
+    "Watched": 323951,
+    "Fans": 1286,
+    "Likes": 59128,
     "Id": "29KA",
     "Poster": "/qa72G2VS0bpxms6yo0tI9vsHm2e.jpg",
     "Year": 1994,
-    "When": "1994-03-09"
+    "When": "1994-03-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Murder by Numbers",
@@ -6584,11 +8102,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.89,
     "Minutes": 120,
-    "Watched": 44178,
+    "Watched": 44731,
+    "Fans": 28,
+    "Likes": 4963,
     "Id": "1SQc",
     "Poster": "/pBM5byKWtcHg8NvyTA7NVyIIqEj.jpg",
     "Year": 2002,
-    "When": "2002-04-19"
+    "When": "2002-04-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Menu",
@@ -6597,11 +8118,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.53,
     "Minutes": 107,
-    "Watched": 2707869,
+    "Watched": 2760424,
+    "Fans": 6681,
+    "Likes": 839764,
     "Id": "lScm",
     "Poster": "/fPtUgMcLIboqlTlPrq0bQpKK8eq.jpg",
     "Year": 2022,
-    "When": "2022-11-17"
+    "When": "2022-11-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Rush",
@@ -6610,11 +8134,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.82,
     "Minutes": 123,
-    "Watched": 396578,
+    "Watched": 401556,
+    "Fans": 2371,
+    "Likes": 94685,
     "Id": "3lyS",
     "Poster": "/5hpcfL3WH5ArSPUlfD4E1TtaOd0.jpg",
     "Year": 2013,
-    "When": "2013-09-02"
+    "When": "2013-09-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "You've Got Mail",
@@ -6623,11 +8150,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.51,
     "Minutes": 119,
-    "Watched": 433852,
+    "Watched": 440329,
+    "Fans": 5089,
+    "Likes": 94302,
     "Id": "1Yye",
     "Poster": "/e2uVtH6TpMfUl7WeOM70ezkcjsU.jpg",
     "Year": 1998,
-    "When": "1998-12-18"
+    "When": "1998-12-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Whip It",
@@ -6636,24 +8166,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.61,
     "Minutes": 111,
-    "Watched": 175212,
+    "Watched": 177026,
+    "Fans": 1934,
+    "Likes": 43610,
     "Id": "1A3m",
     "Poster": "/nwPvNuxIhVNhBFdzMsMPu2Va608.jpg",
     "Year": 2009,
-    "When": "2009-04-09"
+    "When": "2009-04-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Fall",
     "TitleOriginal": "The Fall",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 4.16,
+    "RatingLetterboxd": 4.17,
     "Minutes": 119,
-    "Watched": 145053,
+    "Watched": 149426,
+    "Fans": 8173,
+    "Likes": 58153,
     "Id": "1NoM",
     "Poster": "/g3RKh7Gp2lDUnXQ0ZXq7xpdwA9e.jpg",
     "Year": 2006,
-    "When": "2008-01-03"
+    "When": "2008-01-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Hunger Games: Mockingjay - Part 1",
@@ -6662,24 +8198,30 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.26,
     "Minutes": 123,
-    "Watched": 1849862,
+    "Watched": 1883616,
+    "Fans": 1611,
+    "Likes": 332796,
     "Id": "4hka",
     "Poster": "/4FAA18ZIja70d1Tu5hr5cj2q1sB.jpg",
     "Year": 2014,
-    "When": "2014-11-19"
+    "When": "2014-11-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Executive Target",
     "TitleOriginal": "Executive Target",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.10,
+    "RatingLetterboxd": 3.09,
     "Minutes": 100,
-    "Watched": 365,
+    "Watched": 366,
+    "Fans": 0,
+    "Likes": 50,
     "Id": "4lqQ",
     "Poster": "/skg2xIUukf2VRp3WaPKsRz0mfs8.jpg",
     "Year": 1997,
-    "When": "1997-07-11"
+    "When": "1997-07-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "The United States of Leland",
@@ -6688,11 +8230,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.31,
     "Minutes": 108,
-    "Watched": 12930,
+    "Watched": 13159,
+    "Fans": 62,
+    "Likes": 2002,
     "Id": "1PS0",
     "Poster": "/60B0kXNSy3isCSZtM3vl2GWeKdE.jpg",
     "Year": 2003,
-    "When": "2003-05-15"
+    "When": "2003-05-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "T\u00C1R",
@@ -6701,11 +8246,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 3.94,
     "Minutes": 158,
-    "Watched": 655240,
+    "Watched": 663293,
+    "Fans": 5237,
+    "Likes": 202406,
     "Id": "uNIA",
     "Poster": "/dRVAlaU0vbG6hMf2K45NSiIyoUe.jpg",
     "Year": 2022,
-    "When": "2022-09-23"
+    "When": "2022-09-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Lord of the Rings: The Return of the King",
@@ -6714,11 +8262,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.52,
     "Minutes": 201,
-    "Watched": 2345108,
+    "Watched": 2385343,
+    "Fans": 69889,
+    "Likes": 835469,
     "Id": "2b5u",
     "Poster": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
     "Year": 2003,
-    "When": "2003-12-17"
+    "When": "2003-12-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Monster",
@@ -6727,11 +8278,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.65,
     "Minutes": 110,
-    "Watched": 189889,
+    "Watched": 191975,
+    "Fans": 305,
+    "Likes": 34648,
     "Id": "2afy",
     "Poster": "/aevmNtJCNG4ZlfEeEGZ79frMUes.jpg",
     "Year": 2003,
-    "When": "2003-12-24"
+    "When": "2003-12-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Peanuts Movie",
@@ -6740,11 +8294,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.59,
     "Minutes": 88,
-    "Watched": 149787,
+    "Watched": 152502,
+    "Fans": 781,
+    "Likes": 38088,
     "Id": "6Jci",
     "Poster": "/dZOcwqxurYhDyjmdnhYcGnn1agL.jpg",
     "Year": 2015,
-    "When": "2015-11-05"
+    "When": "2015-11-05",
+    "BlackAndWhite": false
   },
   {
     "Title": "Ex Machina",
@@ -6753,24 +8310,30 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.98,
     "Minutes": 108,
-    "Watched": 1534371,
+    "Watched": 1549946,
+    "Fans": 7963,
+    "Likes": 479817,
     "Id": "7T2k",
     "Poster": "/iJAe7tHMlqtiCBcz048yqvXGeM5.jpg",
     "Year": 2015,
-    "When": "2015-01-21"
+    "When": "2015-01-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "La Ceremonie",
     "TitleOriginal": "La C\u00E9r\u00E9monie",
     "Language": "French",
     "RatingSelf": 4,
-    "RatingLetterboxd": 4.05,
+    "RatingLetterboxd": 4.06,
     "Minutes": 111,
-    "Watched": 47511,
+    "Watched": 48348,
+    "Fans": 517,
+    "Likes": 16204,
     "Id": "287C",
     "Poster": "/nMbhZN6dCQhHN3pilNiYDasRT3n.jpg",
     "Year": 1995,
-    "When": "1995-08-30"
+    "When": "1995-08-30",
+    "BlackAndWhite": false
   },
   {
     "Title": "System Crasher",
@@ -6779,11 +8342,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.96,
     "Minutes": 118,
-    "Watched": 39978,
+    "Watched": 40494,
+    "Fans": 213,
+    "Likes": 10575,
     "Id": "kO1W",
     "Poster": "/YqbeGd7ojtxRukKhvoq6Bgf4t8.jpg",
     "Year": 2019,
-    "When": "2019-09-19"
+    "When": "2019-09-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "All Is Lost",
@@ -6792,11 +8358,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.55,
     "Minutes": 106,
-    "Watched": 58951,
+    "Watched": 59361,
+    "Fans": 49,
+    "Likes": 9746,
     "Id": "4OgK",
     "Poster": "/9cVA4oX2xHgiglv6hemxwAaofsq.jpg",
     "Year": 2013,
-    "When": "2013-08-23"
+    "When": "2013-08-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Confidence",
@@ -6805,11 +8374,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.06,
     "Minutes": 97,
-    "Watched": 8506,
+    "Watched": 8569,
+    "Fans": 2,
+    "Likes": 815,
     "Id": "1Vvm",
     "Poster": "/yJzmAtY9DmhhjJwFnW0Zjlvz6yg.jpg",
     "Year": 2003,
-    "When": "2003-04-25"
+    "When": "2003-04-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Barkley Marathons: The Race That Eats Its Young",
@@ -6818,11 +8390,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.94,
     "Minutes": 90,
-    "Watched": 11033,
+    "Watched": 11164,
+    "Fans": 73,
+    "Likes": 2945,
     "Id": "b2ck",
     "Poster": "/1ugzwqaN5mcIgigfI1J3T1Zedym.jpg",
     "Year": 2014,
-    "When": "2014-10-26"
+    "When": "2014-10-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Zombieland",
@@ -6831,11 +8406,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.53,
     "Minutes": 88,
-    "Watched": 1475228,
+    "Watched": 1495263,
+    "Fans": 3233,
+    "Likes": 349867,
     "Id": "1En6",
     "Poster": "/dUkAmAyPVqubSBNRjRqCgHggZcK.jpg",
     "Year": 2009,
-    "When": "2009-10-02"
+    "When": "2009-10-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Juniper Tree",
@@ -6844,24 +8422,30 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.55,
     "Minutes": 79,
-    "Watched": 17876,
+    "Watched": 18043,
+    "Fans": 94,
+    "Likes": 5055,
     "Id": "1nr6",
     "Poster": "/xcKxbhJ41JZM3QqauFG6YgL9gpz.jpg",
     "Year": 1990,
-    "When": "1990-04-10"
+    "When": "1990-04-10",
+    "BlackAndWhite": true
   },
   {
     "Title": "Belle de Jour",
     "TitleOriginal": "Belle de jour",
     "Language": "French",
     "RatingSelf": null,
-    "RatingLetterboxd": 4.00,
+    "RatingLetterboxd": 3.99,
     "Minutes": 101,
-    "Watched": 139778,
+    "Watched": 142581,
+    "Fans": 1791,
+    "Likes": 43317,
     "Id": "29Uq",
     "Poster": "/iUAFECovwPA0cVV9bo4uNGLJSGL.jpg",
     "Year": 1967,
-    "When": "1967-05-24"
+    "When": "1967-05-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "Ice Age",
@@ -6870,11 +8454,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.55,
     "Minutes": 81,
-    "Watched": 1676181,
+    "Watched": 1706334,
+    "Fans": 1028,
+    "Likes": 248855,
     "Id": "2apS",
     "Poster": "/gLhHHZUzeseRXShoDyC4VqLgsNv.jpg",
     "Year": 2002,
-    "When": "2002-03-10"
+    "When": "2002-03-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "Tangerine",
@@ -6883,11 +8470,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.88,
     "Minutes": 87,
-    "Watched": 224376,
+    "Watched": 228737,
+    "Fans": 2030,
+    "Likes": 73453,
     "Id": "9QRe",
     "Poster": "/EKLR5c61XQzBTeMokFrmS3kdt8.jpg",
     "Year": 2015,
-    "When": "2015-07-10"
+    "When": "2015-07-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "Finding Dory",
@@ -6896,11 +8486,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.26,
     "Minutes": 97,
-    "Watched": 1576113,
+    "Watched": 1600448,
+    "Fans": 401,
+    "Likes": 227531,
     "Id": "4aAA",
     "Poster": "/3UVe8NL1E2ZdUZ9EDlKGJY5UzE.jpg",
     "Year": 2016,
-    "When": "2016-06-16"
+    "When": "2016-06-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Die Another Day",
@@ -6909,24 +8502,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.51,
     "Minutes": 133,
-    "Watched": 216543,
+    "Watched": 218746,
+    "Fans": 43,
+    "Likes": 16276,
     "Id": "1a5G",
     "Poster": "/bZmGqOhMhaLn8AoFMvFDct4tbrL.jpg",
     "Year": 2002,
-    "When": "2002-11-17"
+    "When": "2002-11-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "National Treasure",
     "TitleOriginal": "National Treasure",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.29,
+    "RatingLetterboxd": 3.30,
     "Minutes": 131,
-    "Watched": 622477,
+    "Watched": 630173,
+    "Fans": 2448,
+    "Likes": 102183,
     "Id": "27x0",
     "Poster": "/pxL6E4GBOPUG6CdkO9cUQN5VMwI.jpg",
     "Year": 2004,
-    "When": "2004-11-19"
+    "When": "2004-11-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Clue",
@@ -6935,24 +8534,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.88,
     "Minutes": 94,
-    "Watched": 473893,
+    "Watched": 481960,
+    "Fans": 12987,
+    "Likes": 167615,
     "Id": "1MDQ",
     "Poster": "/aRxbYOYHS8T73nzR8hsLousoplR.jpg",
     "Year": 1985,
-    "When": "1985-12-13"
+    "When": "1985-12-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Beach",
     "TitleOriginal": "The Beach",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.16,
+    "RatingLetterboxd": 3.17,
     "Minutes": 119,
-    "Watched": 252057,
+    "Watched": 255474,
+    "Fans": 1009,
+    "Likes": 36317,
     "Id": "27T6",
     "Poster": "/4y7LxD8TSi6AtsM2xSYqUm1gu7u.jpg",
     "Year": 2000,
-    "When": "2000-02-03"
+    "When": "2000-02-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Assistant",
@@ -6961,11 +8566,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.52,
     "Minutes": 88,
-    "Watched": 99877,
+    "Watched": 100460,
+    "Fans": 42,
+    "Likes": 20737,
     "Id": "neWo",
     "Poster": "/zJpJkVgezsR7dp6KQwyxtGIAOZv.jpg",
     "Year": 2019,
-    "When": "2020-01-31"
+    "When": "2020-01-31",
+    "BlackAndWhite": false
   },
   {
     "Title": "Saving Private Ryan",
@@ -6974,11 +8582,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.24,
     "Minutes": 169,
-    "Watched": 1585835,
+    "Watched": 1612317,
+    "Fans": 12265,
+    "Likes": 451447,
     "Id": "29ro",
     "Poster": "/1wY4psJ5NVEhCuOYROwLH2XExM2.jpg",
     "Year": 1998,
-    "When": "1998-07-24"
+    "When": "1998-07-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "28 Days Later",
@@ -6987,11 +8598,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.77,
     "Minutes": 113,
-    "Watched": 776889,
+    "Watched": 796441,
+    "Fans": 5318,
+    "Likes": 208219,
     "Id": "2aXU",
     "Poster": "/sQckQRt17VaWbo39GIu0TMOiszq.jpg",
     "Year": 2002,
-    "When": "2002-10-31"
+    "When": "2002-10-31",
+    "BlackAndWhite": false
   },
   {
     "Title": "An Education",
@@ -7000,11 +8614,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.55,
     "Minutes": 100,
-    "Watched": 132202,
+    "Watched": 133197,
+    "Fans": 451,
+    "Likes": 21810,
     "Id": "1xcg",
     "Poster": "/29kSosB0jW2ThaJmX6ZY1UQ1pHA.jpg",
     "Year": 2009,
-    "When": "2009-10-29"
+    "When": "2009-10-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "Drop Dead Gorgeous",
@@ -7013,11 +8630,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.84,
     "Minutes": 98,
-    "Watched": 119729,
+    "Watched": 122851,
+    "Fans": 3488,
+    "Likes": 45153,
     "Id": "1W8e",
     "Poster": "/44eTdzCnb27urFheuhBdJxBhrwg.jpg",
     "Year": 1999,
-    "When": "1999-07-23"
+    "When": "1999-07-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Persona",
@@ -7026,11 +8646,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.40,
     "Minutes": 83,
-    "Watched": 431465,
+    "Watched": 438300,
+    "Fans": 16449,
+    "Likes": 166064,
     "Id": "29B4",
     "Poster": "/mAE4uwrXLlzo5AAxEorFvErdumq.jpg",
     "Year": 1966,
-    "When": "1966-10-18"
+    "When": "1966-10-18",
+    "BlackAndWhite": true
   },
   {
     "Title": "Midsommar",
@@ -7039,11 +8662,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.77,
     "Minutes": 147,
-    "Watched": 3529695,
+    "Watched": 3594241,
+    "Fans": 47283,
+    "Likes": 1374869,
     "Id": "jhxe",
     "Poster": "/vqPtSD5kJJTEFuJluj4C1J8wKKf.jpg",
     "Year": 2019,
-    "When": "2019-07-03"
+    "When": "2019-07-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Mission: Impossible",
@@ -7052,11 +8678,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.60,
     "Minutes": 110,
-    "Watched": 848056,
+    "Watched": 859992,
+    "Fans": 722,
+    "Likes": 173591,
     "Id": "29d2",
     "Poster": "/l5uxY5m5OInWpcExIpKG6AR3rgL.jpg",
     "Year": 1996,
-    "When": "1996-05-22"
+    "When": "1996-05-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Umbrellas of Cherbourg",
@@ -7065,11 +8694,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.14,
     "Minutes": 92,
-    "Watched": 183725,
+    "Watched": 186308,
+    "Fans": 4407,
+    "Likes": 69844,
     "Id": "22fK",
-    "Poster": "/jgB88XoKb3uOPPvGKNuE9wuaxDE.jpg",
+    "Poster": "/tAgTf64XKK5ir7w5C7dnB53jWWG.jpg",
     "Year": 1964,
-    "When": "1964-02-19"
+    "When": "1964-02-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Broken Glass",
@@ -7078,11 +8710,14 @@ var films = [
     "RatingSelf": 1,
     "RatingLetterboxd": -1,
     "Minutes": 50,
-    "Watched": 222,
+    "Watched": 225,
+    "Fans": 1,
+    "Likes": 40,
     "Id": "eE9a",
     "Poster": "/7OJSCg3sa4TWfun1nmtEQXFVJFX.jpg",
     "Year": 1988,
-    "When": "1988-01-01"
+    "When": "1988-01-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Jurassic Park",
@@ -7091,11 +8726,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.11,
     "Minutes": 127,
-    "Watched": 2600211,
+    "Watched": 2642109,
+    "Fans": 46987,
+    "Likes": 775294,
     "Id": "2aA2",
     "Poster": "/fjTU1Bgh3KJu4aatZil3sofR2zC.jpg",
     "Year": 1993,
-    "When": "1993-06-11"
+    "When": "1993-06-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Moonlight",
@@ -7104,24 +8742,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.20,
     "Minutes": 111,
-    "Watched": 1540022,
+    "Watched": 1557478,
+    "Fans": 33143,
+    "Likes": 585113,
     "Id": "d6bE",
     "Poster": "/rcICfiL9fvwRjoWHxW8QeroLYrJ.jpg",
     "Year": 2016,
-    "When": "2016-10-21"
+    "When": "2016-10-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Sometimes I Think About Dying",
     "TitleOriginal": "Sometimes I Think About Dying",
     "Language": "English",
     "RatingSelf": 4,
-    "RatingLetterboxd": 3.60,
+    "RatingLetterboxd": 3.61,
     "Minutes": 94,
-    "Watched": 50530,
+    "Watched": 52668,
+    "Fans": 402,
+    "Likes": 17778,
     "Id": "xGlg",
     "Poster": "/lp0dtmNtOW88A13GZjGoKZko7S8.jpg",
     "Year": 2023,
-    "When": "2024-01-10"
+    "When": "2024-01-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "Idiocracy",
@@ -7130,11 +8774,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.96,
     "Minutes": 84,
-    "Watched": 293021,
+    "Watched": 297998,
+    "Fans": 463,
+    "Likes": 49456,
     "Id": "20RW",
     "Poster": "/q7sn0A3BkBxvzdwVFOGmJGE2vF8.jpg",
     "Year": 2006,
-    "When": "2006-09-01"
+    "When": "2006-09-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Pianist",
@@ -7143,11 +8790,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.39,
     "Minutes": 150,
-    "Watched": 1206504,
+    "Watched": 1236478,
+    "Fans": 18223,
+    "Likes": 390321,
     "Id": "2aqc",
     "Poster": "/enFfoFd3TYs6ttTxrBIfmecQPnz.jpg",
     "Year": 2002,
-    "When": "2002-09-17"
+    "When": "2002-09-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Crazy/Beautiful",
@@ -7156,11 +8806,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.04,
     "Minutes": 99,
-    "Watched": 16076,
+    "Watched": 16322,
+    "Fans": 48,
+    "Likes": 2095,
     "Id": "1VCW",
     "Poster": "/x6ZIwp7pXpIoJKc7S9MXpM3TOVv.jpg",
     "Year": 2001,
-    "When": "2001-06-29"
+    "When": "2001-06-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Hunger Games",
@@ -7169,11 +8822,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.71,
     "Minutes": 142,
-    "Watched": 3092271,
+    "Watched": 3153716,
+    "Fans": 19646,
+    "Likes": 817902,
     "Id": "2uds",
     "Poster": "/yXCbOiVDCxO71zI7cuwBRXdftq8.jpg",
     "Year": 2012,
-    "When": "2012-03-12"
+    "When": "2012-03-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Hello Ladies: The Movie",
@@ -7182,11 +8838,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.22,
     "Minutes": 85,
-    "Watched": 5040,
+    "Watched": 5111,
+    "Fans": 0,
+    "Likes": 647,
     "Id": "9FIg",
     "Poster": "/7O41oM6Va5wffkIjunwqAoseNs9.jpg",
     "Year": 2014,
-    "When": "2014-11-22"
+    "When": "2014-11-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "Once Upon a Time... in Hollywood",
@@ -7195,11 +8854,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 162,
-    "Watched": 2981856,
+    "Watched": 3030620,
+    "Fans": 24612,
+    "Likes": 1031188,
     "Id": "gH0O",
     "Poster": "/wQKeS2JrsRF8XSfd9zqflrc5gad.jpg",
     "Year": 2019,
-    "When": "2019-07-24"
+    "When": "2019-07-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "Bambi",
@@ -7208,11 +8870,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.52,
     "Minutes": 70,
-    "Watched": 777306,
+    "Watched": 789467,
+    "Fans": 1043,
+    "Likes": 94748,
     "Id": "25AQ",
     "Poster": "/wV9e2y4myJ4KMFsyFfWYcUOawyK.jpg",
     "Year": 1942,
-    "When": "1942-02-11"
+    "When": "1942-02-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Stir of Echoes",
@@ -7221,11 +8886,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.27,
     "Minutes": 99,
-    "Watched": 58139,
+    "Watched": 58842,
+    "Fans": 35,
+    "Likes": 10325,
     "Id": "1Ts6",
     "Poster": "/9CyJ5aYF27cITX1WSUTENeP4wBE.jpg",
     "Year": 1999,
-    "When": "1999-09-10"
+    "When": "1999-09-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "Ghost Rider",
@@ -7234,11 +8902,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.39,
     "Minutes": 114,
-    "Watched": 397254,
+    "Watched": 403294,
+    "Fans": 435,
+    "Likes": 38846,
     "Id": "290M",
-    "Poster": "/1KyJfmgCo2dUywUxpk6bGMZbyeZ.jpg",
+    "Poster": "/d9Oan9XJJ6gRJa64Ifsgp1sXbC4.jpg",
     "Year": 2007,
-    "When": "2007-01-15"
+    "When": "2007-01-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Oliver Twist",
@@ -7247,11 +8918,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.74,
     "Minutes": 116,
-    "Watched": 18716,
+    "Watched": 18879,
+    "Fans": 12,
+    "Likes": 3038,
     "Id": "1V0e",
     "Poster": "/pdHsVXpQ9BeYta6yk5rQtEjdIPl.jpg",
     "Year": 1948,
-    "When": "1948-06-28"
+    "When": "1948-06-28",
+    "BlackAndWhite": true
   },
   {
     "Title": "Working Girls",
@@ -7260,11 +8934,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.86,
     "Minutes": 93,
-    "Watched": 18086,
+    "Watched": 18731,
+    "Fans": 136,
+    "Likes": 6730,
     "Id": "3kYA",
     "Poster": "/cPV6j5OO9tFIm34ggM4Lzbg0Nk.jpg",
     "Year": 1986,
-    "When": "1987-02-27"
+    "When": "1987-02-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Ballet Shoes",
@@ -7273,11 +8950,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.17,
     "Minutes": 85,
-    "Watched": 15959,
+    "Watched": 16156,
+    "Fans": 56,
+    "Likes": 2087,
     "Id": "1Do8",
     "Poster": "/sG1ef5gIObTeItweZZxhSLJVs8B.jpg",
     "Year": 2007,
-    "When": "2008-08-26"
+    "When": "2008-08-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Last Year at Marienbad",
@@ -7286,11 +8966,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.11,
     "Minutes": 95,
-    "Watched": 76312,
+    "Watched": 77212,
+    "Fans": 1376,
+    "Likes": 23428,
     "Id": "24Qe",
     "Poster": "/tizZ7JnXRFMvoNegu2CtM2ab9E7.jpg",
     "Year": 1961,
-    "When": "1961-05-25"
+    "When": "1961-05-25",
+    "BlackAndWhite": true
   },
   {
     "Title": "Black Mirror: Bandersnatch",
@@ -7299,24 +8982,30 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.25,
     "Minutes": 90,
-    "Watched": 564982,
+    "Watched": 568837,
+    "Fans": 422,
+    "Likes": 90763,
     "Id": "kTDG",
     "Poster": "/fR0VZ0VE598zl1lrYf7IfBqEwQ2.jpg",
     "Year": 2018,
-    "When": "2018-12-28"
+    "When": "2018-12-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "Grandma",
     "TitleOriginal": "Grandma",
     "Language": "English",
     "RatingSelf": 3,
-    "RatingLetterboxd": 3.48,
+    "RatingLetterboxd": 3.49,
     "Minutes": 78,
-    "Watched": 19348,
+    "Watched": 19467,
+    "Fans": 16,
+    "Likes": 3967,
     "Id": "9V00",
     "Poster": "/4LW20TF4NfQgHj5rZs0d0cgxRjV.jpg",
     "Year": 2015,
-    "When": "2015-06-04"
+    "When": "2015-06-04",
+    "BlackAndWhite": false
   },
   {
     "Title": "Hard Candy",
@@ -7325,11 +9014,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.49,
     "Minutes": 104,
-    "Watched": 192561,
+    "Watched": 194703,
+    "Fans": 578,
+    "Likes": 37428,
     "Id": "26vs",
     "Poster": "/erxBaHdeE2DdOLDFXzolByivFWs.jpg",
     "Year": 2005,
-    "When": "2005-01-14"
+    "When": "2005-01-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Planes, Trains and Automobiles",
@@ -7338,24 +9030,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 93,
-    "Watched": 304535,
+    "Watched": 307791,
+    "Fans": 1605,
+    "Likes": 82613,
     "Id": "26zE",
     "Poster": "/3RSucVsX96Ste8WDJfZP1hbNGqQ.jpg",
     "Year": 1987,
-    "When": "1987-11-26"
+    "When": "1987-11-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Challengers",
     "TitleOriginal": "Challengers",
     "Language": "English",
     "RatingSelf": 4,
-    "RatingLetterboxd": 3.92,
+    "RatingLetterboxd": 3.91,
     "Minutes": 132,
-    "Watched": 2033945,
+    "Watched": 2150738,
+    "Fans": 31307,
+    "Likes": 780732,
     "Id": "zld0",
     "Poster": "/H6vke7zGiuLsz4v4RPeReb9rsv.jpg",
     "Year": 2024,
-    "When": "2024-04-18"
+    "When": "2024-04-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Incredible Journey",
@@ -7364,11 +9062,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.27,
     "Minutes": 80,
-    "Watched": 9049,
+    "Watched": 9164,
+    "Fans": 12,
+    "Likes": 1081,
     "Id": "175e",
     "Poster": "/zxYVFHsQGB2DALmIpTheXjTwFNi.jpg",
     "Year": 1963,
-    "When": "1963-11-20"
+    "When": "1963-11-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "1917",
@@ -7377,11 +9078,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.11,
     "Minutes": 119,
-    "Watched": 1953223,
+    "Watched": 1984021,
+    "Fans": 14975,
+    "Likes": 687136,
     "Id": "jj4y",
     "Poster": "/iZf0KyrE25z1sage4SYFLCCrMi9.jpg",
     "Year": 2019,
-    "When": "2019-12-25"
+    "When": "2019-12-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Mission: Impossible II",
@@ -7390,11 +9094,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.65,
     "Minutes": 123,
-    "Watched": 527021,
+    "Watched": 534546,
+    "Fans": 132,
+    "Likes": 61157,
     "Id": "29cS",
     "Poster": "/7us8nE3ldE0gX2cziUz4tKg0Go0.jpg",
     "Year": 2000,
-    "When": "2000-05-24"
+    "When": "2000-05-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Man Who Cried",
@@ -7403,24 +9110,30 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 2.85,
     "Minutes": 96,
-    "Watched": 7834,
+    "Watched": 7985,
+    "Fans": 14,
+    "Likes": 810,
     "Id": "1nbC",
     "Poster": "/jaiCqTukSGXFw89GI8v4HPjjjI4.jpg",
     "Year": 2000,
-    "When": "2000-08-29"
+    "When": "2000-08-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Royal Hotel",
     "TitleOriginal": "The Royal Hotel",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.05,
+    "RatingLetterboxd": 3.04,
     "Minutes": 91,
-    "Watched": 54772,
+    "Watched": 55331,
+    "Fans": 6,
+    "Likes": 9328,
     "Id": "zEvs",
     "Poster": "/oJwb2PV1LGxDp6Q3lynrjADxOIv.jpg",
     "Year": 2023,
-    "When": "2023-10-06"
+    "When": "2023-10-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "American Beauty",
@@ -7429,11 +9142,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.96,
     "Minutes": 122,
-    "Watched": 1420183,
+    "Watched": 1439195,
+    "Fans": 15010,
+    "Likes": 390570,
     "Id": "71Y",
     "Poster": "/6MNwC101wSEsDyxTJBGXsgIMlmh.jpg",
     "Year": 1999,
-    "When": "1999-09-15"
+    "When": "1999-09-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Traffic",
@@ -7442,11 +9158,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.69,
     "Minutes": 147,
-    "Watched": 133162,
+    "Watched": 134694,
+    "Fans": 98,
+    "Likes": 21708,
     "Id": "27Ue",
     "Poster": "/v6YrfR1e2OUAYbXrJ7hv3EiGNcg.jpg",
     "Year": 2000,
-    "When": "2000-12-27"
+    "When": "2000-12-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Wanda",
@@ -7455,11 +9174,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.82,
     "Minutes": 103,
-    "Watched": 40140,
+    "Watched": 40730,
+    "Fans": 424,
+    "Likes": 12041,
     "Id": "2OjK",
     "Poster": "/izuJ7cUhcihFnTpfsdSnkMCHsRQ.jpg",
     "Year": 1970,
-    "When": "1970-09-01"
+    "When": "1970-09-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Outrun",
@@ -7468,11 +9190,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.66,
     "Minutes": 118,
-    "Watched": 81289,
+    "Watched": 87744,
+    "Fans": 724,
+    "Likes": 26197,
     "Id": "txPo",
     "Poster": "/zfRR2CkbvYrLuOPQFm8vBaENyMy.jpg",
     "Year": 2024,
-    "When": "2024-09-27"
+    "When": "2024-09-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Election",
@@ -7481,11 +9206,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.80,
     "Minutes": 103,
-    "Watched": 239313,
+    "Watched": 242588,
+    "Fans": 1074,
+    "Likes": 64903,
     "Id": "1YEc",
     "Poster": "/5gPOFU6IPvDrx50XaPCK4twNw79.jpg",
     "Year": 1999,
-    "When": "1999-04-23"
+    "When": "1999-04-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Hackers",
@@ -7494,11 +9222,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.25,
     "Minutes": 107,
-    "Watched": 107911,
+    "Watched": 109249,
+    "Fans": 1698,
+    "Likes": 27263,
     "Id": "1WhU",
     "Poster": "/qfx2EENW1sOpKNVKLzr7VOhlxkt.jpg",
     "Year": 1995,
-    "When": "1995-09-14"
+    "When": "1995-09-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Rat Race",
@@ -7507,11 +9238,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.11,
     "Minutes": 112,
-    "Watched": 131121,
+    "Watched": 132521,
+    "Fans": 306,
+    "Likes": 18448,
     "Id": "1XAo",
     "Poster": "/3dpim9bLdi5uh55idJ6HxA7eZH4.jpg",
     "Year": 2001,
-    "When": "2001-08-17"
+    "When": "2001-08-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Super Size Me",
@@ -7520,24 +9254,30 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.07,
     "Minutes": 100,
-    "Watched": 234331,
+    "Watched": 236324,
+    "Fans": 32,
+    "Likes": 16184,
     "Id": "1YQC",
     "Poster": "/zYkbqQaCuIHBxqBDGgnQCwJ9jIG.jpg",
     "Year": 2004,
-    "When": "2004-01-17"
+    "When": "2004-01-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Duelle",
     "TitleOriginal": "Duelle",
     "Language": "French",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.85,
+    "RatingLetterboxd": 3.84,
     "Minutes": 121,
-    "Watched": 10144,
+    "Watched": 10275,
+    "Fans": 76,
+    "Likes": 3389,
     "Id": "2WK",
     "Poster": "/fYaFwG0MWtPqUO93eyrd3sdgiHl.jpg",
     "Year": 1976,
-    "When": "1976-09-15"
+    "When": "1976-09-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Miss Congeniality",
@@ -7546,11 +9286,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.35,
     "Minutes": 111,
-    "Watched": 604737,
+    "Watched": 614224,
+    "Fans": 1521,
+    "Likes": 109807,
     "Id": "28GM",
     "Poster": "/pat3vKaRlB70he4ghwTMydR4TvP.jpg",
     "Year": 2000,
-    "When": "2000-12-22"
+    "When": "2000-12-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Great Gatsby",
@@ -7559,11 +9302,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.41,
     "Minutes": 143,
-    "Watched": 1727419,
+    "Watched": 1755563,
+    "Fans": 10664,
+    "Likes": 367791,
     "Id": "JY",
     "Poster": "/nwJbVKauPDgJVQgT7SQpVTVN4gA.jpg",
     "Year": 2013,
-    "When": "2013-05-09"
+    "When": "2013-05-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Natural Born Killers",
@@ -7572,11 +9318,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.62,
     "Minutes": 118,
-    "Watched": 354084,
+    "Watched": 358324,
+    "Fans": 4468,
+    "Likes": 88825,
     "Id": "2aNg",
     "Poster": "/fEKZwT91gxvkAoyPgpNXo8W5fu0.jpg",
     "Year": 1994,
-    "When": "1994-08-26"
+    "When": "1994-08-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Am\u00E9lie",
@@ -7585,11 +9334,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.18,
     "Minutes": 122,
-    "Watched": 1418452,
+    "Watched": 1441980,
+    "Fans": 60353,
+    "Likes": 528600,
     "Id": "2aUc",
     "Poster": "/oTKduWL2tpIKEmkAqF4mFEAWAsv.jpg",
     "Year": 2001,
-    "When": "2001-04-25"
+    "When": "2001-04-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Dad's Army",
@@ -7598,24 +9350,30 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.31,
     "Minutes": 95,
-    "Watched": 1701,
+    "Watched": 1713,
+    "Fans": 1,
+    "Likes": 290,
     "Id": "1E8U",
     "Poster": "/3vc6GWhFciyrL7JyAULko1nUdSu.jpg",
     "Year": 1971,
-    "When": "1971-03-12"
+    "When": "1971-03-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Snowman and The Snowdog",
     "TitleOriginal": "The Snowman and The Snowdog",
     "Language": "",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.47,
+    "RatingLetterboxd": 3.48,
     "Minutes": 24,
-    "Watched": 12013,
+    "Watched": 12123,
+    "Fans": 5,
+    "Likes": 2216,
     "Id": "5Clg",
     "Poster": "/bwQyPZKkr14UWwXTSkSA3XiuKif.jpg",
     "Year": 2012,
-    "When": "2012-12-24"
+    "When": "2012-12-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "Trainspotting",
@@ -7624,11 +9382,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.21,
     "Minutes": 94,
-    "Watched": 1256045,
+    "Watched": 1276568,
+    "Fans": 43039,
+    "Likes": 446787,
     "Id": "29XY",
     "Poster": "/yKmmT0q35R4AfW9Rbq2IPVAPwk3.jpg",
     "Year": 1996,
-    "When": "1996-02-23"
+    "When": "1996-02-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Little Miss Sunshine",
@@ -7637,11 +9398,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.19,
     "Minutes": 102,
-    "Watched": 1995397,
+    "Watched": 2036695,
+    "Fans": 69983,
+    "Likes": 800876,
     "Id": "29EW",
     "Poster": "/wKn7AJw730emlmzLSmJtzquwaeW.jpg",
     "Year": 2006,
-    "When": "2006-07-26"
+    "When": "2006-07-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Spy",
@@ -7650,11 +9414,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.19,
     "Minutes": 120,
-    "Watched": 344024,
+    "Watched": 348950,
+    "Fans": 752,
+    "Likes": 55022,
     "Id": "71Ks",
     "Poster": "/6On9Ed52fz8W1h9PzaDQ12ZfHdn.jpg",
     "Year": 2015,
-    "When": "2015-05-06"
+    "When": "2015-05-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Tribe",
@@ -7663,11 +9430,14 @@ var films = [
     "RatingSelf": 1,
     "RatingLetterboxd": 3.63,
     "Minutes": 130,
-    "Watched": 21231,
+    "Watched": 21364,
+    "Fans": 112,
+    "Likes": 4500,
     "Id": "8aqe",
     "Poster": "/itZcDkDN4HQ15f6HbriABjlIwoF.jpg",
     "Year": 2014,
-    "When": "2014-09-11"
+    "When": "2014-09-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Social Network",
@@ -7676,11 +9446,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.94,
     "Minutes": 121,
-    "Watched": 2941896,
+    "Watched": 2991718,
+    "Fans": 35776,
+    "Likes": 911350,
     "Id": "17ue",
     "Poster": "/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
     "Year": 2010,
-    "When": "2010-10-01"
+    "When": "2010-10-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Cathy Come Home",
@@ -7689,11 +9462,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.84,
     "Minutes": 75,
-    "Watched": 3362,
+    "Watched": 3402,
+    "Fans": 1,
+    "Likes": 769,
     "Id": "7QwQ",
     "Poster": "/jLMqpwSaRnw6Qm34SaVOTimYnUO.jpg",
     "Year": 1966,
-    "When": "1966-11-16"
+    "When": "1966-11-16",
+    "BlackAndWhite": true
   },
   {
     "Title": "20 Days in Mariupol",
@@ -7702,24 +9478,30 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.28,
     "Minutes": 94,
-    "Watched": 43160,
+    "Watched": 43850,
+    "Fans": 103,
+    "Likes": 10671,
     "Id": "E32S",
     "Poster": "/zIRp1IeuPh4GgqFCH3y0DQuY9xP.jpg",
     "Year": 2023,
-    "When": "2023-07-14"
+    "When": "2023-07-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Fast and the Furious",
     "TitleOriginal": "The Fast and the Furious",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.38,
+    "RatingLetterboxd": 3.39,
     "Minutes": 106,
-    "Watched": 886622,
+    "Watched": 907513,
+    "Fans": 6271,
+    "Likes": 173383,
     "Id": "1XMu",
     "Poster": "/gqY0ITBgT7A82poL9jv851qdnIb.jpg",
     "Year": 2001,
-    "When": "2001-06-22"
+    "When": "2001-06-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "Alone in the Wilderness Part II - 2011",
@@ -7728,24 +9510,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.72,
     "Minutes": 60,
-    "Watched": 618,
+    "Watched": 625,
+    "Fans": 1,
+    "Likes": 175,
     "Id": "2RWq",
     "Poster": "/iN1915VscPa7COWOl93IZACaSIp.jpg",
     "Year": 2011,
-    "When": "2011-12-02"
+    "When": "2011-12-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "Mad Max: Fury Road",
     "TitleOriginal": "Mad Max: Fury Road",
     "Language": "English",
     "RatingSelf": 4,
-    "RatingLetterboxd": 4.19,
+    "RatingLetterboxd": 4.18,
     "Minutes": 121,
-    "Watched": 2354101,
+    "Watched": 2384749,
+    "Fans": 36334,
+    "Likes": 895205,
     "Id": "2DjO",
-    "Poster": "/hA2ple9q4qnwxp3hKVNhroipsir.jpg",
+    "Poster": "/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg",
     "Year": 2015,
-    "When": "2015-05-13"
+    "When": "2015-05-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Weird Science",
@@ -7754,11 +9542,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.07,
     "Minutes": 93,
-    "Watched": 135147,
+    "Watched": 136551,
+    "Fans": 417,
+    "Likes": 25401,
     "Id": "1T1O",
     "Poster": "/jaEauZd2joSAKn42D83gm3S0y3F.jpg",
     "Year": 1985,
-    "When": "1985-08-01"
+    "When": "1985-08-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Live Free or Die Hard",
@@ -7767,11 +9558,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.92,
     "Minutes": 128,
-    "Watched": 218320,
+    "Watched": 220542,
+    "Fans": 91,
+    "Likes": 22141,
     "Id": "28zQ",
     "Poster": "/31TT47YjBl7a7uvJ3ff1nrirXhP.jpg",
     "Year": 2007,
-    "When": "2007-06-20"
+    "When": "2007-06-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Bowling for Columbine",
@@ -7780,11 +9574,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.91,
     "Minutes": 120,
-    "Watched": 159952,
+    "Watched": 161435,
+    "Fans": 99,
+    "Likes": 25796,
     "Id": "28Ls",
     "Poster": "/5AlgeysilsfLdEwlTlYO7fqgsLn.jpg",
     "Year": 2002,
-    "When": "2002-10-09"
+    "When": "2002-10-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Anaconda",
@@ -7793,11 +9590,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.34,
     "Minutes": 89,
-    "Watched": 200447,
+    "Watched": 202914,
+    "Fans": 88,
+    "Likes": 18337,
     "Id": "1YSy",
-    "Poster": "/1G3tE98K1dtsVzSgpevzboKEyXK.jpg",
+    "Poster": "/33NysOnLpLZY0ewHTcfpalzAsRG.jpg",
     "Year": 1997,
-    "When": "1997-04-11"
+    "When": "1997-04-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Red Pill",
@@ -7806,24 +9606,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.98,
     "Minutes": 118,
-    "Watched": 5613,
+    "Watched": 5651,
+    "Fans": 5,
+    "Likes": 633,
     "Id": "cHxg",
     "Poster": "/26V1JWowe0X6VT07tLXR0RF2PpL.jpg",
     "Year": 2016,
-    "When": "2016-10-14"
+    "When": "2016-10-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Hunt",
     "TitleOriginal": "Jagten",
     "Language": "Danish",
     "RatingSelf": null,
-    "RatingLetterboxd": 4.29,
+    "RatingLetterboxd": 4.28,
     "Minutes": 116,
-    "Watched": 507422,
+    "Watched": 516364,
+    "Fans": 6424,
+    "Likes": 163770,
     "Id": "3wEC",
     "Poster": "/jkixsXzRh28q3PCqFoWcf7unghT.jpg",
     "Year": 2012,
-    "When": "2012-06-13"
+    "When": "2012-06-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "My Scientology Movie",
@@ -7832,24 +9638,30 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.37,
     "Minutes": 99,
-    "Watched": 33069,
+    "Watched": 33222,
+    "Fans": 7,
+    "Likes": 4422,
     "Id": "cedw",
     "Poster": "/mTAZFb79cum6bfU41C96DwMCp6Y.jpg",
     "Year": 2015,
-    "When": "2016-05-05"
+    "When": "2016-05-05",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Room",
     "TitleOriginal": "The Room",
     "Language": "English",
     "RatingSelf": 1,
-    "RatingLetterboxd": 2.61,
+    "RatingLetterboxd": 2.60,
     "Minutes": 99,
-    "Watched": 383911,
+    "Watched": 388029,
+    "Fans": 2245,
+    "Likes": 94572,
     "Id": "1ICY",
     "Poster": "/oGI3QSsY4XsmUzuNYUQBQDdjuaP.jpg",
     "Year": 2003,
-    "When": "2003-06-27"
+    "When": "2003-06-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Priscilla",
@@ -7858,11 +9670,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.55,
     "Minutes": 113,
-    "Watched": 959615,
+    "Watched": 980576,
+    "Fans": 13652,
+    "Likes": 312204,
     "Id": "Cz3k",
     "Poster": "/uDCeELWWpsNq7ErM61Yuq70WAE9.jpg",
     "Year": 2023,
-    "When": "2023-10-27"
+    "When": "2023-10-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Final Destination 3",
@@ -7871,11 +9686,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.02,
     "Minutes": 93,
-    "Watched": 367028,
+    "Watched": 372802,
+    "Fans": 2111,
+    "Likes": 64685,
     "Id": "1Z40",
     "Poster": "/p7ARuNKUGPGvkBiDtIDvAzYzonX.jpg",
     "Year": 2006,
-    "When": "2006-02-09"
+    "When": "2006-02-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Manchester by the Sea",
@@ -7884,24 +9702,30 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.12,
     "Minutes": 138,
-    "Watched": 873626,
+    "Watched": 889381,
+    "Fans": 18812,
+    "Likes": 281051,
     "Id": "b2L0",
-    "Poster": "/e8daDzP0vFOnGyKmve95Yv0D0io.jpg",
+    "Poster": "/o9VXYOuaJxCEKOxbA86xqtwmqYn.jpg",
     "Year": 2016,
-    "When": "2016-11-18"
+    "When": "2016-11-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Wolf of Wall Street",
     "TitleOriginal": "The Wolf of Wall Street",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 4.00,
+    "RatingLetterboxd": 3.99,
     "Minutes": 180,
-    "Watched": 3853179,
+    "Watched": 3922393,
+    "Fans": 31789,
+    "Likes": 1357796,
     "Id": "3C1m",
     "Poster": "/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
     "Year": 2013,
-    "When": "2013-12-25"
+    "When": "2013-12-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Candy",
@@ -7910,11 +9734,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.74,
     "Minutes": 116,
-    "Watched": 75929,
+    "Watched": 77378,
+    "Fans": 1583,
+    "Likes": 22344,
     "Id": "24l6",
     "Poster": "/mtxjKNHxnDxCfomRqrwOoHHNR22.jpg",
     "Year": 2006,
-    "When": "2006-05-25"
+    "When": "2006-05-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Meshes of the Afternoon",
@@ -7923,11 +9750,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.26,
     "Minutes": 14,
-    "Watched": 121534,
+    "Watched": 123109,
+    "Fans": 1065,
+    "Likes": 45331,
     "Id": "1sEE",
     "Poster": "/pRLqidsUdxYM5pXLJ9mqm2n9U9K.jpg",
     "Year": 1943,
-    "When": "1943-01-01"
+    "When": "1943-01-01",
+    "BlackAndWhite": true
   },
   {
     "Title": "Bean",
@@ -7936,11 +9766,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.18,
     "Minutes": 89,
-    "Watched": 143355,
+    "Watched": 144824,
+    "Fans": 95,
+    "Likes": 15735,
     "Id": "28WA",
     "Poster": "/cgOhFGXuH2RKNQEbQF6nyK79JUO.jpg",
     "Year": 1997,
-    "When": "1997-07-03"
+    "When": "1997-07-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Flightplan",
@@ -7949,11 +9782,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.03,
     "Minutes": 98,
-    "Watched": 126273,
+    "Watched": 127830,
+    "Fans": 48,
+    "Likes": 12092,
     "Id": "1YZu",
     "Poster": "/oNjZFzbe7PfF3TxztNHDkinOPyB.jpg",
     "Year": 2005,
-    "When": "2005-09-22"
+    "When": "2005-09-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "Gone Baby Gone",
@@ -7962,11 +9798,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.74,
     "Minutes": 113,
-    "Watched": 207552,
+    "Watched": 209474,
+    "Fans": 225,
+    "Likes": 39515,
     "Id": "23R6",
     "Poster": "/rm3Dl8DWYGO3UQ3w2kju62L9rkn.jpg",
     "Year": 2007,
-    "When": "2007-09-18"
+    "When": "2007-09-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Vagabond",
@@ -7975,11 +9814,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.10,
     "Minutes": 105,
-    "Watched": 87275,
+    "Watched": 88368,
+    "Fans": 1728,
+    "Likes": 30004,
     "Id": "T0u",
     "Poster": "/pHw4CHC389eWaUa83PZKOfv6OAt.jpg",
     "Year": 1985,
-    "When": "1985-12-04"
+    "When": "1985-12-04",
+    "BlackAndWhite": false
   },
   {
     "Title": "Erasing Hate",
@@ -7988,11 +9830,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": -1,
     "Minutes": 91,
-    "Watched": 192,
+    "Watched": 194,
+    "Fans": 0,
+    "Likes": 18,
     "Id": "5CEM",
     "Poster": "/UbcSZ3H4HBjeA3xHswuV4ev2yI.jpg",
     "Year": 2011,
-    "When": "2011-06-26"
+    "When": "2011-06-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "CODA",
@@ -8001,11 +9846,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.87,
     "Minutes": 112,
-    "Watched": 436804,
+    "Watched": 442452,
+    "Fans": 2269,
+    "Likes": 138112,
     "Id": "tbf4",
-    "Poster": "/ilZ9Sa24Hv9aErG22fRbGsMUVfA.jpg",
+    "Poster": "/BzVjmm8l23rPsijLiNLUzuQtyd.jpg",
     "Year": 2021,
-    "When": "2021-08-13"
+    "When": "2021-08-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Lobster",
@@ -8014,11 +9862,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.77,
     "Minutes": 119,
-    "Watched": 1239105,
+    "Watched": 1256841,
+    "Fans": 11672,
+    "Likes": 359897,
     "Id": "7tnw",
     "Poster": "/7Y9ILV1unpW9mLpGcqyGQU72LUy.jpg",
     "Year": 2015,
-    "When": "2015-10-15"
+    "When": "2015-10-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Going Clear: Scientology and the Prison of Belief",
@@ -8027,11 +9878,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.81,
     "Minutes": 120,
-    "Watched": 63275,
+    "Watched": 63615,
+    "Fans": 7,
+    "Likes": 10286,
     "Id": "ahPO",
     "Poster": "/zWHQYR9srde9nZjU6Dot8qTjoni.jpg",
     "Year": 2015,
-    "When": "2015-01-25"
+    "When": "2015-01-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "American History X",
@@ -8040,24 +9894,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.13,
     "Minutes": 119,
-    "Watched": 870724,
+    "Watched": 885478,
+    "Fans": 7934,
+    "Likes": 245416,
     "Id": "2bdo",
     "Poster": "/euypWkaYFOLW3e5rLIcTAjWnhhT.jpg",
     "Year": 1998,
-    "When": "1998-07-01"
+    "When": "1998-07-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Three Billboards Outside Ebbing, Missouri",
     "TitleOriginal": "Three Billboards Outside Ebbing, Missouri",
     "Language": "English",
     "RatingSelf": 4,
-    "RatingLetterboxd": 4.04,
+    "RatingLetterboxd": 4.05,
     "Minutes": 115,
-    "Watched": 962204,
+    "Watched": 971464,
+    "Fans": 6416,
+    "Likes": 295866,
     "Id": "ceBS",
     "Poster": "/uGMM9ZObmPUFrGqcbFMVyv8L1lU.jpg",
     "Year": 2017,
-    "When": "2017-12-01"
+    "When": "2017-12-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "X",
@@ -8066,11 +9926,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.41,
     "Minutes": 106,
-    "Watched": 1606440,
+    "Watched": 1631790,
+    "Fans": 6988,
+    "Likes": 486611,
     "Id": "sxVa",
     "Poster": "/lopZSVtXzhFY603E9OqF7O1YKsh.jpg",
     "Year": 2022,
-    "When": "2022-03-17"
+    "When": "2022-03-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Shawshank Redemption",
@@ -8079,11 +9942,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.56,
     "Minutes": 142,
-    "Watched": 2520482,
+    "Watched": 2567160,
+    "Fans": 87440,
+    "Likes": 1001937,
     "Id": "2aHi",
     "Poster": "/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
     "Year": 1994,
-    "When": "1994-09-23"
+    "When": "1994-09-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Audition",
@@ -8092,11 +9958,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.81,
     "Minutes": 115,
-    "Watched": 273667,
+    "Watched": 277480,
+    "Fans": 2076,
+    "Likes": 83226,
     "Id": "1UHm",
     "Poster": "/381efRw5TlwSD598QdiKUTQYr5p.jpg",
     "Year": 1999,
-    "When": "2000-03-03"
+    "When": "2000-03-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Daisies",
@@ -8105,11 +9974,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.01,
     "Minutes": 76,
-    "Watched": 155396,
+    "Watched": 157412,
+    "Fans": 5924,
+    "Likes": 63952,
     "Id": "LZk",
     "Poster": "/znNaPo9HVcpJ83ybgMpAcIteuJe.jpg",
     "Year": 1966,
-    "When": "1966-12-30"
+    "When": "1966-12-30",
+    "BlackAndWhite": true
   },
   {
     "Title": "Labyrinth",
@@ -8118,24 +9990,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.72,
     "Minutes": 102,
-    "Watched": 478194,
+    "Watched": 487880,
+    "Fans": 18709,
+    "Likes": 151650,
     "Id": "1POC",
     "Poster": "/pejayhTVBEL4w8YKSfrhOjjWVlH.jpg",
     "Year": 1986,
-    "When": "1986-06-27"
+    "When": "1986-06-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Ready Player One",
     "TitleOriginal": "Ready Player One",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.27,
+    "RatingLetterboxd": 3.28,
     "Minutes": 140,
-    "Watched": 1337502,
+    "Watched": 1357114,
+    "Fans": 6960,
+    "Likes": 288172,
     "Id": "aZes",
     "Poster": "/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg",
     "Year": 2018,
-    "When": "2018-03-28"
+    "When": "2018-03-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "Johnny English Reborn",
@@ -8144,11 +10022,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.95,
     "Minutes": 101,
-    "Watched": 177072,
+    "Watched": 179778,
+    "Fans": 172,
+    "Likes": 18667,
     "Id": "kQq",
     "Poster": "/zDbrU0eSnRGh5gHc1iqTACTNNyT.jpg",
     "Year": 2011,
-    "When": "2011-09-15"
+    "When": "2011-09-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Mrs. Doubtfire",
@@ -8157,11 +10038,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.65,
     "Minutes": 125,
-    "Watched": 728906,
+    "Watched": 741182,
+    "Fans": 2338,
+    "Likes": 144183,
     "Id": "29Cw",
     "Poster": "/shHrSmXS5140o6sQzgzXxn3KqSm.jpg",
     "Year": 1993,
-    "When": "1993-11-24"
+    "When": "1993-11-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "North by Northwest",
@@ -8170,11 +10054,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.19,
     "Minutes": 136,
-    "Watched": 391776,
+    "Watched": 396544,
+    "Fans": 2917,
+    "Likes": 116727,
     "Id": "2aRM",
     "Poster": "/ay0dOKJgyK4VEh3xakV15UgvJMF.jpg",
     "Year": 1959,
-    "When": "1959-07-08"
+    "When": "1959-07-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Dam Busters",
@@ -8183,11 +10070,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.58,
     "Minutes": 124,
-    "Watched": 6355,
+    "Watched": 6426,
+    "Fans": 11,
+    "Likes": 1146,
     "Id": "1QAc",
-    "Poster": "/bZKmBxzy5O5PjguhfMYgSaUxUmi.jpg",
+    "Poster": "/8uaaN5yCiiiL24guxyovsEEDKeL.jpg",
     "Year": 1955,
-    "When": "1955-05-16"
+    "When": "1955-05-16",
+    "BlackAndWhite": true
   },
   {
     "Title": "Our Girl",
@@ -8196,11 +10086,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.52,
     "Minutes": 90,
-    "Watched": 437,
+    "Watched": 450,
+    "Fans": 3,
+    "Likes": 81,
     "Id": "5uEE",
     "Poster": "/ocJeiEE91RyOD4xCBZtw4RFSXYh.jpg",
     "Year": 2013,
-    "When": "2013-03-23"
+    "When": "2013-03-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Consequences of Feminism",
@@ -8209,11 +10102,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.78,
     "Minutes": 7,
-    "Watched": 17987,
+    "Watched": 18331,
+    "Fans": 14,
+    "Likes": 4712,
     "Id": "3YMY",
     "Poster": "/7ZzPyv5g4ohGcPbbmkF2ZYMe02N.jpg",
     "Year": 1906,
-    "When": "1906-12-21"
+    "When": "1906-12-21",
+    "BlackAndWhite": true
   },
   {
     "Title": "Unthinkable",
@@ -8222,11 +10118,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.10,
     "Minutes": 97,
-    "Watched": 26943,
+    "Watched": 27531,
+    "Fans": 26,
+    "Likes": 3528,
     "Id": "16y0",
     "Poster": "/6yQqguytl10FhImngDHV90Aqewa.jpg",
     "Year": 2010,
-    "When": "2010-06-14"
+    "When": "2010-06-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Green Mansions",
@@ -8235,11 +10134,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 2.48,
     "Minutes": 100,
-    "Watched": 2227,
+    "Watched": 2257,
+    "Fans": 0,
+    "Likes": 235,
     "Id": "778",
     "Poster": "/stdOrgddMWUMRUFB55sqNoWS3hY.jpg",
     "Year": 1959,
-    "When": "1959-03-19"
+    "When": "1959-03-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Trade",
@@ -8248,11 +10150,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.37,
     "Minutes": 120,
-    "Watched": 2558,
+    "Watched": 2578,
+    "Fans": 4,
+    "Likes": 303,
     "Id": "24JM",
     "Poster": "/x2ckiEGoYz2AomOeviEPqnhrw7Q.jpg",
     "Year": 2007,
-    "When": "2007-01-23"
+    "When": "2007-01-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Humanist Vampire Seeking Consenting Suicidal Person",
@@ -8261,11 +10166,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.89,
     "Minutes": 91,
-    "Watched": 87740,
+    "Watched": 92791,
+    "Fans": 1757,
+    "Likes": 40412,
     "Id": "Blzk",
     "Poster": "/m5OItLBY5T38ew1YI4VSIXjl5G2.jpg",
     "Year": 2023,
-    "When": "2023-10-13"
+    "When": "2023-10-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Pumpkin",
@@ -8274,11 +10182,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.98,
     "Minutes": 113,
-    "Watched": 13131,
+    "Watched": 13378,
+    "Fans": 62,
+    "Likes": 2570,
     "Id": "1XYg",
-    "Poster": "/udIzc0BpPNKLVzyzMJlW1dOYsEX.jpg",
+    "Poster": "/25qW6cO2zqYBpqTw8BBIhBIUpl4.jpg",
     "Year": 2002,
-    "When": "2002-06-28"
+    "When": "2002-06-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "Scream 2",
@@ -8287,11 +10198,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.26,
     "Minutes": 120,
-    "Watched": 808836,
+    "Watched": 821090,
+    "Fans": 1379,
+    "Likes": 180856,
     "Id": "24Es",
     "Poster": "/dORlVasiaDkJXTqt9bdH7nFNs6C.jpg",
     "Year": 1997,
-    "When": "1997-12-12"
+    "When": "1997-12-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Death at a Funeral",
@@ -8300,11 +10214,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.59,
     "Minutes": 91,
-    "Watched": 100275,
+    "Watched": 101714,
+    "Fans": 278,
+    "Likes": 20311,
     "Id": "27dO",
     "Poster": "/xyTxrJnjbSJQzcbKIP6S1uqLuxy.jpg",
     "Year": 2007,
-    "When": "2007-08-17"
+    "When": "2007-08-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Crash",
@@ -8313,37 +10230,46 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.97,
     "Minutes": 112,
-    "Watched": 215149,
+    "Watched": 217427,
+    "Fans": 446,
+    "Likes": 21394,
     "Id": "28q0",
     "Poster": "/86BdPC6RDX88NC880pLidKn2LCj.jpg",
     "Year": 2004,
-    "When": "2005-05-06"
+    "When": "2005-05-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "The War Game",
     "TitleOriginal": "The War Game",
     "Language": "English",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 4.05,
     "Minutes": 48,
-    "Watched": 12956,
+    "Watched": 13103,
+    "Fans": 22,
+    "Likes": 3360,
     "Id": "1tKe",
     "Poster": "/puJGNnrAPOv3BUMI9mKlCJp3UrQ.jpg",
     "Year": 1966,
-    "When": "1966-04-13"
+    "When": "1966-04-13",
+    "BlackAndWhite": true
   },
   {
     "Title": "Top Gun: Maverick",
     "TitleOriginal": "Top Gun: Maverick",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.98,
+    "RatingLetterboxd": 3.97,
     "Minutes": 131,
-    "Watched": 1980704,
+    "Watched": 2014529,
+    "Fans": 15899,
+    "Likes": 674161,
     "Id": "cjr4",
     "Poster": "/62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
     "Year": 2022,
-    "When": "2022-05-21"
+    "When": "2022-05-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Tideland",
@@ -8352,11 +10278,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.14,
     "Minutes": 120,
-    "Watched": 31060,
+    "Watched": 31373,
+    "Fans": 159,
+    "Likes": 5480,
     "Id": "1Tyy",
     "Poster": "/mjCRfmxg7awp5kVIM1lHR0d7S4A.jpg",
     "Year": 2005,
-    "When": "2005-09-09"
+    "When": "2005-09-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Snowman",
@@ -8365,11 +10294,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.03,
     "Minutes": 25,
-    "Watched": 85534,
+    "Watched": 86397,
+    "Fans": 142,
+    "Likes": 19884,
     "Id": "1Qgm",
     "Poster": "/b3CMolkeXrPaVvd5vTsssMKfZZo.jpg",
     "Year": 1982,
-    "When": "1984-12-15"
+    "When": "1984-12-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Legend",
@@ -8378,11 +10310,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.24,
     "Minutes": 132,
-    "Watched": 222301,
+    "Watched": 225962,
+    "Fans": 1010,
+    "Likes": 39819,
     "Id": "8qZY",
     "Poster": "/4shf5Alq4KWCKqrAAQe0JGJHYp5.jpg",
     "Year": 2015,
-    "When": "2015-09-09"
+    "When": "2015-09-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Starting Out in the Evening",
@@ -8391,11 +10326,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.37,
     "Minutes": 111,
-    "Watched": 1009,
+    "Watched": 1016,
+    "Fans": 1,
+    "Likes": 113,
     "Id": "1QTI",
     "Poster": "/hKCSp9ot1ofu0nC24DLekqdqb5U.jpg",
     "Year": 2007,
-    "When": "2007-11-23"
+    "When": "2007-11-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Ring",
@@ -8404,11 +10342,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.33,
     "Minutes": 115,
-    "Watched": 622254,
+    "Watched": 630414,
+    "Fans": 1650,
+    "Likes": 104381,
     "Id": "2a70",
     "Poster": "/gghD2ZIPjMzLnnBuT3AZQGYnIW9.jpg",
     "Year": 2002,
-    "When": "2002-10-18"
+    "When": "2002-10-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "#17 - To Finish The Barkley Marathons",
@@ -8417,24 +10358,30 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": -1,
     "Minutes": 63,
-    "Watched": 121,
+    "Watched": 123,
+    "Fans": 0,
+    "Likes": 18,
     "Id": "LPde",
     "Poster": "/hbbh0bgtPKWMeaPfylMHDsYik01.jpg",
     "Year": 2024,
-    "When": "2024-02-17"
+    "When": "2024-02-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Hidden Figures",
     "TitleOriginal": "Hidden Figures",
     "Language": "English",
     "RatingSelf": 5,
-    "RatingLetterboxd": 3.86,
+    "RatingLetterboxd": 3.87,
     "Minutes": 127,
-    "Watched": 803725,
+    "Watched": 816794,
+    "Fans": 2925,
+    "Likes": 204556,
     "Id": "dgS4",
     "Poster": "/9lfz2W2uGjyow3am00rsPJ8iOyq.jpg",
     "Year": 2016,
-    "When": "2016-12-10"
+    "When": "2016-12-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "Samsara",
@@ -8443,11 +10390,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.23,
     "Minutes": 102,
-    "Watched": 51286,
+    "Watched": 51774,
+    "Fans": 577,
+    "Likes": 15502,
     "Id": "3ada",
     "Poster": "/qodkea4k0pNUmNTl5TJO2PdTqgW.jpg",
     "Year": 2011,
-    "When": "2011-09-16"
+    "When": "2011-09-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Some Voices",
@@ -8456,11 +10406,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.48,
     "Minutes": 101,
-    "Watched": 1659,
+    "Watched": 1701,
+    "Fans": 15,
+    "Likes": 453,
     "Id": "2W94",
     "Poster": "/yOZNSgqnRmslKjr19WcLZ1BDvEr.jpg",
     "Year": 2000,
-    "When": "2000-08-25"
+    "When": "2000-08-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Straight Outta Compton",
@@ -8469,11 +10422,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.79,
     "Minutes": 147,
-    "Watched": 422518,
+    "Watched": 429715,
+    "Fans": 1285,
+    "Likes": 99186,
     "Id": "8rMc",
     "Poster": "/1CiLJx8Xtv3TbbFj6k7BboSmKgC.jpg",
     "Year": 2015,
-    "When": "2015-08-11"
+    "When": "2015-08-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Snow White and the Seven Dwarfs",
@@ -8482,24 +10438,30 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.43,
     "Minutes": 83,
-    "Watched": 959424,
+    "Watched": 974974,
+    "Fans": 822,
+    "Likes": 120258,
     "Id": "2arO",
     "Poster": "bOtgcOIFBCUFdY2a737Na6gWQ0X.jpg",
     "Year": 1937,
-    "When": "1938-01-14"
+    "When": "1938-01-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Fyre",
     "TitleOriginal": "Fyre",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.33,
+    "RatingLetterboxd": 3.34,
     "Minutes": 98,
-    "Watched": 207240,
+    "Watched": 208190,
+    "Fans": 27,
+    "Likes": 24657,
     "Id": "kP0g",
     "Poster": "/yFsP0BAJhAH3RTXCAnGvI1CtaUb.jpg",
     "Year": 2019,
-    "When": "2019-01-18"
+    "When": "2019-01-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Day of the Dead",
@@ -8508,11 +10470,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.77,
     "Minutes": 101,
-    "Watched": 125862,
+    "Watched": 127002,
+    "Fans": 655,
+    "Likes": 37559,
     "Id": "20dM",
     "Poster": "/ya7YYnXHdvfQqqvu43phC4ujGHT.jpg",
     "Year": 1985,
-    "When": "1985-07-03"
+    "When": "1985-07-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Gosford Park",
@@ -8521,24 +10486,30 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.68,
     "Minutes": 137,
-    "Watched": 105885,
+    "Watched": 107573,
+    "Fans": 343,
+    "Likes": 21542,
     "Id": "239e",
     "Poster": "/7r8DeZuaaHCiOEbkqZC6MFmwJ69.jpg",
     "Year": 2001,
-    "When": "2001-11-07"
+    "When": "2001-11-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Pirates of the Caribbean: The Curse of the Black Pearl",
     "TitleOriginal": "Pirates of the Caribbean: The Curse of the Black Pearl",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.94,
+    "RatingLetterboxd": 3.95,
     "Minutes": 143,
-    "Watched": 2265896,
+    "Watched": 2305829,
+    "Fans": 11658,
+    "Likes": 565768,
     "Id": "70G",
     "Poster": "/z8onk7LV9Mmw6zKz4hT6pzzvmvl.jpg",
     "Year": 2003,
-    "When": "2003-07-09"
+    "When": "2003-07-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Ghost World",
@@ -8547,11 +10518,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.60,
     "Minutes": 111,
-    "Watched": 275019,
+    "Watched": 277853,
+    "Fans": 3845,
+    "Likes": 77557,
     "Id": "28Dy",
     "Poster": "/uwKqnUPE4dSM0kKuMW0vXpURh2T.jpg",
     "Year": 2001,
-    "When": "2001-07-20"
+    "When": "2001-07-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "About a Boy",
@@ -8560,11 +10534,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.53,
     "Minutes": 101,
-    "Watched": 216690,
+    "Watched": 219414,
+    "Fans": 952,
+    "Likes": 36077,
     "Id": "2aMC",
     "Poster": "/optezspqJjHI9WyC8brY96zbcdt.jpg",
     "Year": 2002,
-    "When": "2002-04-26"
+    "When": "2002-04-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Casino Royale",
@@ -8573,11 +10550,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.02,
     "Minutes": 144,
-    "Watched": 1075219,
+    "Watched": 1088791,
+    "Fans": 6248,
+    "Likes": 276098,
     "Id": "1alk",
     "Poster": "/lMrxYKKhd4lqRzwUHAy5gcx9PSO.jpg",
     "Year": 2006,
-    "When": "2006-11-14"
+    "When": "2006-11-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Clueless",
@@ -8586,11 +10566,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.72,
     "Minutes": 97,
-    "Watched": 1979365,
+    "Watched": 2016659,
+    "Fans": 22672,
+    "Likes": 613265,
     "Id": "1Ygk",
     "Poster": "/8AwVTcgpTnmeOs4TdTWqcFDXEsA.jpg",
     "Year": 1995,
-    "When": "1995-07-19"
+    "When": "1995-07-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "8MM",
@@ -8599,11 +10582,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.20,
     "Minutes": 123,
-    "Watched": 109429,
+    "Watched": 110757,
+    "Fans": 156,
+    "Likes": 16732,
     "Id": "20sC",
     "Poster": "/mhr9xRpjOBqlBjgDwtiOx6FsLvV.jpg",
     "Year": 1999,
-    "When": "1999-02-26"
+    "When": "1999-02-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Melancholia",
@@ -8612,11 +10598,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.84,
     "Minutes": 130,
-    "Watched": 411325,
+    "Watched": 416521,
+    "Fans": 6142,
+    "Likes": 115450,
     "Id": "bPI",
     "Poster": "/fMneszMiQuTKY8JUXrGGB5vwqJf.jpg",
     "Year": 2011,
-    "When": "2011-05-26"
+    "When": "2011-05-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "American Psycho",
@@ -8625,11 +10614,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.83,
     "Minutes": 102,
-    "Watched": 3444493,
+    "Watched": 3510677,
+    "Fans": 38987,
+    "Likes": 1237781,
     "Id": "28Vs",
     "Poster": "/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
     "Year": 2000,
-    "When": "2000-04-13"
+    "When": "2000-04-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Sexy Beast",
@@ -8638,11 +10630,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.93,
     "Minutes": 89,
-    "Watched": 139965,
+    "Watched": 142152,
+    "Fans": 1116,
+    "Likes": 44783,
     "Id": "1SZS",
     "Poster": "/9OlmWIEuSec27HiOPuMJASnff6f.jpg",
     "Year": 2000,
-    "When": "2001-01-12"
+    "When": "2001-01-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Sicario",
@@ -8651,24 +10646,30 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.98,
     "Minutes": 122,
-    "Watched": 893379,
+    "Watched": 907253,
+    "Fans": 5756,
+    "Likes": 263817,
     "Id": "8i7u",
     "Poster": "/lz8vNyXeidqqOdJW9ZjnDAMb5Vr.jpg",
     "Year": 2015,
-    "When": "2015-09-17"
+    "When": "2015-09-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "In America",
     "TitleOriginal": "In America",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.79,
+    "RatingLetterboxd": 3.78,
     "Minutes": 105,
-    "Watched": 16172,
+    "Watched": 16342,
+    "Fans": 72,
+    "Likes": 2966,
     "Id": "1W5a",
     "Poster": "/cUhMjWQyyApA0pFinogCsE2wy8g.jpg",
     "Year": 2002,
-    "When": "2003-10-31"
+    "When": "2003-10-31",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Negotiator",
@@ -8677,11 +10678,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.52,
     "Minutes": 140,
-    "Watched": 80765,
+    "Watched": 81620,
+    "Fans": 95,
+    "Likes": 13453,
     "Id": "1YbO",
     "Poster": "/dUMHEymATOGbs2K3E4dmNSVBgFQ.jpg",
     "Year": 1998,
-    "When": "1998-07-29"
+    "When": "1998-07-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "Robin Hood: Prince of Thieves",
@@ -8690,11 +10694,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.24,
     "Minutes": 143,
-    "Watched": 148574,
+    "Watched": 150535,
+    "Fans": 303,
+    "Likes": 20937,
     "Id": "20hu",
     "Poster": "/hbRnWUNJkKKVN5mkcuC5ooqjE4e.jpg",
     "Year": 1991,
-    "When": "1991-06-14"
+    "When": "1991-06-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Lionshare",
@@ -8704,10 +10711,13 @@ var films = [
     "RatingLetterboxd": -1,
     "Minutes": 66,
     "Watched": 68,
+    "Fans": 1,
+    "Likes": 9,
     "Id": "1qWc",
     "Poster": "/mZZcA1Ni39DpEJSm2vdpW3D0GWG.jpg",
     "Year": 2009,
-    "When": "2009-01-01"
+    "When": "2009-01-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Killing",
@@ -8716,11 +10726,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.00,
     "Minutes": 85,
-    "Watched": 155738,
+    "Watched": 157436,
+    "Fans": 248,
+    "Likes": 45362,
     "Id": "2aMi",
     "Poster": "/A6VzUPcADZGYdGHlVdWvpMNDF5d.jpg",
     "Year": 1956,
-    "When": "1956-06-06"
+    "When": "1956-06-06",
+    "BlackAndWhite": true
   },
   {
     "Title": "The Perfect Host",
@@ -8729,11 +10742,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.14,
     "Minutes": 93,
-    "Watched": 18127,
+    "Watched": 18371,
+    "Fans": 19,
+    "Likes": 3031,
     "Id": "8QI",
     "Poster": "/6UUWiCA7eAD1tvgLmgcTggSB5PC.jpg",
     "Year": 2010,
-    "When": "2010-07-01"
+    "When": "2010-07-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Autumn Sonata",
@@ -8742,11 +10758,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.47,
     "Minutes": 93,
-    "Watched": 124253,
+    "Watched": 126075,
+    "Fans": 4104,
+    "Likes": 51746,
     "Id": "1Rio",
     "Poster": "/6beNbtCXv3GkzHkxkGYf38ib7v8.jpg",
     "Year": 1978,
-    "When": "1978-10-08"
+    "When": "1978-10-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Play House",
@@ -8755,37 +10774,46 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.58,
     "Minutes": 24,
-    "Watched": 8914,
+    "Watched": 9005,
+    "Fans": 2,
+    "Likes": 1804,
     "Id": "BAk",
     "Poster": "/txGAT0nx3k1Za8JSBErqdD5T78T.jpg",
     "Year": 1921,
-    "When": "1921-10-26"
+    "When": "1921-10-26",
+    "BlackAndWhite": true
   },
   {
     "Title": "Dawn of the Dead",
     "TitleOriginal": "Dawn of the Dead",
     "Language": "English",
     "RatingSelf": 3,
-    "RatingLetterboxd": 3.41,
+    "RatingLetterboxd": 3.42,
     "Minutes": 101,
-    "Watched": 285223,
+    "Watched": 288224,
+    "Fans": 800,
+    "Likes": 58421,
     "Id": "29gK",
     "Poster": "/9NhVltEndWjokHbQH92KKozrzhs.jpg",
     "Year": 2004,
-    "When": "2004-03-19"
+    "When": "2004-03-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "30/30 Vision: Three Decades of Strand Releasing",
     "TitleOriginal": "30/30 Vision: Three Decades of Strand Releasing",
     "Language": "English",
     "RatingSelf": 2,
-    "RatingLetterboxd": 3.25,
+    "RatingLetterboxd": 3.26,
     "Minutes": 63,
-    "Watched": 798,
+    "Watched": 818,
+    "Fans": 0,
+    "Likes": 147,
     "Id": "okQo",
     "Poster": "/88FdEoGjEzvClNuWLdeZB6RjfHS.jpg",
     "Year": 2019,
-    "When": "2019-12-14"
+    "When": "2019-12-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Get Out",
@@ -8794,11 +10822,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.15,
     "Minutes": 104,
-    "Watched": 4095147,
+    "Watched": 4160867,
+    "Fans": 31501,
+    "Likes": 1787818,
     "Id": "eOCm",
     "Poster": "/tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg",
     "Year": 2017,
-    "When": "2017-02-24"
+    "When": "2017-02-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "Kamikaze Girls",
@@ -8807,11 +10838,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.13,
     "Minutes": 102,
-    "Watched": 39759,
+    "Watched": 41043,
+    "Fans": 3541,
+    "Likes": 21868,
     "Id": "1ucC",
     "Poster": "/xKTjRM2le4giFMm7pFRGtrBmwDU.jpg",
     "Year": 2004,
-    "When": "2004-05-29"
+    "When": "2004-05-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "Frost/Nixon",
@@ -8820,11 +10854,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.72,
     "Minutes": 122,
-    "Watched": 78623,
+    "Watched": 79322,
+    "Fans": 53,
+    "Likes": 12801,
     "Id": "1TI4",
     "Poster": "/z4cQ2mJxwPZUwVh97yX9oNsLLZQ.jpg",
     "Year": 2008,
-    "When": "2008-10-15"
+    "When": "2008-10-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Downfall",
@@ -8833,11 +10870,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.11,
     "Minutes": 155,
-    "Watched": 181592,
+    "Watched": 184046,
+    "Fans": 759,
+    "Likes": 37821,
     "Id": "2a04",
     "Poster": "/cP1ElGjBhbZAAqmueXjHDKlSwiP.jpg",
     "Year": 2004,
-    "When": "2004-09-16"
+    "When": "2004-09-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Downton Abbey: A New Era",
@@ -8846,11 +10886,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.47,
     "Minutes": 125,
-    "Watched": 49703,
+    "Watched": 50348,
+    "Fans": 54,
+    "Likes": 10999,
     "Id": "uUHk",
     "Poster": "/r5n4CLoIjUcnT3shWDi6MHdJ25a.jpg",
     "Year": 2022,
-    "When": "2022-04-27"
+    "When": "2022-04-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Three Colors: Red",
@@ -8859,11 +10902,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.34,
     "Minutes": 100,
-    "Watched": 209561,
+    "Watched": 212258,
+    "Fans": 4047,
+    "Likes": 75463,
     "Id": "2b7q",
     "Poster": "/JHmsBiX1tjCKqAul1lzC20WcAW.jpg",
     "Year": 1994,
-    "When": "1994-05-12"
+    "When": "1994-05-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Shrek 2",
@@ -8872,24 +10918,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.08,
     "Minutes": 92,
-    "Watched": 2413791,
+    "Watched": 2457821,
+    "Fans": 30242,
+    "Likes": 619026,
     "Id": "29z8",
     "Poster": "/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg",
     "Year": 2004,
-    "When": "2004-05-19"
+    "When": "2004-05-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Fast and the Furious: Tokyo Drift",
     "TitleOriginal": "The Fast and the Furious: Tokyo Drift",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.17,
+    "RatingLetterboxd": 3.18,
     "Minutes": 104,
-    "Watched": 661785,
+    "Watched": 677038,
+    "Fans": 5942,
+    "Likes": 131124,
     "Id": "1Yeo",
     "Poster": "/46xqGOwHbh2TH2avWSw3SMXph4E.jpg",
     "Year": 2006,
-    "When": "2006-06-03"
+    "When": "2006-06-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Cyberbully",
@@ -8898,11 +10950,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 2.85,
     "Minutes": 62,
-    "Watched": 8313,
+    "Watched": 8378,
+    "Fans": 1,
+    "Likes": 573,
     "Id": "afeQ",
     "Poster": "/q9IBBA6ypk0LEaOgDdutVK0NPzY.jpg",
     "Year": 2015,
-    "When": "2015-01-15"
+    "When": "2015-01-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Purge",
@@ -8911,11 +10966,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 2.72,
     "Minutes": 86,
-    "Watched": 873838,
+    "Watched": 887950,
+    "Fans": 489,
+    "Likes": 96092,
     "Id": "4Xg0",
     "Poster": "/46X1ei9uf13nkkr0OhWldGyr5Uh.jpg",
     "Year": 2013,
-    "When": "2013-05-31"
+    "When": "2013-05-31",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Machinist",
@@ -8924,11 +10982,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 101,
-    "Watched": 449210,
+    "Watched": 455989,
+    "Fans": 1744,
+    "Likes": 100937,
     "Id": "248c",
     "Poster": "/vA6G0sVHPkJh580F7AtwXuQ7AAW.jpg",
     "Year": 2004,
-    "When": "2004-07-02"
+    "When": "2004-07-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "10 Cloverfield Lane",
@@ -8937,11 +10998,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.56,
     "Minutes": 104,
-    "Watched": 796654,
+    "Watched": 805917,
+    "Fans": 750,
+    "Likes": 184665,
     "Id": "aZiu",
     "Poster": "/84Dhwz93vCin6T1PX6ctSvWEuNE.jpg",
     "Year": 2016,
-    "When": "2016-03-10"
+    "When": "2016-03-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Naked Gun 2\u00BD: The Smell of Fear",
@@ -8950,11 +11014,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.41,
     "Minutes": 85,
-    "Watched": 123212,
+    "Watched": 124709,
+    "Fans": 97,
+    "Likes": 20881,
     "Id": "18Yu",
     "Poster": "/v9niLQWVzVPB1cP1ThNdEaLZG1Q.jpg",
     "Year": 1991,
-    "When": "1991-06-28"
+    "When": "1991-06-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "Full Metal Jacket",
@@ -8963,11 +11030,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.21,
     "Minutes": 117,
-    "Watched": 1069623,
+    "Watched": 1085796,
+    "Fans": 8510,
+    "Likes": 333306,
     "Id": "2a1Q",
     "Poster": "/kMKyx1k8hWWscYFnPbnxxN4Eqo4.jpg",
     "Year": 1987,
-    "When": "1987-06-26"
+    "When": "1987-06-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Final Destination",
@@ -8976,11 +11046,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.16,
     "Minutes": 98,
-    "Watched": 653894,
+    "Watched": 665171,
+    "Fans": 1425,
+    "Likes": 115820,
     "Id": "1YrC",
     "Poster": "/1mXhlQMnlfvJ2frxTjZSQNnA9Vp.jpg",
     "Year": 2000,
-    "When": "2000-03-17"
+    "When": "2000-03-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Top Gun",
@@ -8989,11 +11062,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.41,
     "Minutes": 110,
-    "Watched": 1194128,
+    "Watched": 1212574,
+    "Fans": 7311,
+    "Likes": 260632,
     "Id": "29JC",
     "Poster": "/xUuHj3CgmZQ9P2cMaqQs4J0d4Zc.jpg",
     "Year": 1986,
-    "When": "1986-05-16"
+    "When": "1986-05-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Exam",
@@ -9002,11 +11078,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.92,
     "Minutes": 97,
-    "Watched": 82835,
+    "Watched": 84162,
+    "Fans": 64,
+    "Likes": 9384,
     "Id": "1mn8",
     "Poster": "/i1J2zBCyOQJKsQipqJ0qXERC1Ma.jpg",
     "Year": 2009,
-    "When": "2009-06-19"
+    "When": "2009-06-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Leaving Las Vegas",
@@ -9015,37 +11094,46 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.75,
     "Minutes": 111,
-    "Watched": 117391,
+    "Watched": 119088,
+    "Fans": 616,
+    "Likes": 24902,
     "Id": "2amE",
     "Poster": "/wIfP6uLXD9Ptu68SyRx8WuSNNSK.jpg",
     "Year": 1995,
-    "When": "1995-10-27"
+    "When": "1995-10-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Elisa \u0026 Marcela",
     "TitleOriginal": "Elisa y Marcela",
     "Language": "Spanish",
     "RatingSelf": 3,
-    "RatingLetterboxd": 3.52,
+    "RatingLetterboxd": 3.53,
     "Minutes": 118,
-    "Watched": 45256,
+    "Watched": 45956,
+    "Fans": 503,
+    "Likes": 12294,
     "Id": "jukM",
     "Poster": "/3EhDSSdfdSXpojbXNLc09IqYRRj.jpg",
     "Year": 2019,
-    "When": "2019-05-24"
+    "When": "2019-05-24",
+    "BlackAndWhite": true
   },
   {
     "Title": "A Good Person",
     "TitleOriginal": "A Good Person",
     "Language": "English",
     "RatingSelf": 3,
-    "RatingLetterboxd": 3.43,
+    "RatingLetterboxd": 3.44,
     "Minutes": 128,
-    "Watched": 85693,
+    "Watched": 87033,
+    "Fans": 331,
+    "Likes": 21151,
     "Id": "u8sw",
     "Poster": "/dhejMQdsqPtTTCKIkyoJ5FLfC3F.jpg",
     "Year": 2023,
-    "When": "2023-03-23"
+    "When": "2023-03-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Passion of Joan of Arc",
@@ -9054,11 +11142,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.43,
     "Minutes": 82,
-    "Watched": 154195,
+    "Watched": 156470,
+    "Fans": 2828,
+    "Likes": 55434,
     "Id": "29DO",
     "Poster": "/8OYGtQlO8k9PcOm49apV62eVJQo.jpg",
     "Year": 1928,
-    "When": "1928-04-21"
+    "When": "1928-04-21",
+    "BlackAndWhite": true
   },
   {
     "Title": "Frequency",
@@ -9067,11 +11158,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.53,
     "Minutes": 118,
-    "Watched": 52078,
+    "Watched": 52649,
+    "Fans": 177,
+    "Likes": 9158,
     "Id": "1VXA",
     "Poster": "/eu3Hrjj271dnBdNAF0HqfmwWASt.jpg",
     "Year": 2000,
-    "When": "2000-04-28"
+    "When": "2000-04-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "Black Swan",
@@ -9080,11 +11174,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.16,
     "Minutes": 109,
-    "Watched": 2869688,
+    "Watched": 2926086,
+    "Fans": 85009,
+    "Likes": 1134329,
     "Id": "Sw0",
     "Poster": "/viWheBd44bouiLCHgNMvahLThqx.jpg",
     "Year": 2010,
-    "When": "2010-12-03"
+    "When": "2010-12-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Up in the Air",
@@ -9093,11 +11190,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.57,
     "Minutes": 110,
-    "Watched": 275281,
+    "Watched": 277662,
+    "Fans": 538,
+    "Likes": 45663,
     "Id": "1zPY",
     "Poster": "/wZRNEkDxVDNNVaCPN7jKziMHmk5.jpg",
     "Year": 2009,
-    "When": "2009-12-04"
+    "When": "2009-12-04",
+    "BlackAndWhite": false
   },
   {
     "Title": "Addams Family Values",
@@ -9106,24 +11206,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.78,
     "Minutes": 94,
-    "Watched": 380032,
+    "Watched": 385393,
+    "Fans": 2079,
+    "Likes": 98487,
     "Id": "26mq",
     "Poster": "/sdxT2VjVSx9DRicwnuECUdBHeE7.jpg",
     "Year": 1993,
-    "When": "1993-11-19"
+    "When": "1993-11-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "2 Fast 2 Furious",
     "TitleOriginal": "2 Fast 2 Furious",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.01,
-    "Minutes": 108,
-    "Watched": 591781,
+    "RatingLetterboxd": 3.02,
+    "Minutes": 107,
+    "Watched": 604790,
+    "Fans": 3200,
+    "Likes": 101464,
     "Id": "2a4g",
     "Poster": "/6nDZExrDKIXvSAghsFKVFRVJuSf.jpg",
     "Year": 2003,
-    "When": "2003-06-05"
+    "When": "2003-06-05",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Silence of the Lambs",
@@ -9132,11 +11238,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.34,
     "Minutes": 119,
-    "Watched": 2842278,
+    "Watched": 2888698,
+    "Fans": 53514,
+    "Likes": 1111246,
     "Id": "2aHW",
     "Poster": "/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
     "Year": 1991,
-    "When": "1991-02-14"
+    "When": "1991-02-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Shallow Grave",
@@ -9145,11 +11254,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.77,
     "Minutes": 93,
-    "Watched": 94291,
+    "Watched": 95547,
+    "Fans": 894,
+    "Likes": 26562,
     "Id": "1XyW",
     "Poster": "/gqvSKLbfIg1mja1ulVkVcLhdwWF.jpg",
     "Year": 1994,
-    "When": "1994-12-22"
+    "When": "1994-12-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "(500) Days of Summer",
@@ -9158,11 +11270,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.67,
     "Minutes": 95,
-    "Watched": 2472600,
+    "Watched": 2537178,
+    "Fans": 37558,
+    "Likes": 799832,
     "Id": "1EmM",
     "Poster": "/qXAuQ9hF30sQRsXf40OfRVl0MJZ.jpg",
     "Year": 2009,
-    "When": "2009-07-17"
+    "When": "2009-07-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Bourne Supremacy",
@@ -9171,11 +11286,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.61,
     "Minutes": 108,
-    "Watched": 415568,
+    "Watched": 420510,
+    "Fans": 248,
+    "Likes": 66121,
     "Id": "26EE",
     "Poster": "/g09UIYfShY8uWGMGP3HkvWp8L8n.jpg",
     "Year": 2004,
-    "When": "2004-07-23"
+    "When": "2004-07-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Addams Family",
@@ -9184,11 +11302,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.73,
     "Minutes": 100,
-    "Watched": 723509,
+    "Watched": 735236,
+    "Fans": 3087,
+    "Likes": 179056,
     "Id": "267g",
     "Poster": "/qFf8anju5f2epI0my8RdwwIXFIP.jpg",
     "Year": 1991,
-    "When": "1991-11-22"
+    "When": "1991-11-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "Jackass: The Movie",
@@ -9197,11 +11318,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.37,
     "Minutes": 85,
-    "Watched": 283999,
+    "Watched": 287730,
+    "Fans": 853,
+    "Likes": 52554,
     "Id": "1Zo0",
     "Poster": "/9Rb659hvGfmef1xm0mMvDHEBqmf.jpg",
     "Year": 2002,
-    "When": "2002-10-25"
+    "When": "2002-10-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "All of Us Strangers",
@@ -9210,11 +11334,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 3.93,
     "Minutes": 105,
-    "Watched": 637144,
+    "Watched": 649583,
+    "Fans": 10817,
+    "Likes": 227952,
     "Id": "Bz3C",
     "Poster": "/aviJMFZSnnCAsCVyJGaPNx4Ef3i.jpg",
     "Year": 2023,
-    "When": "2023-12-22"
+    "When": "2023-12-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "Coraline",
@@ -9223,11 +11350,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.18,
     "Minutes": 100,
-    "Watched": 2590672,
+    "Watched": 2645879,
+    "Fans": 101309,
+    "Likes": 1045738,
     "Id": "1NhQ",
     "Poster": "/4jeFXQYytChdZYE9JYO7Un87IlW.jpg",
     "Year": 2009,
-    "When": "2009-02-05"
+    "When": "2009-02-05",
+    "BlackAndWhite": false
   },
   {
     "Title": "12 Angry Men",
@@ -9236,11 +11366,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.63,
     "Minutes": 97,
-    "Watched": 1180873,
+    "Watched": 1206197,
+    "Fans": 47322,
+    "Likes": 485524,
     "Id": "2auI",
     "Poster": "kZdUcVPLtc5U6DNTasvIPGqHGzJ.jpg",
     "Year": 1957,
-    "When": "1957-04-10"
+    "When": "1957-04-10",
+    "BlackAndWhite": true
   },
   {
     "Title": "Eastern Promises",
@@ -9249,11 +11382,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.87,
     "Minutes": 101,
-    "Watched": 239308,
+    "Watched": 243169,
+    "Fans": 761,
+    "Likes": 63364,
     "Id": "275q",
     "Poster": "/dpiJWb4NrWgcOg2rusuLhDM0hTm.jpg",
     "Year": 2007,
-    "When": "2007-09-14"
+    "When": "2007-09-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Primer",
@@ -9262,37 +11398,46 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.61,
     "Minutes": 77,
-    "Watched": 205275,
+    "Watched": 207184,
+    "Fans": 1439,
+    "Likes": 49131,
     "Id": "6YA",
     "Poster": "/xEoq2WmDzpzxhkHEsmOYOg6BPg6.jpg",
     "Year": 2004,
-    "When": "2004-10-08"
+    "When": "2004-10-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Devil Wears Prada",
     "TitleOriginal": "The Devil Wears Prada",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.80,
+    "RatingLetterboxd": 3.81,
     "Minutes": 109,
-    "Watched": 2449577,
+    "Watched": 2507482,
+    "Fans": 36290,
+    "Likes": 782876,
     "Id": "2awE",
     "Poster": "/1LwW0W0Zyik00OmQPTnCUjmCh1C.jpg",
     "Year": 2006,
-    "When": "2006-06-29"
+    "When": "2006-06-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "His Three Daughters",
     "TitleOriginal": "His Three Daughters",
     "Language": "English",
     "RatingSelf": 4,
-    "RatingLetterboxd": 3.83,
+    "RatingLetterboxd": 3.82,
     "Minutes": 104,
-    "Watched": 103329,
+    "Watched": 108310,
+    "Fans": 752,
+    "Likes": 37758,
     "Id": "HGx2",
     "Poster": "/yTIHBPLQyzhgz1c2spak3btJxsg.jpg",
     "Year": 2023,
-    "When": "2024-09-05"
+    "When": "2024-09-05",
+    "BlackAndWhite": false
   },
   {
     "Title": "Saw III",
@@ -9301,11 +11446,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.95,
     "Minutes": 108,
-    "Watched": 467544,
+    "Watched": 473976,
+    "Fans": 1865,
+    "Likes": 75366,
     "Id": "2aRC",
     "Poster": "/9pWlgGYoPb0QPOsQTjfDmwMdBc6.jpg",
     "Year": 2006,
-    "When": "2006-10-26"
+    "When": "2006-10-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Would You Rather",
@@ -9314,11 +11462,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.62,
     "Minutes": 93,
-    "Watched": 117687,
+    "Watched": 118948,
+    "Fans": 65,
+    "Likes": 13931,
     "Id": "3m0W",
     "Poster": "/uZQYjmEXeET1fOz1av7GYY7xENG.jpg",
     "Year": 2012,
-    "When": "2013-02-08"
+    "When": "2013-02-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "Valerie and Her Week of Wonders",
@@ -9327,11 +11478,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.51,
     "Minutes": 73,
-    "Watched": 73866,
+    "Watched": 75429,
+    "Fans": 2094,
+    "Likes": 23987,
     "Id": "NsC",
     "Poster": "/x9fZJORCZS0DshbxLSdnzyvU94V.jpg",
     "Year": 1970,
-    "When": "1970-10-16"
+    "When": "1970-10-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Buried",
@@ -9340,11 +11494,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.32,
     "Minutes": 95,
-    "Watched": 120743,
+    "Watched": 121971,
+    "Fans": 98,
+    "Likes": 16875,
     "Id": "1tXC",
     "Poster": "/splPNB0vAoNlb8l5WYxz2E3FK2G.jpg",
     "Year": 2010,
-    "When": "2010-09-24"
+    "When": "2010-09-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "Nasty Old People",
@@ -9354,10 +11511,13 @@ var films = [
     "RatingLetterboxd": -1,
     "Minutes": 84,
     "Watched": 70,
+    "Fans": 0,
+    "Likes": 5,
     "Id": "1yCO",
     "Poster": "/ulsl8MZAA7uNUMHI6MhJt814JzN.jpg",
     "Year": 2009,
-    "When": "2009-10-10"
+    "When": "2009-10-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "Disobedience",
@@ -9366,11 +11526,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.49,
     "Minutes": 114,
-    "Watched": 145679,
+    "Watched": 148072,
+    "Fans": 825,
+    "Likes": 35007,
     "Id": "ePFG",
     "Poster": "/skPT4ffWhlmmDOMNEdxOiP6Emfz.jpg",
     "Year": 2017,
-    "When": "2018-04-24"
+    "When": "2018-04-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Scarecrow",
@@ -9379,11 +11542,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.87,
     "Minutes": 19,
-    "Watched": 15301,
+    "Watched": 15548,
+    "Fans": 9,
+    "Likes": 4736,
     "Id": "BB8",
     "Poster": "/uTrS56W99XsdeJTboae2Sozt3O1.jpg",
     "Year": 1920,
-    "When": "1920-11-07"
+    "When": "1920-11-07",
+    "BlackAndWhite": true
   },
   {
     "Title": "Malevolent",
@@ -9392,11 +11558,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 2.15,
     "Minutes": 89,
-    "Watched": 51540,
+    "Watched": 52130,
+    "Fans": 8,
+    "Likes": 3872,
     "Id": "hijI",
-    "Poster": "/lm29Sf2uI69CmbCsUkWFn7sbvL6.jpg",
+    "Poster": "/gbq5yQTQ1AfcBQb0y4ozUPTzd8Y.jpg",
     "Year": 2018,
-    "When": "2018-12-13"
+    "When": "2018-12-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Whale",
@@ -9405,11 +11574,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.66,
     "Minutes": 117,
-    "Watched": 1032959,
+    "Watched": 1056827,
+    "Fans": 3631,
+    "Likes": 284467,
     "Id": "tw4c",
     "Poster": "/jQ0gylJMxWSL490sy0RrPj1Lj7e.jpg",
     "Year": 2022,
-    "When": "2022-12-09"
+    "When": "2022-12-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "All About Eve",
@@ -9418,11 +11590,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.35,
     "Minutes": 139,
-    "Watched": 160434,
+    "Watched": 162360,
+    "Fans": 2675,
+    "Likes": 53432,
     "Id": "29LI",
     "Poster": "/qU5QzNDrsusmuqKW6FsSvHYoIEQ.jpg",
     "Year": 1950,
-    "When": "1950-11-09"
+    "When": "1950-11-09",
+    "BlackAndWhite": true
   },
   {
     "Title": "This Beautiful Fantastic",
@@ -9431,11 +11606,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.35,
     "Minutes": 100,
-    "Watched": 16529,
+    "Watched": 16736,
+    "Fans": 202,
+    "Likes": 3982,
     "Id": "bRx4",
     "Poster": "/22b9jLGJ8OVzlEnWzqF0yRy5Na3.jpg",
     "Year": 2016,
-    "When": "2016-10-20"
+    "When": "2016-10-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Big Lebowski",
@@ -9444,11 +11622,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.13,
     "Minutes": 117,
-    "Watched": 1416791,
+    "Watched": 1435495,
+    "Fans": 32940,
+    "Likes": 484324,
     "Id": "2b6C",
     "Poster": "/9mprbw31MGdd66LR0AQKoDMoFRv.jpg",
     "Year": 1998,
-    "When": "1998-03-06"
+    "When": "1998-03-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Thomas Crown Affair",
@@ -9457,11 +11638,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.36,
     "Minutes": 113,
-    "Watched": 71550,
+    "Watched": 72591,
+    "Fans": 257,
+    "Likes": 12260,
     "Id": "29im",
     "Poster": "/5yqs1MVlqdIg1DY5adC5jFx3d7j.jpg",
     "Year": 1999,
-    "When": "1999-08-06"
+    "When": "1999-08-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "Slums of Beverly Hills",
@@ -9470,11 +11654,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.49,
     "Minutes": 91,
-    "Watched": 48216,
+    "Watched": 48692,
+    "Fans": 258,
+    "Likes": 13884,
     "Id": "1NCO",
     "Poster": "/bTY6I0Mju4vTRHGoTZrNtxtAlAO.jpg",
     "Year": 1998,
-    "When": "1998-08-14"
+    "When": "1998-08-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "You Can Live Forever",
@@ -9483,11 +11670,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.59,
     "Minutes": 97,
-    "Watched": 28572,
+    "Watched": 29206,
+    "Fans": 620,
+    "Likes": 10241,
     "Id": "xvlk",
     "Poster": "/6JllNMDqHasBeqM5vFVxp1rB9Fk.jpg",
     "Year": 2022,
-    "When": "2023-03-24"
+    "When": "2023-03-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "xXx",
@@ -9496,11 +11686,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.50,
     "Minutes": 124,
-    "Watched": 138951,
+    "Watched": 140668,
+    "Fans": 78,
+    "Likes": 10266,
     "Id": "20VY",
     "Poster": "/xeEw3eLeSFmJgXZzmF2Efww0q3s.jpg",
     "Year": 2002,
-    "When": "2002-08-09"
+    "When": "2002-08-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Gaslight",
@@ -9509,11 +11702,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.01,
     "Minutes": 114,
-    "Watched": 71903,
+    "Watched": 72772,
+    "Fans": 268,
+    "Likes": 21117,
     "Id": "1PYs",
     "Poster": "/gXKszCl5Q1KrgWRWpPcqn94CP58.jpg",
     "Year": 1944,
-    "When": "1944-05-04"
+    "When": "1944-05-04",
+    "BlackAndWhite": true
   },
   {
     "Title": "Battleship Potemkin",
@@ -9522,11 +11718,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.00,
     "Minutes": 75,
-    "Watched": 163937,
+    "Watched": 165915,
+    "Fans": 402,
+    "Likes": 34994,
     "Id": "29Vo",
     "Poster": "bhLIcFmYMGumY8A7lX7QQj7grzL.jpg",
     "Year": 1925,
-    "When": "1925-12-24"
+    "When": "1925-12-24",
+    "BlackAndWhite": true
   },
   {
     "Title": "Fear and Loathing in Las Vegas",
@@ -9535,11 +11734,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.78,
     "Minutes": 118,
-    "Watched": 484862,
+    "Watched": 491062,
+    "Fans": 7241,
+    "Likes": 135678,
     "Id": "27Xs",
     "Poster": "/tisNLcMkxryU2zxhi0PiyDFqhm0.jpg",
     "Year": 1998,
-    "When": "1998-05-19"
+    "When": "1998-05-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Office Space",
@@ -9548,11 +11750,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.73,
     "Minutes": 90,
-    "Watched": 429707,
+    "Watched": 435867,
+    "Fans": 2367,
+    "Likes": 118410,
     "Id": "28Em",
     "Poster": "/v7fBXxHZ5WQn2PGgpXhTqHgtcJk.jpg",
     "Year": 1999,
-    "When": "1999-02-19"
+    "When": "1999-02-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Black Snake Moan",
@@ -9561,11 +11766,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.24,
     "Minutes": 116,
-    "Watched": 42597,
+    "Watched": 42981,
+    "Fans": 44,
+    "Likes": 6005,
     "Id": "20KQ",
     "Poster": "/8Yv7kxsqXSe4ZHl8uJEhmsPjhAP.jpg",
     "Year": 2006,
-    "When": "2006-12-31"
+    "When": "2006-12-31",
+    "BlackAndWhite": false
   },
   {
     "Title": "Girlhood",
@@ -9574,11 +11782,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.73,
     "Minutes": 112,
-    "Watched": 51030,
+    "Watched": 51402,
+    "Fans": 151,
+    "Likes": 12270,
     "Id": "7WyI",
     "Poster": "/qZ52DlSVguX0WHYoiOD464IIONd.jpg",
     "Year": 2014,
-    "When": "2014-10-22"
+    "When": "2014-10-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "Raw",
@@ -9587,37 +11798,46 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.69,
     "Minutes": 99,
-    "Watched": 499325,
+    "Watched": 504166,
+    "Fans": 6512,
+    "Likes": 146202,
     "Id": "dLd2",
     "Poster": "/kc8jT1MAiKM0iwdjAwC5lQrTNry.jpg",
     "Year": 2016,
-    "When": "2016-11-11"
+    "When": "2016-11-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Gone in Sixty Seconds",
     "TitleOriginal": "Gone in Sixty Seconds",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 2.99,
+    "RatingLetterboxd": 3.00,
     "Minutes": 118,
-    "Watched": 180536,
+    "Watched": 182805,
+    "Fans": 379,
+    "Likes": 23639,
     "Id": "1Y4y",
     "Poster": "/lFsJJjnGcNhewSIM9XBTaHsI2et.jpg",
     "Year": 2000,
-    "When": "2000-06-09"
+    "When": "2000-06-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Arlington Road",
     "TitleOriginal": "Arlington Road",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.50,
+    "RatingLetterboxd": 3.51,
     "Minutes": 117,
-    "Watched": 38033,
+    "Watched": 38449,
+    "Fans": 51,
+    "Likes": 5849,
     "Id": "295C",
     "Poster": "/4yYHyZuyTTQaEZuHKS7561jXjtR.jpg",
     "Year": 1999,
-    "When": "1999-03-19"
+    "When": "1999-03-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Hot Coffee",
@@ -9626,24 +11846,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.59,
     "Minutes": 85,
-    "Watched": 3820,
+    "Watched": 3845,
+    "Fans": 2,
+    "Likes": 507,
     "Id": "2dUk",
     "Poster": "/o6xUakTHVZgTCc6lBza20r38iMv.jpg",
     "Year": 2011,
-    "When": "2011-06-27"
+    "When": "2011-06-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Eighth Grade",
     "TitleOriginal": "Eighth Grade",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.78,
+    "RatingLetterboxd": 3.77,
     "Minutes": 94,
-    "Watched": 595572,
+    "Watched": 600138,
+    "Fans": 2080,
+    "Likes": 168386,
     "Id": "hDMG",
     "Poster": "/xTa9cLhGHfQ7084UvoPQ2bBXKqd.jpg",
     "Year": 2018,
-    "When": "2018-01-19"
+    "When": "2018-01-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Gold Diggers: The Secret of Bear Mountain",
@@ -9652,63 +11878,78 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.13,
     "Minutes": 94,
-    "Watched": 8064,
+    "Watched": 8131,
+    "Fans": 22,
+    "Likes": 1225,
     "Id": "1cbm",
     "Poster": "/6USWKkOjS40KY19Q0gPEelEiDhc.jpg",
     "Year": 1995,
-    "When": "1995-11-03"
+    "When": "1995-11-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Perfect Strangers",
     "TitleOriginal": "Perfetti sconosciuti",
     "Language": "Italian",
     "RatingSelf": 3,
-    "RatingLetterboxd": 3.69,
+    "RatingLetterboxd": 3.70,
     "Minutes": 97,
-    "Watched": 87296,
+    "Watched": 88891,
+    "Fans": 770,
+    "Likes": 21108,
     "Id": "dgVi",
     "Poster": "/j7dkRtff8xTV7xDDNbgqstb46fv.jpg",
     "Year": 2016,
-    "When": "2016-02-11"
+    "When": "2016-02-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
     "TitleOriginal": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 4.31,
+    "RatingLetterboxd": 4.30,
     "Minutes": 95,
-    "Watched": 683808,
+    "Watched": 692431,
+    "Fans": 12153,
+    "Likes": 237347,
     "Id": "29eY",
     "Poster": "/6x7MzQ6BOMlRzam1StcmPO9v61g.jpg",
     "Year": 1964,
-    "When": "1964-01-29"
+    "When": "1964-01-29",
+    "BlackAndWhite": true
   },
   {
     "Title": "The Bucket List",
     "TitleOriginal": "The Bucket List",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.28,
+    "RatingLetterboxd": 3.29,
     "Minutes": 97,
-    "Watched": 207086,
+    "Watched": 209697,
+    "Fans": 261,
+    "Likes": 26783,
     "Id": "20Ye",
     "Poster": "/idbNSe8zsYKQL97dJApfOrDSdya.jpg",
     "Year": 2007,
-    "When": "2007-12-25"
+    "When": "2007-12-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Gran Torino",
     "TitleOriginal": "Gran Torino",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.80,
+    "RatingLetterboxd": 3.81,
     "Minutes": 116,
-    "Watched": 562331,
+    "Watched": 569752,
+    "Fans": 2748,
+    "Likes": 126449,
     "Id": "1Qzy",
     "Poster": "/zUybYvxWdAJy5hhYovsXtHSWI1l.jpg",
     "Year": 2008,
-    "When": "2008-12-12"
+    "When": "2008-12-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Bronson",
@@ -9717,11 +11958,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.64,
     "Minutes": 92,
-    "Watched": 210591,
+    "Watched": 212523,
+    "Fans": 801,
+    "Likes": 48327,
     "Id": "1GM8",
     "Poster": "/6diyyGIbBNiANsdIaCGtyv4IofR.jpg",
     "Year": 2008,
-    "When": "2009-03-13"
+    "When": "2009-03-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Harry Potter and the Philosopher's Stone",
@@ -9730,11 +11974,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.79,
     "Minutes": 152,
-    "Watched": 3280390,
+    "Watched": 3344195,
+    "Fans": 10339,
+    "Likes": 885489,
     "Id": "29QS",
     "Poster": "/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
     "Year": 2001,
-    "When": "2001-11-16"
+    "When": "2001-11-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Reservoir Dogs",
@@ -9743,24 +11990,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.15,
     "Minutes": 99,
-    "Watched": 1688651,
+    "Watched": 1712838,
+    "Fans": 17372,
+    "Likes": 581439,
     "Id": "2agc",
     "Poster": "/xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg",
     "Year": 1992,
-    "When": "1992-09-02"
+    "When": "1992-09-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "Imagine Me \u0026 You",
     "TitleOriginal": "Imagine Me \u0026 You",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.80,
+    "RatingLetterboxd": 3.81,
     "Minutes": 93,
-    "Watched": 141605,
+    "Watched": 145344,
+    "Fans": 5961,
+    "Likes": 58957,
     "Id": "28E2",
     "Poster": "/gmb10CuW5EWgQOBkBY8lvtMi3dY.jpg",
     "Year": 2005,
-    "When": "2006-01-27"
+    "When": "2006-01-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Line of Sight",
@@ -9769,11 +12022,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.54,
     "Minutes": 60,
-    "Watched": 347,
+    "Watched": 355,
+    "Fans": 1,
+    "Likes": 82,
     "Id": "406K",
     "Poster": "/iU5IpzZYInqL5oKEO4y9xopNPn8.jpg",
     "Year": 2012,
-    "When": "2012-07-01"
+    "When": "2012-07-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Polar Express",
@@ -9782,11 +12038,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.27,
     "Minutes": 100,
-    "Watched": 1206090,
+    "Watched": 1224588,
+    "Fans": 1885,
+    "Likes": 191860,
     "Id": "23am",
     "Poster": "/axwMKhHq4bA5jP1KSxOAyfrOsGC.jpg",
     "Year": 2004,
-    "When": "2004-11-10"
+    "When": "2004-11-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "WALL\u00B7E",
@@ -9795,11 +12054,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.21,
     "Minutes": 98,
-    "Watched": 3183363,
+    "Watched": 3236429,
+    "Fans": 24639,
+    "Likes": 1034288,
     "Id": "1VEo",
     "Poster": "/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg",
     "Year": 2008,
-    "When": "2008-06-22"
+    "When": "2008-06-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "One Hour Photo",
@@ -9808,11 +12070,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.48,
     "Minutes": 96,
-    "Watched": 179653,
+    "Watched": 182642,
+    "Fans": 235,
+    "Likes": 33612,
     "Id": "1YT2",
     "Poster": "/ratEjRsUex1kJ16XTOQjN2r9GIe.jpg",
     "Year": 2002,
-    "When": "2002-08-21"
+    "When": "2002-08-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Yes Men Fix the World",
@@ -9821,11 +12086,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.57,
     "Minutes": 87,
-    "Watched": 2222,
+    "Watched": 2235,
+    "Fans": 0,
+    "Likes": 289,
     "Id": "1GRW",
     "Poster": "/6eVleb6nkqjxUfLPRS5GwSKlA9J.jpg",
     "Year": 2009,
-    "When": "2009-01-18"
+    "When": "2009-01-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Falling",
@@ -9834,11 +12102,14 @@ var films = [
     "RatingSelf": 1,
     "RatingLetterboxd": 2.48,
     "Minutes": 103,
-    "Watched": 21228,
+    "Watched": 21422,
+    "Fans": 22,
+    "Likes": 2096,
     "Id": "9jPE",
     "Poster": "/kGbNIj25hUZuPln53RpbKdB5j70.jpg",
     "Year": 2014,
-    "When": "2015-04-24"
+    "When": "2015-04-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Incredibles",
@@ -9847,11 +12118,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.07,
     "Minutes": 115,
-    "Watched": 3045335,
+    "Watched": 3092824,
+    "Fans": 10594,
+    "Likes": 801727,
     "Id": "1XLm",
     "Poster": "/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg",
     "Year": 2004,
-    "When": "2004-10-27"
+    "When": "2004-10-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "102 Minutes That Changed America",
@@ -9860,11 +12134,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.08,
     "Minutes": 102,
-    "Watched": 4732,
+    "Watched": 4776,
+    "Fans": 2,
+    "Likes": 825,
     "Id": "1bgq",
     "Poster": "/psTueksm8XxnCTi5c4dXzjWx5rZ.jpg",
     "Year": 2008,
-    "When": "2008-09-11"
+    "When": "2008-09-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Spellbound",
@@ -9873,37 +12150,46 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.78,
     "Minutes": 111,
-    "Watched": 75022,
+    "Watched": 76137,
+    "Fans": 358,
+    "Likes": 18162,
     "Id": "24Ji",
     "Poster": "/dPAox7jGScLBvxKLeRptJIBF7v.jpg",
     "Year": 1945,
-    "When": "1945-11-08"
+    "When": "1945-11-08",
+    "BlackAndWhite": true
   },
   {
     "Title": "Frankenstein",
     "TitleOriginal": "Frankenstein",
     "Language": "English",
     "RatingSelf": 4,
-    "RatingLetterboxd": 3.82,
+    "RatingLetterboxd": 3.81,
     "Minutes": 70,
-    "Watched": 239438,
+    "Watched": 242417,
+    "Fans": 971,
+    "Likes": 65649,
     "Id": "25Te",
     "Poster": "/mu6wHwH0IwCCaEYtpqujuPJYat1.jpg",
     "Year": 1931,
-    "When": "1931-11-21"
+    "When": "1931-11-21",
+    "BlackAndWhite": true
   },
   {
     "Title": "Jojo Rabbit",
     "TitleOriginal": "Jojo Rabbit",
     "Language": "English",
     "RatingSelf": 3,
-    "RatingLetterboxd": 4.04,
+    "RatingLetterboxd": 4.03,
     "Minutes": 108,
-    "Watched": 2271824,
+    "Watched": 2306080,
+    "Fans": 22895,
+    "Likes": 900398,
     "Id": "iEBG",
     "Poster": "/7GsM4mtM0worCtIVeiQt28HieeN.jpg",
     "Year": 2019,
-    "When": "2019-10-18"
+    "When": "2019-10-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "A Quiet Place",
@@ -9912,11 +12198,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.65,
     "Minutes": 91,
-    "Watched": 2302122,
+    "Watched": 2332347,
+    "Fans": 3420,
+    "Likes": 644421,
     "Id": "fVJQ",
     "Poster": "/nAU74GmpUk7t5iklEp3bufwDq4n.jpg",
     "Year": 2018,
-    "When": "2018-04-03"
+    "When": "2018-04-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Psycho",
@@ -9925,24 +12214,30 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 2.32,
     "Minutes": 103,
-    "Watched": 77765,
+    "Watched": 78393,
+    "Fans": 22,
+    "Likes": 5917,
     "Id": "1Ugg",
     "Poster": "/tY0OLFUsTXdvNppTpnNc4EVYy2z.jpg",
     "Year": 1998,
-    "When": "1998-12-04"
+    "When": "1998-12-04",
+    "BlackAndWhite": false
   },
   {
     "Title": "Jurassic World",
     "TitleOriginal": "Jurassic World",
     "Language": "English",
     "RatingSelf": 2,
-    "RatingLetterboxd": 3.05,
+    "RatingLetterboxd": 3.06,
     "Minutes": 124,
-    "Watched": 1540847,
+    "Watched": 1563734,
+    "Fans": 1886,
+    "Likes": 228123,
     "Id": "4n0g",
     "Poster": "/rhr4y79GpxQF9IsfJItRXVaoGs4.jpg",
     "Year": 2015,
-    "When": "2015-06-06"
+    "When": "2015-06-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "Where Dreams Go To Die",
@@ -9951,24 +12246,30 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.56,
     "Minutes": 75,
-    "Watched": 881,
+    "Watched": 888,
+    "Fans": 1,
+    "Likes": 187,
     "Id": "iqNo",
     "Poster": "/b3iet3xxYJJFBxINnqNJb5ODgr2.jpg",
     "Year": 2017,
-    "When": "2017-10-12"
+    "When": "2017-10-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Manic",
     "TitleOriginal": "Manic",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.73,
+    "RatingLetterboxd": 3.74,
     "Minutes": 102,
-    "Watched": 16339,
+    "Watched": 16915,
+    "Fans": 911,
+    "Likes": 6647,
     "Id": "1MOE",
     "Poster": "/af9Ym0HQuChr7e5N34PN9OSfYhu.jpg",
     "Year": 2001,
-    "When": "2001-01-27"
+    "When": "2001-01-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Jarhead",
@@ -9977,11 +12278,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.61,
     "Minutes": 123,
-    "Watched": 255287,
+    "Watched": 259225,
+    "Fans": 1438,
+    "Likes": 54985,
     "Id": "70m",
     "Poster": "/4rCzaZy5Qkvxh5xaVpHriXSLTgC.jpg",
     "Year": 2005,
-    "When": "2005-11-04"
+    "When": "2005-11-04",
+    "BlackAndWhite": false
   },
   {
     "Title": "House of Sand and Fog",
@@ -9990,11 +12294,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.56,
     "Minutes": 126,
-    "Watched": 28599,
+    "Watched": 28944,
+    "Fans": 50,
+    "Likes": 4348,
     "Id": "1UEM",
     "Poster": "/hLxSOukLfC4j5pNbdE7lqaw8KgL.jpg",
     "Year": 2003,
-    "When": "2003-12-19"
+    "When": "2003-12-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Gifted",
@@ -10003,11 +12310,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.66,
     "Minutes": 101,
-    "Watched": 348600,
+    "Watched": 358096,
+    "Fans": 1489,
+    "Likes": 84452,
     "Id": "e5dG",
     "Poster": "/7YB2YrMwIm1g8FyZtlvmVDfRnAT.jpg",
     "Year": 2017,
-    "When": "2017-04-07"
+    "When": "2017-04-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Tyrannosaur",
@@ -10016,11 +12326,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.87,
     "Minutes": 93,
-    "Watched": 29108,
+    "Watched": 29352,
+    "Fans": 120,
+    "Likes": 6756,
     "Id": "2DUA",
     "Poster": "/p6PJGuO6K94YylUcAsTTn7Q4cQn.jpg",
     "Year": 2011,
-    "When": "2011-10-07"
+    "When": "2011-10-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Phantom Thread",
@@ -10029,11 +12342,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.15,
     "Minutes": 130,
-    "Watched": 600588,
+    "Watched": 606393,
+    "Fans": 15368,
+    "Likes": 205733,
     "Id": "e4uc",
     "Poster": "/hgoWjp9Sh0MI97eAMZCnIoVfgvq.jpg",
     "Year": 2017,
-    "When": "2017-12-25"
+    "When": "2017-12-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Casablanca",
@@ -10042,11 +12358,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.27,
     "Minutes": 102,
-    "Watched": 856834,
+    "Watched": 869886,
+    "Fans": 17099,
+    "Likes": 277994,
     "Id": "2aG0",
     "Poster": "/5K7cOHoay2mZusSLezBOY0Qxh8a.jpg",
     "Year": 1942,
-    "When": "1943-01-15"
+    "When": "1943-01-15",
+    "BlackAndWhite": true
   },
   {
     "Title": "Electrick Children",
@@ -10055,11 +12374,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.52,
     "Minutes": 96,
-    "Watched": 21387,
+    "Watched": 21611,
+    "Fans": 347,
+    "Likes": 5839,
     "Id": "39sy",
     "Poster": "/lWszypKqAt91GFtRP2HyUP6UdOq.jpg",
     "Year": 2012,
-    "When": "2012-07-11"
+    "When": "2012-07-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Dawn of the Dead",
@@ -10068,11 +12390,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.96,
     "Minutes": 127,
-    "Watched": 248584,
+    "Watched": 250766,
+    "Fans": 3101,
+    "Likes": 71497,
     "Id": "29gU",
     "Poster": "/h6aVbUsiJB3Le1xrhyZXsXZOI3h.jpg",
     "Year": 1978,
-    "When": "1978-09-02"
+    "When": "1978-09-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "Mass",
@@ -10081,11 +12406,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.07,
     "Minutes": 111,
-    "Watched": 47291,
+    "Watched": 47550,
+    "Fans": 114,
+    "Likes": 14530,
     "Id": "eYAA",
     "Poster": "/oqaqsMTLmNaM50tQG4k8EkR6AxY.jpg",
     "Year": 2021,
-    "When": "2021-10-08"
+    "When": "2021-10-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "Bird Box",
@@ -10094,11 +12422,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.88,
     "Minutes": 124,
-    "Watched": 1497060,
+    "Watched": 1521080,
+    "Fans": 643,
+    "Likes": 194883,
     "Id": "eh1i",
     "Poster": "/rGfGfgL2pEPCfhIvqHXieXFn7gp.jpg",
     "Year": 2018,
-    "When": "2018-12-13"
+    "When": "2018-12-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "They Shall Not Grow Old",
@@ -10107,11 +12438,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.12,
     "Minutes": 99,
-    "Watched": 72517,
+    "Watched": 73003,
+    "Fans": 111,
+    "Likes": 19285,
     "Id": "jP62",
     "Poster": "/yMGfJeTXUdIjOqjS0jJfjgYEuYC.jpg",
     "Year": 2018,
-    "When": "2018-11-09"
+    "When": "2018-11-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "I, Robot",
@@ -10120,11 +12454,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.16,
     "Minutes": 115,
-    "Watched": 621985,
+    "Watched": 630899,
+    "Fans": 549,
+    "Likes": 77734,
     "Id": "27y8",
     "Poster": "/efwv6F2lGaghjPpBRSINHtoEiZB.jpg",
     "Year": 2004,
-    "When": "2004-07-15"
+    "When": "2004-07-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Slumdog Millionaire",
@@ -10133,24 +12470,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.92,
     "Minutes": 120,
-    "Watched": 909352,
+    "Watched": 920903,
+    "Fans": 3928,
+    "Likes": 187307,
     "Id": "1S3E",
     "Poster": "/5leCCi7ZF0CawAfM5Qo2ECKPprc.jpg",
     "Year": 2008,
-    "When": "2008-11-12"
+    "When": "2008-11-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Anora",
     "TitleOriginal": "Anora",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 4.04,
+    "RatingLetterboxd": 4.02,
     "Minutes": 139,
-    "Watched": 849469,
+    "Watched": 1027393,
+    "Fans": 13560,
+    "Likes": 392107,
     "Id": "Egcw",
     "Poster": "/7MrgIUeq0DD2iF7GR6wqJfYZNeC.jpg",
     "Year": 2024,
-    "When": "2024-10-14"
+    "When": "2024-10-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Eye",
@@ -10159,11 +12502,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.18,
     "Minutes": 98,
-    "Watched": 19838,
+    "Watched": 20006,
+    "Fans": 23,
+    "Likes": 2523,
     "Id": "1Wo2",
     "Poster": "/ux5xsVRBwusVrmOTlhV9zRhu93d.jpg",
     "Year": 2002,
-    "When": "2002-05-09"
+    "When": "2002-05-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Inside Man",
@@ -10172,11 +12518,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.69,
     "Minutes": 129,
-    "Watched": 316406,
+    "Watched": 322046,
+    "Fans": 580,
+    "Likes": 66961,
     "Id": "2auS",
     "Poster": "/wqbvzu1D60ZmhNdC6EI888Yrg7g.jpg",
     "Year": 2006,
-    "When": "2006-03-17"
+    "When": "2006-03-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "When Harry Met Sally...",
@@ -10185,24 +12534,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.06,
     "Minutes": 96,
-    "Watched": 1034259,
+    "Watched": 1054180,
+    "Fans": 35351,
+    "Likes": 362311,
     "Id": "29W2",
     "Poster": "/3wkbKeowUp1Zpkw1KkBqMWbt0P9.jpg",
     "Year": 1989,
-    "When": "1989-07-21"
+    "When": "1989-07-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Transformers",
     "TitleOriginal": "Transformers",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.19,
+    "RatingLetterboxd": 3.20,
     "Minutes": 144,
-    "Watched": 988192,
+    "Watched": 1003949,
+    "Fans": 3761,
+    "Likes": 150266,
     "Id": "280c",
     "Poster": "/1P7w3AImoEOWJX7nn3fdaKDfEQA.jpg",
     "Year": 2007,
-    "When": "2007-06-27"
+    "When": "2007-06-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Marie Antoinette",
@@ -10211,11 +12566,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.73,
     "Minutes": 123,
-    "Watched": 743682,
+    "Watched": 757155,
+    "Fans": 15571,
+    "Likes": 241276,
     "Id": "27Wa",
     "Poster": "/cybXGmv8Rjd5Os8Xml6YxMBQ0Zt.jpg",
     "Year": 2006,
-    "When": "2006-05-24"
+    "When": "2006-05-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Children's Hour",
@@ -10224,24 +12582,30 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.08,
     "Minutes": 108,
-    "Watched": 54063,
+    "Watched": 54889,
+    "Fans": 1134,
+    "Likes": 21513,
     "Id": "1DZI",
     "Poster": "/goyEWixvULM2IRN4KsKibyrJE4J.jpg",
     "Year": 1961,
-    "When": "1961-12-19"
+    "When": "1961-12-19",
+    "BlackAndWhite": true
   },
   {
     "Title": "Little Women",
     "TitleOriginal": "Little Women",
     "Language": "English",
     "RatingSelf": 4,
-    "RatingLetterboxd": 4.16,
+    "RatingLetterboxd": 4.17,
     "Minutes": 135,
-    "Watched": 2576308,
+    "Watched": 2628610,
+    "Fans": 149052,
+    "Likes": 1191138,
     "Id": "aSVk",
     "Poster": "/yn5ihODtZ7ofn8pDYfxCmxh8AXI.jpg",
     "Year": 2019,
-    "When": "2019-12-25"
+    "When": "2019-12-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "mother!",
@@ -10250,11 +12614,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.48,
     "Minutes": 121,
-    "Watched": 955903,
+    "Watched": 966859,
+    "Fans": 9311,
+    "Likes": 252613,
     "Id": "dgRU",
     "Poster": "/fjny9chXPx69ln1LMJxbwi5yHMt.jpg",
     "Year": 2017,
-    "When": "2017-09-13"
+    "When": "2017-09-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Cliffhanger",
@@ -10263,11 +12630,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.21,
     "Minutes": 112,
-    "Watched": 90855,
+    "Watched": 91929,
+    "Fans": 41,
+    "Likes": 14125,
     "Id": "1YU0",
     "Poster": "/8v2nPPLvhEVlfXu08UZ0djK31be.jpg",
     "Year": 1993,
-    "When": "1993-05-28"
+    "When": "1993-05-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "Are You There God? It's Me, Margaret.",
@@ -10276,11 +12646,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.79,
     "Minutes": 107,
-    "Watched": 269764,
+    "Watched": 274080,
+    "Fans": 647,
+    "Likes": 92465,
     "Id": "kiYC",
     "Poster": "/yb6UB4WC3znlwU0L4AqMnjR9G9S.jpg",
     "Year": 2023,
-    "When": "2023-03-29"
+    "When": "2023-03-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Hole",
@@ -10289,11 +12662,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 2.92,
     "Minutes": 102,
-    "Watched": 29230,
+    "Watched": 29523,
+    "Fans": 28,
+    "Likes": 3277,
     "Id": "2ake",
     "Poster": "/n5aMoI6AZLJzUoNbjMj0P60EYMJ.jpg",
     "Year": 2001,
-    "When": "2001-04-20"
+    "When": "2001-04-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Black Panther",
@@ -10302,11 +12678,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.66,
     "Minutes": 135,
-    "Watched": 3319629,
+    "Watched": 3363978,
+    "Fans": 4974,
+    "Likes": 1030237,
     "Id": "8MHs",
     "Poster": "/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
     "Year": 2018,
-    "When": "2018-02-13"
+    "When": "2018-02-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Futurama: Bender's Big Score",
@@ -10315,11 +12694,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.78,
     "Minutes": 89,
-    "Watched": 47665,
+    "Watched": 48151,
+    "Fans": 60,
+    "Likes": 8147,
     "Id": "215Y",
     "Poster": "/bmVE90IHvx4uXQgtbRtu4RyMWpt.jpg",
     "Year": 2007,
-    "When": "2007-11-27"
+    "When": "2007-11-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "BlacKkKlansman",
@@ -10328,11 +12710,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.95,
     "Minutes": 136,
-    "Watched": 1274834,
+    "Watched": 1288930,
+    "Fans": 2999,
+    "Likes": 400131,
     "Id": "hxL8",
     "Poster": "/8jxqAvSDoneSKRczaK8v9X5gqBp.jpg",
     "Year": 2018,
-    "When": "2018-08-09"
+    "When": "2018-08-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "There Will Be Blood",
@@ -10341,11 +12726,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.46,
     "Minutes": 158,
-    "Watched": 1147741,
+    "Watched": 1164649,
+    "Fans": 35580,
+    "Likes": 436831,
     "Id": "20Z2",
     "Poster": "/spYrDOOLnkIfUOwTKKixC3h5j6G.jpg",
     "Year": 2007,
-    "When": "2007-12-26"
+    "When": "2007-12-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Alive",
@@ -10354,11 +12742,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.31,
     "Minutes": 127,
-    "Watched": 58526,
+    "Watched": 59622,
+    "Fans": 51,
+    "Likes": 7678,
     "Id": "210u",
     "Poster": "/uQACcCZqd7WCTRin9xRIW5gr1bd.jpg",
     "Year": 1993,
-    "When": "1993-01-15"
+    "When": "1993-01-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Shoes",
@@ -10367,11 +12758,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.62,
     "Minutes": 48,
-    "Watched": 5039,
+    "Watched": 5111,
+    "Fans": 8,
+    "Likes": 1346,
     "Id": "4xlI",
     "Poster": "nlSqMGGl1bz2BpoSGF4ke4x9Shc.jpg",
     "Year": 1916,
-    "When": "1916-06-26"
+    "When": "1916-06-26",
+    "BlackAndWhite": true
   },
   {
     "Title": "Jason and the Argonauts",
@@ -10380,11 +12774,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.63,
     "Minutes": 104,
-    "Watched": 50383,
+    "Watched": 50983,
+    "Fans": 220,
+    "Likes": 12142,
     "Id": "1TCK",
     "Poster": "/mVhxJYcSpndSpa58IiXKC5aKpkH.jpg",
     "Year": 1963,
-    "When": "1963-06-19"
+    "When": "1963-06-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Playground",
@@ -10393,11 +12790,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.72,
     "Minutes": 72,
-    "Watched": 14765,
+    "Watched": 14927,
+    "Fans": 25,
+    "Likes": 3505,
     "Id": "twRI",
     "Poster": "/lTAfmBEaTYyPf3bre8hdIYiE3RB.jpg",
     "Year": 2021,
-    "When": "2021-10-20"
+    "When": "2021-10-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Ratatouille",
@@ -10406,11 +12806,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.22,
     "Minutes": 111,
-    "Watched": 3932783,
+    "Watched": 4007796,
+    "Fans": 42504,
+    "Likes": 1375998,
     "Id": "27ww",
     "Poster": "/t3vaWRPSf6WjDSamIkKDs1iQWna.jpg",
     "Year": 2007,
-    "When": "2007-06-21"
+    "When": "2007-06-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "V for Vendetta",
@@ -10419,11 +12822,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.86,
     "Minutes": 132,
-    "Watched": 1188613,
+    "Watched": 1203520,
+    "Fans": 11689,
+    "Likes": 307872,
     "Id": "29Ik",
     "Poster": "/1avD1JeaRiJX5M4ahPdZPypGoGN.jpg",
     "Year": 2005,
-    "When": "2006-02-23"
+    "When": "2006-02-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Godfather",
@@ -10432,11 +12838,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.54,
     "Minutes": 175,
-    "Watched": 2495775,
+    "Watched": 2541514,
+    "Fans": 82081,
+    "Likes": 1010585,
     "Id": "2aNK",
     "Poster": "/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
     "Year": 1972,
-    "When": "1972-03-14"
+    "When": "1972-03-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Butterfly Effect",
@@ -10445,11 +12854,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.51,
     "Minutes": 113,
-    "Watched": 664077,
+    "Watched": 675717,
+    "Fans": 10608,
+    "Likes": 156400,
     "Id": "27M0",
     "Poster": "/ea5iv7TWMh18fOKoRGgmtcg85Gx.jpg",
     "Year": 2004,
-    "When": "2004-01-17"
+    "When": "2004-01-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Dunkirk",
@@ -10458,11 +12870,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.77,
     "Minutes": 107,
-    "Watched": 2106631,
+    "Watched": 2133430,
+    "Fans": 4793,
+    "Likes": 586020,
     "Id": "d0Y6",
     "Poster": "/b4Oe15CGLL61Ped0RAS9JpqdmCt.jpg",
     "Year": 2017,
-    "When": "2017-07-19"
+    "When": "2017-07-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "I Am Legend",
@@ -10471,11 +12886,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.41,
     "Minutes": 101,
-    "Watched": 1078516,
+    "Watched": 1094035,
+    "Fans": 1841,
+    "Likes": 179023,
     "Id": "21DG",
     "Poster": "/iPDkaSdKk2jRLTM65UOEoKtsIZ8.jpg",
     "Year": 2007,
-    "When": "2007-12-12"
+    "When": "2007-12-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Au Hasard Balthazar",
@@ -10484,11 +12902,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.09,
     "Minutes": 96,
-    "Watched": 76081,
+    "Watched": 76872,
+    "Fans": 1279,
+    "Likes": 22728,
     "Id": "1E3g",
-    "Poster": "/lkLO1HDzzaXpTXtAgnGpVqIQkvF.jpg",
+    "Poster": "cuJ3Ady6c8gDMlrWC1j2pui0Ptu.jpg",
     "Year": 1966,
-    "When": "1966-05-25"
+    "When": "1966-05-25",
+    "BlackAndWhite": true
   },
   {
     "Title": "The Farewell",
@@ -10497,11 +12918,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.07,
     "Minutes": 100,
-    "Watched": 403208,
+    "Watched": 406121,
+    "Fans": 2609,
+    "Likes": 136863,
     "Id": "kIky",
     "Poster": "/7ht2IMGynDSVQGvAXhAb83DLET8.jpg",
     "Year": 2019,
-    "When": "2019-07-12"
+    "When": "2019-07-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Irreversible",
@@ -10510,24 +12934,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.74,
     "Minutes": 94,
-    "Watched": 318511,
+    "Watched": 323781,
+    "Fans": 3381,
+    "Likes": 77419,
     "Id": "29as",
     "Poster": "/rxeDxo8FvZpLu6iplNpxdtAVnfu.jpg",
     "Year": 2002,
-    "When": "2002-05-22"
+    "When": "2002-05-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "American Pie",
     "TitleOriginal": "American Pie",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.11,
+    "RatingLetterboxd": 3.12,
     "Minutes": 95,
-    "Watched": 656198,
+    "Watched": 665380,
+    "Fans": 1123,
+    "Likes": 85513,
     "Id": "27qy",
     "Poster": "/5P68by2Thn8wHAziyWGEw2O7hco.jpg",
     "Year": 1999,
-    "When": "1999-07-09"
+    "When": "1999-07-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Swordfish",
@@ -10536,11 +12966,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.72,
     "Minutes": 99,
-    "Watched": 92066,
+    "Watched": 93027,
+    "Fans": 55,
+    "Likes": 8063,
     "Id": "1Y0m",
     "Poster": "/mM6h4jMqC4q5IaFgBIGKQDLnRU.jpg",
     "Year": 2001,
-    "When": "2001-06-08"
+    "When": "2001-06-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "Secrets \u0026 Lies",
@@ -10549,11 +12982,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.26,
     "Minutes": 142,
-    "Watched": 65379,
+    "Watched": 67023,
+    "Fans": 727,
+    "Likes": 21779,
     "Id": "1UuC",
     "Poster": "/zQBuRQ3hrLhkEsXcxteUxuxLrvs.jpg",
     "Year": 1996,
-    "When": "1996-05-24"
+    "When": "1996-05-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "A Fish Called Wanda",
@@ -10562,11 +12998,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 109,
-    "Watched": 168387,
+    "Watched": 170809,
+    "Fans": 533,
+    "Likes": 37386,
     "Id": "29YC",
     "Poster": "/hkSGFNVfEEUXFCxRZDITFHVhUlu.jpg",
     "Year": 1988,
-    "When": "1988-07-15"
+    "When": "1988-07-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Speak",
@@ -10575,11 +13014,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.79,
     "Minutes": 93,
-    "Watched": 128847,
+    "Watched": 132748,
+    "Fans": 3873,
+    "Likes": 50684,
     "Id": "1MTO",
     "Poster": "/oRjQJG2PziTl2bUvzUCFS16ncfj.jpg",
     "Year": 2004,
-    "When": "2004-01-20"
+    "When": "2004-01-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Breakfast Club",
@@ -10588,11 +13030,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 98,
-    "Watched": 2360141,
+    "Watched": 2396969,
+    "Fans": 26409,
+    "Likes": 759927,
     "Id": "27q4",
     "Poster": "/wM9ErA8UVdcce5P4oefQinN8VVV.jpg",
     "Year": 1985,
-    "When": "1985-02-15"
+    "When": "1985-02-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "I Believe in Unicorns",
@@ -10601,11 +13046,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.27,
     "Minutes": 80,
-    "Watched": 56120,
+    "Watched": 57976,
+    "Fans": 2618,
+    "Likes": 22631,
     "Id": "7qGA",
     "Poster": "/gxquUhh9IleBnWJFoNJQmfjXqgG.jpg",
     "Year": 2014,
-    "When": "2015-05-29"
+    "When": "2015-05-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "A Beautiful Mind",
@@ -10614,11 +13062,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.84,
     "Minutes": 135,
-    "Watched": 763349,
+    "Watched": 774337,
+    "Fans": 3389,
+    "Likes": 156708,
     "Id": "2amk",
     "Poster": "/rEIg5yJdNOt9fmX4P8gU9LeNoTQ.jpg",
     "Year": 2001,
-    "When": "2001-12-14"
+    "When": "2001-12-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Titane",
@@ -10627,11 +13078,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.60,
     "Minutes": 108,
-    "Watched": 439210,
+    "Watched": 444022,
+    "Fans": 4233,
+    "Likes": 118151,
     "Id": "nlQC",
     "Poster": "/AeQC4gFwkIvjAwnSd2RPAlgs1VE.jpg",
     "Year": 2021,
-    "When": "2021-07-14"
+    "When": "2021-07-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Circle",
@@ -10640,11 +13094,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.56,
     "Minutes": 86,
-    "Watched": 222927,
+    "Watched": 226112,
+    "Fans": 218,
+    "Likes": 25028,
     "Id": "b5So",
     "Poster": "/hbIL53MdZFJXsgxXaSOVuApWTs8.jpg",
     "Year": 2015,
-    "When": "2015-05-28"
+    "When": "2015-05-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "Who Framed Roger Rabbit",
@@ -10653,11 +13110,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.96,
     "Minutes": 104,
-    "Watched": 621102,
+    "Watched": 629456,
+    "Fans": 5013,
+    "Likes": 169552,
     "Id": "29ry",
     "Poster": "/eshnZ90NTItq40jogl5ukEODPKM.jpg",
     "Year": 1988,
-    "When": "1988-06-21"
+    "When": "1988-06-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Emily the Criminal",
@@ -10666,11 +13126,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.30,
     "Minutes": 97,
-    "Watched": 194292,
+    "Watched": 195891,
+    "Fans": 59,
+    "Likes": 40239,
     "Id": "wBOq",
     "Poster": "/iZvzMpREGiqDQ5eYbx8z70qPgst.jpg",
     "Year": 2022,
-    "When": "2022-08-12"
+    "When": "2022-08-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Fish Tank",
@@ -10679,11 +13142,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.84,
     "Minutes": 123,
-    "Watched": 117625,
+    "Watched": 119239,
+    "Fans": 1022,
+    "Likes": 30071,
     "Id": "1xBg",
     "Poster": "/rI3MKBDsWzQHi9PWDAMKkgmYcff.jpg",
     "Year": 2009,
-    "When": "2009-09-11"
+    "When": "2009-09-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Inception",
@@ -10692,11 +13158,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.20,
     "Minutes": 148,
-    "Watched": 4032765,
+    "Watched": 4101227,
+    "Fans": 73488,
+    "Likes": 1640046,
     "Id": "1skk",
     "Poster": "/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg",
     "Year": 2010,
-    "When": "2010-07-15"
+    "When": "2010-07-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Paddington 2",
@@ -10705,11 +13174,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.16,
     "Minutes": 104,
-    "Watched": 689927,
+    "Watched": 705137,
+    "Fans": 11965,
+    "Likes": 215444,
     "Id": "bCF8",
     "Poster": "/1OJ9vkD5xPt3skC6KguyXAgagRZ.jpg",
     "Year": 2017,
-    "When": "2017-11-09"
+    "When": "2017-11-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Toys",
@@ -10718,11 +13190,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.70,
     "Minutes": 122,
-    "Watched": 46714,
+    "Watched": 47261,
+    "Fans": 58,
+    "Likes": 4771,
     "Id": "1TsK",
     "Poster": "/l0YBVvOvOxoOkggTZ70tNGvGQo4.jpg",
     "Year": 1992,
-    "When": "1992-12-18"
+    "When": "1992-12-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Italian Job",
@@ -10731,11 +13206,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.53,
     "Minutes": 99,
-    "Watched": 63904,
+    "Watched": 64625,
+    "Fans": 520,
+    "Likes": 13429,
     "Id": "1W1i",
     "Poster": "/8NOw3HPHkcBndJW2K6ofbcSb7WD.jpg",
     "Year": 1969,
-    "When": "1969-06-02"
+    "When": "1969-06-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "Maudie",
@@ -10744,11 +13222,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.70,
     "Minutes": 115,
-    "Watched": 37331,
+    "Watched": 37698,
+    "Fans": 228,
+    "Likes": 10269,
     "Id": "ceaW",
     "Poster": "/wu9RPdV0uEemFEewJQ6fWwJ9ZcU.jpg",
     "Year": 2016,
-    "When": "2016-06-16"
+    "When": "2016-06-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "There's Something About Mary",
@@ -10757,11 +13238,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.24,
     "Minutes": 120,
-    "Watched": 394647,
+    "Watched": 400047,
+    "Fans": 342,
+    "Likes": 55445,
     "Id": "2aae",
     "Poster": "/g03pwohXHOI75InM3zraiaEGguO.jpg",
     "Year": 1998,
-    "When": "1998-07-15"
+    "When": "1998-07-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Disturbia",
@@ -10770,11 +13254,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.11,
     "Minutes": 105,
-    "Watched": 312136,
+    "Watched": 315406,
+    "Fans": 828,
+    "Likes": 49135,
     "Id": "20rk",
     "Poster": "/je3sZZpcfPeiR4eIqBKbxomOw6d.jpg",
     "Year": 2007,
-    "When": "2007-03-27"
+    "When": "2007-03-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Fast Times at Ridgemont High",
@@ -10783,11 +13270,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.49,
     "Minutes": 90,
-    "Watched": 221531,
+    "Watched": 223800,
+    "Fans": 761,
+    "Likes": 51070,
     "Id": "1QnM",
     "Poster": "/s1DA8H7qwoOcAEhow2rCzuQtpuO.jpg",
     "Year": 1982,
-    "When": "1982-08-13"
+    "When": "1982-08-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Diary of a Teenage Girl",
@@ -10796,11 +13286,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.52,
     "Minutes": 103,
-    "Watched": 110391,
+    "Watched": 111626,
+    "Fans": 894,
+    "Likes": 26387,
     "Id": "7kru",
     "Poster": "/5YlUrdYKuscD7pwf3yy9duVLbui.jpg",
     "Year": 2015,
-    "When": "2015-08-07"
+    "When": "2015-08-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Mermaids",
@@ -10809,11 +13302,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.63,
     "Minutes": 110,
-    "Watched": 95035,
+    "Watched": 96801,
+    "Fans": 1195,
+    "Likes": 29692,
     "Id": "244u",
     "Poster": "/1VufMcp0euY2LpmKiVv8xnbB9Om.jpg",
     "Year": 1990,
-    "When": "1990-12-14"
+    "When": "1990-12-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Austin Powers: International Man of Mystery",
@@ -10822,11 +13318,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.42,
     "Minutes": 94,
-    "Watched": 514609,
+    "Watched": 521309,
+    "Fans": 1105,
+    "Likes": 98001,
     "Id": "29y0",
     "Poster": "/5uD4dxNX8JKFjWKYMHyOsqhi5pN.jpg",
     "Year": 1997,
-    "When": "1997-05-02"
+    "When": "1997-05-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "Prozac Nation",
@@ -10835,11 +13334,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.38,
     "Minutes": 95,
-    "Watched": 43845,
+    "Watched": 44781,
+    "Fans": 849,
+    "Likes": 12393,
     "Id": "1KxG",
     "Poster": "/4QB1h6mxlmQVM8BtYMybTwL2foc.jpg",
     "Year": 2001,
-    "When": "2001-09-08"
+    "When": "2001-09-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "Grand Prix: The Killer Years",
@@ -10849,10 +13351,13 @@ var films = [
     "RatingLetterboxd": -1,
     "Minutes": 60,
     "Watched": 255,
+    "Fans": 0,
+    "Likes": 56,
     "Id": "3KE2",
     "Poster": "/9fGHfNZ7GXQXTMNArlHcMFDgHib.jpg",
     "Year": 2011,
-    "When": "2011-03-17"
+    "When": "2011-03-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Pan's Labyrinth",
@@ -10861,11 +13366,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.16,
     "Minutes": 118,
-    "Watched": 1174925,
+    "Watched": 1189040,
+    "Fans": 22893,
+    "Likes": 388117,
     "Id": "28No",
     "Poster": "/2VVhikIxoztAXEDQZLOdtBsu6vf.jpg",
     "Year": 2006,
-    "When": "2006-10-10"
+    "When": "2006-10-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Life of David Gale",
@@ -10874,11 +13382,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.46,
     "Minutes": 130,
-    "Watched": 58379,
+    "Watched": 59106,
+    "Fans": 207,
+    "Likes": 9489,
     "Id": "1Tq0",
     "Poster": "/7tcAvE82JyxIi79cwQV5br90KVz.jpg",
     "Year": 2003,
-    "When": "2003-02-21"
+    "When": "2003-02-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Juno",
@@ -10887,11 +13398,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.75,
     "Minutes": 96,
-    "Watched": 1791371,
+    "Watched": 1822392,
+    "Fans": 29818,
+    "Likes": 530759,
     "Id": "210a",
     "Poster": "/jNIn2tVhpvFD6P9IojldI3mNYcn.jpg",
     "Year": 2007,
-    "When": "2007-12-05"
+    "When": "2007-12-05",
+    "BlackAndWhite": false
   },
   {
     "Title": "Past Lives",
@@ -10900,11 +13414,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.17,
     "Minutes": 106,
-    "Watched": 1370348,
+    "Watched": 1399902,
+    "Fans": 36628,
+    "Likes": 585526,
     "Id": "oNB8",
     "Poster": "/rzO71VFu7CpJMfF5TQNMj0d1lSV.jpg",
     "Year": 2023,
-    "When": "2023-06-02"
+    "When": "2023-06-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Air I Breathe",
@@ -10913,24 +13430,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.92,
     "Minutes": 95,
-    "Watched": 4817,
+    "Watched": 4857,
+    "Fans": 1,
+    "Likes": 358,
     "Id": "1PJM",
     "Poster": "/hx89b5sinoXmkMNyK1PUgwjWQX4.jpg",
     "Year": 2007,
-    "When": "2007-02-07"
+    "When": "2007-02-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Help",
     "TitleOriginal": "The Help",
     "Language": "English",
     "RatingSelf": 5,
-    "RatingLetterboxd": 3.87,
+    "RatingLetterboxd": 3.88,
     "Minutes": 146,
-    "Watched": 804585,
+    "Watched": 819261,
+    "Fans": 4856,
+    "Likes": 193957,
     "Id": "EDm",
     "Poster": "/3kmfoWWEc9Vtyuaf9v5VipRgdjx.jpg",
     "Year": 2011,
-    "When": "2011-08-09"
+    "When": "2011-08-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Borrowers",
@@ -10939,11 +13462,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.99,
     "Minutes": 90,
-    "Watched": 1655,
+    "Watched": 1668,
+    "Fans": 1,
+    "Likes": 123,
     "Id": "2OJI",
     "Poster": "/AeJu7Ux862xNa4PXdrL7JunoZZp.jpg",
     "Year": 2011,
-    "When": "2011-12-25"
+    "When": "2011-12-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Alice in Wonderland",
@@ -10952,24 +13478,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.23,
     "Minutes": 9,
-    "Watched": 10823,
+    "Watched": 10979,
+    "Fans": 8,
+    "Likes": 1802,
     "Id": "ZLm",
     "Poster": "/gEgsAWaOC1Emw8eCd2ckKS23uZg.jpg",
     "Year": 1903,
-    "When": "1903-10-17"
+    "When": "1903-10-17",
+    "BlackAndWhite": true
   },
   {
     "Title": "Born Free",
     "TitleOriginal": "Born Free",
     "Language": "English",
     "RatingSelf": 3,
-    "RatingLetterboxd": 3.42,
+    "RatingLetterboxd": 3.41,
     "Minutes": 95,
-    "Watched": 4818,
+    "Watched": 4874,
+    "Fans": 20,
+    "Likes": 758,
     "Id": "1Mpk",
     "Poster": "/xI5BkObQm7UtYEFTw7ZmiDGF7gT.jpg",
     "Year": 1966,
-    "When": "1966-03-26"
+    "When": "1966-03-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "How to Have Sex",
@@ -10978,24 +13510,30 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.60,
     "Minutes": 91,
-    "Watched": 194652,
+    "Watched": 199506,
+    "Fans": 529,
+    "Likes": 48051,
     "Id": "EFIM",
     "Poster": "/rafwrzslLb203hQFIU8s0yRk0Qy.jpg",
     "Year": 2023,
-    "When": "2023-11-02"
+    "When": "2023-11-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "Mischief Night",
     "TitleOriginal": "Mischief Night",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 2.59,
+    "RatingLetterboxd": 2.58,
     "Minutes": 86,
-    "Watched": 1171,
+    "Watched": 1183,
+    "Fans": 0,
+    "Likes": 102,
     "Id": "6KkW",
     "Poster": "/3Rhwy4Wp79OzgOdUyhz5IHIDzto.jpg",
     "Year": 2013,
-    "When": "2013-10-30"
+    "When": "2013-10-30",
+    "BlackAndWhite": false
   },
   {
     "Title": "Trading Places",
@@ -11004,11 +13542,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.62,
     "Minutes": 116,
-    "Watched": 182818,
+    "Watched": 184988,
+    "Fans": 390,
+    "Likes": 38806,
     "Id": "28sK",
     "Poster": "/8mBuLCOcpWnmYtZc4aqtvDXslv6.jpg",
     "Year": 1983,
-    "When": "1983-06-07"
+    "When": "1983-06-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Fuzzy Head",
@@ -11018,10 +13559,13 @@ var films = [
     "RatingLetterboxd": -1,
     "Minutes": 84,
     "Watched": 134,
+    "Fans": 0,
+    "Likes": 30,
     "Id": "E1bI",
     "Poster": "/pGYB6vmJcKDoZspjc88iEzQdZ40.jpg",
     "Year": 2023,
-    "When": "2023-01-20"
+    "When": "2023-01-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Scream",
@@ -11030,11 +13574,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.02,
     "Minutes": 112,
-    "Watched": 2007467,
+    "Watched": 2042185,
+    "Fans": 81435,
+    "Likes": 767331,
     "Id": "24EC",
     "Poster": "/lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
     "Year": 1996,
-    "When": "1996-12-20"
+    "When": "1996-12-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "The NeverEnding Story",
@@ -11043,11 +13590,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.58,
     "Minutes": 102,
-    "Watched": 332064,
+    "Watched": 336505,
+    "Fans": 2661,
+    "Likes": 71586,
     "Id": "1dE0",
     "Poster": "/lWJC8om086h01f0CMGR9ombdpnI.jpg",
     "Year": 1984,
-    "When": "1984-04-06"
+    "When": "1984-04-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "127 Hours",
@@ -11056,11 +13606,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.48,
     "Minutes": 94,
-    "Watched": 620564,
+    "Watched": 628539,
+    "Fans": 379,
+    "Likes": 92663,
     "Id": "SLa",
     "Poster": "/h0RMdn0rfl9l5hWXz3tUh6QVkhi.jpg",
     "Year": 2010,
-    "When": "2010-11-12"
+    "When": "2010-11-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Coherence",
@@ -11069,11 +13622,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.74,
     "Minutes": 89,
-    "Watched": 320828,
+    "Watched": 327103,
+    "Fans": 3093,
+    "Likes": 96649,
     "Id": "6xza",
     "Poster": "/ezUtb9m5DeLwL2gxi4gktzNCvQv.jpg",
     "Year": 2013,
-    "When": "2013-09-19"
+    "When": "2013-09-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Gladiator",
@@ -11082,11 +13638,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.13,
     "Minutes": 155,
-    "Watched": 1930765,
+    "Watched": 1977513,
+    "Fans": 28582,
+    "Likes": 578616,
     "Id": "2b9m",
     "Poster": "/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
     "Year": 2000,
-    "When": "2000-05-04"
+    "When": "2000-05-04",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Human Centipede (First Sequence)",
@@ -11095,11 +13654,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 1.89,
     "Minutes": 91,
-    "Watched": 240934,
+    "Watched": 244949,
+    "Fans": 539,
+    "Likes": 16218,
     "Id": "18Tu",
     "Poster": "/gMtjxIkEi0hnTV5lPHbgeZ4ZpUZ.jpg",
     "Year": 2009,
-    "When": "2009-10-31"
+    "When": "2009-10-31",
+    "BlackAndWhite": false
   },
   {
     "Title": "Safety Last!",
@@ -11108,11 +13670,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.11,
     "Minutes": 73,
-    "Watched": 63124,
+    "Watched": 63735,
+    "Fans": 97,
+    "Likes": 17845,
     "Id": "1AkW",
     "Poster": "/qNpBbHlptWgFhtGny3KDf7ImkWR.jpg",
     "Year": 1923,
-    "When": "1923-04-01"
+    "When": "1923-04-01",
+    "BlackAndWhite": true
   },
   {
     "Title": "The Last Supper",
@@ -11121,11 +13686,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.37,
     "Minutes": 92,
-    "Watched": 9364,
+    "Watched": 9469,
+    "Fans": 23,
+    "Likes": 1867,
     "Id": "1RNQ",
     "Poster": "/oIgPiiM0qD1mCo1SYG3Sd0vmKTa.jpg",
     "Year": 1995,
-    "When": "1995-09-08"
+    "When": "1995-09-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "Metropolis",
@@ -11134,11 +13702,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.26,
     "Minutes": 148,
-    "Watched": 328228,
+    "Watched": 332716,
+    "Fans": 3907,
+    "Likes": 97710,
     "Id": "71a",
     "Poster": "vODOVn29fr0nLF9MVfpfKDcxuXF.jpg",
     "Year": 1927,
-    "When": "1927-02-06"
+    "When": "1927-02-06",
+    "BlackAndWhite": true
   },
   {
     "Title": "The Lighthouse",
@@ -11147,11 +13718,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.03,
     "Minutes": 109,
-    "Watched": 1510311,
+    "Watched": 1538511,
+    "Fans": 28244,
+    "Likes": 569857,
     "Id": "icFU",
     "Poster": "/f1tIYarTbkBdIT1aW0gzelDwknv.jpg",
     "Year": 2019,
-    "When": "2019-10-18"
+    "When": "2019-10-18",
+    "BlackAndWhite": true
   },
   {
     "Title": "Portrait of a Lady on Fire",
@@ -11160,11 +13734,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.43,
     "Minutes": 121,
-    "Watched": 997680,
+    "Watched": 1012788,
+    "Fans": 62598,
+    "Likes": 478523,
     "Id": "jkPq",
     "Poster": "/2LquGwEhbg3soxSCs9VNyh5VJd9.jpg",
     "Year": 2019,
-    "When": "2019-09-18"
+    "When": "2019-09-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "EuroTrip",
@@ -11173,11 +13750,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.02,
     "Minutes": 92,
-    "Watched": 197345,
+    "Watched": 201803,
+    "Fans": 947,
+    "Likes": 34291,
     "Id": "1YTQ",
     "Poster": "/iLdO4PwbZCCQSa9rchZMwuJm9xe.jpg",
     "Year": 2004,
-    "When": "2004-02-20"
+    "When": "2004-02-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "No Country for Old Men",
@@ -11186,24 +13766,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.33,
     "Minutes": 122,
-    "Watched": 1906798,
+    "Watched": 1939038,
+    "Fans": 37018,
+    "Likes": 704855,
     "Id": "21ew",
     "Poster": "/bj1v6YKF8yHqA489VFfnQvOJpnc.jpg",
     "Year": 2007,
-    "When": "2007-06-13"
+    "When": "2007-06-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Rush Hour",
     "TitleOriginal": "Rush Hour",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.57,
+    "RatingLetterboxd": 3.58,
     "Minutes": 97,
-    "Watched": 616791,
+    "Watched": 634276,
+    "Fans": 3273,
+    "Likes": 135557,
     "Id": "27pU",
     "Poster": "/we7wOLVFgxhzLzUt0qNe50xdIQZ.jpg",
     "Year": 1998,
-    "When": "1998-09-18"
+    "When": "1998-09-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Causeway",
@@ -11212,11 +13798,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.43,
     "Minutes": 96,
-    "Watched": 83084,
+    "Watched": 83750,
+    "Fans": 72,
+    "Likes": 19295,
     "Id": "lWQq",
     "Poster": "/bUzKIqFIS05Ss31zRTfZfHJIgDP.jpg",
     "Year": 2022,
-    "When": "2022-10-28"
+    "When": "2022-10-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "One Percent More Humid",
@@ -11225,11 +13814,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.08,
     "Minutes": 98,
-    "Watched": 683,
+    "Watched": 687,
+    "Fans": 1,
+    "Likes": 80,
     "Id": "f5dy",
     "Poster": "/uSFPdOYNOaE2k2enuGYCm7hWTCl.jpg",
     "Year": 2017,
-    "When": "2017-04-21"
+    "When": "2017-04-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Meet the Fockers",
@@ -11238,11 +13830,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.94,
     "Minutes": 115,
-    "Watched": 417748,
+    "Watched": 424980,
+    "Fans": 128,
+    "Likes": 42054,
     "Id": "29NE",
     "Poster": "/59fXm6N2x7QSbvt6BaBxTNBXGL8.jpg",
     "Year": 2004,
-    "When": "2004-12-22"
+    "When": "2004-12-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "Blue Jean",
@@ -11251,11 +13846,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.83,
     "Minutes": 97,
-    "Watched": 41850,
+    "Watched": 42468,
+    "Fans": 400,
+    "Likes": 13543,
     "Id": "AHhg",
     "Poster": "/8kzhsiL340IDeaAuEz4RfiFilgf.jpg",
     "Year": 2022,
-    "When": "2023-02-10"
+    "When": "2023-02-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "Snakes on a Plane",
@@ -11264,11 +13862,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 2.47,
     "Minutes": 105,
-    "Watched": 161163,
+    "Watched": 162970,
+    "Fans": 75,
+    "Likes": 15233,
     "Id": "2aAw",
     "Poster": "/9wqWQ5rXQG6daMpowqwadGjI768.jpg",
     "Year": 2006,
-    "When": "2006-08-17"
+    "When": "2006-08-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Sideways",
@@ -11277,24 +13878,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.80,
     "Minutes": 127,
-    "Watched": 213348,
+    "Watched": 215849,
+    "Fans": 1779,
+    "Likes": 50011,
     "Id": "1Y5c",
     "Poster": "/zOsaxYLgvZVU7cJBpPn8CuE0MrP.jpg",
     "Year": 2004,
-    "When": "2004-10-22"
+    "When": "2004-10-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "How to Steal a Million",
     "TitleOriginal": "How to Steal a Million",
     "Language": "English",
     "RatingSelf": 4,
-    "RatingLetterboxd": 3.82,
+    "RatingLetterboxd": 3.83,
     "Minutes": 123,
-    "Watched": 45727,
+    "Watched": 46401,
+    "Fans": 587,
+    "Likes": 13737,
     "Id": "25Yo",
     "Poster": "/dkCHsyFdyA63nUXzEvDvqNhqUuO.jpg",
     "Year": 1966,
-    "When": "1966-07-13"
+    "When": "1966-07-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "A Clockwork Orange",
@@ -11303,11 +13910,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.12,
     "Minutes": 137,
-    "Watched": 1581463,
+    "Watched": 1603586,
+    "Fans": 37298,
+    "Likes": 525029,
     "Id": "2aVE",
     "Poster": "/4sHeTAp65WrSSuc05nRBKddhBxO.jpg",
     "Year": 1971,
-    "When": "1971-12-19"
+    "When": "1971-12-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "But I'm a Cheerleader",
@@ -11316,11 +13926,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.00,
     "Minutes": 85,
-    "Watched": 656703,
+    "Watched": 671560,
+    "Fans": 25864,
+    "Likes": 301224,
     "Id": "1CW4",
     "Poster": "/zC3BaoHJsrIeqOg4eZolNszsTej.jpg",
     "Year": 1999,
-    "When": "2000-07-07"
+    "When": "2000-07-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Great Hack",
@@ -11329,11 +13942,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.27,
     "Minutes": 114,
-    "Watched": 32029,
+    "Watched": 32214,
+    "Fans": 8,
+    "Likes": 3502,
     "Id": "kL8g",
     "Poster": "/uIrGgUzasEUA7v8uChRhUUFzLwE.jpg",
     "Year": 2019,
-    "When": "2019-01-26"
+    "When": "2019-01-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Forrest Gump",
@@ -11342,24 +13958,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.14,
     "Minutes": 142,
-    "Watched": 3914797,
+    "Watched": 3986202,
+    "Fans": 64315,
+    "Likes": 1389159,
     "Id": "728",
     "Poster": "/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
     "Year": 1994,
-    "When": "1994-06-23"
+    "When": "1994-06-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Bridget Jones: The Edge of Reason",
     "TitleOriginal": "Bridget Jones: The Edge of Reason",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 2.96,
+    "RatingLetterboxd": 2.97,
     "Minutes": 108,
-    "Watched": 290164,
+    "Watched": 297868,
+    "Fans": 259,
+    "Likes": 39740,
     "Id": "1XMa",
     "Poster": "/yhE8ugSdO0biCXeh4Eb2BcLXloT.jpg",
     "Year": 2004,
-    "When": "2004-11-10"
+    "When": "2004-11-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "Mystic River",
@@ -11368,11 +13990,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.84,
     "Minutes": 138,
-    "Watched": 467147,
+    "Watched": 475102,
+    "Fans": 1529,
+    "Likes": 106056,
     "Id": "2aAG",
     "Poster": "/hCHVDbo6XJGj3r2i4hVjKhE0GKF.jpg",
     "Year": 2003,
-    "When": "2003-10-07"
+    "When": "2003-10-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Bottoms",
@@ -11381,24 +14006,30 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.80,
     "Minutes": 91,
-    "Watched": 1288483,
+    "Watched": 1309117,
+    "Fans": 29277,
+    "Likes": 531981,
     "Id": "uGf2",
     "Poster": "/jeyTQrNEpyE1LZIgVlswYh3sc34.jpg",
     "Year": 2023,
-    "When": "2023-08-25"
+    "When": "2023-08-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Whiplash",
     "TitleOriginal": "Whiplash",
     "Language": "English",
     "RatingSelf": 5,
-    "RatingLetterboxd": 4.43,
+    "RatingLetterboxd": 4.42,
     "Minutes": 107,
-    "Watched": 3604488,
+    "Watched": 3676965,
+    "Fans": 142268,
+    "Likes": 1733554,
     "Id": "7bQA",
     "Poster": "/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
     "Year": 2014,
-    "When": "2014-10-10"
+    "When": "2014-10-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "Burn After Reading",
@@ -11407,11 +14038,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.62,
     "Minutes": 96,
-    "Watched": 582438,
+    "Watched": 588345,
+    "Fans": 1655,
+    "Likes": 138220,
     "Id": "23BW",
     "Poster": "/jdwSkQu3XirmX18MNj8CqFWsCk.jpg",
     "Year": 2008,
-    "When": "2008-09-05"
+    "When": "2008-09-05",
+    "BlackAndWhite": false
   },
   {
     "Title": "Sabrina",
@@ -11420,11 +14054,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.84,
     "Minutes": 113,
-    "Watched": 143819,
+    "Watched": 146131,
+    "Fans": 2343,
+    "Likes": 42011,
     "Id": "21tc",
     "Poster": "/8vvgKw3DbEPNlJAdHe7xXzhb2gN.jpg",
     "Year": 1954,
-    "When": "1954-09-10"
+    "When": "1954-09-10",
+    "BlackAndWhite": true
   },
   {
     "Title": "The Rocky Horror Picture Show",
@@ -11433,11 +14070,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.02,
     "Minutes": 100,
-    "Watched": 884630,
+    "Watched": 897231,
+    "Fans": 28810,
+    "Likes": 336026,
     "Id": "1a3q",
     "Poster": "/3pyE6ZqDbuJi7zrNzzQzcKTWdmN.jpg",
     "Year": 1975,
-    "When": "1975-08-14"
+    "When": "1975-08-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Cemetery Club",
@@ -11446,11 +14086,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.16,
     "Minutes": 107,
-    "Watched": 495,
+    "Watched": 501,
+    "Fans": 0,
+    "Likes": 39,
     "Id": "2Mz2",
     "Poster": "/yWAA4NuA2fmkZQL3CEWRzPif6D7.jpg",
     "Year": 1993,
-    "When": "1993-02-03"
+    "When": "1993-02-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "For Sama",
@@ -11459,11 +14102,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.36,
     "Minutes": 100,
-    "Watched": 33954,
+    "Watched": 34216,
+    "Fans": 155,
+    "Likes": 10427,
     "Id": "l9wQ",
     "Poster": "/mDna51F8QfrJFZOgPGQUz3VKqsB.jpg",
     "Year": 2019,
-    "When": "2019-07-26"
+    "When": "2019-07-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",
@@ -11472,11 +14118,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.26,
     "Minutes": 202,
-    "Watched": 100152,
+    "Watched": 101417,
+    "Fans": 2310,
+    "Likes": 37361,
     "Id": "T18",
     "Poster": "6WR8f0ZqQ53QSmZI9x9HPNaDKfi.jpg",
     "Year": 1975,
-    "When": "1976-01-21"
+    "When": "1976-01-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Alone in the Wilderness",
@@ -11485,24 +14134,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.16,
     "Minutes": 57,
-    "Watched": 4430,
+    "Watched": 4501,
+    "Fans": 46,
+    "Likes": 1530,
     "Id": "1O2C",
     "Poster": "/fOzc4vwTG9d9tlhX6EyPHu3cuiq.jpg",
     "Year": 2004,
-    "When": "2004-10-08"
+    "When": "2004-10-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "One Hundred and One Dalmatians",
     "TitleOriginal": "One Hundred and One Dalmatians",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.66,
+    "RatingLetterboxd": 3.67,
     "Minutes": 79,
-    "Watched": 705156,
+    "Watched": 715068,
+    "Fans": 1371,
+    "Likes": 102716,
     "Id": "1SeC",
     "Poster": "/mRY84MJeWKnp9joev82QtslJFvk.jpg",
     "Year": 1961,
-    "When": "1961-01-25"
+    "When": "1961-01-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Lars and the Real Girl",
@@ -11511,11 +14166,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.81,
     "Minutes": 106,
-    "Watched": 327657,
+    "Watched": 334338,
+    "Fans": 3126,
+    "Likes": 99687,
     "Id": "21tG",
     "Poster": "/nkAt4a7KIPc7Fi1BhxNHhYYbe2b.jpg",
     "Year": 2007,
-    "When": "2007-10-12"
+    "When": "2007-10-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "La La Land",
@@ -11524,11 +14182,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 4.11,
     "Minutes": 129,
-    "Watched": 4052670,
+    "Watched": 4133605,
+    "Fans": 269356,
+    "Likes": 1863394,
     "Id": "a5fa",
     "Poster": "/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg",
     "Year": 2016,
-    "When": "2016-11-29"
+    "When": "2016-11-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "Mary Poppins",
@@ -11537,11 +14198,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.91,
     "Minutes": 139,
-    "Watched": 657375,
+    "Watched": 668247,
+    "Fans": 3551,
+    "Likes": 135063,
     "Id": "2aoA",
     "Poster": "/1DjJh0vwGwi6KugPZfDiliO25XP.jpg",
     "Year": 1964,
-    "When": "1964-12-17"
+    "When": "1964-12-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Donnie Darko",
@@ -11550,11 +14214,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.98,
     "Minutes": 114,
-    "Watched": 2124581,
+    "Watched": 2163925,
+    "Fans": 74095,
+    "Likes": 805585,
     "Id": "2b2A",
     "Poster": "/6FKym4sm5LcqUC80HNpn2ejVoro.jpg",
     "Year": 2001,
-    "When": "2001-01-19"
+    "When": "2001-01-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Sixth Sense",
@@ -11563,11 +14230,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.05,
     "Minutes": 107,
-    "Watched": 1419938,
+    "Watched": 1444031,
+    "Fans": 7357,
+    "Likes": 388683,
     "Id": "29Js",
     "Poster": "/qs6mlfhzK28mwOy7IQ3ED66RcBH.jpg",
     "Year": 1999,
-    "When": "1999-08-06"
+    "When": "1999-08-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "Monster's Ball",
@@ -11576,11 +14246,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.31,
     "Minutes": 113,
-    "Watched": 47204,
+    "Watched": 47707,
+    "Fans": 11,
+    "Likes": 5192,
     "Id": "28Uu",
     "Poster": "/rQeufx98gKH4CCeVw57KT1Fd0gr.jpg",
     "Year": 2001,
-    "When": "2001-12-26"
+    "When": "2001-12-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "A.I. Artificial Intelligence",
@@ -11589,11 +14262,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.62,
     "Minutes": 146,
-    "Watched": 428487,
+    "Watched": 433319,
+    "Fans": 2247,
+    "Likes": 83072,
     "Id": "29Ve",
     "Poster": "/8MZSGX5JORoO72EfuAEcejH5yHn.jpg",
     "Year": 2001,
-    "When": "2001-06-29"
+    "When": "2001-06-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Big Short",
@@ -11602,11 +14278,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.83,
     "Minutes": 131,
-    "Watched": 1132011,
+    "Watched": 1146505,
+    "Fans": 5921,
+    "Likes": 283036,
     "Id": "ajZw",
     "Poster": "/scVEaJEwP8zUix8vgmMoJJ9Nq0w.jpg",
     "Year": 2015,
-    "When": "2015-12-11"
+    "When": "2015-12-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "Planet of the Apes",
@@ -11615,11 +14294,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.00,
     "Minutes": 112,
-    "Watched": 298458,
+    "Watched": 301976,
+    "Fans": 2115,
+    "Likes": 77555,
     "Id": "29p8",
     "Poster": "/2r9iKnlSYEk4daQadsXfcjHfIjQ.jpg",
     "Year": 1968,
-    "When": "1968-02-07"
+    "When": "1968-02-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Weekend",
@@ -11628,11 +14310,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.94,
     "Minutes": 96,
-    "Watched": 59115,
+    "Watched": 59604,
+    "Fans": 948,
+    "Likes": 18517,
     "Id": "2Kzu",
     "Poster": "/s52Q4kifhz1nKlgaHGee74KzZw9.jpg",
     "Year": 2011,
-    "When": "2011-10-23"
+    "When": "2011-10-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Braveheart",
@@ -11641,11 +14326,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.89,
     "Minutes": 177,
-    "Watched": 638712,
+    "Watched": 648344,
+    "Fans": 5250,
+    "Likes": 129935,
     "Id": "2aTI",
     "Poster": "/g8UItTLFApanO8rwDsl6qDjU9St.jpg",
     "Year": 1995,
-    "When": "1995-05-24"
+    "When": "1995-05-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "They All Laughed",
@@ -11654,24 +14342,30 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.60,
     "Minutes": 115,
-    "Watched": 7805,
+    "Watched": 7910,
+    "Fans": 64,
+    "Likes": 2293,
     "Id": "1i7g",
     "Poster": "/peLIepJoUXzfF0hXqH00dvxr51z.jpg",
     "Year": 1981,
-    "When": "1981-11-20"
+    "When": "1981-11-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Hook",
     "TitleOriginal": "Hook",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.41,
+    "RatingLetterboxd": 3.42,
     "Minutes": 141,
-    "Watched": 575210,
+    "Watched": 583398,
+    "Fans": 2120,
+    "Likes": 102802,
     "Id": "29nQ",
     "Poster": "/a6rB1lGXoGms7gWxRfJneQmAjNV.jpg",
     "Year": 1991,
-    "When": "1991-04-10"
+    "When": "1991-04-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "Chitty Chitty Bang Bang",
@@ -11680,11 +14374,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.45,
     "Minutes": 144,
-    "Watched": 119510,
+    "Watched": 120966,
+    "Fans": 641,
+    "Likes": 18693,
     "Id": "1Tbu",
     "Poster": "/wJ62FzGeCAs6PjCIK1as6xzdIY5.jpg",
     "Year": 1968,
-    "When": "1968-12-17"
+    "When": "1968-12-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Kindergarten Cop",
@@ -11693,11 +14390,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.12,
     "Minutes": 111,
-    "Watched": 186081,
+    "Watched": 188187,
+    "Fans": 120,
+    "Likes": 27278,
     "Id": "29dm",
     "Poster": "/nKnHWwkXyvhzCYWm3FyRAv3qBrl.jpg",
     "Year": 1990,
-    "When": "1990-12-21"
+    "When": "1990-12-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Severance",
@@ -11706,11 +14406,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.19,
     "Minutes": 96,
-    "Watched": 24195,
+    "Watched": 24523,
+    "Fans": 13,
+    "Likes": 3594,
     "Id": "23nq",
     "Poster": "/yg1XRTyH5knwh3Tnij2sUV0ZZ5w.jpg",
     "Year": 2006,
-    "When": "2006-05-19"
+    "When": "2006-05-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Brick",
@@ -11719,11 +14422,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.71,
     "Minutes": 110,
-    "Watched": 170769,
+    "Watched": 172367,
+    "Fans": 2214,
+    "Likes": 48616,
     "Id": "1Z6A",
     "Poster": "/5WVk8JpNIxepn4fpZzQeCumkOL5.jpg",
     "Year": 2005,
-    "When": "2006-03-31"
+    "When": "2006-03-31",
+    "BlackAndWhite": false
   },
   {
     "Title": "Free Solo",
@@ -11732,11 +14438,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.05,
     "Minutes": 100,
-    "Watched": 259757,
+    "Watched": 262865,
+    "Fans": 600,
+    "Likes": 64302,
     "Id": "iEEq",
     "Poster": "/v4QfYZMACODlWul9doN9RxE99ag.jpg",
     "Year": 2018,
-    "When": "2018-09-28"
+    "When": "2018-09-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Lord of the Rings: The Two Towers",
@@ -11745,11 +14454,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.41,
     "Minutes": 179,
-    "Watched": 2293567,
+    "Watched": 2332842,
+    "Fans": 28026,
+    "Likes": 771042,
     "Id": "2b5E",
     "Poster": "/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
     "Year": 2002,
-    "When": "2002-12-18"
+    "When": "2002-12-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Minority Report",
@@ -11758,11 +14470,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 145,
-    "Watched": 634994,
+    "Watched": 643295,
+    "Fans": 862,
+    "Likes": 140776,
     "Id": "2aWi",
     "Poster": "/qtgFcnwh9dAFLocsDk2ySDVS8UF.jpg",
     "Year": 2002,
-    "When": "2002-06-20"
+    "When": "2002-06-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Goonies",
@@ -11771,11 +14486,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.80,
     "Minutes": 114,
-    "Watched": 794603,
+    "Watched": 809134,
+    "Fans": 10614,
+    "Likes": 210202,
     "Id": "1YVC",
     "Poster": "/eBU7gCjTCj9n2LTxvCSIXXOvHkD.jpg",
     "Year": 1985,
-    "When": "1985-06-07"
+    "When": "1985-06-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Consent",
@@ -11784,11 +14502,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.13,
     "Minutes": 47,
-    "Watched": 361,
+    "Watched": 363,
+    "Fans": 1,
+    "Likes": 28,
     "Id": "EZQw",
     "Poster": "/6Y2gpv27TdgAXVlUkZPHhG80wdl.jpg",
     "Year": 2023,
-    "When": "2023-02-07"
+    "When": "2023-02-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Lucky Number Slevin",
@@ -11797,24 +14518,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.56,
     "Minutes": 110,
-    "Watched": 131941,
+    "Watched": 133368,
+    "Fans": 854,
+    "Likes": 24422,
     "Id": "2aVu",
     "Poster": "/x21s3p5wPww534nYj1cWakTcqz4.jpg",
     "Year": 2006,
-    "When": "2006-02-24"
+    "When": "2006-02-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "Sliding Doors",
     "TitleOriginal": "Sliding Doors",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.07,
+    "RatingLetterboxd": 3.08,
     "Minutes": 99,
-    "Watched": 68397,
+    "Watched": 69386,
+    "Fans": 210,
+    "Likes": 9150,
     "Id": "1WNG",
     "Poster": "/s8VOVTywXZIIHqdEjkCZziH0ebq.jpg",
     "Year": 1998,
-    "When": "1998-04-23"
+    "When": "1998-04-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Bill \u0026 Ted's Excellent Adventure",
@@ -11823,11 +14550,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.65,
     "Minutes": 90,
-    "Watched": 329718,
+    "Watched": 332986,
+    "Fans": 3103,
+    "Likes": 95773,
     "Id": "28oI",
     "Poster": "/tV25lGWGWGEqUe3U0xjQTBgilSx.jpg",
     "Year": 1989,
-    "When": "1989-02-17"
+    "When": "1989-02-17",
+    "BlackAndWhite": false
   },
   {
     "Title": "Fat Girl",
@@ -11836,24 +14566,30 @@ var films = [
     "RatingSelf": 1,
     "RatingLetterboxd": 3.48,
     "Minutes": 86,
-    "Watched": 51772,
+    "Watched": 52430,
+    "Fans": 332,
+    "Likes": 11536,
     "Id": "2a6w",
     "Poster": "/afzbY1h7huuxlITigPfcyQSkqLs.jpg",
     "Year": 2001,
-    "When": "2001-03-07"
+    "When": "2001-03-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Wicker Man",
     "TitleOriginal": "The Wicker Man",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.97,
+    "RatingLetterboxd": 3.96,
     "Minutes": 93,
-    "Watched": 304089,
+    "Watched": 308006,
+    "Fans": 4775,
+    "Likes": 98096,
     "Id": "1KnG",
     "Poster": "/wwtrXRL8SiOWxhwLEvw7iBgYh0g.jpg",
     "Year": 1973,
-    "When": "1973-12-06"
+    "When": "1973-12-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "City Lights",
@@ -11862,24 +14598,30 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.34,
     "Minutes": 87,
-    "Watched": 220699,
+    "Watched": 223748,
+    "Fans": 2181,
+    "Likes": 68468,
     "Id": "29ki",
     "Poster": "/ugmakEL5y294I5bXgiBqApuZpwc.jpg",
     "Year": 1931,
-    "When": "1931-02-06"
+    "When": "1931-02-06",
+    "BlackAndWhite": true
   },
   {
     "Title": "Furiosa: A Mad Max Saga",
     "TitleOriginal": "Furiosa: A Mad Max Saga",
     "Language": "English",
     "RatingSelf": 4,
-    "RatingLetterboxd": 3.82,
+    "RatingLetterboxd": 3.81,
     "Minutes": 149,
-    "Watched": 891422,
+    "Watched": 912466,
+    "Fans": 1963,
+    "Likes": 298631,
     "Id": "tABk",
     "Poster": "/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
     "Year": 2024,
-    "When": "2024-05-22"
+    "When": "2024-05-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "Harakiri",
@@ -11888,24 +14630,30 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.69,
     "Minutes": 135,
-    "Watched": 174257,
+    "Watched": 177443,
+    "Fans": 7407,
+    "Likes": 80794,
     "Id": "1NTU",
     "Poster": "/w7pWcLaYQkbtRUn99K6ome0DblL.jpg",
     "Year": 1962,
-    "When": "1962-09-15"
+    "When": "1962-09-15",
+    "BlackAndWhite": true
   },
   {
     "Title": "When Bj\u00F6rk Met Attenborough",
     "TitleOriginal": "When Bj\u00F6rk Met Attenborough",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.69,
+    "RatingLetterboxd": 3.70,
     "Minutes": 48,
-    "Watched": 906,
+    "Watched": 922,
+    "Fans": 0,
+    "Likes": 257,
     "Id": "6nPs",
     "Poster": "/vvVKPkLpiifnlY9FIPzocNu9O1Q.jpg",
     "Year": 2013,
-    "When": "2013-07-26"
+    "When": "2013-07-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "King Kong",
@@ -11914,11 +14662,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.85,
     "Minutes": 104,
-    "Watched": 156629,
+    "Watched": 158300,
+    "Fans": 676,
+    "Likes": 35802,
     "Id": "2aMM",
     "Poster": "/lHlnxKL5GbgRibyRFI7n1Ey850i.jpg",
     "Year": 1933,
-    "When": "1933-03-15"
+    "When": "1933-03-15",
+    "BlackAndWhite": true
   },
   {
     "Title": "The Bank Job",
@@ -11927,11 +14678,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.21,
     "Minutes": 112,
-    "Watched": 57014,
+    "Watched": 57784,
+    "Fans": 8,
+    "Likes": 5930,
     "Id": "1ZL4",
     "Poster": "/bfXjFTytfFTdo9WeO7lYqzkHG7g.jpg",
     "Year": 2008,
-    "When": "2008-02-28"
+    "When": "2008-02-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Book of Eli",
@@ -11940,11 +14694,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.24,
     "Minutes": 118,
-    "Watched": 257084,
+    "Watched": 260419,
+    "Fans": 555,
+    "Likes": 39016,
     "Id": "1Dnu",
     "Poster": "/1H1y9ZiqNFaLgQiRDDZLA55PviW.jpg",
     "Year": 2010,
-    "When": "2010-01-14"
+    "When": "2010-01-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Safety Not Guaranteed",
@@ -11953,11 +14710,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.29,
     "Minutes": 86,
-    "Watched": 129645,
+    "Watched": 130451,
+    "Fans": 257,
+    "Likes": 23344,
     "Id": "2Y3M",
     "Poster": "/uNR9lccRN60mOpCi1trIxsQi68G.jpg",
     "Year": 2012,
-    "When": "2012-06-08"
+    "When": "2012-06-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "King of California",
@@ -11966,11 +14726,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.21,
     "Minutes": 93,
-    "Watched": 7914,
+    "Watched": 7977,
+    "Fans": 11,
+    "Likes": 876,
     "Id": "22Hu",
     "Poster": "/zLoa3oJ83zo9g3mV9LNCHbqO7jH.jpg",
     "Year": 2007,
-    "When": "2007-01-24"
+    "When": "2007-01-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "Glass Onion: A Knives Out Mystery",
@@ -11979,11 +14742,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.42,
     "Minutes": 140,
-    "Watched": 2629312,
+    "Watched": 2673106,
+    "Fans": 2033,
+    "Likes": 735874,
     "Id": "oCkK",
     "Poster": "/vDGr1YdrlfbU9wxTOdpf3zChmv9.jpg",
     "Year": 2022,
-    "When": "2022-11-23"
+    "When": "2022-11-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Brokeback Mountain",
@@ -11992,11 +14758,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.12,
     "Minutes": 134,
-    "Watched": 1362556,
+    "Watched": 1390154,
+    "Fans": 38842,
+    "Likes": 492951,
     "Id": "2b2q",
     "Poster": "/aByfQOQBNa4CMFwIgq3QrqY2ZHh.jpg",
     "Year": 2005,
-    "When": "2005-10-22"
+    "When": "2005-10-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "Final Destination 2",
@@ -12005,24 +14774,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.90,
     "Minutes": 90,
-    "Watched": 366481,
+    "Watched": 372405,
+    "Fans": 310,
+    "Likes": 52188,
     "Id": "1YSS",
     "Poster": "/dg6Tf98InieJSClSKQJTQevYWmB.jpg",
     "Year": 2003,
-    "When": "2003-01-31"
+    "When": "2003-01-31",
+    "BlackAndWhite": false
   },
   {
     "Title": "Star Wars",
     "TitleOriginal": "Star Wars",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 4.18,
+    "RatingLetterboxd": 4.17,
     "Minutes": 121,
-    "Watched": 2826123,
+    "Watched": 2868461,
+    "Fans": 28247,
+    "Likes": 1010977,
     "Id": "72s",
     "Poster": "/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
     "Year": 1977,
-    "When": "1977-05-25"
+    "When": "1977-05-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Bourne Ultimatum",
@@ -12031,11 +14806,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.71,
     "Minutes": 115,
-    "Watched": 473111,
+    "Watched": 478497,
+    "Fans": 494,
+    "Likes": 77498,
     "Id": "26Eu",
     "Poster": "/xqf7mzA77LmMJByvwxRLNdw5pz4.jpg",
     "Year": 2007,
-    "When": "2007-08-03"
+    "When": "2007-08-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Untraceable",
@@ -12044,11 +14822,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.78,
     "Minutes": 101,
-    "Watched": 22037,
+    "Watched": 22355,
+    "Fans": 6,
+    "Likes": 2182,
     "Id": "20yA",
     "Poster": "/ySUwDRDEn01lKIMPQorpFCMLWqE.jpg",
     "Year": 2008,
-    "When": "2008-01-22"
+    "When": "2008-01-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Intouchables",
@@ -12057,11 +14838,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.13,
     "Minutes": 113,
-    "Watched": 860657,
+    "Watched": 877240,
+    "Fans": 8501,
+    "Likes": 226270,
     "Id": "2FT0",
     "Poster": "/f6ORXXQdIKHU3RvC6AC2lwAD6Mq.jpg",
     "Year": 2011,
-    "When": "2011-11-02"
+    "When": "2011-11-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "Aftersun",
@@ -12070,11 +14854,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.23,
     "Minutes": 101,
-    "Watched": 1241795,
+    "Watched": 1273536,
+    "Fans": 79045,
+    "Likes": 563080,
     "Id": "Arw0",
     "Poster": "/evKz85EKouVbIr51zy5fOtpNRPg.jpg",
     "Year": 2022,
-    "When": "2022-10-21"
+    "When": "2022-10-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Scoop",
@@ -12083,11 +14870,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 2.99,
     "Minutes": 103,
-    "Watched": 57333,
+    "Watched": 57853,
+    "Fans": 1,
+    "Likes": 6952,
     "Id": "EZu6",
     "Poster": "/ib3H2ZSeVRTAmd7EtGWV31LswaZ.jpg",
     "Year": 2024,
-    "When": "2024-03-27"
+    "When": "2024-03-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Terminator 2: Judgment Day",
@@ -12096,11 +14886,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.29,
     "Minutes": 137,
-    "Watched": 1099328,
+    "Watched": 1115072,
+    "Fans": 14924,
+    "Likes": 346803,
     "Id": "2aGY",
     "Poster": "/k1OuVCYxN8Nt6OE9VbzHXzfJsTy.jpg",
     "Year": 1991,
-    "When": "1991-07-03"
+    "When": "1991-07-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Pearl",
@@ -12109,11 +14902,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.72,
     "Minutes": 102,
-    "Watched": 1583191,
+    "Watched": 1631935,
+    "Fans": 27109,
+    "Likes": 601742,
     "Id": "zPbe",
     "Poster": "/z5uIG81pXyHKg7cUFIu84Wjn4NS.jpg",
     "Year": 2022,
-    "When": "2022-09-16"
+    "When": "2022-09-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Joan of Arc",
@@ -12122,11 +14918,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.50,
     "Minutes": 11,
-    "Watched": 9561,
+    "Watched": 9729,
+    "Fans": 0,
+    "Likes": 1986,
     "Id": "3AKO",
     "Poster": "/xiPqvgnBZlv9CzXUc2zeXnbihr.jpg",
     "Year": 1900,
-    "When": "1900-08-06"
+    "When": "1900-08-06",
+    "BlackAndWhite": true
   },
   {
     "Title": "Subway",
@@ -12135,11 +14934,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.46,
     "Minutes": 102,
-    "Watched": 18564,
+    "Watched": 18848,
+    "Fans": 188,
+    "Likes": 4011,
     "Id": "1VIg",
     "Poster": "/5EOFUWs0ImeyiRUtFpbHuGGTNUx.jpg",
     "Year": 1985,
-    "When": "1985-04-10"
+    "When": "1985-04-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Rock",
@@ -12148,24 +14950,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.56,
     "Minutes": 137,
-    "Watched": 228315,
+    "Watched": 231151,
+    "Fans": 615,
+    "Likes": 46802,
     "Id": "1XM0",
     "Poster": "/j5mxLNWjUlXUUk8weFBtnF4afIR.jpg",
     "Year": 1996,
-    "When": "1996-06-07"
+    "When": "1996-06-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Sex and Breakfast",
     "TitleOriginal": "Sex and Breakfast",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 2.75,
+    "RatingLetterboxd": 2.76,
     "Minutes": 81,
-    "Watched": 885,
+    "Watched": 890,
+    "Fans": 0,
+    "Likes": 42,
     "Id": "1MUC",
     "Poster": "/xLyBfUq2FCnB0V8MmRhf6C4KFeh.jpg",
     "Year": 2005,
-    "When": "2007-11-29"
+    "When": "2007-11-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Railway Children",
@@ -12174,24 +14982,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.56,
     "Minutes": 109,
-    "Watched": 7162,
+    "Watched": 7264,
+    "Fans": 41,
+    "Likes": 1437,
     "Id": "17Oe",
     "Poster": "/kusEIHfdngzcypY36yjWJVWMShj.jpg",
     "Year": 1970,
-    "When": "1970-12-21"
+    "When": "1970-12-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Listener",
     "TitleOriginal": "The Listener",
     "Language": "English",
     "RatingSelf": 2,
-    "RatingLetterboxd": 3.10,
+    "RatingLetterboxd": 3.09,
     "Minutes": 96,
-    "Watched": 1439,
+    "Watched": 1475,
+    "Fans": 0,
+    "Likes": 265,
     "Id": "yqSU",
     "Poster": "/6ldRGB2xBeXJKxo5KqUOZcq35rW.jpg",
     "Year": 2022,
-    "When": "2024-03-29"
+    "When": "2024-03-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Hunger Games: Catching Fire",
@@ -12200,11 +15014,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.85,
     "Minutes": 146,
-    "Watched": 2366510,
+    "Watched": 2410271,
+    "Fans": 35266,
+    "Likes": 613335,
     "Id": "3sAw",
     "Poster": "/uFQbcR7h1stMlN1d3a7RmV0luLZ.jpg",
     "Year": 2013,
-    "When": "2013-11-15"
+    "When": "2013-11-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Panic Room",
@@ -12213,24 +15030,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.51,
     "Minutes": 111,
-    "Watched": 458514,
+    "Watched": 464010,
+    "Fans": 305,
+    "Likes": 80893,
     "Id": "2490",
     "Poster": "/7BabiNfuSycl58M9Cgl3Nf97n1F.jpg",
     "Year": 2002,
-    "When": "2002-03-29"
+    "When": "2002-03-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "Men in Black II",
     "TitleOriginal": "Men in Black II",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 2.98,
+    "RatingLetterboxd": 2.99,
     "Minutes": 88,
-    "Watched": 705331,
+    "Watched": 715170,
+    "Fans": 146,
+    "Likes": 78118,
     "Id": "2a0y",
     "Poster": "/enA22EPyzc2WQ1VVyY7zxresQQr.jpg",
     "Year": 2002,
-    "When": "2002-07-03"
+    "When": "2002-07-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "8 Mile",
@@ -12239,11 +15062,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.59,
     "Minutes": 111,
-    "Watched": 722225,
+    "Watched": 733679,
+    "Fans": 3076,
+    "Likes": 149948,
     "Id": "2bew",
     "Poster": "/7BmQj8qE1FLuLTf7Xjf9sdIHzoa.jpg",
     "Year": 2002,
-    "When": "2002-11-08"
+    "When": "2002-11-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "Secretary",
@@ -12252,11 +15078,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.48,
     "Minutes": 107,
-    "Watched": 196546,
+    "Watched": 207626,
+    "Fans": 5313,
+    "Likes": 57826,
     "Id": "1URc",
     "Poster": "/dvnMdPlMEJUcw7nhWqjQvAaU3pK.jpg",
     "Year": 2002,
-    "When": "2002-09-20"
+    "When": "2002-09-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Thelma",
@@ -12265,11 +15094,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.69,
     "Minutes": 116,
-    "Watched": 105744,
+    "Watched": 106505,
+    "Fans": 539,
+    "Likes": 26311,
     "Id": "e7Ce",
     "Poster": "/fN2Qq5riCrBiVLfKqgODHC0SwVx.jpg",
     "Year": 2017,
-    "When": "2017-09-15"
+    "When": "2017-09-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Wonder",
@@ -12278,11 +15110,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.35,
     "Minutes": 108,
-    "Watched": 181643,
+    "Watched": 183234,
+    "Fans": 140,
+    "Likes": 33543,
     "Id": "v3uY",
     "Poster": "/kQAFHdt3I1TpYhtzcGeBb1ogwUP.jpg",
     "Year": 2022,
-    "When": "2022-11-02"
+    "When": "2022-11-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "Rescue Dawn",
@@ -12291,11 +15126,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.56,
     "Minutes": 125,
-    "Watched": 48782,
+    "Watched": 49397,
+    "Fans": 14,
+    "Likes": 7207,
     "Id": "1XrQ",
     "Poster": "/ymPlV2ymUBSctfRzpehFOxFmJiS.jpg",
     "Year": 2006,
-    "When": "2006-09-09"
+    "When": "2006-09-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "God's Own Country",
@@ -12304,11 +15142,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 3.98,
     "Minutes": 105,
-    "Watched": 140969,
+    "Watched": 143058,
+    "Fans": 2695,
+    "Likes": 50849,
     "Id": "faZM",
     "Poster": "/awRAa0mdvfDzAc8Sp5edcMMP4DR.jpg",
     "Year": 2017,
-    "When": "2017-08-31"
+    "When": "2017-08-31",
+    "BlackAndWhite": false
   },
   {
     "Title": "Wedding Crashers",
@@ -12317,11 +15158,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.15,
     "Minutes": 119,
-    "Watched": 451433,
+    "Watched": 457559,
+    "Fans": 1134,
+    "Likes": 63470,
     "Id": "1Yte",
     "Poster": "/lFM3lk2zVzC1YFnKm0r6LbFPyRu.jpg",
     "Year": 2005,
-    "When": "2005-07-13"
+    "When": "2005-07-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "To Kill a Mockingbird",
@@ -12330,11 +15174,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.09,
     "Minutes": 129,
-    "Watched": 404448,
+    "Watched": 409588,
+    "Fans": 1736,
+    "Likes": 84723,
     "Id": "2a2E",
     "Poster": "/gZycFUMLx2110dzK3nBNai7gfpM.jpg",
     "Year": 1962,
-    "When": "1962-12-20"
+    "When": "1962-12-20",
+    "BlackAndWhite": true
   },
   {
     "Title": "The Cabin in the Woods",
@@ -12343,11 +15190,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.40,
     "Minutes": 95,
-    "Watched": 1064411,
+    "Watched": 1077279,
+    "Fans": 3035,
+    "Likes": 249637,
     "Id": "1zOc",
     "Poster": "/kjDXrK3ReIwuDrpWElI5OQkKYTA.jpg",
     "Year": 2011,
-    "When": "2012-04-12"
+    "When": "2012-04-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Charlie's Angels",
@@ -12356,11 +15206,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.14,
     "Minutes": 98,
-    "Watched": 550531,
+    "Watched": 561396,
+    "Fans": 2252,
+    "Likes": 88569,
     "Id": "24v6",
     "Poster": "/iHTmZs0BmkwMCYi8rhvMWC5G4EM.jpg",
     "Year": 2000,
-    "When": "2000-11-02"
+    "When": "2000-11-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Great Escape",
@@ -12369,11 +15222,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.15,
     "Minutes": 173,
-    "Watched": 173991,
+    "Watched": 176192,
+    "Fans": 1753,
+    "Likes": 44790,
     "Id": "22kA",
     "Poster": "rJKRwojnmCSJL2l7bSVqFJE3lHo.jpg",
     "Year": 1963,
-    "When": "1963-07-03"
+    "When": "1963-07-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "The History Boys",
@@ -12382,63 +15238,78 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.36,
     "Minutes": 109,
-    "Watched": 16495,
+    "Watched": 16693,
+    "Fans": 148,
+    "Likes": 2762,
     "Id": "2012",
     "Poster": "/1w68XM00MOkyXAVnVl0HuCRDe5I.jpg",
     "Year": 2006,
-    "When": "2006-10-02"
+    "When": "2006-10-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Lost World: Jurassic Park",
     "TitleOriginal": "The Lost World: Jurassic Park",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.10,
+    "RatingLetterboxd": 3.11,
     "Minutes": 129,
-    "Watched": 779888,
+    "Watched": 790662,
+    "Fans": 720,
+    "Likes": 106975,
     "Id": "2azS",
     "Poster": "/jElpCJkSaRPYwIMwZY28gOKV7BK.jpg",
     "Year": 1997,
-    "When": "1997-05-23"
+    "When": "1997-05-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Homeward Bound: The Incredible Journey",
     "TitleOriginal": "Homeward Bound: The Incredible Journey",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.46,
+    "RatingLetterboxd": 3.47,
     "Minutes": 84,
-    "Watched": 106350,
+    "Watched": 107604,
+    "Fans": 342,
+    "Likes": 16158,
     "Id": "21lM",
     "Poster": "/el6dJEpK97OJRQiQhuiSGk2jkV5.jpg",
     "Year": 1993,
-    "When": "1993-02-03"
+    "When": "1993-02-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Heathers",
     "TitleOriginal": "Heathers",
     "Language": "English",
     "RatingSelf": 4,
-    "RatingLetterboxd": 3.76,
+    "RatingLetterboxd": 3.77,
     "Minutes": 103,
-    "Watched": 836385,
+    "Watched": 848416,
+    "Fans": 17117,
+    "Likes": 285078,
     "Id": "26x4",
     "Poster": "/dGbVfM4WlM7uvIbyRehfPZUIgp2.jpg",
     "Year": 1989,
-    "When": "1988-10-01"
+    "When": "1988-10-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Booksmart",
     "TitleOriginal": "Booksmart",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.74,
+    "RatingLetterboxd": 3.73,
     "Minutes": 102,
-    "Watched": 1099465,
+    "Watched": 1109359,
+    "Fans": 8621,
+    "Likes": 360618,
     "Id": "igNS",
     "Poster": "/micaVOa1UZsdzs4fKGA67ZMGOzc.jpg",
     "Year": 2019,
-    "When": "2019-05-24"
+    "When": "2019-05-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Bone Collector",
@@ -12447,11 +15318,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.19,
     "Minutes": 118,
-    "Watched": 147993,
+    "Watched": 150631,
+    "Fans": 316,
+    "Likes": 22189,
     "Id": "1Yzw",
     "Poster": "/7atMCqRaDpAOnGsteTRm17zmvN3.jpg",
     "Year": 1999,
-    "When": "1999-11-04"
+    "When": "1999-11-04",
+    "BlackAndWhite": false
   },
   {
     "Title": "Red Sparrow",
@@ -12460,11 +15334,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 2.90,
     "Minutes": 140,
-    "Watched": 232521,
+    "Watched": 235397,
+    "Fans": 254,
+    "Likes": 27167,
     "Id": "e7Pi",
     "Poster": "/oy6EYWzTwcIMjQYTS6uXS7JXGOx.jpg",
     "Year": 2018,
-    "When": "2018-02-28"
+    "When": "2018-02-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "Repulsion",
@@ -12473,11 +15350,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.92,
     "Minutes": 105,
-    "Watched": 116813,
+    "Watched": 118014,
+    "Fans": 760,
+    "Likes": 31529,
     "Id": "1TKu",
     "Poster": "/dtyCKEPLqv9wxyVazL4b843vtUb.jpg",
     "Year": 1965,
-    "When": "1965-06-01"
+    "When": "1965-06-01",
+    "BlackAndWhite": true
   },
   {
     "Title": "Mr. \u0026 Mrs. Smith",
@@ -12486,11 +15366,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.24,
     "Minutes": 119,
-    "Watched": 1300615,
+    "Watched": 1334987,
+    "Fans": 4766,
+    "Likes": 239064,
     "Id": "29CG",
     "Poster": "/wzIO3ytxeSNt1wRpXLIdkNbGoDm.jpg",
     "Year": 2005,
-    "When": "2005-06-07"
+    "When": "2005-06-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Close Encounters of the Third Kind",
@@ -12499,24 +15382,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.83,
     "Minutes": 137,
-    "Watched": 381233,
+    "Watched": 387047,
+    "Fans": 2014,
+    "Likes": 94199,
     "Id": "29u8",
     "Poster": "/yaPx3cK9zGFX3SbcKwxWM1QIbUh.jpg",
     "Year": 1977,
-    "When": "1977-12-14"
+    "When": "1977-12-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "What Lies Beneath",
     "TitleOriginal": "What Lies Beneath",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.14,
+    "RatingLetterboxd": 3.15,
     "Minutes": 130,
-    "Watched": 110339,
+    "Watched": 111590,
+    "Fans": 96,
+    "Likes": 15717,
     "Id": "26v8",
     "Poster": "/2L3Cn0CizbSy2E9KJt1SiOSyb6p.jpg",
     "Year": 2000,
-    "When": "2000-07-21"
+    "When": "2000-07-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Beautiful Creatures",
@@ -12525,11 +15414,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.05,
     "Minutes": 85,
-    "Watched": 1826,
+    "Watched": 1840,
+    "Fans": 1,
+    "Likes": 229,
     "Id": "1Lbc",
     "Poster": "/zOKaYzY14ZpVy6nG4kAelyLZQ4Q.jpg",
     "Year": 2000,
-    "When": "2000-08-23"
+    "When": "2000-08-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Hive",
@@ -12538,11 +15430,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.58,
     "Minutes": 84,
-    "Watched": 8715,
+    "Watched": 8896,
+    "Fans": 12,
+    "Likes": 1873,
     "Id": "tbiM",
     "Poster": "/tpIVRbbWM6wvpugYrKvQPY2NQyJ.jpg",
     "Year": 2021,
-    "When": "2021-11-05"
+    "When": "2021-11-05",
+    "BlackAndWhite": false
   },
   {
     "Title": "Spirited Away",
@@ -12551,11 +15446,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.45,
     "Minutes": 125,
-    "Watched": 3421212,
+    "Watched": 3485630,
+    "Fans": 99598,
+    "Likes": 1625605,
     "Id": "2b4m",
     "Poster": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
     "Year": 2001,
-    "When": "2001-07-20"
+    "When": "2001-07-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Chain Reaction",
@@ -12564,11 +15462,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.66,
     "Minutes": 107,
-    "Watched": 36373,
+    "Watched": 36770,
+    "Fans": 2,
+    "Likes": 3153,
     "Id": "1Sug",
     "Poster": "/4ahjVHwXXsq5zK57ds8FwWY73MS.jpg",
     "Year": 1996,
-    "When": "1996-08-02"
+    "When": "1996-08-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "Magic Mike",
@@ -12577,11 +15478,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.98,
     "Minutes": 110,
-    "Watched": 288076,
+    "Watched": 291502,
+    "Fans": 182,
+    "Likes": 33072,
     "Id": "2HvY",
     "Poster": "/cfRv1INLSSumjvxAqEGOP6b0Aw1.jpg",
     "Year": 2012,
-    "When": "2012-06-28"
+    "When": "2012-06-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "La Belle Noiseuse",
@@ -12590,11 +15494,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 4.19,
     "Minutes": 238,
-    "Watched": 23261,
+    "Watched": 23538,
+    "Fans": 432,
+    "Likes": 8242,
     "Id": "1RxI",
     "Poster": "uzr7rY4ofkUNVuWBghP4hwlKkFO.jpg",
     "Year": 1991,
-    "When": "1991-09-04"
+    "When": "1991-09-04",
+    "BlackAndWhite": false
   },
   {
     "Title": "Honey, I Shrunk the Kids",
@@ -12603,37 +15510,46 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.17,
     "Minutes": 93,
-    "Watched": 335231,
+    "Watched": 339486,
+    "Fans": 78,
+    "Likes": 37019,
     "Id": "1YTw",
     "Poster": "/omQOzahi2NIeiYznNxHFDvNbvo6.jpg",
     "Year": 1989,
-    "When": "1989-06-23"
+    "When": "1989-06-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Con Air",
     "TitleOriginal": "Con Air",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.42,
+    "RatingLetterboxd": 3.43,
     "Minutes": 116,
-    "Watched": 270838,
+    "Watched": 274216,
+    "Fans": 851,
+    "Likes": 55221,
     "Id": "28gO",
     "Poster": "/kOKjgrEzGOP92rVQ6srA9jtp60l.jpg",
     "Year": 1997,
-    "When": "1997-06-05"
+    "When": "1997-06-05",
+    "BlackAndWhite": false
   },
   {
     "Title": "MaXXXine",
     "TitleOriginal": "MaXXXine",
     "Language": "English",
     "RatingSelf": 3,
-    "RatingLetterboxd": 3.10,
+    "RatingLetterboxd": 3.09,
     "Minutes": 104,
-    "Watched": 675937,
+    "Watched": 701036,
+    "Fans": 1977,
+    "Likes": 177964,
     "Id": "CIM4",
     "Poster": "/ArvoFK6nlouZRxYmtIOUzKIrg90.jpg",
     "Year": 2024,
-    "When": "2024-07-04"
+    "When": "2024-07-04",
+    "BlackAndWhite": false
   },
   {
     "Title": "Marriage Story",
@@ -12642,11 +15558,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.00,
     "Minutes": 137,
-    "Watched": 1608124,
+    "Watched": 1626437,
+    "Fans": 10146,
+    "Likes": 526985,
     "Id": "hJAw",
     "Poster": "/2JRyCKaRKyJAVpsIHeLvPw5nHmw.jpg",
     "Year": 2019,
-    "When": "2019-09-28"
+    "When": "2019-09-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "Sleeping Beauty",
@@ -12655,11 +15574,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.74,
     "Minutes": 102,
-    "Watched": 32043,
+    "Watched": 32426,
+    "Fans": 52,
+    "Likes": 3263,
     "Id": "Yk",
     "Poster": "/l1Lx8iRsml1JnPBY0qgn6IN5FQg.jpg",
     "Year": 2011,
-    "When": "2011-06-10"
+    "When": "2011-06-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "One Flew Over the Cuckoo's Nest",
@@ -12668,11 +15590,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.36,
     "Minutes": 133,
-    "Watched": 1047818,
+    "Watched": 1063737,
+    "Fans": 17924,
+    "Likes": 342334,
     "Id": "2aeA",
     "Poster": "/kjWsMh72V6d8KRLV4EOoSJLT1H7.jpg",
     "Year": 1975,
-    "When": "1975-11-19"
+    "When": "1975-11-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "The General",
@@ -12681,11 +15606,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.20,
     "Minutes": 79,
-    "Watched": 131162,
+    "Watched": 132575,
+    "Fans": 472,
+    "Likes": 37540,
     "Id": "29co",
     "Poster": "bVABKsniQzkqXa2MjcjUGSFsTL9.jpg",
     "Year": 1926,
-    "When": "1926-12-25"
+    "When": "1926-12-25",
+    "BlackAndWhite": true
   },
   {
     "Title": "GoodFellas",
@@ -12694,11 +15622,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.47,
     "Minutes": 145,
-    "Watched": 1922593,
+    "Watched": 1955352,
+    "Fans": 71075,
+    "Likes": 773302,
     "Id": "29FA",
     "Poster": "/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
     "Year": 1990,
-    "When": "1990-09-12"
+    "When": "1990-09-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Flatliners",
@@ -12707,11 +15638,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.17,
     "Minutes": 115,
-    "Watched": 80203,
+    "Watched": 81044,
+    "Fans": 95,
+    "Likes": 12230,
     "Id": "28D4",
     "Poster": "/AuajdrVpCcT1BYxg5rzxprTKWaX.jpg",
     "Year": 1990,
-    "When": "1990-08-10"
+    "When": "1990-08-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "Notting Hill",
@@ -12720,11 +15654,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.65,
     "Minutes": 124,
-    "Watched": 1194875,
+    "Watched": 1232563,
+    "Fans": 21358,
+    "Likes": 340303,
     "Id": "2aeK",
     "Poster": "/k7cwPG5sVmCumxKZCukyu3SbyjG.jpg",
     "Year": 1999,
-    "When": "1999-05-21"
+    "When": "1999-05-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Cl\u00E9o from 5 to 7",
@@ -12733,11 +15670,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.19,
     "Minutes": 90,
-    "Watched": 239968,
+    "Watched": 243269,
+    "Fans": 5463,
+    "Likes": 91218,
     "Id": "2agm",
     "Poster": "/oelBStY4xpguaplRv15P3Za7Xsr.jpg",
     "Year": 1962,
-    "When": "1962-04-11"
+    "When": "1962-04-11",
+    "BlackAndWhite": true
   },
   {
     "Title": "Now and Then",
@@ -12746,24 +15686,30 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.59,
     "Minutes": 100,
-    "Watched": 56048,
+    "Watched": 56906,
+    "Fans": 776,
+    "Likes": 15147,
     "Id": "1Z7I",
     "Poster": "/q31Ks8oAmM4Nq2CcGjyYYpdBAmh.jpg",
     "Year": 1995,
-    "When": "1995-10-20"
+    "When": "1995-10-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "Rear Window",
     "TitleOriginal": "Rear Window",
     "Language": "English",
     "RatingSelf": 4,
-    "RatingLetterboxd": 4.38,
+    "RatingLetterboxd": 4.37,
     "Minutes": 112,
-    "Watched": 866830,
+    "Watched": 879289,
+    "Fans": 16556,
+    "Likes": 315941,
     "Id": "2a6Q",
     "Poster": "/o9U7kbBLY1jtis5dnEc2V1qRsvk.jpg",
     "Year": 1954,
-    "When": "1954-08-01"
+    "When": "1954-08-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Sans Soleil",
@@ -12772,11 +15718,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.21,
     "Minutes": 100,
-    "Watched": 57283,
+    "Watched": 57892,
+    "Fans": 2193,
+    "Likes": 20690,
     "Id": "28B8",
     "Poster": "/2ZmVbnecEeGoZCimxMhpY0Nz7eh.jpg",
     "Year": 1983,
-    "When": "1983-01-01"
+    "When": "1983-01-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Raising Cain",
@@ -12785,11 +15734,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.26,
     "Minutes": 92,
-    "Watched": 31438,
+    "Watched": 31729,
+    "Fans": 12,
+    "Likes": 6161,
     "Id": "1P5C",
     "Poster": "/5vRn138vnZeUNFe32qTuPGKkVLR.jpg",
     "Year": 1992,
-    "When": "1992-08-07"
+    "When": "1992-08-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Wait Until Dark",
@@ -12798,11 +15750,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.90,
     "Minutes": 108,
-    "Watched": 48221,
+    "Watched": 48777,
+    "Fans": 204,
+    "Likes": 14208,
     "Id": "1Unc",
     "Poster": "/cNW3ewCB52KkxzSE47PcE5Bqvmr.jpg",
     "Year": 1967,
-    "When": "1967-10-26"
+    "When": "1967-10-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Lure",
@@ -12811,24 +15766,30 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.32,
     "Minutes": 93,
-    "Watched": 53963,
+    "Watched": 54449,
+    "Fans": 265,
+    "Likes": 13517,
     "Id": "d3mE",
     "Poster": "/mxdssWM8WyzBFq6pYwBHeTIJK1A.jpg",
     "Year": 2015,
-    "When": "2015-12-25"
+    "When": "2015-12-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Bridget Jones's Diary",
     "TitleOriginal": "Bridget Jones's Diary",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.44,
+    "RatingLetterboxd": 3.45,
     "Minutes": 97,
-    "Watched": 808969,
+    "Watched": 830268,
+    "Fans": 8205,
+    "Likes": 177380,
     "Id": "29WQ",
     "Poster": "/dkauRl9TosBFikftrC3OVcKWDoz.jpg",
     "Year": 2001,
-    "When": "2001-04-13"
+    "When": "2001-04-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Serenity",
@@ -12837,11 +15798,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.66,
     "Minutes": 119,
-    "Watched": 133171,
+    "Watched": 134350,
+    "Fans": 568,
+    "Likes": 29357,
     "Id": "1Km4",
     "Poster": "/4sqUOaPFoP2W81mq1UYqZqf5WzA.jpg",
     "Year": 2005,
-    "When": "2005-09-25"
+    "When": "2005-09-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Monty Python and the Holy Grail",
@@ -12850,24 +15814,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.14,
     "Minutes": 91,
-    "Watched": 876823,
+    "Watched": 886495,
+    "Fans": 9948,
+    "Likes": 278336,
     "Id": "29GI",
     "Poster": "/8AVb7tyxZRsbKJNOTJHQZl7JYWO.jpg",
     "Year": 1975,
-    "When": "1975-03-14"
+    "When": "1975-03-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Alice in Wonderland",
     "TitleOriginal": "Alice in Wonderland",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.17,
+    "RatingLetterboxd": 3.18,
     "Minutes": 108,
-    "Watched": 1672453,
+    "Watched": 1703884,
+    "Fans": 12090,
+    "Likes": 281450,
     "Id": "1Spq",
     "Poster": "/o0kre9wRCZz3jjSjaru7QU0UtFz.jpg",
     "Year": 2010,
-    "When": "2010-03-03"
+    "When": "2010-03-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Twister",
@@ -12876,11 +15846,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.28,
     "Minutes": 113,
-    "Watched": 448265,
+    "Watched": 453947,
+    "Fans": 2457,
+    "Likes": 96230,
     "Id": "29S0",
     "Poster": "/fZ0Y2qSDKQJolrQhIDpTwx3GlYB.jpg",
     "Year": 1996,
-    "When": "1996-05-10"
+    "When": "1996-05-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Ice Storm",
@@ -12889,11 +15862,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 3.77,
     "Minutes": 112,
-    "Watched": 61255,
+    "Watched": 61815,
+    "Fans": 223,
+    "Likes": 13719,
     "Id": "2c6I",
     "Poster": "/3a6uLta7K8Dzojps4RoJAPHD0km.jpg",
     "Year": 1997,
-    "When": "1997-09-27"
+    "When": "1997-09-27",
+    "BlackAndWhite": false
   },
   {
     "Title": "Lady Macbeth",
@@ -12902,11 +15878,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.46,
     "Minutes": 86,
-    "Watched": 82155,
+    "Watched": 83418,
+    "Fans": 70,
+    "Likes": 14914,
     "Id": "erJk",
     "Poster": "/xWTJbhTwSTJmhLlX5xAOxPhdnXc.jpg",
     "Year": 2016,
-    "When": "2016-12-12"
+    "When": "2016-12-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Crouching Tiger, Hidden Dragon",
@@ -12915,11 +15894,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.06,
     "Minutes": 120,
-    "Watched": 351355,
+    "Watched": 355868,
+    "Fans": 2343,
+    "Likes": 91879,
     "Id": "2b1M",
     "Poster": "/iNDVBFNz4XyYzM9Lwip6atSTFqf.jpg",
     "Year": 2000,
-    "When": "2000-07-06"
+    "When": "2000-07-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "Tomato Red",
@@ -12928,11 +15910,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.29,
     "Minutes": 112,
-    "Watched": 320,
+    "Watched": 319,
+    "Fans": 0,
+    "Likes": 57,
     "Id": "fHhI",
     "Poster": "/hR1ZAE2skl4LjYNC7ug48jcvfvu.jpg",
     "Year": 2017,
-    "When": "2017-02-24"
+    "When": "2017-02-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "Eternal Sunshine of the Spotless Mind",
@@ -12941,11 +15926,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.25,
     "Minutes": 108,
-    "Watched": 3041793,
+    "Watched": 3113091,
+    "Fans": 157901,
+    "Likes": 1362763,
     "Id": "6YK",
     "Poster": "/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg",
     "Year": 2004,
-    "When": "2004-03-19"
+    "When": "2004-03-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Blow",
@@ -12954,24 +15942,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.50,
     "Minutes": 124,
-    "Watched": 196874,
+    "Watched": 199483,
+    "Fans": 905,
+    "Likes": 35402,
     "Id": "24Mm",
     "Poster": "/yYZFVfk8aeMP4GxBSU9MTvqs9mJ.jpg",
     "Year": 2001,
-    "When": "2001-04-04"
+    "When": "2001-04-04",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Jungle Book",
     "TitleOriginal": "The Jungle Book",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.67,
+    "RatingLetterboxd": 3.68,
     "Minutes": 78,
-    "Watched": 672424,
+    "Watched": 681208,
+    "Fans": 696,
+    "Likes": 94612,
     "Id": "1YY2",
     "Poster": "/9BgcTVV43dZ8A1TpuXWkuNTXtfI.jpg",
     "Year": 1967,
-    "When": "1967-10-18"
+    "When": "1967-10-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Klute",
@@ -12980,11 +15974,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.84,
     "Minutes": 114,
-    "Watched": 77701,
+    "Watched": 78434,
+    "Fans": 502,
+    "Likes": 23166,
     "Id": "2ako",
     "Poster": "/tVyINAsNGSgD1OIstqwCcs7wyGH.jpg",
     "Year": 1971,
-    "When": "1971-06-23"
+    "When": "1971-06-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "25th Hour",
@@ -12993,11 +15990,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.86,
     "Minutes": 135,
-    "Watched": 125591,
+    "Watched": 127005,
+    "Fans": 630,
+    "Likes": 29063,
     "Id": "28LC",
     "Poster": "/uW7tTRElr2tRhmAVESzvHy4ByXg.jpg",
     "Year": 2002,
-    "When": "2002-12-19"
+    "When": "2002-12-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Leave No Trace",
@@ -13006,24 +16006,30 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.75,
     "Minutes": 109,
-    "Watched": 106911,
+    "Watched": 107583,
+    "Fans": 273,
+    "Likes": 25535,
     "Id": "fMfM",
     "Poster": "/sygnLx3sZV5P8M2dyaGRegHdEL1.jpg",
     "Year": 2018,
-    "When": "2018-06-29"
+    "When": "2018-06-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "Green Book",
     "TitleOriginal": "Green Book",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.76,
+    "RatingLetterboxd": 3.77,
     "Minutes": 130,
-    "Watched": 1039999,
+    "Watched": 1063337,
+    "Fans": 7548,
+    "Likes": 282382,
     "Id": "hErk",
     "Poster": "/7BsvSuDQuoqhWmU2fL7W2GOcZHU.jpg",
     "Year": 2018,
-    "When": "2018-11-16"
+    "When": "2018-11-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Mask of Zorro",
@@ -13032,11 +16038,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.38,
     "Minutes": 136,
-    "Watched": 264957,
+    "Watched": 268458,
+    "Fans": 610,
+    "Likes": 37947,
     "Id": "1YVi",
     "Poster": "/bdMufwGDDzqu4kTSQwrKc5WR4bu.jpg",
     "Year": 1998,
-    "When": "1998-07-16"
+    "When": "1998-07-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Birds",
@@ -13045,11 +16054,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.75,
     "Minutes": 120,
-    "Watched": 545715,
+    "Watched": 551893,
+    "Fans": 1302,
+    "Likes": 120849,
     "Id": "2a6m",
     "Poster": "/eClg8QPg8mwB6INIC4pyR5pAbDr.jpg",
     "Year": 1963,
-    "When": "1963-03-28"
+    "When": "1963-03-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Hateful Eight",
@@ -13058,11 +16070,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.97,
     "Minutes": 188,
-    "Watched": 1332748,
+    "Watched": 1352168,
+    "Fans": 10406,
+    "Likes": 410485,
     "Id": "8gw8",
     "Poster": "/jIywvdPjia2t3eKYbjVTcwBQlG8.jpg",
     "Year": 2015,
-    "When": "2015-12-25"
+    "When": "2015-12-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Silver Linings Playbook",
@@ -13071,11 +16086,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.69,
     "Minutes": 122,
-    "Watched": 1290414,
+    "Watched": 1307938,
+    "Fans": 9873,
+    "Likes": 304616,
     "Id": "2TTo",
     "Poster": "/y7iOVneBvITlBdhy6tVqXVOa1Js.jpg",
     "Year": 2012,
-    "When": "2012-11-16"
+    "When": "2012-11-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "King of Thieves",
@@ -13084,11 +16102,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 2.57,
     "Minutes": 108,
-    "Watched": 12558,
+    "Watched": 12665,
+    "Fans": 5,
+    "Likes": 1066,
     "Id": "iSmK",
     "Poster": "/rtfS7y2XQ0vjTrm6khq508N0Ehk.jpg",
     "Year": 2018,
-    "When": "2018-09-04"
+    "When": "2018-09-04",
+    "BlackAndWhite": false
   },
   {
     "Title": "Br\u00FCno",
@@ -13097,11 +16118,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.93,
     "Minutes": 83,
-    "Watched": 171095,
+    "Watched": 172776,
+    "Fans": 204,
+    "Likes": 19256,
     "Id": "1GSA",
     "Poster": "/xLFYL5gwCPnMDp5Qmd5wiRSsRPX.jpg",
     "Year": 2009,
-    "When": "2009-07-08"
+    "When": "2009-07-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "Roman Holiday",
@@ -13110,11 +16134,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.16,
     "Minutes": 119,
-    "Watched": 300700,
+    "Watched": 306204,
+    "Fans": 8306,
+    "Likes": 105135,
     "Id": "29zW",
     "Poster": "/8lI9dmz1RH20FAqltkGelY1v4BE.jpg",
     "Year": 1953,
-    "When": "1953-08-26"
+    "When": "1953-08-26",
+    "BlackAndWhite": true
   },
   {
     "Title": "The Last Exorcism Part II",
@@ -13123,11 +16150,14 @@ var films = [
     "RatingSelf": 1,
     "RatingLetterboxd": 1.97,
     "Minutes": 88,
-    "Watched": 11723,
+    "Watched": 11946,
+    "Fans": 2,
+    "Likes": 626,
     "Id": "4E4a",
     "Poster": "/260ztSWhGIYSLAjDC6smFWcdUSp.jpg",
     "Year": 2013,
-    "When": "2013-02-28"
+    "When": "2013-02-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "Cops",
@@ -13136,24 +16166,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.84,
     "Minutes": 18,
-    "Watched": 22533,
+    "Watched": 22822,
+    "Fans": 12,
+    "Likes": 6783,
     "Id": "15j4",
     "Poster": "/uN8b6oQlmsb81G7GepgjPyRDLaO.jpg",
     "Year": 1922,
-    "When": "1922-03-11"
+    "When": "1922-03-11",
+    "BlackAndWhite": true
   },
   {
     "Title": "Harry Potter and the Deathly Hallows: Part 2",
     "TitleOriginal": "Harry Potter and the Deathly Hallows: Part 2",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.98,
+    "RatingLetterboxd": 3.99,
     "Minutes": 130,
-    "Watched": 2621908,
+    "Watched": 2671037,
+    "Fans": 6169,
+    "Likes": 629407,
     "Id": "1RYk",
     "Poster": "/c54HpQmuwXjHq2C9wmoACjxoom3.jpg",
     "Year": 2011,
-    "When": "2011-07-12"
+    "When": "2011-07-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Buffalo '66",
@@ -13162,11 +16198,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.83,
     "Minutes": 110,
-    "Watched": 302391,
+    "Watched": 310570,
+    "Fans": 12321,
+    "Likes": 120914,
     "Id": "1YC6",
     "Poster": "/fxzXFzbSGNA52NHQCMqQiwzMIQw.jpg",
     "Year": 1998,
-    "When": "1998-01-20"
+    "When": "1998-01-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Perks of Being a Wallflower",
@@ -13175,24 +16214,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.95,
     "Minutes": 103,
-    "Watched": 2710916,
+    "Watched": 2763578,
+    "Fans": 110943,
+    "Likes": 1084822,
     "Id": "2ZA8",
     "Poster": "/aKCvdFFF5n80P2VdS7d8YBwbCjh.jpg",
     "Year": 2012,
-    "When": "2012-09-20"
+    "When": "2012-09-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Matrix",
     "TitleOriginal": "The Matrix",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 4.17,
+    "RatingLetterboxd": 4.16,
     "Minutes": 136,
-    "Watched": 3053717,
+    "Watched": 3103835,
+    "Fans": 41201,
+    "Likes": 1060587,
     "Id": "2a1m",
     "Poster": "/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
     "Year": 1999,
-    "When": "1999-03-31"
+    "When": "1999-03-31",
+    "BlackAndWhite": false
   },
   {
     "Title": "Easy A",
@@ -13201,11 +16246,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.43,
     "Minutes": 93,
-    "Watched": 1472432,
+    "Watched": 1494505,
+    "Fans": 4705,
+    "Likes": 330034,
     "Id": "17DK",
     "Poster": "/v5f1qO6NJnxWgONgkYg21TW39DT.jpg",
     "Year": 2010,
-    "When": "2010-09-16"
+    "When": "2010-09-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Triangle of Sadness",
@@ -13214,11 +16262,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.69,
     "Minutes": 147,
-    "Watched": 868051,
+    "Watched": 882381,
+    "Fans": 4004,
+    "Likes": 236093,
     "Id": "hXlq",
     "Poster": "/k9eLozCgCed5FGTSdHu0bBElAV8.jpg",
     "Year": 2022,
-    "When": "2022-09-18"
+    "When": "2022-09-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Host",
@@ -13227,11 +16278,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.20,
     "Minutes": 57,
-    "Watched": 201741,
+    "Watched": 204177,
+    "Fans": 157,
+    "Likes": 42319,
     "Id": "r5O4",
     "Poster": "/h7dZpJDORYs5c56dydbrLFkEXpE.jpg",
     "Year": 2020,
-    "When": "2020-12-04"
+    "When": "2020-12-04",
+    "BlackAndWhite": false
   },
   {
     "Title": "Thank You for Smoking",
@@ -13240,11 +16294,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.65,
     "Minutes": 92,
-    "Watched": 148183,
+    "Watched": 149540,
+    "Fans": 280,
+    "Likes": 26123,
     "Id": "1YOc",
     "Poster": "/41bMmglWT72OaRXrMROEyksOf3J.jpg",
     "Year": 2005,
-    "When": "2005-09-09"
+    "When": "2005-09-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Parasite",
@@ -13253,11 +16310,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 4.55,
     "Minutes": 133,
-    "Watched": 4598830,
+    "Watched": 4680003,
+    "Fans": 110196,
+    "Likes": 2577438,
     "Id": "hTha",
     "Poster": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
     "Year": 2019,
-    "When": "2019-05-30"
+    "When": "2019-05-30",
+    "BlackAndWhite": false
   },
   {
     "Title": "Three Colors: Blue",
@@ -13266,11 +16326,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.17,
     "Minutes": 98,
-    "Watched": 276498,
+    "Watched": 280330,
+    "Fans": 4267,
+    "Likes": 89376,
     "Id": "2b7K",
     "Poster": "/33wsWxzsNstI8N7dvuwzFmj1qBd.jpg",
     "Year": 1993,
-    "When": "1993-09-08"
+    "When": "1993-09-08",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Gentlemen",
@@ -13279,11 +16342,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.72,
     "Minutes": 113,
-    "Watched": 611239,
+    "Watched": 621498,
+    "Fans": 5374,
+    "Likes": 169870,
     "Id": "iYBQ",
     "Poster": "/jtrhTYB7xSrJxR1vusu99nvnZ1g.jpg",
     "Year": 2019,
-    "When": "2020-01-01"
+    "When": "2020-01-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Girlfriends",
@@ -13292,11 +16358,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.91,
     "Minutes": 86,
-    "Watched": 30574,
+    "Watched": 30896,
+    "Fans": 336,
+    "Likes": 11876,
     "Id": "3JYU",
     "Poster": "/js4muSu1GqICAX6Dbolj6Um5rkK.jpg",
     "Year": 1978,
-    "When": "1978-08-11"
+    "When": "1978-08-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Inbetweeners Movie",
@@ -13305,11 +16374,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.21,
     "Minutes": 97,
-    "Watched": 86932,
+    "Watched": 88000,
+    "Fans": 235,
+    "Likes": 14458,
     "Id": "2v50",
     "Poster": "/nePYsVp0qU8EbSXeUdr3xEkHlzN.jpg",
     "Year": 2011,
-    "When": "2011-08-19"
+    "When": "2011-08-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "Death Race 2000",
@@ -13318,11 +16390,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.29,
     "Minutes": 80,
-    "Watched": 47328,
+    "Watched": 47884,
+    "Fans": 106,
+    "Likes": 11545,
     "Id": "1QuI",
     "Poster": "/kwM8kkNGtv62gfPWVhD6qFxjDzg.jpg",
     "Year": 1975,
-    "When": "1975-04-30"
+    "When": "1975-04-30",
+    "BlackAndWhite": false
   },
   {
     "Title": "Harold \u0026 Kumar Escape from Guantanamo Bay",
@@ -13331,11 +16406,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.94,
     "Minutes": 101,
-    "Watched": 105194,
+    "Watched": 106328,
+    "Fans": 122,
+    "Likes": 14162,
     "Id": "1QoU",
     "Poster": "/gmXKlm8c8O7JEISYP4WiWq2x3We.jpg",
     "Year": 2008,
-    "When": "2008-04-25"
+    "When": "2008-04-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Lady and the Tramp",
@@ -13344,11 +16422,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.55,
     "Minutes": 76,
-    "Watched": 648179,
+    "Watched": 657700,
+    "Fans": 1013,
+    "Likes": 85581,
     "Id": "1Wv8",
     "Poster": "/340NcWz9SQXWQyf4oicMxjbrLOb.jpg",
     "Year": 1955,
-    "When": "1955-06-22"
+    "When": "1955-06-22",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Net",
@@ -13357,11 +16438,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.80,
     "Minutes": 114,
-    "Watched": 75850,
+    "Watched": 77288,
+    "Fans": 72,
+    "Likes": 8351,
     "Id": "28pG",
     "Poster": "/dtupntUFMD5iXBo8HLfALt2ET4R.jpg",
     "Year": 1995,
-    "When": "1995-07-28"
+    "When": "1995-07-28",
+    "BlackAndWhite": false
   },
   {
     "Title": "Quiz Lady",
@@ -13370,50 +16454,62 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.30,
     "Minutes": 99,
-    "Watched": 99403,
+    "Watched": 101309,
+    "Fans": 61,
+    "Likes": 24465,
     "Id": "tCT6",
     "Poster": "/tqKiprkTUfXWi8bOjCl0lHtCwod.jpg",
     "Year": 2023,
-    "When": "2023-09-09"
+    "When": "2023-09-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Shutter Island",
     "TitleOriginal": "Shutter Island",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 4.13,
+    "RatingLetterboxd": 4.14,
     "Minutes": 138,
-    "Watched": 3063324,
+    "Watched": 3120744,
+    "Fans": 46736,
+    "Likes": 1095570,
     "Id": "1U82",
     "Poster": "/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
     "Year": 2010,
-    "When": "2010-02-14"
+    "When": "2010-02-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "Woman of the Hour",
     "TitleOriginal": "Woman of the Hour",
     "Language": "English",
     "RatingSelf": 3,
-    "RatingLetterboxd": 3.19,
+    "RatingLetterboxd": 3.18,
     "Minutes": 94,
-    "Watched": 455282,
+    "Watched": 476672,
+    "Fans": 165,
+    "Likes": 88755,
     "Id": "vuz2",
     "Poster": "/nc9ZqrJFbcUdlMg9lxXXtJb24jU.jpg",
     "Year": 2023,
-    "When": "2024-10-03"
+    "When": "2024-10-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Day of the Jackal",
     "TitleOriginal": "The Day of the Jackal",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.92,
+    "RatingLetterboxd": 3.91,
     "Minutes": 143,
-    "Watched": 33027,
+    "Watched": 33931,
+    "Fans": 157,
+    "Likes": 8722,
     "Id": "23GM",
     "Poster": "/vThgcb3JOj99yETg8WChuci4LV2.jpg",
     "Year": 1973,
-    "When": "1973-05-16"
+    "When": "1973-05-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Hurt Locker",
@@ -13422,11 +16518,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.76,
     "Minutes": 131,
-    "Watched": 405076,
+    "Watched": 409747,
+    "Fans": 426,
+    "Likes": 74844,
     "Id": "1Soi",
     "Poster": "/io2dfBJhasvGbgkCX9cCGVOiA99.jpg",
     "Year": 2008,
-    "When": "2008-10-10"
+    "When": "2008-10-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "Taxi Driver",
@@ -13435,11 +16534,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.15,
     "Minutes": 114,
-    "Watched": 2220285,
+    "Watched": 2258049,
+    "Fans": 53114,
+    "Likes": 804089,
     "Id": "2b8y",
     "Poster": "/ekstpH614fwDX8DUln1a2Opz0N8.jpg",
     "Year": 1976,
-    "When": "1976-02-09"
+    "When": "1976-02-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "At Land",
@@ -13448,11 +16550,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.00,
     "Minutes": 15,
-    "Watched": 24425,
+    "Watched": 24765,
+    "Fans": 106,
+    "Likes": 8273,
     "Id": "RWc",
     "Poster": "/97g5V60msJWADVBJyJMpzmRZAnd.jpg",
     "Year": 1944,
-    "When": "1944-01-01"
+    "When": "1944-01-01",
+    "BlackAndWhite": true
   },
   {
     "Title": "Beetlejuice",
@@ -13461,11 +16566,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.74,
     "Minutes": 92,
-    "Watched": 1712629,
+    "Watched": 1741486,
+    "Fans": 13940,
+    "Likes": 545335,
     "Id": "24QI",
     "Poster": "/nnl6OWkyPpuMm595hmAxNW3rZFn.jpg",
     "Year": 1988,
-    "When": "1988-03-30"
+    "When": "1988-03-30",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Brothers Bloom",
@@ -13474,11 +16582,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.44,
     "Minutes": 114,
-    "Watched": 46549,
+    "Watched": 46937,
+    "Fans": 319,
+    "Likes": 9636,
     "Id": "1Bqm",
     "Poster": "/xIz8iwzyjgWGzcIwHKpqhBs77ML.jpg",
     "Year": 2008,
-    "When": "2008-09-09"
+    "When": "2008-09-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Who the #$\u0026% Is Jackson Pollock?",
@@ -13487,11 +16598,14 @@ var films = [
     "RatingSelf": 1,
     "RatingLetterboxd": 3.41,
     "Minutes": 74,
-    "Watched": 1131,
+    "Watched": 1138,
+    "Fans": 0,
+    "Likes": 142,
     "Id": "OZW",
     "Poster": "/lPG9kD993EpbGu7gas2zeEU1Pok.jpg",
     "Year": 2006,
-    "When": "2006-11-09"
+    "When": "2006-11-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Next",
@@ -13500,11 +16614,14 @@ var films = [
     "RatingSelf": 1,
     "RatingLetterboxd": 2.45,
     "Minutes": 96,
-    "Watched": 84721,
+    "Watched": 85708,
+    "Fans": 22,
+    "Likes": 6035,
     "Id": "28bY",
     "Poster": "/wtBOCJBCP0MWNjmBwjMAzbwgtTK.jpg",
     "Year": 2007,
-    "When": "2007-04-25"
+    "When": "2007-04-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Agatha and the Limitless Readings",
@@ -13513,11 +16630,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.92,
     "Minutes": 90,
-    "Watched": 3184,
+    "Watched": 3220,
+    "Fans": 42,
+    "Likes": 1114,
     "Id": "6oi",
     "Poster": "/agrscypKfjYeFVqw6rtD9GwQp5f.jpg",
     "Year": 1981,
-    "When": "1981-10-07"
+    "When": "1981-10-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Charade",
@@ -13526,11 +16646,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.01,
     "Minutes": 113,
-    "Watched": 190361,
+    "Watched": 193267,
+    "Fans": 2727,
+    "Likes": 63655,
     "Id": "23O2",
     "Poster": "/ijJ73UgR6nOqjSP8MO0Z7hawCdm.jpg",
     "Year": 1963,
-    "When": "1963-12-01"
+    "When": "1963-12-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Devil",
@@ -13539,11 +16662,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 2.65,
     "Minutes": 80,
-    "Watched": 169928,
+    "Watched": 171550,
+    "Fans": 46,
+    "Likes": 17743,
     "Id": "SX6",
     "Poster": "/aivXPSi53H95BoUa5njEYso389s.jpg",
     "Year": 2010,
-    "When": "2010-09-16"
+    "When": "2010-09-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Kissed",
@@ -13552,11 +16678,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.46,
     "Minutes": 78,
-    "Watched": 4641,
+    "Watched": 4684,
+    "Fans": 51,
+    "Likes": 1196,
     "Id": "1BAm",
     "Poster": "/sLHamI4Qrtg1YyUVsMbh1diCAyg.jpg",
     "Year": 1996,
-    "When": "1996-09-07"
+    "When": "1996-09-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Taking Chance",
@@ -13565,11 +16694,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.40,
     "Minutes": 77,
-    "Watched": 4498,
+    "Watched": 4631,
+    "Fans": 11,
+    "Likes": 780,
     "Id": "1vSY",
     "Poster": "/q0RjelNIn0zEi9nhSqQgDTbmXux.jpg",
     "Year": 2009,
-    "When": "2009-09-21"
+    "When": "2009-09-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "Duel",
@@ -13578,11 +16710,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.81,
     "Minutes": 89,
-    "Watched": 133502,
+    "Watched": 135399,
+    "Fans": 443,
+    "Likes": 37170,
     "Id": "29ui",
     "Poster": "/w9Vk1Txx14vWvACELFYFlixrsfr.jpg",
     "Year": 1971,
-    "When": "1971-11-13"
+    "When": "1971-11-13",
+    "BlackAndWhite": false
   },
   {
     "Title": "Ever",
@@ -13591,24 +16726,30 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": -1,
     "Minutes": 97,
-    "Watched": 153,
+    "Watched": 154,
+    "Fans": 0,
+    "Likes": 35,
     "Id": "8240",
     "Poster": "/hl5Bq1CBreUi4COb78euSBLOgSK.jpg",
     "Year": 2014,
-    "When": "2014-04-26"
+    "When": "2014-04-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Prince",
     "TitleOriginal": "The Prince",
     "Language": "English",
     "RatingSelf": 3,
-    "RatingLetterboxd": 3.77,
+    "RatingLetterboxd": 3.78,
     "Minutes": 121,
-    "Watched": 823,
+    "Watched": 842,
+    "Fans": 12,
+    "Likes": 402,
     "Id": "F8lM",
     "Poster": "/sz2ofiO8hY2vwd2DkshYOOVQlkG.jpg",
     "Year": 2023,
-    "When": "2023-02-16"
+    "When": "2023-02-16",
+    "BlackAndWhite": false
   },
   {
     "Title": "Yellow Yellow Yellow: The Indycar Safety Team",
@@ -13617,11 +16758,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": -1,
     "Minutes": 45,
-    "Watched": 35,
+    "Watched": 36,
+    "Fans": 0,
+    "Likes": 9,
     "Id": "iDU8",
     "Poster": "/lgB2nIR2jMInI6XMeV8GPmdI35M.jpg",
     "Year": 2017,
-    "When": "2017-06-11"
+    "When": "2017-06-11",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Beguiled",
@@ -13630,11 +16774,14 @@ var films = [
     "RatingSelf": 3,
     "RatingLetterboxd": 3.34,
     "Minutes": 93,
-    "Watched": 218689,
+    "Watched": 221032,
+    "Fans": 302,
+    "Likes": 41063,
     "Id": "dZ1k",
     "Poster": "/x4R9jyiZhJzevASus5n6WyHQTdR.jpg",
     "Year": 2017,
-    "When": "2017-06-23"
+    "When": "2017-06-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Bring It On",
@@ -13643,11 +16790,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.35,
     "Minutes": 98,
-    "Watched": 414024,
+    "Watched": 420711,
+    "Fans": 1384,
+    "Likes": 80174,
     "Id": "28x6",
     "Poster": "/vv7mHTZGCTDAFW1qZ5l65G1nTyz.jpg",
     "Year": 2000,
-    "When": "2000-08-25"
+    "When": "2000-08-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "Dolores Claiborne",
@@ -13656,11 +16806,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.71,
     "Minutes": 132,
-    "Watched": 37740,
+    "Watched": 38137,
+    "Fans": 112,
+    "Likes": 8349,
     "Id": "1SKo",
     "Poster": "/3RlG7uhJEqc5Ws2PIpNok0LuJ1I.jpg",
     "Year": 1995,
-    "When": "1995-03-24"
+    "When": "1995-03-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "Girls Will Be Girls",
@@ -13669,11 +16822,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.76,
     "Minutes": 119,
-    "Watched": 15432,
+    "Watched": 17078,
+    "Fans": 85,
+    "Likes": 6528,
     "Id": "FVUw",
     "Poster": "/psklilaTgyczbHidamDlpFWodb0.jpg",
     "Year": 2024,
-    "When": "2024-08-21"
+    "When": "2024-08-21",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Duke of Burgundy",
@@ -13682,24 +16838,30 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 3.64,
     "Minutes": 104,
-    "Watched": 37487,
+    "Watched": 37874,
+    "Fans": 210,
+    "Likes": 9523,
     "Id": "7kwu",
     "Poster": "/fVUvn7boQY0R7F8V31BdgrpCN52.jpg",
     "Year": 2014,
-    "When": "2014-10-18"
+    "When": "2014-10-18",
+    "BlackAndWhite": false
   },
   {
     "Title": "Mirror",
     "TitleOriginal": "\u0417\u0435\u0440\u043A\u0430\u043B\u043E",
     "Language": "Russian",
     "RatingSelf": null,
-    "RatingLetterboxd": 4.34,
+    "RatingLetterboxd": 4.33,
     "Minutes": 107,
-    "Watched": 201147,
+    "Watched": 203755,
+    "Fans": 8589,
+    "Likes": 74967,
     "Id": "28Q8",
     "Poster": "/mw9azNlZKmZyPlEc57RzHk1ggaB.jpg",
     "Year": 1975,
-    "When": "1975-03-07"
+    "When": "1975-03-07",
+    "BlackAndWhite": false
   },
   {
     "Title": "Olivia",
@@ -13708,11 +16870,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.57,
     "Minutes": 96,
-    "Watched": 6113,
+    "Watched": 6202,
+    "Fans": 40,
+    "Likes": 1765,
     "Id": "7COG",
     "Poster": "/6kVDX2TRoRPFoduH64vLnX4Yr8Q.jpg",
     "Year": 1951,
-    "When": "1951-04-27"
+    "When": "1951-04-27",
+    "BlackAndWhite": true
   },
   {
     "Title": "The Cabinet of Dr. Caligari",
@@ -13721,11 +16886,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.07,
     "Minutes": 76,
-    "Watched": 274524,
+    "Watched": 278203,
+    "Fans": 2580,
+    "Likes": 84122,
     "Id": "2aOo",
     "Poster": "/myK9DeIsXWGKgUTZyGXg2IfFk0W.jpg",
     "Year": 1920,
-    "When": "1920-02-27"
+    "When": "1920-02-27",
+    "BlackAndWhite": true
   },
   {
     "Title": "The Lovely Bones",
@@ -13734,11 +16902,14 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.35,
     "Minutes": 136,
-    "Watched": 484441,
+    "Watched": 495775,
+    "Fans": 3008,
+    "Likes": 90565,
     "Id": "20IA",
     "Poster": "/sn0iDphRxQ7I6aLd9igIgACITak.jpg",
     "Year": 2009,
-    "When": "2009-12-26"
+    "When": "2009-12-26",
+    "BlackAndWhite": false
   },
   {
     "Title": "Hayley Wagner, Star",
@@ -13747,24 +16918,30 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": -1,
     "Minutes": 95,
-    "Watched": 22,
+    "Watched": 23,
+    "Fans": 0,
+    "Likes": 4,
     "Id": "ujWC",
     "Poster": "/mCqCZU5FK2OiT45ZDwcVqcJSzA.jpg",
     "Year": 1999,
-    "When": "1999-09-19"
+    "When": "1999-09-19",
+    "BlackAndWhite": false
   },
   {
     "Title": "I Saw the TV Glow",
     "TitleOriginal": "I Saw the TV Glow",
     "Language": "English",
     "RatingSelf": 4,
-    "RatingLetterboxd": 3.52,
+    "RatingLetterboxd": 3.51,
     "Minutes": 100,
-    "Watched": 575053,
+    "Watched": 597012,
+    "Fans": 16863,
+    "Likes": 213183,
     "Id": "woVe",
     "Poster": "/hS4GYkYpN1rfl4GIxyc02sCyfAj.jpg",
     "Year": 2024,
-    "When": "2024-05-03"
+    "When": "2024-05-03",
+    "BlackAndWhite": false
   },
   {
     "Title": "Girls of the Night",
@@ -13773,11 +16950,14 @@ var films = [
     "RatingSelf": 5,
     "RatingLetterboxd": 3.94,
     "Minutes": 92,
-    "Watched": 2575,
+    "Watched": 2615,
+    "Fans": 10,
+    "Likes": 905,
     "Id": "7yp8",
     "Poster": "/yyosROw2JuIePqg9YI6XXPSZzmM.jpg",
     "Year": 1961,
-    "When": "1961-09-04"
+    "When": "1961-09-04",
+    "BlackAndWhite": true
   },
   {
     "Title": "Certain Women",
@@ -13786,11 +16966,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.75,
     "Minutes": 107,
-    "Watched": 62970,
+    "Watched": 63512,
+    "Fans": 417,
+    "Likes": 19055,
     "Id": "bk7W",
     "Poster": "/xxD7eLmKgrBy8jwHneHuDGAGbom.jpg",
     "Year": 2016,
-    "When": "2016-09-25"
+    "When": "2016-09-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Private Life of a Cat",
@@ -13799,11 +16982,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.95,
     "Minutes": 22,
-    "Watched": 11668,
+    "Watched": 11829,
+    "Fans": 40,
+    "Likes": 4505,
     "Id": "42AW",
     "Poster": "/cgR6aNjvwb6urIaxntmqW2RnHi8.jpg",
     "Year": 1946,
-    "When": "1946-12-22"
+    "When": "1946-12-22",
+    "BlackAndWhite": true
   },
   {
     "Title": "One Sings, the Other Doesn't",
@@ -13812,11 +16998,14 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 4.09,
     "Minutes": 122,
-    "Watched": 28148,
+    "Watched": 28447,
+    "Fans": 619,
+    "Likes": 11506,
     "Id": "98s",
     "Poster": "/b3YTxT8LM1AWeWyrAXd3b0kjjzz.jpg",
     "Year": 1977,
-    "When": "1977-03-09"
+    "When": "1977-03-09",
+    "BlackAndWhite": false
   },
   {
     "Title": "Warrior Women with Lupita Nyong'o",
@@ -13826,23 +17015,29 @@ var films = [
     "RatingLetterboxd": -1,
     "Minutes": 44,
     "Watched": 129,
+    "Fans": 0,
+    "Likes": 26,
     "Id": "nQPA",
     "Poster": "/dGWnT0erurzfXz8GEXbmcL2ZqXo.jpg",
     "Year": 2019,
-    "When": "2019-10-23"
+    "When": "2019-10-23",
+    "BlackAndWhite": false
   },
   {
     "Title": "Jesus Camp",
     "TitleOriginal": "Jesus Camp",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.64,
+    "RatingLetterboxd": 3.65,
     "Minutes": 84,
-    "Watched": 57600,
+    "Watched": 58027,
+    "Fans": 61,
+    "Likes": 8205,
     "Id": "28ac",
     "Poster": "/6ueSRBYaicEYvR2sFHVvptKNaxI.jpg",
     "Year": 2006,
-    "When": "2006-09-15"
+    "When": "2006-09-15",
+    "BlackAndWhite": false
   },
   {
     "Title": "Saving Face",
@@ -13851,11 +17046,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.99,
     "Minutes": 97,
-    "Watched": 68400,
+    "Watched": 69448,
+    "Fans": 2065,
+    "Likes": 30507,
     "Id": "1Fj0",
     "Poster": "/7XbbgkKi4nEMOu9iwiANXpjKKhe.jpg",
     "Year": 2004,
-    "When": "2004-09-12"
+    "When": "2004-09-12",
+    "BlackAndWhite": false
   },
   {
     "Title": "Little Monsters",
@@ -13864,24 +17062,30 @@ var films = [
     "RatingSelf": 2,
     "RatingLetterboxd": 3.23,
     "Minutes": 94,
-    "Watched": 57976,
+    "Watched": 58472,
+    "Fans": 50,
+    "Likes": 13632,
     "Id": "iarm",
     "Poster": "/oQvUq7UmumBTcAnvgFLFvegY47d.jpg",
     "Year": 2019,
-    "When": "2019-08-29"
+    "When": "2019-08-29",
+    "BlackAndWhite": false
   },
   {
     "Title": "Wings",
     "TitleOriginal": "\u041A\u0440\u044B\u043B\u044C\u044F",
     "Language": "Russian",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.89,
+    "RatingLetterboxd": 3.88,
     "Minutes": 85,
-    "Watched": 8431,
+    "Watched": 8522,
+    "Fans": 73,
+    "Likes": 2563,
     "Id": "EDw",
     "Poster": "/sGWFjV5e86OJWxs8QYbwo9MHtyL.jpg",
     "Year": 1966,
-    "When": "1966-08-15"
+    "When": "1966-08-15",
+    "BlackAndWhite": true
   },
   {
     "Title": "Peppermint Soda",
@@ -13890,11 +17094,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.85,
     "Minutes": 101,
-    "Watched": 11545,
+    "Watched": 11700,
+    "Fans": 178,
+    "Likes": 4283,
     "Id": "2NiG",
     "Poster": "/5yQt2mefAXqNniQXiIrqaqbxMOI.jpg",
     "Year": 1977,
-    "When": "1977-12-14"
+    "When": "1977-12-14",
+    "BlackAndWhite": false
   },
   {
     "Title": "News from Home",
@@ -13903,37 +17110,46 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.10,
     "Minutes": 89,
-    "Watched": 38091,
+    "Watched": 38495,
+    "Fans": 921,
+    "Likes": 15719,
     "Id": "34TO",
     "Poster": "/mLRVEl7gUYXo5o4s5hyU1QKihlo.jpg",
     "Year": 1976,
-    "When": "1977-05-20"
+    "When": "1977-05-20",
+    "BlackAndWhite": false
   },
   {
     "Title": "We Live in Time",
     "TitleOriginal": "We Live in Time",
     "Language": "English",
-    "RatingSelf": 5,
-    "RatingLetterboxd": 3.69,
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.68,
     "Minutes": 108,
-    "Watched": 539297,
+    "Watched": 632026,
+    "Fans": 5514,
+    "Likes": 216134,
     "Id": "FC5u",
     "Poster": "/ssFS25CiYQvRJqErqaEyHuVgyH7.jpg",
     "Year": 2024,
-    "When": "2024-10-10"
+    "When": "2024-10-10",
+    "BlackAndWhite": false
   },
   {
     "Title": "Heaven's Story",
     "TitleOriginal": "\u30D8\u30F4\u30F3\u30BA \u30B9\u30C8\u30FC\u30EA\u30FC",
     "Language": "Japanese",
     "RatingSelf": 4,
-    "RatingLetterboxd": 3.69,
+    "RatingLetterboxd": 3.70,
     "Minutes": 278,
-    "Watched": 414,
+    "Watched": 424,
+    "Fans": 15,
+    "Likes": 166,
     "Id": "4toe",
     "Poster": "gjPiTdhLv7NLN4WE8LnHVex7305.jpg",
     "Year": 2010,
-    "When": "2010-10-02"
+    "When": "2010-10-02",
+    "BlackAndWhite": false
   },
   {
     "Title": "Vivre Sa Vie",
@@ -13942,76 +17158,94 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 4.03,
     "Minutes": 84,
-    "Watched": 157137,
+    "Watched": 159338,
+    "Fans": 3282,
+    "Likes": 54466,
     "Id": "28s6",
     "Poster": "/lYTAYclvYIa1SR4wRwMW7OwGp86.jpg",
     "Year": 1962,
-    "When": "1962-09-20"
+    "When": "1962-09-20",
+    "BlackAndWhite": true
   },
   {
     "Title": "Everything Everywhere All at Once",
     "TitleOriginal": "Everything Everywhere All at Once",
     "Language": "English",
     "RatingSelf": 3,
-    "RatingLetterboxd": 4.29,
+    "RatingLetterboxd": 4.28,
     "Minutes": 140,
-    "Watched": 3537727,
+    "Watched": 3593879,
+    "Fans": 156205,
+    "Likes": 1776978,
     "Id": "jUk4",
     "Poster": "/u68AjlvlutfEIcpmbYpKcdi09ut.jpg",
     "Year": 2022,
-    "When": "2022-03-24"
+    "When": "2022-03-24",
+    "BlackAndWhite": false
   },
   {
     "Title": "C\u00E9line",
     "TitleOriginal": "C\u00E9line",
     "Language": "French",
     "RatingSelf": 4,
-    "RatingLetterboxd": 4.07,
+    "RatingLetterboxd": 4.06,
     "Minutes": 88,
-    "Watched": 6126,
+    "Watched": 6190,
+    "Fans": 150,
+    "Likes": 2553,
     "Id": "44ac",
     "Poster": "/ipmmn3LMpZGG5Sgv7B4jXhO2hkZ.jpg",
     "Year": 1992,
-    "When": "1992-04-01"
+    "When": "1992-04-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Stalker",
     "TitleOriginal": "\u0421\u0442\u0430\u043B\u043A\u0435\u0440",
     "Language": "Russian",
     "RatingSelf": 5,
-    "RatingLetterboxd": 4.42,
+    "RatingLetterboxd": 4.41,
     "Minutes": 162,
-    "Watched": 373005,
+    "Watched": 376927,
+    "Fans": 18670,
+    "Likes": 148356,
     "Id": "28PO",
     "Poster": "/npvwT8SxBPNqX7MAE9yYMuGCZcB.jpg",
     "Year": 1979,
-    "When": "1979-05-25"
+    "When": "1979-05-25",
+    "BlackAndWhite": true
   },
   {
     "Title": "No Other Land",
     "TitleOriginal": "\u0644\u0627 \u0623\u0631\u0636 \u0623\u062E\u0631\u0649",
     "Language": "Arabic",
     "RatingSelf": null,
-    "RatingLetterboxd": 4.39,
+    "RatingLetterboxd": 4.40,
     "Minutes": 96,
-    "Watched": 18280,
+    "Watched": 23206,
+    "Fans": 136,
+    "Likes": 9263,
     "Id": "KOTG",
     "Poster": "/s7XYieuZg9kMe07i9VI4bfGN4Pw.jpg",
     "Year": 2024,
-    "When": "2024-11-01"
+    "When": "2024-11-01",
+    "BlackAndWhite": false
   },
   {
     "Title": "Nosferatu",
     "TitleOriginal": "Nosferatu",
     "Language": "English",
     "RatingSelf": null,
-    "RatingLetterboxd": 3.80,
+    "RatingLetterboxd": 3.78,
     "Minutes": 133,
-    "Watched": 1431931,
+    "Watched": 1664795,
+    "Fans": 14658,
+    "Likes": 587522,
     "Id": "f5eG",
     "Poster": "/5qGIxdEO841C0tdY8vOdLoRVrr0.jpg",
     "Year": 2024,
-    "When": "2024-12-25"
+    "When": "2024-12-25",
+    "BlackAndWhite": false
   },
   {
     "Title": "The Nun",
@@ -14020,11 +17254,14 @@ var films = [
     "RatingSelf": null,
     "RatingLetterboxd": 3.97,
     "Minutes": 140,
-    "Watched": 15296,
+    "Watched": 15409,
+    "Fans": 122,
+    "Likes": 4938,
     "Id": "WbK",
     "Poster": "/75EehgZs63K70RODuFLXXgopPl.jpg",
     "Year": 1966,
-    "When": "1966-05-06"
+    "When": "1966-05-06",
+    "BlackAndWhite": false
   },
   {
     "Title": "Carnival of Souls",
@@ -14033,10 +17270,173 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.77,
     "Minutes": 78,
-    "Watched": 102223,
+    "Watched": 102790,
+    "Fans": 811,
+    "Likes": 33972,
     "Id": "1KQ4",
     "Poster": "/9ddPGH7kMe81xznwIKCt17VFUPi.jpg",
     "Year": 1962,
-    "When": "1962-11-02"
+    "When": "1962-11-02",
+    "BlackAndWhite": true
+  },
+  {
+    "Title": "Walk With Me",
+    "TitleOriginal": "Walk With Me",
+    "Language": "English",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.20,
+    "Minutes": 112,
+    "Watched": 1391,
+    "Fans": 3,
+    "Likes": 332,
+    "Id": "utGE",
+    "Poster": "/c864tah00ONApBMptfu4hFPU8dI.jpg",
+    "Year": 2021,
+    "When": "2021-03-20",
+    "BlackAndWhite": false
+  },
+  {
+    "Title": "Nine to Five",
+    "TitleOriginal": "Nine to Five",
+    "Language": "English",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.84,
+    "Minutes": 110,
+    "Watched": 102618,
+    "Fans": 697,
+    "Likes": 32468,
+    "Id": "1F2S",
+    "Poster": "/3nm6kWMFzxGtJb4UEuDB0lDWpcD.jpg",
+    "Year": 1980,
+    "When": "1980-12-18",
+    "BlackAndWhite": false
+  },
+  {
+    "Title": "Little Children",
+    "TitleOriginal": "Little Children",
+    "Language": "English",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.73,
+    "Minutes": 137,
+    "Watched": 70544,
+    "Fans": 147,
+    "Likes": 14221,
+    "Id": "28Ka",
+    "Poster": "/l2wTSP0Ifo9vY03nJEfkFBbT2S9.jpg",
+    "Year": 2006,
+    "When": "2006-10-06",
+    "BlackAndWhite": false
+  },
+  {
+    "Title": "Lifeboat",
+    "TitleOriginal": "Lifeboat",
+    "Language": "English",
+    "RatingSelf": 5,
+    "RatingLetterboxd": 3.82,
+    "Minutes": 96,
+    "Watched": 37596,
+    "Fans": 48,
+    "Likes": 8764,
+    "Id": "1Qpo",
+    "Poster": "/2QXpzBMJJtmH7JvVf0ZzENvgc1o.jpg",
+    "Year": 1944,
+    "When": "1944-01-28",
+    "BlackAndWhite": true
+  },
+  {
+    "Title": "The Chambermaid",
+    "TitleOriginal": "La Camarista",
+    "Language": "Spanish",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.62,
+    "Minutes": 102,
+    "Watched": 7744,
+    "Fans": 5,
+    "Likes": 1989,
+    "Id": "jPA2",
+    "Poster": "/5Dr1yp7540apLUtKU3n1MhE1f1z.jpg",
+    "Year": 2018,
+    "When": "2019-03-25",
+    "BlackAndWhite": false
+  },
+  {
+    "Title": "Ammonite",
+    "TitleOriginal": "Ammonite",
+    "Language": "English",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.05,
+    "Minutes": 118,
+    "Watched": 116863,
+    "Fans": 470,
+    "Likes": 21935,
+    "Id": "kQpQ",
+    "Poster": "/5lx4pUHWZoOKJWsVsvurRRNW9FK.jpg",
+    "Year": 2020,
+    "When": "2020-11-13",
+    "BlackAndWhite": false
+  },
+  {
+    "Title": "The Wild Robot",
+    "TitleOriginal": "The Wild Robot",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 4.24,
+    "Minutes": 102,
+    "Watched": 732892,
+    "Fans": 7313,
+    "Likes": 338220,
+    "Id": "IWFy",
+    "Poster": "/9w0Vh9eizfBXrcomiaFWTIPdboo.jpg",
+    "Year": 2024,
+    "When": "2024-09-12",
+    "BlackAndWhite": false
+  },
+  {
+    "Title": "The Exterminating Angel",
+    "TitleOriginal": "El \u00E1ngel exterminador",
+    "Language": "Spanish",
+    "RatingSelf": null,
+    "RatingLetterboxd": 4.17,
+    "Minutes": 93,
+    "Watched": 79490,
+    "Fans": 890,
+    "Likes": 25725,
+    "Id": "1nRS",
+    "Poster": "/qqZXHvBFxUpo8Pfbyvgh4SYMiWm.jpg",
+    "Year": 1962,
+    "When": "1962-05-16",
+    "BlackAndWhite": true
+  },
+  {
+    "Title": "Cat Across the Road",
+    "TitleOriginal": "Katt \u00F6ver v\u00E4gen",
+    "Language": "Swedish",
+    "RatingSelf": null,
+    "RatingLetterboxd": -1,
+    "Minutes": 14,
+    "Watched": 23,
+    "Fans": 0,
+    "Likes": 2,
+    "Id": "jAlQ",
+    "Poster": "/zJPUr7E0lCcGWxBgLU7DHGohoQJ.jpg",
+    "Year": 1937,
+    "When": "1937-08-30",
+    "BlackAndWhite": true
+  },
+  {
+    "Title": "Aisha",
+    "TitleOriginal": "Aisha",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.54,
+    "Minutes": 94,
+    "Watched": 2759,
+    "Fans": 6,
+    "Likes": 647,
+    "Id": "uWek",
+    "Poster": "/5tazlFOBWLxsFLdJbpZkRMwrMNz.jpg",
+    "Year": 2022,
+    "When": "2022-11-17",
+    "BlackAndWhite": false
   }
 ]
