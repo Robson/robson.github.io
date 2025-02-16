@@ -88,23 +88,57 @@ css-doodle {
     position: fixed;
     top: 0px;
     left: 0px;
-    height: 183px;
+    height: 182px;
     width: 325px;
-    background: black;
+    background: #888;
     background-position: center center;
     background-size: cover;
     z-index: -1000;
+    filter: grayscale(99%);
+}
+
+@keyframes turnToColour {
+    from {
+        filter: grayscale(99%);
+    }
+
+    to {
+        filter: grayscale(0%);
+    }
+}
+
+#backdrop:hover {
+    animation-name: turnToColour;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    background-color: transparent !important;
 }
 
 #backdrop.mirror {
     transform: scaleX(-1);
 }
 
-#backdrop.grey {
-    filter: grayscale(100%);
+#backdrop_details {
+    position: absolute;
+    top: 187px;
+    left: 4px;
+    width: 297px;
+    background: black;
+    padding: 5px;
+    color: white;
+    display: none;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 12px;
+    font-size: 90%;
+}
+
+#backdrop_link:hover + #backdrop_details {
+    display: block !important;
 }
 
 #buttons {
+    user-select: none;
     text-align: center;
     position: fixed;
     top: 185px;
@@ -465,7 +499,7 @@ button:active {
 
 /***** MOBILE *****/
 
-@media (max-height: 535px) {
+@media (max-height: 650px) {
     #backdrop {
         display: none;
     }
