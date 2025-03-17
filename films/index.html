@@ -2909,7 +2909,7 @@
             //$('body').append('<div class="info"><a target="_blank" href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '\'s Letterboxd</a>.</div>');
 
             showListRecent('Recently Watched', "Recently Watched <span class='subtitle'>starting with the most recent</span>", galleryAmount);
-            showTableRecent('Recently Watched', "Recently Watched <span class='subtitle'>starting with the most recent</span>", 10);
+            showTableRecent('Recently Watched', "Recently Watched <span class='subtitle'>starting with the most recent</span>", 20);
 
             createTooltipTriggers();
 
@@ -2947,7 +2947,11 @@
 			createTooltipTriggers();
 
 			deactivateAll();
-		}
+        }
+
+        function deleteRow(row) {
+            row.parentNode.removeChild(row);
+        }
 
 		function showTableRecent(listName, listTitle, amount = galleryAmount) {
 
@@ -2957,7 +2961,7 @@
 
 			createNewTable();
 
-			table.css('display', 'none');
+            table.css('display', 'none');
 
 			tbody.append('<tr class="topheader"><td colspan="5"><span style="font-weight:bold">Recently Watched</span> <span class="subtitle">(starting with the most recent)</span></td></tr>');
 			tbody.append('<tr class="bottomheader" style="font-weight:bold"><td>Title</td><td>Year</td><td>Rating</td><td>Language</td><td>Genre</td></tr>');
@@ -2965,13 +2969,13 @@
 			var listFilms = lbList.Entries.slice(-amount).reverse();
 
 			for (var film of listFilms) {
-				var html = '<tr>';
+                var html = '<tr onclick="deleteRow(this)">';
 				html += '<td><a title="' + film.Overview + '" href="https://boxd.it/' + film.LetterboxdIdentifier + '">' + film.FilmName + '</a></td>';
 				html += '<td>' + film.Year + '</td>';
 				//tbody.append('<td>' + film.Protagonist + '</td>');
 				var ratingDetail = '&nbsp;';
 				if (film.RatingSelf > 0) {
-					ratingDetail = '&#9670;'.repeat(film.RatingSelf);
+                    ratingDetail = '&#9670;'.repeat(film.RatingSelf) + '&#9671;'.repeat(5 - film.RatingSelf);
 				}
 				html += '<td>' + ratingDetail + '</td>';
 				var languageDetail = '&nbsp;';
@@ -2991,7 +2995,7 @@
 				}
 				//tbody.append('<tr style="color:grey"><td colspan="6">' + overviewDetails + '</td></tr>');
 				tbody.append(html);
-			}
+            }
 
 			table.tablesorter({
 				widgets: ['columns'],
