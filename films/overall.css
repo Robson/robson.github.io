@@ -279,6 +279,11 @@ p {
     pointer-events: none;
 }
 
+#tt.big {
+    text-align: left;
+    max-width: 500px;
+}
+
 #tooltip_text {
     margin: 5px 5px 5px;
     padding: 0;

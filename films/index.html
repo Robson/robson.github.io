@@ -134,6 +134,8 @@
         </div>
         <div class="title">Other</div>
         <span class="displayer inline" onmousedown="javascript:showRecent()">Recently Watched</span>
+        &#9670;
+        <span class="displayer inline" onmousedown="javascript:showRated()">All Rated Films</span>
     </div>
 
 	<div id="tt" style="display: none">
@@ -219,7 +221,13 @@
 
 		function createTooltipTriggers() {
 			d3.selectAll('.ttt')
-				.on("mouseover", function (d, i) {
+                .on("mouseover", function (d, i) {
+                    if ($(this).attr('data-tooltip-size') == 'big') {
+                        $('#tt').addClass('big')
+                    } else {
+                        d3.select('#tt')
+                        $('#tt').removeClass('big')
+                    }
 					d3.select('#tooltip_text').html($(this).attr('data-tooltip'));
 				})
 				.on("mouseout", function () {
@@ -237,8 +245,6 @@
 					var y = d3.event.pageY + 10;
 					var y = d3.event.pageY - (+tt.style('height').replace('px', '') + 20);
 
-					//(y + 10 + +tt.style('height').replace('px', '')) - window.scrollY > $(window.top).height()
-
 					if (y - window.scrollY < 0) {
 						y = d3.event.pageY + 10;
 					}
@@ -246,15 +252,6 @@
 					tt.style('left', Math.max(0, Math.floor(x - (+tt.style('width').replace('px', '') / 2))) + 'px');
 					tt.style('top', Math.floor(y + 5) + 'px');
 					tt.style('opacity', '1');
-
-					/*
-					console.log('----');
-					console.log(document.body.clientHeight);
-					console.log(y)
-					console.log(tt.style('height'));
-					console.log($(window.top).height());
-					console.log();
-					*/
 				});
 		}
 
@@ -2499,6 +2496,46 @@
             });
         }
 
+        function showRated() {
+
+            var alphabetical = films.slice().sort((a, b) => a.Title > b.Title)
+
+            resetView();
+
+            for (var s = 5; s > 0; s--) {
+
+                createGallery();
+                var gallery = $('.gallery').last();
+
+                gallery.append('<div class="title">' + '&#9670;'.repeat(s) + '</div>');
+                gallery.append('<div class="inside"></div>');
+                var insideGallery = $('.gallery .inside').last();
+
+                var displayed = 0;
+                for (var index in alphabetical) {
+                    var film = alphabetical[index];
+                    if (film.RatingSelf == s) {
+                        var title = film.Title;
+                        if (film.TitleOriginal != film.Title) {
+                            title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
+                        }
+                        insideGallery.append(
+                            '<div class="item ttt" data-tooltip="' + title + '">' +
+                            '<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
+                            '<div class="details">' + makeFilmDetails(film) + '</div>' +
+                            '</a></div>');
+                        displayed++;
+                    }
+                }
+
+            }
+
+            deactivateAll();
+            $(event.target).addClass('active');
+
+            createTooltipTriggers();
+        }
+
         // === Letterboxd ===
 
         function showFans() {
@@ -2724,9 +2761,15 @@
                 hours = Math.floor(person.Minutes / 60);
                 minutes = person.Minutes - (hours * 60);
                 var url = 'https://letterboxd.com/' + data.Username + '/films/with/' + job.toLowerCase() + '/' + urlSafe(person.FullName.replace(/ /g, '-').toLowerCase()) + '/by/name/size/large/';
+                var tooltip = []
+                for (var filmIndex of person.Films) {
+                    var film = films[filmIndex]
+                    tooltip.push('(' + film.Year + ') ' + film.Title);
+                }
+                tooltip.sort()
                 insideGallery.append(
                     '<div class="item' + (person.Amount == minimum ? ' lowlight' : '') + '">' +
-                    '<div class="poster"><a target="_blank" href="' + url + '">' +
+                    '<div class="poster ttt" data-tooltip-size="big" data-tooltip="' + tooltip.join('<br>') + '"><a target="_blank" href="' + url + '">' +
                     (person.Poster ? '<img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + person.Poster + '">' : '<div class="empty">no picture available</div>') +
                     '</a></div > ' +
                     '<div class="details"><div class="ttt" data-tooltip="Total Time: ' + hours + 'h ' + minutes + 'm">×' + person.Amount + '</div><a target="_blank" href="' + url + '">' + person.FullName + '</a></div>' +
