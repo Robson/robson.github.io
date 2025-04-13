@@ -329,7 +329,7 @@ p {
 .number {
     font-size: 300%;
     color: #222;
-    margin: 0 8px 7px;
+    margin: 0 8px 5px;
     text-align: center;
 }
 
@@ -378,7 +378,7 @@ p {
     display: inline-block;
     width: 131px;
     margin-right: 0;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
     text-align: center;
 }
 
@@ -399,7 +399,7 @@ p {
 }
 
 .gallery .item .details {
-    margin: 5px 0 3px;
+    margin: 3px 0 0;
     font-size: 12px;
 }
 

@@ -66,18 +66,16 @@
         <span class="displayer inline" onmousedown="javascript:showLengthStats()">Length</span>
         &#9670;
         <span class="displayer inline" onmousedown="javascript:showStudios()">Studio</span>
+        <br />
+        <span class="displayer inline" onmousedown="javascript:showThemes()">Theme</span>
         &#9670;
-        <div class="initially_hidden">
-            <span class="displayer inline" onmousedown="javascript:showThemes()">Theme</span>
-            &#9670;
-        </div>
         <span class="displayer inline" onmousedown="javascript:showTitles()">Title</span>
         <div class="title">Letterboxd</div>
         <span class="displayer inline" onmousedown="javascript:showFans()">Fans</span>
         &#9670;
         <span class="displayer inline" onmousedown="javascript:showLikes()">Likes</span>
         &#9670;
-        <span class="displayer inline" onmousedown="javascript:showRatings()">Rating</span>
+        <span class="displayer inline" onmousedown="javascript:showRatings()">Ratings</span>
         &#9670;
         <span class="displayer inline" onmousedown="javascript:showPopularity()">Watches</span>
         <div class="title">People</div>
@@ -132,6 +130,7 @@
             &#9670;
             <span class="displayer inline ttt" data-tooltip="Unknown" onmousedown="javascript:showEntireCastUnknown()">U</span>
         </div>
+        <span class="displayer inline" onmousedown="javascript:showPeopleCombinations()">Combinations</span>
         <div class="title">Other</div>
         <span class="displayer inline" onmousedown="javascript:showRecent()">Recently Watched</span>
         &#9670;
@@ -168,14 +167,17 @@
 
 		tt.on('mousedown', function () { tt.style('display', 'none'); });
 
-        function makeFilmDetails(film, specificDate=false) {
+        function makeFilmDetails(film, specificDate = false, includeRating = true) {
+            console.log(includeRating)
             var details = (specificDate ? film.When : film.Year) + '<br/>';
-            if (film.RatingSelf > 0) {
-                details += '&#9670;'.repeat(film.RatingSelf);
-            } else {
-                details += '&nbsp;';
+            if (includeRating) {
+                if (film.RatingSelf > 0) {
+                    details += '&#9670;'.repeat(film.RatingSelf);
+                } else {
+                    details += '&nbsp;';
+                }
+                details += '<br/>';
             }
-            details += '<br/>';
             if (film.Language.length == 0) {
                 details += '<em>Silent</em>';
             } else if (film.Language != "English") {
@@ -192,6 +194,8 @@
             switch (language) {
                 case 'mandarin':
                     return 'chinese';
+                case '':
+                    return 'No Spoken Language';
                 default:
                     return language;
             }
@@ -543,15 +547,23 @@
             resetView();
             makeInfo(
                 'Hello',
-                'Click a section ' + (window.innerWidth > 900 ? 'on the left' : 'above') + ' to explore the statistics for <a href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '\'s</a> ' + data.TotalFilms.toLocaleString() + ' <a href="https://letterboxd.com/' + data.Username + '/films/"> watched films</a>.<br/> The statistics were generated on ' + data.LastUpdated + '.')
+                'Click a section ' + (window.innerWidth > 900 ? 'on the left' : 'above') + ' to explore the statistics for <a href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '\'s</a> ' + films.length.toLocaleString() + ' <a href="https://letterboxd.com/' + data.Username + '/films/"> watched films</a>.<br/> The statistics were generated on ' + data.LastUpdated + '.')
 		}
 
         function showFilmsPerYear() {
 
             resetView();
 
+            var filmsWatchedPerYear = {}
+            for (var year = 1870; year <= new Date().getFullYear(); year++) {
+                filmsWatchedPerYear[year] = 0
+            }
+            for (var film of films) {
+                filmsWatchedPerYear[film.Year]++
+            }
+
             if (documentWidth > 820) {
-                showFilmsPerYearChart();
+                showFilmsPerYearChart(filmsWatchedPerYear);
             }
 
             $('body').append('<div class="boxes"></div>');
@@ -572,7 +584,7 @@
                     if (yearsWithoutFilms.includes(a + b)) {
                     } else if (a + b > thisYear) {
                     } else {
-                        var hasFilms = data.FilmsWatchedPerYear[a + b] > 0;
+                        var hasFilms = filmsWatchedPerYear[a + b] > 0;
                         if (hasFilms) {
                             watched++;
                         } else {
@@ -593,7 +605,7 @@
                         } else if (a + b > thisYear) {
                             output += '<td>&nbsp;</td>';
                         } else {
-                            var hasFilms = data.FilmsWatchedPerYear[a + b] > 0;
+                            var hasFilms = filmsWatchedPerYear[a + b] > 0;
                             if (hasFilms) {
                                 output += '<td style="color: #ddd">' + (a + b) + '</td>';
                             } else {
@@ -616,9 +628,9 @@
             $(event.target).addClass('active');
         }
 
-        function showFilmsPerYearChart() {
+        function showFilmsPerYearChart(filmsWatchedPerYear) {
 
-            $('body').append('<div id="outside"><div class="title">Films Watched by Release Year <span class="subtitle">capped at 40</span></div><figure class="highcharts-figure"><div id="container"></div></figure></div>');
+            $('body').append('<div id="outside"><div class="title">Films Watched by Release Year</div><figure class="highcharts-figure"><div id="container"></div></figure></div>');
 
             var cats = []
             var groups = []
@@ -635,7 +647,7 @@
                 series.data = [];
                 for (var b = 0; b < cats.length; b++) {
                     var year = 1900 + (b * 10) + a;
-                    series.data.push(data.FilmsWatchedPerYear[year]);
+                    series.data.push(filmsWatchedPerYear[year]);
                 }
                 groups.push(series);
             }
@@ -644,6 +656,7 @@
                 chart: {
                     type: 'column',
                     width: 730,
+                    height: 450,
                     spacingLeft: 0,
                     marginLeft: 70,
                 },
@@ -673,7 +686,6 @@
                 },
                 yAxis: {
                     min: 0,
-                    max: 40,
                     plotLines: [{
                         color: '#ddd',
                         value: 0,
@@ -734,12 +746,21 @@
 
             resetView();
 
-            if (documentWidth > 820) {
-                showFilmsPerDecadeChart();
+            var filmsWatchedPerDecade = {}
+            for (var decade = 1870; decade <= new Date().getFullYear(); decade+=10) {
+                filmsWatchedPerDecade[decade] = { Count: 0, RatingCount: 0, RatingTotal: 0 }
+            }
+            for (var film of films) {
+                filmsWatchedPerDecade[Math.floor(film.Year / 10) * 10].Count++
+                if (film.RatingSelf) {
+                    filmsWatchedPerDecade[Math.floor(film.Year / 10) * 10].RatingCount++
+                    filmsWatchedPerDecade[Math.floor(film.Year / 10) * 10].RatingTotal += film.RatingSelf
+                }
             }
 
-            //$('body').append('<div class="boxes"></div>');
-            //$('.boxes').append(makeBox(Object.values(data.FilmsWatchedPerDecade).filter(x => x.Count > 0).length, 'Watched Decades'));
+            if (documentWidth > 820) {
+                showFilmsPerDecadeChart(filmsWatchedPerDecade);
+            }
 
             createNewTable();
 
@@ -751,45 +772,45 @@
                 thead.append('<tr class="bottomheader"><th>Decade</th><th>Σ</th><th>%</th><th>&#x25AC;</th><th>Average</th><th>&#x25AC;</th></tr>');
             }
 
-            var highest = data.TotalFilms, total = 0;
-            for (var decade in data.FilmsWatchedPerDecade) {
-                highest = Math.max(highest, data.FilmsWatchedPerDecade[decade].Count);
-                total += data.FilmsWatchedPerDecade[decade].Count;
+            var highest = films.length, total = 0;
+            for (var decade in filmsWatchedPerDecade) {
+                highest = Math.max(highest, filmsWatchedPerDecade[decade].Count);
+                total += filmsWatchedPerDecade[decade].Count;
             }
 
             var highestRating = 5;
-            for (var decade in data.FilmsWatchedPerDecade) {
+            for (var decade in filmsWatchedPerDecade) {
                 var rating = "";
-                if (data.FilmsWatchedPerDecade[decade].RatingCount > 0) {
-                    rating = (data.FilmsWatchedPerDecade[decade].RatingTotal / data.FilmsWatchedPerDecade[decade].RatingCount).toFixed(1);
+                if (filmsWatchedPerDecade[decade].RatingCount > 0) {
+                    rating = (filmsWatchedPerDecade[decade].RatingTotal / filmsWatchedPerDecade[decade].RatingCount).toFixed(1);
                     highestRating = Math.max(rating, highestRating);
                 }
             }
 
-            for (var decade in data.FilmsWatchedPerDecade) {
+            for (var decade in filmsWatchedPerDecade) {
                 if (+decade >= 1900) {
                     var rating = "";
-                    if (data.FilmsWatchedPerDecade[decade].RatingCount > 0) {
-                        rating = (data.FilmsWatchedPerDecade[decade].RatingTotal / data.FilmsWatchedPerDecade[decade].RatingCount).toFixed(1);
+                    if (filmsWatchedPerDecade[decade].RatingCount > 0) {
+                        rating = (filmsWatchedPerDecade[decade].RatingTotal / filmsWatchedPerDecade[decade].RatingCount).toFixed(1);
                     }
 
-                    var watchedPercent = (data.FilmsWatchedPerDecade[decade].Count / total) * 100;
+                    var watchedPercent = (filmsWatchedPerDecade[decade].Count / total) * 100;
 
-                    var lowBase = data.FilmsWatchedPerDecade[decade].RatingCount < sufficientBase;
+                    var lowBase = filmsWatchedPerDecade[decade].RatingCount < sufficientBase;
 
                     var middle = '';
                     if (documentWidth >= 500) {
                         middle =
-                            '<td class="' + (lowBase ? 'lowbase ' : '') + 'right ttt" data-tooltip="Based on ' + data.FilmsWatchedPerDecade[decade].RatingCount + ' rated film(s)."><span>' + rating + '</span></td>' +
+                            '<td class="' + (lowBase ? 'lowbase ' : '') + 'right ttt" data-tooltip="Based on ' + filmsWatchedPerDecade[decade].RatingCount + ' rated film(s)."><span>' + rating + '</span></td>' +
                             '<td class="' + (lowBase ? 'lowbase ' : '') + 'chart" data-value="' + rating + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((rating / highestRating) * 100) + 'px">&nbsp;</span></span></td>';
                     }
 
                     tbody.append(
                         '<tr>' +
                         '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/decade/' + decade + 's/by/name/size/large/">' + decade + 's</a></td>' +
-                        '<td class="right">' + data.FilmsWatchedPerDecade[decade].Count + '</td>' +
-                        '<td class="right ttt" data-tooltip="' + watchedPercent.toFixed(2) + '%" data-value="' + data.FilmsWatchedPerDecade[decade].Count + '">' + watchedPercent.toFixed(0) + '%</td>' +
-                        '<td class="chart" data-value="' + data.FilmsWatchedPerDecade[decade].Count + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.FilmsWatchedPerDecade[decade].Count / highest) * 100) + 'px">&nbsp;</span></span></td>' +
+                        '<td class="right">' + filmsWatchedPerDecade[decade].Count + '</td>' +
+                        '<td class="right ttt" data-tooltip="' + watchedPercent.toFixed(2) + '%" data-value="' + filmsWatchedPerDecade[decade].Count + '">' + watchedPercent.toFixed(0) + '%</td>' +
+                        '<td class="chart" data-value="' + filmsWatchedPerDecade[decade].Count + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((filmsWatchedPerDecade[decade].Count / highest) * 100) + 'px">&nbsp;</span></span></td>' +
                         middle +
                         '</tr>');
                 }
@@ -826,6 +847,9 @@
                 cssHeaderRow: "tablesorter-headerRow"
             });
 
+            $('body').append('<div class="boxes"></div>');
+            $('.boxes').append(makeBox(Object.values(filmsWatchedPerDecade).filter(x => x.Count > 0).length, 'Watched Decades'));
+
             createTooltipTriggers();
 
             deactivateAll();
@@ -834,7 +858,7 @@
             }
         }
 
-        function showFilmsPerDecadeChart() {
+        function showFilmsPerDecadeChart(filmsWatchedPerDecade) {
 
             $('body').append('<div id="outside"><div class="title">Films Watched by Release Decade</div><figure class="highcharts-figure"><div id="container"></div></figure></div>');
 
@@ -843,13 +867,14 @@
 
             for (var a = 1900; a <= new Date().getFullYear(); a += 10) {
                 cats.push(a + 's')
-                values.push(data.FilmsWatchedPerDecade[a].Count)
+                values.push(filmsWatchedPerDecade[a].Count)
             }
 
             Highcharts.chart('container', {
                 chart: {
                     type: 'column',
-                    width: 740
+                    width: 740,
+                    height: 450
                 },
                 title: {
                     text: null,
@@ -934,9 +959,11 @@
             gallery.append('<div class="inside"></div>');
             var insideGallery = $('.gallery .inside');
 
+            var filmsEarliest = films.slice().filter(a => a.Minutes >= 60).sort((a, b) => a.Title > b.Title).sort((a, b) => a.When > b.When).map(a => a.Id).slice(0, 100)
+
             var displayed = 0;
-            for (var index of data.OldestReleasedFilms) {
-                var film = films[index];
+            for (var id of filmsEarliest.slice(0, galleryAmount)) {
+                var film = films.find(a => a.Id == id);
                 var title = film.Title;
                 if (film.TitleOriginal != film.Title) {
                     title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
@@ -953,11 +980,11 @@
 
             createNewTable();
 
-            thead.append('<tr class="topheader"><th colspan="2">Top ' + Object.values(data.OldestReleasedFilms).length + ' Earliest Released Feature Films</th></tr>');
+            thead.append('<tr class="topheader"><th colspan="2">Top ' + filmsEarliest.length + ' Earliest Released Feature Films</th></tr>');
             thead.append('<tr class="bottomheader"><th>Date</th><th>Title</th></tr>');
 
-            for (var index of data.OldestReleasedFilms) {
-                var film = films[index];
+            for (var id of filmsEarliest) {
+                var film = films.find(a => a.Id == id);
                 var tooltip = '';
                 if (film.Poster.length > 0) {
                     tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>"';
@@ -1004,9 +1031,11 @@
             gallery.append('<div class="inside"></div>');
             var insideGallery = $('.gallery .inside');
 
+            var filmsNewest = films.slice().filter(a => a.Minutes >= 60).sort((a, b) => a.Title > b.Title).sort((a, b) => b.When > a.When).map(a => a.Id).slice(0, 100)
+
             var displayed = 0;
-            for (var index of data.NewestReleasedFilms) {
-                var film = films[index];
+            for (var id of filmsNewest.slice(0, galleryAmount)) {
+                var film = films.find(a => a.Id == id);
                 var title = film.Title;
                 if (film.TitleOriginal != film.Title) {
                     title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
@@ -1023,11 +1052,11 @@
 
             createNewTable();
 
-            thead.append('<tr class="topheader"><th colspan="2">Top ' + Object.values(data.OldestReleasedFilms).length + ' Newest Released Feature Films</th></tr>');
+            thead.append('<tr class="topheader"><th colspan="2">Top ' + filmsNewest.length + ' Newest Released Feature Films</th></tr>');
             thead.append('<tr class="bottomheader"><th>Date</th><th>Title</th></tr>');
 
-            for (var index of data.NewestReleasedFilms) {
-                var film = films[index];
+            for (var id of filmsNewest) {
+                var film = films.find(a => a.Id == id);
                 var tooltip = '';
                 if (film.Poster.length > 0) {
                     tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>"';
@@ -1070,8 +1099,16 @@
 
             resetView();
 
+            var filmsWatchedPerYear = {}
+            for (var year = 1870; year <= new Date().getFullYear(); year++) {
+                filmsWatchedPerYear[year] = 0
+            }
+            for (var film of films) {
+                filmsWatchedPerYear[film.Year]++
+            }
+
             if (documentWidth > 820) {
-                showBAWChart();
+                showBAWChart(filmsWatchedPerYear);
             }
 
             $('body').append('<div class="boxes"></div>');
@@ -1103,9 +1140,9 @@
             createTooltipTriggers();
         }
 
-        function showBAWChart() {
+        function showBAWChart(filmsWatchedPerYear) {
 
-            $('body').append('<div id="outside"><div class="title">Black & White Films Watched by Release Year <span class="subtitle">capped at 40</span></div><figure class="highcharts-figure"><div id="container"></div></figure></div>');
+            $('body').append('<div id="outside"><div class="title">Black & White Films Watched by Release Year</div><figure class="highcharts-figure"><div id="container"></div></figure></div>');
 
             var cats = []
             var groups = []
@@ -1130,7 +1167,7 @@
                 seriesAll.pointPadding = 0;
                 for (var b = 0; b < cats.length; b++) {
                     var year = 1900 + (b * 10) + a;
-                    seriesAll.data.push(data.FilmsWatchedPerYear[year]);
+                    seriesAll.data.push(filmsWatchedPerYear[year]);
                     seriesBAW.data.push(films.filter(a => a.Year == year && a.BlackAndWhite == true).length);
                 }
                 groups.push(seriesAll);
@@ -1141,6 +1178,7 @@
                 chart: {
                     type: 'column',
                     width: 730,
+                    height: 450,
                     spacingLeft: 0,
                     marginLeft: 70,
                 },
@@ -1170,7 +1208,6 @@
                 },
                 yAxis: {
                     min: 0,
-                    max: 40,
                     plotLines: [{
                         color: '#ddd',
                         value: 0,
@@ -1253,13 +1290,13 @@
                 thead.append('<tr class="bottomheader"><th>Name</th><th>Films Σ</th><th>Films %</th><th>&#x25AC;</th></tr>');
             }
 
-            var highest = data.TotalFilms;
+            var highest = films.length;
             for (var country in data.FilmsPerCountryOrigin) {
                 highest = Math.max(highest, data.FilmsPerCountryOrigin[country]);
             }
 
             for (var country in data.FilmsPerCountryOrigin) {
-                var percent = (data.FilmsPerCountryOrigin[country] / data.TotalFilms) * 100;
+                var percent = (data.FilmsPerCountryOrigin[country] / films.length) * 100;
                 var bar = '';
                 if (documentWidth >= 500) {
                     bar = '<td class="chart" data-value="' + data.FilmsPerCountryOrigin[country] + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.FilmsPerCountryOrigin[country] / highest) * 100) + 'px">&nbsp;</span></span></td>';
@@ -1319,13 +1356,13 @@
                 thead.append('<tr class="bottomheader"><th>Name</th><th>Films Σ</th><th>Films %</th><th>&#x25AC;</th></tr>');
             }
 
-            var highest = data.TotalFilms;
+            var highest = films.length;
             for (var country in data.FilmsPerCountryProduction) {
                 highest = Math.max(highest, data.FilmsPerCountryProduction[country]);
             }
 
             for (var country in data.FilmsPerCountryProduction) {
-                var percent = (data.FilmsPerCountryProduction[country] / data.TotalFilms) * 100;
+                var percent = (data.FilmsPerCountryProduction[country] / films.length) * 100;
                 var bar = '';
                 if (documentWidth >= 500) {
                     bar = '<td class="chart" data-value="' + data.FilmsPerCountryProduction[country] + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.FilmsPerCountryProduction[country] / highest) * 100) + 'px">&nbsp;</span></span></td>';
@@ -1644,8 +1681,23 @@
 
             resetView();
 
+            var languages = []
+            for (var index in films) {
+                var film = films[index]
+                var lang = film.Language || 'No Spoken Language'
+                var where = languages.findIndex(a => a[0] == lang)
+                if (where >= 0) {
+                    languages[where][1]++
+                    languages[where][2].push(index)
+                } else {
+                    languages.push([lang, 1, [index]])
+                }
+            }
+
+            languages = languages.sort((a, b) => a[0] > b[0]).sort((a, b) => a[1] - b[1])
+
             $('body').append('<div class="boxes"></div>');
-            $('.boxes').append(makeBox(Object.values(data.FilmsPerLanguage).length, 'Primary Languages'));
+            $('.boxes').append(makeBox(languages.length, 'Primary Languages'));
 
             createNewTable();
 
@@ -1655,22 +1707,33 @@
                 thead.append('<tr><th>Primary Language</th><th>Films #</th><th>Films %</th><th>&#x25AC;</th></tr>');
             }
 
-            var highest = data.TotalFilms;
-            for (var language in data.FilmsPerLanguage) {
-                highest = Math.max(highest, data.FilmsPerLanguage[language]);
+            var highest = 0;
+            for (var language of languages) {
+                highest = Math.max(highest, language[1]);
             }
+            highest = films.length
 
-            for (var language in data.FilmsPerLanguage) {
-                var percent = (data.FilmsPerLanguage[language] / data.TotalFilms) * 100;
+            for (var language of languages) {
+                var percent = (language[1] / films.length) * 100;
                 var bar = '';
                 if (documentWidth >= 500) {
-                    bar = '<td class="chart" data-value="' + data.FilmsPerLanguage[language] + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.FilmsPerLanguage[language] / highest) * 100) + 'px">&nbsp;</span></span></td>';
+                    bar = '<td class="chart" data-value="' + language[1] + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((language[1] / highest) * 100) + 'px">&nbsp;</span></span></td>';
+                }
+                var tooltip = []
+                for (var filmIndex of language[2]) {
+                    var film = films[filmIndex]
+                    tooltip.push('(' + film.Year + ') ' + film.Title);
+                }                
+                tooltip.sort()
+                tooltip = tooltip.slice(0, galleryAmount)
+                if (tooltip.length < language[2].length) {
+                    tooltip.push('<em>+' + (language[2].length - tooltip.length) + ' more...</em>');
                 }
                 tbody.append(
                     '<tr>' +
-                    '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/language/' + letterboxdLanguage(language) + '/by/name/size/large/">' + language + '</a></td>' +
-                    '<td class="right">' + data.FilmsPerLanguage[language] + '</td>' +
-                    '<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerLanguage[language] + '">' + percent.toFixed(0) + '%</td>' +
+                    '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/language/' + letterboxdLanguage(language[0]) + '/by/name/size/large/">' + (language[0] || 'No Spoken Language') + '</a></td>' +
+                    '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltip.join('<br>') + '">' + language[1] + '</td>' +
+                    '<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + language[1] + '">' + percent.toFixed(0) + '%</td>' +
                     bar +
                     '</tr>');
             }
@@ -1718,9 +1781,11 @@
             gallery.append('<div class="inside"></div>');
             var insideGallery = $('.gallery .inside');
 
+            var filmsByLength = films.slice().sort((a, b) => a.Title > b.Title).sort((a, b) => b.Minutes - a.Minutes).map(a => a.Id).slice(0, galleryAmount)
+
             var displayed = 0;
-            for (var index of data.LongestFilms) {
-                var film = films[index];
+            for (var id of filmsByLength) {
+                var film = films.find(a => a.Id == id);
                 var title = film.Title;
                 if (film.TitleOriginal != film.Title) {
                     title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
@@ -1738,19 +1803,21 @@
                     break;
             }
 
-            var len = data.TotalMinutes / data.FilmsWithRuntime;
-            len += 0.5; // this accounts for all film times being rounded down to the minute
-            var seconds = len % 1;
-            len = Math.floor(len);
-            var lenLabel =
-                Math.floor(len / 60) + '<span style="opacity:0.333">h</span> ' +
-                ((len % 60) + '').padStart(2, '0') + '<span style="opacity:0.333">m</span> ' +
-                (Math.floor(60 * seconds) + '').padStart(2, '0') + '<span style="opacity:0.333">s</span>';
+            var filmsWithRuntime = 0, totalMinutes = 0
+            var filmsWithRuntimeAll = 0, totalMinutesAll = 0 
 
-            //$('body').append('<div class="boxes"></div>');
-            //$('.boxes').append(makeBox(lenLabel, '&VeryThinSpace;Average Film Length (Including Short Films)&VeryThinSpace;'));
+            for (var film of films) {
+                if (film.Minutes > 60) {
+                    filmsWithRuntime++
+                    totalMinutes += film.Minutes
+                }
+                if (film.Minutes > 0) {
+                    filmsWithRuntimeAll++
+                    totalMinutesAll += film.Minutes
+                }
+            }
 
-            var len = data.TotalMinutesFull / data.FilmsWithRuntimeFull;
+            var len = totalMinutes / filmsWithRuntime;
             len += 0.5; // this accounts for all film times being rounded down to the minute
             var seconds = len % 1;
             len = Math.floor(len);
@@ -1766,12 +1833,12 @@
 
             thead.append('<tr><th>Stat</th><th class="right">Amount</th></tr>');
 
-            //tbody.append('<tr><td>Total Films</td><td class="right">' + data.TotalFilms + '</td></tr>');
+            //tbody.append('<tr><td>Total Films</td><td class="right">' + films.length + '</td></tr>');
             //tbody.append('<tr class="breaker"><td>Total Rated Films</td><td class="right">' + data.RatedFilms + '</td></tr>');
-            tbody.append('<tr><td>Watched Minutes</td><td class="right">' + data.TotalMinutes.toLocaleString() + '</td></tr>');
-            tbody.append('<tr><td>Watched Hours</td><td class="right">' + Math.round(data.TotalMinutes / 60).toLocaleString() + '</td></tr>');
-            tbody.append('<tr><td>Watched Days</td><td class="right">' + Math.round(data.TotalMinutes / 60 / 24).toLocaleString() + '</td></tr>');
-            tbody.append('<tr class="breaker"><td>Watched Weeks</td><td class="right">' + Math.round(data.TotalMinutes / 60 / 24 / 7).toLocaleString() + '</td></tr>');
+            tbody.append('<tr><td>Watched Minutes</td><td class="right">' + totalMinutesAll.toLocaleString() + '</td></tr>');
+            tbody.append('<tr><td>Watched Hours</td><td class="right">' + Math.round(totalMinutesAll / 60).toLocaleString() + '</td></tr>');
+            tbody.append('<tr><td>Watched Days</td><td class="right">' + Math.round(totalMinutesAll / 60 / 24).toLocaleString() + '</td></tr>');
+            tbody.append('<tr class="breaker"><td>Watched Weeks</td><td class="right">' + Math.round(totalMinutesAll / 60 / 24 / 7).toLocaleString() + '</td></tr>');
             //tbody.append('<tr><td>Average Film Length&nbsp;</td><td class="right">&nbsp;' + lenLabel + '</td></tr>');
 
             createNewTable();
@@ -1782,7 +1849,7 @@
                 thead.append('<tr><th>Length</th><th>Films Σ</th><th>Films %</th><th>&#x25AC;</th></tr>');
             }
 
-            var highest = data.FilmsWithRuntime, total = 0;
+            var highest = filmsWithRuntimeAll, total = 0;
             for (var thirty in data.FilmsPerThirtyMinutes) {
                 highest = Math.max(highest, data.FilmsPerThirtyMinutes[thirty]);
             }
@@ -1795,7 +1862,7 @@
                     Math.floor(number / 60) + "h" + (number % 60 == 0 ? '00' : '30') + "m" +
                     " to " +
                     Math.floor(number / 60) + "h" + (number % 60 == 0 ? '29' : '59') + "m";
-                var percent = (data.FilmsPerThirtyMinutes[thirty] / data.TotalFilms) * 100;
+                var percent = (data.FilmsPerThirtyMinutes[thirty] / films.length) * 100;
                 var bar = '';
                 if (data.FilmsPerThirtyMinutes[thirty] == 0) {
                     if (!isEmpty) {
@@ -1902,7 +1969,8 @@
             Highcharts.chart('container', {
                 chart: {
                     type: 'column',
-                    width: '802',
+                    width: 802,
+                    height: 450,
                     spacingLeft: 100,
                     marginLeft: 70,
                 },
@@ -2224,9 +2292,11 @@
             thead.append('<tr class="topheader"><th colspan="2">Top ' + galleryAmount + ' Longest Titles</th></tr>');
             thead.append('<tr class="bottomheader"><th>Year</th><th>Title</th></tr>');
 
+            var filmsLongestTitles = films.slice().sort((a, b) => a.Title > b.Title).sort((a, b) => b.Title.length > a.Title.length).map(a => a.Id).slice(0, galleryAmount)
+
             var displayed = 0;
-            for (var index of data.LongestTitleFilms) {
-                var film = films[index];
+            for (var id of filmsLongestTitles) {
+                var film = films.find(a => a.Id == id);
                 var tooltip = '';
                 if (film.Poster && film.Poster.length > 0) {
                     tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>"';
@@ -2258,9 +2328,11 @@
             thead.append('<tr class="topheader"><th colspan="2">Titles: 3 Characters or Fewer</th></tr>');
             thead.append('<tr class="bottomheader"><th>Year</th><th style="width:200px;">Title</th></tr>');
 
+            var filmsShortestTitles = films.slice().filter(a => a.Title.length <= 3).sort((a, b) => a.Title > b.Title).sort((a, b) => a.Title.length > b.Title.length).map(a => a.Id)
+
             displayed = 0;
-            for (var index of data.ShortestTitleFilms) {
-                var film = films[index];
+            for (var id of filmsShortestTitles) {
+                var film = films.find(a => a.Id == id);
                 var tooltip = '';
                 if (film.Poster && film.Poster.length > 0) {
                     tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>"';
@@ -2549,9 +2621,11 @@
             gallery.append('<div class="inside"></div>');
             var insideGallery = $('.gallery .inside');
 
+            var filmsMostFans = films.slice().filter(a => a.Minutes >= 60).sort((a, b) => a.Title > b.Title).sort((a, b) => b.Fans - a.Fans).map(a => a.Id).slice(0, galleryAmount)
+
             var displayed = 0;
-            for (var index of data.HighestFansFilms) {
-                var film = films[index];
+            for (var id of filmsMostFans) {
+                var film = films.find(a => a.Id == id);
                 var title = film.Title;
                 if (film.TitleOriginal != film.Title) {
                     title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
@@ -2587,9 +2661,11 @@
             gallery.append('<div class="inside"></div>');
             var insideGallery = $('.gallery .inside');
 
+            var filmsMostLikes = films.slice().filter(a => a.Minutes >= 60).sort((a, b) => a.Title > b.Title).sort((a, b) => b.Likes - a.Likes).map(a => a.Id).slice(0, galleryAmount)
+
             var displayed = 0;
-            for (var index of data.HighestLikesFilms) {
-                var film = films[index];
+            for (var id of filmsMostLikes) {
+                var film = films.find(a => a.Id == id);
                 var title = film.Title;
                 if (film.TitleOriginal != film.Title) {
                     title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
@@ -2613,16 +2689,22 @@
         function showRatings() {
 
             resetView();
+
+            var filmsHighestRated = films.slice().filter(a => a.Minutes >= 60).sort((a, b) => a.Title > b.Title).sort((a, b) => b.RatingLetterboxd - a.RatingLetterboxd).map(a => a.Id).slice(0, galleryAmount)
+            var filmsLowestRated = films.slice().filter(a => a.Minutes >= 60).filter(a => a.RatingLetterboxd > 0).sort((a, b) => a.Title > b.Title).sort((a, b) => a.RatingLetterboxd - b.RatingLetterboxd).map(a => a.Id).slice(0, galleryAmount)
+
+            var filmsDifferenceRatedPositive = films.slice().filter(a => a.Minutes >= 60).filter(a => a.RatingSelf > 0 && a.RatingLetterboxd > 0 && a.RatingSelf > a.RatingLetterboxd).sort((a, b) => a.Title > b.Title).sort((a, b) => (a.RatingLetterboxd - a.RatingSelf) - (b.RatingLetterboxd - b.RatingSelf)).map(a => a.Id).slice(0, galleryAmount)
+            var filmsDifferenceRatedNegative = films.slice().filter(a => a.Minutes >= 60).filter(a => a.RatingSelf > 0 && a.RatingLetterboxd > 0 && a.RatingSelf < a.RatingLetterboxd).sort((a, b) => a.Title > b.Title).sort((a, b) => (b.RatingLetterboxd - b.RatingSelf) - (a.RatingLetterboxd - a.RatingSelf)).map(a => a.Id).slice(0, galleryAmount)
+
             createGallery();
             var gallery = $('.gallery');
-
             gallery.append('<div class="title">Watched feature films with the highest ratings on Letterboxd</div>');
             gallery.append('<div class="inside"></div>');
             var insideGallery = $('.gallery .inside');
 
             var displayed = 0;
-            for (var index of data.HighestRatedFilms) {
-                var film = films[index];
+            for (var id of filmsHighestRated) {
+                var film = films.find(a => a.Id == id);
                 var title = film.Title;
                 if (film.TitleOriginal != film.Title) {
                     title = film.TitleOriginal + '<br>(&quot;' + title + '&quot;)';
@@ -2638,14 +2720,13 @@
 
             createGallery();
             gallery = $('.gallery').last();
-
             gallery.append('<div class="title">Watched feature films with the lowest ratings on Letterboxd</div>');
             gallery.append('<div class="inside"></div>');
             var insideGallery = $('.gallery .inside').last();
 
             displayed = 0;
-            for (var index of data.LowestRatedFilms) {
-                var film = films[index];
+            for (var id of filmsLowestRated) {
+                var film = films.find(a => a.Id == id);
                 var title = film.Title;
                 if (film.TitleOriginal != film.Title) {
                     title = film.TitleOriginal + '<br>(&quot;' + title + '&quot;)';
@@ -2654,6 +2735,50 @@
                     '<div class="item ttt" data-tooltip="' + title + '">' +
                     '<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
                     '<div class="details">' + film.RatingLetterboxd + '<br/>' + makeFilmDetails(film) + '</div>');
+                displayed++;
+                if (displayed == galleryAmount)
+                    break;
+            }
+
+            createGallery();
+            var gallery = $('.gallery').last();
+            gallery.append('<div class="title">Watched feature films rated higher than the Letterboxd average</div>');
+            gallery.append('<div class="inside"></div>');
+            var insideGallery = $('.gallery .inside').last();
+
+            var displayed = 0;
+            for (var id of filmsDifferenceRatedPositive) {
+                var film = films.find(a => a.Id == id);
+                var title = film.Title;
+                if (film.TitleOriginal != film.Title) {
+                    title = film.TitleOriginal + '<br>(&quot;' + title + '&quot;)';
+                }
+                insideGallery.append(
+                    '<div class="item ttt" data-tooltip="' + title + '">' +
+                    '<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
+                    '<div class="details">+' + (film.RatingSelf - film.RatingLetterboxd).toFixed(2) + ' vs ' + film.RatingLetterboxd + '<br/>' + makeFilmDetails(film) + '</div>');
+                displayed++;
+                if (displayed == galleryAmount)
+                    break;
+            }
+
+            createGallery();
+            var gallery = $('.gallery').last();
+            gallery.append('<div class="title">Watched feature films rated lower than the Letterboxd average</div>');
+            gallery.append('<div class="inside"></div>');
+            var insideGallery = $('.gallery .inside').last();
+
+            var displayed = 0;
+            for (var id of filmsDifferenceRatedNegative) {
+                var film = films.find(a => a.Id == id);
+                var title = film.Title;
+                if (film.TitleOriginal != film.Title) {
+                    title = film.TitleOriginal + '<br>(&quot;' + title + '&quot;)';
+                }
+                insideGallery.append(
+                    '<div class="item ttt" data-tooltip="' + title + '">' +
+                    '<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
+                    '<div class="details">' + (film.RatingSelf - film.RatingLetterboxd).toFixed(2) + ' vs ' + film.RatingLetterboxd + '<br/>' + makeFilmDetails(film) + '</div>');
                 displayed++;
                 if (displayed == galleryAmount)
                     break;
@@ -2675,9 +2800,12 @@
             gallery.append('<div class="inside"></div>');
             var insideGallery = $('.gallery .inside');
 
+            var filmsHighestWatched = films.slice().filter(a => a.Minutes >= 60).sort((a, b) => a.Title > b.Title).sort((a, b) => b.Watched - a.Watched).map(a => a.Id).slice(0, galleryAmount)
+            var filmsLowestWatched = films.slice().filter(a => a.Minutes >= 60).sort((a, b) => a.Title > b.Title).sort((a, b) => a.Watched - b.Watched).map(a => a.Id).slice(0, galleryAmount)
+
             var displayed = 0;
-            for (var index of data.MostWatchedFilms) {
-                var film = films[index];
+            for (var id of filmsHighestWatched) {
+                var film = films.find(a => a.Id == id);
                 var title = film.Title;
                 if (film.TitleOriginal != film.Title) {
                     title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
@@ -2700,8 +2828,8 @@
             var insideGallery = $('.gallery .inside').last();
 
             displayed = 0;
-            for (var index of data.LeastWatchedFilms) {
-                var film = films[index];
+            for (var id of filmsLowestWatched) {
+                var film = films.find(a => a.Id == id);
                 var title = film.Title;
                 if (film.TitleOriginal != film.Title) {
                     title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
@@ -2723,6 +2851,93 @@
         }
 
         // === People ===
+
+        function showPeopleCombinations() {
+
+            resetView();
+
+            createNewTable();
+
+            thead.append('<tr class="topheader"><th colspan="3">Most Frequent Pairs - Director and Protagonist</th></tr>');
+            thead.append('<tr class="bottomheader"><th>Director</th><th>Protagonist</th><th>Films</th></tr>');
+
+            for (var pair of data.PeoplePairs["Director & Protagonist"]) {
+                var urlA = url = 'https://letterboxd.com/' + data.Username + '/films/with/director/' + urlSafe(pair.PersonA.FullName.replace(/ /g, '-').toLowerCase()) + '/by/name/size/large/';
+                var urlB = url = 'https://letterboxd.com/' + data.Username + '/films/with/actor/' + urlSafe(pair.PersonB.FullName.replace(/ /g, '-').toLowerCase()) + '/by/name/size/large/';
+                var tooltipA = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + pair.PersonA.Poster + '\'>"';
+                var tooltipB = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + pair.PersonB.Poster + '\'>"';
+                var tooltipFilms = []
+                for (var filmIndex of pair.Films) {
+                    var film = films[filmIndex]
+                    tooltipFilms.push('(' + film.Year + ') ' + film.Title);
+                }
+                tooltipFilms.sort()
+                tbody.append(
+                    '<tr>' +
+                    '<td' + tooltipA + '><a target="_blank" href="' + urlA + '">' + pair.PersonA.FullName + '</a></td>' +
+                    '<td' + tooltipB + '><a target="_blank" href="' + urlB + '">' + pair.PersonB.FullName + '</a></td>' +
+                    '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltipFilms.join('<br/>') + '">' + pair.Films.length + '</td>' +
+                    '</tr>');
+            }
+
+            $('#main').tablesorter({
+                widgets: ['columns'],
+                usNumberFormat: true,
+                sortReset: false,
+                sortRestart: false,
+                sortList: [[2, 1]],
+                headers: {
+                    0: { sorter: false },
+                    1: { sortInitialOrder: 'desc' },
+                    2: { sortInitialOrder: 'asc' },
+                    3: { sortInitialOrder: 'desc' },
+                }
+            });
+
+            createNewTable();
+
+            thead.append('<tr class="topheader"><th colspan="3">Most Frequent Pairs - Main Cast</th></tr>');
+            thead.append('<tr class="bottomheader"><th>Main Cast 1</th><th>Main Cast 2</th><th>Films</th></tr>');
+
+            for (var pair of data.PeoplePairs["Main Cast"]) {
+                var urlA = url = 'https://letterboxd.com/' + data.Username + '/films/with/actor/' + urlSafe(pair.PersonA.FullName.replace(/ /g, '-').toLowerCase()) + '/by/name/size/large/';
+                var urlB = url = 'https://letterboxd.com/' + data.Username + '/films/with/actor/' + urlSafe(pair.PersonB.FullName.replace(/ /g, '-').toLowerCase()) + '/by/name/size/large/';
+                var tooltipA = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + pair.PersonA.Poster + '\'>"';
+                var tooltipB = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + pair.PersonB.Poster + '\'>"';
+                var tooltipFilms = []
+                for (var filmIndex of pair.Films) {
+                    var film = films[filmIndex]
+                    tooltipFilms.push('(' + film.Year + ') ' + film.Title);
+                }
+                tooltipFilms.sort()
+                tbody.append(
+                    '<tr>' +
+                    '<td' + tooltipA + '><a target="_blank" href="' + urlA + '">' + pair.PersonA.FullName + '</a></td>' +
+                    '<td' + tooltipB + '><a target="_blank" href="' + urlB + '">' + pair.PersonB.FullName + '</a></td>' +
+                    '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltipFilms.join('<br/>') + '">' + pair.Films.length + '</td>' +
+                    '</tr>');
+            }
+
+            $('#main').tablesorter({
+                widgets: ['columns'],
+                usNumberFormat: true,
+                sortReset: false,
+                sortRestart: false,
+                sortList: [[2, 1]],
+                headers: {
+                    0: { sorter: false },
+                    1: { sortInitialOrder: 'desc' },
+                    2: { sortInitialOrder: 'asc' },
+                    3: { sortInitialOrder: 'desc' },
+                }
+            });
+
+            deactivateAll();
+            $(event.target).addClass('active');
+
+            createTooltipTriggers();
+
+        }
 
         function showPeople(job, jobSpecific, index = 'All') {
 
@@ -2803,7 +3018,6 @@
 
             var sorted = dataSource.slice(0);
             sorted = sorted.sort((a, b) => SortableName(b.FullName) < SortableName(a.FullName)).sort((a, b) => b.Amount > a.Amount);
-
 
             for (var a = 0; a < sorted.length; a++) {
                 var url = 'https://letterboxd.com/' + data.Username + '/films/with/' + job.toLowerCase() + '/' + urlSafe(sorted[a].FullName.replace(/ /g, '-').toLowerCase()) + '/by/name/size/large/';
@@ -2937,17 +3151,13 @@
 
             resetView();
 
-            //'<div class="info">Click a section ' + (window.innerWidth > 900 ? 'on the left' : 'above') + ' to explore the statistics for <a target="_blank" href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '\'s</a> ' + data.TotalFilms.toLocaleString() + ' <a href="https://letterboxd.com/' + data.Username + '/films/">watched films</a>.<br/>The statistics were generated on ' + data.LastUpdated + '.</div>');
+            //'<div class="info">Click a section ' + (window.innerWidth > 900 ? 'on the left' : 'above') + ' to explore the statistics for <a target="_blank" href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '\'s</a> ' + films.length.toLocaleString() + ' <a href="https://letterboxd.com/' + data.Username + '/films/">watched films</a>.<br/>The statistics were generated on ' + data.LastUpdated + '.</div>');
 
             //$('body').append('<div class="boxes"></div>');
             //$('.boxes').last().append(makeBox(, 'Stats Generated Date'));
 
             //$('body').append('<div class="boxes"></div>');
-            //$('.boxes').last().append(makeBox(data.TotalFilms.toLocaleString(), 'Watched Films'));
-
-            var percent = (data.RatedFilms / data.TotalFilms * 100);
-            //$('.boxes').last().append(makeBox(data.RatedFilms.toLocaleString(), 'Rated Films'));
-            //$('.boxes').last().append(makeBox(percent.toFixed(0) + '%', 'Rated Films', percent.toFixed(2) + '%'));
+            //$('.boxes').last().append(makeBox(films.length.toLocaleString(), 'Watched Films'));
 
             //$('body').append('<div class="info"><a target="_blank" href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '\'s Letterboxd</a>.</div>');
 
