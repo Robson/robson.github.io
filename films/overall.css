@@ -251,7 +251,9 @@ a {
 
 a:hover {
     color: var(--secondary-colour);
-    border-bottom: 2px dotted var(--secondary-colour);
+    xborder-bottom: 2px dotted var(--secondary-colour);
+    text-decoration: underline dotted;
+    text-decoration-thickness: 2px;
 }
 
 p {
@@ -301,6 +303,11 @@ p {
     max-width: 180px;
     background: white;
     padding: 2px;
+}
+
+.ttt {
+    text-decoration: #666 underline dotted;
+    text-decoration-thickness: 2px;
 }
 
 /**** BORDERS *****/

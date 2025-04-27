@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Letterboxd Statistics Dashboard</title>
-	<link href="theme.default.min.css" rel="stylesheet">
-	<link href="overall.css" rel="stylesheet">
-	<link rel="icon" type="image/x-icon" href="favicon.ico">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.40.0/css-doodle.min.js"></script>
-	<script src="films.js"></script>
-	<script src="data.js"></script>
-	<script src="https://code.highcharts.com/highcharts.js"></script>
-	<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
-	<script src="https://d3js.org/d3.v4.min.js"></script>
-	<script src="jquery.tablesorter.min.js"></script>
-	<script src="jquery.tablesorter.widgets.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Letterboxd Statistics Dashboard</title>
+    <link href="theme.default.min.css" rel="stylesheet">
+    <link href="overall.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.40.0/css-doodle.min.js"></script>
+    <script src="films.js"></script>
+    <script src="data.js"></script>
+    <script src="country_codes.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="jquery.tablesorter.min.js"></script>
+    <script src="jquery.tablesorter.widgets.min.js"></script>
 </head>
 <body>
 
@@ -275,11 +276,28 @@
 				case 'soviet union':
 					return 'ussr';
 				case 'türkiye':
-					return 'turkey';
+                    return 'turkey';
+                case 'côte d\'ivoire':
+                    return 'ivory-coast';
 				default:
 					return country.replace(/ /g, '-');
 			}
-		}
+        }
+
+        function countryCodeToName(code) {
+            return countryCodes[code];
+        }
+
+        function flagCode(isoCode) {
+            switch (isoCode) {
+                case 'su': // soviet union
+                case 'xc': // czechoslavakia
+                case 'xk': // kosovo
+                    return '_generic';
+                default:
+                    return isoCode;
+            }
+        }
 
 		function resetView() {
 			window.scrollTo(0, 0);
@@ -307,13 +325,13 @@
 		}
 
 		function makeBox(number, description, tooltip = '', isYear = false) {
-			var attribs = ' class="tablesorter box"';
+            var attribs = 'class="number"';
 			if (tooltip) {
-				attribs = ' class="tablesorter box ttt" data-tooltip="' + tooltip + '"';
+                attribs = 'class="number ttt" data-tooltip="' + tooltip + '"';
 			}
-			return '<table' + attribs + '>' +
+            return '<table class="tablesorter box">' +
 				'<thead><tr><th>' + description + '</th></tr></thead>' +
-				'<tbody><tr><td class="number">' +
+                '<tbody><tr><td ' + attribs + '>' +
 				(isYear ? number : number.toLocaleString()) +
 				'</td></tr></tbody>' +
 				'</table>';
@@ -343,17 +361,6 @@
                 case "arte-france-cinema": return "arte-france-cinema-5";
                 case "le-studio-canal+": return "le-studio-canal";
                 default: return studio;
-            }
-        }
-
-        function flagCode(isoCode) {
-            switch (isoCode) {
-                case 'su': // soviet union
-                case 'xc': // czechoslavakia
-                case 'xk': // kosovo
-                    return '_generic';
-                default:
-                    return isoCode;
             }
         }
 
@@ -523,7 +530,7 @@
         function showFilms(list) {
             var output = [];
             for (var film of list.split(' ')) {
-                output.push(films[+film].Title + ' (' + films[+film].Year + ')');
+                output.push('(' + films[+film].Year + ') ' + films[+film].Title);
             }
             output.sort();
             alert(output.join('\r\n'));
@@ -537,6 +544,23 @@
             } else {
                 return number.toLocaleString();
             }
+        }
+
+        function makeFilmListTooltip(filmList) {
+            var tooltip = []
+            for (var filmIndex of filmList) {
+                var film = films[filmIndex]
+                tooltip.push('(' + film.Year + ') ' + film.Title);
+            }
+            tooltip.sort()            
+            if (tooltip.length > 20) {
+                shuffleArray(tooltip);
+                tooltip = tooltip.slice(0, 20)
+                tooltip.sort()
+                tooltip.unshift('<em>Random selection of matching films:</em>', '')                
+                tooltip.push('', '<em>+' + (filmList.length - 20) + ' more...</em>');
+            }
+            return tooltip;
         }
 
 		// == PAGES ==
@@ -554,22 +578,36 @@
 
             resetView();
 
+            var yearCount = 0, yearSum = 0, yearList = []
+
             var filmsWatchedPerYear = {}
             for (var year = 1870; year <= new Date().getFullYear(); year++) {
                 filmsWatchedPerYear[year] = 0
             }
             for (var film of films) {
-                filmsWatchedPerYear[film.Year]++
+                if (film.Year > 0) {
+                    filmsWatchedPerYear[film.Year]++
+                    yearCount++
+                    yearSum += film.Year
+                    yearList.push(film.Year)
+                }
             }
+            yearList.sort()
 
             if (documentWidth > 820) {
                 showFilmsPerYearChart(filmsWatchedPerYear);
             }
 
+            var middle = ~~(yearList.length / 2)
+            var medianBefore = yearList.slice(0, middle).filter(a => a == yearList[middle]).length
+            var medianAfter = yearList.slice(middle + 1).filter(a => a == yearList[middle]).length
+            var highest = Math.max(...Object.values(filmsWatchedPerYear))
+            var mode = Object.keys(filmsWatchedPerYear).filter(a => filmsWatchedPerYear[a] == highest).join(', ')
+
             $('body').append('<div class="boxes"></div>');
-            $('.boxes').append(makeBox(Math.round(data.AverageFilmYearMean), 'Film Year: Mean', data.AverageFilmYearMean.toFixed(2), true));
-            $('.boxes').append(makeBox(data.AverageFilmYearMedian, 'Film Year: Median', data.AverageFilmYearMedianTooltip, true));
-            $('.boxes').append(makeBox(data.AverageFilmYearMode, 'Film Year: Mode', null, true));
+            $('.boxes').append(makeBox(Math.round(yearSum / yearCount), 'Film Year: Mean', (yearSum / yearCount).toFixed(2), true));
+            $('.boxes').append(makeBox(yearList[middle], 'Film Year: Median', medianBefore + ' < n < ' + medianAfter, true));
+            $('.boxes').append(makeBox(mode, 'Film Year: Mode', null, true));
 
             var yearsWithoutFilms = [
                 1870, 1871, 1872, 1873, 1875, 1876, 1877, 1879,
@@ -748,10 +786,13 @@
 
             var filmsWatchedPerDecade = {}
             for (var decade = 1870; decade <= new Date().getFullYear(); decade+=10) {
-                filmsWatchedPerDecade[decade] = { Count: 0, RatingCount: 0, RatingTotal: 0 }
+                filmsWatchedPerDecade[decade] = { Count: 0, RatingCount: 0, RatingTotal: 0, Films: [] }
             }
-            for (var film of films) {
-                filmsWatchedPerDecade[Math.floor(film.Year / 10) * 10].Count++
+            for (var index in films) {
+                var film = films[index]
+                var d = filmsWatchedPerDecade[Math.floor(film.Year / 10) * 10]
+                d.Count++
+                d.Films.push(index)
                 if (film.RatingSelf) {
                     filmsWatchedPerDecade[Math.floor(film.Year / 10) * 10].RatingCount++
                     filmsWatchedPerDecade[Math.floor(film.Year / 10) * 10].RatingTotal += film.RatingSelf
@@ -805,10 +846,12 @@
                             '<td class="' + (lowBase ? 'lowbase ' : '') + 'chart" data-value="' + rating + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((rating / highestRating) * 100) + 'px">&nbsp;</span></span></td>';
                     }
 
+                    var tooltip = makeFilmListTooltip(filmsWatchedPerDecade[decade].Films)
+
                     tbody.append(
                         '<tr>' +
                         '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/decade/' + decade + 's/by/name/size/large/">' + decade + 's</a></td>' +
-                        '<td class="right">' + filmsWatchedPerDecade[decade].Count + '</td>' +
+                        '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltip.join('<br>') + '">' + filmsWatchedPerDecade[decade].Count + '</td>' +
                         '<td class="right ttt" data-tooltip="' + watchedPercent.toFixed(2) + '%" data-value="' + filmsWatchedPerDecade[decade].Count + '">' + watchedPercent.toFixed(0) + '%</td>' +
                         '<td class="chart" data-value="' + filmsWatchedPerDecade[decade].Count + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((filmsWatchedPerDecade[decade].Count / highest) * 100) + 'px">&nbsp;</span></span></td>' +
                         middle +
@@ -969,8 +1012,8 @@
                     title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
                 }
                 insideGallery.append(
-                    '<div class="item ttt" data-tooltip="' + title + '">' +
-                    '<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
+                    '<div class="item">' +
+                    '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
                     '<div class="details">' + makeFilmDetails(film, specificDate = true) + '</div>' +
                     '</a></div>');
                 displayed++;
@@ -987,15 +1030,15 @@
                 var film = films.find(a => a.Id == id);
                 var tooltip = '';
                 if (film.Poster.length > 0) {
-                    tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>"';
+                    tooltip = ' ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>';
                 }
                 var title = film.Title;
                 if (film.TitleOriginal != film.Title) {
                     title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
                 }
                 tbody.append(
-                    '<tr' + tooltip + '>' +
-                    '<td class="right">' + film.When + '</td>' +
+                    '<tr>' +
+                    '<td class="right' + tooltip + '">' + film.When + '</td>' +
                     '<td><a target="_blank" href="https://boxd.it/' + film.Id + '">' + title + '</a></td>' +
                     '</tr>');
             }
@@ -1041,8 +1084,8 @@
                     title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
                 }
                 insideGallery.append(
-                    '<div class="item ttt" data-tooltip="' + title + '">' +
-                    '<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
+                    '<div class="item">' +
+                    '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
                     '<div class="details">' + makeFilmDetails(film, specificDate = true) + '</div>' +
                     '</a></div>');
                 displayed++;
@@ -1059,15 +1102,15 @@
                 var film = films.find(a => a.Id == id);
                 var tooltip = '';
                 if (film.Poster.length > 0) {
-                    tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>"';
+                    tooltip = ' ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>';
                 }
                 var title = film.Title;
                 if (film.TitleOriginal != film.Title) {
                     title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
                 }
                 tbody.append(
-                    '<tr' + tooltip + '>' +
-                    '<td class="right">' + film.When + '</td>' +
+                    '<tr>' +
+                    '<td class="right' + tooltip + '">' + film.When + '</td>' +
                     '<td><a target="_blank" href="https://boxd.it/' + film.Id + '">' + title + '</a></td>' +
                     '</tr>');
             }
@@ -1128,8 +1171,8 @@
                     title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
                 }
                 insideGallery.append(
-                    '<div class="item ttt" data-tooltip="' + title + '">' +
-                    '<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img style="filter:grayscale(100%)" src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
+                    '<div class="item">' +
+                    '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img style="filter:grayscale(100%)" src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
                     '<div class="details">' + makeFilmDetails(film) + '</div>' +
                     '</div>');
             }
@@ -1268,6 +1311,27 @@
 
         function showFilmsPerCountry() {
 
+            var filmsPerCountryOrigin = {}
+            var filmsPerCountryProduction = {}
+
+            for (var index in films) {
+                var film = films[index]
+                for (var prod of film.Countries_Origin) {
+                    if (!filmsPerCountryOrigin[prod]) {
+                        filmsPerCountryOrigin[prod] = [0, []]
+                    }
+                    filmsPerCountryOrigin[prod][0]++
+                    filmsPerCountryOrigin[prod][1].push(index)
+                }
+                for (var prod of film.Countries_Production) {
+                    if (!filmsPerCountryProduction[prod]) {
+                        filmsPerCountryProduction[prod] = [0, []]
+                    }
+                    filmsPerCountryProduction[prod][0]++
+                    filmsPerCountryProduction[prod][1].push(index)
+                }
+            }
+
             resetView();
             var isShowingMap = documentWidth >= 1000;
 
@@ -1276,7 +1340,7 @@
             }
 
             $('body').append('<div class="boxes"></div>');
-            $('.boxes').last().append(makeBox(Object.values(data.FilmsPerCountryOrigin).length, 'Origin Countries'));
+            $('.boxes').last().append(makeBox(Object.values(filmsPerCountryOrigin).length, 'Origin Countries'));
 
             createNewTable();
 
@@ -1291,28 +1355,30 @@
             }
 
             var highest = films.length;
-            for (var country in data.FilmsPerCountryOrigin) {
-                highest = Math.max(highest, data.FilmsPerCountryOrigin[country]);
+            for (var country in filmsPerCountryOrigin) {
+                highest = Math.max(highest, filmsPerCountryOrigin[country][0]);
             }
 
-            for (var country in data.FilmsPerCountryOrigin) {
-                var percent = (data.FilmsPerCountryOrigin[country] / films.length) * 100;
+            for (var country in filmsPerCountryOrigin) {
+                var percent = (filmsPerCountryOrigin[country][0] / films.length) * 100;
                 var bar = '';
                 if (documentWidth >= 500) {
-                    bar = '<td class="chart" data-value="' + data.FilmsPerCountryOrigin[country] + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.FilmsPerCountryOrigin[country] / highest) * 100) + 'px">&nbsp;</span></span></td>';
+                    bar = '<td class="chart" data-value="' + filmsPerCountryOrigin[country][0] + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((filmsPerCountryOrigin[country][0] / highest) * 100) + 'px">&nbsp;</span></span></td>';
                 }
 
-                var iso = flagCode(country.slice(-3, -1).toLowerCase());
+                var iso = flagCode(country.toLowerCase());
                 var imageLocation = "https://raw.githubusercontent.com/joielechong/iso-country-flags-svg-collection/refs/heads/master/svg/country-4x3/" + iso + ".svg";
-                countryLabel = country.split(' [')[0];
+                countryLabel = countryCodeToName(country)
                 var url = 'https://letterboxd.com/' + data.Username + '/films/country/' + countryNameToUrl(countryLabel) + '/by/name/size/large/';
-                highlights.push([country.slice(-3, -1), url, '<img src="' + imageLocation + '" class="flag" /> ' + countryLabel, data.FilmsPerCountryOrigin[country], 0]);
+                highlights.push([country, url, '<img src="' + imageLocation + '" class="flag" /> ' + countryLabel, filmsPerCountryOrigin[country][0], 0]);
+
+                var tooltip = makeFilmListTooltip(filmsPerCountryOrigin[country][1]);
 
                 tbody.append(
                     '<tr>' +
                     '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/country/' + countryNameToUrl(countryLabel) + '/by/name/size/large/"><img src="' + imageLocation + '" class="flag" /> ' + countryLabel + '</a></td>' +
-                    '<td class="right">' + data.FilmsPerCountryOrigin[country] + '</td>' +
-                    '<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerCountryOrigin[country] + '">' + percent.toFixed(0) + '%</td>' +
+                    '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltip.join('<br>') + '">' + filmsPerCountryOrigin[country][0] + '</td>' +
+                    '<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + filmsPerCountryOrigin[country][0] + '">' + percent.toFixed(0) + '%</td>' +
                     bar +
                     '</tr>');
             }
@@ -1333,7 +1399,7 @@
                 usNumberFormat: true,
                 sortReset: false,
                 sortRestart: false,
-                sortList: [[1, 1]],
+                sortList: [[1, 1], [0, 0]],
                 headers: {
                     0: { sorter: false },
                     1: { sortInitialOrder: 'asc' },
@@ -1344,7 +1410,7 @@
             });
 
             $('body').append('<div class="boxes"></div>');
-            $('.boxes').last().append(makeBox(Object.values(data.FilmsPerCountryProduction).length, 'Production Countries'));
+            $('.boxes').last().append(makeBox(Object.values(filmsPerCountryProduction).length, 'Production Countries'));
 
             createNewTable();
 
@@ -1357,32 +1423,34 @@
             }
 
             var highest = films.length;
-            for (var country in data.FilmsPerCountryProduction) {
-                highest = Math.max(highest, data.FilmsPerCountryProduction[country]);
+            for (var country in filmsPerCountryProduction) {
+                highest = Math.max(highest, filmsPerCountryProduction[country][0]);
             }
 
-            for (var country in data.FilmsPerCountryProduction) {
-                var percent = (data.FilmsPerCountryProduction[country] / films.length) * 100;
+            for (var country in filmsPerCountryProduction) {
+                var percent = (filmsPerCountryProduction[country][0] / films.length) * 100;
                 var bar = '';
                 if (documentWidth >= 500) {
-                    bar = '<td class="chart" data-value="' + data.FilmsPerCountryProduction[country] + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.FilmsPerCountryProduction[country] / highest) * 100) + 'px">&nbsp;</span></span></td>';
+                    bar = '<td class="chart" data-value="' + filmsPerCountryProduction[country][0] + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((filmsPerCountryProduction[country][0] / highest) * 100) + 'px">&nbsp;</span></span></td>';
                 }
-                var iso = flagCode(country.slice(-3, -1).toLowerCase());
+                var iso = flagCode(country.toLowerCase());
                 var imageLocation = "https://raw.githubusercontent.com/joielechong/iso-country-flags-svg-collection/refs/heads/master/svg/country-4x3/" + iso + ".svg";
-                countryLabel = country.split(' [')[0];
+                countryLabel = countryCodeToName(country);
                 var url = 'https://letterboxd.com/' + data.Username + '/films/country/' + countryNameToUrl(countryLabel) + '/by/name/size/large/';
+
+                var tooltip = makeFilmListTooltip(filmsPerCountryProduction[country][1]);
                 tbody.append(
                     '<tr>' +
                     '<td><a target="_blank" href="' + url + '"><img src="' + imageLocation + '" class="flag" /> ' + countryLabel + '</a></td>' +
-                    '<td class="right">' + data.FilmsPerCountryProduction[country] + '</td>' +
-                    '<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerCountryProduction[country] + '">' + percent.toFixed(0) + '%</td>' +
+                    '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltip.join('<br>') + '">' + filmsPerCountryProduction[country][0] + '</td>' +
+                    '<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + filmsPerCountryProduction[country][0] + '">' + percent.toFixed(0) + '%</td>' +
                     bar +
                     '</tr>');
-                var countryExists = highlights.findIndex(a => a[0] == country.slice(-3, -1));
+                var countryExists = highlights.findIndex(a => a[0] == country);
                 if (countryExists >= 0) {
-                    highlights[countryExists][4] = data.FilmsPerCountryProduction[country];
+                    highlights[countryExists][4] = filmsPerCountryProduction[country][0];
                 } else {
-                    highlights.push([country.slice(-3, -1), url, '<img src="' + imageLocation + '" class="flag" /> ' + countryLabel, 0, data.FilmsPerCountryProduction[country]]);
+                    highlights.push([country, url, '<img src="' + imageLocation + '" class="flag" /> ' + countryLabel, 0, filmsPerCountryProduction[country][0]]);
                 }
             }
 
@@ -1402,7 +1470,7 @@
                 usNumberFormat: true,
                 sortReset: false,
                 sortRestart: false,
-                sortList: [[1, 1]],
+                sortList: [[1, 1], [0, 0]],
                 headers: {
                     0: { sorter: false },
                     1: { sortInitialOrder: 'asc' },
@@ -1425,10 +1493,36 @@
                     countries.forEach(function (country) {
                         country.setAttribute('fill', '#bbb');
                     });
+                    Object.keys(countryCodes).forEach(function (row) {
+                        if (highlights.findIndex(a => a[0] == row) <= 0) {
+                            var url = 'https://letterboxd.com/films/popular/country/' + countryNameToUrl(countryCodeToName(row)) + '/size/large/';
+                            var iso = flagCode(row.toLowerCase());
+                            var imageLocation = "https://raw.githubusercontent.com/joielechong/iso-country-flags-svg-collection/refs/heads/master/svg/country-4x3/" + iso + ".svg";
+                            var title = '<img src="' + imageLocation + '" class="flag" /> ' + countryCodeToName(row)
+                            var place = iframeDoc.querySelectorAll('.svgMap-country[data-id="' + row + '"]');
+                            place.forEach(function (country) {
+                                country.classList.add('clickable');
+                                country.addEventListener('click', function () {
+                                    window.open(url);
+                                });
+                                country.addEventListener('mouseenter', function () {
+                                    var infoParagraph = iframeDoc.querySelector('#hover');
+                                    infoParagraph.innerHTML = title + '<br/>No matching films';
+                                    country.classList.add('hovered');
+                                });
+                                country.addEventListener('mouseleave', function () {
+                                    var infoParagraph = iframeDoc.querySelector('#hover');
+                                    infoParagraph.innerHTML = '';
+                                    country.classList.remove('hovered');
+                                });
+                            });
+                        }
+                    });
+
                     highlights.forEach(function (row) {
                         var place = iframeDoc.querySelectorAll('.svgMap-country[data-id="' + row[0] + '"]');
                         place.forEach(function (country) {
-                            country.setAttribute('fill', document.documentElement.style.getPropertyValue('--secondary-colour'));
+                            country.setAttribute('fill', '#008800');
                             if (row[3] == 0) {
                                 country.setAttribute('opacity', '0.5');
                             }
@@ -1443,7 +1537,7 @@
                             });
                             country.addEventListener('mouseleave', function () {
                                 var infoParagraph = iframeDoc.querySelector('#hover');
-                                infoParagraph.innerHTML = "";
+                                infoParagraph.innerHTML = '';
                                 country.classList.remove('hovered');
                             });
                         })
@@ -1471,43 +1565,71 @@
                 thead.append('<tr class="bottomheader"><th>Genre</th><th>Σ</th><th>%</th><th>&#x25AC;</th><th>Average</th><th>&#x25AC;</th></tr>');
             }
 
-            var total = data.FilmsWithGenres;
+            var genres = {}, genreSets = {}
+            for (var index in films) {
+                var film = films[index];
+                if (film.Genres.length) {
+                    for (var genre of film.Genres) {
+                        if (!genres[genre]) {
+                            genres[genre] = { Count: 0, RatingCount: 0, RatingTotal: 0, Films: [] }
+                        }
+                        genres[genre].Count++;
+                        genres[genre].Films.push(index);
+                        if (film.RatingSelf) {
+                            genres[genre].RatingCount++;
+                            genres[genre].RatingTotal += film.RatingSelf;
+                        }
+                    }
+                    var genresCombined = film.Genres.join(', ');
+                    if (!genreSets[genresCombined]) {
+                        genreSets[genresCombined] = { Count: 0, RatingCount: 0, RatingTotal: 0, Films: [] }
+                    }
+                    genreSets[genresCombined].Count++;
+                    genreSets[genresCombined].Films.push(index);
+                    if (film.RatingSelf) {
+                        genreSets[genresCombined].RatingCount++;
+                        genreSets[genresCombined].RatingTotal += film.RatingSelf;
+                    }
+                }
+            }
 
             var highest = 0;
-            for (var genre in data.Genres) {
-                highest = Math.max(highest, data.Genres[genre].Count);
+            for (var genre in genres) {
+                highest = Math.max(highest, genres[genre].Count);
             }
 
             var highestRating = 5;
-            for (var genre in data.Genres) {
+            for (var genre in genres) {
                 var rating = "";
-                if (data.Genres[genre].RatingCount > 0) {
-                    rating = (data.Genres[genre].RatingTotal / data.Genres[genre].RatingCount).toFixed(1);
+                if (genres[genre].RatingCount > 0) {
+                    rating = (genres[genre].RatingTotal / genres[genre].RatingCount).toFixed(1);
                     highestRating = Math.max(rating, highestRating);
                 }
             }
 
-            for (var genre in data.Genres) {
+            for (var genre in genres) {
                 var rating = "";
-                if (data.Genres[genre].RatingCount > 0) {
-                    rating = (data.Genres[genre].RatingTotal / data.Genres[genre].RatingCount).toFixed(1);
+                if (genres[genre].RatingCount > 0) {
+                    rating = (genres[genre].RatingTotal / genres[genre].RatingCount).toFixed(1);
                 }
 
-                var watchedPercent = (data.Genres[genre].Count / total) * 100;
-                var lowBase = data.Genres[genre].RatingCount < sufficientBase;
+                var watchedPercent = (genres[genre].Count / films.length) * 100;
+                var lowBase = genres[genre].RatingCount < sufficientBase;
                 var barAmount = '', barRating = '';
+                var tooltip = makeFilmListTooltip(genres[genre].Films);
+
                 if (documentWidth >= 600) {
-                    barAmount = '<td class="chart" data-value="' + data.Genres[genre].Count + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.Genres[genre].Count / data.FilmsWithGenres) * 100) + 'px">&nbsp;</span></span></td>';
+                    barAmount = '<td class="chart" data-value="' + genres[genre].Count + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((genres[genre].Count / films.length) * 100) + 'px">&nbsp;</span></span></td>';
                     barRating = '<td class="' + (lowBase ? 'lowbase ' : '') + 'chart" data-value="' + rating + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((rating / highestRating) * 100) + 'px">&nbsp;</span></span></td>';
                 }
 
                 tbody.append(
                     '<tr>' +
                     '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/genre/' + genre.toLowerCase().replace(/ /g, '-') + '/by/name/size/large/">' + genre + '</a></td>' +
-                    '<td class="right">' + data.Genres[genre].Count + '</td>' +
-                    '<td class="right ttt" data-tooltip="' + watchedPercent.toFixed(2) + '%" data-value="' + data.Genres[genre].Count + '">' + watchedPercent.toFixed(0) + '%</td>' +
+                    '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltip.join('<br>') + '">' + genres[genre].Count + '</td>' +
+                    '<td class="right ttt" data-tooltip="' + watchedPercent.toFixed(2) + '%" data-value="' + genres[genre].Count + '">' + watchedPercent.toFixed(0) + '%</td>' +
                     barAmount +
-                    '<td class="' + (lowBase ? 'lowbase ' : '') + 'right ttt" data-tooltip="Based on ' + data.Genres[genre].RatingCount + ' rated film(s)."><span>' + rating + '</span></td>' +
+                    '<td class="' + (lowBase ? 'lowbase ' : '') + 'right ttt" data-tooltip="Based on ' + genres[genre].RatingCount + ' rated film(s)."><span>' + rating + '</span></td>' +
                     barRating +
                     '</tr>');
             }
@@ -1575,49 +1697,50 @@
                 thead.append('<tr class="bottomheader"><th>Top Genre Sets</th><th>Σ</th><th>%</th><th>&#x25AC;</th><th>Average</th><th>&#x25AC;</th></tr>');
             }
 
-            var total = data.FilmsWithGenres;
-
             var highest = 0;
-            for (var key in data.GenreSets) {
-                highest = Math.max(highest, data.GenreSets[key].Count);
+            for (var key in genreSets) {
+                highest = Math.max(highest, genreSets[key].Count);
             }
 
             var highestRating = 5;
-            for (var key in data.GenreSets) {
+            for (var key in genreSets) {
                 var rating = "";
-                if (data.GenreSets[key].RatingCount > 0) {
-                    rating = (data.GenreSets[key].RatingTotal / data.GenreSets[key].RatingCount).toFixed(1);
+                if (genreSets[key].RatingCount > 0) {
+                    rating = (genreSets[key].RatingTotal / genreSets[key].RatingCount).toFixed(1);
                     highestRating = Math.max(rating, highestRating);
                 }
             }
 
-            let genreArray = Object.entries(data.GenreSets);
+            let genreArray = Object.entries(genreSets);
+            genreArray.sort();
             genreArray.sort((a, b) => b[1].Count - a[1].Count);
             let sortedGenreSets = Object.fromEntries(genreArray);
-            data.GenreSets = sortedGenreSets;
+            genreSets = sortedGenreSets;
 
             var count = 0;
-            for (var key in data.GenreSets) {
+            for (var key in genreSets) {
                 var rating = "";
-                if (data.GenreSets[key].RatingCount > 0) {
-                    rating = (data.GenreSets[key].RatingTotal / data.GenreSets[key].RatingCount).toFixed(1);
+                if (genreSets[key].RatingCount > 0) {
+                    rating = (genreSets[key].RatingTotal / genreSets[key].RatingCount).toFixed(1);
                 }
 
-                var watchedPercent = (data.GenreSets[key].Count / total) * 100;
-                var lowBase = data.GenreSets[key].RatingCount < sufficientBase;
+                var watchedPercent = (genreSets[key].Count / films.length) * 100;
+                var lowBase = genreSets[key].RatingCount < sufficientBase;
                 var barAmount = '', barRating = '';
+                var tooltip = makeFilmListTooltip(genreSets[key].Films);
+
                 if (documentWidth >= 600) {
-                    barAmount = '<td class="chart" data-value="' + data.GenreSets[key].Count + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.GenreSets[key].Count / data.FilmsWithGenres) * 100) + 'px">&nbsp;</span></span></td>';
+                    barAmount = '<td class="chart" data-value="' + genreSets[key].Count + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((genreSets[key].Count / films.length) * 100) + 'px">&nbsp;</span></span></td>';
                     barRating = '<td class="' + (lowBase ? 'lowbase ' : '') + 'chart" data-value="' + rating + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((rating / highestRating) * 100) + 'px">&nbsp;</span></span></td>';
                 }
 
                 tbody.append(
                     '<tr>' +
                     '<td>' + key + '</td>' +
-                    '<td class="right">' + data.GenreSets[key].Count + '</td>' +
-                    '<td class="right ttt" data-tooltip="' + watchedPercent.toFixed(2) + '%" data-value="' + data.GenreSets[key].Count + '">' + watchedPercent.toFixed(0) + '%</td>' +
+                    '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltip.join('<br>') + '">' + genreSets[key].Count + '</td>' +
+                    '<td class="right ttt" data-tooltip="' + watchedPercent.toFixed(2) + '%" data-value="' + genreSets[key].Count + '">' + watchedPercent.toFixed(0) + '%</td>' +
                     barAmount +
-                    '<td class="' + (lowBase ? 'lowbase ' : '') + 'right ttt" data-tooltip="Based on ' + data.GenreSets[key].RatingCount + ' rated film(s)."><span>' + rating + '</span></td>' +
+                    '<td class="' + (lowBase ? 'lowbase ' : '') + 'right ttt" data-tooltip="Based on ' + genreSets[key].RatingCount + ' rated film(s)."><span>' + rating + '</span></td>' +
                     barRating +
                     '</tr>');
 
@@ -1719,16 +1842,7 @@
                 if (documentWidth >= 500) {
                     bar = '<td class="chart" data-value="' + language[1] + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((language[1] / highest) * 100) + 'px">&nbsp;</span></span></td>';
                 }
-                var tooltip = []
-                for (var filmIndex of language[2]) {
-                    var film = films[filmIndex]
-                    tooltip.push('(' + film.Year + ') ' + film.Title);
-                }                
-                tooltip.sort()
-                tooltip = tooltip.slice(0, galleryAmount)
-                if (tooltip.length < language[2].length) {
-                    tooltip.push('<em>+' + (language[2].length - tooltip.length) + ' more...</em>');
-                }
+                var tooltip = makeFilmListTooltip(language[2]);
                 tbody.append(
                     '<tr>' +
                     '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/language/' + letterboxdLanguage(language[0]) + '/by/name/size/large/">' + (language[0] || 'No Spoken Language') + '</a></td>' +
@@ -1794,8 +1908,8 @@
                 hours = Math.floor(film.Minutes / 60);
                 minutes = film.Minutes - (hours * 60);
                 insideGallery.append(
-                    '<div class="item ttt" data-tooltip="' + title + '">' +
-                    '<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
+                    '<div class="item">' +
+                    '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
                     '<div class="details">' + hours + '<span style="opacity:0.666">h</span> ' + String(minutes).padStart(1, '0') + '<span style="opacity:0.666">m</span><br/>' + makeFilmDetails(film) + '</div>' +
                     '</a></div>');
                 displayed++;
@@ -1873,7 +1987,7 @@
                             '<tr>' +
                             '<td data-value="' + number + '">...</td>' +
                             '<td class="right">...</td>' +
-                            '<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + data.FilmsPerThirtyMinutes[thirty] + '">...</td>' +
+                            '<td class="right" data-value="' + data.FilmsPerThirtyMinutes[thirty] + '">...</td>' +
                             bar +
                             '</tr>');
                     }
@@ -2101,17 +2215,16 @@
             for (var studio of data.Studios) {
                 var cleaned = letterboxdStudioId(urlSafe(studio.Title.replace(/ /g, '-').toLowerCase()));
                 var url = 'https://letterboxd.com/studio/' + cleaned + '/';
-                if (studio.OriginCountry == "United States of America") {
-                    studio.OriginCountry = "USA";
-                }
+                var iso = flagCode(studio.OriginCountry.toLowerCase());
+                var imageLocation = "https://raw.githubusercontent.com/joielechong/iso-country-flags-svg-collection/refs/heads/master/svg/country-4x3/" + iso + ".svg";
                 var tooltip = '';
                 if (studio.Poster.length > 0) {
                     tooltip = ' class="ttt" data-tooltip="<img class=\'studio\' src=\'https://image.tmdb.org/t/p/h100/' + studio.Poster + '\'>"';
                 }
                 tbody.append(
-                    '<tr' + tooltip + '>' +
-                    '<td><a target="_blank" href="' + url + '">' + studio.Title + '</a></td>' +
-                    '<td>' + studio.OriginCountry + '</td>' +
+                    '<tr>' +
+                    '<td' + tooltip + '><a target="_blank" href="' + url + '">' + studio.Title + '</a></td>' +
+                    '<td><img src="' + imageLocation + '" class="flag" /> ' + countryCodeToName(studio.OriginCountry).replace('United States of America', 'USA') + '</td>' +
                     '<td class="right">' + studio.Amount + '</td>' +
                     '</tr>');
             }
@@ -2299,11 +2412,11 @@
                 var film = films.find(a => a.Id == id);
                 var tooltip = '';
                 if (film.Poster && film.Poster.length > 0) {
-                    tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>"';
+                    tooltip = ' ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>';
                 }
                 tbody.append(
-                    '<tr' + tooltip + '>' +
-                    '<td class="right">' + film.Year + '</td>' +
+                    '<tr>' +
+                    '<td class="right' + tooltip + '">' + film.Year + '</td>' +
                     '<td class="mono"><a target="_blank" href="https://boxd.it/' + film.Id + '">' + film.Title + '</a></td>' +
                     '</tr>');
                 displayed++;
@@ -2335,11 +2448,11 @@
                 var film = films.find(a => a.Id == id);
                 var tooltip = '';
                 if (film.Poster && film.Poster.length > 0) {
-                    tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>"';
+                    tooltip = ' ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>';
                 }
                 tbody.append(
-                    '<tr' + tooltip + '>' +
-                    '<td class="right">' + film.Year + '</td>' +
+                    '<tr>' +
+                    '<td class="right' + tooltip + '">' + film.Year + '</td>' +
                     '<td class="mono"><a target="_blank" href="https://boxd.it/' + film.Id + '">' + film.Title + '</a></td>' +
                     '</tr>');
                 displayed++;
@@ -2366,10 +2479,18 @@
 
             displayed = 0;
             for (var word in data.MostFrequentWords) {
+
+                var tooltip = []
+                for (var filmIndex of data.MostFrequentWords[word]) {
+                    var film = films[filmIndex]
+                    tooltip.push('(' + film.Year + ') ' + film.Title);
+                }
+                tooltip.sort()
+
                 tbody.append(
                     '<tr>' +
-                    '<td style="width:10px" class="message" onmousedown="showFilms(\'' + data.MostFrequentWords[word].join(' ') + '\')">' + word + '</td>' +
-                    '<td>' + data.MostFrequentWords[word].length + '</td>' +
+                    '<td style="width:10px">' + word + '</td>' +
+                    '<td class="ttt" data-tooltip-size="big" data-tooltip="' + tooltip.join('<br>') + '">' + data.MostFrequentWords[word].length + '</td>' +
                     '</tr>');
                 displayed++;
                 if (displayed == galleryAmount)
@@ -2555,7 +2676,7 @@
                         data: values,
                         enableMouseTracking: true,
                         borderRadius: 0,
-                        cursor: 'pointer',
+                        cursor: 'zoom-in',
                         point: {
                             events: {
                                 click: function () {
@@ -2592,8 +2713,8 @@
                             title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
                         }
                         insideGallery.append(
-                            '<div class="item ttt" data-tooltip="' + title + '">' +
-                            '<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
+                            '<div class="item">' +
+                            '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
                             '<div class="details">' + makeFilmDetails(film) + '</div>' +
                             '</a></div>');
                         displayed++;
@@ -2633,7 +2754,7 @@
                 insideGallery.append(
                     '<div class="item">' +
                     '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
-                    '<div class="details ttt" data-tooltip="' + film.Fans.toLocaleString() + ' Fans">' + formatNumber(film.Fans) + '<br/>' + makeFilmDetails(film) + '</div>' +
+                    '<div class="details"><span class="ttt" data-tooltip="' + film.Fans.toLocaleString() + ' Fans">' + formatNumber(film.Fans) + '</span><br/>' + makeFilmDetails(film) + '</div>' +
                     '</a></div>');
                 displayed++;
                 if (displayed == galleryAmount)
@@ -2673,7 +2794,7 @@
                 insideGallery.append(
                     '<div class="item">' +
                     '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
-                    '<div class="details ttt" data-tooltip="' + film.Likes.toLocaleString() + ' Likes">' + formatNumber(film.Likes) + '<br/>' + makeFilmDetails(film) + '</div>' +
+                    '<div class="details"><span class="ttt" data-tooltip="' + film.Likes.toLocaleString() + ' Likes">' + formatNumber(film.Likes) + '</span><br/>' + makeFilmDetails(film) + '</div>' +
                     '</a></div>');
                 displayed++;
                 if (displayed == galleryAmount)
@@ -2710,8 +2831,8 @@
                     title = film.TitleOriginal + '<br>(&quot;' + title + '&quot;)';
                 }
                 insideGallery.append(
-                    '<div class="item ttt" data-tooltip="' + title + '">' +
-                    '<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
+                    '<div class="item">' +
+                    '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
                     '<div class="details">' + film.RatingLetterboxd + '<br/>' + makeFilmDetails(film) + '</div>');
                 displayed++;
                 if (displayed == galleryAmount)
@@ -2732,8 +2853,8 @@
                     title = film.TitleOriginal + '<br>(&quot;' + title + '&quot;)';
                 }
                 insideGallery.append(
-                    '<div class="item ttt" data-tooltip="' + title + '">' +
-                    '<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
+                    '<div class="item">' +
+                    '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
                     '<div class="details">' + film.RatingLetterboxd + '<br/>' + makeFilmDetails(film) + '</div>');
                 displayed++;
                 if (displayed == galleryAmount)
@@ -2754,8 +2875,8 @@
                     title = film.TitleOriginal + '<br>(&quot;' + title + '&quot;)';
                 }
                 insideGallery.append(
-                    '<div class="item ttt" data-tooltip="' + title + '">' +
-                    '<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
+                    '<div class="item">' +
+                    '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
                     '<div class="details">+' + (film.RatingSelf - film.RatingLetterboxd).toFixed(2) + ' vs ' + film.RatingLetterboxd + '<br/>' + makeFilmDetails(film) + '</div>');
                 displayed++;
                 if (displayed == galleryAmount)
@@ -2776,8 +2897,8 @@
                     title = film.TitleOriginal + '<br>(&quot;' + title + '&quot;)';
                 }
                 insideGallery.append(
-                    '<div class="item ttt" data-tooltip="' + title + '">' +
-                    '<div class="poster"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
+                    '<div class="item">' +
+                    '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
                     '<div class="details">' + (film.RatingSelf - film.RatingLetterboxd).toFixed(2) + ' vs ' + film.RatingLetterboxd + '<br/>' + makeFilmDetails(film) + '</div>');
                 displayed++;
                 if (displayed == galleryAmount)
@@ -2813,7 +2934,7 @@
                 insideGallery.append(
                     '<div class="item">' +
                     '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
-                    '<div class="details ttt" data-tooltip="' + film.Watched.toLocaleString() + ' Watches">' + formatNumber(film.Watched) + '<br/>' + makeFilmDetails(film) + '</div>' +
+                    '<div class="details"><span class="ttt" data-tooltip="' + film.Watched.toLocaleString() + ' Watches">' + formatNumber(film.Watched) + '</span><br/>' + makeFilmDetails(film) + '</div>' +
                     '</a></div>');
                 displayed++;
                 if (displayed == galleryAmount)
@@ -2837,7 +2958,7 @@
                 insideGallery.append(
                     '<div class="item">' +
                     '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
-                    '<div class="details ttt" data-tooltip="' + film.Watched.toLocaleString() + ' Watches">' + formatNumber(film.Watched) + '<br/>' + makeFilmDetails(film) + '</div>' +
+                    '<div class="details"><span class="ttt" data-tooltip="' + film.Watched.toLocaleString() + ' Watches">' + formatNumber(film.Watched) + '</span><br/>' + makeFilmDetails(film) + '</div>' +
                     '</a></div>');
                 displayed++;
                 if (displayed == galleryAmount)
@@ -3033,15 +3154,11 @@
                 var tooltip = '';
                 if (sorted[a].Poster.length > 0) {
                     tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + sorted[a].Poster + '\'>"';
-                    if (extraClass.length > 0) {
-                        tooltip = tooltip.replace('ttt', 'ttt breaker');
-                        extraClass = '';
-                    }
                 }
 
                 tbody.append(
-                    '<tr' + extraClass + tooltip + '>' +
-                    '<td><a target="_blank" href="' + url + '">' + dot + sorted[a].FullName + '</a></td>' +
+                    '<tr' + extraClass + '>' +
+                    '<td' + tooltip + '><a target="_blank" href="' + url + '">' + dot + sorted[a].FullName + '</a></td>' +
                     '<td class="right">' + sorted[a].Amount + '</td>' +
                     '</tr>');
             }
@@ -3191,8 +3308,8 @@
 					title = film.FilmNameOriginal + '<br>(&quot;' + film.FilmName + '&quot;)';
 				}
 				insideGallery.append(
-					'<div class="item ttt" data-tooltip="' + title + '">' +
-					'<div class="poster"><a target="_blank" href="https://boxd.it/' + film.LetterboxdIdentifier + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.PosterUrl + '"></a></div>' +
+					'<div class="item">' +
+                    '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.LetterboxdIdentifier + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.PosterUrl + '"></a></div>' +
 					'<div class="details">' + makeFilmDetails(film) + '<br/></div>' +
 					'</a></div>');
 			}
