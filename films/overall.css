@@ -77,10 +77,6 @@ css-doodle {
     width: 325px;
     height: 100%;
     z-index: -100000;
-    background: repeating-linear-gradient(45deg, #000 0, #000 30%, transparent 0, transparent 50%), repeating-linear-gradient(135deg, #000 0, #000 30%, transparent 0, transparent 50%);
-    background-size: 5em 5em;
-    background-color: #060606;
-    background-attachment: fixed;
     background: white;
 }
 
@@ -90,7 +86,7 @@ css-doodle {
     left: 0px;
     height: 182px;
     width: 325px;
-    background: #888;
+    background-color: #888;
     background-position: center center;
     background-size: cover;
     z-index: -1000;
@@ -144,7 +140,7 @@ css-doodle {
     top: 185px;
     left: 0px;
     width: 325px;
-    padding: 3px 0 16px 0;
+    padding: 3px 0 16px;
     color: #222;
     z-index: -1000;
     font-size: 15px;
@@ -187,7 +183,7 @@ css-doodle {
 
 #buttons .title {
     padding: 0;
-    margin: 15px 0 0 0;
+    margin: 15px 0 0;
     background: transparent;
     color: #222;
     font-weight: 700;
@@ -287,7 +283,7 @@ p {
 }
 
 #tooltip_text {
-    margin: 5px 5px 5px;
+    margin: 5px;
     padding: 0;
     line-height: 1.1em;
     opacity: 1;
@@ -357,7 +353,7 @@ p {
 
 .gallery .title {
     padding: 5px 8px;
-    margin: 0 0 8px 0;
+    margin: 0 0 8px;
     background: var(--primary-colour);
     color: white;
     border-top-left-radius: 8px;
@@ -371,7 +367,7 @@ p {
 }
 
 .gallery .poster {
-    margin: 3px 5px 0 5px;
+    margin: 3px 5px 0;
     border-radius: 5px;
     background: black;
     padding: 3px 2px;
@@ -467,7 +463,7 @@ p {
 
 #outside .title {
     padding: 5px 8px;
-    margin: 0 0 10px 0;
+    margin: 0 0 10px;
     background: var(--primary-colour);
     color: white;
     border-top-left-radius: 8px;
