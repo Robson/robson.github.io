@@ -22,6 +22,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 153682,
+        "Title": "Lion's Gate Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -51,6 +67,36 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1216,
+        "Title": "DDL Cinematografica",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 2008,
+        "Title": "BHE Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 10520,
+        "Title": "Verona Produzione",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -79,6 +125,43 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 74770,
+        "Title": "Picture Films",
+        "Poster": "",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 14638,
+        "Title": "Significant Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 171666,
+        "Title": "Flat Five Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 147008,
+        "Title": "Hungry Bull Productions",
+        "Poster": "/yfE034nTSk0IqPNZCYMAJfSzWqb.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -107,6 +190,22 @@ var films = [
     "Genres": [
       "Drama",
       "TV Movie"
+    ],
+    "Studios": [
+      {
+        "Id": 176162,
+        "Title": "ABC",
+        "Poster": "/gk4tb53F2nl3a0xcUNCYrlPIktC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 15702,
+        "Title": "Broadway Theatre Archive",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -135,6 +234,43 @@ var films = [
       "Drama",
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 516,
+        "Title": "Seven Arts Productions",
+        "Poster": "/ibZFDcpmcpY0emmO8mo1HCenlGk.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 216222,
+        "Title": "Harris Kubrick Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 216225,
+        "Title": "A.A. Productions, Ltd.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 216226,
+        "Title": "Anya Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 518,
+        "Title": "Transworld Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -161,6 +297,22 @@ var films = [
     "Genres": [
       "Drama",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 23,
+        "Title": "Imagine Entertainment",
+        "Poster": "/bJOFo2ufq7iFC1F4qZm8aLxF5aS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -189,6 +341,15 @@ var films = [
       "Crime",
       "Mystery",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 1177,
+        "Title": "Rastar Productions",
+        "Poster": "/gxvrQWG6byKMVEHMjTJjGhRlARQ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -218,6 +379,36 @@ var films = [
       "Fantasy",
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 491,
+        "Title": "Summit Entertainment",
+        "Poster": "/5LvDUt3KmvRnXQ4NrdWJYHeuA8J.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 273,
+        "Title": "Tatira-Hiller Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 2053,
+        "Title": "Grosvenor Park Media",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 2308,
+        "Title": "Type A Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -244,6 +435,15 @@ var films = [
     "Genres": [
       "Crime",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 178464,
+        "Title": "Netflix",
+        "Poster": "/tyHnxjQJLH6h4iDQKhN5iqebWmX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -270,6 +470,36 @@ var films = [
     "Genres": [
       "Drama",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 508,
+        "Title": "Regency Enterprises",
+        "Poster": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7503,
+        "Title": "Protozoa Pictures",
+        "Poster": "/3K8wbNkTn7O4wX89ucnp1ZYR1XF.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10256,
+        "Title": "Disruption Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -299,6 +529,22 @@ var films = [
       "Science Fiction",
       "Mystery",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 385,
+        "Title": "Stanley Kubrick Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -326,6 +572,29 @@ var films = [
       "Action",
       "Adventure",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 444,
+        "Title": "Dune Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7384,
+        "Title": "Hypnotic",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10104,
+        "Title": "New Regency Pictures",
+        "Poster": "/4sGWXoboEkWPphI6es6rTmqkCBh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -351,6 +620,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 88152,
+        "Title": "Cre Film",
+        "Poster": "/zm1yRe17jzOgEzXrNj6hd8gl89O.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 17731,
+        "Title": "Freestyle Picture Company",
+        "Poster": "/5g3YMbcDXJKQvnYU1irjw5T8y7Z.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 76901,
+        "Title": "June Pictures",
+        "Poster": "/l6LNuKdl51PmyO130Kzmc9FKosI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -378,6 +670,29 @@ var films = [
       "Comedy",
       "Documentary",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6329,
+        "Title": "MTV Entertainment Studios",
+        "Poster": "/inqnY5MWKZ2HnFR9xOUvfP7fwqk.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6328,
+        "Title": "Dickhouse Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -405,6 +720,15 @@ var films = [
       "Comedy",
       "Adventure",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 2,
+        "Title": "Walt Disney Pictures",
+        "Poster": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -432,6 +756,36 @@ var films = [
       "Drama",
       "Crime",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 10059,
+        "Title": "This is that",
+        "Poster": "/3Z2MZzMW9gUyZAhHKhFIUqF1hwx.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10887,
+        "Title": "Y Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 10888,
+        "Title": "Mediana Productions Filmgesellschaft",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 10146,
+        "Title": "Focus Features",
+        "Poster": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -461,6 +815,29 @@ var films = [
     "Genres": [
       "Horror",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 233939,
+        "Title": "Blacksmith",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 221513,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -488,6 +865,22 @@ var films = [
     "Genres": [
       "Thriller",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 275,
+        "Title": "Carolco Pictures",
+        "Poster": "/2MxNWlN5b3UXt1OfmznsWEQzFwq.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 183,
+        "Title": "Le Studio Canal\u002B",
+        "Poster": "/eadyph99FClrWlnE0jPniwOcvvw.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -515,6 +908,15 @@ var films = [
       "Drama",
       "History",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -542,6 +944,50 @@ var films = [
       "Action",
       "Crime",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 25358,
+        "Title": "Krane Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 455,
+        "Title": "Permut Presentations",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 456,
+        "Title": "WCG Entertainment Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 9195,
+        "Title": "Touchstone Pictures",
+        "Poster": "/geK5QOBsXIPGHutKwXtYjMUyYSG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 458,
+        "Title": "Douglas/Reuther Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -569,6 +1015,29 @@ var films = [
       "Comedy",
       "Crime",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 1632,
+        "Title": "Lionsgate",
+        "Poster": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2531,
+        "Title": "MRC",
+        "Poster": "/9MfCJ2G6Nrf9yyRj4tAgPmMiDcn.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 37871,
+        "Title": "T-Street",
+        "Poster": "/aUOo1S2AabqQnRrXK6XuObWPDyK.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -595,6 +1064,57 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2242,
+        "Title": "Everyman Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10656,
+        "Title": "Four by Two",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 13157,
+        "Title": "Talkback",
+        "Poster": "/jr4fJUF5avpcT3V0HwrIZ4t8uMn.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 5778,
+        "Title": "Channel 4 Television",
+        "Poster": "/2loyoQweDxvotH3AknfL2zhsthg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 444,
+        "Title": "Dune Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10655,
+        "Title": "One America",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -622,6 +1142,29 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 14,
+        "Title": "Miramax",
+        "Poster": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 59,
+        "Title": "A Band Apart",
+        "Poster": "/b1tj5EWcFQLYaQrw1D9V4s8kUgN.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 114715,
+        "Title": "Mighty Mighty Afrodite Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -650,6 +1193,36 @@ var films = [
       "Mystery",
       "Adventure",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 1632,
+        "Title": "Lionsgate",
+        "Poster": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 47706,
+        "Title": "Allison Shearmur Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 19671,
+        "Title": "Keep Your Head Productions",
+        "Poster": "/8g2hBphdYM8Fc5r4o0hfGXBnquv.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 72441,
+        "Title": "TIK Films",
+        "Poster": "",
+        "OriginCountry": "HK",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -676,6 +1249,50 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 703,
+        "Title": "Razor Film Produktion",
+        "Poster": "/lMV4teVPQWJxIaiDsAsU7Vdh1iC.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 84788,
+        "Title": "Highlook Communications Group",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 84789,
+        "Title": "Rotana Film Production",
+        "Poster": "",
+        "OriginCountry": "SA",
+        "Amount": 0
+      },
+      {
+        "Id": 84790,
+        "Title": "Dubai Entertainment and Media Organization",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 87857,
+        "Title": "Abu Dhabi Film Commission",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 111155,
+        "Title": "ILB Investitionsbank desLandes Brandenburg",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -701,6 +1318,36 @@ var films = [
     ],
     "Genres": [
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 1197,
+        "Title": "Vortex",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 212462,
+        "Title": "Henkel Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 199793,
+        "Title": "Hooper Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 81081,
+        "Title": "Bryanston Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -728,6 +1375,36 @@ var films = [
       "Drama",
       "Action",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 22213,
+        "Title": "TSG Entertainment",
+        "Poster": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7076,
+        "Title": "Chernin Entertainment",
+        "Poster": "/8BFxn9NUWSgp0ndih569Gm62xiC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 138755,
+        "Title": "Turnpike Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -754,6 +1431,22 @@ var films = [
     "Genres": [
       "Horror",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 442,
+        "Title": "WT\u00B2 Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 443,
+        "Title": "Big Talk Studios",
+        "Poster": "/wibNj4tELmsnCFlf5ldLik37Urr.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -779,6 +1472,36 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 10958,
+        "Title": "Brad Grey Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1607,
+        "Title": "Gold/Miller Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1608,
+        "Title": "Wayans Bros. Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7405,
+        "Title": "Dimension Films",
+        "Poster": "/rfnws0uY8rsNAsrLbx3gEIcYXx3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -805,6 +1528,29 @@ var films = [
     "Genres": [
       "Crime",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 2188,
+        "Title": "Artisan Entertainment",
+        "Poster": "/f1zrx8bIsS81AHoPQq4riJx68Lt.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 380,
+        "Title": "Thousand Words",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7503,
+        "Title": "Protozoa Pictures",
+        "Poster": "/3K8wbNkTn7O4wX89ucnp1ZYR1XF.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -832,6 +1578,15 @@ var films = [
       "Documentary",
       "Adventure",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 3447,
+        "Title": "IMAX",
+        "Poster": "/yBdvUlunhXyUowuy0XaEPuBtYTo.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -861,6 +1616,43 @@ var films = [
       "Crime",
       "Action",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 443,
+        "Title": "Big Talk Studios",
+        "Poster": "/wibNj4tELmsnCFlf5ldLik37Urr.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 134,
+        "Title": "Rogue Pictures",
+        "Poster": "/2uKAP9aAAhVMpfSqa4wtlIHod5g.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -887,6 +1679,15 @@ var films = [
     "Genres": [
       "Horror",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 14121,
+        "Title": "Image Ten",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -914,6 +1715,50 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 10339,
+        "Title": "WWE Studios",
+        "Poster": "/dU7bjpBabgAd6R8INdVAyCjQ70w.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11581,
+        "Title": "Misher Films",
+        "Poster": "/yIORcWTFHtbXvWjqXAqFuMxx0K0.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 73669,
+        "Title": "Seven Bucks Productions",
+        "Poster": "/pZ1sOLrUxvCvW1jODdCFgU6RxUA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 28275,
+        "Title": "The Ink Factory",
+        "Poster": "/b6VatRipyJYN52xLAV7TtzJtuXv.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -941,6 +1786,15 @@ var films = [
       "Drama",
       "Romance",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 11404,
+        "Title": "Stanley Donen Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -970,6 +1824,29 @@ var films = [
       "Science Fiction",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 5798,
+        "Title": "Shaw Brothers",
+        "Poster": "/tmuI9BGXgpWLmokhlxpnG3IGNQB.png",
+        "OriginCountry": "HK",
+        "Amount": 0
+      },
+      {
+        "Id": 7965,
+        "Title": "The Ladd Company",
+        "Poster": "/eZ6DeFO1mhHtzxB1aACcEzKqQ7L.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -996,6 +1873,15 @@ var films = [
     "Genres": [
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 18990,
+        "Title": "Radiant Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1023,6 +1909,29 @@ var films = [
       "Animation",
       "Family",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2251,
+        "Title": "Sony Pictures Animation",
+        "Poster": "/5ilV5mH3gxTEU7p5wjxptHvXkyr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 34034,
+        "Title": "LStar Capital",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1049,6 +1958,15 @@ var films = [
     "Genres": [
       "Comedy",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 1931,
+        "Title": "Filmov\u00E9 studio Barrandov",
+        "Poster": "/5erHhgvym2cTORao8ajtn2gbiTH.png",
+        "OriginCountry": "XC",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1074,6 +1992,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 81,
+        "Title": "Plan B Entertainment",
+        "Poster": "/8wOfUhA7vwU2gbPjQy7Vv3EiF0o.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 114777,
+        "Title": "Hear/Say Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 41,
+        "Title": "Orion Pictures",
+        "Poster": "/xAot4SSOIHiWQ2WEnVXYGR1lce9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1101,6 +2042,15 @@ var films = [
       "Adventure",
       "Fantasy",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1128,6 +2078,36 @@ var films = [
       "Horror",
       "Science Fiction",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 3982,
+        "Title": "Darkwoods Productions",
+        "Poster": "/bli7HkPOXOEWsDwDK0W7XXfeUU2.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7405,
+        "Title": "Dimension Films",
+        "Poster": "/rfnws0uY8rsNAsrLbx3gEIcYXx3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 308,
+        "Title": "The Weinstein Company",
+        "Poster": "/e8F3mQM7DkJ5SfYYDp8FYzPBOGX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1154,6 +2134,15 @@ var films = [
     "Genres": [
       "Drama",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 16511,
+        "Title": "The Filmakers",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1181,6 +2170,22 @@ var films = [
       "Horror",
       "Thriller",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 2061,
+        "Title": "Twisted Pictures",
+        "Poster": "/o9LbN33hRaj4qcebUv1bikyXeoB.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1632,
+        "Title": "Lionsgate",
+        "Poster": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1206,6 +2211,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 38418,
+        "Title": "Mely Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 3500,
+        "Title": "Move Movie",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 9,
+        "Title": "Gaumont",
+        "Poster": "/nda3dTUYdDrJ6rZqBpYvY865aDv.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1234,6 +2262,29 @@ var films = [
       "Drama",
       "Thriller",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 126,
+        "Title": "Lakeshore Entertainment",
+        "Poster": "/kADPanRDkKTxncPXXVahvHPUvCj.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11462,
+        "Title": "Alphaville Films",
+        "Poster": "/7ZymELJwuWR4k5p0oeZ3d3WAhO3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 220287,
+        "Title": "Paramount Classics",
+        "Poster": "/kSOgeDwqKdNNRQx5gk2yX2brLOx.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1260,6 +2311,22 @@ var films = [
     "Genres": [
       "Adventure",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1,
+        "Title": "Lucasfilm Ltd.",
+        "Poster": "/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1285,6 +2352,15 @@ var films = [
     ],
     "Genres": [
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 155117,
+        "Title": "Earth Gate",
+        "Poster": "",
+        "OriginCountry": "JP",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1312,6 +2388,29 @@ var films = [
     "Genres": [
       "Action",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 443,
+        "Title": "Big Talk Studios",
+        "Poster": "/wibNj4tELmsnCFlf5ldLik37Urr.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 221513,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2531,
+        "Title": "MRC",
+        "Poster": "/9MfCJ2G6Nrf9yyRj4tAgPmMiDcn.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1339,6 +2438,29 @@ var films = [
       "Drama",
       "Thriller",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 10308,
+        "Title": "The De Laurentiis Company",
+        "Poster": "/5AEHeflZe2YavcjL0s99gJA8csi.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 491,
+        "Title": "Summit Entertainment",
+        "Poster": "/5LvDUt3KmvRnXQ4NrdWJYHeuA8J.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 506,
+        "Title": "Newmarket Capital Group",
+        "Poster": "/obIWjrmF9pWzxXcDCd3810YzJpk.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1368,6 +2490,29 @@ var films = [
       "Comedy",
       "Romance",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 21451,
+        "Title": "American Entertainment Partners II L.P.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 18,
+        "Title": "Gracie Films",
+        "Poster": "/uqhagSwM7NAkQWVCQhKTyoqF8XH.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1393,6 +2538,15 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1421,6 +2575,29 @@ var films = [
       "Adventure",
       "Fantasy",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11,
+        "Title": "WingNut Films",
+        "Poster": "/6FAuASQHybRkZUk08p9PzSs9ezM.png",
+        "OriginCountry": "NZ",
+        "Amount": 0
+      },
+      {
+        "Id": 5237,
+        "Title": "The Saul Zaentz Company",
+        "Poster": "/mlnr7vsBHvLye8oEb5A76C0t8x9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1448,6 +2625,57 @@ var films = [
       "Drama",
       "Thriller",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 5822,
+        "Title": "Toei Company",
+        "Poster": "/qyTbRgCyU9NLKvKaiQVbadtr7RY.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 157807,
+        "Title": "WOWOW",
+        "Poster": "/tyrJOOVAUIxQEJzjP1PhP2H5zFi.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 11538,
+        "Title": "AM Associates",
+        "Poster": "",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 11539,
+        "Title": "Kobi",
+        "Poster": "",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 3032,
+        "Title": "Nippan Group Holdings",
+        "Poster": "/gaf3ez34cuvG9snphWGreB1WerA.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 11540,
+        "Title": "MF Pictures",
+        "Poster": "",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 3656,
+        "Title": "GAGA Communications",
+        "Poster": "/mY6L0bHRp8fNWfICPqLjxp3khvq.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1475,6 +2703,29 @@ var films = [
     "Genres": [
       "Comedy",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 21920,
+        "Title": "The Steve Tisch Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 13419,
+        "Title": "SKA Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 20076,
+        "Title": "Handmade Films",
+        "Poster": "/ed9JyPNLqNOyJBJlDuv138sm1ES.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1503,6 +2754,43 @@ var films = [
       "Crime",
       "Thriller",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 83036,
+        "Title": "Joint Effort",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 79,
+        "Title": "Village Roadshow Pictures",
+        "Poster": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 13240,
+        "Title": "Bron Studios",
+        "Poster": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 128064,
+        "Title": "DC Films",
+        "Poster": "/13F3Jf7EFAcREU0xzZqJnVnyGXu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1530,6 +2818,22 @@ var films = [
       "Comedy",
       "Romance",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11355,
+        "Title": "Jurow-Shepherd",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1560,6 +2864,64 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 1205,
+        "Title": "Endgame Entertainment",
+        "Poster": "/wQX3t4qtxm7gBQE3RHuoLghgb73.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1206,
+        "Title": "Entertainment Manufacturing Company",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1204,
+        "Title": "Ascendant Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 831,
+        "Title": "Saturn Films",
+        "Poster": "/vLENXiYTyITnMDrTKabUXhgTKX2.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1208,
+        "Title": "Rising Star Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 21938,
+        "Title": "Copag V",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 827,
+        "Title": "VIP Medienfonds 3",
+        "Poster": "/j7grgeyXof8VBmqbBBSNaqVoOCb.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 137007,
+        "Title": "Majority Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1586,6 +2948,29 @@ var films = [
     "Genres": [
       "Thriller",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 13184,
+        "Title": "Annapurna Pictures",
+        "Poster": "/pfUB1a62jSMIqp4Xmaq6z2cgW0B.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 20344,
+        "Title": "First Light",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 211726,
+        "Title": "Mark Boal Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1614,6 +2999,64 @@ var films = [
     "Genres": [
       "Documentary",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 29063,
+        "Title": "Piraya Film",
+        "Poster": "/52xiL9iqq2iPbn6yuFuzkJc4Cpy.png",
+        "OriginCountry": "NO",
+        "Amount": 0
+      },
+      {
+        "Id": 119,
+        "Title": "DR",
+        "Poster": "/1di2gITGUZr730AMuMKiCrP90Vl.png",
+        "OriginCountry": "DK",
+        "Amount": 0
+      },
+      {
+        "Id": 3324,
+        "Title": "BBC",
+        "Poster": "/dqT3yOTlfJRmtvk52Ccd1O6dZ0A.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 4606,
+        "Title": "ZDF",
+        "Poster": "/otZHbf1HmzLRQsZFSqJXkf8EHz7.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 2999,
+        "Title": "SVT",
+        "Poster": "/zGSqFee9aDgDuLD6vcs2mcJUem4.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 186903,
+        "Title": "Nonami AB",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 29062,
+        "Title": "Final Cut for Real",
+        "Poster": "/hwlA6f2HhaOJP1ZcrYL8f8g8UbJ.png",
+        "OriginCountry": "DK",
+        "Amount": 0
+      },
+      {
+        "Id": 84233,
+        "Title": "Anagram",
+        "Poster": "/h9uR2PcH9yyYsVt3iXD6YP4zj52.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1640,6 +3083,29 @@ var films = [
     "Genres": [
       "Music",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 3566,
+        "Title": "Spinal Tap Prod.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 757,
+        "Title": "Embassy Films Associates",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 112748,
+        "Title": "Embassy Pictures",
+        "Poster": "/lGUJXMRuudPSl4SrmXUaag0d8oj.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1672,6 +3138,43 @@ var films = [
       "Drama",
       "Mystery",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7384,
+        "Title": "Hypnotic",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7385,
+        "Title": "Kalima Productions",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 11345,
+        "Title": "Stillking Films",
+        "Poster": "/xhnnHfsqEimD4r0QeUz3GSvcv73.png",
+        "OriginCountry": "CZ",
+        "Amount": 0
+      },
+      {
+        "Id": 862,
+        "Title": "The Kennedy/Marshall Company",
+        "Poster": "/vdK6ZhC2CSW36j0VPEavRxOpbEg.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1699,6 +3202,29 @@ var films = [
     "Genres": [
       "Crime",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 15231,
+        "Title": "Muse Productions",
+        "Poster": "/iFbzMtXFBv2ekA9Ldrw6LqjLrvX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 8682,
+        "Title": "Gravity Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1726,6 +3252,36 @@ var films = [
       "Drama",
       "Adventure",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 28788,
+        "Title": "Genre Films",
+        "Poster": "/Aqomtf9oh5dKtxBNEagkdlp3aGv.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 22213,
+        "Title": "TSG Entertainment",
+        "Poster": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 221347,
+        "Title": "Scott Free Productions",
+        "Poster": "/6Ry6uNBaa0IbbSs1XYIgX5DkA9r.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1753,6 +3309,29 @@ var films = [
       "Crime",
       "Mystery",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4286,
+        "Title": "Juno Pix",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 16775,
+        "Title": "Arnold Kopelson Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1778,6 +3357,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 62784,
+        "Title": "Yes Ma'am Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 12219,
+        "Title": "Cinereach",
+        "Poster": "/cU5xtXF1NbOEdtwQNJTGC1IlHBS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1807,6 +3402,43 @@ var films = [
       "Comedy",
       "Drama",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 20899,
+        "Title": "Twins Financing",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2376,
+        "Title": "Blueprint Pictures",
+        "Poster": "/yeNoWmSHZfvKsBYuL8uTRE4LPdQ.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 10146,
+        "Title": "Focus Features",
+        "Poster": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7419,
+        "Title": "Scion Films",
+        "Poster": "/xePgQxppZtgSMICGgnKAWlVobt7.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1832,6 +3464,36 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 13969,
+        "Title": "Globo Filmes",
+        "Poster": "/bEpiJ2zXGIH70JT16asjWNFtOEv.png",
+        "OriginCountry": "BR",
+        "Amount": 0
+      },
+      {
+        "Id": 345,
+        "Title": "O2 Filmes",
+        "Poster": "/hj2nqoG2F9COm16fqvM0YpY3jL4.png",
+        "OriginCountry": "BR",
+        "Amount": 0
+      },
+      {
+        "Id": 23906,
+        "Title": "Petrobr\u00E1s",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 89438,
+        "Title": "20th Century Fox Brazil",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "BR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1859,6 +3521,43 @@ var films = [
       "Mystery",
       "Thriller",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 882,
+        "Title": "TOHO",
+        "Poster": "/fRSWWjquvzcHjACbtF53utZFIll.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 3341,
+        "Title": "Fuji Television Network",
+        "Poster": "/dTG5dXE1kU2mpmL9BNnraffckLU.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 39804,
+        "Title": "AOI Pro.",
+        "Poster": "/bT7wDgMpeT7EAewYfWIHs3gWNYE.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 75214,
+        "Title": "BUN-BUKU",
+        "Poster": "/uhbLKNEl2nSeYmaD5bpP7ARpc5E.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 84048,
+        "Title": "GAGA Corporation",
+        "Poster": "/mkxZQuPpZ0cBDfjr4PAxltGSsoH.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1886,6 +3585,22 @@ var films = [
       "Action",
       "Adventure",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 347,
+        "Title": "Centropolis Entertainment",
+        "Poster": "/1wpVtAaWLqvFJVVbyzTAf7U4JPX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1913,6 +3628,36 @@ var films = [
       "Thriller",
       "Mystery",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 58568,
+        "Title": "Les Films de Pierre",
+        "Poster": "/2qxPHPKa29w2MsaPKpYRfBnQcyq.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 12389,
+        "Title": "Les Films Pell\u00E9as",
+        "Poster": "/6yilbEvoHtPcTb4LwAueAq091iT.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 83,
+        "Title": "France 2 Cin\u00E9ma",
+        "Poster": "/9OQ0rm55xtlgX7KcAKMUePJSrQc.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 109756,
+        "Title": "Auvergne-Rh\u00F4ne-Alpes Cin\u00E9ma",
+        "Poster": "/sudlIoNIIrKmVWaYD2ZVo9HGogW.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1939,6 +3684,22 @@ var films = [
     "Genres": [
       "Comedy",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 7965,
+        "Title": "The Ladd Company",
+        "Poster": "/eZ6DeFO1mhHtzxB1aACcEzKqQ7L.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1965,6 +3726,50 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 123193,
+        "Title": "Neon Heart Productions",
+        "Poster": "/hlraS6aElXs04QKmSOCyPj8sNkV.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 152014,
+        "Title": "Dimbo Pictures",
+        "Poster": "/nqDIXxYSyNnfZW3vDQzbH1sjBl2.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 152015,
+        "Title": "It Doesn't Suck Productions",
+        "Poster": "/87EmsX8VJPPcKPhilEwXiv7b3cy.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 152012,
+        "Title": "Bad Mensch Productions",
+        "Poster": "/1V5sjIuZ8On65yTJbGAfv9Hqdq5.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 117621,
+        "Title": "Thick Media",
+        "Poster": "/nPU4btpDVwmfwgfeAy7fVArTbpw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 121140,
+        "Title": "Irving Harvey",
+        "Poster": "/y5UbBytWsRKaVx23xfKLd6SjWc1.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -1993,6 +3798,43 @@ var films = [
       "Drama",
       "Thriller",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 308,
+        "Title": "The Weinstein Company",
+        "Poster": "/e8F3mQM7DkJ5SfYYDp8FYzPBOGX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 59,
+        "Title": "A Band Apart",
+        "Poster": "/b1tj5EWcFQLYaQrw1D9V4s8kUgN.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6817,
+        "Title": "Zehnte Babelsberg Film",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 6818,
+        "Title": "Visiona Romantica",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2020,6 +3862,36 @@ var films = [
       "Action",
       "Drama",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7,
+        "Title": "DreamWorks Pictures",
+        "Poster": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1865,
+        "Title": "The Zanuck/Brown Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2046,6 +3918,15 @@ var films = [
     "Genres": [
       "Horror",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2075,6 +3956,43 @@ var films = [
     "Genres": [
       "Animation",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 9195,
+        "Title": "Touchstone Pictures",
+        "Poster": "/geK5QOBsXIPGHutKwXtYjMUyYSG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2885,
+        "Title": "Starz Animation",
+        "Poster": "",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 28320,
+        "Title": "Rocket Pictures",
+        "Poster": "/5UPGj1MwzrtxclRGTfeiQ1J0zVk.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 14,
+        "Title": "Miramax",
+        "Poster": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 181992,
+        "Title": "Mandate International",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2100,6 +4018,22 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 20076,
+        "Title": "Handmade Films",
+        "Poster": "/ed9JyPNLqNOyJBJlDuv138sm1ES.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 416,
+        "Title": "Python (Monty) Pictures Limited",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2126,6 +4060,36 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 53085,
+        "Title": "First Sun",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 11912,
+        "Title": "Mikado Film",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 155990,
+        "Title": "RAI Cinema",
+        "Poster": "/py9VaywwK6KVi94YwrxSKVg1gkh.png",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 46344,
+        "Title": "Frenesy Film",
+        "Poster": "/qpSdIjnGHiz6UNIQWGIJkDnG79l.png",
+        "OriginCountry": "IT",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2153,6 +4117,22 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 24049,
+        "Title": "Sierra/Affinity",
+        "Poster": "/zOHQ0A3PpNoLLeAxRZwSqNV3nPr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2266,
+        "Title": "Bold Films",
+        "Poster": "/owzVs2mguyyJ3vIn7EbgowpUPnk.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2179,6 +4159,22 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 34981,
+        "Title": "Iron Horse Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2205,6 +4201,43 @@ var films = [
     "Genres": [
       "Animation",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 3464,
+        "Title": "Madhouse",
+        "Poster": "/9k0nr75nwnNeT2MHerf1OXJN0hj.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 185544,
+        "Title": "Rex Entertainment",
+        "Poster": "",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 201821,
+        "Title": "Kotobuki Seihan Printing",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 4868,
+        "Title": "Asahi Broadcasting Corporation",
+        "Poster": "/3ExeT4zGXBFU7ei1crOvuzKnc1z.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 201822,
+        "Title": "Fangs Co.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2231,6 +4264,22 @@ var films = [
     "Genres": [
       "Comedy",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 3568,
+        "Title": "Teeth",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 5749,
+        "Title": "Pierpoline Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2258,6 +4307,50 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 85095,
+        "Title": "Independent Lens",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 792,
+        "Title": "RTBF",
+        "Poster": "/cRhBQP1FFNugNxKkO1pUgeD2Rkr.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 201,
+        "Title": "ARTE",
+        "Poster": "/6UIpEURdjnmcJPwgTDRzVRuwADr.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 95061,
+        "Title": "Shelter Prod",
+        "Poster": "/gAt0ztKNX5gKyzNmIdaVxI5aoHv.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 13668,
+        "Title": "RTS",
+        "Poster": "/azhapBvZ8g1UWyyQQhhcRR9bM9x.png",
+        "OriginCountry": "CH",
+        "Amount": 0
+      },
+      {
+        "Id": 1793,
+        "Title": "Velvet Film",
+        "Poster": "/4Di06ZidIRHgw7bkddnIWEuxxXl.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2285,6 +4378,22 @@ var films = [
       "Adventure",
       "Comedy",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2313,6 +4422,22 @@ var films = [
       "Action",
       "Thriller",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 7576,
+        "Title": "EON Productions",
+        "Poster": "/oYcUi1byZ312Z3xiz5ojz9RQLND.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2339,6 +4464,22 @@ var films = [
     "Genres": [
       "Adventure",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1,
+        "Title": "Lucasfilm Ltd.",
+        "Poster": "/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2366,6 +4507,57 @@ var films = [
     "Genres": [
       "Crime",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 321,
+        "Title": "Memfis Film",
+        "Poster": "/pfp6VWF3tYfOHHVRHpYe2iGcYrf.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 118,
+        "Title": "Det Danske Filminstitut",
+        "Poster": "/AiBorgNTCS1lT1FdFPYheax9jfF.png",
+        "OriginCountry": "DK",
+        "Amount": 0
+      },
+      {
+        "Id": 2801,
+        "Title": "Film i V\u00E4st",
+        "Poster": "/bswb1PLLsKDUXMLgy42bZtCtIde.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 5403,
+        "Title": "Nordisk Film \u0026 TV Fond",
+        "Poster": "/fAz2WhTpoMxutBA92JqlfeHEGuz.png",
+        "OriginCountry": "NO",
+        "Amount": 0
+      },
+      {
+        "Id": 2302,
+        "Title": "Svenska Filminstitutet",
+        "Poster": "/rPXEdpqwFycAY9ZgrAJXv13qcWW.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 2999,
+        "Title": "SVT",
+        "Poster": "/zGSqFee9aDgDuLD6vcs2mcJUem4.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 76,
+        "Title": "Zentropa Entertainments",
+        "Poster": "/nebkQYtQKhZyHJfh5v0oGpNbPzu.png",
+        "OriginCountry": "DK",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2394,6 +4586,29 @@ var films = [
       "Romance",
       "Science Fiction",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 215128,
+        "Title": "Wayne Rice/Gil Netter Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1088,
+        "Title": "Alcon Entertainment",
+        "Poster": "/9WOE5AQUXbOtLU6GTwfjS8OMF0v.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2420,6 +4635,22 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 10005,
+        "Title": "Balthazar Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 43649,
+        "Title": "Lilies Films",
+        "Poster": "/5pv3tUlq25IiuMuok57YBZIiKn.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2446,6 +4677,22 @@ var films = [
     "Genres": [
       "Crime",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 56485,
+        "Title": "Act III Productions",
+        "Poster": "/t0M92JDUfcICcOB46NHxEOhK1FS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2474,6 +4721,50 @@ var films = [
     "Genres": [
       "Thriller",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 67574,
+        "Title": "Space Rocket Nation",
+        "Poster": "",
+        "OriginCountry": "DK",
+        "Amount": 0
+      },
+      {
+        "Id": 9,
+        "Title": "Gaumont",
+        "Poster": "/nda3dTUYdDrJ6rZqBpYvY865aDv.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 856,
+        "Title": "Wild Bunch",
+        "Poster": "/3tfzS2CrX6Ntbu927XzHXEPDA6y.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 50481,
+        "Title": "Vendian Entertainment",
+        "Poster": "/mBgGtJJQ9aOpKBnuKXM75kHYT6D.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2266,
+        "Title": "Bold Films",
+        "Poster": "/owzVs2mguyyJ3vIn7EbgowpUPnk.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 152,
+        "Title": "Icon Productions",
+        "Poster": "/rC2pFo4IBQVSVZvucDLwMRvZHfi.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2501,6 +4792,29 @@ var films = [
       "Thriller",
       "Action",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 7405,
+        "Title": "Dimension Films",
+        "Poster": "/rfnws0uY8rsNAsrLbx3gEIcYXx3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10807,
+        "Title": "Troublemaker Studios",
+        "Poster": "/5MhGwwNnXXcTKjIXJ9oALnUas4t.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 14,
+        "Title": "Miramax",
+        "Poster": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2529,6 +4843,36 @@ var films = [
       "Horror",
       "Mystery",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 24277,
+        "Title": "PalmStar Media",
+        "Poster": "/mRSBVNNL2lZvJKVGjlxeUQVRc6X.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 57430,
+        "Title": "Pulse Films",
+        "Poster": "/4vWiIwU0RLJJMGiqqNUnQyBsVI5.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 42582,
+        "Title": "Finch Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 18922,
+        "Title": "Windy Hill Pictures",
+        "Poster": "/yPIwZuQRnUlHMzuwluiOVMrUxn4.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2556,6 +4900,29 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 72060,
+        "Title": "Horseshoe Films",
+        "Poster": "",
+        "OriginCountry": "NZ",
+        "Amount": 0
+      },
+      {
+        "Id": 72061,
+        "Title": "A Ticklish Tale",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 72062,
+        "Title": "Fumes Production",
+        "Poster": "",
+        "OriginCountry": "NZ",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2583,6 +4950,15 @@ var films = [
       "Drama",
       "Horror",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 5652,
+        "Title": "Six Entertainment",
+        "Poster": "",
+        "OriginCountry": "NL",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2610,6 +4986,57 @@ var films = [
       "Adventure",
       "Fantasy",
       "Animation"
+    ],
+    "Studios": [
+      {
+        "Id": 10342,
+        "Title": "Studio Ghibli",
+        "Poster": "/uFuxPEZRUcBTEiYIxjHJq62Vr77.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 12516,
+        "Title": "Nibariki",
+        "Poster": "",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 2752,
+        "Title": "dentsu Music and Entertainment",
+        "Poster": "/qEGEoCAV9FWAuohymR5I0vjJMgM.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 67681,
+        "Title": "TNDG",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1779,
+        "Title": "Tokuma Shoten",
+        "Poster": "/41nGzTdCnORYZIZzaGZtfsBwQCl.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 6755,
+        "Title": "Nippon Television Network Corporation",
+        "Poster": "/c0ENH8QeZLvCACpzCpwvYMy2SDr.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 1778,
+        "Title": "dentsu",
+        "Poster": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2637,6 +5064,43 @@ var films = [
       "Horror",
       "Mystery",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 88934,
+        "Title": "Monkeypaw Productions",
+        "Poster": "/5Be96V9WXa7jJInSDPqDOqMBA0o.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 214539,
+        "Title": "Perfect World Pictures",
+        "Poster": "/7gLb5n9flgH3aGn28Q0jNtPhlwx.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3172,
+        "Title": "Blumhouse Productions",
+        "Poster": "/rzKluDcRkIwHZK2pHsiT667A2Kw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 72725,
+        "Title": "QC Entertainment",
+        "Poster": "/gflhJ4lNROXuYMeN4giNrVQvtDw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2664,6 +5128,57 @@ var films = [
       "Crime",
       "Drama",
       "Western"
+    ],
+    "Studios": [
+      {
+        "Id": 6692,
+        "Title": "Benaroya Pictures",
+        "Poster": "/2Wd2CodKtgB4XyAQH4ez8qnZuqg.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 12005,
+        "Title": "Yucaipa Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 13184,
+        "Title": "Annapurna Pictures",
+        "Poster": "/pfUB1a62jSMIqp4Xmaq6z2cgW0B.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 13507,
+        "Title": "Pie Films Inc.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 14440,
+        "Title": "Red Wagon Entertainment",
+        "Poster": "/gk9zllyMFnaVBWTdZpm7VcfQrHC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 15495,
+        "Title": "Revolt Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 47124,
+        "Title": "BlumHansonAllen Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2690,6 +5205,36 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 506,
+        "Title": "Newmarket Capital Group",
+        "Poster": "/obIWjrmF9pWzxXcDCd3810YzJpk.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 333,
+        "Title": "Original Film",
+        "Poster": "/5xUJfzPZ8jWJUDzYtIeuPO4qPIa.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2882,
+        "Title": "Neal H. Moritz Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2716,6 +5261,15 @@ var films = [
     "Genres": [
       "Comedy",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2742,6 +5296,29 @@ var films = [
     "Genres": [
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 97,
+        "Title": "Castle Rock Entertainment",
+        "Poster": "/7znWcbDd4PcJzJUlJxYqAlPPykp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 365,
+        "Title": "Nelson Entertainment",
+        "Poster": "/3InSlF0bcc5zuObBGMQpDoSCjYV.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2767,6 +5344,15 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2797,6 +5383,15 @@ var films = [
       "Drama",
       "Romance",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 90899,
+        "Title": "Feelgood Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2823,6 +5418,15 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 4149,
+        "Title": "Noise \u0026 Light",
+        "Poster": "",
+        "OriginCountry": "AU",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2851,6 +5455,29 @@ var films = [
       "Action",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 9195,
+        "Title": "Touchstone Pictures",
+        "Poster": "/geK5QOBsXIPGHutKwXtYjMUyYSG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 130,
+        "Title": "Jerry Bruckheimer Films",
+        "Poster": "/c9dVHPOL3cqCr2593Ahk0nEKTEM.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1645,
+        "Title": "Scott Free Productions",
+        "Poster": "/6Ry6uNBaa0IbbSs1XYIgX5DkA9r.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2878,6 +5505,22 @@ var films = [
       "Thriller",
       "Crime",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 82968,
+        "Title": "LuckyChap Entertainment",
+        "Poster": "/gRROMOG5bpF6TIDMbfaa5gnFFzl.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7493,
+        "Title": "FilmNation Entertainment",
+        "Poster": "/fHitYiGUCkRafgt6VPYQlXWLkdp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2906,6 +5549,29 @@ var films = [
       "Thriller",
       "Drama",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 635,
+        "Title": "Les Films Alain Sarde",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 373,
+        "Title": "Asymmetrical Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2931,6 +5597,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 4397,
+        "Title": "The Archers",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 14377,
+        "Title": "J. Arthur Rank Organisation",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2959,6 +5641,22 @@ var films = [
       "Family",
       "Romance",
       "Music"
+    ],
+    "Studios": [
+      {
+        "Id": 746,
+        "Title": "MTV Films",
+        "Poster": "/kc7bdIVTBkJYy9aDK1QDDTAL463.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 53673,
+        "Title": "Cort/Madden Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -2985,6 +5683,22 @@ var films = [
     "Genres": [
       "Drama",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 4095,
+        "Title": "First Run Features",
+        "Poster": "/zR0M1hMBNRKyYnRHMidK9WjUsUX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10473,
+        "Title": "ONF | NFB",
+        "Poster": "/lMUDQZVtg8On4PAW5XFQPaQy6UK.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3011,6 +5725,15 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 40690,
+        "Title": "Deutsche Film-Gemeinschaft",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3037,6 +5760,15 @@ var films = [
     "Genres": [
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3063,6 +5795,22 @@ var films = [
     "Genres": [
       "Horror",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 14323,
+        "Title": "Compass International Pictures",
+        "Poster": "/efnw45BcPQve9ACNchnDufgV1po.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 22814,
+        "Title": "Falcon International Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3092,6 +5840,50 @@ var films = [
       "Science Fiction",
       "Romance",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 127929,
+        "Title": "Searchlight Pictures",
+        "Poster": "/7DLKyL15ETI9645XSr9JcbMV79c.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 22213,
+        "Title": "TSG Entertainment",
+        "Poster": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3353,
+        "Title": "Element Pictures",
+        "Poster": "/qv2v9HaStUTRjqonODM29YG0oFX.png",
+        "OriginCountry": "IE",
+        "Amount": 0
+      },
+      {
+        "Id": 72597,
+        "Title": "Limp",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 138287,
+        "Title": "Fruit Tree",
+        "Poster": "/3I1k679J7ZLQtVFM23dJhFZQQCH.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3119,6 +5911,22 @@ var films = [
       "Comedy",
       "Family",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 477,
+        "Title": "Hughes Entertainment",
+        "Poster": "/4wfCdggcE3ZG26uJpnAvyI0vEeL.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3145,6 +5953,22 @@ var films = [
     "Genres": [
       "Comedy",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 8816,
+        "Title": "Northern Lights Entertainment",
+        "Poster": "/r5Kmkdz8rp2EXdP5bcyxmW1X3tE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3170,6 +5994,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 9181,
+        "Title": "Art Theatre Guild",
+        "Poster": "/hObQEBMY8Es6ajSlVeBEIdqbuSK.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 53529,
+        "Title": "Matsumoto Production",
+        "Poster": "",
+        "OriginCountry": "JP",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3197,6 +6037,22 @@ var films = [
       "Romance",
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 14680,
+        "Title": "Parc Film",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 1147,
+        "Title": "Madeleine Films",
+        "Poster": "/tBDaGOA04LmlsbLvMwHjR7WzT9H.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3222,6 +6078,22 @@ var films = [
     ],
     "Genres": [
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 48184,
+        "Title": "Hoya Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3249,6 +6121,15 @@ var films = [
       "Mystery",
       "Thriller",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 1221,
+        "Title": "Gainsborough Pictures",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3278,6 +6159,36 @@ var films = [
       "Comedy",
       "Family",
       "Music"
+    ],
+    "Studios": [
+      {
+        "Id": 6704,
+        "Title": "Illumination",
+        "Poster": "/fOG2oY4m1YuYTQh4bMqqZkmgOAI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3341,
+        "Title": "Fuji Television Network",
+        "Poster": "/dTG5dXE1kU2mpmL9BNnraffckLU.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 1778,
+        "Title": "dentsu",
+        "Poster": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3304,6 +6215,57 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 139,
+        "Title": "LJ Film",
+        "Poster": "",
+        "OriginCountry": "KR",
+        "Amount": 0
+      },
+      {
+        "Id": 11554,
+        "Title": "Korea Pictures",
+        "Poster": "",
+        "OriginCountry": "KR",
+        "Amount": 0
+      },
+      {
+        "Id": 685,
+        "Title": "Cineclick Asia",
+        "Poster": "",
+        "OriginCountry": "KR",
+        "Amount": 0
+      },
+      {
+        "Id": 11555,
+        "Title": "Cinesoul",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 11556,
+        "Title": "Mirae Asset Capital",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 11557,
+        "Title": "Muhan Investment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 140,
+        "Title": "Pandora Film",
+        "Poster": "/ooz5b0ov3PLfBoOJyMmdoffVuHs.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3330,6 +6292,22 @@ var films = [
     "Genres": [
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 9195,
+        "Title": "Touchstone Pictures",
+        "Poster": "/geK5QOBsXIPGHutKwXtYjMUyYSG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23,
+        "Title": "Imagine Entertainment",
+        "Poster": "/bJOFo2ufq7iFC1F4qZm8aLxF5aS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3358,6 +6336,29 @@ var films = [
       "Drama",
       "Crime",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 2542,
+        "Title": "Nick Wechsler/Miracle Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 2543,
+        "Title": "Volume One Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 2760,
+        "Title": "Miracle Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3384,6 +6385,29 @@ var films = [
     "Genres": [
       "Drama",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 93105,
+        "Title": "IAC Films",
+        "Poster": "/ryjDQ04FlVYVW30Eok3t5V5Gx8T.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 258,
+        "Title": "Scott Rudin Productions",
+        "Poster": "/tMI4xPwgxfNaNId3h9dOcHGU1NI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 78984,
+        "Title": "Entertainment 360",
+        "Poster": "/vJLYh9YHQaEryuzu7GNUa1zwKG1.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3410,6 +6434,29 @@ var films = [
     "Genres": [
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 65938,
+        "Title": "Blue Creek Pictures",
+        "Poster": "/i0yfUJtGp9Ev2PMtjwzFLZxlgXU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 124504,
+        "Title": "Oakhurst Entertainment",
+        "Poster": "/2lNM3d3KUlDk3phoFpTkrIS8jKU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 38956,
+        "Title": "Tandem Pictures",
+        "Poster": "/s1Cf3SV4fD0bSkgnepVz85vyy8b.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3436,6 +6483,15 @@ var films = [
     "Genres": [
       "Horror",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 60,
+        "Title": "United Artists",
+        "Poster": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3464,6 +6520,15 @@ var films = [
     "Genres": [
       "Family",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 3958,
+        "Title": "Front Street Pictures",
+        "Poster": "/xkdYNmOW6e4gjgp4NSLRt0W5UIj.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3490,6 +6555,36 @@ var films = [
     "Genres": [
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7,
+        "Title": "DreamWorks Pictures",
+        "Poster": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 41248,
+        "Title": "Nancy Tenenbaum Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 11391,
+        "Title": "Tribeca Productions",
+        "Poster": "/t6m0uRTzaFHCsvEpikENE0PWJGb.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3517,6 +6612,22 @@ var films = [
       "Family",
       "Animation",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 2,
+        "Title": "Walt Disney Pictures",
+        "Poster": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 171656,
+        "Title": "Walt Disney Feature Animation",
+        "Poster": "/4UBohOtIr9DtxylH48Qsg6aDow6.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3542,6 +6653,22 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11486,
+        "Title": "Picturehouse Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3569,6 +6696,43 @@ var films = [
     "Genres": [
       "Drama",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 10104,
+        "Title": "New Regency Pictures",
+        "Poster": "/4sGWXoboEkWPphI6es6rTmqkCBh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 81,
+        "Title": "Plan B Entertainment",
+        "Poster": "/8wOfUhA7vwU2gbPjQy7Vv3EiF0o.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1246,
+        "Title": "River Road Entertainment",
+        "Poster": "/s0doRYEVWp3a4Y4Cg7R4fE9cwov.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 508,
+        "Title": "Regency Enterprises",
+        "Poster": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3596,6 +6760,43 @@ var films = [
     "Genres": [
       "Comedy",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 2372,
+        "Title": "Unison Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6510,
+        "Title": "Defender Films",
+        "Poster": "",
+        "OriginCountry": "NZ",
+        "Amount": 0
+      },
+      {
+        "Id": 21213,
+        "Title": "Funny or Die",
+        "Poster": "/wV3mBqWgfgdRtFEkh6hHpHW9Cb1.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 294,
+        "Title": "New Zealand Film Commission",
+        "Poster": "/a05DY2oSeUOVFDM61RsQa9x9RoC.png",
+        "OriginCountry": "NZ",
+        "Amount": 0
+      },
+      {
+        "Id": 43498,
+        "Title": "Resnick Interactive Development",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3622,6 +6823,22 @@ var films = [
     "Genres": [
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 7405,
+        "Title": "Dimension Films",
+        "Poster": "/rfnws0uY8rsNAsrLbx3gEIcYXx3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10807,
+        "Title": "Troublemaker Studios",
+        "Poster": "/5MhGwwNnXXcTKjIXJ9oALnUas4t.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3648,6 +6865,22 @@ var films = [
     "Genres": [
       "Thriller",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 711,
+        "Title": "Fox 2000 Pictures",
+        "Poster": "/tEiIH5QesdheJmDAqQwvtN60727.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 12194,
+        "Title": "Zucker/Netter Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3676,6 +6909,50 @@ var films = [
     "Genres": [
       "Horror",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 7405,
+        "Title": "Dimension Films",
+        "Poster": "/rfnws0uY8rsNAsrLbx3gEIcYXx3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1380,
+        "Title": "Australian Film Finance Corporation",
+        "Poster": "/y4JH9ncZJAFJGYWK84k1dmXnsw0.png",
+        "OriginCountry": "AU",
+        "Amount": 0
+      },
+      {
+        "Id": 2806,
+        "Title": "South Australian Film Corporation",
+        "Poster": "/vxOhCbpsRBh10m6LZ3HyImTYpPY.png",
+        "OriginCountry": "AU",
+        "Amount": 0
+      },
+      {
+        "Id": 6016,
+        "Title": "403 Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 6017,
+        "Title": "True Crime Channel",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 7337,
+        "Title": "Mushroom Pictures",
+        "Poster": "",
+        "OriginCountry": "AU",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3704,6 +6981,22 @@ var films = [
       "Family",
       "Adventure",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 2,
+        "Title": "Walt Disney Pictures",
+        "Poster": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6125,
+        "Title": "Walt Disney Animation Studios",
+        "Poster": "/tzsMJBJZINu7GHzrpYzpReWhh66.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3731,6 +7024,15 @@ var films = [
       "Drama",
       "Family",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 11770,
+        "Title": "Liberty Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3756,6 +7058,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 112399,
+        "Title": "ACE Pictures Entertainment",
+        "Poster": "/plWc00ADe9sk3srODk9EhER2WcY.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 122393,
+        "Title": "Bronwyn Cornelius Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 6831,
+        "Title": "Big Indie Pictures",
+        "Poster": "/fWSI4EjIDEEzCNJC8OTPX9Pdbxv.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3784,6 +7109,36 @@ var films = [
       "Drama",
       "Thriller",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 49,
+        "Title": "El Deseo",
+        "Poster": "/tlzPjqJjba2WjBaNGN1SZuJmbYj.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 21914,
+        "Title": "K \u0026 S Films",
+        "Poster": "/iF5QYCtPLuwkU90jWdjrul25d71.png",
+        "OriginCountry": "AR",
+        "Amount": 0
+      },
+      {
+        "Id": 8046,
+        "Title": "Telefe",
+        "Poster": "/9Pvyw0vgN6PWoMJGsUil0DNlXdd.png",
+        "OriginCountry": "AR",
+        "Amount": 0
+      },
+      {
+        "Id": 6458,
+        "Title": "INCAA",
+        "Poster": "/eT4oMUK7ODM0vvZue8yq3Ojwqf8.png",
+        "OriginCountry": "AR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3811,6 +7166,22 @@ var films = [
     "Genres": [
       "Drama",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 1931,
+        "Title": "Filmov\u00E9 studio Barrandov",
+        "Poster": "/5erHhgvym2cTORao8ajtn2gbiTH.png",
+        "OriginCountry": "XC",
+        "Amount": 0
+      },
+      {
+        "Id": 34351,
+        "Title": "Elisabeth Films",
+        "Poster": "",
+        "OriginCountry": "BE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3838,6 +7209,15 @@ var films = [
       "Action",
       "Thriller",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 11461,
+        "Title": "Bad Robot",
+        "Poster": "/p9FoEt5shEKRWRKVIlvFaEmRnun.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3863,6 +7243,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 4424,
+        "Title": "Smokewood Entertainment Group",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 695,
+        "Title": "Lee Daniels Entertainment",
+        "Poster": "/rxXG5CZjBGFbJt9tYgrySrkJCTF.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3890,6 +7286,22 @@ var films = [
       "Family",
       "Adventure",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 5739,
+        "Title": "Donner/Shuler-Donner Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3918,6 +7330,43 @@ var films = [
       "Crime",
       "Thriller",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 3322,
+        "Title": "August Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2499,
+        "Title": "The Kushner-Locke Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 97929,
+        "Title": "Multicom Entertainment Group",
+        "Poster": "/oQRFmBTxaCDRhqcHXHTMYWlw3Yl.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 14175,
+        "Title": "Davis Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 3480,
+        "Title": "Illusion Entertainment Group",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3948,6 +7397,43 @@ var films = [
     "Genres": [
       "Drama",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 11912,
+        "Title": "Mikado Film",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 36765,
+        "Title": "Adventure Pictures",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 132019,
+        "Title": "Rio",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 45179,
+        "Title": "Sigma Pictures",
+        "Poster": "",
+        "OriginCountry": "NL",
+        "Amount": 0
+      },
+      {
+        "Id": 170208,
+        "Title": "Lenfilm",
+        "Poster": "/8qh5BEyKYOQ0e81LPbvWHQvyOy5.png",
+        "OriginCountry": "RU",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -3974,6 +7460,15 @@ var films = [
     "Genres": [
       "Animation",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 171657,
+        "Title": "Walt Disney Studio",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4001,6 +7496,29 @@ var films = [
     "Genres": [
       "Drama",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 10039,
+        "Title": "Anonymous Content",
+        "Poster": "/b8w4LldQolMKiLZw4FQJBcXSDGI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 19778,
+        "Title": "Winter's Bone Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1615,
+        "Title": "Fortissimo Films",
+        "Poster": "/4eBmyaFkD9um04Weu6ybnLWNSVH.png",
+        "OriginCountry": "NL",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4028,6 +7546,15 @@ var films = [
       "Drama",
       "Horror",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 10324,
+        "Title": "William Castle Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4054,6 +7581,29 @@ var films = [
     "Genres": [
       "Comedy",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4267,
+        "Title": "Delphi Films",
+        "Poster": "/cw6C1E64Ckf5jV8ppAIz9gHaho4.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 47565,
+        "Title": "Black Rhino Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4081,6 +7631,15 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 84489,
+        "Title": "BlinkWorks Media",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4108,6 +7667,29 @@ var films = [
       "Comedy",
       "Science Fiction",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 25021,
+        "Title": "Constellation",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 582,
+        "Title": "Hachette Premi\u00E8re",
+        "Poster": "/bEORFnCh6xQ3oQuY6yX6mRRCLvW.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 581,
+        "Title": "UGC",
+        "Poster": "/pzJLNyKypqwAgLR4OjmaxA5WEjm.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4136,6 +7718,43 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 75937,
+        "Title": "Charenton Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 43,
+        "Title": "Fox Searchlight Pictures",
+        "Poster": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 376,
+        "Title": "Industry Entertainment Partners",
+        "Poster": "/4TYjUVu74lX3r4ht1ppZxEpj1a4.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 8780,
+        "Title": "Walrus \u0026 Associates",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 30257,
+        "Title": "Hollywood Partners",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4162,6 +7781,22 @@ var films = [
     "Genres": [
       "Comedy",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 477,
+        "Title": "Hughes Entertainment",
+        "Poster": "/4wfCdggcE3ZG26uJpnAvyI0vEeL.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4196,6 +7831,176 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 76,
+        "Title": "Zentropa Entertainments",
+        "Poster": "/nebkQYtQKhZyHJfh5v0oGpNbPzu.png",
+        "OriginCountry": "DK",
+        "Amount": 0
+      },
+      {
+        "Id": 814,
+        "Title": "Isabella Films B.V.",
+        "Poster": "",
+        "OriginCountry": "NL",
+        "Amount": 0
+      },
+      {
+        "Id": 53873,
+        "Title": "Something Else B.V.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 321,
+        "Title": "Memfis Film",
+        "Poster": "/pfp6VWF3tYfOHHVRHpYe2iGcYrf.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 320,
+        "Title": "Trollh\u00E4ttan Film",
+        "Poster": "",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 30268,
+        "Title": "Pain Unlimited Filmproduktion",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 53874,
+        "Title": "Sigma Films",
+        "Poster": "/mZJMAPElHQBIuWWXSyHtyaMf26C.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 53875,
+        "Title": "Zoma Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 7777,
+        "Title": "Slot Machine",
+        "Poster": "/vd6oWpxQXyaeWGfm0A5SnJi8pyo.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 11239,
+        "Title": "Liberator Productions",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 2801,
+        "Title": "Film i V\u00E4st",
+        "Poster": "/bswb1PLLsKDUXMLgy42bZtCtIde.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 94,
+        "Title": "ARTE France Cin\u00E9ma",
+        "Poster": "/huC7HqorvUThGIrENrbcHmQVUA0.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 591,
+        "Title": "France 3 Cin\u00E9ma",
+        "Poster": "/q5I5RDwMEiqoNmfaJgd2LraEOJY.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 10946,
+        "Title": "WDR/Arte",
+        "Poster": "/gk4SFkJ3G49gGL308zymD8QGNw.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 119,
+        "Title": "DR",
+        "Poster": "/1di2gITGUZr730AMuMKiCrP90Vl.png",
+        "OriginCountry": "DK",
+        "Amount": 0
+      },
+      {
+        "Id": 2999,
+        "Title": "SVT",
+        "Poster": "/zGSqFee9aDgDuLD6vcs2mcJUem4.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 12023,
+        "Title": "NPS",
+        "Poster": "/97tVKGqnkjn0hwTGGRDPRgYWbrE.png",
+        "OriginCountry": "NL",
+        "Amount": 0
+      },
+      {
+        "Id": 5975,
+        "Title": "YLE",
+        "Poster": "/vvjgoKygWWYZvYyidT3RmOCq5If.png",
+        "OriginCountry": "FI",
+        "Amount": 0
+      },
+      {
+        "Id": 224438,
+        "Title": "Norsk TV2 AS",
+        "Poster": "",
+        "OriginCountry": "NO",
+        "Amount": 0
+      },
+      {
+        "Id": 25491,
+        "Title": "Edith Film",
+        "Poster": "",
+        "OriginCountry": "FI",
+        "Amount": 0
+      },
+      {
+        "Id": 255882,
+        "Title": "Spillefilmselskapet 4 1/2",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 224439,
+        "Title": "Fjeldabe Films AS",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 23207,
+        "Title": "Invicta Capital",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 447,
+        "Title": "TV 1000 Sverige",
+        "Poster": "",
+        "OriginCountry": "SE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4224,6 +8029,43 @@ var films = [
       "Action",
       "Crime",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 429,
+        "Title": "DC",
+        "Poster": "/4Y00XuSMuP1gimd0jP6JT57QbCI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 9996,
+        "Title": "Syncopy",
+        "Poster": "/3tvBqYsBhxWeHlu62SIJ1el93O7.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 923,
+        "Title": "Legendary Pictures",
+        "Poster": "/5UQsZrfbfG2dYJbx8DxfoTr2Bvu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 19231,
+        "Title": "Patalex III Productions Limited",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4252,6 +8094,22 @@ var films = [
       "Horror",
       "Mystery",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 662,
+        "Title": "The Turman-Foster Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4282,6 +8140,71 @@ var films = [
       "Horror",
       "Fantasy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 79436,
+        "Title": "Very Special Projects",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 6531,
+        "Title": "Parts \u0026 Labor",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 30666,
+        "Title": "RT Features",
+        "Poster": "/g8LmDZVFWDRJW72sj0nAj1gh8ac.png",
+        "OriginCountry": "BR",
+        "Amount": 0
+      },
+      {
+        "Id": 34456,
+        "Title": "Rooks Nest Entertainment",
+        "Poster": "/8M1gePvKplgyHRD5WWfONbWOAuk.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 41641,
+        "Title": "Maiden Voyage Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 57430,
+        "Title": "Pulse Films",
+        "Poster": "/4vWiIwU0RLJJMGiqqNUnQyBsVI5.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 61011,
+        "Title": "Scythia Films",
+        "Poster": "/kDPeollsOtUtGqqEF4P29NwEjf5.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 79434,
+        "Title": "Code Red Productions",
+        "Poster": "/Arvz4tu5nMsQyuNxXsbPh4jrMms.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 79435,
+        "Title": "Mott Street Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4310,6 +8233,64 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 22029,
+        "Title": "Canal\u002B Horizons",
+        "Poster": "/asH5UhhC8dRUUExZKIis0Y3dyjy.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 22618,
+        "Title": "Mat Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 71842,
+        "Title": "Cin\u00E9t\u00E9l\u00E9films",
+        "Poster": "/zmB7hLD7n4Wxr7o3Vj9o9988vZB.png",
+        "OriginCountry": "TN",
+        "Amount": 0
+      },
+      {
+        "Id": 75450,
+        "Title": "Minist\u00E8re Tunisien de la Culture",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 10901,
+        "Title": "Minist\u00E8re de la culture",
+        "Poster": "/8dNHWgUlJNz9HHLtcdsz04jRtyi.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 310,
+        "Title": "CNC",
+        "Poster": "/4Gp5A4YdjPBfsHT47ngHMaXWmb9.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 13413,
+        "Title": "Hubert Bals Fund",
+        "Poster": "",
+        "OriginCountry": "NL",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4339,6 +8320,36 @@ var films = [
       "Comedy",
       "Crime",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 12180,
+        "Title": "Warp Films",
+        "Poster": "/ye2vKF2MZbVPzof7YZjeRUkL7Up.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 15308,
+        "Title": "Wild Bunch Distribution",
+        "Poster": "/lx6AMYeHfE8idRaYGj7ClfGHAIr.png",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 102196,
+        "Title": "Optimum Releasing",
+        "Poster": "/tdatibb82uq1kcSFiqZkwJ5xgIv.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4366,6 +8377,22 @@ var films = [
       "Drama",
       "Romance",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 6116,
+        "Title": "Argos films",
+        "Poster": "/yCu2D15iD7lcYsBWqXjU65U9nkH.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 24119,
+        "Title": "Radio-T\u00E9l\u00E9vision Fran\u00E7aise",
+        "Poster": "/iNcPopycyTGDgWy6dDl5cnlfS3n.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4391,6 +8418,22 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 92506,
+        "Title": "Reel As Dirt",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 256704,
+        "Title": "Moxie Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4418,6 +8461,22 @@ var films = [
       "Comedy",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 2811,
+        "Title": "Neo Art \u0026 Logic",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 52465,
+        "Title": "Quiet Man Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4443,6 +8502,36 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 91832,
+        "Title": "The Forge Entertainment",
+        "Poster": "/849Lsv7KuvPNz5nEb6eqKVX3U8u.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 159584,
+        "Title": "One Shoe Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 5778,
+        "Title": "Channel 4 Television",
+        "Poster": "/2loyoQweDxvotH3AknfL2zhsthg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 96496,
+        "Title": "All3Media International",
+        "Poster": "/3BmTWbzRYtesfxvaB9s61j7zXgu.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4471,6 +8560,50 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 37984,
+        "Title": "Productions et \u00C9ditions Cin\u00E9matographique Fran\u00E7ais",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1042,
+        "Title": "Cinecitt\u00E0 Studios",
+        "Poster": "/cv8uj3G9fhe7vifZB6yjTzqI45V.png",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 1603,
+        "Title": "Les Films du Si\u00E8cle",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 11929,
+        "Title": "Dear Film",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 12300,
+        "Title": "Deutsche Fox-Film",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4498,6 +8631,43 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 51696,
+        "Title": "CG Cin\u00E9ma",
+        "Poster": "/1HeS0gYnwi2AVtfGvSBaCqlXMuS.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 72918,
+        "Title": "Vistamar Filmproduktion",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 72919,
+        "Title": "Uhlandfilm",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 72920,
+        "Title": "Bam Film",
+        "Poster": "",
+        "OriginCountry": "TR",
+        "Amount": 0
+      },
+      {
+        "Id": 18626,
+        "Title": "Kinology",
+        "Poster": "/gb0xmYIKvNy2LnUOfLVglww7U0g.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4523,6 +8693,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 8880,
+        "Title": "Winkler Films",
+        "Poster": "/fE7LBw7Jz8R29EABFGCvWNriZxN.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4550,6 +8729,36 @@ var films = [
     "Genres": [
       "Drama",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7295,
+        "Title": "Relativity Media",
+        "Poster": "/5MYE96QiE5a5oFhXxFb4y8ILSpw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11370,
+        "Title": "Michael De Luca Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7626,
+        "Title": "Trigger Street Productions",
+        "Poster": "/4839MGss4pPAalhqqYH1AD1CnEj.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4577,6 +8786,22 @@ var films = [
     "Genres": [
       "Adventure",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 437,
+        "Title": "Heyday Films",
+        "Poster": "/nu20mtwbEIhUNnQ5NXVhHsNknZj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4605,6 +8830,29 @@ var films = [
       "Adventure",
       "Drama",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 923,
+        "Title": "Legendary Pictures",
+        "Poster": "/5UQsZrfbfG2dYJbx8DxfoTr2Bvu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 9996,
+        "Title": "Syncopy",
+        "Poster": "/3tvBqYsBhxWeHlu62SIJ1el93O7.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 13769,
+        "Title": "Lynda Obst Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4630,6 +8878,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 184460,
+        "Title": "A Steven Haft Production",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1089,
+        "Title": "Witt/Thomas Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4658,6 +8922,36 @@ var films = [
     "Genres": [
       "Romance",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 78,
+        "Title": "Hotshot Films",
+        "Poster": "/ngEvKlaMsDQBlbK7eDZ6RncCErb.png",
+        "OriginCountry": "RU",
+        "Amount": 0
+      },
+      {
+        "Id": 49,
+        "Title": "El Deseo",
+        "Poster": "/tlzPjqJjba2WjBaNGN1SZuJmbYj.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 12010,
+        "Title": "Mediapro",
+        "Poster": "/37Yr7iuWGXk849o8osIQKTQSZY5.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 981,
+        "Title": "TVE",
+        "Poster": "/pkrdO9ykplO4Zc8edikoSX5APUN.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4687,6 +8981,43 @@ var films = [
       "Adventure",
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 60,
+        "Title": "United Artists",
+        "Poster": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7576,
+        "Title": "EON Productions",
+        "Poster": "/oYcUi1byZ312Z3xiz5ojz9RQLND.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 10761,
+        "Title": "Danjaq",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4169,
+        "Title": "KanZaman Productions",
+        "Poster": "",
+        "OriginCountry": "ES",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4713,6 +9044,22 @@ var films = [
     "Genres": [
       "Drama",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 14,
+        "Title": "Miramax",
+        "Poster": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1566,
+        "Title": "Spanky Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4742,6 +9089,36 @@ var films = [
       "Action",
       "Crime",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 923,
+        "Title": "Legendary Pictures",
+        "Poster": "/5UQsZrfbfG2dYJbx8DxfoTr2Bvu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 9996,
+        "Title": "Syncopy",
+        "Poster": "/3tvBqYsBhxWeHlu62SIJ1el93O7.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 429,
+        "Title": "DC",
+        "Poster": "/4Y00XuSMuP1gimd0jP6JT57QbCI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4768,6 +9145,36 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 8734,
+        "Title": "Fellowship Adventure Group",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 225,
+        "Title": "BIM Distribuzione",
+        "Poster": "/oTRPUgdpWotA7Hi5gpioQO0MEyk.png",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 145582,
+        "Title": "Questar Entertainment",
+        "Poster": "/ctbq8gId8vGR84leHsY2iKQFQU0.png",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 26137,
+        "Title": "Dog Eat Dog Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4796,6 +9203,43 @@ var films = [
       "Drama",
       "History",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 5705,
+        "Title": "CinemaNX",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 2268,
+        "Title": "Isle of Man Film",
+        "Poster": "/wgDks2qYgwN6u1OkW1bBre0rf4F.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 13502,
+        "Title": "Framestore",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 39483,
+        "Title": "Hart-Lunsford Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 11510,
+        "Title": "Detour Filmproduction",
+        "Poster": "/gg3gP2wHNNfOfLKdXGjYC9qJ9ok.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4822,6 +9266,22 @@ var films = [
     "Genres": [
       "Comedy",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 33782,
+        "Title": "Witzend Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 33781,
+        "Title": "Black Lion Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4850,6 +9310,36 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 7295,
+        "Title": "Relativity Media",
+        "Poster": "/5MYE96QiE5a5oFhXxFb4y8ILSpw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4877,6 +9367,15 @@ var films = [
       "Action",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 96,
+        "Title": "X Filme Creative Pool",
+        "Poster": "/9ps82gVzUeNdkjmLzoGDQLiLDio.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4904,6 +9403,22 @@ var films = [
       "Comedy",
       "Family",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 2,
+        "Title": "Walt Disney Pictures",
+        "Poster": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 8795,
+        "Title": "The Meyers/Shyer Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4929,6 +9444,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4955,6 +9479,36 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 163,
+        "Title": "Revolution Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 3324,
+        "Title": "BBC",
+        "Poster": "/dqT3yOTlfJRmtvk52Ccd1O6dZ0A.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 1219,
+        "Title": "Baby Cow Productions",
+        "Poster": "/6OGqCShROjIvmBOfRbeUsn7im93.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 212262,
+        "Title": "Arbie",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -4986,6 +9540,78 @@ var films = [
       "Fantasy",
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 762,
+        "Title": "Mutual Film Company",
+        "Poster": "/3T7EpKcS13viHu3WzRtQGvi9sTY.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 840,
+        "Title": "Lawrence Gordon Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4650,
+        "Title": "Marubeni",
+        "Poster": "/wWivtVg7gG3uNALIE5Oav3Bsiuz.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 19105,
+        "Title": "Eidos Films",
+        "Poster": "/7RdbaZqDLb4q2PdtMZx0SIrAyDt.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 288,
+        "Title": "BBC Film",
+        "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 186604,
+        "Title": "KFP Produktions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 657,
+        "Title": "TOHO-TOWA",
+        "Poster": "/mDBPrBO6hl21KhQOzCVYUBo33zt.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 128586,
+        "Title": "H2L Media Group",
+        "Poster": "/yWQ4zz1kSEPmChJDN3rloRGYJQy.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1469,
+        "Title": "Tele M\u00FCnchen",
+        "Poster": "/AwbErjR0AMpVnN9PbdHiBB3g3q0.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5012,6 +9638,29 @@ var films = [
     "Genres": [
       "Drama",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 1756,
+        "Title": "Broadway Video",
+        "Poster": "/d7YyNzysIF0lSb4lJRf1ar6MHxi.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 89094,
+        "Title": "M.G. Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5039,6 +9688,36 @@ var films = [
       "Drama",
       "Romance",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10146,
+        "Title": "Focus Features",
+        "Poster": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11370,
+        "Title": "Michael De Luca Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7626,
+        "Title": "Trigger Street Productions",
+        "Poster": "/4839MGss4pPAalhqqYH1AD1CnEj.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5068,6 +9747,22 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 105,
+        "Title": "CiBy 2000",
+        "Poster": "/pyiNvPJYGz4W2SImgULoG2sn4y4.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 14089,
+        "Title": "Jan Chapman Productions",
+        "Poster": "",
+        "OriginCountry": "AU",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5094,6 +9789,29 @@ var films = [
     "Genres": [
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1504,
+        "Title": "Cinergi Pictures",
+        "Poster": "/yVAJJ4TgnV1FsDmLh6h5ZNJd0vf.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 248797,
+        "Title": "Andrew G. Vajna Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5121,6 +9839,15 @@ var films = [
       "Adventure",
       "Action",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 11462,
+        "Title": "Alphaville Films",
+        "Poster": "/7ZymELJwuWR4k5p0oeZ3d3WAhO3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5148,6 +9875,43 @@ var films = [
     "Genres": [
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 6896,
+        "Title": "EuropaCorp",
+        "Poster": "/2Q89KvzxTKB5BAv9RqFIPI1qb7E.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 1115,
+        "Title": "M6 Films",
+        "Poster": "/ntH7T5gsN6wtyrfHGHJDTuneQ7o.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 6877,
+        "Title": "Grive Productions",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 222910,
+        "Title": "Seaside Film Taken",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5176,6 +9940,22 @@ var films = [
       "TV Movie",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 4790,
+        "Title": "IMA Productions",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 11332,
+        "Title": "La Sept-Arte",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5202,6 +9982,29 @@ var films = [
     "Genres": [
       "Comedy",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 915,
+        "Title": "Hollywood Pictures",
+        "Poster": "/4neXXpjSJDZPBGBnfWtqysB5htV.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2104,
+        "Title": "Tangled Web Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5227,6 +10030,22 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 34526,
+        "Title": "Atlas Films",
+        "Poster": "/wB84SoAeyNC1MKOU4Gvz8Bc4jKu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 66478,
+        "Title": "Artemis Rising",
+        "Poster": "/u7WmMkfo9MqsqfD5cuDAbd0u1qY.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5255,6 +10074,29 @@ var films = [
       "Action",
       "Thriller",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 6896,
+        "Title": "EuropaCorp",
+        "Poster": "/2Q89KvzxTKB5BAv9RqFIPI1qb7E.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 1945,
+        "Title": "Charles Gordon Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 225856,
+        "Title": "Adrian Askarieh Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5281,6 +10123,15 @@ var films = [
     "Genres": [
       "Crime",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 3095,
+        "Title": "Whitewater Films",
+        "Poster": "/AgLxsYktHv5yKq8NCSyWBCvUFRp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5308,6 +10159,29 @@ var films = [
       "Action",
       "Thriller",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 396,
+        "Title": "SLM Production Group",
+        "Poster": "/5iNXO7nAiSsms7ur1Qy2UwuwcDP.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 401,
+        "Title": "Brandywine Productions",
+        "Poster": "/t7mM3DvQ9MwDT3YzMCBrkWpWiiz.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5334,6 +10208,43 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 84325,
+        "Title": "Micromundo",
+        "Poster": "/tm68t765UdiRFmXvDceVsnxddNa.png",
+        "OriginCountry": "CL",
+        "Amount": 0
+      },
+      {
+        "Id": 21546,
+        "Title": "Fabula",
+        "Poster": "/nB186ByqKVBiuy9Nc3US9nlBst1.png",
+        "OriginCountry": "CL",
+        "Amount": 0
+      },
+      {
+        "Id": 75170,
+        "Title": "Chicken \u0026 Egg Films",
+        "Poster": "/AiDruPS1BWcXNke9nuS4qxq9vHh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 149196,
+        "Title": "InMaat Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 207331,
+        "Title": "The deNovo Initiative",
+        "Poster": "/qCDZ0liWYYqV5DQqsiSp5SRAXAl.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5359,6 +10270,22 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10105,
+        "Title": "Apatow Productions",
+        "Poster": "/bN4tiAS8oNlHhIqq66KBPQ1Ekqh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5385,6 +10312,36 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 1187,
+        "Title": "Michael London Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 23912,
+        "Title": "Antidote Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1143,
+        "Title": "Sound for Film",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5411,6 +10368,22 @@ var films = [
     "Genres": [
       "Drama",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 70,
+        "Title": "American Zoetrope",
+        "Poster": "/ueaENQkPcy8rlr5fGZVBXKOhlBh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2088,
+        "Title": "NALA Films",
+        "Poster": "/AoCD5EcqTAuLkxwsKAXYG2VARPP.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5438,6 +10411,64 @@ var films = [
     "Genres": [
       "Drama",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 308,
+        "Title": "The Weinstein Company",
+        "Poster": "/e8F3mQM7DkJ5SfYYDp8FYzPBOGX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2452,
+        "Title": "UK Film Council",
+        "Poster": "/gOkUB0TdXRLAl6s0s6jCSLS3sOb.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 253658,
+        "Title": "Momentum Pictures",
+        "Poster": "/iUuPGtxzqvRSeP2W6dRW2PkdRBV.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 7309,
+        "Title": "Aegis Film Fund",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 19579,
+        "Title": "Molinare Investment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 7493,
+        "Title": "FilmNation Entertainment",
+        "Poster": "/fHitYiGUCkRafgt6VPYQlXWLkdp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7217,
+        "Title": "See-Saw Films",
+        "Poster": "/vFbexaF70wSMUHRA6Fy6UcuA1ju.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 5005,
+        "Title": "Bedlam Productions",
+        "Poster": "/letEuggPWBjO3HVu1QKAy5DoJZU.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5466,6 +10497,15 @@ var films = [
       "Fantasy",
       "Drama",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5493,6 +10533,36 @@ var films = [
     ],
     "Genres": [
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 559,
+        "Title": "TriStar Pictures",
+        "Poster": "/eC0bWHVjnjUducyA6YFoEFqnPMC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 8504,
+        "Title": "Block / Hanson",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11,
+        "Title": "WingNut Films",
+        "Poster": "/6FAuASQHybRkZUk08p9PzSs9ezM.png",
+        "OriginCountry": "NZ",
+        "Amount": 0
+      },
+      {
+        "Id": 20667,
+        "Title": "District 9",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5522,6 +10592,36 @@ var films = [
       "Comedy",
       "Drama",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 591,
+        "Title": "France 3 Cin\u00E9ma",
+        "Poster": "/q5I5RDwMEiqoNmfaJgd2LraEOJY.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 6274,
+        "Title": "MK2 Films",
+        "Poster": "/ngZoa368SAnERTz3IBvgTT4eWeB.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 22587,
+        "Title": "CAB Productions",
+        "Poster": "",
+        "OriginCountry": "CH",
+        "Amount": 0
+      },
+      {
+        "Id": 38,
+        "Title": "Studio Filmowe Tor",
+        "Poster": "/oZyTaSTMP9LMB6BTzPDv3q4oyMj.png",
+        "OriginCountry": "PL",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5550,6 +10650,36 @@ var films = [
     "Genres": [
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 2245,
+        "Title": "Entertainment Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 2246,
+        "Title": "Material Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 6847,
+        "Title": "Beech Hill Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 12026,
+        "Title": "Gold Circle Films",
+        "Poster": "/l1Y8SRH3EaElU2niZQLT3I8tOFp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5576,6 +10706,29 @@ var films = [
     "Genres": [
       "Drama",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 11084,
+        "Title": "Parkes/MacDonald Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 367,
+        "Title": "Kemp Company",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 368,
+        "Title": "Splendid Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5605,6 +10758,29 @@ var films = [
       "Comedy",
       "Adventure",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 92731,
+        "Title": "Koryo Group",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 92732,
+        "Title": "Another Dimension of an Idea",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 32781,
+        "Title": "Korea Film Export and Import",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5631,6 +10807,22 @@ var films = [
     "Genres": [
       "Drama",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 60,
+        "Title": "United Artists",
+        "Poster": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 70,
+        "Title": "American Zoetrope",
+        "Poster": "/ueaENQkPcy8rlr5fGZVBXKOhlBh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5659,6 +10851,36 @@ var films = [
       "Science Fiction",
       "Adventure",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 444,
+        "Title": "Dune Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 401,
+        "Title": "Brandywine Productions",
+        "Poster": "/t7mM3DvQ9MwDT3YzMCBrkWpWiiz.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 221347,
+        "Title": "Scott Free Productions",
+        "Poster": "/6Ry6uNBaa0IbbSs1XYIgX5DkA9r.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5687,6 +10909,22 @@ var films = [
       "Drama",
       "Romance",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 70,
+        "Title": "American Zoetrope",
+        "Poster": "/ueaENQkPcy8rlr5fGZVBXKOhlBh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 113241,
+        "Title": "Elemental Films",
+        "Poster": "/5VTEPsdFToSv89HyCtUTAElsnQk.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5715,6 +10953,22 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 52723,
+        "Title": "Inside Track",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5742,6 +10996,64 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 2801,
+        "Title": "Film i V\u00E4st",
+        "Poster": "/bswb1PLLsKDUXMLgy42bZtCtIde.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 116669,
+        "Title": "Flamboyance Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 2345,
+        "Title": "Lemming Film",
+        "Poster": "/nozBgqHmM9A22IHkghTnLiUrM7Q.png",
+        "OriginCountry": "NL",
+        "Amount": 0
+      },
+      {
+        "Id": 8483,
+        "Title": "Plattform Produktion",
+        "Poster": "/lKMQtwKjBzhOvmylMImqzPazKwz.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 2999,
+        "Title": "SVT",
+        "Poster": "/zGSqFee9aDgDuLD6vcs2mcJUem4.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 92840,
+        "Title": "Logical Pictures",
+        "Poster": "/4LyDs7gsAMq5sg3fPjUa1P52emj.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 77697,
+        "Title": "Grand Slam Film Production",
+        "Poster": "/cqM7PAjg1cZjv213r1hfoUiMBWH.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 6181,
+        "Title": "SF Studios",
+        "Poster": "/eaQ7or8IoEmPfgmQiU2C5lVZkxS.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5771,6 +11083,36 @@ var films = [
       "Comedy",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 12026,
+        "Title": "Gold Circle Films",
+        "Poster": "/l1Y8SRH3EaElU2niZQLT3I8tOFp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3268,
+        "Title": "HBO",
+        "Poster": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 95018,
+        "Title": "MPH Entertainment Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 4171,
+        "Title": "Playtone",
+        "Poster": "/cdwjRVcXP9zws9gkiim0KkBNs9N.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5797,6 +11139,36 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 7281,
+        "Title": "BFI",
+        "Poster": "/iI7qdR1OFPo0U41BlpKBLD3xesh.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 288,
+        "Title": "BBC Film",
+        "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 1219,
+        "Title": "Baby Cow Productions",
+        "Poster": "/6OGqCShROjIvmBOfRbeUsn7im93.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5825,6 +11197,15 @@ var films = [
       "Drama",
       "Romance",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 104086,
+        "Title": "Wondaland",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5852,6 +11233,29 @@ var films = [
       "Crime",
       "Comedy",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 38764,
+        "Title": "Banner Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 191692,
+        "Title": "Saratoga Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5880,6 +11284,22 @@ var films = [
       "Comedy",
       "Crime",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 552,
+        "Title": "Dark Horse Entertainment",
+        "Poster": "/9dGdLfm3GteWeUDtD9c9tvlidUG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5907,6 +11327,43 @@ var films = [
     "Genres": [
       "Drama",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 9996,
+        "Title": "Syncopy",
+        "Poster": "/3tvBqYsBhxWeHlu62SIJ1el93O7.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 507,
+        "Title": "Atlas Entertainment",
+        "Poster": "/aRmHe6GWxYMRCQljF75rn2B9Gv8.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 15123,
+        "Title": "Breakheart Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 239215,
+        "Title": "Peters Creek Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5932,6 +11389,22 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 12190,
+        "Title": "Buster Keaton Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 13913,
+        "Title": "Joseph M. Schenck Productions",
+        "Poster": "",
+        "OriginCountry": "BR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5959,6 +11432,29 @@ var films = [
       "Action",
       "Crime",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 39121,
+        "Title": "Super Cool ManChu",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 14,
+        "Title": "Miramax",
+        "Poster": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 59,
+        "Title": "A Band Apart",
+        "Poster": "/b1tj5EWcFQLYaQrw1D9V4s8kUgN.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -5985,6 +11481,36 @@ var films = [
     "Genres": [
       "Mystery",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 28,
+        "Title": "Newmarket Films",
+        "Poster": "/7tRG0ZsmtptmzPMKupd1FZkjtnn.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 491,
+        "Title": "Summit Entertainment",
+        "Poster": "/5LvDUt3KmvRnXQ4NrdWJYHeuA8J.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 598,
+        "Title": "Team Todd",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 34446,
+        "Title": "I Remember Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6012,6 +11538,15 @@ var films = [
       "Drama",
       "Thriller",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 21844,
+        "Title": "Rex Motion Picture Company",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6038,6 +11573,36 @@ var films = [
     "Genres": [
       "Crime",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 79,
+        "Title": "Village Roadshow Pictures",
+        "Poster": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2596,
+        "Title": "Jerry Weintraub Productions",
+        "Poster": "/755EAcJW7MqKFpCPgbWicsb2QV6.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 129,
+        "Title": "Section Eight",
+        "Poster": "/nmnWiA0Xf0uve4Hw3HKWdVE5tH1.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6068,6 +11633,15 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 14253,
+        "Title": "Valve",
+        "Poster": "/j07sJ4YZ5C0MLBNsaRxjIQkPw9l.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6094,6 +11668,36 @@ var films = [
     "Genres": [
       "Adventure",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 1246,
+        "Title": "River Road Entertainment",
+        "Poster": "/s0doRYEVWp3a4Y4Cg7R4fE9cwov.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 838,
+        "Title": "Paramount Vantage",
+        "Poster": "/tcW3UqV46Mdq6GyaS1ydEDocEDF.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4700,
+        "Title": "Linson Entertainment",
+        "Poster": "/A32wmjrs9Psf4zw0uaixF0GXfxq.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 137406,
+        "Title": "Square One C.I.H.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6120,6 +11724,15 @@ var films = [
     "Genres": [
       "Family",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 2,
+        "Title": "Walt Disney Pictures",
+        "Poster": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6148,6 +11761,29 @@ var films = [
       "Drama",
       "Thriller",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 82819,
+        "Title": "Skydance Media",
+        "Poster": "/gXfFl9pRPaoaq14jybEn1pHeldr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 21777,
+        "Title": "TC Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6174,6 +11810,22 @@ var films = [
     "Genres": [
       "Drama",
       "Western"
+    ],
+    "Studios": [
+      {
+        "Id": 308,
+        "Title": "The Weinstein Company",
+        "Poster": "/e8F3mQM7DkJ5SfYYDp8FYzPBOGX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6203,6 +11855,57 @@ var films = [
       "Horror",
       "Thriller",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 284,
+        "Title": "DNA Films",
+        "Poster": "/1lEgJkA2GckrMvzhfqENfkr04vO.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 359,
+        "Title": "Figment Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 785,
+        "Title": "Sociedad General de Cine S.A.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 2452,
+        "Title": "UK Film Council",
+        "Poster": "/gOkUB0TdXRLAl6s0s6jCSLS3sOb.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 2890,
+        "Title": "Fox Atomic",
+        "Poster": "/sylRB38BNx3YFW3T6qV9RAXH3UU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10890,
+        "Title": "Koan",
+        "Poster": "/nArKcIpEuzprmCV6AU0nCGZCrTT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 692,
+        "Title": "Sogecine",
+        "Poster": "/mKVxLKcaUmevZUfxsuKzfIoeSw.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6232,6 +11935,36 @@ var films = [
       "Drama",
       "Mystery",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 9195,
+        "Title": "Touchstone Pictures",
+        "Poster": "/geK5QOBsXIPGHutKwXtYjMUyYSG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 28,
+        "Title": "Newmarket Films",
+        "Poster": "/7tRG0ZsmtptmzPMKupd1FZkjtnn.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 9996,
+        "Title": "Syncopy",
+        "Poster": "/3tvBqYsBhxWeHlu62SIJ1el93O7.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6263,6 +11996,36 @@ var films = [
       "Horror",
       "Action",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 248,
+        "Title": "Impact Pictures",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 342,
+        "Title": "Davis Films",
+        "Poster": "/kZ99mxyNvNgyAFjm7rcl9vfYmU8.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 939,
+        "Title": "New Legacy Film",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 47,
+        "Title": "Constantin Film",
+        "Poster": "/i7Z9ot2o3N5Sa3HrF09kniFs2y8.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6290,6 +12053,29 @@ var films = [
       "Fantasy",
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1163,
+        "Title": "Larger Than Life Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4286,
+        "Title": "Juno Pix",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6316,6 +12102,36 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 17881,
+        "Title": "Sz\u00EDnh\u00E1z- \u00E9s Filmm\u0171v\u00E9szeti Egyetem",
+        "Poster": "/uK1J3OJ4ywWApgxFO5dgPFbBjXo.png",
+        "OriginCountry": "HU",
+        "Amount": 0
+      },
+      {
+        "Id": 63370,
+        "Title": "MMKA",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 76889,
+        "Title": "HvD Productions",
+        "Poster": "",
+        "OriginCountry": "HU",
+        "Amount": 0
+      },
+      {
+        "Id": 76890,
+        "Title": "L\u0026G Hungary",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6343,6 +12159,50 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 43,
+        "Title": "Fox Searchlight Pictures",
+        "Poster": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 258,
+        "Title": "Scott Rudin Productions",
+        "Poster": "/tMI4xPwgxfNaNId3h9dOcHGU1NI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 264,
+        "Title": "Studio Babelsberg",
+        "Poster": "/fA90qwUKgPhMONqtwY60GaHRyrW.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 9350,
+        "Title": "Indian Paintbrush",
+        "Poster": "/xz60JVoUHpOeg1cJbxzMJiwbuL7.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 22213,
+        "Title": "TSG Entertainment",
+        "Poster": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23449,
+        "Title": "American Empirical Pictures",
+        "Poster": "/tPjESdmiEqfErAlDwFUoh0ldUQM.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6369,6 +12229,64 @@ var films = [
     "Genres": [
       "Drama",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 5073,
+        "Title": "WOWOW FILMS",
+        "Poster": "/eaLQAIIVIcHAWPOAAaj8J8Pt4W0.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 12150,
+        "Title": "PARCO",
+        "Poster": "",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 7542,
+        "Title": "Yahoo! Japan",
+        "Poster": "/15mlqcBV6kxXSUbPvqxpeMMtzae.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 157406,
+        "Title": "Shodensha",
+        "Poster": "",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 157407,
+        "Title": "Lucky Star",
+        "Poster": "",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 5896,
+        "Title": "Cine Bazar",
+        "Poster": "",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 822,
+        "Title": "Happinet Pictures",
+        "Poster": "/HF2fFP8MH9juSCoN2VtQCFQYPD.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 194517,
+        "Title": "Asmik Ace Entertainment",
+        "Poster": "/nZaVIrCY0pIopTLScuRr9XAUj4G.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6396,6 +12314,15 @@ var films = [
       "Family",
       "Fantasy",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 16354,
+        "Title": "Wolper Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6423,6 +12350,22 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 49,
+        "Title": "El Deseo",
+        "Poster": "/tlzPjqJjba2WjBaNGN1SZuJmbYj.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 77,
+        "Title": "Milestone Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6449,6 +12392,36 @@ var films = [
     "Genres": [
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 23008,
+        "Title": "87Eleven",
+        "Poster": "/5SarYupipdiejsEqUkwu1SpYfru.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 36259,
+        "Title": "DefyNite Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 36433,
+        "Title": "MJW Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3528,
+        "Title": "Thunder Road",
+        "Poster": "/cCzCClIzIh81Fa79hpW5nXoUsHK.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6477,6 +12450,29 @@ var films = [
       "Adventure",
       "Comedy",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 384,
+        "Title": "MacDonald/Parkes Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6506,6 +12502,29 @@ var films = [
       "Action",
       "Comedy",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 803,
+        "Title": "Alliance Atlantis",
+        "Poster": "/jEMVaCuEjQ3lzkhakWDKNVjwd9Q.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 52619,
+        "Title": "Fifty First Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 254976,
+        "Title": "Focus Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6531,6 +12550,15 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 1030,
+        "Title": "Magnolia Pictures",
+        "Poster": "/bus7KzJshT0VMXuKR7dwK5bqPSO.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6558,6 +12586,36 @@ var films = [
       "Crime",
       "Drama",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23,
+        "Title": "Imagine Entertainment",
+        "Poster": "/bJOFo2ufq7iFC1F4qZm8aLxF5aS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7295,
+        "Title": "Relativity Media",
+        "Poster": "/5MYE96QiE5a5oFhXxFb4y8ILSpw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 171,
+        "Title": "Malpaso Productions",
+        "Poster": "/bqLWwuNCHcY3IjB5e4o29h7l80D.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6586,6 +12644,29 @@ var films = [
       "Mystery",
       "Thriller",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 508,
+        "Title": "Regency Enterprises",
+        "Poster": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2428,
+        "Title": "Wolper Organization",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6612,6 +12693,15 @@ var films = [
     "Genres": [
       "Adventure",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 7159,
+        "Title": "Star Film",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6637,6 +12727,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 26305,
+        "Title": "Solax Film Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6664,6 +12763,15 @@ var films = [
       "Thriller",
       "Crime",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 1554,
+        "Title": "Transatlantic Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6690,6 +12798,29 @@ var films = [
     "Genres": [
       "Drama",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 536,
+        "Title": "The Coppola Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 70,
+        "Title": "American Zoetrope",
+        "Poster": "/ueaENQkPcy8rlr5fGZVBXKOhlBh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6716,6 +12847,29 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 27497,
+        "Title": "Star Thrower Entertainment",
+        "Poster": "/1QuLulTFEynrZnFsogW0UefcKYC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 80990,
+        "Title": "141 Entertainment",
+        "Poster": "/oJKs7sKtHi7SGItifIadvIw3Rnn.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 88928,
+        "Title": "Mighty Engine",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6744,6 +12898,64 @@ var films = [
     "Genres": [
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 288,
+        "Title": "BBC Film",
+        "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 10583,
+        "Title": "Independent",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 2452,
+        "Title": "UK Film Council",
+        "Poster": "/gOkUB0TdXRLAl6s0s6jCSLS3sOb.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 51382,
+        "Title": "Footprint Investment",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 22309,
+        "Title": "Piccadilly Pictures",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 104132,
+        "Title": "Rockinghorse Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 9987,
+        "Title": "Lipsync Productions",
+        "Poster": "/o5OTKAw7Acl5fTZYPyl8M8D9570.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 2394,
+        "Title": "Artina Films",
+        "Poster": "/sUWGEjxxCU5McOoD2JPrJHDW7K3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6772,6 +12984,29 @@ var films = [
     "Genres": [
       "Drama",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 247,
+        "Title": "Granada Productions",
+        "Poster": "/kgYZ2I5ibveeOOn10VJKQCg6hLd.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 866,
+        "Title": "Path\u00E9 Renn Productions",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 225,
+        "Title": "BIM Distribuzione",
+        "Poster": "/oTRPUgdpWotA7Hi5gpioQO0MEyk.png",
+        "OriginCountry": "IT",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6799,6 +13034,15 @@ var films = [
       "Music",
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6824,6 +13068,15 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 13913,
+        "Title": "Joseph M. Schenck Productions",
+        "Poster": "",
+        "OriginCountry": "BR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6850,6 +13103,22 @@ var films = [
     "Genres": [
       "Science Fiction",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 103469,
+        "Title": "Manali Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 103470,
+        "Title": "Lauren Edward Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6876,6 +13145,29 @@ var films = [
     "Genres": [
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2200,
+        "Title": "Liveplanet",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 3169,
+        "Title": "Zide-Perry Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6902,6 +13194,43 @@ var films = [
     "Genres": [
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7295,
+        "Title": "Relativity Media",
+        "Poster": "/5MYE96QiE5a5oFhXxFb4y8ILSpw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 735,
+        "Title": "Waverly Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 20475,
+        "Title": "GH One",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6927,6 +13256,15 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 58674,
+        "Title": "Highland Park Classics",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6952,6 +13290,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 105209,
+        "Title": "NorthStar Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 10479,
+        "Title": "Sundial Pictures",
+        "Poster": "/oCj1bt8kcoxfJPXoxjqfjeJvF3Y.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 115164,
+        "Title": "Aid \u002B Abet",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -6978,6 +13339,22 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 49,
+        "Title": "El Deseo",
+        "Poster": "/tlzPjqJjba2WjBaNGN1SZuJmbYj.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 84938,
+        "Title": "Laurenfilm",
+        "Poster": "",
+        "OriginCountry": "ES",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7009,6 +13386,50 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 152,
+        "Title": "Icon Productions",
+        "Poster": "/rC2pFo4IBQVSVZvucDLwMRvZHfi.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 597,
+        "Title": "Irish Dreamtime",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 212,
+        "Title": "Infinity Features",
+        "Poster": "",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 11568,
+        "Title": "Butterfly Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11569,
+        "Title": "Chum Television",
+        "Poster": "",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 4564,
+        "Title": "Icon Entertainment International",
+        "Poster": "/pQQ5WKlDFbTIrsgkCTUoMqDtmpy.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7036,6 +13457,15 @@ var films = [
       "Animation",
       "Drama",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 10342,
+        "Title": "Studio Ghibli",
+        "Poster": "/uFuxPEZRUcBTEiYIxjHJq62Vr77.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7062,6 +13492,22 @@ var films = [
     "Genres": [
       "Drama",
       "TV Movie"
+    ],
+    "Studios": [
+      {
+        "Id": 49480,
+        "Title": "Fido Features",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 7400,
+        "Title": "Olympus Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7088,6 +13534,22 @@ var films = [
     "Genres": [
       "Adventure",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1,
+        "Title": "Lucasfilm Ltd.",
+        "Poster": "/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7113,6 +13575,15 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 14564,
+        "Title": "Black Chalk Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7146,6 +13617,113 @@ var films = [
     "Genres": [
       "Drama",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 76,
+        "Title": "Zentropa Entertainments",
+        "Poster": "/nebkQYtQKhZyHJfh5v0oGpNbPzu.png",
+        "OriginCountry": "DK",
+        "Amount": 0
+      },
+      {
+        "Id": 119,
+        "Title": "DR",
+        "Poster": "/1di2gITGUZr730AMuMKiCrP90Vl.png",
+        "OriginCountry": "DK",
+        "Amount": 0
+      },
+      {
+        "Id": 157,
+        "Title": "SVT Drama",
+        "Poster": "/s537keIoi6wUOU8E9ztWaV2DY1H.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 201,
+        "Title": "ARTE",
+        "Poster": "/6UIpEURdjnmcJPwgTDRzVRuwADr.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 591,
+        "Title": "France 3 Cin\u00E9ma",
+        "Poster": "/q5I5RDwMEiqoNmfaJgd2LraEOJY.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 7330,
+        "Title": "Blind Spot Pictures",
+        "Poster": "",
+        "OriginCountry": "FI",
+        "Amount": 0
+      },
+      {
+        "Id": 11239,
+        "Title": "Liberator Productions",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 14937,
+        "Title": "\u00CDslenska kvikmyndasamsteypan",
+        "Poster": "/yfwZ3LaFHOrek8BWdAnmfpQV3dQ.png",
+        "OriginCountry": "IS",
+        "Amount": 0
+      },
+      {
+        "Id": 30268,
+        "Title": "Pain Unlimited Filmproduktion",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 53667,
+        "Title": "Trust Film Svenska",
+        "Poster": "",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 53668,
+        "Title": "Cinematograph",
+        "Poster": "",
+        "OriginCountry": "NO",
+        "Amount": 0
+      },
+      {
+        "Id": 53669,
+        "Title": "What Else?",
+        "Poster": "",
+        "OriginCountry": "NL",
+        "Amount": 0
+      },
+      {
+        "Id": 94,
+        "Title": "ARTE France Cin\u00E9ma",
+        "Poster": "/huC7HqorvUThGIrENrbcHmQVUA0.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 2801,
+        "Title": "Film i V\u00E4st",
+        "Poster": "/bswb1PLLsKDUXMLgy42bZtCtIde.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 46,
+        "Title": "WDR",
+        "Poster": "/3xFdKHLXPGHEbrAkmsepGE8974Y.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7174,6 +13752,36 @@ var films = [
       "Horror",
       "Thriller",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 2452,
+        "Title": "UK Film Council",
+        "Poster": "/gOkUB0TdXRLAl6s0s6jCSLS3sOb.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 2511,
+        "Title": "Zero Film GmbH",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 1854,
+        "Title": "Dan Films",
+        "Poster": "/3p1fIgAgsULm8wBTCTGk2mqh6yT.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 985,
+        "Title": "Filmstiftung NRW",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7200,6 +13808,15 @@ var films = [
     "Genres": [
       "Thriller",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 13131,
+        "Title": "American Mutoscope \u0026 Biograph",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7227,6 +13844,29 @@ var films = [
       "Fantasy",
       "Comedy",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 11098,
+        "Title": "The Harvey Entertainment Company",
+        "Poster": "/kFusuY8kFGTO17faXc52RWKvG5A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7254,6 +13894,29 @@ var films = [
       "Thriller",
       "Action",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 258,
+        "Title": "Scott Rudin Productions",
+        "Poster": "/tMI4xPwgxfNaNId3h9dOcHGU1NI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 830,
+        "Title": "Senator International",
+        "Poster": "/mYga54mrt5n4GUUcJxE6DmR2FKv.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7283,6 +13946,29 @@ var films = [
     "Genres": [
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 34441,
+        "Title": "Littlestar",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 4171,
+        "Title": "Playtone",
+        "Poster": "/cdwjRVcXP9zws9gkiim0KkBNs9N.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2655,
+        "Title": "Internationale Filmproduktion Richter",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7310,6 +13996,22 @@ var films = [
     "Genres": [
       "Adventure",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 437,
+        "Title": "Heyday Films",
+        "Poster": "/nu20mtwbEIhUNnQ5NXVhHsNknZj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7337,6 +14039,15 @@ var films = [
       "Romance",
       "Drama",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7363,6 +14074,15 @@ var films = [
     "Genres": [
       "Animation",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 10473,
+        "Title": "ONF | NFB",
+        "Poster": "/lMUDQZVtg8On4PAW5XFQPaQy6UK.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7389,6 +14109,36 @@ var films = [
     "Genres": [
       "Adventure",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7,
+        "Title": "DreamWorks Pictures",
+        "Poster": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11395,
+        "Title": "ImageMovers",
+        "Poster": "/5vSBzUwnCcaF90ZTchG3LwRKQ2M.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4171,
+        "Title": "Playtone",
+        "Poster": "/cdwjRVcXP9zws9gkiim0KkBNs9N.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7415,6 +14165,22 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 158256,
+        "Title": "B14 Film",
+        "Poster": "/8Vz3cro3iuutl7q5Q6tYOiRAOtO.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 14758,
+        "Title": "DCM Pictures",
+        "Poster": "/eCYPzcnF5KidrKPOT90ANslOKMx.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7442,6 +14208,22 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 142036,
+        "Title": "Oak Springs Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 34620,
+        "Title": "Four by Two Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7469,6 +14251,22 @@ var films = [
       "Mystery",
       "Horror",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 829,
+        "Title": "Vertigo Entertainment",
+        "Poster": "/aXqwCvJSCDbTclkxAYfsT1l4Dsa.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7497,6 +14295,43 @@ var films = [
     "Genres": [
       "Drama",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 11667,
+        "Title": "Northern Ireland Screen",
+        "Poster": "/dhBJdstAolGmqRfbQfElhsU1cTo.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 221618,
+        "Title": "Broadcasting Commission of Ireland",
+        "Poster": "",
+        "OriginCountry": "IE",
+        "Amount": 0
+      },
+      {
+        "Id": 11841,
+        "Title": "Wales Creative IP Fund",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 2600,
+        "Title": "Blast! Films",
+        "Poster": "/ePDVrW3gJCd3kxi8ucLckJoG3Bu.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7527,6 +14362,43 @@ var films = [
       "Drama",
       "Comedy",
       "Music"
+    ],
+    "Studios": [
+      {
+        "Id": 2651,
+        "Title": "Fragile Films",
+        "Poster": "/rmfShgOyHdGSljYXcvZsbVGSRGV.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 1382,
+        "Title": "PolyGram Filmed Entertainment",
+        "Poster": "/8b5XGJ8YhZoEo9LgFP8KRQWHjYL.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4564,
+        "Title": "Icon Entertainment International",
+        "Poster": "/pQQ5WKlDFbTIrsgkCTUoMqDtmpy.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 152,
+        "Title": "Icon Productions",
+        "Poster": "/rC2pFo4IBQVSVZvucDLwMRvZHfi.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7553,6 +14425,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 197904,
+        "Title": "Master Mind",
+        "Poster": "",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 197905,
+        "Title": "Wenders Images",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7578,6 +14466,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 43649,
+        "Title": "Lilies Films",
+        "Poster": "/5pv3tUlq25IiuMuok57YBZIiKn.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 7980,
+        "Title": "Hold Up Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 94,
+        "Title": "ARTE France Cin\u00E9ma",
+        "Poster": "/huC7HqorvUThGIrENrbcHmQVUA0.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7608,6 +14519,50 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 1030,
+        "Title": "Magnolia Pictures",
+        "Poster": "/bus7KzJshT0VMXuKR7dwK5bqPSO.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 18621,
+        "Title": "Pierce/Williams Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 5357,
+        "Title": "Zero Gravity Management",
+        "Poster": "/19A0Ilxeh1bWMlyMtMgGzcNBn07.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1472,
+        "Title": "Delux Productions",
+        "Poster": "",
+        "OriginCountry": "LU",
+        "Amount": 0
+      },
+      {
+        "Id": 11776,
+        "Title": "Film Fund Luxembourg",
+        "Poster": "/33JMuTtwY5UhPwkmCEyH1YaCD23.png",
+        "OriginCountry": "LU",
+        "Amount": 0
+      },
+      {
+        "Id": 10843,
+        "Title": "Future Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7635,6 +14590,36 @@ var films = [
       "Adventure",
       "Fantasy",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 559,
+        "Title": "TriStar Pictures",
+        "Poster": "/eC0bWHVjnjUducyA6YFoEFqnPMC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10201,
+        "Title": "Interscope Communications",
+        "Poster": "/cgmwywVZ9NvAidd6Pn7p0CBYQkW.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2550,
+        "Title": "Teitler Film",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1382,
+        "Title": "PolyGram Filmed Entertainment",
+        "Poster": "/8b5XGJ8YhZoEo9LgFP8KRQWHjYL.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7663,13 +14648,36 @@ var films = [
       "Action",
       "Thriller",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 11705,
+        "Title": "Los Hooligans Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 59,
+        "Title": "A Band Apart",
+        "Poster": "/b1tj5EWcFQLYaQrw1D9V4s8kUgN.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7405,
+        "Title": "Dimension Films",
+        "Poster": "/rfnws0uY8rsNAsrLbx3gEIcYXx3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
     "Title": "Heat",
     "TitleOriginal": "Heat",
     "Language": "English",
-    "RatingSelf": 3,
+    "RatingSelf": null,
     "RatingLetterboxd": 4.28,
     "Minutes": 170,
     "Watched": 985247,
@@ -7690,6 +14698,29 @@ var films = [
       "Crime",
       "Drama",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 508,
+        "Title": "Regency Enterprises",
+        "Poster": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 675,
+        "Title": "Forward Pass",
+        "Poster": "/fy7laY9J4tbYz7yNxGEKmoMrXRt.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7717,6 +14748,29 @@ var films = [
       "Thriller",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 34725,
+        "Title": "Moho Film",
+        "Poster": "/cRqXC6Dy6AvTGS2wiMt26yGJgZA.png",
+        "OriginCountry": "KR",
+        "Amount": 0
+      },
+      {
+        "Id": 49096,
+        "Title": "Yong Film",
+        "Poster": "/dj9VQ8Tqw4OTP8h5JkSOQGpEeMR.png",
+        "OriginCountry": "KR",
+        "Amount": 0
+      },
+      {
+        "Id": 7036,
+        "Title": "CJ Entertainment",
+        "Poster": "/javbyY0ZCvlFJtly3tpZqf2NwLX.png",
+        "OriginCountry": "KR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7745,6 +14799,43 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 100640,
+        "Title": "Endeavor Content",
+        "Poster": "/5BR67T28TVm2UMH8GCRDftafsaJ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 129008,
+        "Title": "Samuel Marshall Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 117747,
+        "Title": "Media Finance Capital",
+        "Poster": "/brD72VA95qgjCtGx0hJEAVUeldW.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 19246,
+        "Title": "Faliro House Productions",
+        "Poster": "/4zrEZfTf94tyG4wRB599gRS0reU.png",
+        "OriginCountry": "GR",
+        "Amount": 0
+      },
+      {
+        "Id": 24662,
+        "Title": "Pie Films",
+        "Poster": "/pME6OvhHDJPU96MthlqBolVoimO.png",
+        "OriginCountry": "IL",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7773,6 +14864,15 @@ var films = [
       "Drama",
       "War",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 344,
+        "Title": "Mosfilm",
+        "Poster": "/xenuUvcunUNpbaDOYGhWZERaym7.png",
+        "OriginCountry": "SU",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7800,6 +14900,22 @@ var films = [
       "Thriller",
       "Science Fiction",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 22207,
+        "Title": "Cube Libre",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 21953,
+        "Title": "The Feature Film Project",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7826,6 +14942,22 @@ var films = [
     "Genres": [
       "Drama",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 12617,
+        "Title": "Belarusfilm",
+        "Poster": "/9Wf5DFTvzxo0pSqDp8MQWW3d01.png",
+        "OriginCountry": "SU",
+        "Amount": 0
+      },
+      {
+        "Id": 344,
+        "Title": "Mosfilm",
+        "Poster": "/xenuUvcunUNpbaDOYGhWZERaym7.png",
+        "OriginCountry": "SU",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7852,6 +14984,29 @@ var films = [
     "Genres": [
       "Action",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 14,
+        "Title": "Miramax",
+        "Poster": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 59,
+        "Title": "A Band Apart",
+        "Poster": "/b1tj5EWcFQLYaQrw1D9V4s8kUgN.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 39121,
+        "Title": "Super Cool ManChu",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7878,6 +15033,43 @@ var films = [
     "Genres": [
       "Horror",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 131464,
+        "Title": "Complete Fiction",
+        "Poster": "/9Gk6sEs92Eshc1mZm4r2JEebran.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 10146,
+        "Title": "Focus Features",
+        "Poster": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 214539,
+        "Title": "Perfect World Pictures",
+        "Poster": "/7gLb5n9flgH3aGn28Q0jNtPhlwx.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7905,6 +15097,43 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 41077,
+        "Title": "A24",
+        "Poster": "/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 288,
+        "Title": "BBC Film",
+        "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 1898,
+        "Title": "F\u00EDs \u00C9ireann/Screen Ireland",
+        "Poster": "/8ix6SGlJiyuUDxLBtY8E0PY2G7w.png",
+        "OriginCountry": "IE",
+        "Amount": 0
+      },
+      {
+        "Id": 225106,
+        "Title": "Nine Daughters",
+        "Poster": "/sVyaXr8Iq2TrCliiuY2Sdt2BQqY.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 148174,
+        "Title": "WRAP Fund",
+        "Poster": "/rSKzMlnrhrGoFAIpYnWjMPDrVkH.png",
+        "OriginCountry": "IE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7930,6 +15159,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 2294,
+        "Title": "Traction Media",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 26995,
+        "Title": "Animal Kingdom",
+        "Poster": "/acHyNRG9qZKvr4ZlhsKlojhYeey.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7958,6 +15203,50 @@ var films = [
       "Mystery",
       "Romance",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 44,
+        "Title": "Cruise/Wagner Productions",
+        "Poster": "/6Hs6K20Hz1W9W1Tiam5QN2Kpx8V.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 485,
+        "Title": "Vinyl Films",
+        "Poster": "/tVOP0mIeoYLua4Rw66OYNzitrrI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 692,
+        "Title": "Sogecine",
+        "Poster": "/mKVxLKcaUmevZUfxsuKzfIoeSw.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 491,
+        "Title": "Summit Entertainment",
+        "Poster": "/5LvDUt3KmvRnXQ4NrdWJYHeuA8J.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2188,
+        "Title": "Artisan Entertainment",
+        "Poster": "/f1zrx8bIsS81AHoPQq4riJx68Lt.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -7985,6 +15274,36 @@ var films = [
       "Horror",
       "Thriller",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 1464,
+        "Title": "Summer Knowledge LLC",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1236,
+        "Title": "Mandalay Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 333,
+        "Title": "Original Film",
+        "Poster": "/5xUJfzPZ8jWJUDzYtIeuPO4qPIa.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8012,6 +15331,36 @@ var films = [
       "Drama",
       "Science Fiction",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 52270,
+        "Title": "Basque Films",
+        "Poster": "",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 130875,
+        "Title": "Mr. Miyagi",
+        "Poster": "/kGs7fwMxgxpYkFDxCGG6kKqPdnw.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 31123,
+        "Title": "EiTB",
+        "Poster": "/Q9F9wXH9XRsSwvR9eA0Yn8P1wT.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 981,
+        "Title": "TVE",
+        "Poster": "/pkrdO9ykplO4Zc8edikoSX5APUN.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8038,6 +15387,15 @@ var films = [
     "Genres": [
       "Comedy",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 930,
+        "Title": "Lone Star Corporation",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8065,6 +15423,36 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 14,
+        "Title": "Miramax",
+        "Poster": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 288,
+        "Title": "BBC Film",
+        "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 1390,
+        "Title": "Celador Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 12666,
+        "Title": "Jonescompany Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8093,6 +15481,36 @@ var films = [
     "Genres": [
       "Adventure",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 437,
+        "Title": "Heyday Films",
+        "Poster": "/nu20mtwbEIhUNnQ5NXVhHsNknZj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 436,
+        "Title": "1492 Pictures",
+        "Poster": "/A7WCkG3F0NFvjGCwUnclpGdIu9E.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 19094,
+        "Title": "MIRACLE Productions",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8120,6 +15538,43 @@ var films = [
     "Genres": [
       "Comedy",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 82968,
+        "Title": "LuckyChap Entertainment",
+        "Poster": "/gRROMOG5bpF6TIDMbfaa5gnFFzl.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 437,
+        "Title": "Heyday Films",
+        "Poster": "/nu20mtwbEIhUNnQ5NXVhHsNknZj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 181486,
+        "Title": "NB/GG Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6220,
+        "Title": "Mattel",
+        "Poster": "/cAj69EL1zSXmZH6STbMGZrunyMD.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8147,6 +15602,22 @@ var films = [
       "Adventure",
       "Comedy",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8174,6 +15645,29 @@ var films = [
       "Animation",
       "Family",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 2,
+        "Title": "Walt Disney Pictures",
+        "Poster": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10282,
+        "Title": "Silver Screen Partners IV",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 171656,
+        "Title": "Walt Disney Feature Animation",
+        "Poster": "/4UBohOtIr9DtxylH48Qsg6aDow6.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8202,6 +15696,29 @@ var films = [
       "Family",
       "Music",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 6304,
+        "Title": "Robert Wise Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 6305,
+        "Title": "Argyle Enterprises",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8227,6 +15744,15 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 195881,
+        "Title": "Off White Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8255,6 +15781,29 @@ var films = [
       "Action",
       "War",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 130,
+        "Title": "Jerry Bruckheimer Films",
+        "Poster": "/c9dVHPOL3cqCr2593Ahk0nEKTEM.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 497,
+        "Title": "Revolution Studios",
+        "Poster": "/dcDGGHcPFBZopi7EB68UQC0VW6v.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1645,
+        "Title": "Scott Free Productions",
+        "Poster": "/6Ry6uNBaa0IbbSs1XYIgX5DkA9r.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8282,6 +15831,22 @@ var films = [
     "Genres": [
       "Thriller",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 2514,
+        "Title": "Alliance Films",
+        "Poster": "/zEyrFF8Nn325PXG0Q9j7my0JqIJ.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 11561,
+        "Title": "Recorded Picture Company",
+        "Poster": "/8HB3TFUeo83keAPHfFfrNtN2MmA.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8308,6 +15873,36 @@ var films = [
     "Genres": [
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 76901,
+        "Title": "June Pictures",
+        "Poster": "/l6LNuKdl51PmyO130Kzmc9FKosI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 50499,
+        "Title": "B Story",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6831,
+        "Title": "Big Indie Pictures",
+        "Poster": "/fWSI4EjIDEEzCNJC8OTPX9Pdbxv.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 14320,
+        "Title": "The Walsh Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8335,6 +15930,43 @@ var films = [
       "Drama",
       "Fantasy",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 104,
+        "Title": "Canal\u002B",
+        "Poster": "/9aotxauvc9685tq9pTcRJszuT06.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 10611,
+        "Title": "Cin\u00E9\u002B",
+        "Poster": "/zQ4fGaEnNkWfSzyygXRcUZwPmDG.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 43649,
+        "Title": "Lilies Films",
+        "Poster": "/5pv3tUlq25IiuMuok57YBZIiKn.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 7131,
+        "Title": "France T\u00E9l\u00E9visions",
+        "Poster": "/qpFsGoa96SytbWkhtkkpllu5Cch.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 591,
+        "Title": "France 3 Cin\u00E9ma",
+        "Poster": "/q5I5RDwMEiqoNmfaJgd2LraEOJY.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8363,6 +15995,29 @@ var films = [
       "Family",
       "Animation",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 2,
+        "Title": "Walt Disney Pictures",
+        "Poster": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10282,
+        "Title": "Silver Screen Partners IV",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 171656,
+        "Title": "Walt Disney Feature Animation",
+        "Poster": "/4UBohOtIr9DtxylH48Qsg6aDow6.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8393,6 +16048,71 @@ var films = [
       "Western",
       "Drama",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 77845,
+        "Title": "Monarchy Enterprises S.a.r.l.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 508,
+        "Title": "Regency Enterprises",
+        "Poster": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 562,
+        "Title": "Appian Way",
+        "Poster": "/azANEzu3H3Kztzt63sdjvlzxhuB.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 8870,
+        "Title": "CatchPlay",
+        "Poster": "/f2hj6ssc0KBRSafGnycnN5A1aGF.png",
+        "OriginCountry": "TW",
+        "Amount": 0
+      },
+      {
+        "Id": 10039,
+        "Title": "Anonymous Content",
+        "Poster": "/b8w4LldQolMKiLZw4FQJBcXSDGI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10104,
+        "Title": "New Regency Pictures",
+        "Poster": "/4sGWXoboEkWPphI6es6rTmqkCBh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 13796,
+        "Title": "Hong Kong Alpha Motion Pictures Co.",
+        "Poster": "",
+        "OriginCountry": "HK",
+        "Amount": 0
+      },
+      {
+        "Id": 52660,
+        "Title": "M Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 41624,
+        "Title": "RatPac Entertainment",
+        "Poster": "/wzKxIeQKlMP0y5CaAw25MD6EQmf.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8418,6 +16138,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 1980,
+        "Title": "Woodfall Film Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 27023,
+        "Title": "Kestrel Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8444,6 +16180,36 @@ var films = [
     "Genres": [
       "Drama",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 14,
+        "Title": "Miramax",
+        "Poster": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11,
+        "Title": "WingNut Films",
+        "Poster": "/6FAuASQHybRkZUk08p9PzSs9ezM.png",
+        "OriginCountry": "NZ",
+        "Amount": 0
+      },
+      {
+        "Id": 294,
+        "Title": "New Zealand Film Commission",
+        "Poster": "/a05DY2oSeUOVFDM61RsQa9x9RoC.png",
+        "OriginCountry": "NZ",
+        "Amount": 0
+      },
+      {
+        "Id": 2306,
+        "Title": "Fontana Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8471,6 +16237,15 @@ var films = [
       "Adventure",
       "Action",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8500,6 +16275,36 @@ var films = [
       "Drama",
       "Thriller",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 385,
+        "Title": "Stanley Kubrick Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 195,
+        "Title": "Pole Star",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 194,
+        "Title": "Hobby Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8527,6 +16332,29 @@ var films = [
       "Comedy",
       "Crime",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 2,
+        "Title": "Walt Disney Pictures",
+        "Poster": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3538,
+        "Title": "Gunn Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2527,
+        "Title": "Marc Platt Productions",
+        "Poster": "/osO7TGmlRMistSQ5JZusPhbKUHk.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8555,6 +16383,15 @@ var films = [
       "Comedy",
       "Family",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 3,
+        "Title": "Pixar",
+        "Poster": "/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8581,6 +16418,15 @@ var films = [
     "Genres": [
       "Crime",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 13419,
+        "Title": "SKA Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8609,6 +16455,29 @@ var films = [
       "Action",
       "Adventure",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 1632,
+        "Title": "Lionsgate",
+        "Poster": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5420,
+        "Title": "Color Force",
+        "Poster": "/dlW4Kh5dNieKNURnymsu57y6fMf.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 264,
+        "Title": "Studio Babelsberg",
+        "Poster": "/fA90qwUKgPhMONqtwY60GaHRyrW.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8637,6 +16506,22 @@ var films = [
       "Action",
       "Thriller",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8664,6 +16549,29 @@ var films = [
       "Horror",
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 7405,
+        "Title": "Dimension Films",
+        "Poster": "/rfnws0uY8rsNAsrLbx3gEIcYXx3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10807,
+        "Title": "Troublemaker Studios",
+        "Poster": "/5MhGwwNnXXcTKjIXJ9oALnUas4t.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 15764,
+        "Title": "Rodriguez International Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8690,6 +16598,22 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 258,
+        "Title": "Scott Rudin Productions",
+        "Poster": "/tMI4xPwgxfNaNId3h9dOcHGU1NI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8719,6 +16643,29 @@ var films = [
       "Fantasy",
       "Family",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 1176,
+        "Title": "Lorimar Film Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6254,
+        "Title": "The Jim Henson Company",
+        "Poster": "/dHfP8fUyykmTsMXbtXO0kSsYz5E.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8748,6 +16695,50 @@ var films = [
     "Genres": [
       "Romance",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 16017,
+        "Title": "La Cin\u00E9facture",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 46344,
+        "Title": "Frenesy Film",
+        "Poster": "/qpSdIjnGHiz6UNIQWGIJkDnG79l.png",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 88565,
+        "Title": "M.Y.R.A. Entertainment",
+        "Poster": "/AmSa26x5bHWfY1FPwx9eDve7KAk.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 30666,
+        "Title": "RT Features",
+        "Poster": "/g8LmDZVFWDRJW72sj0nAj1gh8ac.png",
+        "OriginCountry": "BR",
+        "Amount": 0
+      },
+      {
+        "Id": 88564,
+        "Title": "Water's End Productions",
+        "Poster": "/pn3p12IC4Tb0K8reEQyR51pgnvJ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10949,
+        "Title": "Memento Films International",
+        "Poster": "/2JOR75Gaz14Vzim0XSTSCmGFYsD.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8776,6 +16767,36 @@ var films = [
       "Comedy",
       "Thriller",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 147,
+        "Title": "Fid\u00E9lit\u00E9 Productions",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 83,
+        "Title": "France 2 Cin\u00E9ma",
+        "Poster": "/9OQ0rm55xtlgX7KcAKMUePJSrQc.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 819,
+        "Title": "Mars Films",
+        "Poster": "/cEqVIluQuO1ubtID8RvOem4ZiIg.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 225,
+        "Title": "BIM Distribuzione",
+        "Poster": "/oTRPUgdpWotA7Hi5gpioQO0MEyk.png",
+        "OriginCountry": "IT",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8803,6 +16824,15 @@ var films = [
       "Romance",
       "Science Fiction",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 13184,
+        "Title": "Annapurna Pictures",
+        "Poster": "/pfUB1a62jSMIqp4Xmaq6z2cgW0B.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8830,6 +16860,22 @@ var films = [
       "Animation",
       "Comedy",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 18,
+        "Title": "Gracie Films",
+        "Poster": "/uqhagSwM7NAkQWVCQhKTyoqF8XH.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8857,6 +16903,22 @@ var films = [
       "Drama",
       "Family",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 70,
+        "Title": "American Zoetrope",
+        "Poster": "/ueaENQkPcy8rlr5fGZVBXKOhlBh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8884,6 +16946,15 @@ var films = [
       "Drama",
       "Fantasy",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8911,6 +16982,15 @@ var films = [
       "Drama",
       "Crime",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 43854,
+        "Title": "Nero-Film AG",
+        "Poster": "/tMo26bTTY0f4mMPIvFnyydrDm7V.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8937,6 +17017,43 @@ var films = [
     "Genres": [
       "Thriller",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 79,
+        "Title": "Village Roadshow Pictures",
+        "Poster": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 172,
+        "Title": "NPV Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2596,
+        "Title": "Jerry Weintraub Productions",
+        "Poster": "/755EAcJW7MqKFpCPgbWicsb2QV6.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 129,
+        "Title": "Section Eight",
+        "Poster": "/nmnWiA0Xf0uve4Hw3HKWdVE5tH1.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8964,6 +17081,29 @@ var films = [
       "Drama",
       "Romance",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 436,
+        "Title": "1492 Pictures",
+        "Poster": "/A7WCkG3F0NFvjGCwUnclpGdIu9E.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 412,
+        "Title": "Wendy Finerman Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -8994,6 +17134,29 @@ var films = [
     "Genres": [
       "Drama",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 12030,
+        "Title": "Ateliers de Baere",
+        "Poster": "",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 107357,
+        "Title": "Bluelight l'Ecole",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 207,
+        "Title": "Agat Films \u0026 Cie / Ex Nihilo",
+        "Poster": "/uskenzq65wJe0cT0D8StQI3hJnO.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9019,6 +17182,36 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 1423,
+        "Title": "Escape Artists",
+        "Poster": "/gzvsPHV9WqcQMrvI8pq5hbuvEZ5.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7295,
+        "Title": "Relativity Media",
+        "Poster": "/5MYE96QiE5a5oFhXxFb4y8ILSpw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 907,
+        "Title": "Overbrook Entertainment",
+        "Poster": "/ca5SWI5uvU985f8Kbb4xc8AmVWH.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9049,6 +17242,29 @@ var films = [
       "Drama",
       "Fantasy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 3561,
+        "Title": "No Matter Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 121852,
+        "Title": "Halcyon Pictures",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 13369,
+        "Title": "Super Crispy Entertainment",
+        "Poster": "/2NW3USs9SqdAToZHrtvtgUj13o9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9076,6 +17292,36 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 1210,
+        "Title": "Sveva Film",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 1211,
+        "Title": "Junior Film",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 62972,
+        "Title": "Italia Produzione Film",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 8894,
+        "Title": "Soci\u00E9t\u00E9 G\u00E9n\u00E9rale de Cin\u00E9matographie (S.G.C.)",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9103,6 +17349,29 @@ var films = [
     "Genres": [
       "Romance",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3978,
+        "Title": "Robert Stigwood Organization",
+        "Poster": "/kk8VINipfjy7osPd5DgFTfyxUI.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 137497,
+        "Title": "Fine Arts Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9130,6 +17399,22 @@ var films = [
       "Crime",
       "Drama",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 9,
+        "Title": "Gaumont",
+        "Poster": "/nda3dTUYdDrJ6rZqBpYvY865aDv.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 66743,
+        "Title": "Les Films du Dauphin",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9157,6 +17442,36 @@ var films = [
     "Genres": [
       "Comedy",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 13466,
+        "Title": "Park Pictures Features",
+        "Poster": "/d2ewBAUkCGeYMj6bv2Z9PkzL5OA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 16853,
+        "Title": "Rook Films",
+        "Poster": "/ihiEwwDAc8ghtdNxpMp0T34OhIi.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 55142,
+        "Title": "Wigwam Films",
+        "Poster": "/3C349xMrljgO8hK4bSYKKsL5OoX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9185,6 +17500,22 @@ var films = [
       "Adventure",
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 7576,
+        "Title": "EON Productions",
+        "Poster": "/oYcUi1byZ312Z3xiz5ojz9RQLND.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 60,
+        "Title": "United Artists",
+        "Poster": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9212,6 +17543,50 @@ var films = [
       "Crime",
       "Drama",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 15231,
+        "Title": "Muse Productions",
+        "Poster": "/iFbzMtXFBv2ekA9Ldrw6LqjLrvX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 18811,
+        "Title": "Brink Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 26470,
+        "Title": "Little Magic Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 116002,
+        "Title": "Saggitaire",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 43569,
+        "Title": "Stone Canyon Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 2262,
+        "Title": "Silver Nitrate",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9237,6 +17612,29 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 31810,
+        "Title": "Bright/Kauffman/Crane Productions",
+        "Poster": "/3oyBCnFO3tIRmny3yzYQpF5n2cS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 115672,
+        "Title": "Warner Horizon Unscripted Television",
+        "Poster": "/lqV7pQ6lXUjDzbvRfI4eNiT1QDB.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5505,
+        "Title": "Fulwell 73 Productions",
+        "Poster": "/lNSXnoZxWcqSFbjI62A7aRGZOPa.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9263,6 +17661,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 6,
+        "Title": "RKO Radio Pictures",
+        "Poster": "/n53F7K9scQWFXYbrCablqLKqJdp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1552,
+        "Title": "Berit Film",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9289,6 +17703,43 @@ var films = [
     "Genres": [
       "Drama",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 1917,
+        "Title": "EM Media",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 2452,
+        "Title": "UK Film Council",
+        "Poster": "/gOkUB0TdXRLAl6s0s6jCSLS3sOb.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 2690,
+        "Title": "Screen Yorkshire",
+        "Poster": "/9XXpd39mDfkWmcNB6R0tpvzo781.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 3519,
+        "Title": "Big Arty Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9315,6 +17766,22 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 14,
+        "Title": "Miramax",
+        "Poster": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2605,
+        "Title": "Gran Via Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9345,6 +17812,22 @@ var films = [
       "Drama",
       "Comedy",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2537,
+        "Title": "Kennedy Miller Productions",
+        "Poster": "",
+        "OriginCountry": "AU",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9374,6 +17857,29 @@ var films = [
       "Adventure",
       "Comedy",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 18642,
+        "Title": "Rovio Entertainment",
+        "Poster": "/1q3tQzSNVpuCvYy1T3m8gKYrXwS.png",
+        "OriginCountry": "FI",
+        "Amount": 0
+      },
+      {
+        "Id": 91920,
+        "Title": "Rovio Animation",
+        "Poster": "/e4RmN11AuFTkhDjQFeNng3Fyqzx.png",
+        "OriginCountry": "FI",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9400,6 +17906,29 @@ var films = [
     "Genres": [
       "Horror",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 48792,
+        "Title": "Parallel Zide",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 48788,
+        "Title": "Practical Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9425,6 +17954,29 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 923,
+        "Title": "Legendary Pictures",
+        "Poster": "/5UQsZrfbfG2dYJbx8DxfoTr2Bvu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3527,
+        "Title": "Green Hat Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9453,6 +18005,22 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 1382,
+        "Title": "PolyGram Filmed Entertainment",
+        "Poster": "/8b5XGJ8YhZoEo9LgFP8KRQWHjYL.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9480,6 +18048,15 @@ var films = [
       "Animation",
       "Family",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 3166,
+        "Title": "Walt Disney Productions",
+        "Poster": "/vyyv4Gy9nPqAZKElPm2izLlEaVS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9507,6 +18084,64 @@ var films = [
       "Comedy",
       "Drama",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 461,
+        "Title": "Les Films Christian Fechner",
+        "Poster": "/reM5HtbhqjZnefmDSToF0zT0zd7.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 21505,
+        "Title": "Action Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 76482,
+        "Title": "Les Films 7",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 223,
+        "Title": "Les Films du Losange",
+        "Poster": "/pdthRbCuXNlrGNwnmLFRxv5Zy3t.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 82,
+        "Title": "Renn Productions",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 76626,
+        "Title": "Saga",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 126839,
+        "Title": "Simar Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1628,
+        "Title": "V. M. Productions",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9535,6 +18170,43 @@ var films = [
       "Horror",
       "Thriller",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 184518,
+        "Title": "C2 Motion Picture Group",
+        "Poster": "/lOouI8ibBzhLI4qvku74FPUVT8t.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 831,
+        "Title": "Saturn Films",
+        "Poster": "/vLENXiYTyITnMDrTKabUXhgTKX2.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 85465,
+        "Title": "Oddfellows Entertainment",
+        "Poster": "/oxx1bmXDQxeBsvYZmCxMtfJ5wa3.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 232289,
+        "Title": "Traffic.",
+        "Poster": "/bV35YIaGQvRtjsD2r8KdlvYDKrp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 167684,
+        "Title": "Range Media Partners",
+        "Poster": "/kzQwU2H6woBFti9cqjr9BrVXrst.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9561,6 +18233,22 @@ var films = [
     "Genres": [
       "Drama",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 82968,
+        "Title": "LuckyChap Entertainment",
+        "Poster": "/gRROMOG5bpF6TIDMbfaa5gnFFzl.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 101831,
+        "Title": "Clubhouse Pictures",
+        "Poster": "/l6x0SkRVp9ksGgRhboZbkI9w7PM.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9588,6 +18276,36 @@ var films = [
     "Genres": [
       "Horror",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11272,
+        "Title": "Peregrine",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 88,
+        "Title": "Hawk Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 734,
+        "Title": "The Producer Circle Co.",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9615,6 +18333,15 @@ var films = [
       "Horror",
       "Drama",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 360,
+        "Title": "Geffen Pictures",
+        "Poster": "/hbDlIbBdBe0nVFTeZ7hDX3d5n2N.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9645,6 +18372,29 @@ var films = [
       "Action",
       "Thriller",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 655,
+        "Title": "Strike Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11429,
+        "Title": "Hit \u0026 Run Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9672,6 +18422,22 @@ var films = [
     "Genres": [
       "Horror",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 396,
+        "Title": "SLM Production Group",
+        "Poster": "/5iNXO7nAiSsms7ur1Qy2UwuwcDP.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5612,
+        "Title": "Brooksfilms",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9698,6 +18464,15 @@ var films = [
     "Genres": [
       "Thriller",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9725,6 +18500,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 56403,
+        "Title": "Beachside Films",
+        "Poster": "/uXT3YDtWe3lvMullnwk51l4UikF.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 40486,
+        "Title": "Parkville Pictures",
+        "Poster": "/nA0fcwrBXV9qm3gmfHNtzSNSk4Y.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9752,6 +18543,22 @@ var films = [
     "Genres": [
       "Adventure",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 437,
+        "Title": "Heyday Films",
+        "Poster": "/nu20mtwbEIhUNnQ5NXVhHsNknZj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9781,6 +18588,36 @@ var films = [
       "Adventure",
       "Fantasy",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 444,
+        "Title": "Dune Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 574,
+        "Title": "Lightstorm Entertainment",
+        "Poster": "/nLNW1TeFUYU0M5U0qmYUzOIwlB6.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 290,
+        "Title": "Ingenious Media",
+        "Poster": "/jrgCuaQsY9ouP5ILZf4Dq4ZOkIX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9807,6 +18644,36 @@ var films = [
     "Genres": [
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 12649,
+        "Title": "Bad Cop / Bad Cop",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 12650,
+        "Title": "Dogfish Pictures",
+        "Poster": "/nGzVgMmnnaArZG3Dw1Qxmke37vH.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10989,
+        "Title": "Muskat Filmed Properties",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 28286,
+        "Title": "Low Spark Films",
+        "Poster": "/m4zzuwJbTrqw5qZHoXpySkC87jE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9834,6 +18701,36 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 224,
+        "Title": "Wega Film",
+        "Poster": "/fCv129CE3olInpdEiOWcC5s2YbQ.png",
+        "OriginCountry": "AT",
+        "Amount": 0
+      },
+      {
+        "Id": 635,
+        "Title": "Les Films Alain Sarde",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 94,
+        "Title": "ARTE France Cin\u00E9ma",
+        "Poster": "/huC7HqorvUThGIrENrbcHmQVUA0.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 6274,
+        "Title": "MK2 Films",
+        "Poster": "/ngZoa368SAnERTz3IBvgTT4eWeB.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9859,6 +18756,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 175380,
+        "Title": "Insc\u00E9al",
+        "Poster": "/hfkLPwW0ktS5l1pu5U2oRevxFVR.png",
+        "OriginCountry": "IE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9889,6 +18795,15 @@ var films = [
       "Adventure",
       "Comedy",
       "Music"
+    ],
+    "Studios": [
+      {
+        "Id": 521,
+        "Title": "DreamWorks Animation",
+        "Poster": "/3BPX5VGBov8SDqTV7wC1L1xShAS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9917,6 +18832,43 @@ var films = [
     "Genres": [
       "Drama",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 127929,
+        "Title": "Searchlight Pictures",
+        "Poster": "/7DLKyL15ETI9645XSr9JcbMV79c.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 22213,
+        "Title": "TSG Entertainment",
+        "Poster": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3353,
+        "Title": "Element Pictures",
+        "Poster": "/qv2v9HaStUTRjqonODM29YG0oFX.png",
+        "OriginCountry": "IE",
+        "Amount": 0
+      },
+      {
+        "Id": 72597,
+        "Title": "Limp",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9944,6 +18896,15 @@ var films = [
       "Comedy",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 29694,
+        "Title": "2 Loop Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -9976,6 +18937,50 @@ var films = [
     "Genres": [
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 806,
+        "Title": "T\u00E9l\u00E9film Canada",
+        "Poster": "/kcNh09qqR2Pkw1JAzRW4CommrW4.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 3353,
+        "Title": "Element Pictures",
+        "Poster": "/qv2v9HaStUTRjqonODM29YG0oFX.png",
+        "OriginCountry": "IE",
+        "Amount": 0
+      },
+      {
+        "Id": 7493,
+        "Title": "FilmNation Entertainment",
+        "Poster": "/fHitYiGUCkRafgt6VPYQlXWLkdp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 35846,
+        "Title": "No Trace Camping",
+        "Poster": "/tOJlsgZNRdMurnJgSiuRFIUz0te.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 1898,
+        "Title": "F\u00EDs \u00C9ireann/Screen Ireland",
+        "Poster": "/8ix6SGlJiyuUDxLBtY8E0PY2G7w.png",
+        "OriginCountry": "IE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10003,6 +19008,15 @@ var films = [
       "Horror",
       "Thriller",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 10717,
+        "Title": "Shamley Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10031,6 +19045,36 @@ var films = [
       "Thriller",
       "Science Fiction",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 8073,
+        "Title": "Nick Wechsler Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 27543,
+        "Title": "JW Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7281,
+        "Title": "BFI",
+        "Poster": "/iI7qdR1OFPo0U41BlpKBLD3xesh.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10059,6 +19103,36 @@ var films = [
       "Adventure",
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 7576,
+        "Title": "EON Productions",
+        "Poster": "/oYcUi1byZ312Z3xiz5ojz9RQLND.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 60,
+        "Title": "United Artists",
+        "Poster": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10761,
+        "Title": "Danjaq",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10084,6 +19158,50 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7380,
+        "Title": "Initial Entertainment Group",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 675,
+        "Title": "Forward Pass",
+        "Poster": "/fy7laY9J4tbYz7yNxGEKmoMrXRt.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 907,
+        "Title": "Overbrook Entertainment",
+        "Poster": "/ca5SWI5uvU985f8Kbb4xc8AmVWH.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 16774,
+        "Title": "Peters Entertainment",
+        "Poster": "/uD6Ls0FSJwo13ekpz91s1TRpkGq.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 26204,
+        "Title": "Lee Caplin / Picture Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10111,6 +19229,36 @@ var films = [
       "Adventure",
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 35849,
+        "Title": "Armory Films",
+        "Poster": "/bHYIJoy2ri7crfHugwR0AdF3qdM.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 100640,
+        "Title": "Endeavor Content",
+        "Poster": "/5BR67T28TVm2UMH8GCRDftafsaJ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 715,
+        "Title": "Bona Fide Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 112567,
+        "Title": "Lucky Treehouse",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10137,6 +19285,29 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 11661,
+        "Title": "Rysher Entertainment",
+        "Poster": "/xMrUWnDUgL1CZGousc4iyR7utbR.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 246527,
+        "Title": "David Kirkpatrick Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 246528,
+        "Title": "Michael Besman Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10165,6 +19336,50 @@ var films = [
       "Action",
       "Adventure",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 840,
+        "Title": "Lawrence Gordon Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1885,
+        "Title": "Silver Pictures",
+        "Poster": "/xlvoOZr4s1PygosrwZyolIFe5xs.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1302,
+        "Title": "Davis Entertainment",
+        "Poster": "/zC3b70ixHh89qJIikLQPEvLqbPM.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5263,
+        "Title": "Amercent Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 5264,
+        "Title": "American Entertainment Partners L.P.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10191,6 +19406,15 @@ var films = [
     "Genres": [
       "Comedy",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10219,6 +19443,43 @@ var films = [
       "Comedy",
       "Drama",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 2376,
+        "Title": "Blueprint Pictures",
+        "Poster": "/yeNoWmSHZfvKsBYuL8uTRE4LPdQ.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 167259,
+        "Title": "South of the River Pictures",
+        "Poster": "/bSwCootf79JLvjEKH9BC4pTOSUW.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 165934,
+        "Title": "People Person Pictures",
+        "Poster": "/fcdDXcwCyMd9rJR7HPLvmx4m3U.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 113521,
+        "Title": "StudioCanal",
+        "Poster": "/f1zRNbj6hK0Fqgc9lTVU5r3O3Iw.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10246,6 +19507,29 @@ var films = [
       "Horror",
       "Mystery",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 2061,
+        "Title": "Twisted Pictures",
+        "Poster": "/o9LbN33hRaj4qcebUv1bikyXeoB.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23019,
+        "Title": "Evolution Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 55405,
+        "Title": "Saw Productions Inc.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10273,6 +19557,29 @@ var films = [
     "Genres": [
       "Drama",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 866,
+        "Title": "Path\u00E9 Renn Productions",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 591,
+        "Title": "France 3 Cin\u00E9ma",
+        "Poster": "/q5I5RDwMEiqoNmfaJgd2LraEOJY.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 862,
+        "Title": "The Kennedy/Marshall Company",
+        "Poster": "/vdK6ZhC2CSW36j0VPEavRxOpbEg.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10302,6 +19609,36 @@ var films = [
       "Thriller",
       "Crime",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 841,
+        "Title": "Path\u00E9 Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1645,
+        "Title": "Scott Free Productions",
+        "Poster": "/6Ry6uNBaa0IbbSs1XYIgX5DkA9r.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 21854,
+        "Title": "Star Partners III Ltd.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10328,6 +19665,22 @@ var films = [
     "Genres": [
       "Horror",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 15160,
+        "Title": "Haxan Films",
+        "Poster": "/nksfViwBwYdv73nkdn3Dk3OEINr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2188,
+        "Title": "Artisan Entertainment",
+        "Poster": "/f1zrx8bIsS81AHoPQq4riJx68Lt.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10356,6 +19709,29 @@ var films = [
       "Drama",
       "Romance",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 10146,
+        "Title": "Focus Features",
+        "Poster": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6196,
+        "Title": "Carnival Films",
+        "Poster": "/nTHxXVnXL58M7jJGNFAjRTCRgyg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 214539,
+        "Title": "Perfect World Pictures",
+        "Poster": "/7gLb5n9flgH3aGn28Q0jNtPhlwx.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10382,6 +19758,15 @@ var films = [
     "Genres": [
       "Animation",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 3,
+        "Title": "Pixar",
+        "Poster": "/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10407,6 +19792,15 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 21594,
+        "Title": "Path\u00E9 Fr\u00E8res",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10435,6 +19829,15 @@ var films = [
       "Family",
       "Fantasy",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 3166,
+        "Title": "Walt Disney Productions",
+        "Poster": "/vyyv4Gy9nPqAZKElPm2izLlEaVS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10463,6 +19866,22 @@ var films = [
       "Crime",
       "Drama",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 5574,
+        "Title": "Moderncin\u00E9",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 12221,
+        "Title": "Modern Girl Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10490,6 +19909,29 @@ var films = [
     "Genres": [
       "Adventure",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 437,
+        "Title": "Heyday Films",
+        "Poster": "/nu20mtwbEIhUNnQ5NXVhHsNknZj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 462,
+        "Title": "Patalex IV Productions Limited",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10516,6 +19958,29 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 574,
+        "Title": "Lightstorm Entertainment",
+        "Poster": "/nLNW1TeFUYU0M5U0qmYUzOIwlB6.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10543,6 +20008,36 @@ var films = [
       "Mystery",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 22566,
+        "Title": "Harvest Filmworks",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 22567,
+        "Title": "Plantain Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7503,
+        "Title": "Protozoa Pictures",
+        "Poster": "/3K8wbNkTn7O4wX89ucnp1ZYR1XF.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 194682,
+        "Title": "Truth \u0026 Soul",
+        "Poster": "/hp8OwEyM0pGNYGVqaRpU06IPV8Q.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10569,6 +20064,29 @@ var films = [
     "Genres": [
       "Horror",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 29312,
+        "Title": "Sunday Night Productions",
+        "Poster": "/v6aLhoAviWYkfOksBJTd9XbO0YH.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2481,
+        "Title": "Platinum Dunes",
+        "Poster": "/vOQg26GjR0LnkN1Ph9uyog1UuOE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10595,6 +20113,29 @@ var films = [
     "Genres": [
       "Adventure",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 3573,
+        "Title": "Celador Films",
+        "Poster": "/cA8YIHjFbWVSxJMnAkKvLYGegSS.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 45785,
+        "Title": "Northmen Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 7396,
+        "Title": "Pathe",
+        "Poster": "/jnjLKDfdAfNylfVdybY9370Ybrg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10621,6 +20162,22 @@ var films = [
     "Genres": [
       "Horror",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 401,
+        "Title": "Brandywine Productions",
+        "Poster": "/t7mM3DvQ9MwDT3YzMCBrkWpWiiz.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10649,6 +20206,43 @@ var films = [
     "Genres": [
       "Science Fiction",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 3317,
+        "Title": "Lunar Industries",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 3316,
+        "Title": "Liberty Films",
+        "Poster": "/jNx3rBqsxhf9hrIZBlfiufOK1a.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 3318,
+        "Title": "Xingu Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 12018,
+        "Title": "Limelight Fund",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 10583,
+        "Title": "Independent",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10677,6 +20271,22 @@ var films = [
       "Adventure",
       "Family",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10703,6 +20313,50 @@ var films = [
     "Genres": [
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 88564,
+        "Title": "Water's End Productions",
+        "Poster": "/pn3p12IC4Tb0K8reEQyR51pgnvJ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7625,
+        "Title": "Automatik Entertainment",
+        "Poster": "/kzq4ibnNeZrp00zpBWv3st1QCOh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 48648,
+        "Title": "Buffalo Picture House",
+        "Poster": "/kSnOoOkHt0XUEABUwRcoF72xhMi.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 117706,
+        "Title": "Extra A Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 111649,
+        "Title": "Stoneboies Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 168181,
+        "Title": "Tango Entertainment",
+        "Poster": "/adHpT0fRW86W80jPtJRo96pqJE4.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10729,6 +20383,15 @@ var films = [
     "Genres": [
       "Horror",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 35,
+        "Title": "Lions Gate Films",
+        "Poster": "/wxrHa3nZ1K4zo65p56991INkGo6.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10754,6 +20417,22 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 17411,
+        "Title": "Polar Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 8,
+        "Title": "Fine Line Features",
+        "Poster": "/78ilmDNTpdCfsakrsLqmAUkFTrO.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10780,6 +20459,22 @@ var films = [
     "Genres": [
       "Adventure",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1,
+        "Title": "Lucasfilm Ltd.",
+        "Poster": "/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10807,6 +20502,64 @@ var films = [
     "Genres": [
       "Horror",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 3576,
+        "Title": "EFTI",
+        "Poster": "",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 11731,
+        "Title": "Bavaria Film International",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 5785,
+        "Title": "Sandrew Metronome Sverige",
+        "Poster": "",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 228,
+        "Title": "Filmpool Nord",
+        "Poster": "/zT2bcTDEbBkfZi2APB8DYJKLIQ3.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 2999,
+        "Title": "SVT",
+        "Poster": "/zGSqFee9aDgDuLD6vcs2mcJUem4.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 194617,
+        "Title": "WAG",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 10913,
+        "Title": "Fido Film",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 3555,
+        "Title": "Chimney Sweden",
+        "Poster": "/5vgxuOmB1UX3t6tPv6TChQCbyXf.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10833,6 +20586,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 162,
+        "Title": "BR",
+        "Poster": "/pIK5tsFVxjoXTJGcd0nYhiL1kn1.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 1747,
+        "Title": "Schiwago Film",
+        "Poster": "/9u2Nl4JSXb43M97wy4zqUu5vlS7.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10861,6 +20630,29 @@ var films = [
       "Thriller",
       "Science Fiction",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 9195,
+        "Title": "Touchstone Pictures",
+        "Poster": "/geK5QOBsXIPGHutKwXtYjMUyYSG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 130,
+        "Title": "Jerry Bruckheimer Films",
+        "Poster": "/c9dVHPOL3cqCr2593Ahk0nEKTEM.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11533,
+        "Title": "Valhalla Motion Pictures",
+        "Poster": "/tWM9pmzVYxok4GbQIttxdcml1yT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10889,6 +20681,50 @@ var films = [
       "Action",
       "Fantasy",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 79,
+        "Title": "Village Roadshow Pictures",
+        "Poster": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 813,
+        "Title": "Di Novi Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 52945,
+        "Title": "Frantic Films",
+        "Poster": "",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 52946,
+        "Title": "Maple Shade Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 52947,
+        "Title": "Catwoman Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10916,6 +20752,36 @@ var films = [
       "Comedy",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 11728,
+        "Title": "Camelot Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 216,
+        "Title": "Jersey Films",
+        "Poster": "/iKPzC6YxqNAk6fMoTtFhIF5p6yw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 215,
+        "Title": "Double Feature Films",
+        "Poster": "/tQyeqkCj24krhY2W8qeAztcOS37.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11729,
+        "Title": "Large's Ark Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10944,6 +20810,43 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 16775,
+        "Title": "Arnold Kopelson Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 183,
+        "Title": "Le Studio Canal\u002B",
+        "Poster": "/eadyph99FClrWlnE0jPniwOcvvw.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 508,
+        "Title": "Regency Enterprises",
+        "Poster": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 644,
+        "Title": "Alcor Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10969,6 +20872,43 @@ var films = [
     ],
     "Genres": [
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 1633,
+        "Title": "Next Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2481,
+        "Title": "Platinum Dunes",
+        "Poster": "/vOQg26GjR0LnkN1Ph9uyog1UuOE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 350,
+        "Title": "Radar Pictures",
+        "Poster": "/bW7Ew27756PFKI3ucLFDIKEkFc0.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10146,
+        "Title": "Focus Features",
+        "Poster": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -10996,6 +20936,50 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 4232,
+        "Title": "Menuet",
+        "Poster": "/5uY5oqgSEUvzfmn8xC4eqGVU0s5.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 744,
+        "Title": "Diaphana Films",
+        "Poster": "/uM3Vrs3TZJJJTyCAPy4zir9IQeC.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 24845,
+        "Title": "Topkapi Films",
+        "Poster": "/eRT3fMGdAaQaFyOYXMEIt8GCe6I.png",
+        "OriginCountry": "NL",
+        "Amount": 0
+      },
+      {
+        "Id": 3040,
+        "Title": "Versus Production",
+        "Poster": "/aZww3B7RCFAMV1qrDZDrdeB8qcI.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 3133,
+        "Title": "VTM",
+        "Poster": "/3eZF3RIfTKV7rzRgrXm4wTf6ufJ.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 792,
+        "Title": "RTBF",
+        "Poster": "/cRhBQP1FFNugNxKkO1pUgeD2Rkr.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11023,6 +21007,50 @@ var films = [
       "Drama",
       "Thriller",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 7263,
+        "Title": "FilmDistrict",
+        "Poster": "/auaadhBBcvvTDtmW2iJzOrEjfgO.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2266,
+        "Title": "Bold Films",
+        "Poster": "/owzVs2mguyyJ3vIn7EbgowpUPnk.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2527,
+        "Title": "Marc Platt Productions",
+        "Poster": "/osO7TGmlRMistSQ5JZusPhbKUHk.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3263,
+        "Title": "OddLot Entertainment",
+        "Poster": "/fvQzPr1XM8wq0qp8Rt7Z68rdhAZ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11337,
+        "Title": "Motel Movies",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 46625,
+        "Title": "Newbridge Film Capital",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11049,6 +21077,43 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 711,
+        "Title": "Fox 2000 Pictures",
+        "Poster": "/tEiIH5QesdheJmDAqQwvtN60727.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 508,
+        "Title": "Regency Enterprises",
+        "Poster": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4700,
+        "Title": "Linson Entertainment",
+        "Poster": "/A32wmjrs9Psf4zw0uaixF0GXfxq.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 20555,
+        "Title": "Taurus Film",
+        "Poster": "/hD8yEGUBlHOcfHYbujp71vD8gZp.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11076,6 +21141,29 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 11073,
+        "Title": "Sony Pictures Television",
+        "Poster": "/aCbASRcI1MI7DXjPbSW9Fcv9uGR.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2605,
+        "Title": "Gran Via Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 33742,
+        "Title": "High Bridge Productions",
+        "Poster": "/2jdh2sEa0R6y6uT0F7g0IgA2WO8.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11105,6 +21193,43 @@ var films = [
       "Action",
       "Drama",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 444,
+        "Title": "Dune Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7076,
+        "Title": "Chernin Entertainment",
+        "Poster": "/8BFxn9NUWSgp0ndih569Gm62xiC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 290,
+        "Title": "Ingenious Media",
+        "Poster": "/jrgCuaQsY9ouP5ILZf4Dq4ZOkIX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 10893,
+        "Title": "Big Screen Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11133,6 +21258,15 @@ var films = [
       "Thriller",
       "Crime",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 484,
+        "Title": "DEG",
+        "Poster": "/y3jYroFE9tjDTx5aSOgecXV732c.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11158,6 +21292,15 @@ var films = [
     ],
     "Genres": [
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 3570,
+        "Title": "Seda Spettacoli",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11185,6 +21328,29 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 1271,
+        "Title": "Pariah",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7337,
+        "Title": "Mushroom Pictures",
+        "Poster": "",
+        "OriginCountry": "AU",
+        "Amount": 0
+      },
+      {
+        "Id": 1380,
+        "Title": "Australian Film Finance Corporation",
+        "Poster": "/y4JH9ncZJAFJGYWK84k1dmXnsw0.png",
+        "OriginCountry": "AU",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11213,6 +21379,29 @@ var films = [
       "Horror",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 856,
+        "Title": "Wild Bunch",
+        "Poster": "/3tfzS2CrX6Ntbu927XzHXEPDA6y.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 2578,
+        "Title": "TCB Films",
+        "Poster": "",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 616,
+        "Title": "Eskwad",
+        "Poster": "/aeBPwUMUqIOFnt3Fxv9fC91hBuq.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11239,6 +21428,22 @@ var films = [
     "Genres": [
       "Mystery",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 11447,
+        "Title": "Mercury Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 6,
+        "Title": "RKO Radio Pictures",
+        "Poster": "/n53F7K9scQWFXYbrCablqLKqJdp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11267,6 +21472,29 @@ var films = [
       "Drama",
       "Thriller",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 3074,
+        "Title": "Pantry Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 11341,
+        "Title": "Stage 6 Films",
+        "Poster": "/xytTBODEy3p20ksHL4Ftxr483Iv.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 22539,
+        "Title": "Tooley Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11294,6 +21522,22 @@ var films = [
       "Action",
       "Adventure",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 35304,
+        "Title": "Blue Tulip Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11321,6 +21565,15 @@ var films = [
       "Fantasy",
       "Music",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 128454,
+        "Title": "Black Hand Cinema",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11350,6 +21603,50 @@ var films = [
       "Thriller",
       "Mystery",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 60,
+        "Title": "United Artists",
+        "Poster": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 70,
+        "Title": "American Zoetrope",
+        "Poster": "/ueaENQkPcy8rlr5fGZVBXKOhlBh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 995,
+        "Title": "Cinerenta",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 21784,
+        "Title": "Cinerenta-Cinebeta",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 21785,
+        "Title": "VCL Communications",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11375,6 +21672,15 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 10473,
+        "Title": "ONF | NFB",
+        "Poster": "/lMUDQZVtg8On4PAW5XFQPaQy6UK.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11401,6 +21707,22 @@ var films = [
     "Genres": [
       "Adventure",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 10265,
+        "Title": "Peter Rogers Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 8233,
+        "Title": "Rank Organisation, The",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11428,6 +21750,15 @@ var films = [
       "Drama",
       "Fantasy",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 39712,
+        "Title": "Seon Film Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11454,6 +21785,22 @@ var films = [
     "Genres": [
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1557,
+        "Title": "The Mark Gordon Company",
+        "Poster": "/ccz9bqCu3jSFKbPFnfWmjAKZLBL.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11481,6 +21828,57 @@ var films = [
     "Genres": [
       "Action",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 175,
+        "Title": "Caravan Pictures",
+        "Poster": "/trtXLj3zv8T9ke1Vhw4SCkkM4JJ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1644,
+        "Title": "Largo Entertainment",
+        "Poster": "/l5JFudbLN3vr1sSkjRoqF7To8Ky.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1646,
+        "Title": "Trap-Two-Zero Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 961,
+        "Title": "Roger Birnbaum Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 114634,
+        "Title": "Moving Pictures",
+        "Poster": "/xJpyyIgVMtVjKuQaArUWmRqCHGj.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1645,
+        "Title": "Scott Free Productions",
+        "Poster": "/6Ry6uNBaa0IbbSs1XYIgX5DkA9r.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 915,
+        "Title": "Hollywood Pictures",
+        "Poster": "/4neXXpjSJDZPBGBnfWtqysB5htV.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11513,6 +21911,43 @@ var films = [
       "Comedy",
       "Thriller",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 22842,
+        "Title": "Waypoint Entertainment",
+        "Poster": "/buyfiDYTfPVTHxvYZ4yHu69zFPs.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3353,
+        "Title": "Element Pictures",
+        "Poster": "/qv2v9HaStUTRjqonODM29YG0oFX.png",
+        "OriginCountry": "IE",
+        "Amount": 0
+      },
+      {
+        "Id": 71265,
+        "Title": "Scarlet Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 43,
+        "Title": "Fox Searchlight Pictures",
+        "Poster": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11540,6 +21975,22 @@ var films = [
       "Horror",
       "Thriller",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 1865,
+        "Title": "The Zanuck/Brown Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11569,6 +22020,50 @@ var films = [
       "Action",
       "Thriller",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 19116,
+        "Title": "IMF Productions",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 7340,
+        "Title": "C2 Pictures",
+        "Poster": "/6md5HA8YherOD0apQ1XwsAbXiz5.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23636,
+        "Title": "Mostow/Lieberman Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 763,
+        "Title": "Intermedia",
+        "Poster": "/mCnIVkImjm8rUxIpGR5NgrGlIYL.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 830,
+        "Title": "Senator International",
+        "Poster": "/mYga54mrt5n4GUUcJxE6DmR2FKv.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11533,
+        "Title": "Valhalla Motion Pictures",
+        "Poster": "/tWM9pmzVYxok4GbQIttxdcml1yT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11594,6 +22089,29 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 746,
+        "Title": "MTV Films",
+        "Poster": "/kc7bdIVTBkJYy9aDK1QDDTAL463.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6328,
+        "Title": "Dickhouse Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11621,6 +22139,29 @@ var films = [
     "Genres": [
       "Romance",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 1422,
+        "Title": "Killer Films",
+        "Poster": "/rIB6DuimR1qgLE14cBwpMABC2xx.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11752,
+        "Title": "Number 9 Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11648,6 +22189,22 @@ var films = [
       "Comedy",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 9350,
+        "Title": "Indian Paintbrush",
+        "Poster": "/xz60JVoUHpOeg1cJbxzMJiwbuL7.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 82968,
+        "Title": "LuckyChap Entertainment",
+        "Poster": "/gRROMOG5bpF6TIDMbfaa5gnFFzl.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11674,7 +22231,8 @@ var films = [
     ],
     "Genres": [
       "Documentary"
-    ]
+    ],
+    "Studios": []
   },
   {
     "Title": "True Lies",
@@ -11700,6 +22258,22 @@ var films = [
     "Genres": [
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 574,
+        "Title": "Lightstorm Entertainment",
+        "Poster": "/nLNW1TeFUYU0M5U0qmYUzOIwlB6.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11725,6 +22299,43 @@ var films = [
     ],
     "Genres": [
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 1053,
+        "Title": "Got Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 2061,
+        "Title": "Twisted Pictures",
+        "Poster": "/o9LbN33hRaj4qcebUv1bikyXeoB.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23019,
+        "Title": "Evolution Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 64651,
+        "Title": "Saw 2 Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1632,
+        "Title": "Lionsgate",
+        "Poster": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11751,6 +22362,22 @@ var films = [
     "Genres": [
       "Horror",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 116831,
+        "Title": "The Richard Shepherd Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11779,6 +22406,50 @@ var films = [
     "Genres": [
       "Drama",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 345,
+        "Title": "O2 Filmes",
+        "Poster": "/hj2nqoG2F9COm16fqvM0YpY3jL4.png",
+        "OriginCountry": "BR",
+        "Amount": 0
+      },
+      {
+        "Id": 346,
+        "Title": "VideoFilmes",
+        "Poster": "/ymwuRMQkrQojx55MeMO861Rdecz.png",
+        "OriginCountry": "BR",
+        "Amount": 0
+      },
+      {
+        "Id": 856,
+        "Title": "Wild Bunch",
+        "Poster": "/3tfzS2CrX6Ntbu927XzHXEPDA6y.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 11445,
+        "Title": "Hank Levine Film \u0026 Music",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 13969,
+        "Title": "Globo Filmes",
+        "Poster": "/bEpiJ2zXGIH70JT16asjWNFtOEv.png",
+        "OriginCountry": "BR",
+        "Amount": 0
+      },
+      {
+        "Id": 11793,
+        "Title": "Lumi\u00E8re",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11805,6 +22476,50 @@ var films = [
     "Genres": [
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 1689,
+        "Title": "TSJ Entertainment",
+        "Poster": "",
+        "OriginCountry": "KR",
+        "Amount": 0
+      },
+      {
+        "Id": 1691,
+        "Title": "Ilshin Capital Investments",
+        "Poster": "",
+        "OriginCountry": "KR",
+        "Amount": 0
+      },
+      {
+        "Id": 1692,
+        "Title": "Centurion Investment",
+        "Poster": "",
+        "OriginCountry": "KR",
+        "Amount": 0
+      },
+      {
+        "Id": 34725,
+        "Title": "Moho Film",
+        "Poster": "/cRqXC6Dy6AvTGS2wiMt26yGJgZA.png",
+        "OriginCountry": "KR",
+        "Amount": 0
+      },
+      {
+        "Id": 7036,
+        "Title": "CJ Entertainment",
+        "Poster": "/javbyY0ZCvlFJtly3tpZqf2NwLX.png",
+        "OriginCountry": "KR",
+        "Amount": 0
+      },
+      {
+        "Id": 129502,
+        "Title": "CJ Venture Investment",
+        "Poster": "",
+        "OriginCountry": "KR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11832,6 +22547,22 @@ var films = [
       "Comedy",
       "Drama",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1177,
+        "Title": "Rastar Productions",
+        "Poster": "/gxvrQWG6byKMVEHMjTJjGhRlARQ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11859,6 +22590,22 @@ var films = [
       "Mystery",
       "Romance",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10715,
+        "Title": "Alfred J. Hitchcock Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11887,6 +22634,22 @@ var films = [
       "Action",
       "Thriller",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2767,
+        "Title": "Mace Neufeld Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11912,6 +22675,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 7445,
+        "Title": "Cinematograph AB",
+        "Poster": "",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 2302,
+        "Title": "Svenska Filminstitutet",
+        "Poster": "/rPXEdpqwFycAY9ZgrAJXv13qcWW.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11939,6 +22718,22 @@ var films = [
       "Comedy",
       "Family",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 216,
+        "Title": "Jersey Films",
+        "Poster": "/iKPzC6YxqNAk6fMoTtFhIF5p6yw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 559,
+        "Title": "TriStar Pictures",
+        "Poster": "/eC0bWHVjnjUducyA6YFoEFqnPMC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11966,6 +22761,22 @@ var films = [
       "History",
       "Comedy",
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 1435,
+        "Title": "Left Turn Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 27523,
+        "Title": "Pure Mutt Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -11991,6 +22802,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 2253,
+        "Title": "Lawrence Bender Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23201,
+        "Title": "Be Gentlemen Limited Partnership",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 14,
+        "Title": "Miramax",
+        "Poster": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12018,6 +22852,36 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 10645,
+        "Title": "Paradise Films",
+        "Poster": "",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 10647,
+        "Title": "Unit\u00E9 Trois",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 4606,
+        "Title": "ZDF",
+        "Poster": "/otZHbf1HmzLRQsZFSqJXkf8EHz7.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 10649,
+        "Title": "H\u00E9l\u00E8ne Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12045,6 +22909,29 @@ var films = [
       "Action",
       "Comedy",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 2516,
+        "Title": "Kuzui Enterprises",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5842,
+        "Title": "Sandollar Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12073,6 +22960,22 @@ var films = [
       "Action",
       "Thriller",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 3952,
+        "Title": "Hemdale",
+        "Poster": "/hLfS5FjBQjK5MUNl7kdXgIHSSWy.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 1280,
+        "Title": "Pacific Western",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12102,6 +23005,43 @@ var films = [
     "Genres": [
       "Action",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 2609,
+        "Title": "De Line Pictures",
+        "Poster": "/ocmrEBfmecJvrbIM4C50vjYWtlq.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 682,
+        "Title": "Peninsula Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 830,
+        "Title": "Senator International",
+        "Poster": "/mYga54mrt5n4GUUcJxE6DmR2FKv.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12129,6 +23069,15 @@ var films = [
       "Music",
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12154,6 +23103,15 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 99878,
+        "Title": "Seedaylight",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12182,6 +23140,57 @@ var films = [
     "Genres": [
       "Romance",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 856,
+        "Title": "Wild Bunch",
+        "Poster": "/3tfzS2CrX6Ntbu927XzHXEPDA6y.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 11199,
+        "Title": "SCOPE Pictures",
+        "Poster": "/tWXanyy8XwpcOPannNJ33QUcXp5.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 14700,
+        "Title": "Quat'sous Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 83,
+        "Title": "France 2 Cin\u00E9ma",
+        "Poster": "/9OQ0rm55xtlgX7KcAKMUePJSrQc.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 792,
+        "Title": "RTBF",
+        "Poster": "/cRhBQP1FFNugNxKkO1pUgeD2Rkr.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 25308,
+        "Title": "Alcatraz Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 69195,
+        "Title": "V\u00E9rtigo Films",
+        "Poster": "/rj6lobWkUT2i5WbpKhUqz9uQ0ak.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12208,6 +23217,15 @@ var films = [
     "Genres": [
       "Horror",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 1960,
+        "Title": "Prana-Film",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12236,6 +23254,36 @@ var films = [
     "Genres": [
       "Drama",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 127929,
+        "Title": "Searchlight Pictures",
+        "Poster": "/7DLKyL15ETI9645XSr9JcbMV79c.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2376,
+        "Title": "Blueprint Pictures",
+        "Poster": "/yeNoWmSHZfvKsBYuL8uTRE4LPdQ.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 22213,
+        "Title": "TSG Entertainment",
+        "Poster": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12261,6 +23309,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 14440,
+        "Title": "Red Wagon Entertainment",
+        "Poster": "/gk9zllyMFnaVBWTdZpm7VcfQrHC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12290,6 +23354,29 @@ var films = [
       "Adventure",
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 248,
+        "Title": "Impact Pictures",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 2116,
+        "Title": "VIP Medienfonds 4",
+        "Poster": "/j7grgeyXof8VBmqbBBSNaqVoOCb.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 8068,
+        "Title": "Mindfire Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12316,6 +23403,22 @@ var films = [
     "Genres": [
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 13913,
+        "Title": "Joseph M. Schenck Productions",
+        "Poster": "",
+        "OriginCountry": "BR",
+        "Amount": 0
+      },
+      {
+        "Id": 16101,
+        "Title": "Metro Pictures Corporation",
+        "Poster": "/2yI4rjPZ1I7TLZ2UWvTtXifYEnw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12350,6 +23453,71 @@ var films = [
       "War",
       "History",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 551,
+        "Title": "Mandalay Pictures",
+        "Poster": "/jSlzEZZ4Z1g7B2UExjZEIKsUvD9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 22182,
+        "Title": "KC Medien",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 24136,
+        "Title": "Reperage",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 24137,
+        "Title": "DOS",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 24138,
+        "Title": "MP Film Management",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 550,
+        "Title": "Little Bird",
+        "Poster": "",
+        "OriginCountry": "IE",
+        "Amount": 0
+      },
+      {
+        "Id": 35,
+        "Title": "Lions Gate Films",
+        "Poster": "/wxrHa3nZ1K4zo65p56991INkGo6.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 549,
+        "Title": "Swanford Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12377,6 +23545,36 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 3080,
+        "Title": "Midfield Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12406,6 +23604,29 @@ var films = [
       "Fantasy",
       "Adventure",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 520,
+        "Title": "Pacific Data Images",
+        "Poster": "/pU7YTI9FfrICurXpl5V9TfCO0oJ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 521,
+        "Title": "DreamWorks Animation",
+        "Poster": "/3BPX5VGBov8SDqTV7wC1L1xShAS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7,
+        "Title": "DreamWorks Pictures",
+        "Poster": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12433,6 +23654,22 @@ var films = [
       "Thriller",
       "Crime",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 932,
+        "Title": "Mirage Enterprises",
+        "Poster": "/o7leiZVIDBHxODfK8pjGPV2SdMp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 679,
+        "Title": "Timnick Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12459,6 +23696,15 @@ var films = [
     "Genres": [
       "Science Fiction",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 2741,
+        "Title": "Falling Sky Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12488,6 +23734,36 @@ var films = [
       "Animation",
       "Comedy",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 297,
+        "Title": "Aardman",
+        "Poster": "/58TnhYZqbMYgkHM6lg7dJoYJ4RH.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 521,
+        "Title": "DreamWorks Animation",
+        "Poster": "/3BPX5VGBov8SDqTV7wC1L1xShAS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7981,
+        "Title": "Path\u00E9",
+        "Poster": "/6Yv1gIAuGkHS5Vis4UjnqHhCPWV.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 7,
+        "Title": "DreamWorks Pictures",
+        "Poster": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12514,6 +23790,43 @@ var films = [
     "Genres": [
       "Fantasy",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7295,
+        "Title": "Relativity Media",
+        "Poster": "/5MYE96QiE5a5oFhXxFb4y8ILSpw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 28064,
+        "Title": "Blue Light",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 433,
+        "Title": "Weed Road Pictures",
+        "Poster": "/iafkKMpcRfEXq9a4sQf0h6tg2E2.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 907,
+        "Title": "Overbrook Entertainment",
+        "Poster": "/ca5SWI5uvU985f8Kbb4xc8AmVWH.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12542,6 +23855,50 @@ var films = [
       "Fantasy",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 491,
+        "Title": "Summit Entertainment",
+        "Poster": "/5LvDUt3KmvRnXQ4NrdWJYHeuA8J.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 12292,
+        "Title": "Temple Hill Entertainment",
+        "Poster": "/4GQTeqos2luopEtp3OgMQYusQ5c.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4000,
+        "Title": "Maverick Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5218,
+        "Title": "Imprint Entertainment",
+        "Poster": "/dhb42ugM9DzSpDctTWCtABPVOW4.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 500,
+        "Title": "Goldcrest",
+        "Poster": "/yDDFvMZAEbLGAm90LxzmayEfvE5.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 234680,
+        "Title": "Aura Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12570,6 +23927,29 @@ var films = [
       "Adventure",
       "Science Fiction",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 508,
+        "Title": "Regency Enterprises",
+        "Poster": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7503,
+        "Title": "Protozoa Pictures",
+        "Poster": "/3K8wbNkTn7O4wX89ucnp1ZYR1XF.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10104,
+        "Title": "New Regency Pictures",
+        "Poster": "/4sGWXoboEkWPphI6es6rTmqkCBh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12597,6 +23977,29 @@ var films = [
     "Genres": [
       "Drama",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 207052,
+        "Title": "El Arriero Films",
+        "Poster": "",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 217668,
+        "Title": "Misi\u00F3n de Audaces Films",
+        "Poster": "",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 178464,
+        "Title": "Netflix",
+        "Poster": "/tyHnxjQJLH6h4iDQKhN5iqebWmX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12623,6 +24026,43 @@ var films = [
     "Genres": [
       "History",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 4205,
+        "Title": "Groundswell Productions",
+        "Poster": "/mYLsgmMHRBzpt8x15QwNr3Vyqn4.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2721,
+        "Title": "Jinks/Cohen Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10146,
+        "Title": "Focus Features",
+        "Poster": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 21106,
+        "Title": "Axon Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 182058,
+        "Title": "Cinema Vehicles",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12652,6 +24092,29 @@ var films = [
       "Drama",
       "Comedy",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 82968,
+        "Title": "LuckyChap Entertainment",
+        "Poster": "/gRROMOG5bpF6TIDMbfaa5gnFFzl.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2531,
+        "Title": "MRC",
+        "Poster": "/9MfCJ2G6Nrf9yyRj4tAgPmMiDcn.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 207685,
+        "Title": "Lie Still",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12681,6 +24144,36 @@ var films = [
       "War",
       "Action",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10308,
+        "Title": "The De Laurentiis Company",
+        "Poster": "/5AEHeflZe2YavcjL0s99gJA8csi.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 1042,
+        "Title": "Cinecitt\u00E0 Studios",
+        "Poster": "/cv8uj3G9fhe7vifZB6yjTzqI45V.png",
+        "OriginCountry": "IT",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12708,6 +24201,36 @@ var films = [
     "Genres": [
       "Adventure",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 436,
+        "Title": "1492 Pictures",
+        "Poster": "/A7WCkG3F0NFvjGCwUnclpGdIu9E.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 437,
+        "Title": "Heyday Films",
+        "Poster": "/nu20mtwbEIhUNnQ5NXVhHsNknZj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 19092,
+        "Title": "P of A Productions Limited",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12733,6 +24256,36 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 179854,
+        "Title": "International Pigeon Production",
+        "Poster": "/wJYXwFErJBD1Q4ApWM4sDik8z2u.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 90610,
+        "Title": "Smudge Films",
+        "Poster": "/nFJMPK22kJS6LfsQtwd3u2cF9v9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 217122,
+        "Title": "Tinygiant",
+        "Poster": "/yvL2vLmhuiW8cq5BxCRGTBTuJAN.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 217123,
+        "Title": "Baird Street Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12758,6 +24311,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 70,
+        "Title": "American Zoetrope",
+        "Poster": "/ueaENQkPcy8rlr5fGZVBXKOhlBh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 15231,
+        "Title": "Muse Productions",
+        "Poster": "/iFbzMtXFBv2ekA9Ldrw6LqjLrvX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 717,
+        "Title": "Eternity Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12784,6 +24360,15 @@ var films = [
     "Genres": [
       "Animation",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 3166,
+        "Title": "Walt Disney Productions",
+        "Poster": "/vyyv4Gy9nPqAZKElPm2izLlEaVS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12812,6 +24397,22 @@ var films = [
       "Comedy",
       "Family",
       "Animation"
+    ],
+    "Studios": [
+      {
+        "Id": 2,
+        "Title": "Walt Disney Pictures",
+        "Poster": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6125,
+        "Title": "Walt Disney Animation Studios",
+        "Poster": "/tzsMJBJZINu7GHzrpYzpReWhh66.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12840,6 +24441,22 @@ var films = [
       "Mystery",
       "Science Fiction",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 88934,
+        "Title": "Monkeypaw Productions",
+        "Poster": "/5Be96V9WXa7jJInSDPqDOqMBA0o.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12868,6 +24485,36 @@ var films = [
       "Crime",
       "Romance",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 129195,
+        "Title": "Escape Plan",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 41077,
+        "Title": "A24",
+        "Poster": "/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 173376,
+        "Title": "Lobo Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12897,6 +24544,36 @@ var films = [
       "Drama",
       "Thriller",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 491,
+        "Title": "Summit Entertainment",
+        "Poster": "/5LvDUt3KmvRnXQ4NrdWJYHeuA8J.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 8111,
+        "Title": "Apaches Films",
+        "Poster": "/p6Ie4y2hs9quqPgU1xcEsRux8bV.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 21632,
+        "Title": "Mediaset Espa\u00F1a",
+        "Poster": "/gEto1Q487D4JPriz2qVfkkvyqjy.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 1182,
+        "Title": "Telecinco Cinema",
+        "Poster": "/bkgwJWvqqLuzsXV2Qv3Mg3wfcNZ.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12922,6 +24599,22 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 72275,
+        "Title": "Howard W. Koch Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12950,6 +24643,29 @@ var films = [
     "Genres": [
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 508,
+        "Title": "Regency Enterprises",
+        "Poster": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10104,
+        "Title": "New Regency Pictures",
+        "Poster": "/4sGWXoboEkWPphI6es6rTmqkCBh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1171,
+        "Title": "Epsilon Motion Pictures",
+        "Poster": "/wp7NwsxxHT8sqPaek6SlxnXlkP4.png",
+        "OriginCountry": "CH",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -12977,6 +24693,36 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 856,
+        "Title": "Wild Bunch",
+        "Poster": "/3tfzS2CrX6Ntbu927XzHXEPDA6y.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 7504,
+        "Title": "Top Rope",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 831,
+        "Title": "Saturn Films",
+        "Poster": "/vLENXiYTyITnMDrTKabUXhgTKX2.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7503,
+        "Title": "Protozoa Pictures",
+        "Poster": "/3K8wbNkTn7O4wX89ucnp1ZYR1XF.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13005,6 +24751,29 @@ var films = [
       "Action",
       "Thriller",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 79,
+        "Title": "Village Roadshow Pictures",
+        "Poster": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1885,
+        "Title": "Silver Pictures",
+        "Poster": "/xlvoOZr4s1PygosrwZyolIFe5xs.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 172,
+        "Title": "NPV Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13031,6 +24800,15 @@ var films = [
     "Genres": [
       "Horror",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13057,6 +24835,22 @@ var films = [
     "Genres": [
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 171,
+        "Title": "Malpaso Productions",
+        "Poster": "/bqLWwuNCHcY3IjB5e4o29h7l80D.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13083,6 +24877,15 @@ var films = [
     "Genres": [
       "Crime",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 13913,
+        "Title": "Joseph M. Schenck Productions",
+        "Poster": "",
+        "OriginCountry": "BR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13109,6 +24912,36 @@ var films = [
     "Genres": [
       "Horror",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 1194,
+        "Title": "KADOKAWA Shoten",
+        "Poster": "/dwkHaFLgtA7CUNbgKK0wB6bospu.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 1195,
+        "Title": "Omega Project",
+        "Poster": "",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 244498,
+        "Title": "Rasen Production Committee",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 882,
+        "Title": "TOHO",
+        "Poster": "/fRSWWjquvzcHjACbtF53utZFIll.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13137,6 +24970,22 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 10645,
+        "Title": "Paradise Films",
+        "Poster": "",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 10648,
+        "Title": "French Ministry of Foreign Affairs",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13163,6 +25012,15 @@ var films = [
     "Genres": [
       "Comedy",
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 113634,
+        "Title": "Library Films",
+        "Poster": "/7ViBFQPmKYxSmfTQ0WC1RPFRQJ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13191,6 +25049,36 @@ var films = [
       "Comedy",
       "Romance",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 284,
+        "Title": "DNA Films",
+        "Poster": "/1lEgJkA2GckrMvzhfqENfkr04vO.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13218,6 +25106,15 @@ var films = [
       "Science Fiction",
       "Action",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 9,
+        "Title": "Gaumont",
+        "Poster": "/nda3dTUYdDrJ6rZqBpYvY865aDv.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13245,6 +25142,36 @@ var films = [
     "Genres": [
       "Horror",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 20376,
+        "Title": "Kalis Productions GmbH \u0026 Co. Zweite KG",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1600,
+        "Title": "Craven-Maddalena Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 2180,
+        "Title": "Outerbanks Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7405,
+        "Title": "Dimension Films",
+        "Poster": "/rfnws0uY8rsNAsrLbx3gEIcYXx3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13271,6 +25198,50 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 180147,
+        "Title": "Les Films du Cru",
+        "Poster": "/eg9mZcUBMebsCfCZfi4ZXFaNXFg.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 11778,
+        "Title": "F Comme Film",
+        "Poster": "/rIiLv4yt20WOQAk1HD1EvLOfDgh.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 22153,
+        "Title": "Trademark Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 2564,
+        "Title": "Cin\u00E9-@",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 86902,
+        "Title": "Embankment Films",
+        "Poster": "/uTXXIOJMikSZteOB6V284SDQer4.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13298,6 +25269,36 @@ var films = [
       "Drama",
       "Fantasy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 101082,
+        "Title": "Double Dare You",
+        "Poster": "/zjAYU6sUmYaeFeJ1yWeaqzsWAz8.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 43,
+        "Title": "Fox Searchlight Pictures",
+        "Poster": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 81023,
+        "Title": "Bull Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 22213,
+        "Title": "TSG Entertainment",
+        "Poster": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13329,6 +25330,43 @@ var films = [
       "Comedy",
       "Animation",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 297,
+        "Title": "Aardman",
+        "Poster": "/58TnhYZqbMYgkHM6lg7dJoYJ4RH.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 105496,
+        "Title": "Creative Skillset's Skills Investment Fund",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 7281,
+        "Title": "BFI",
+        "Poster": "/iI7qdR1OFPo0U41BlpKBLD3xesh.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 491,
+        "Title": "Summit Entertainment",
+        "Poster": "/5LvDUt3KmvRnXQ4NrdWJYHeuA8J.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13360,6 +25398,71 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 762,
+        "Title": "Mutual Film Company",
+        "Poster": "/3T7EpKcS13viHu3WzRtQGvi9sTY.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11308,
+        "Title": "Savoy Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3324,
+        "Title": "BBC",
+        "Poster": "/dqT3yOTlfJRmtvk52Ccd1O6dZ0A.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 4650,
+        "Title": "Marubeni",
+        "Poster": "/wWivtVg7gG3uNALIE5Oav3Bsiuz.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 1469,
+        "Title": "Tele M\u00FCnchen",
+        "Poster": "/AwbErjR0AMpVnN9PbdHiBB3g3q0.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 657,
+        "Title": "TOHO-TOWA",
+        "Poster": "/mDBPrBO6hl21KhQOzCVYUBo33zt.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 23932,
+        "Title": "UGC PH",
+        "Poster": "/UxTZJitr5Wq4nwhrgn37QHquqV.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 506,
+        "Title": "Newmarket Capital Group",
+        "Poster": "/obIWjrmF9pWzxXcDCd3810YzJpk.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13386,6 +25489,43 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 126,
+        "Title": "Lakeshore Entertainment",
+        "Poster": "/kADPanRDkKTxncPXXVahvHPUvCj.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 171,
+        "Title": "Malpaso Productions",
+        "Poster": "/bqLWwuNCHcY3IjB5e4o29h7l80D.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1171,
+        "Title": "Epsilon Motion Pictures",
+        "Poster": "/wp7NwsxxHT8sqPaek6SlxnXlkP4.png",
+        "OriginCountry": "CH",
+        "Amount": 0
+      },
+      {
+        "Id": 16311,
+        "Title": "ASR Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13412,6 +25552,29 @@ var films = [
     "Genres": [
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 1073,
+        "Title": "Gordon Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1885,
+        "Title": "Silver Pictures",
+        "Poster": "/xlvoOZr4s1PygosrwZyolIFe5xs.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13442,6 +25605,43 @@ var films = [
       "Thriller",
       "Mystery",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 551,
+        "Title": "Mandalay Pictures",
+        "Poster": "/jSlzEZZ4Z1g7B2UExjZEIKsUvD9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 70,
+        "Title": "American Zoetrope",
+        "Poster": "/ueaENQkPcy8rlr5fGZVBXKOhlBh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23310,
+        "Title": "Karol Film Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 258,
+        "Title": "Scott Rudin Productions",
+        "Poster": "/tMI4xPwgxfNaNId3h9dOcHGU1NI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13468,6 +25668,29 @@ var films = [
     "Genres": [
       "Thriller",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 14,
+        "Title": "Miramax",
+        "Poster": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 59,
+        "Title": "A Band Apart",
+        "Poster": "/b1tj5EWcFQLYaQrw1D9V4s8kUgN.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 216,
+        "Title": "Jersey Films",
+        "Poster": "/iKPzC6YxqNAk6fMoTtFhIF5p6yw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13493,6 +25716,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 114776,
+        "Title": "Cor Cordium Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 114777,
+        "Title": "Hear/Say Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 96168,
+        "Title": "Highwayman Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13519,6 +25765,29 @@ var films = [
     "Genres": [
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 1073,
+        "Title": "Gordon Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1885,
+        "Title": "Silver Pictures",
+        "Poster": "/xlvoOZr4s1PygosrwZyolIFe5xs.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13544,6 +25813,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 218404,
+        "Title": "Oceanside Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13572,6 +25850,29 @@ var films = [
       "Comedy",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 1382,
+        "Title": "PolyGram Filmed Entertainment",
+        "Poster": "/8b5XGJ8YhZoEo9LgFP8KRQWHjYL.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 181,
+        "Title": "Channel Four Films",
+        "Poster": "/A8SjepJ332C0YMamdFEMco0nstt.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13599,6 +25900,29 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 97,
+        "Title": "Castle Rock Entertainment",
+        "Poster": "/7znWcbDd4PcJzJUlJxYqAlPPykp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23382,
+        "Title": "Schroeder Hoffman Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13626,6 +25950,36 @@ var films = [
       "Comedy",
       "Horror",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 125055,
+        "Title": "Hyperobject Industries",
+        "Poster": "/8iY66HqRqdQdwOjoS3sNvokcH9r.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 127929,
+        "Title": "Searchlight Pictures",
+        "Poster": "/7DLKyL15ETI9645XSr9JcbMV79c.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4740,
+        "Title": "Gary Sanchez Productions",
+        "Poster": "/20IuOPEwlHRXnn0MTOsEmw0wcql.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 22213,
+        "Title": "TSG Entertainment",
+        "Poster": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13654,6 +26008,29 @@ var films = [
     "Genres": [
       "Drama",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 163,
+        "Title": "Revolution Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 23,
+        "Title": "Imagine Entertainment",
+        "Poster": "/bJOFo2ufq7iFC1F4qZm8aLxF5aS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13680,6 +26057,22 @@ var films = [
     "Genres": [
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 431,
+        "Title": "The Donners' Company",
+        "Poster": "/6dcR1MbRqYgt3jUVYxkHe68GFnZ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13705,6 +26098,71 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 444,
+        "Title": "Dune Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 771,
+        "Title": "Mandate Pictures",
+        "Poster": "/fQpEeXgCVsXQkVVFMMjrrkOFja3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 8818,
+        "Title": "Vincent Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 19813,
+        "Title": "Flower Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 93521,
+        "Title": "Rye Road Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 93522,
+        "Title": "Babe Ruthless Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 17032,
+        "Title": "Barry Mendel Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 43,
+        "Title": "Fox Searchlight Pictures",
+        "Poster": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 181992,
+        "Title": "Mandate International",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13734,6 +26192,43 @@ var films = [
       "Adventure",
       "Fantasy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 11150,
+        "Title": "Googly Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3586,
+        "Title": "Absolute Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 89394,
+        "Title": "RadicalMedia",
+        "Poster": "/m1Hku3PhgdsQiPO8uVe7szyrxAb.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11153,
+        "Title": "Tree Top Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 11151,
+        "Title": "Deep Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13761,6 +26256,22 @@ var films = [
       "Science Fiction",
       "Adventure",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 1632,
+        "Title": "Lionsgate",
+        "Poster": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5420,
+        "Title": "Color Force",
+        "Poster": "/dlW4Kh5dNieKNURnymsu57y6fMf.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13787,6 +26298,15 @@ var films = [
     "Genres": [
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 125558,
+        "Title": "PM Entertainment Group",
+        "Poster": "/7ZDyxnaGb2YzJXJQYYJU8HmjlQx.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13813,6 +26333,43 @@ var films = [
     "Genres": [
       "Crime",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 10828,
+        "Title": "MDP Worldwide",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2226,
+        "Title": "Media 8 Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 380,
+        "Title": "Thousand Words",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7626,
+        "Title": "Trigger Street Productions",
+        "Poster": "/4839MGss4pPAalhqqYH1AD1CnEj.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 220287,
+        "Title": "Paramount Classics",
+        "Poster": "/kSOgeDwqKdNNRQx5gk2yX2brLOx.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13839,6 +26396,29 @@ var films = [
     "Genres": [
       "Music",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 10146,
+        "Title": "Focus Features",
+        "Poster": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 716,
+        "Title": "Standard Film Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 14654,
+        "Title": "EMJAG Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13867,6 +26447,29 @@ var films = [
       "Adventure",
       "Fantasy",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11,
+        "Title": "WingNut Films",
+        "Poster": "/6FAuASQHybRkZUk08p9PzSs9ezM.png",
+        "OriginCountry": "NZ",
+        "Amount": 0
+      },
+      {
+        "Id": 5237,
+        "Title": "The Saul Zaentz Company",
+        "Poster": "/mlnr7vsBHvLye8oEb5A76C0t8x9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13894,6 +26497,57 @@ var films = [
     "Genres": [
       "Crime",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 2226,
+        "Title": "Media 8 Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 25433,
+        "Title": "DEJ Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 103676,
+        "Title": "K/W Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 3574,
+        "Title": "Denver \u0026 Delilah Productions",
+        "Poster": "/j3iU6FoWplGPoO1Vxn8fFHX4VPE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3801,
+        "Title": "VIP Medienfonds 2",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 10828,
+        "Title": "MDP Worldwide",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 20555,
+        "Title": "Taurus Film",
+        "Poster": "/hD8yEGUBlHOcfHYbujp71vD8gZp.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13921,6 +26575,36 @@ var films = [
       "Comedy",
       "Animation",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 9383,
+        "Title": "Blue Sky Studios",
+        "Poster": "/ppeMh4iZJQUMm1nAjRALeNhWDfU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11749,
+        "Title": "20th Century Fox Animation",
+        "Poster": "/5AzTeZkSCFhiGZ86g2nz8SAHtgy.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 61791,
+        "Title": "Feigco Entertainment",
+        "Poster": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13948,6 +26632,36 @@ var films = [
     "Genres": [
       "Drama",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 284,
+        "Title": "DNA Films",
+        "Poster": "/1lEgJkA2GckrMvzhfqENfkr04vO.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 93105,
+        "Title": "IAC Films",
+        "Poster": "/ryjDQ04FlVYVW30Eok3t5V5Gx8T.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 258,
+        "Title": "Scott Rudin Productions",
+        "Poster": "/tMI4xPwgxfNaNId3h9dOcHGU1NI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -13975,6 +26689,43 @@ var films = [
     "Genres": [
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 439,
+        "Title": "Prokino Filmproduktion",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 4606,
+        "Title": "ZDF",
+        "Poster": "/otZHbf1HmzLRQsZFSqJXkf8EHz7.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 6274,
+        "Title": "MK2 Films",
+        "Poster": "/ngZoa368SAnERTz3IBvgTT4eWeB.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 99,
+        "Title": "OLGA FILM",
+        "Poster": "/62PhpTy0SrplwjcVgZsZHv0hJS4.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 591,
+        "Title": "France 3 Cin\u00E9ma",
+        "Poster": "/q5I5RDwMEiqoNmfaJgd2LraEOJY.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14000,6 +26751,36 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 39347,
+        "Title": "Kineo Filmproduktion",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 103886,
+        "Title": "Oma Inge Film",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 77230,
+        "Title": "Weydemann Bros.",
+        "Poster": "/tHwowISiUfan11TAcmzi07Z0q0W.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 4606,
+        "Title": "ZDF",
+        "Poster": "/otZHbf1HmzLRQsZFSqJXkf8EHz7.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14029,6 +26810,78 @@ var films = [
       "Action",
       "Adventure",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 14861,
+        "Title": "Before the Door Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 14862,
+        "Title": "Washington Square Films",
+        "Poster": "/2YobmEkVFAcw368uz6Ie1sGP2C8.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 22146,
+        "Title": "Black Bear Pictures",
+        "Poster": "/v37N1mFeXNQfvPankg3feBhVvM7.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 14580,
+        "Title": "Treehouse Pictures",
+        "Poster": "/2D5VOYRTCnZXIcHVYsHXSWTuH6T.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6742,
+        "Title": "Sudden Storm Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7493,
+        "Title": "FilmNation Entertainment",
+        "Poster": "/fHitYiGUCkRafgt6VPYQlXWLkdp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 911,
+        "Title": "Roadside Attractions",
+        "Poster": "/bWlWGUKejrUflSFV2aRG4o98p1D.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1632,
+        "Title": "Lionsgate",
+        "Poster": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 236642,
+        "Title": "Baja Studios",
+        "Poster": "",
+        "OriginCountry": "MX",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14061,6 +26914,29 @@ var films = [
       "Thriller",
       "Crime",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 4131,
+        "Title": "Ignite Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1632,
+        "Title": "Lionsgate",
+        "Poster": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 995,
+        "Title": "Cinerenta",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14087,7 +26963,8 @@ var films = [
     "Genres": [
       "Documentary",
       "History"
-    ]
+    ],
+    "Studios": []
   },
   {
     "Title": "Zombieland",
@@ -14113,6 +26990,29 @@ var films = [
     "Genres": [
       "Comedy",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 11733,
+        "Title": "Pariah",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7295,
+        "Title": "Relativity Media",
+        "Poster": "/5MYE96QiE5a5oFhXxFb4y8ILSpw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14139,6 +27039,22 @@ var films = [
     "Genres": [
       "Drama",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 154457,
+        "Title": "Keene/Moyroud Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 154458,
+        "Title": "Lookout Mountain Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14166,6 +27082,29 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 386,
+        "Title": "Paris Films Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 387,
+        "Title": "Five Films",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 11290,
+        "Title": "Robert et Raymond Hakim",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14194,6 +27133,29 @@ var films = [
       "Comedy",
       "Family",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 11749,
+        "Title": "20th Century Fox Animation",
+        "Poster": "/5AzTeZkSCFhiGZ86g2nz8SAHtgy.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 9383,
+        "Title": "Blue Sky Studios",
+        "Poster": "/ppeMh4iZJQUMm1nAjRALeNhWDfU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14220,6 +27182,36 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 55289,
+        "Title": "Through Films",
+        "Poster": "/t1rn4FkIeN5e3QB2RnNm3s36AbL.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1974,
+        "Title": "Duplass Brothers Productions",
+        "Poster": "/t8p2PpDBJo282a5TTr6Ln0wVkMZ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 88152,
+        "Title": "Cre Film",
+        "Poster": "/zm1yRe17jzOgEzXrNj6hd8gl89O.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 17731,
+        "Title": "Freestyle Picture Company",
+        "Poster": "/5g3YMbcDXJKQvnYU1irjw5T8y7Z.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14248,6 +27240,22 @@ var films = [
       "Animation",
       "Comedy",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 3,
+        "Title": "Pixar",
+        "Poster": "/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2,
+        "Title": "Walt Disney Pictures",
+        "Poster": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14277,6 +27285,36 @@ var films = [
       "Adventure",
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 7576,
+        "Title": "EON Productions",
+        "Poster": "/oYcUi1byZ312Z3xiz5ojz9RQLND.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10761,
+        "Title": "Danjaq",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4169,
+        "Title": "KanZaman Productions",
+        "Poster": "",
+        "OriginCountry": "ES",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14305,6 +27343,36 @@ var films = [
       "Action",
       "Thriller",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 2,
+        "Title": "Walt Disney Pictures",
+        "Poster": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 130,
+        "Title": "Jerry Bruckheimer Films",
+        "Poster": "/c9dVHPOL3cqCr2593Ahk0nEKTEM.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 831,
+        "Title": "Saturn Films",
+        "Poster": "/vLENXiYTyITnMDrTKabUXhgTKX2.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 19097,
+        "Title": "Junction Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14333,6 +27401,36 @@ var films = [
       "Thriller",
       "Crime",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 498,
+        "Title": "Debra Hill Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1382,
+        "Title": "PolyGram Filmed Entertainment",
+        "Poster": "/8b5XGJ8YhZoEo9LgFP8KRQWHjYL.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 276,
+        "Title": "Guber/Peters Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14363,6 +27461,22 @@ var films = [
       "Adventure",
       "Romance",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 359,
+        "Title": "Figment Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14388,6 +27502,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 2813,
+        "Title": "Forensic Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 103536,
+        "Title": "Symbolic Exchange",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 132893,
+        "Title": "Bellmer Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14415,6 +27552,36 @@ var films = [
       "Drama",
       "History",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 7,
+        "Title": "DreamWorks Pictures",
+        "Poster": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 762,
+        "Title": "Mutual Film Company",
+        "Poster": "/3T7EpKcS13viHu3WzRtQGvi9sTY.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14442,6 +27609,15 @@ var films = [
       "Horror",
       "Thriller",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 284,
+        "Title": "DNA Films",
+        "Poster": "/1lEgJkA2GckrMvzhfqENfkr04vO.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14470,6 +27646,29 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 288,
+        "Title": "BBC Film",
+        "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 1508,
+        "Title": "Wildgaze Films",
+        "Poster": "/zh2EDFdxqFmt695ZzHFuamAbeUo.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 1205,
+        "Title": "Endgame Entertainment",
+        "Poster": "/wQX3t4qtxm7gBQE3RHuoLghgb73.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14495,6 +27694,22 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 594,
+        "Title": "Capella International",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 596,
+        "Title": "KC Medien AG",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14520,6 +27735,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 6181,
+        "Title": "SF Studios",
+        "Poster": "/eaQ7or8IoEmPfgmQiU2C5lVZkxS.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14548,6 +27772,22 @@ var films = [
       "Horror",
       "Drama",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 39407,
+        "Title": "B-Reel Films",
+        "Poster": "/1ht2ayBUdGgKuLRCkTjyGVEY5VL.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 123620,
+        "Title": "Square Peg",
+        "Poster": "/ePRhZ3yb09Ya6WMzCCBYopwIYbE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14575,6 +27815,22 @@ var films = [
       "Adventure",
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 44,
+        "Title": "Cruise/Wagner Productions",
+        "Poster": "/6Hs6K20Hz1W9W1Tiam5QN2Kpx8V.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14602,6 +27858,29 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 14680,
+        "Title": "Parc Film",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 1147,
+        "Title": "Madeleine Films",
+        "Poster": "/tBDaGOA04LmlsbLvMwHjR7WzT9H.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 1080,
+        "Title": "Beta Film",
+        "Poster": "/6bZ0BiLDzCZSqVCjiSqweWwp9Ew.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14629,6 +27908,15 @@ var films = [
       "Drama",
       "Horror",
       "TV Movie"
+    ],
+    "Studios": [
+      {
+        "Id": 17496,
+        "Title": "R\u00DAV",
+        "Poster": "/o024AfoFk05dTk3Kz6BNTbkAwT.png",
+        "OriginCountry": "IS",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14655,6 +27943,22 @@ var films = [
     "Genres": [
       "Adventure",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14680,6 +27984,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 41077,
+        "Title": "A24",
+        "Poster": "/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 81,
+        "Title": "Plan B Entertainment",
+        "Poster": "/8wOfUhA7vwU2gbPjQy7Vv3EiF0o.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 103697,
+        "Title": "PASTEL",
+        "Poster": "/9gsomzlpj1lLR7kupysQ7nSFcHh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14707,6 +28034,36 @@ var films = [
       "Drama",
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 149325,
+        "Title": "Page Fifty-Four Pictures",
+        "Poster": "/t3NyyJYnDigV28nlZxmWDB8zTZu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 147009,
+        "Title": "Mirror Image Films",
+        "Poster": "/4uhmg1SycwVWhKymY5ZFGyozw6J.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 65606,
+        "Title": "Sweet Tomato Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 181499,
+        "Title": "Point Productions",
+        "Poster": "/lz5csl9bycJm8X8rcy67bS03JTw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14734,6 +28091,22 @@ var films = [
       "Comedy",
       "Science Fiction",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 19985,
+        "Title": "Ternion Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14766,6 +28139,78 @@ var films = [
     "Genres": [
       "Drama",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 250,
+        "Title": "Canal\u002B",
+        "Poster": "/evWKasiElVQywuKv2dI72P9twz8.png",
+        "OriginCountry": "PL",
+        "Amount": 0
+      },
+      {
+        "Id": 208,
+        "Title": "Bac Films",
+        "Poster": "/bxQYlRhQu6nbohBEL0SWz8xIAGy.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 260,
+        "Title": "Heritage Films",
+        "Poster": "",
+        "OriginCountry": "PL",
+        "Amount": 0
+      },
+      {
+        "Id": 264,
+        "Title": "Studio Babelsberg",
+        "Poster": "/fA90qwUKgPhMONqtwY60GaHRyrW.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 266,
+        "Title": "Agencja Produkcji Filmowej",
+        "Poster": "",
+        "OriginCountry": "PL",
+        "Amount": 0
+      },
+      {
+        "Id": 355,
+        "Title": "R.P. Productions",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 104,
+        "Title": "Canal\u002B",
+        "Poster": "/9aotxauvc9685tq9pTcRJszuT06.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 6480,
+        "Title": "TVP",
+        "Poster": "/qJUUNzFYXNUDaisssBTV3Zdki9R.png",
+        "OriginCountry": "PL",
+        "Amount": 0
+      },
+      {
+        "Id": 265,
+        "Title": "Runteam",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14792,6 +28237,22 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 9195,
+        "Title": "Touchstone Pictures",
+        "Poster": "/geK5QOBsXIPGHutKwXtYjMUyYSG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 12548,
+        "Title": "Ufland",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14819,6 +28280,22 @@ var films = [
       "Science Fiction",
       "Adventure",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 1632,
+        "Title": "Lionsgate",
+        "Poster": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5420,
+        "Title": "Color Force",
+        "Poster": "/dlW4Kh5dNieKNURnymsu57y6fMf.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14845,6 +28322,36 @@ var films = [
     "Genres": [
       "Comedy",
       "TV Movie"
+    ],
+    "Studios": [
+      {
+        "Id": 3268,
+        "Title": "HBO",
+        "Poster": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 225221,
+        "Title": "Four Eyes Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 65413,
+        "Title": "Quantity Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 19366,
+        "Title": "ABC Studios",
+        "Poster": "/vOH8dyQhLK01pg5fYkgiS31jlFm.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14874,6 +28381,29 @@ var films = [
       "Comedy",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 437,
+        "Title": "Heyday Films",
+        "Poster": "/nu20mtwbEIhUNnQ5NXVhHsNknZj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 30148,
+        "Title": "Bona Film Group",
+        "Poster": "/zerhOenUD6CkH8SMgZUhrDkOs4w.png",
+        "OriginCountry": "CN",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14901,6 +28431,15 @@ var films = [
       "Animation",
       "Drama",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 3166,
+        "Title": "Walt Disney Productions",
+        "Poster": "/vyyv4Gy9nPqAZKElPm2izLlEaVS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14928,6 +28467,22 @@ var films = [
       "Horror",
       "Mystery",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 2188,
+        "Title": "Artisan Entertainment",
+        "Poster": "/f1zrx8bIsS81AHoPQq4riJx68Lt.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1685,
+        "Title": "Hofflund/Polone",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14955,6 +28510,43 @@ var films = [
       "Thriller",
       "Action",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 20241,
+        "Title": "Crystal Sky Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7295,
+        "Title": "Relativity Media",
+        "Poster": "/5MYE96QiE5a5oFhXxFb4y8ILSpw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 420,
+        "Title": "Marvel Studios",
+        "Poster": "/hUzeosd33nzE5MCNsZxCGEKTXaQ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 216248,
+        "Title": "Canarsie",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -14983,6 +28575,22 @@ var films = [
       "Adventure",
       "Crime",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 2886,
+        "Title": "Cineguild",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 14377,
+        "Title": "J. Arthur Rank Organisation",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15008,6 +28616,43 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 14,
+        "Title": "Miramax",
+        "Poster": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 32040,
+        "Title": "New York State Council on the Arts",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 126140,
+        "Title": "The National Endowment for the Arts",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 95366,
+        "Title": "Alternate Current",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 150333,
+        "Title": "Jerome Foundation",
+        "Poster": "/yKlXYturdVaDpGZJUtG7taPdzRd.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15034,6 +28679,22 @@ var films = [
     "Genres": [
       "Drama",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 14063,
+        "Title": "Granada Television",
+        "Poster": "/b7od4dXpqSHIYQx5ykwjnzfKiNv.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 3324,
+        "Title": "BBC",
+        "Poster": "/dqT3yOTlfJRmtvk52Ccd1O6dZ0A.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15061,6 +28722,71 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 9387,
+        "Title": "Cineriz",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 1476,
+        "Title": "Cormoran Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 142,
+        "Title": "Silver Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 6116,
+        "Title": "Argos films",
+        "Poster": "/yCu2D15iD7lcYsBWqXjU65U9nkH.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 1129,
+        "Title": "Cin\u00E9tel",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 147865,
+        "Title": "Terra Film",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 232849,
+        "Title": "Precitel",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 46570,
+        "Title": "Como Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 1543,
+        "Title": "Les Films Tamara",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15092,6 +28818,15 @@ var films = [
       "Drama",
       "Thriller",
       "TV Movie"
+    ],
+    "Studios": [
+      {
+        "Id": 76757,
+        "Title": "House of Tomorrow",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15118,6 +28853,22 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 14358,
+        "Title": "1821 Pictures",
+        "Poster": "/o3Mr7zIBkbdOky5uYDlwTG1NRlN.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1473,
+        "Title": "Depth of Field",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15144,6 +28895,15 @@ var films = [
     "Genres": [
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 73067,
+        "Title": "Vulcan Productions",
+        "Poster": "/umPdtSJGWBLHBNkmnXqC2mFsLZP.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15169,6 +28929,22 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 477,
+        "Title": "Hughes Entertainment",
+        "Poster": "/4wfCdggcE3ZG26uJpnAvyI0vEeL.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15196,6 +28972,36 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 84041,
+        "Title": "Pascal Pictures",
+        "Poster": "/nw4kyc29QRpNtFbdsBHkRSFavvt.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 226216,
+        "Title": "Why Are You Acting? Productions",
+        "Poster": "/lVxgebv4lsM4mhgeJg9NUCahxIg.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 46344,
+        "Title": "Frenesy Film",
+        "Poster": "/qpSdIjnGHiz6UNIQWGIJkDnG79l.png",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15224,6 +29030,15 @@ var films = [
     "Genres": [
       "Adventure",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 3166,
+        "Title": "Walt Disney Productions",
+        "Poster": "/vyyv4Gy9nPqAZKElPm2izLlEaVS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15255,6 +29070,50 @@ var films = [
       "History",
       "Thriller",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 7,
+        "Title": "DreamWorks Pictures",
+        "Poster": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7294,
+        "Title": "Reliance Entertainment",
+        "Poster": "/kK4PRgceWp9KNrycD8xx8seWxYU.png",
+        "OriginCountry": "IN",
+        "Amount": 0
+      },
+      {
+        "Id": 114732,
+        "Title": "New Republic Pictures",
+        "Poster": "/tNCbisMxO5mX2X2bOQxHHQZVYnT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1522,
+        "Title": "Neal Street Productions",
+        "Poster": "/8uaoEVgNxFH0R94O53gUiByahVr.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 103476,
+        "Title": "Mogambo Films",
+        "Poster": "/1Wj9FXynetoCaNxUoBRvKxcKDsB.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 121685,
+        "Title": "Amblin Partners",
+        "Poster": "/bAO6cpKP9qoqHoDn4oUjWjZ5auq.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15282,6 +29141,22 @@ var films = [
       "Adventure",
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 44,
+        "Title": "Cruise/Wagner Productions",
+        "Poster": "/6Hs6K20Hz1W9W1Tiam5QN2Kpx8V.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15313,6 +29188,43 @@ var films = [
       "Drama",
       "Music",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 36765,
+        "Title": "Adventure Pictures",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 10565,
+        "Title": "Good Machine",
+        "Poster": "/5djnxodjmgbzdXiNRllwhQPxANY.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15340,6 +29252,22 @@ var films = [
     "Genres": [
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 12128,
+        "Title": "Scarlett Pictures",
+        "Poster": "/gqN7u1StkZGllkQUKqiLODLRXHb.png",
+        "OriginCountry": "AU",
+        "Amount": 0
+      },
+      {
+        "Id": 7217,
+        "Title": "See-Saw Films",
+        "Poster": "/vFbexaF70wSMUHRA6Fy6UcuA1ju.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15365,6 +29293,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 7,
+        "Title": "DreamWorks Pictures",
+        "Poster": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2721,
+        "Title": "Jinks/Cohen Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15392,6 +29336,43 @@ var films = [
       "Thriller",
       "Drama",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 987,
+        "Title": "USA Films",
+        "Poster": "/zwL7Va6Pbwfi02zoFWL4H6GS5qG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7380,
+        "Title": "Initial Entertainment Group",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 348,
+        "Title": "Bedford Falls Productions",
+        "Poster": "/mztvNjgx77cXUL6vWR3r7fyeZCa.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5163,
+        "Title": "Laura Bickford Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 58333,
+        "Title": "Compulsion Inc.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15418,6 +29399,22 @@ var films = [
     "Genres": [
       "Drama",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 14557,
+        "Title": "Foundation for Filmakers",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 14558,
+        "Title": "Televentures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15447,6 +29444,71 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 288,
+        "Title": "BBC Film",
+        "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 110197,
+        "Title": "Screen Scotland",
+        "Poster": "/hAF2iSJDnOXG39VQQoMeF413SQf.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 186741,
+        "Title": "MBK Productions",
+        "Poster": "/eenvRLQEo1lVpToBFUKWJ9tqUX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 175340,
+        "Title": "Brock Media",
+        "Poster": "/jp9ZNXaArfDBDNyM9B431NmD0yS.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 175341,
+        "Title": "Arcade Pictures",
+        "Poster": "/krh70nyHEBpLolyWijIWMqPH1Ja.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 77230,
+        "Title": "Weydemann Bros.",
+        "Poster": "/tHwowISiUfan11TAcmzi07Z0q0W.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 20277,
+        "Title": "Protagonist Pictures",
+        "Poster": "/aomeUwZLIBjGXHfuZq7HTVk7UNb.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 11341,
+        "Title": "Stage 6 Films",
+        "Poster": "/xytTBODEy3p20ksHL4Ftxr483Iv.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15475,6 +29537,29 @@ var films = [
       "Romance",
       "Drama",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 746,
+        "Title": "MTV Films",
+        "Poster": "/kc7bdIVTBkJYy9aDK1QDDTAL463.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 715,
+        "Title": "Bona Fide Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15503,6 +29588,29 @@ var films = [
       "Crime",
       "Thriller",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 87394,
+        "Title": "Suftley",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 60,
+        "Title": "United Artists",
+        "Poster": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15531,6 +29639,36 @@ var films = [
     "Genres": [
       "Adventure",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 3857,
+        "Title": "Fireworks Pictures",
+        "Poster": "",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11462,
+        "Title": "Alphaville Films",
+        "Poster": "/7ZymELJwuWR4k5p0oeZ3d3WAhO3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 19814,
+        "Title": "Zucker Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15557,6 +29695,50 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 8735,
+        "Title": "Kathbur Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 9118,
+        "Title": "Samuel Goldwyn Films",
+        "Poster": "/9o6KLcDBRw3fNItUflJVwj8dZpC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 8736,
+        "Title": "The Con",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 8737,
+        "Title": "Studio On Hudson",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 109369,
+        "Title": "Showtime Independent Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1615,
+        "Title": "Fortissimo Films",
+        "Poster": "/4eBmyaFkD9um04Weu6ybnLWNSVH.png",
+        "OriginCountry": "NL",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15584,6 +29766,29 @@ var films = [
       "Drama",
       "Fantasy",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 17763,
+        "Title": "Sunchild Productions",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 1527,
+        "Title": "Les Productions Jacques Roitfeld",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 16180,
+        "Title": "INA",
+        "Poster": "/tE5t6MnMhvyc34beR4Qf6hM2c5K.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15611,6 +29816,43 @@ var films = [
       "Comedy",
       "Crime",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 79,
+        "Title": "Village Roadshow Pictures",
+        "Poster": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 97,
+        "Title": "Castle Rock Entertainment",
+        "Poster": "/7znWcbDd4PcJzJUlJxYqAlPPykp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 172,
+        "Title": "NPV Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4258,
+        "Title": "Fortis Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15639,6 +29881,43 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 79,
+        "Title": "Village Roadshow Pictures",
+        "Poster": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 240,
+        "Title": "Bazmark",
+        "Poster": "/bIkHKCMjaI2AAsoadnA9QK7dtzZ.png",
+        "OriginCountry": "AU",
+        "Amount": 0
+      },
+      {
+        "Id": 14440,
+        "Title": "Red Wagon Entertainment",
+        "Poster": "/gk9zllyMFnaVBWTdZpm7VcfQrHC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 106324,
+        "Title": "A\u002BE Global Media",
+        "Poster": "/s3zNiYR6gmjGjI7fphaym7WuNLy.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15666,6 +29945,50 @@ var films = [
       "Crime",
       "Thriller",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 68551,
+        "Title": "J D Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 508,
+        "Title": "Regency Enterprises",
+        "Poster": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 644,
+        "Title": "Alcor Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4198,
+        "Title": "Ixtlan",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 10104,
+        "Title": "New Regency Pictures",
+        "Poster": "/4sGWXoboEkWPphI6es6rTmqkCBh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15693,6 +30016,43 @@ var films = [
     "Genres": [
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 25020,
+        "Title": "Victoires Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 12000,
+        "Title": "Tapioca Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 591,
+        "Title": "France 3 Cin\u00E9ma",
+        "Poster": "/q5I5RDwMEiqoNmfaJgd2LraEOJY.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 4411,
+        "Title": "MMC Independent",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 581,
+        "Title": "UGC",
+        "Poster": "/pzJLNyKypqwAgLR4OjmaxA5WEjm.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15721,6 +30081,15 @@ var films = [
     "Genres": [
       "Comedy",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 3698,
+        "Title": "Norcon",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15748,6 +30117,22 @@ var films = [
       "Animation",
       "Family",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 84772,
+        "Title": "Lupus Films",
+        "Poster": "/ecxopDT69LSCdrxd4PQ9FbHUBPa.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 71884,
+        "Title": "Snowman Enterprise",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15774,6 +30159,29 @@ var films = [
     "Genres": [
       "Drama",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 359,
+        "Title": "Figment Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 9110,
+        "Title": "The Noel Gay Motion Picture Company",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 181,
+        "Title": "Channel Four Films",
+        "Poster": "/A8SjepJ332C0YMamdFEMco0nstt.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15800,6 +30208,22 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 188,
+        "Title": "Big Beach",
+        "Poster": "/40E8iNvy6brH6t4BbmQL211jIpl.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 715,
+        "Title": "Bona Fide Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15827,6 +30251,36 @@ var films = [
       "Action",
       "Comedy",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 7076,
+        "Title": "Chernin Entertainment",
+        "Poster": "/8BFxn9NUWSgp0ndih569Gm62xiC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 61791,
+        "Title": "Feigco Entertainment",
+        "Poster": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 22213,
+        "Title": "TSG Entertainment",
+        "Poster": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15853,6 +30307,15 @@ var films = [
     "Genres": [
       "Drama",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 61459,
+        "Title": "Garmata Film Production",
+        "Poster": "",
+        "OriginCountry": "UA",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15878,6 +30341,43 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7295,
+        "Title": "Relativity Media",
+        "Poster": "/5MYE96QiE5a5oFhXxFb4y8ILSpw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 258,
+        "Title": "Scott Rudin Productions",
+        "Poster": "/tMI4xPwgxfNaNId3h9dOcHGU1NI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11370,
+        "Title": "Michael De Luca Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7626,
+        "Title": "Trigger Street Productions",
+        "Poster": "/4839MGss4pPAalhqqYH1AD1CnEj.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15904,6 +30404,15 @@ var films = [
     "Genres": [
       "Drama",
       "TV Movie"
+    ],
+    "Studios": [
+      {
+        "Id": 3324,
+        "Title": "BBC",
+        "Poster": "/dqT3yOTlfJRmtvk52Ccd1O6dZ0A.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15930,6 +30439,22 @@ var films = [
     "Genres": [
       "Documentary",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 198216,
+        "Title": "The Associated Press",
+        "Poster": "/wPgwsboWJIa1YbY7s2P8uQKH7zj.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 143561,
+        "Title": "FRONTLINE",
+        "Poster": "/fDz3pETHIkgrr6usIiUr8c7BXU1.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15958,6 +30483,36 @@ var films = [
       "Action",
       "Crime",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 26281,
+        "Title": "Ardustry Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 333,
+        "Title": "Original Film",
+        "Poster": "/5xUJfzPZ8jWJUDzYtIeuPO4qPIa.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 26282,
+        "Title": "Mediastream Film GmbH \u0026 Co. Productions KG",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -15983,6 +30538,15 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 75714,
+        "Title": "Bob Swerer Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16012,6 +30576,36 @@ var films = [
       "Action",
       "Adventure",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 79,
+        "Title": "Village Roadshow Pictures",
+        "Poster": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 28382,
+        "Title": "Kennedy Miller Mitchell",
+        "Poster": "/eaQ9IuuaSNBeSdocdtGLvhXAHfg.png",
+        "OriginCountry": "AU",
+        "Amount": 0
+      },
+      {
+        "Id": 41624,
+        "Title": "RatPac Entertainment",
+        "Poster": "/wzKxIeQKlMP0y5CaAw25MD6EQmf.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16039,6 +30633,22 @@ var films = [
       "Comedy",
       "Fantasy",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1885,
+        "Title": "Silver Pictures",
+        "Poster": "/xlvoOZr4s1PygosrwZyolIFe5xs.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16066,6 +30676,43 @@ var films = [
     "Genres": [
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 444,
+        "Title": "Dune Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 890,
+        "Title": "Cheyenne Enterprises",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11845,
+        "Title": "Wintergreen Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 133789,
+        "Title": "Ingenious Film Partners",
+        "Poster": "/bJdeIb1ET3BkyodAASVDq1x3mls.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16095,6 +30742,43 @@ var films = [
       "Documentary",
       "Drama",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 26136,
+        "Title": "Vif Babelsberger Filmproduktion GmbH \u0026 Co. Zweite KG",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 803,
+        "Title": "Alliance Atlantis",
+        "Poster": "/jEMVaCuEjQ3lzkhakWDKNVjwd9Q.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 26137,
+        "Title": "Dog Eat Dog Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 26139,
+        "Title": "Salter Street Films",
+        "Poster": "/li2ebL9Oms1wWnrsVp4fndXwy3E.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 60,
+        "Title": "United Artists",
+        "Poster": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16124,6 +30808,50 @@ var films = [
       "Adventure",
       "Horror",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 55532,
+        "Title": "St. Tropez Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 55533,
+        "Title": "Cinema Line Film Corporation",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 3803,
+        "Title": "Middle Fork Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 16387,
+        "Title": "Skylight Cinema Foto Art",
+        "Poster": "",
+        "OriginCountry": "BR",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 199837,
+        "Title": "Skylight Cinema Foto Art (US)",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16149,6 +30877,15 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 67117,
+        "Title": "Jaye Bird Productions",
+        "Poster": "/nXzAFEbOIK12MoYJh5leKojalwg.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16175,6 +30912,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 8288,
+        "Title": "Zentropa International Sweden",
+        "Poster": "/5THcBZP0ad7hXPjtPTxld5sVJQp.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 76,
+        "Title": "Zentropa Entertainments",
+        "Poster": "/nebkQYtQKhZyHJfh5v0oGpNbPzu.png",
+        "OriginCountry": "DK",
+        "Amount": 0
+      },
+      {
+        "Id": 2801,
+        "Title": "Film i V\u00E4st",
+        "Poster": "/bswb1PLLsKDUXMLgy42bZtCtIde.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16202,6 +30962,22 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 12840,
+        "Title": "Red Box Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 288,
+        "Title": "BBC Film",
+        "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16228,6 +31004,29 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 3330,
+        "Title": "Chloe Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3331,
+        "Title": "TPW Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3332,
+        "Title": "Wiseau-Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16255,6 +31054,22 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 128344,
+        "Title": "The Apartment Pictures",
+        "Poster": "/zNBa6RAZ5TKWZUEhxx6sxc9tdrr.png",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 70,
+        "Title": "American Zoetrope",
+        "Poster": "/ueaENQkPcy8rlr5fGZVBXKOhlBh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16283,6 +31098,43 @@ var films = [
     "Genres": [
       "Horror",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3169,
+        "Title": "Zide-Perry Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 48772,
+        "Title": "Hard Eight Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 48785,
+        "Title": "Matinee Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 48788,
+        "Title": "Practical Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16308,6 +31160,50 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 29313,
+        "Title": "Pearl Street Films",
+        "Poster": "/1whsMqm5kAPxKBhnTlKNcbXBQJK.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 50498,
+        "Title": "K Period Media",
+        "Poster": "/zTSRlzyDZX287q289qb4pghILyI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 50499,
+        "Title": "B Story",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 72695,
+        "Title": "The Affleck/Middleton Project",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 109730,
+        "Title": "The Media Farm",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6831,
+        "Title": "Big Indie Pictures",
+        "Poster": "/fWSI4EjIDEEzCNJC8OTPX9Pdbxv.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16335,6 +31231,36 @@ var films = [
       "Crime",
       "Drama",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 19177,
+        "Title": "Red Granite Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 562,
+        "Title": "Appian Way",
+        "Poster": "/azANEzu3H3Kztzt63sdjvlzxhuB.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23243,
+        "Title": "Sikelia Productions",
+        "Poster": "/cBPyrhXhGKzxUdL4Fkg801HZ4W.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 14654,
+        "Title": "EMJAG Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16361,6 +31287,36 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 37811,
+        "Title": "Paradigm Hyde Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 211,
+        "Title": "Film Finance Group",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 418,
+        "Title": "New South Wales Film \u0026 Television Office",
+        "Poster": "",
+        "OriginCountry": "AU",
+        "Amount": 0
+      },
+      {
+        "Id": 3102,
+        "Title": "Renaissance Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16387,7 +31343,8 @@ var films = [
     "Genres": [
       "Mystery",
       "Fantasy"
-    ]
+    ],
+    "Studios": []
   },
   {
     "Title": "Bean",
@@ -16415,6 +31372,29 @@ var films = [
       "Family",
       "Adventure",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 686,
+        "Title": "Tiger Aspect",
+        "Poster": "/qMVjV8YFbxXrGVF4wD6hRjllVbr.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 1382,
+        "Title": "PolyGram Filmed Entertainment",
+        "Poster": "/8b5XGJ8YhZoEo9LgFP8KRQWHjYL.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16442,6 +31422,22 @@ var films = [
       "Thriller",
       "Drama",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 9195,
+        "Title": "Touchstone Pictures",
+        "Poster": "/geK5QOBsXIPGHutKwXtYjMUyYSG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23,
+        "Title": "Imagine Entertainment",
+        "Poster": "/bJOFo2ufq7iFC1F4qZm8aLxF5aS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16469,6 +31465,22 @@ var films = [
       "Crime",
       "Drama",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 14,
+        "Title": "Miramax",
+        "Poster": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7965,
+        "Title": "The Ladd Company",
+        "Poster": "/eZ6DeFO1mhHtzxB1aACcEzKqQ7L.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16494,6 +31506,36 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 10901,
+        "Title": "Minist\u00E8re de la culture",
+        "Poster": "/8dNHWgUlJNz9HHLtcdsz04jRtyi.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 875,
+        "Title": "Films A2",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 14683,
+        "Title": "Cin\u00E9-Tamaris",
+        "Poster": "/oqpU5dX9DlN3YB96NdsNXknJhcl.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 87612,
+        "Title": "centre mediterraneen de creation cinematographique",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16519,6 +31561,15 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 3087,
+        "Title": "MSNBC Films",
+        "Poster": "/kTBWIEtcZXvV3BY89TSxNi233a6.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16547,6 +31598,29 @@ var films = [
       "Drama",
       "Music",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 7460,
+        "Title": "Vend\u00F4me Pictures",
+        "Poster": "/yAAbQ6vIYIL84geYYIAraxQGL10.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7981,
+        "Title": "Path\u00E9",
+        "Poster": "/6Yv1gIAuGkHS5Vis4UjnqHhCPWV.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 159430,
+        "Title": "Picture Perfect Entertainment",
+        "Poster": "/uyWLvnD838IcdrQ5jwOenC9QXLZ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16580,6 +31654,85 @@ var films = [
       "Comedy",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 71265,
+        "Title": "Scarlet Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 726,
+        "Title": "Haut et Court",
+        "Poster": "/hHaQQgxqg2NohqZSxbMTB9E483m.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 850,
+        "Title": "Eurimages",
+        "Poster": "/aF7qajGJGtMpdrtvssM9g90YanX.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 2345,
+        "Title": "Lemming Film",
+        "Poster": "/nozBgqHmM9A22IHkghTnLiUrM7Q.png",
+        "OriginCountry": "NL",
+        "Amount": 0
+      },
+      {
+        "Id": 3353,
+        "Title": "Element Pictures",
+        "Poster": "/qv2v9HaStUTRjqonODM29YG0oFX.png",
+        "OriginCountry": "IE",
+        "Amount": 0
+      },
+      {
+        "Id": 4508,
+        "Title": "Nederlands Fonds voor de Film",
+        "Poster": "/sUq2S2ndKxp1B2NjbMJbSNlPI8V.png",
+        "OriginCountry": "NL",
+        "Amount": 0
+      },
+      {
+        "Id": 7254,
+        "Title": "Greek Film Centre",
+        "Poster": "/hDJO96mUfqtB9ia7ef7mEvguPxl.png",
+        "OriginCountry": "GR",
+        "Amount": 0
+      },
+      {
+        "Id": 19246,
+        "Title": "Faliro House Productions",
+        "Poster": "/4zrEZfTf94tyG4wRB599gRS0reU.png",
+        "OriginCountry": "GR",
+        "Amount": 0
+      },
+      {
+        "Id": 72597,
+        "Title": "Limp",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 20277,
+        "Title": "Protagonist Pictures",
+        "Poster": "/aomeUwZLIBjGXHfuZq7HTVk7UNb.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16605,6 +31758,29 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 19900,
+        "Title": "Sky Atlantic",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 2740,
+        "Title": "Jigsaw Productions",
+        "Poster": "/gSiDWkmEOyOn9MsaCgnjd8Mohmx.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 14914,
+        "Title": "HBO Documentary Films",
+        "Poster": "/1RZBWz53SpHUTLpRcM8BGv2plIP.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16630,6 +31806,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11308,
+        "Title": "Savoy Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 924,
+        "Title": "The Turman-Morrissey Company",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16658,6 +31857,36 @@ var films = [
     "Genres": [
       "Crime",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 2376,
+        "Title": "Blueprint Pictures",
+        "Poster": "/yeNoWmSHZfvKsBYuL8uTRE4LPdQ.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 94694,
+        "Title": "Cutting Edge Group",
+        "Poster": "/4JM71Cenz8paaUv7sO51ITUcjq9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 43,
+        "Title": "Fox Searchlight Pictures",
+        "Poster": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16685,6 +31914,22 @@ var films = [
       "Horror",
       "Thriller",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 41077,
+        "Title": "A24",
+        "Poster": "/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 126587,
+        "Title": "Little Lamb Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16711,6 +31956,15 @@ var films = [
     "Genres": [
       "Drama",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 97,
+        "Title": "Castle Rock Entertainment",
+        "Poster": "/7znWcbDd4PcJzJUlJxYqAlPPykp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16737,6 +31991,29 @@ var films = [
     "Genres": [
       "Horror",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 17337,
+        "Title": "Basara Pictures",
+        "Poster": "",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 17338,
+        "Title": "Creators Company Connection",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1195,
+        "Title": "Omega Project",
+        "Poster": "",
+        "OriginCountry": "JP",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16763,6 +32040,15 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 1931,
+        "Title": "Filmov\u00E9 studio Barrandov",
+        "Poster": "/5erHhgvym2cTORao8ajtn2gbiTH.png",
+        "OriginCountry": "XC",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16792,6 +32078,43 @@ var films = [
       "Adventure",
       "Family",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 559,
+        "Title": "TriStar Pictures",
+        "Poster": "/eC0bWHVjnjUducyA6YFoEFqnPMC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1174,
+        "Title": "Delphi V",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 24931,
+        "Title": "Henson Associates",
+        "Poster": "/8koBEDoVQXyEM8589PnI4Wyq5KA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1,
+        "Title": "Lucasfilm Ltd.",
+        "Poster": "/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 20555,
+        "Title": "Taurus Film",
+        "Poster": "/hD8yEGUBlHOcfHYbujp71vD8gZp.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16819,6 +32142,43 @@ var films = [
       "Adventure",
       "Action",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 79,
+        "Title": "Village Roadshow Pictures",
+        "Poster": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2609,
+        "Title": "De Line Pictures",
+        "Poster": "/ocmrEBfmecJvrbIM4C50vjYWtlq.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 444,
+        "Title": "Dune Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16847,6 +32207,22 @@ var films = [
       "Crime",
       "Action",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 221513,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16874,6 +32250,22 @@ var films = [
       "Comedy",
       "Drama",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 492,
+        "Title": "Blue Wolf Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16900,6 +32292,15 @@ var films = [
     "Genres": [
       "Thriller",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16929,6 +32330,15 @@ var films = [
       "History",
       "Thriller",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 1441,
+        "Title": "Associated British Picture Corporation",
+        "Poster": "/28DJnfE2ZaR5oNJVlZ38uvnLaCH.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16958,6 +32368,15 @@ var films = [
       "Drama",
       "TV Movie",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 3324,
+        "Title": "BBC",
+        "Poster": "/dqT3yOTlfJRmtvk52Ccd1O6dZ0A.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -16983,6 +32402,15 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 9,
+        "Title": "Gaumont",
+        "Poster": "/nda3dTUYdDrJ6rZqBpYvY865aDv.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17009,6 +32437,43 @@ var films = [
     "Genres": [
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 3319,
+        "Title": "Senator Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 12410,
+        "Title": "Lleju Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 737,
+        "Title": "Sidney Kimmel Entertainment",
+        "Poster": "/dK1GZ1u4our8sJW0Sts1JHeNSLn.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 12411,
+        "Title": "Kimmel International",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 5683,
+        "Title": "ChubbCo Film",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17036,6 +32501,15 @@ var films = [
       "Adventure",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17063,6 +32537,15 @@ var films = [
     ],
     "Genres": [
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 620,
+        "Title": "Centropolis Film Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17091,6 +32574,22 @@ var films = [
       "Comedy",
       "Fantasy",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 108505,
+        "Title": "Art et essai",
+        "Poster": "/xRVAK6cm49VHIgWCHpr2ZQBUT9b.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 140114,
+        "Title": "h264",
+        "Poster": "/698xcYut47M1BexvtGKmKX3Yf0a.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17118,6 +32617,22 @@ var films = [
       "Comedy",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 70,
+        "Title": "American Zoetrope",
+        "Poster": "/ueaENQkPcy8rlr5fGZVBXKOhlBh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 715,
+        "Title": "Bona Fide Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17144,6 +32659,29 @@ var films = [
     "Genres": [
       "Horror",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 7405,
+        "Title": "Dimension Films",
+        "Poster": "/rfnws0uY8rsNAsrLbx3gEIcYXx3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 85,
+        "Title": "Konrad Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1600,
+        "Title": "Craven-Maddalena Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17173,6 +32711,64 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 1014,
+        "Title": "Target Media Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 3801,
+        "Title": "VIP Medienfonds 2",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 10760,
+        "Title": "VIP 1 Medienfonds",
+        "Poster": "/j7grgeyXof8VBmqbBBSNaqVoOCb.png",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1012,
+        "Title": "Parabolic Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 737,
+        "Title": "Sidney Kimmel Entertainment",
+        "Poster": "/dK1GZ1u4our8sJW0Sts1JHeNSLn.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 181992,
+        "Title": "Mandate International",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 207838,
+        "Title": "Stable Way Entertainment",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17199,6 +32795,57 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 2087,
+        "Title": "Blackfriars Bridge Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 2448,
+        "Title": "Yari Film Group",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 12260,
+        "Title": "Bob Yari Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 19528,
+        "Title": "ApolloProScreen Filmproduktion",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 25432,
+        "Title": "Bull's Eye Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 25433,
+        "Title": "DEJ Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25434,
+        "Title": "Harris Company",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17227,6 +32874,15 @@ var films = [
     "Genres": [
       "War",
       "TV Movie"
+    ],
+    "Studios": [
+      {
+        "Id": 3324,
+        "Title": "BBC",
+        "Poster": "/dqT3yOTlfJRmtvk52Ccd1O6dZ0A.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17253,6 +32909,29 @@ var films = [
     "Genres": [
       "Action",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 82819,
+        "Title": "Skydance Media",
+        "Poster": "/gXfFl9pRPaoaq14jybEn1pHeldr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10288,
+        "Title": "Don Simpson/Jerry Bruckheimer Films",
+        "Poster": "/Aszf09kIVXR6cwG9lwjZIawbYVS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17283,6 +32962,92 @@ var films = [
       "Drama",
       "Thriller",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 11561,
+        "Title": "Recorded Picture Company",
+        "Poster": "/8HB3TFUeo83keAPHfFfrNtN2MmA.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 26883,
+        "Title": "Capri Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 2395,
+        "Title": "HanWay Films",
+        "Poster": "/pZz4qs03FtP6UGtZ3hjQ6qimcwi.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 806,
+        "Title": "T\u00E9l\u00E9film Canada",
+        "Poster": "/kcNh09qqR2Pkw1JAzRW4CommrW4.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 196059,
+        "Title": "Foresight Global Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 2743,
+        "Title": "Astral Media",
+        "Poster": "",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 808,
+        "Title": "The Movie Network",
+        "Poster": "/4L1apH72jCx6Z5qyH7UOJUDlRoF.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 53476,
+        "Title": "CTF | FCT",
+        "Poster": "",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 11575,
+        "Title": "Movie Central",
+        "Poster": "",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 137887,
+        "Title": "Corus Studios",
+        "Poster": "/r74GCVJh89fJ7Il8BuMivTOpfuS.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 207975,
+        "Title": "National Lottery through UK Film Council",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 22208,
+        "Title": "The Harold Greenberg Fund",
+        "Poster": "",
+        "OriginCountry": "CA",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17311,6 +33076,29 @@ var films = [
       "Animation",
       "Family",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 71884,
+        "Title": "Snowman Enterprise",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 5778,
+        "Title": "Channel 4 Television",
+        "Poster": "/2loyoQweDxvotH3AknfL2zhsthg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 15255,
+        "Title": "TVC London",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17339,6 +33127,36 @@ var films = [
     "Genres": [
       "Crime",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 20664,
+        "Title": "Anton Capital Entertainment",
+        "Poster": "/iRrZpxnYNDnVXJkr6HiLgSLlqRc.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 10246,
+        "Title": "Cross Creek Pictures",
+        "Poster": "/rREvQNWAxkDfY9CDn2c5YxEMPdP.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17364,7 +33182,8 @@ var films = [
     ],
     "Genres": [
       "Drama"
-    ]
+    ],
+    "Studios": []
   },
   {
     "Title": "The Ring",
@@ -17390,6 +33209,29 @@ var films = [
     "Genres": [
       "Horror",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 7,
+        "Title": "DreamWorks Pictures",
+        "Poster": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6363,
+        "Title": "BenderSpink",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11084,
+        "Title": "Parkes/MacDonald Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17416,6 +33258,15 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 133406,
+        "Title": "Tangram Films",
+        "Poster": "/m6KXHH6uJcP7fp8SNPj6j5LO929.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17442,6 +33293,29 @@ var films = [
     "Genres": [
       "Drama",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 711,
+        "Title": "Fox 2000 Pictures",
+        "Poster": "/tEiIH5QesdheJmDAqQwvtN60727.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 83024,
+        "Title": "Levantine Films",
+        "Poster": "/rW2LeKnt5DzczmZfq1MAmIDuaSa.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7076,
+        "Title": "Chernin Entertainment",
+        "Poster": "/8BFxn9NUWSgp0ndih569Gm62xiC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17482,6 +33356,22 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 10986,
+        "Title": "Magidson Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4748,
+        "Title": "Oscilloscope",
+        "Poster": "/bTMeosrSiKaTPmZiTYnSDZlin5d.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17510,6 +33400,29 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 2997,
+        "Title": "Dragon Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 12745,
+        "Title": "British Screen Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17538,6 +33451,64 @@ var films = [
       "Drama",
       "Music",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 63924,
+        "Title": "Broken Chair Flickz",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 923,
+        "Title": "Legendary Pictures",
+        "Poster": "/5UQsZrfbfG2dYJbx8DxfoTr2Bvu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2780,
+        "Title": "Cube Vision",
+        "Poster": "/hgdyY2exOpOXG3EkQR8WsUAUNBZ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 63925,
+        "Title": "Crucial Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 23921,
+        "Title": "Circle of Confusion",
+        "Poster": "/simDvqT8y6jhP530ggUMbikvVKc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 49968,
+        "Title": "Will Packer Productions",
+        "Poster": "/gz2hSoMkvMJdTMgCLFGRJErPwXY.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4717,
+        "Title": "Xenon Pictures",
+        "Poster": "/yFGKPJmDmKmWDrZK83qOQzWBWKE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17565,6 +33536,15 @@ var films = [
       "Fantasy",
       "Animation",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 3166,
+        "Title": "Walt Disney Productions",
+        "Poster": "/vyyv4Gy9nPqAZKElPm2izLlEaVS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17590,6 +33570,29 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 113633,
+        "Title": "Jerry Media",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 113634,
+        "Title": "Library Films",
+        "Poster": "/7ViBFQPmKYxSmfTQ0WC1RPFRQJ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 17209,
+        "Title": "VICE Media",
+        "Poster": "/khOQX3iJuSmaFWrL3w4LijbtnJZ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17617,6 +33620,22 @@ var films = [
       "Horror",
       "Drama",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 2483,
+        "Title": "Laurel Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 95947,
+        "Title": "United Film Distribution Company (UFDC)",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17645,6 +33664,29 @@ var films = [
       "Drama",
       "Mystery",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 11487,
+        "Title": "Sandcastle 5",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 35552,
+        "Title": "Chicagofilms",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6246,
+        "Title": "Medusa Film",
+        "Poster": "/7X6pfxldTiOD7MLo2EQqUQlmOUw.png",
+        "OriginCountry": "IT",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17672,6 +33714,22 @@ var films = [
       "Adventure",
       "Fantasy",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 2,
+        "Title": "Walt Disney Pictures",
+        "Poster": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 130,
+        "Title": "Jerry Bruckheimer Films",
+        "Poster": "/c9dVHPOL3cqCr2593Ahk0nEKTEM.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17700,6 +33758,64 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 2130,
+        "Title": "Mr. Mudd",
+        "Poster": "/g0lqeY2FvhzXcOI6z8RVXbORRUY.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 247,
+        "Title": "Granada Productions",
+        "Poster": "/kgYZ2I5ibveeOOn10VJKQCg6hLd.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 826,
+        "Title": "Capitol Films",
+        "Poster": "/aqiR1prl8N00FfkC4FCJWsOpZIy.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 60,
+        "Title": "United Artists",
+        "Poster": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 137436,
+        "Title": "Advanced Medien",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 37497,
+        "Title": "Jersey Shore",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 152,
+        "Title": "Icon Productions",
+        "Poster": "/rC2pFo4IBQVSVZvucDLwMRvZHfi.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4564,
+        "Title": "Icon Entertainment International",
+        "Poster": "/pQQ5WKlDFbTIrsgkCTUoMqDtmpy.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17730,6 +33846,36 @@ var films = [
       "Drama",
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 11391,
+        "Title": "Tribeca Productions",
+        "Poster": "/t6m0uRTzaFHCsvEpikENE0PWJGb.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17758,6 +33904,43 @@ var films = [
       "Adventure",
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7576,
+        "Title": "EON Productions",
+        "Poster": "/oYcUi1byZ312Z3xiz5ojz9RQLND.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 10761,
+        "Title": "Danjaq",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 41053,
+        "Title": "Casino Royale Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17784,6 +33967,29 @@ var films = [
     "Genres": [
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 12245,
+        "Title": "Robert Lawrence Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 258,
+        "Title": "Scott Rudin Productions",
+        "Poster": "/tMI4xPwgxfNaNId3h9dOcHGU1NI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17812,6 +34018,29 @@ var films = [
       "Thriller",
       "Crime",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 9269,
+        "Title": "Global Medien KG",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 1685,
+        "Title": "Hofflund/Polone",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17841,6 +34070,71 @@ var films = [
     "Genres": [
       "Drama",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 76,
+        "Title": "Zentropa Entertainments",
+        "Poster": "/nebkQYtQKhZyHJfh5v0oGpNbPzu.png",
+        "OriginCountry": "DK",
+        "Amount": 0
+      },
+      {
+        "Id": 321,
+        "Title": "Memfis Film",
+        "Poster": "/pfp6VWF3tYfOHHVRHpYe2iGcYrf.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 8288,
+        "Title": "Zentropa International Sweden",
+        "Poster": "/5THcBZP0ad7hXPjtPTxld5sVJQp.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 7777,
+        "Title": "Slot Machine",
+        "Poster": "/vd6oWpxQXyaeWGfm0A5SnJi8pyo.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 11239,
+        "Title": "Liberator Productions",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 8289,
+        "Title": "Zentropa International K\u00F6ln",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 119,
+        "Title": "DR",
+        "Poster": "/1di2gITGUZr730AMuMKiCrP90Vl.png",
+        "OriginCountry": "DK",
+        "Amount": 0
+      },
+      {
+        "Id": 2801,
+        "Title": "Film i V\u00E4st",
+        "Poster": "/bswb1PLLsKDUXMLgy42bZtCtIde.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 94,
+        "Title": "ARTE France Cin\u00E9ma",
+        "Poster": "/huC7HqorvUThGIrENrbcHmQVUA0.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17869,6 +34163,36 @@ var films = [
       "Thriller",
       "Drama",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 1632,
+        "Title": "Lionsgate",
+        "Poster": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6455,
+        "Title": "Pressman Film",
+        "Poster": "/mc3rMk0tW5ajjbfqkB8xlp85Cdy.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 15231,
+        "Title": "Muse Productions",
+        "Poster": "/iFbzMtXFBv2ekA9Ldrw6LqjLrvX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 217087,
+        "Title": "Christian Halsey Solomon Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17899,6 +34223,36 @@ var films = [
       "Thriller",
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 11561,
+        "Title": "Recorded Picture Company",
+        "Poster": "/8HB3TFUeo83keAPHfFfrNtN2MmA.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 43,
+        "Title": "Fox Searchlight Pictures",
+        "Poster": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4169,
+        "Title": "KanZaman Productions",
+        "Poster": "",
+        "OriginCountry": "ES",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17926,6 +34280,29 @@ var films = [
       "Action",
       "Crime",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 1632,
+        "Title": "Lionsgate",
+        "Poster": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 33681,
+        "Title": "Black Label Media",
+        "Poster": "/dHx2nsV9AC7IBlKN2dk1FDImvOz.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3528,
+        "Title": "Thunder Road",
+        "Poster": "/cCzCClIzIh81Fa79hpW5nXoUsHK.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17953,6 +34330,36 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 55423,
+        "Title": "East of Harlem (UK) Ltd",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 2307,
+        "Title": "Hell's Kitchen",
+        "Poster": "/owHyONluEVR9YdJtJv3XfTacKWD.png",
+        "OriginCountry": "IE",
+        "Amount": 0
+      },
+      {
+        "Id": 55424,
+        "Title": "Irish Film Industry",
+        "Poster": "",
+        "OriginCountry": "IE",
+        "Amount": 0
+      },
+      {
+        "Id": 43,
+        "Title": "Fox Searchlight Pictures",
+        "Poster": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -17983,6 +34390,43 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 508,
+        "Title": "Regency Enterprises",
+        "Poster": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10227,
+        "Title": "Mandeville Films",
+        "Poster": "/3YfRy3DBl4abcqkzGx4RVNz12yl.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 676,
+        "Title": "Monarchy Enterprises B.V.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 20555,
+        "Title": "Taurus Film",
+        "Poster": "/hD8yEGUBlHOcfHYbujp71vD8gZp.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18010,6 +34454,22 @@ var films = [
       "Action",
       "Adventure",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 10210,
+        "Title": "Morgan Creek Entertainment",
+        "Poster": "/gHaNnHd4LjNAoAG5aJthVrdAjZo.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18035,7 +34495,8 @@ var films = [
     ],
     "Genres": [
       "Drama"
-    ]
+    ],
+    "Studios": []
   },
   {
     "Title": "The Killing",
@@ -18061,6 +34522,22 @@ var films = [
     "Genres": [
       "Crime",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 60,
+        "Title": "United Artists",
+        "Poster": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 52795,
+        "Title": "Harris-Kubrick Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18088,6 +34565,15 @@ var films = [
       "Comedy",
       "Thriller",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 8146,
+        "Title": "Splendid Film",
+        "Poster": "/etoxfrvduHZMLHpYE2uPkicheX2.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18116,6 +34602,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 26239,
+        "Title": "Suede Film",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 7447,
+        "Title": "Personafilm",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1155,
+        "Title": "ITC Entertainment",
+        "Poster": "/rKTzFu5woCo8k0u9ML7mWeLY541.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18142,7 +34651,8 @@ var films = [
     "Genres": [
       "Comedy",
       "Fantasy"
-    ]
+    ],
+    "Studios": []
   },
   {
     "Title": "Dawn of the Dead",
@@ -18173,6 +34683,64 @@ var films = [
       "Action",
       "Horror",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 572,
+        "Title": "New Amsterdam Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 655,
+        "Title": "Strike Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 657,
+        "Title": "TOHO-TOWA",
+        "Poster": "/mDBPrBO6hl21KhQOzCVYUBo33zt.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 9995,
+        "Title": "Cruel \u0026 Unusual Films",
+        "Poster": "/mAIGhOYhN4N2N0F7p4dbKhgXf3l.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 882,
+        "Title": "TOHO",
+        "Poster": "/fRSWWjquvzcHjACbtF53utZFIll.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 16419,
+        "Title": "Metropolitan Filmexport",
+        "Poster": "/8ppVamMu9jnA72kOi4e9grvx6Ex.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 830,
+        "Title": "Senator International",
+        "Poster": "/mYga54mrt5n4GUUcJxE6DmR2FKv.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18200,6 +34768,15 @@ var films = [
       "Comedy",
       "Science Fiction",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 3923,
+        "Title": "Strand Releasing",
+        "Poster": "/qFWM5g28knWRu4MRv0IptS7SCSP.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18227,6 +34804,29 @@ var films = [
       "Mystery",
       "Thriller",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 88934,
+        "Title": "Monkeypaw Productions",
+        "Poster": "/5Be96V9WXa7jJInSDPqDOqMBA0o.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3172,
+        "Title": "Blumhouse Productions",
+        "Poster": "/rzKluDcRkIwHZK2pHsiT667A2Kw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 72725,
+        "Title": "QC Entertainment",
+        "Poster": "/gflhJ4lNROXuYMeN4giNrVQvtDw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18252,6 +34852,71 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 4475,
+        "Title": "Amuse Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 11846,
+        "Title": "Hakuhodo DY Media Partners",
+        "Poster": "/es3LvDA6wLWVDvZnAYYuAT6x8lJ.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 12149,
+        "Title": "Ogura Jimusyo",
+        "Poster": "",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 12150,
+        "Title": "PARCO",
+        "Poster": "",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 9149,
+        "Title": "Shogakukan",
+        "Poster": "/isLUpud9N56ifftJZ4XvzwBBpoG.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 882,
+        "Title": "TOHO",
+        "Poster": "/fRSWWjquvzcHjACbtF53utZFIll.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 1393,
+        "Title": "TBS",
+        "Poster": "/lUACMATs6jcscXIrzNCQzbvNVN5.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 4330,
+        "Title": "Horipro",
+        "Poster": "/n8v5Ii8FCPHAg0KaIXviDRFSqhG.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 569,
+        "Title": "Tokyo FM",
+        "Poster": "/hOurQBeeFI4OTTdAEtvGflbJgXU.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18280,6 +34945,43 @@ var films = [
     "Genres": [
       "Drama",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23,
+        "Title": "Imagine Entertainment",
+        "Poster": "/bJOFo2ufq7iFC1F4qZm8aLxF5aS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 7295,
+        "Title": "Relativity Media",
+        "Poster": "/5MYE96QiE5a5oFhXxFb4y8ILSpw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18309,6 +35011,57 @@ var films = [
       "Drama",
       "History",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 7201,
+        "Title": "NDR",
+        "Poster": "/ljV8ZT3CIYCEIEDlTyBliXJVCZr.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 3391,
+        "Title": "ORF",
+        "Poster": "/t0QBs2fI3mE3HxgoH1n39bYuzNu.png",
+        "OriginCountry": "AT",
+        "Amount": 0
+      },
+      {
+        "Id": 986,
+        "Title": "ARD Degeto",
+        "Poster": "/qDV8nLH9pjElZSnPmg29mzzNlTo.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 2278,
+        "Title": "EOS Entertainment",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 46,
+        "Title": "WDR",
+        "Poster": "/3xFdKHLXPGHEbrAkmsepGE8974Y.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 1583,
+        "Title": "RAI",
+        "Poster": "/gKP4egMJOi5rksdnplfPV1wa0sd.png",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 47,
+        "Title": "Constantin Film",
+        "Poster": "/i7Z9ot2o3N5Sa3HrF09kniFs2y8.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18335,6 +35088,22 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 6196,
+        "Title": "Carnival Films",
+        "Poster": "/nTHxXVnXL58M7jJGNFAjRTCRgyg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 10146,
+        "Title": "Focus Features",
+        "Poster": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18364,6 +35133,43 @@ var films = [
       "Drama",
       "Mystery",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 6274,
+        "Title": "MK2 Films",
+        "Poster": "/ngZoa368SAnERTz3IBvgTT4eWeB.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 591,
+        "Title": "France 3 Cin\u00E9ma",
+        "Poster": "/q5I5RDwMEiqoNmfaJgd2LraEOJY.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 22587,
+        "Title": "CAB Productions",
+        "Poster": "",
+        "OriginCountry": "CH",
+        "Amount": 0
+      },
+      {
+        "Id": 38,
+        "Title": "Studio Filmowe Tor",
+        "Poster": "/oZyTaSTMP9LMB6BTzPDv3q4oyMj.png",
+        "OriginCountry": "PL",
+        "Amount": 0
+      },
+      {
+        "Id": 1245,
+        "Title": "TSR",
+        "Poster": "/suKdkPTtHn0DzGYmrXCA506dJON.png",
+        "OriginCountry": "CH",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18393,6 +35199,22 @@ var films = [
       "Comedy",
       "Fantasy",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 521,
+        "Title": "DreamWorks Animation",
+        "Poster": "/3BPX5VGBov8SDqTV7wC1L1xShAS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 520,
+        "Title": "Pacific Data Images",
+        "Poster": "/pU7YTI9FfrICurXpl5V9TfCO0oJ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18423,6 +35245,43 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 103453,
+        "Title": "MP Munich Pape Filmproductions",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 333,
+        "Title": "Original Film",
+        "Poster": "/5xUJfzPZ8jWJUDzYtIeuPO4qPIa.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7295,
+        "Title": "Relativity Media",
+        "Poster": "/5MYE96QiE5a5oFhXxFb4y8ILSpw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5896,
+        "Title": "Cine Bazar",
+        "Poster": "",
+        "OriginCountry": "JP",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18451,6 +35310,15 @@ var films = [
     "Genres": [
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 23949,
+        "Title": "RAW",
+        "Poster": "/3QFwomSxcZZgMQGBkdUPuJEnSFB.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18480,6 +35348,36 @@ var films = [
       "Science Fiction",
       "Horror",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 729,
+        "Title": "Why Not Productions",
+        "Poster": "/hNxGdbddbsDDnEWJ7RNLcGCRSLQ.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 2481,
+        "Title": "Platinum Dunes",
+        "Poster": "/vOQg26GjR0LnkN1Ph9uyog1UuOE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3172,
+        "Title": "Blumhouse Productions",
+        "Poster": "/rzKluDcRkIwHZK2pHsiT667A2Kw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18507,6 +35405,22 @@ var films = [
     "Genres": [
       "Thriller",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 7956,
+        "Title": "Castelao Productions",
+        "Poster": "",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 3631,
+        "Title": "Filmax",
+        "Poster": "/ttrj8O0KF5PbUoHamU2mTOLB6d9.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18535,6 +35449,15 @@ var films = [
       "Science Fiction",
       "Drama",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 11461,
+        "Title": "Bad Robot",
+        "Poster": "/p9FoEt5shEKRWRKVIlvFaEmRnun.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18561,6 +35484,15 @@ var films = [
     "Genres": [
       "Comedy",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18588,6 +35520,29 @@ var films = [
     "Genres": [
       "Drama",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 50819,
+        "Title": "Natant",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 385,
+        "Title": "Stanley Kubrick Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18613,6 +35568,29 @@ var films = [
     ],
     "Genres": [
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 48772,
+        "Title": "Hard Eight Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3169,
+        "Title": "Zide-Perry Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18639,6 +35617,22 @@ var films = [
     "Genres": [
       "Action",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10288,
+        "Title": "Don Simpson/Jerry Bruckheimer Films",
+        "Poster": "/Aszf09kIVXR6cwG9lwjZIawbYVS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18665,6 +35659,22 @@ var films = [
     "Genres": [
       "Thriller",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 5005,
+        "Title": "Bedlam Productions",
+        "Poster": "/letEuggPWBjO3HVu1QKAy5DoJZU.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 5004,
+        "Title": "Hazeldine Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18693,6 +35703,22 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 15547,
+        "Title": "Initial Productions",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 25129,
+        "Title": "Lumi\u00E8re Pictures",
+        "Poster": "/9kyYRk8aHbIdJCIj3cLh1f6FTXR.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18719,6 +35745,57 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 119362,
+        "Title": "AGADIC",
+        "Poster": "/3VMbHWa9xwWBaIN311GmXXxtJI9.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 35559,
+        "Title": "ICEC",
+        "Poster": "/xLqNfq5xXETBKjq3jSSiNqqPiN7.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 11651,
+        "Title": "Rodar y Rodar",
+        "Poster": "/i5JILeNrP9piqdJWmfQCbTHQKJf.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 5085,
+        "Title": "TV3",
+        "Poster": "/mPuVc7m1Ki7OQQvAYwYfIlEI3vu.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 119363,
+        "Title": "Zenit Television",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 119364,
+        "Title": "Zenit",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 37261,
+        "Title": "Lanube Pel\u00EDculas",
+        "Poster": "",
+        "OriginCountry": "ES",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18747,6 +35824,36 @@ var films = [
     "Genres": [
       "Drama",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 1422,
+        "Title": "Killer Films",
+        "Poster": "/rIB6DuimR1qgLE14cBwpMABC2xx.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 82552,
+        "Title": "Elevation Pictures",
+        "Poster": "/cLEXKtCpRQs0meQwT7HK6u3QmRH.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 52059,
+        "Title": "RocketScience",
+        "Poster": "/rajoRd4i5xJKHAqFyeflFBMUBZM.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18773,6 +35880,15 @@ var films = [
     "Genres": [
       "Drama",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 1237,
+        "Title": "Soci\u00E9t\u00E9 g\u00E9n\u00E9rale des films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18799,6 +35915,15 @@ var films = [
     "Genres": [
       "Science Fiction",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18826,6 +35951,43 @@ var films = [
       "Drama",
       "Thriller",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 43,
+        "Title": "Fox Searchlight Pictures",
+        "Poster": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10246,
+        "Title": "Cross Creek Pictures",
+        "Poster": "/rREvQNWAxkDfY9CDn2c5YxEMPdP.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7503,
+        "Title": "Protozoa Pictures",
+        "Poster": "/3K8wbNkTn7O4wX89ucnp1ZYR1XF.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11317,
+        "Title": "Phoenix Pictures",
+        "Poster": "/hMboqqmeILXFeOJjuCsn3FvCIT3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 444,
+        "Title": "Dune Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18852,6 +36014,50 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7,
+        "Title": "DreamWorks Pictures",
+        "Poster": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2363,
+        "Title": "Cold Spring Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2364,
+        "Title": "The Montecito Picture Company",
+        "Poster": "/oZyR5maGM96jReVgW7oJ7mXN8ts.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2201,
+        "Title": "Rickshaw Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 32157,
+        "Title": "Right of Way Films",
+        "Poster": "/4hOCk25Ce8s242NItnwtV7aKRWY.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18879,6 +36085,22 @@ var films = [
       "Comedy",
       "Family",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 258,
+        "Title": "Scott Rudin Productions",
+        "Poster": "/tMI4xPwgxfNaNId3h9dOcHGU1NI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18907,6 +36129,36 @@ var films = [
       "Action",
       "Crime",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 26281,
+        "Title": "Ardustry Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 24,
+        "Title": "Mikona Productions",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 333,
+        "Title": "Original Film",
+        "Poster": "/5xUJfzPZ8jWJUDzYtIeuPO4qPIa.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18934,6 +36186,22 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 41,
+        "Title": "Orion Pictures",
+        "Poster": "/xAot4SSOIHiWQ2WEnVXYGR1lce9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 55072,
+        "Title": "Strong Heart",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18960,6 +36228,36 @@ var films = [
     "Genres": [
       "Crime",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 980,
+        "Title": "The Glasgow Film Fund",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 359,
+        "Title": "Figment Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 1382,
+        "Title": "PolyGram Filmed Entertainment",
+        "Poster": "/8b5XGJ8YhZoEo9LgFP8KRQWHjYL.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -18987,6 +36285,29 @@ var films = [
       "Comedy",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 43,
+        "Title": "Fox Searchlight Pictures",
+        "Poster": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4364,
+        "Title": "Watermark Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6332,
+        "Title": "Dune Entertainment III",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19016,6 +36337,50 @@ var films = [
       "Action",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 862,
+        "Title": "The Kennedy/Marshall Company",
+        "Poster": "/vdK6ZhC2CSW36j0VPEavRxOpbEg.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7384,
+        "Title": "Hypnotic",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11346,
+        "Title": "Motion Picture THETA Produktionsgesellschaft",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 11347,
+        "Title": "Ludlum Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 3467,
+        "Title": "Studio Trite",
+        "Poster": "/pumbDNR4udEagb3ldNUMFSA85Fn.png",
+        "OriginCountry": "RU",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19042,6 +36407,29 @@ var films = [
     "Genres": [
       "Comedy",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 41,
+        "Title": "Orion Pictures",
+        "Poster": "/xAot4SSOIHiWQ2WEnVXYGR1lce9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 258,
+        "Title": "Scott Rudin Productions",
+        "Poster": "/tMI4xPwgxfNaNId3h9dOcHGU1NI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19069,6 +36457,36 @@ var films = [
       "Comedy",
       "Documentary",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 90661,
+        "Title": "Lynch Siderow Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 6328,
+        "Title": "Dickhouse Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 746,
+        "Title": "MTV Films",
+        "Poster": "/kc7bdIVTBkJYy9aDK1QDDTAL463.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19097,6 +36515,36 @@ var films = [
       "Romance",
       "Drama",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 2376,
+        "Title": "Blueprint Pictures",
+        "Poster": "/yeNoWmSHZfvKsBYuL8uTRE4LPdQ.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 127929,
+        "Title": "Searchlight Pictures",
+        "Poster": "/7DLKyL15ETI9645XSr9JcbMV79c.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 22213,
+        "Title": "TSG Entertainment",
+        "Poster": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19124,6 +36572,29 @@ var films = [
       "Animation",
       "Family",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 11537,
+        "Title": "Laika",
+        "Poster": "/AgCkAk8EpUG9fTmK6mWcaJA2Zwh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 8915,
+        "Title": "Pandemonium",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 155450,
+        "Title": "Pandemonium",
+        "Poster": "/5QNMsdZzvW3BD9HHxnB8VRRj4Bq.png",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19149,6 +36620,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 60,
+        "Title": "United Artists",
+        "Poster": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10212,
+        "Title": "Orion-Nova Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19178,6 +36665,43 @@ var films = [
       "Thriller",
       "Crime",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 10146,
+        "Title": "Focus Features",
+        "Poster": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 288,
+        "Title": "BBC Film",
+        "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 3445,
+        "Title": "Kudos",
+        "Poster": "/7Jkq08LdnkxhK9M2LHuIOwHFfX8.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 805,
+        "Title": "Serendipity Point Films",
+        "Poster": "/A83WG8qZA4JdaudhJl0G3iG6W4M.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 7419,
+        "Title": "Scion Films",
+        "Poster": "/xePgQxppZtgSMICGgnKAWlVobt7.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19205,6 +36729,15 @@ var films = [
       "Science Fiction",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 44640,
+        "Title": "erbp",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19231,6 +36764,29 @@ var films = [
     "Genres": [
       "Drama",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 711,
+        "Title": "Fox 2000 Pictures",
+        "Poster": "/tEiIH5QesdheJmDAqQwvtN60727.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 412,
+        "Title": "Wendy Finerman Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19257,6 +36813,50 @@ var films = [
     "Genres": [
       "Drama",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 168181,
+        "Title": "Tango Entertainment",
+        "Poster": "/adHpT0fRW86W80jPtJRo96pqJE4.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 150969,
+        "Title": "Animal Pictures",
+        "Poster": "/7oS9vcqTqm4m7x1GP0zBZaRkiPw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 52053,
+        "Title": "High Frequency Entertainment",
+        "Poster": "/grMLc37nDRnKrMsKXcrHm76boxI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 171882,
+        "Title": "Case Study Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 224495,
+        "Title": "Arts \u0026 Sciences",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 237129,
+        "Title": "Talkies",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19284,6 +36884,29 @@ var films = [
       "Horror",
       "Thriller",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 2061,
+        "Title": "Twisted Pictures",
+        "Poster": "/o9LbN33hRaj4qcebUv1bikyXeoB.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23019,
+        "Title": "Evolution Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1632,
+        "Title": "Lionsgate",
+        "Poster": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19310,6 +36933,36 @@ var films = [
     "Genres": [
       "Thriller",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 4917,
+        "Title": "Periscope Entertainment",
+        "Poster": "/qEoPv39l36BaWHLJ4ln751VpcWC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 20319,
+        "Title": "Social Construct",
+        "Poster": "/weCmPzIfz1pGupRVFngpLYX2lJE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23857,
+        "Title": "Dreamher Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 23858,
+        "Title": "Lambrick Foundation, The",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19337,6 +36990,15 @@ var films = [
       "Fantasy",
       "Adventure",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 1931,
+        "Title": "Filmov\u00E9 studio Barrandov",
+        "Poster": "/5erHhgvym2cTORao8ajtn2gbiTH.png",
+        "OriginCountry": "XC",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19366,6 +37028,71 @@ var films = [
       "Drama",
       "Thriller",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 11564,
+        "Title": "Versus Entertainment",
+        "Poster": "",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 11565,
+        "Title": "The Safran Company",
+        "Poster": "/S74cHHbIrdmb5M51Pft72Uo9Gz.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11566,
+        "Title": "Dark Trick Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2577,
+        "Title": "Studio 37",
+        "Poster": "/QZ4zbeJ0sULzGNJvfukrzgx4d8.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 29566,
+        "Title": "Atresmedia",
+        "Poster": "/wHbtRtUnXGNzX0riQIpq1fcgueq.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 9335,
+        "Title": "Canal\u002B Espa\u00F1a",
+        "Poster": "",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 18626,
+        "Title": "Kinology",
+        "Poster": "/gb0xmYIKvNy2LnUOfLVglww7U0g.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 29259,
+        "Title": "ICO",
+        "Poster": "",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 152,
+        "Title": "Icon Productions",
+        "Poster": "/rC2pFo4IBQVSVZvucDLwMRvZHfi.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19392,6 +37119,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 146950,
+        "Title": "Tangram Film",
+        "Poster": "/4nMMzo1Bx35ohqDk70LIabx05hd.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19420,6 +37156,43 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 21622,
+        "Title": "Braven Films",
+        "Poster": "/2aRykuGbavtyeB4UecrHFQPX5gv.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3353,
+        "Title": "Element Pictures",
+        "Poster": "/qv2v9HaStUTRjqonODM29YG0oFX.png",
+        "OriginCountry": "IE",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 131603,
+        "Title": "LC6 Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 7493,
+        "Title": "FilmNation Entertainment",
+        "Poster": "/fHitYiGUCkRafgt6VPYQlXWLkdp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19445,6 +37218,22 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 13913,
+        "Title": "Joseph M. Schenck Productions",
+        "Poster": "",
+        "OriginCountry": "BR",
+        "Amount": 0
+      },
+      {
+        "Id": 16101,
+        "Title": "Metro Pictures Corporation",
+        "Poster": "/2yI4rjPZ1I7TLZ2UWvTtXifYEnw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19472,6 +37261,29 @@ var films = [
     ],
     "Genres": [
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 86092,
+        "Title": "Catalyst Global Media",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 53874,
+        "Title": "Sigma Films",
+        "Poster": "/mZJMAPElHQBIuWWXSyHtyaMf26C.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 89985,
+        "Title": "Thruline Entertainment",
+        "Poster": "/p5XmfqrGhVWwASWOu0ro9RVzni6.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19497,6 +37309,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 41077,
+        "Title": "A24",
+        "Poster": "/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7503,
+        "Title": "Protozoa Pictures",
+        "Poster": "/3K8wbNkTn7O4wX89ucnp1ZYR1XF.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19522,6 +37350,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19549,6 +37386,43 @@ var films = [
       "Drama",
       "Romance",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 22306,
+        "Title": "Constance Media",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 90610,
+        "Title": "Smudge Films",
+        "Poster": "/nFJMPK22kJS6LfsQtwd3u2cF9v9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 9118,
+        "Title": "Samuel Goldwyn Films",
+        "Poster": "/9o6KLcDBRw3fNItUflJVwj8dZpC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 791,
+        "Title": "Ipso Facto Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 35608,
+        "Title": "Ambi Distribution",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19576,6 +37450,22 @@ var films = [
     "Genres": [
       "Comedy",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 1382,
+        "Title": "PolyGram Filmed Entertainment",
+        "Poster": "/8b5XGJ8YhZoEo9LgFP8KRQWHjYL.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19603,6 +37493,22 @@ var films = [
       "Drama",
       "Crime",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 60,
+        "Title": "United Artists",
+        "Poster": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 597,
+        "Title": "Irish Dreamtime",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19629,6 +37535,15 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 169588,
+        "Title": "South Fork Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19656,6 +37571,22 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 63971,
+        "Title": "Prospector Films",
+        "Poster": "/9U4LhiybfyhDPpzim20IIvBnC5l.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 49937,
+        "Title": "Good Deed Entertainment",
+        "Poster": "/j14jwTsJj6ok9IkUFewX7acufKu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19685,6 +37616,36 @@ var films = [
       "Adventure",
       "Thriller",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 333,
+        "Title": "Original Film",
+        "Poster": "/5xUJfzPZ8jWJUDzYtIeuPO4qPIa.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 497,
+        "Title": "Revolution Studios",
+        "Poster": "/dcDGGHcPFBZopi7EB68UQC0VW6v.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2882,
+        "Title": "Neal H. Moritz Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19713,6 +37674,15 @@ var films = [
       "Drama",
       "Mystery",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19740,6 +37710,22 @@ var films = [
       "Drama",
       "History",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 344,
+        "Title": "Mosfilm",
+        "Poster": "/xenuUvcunUNpbaDOYGhWZERaym7.png",
+        "OriginCountry": "SU",
+        "Amount": 0
+      },
+      {
+        "Id": 105448,
+        "Title": "Goskino USSR",
+        "Poster": "/zPCdjtL8Ti2NHGSMoGSuEjSgkxZ.png",
+        "OriginCountry": "SU",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19767,6 +37753,43 @@ var films = [
       "Adventure",
       "Drama",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 491,
+        "Title": "Summit Entertainment",
+        "Poster": "/5LvDUt3KmvRnXQ4NrdWJYHeuA8J.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 53460,
+        "Title": "Fear and Loathing LLC",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1591,
+        "Title": "Rhino Films",
+        "Poster": "/ijgtPNnX17XNLw7eLpX9BJT90Fq.png",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 53461,
+        "Title": "Shark Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19792,6 +37815,15 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19817,6 +37849,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 838,
+        "Title": "Paramount Vantage",
+        "Poster": "/tcW3UqV46Mdq6GyaS1ydEDocEDF.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1947,
+        "Title": "New Deal Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 173500,
+        "Title": "Southern Cross the Dog Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19842,6 +37897,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 7980,
+        "Title": "Hold Up Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 43649,
+        "Title": "Lilies Films",
+        "Poster": "/5pv3tUlq25IiuMuok57YBZIiKn.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 94,
+        "Title": "ARTE France Cin\u00E9ma",
+        "Poster": "/huC7HqorvUThGIrENrbcHmQVUA0.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19870,6 +37948,64 @@ var films = [
     "Genres": [
       "Drama",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 856,
+        "Title": "Wild Bunch",
+        "Poster": "/3tfzS2CrX6Ntbu927XzHXEPDA6y.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 6961,
+        "Title": "Rouge International",
+        "Poster": "/jx0fJd9hDsJomQOhlQMUEHDLe9c.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 24430,
+        "Title": "BeTV",
+        "Poster": "/7ZIwXTA5QVD6feybiITOL6OYJPJ.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 49473,
+        "Title": "Frakas Productions",
+        "Poster": "/d0Cld16NzSAizrXfO6jrN3nH6az.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 792,
+        "Title": "RTBF",
+        "Poster": "/cRhBQP1FFNugNxKkO1pUgeD2Rkr.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 75891,
+        "Title": "Petit Film",
+        "Poster": "/7xISxdpoePsyJ0pYk32IkwtOE4L.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 11797,
+        "Title": "VOO",
+        "Poster": "/61JT9Ldht918n04Q73l2KhCjss.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 179299,
+        "Title": "Ezekiel Film Production",
+        "Poster": "/sbzY2IIzGj8NqC8Ybba19iAOKwh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19897,6 +38033,22 @@ var films = [
       "Action",
       "Crime",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 9195,
+        "Title": "Touchstone Pictures",
+        "Poster": "/geK5QOBsXIPGHutKwXtYjMUyYSG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 130,
+        "Title": "Jerry Bruckheimer Films",
+        "Poster": "/c9dVHPOL3cqCr2593Ahk0nEKTEM.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19925,6 +38077,50 @@ var films = [
       "Drama",
       "Thriller",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 126,
+        "Title": "Lakeshore Entertainment",
+        "Poster": "/kADPanRDkKTxncPXXVahvHPUvCj.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3287,
+        "Title": "Screen Gems",
+        "Poster": "/bz6GbCQQXGNE56LTW9dwgksW0Iw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 22512,
+        "Title": "Arlington Road Productions Corporation",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 22513,
+        "Title": "Gorai / Samuelson Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 22514,
+        "Title": "Samuelson Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1382,
+        "Title": "PolyGram Filmed Entertainment",
+        "Poster": "/8b5XGJ8YhZoEo9LgFP8KRQWHjYL.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19950,6 +38146,29 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 156062,
+        "Title": "If Not Now Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 26251,
+        "Title": "The Group Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 156063,
+        "Title": "Hot Coffee",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -19976,6 +38195,22 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 41077,
+        "Title": "A24",
+        "Poster": "/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 258,
+        "Title": "Scott Rudin Productions",
+        "Poster": "/tMI4xPwgxfNaNId3h9dOcHGU1NI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20004,6 +38239,29 @@ var films = [
       "Adventure",
       "Family",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 11393,
+        "Title": "Bregman/Baer Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 69625,
+        "Title": "Universal City Studios",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20030,6 +38288,43 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 6246,
+        "Title": "Medusa Film",
+        "Poster": "/7X6pfxldTiOD7MLo2EQqUQlmOUw.png",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 154035,
+        "Title": "Mediaset Premium",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 14016,
+        "Title": "MiC",
+        "Poster": "/snclwsIZQbgvqYCBJP8fqNlCA5y.png",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 19916,
+        "Title": "Lotus Production",
+        "Poster": "/dOQ7UtUAqydn5zmx3qElFIMqn6t.png",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 176106,
+        "Title": "Leone Film Group",
+        "Poster": "/pvIH3cW987c4UKcKWnmq8V3nK0v.png",
+        "OriginCountry": "IT",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20056,6 +38351,15 @@ var films = [
     "Genres": [
       "Comedy",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 88,
+        "Title": "Hawk Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20082,6 +38386,57 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 27351,
+        "Title": "Matten Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 10138,
+        "Title": "Double Nickel Entertainment",
+        "Poster": "/r67HWrAbCShfwWREWo2MlXsSK3B.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 975,
+        "Title": "Gerber Pictures",
+        "Poster": "/fknQoaiVO632mD4QMdJFmP3Gbda.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 171,
+        "Title": "Malpaso Productions",
+        "Poster": "/bqLWwuNCHcY3IjB5e4o29h7l80D.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 79,
+        "Title": "Village Roadshow Pictures",
+        "Poster": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 27352,
+        "Title": "WV Films IV",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20110,6 +38465,57 @@ var films = [
       "Drama",
       "Action",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 10393,
+        "Title": "Vertigo Films",
+        "Poster": "/7MazD0kppT5OzdumzDi5IFYNthO.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 11367,
+        "Title": "4DH Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 3272,
+        "Title": "Aramid Entertainment",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 11366,
+        "Title": "Str8jacket Creations",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 1917,
+        "Title": "EM Media",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 171066,
+        "Title": "Scanbox Entertainment Production",
+        "Poster": "/tjNpvJOTCwvPL2faaj3r2RR3dTs.png",
+        "OriginCountry": "DK",
+        "Amount": 0
+      },
+      {
+        "Id": 20277,
+        "Title": "Protagonist Pictures",
+        "Poster": "/aomeUwZLIBjGXHfuZq7HTVk7UNb.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20137,6 +38543,29 @@ var films = [
     "Genres": [
       "Adventure",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 437,
+        "Title": "Heyday Films",
+        "Poster": "/nu20mtwbEIhUNnQ5NXVhHsNknZj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 436,
+        "Title": "1492 Pictures",
+        "Poster": "/A7WCkG3F0NFvjGCwUnclpGdIu9E.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20163,6 +38592,22 @@ var films = [
     "Genres": [
       "Crime",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 285,
+        "Title": "Live Entertainment",
+        "Poster": "/ebAB20KtEg4J0eFMFBGhFJsSoYc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 26198,
+        "Title": "Dog Eat Dog Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20192,6 +38637,71 @@ var films = [
       "Drama",
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 288,
+        "Title": "BBC Film",
+        "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 315,
+        "Title": "Filmstiftung Nordrhein-Westfalen",
+        "Poster": "/hdu0sVxgtCuQud0xF8ZBiN7hEhY.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 2650,
+        "Title": "Ealing Studios",
+        "Poster": "/sDWe94w5fuyfgfRKc3N27CSJvsD.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 2651,
+        "Title": "Fragile Films",
+        "Poster": "/rmfShgOyHdGSljYXcvZsbVGSRGV.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 10146,
+        "Title": "Focus Features",
+        "Poster": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 52728,
+        "Title": "Cougar Films Ltd.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 52729,
+        "Title": "Minotaur Film Partnership No. 3",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 42272,
+        "Title": "RTL",
+        "Poster": "/2bAuO4EvS59O1uXZQAKXG0HIXQg.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 96,
+        "Title": "X Filme Creative Pool",
+        "Poster": "/9ps82gVzUeNdkjmLzoGDQLiLDio.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20217,6 +38727,15 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 10302,
+        "Title": "Alleycat Studios",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20245,6 +38764,43 @@ var films = [
       "Adventure",
       "Family",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 1867,
+        "Title": "Golden Mean",
+        "Poster": "/j5HFzFmRrjOEpJg6jySl9z2QfLm.png",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 4171,
+        "Title": "Playtone",
+        "Poster": "/cdwjRVcXP9zws9gkiim0KkBNs9N.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11395,
+        "Title": "ImageMovers",
+        "Poster": "/5vSBzUwnCcaF90ZTchG3LwRKQ2M.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 97,
+        "Title": "Castle Rock Entertainment",
+        "Poster": "/7znWcbDd4PcJzJUlJxYqAlPPykp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2265,
+        "Title": "Shangri-La Entertainment",
+        "Poster": "/Pt0geXD3kQs2H5WSTreYV8MzRe.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20272,6 +38828,22 @@ var films = [
       "Animation",
       "Family",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 3,
+        "Title": "Pixar",
+        "Poster": "/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2,
+        "Title": "Walt Disney Pictures",
+        "Poster": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20298,6 +38870,36 @@ var films = [
     "Genres": [
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 43,
+        "Title": "Fox Searchlight Pictures",
+        "Poster": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7053,
+        "Title": "Catch 23 Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1422,
+        "Title": "Killer Films",
+        "Poster": "/rIB6DuimR1qgLE14cBwpMABC2xx.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5286,
+        "Title": "Laughlin Park Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20324,6 +38926,15 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 5843,
+        "Title": "Renegade Pictures",
+        "Poster": "/c1NzKYz0tijvhYJZvdn9VhH4HwG.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20351,6 +38962,50 @@ var films = [
       "Drama",
       "Mystery",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 9262,
+        "Title": "Cannon and Morley Productions",
+        "Poster": "/zrvByJWJPsY5rJiZCVQZiHwnK0r.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 10583,
+        "Title": "Independent",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 288,
+        "Title": "BBC Film",
+        "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 7281,
+        "Title": "BFI",
+        "Poster": "/iI7qdR1OFPo0U41BlpKBLD3xesh.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 110455,
+        "Title": "Boudica Red",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 9987,
+        "Title": "Lipsync Productions",
+        "Poster": "/o5OTKAw7Acl5fTZYPyl8M8D9570.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20379,6 +39034,22 @@ var films = [
       "Adventure",
       "Animation",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 2,
+        "Title": "Walt Disney Pictures",
+        "Poster": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3,
+        "Title": "Pixar",
+        "Poster": "/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20404,6 +39075,15 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 129069,
+        "Title": "Siskel/Jacobs Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20431,6 +39111,22 @@ var films = [
       "Thriller",
       "Mystery",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 1553,
+        "Title": "Selznick International Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 226531,
+        "Title": "Vanguard Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20458,6 +39154,15 @@ var films = [
       "Drama",
       "Horror",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20486,6 +39191,29 @@ var films = [
       "Comedy",
       "War",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 43,
+        "Title": "Fox Searchlight Pictures",
+        "Poster": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6510,
+        "Title": "Defender Films",
+        "Poster": "",
+        "OriginCountry": "NZ",
+        "Amount": 0
+      },
+      {
+        "Id": 76342,
+        "Title": "Piki Films",
+        "Poster": "/i53Cvs0mWLEhrRaPOpUXj4lJxDJ.png",
+        "OriginCountry": "NZ",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20513,6 +39241,22 @@ var films = [
       "Horror",
       "Drama",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2481,
+        "Title": "Platinum Dunes",
+        "Poster": "/vOQg26GjR0LnkN1Ph9uyog1UuOE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20540,6 +39284,22 @@ var films = [
       "Horror",
       "Mystery",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23,
+        "Title": "Imagine Entertainment",
+        "Poster": "/bJOFo2ufq7iFC1F4qZm8aLxF5aS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20568,6 +39328,22 @@ var films = [
       "Adventure",
       "Science Fiction",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20593,7 +39369,8 @@ var films = [
     ],
     "Genres": [
       "Documentary"
-    ]
+    ],
+    "Studios": []
   },
   {
     "Title": "Manic",
@@ -20618,6 +39395,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 13028,
+        "Title": "Next Wave Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20645,6 +39431,22 @@ var films = [
     "Genres": [
       "Drama",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 14440,
+        "Title": "Red Wagon Entertainment",
+        "Poster": "/gk9zllyMFnaVBWTdZpm7VcfQrHC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1522,
+        "Title": "Neal Street Productions",
+        "Poster": "/8uaoEVgNxFH0R94O53gUiByahVr.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20671,6 +39473,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 7,
+        "Title": "DreamWorks Pictures",
+        "Poster": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 18619,
+        "Title": "Cobalt Media Group",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 1187,
+        "Title": "Michael London Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20698,6 +39523,29 @@ var films = [
     "Genres": [
       "Drama",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 89578,
+        "Title": "Grade A Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7493,
+        "Title": "FilmNation Entertainment",
+        "Poster": "/fHitYiGUCkRafgt6VPYQlXWLkdp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 8569,
+        "Title": "Dayday Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20724,6 +39572,36 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 7975,
+        "Title": "Inflammable Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 17817,
+        "Title": "Warp X",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 2690,
+        "Title": "Screen Yorkshire",
+        "Poster": "/9XXpd39mDfkWmcNB6R0tpvzo781.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20751,6 +39629,43 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 10146,
+        "Title": "Focus Features",
+        "Poster": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 13184,
+        "Title": "Annapurna Pictures",
+        "Poster": "/pfUB1a62jSMIqp4Xmaq6z2cgW0B.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10338,
+        "Title": "Perfect World Pictures",
+        "Poster": "/a8HjeCqXlm96IKSHvwaBPTMmAIp.png",
+        "OriginCountry": "CN",
+        "Amount": 0
+      },
+      {
+        "Id": 211621,
+        "Title": "JoAnne Sellar Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 178,
+        "Title": "Ghoulardi Film Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20777,6 +39692,15 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20802,6 +39726,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 55960,
+        "Title": "Live Wire Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20828,6 +39761,22 @@ var films = [
     ],
     "Genres": [
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 83715,
+        "Title": "Dawn Associates",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 2483,
+        "Title": "Laurel Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20853,6 +39802,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 148450,
+        "Title": "7 Eccles Street",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 63690,
+        "Title": "Circa 1888",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 109345,
+        "Title": "5B Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20880,6 +39852,22 @@ var films = [
       "Horror",
       "Thriller",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 13778,
+        "Title": "Bluegrass Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25998,
+        "Title": "Chris Morgan Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20908,6 +39896,36 @@ var films = [
       "Documentary",
       "History",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 107971,
+        "Title": "Imperial War Museums",
+        "Poster": "/41MbzYgni2yh7GTjzYfX7w2b8GH.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 11,
+        "Title": "WingNut Films",
+        "Poster": "/6FAuASQHybRkZUk08p9PzSs9ezM.png",
+        "OriginCountry": "NZ",
+        "Amount": 0
+      },
+      {
+        "Id": 111180,
+        "Title": "14-18 NOW",
+        "Poster": "/oqzOkzGprFT2tYmb8InARHFqbVy.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 112783,
+        "Title": "House Productions",
+        "Poster": "/g95BBJvKyOawT3sGVXTdDG72Qad.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20935,6 +39953,50 @@ var films = [
     "Genres": [
       "Action",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 1302,
+        "Title": "Davis Entertainment",
+        "Poster": "/zC3b70ixHh89qJIikLQPEvLqbPM.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 415,
+        "Title": "Laurence Mark Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 19355,
+        "Title": "Canlaws Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 907,
+        "Title": "Overbrook Entertainment",
+        "Poster": "/ca5SWI5uvU985f8Kbb4xc8AmVWH.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 19354,
+        "Title": "Mediastream Vierte Film GmbH \u0026 Co. Vermarktungs KG",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20961,6 +40023,22 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 3573,
+        "Title": "Celador Films",
+        "Poster": "/cA8YIHjFbWVSxJMnAkKvLYGegSS.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -20988,6 +40066,22 @@ var films = [
       "Drama",
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 88152,
+        "Title": "Cre Film",
+        "Poster": "/zm1yRe17jzOgEzXrNj6hd8gl89O.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7493,
+        "Title": "FilmNation Entertainment",
+        "Poster": "/fHitYiGUCkRafgt6VPYQlXWLkdp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21017,6 +40111,43 @@ var films = [
     ],
     "Genres": [
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 5346,
+        "Title": "Applause Pictures",
+        "Poster": "",
+        "OriginCountry": "HK",
+        "Amount": 0
+      },
+      {
+        "Id": 3405,
+        "Title": "MediaCorp Raintree Pictures",
+        "Poster": "",
+        "OriginCountry": "SG",
+        "Amount": 0
+      },
+      {
+        "Id": 3618,
+        "Title": "Film Workshop",
+        "Poster": "",
+        "OriginCountry": "HK",
+        "Amount": 0
+      },
+      {
+        "Id": 1615,
+        "Title": "Fortissimo Films",
+        "Poster": "/4eBmyaFkD9um04Weu6ybnLWNSVH.png",
+        "OriginCountry": "NL",
+        "Amount": 0
+      },
+      {
+        "Id": 239996,
+        "Title": "Advertising Production",
+        "Poster": "",
+        "OriginCountry": "TH",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21044,6 +40175,29 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 4319,
+        "Title": "40 Acres and a Mule Filmworks",
+        "Poster": "/dU4Y8EqPLCz6jARM63NwGhr4DcG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23,
+        "Title": "Imagine Entertainment",
+        "Poster": "/bJOFo2ufq7iFC1F4qZm8aLxF5aS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21071,6 +40225,22 @@ var films = [
       "Comedy",
       "Romance",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 97,
+        "Title": "Castle Rock Entertainment",
+        "Poster": "/7znWcbDd4PcJzJUlJxYqAlPPykp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 365,
+        "Title": "Nelson Entertainment",
+        "Poster": "/3InSlF0bcc5zuObBGMQpDoSCjYV.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21098,6 +40268,36 @@ var films = [
       "Adventure",
       "Science Fiction",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 7,
+        "Title": "DreamWorks Pictures",
+        "Poster": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 435,
+        "Title": "di Bonaventura Pictures",
+        "Poster": "/AjzK0s2w1GtLfR4hqCjVSYi0Sr8.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 38831,
+        "Title": "DeSanto/Murphy Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21126,6 +40326,36 @@ var films = [
     "Genres": [
       "Drama",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 6542,
+        "Title": "Pricel",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 70,
+        "Title": "American Zoetrope",
+        "Poster": "/ueaENQkPcy8rlr5fGZVBXKOhlBh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1780,
+        "Title": "TFC",
+        "Poster": "/jdnvUiU7I3Uf2ig0VZNNjf0ORRL.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21151,6 +40381,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 219,
+        "Title": "The Mirisch Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 60,
+        "Title": "United Artists",
+        "Poster": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21178,6 +40424,29 @@ var films = [
       "Drama",
       "Romance",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 508,
+        "Title": "Regency Enterprises",
+        "Poster": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 84041,
+        "Title": "Pascal Pictures",
+        "Poster": "/nw4kyc29QRpNtFbdsBHkRSFavvt.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21205,6 +40474,22 @@ var films = [
       "Drama",
       "Horror",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7503,
+        "Title": "Protozoa Pictures",
+        "Poster": "/3K8wbNkTn7O4wX89ucnp1ZYR1XF.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21235,6 +40520,36 @@ var films = [
       "Action",
       "Adventure",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 275,
+        "Title": "Carolco Pictures",
+        "Poster": "/2MxNWlN5b3UXt1OfmznsWEQzFwq.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 183,
+        "Title": "Le Studio Canal\u002B",
+        "Poster": "/eadyph99FClrWlnE0jPniwOcvvw.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 249444,
+        "Title": "Pioneer",
+        "Poster": "/8hyEgM2FAnqwkqBd5g2x9XLXiQI.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 23246,
+        "Title": "RCS Video",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21261,6 +40576,22 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 18,
+        "Title": "Gracie Films",
+        "Poster": "/uqhagSwM7NAkQWVCQhKTyoqF8XH.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1632,
+        "Title": "Lionsgate",
+        "Poster": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21290,6 +40621,50 @@ var films = [
       "Drama",
       "Horror",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 7981,
+        "Title": "Path\u00E9",
+        "Poster": "/6Yv1gIAuGkHS5Vis4UjnqHhCPWV.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 2452,
+        "Title": "UK Film Council",
+        "Poster": "/gOkUB0TdXRLAl6s0s6jCSLS3sOb.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 245,
+        "Title": "Cowboy Films",
+        "Poster": "/9oyhlRJFKrGPmhbRseNbuD9H6dN.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 247,
+        "Title": "Granada Productions",
+        "Poster": "/kgYZ2I5ibveeOOn10VJKQCg6hLd.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 248,
+        "Title": "Impact Pictures",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21317,6 +40692,15 @@ var films = [
       "Action",
       "Adventure",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 420,
+        "Title": "Marvel Studios",
+        "Poster": "/hUzeosd33nzE5MCNsZxCGEKTXaQ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21345,6 +40729,22 @@ var films = [
       "Comedy",
       "Science Fiction",
       "TV Movie"
+    ],
+    "Studios": [
+      {
+        "Id": 29500,
+        "Title": "The Curiosity Company",
+        "Poster": "/vPjzW9arYveDG682pPGoMFZCt9j.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1556,
+        "Title": "20th Century Fox Television",
+        "Poster": "/31h94rG9hzjprXoYNy3L1ErUya2.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21373,6 +40773,57 @@ var films = [
       "Comedy",
       "Drama",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 10146,
+        "Title": "Focus Features",
+        "Poster": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 923,
+        "Title": "Legendary Pictures",
+        "Poster": "/5UQsZrfbfG2dYJbx8DxfoTr2Bvu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 72725,
+        "Title": "QC Entertainment",
+        "Poster": "/gflhJ4lNROXuYMeN4giNrVQvtDw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3172,
+        "Title": "Blumhouse Productions",
+        "Poster": "/rzKluDcRkIwHZK2pHsiT667A2Kw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 88934,
+        "Title": "Monkeypaw Productions",
+        "Poster": "/5Be96V9WXa7jJInSDPqDOqMBA0o.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4319,
+        "Title": "40 Acres and a Mule Filmworks",
+        "Poster": "/dU4Y8EqPLCz6jARM63NwGhr4DcG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 214539,
+        "Title": "Perfect World Pictures",
+        "Poster": "/7gLb5n9flgH3aGn28Q0jNtPhlwx.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21398,6 +40849,36 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 838,
+        "Title": "Paramount Vantage",
+        "Poster": "/tcW3UqV46Mdq6GyaS1ydEDocEDF.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 14,
+        "Title": "Miramax",
+        "Poster": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 211621,
+        "Title": "JoAnne Sellar Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 178,
+        "Title": "Ghoulardi Film Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21425,6 +40906,29 @@ var films = [
       "Adventure",
       "Drama",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 9195,
+        "Title": "Touchstone Pictures",
+        "Poster": "/geK5QOBsXIPGHutKwXtYjMUyYSG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 862,
+        "Title": "The Kennedy/Marshall Company",
+        "Poster": "/vdK6ZhC2CSW36j0VPEavRxOpbEg.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21450,6 +40954,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 88999,
+        "Title": "Bluebird Photoplays",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 13133,
+        "Title": "Universal Film Manufacturing Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21477,6 +40997,22 @@ var films = [
       "Adventure",
       "Family",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 5040,
+        "Title": "Morningside Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21502,6 +41038,36 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 91513,
+        "Title": "Dragons Films",
+        "Poster": "",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 11794,
+        "Title": "Lunanime",
+        "Poster": "/vjyzeaIhRdtMfDIVGAECNirIkGw.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 11797,
+        "Title": "VOO",
+        "Poster": "/61JT9Ldht918n04Q73l2KhCjss.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 24430,
+        "Title": "BeTV",
+        "Poster": "/7ZIwXTA5QVD6feybiITOL6OYJPJ.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21530,6 +41096,22 @@ var films = [
       "Comedy",
       "Family",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 3,
+        "Title": "Pixar",
+        "Poster": "/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2,
+        "Title": "Walt Disney Pictures",
+        "Poster": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21559,6 +41141,50 @@ var films = [
       "Action",
       "Thriller",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 449,
+        "Title": "Virtual Studios",
+        "Poster": "/fV3x8bowlRCXKtkWDovLYco7cOK.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 450,
+        "Title": "Anarchos Productions",
+        "Poster": "/5SQqMrfCZPWdVE0q25DISvKwToE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1885,
+        "Title": "Silver Pictures",
+        "Poster": "/xlvoOZr4s1PygosrwZyolIFe5xs.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23889,
+        "Title": "F\u00FCnfte Babelsberg Film",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 213688,
+        "Title": "Warner Bros. Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 165407,
+        "Title": "DC Vertigo",
+        "Poster": "/5fnvtywvYSkskSJr99VcR3x9RTE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21585,6 +41211,22 @@ var films = [
     "Genres": [
       "Drama",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10211,
+        "Title": "Alfran Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21612,6 +41254,36 @@ var films = [
     "Genres": [
       "Science Fiction",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 816,
+        "Title": "FilmEngine",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 817,
+        "Title": "Katalyst Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 6363,
+        "Title": "BenderSpink",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21640,6 +41312,22 @@ var films = [
       "War",
       "Action",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 9996,
+        "Title": "Syncopy",
+        "Poster": "/3tvBqYsBhxWeHlu62SIJ1el93O7.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21667,6 +41355,50 @@ var films = [
       "Drama",
       "Science Fiction",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 79,
+        "Title": "Village Roadshow Pictures",
+        "Poster": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 433,
+        "Title": "Weed Road Pictures",
+        "Poster": "/iafkKMpcRfEXq9a4sQf0h6tg2E2.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 907,
+        "Title": "Overbrook Entertainment",
+        "Poster": "/ca5SWI5uvU985f8Kbb4xc8AmVWH.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 437,
+        "Title": "Heyday Films",
+        "Poster": "/nu20mtwbEIhUNnQ5NXVhHsNknZj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 333,
+        "Title": "Original Film",
+        "Poster": "/5xUJfzPZ8jWJUDzYtIeuPO4qPIa.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21693,6 +41425,36 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 6116,
+        "Title": "Argos films",
+        "Poster": "/yCu2D15iD7lcYsBWqXjU65U9nkH.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 14680,
+        "Title": "Parc Film",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 6181,
+        "Title": "SF Studios",
+        "Poster": "/eaQ7or8IoEmPfgmQiU2C5lVZkxS.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 2302,
+        "Title": "Svenska Filminstitutet",
+        "Poster": "/rPXEdpqwFycAY9ZgrAJXv13qcWW.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21720,6 +41482,36 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 188,
+        "Title": "Big Beach",
+        "Poster": "/40E8iNvy6brH6t4BbmQL211jIpl.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1473,
+        "Title": "Depth of Field",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 118246,
+        "Title": "Kindred Spirit",
+        "Poster": "/thGsoSlp0SEayiulTOOofmnKD4z.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 146336,
+        "Title": "Seesaw Productions",
+        "Poster": "",
+        "OriginCountry": "CN",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21747,6 +41539,57 @@ var films = [
       "Drama",
       "Thriller",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 856,
+        "Title": "Wild Bunch",
+        "Poster": "/3tfzS2CrX6Ntbu927XzHXEPDA6y.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 616,
+        "Title": "Eskwad",
+        "Poster": "/aeBPwUMUqIOFnt3Fxv9fC91hBuq.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 1157,
+        "Title": "Les Cin\u00E9mas de la Zone",
+        "Poster": "/2MXuq4DGo1GhjavHHxPlsWrtyD.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 4176,
+        "Title": "Nord-Ouest Productions",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 19233,
+        "Title": "120 Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 104,
+        "Title": "Canal\u002B",
+        "Poster": "/9aotxauvc9685tq9pTcRJszuT06.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21773,6 +41616,29 @@ var films = [
     "Genres": [
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 506,
+        "Title": "Newmarket Capital Group",
+        "Poster": "/obIWjrmF9pWzxXcDCd3810YzJpk.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3169,
+        "Title": "Zide-Perry Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21802,6 +41668,43 @@ var films = [
       "Action",
       "Crime",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 79,
+        "Title": "Village Roadshow Pictures",
+        "Poster": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1885,
+        "Title": "Silver Pictures",
+        "Poster": "/xlvoOZr4s1PygosrwZyolIFe5xs.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 46458,
+        "Title": "Jonathan Krane Group",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 172,
+        "Title": "NPV Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21828,6 +41731,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 105,
+        "Title": "CiBy 2000",
+        "Poster": "/pyiNvPJYGz4W2SImgULoG2sn4y4.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 181,
+        "Title": "Channel Four Films",
+        "Poster": "/A8SjepJ332C0YMamdFEMco0nstt.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 10100,
+        "Title": "Thin Man Films",
+        "Poster": "/nmx8lrRBeXk5ZLnUKazDUx4PYVf.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21856,6 +41782,29 @@ var films = [
     "Genres": [
       "Comedy",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 11352,
+        "Title": "Prominent Features",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 45505,
+        "Title": "Fish Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21881,6 +41830,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 102893,
+        "Title": "Speak Film Inc.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 109369,
+        "Title": "Showtime Independent Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21907,6 +41872,29 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11043,
+        "Title": "A\u0026M Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 8812,
+        "Title": "Channel Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21932,6 +41920,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 98592,
+        "Title": "ICM Partners",
+        "Poster": "/uX536oMF7WCKzSXoaHHCvicdTuN.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21958,6 +41955,29 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7,
+        "Title": "DreamWorks Pictures",
+        "Poster": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23,
+        "Title": "Imagine Entertainment",
+        "Poster": "/bJOFo2ufq7iFC1F4qZm8aLxF5aS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -21986,6 +42006,43 @@ var films = [
       "Drama",
       "Thriller",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 49934,
+        "Title": "Kazak Productions",
+        "Poster": "/ns14fiims2htw1kiEI9xCJFFlWO.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 94,
+        "Title": "ARTE France Cin\u00E9ma",
+        "Poster": "/huC7HqorvUThGIrENrbcHmQVUA0.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 49473,
+        "Title": "Frakas Productions",
+        "Poster": "/d0Cld16NzSAizrXfO6jrN3nH6az.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 11797,
+        "Title": "VOO",
+        "Poster": "/61JT9Ldht918n04Q73l2KhCjss.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 24430,
+        "Title": "BeTV",
+        "Poster": "/7ZIwXTA5QVD6feybiITOL6OYJPJ.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22015,6 +42072,29 @@ var films = [
       "Drama",
       "Thriller",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 34455,
+        "Title": "Votiv Films",
+        "Poster": "/wTz9ZMSoxFBDnqrRZRwBLWpsQQO.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 51235,
+        "Title": "Taggart Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 119835,
+        "Title": "Felt Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22043,6 +42123,29 @@ var films = [
       "Animation",
       "Comedy",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 554,
+        "Title": "Silver Screen Partners III",
+        "Poster": "/mN5HU5xYq9xtEs1X0Hu25A9y8lW.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 9195,
+        "Title": "Touchstone Pictures",
+        "Poster": "/geK5QOBsXIPGHutKwXtYjMUyYSG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22070,6 +42173,36 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 28286,
+        "Title": "Low Spark Films",
+        "Poster": "/m4zzuwJbTrqw5qZHoXpySkC87jE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 168717,
+        "Title": "Evil Hag Productions",
+        "Poster": "/xX3DM1Tsc5tQt5rvfFJG0tH9JZk.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 232666,
+        "Title": "Fear Knot Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 182083,
+        "Title": "MakeMake",
+        "Poster": "/snRLy61xn6sZNtNi3uNpFp1nLVE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22097,6 +42230,36 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 288,
+        "Title": "BBC Film",
+        "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 2452,
+        "Title": "UK Film Council",
+        "Poster": "/gOkUB0TdXRLAl6s0s6jCSLS3sOb.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 1420,
+        "Title": "ContentFilm",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 1049,
+        "Title": "Kasander Film Company",
+        "Poster": "",
+        "OriginCountry": "NL",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22126,6 +42289,29 @@ var films = [
       "Action",
       "Science Fiction",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 923,
+        "Title": "Legendary Pictures",
+        "Poster": "/5UQsZrfbfG2dYJbx8DxfoTr2Bvu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 9996,
+        "Title": "Syncopy",
+        "Poster": "/3tvBqYsBhxWeHlu62SIJ1el93O7.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22154,6 +42340,29 @@ var films = [
       "Adventure",
       "Comedy",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 437,
+        "Title": "Heyday Films",
+        "Poster": "/nu20mtwbEIhUNnQ5NXVhHsNknZj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 20664,
+        "Title": "Anton Capital Entertainment",
+        "Poster": "/iRrZpxnYNDnVXJkr6HiLgSLlqRc.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22182,6 +42391,22 @@ var films = [
       "Fantasy",
       "Comedy",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 11407,
+        "Title": "Baltimore Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22210,6 +42435,22 @@ var films = [
       "Crime",
       "Comedy",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 8912,
+        "Title": "Oakhurst Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22240,6 +42481,71 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 7741,
+        "Title": "Landscape Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 13772,
+        "Title": "Screen Door",
+        "Poster": "",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 14621,
+        "Title": "Solo Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 96270,
+        "Title": "Storyscape Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 96271,
+        "Title": "H Is 4 Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 96272,
+        "Title": "Painted House Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 96273,
+        "Title": "Rink Rat Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 96274,
+        "Title": "Small Shack Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 5122,
+        "Title": "Parallel Films",
+        "Poster": "",
+        "OriginCountry": "IE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22266,6 +42572,15 @@ var films = [
     "Genres": [
       "Romance",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22293,6 +42608,15 @@ var films = [
       "Thriller",
       "Drama",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 2364,
+        "Title": "The Montecito Picture Company",
+        "Poster": "/oZyR5maGM96jReVgW7oJ7mXN8ts.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22318,6 +42642,22 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 8794,
+        "Title": "Refugee Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22345,6 +42685,29 @@ var films = [
       "Drama",
       "Romance",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 41640,
+        "Title": "Archer Gray",
+        "Poster": "/e1naE79Djln19oDgMsP3uuvLbTq.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3916,
+        "Title": "Cold Iron Pictures",
+        "Poster": "/noNtRpiSEx5XUfhWbhr74MiXXn9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 178404,
+        "Title": "Caviar",
+        "Poster": "/c0vZ3qicUq3z8WD5EF1oleLtNMf.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22372,6 +42735,15 @@ var films = [
       "Comedy",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 41,
+        "Title": "Orion Pictures",
+        "Poster": "/xAot4SSOIHiWQ2WEnVXYGR1lce9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22400,6 +42772,50 @@ var films = [
       "Science Fiction",
       "Comedy",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 594,
+        "Title": "Capella International",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 15888,
+        "Title": "Moving Pictures",
+        "Poster": "/zXjrBipljpiBkfPCcjPWI2zYoh8.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 595,
+        "Title": "Eric's Boy",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 22182,
+        "Title": "KC Medien",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 598,
+        "Title": "Team Todd",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22428,6 +42844,15 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 1020,
+        "Title": "Millennium Media",
+        "Poster": "/kuUIHNwMec4dwOLghDhhZJzHZTd.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22453,6 +42878,15 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 3324,
+        "Title": "BBC",
+        "Poster": "/dqT3yOTlfJRmtvk52Ccd1O6dZ0A.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22483,6 +42917,36 @@ var films = [
       "Fantasy",
       "Drama",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 2029,
+        "Title": "Estudios Picasso",
+        "Poster": "",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 7470,
+        "Title": "Esperanto Filmoj",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11628,
+        "Title": "Tequila Gang",
+        "Poster": "",
+        "OriginCountry": "MX",
+        "Amount": 0
+      },
+      {
+        "Id": 1182,
+        "Title": "Telecinco Cinema",
+        "Poster": "/bkgwJWvqqLuzsXV2Qv3Mg3wfcNZ.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22513,6 +42977,43 @@ var films = [
       "Drama",
       "Thriller",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 24,
+        "Title": "Mikona Productions",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 763,
+        "Title": "Intermedia",
+        "Poster": "/mCnIVkImjm8rUxIpGR5NgrGlIYL.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 831,
+        "Title": "Saturn Films",
+        "Poster": "/vLENXiYTyITnMDrTKabUXhgTKX2.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 81128,
+        "Title": "Dirty Hands Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22540,6 +43041,29 @@ var films = [
       "Comedy",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 771,
+        "Title": "Mandate Pictures",
+        "Poster": "/fQpEeXgCVsXQkVVFMMjrrkOFja3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2130,
+        "Title": "Mr. Mudd",
+        "Poster": "/g0lqeY2FvhzXcOI6z8RVXbORRUY.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 43,
+        "Title": "Fox Searchlight Pictures",
+        "Poster": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22567,6 +43091,36 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 41077,
+        "Title": "A24",
+        "Poster": "/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1422,
+        "Title": "Killer Films",
+        "Poster": "/rIB6DuimR1qgLE14cBwpMABC2xx.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 158407,
+        "Title": "2AM",
+        "Poster": "/zUj7hFnsY8y1hVPfiZYnDtcGTHe.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 128404,
+        "Title": "CJ ENM",
+        "Poster": "/dP3usmr6di1jMPH738rvbxdkmSQ.png",
+        "OriginCountry": "KR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22594,6 +43148,22 @@ var films = [
       "Drama",
       "Thriller",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 2088,
+        "Title": "NALA Films",
+        "Poster": "/AoCD5EcqTAuLkxwsKAXYG2VARPP.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23596,
+        "Title": "Paul Schiff Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22619,6 +43189,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 436,
+        "Title": "1492 Pictures",
+        "Poster": "/A7WCkG3F0NFvjGCwUnclpGdIu9E.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 95966,
+        "Title": "Harbinger Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22648,6 +43234,36 @@ var films = [
       "Adventure",
       "Fantasy",
       "TV Movie"
+    ],
+    "Studios": [
+      {
+        "Id": 3324,
+        "Title": "BBC",
+        "Poster": "/dqT3yOTlfJRmtvk52Ccd1O6dZ0A.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 9137,
+        "Title": "Moonlighting Films",
+        "Poster": "",
+        "OriginCountry": "ZA",
+        "Amount": 0
+      },
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 8102,
+        "Title": "Working Title Television",
+        "Poster": "/xDCttGk89Udx0Mc11ZZOb14xIg4.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22674,6 +43290,15 @@ var films = [
     "Genres": [
       "Fantasy",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 24148,
+        "Title": "Hepworth",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22703,6 +43328,22 @@ var films = [
       "Family",
       "Drama",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 3066,
+        "Title": "High Road",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 10427,
+        "Title": "Open Road Films",
+        "Poster": "/3u5sNgPRbba0ND3SUMXPTT7On9h.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22731,6 +43372,57 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 6274,
+        "Title": "MK2 Films",
+        "Poster": "/ngZoa368SAnERTz3IBvgTT4eWeB.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 25954,
+        "Title": "Metrol Technology",
+        "Poster": "/oga9DS7GZGbZ0iZ4JFuVTBMBv1C.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 19037,
+        "Title": "uMedia",
+        "Poster": "/tceh2aAORA5JxIZSLQ1GkzTBZDL.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 182380,
+        "Title": "Wild Swim Films",
+        "Poster": "/kKEKB70wXqeXXqaYhm95Epfyuzu.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 76888,
+        "Title": "Heretic",
+        "Poster": "/eQzzrPMtHbgAxKgQysFH73mHaHF.png",
+        "OriginCountry": "GR",
+        "Amount": 0
+      },
+      {
+        "Id": 5056,
+        "Title": "Head Gear Films",
+        "Poster": "/583ITs4w9sK31FnJwKiRwapTpzb.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22758,6 +43450,15 @@ var films = [
       "Horror",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 17840,
+        "Title": "Ruthless Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22783,6 +43484,22 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 11142,
+        "Title": "Cinema Group Ventures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22808,6 +43525,22 @@ var films = [
     ],
     "Genres": [
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 123193,
+        "Title": "Neon Heart Productions",
+        "Poster": "/hlraS6aElXs04QKmSOCyPj8sNkV.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 192217,
+        "Title": "Trikon Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22835,6 +43568,22 @@ var films = [
       "Crime",
       "Horror",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 7405,
+        "Title": "Dimension Films",
+        "Poster": "/rfnws0uY8rsNAsrLbx3gEIcYXx3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 163562,
+        "Title": "Woods Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22863,6 +43612,22 @@ var films = [
       "Fantasy",
       "Family",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 47,
+        "Title": "Constantin Film",
+        "Poster": "/i7Z9ot2o3N5Sa3HrF09kniFs2y8.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 1704,
+        "Title": "Bavaria Film",
+        "Poster": "/sb3PuMTgJgpPUY7x634etBAhodu.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22892,6 +43657,78 @@ var films = [
       "Adventure",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 43,
+        "Title": "Fox Searchlight Pictures",
+        "Poster": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7981,
+        "Title": "Path\u00E9",
+        "Poster": "/6Yv1gIAuGkHS5Vis4UjnqHhCPWV.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 10892,
+        "Title": "Everest Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6707,
+        "Title": "Cloud Eight Films",
+        "Poster": "/5bJmjTayNNSJt1VTEKDpXFM04H1.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 8286,
+        "Title": "Decibel Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 2015,
+        "Title": "DSP",
+        "Poster": "/2QYmUQEca7nlEmFkuvKQjKQsE0m.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 444,
+        "Title": "Dune Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10893,
+        "Title": "Big Screen Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 37336,
+        "Title": "Down Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22920,6 +43757,22 @@ var films = [
     "Genres": [
       "Thriller",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 29303,
+        "Title": "Bellanova Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1436,
+        "Title": "Ugly Duckling Films",
+        "Poster": "/3VRz5vPmsObDLAYFMmRaSA6swkj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22948,6 +43801,43 @@ var films = [
       "Action",
       "Drama",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1645,
+        "Title": "Scott Free Productions",
+        "Poster": "/6Ry6uNBaa0IbbSs1XYIgX5DkA9r.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 14440,
+        "Title": "Red Wagon Entertainment",
+        "Poster": "/gk9zllyMFnaVBWTdZpm7VcfQrHC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 21904,
+        "Title": "Mill Film",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 7,
+        "Title": "DreamWorks Pictures",
+        "Poster": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22973,6 +43863,15 @@ var films = [
     ],
     "Genres": [
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 5652,
+        "Title": "Six Entertainment",
+        "Poster": "",
+        "OriginCountry": "NL",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -22998,6 +43897,22 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 2159,
+        "Title": "Hal Roach Studios",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 14032,
+        "Title": "Path\u00E9 Exchange",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23026,6 +43941,29 @@ var films = [
       "Thriller",
       "Crime",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 38091,
+        "Title": "WF/X",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 6032,
+        "Title": "The Vault",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23052,6 +43990,15 @@ var films = [
     "Genres": [
       "Drama",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 12372,
+        "Title": "UFA",
+        "Poster": "/lcQScIQXHQXuLMLFQt0loJl5gWJ.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23080,6 +44027,36 @@ var films = [
       "Drama",
       "Fantasy",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 30666,
+        "Title": "RT Features",
+        "Poster": "/g8LmDZVFWDRJW72sj0nAj1gh8ac.png",
+        "OriginCountry": "BR",
+        "Amount": 0
+      },
+      {
+        "Id": 10104,
+        "Title": "New Regency Pictures",
+        "Poster": "/4sGWXoboEkWPphI6es6rTmqkCBh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6531,
+        "Title": "Parts \u0026 Labor",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 41641,
+        "Title": "Maiden Voyage Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23107,6 +44084,29 @@ var films = [
       "Drama",
       "Romance",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 43649,
+        "Title": "Lilies Films",
+        "Poster": "/5pv3tUlq25IiuMuok57YBZIiKn.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 94,
+        "Title": "ARTE France Cin\u00E9ma",
+        "Poster": "/huC7HqorvUThGIrENrbcHmQVUA0.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 7980,
+        "Title": "Hold Up Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23134,6 +44134,29 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 2364,
+        "Title": "The Montecito Picture Company",
+        "Poster": "/oZyR5maGM96jReVgW7oJ7mXN8ts.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 53012,
+        "Title": "Blue Sea Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 219420,
+        "Title": "Mandel",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23161,6 +44184,36 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 14,
+        "Title": "Miramax",
+        "Poster": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 838,
+        "Title": "Paramount Vantage",
+        "Poster": "/tcW3UqV46Mdq6GyaS1ydEDocEDF.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 258,
+        "Title": "Scott Rudin Productions",
+        "Poster": "/tMI4xPwgxfNaNId3h9dOcHGU1NI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2092,
+        "Title": "Mike Zoss Productions",
+        "Poster": "/9IAf3DxvsjOVSQVjX5F22jTU4Nh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23188,6 +44241,29 @@ var films = [
       "Action",
       "Comedy",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 139921,
+        "Title": "Arthur Sarkissian Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 961,
+        "Title": "Roger Birnbaum Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23214,6 +44290,36 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 117188,
+        "Title": "Excellent Cadaver",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 93105,
+        "Title": "IAC Films",
+        "Poster": "/ryjDQ04FlVYVW30Eok3t5V5Gx8T.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 41077,
+        "Title": "A24",
+        "Poster": "/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 142269,
+        "Title": "IPR.VC",
+        "Poster": "/ggrWFqk5mPMks0vE3aCy3l9e0dv.png",
+        "OriginCountry": "FI",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23239,6 +44345,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 4732,
+        "Title": "Red Envelope Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 22822,
+        "Title": "La Pistola",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 52394,
+        "Title": "Red Productions",
+        "Poster": "/pw2oBt0PaUcMwBJ7NcMklzNT9HF.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23265,6 +44394,43 @@ var films = [
     "Genres": [
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7,
+        "Title": "DreamWorks Pictures",
+        "Poster": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11391,
+        "Title": "Tribeca Productions",
+        "Poster": "/t6m0uRTzaFHCsvEpikENE0PWJGb.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2242,
+        "Title": "Everyman Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 41248,
+        "Title": "Nancy Tenenbaum Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23290,6 +44456,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 288,
+        "Title": "BBC Film",
+        "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 174780,
+        "Title": "Kleio Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 52352,
+        "Title": "Great Point Media",
+        "Poster": "/dHjAAPaqpjsikkKzmhZ4ofQaEkQ.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23318,6 +44507,43 @@ var films = [
       "Thriller",
       "Adventure",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 762,
+        "Title": "Mutual Film Company",
+        "Poster": "/3T7EpKcS13viHu3WzRtQGvi9sTY.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 174617,
+        "Title": "Meradin Zweite Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 15763,
+        "Title": "Eyetronics",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 128586,
+        "Title": "H2L Media Group",
+        "Poster": "/yWQ4zz1kSEPmChJDN3rloRGYJQy.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23345,6 +44571,22 @@ var films = [
       "Comedy",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 43,
+        "Title": "Fox Searchlight Pictures",
+        "Poster": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1187,
+        "Title": "Michael London Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23372,6 +44614,22 @@ var films = [
       "Comedy",
       "Crime",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 1286,
+        "Title": "World Wide Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23399,6 +44657,36 @@ var films = [
     "Genres": [
       "Science Fiction",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 88,
+        "Title": "Hawk Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 385,
+        "Title": "Stanley Kubrick Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 234371,
+        "Title": "Polaris Productions Limited",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23425,6 +44713,29 @@ var films = [
     "Genres": [
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 4131,
+        "Title": "Ignite Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1632,
+        "Title": "Lionsgate",
+        "Poster": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2499,
+        "Title": "The Kushner-Locke Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23450,6 +44761,22 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 27197,
+        "Title": "Noujaim Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 121268,
+        "Title": "The Othrs",
+        "Poster": "/vPtiQxlA2S3Z77eduT6TFqBG9NE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23477,6 +44804,29 @@ var films = [
       "Comedy",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 21920,
+        "Title": "The Steve Tisch Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 412,
+        "Title": "Wendy Finerman Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23505,6 +44855,29 @@ var films = [
     "Genres": [
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 14,
+        "Title": "Miramax",
+        "Poster": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23533,6 +44906,36 @@ var films = [
       "Crime",
       "Drama",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 79,
+        "Title": "Village Roadshow Pictures",
+        "Poster": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 172,
+        "Title": "NPV Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 171,
+        "Title": "Malpaso Productions",
+        "Poster": "/bqLWwuNCHcY3IjB5e4o29h7l80D.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23558,6 +44961,22 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 12365,
+        "Title": "Brownstone Productions",
+        "Poster": "/nwjOaV5QmJ7cbXOBRG4wf8AVeUx.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 41,
+        "Title": "Orion Pictures",
+        "Poster": "/xAot4SSOIHiWQ2WEnVXYGR1lce9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23584,6 +45003,29 @@ var films = [
     "Genres": [
       "Drama",
       "Music"
+    ],
+    "Studios": [
+      {
+        "Id": 2266,
+        "Title": "Bold Films",
+        "Poster": "/owzVs2mguyyJ3vIn7EbgowpUPnk.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3172,
+        "Title": "Blumhouse Productions",
+        "Poster": "/rzKluDcRkIwHZK2pHsiT667A2Kw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 32157,
+        "Title": "Right of Way Films",
+        "Poster": "/4hOCk25Ce8s242NItnwtV7aKRWY.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23612,6 +45054,43 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 10146,
+        "Title": "Focus Features",
+        "Poster": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 7295,
+        "Title": "Relativity Media",
+        "Poster": "/5MYE96QiE5a5oFhXxFb4y8ILSpw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 2092,
+        "Title": "Mike Zoss Productions",
+        "Poster": "/9IAf3DxvsjOVSQVjX5F22jTU4Nh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23639,6 +45118,15 @@ var films = [
       "Comedy",
       "Romance",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23669,6 +45157,22 @@ var films = [
       "Science Fiction",
       "Fantasy",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 463,
+        "Title": "Michael White Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23694,6 +45198,15 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 9195,
+        "Title": "Touchstone Pictures",
+        "Poster": "/geK5QOBsXIPGHutKwXtYjMUyYSG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23723,6 +45236,22 @@ var films = [
     "Genres": [
       "Documentary",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 67906,
+        "Title": "ITN Productions",
+        "Poster": "/Ad78qLMFwcHCodkXPb2BQFfdjx2.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 5778,
+        "Title": "Channel 4 Television",
+        "Poster": "/2loyoQweDxvotH3AknfL2zhsthg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23749,6 +45278,36 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 10645,
+        "Title": "Paradise Films",
+        "Poster": "",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 10647,
+        "Title": "Unit\u00E9 Trois",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 42044,
+        "Title": "Minist\u00E8re de la Culture Fran\u00E7aise de Belgique",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 11796,
+        "Title": "Centre du Cin\u00E9ma et de l'Audiovisuel de la FWB",
+        "Poster": "/tx6LOQcTSqgW8ffKxovuJHjlYVw.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23775,6 +45334,15 @@ var films = [
     "Genres": [
       "Documentary",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 75714,
+        "Title": "Bob Swerer Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23803,6 +45371,15 @@ var films = [
       "Animation",
       "Comedy",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 3166,
+        "Title": "Walt Disney Productions",
+        "Poster": "/vyyv4Gy9nPqAZKElPm2izLlEaVS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23830,6 +45407,22 @@ var films = [
       "Comedy",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 737,
+        "Title": "Sidney Kimmel Entertainment",
+        "Poster": "/dK1GZ1u4our8sJW0Sts1JHeNSLn.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 19731,
+        "Title": "Lars Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23858,6 +45451,36 @@ var films = [
       "Drama",
       "Romance",
       "Music"
+    ],
+    "Studios": [
+      {
+        "Id": 491,
+        "Title": "Summit Entertainment",
+        "Poster": "/5LvDUt3KmvRnXQ4NrdWJYHeuA8J.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10161,
+        "Title": "Gilbert Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 53247,
+        "Title": "Impostor Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2527,
+        "Title": "Marc Platt Productions",
+        "Poster": "/osO7TGmlRMistSQ5JZusPhbKUHk.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23885,6 +45508,15 @@ var films = [
       "Comedy",
       "Family",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 3166,
+        "Title": "Walt Disney Productions",
+        "Poster": "/vyyv4Gy9nPqAZKElPm2izLlEaVS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23912,6 +45544,43 @@ var films = [
       "Fantasy",
       "Drama",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 19813,
+        "Title": "Flower Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5367,
+        "Title": "Gaylord Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 3334,
+        "Title": "Adam Fields Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 185,
+        "Title": "Pandora Cinema",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 28,
+        "Title": "Newmarket Films",
+        "Poster": "/7tRG0ZsmtptmzPMKupd1FZkjtnn.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23939,6 +45608,36 @@ var films = [
       "Mystery",
       "Thriller",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 158,
+        "Title": "Spyglass Entertainment",
+        "Poster": "/6SHlNIype9zmyEMRsBtoueUtLsq.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 862,
+        "Title": "The Kennedy/Marshall Company",
+        "Poster": "/vdK6ZhC2CSW36j0VPEavRxOpbEg.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 915,
+        "Title": "Hollywood Pictures",
+        "Poster": "/4neXXpjSJDZPBGBnfWtqysB5htV.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 17032,
+        "Title": "Barry Mendel Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23965,6 +45664,22 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 1632,
+        "Title": "Lionsgate",
+        "Poster": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 695,
+        "Title": "Lee Daniels Entertainment",
+        "Poster": "/rxXG5CZjBGFbJt9tYgrySrkJCTF.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -23993,6 +45708,36 @@ var films = [
       "Drama",
       "Science Fiction",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7,
+        "Title": "DreamWorks Pictures",
+        "Poster": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 385,
+        "Title": "Stanley Kubrick Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24019,6 +45764,29 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 508,
+        "Title": "Regency Enterprises",
+        "Poster": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 81,
+        "Title": "Plan B Entertainment",
+        "Poster": "/8wOfUhA7vwU2gbPjQy7Vv3EiF0o.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24047,6 +45815,22 @@ var films = [
       "Adventure",
       "Drama",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 12943,
+        "Title": "APJAC Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24073,6 +45857,29 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 10441,
+        "Title": "The Bureau",
+        "Poster": "/aTEwjHN8l51ix2YcTxxzR92WaXy.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 10442,
+        "Title": "Glendale Picture Company",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 10443,
+        "Title": "Synchronicity Films",
+        "Poster": "/4JIo1KzzIb2X8oZX7jjsEEBlBub.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24101,6 +45908,29 @@ var films = [
       "Drama",
       "History",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 4564,
+        "Title": "Icon Entertainment International",
+        "Poster": "/pQQ5WKlDFbTIrsgkCTUoMqDtmpy.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 7965,
+        "Title": "The Ladd Company",
+        "Poster": "/eZ6DeFO1mhHtzxB1aACcEzKqQ7L.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11353,
+        "Title": "B.H. Finance C.V.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24127,6 +45957,15 @@ var films = [
     "Genres": [
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 93478,
+        "Title": "Time Life Films",
+        "Poster": "/eT9baW3arBqVsqmZQvYw9bwKBFe.png",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24155,6 +45994,22 @@ var films = [
       "Fantasy",
       "Comedy",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 559,
+        "Title": "TriStar Pictures",
+        "Poster": "/eC0bWHVjnjUducyA6YFoEFqnPMC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24186,6 +46041,29 @@ var films = [
       "Adventure",
       "Fantasy",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 60,
+        "Title": "United Artists",
+        "Poster": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4352,
+        "Title": "Dramatic Features",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 4353,
+        "Title": "Warfield",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24212,6 +46090,15 @@ var films = [
     "Genres": [
       "Drama",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 22290,
+        "Title": "Bergman Lustig Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24238,6 +46125,36 @@ var films = [
     "Genres": [
       "Documentary",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 189457,
+        "Title": "National Geographic Documentary Films",
+        "Poster": "/a0ruFlMfEs2pTOLZ1tPHqzDH7Fc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 116323,
+        "Title": "Little Monster Films",
+        "Poster": "/2cjJeC2MQMPwT2INRpqRxH8Xuz1.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 117708,
+        "Title": "Itinerant Media",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 49325,
+        "Title": "Parkes\u002BMacDonald Image Nation",
+        "Poster": "/R05WCoCJcPWGSDaKaYgx3AeVuR.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24266,6 +46183,29 @@ var films = [
       "Adventure",
       "Fantasy",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11,
+        "Title": "WingNut Films",
+        "Poster": "/6FAuASQHybRkZUk08p9PzSs9ezM.png",
+        "OriginCountry": "NZ",
+        "Amount": 0
+      },
+      {
+        "Id": 5237,
+        "Title": "The Saul Zaentz Company",
+        "Poster": "/mlnr7vsBHvLye8oEb5A76C0t8x9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24293,6 +46233,57 @@ var films = [
       "Science Fiction",
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 76068,
+        "Title": "Digital Image Associates",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 44,
+        "Title": "Cruise/Wagner Productions",
+        "Poster": "/6Hs6K20Hz1W9W1Tiam5QN2Kpx8V.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 766,
+        "Title": "Blue Tulip Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 26265,
+        "Title": "Ronald Shusett/Gary Goldman Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7,
+        "Title": "DreamWorks Pictures",
+        "Poster": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24320,6 +46311,22 @@ var films = [
       "Adventure",
       "Comedy",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24346,6 +46353,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 177360,
+        "Title": "Firebird Pictures",
+        "Poster": "/wnh6iBXFcFpcHHOSnbbcp9VF4mM.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 5778,
+        "Title": "Channel 4 Television",
+        "Poster": "/2loyoQweDxvotH3AknfL2zhsthg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24377,6 +46400,71 @@ var films = [
       "Thriller",
       "Crime",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 308,
+        "Title": "The Weinstein Company",
+        "Poster": "/e8F3mQM7DkJ5SfYYDp8FYzPBOGX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 816,
+        "Title": "FilmEngine",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 826,
+        "Title": "Capitol Films",
+        "Poster": "/aqiR1prl8N00FfkC4FCJWsOpZIy.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 1204,
+        "Title": "Ascendant Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2116,
+        "Title": "VIP Medienfonds 4",
+        "Poster": "/j7grgeyXof8VBmqbBBSNaqVoOCb.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 123780,
+        "Title": "Lucky Number Slevin Productions Inc.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 123781,
+        "Title": "The Complex",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 4253,
+        "Title": "Don Carmody Productions",
+        "Poster": "/qgFBsEmKTckDM0Fk6ZTB8RyW0Rc.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24406,6 +46494,22 @@ var films = [
       "Drama",
       "Fantasy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 763,
+        "Title": "Intermedia",
+        "Poster": "/mCnIVkImjm8rUxIpGR5NgrGlIYL.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 932,
+        "Title": "Mirage Enterprises",
+        "Poster": "/o7leiZVIDBHxODfK8pjGPV2SdMp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24433,6 +46537,43 @@ var films = [
       "Adventure",
       "Comedy",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 41,
+        "Title": "Orion Pictures",
+        "Poster": "/xAot4SSOIHiWQ2WEnVXYGR1lce9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 484,
+        "Title": "DEG",
+        "Poster": "/y3jYroFE9tjDTx5aSOgecXV732c.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 365,
+        "Title": "Nelson Entertainment",
+        "Poster": "/3InSlF0bcc5zuObBGMQpDoSCjYV.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10201,
+        "Title": "Interscope Communications",
+        "Poster": "/cgmwywVZ9NvAidd6Pn7p0CBYQkW.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 215821,
+        "Title": "Soisson/Murphy Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24460,6 +46601,57 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 15130,
+        "Title": "Urania Pictures",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 243,
+        "Title": "CB Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 79023,
+        "Title": "Immagine e Cinema",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 310,
+        "Title": "CNC",
+        "Poster": "/4Gp5A4YdjPBfsHT47ngHMaXWmb9.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 104,
+        "Title": "Canal\u002B",
+        "Poster": "/9aotxauvc9685tq9pTcRJszuT06.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 94,
+        "Title": "ARTE France Cin\u00E9ma",
+        "Poster": "/huC7HqorvUThGIrENrbcHmQVUA0.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 324,
+        "Title": "Flach Film",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24485,6 +46677,15 @@ var films = [
     ],
     "Genres": [
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 632,
+        "Title": "British Lion Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24512,6 +46713,15 @@ var films = [
       "Comedy",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 1315,
+        "Title": "Charles Chaplin Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24541,6 +46751,29 @@ var films = [
       "Action",
       "Science Fiction",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 28382,
+        "Title": "Kennedy Miller Mitchell",
+        "Poster": "/eaQ9IuuaSNBeSdocdtGLvhXAHfg.png",
+        "OriginCountry": "AU",
+        "Amount": 0
+      },
+      {
+        "Id": 216687,
+        "Title": "Domain Entertainment",
+        "Poster": "/kKVYqekveOvLK1IgqdJojLjQvtu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24568,6 +46801,15 @@ var films = [
       "Action",
       "Drama",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 192,
+        "Title": "Shochiku",
+        "Poster": "/93eAKlnQecDdMtucfOprzcjMw9V.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24595,6 +46837,15 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 57430,
+        "Title": "Pulse Films",
+        "Poster": "/4vWiIwU0RLJJMGiqqNUnQyBsVI5.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24622,6 +46873,15 @@ var films = [
       "Adventure",
       "Fantasy",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 6,
+        "Title": "RKO Radio Pictures",
+        "Poster": "/n53F7K9scQWFXYbrCablqLKqJdp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24651,6 +46911,50 @@ var films = [
       "Thriller",
       "Crime",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 2729,
+        "Title": "Omnilab Media",
+        "Poster": "",
+        "OriginCountry": "AU",
+        "Amount": 0
+      },
+      {
+        "Id": 748,
+        "Title": "Mosaic Media Group",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7295,
+        "Title": "Relativity Media",
+        "Poster": "/5MYE96QiE5a5oFhXxFb4y8ILSpw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 37774,
+        "Title": "Skyline (Baker St)",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 2520,
+        "Title": "Arclight Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1632,
+        "Title": "Lionsgate",
+        "Poster": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24678,6 +46982,22 @@ var films = [
       "Action",
       "Thriller",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 1088,
+        "Title": "Alcon Entertainment",
+        "Poster": "/9WOE5AQUXbOtLU6GTwfjS8OMF0v.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1885,
+        "Title": "Silver Pictures",
+        "Poster": "/xlvoOZr4s1PygosrwZyolIFe5xs.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24705,6 +47025,22 @@ var films = [
       "Comedy",
       "Romance",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 1974,
+        "Title": "Duplass Brothers Productions",
+        "Poster": "/t8p2PpDBJo282a5TTr6Ln0wVkMZ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 188,
+        "Title": "Big Beach",
+        "Poster": "/40E8iNvy6brH6t4BbmQL211jIpl.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24731,6 +47067,50 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 925,
+        "Title": "Nu Image",
+        "Poster": "/dIb9hjXNOkgxu4kBWdIdK8nM4w.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1187,
+        "Title": "Michael London Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10405,
+        "Title": "EFO Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23104,
+        "Title": "King of California Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 23105,
+        "Title": "Lone Star Film Group",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1020,
+        "Title": "Millennium Media",
+        "Poster": "/kuUIHNwMec4dwOLghDhhZJzHZTd.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24758,6 +47138,15 @@ var films = [
       "Comedy",
       "Crime",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 37871,
+        "Title": "T-Street",
+        "Poster": "/aUOo1S2AabqQnRrXK6XuObWPDyK.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24785,6 +47174,29 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 10146,
+        "Title": "Focus Features",
+        "Poster": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1246,
+        "Title": "River Road Entertainment",
+        "Poster": "/s0doRYEVWp3a4Y4Cg7R4fE9cwov.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3997,
+        "Title": "Alberta Film Entertainment",
+        "Poster": "",
+        "OriginCountry": "CA",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24811,6 +47223,22 @@ var films = [
     "Genres": [
       "Horror",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3169,
+        "Title": "Zide-Perry Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24838,6 +47266,22 @@ var films = [
       "Adventure",
       "Action",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 1,
+        "Title": "Lucasfilm Ltd.",
+        "Poster": "/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24869,6 +47313,64 @@ var films = [
       "Drama",
       "Mystery",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 862,
+        "Title": "The Kennedy/Marshall Company",
+        "Poster": "/vdK6ZhC2CSW36j0VPEavRxOpbEg.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11347,
+        "Title": "Ludlum Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 11348,
+        "Title": "Motion Picture BETA Produktionsgesellschaft",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 11349,
+        "Title": "Bourne Again",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 125334,
+        "Title": "KanZaman Services",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 682,
+        "Title": "Peninsula Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 264,
+        "Title": "Studio Babelsberg",
+        "Poster": "/fA90qwUKgPhMONqtwY60GaHRyrW.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24898,6 +47400,29 @@ var films = [
       "Mystery",
       "Drama",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 2397,
+        "Title": "Cohen/Pearl Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 3287,
+        "Title": "Screen Gems",
+        "Poster": "/bz6GbCQQXGNE56LTW9dwgksW0Iw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 126,
+        "Title": "Lakeshore Entertainment",
+        "Poster": "/kADPanRDkKTxncPXXVahvHPUvCj.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24924,6 +47449,43 @@ var films = [
     "Genres": [
       "Drama",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 9,
+        "Title": "Gaumont",
+        "Poster": "/nda3dTUYdDrJ6rZqBpYvY865aDv.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 7038,
+        "Title": "Quad Productions",
+        "Poster": "/9YDo78sKAy6xxqBwVBT2Vi9FSZl.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 7766,
+        "Title": "Chaocorp",
+        "Poster": "/rwBbDJAlUC0mAVnO02APsy0O80T.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 8018,
+        "Title": "Ten Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 356,
+        "Title": "TF1 Films Production",
+        "Poster": "/9tW5wZEGotn1Ei5pErA88m47XiD.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24950,6 +47512,50 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 103697,
+        "Title": "PASTEL",
+        "Poster": "/9gsomzlpj1lLR7kupysQ7nSFcHh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 288,
+        "Title": "BBC Film",
+        "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 168181,
+        "Title": "Tango Entertainment",
+        "Poster": "/adHpT0fRW86W80jPtJRo96pqJE4.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 173869,
+        "Title": "Unified Theory",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 110197,
+        "Title": "Screen Scotland",
+        "Poster": "/hAF2iSJDnOXG39VQQoMeF413SQf.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 7281,
+        "Title": "BFI",
+        "Poster": "/iI7qdR1OFPo0U41BlpKBLD3xesh.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -24975,6 +47581,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 192801,
+        "Title": "The Lighthouse",
+        "Poster": "/d0KI2qXN79CoXexD3Il8v7SmggH.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 69829,
+        "Title": "Voltage TV",
+        "Poster": "/bVqcTaxWPIzckkPaMFUfGBGTLPg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25003,6 +47625,36 @@ var films = [
       "Action",
       "Thriller",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 275,
+        "Title": "Carolco Pictures",
+        "Poster": "/2MxNWlN5b3UXt1OfmznsWEQzFwq.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1280,
+        "Title": "Pacific Western",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 574,
+        "Title": "Lightstorm Entertainment",
+        "Poster": "/nLNW1TeFUYU0M5U0qmYUzOIwlB6.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 183,
+        "Title": "Le Studio Canal\u002B",
+        "Poster": "/eadyph99FClrWlnE0jPniwOcvvw.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25030,6 +47682,22 @@ var films = [
       "Horror",
       "Thriller",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 41077,
+        "Title": "A24",
+        "Poster": "/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 126587,
+        "Title": "Little Lamb Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25056,6 +47724,15 @@ var films = [
     "Genres": [
       "Drama",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 7159,
+        "Title": "Star Film",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25082,6 +47759,36 @@ var films = [
     "Genres": [
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 9,
+        "Title": "Gaumont",
+        "Poster": "/nda3dTUYdDrJ6rZqBpYvY865aDv.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 22191,
+        "Title": "Les Films du Loup",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 69639,
+        "Title": "TSF Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 356,
+        "Title": "TF1 Films Production",
+        "Poster": "/9tW5wZEGotn1Ei5pErA88m47XiD.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25109,6 +47816,22 @@ var films = [
       "Action",
       "Adventure",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 10288,
+        "Title": "Don Simpson/Jerry Bruckheimer Films",
+        "Poster": "/Aszf09kIVXR6cwG9lwjZIawbYVS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 915,
+        "Title": "Hollywood Pictures",
+        "Poster": "/4neXXpjSJDZPBGBnfWtqysB5htV.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25136,6 +47859,22 @@ var films = [
       "Comedy",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 54712,
+        "Title": "CinemaLab",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 3025,
+        "Title": "Brandman Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25162,6 +47901,15 @@ var films = [
     "Genres": [
       "Drama",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 538,
+        "Title": "EMI Films",
+        "Poster": "/oGpxL5lFf8VpWsAQ6tut0on25LW.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25187,6 +47935,36 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 180894,
+        "Title": "Hantz Motion Pictures",
+        "Poster": "/zqhACjyF9HUAnpaB3Qav7b3Iw3x.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 99963,
+        "Title": "Sight Unseen Pictures",
+        "Poster": "/wi5JP4jpVBeb9qK97nhICkMurNZ.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 180895,
+        "Title": "Olive Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 141828,
+        "Title": "Atlas Industries",
+        "Poster": "/x5YUWcJknvgnNXxX3jCmDxpB1YA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25214,6 +47992,22 @@ var films = [
       "Adventure",
       "Action",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 1632,
+        "Title": "Lionsgate",
+        "Poster": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5420,
+        "Title": "Color Force",
+        "Poster": "/dlW4Kh5dNieKNURnymsu57y6fMf.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25241,6 +48035,29 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1685,
+        "Title": "Hofflund/Polone",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1686,
+        "Title": "Indelible Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25268,6 +48085,29 @@ var films = [
       "Action",
       "Comedy",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 384,
+        "Title": "MacDonald/Parkes Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25295,6 +48135,22 @@ var films = [
     "Genres": [
       "Drama",
       "Music"
+    ],
+    "Studios": [
+      {
+        "Id": 24,
+        "Title": "Mikona Productions",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 23,
+        "Title": "Imagine Entertainment",
+        "Poster": "/bJOFo2ufq7iFC1F4qZm8aLxF5aS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25322,6 +48178,29 @@ var films = [
       "Romance",
       "Drama",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 4730,
+        "Title": "Slough Pond",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 4731,
+        "Title": "double A Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 157500,
+        "Title": "TwoPoundBag Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25353,6 +48232,71 @@ var films = [
       "Drama",
       "Mystery",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 2783,
+        "Title": "Motlys",
+        "Poster": "/mBN9Pu2qP0gEdzi9R2NvARodQ5X.png",
+        "OriginCountry": "NO",
+        "Amount": 0
+      },
+      {
+        "Id": 2801,
+        "Title": "Film i V\u00E4st",
+        "Poster": "/bswb1PLLsKDUXMLgy42bZtCtIde.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 5125,
+        "Title": "Le Pacte",
+        "Poster": "/t3oWTsVukmEzrZzvfr37XRBibo5.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 228,
+        "Title": "Filmpool Nord",
+        "Poster": "/zT2bcTDEbBkfZi2APB8DYJKLIQ3.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 88231,
+        "Title": "Snowglobe",
+        "Poster": "/hVx90I5BEktosw4N9AneIFwmjeg.png",
+        "OriginCountry": "DK",
+        "Amount": 0
+      },
+      {
+        "Id": 39407,
+        "Title": "B-Reel Films",
+        "Poster": "/1ht2ayBUdGgKuLRCkTjyGVEY5VL.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 49936,
+        "Title": "Don't Look Now",
+        "Poster": "",
+        "OriginCountry": "NO",
+        "Amount": 0
+      },
+      {
+        "Id": 73539,
+        "Title": "Copenhagen Film Fund",
+        "Poster": "/fhLGxCgpAz7zWOoDz5g4FZMkFSs.png",
+        "OriginCountry": "DK",
+        "Amount": 0
+      },
+      {
+        "Id": 10949,
+        "Title": "Memento Films International",
+        "Poster": "/2JOR75Gaz14Vzim0XSTSCmGFYsD.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25381,6 +48325,22 @@ var films = [
     "Genres": [
       "Drama",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 3353,
+        "Title": "Element Pictures",
+        "Poster": "/qv2v9HaStUTRjqonODM29YG0oFX.png",
+        "OriginCountry": "IE",
+        "Amount": 0
+      },
+      {
+        "Id": 112783,
+        "Title": "House Productions",
+        "Poster": "/g95BBJvKyOawT3sGVXTdDG72Qad.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25409,6 +48369,57 @@ var films = [
       "Adventure",
       "Drama",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 56232,
+        "Title": "Top Gun Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 42004,
+        "Title": "Thema Production",
+        "Poster": "",
+        "OriginCountry": "LU",
+        "Amount": 0
+      },
+      {
+        "Id": 54840,
+        "Title": "Gibraltar Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 2623,
+        "Title": "Blue Rider Pictures",
+        "Poster": "/7Bkm1yUF0y8x6jw8dHRfzS3B6dq.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1403,
+        "Title": "Franchise Pictures",
+        "Poster": "/pMTQNUhHCwr39CsS7yUmSg503E7.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 21,
+        "Title": "Metro-Goldwyn-Mayer",
+        "Poster": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 181992,
+        "Title": "Mandate International",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25435,6 +48446,43 @@ var films = [
     "Genres": [
       "Romance",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 7281,
+        "Title": "BFI",
+        "Poster": "/iI7qdR1OFPo0U41BlpKBLD3xesh.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 7975,
+        "Title": "Inflammable Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 51159,
+        "Title": "Shudder Films",
+        "Poster": "/iD7GntrFRHYvkOeb7mga8sTQerG.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 64479,
+        "Title": "Creative England",
+        "Poster": "/6Do505ZuMYZYea4mX8WEGhydmnl.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 162036,
+        "Title": "MetFilm Production",
+        "Poster": "/ebqgHFWoL5uH3GvZJtVdbUNq5nn.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25461,6 +48509,29 @@ var films = [
     "Genres": [
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 1565,
+        "Title": "Avery Pix",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 870,
+        "Title": "Tapestry Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25486,6 +48557,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 1511,
+        "Title": "Pakula-Mulligan",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 24308,
+        "Title": "Brentwood Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25512,6 +48599,22 @@ var films = [
     "Genres": [
       "Horror",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 1632,
+        "Title": "Lionsgate",
+        "Poster": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10567,
+        "Title": "Mutant Enemy Productions",
+        "Poster": "/kbZu62C3ZwNfOtao1ECIFTzL40Q.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25541,6 +48644,36 @@ var films = [
       "Comedy",
       "Crime",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10239,
+        "Title": "Tall Trees Productions",
+        "Poster": "/7L9xHVi0nkcwiDlOijV3N5EefCV.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 19813,
+        "Title": "Flower Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 121252,
+        "Title": "Leonard Goldberg Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25568,6 +48701,22 @@ var films = [
       "Adventure",
       "Drama",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 219,
+        "Title": "The Mirisch Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 60,
+        "Title": "United Artists",
+        "Poster": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25595,6 +48744,43 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 284,
+        "Title": "DNA Films",
+        "Poster": "/1lEgJkA2GckrMvzhfqENfkr04vO.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 288,
+        "Title": "BBC Film",
+        "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 2452,
+        "Title": "UK Film Council",
+        "Poster": "/gOkUB0TdXRLAl6s0s6jCSLS3sOb.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 3324,
+        "Title": "BBC",
+        "Poster": "/dqT3yOTlfJRmtvk52Ccd1O6dZ0A.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 43,
+        "Title": "Fox Searchlight Pictures",
+        "Poster": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25622,6 +48808,22 @@ var films = [
       "Adventure",
       "Action",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25649,6 +48851,22 @@ var films = [
       "Adventure",
       "Comedy",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 8830,
+        "Title": "Touchwood Pacific Partners 1",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2,
+        "Title": "Walt Disney Pictures",
+        "Poster": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25675,6 +48893,22 @@ var films = [
     "Genres": [
       "Comedy",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 1950,
+        "Title": "New World Pictures",
+        "Poster": "/eIoDtHIJKZaZ4hGbKgqC0PzlqJc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10170,
+        "Title": "Cinemarque Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25700,6 +48934,22 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 13184,
+        "Title": "Annapurna Pictures",
+        "Poster": "/pfUB1a62jSMIqp4Xmaq6z2cgW0B.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 77152,
+        "Title": "Gloria Sanchez Productions",
+        "Poster": "/uFQRkYWX3xBON0BZ8DxKUDqLrmn.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25728,6 +48978,22 @@ var films = [
       "Mystery",
       "Thriller",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25754,6 +49020,29 @@ var films = [
     "Genres": [
       "Thriller",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 7076,
+        "Title": "Chernin Entertainment",
+        "Poster": "/8BFxn9NUWSgp0ndih569Gm62xiC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 22213,
+        "Title": "TSG Entertainment",
+        "Poster": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25781,6 +49070,22 @@ var films = [
       "Drama",
       "Thriller",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 1361,
+        "Title": "Compton Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 1754,
+        "Title": "Tekli British Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25810,6 +49115,43 @@ var films = [
       "Comedy",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 508,
+        "Title": "Regency Enterprises",
+        "Poster": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10104,
+        "Title": "New Regency Pictures",
+        "Poster": "/4sGWXoboEkWPphI6es6rTmqkCBh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 491,
+        "Title": "Summit Entertainment",
+        "Poster": "/5LvDUt3KmvRnXQ4NrdWJYHeuA8J.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 433,
+        "Title": "Weed Road Pictures",
+        "Poster": "/iafkKMpcRfEXq9a4sQf0h6tg2E2.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1171,
+        "Title": "Epsilon Motion Pictures",
+        "Poster": "/wp7NwsxxHT8sqPaek6SlxnXlkP4.png",
+        "OriginCountry": "CH",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25837,6 +49179,29 @@ var films = [
     "Genres": [
       "Science Fiction",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 11458,
+        "Title": "Julia/Michael Phillips Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 538,
+        "Title": "EMI Films",
+        "Poster": "/oGpxL5lFf8VpWsAQ6tut0on25LW.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25867,6 +49232,36 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 284,
+        "Title": "DNA Films",
+        "Poster": "/1lEgJkA2GckrMvzhfqENfkr04vO.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 52607,
+        "Title": "DNA Pictures International",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 718,
+        "Title": "Arts Council of England",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 52608,
+        "Title": "Snakeman Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25896,6 +49291,50 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 109856,
+        "Title": "AlbaSky Film",
+        "Poster": "",
+        "OriginCountry": "AL",
+        "Amount": 0
+      },
+      {
+        "Id": 113254,
+        "Title": "Alva Film",
+        "Poster": "/nnYoKyK53uXT7aqURA51n1bGthM.png",
+        "OriginCountry": "CH",
+        "Amount": 0
+      },
+      {
+        "Id": 126902,
+        "Title": "Black Cat Production",
+        "Poster": "",
+        "OriginCountry": "MK",
+        "Amount": 0
+      },
+      {
+        "Id": 126557,
+        "Title": "Ikon\u00EB Studio",
+        "Poster": "/2ksoLwVaDU5Uyk6seQhEtWm4fjG.png",
+        "OriginCountry": "XK",
+        "Amount": 0
+      },
+      {
+        "Id": 148620,
+        "Title": "Industria Film",
+        "Poster": "",
+        "OriginCountry": "XK",
+        "Amount": 0
+      },
+      {
+        "Id": 152,
+        "Title": "Icon Productions",
+        "Poster": "/rC2pFo4IBQVSVZvucDLwMRvZHfi.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25923,6 +49362,15 @@ var films = [
       "Animation",
       "Family",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 10342,
+        "Title": "Studio Ghibli",
+        "Poster": "/uFuxPEZRUcBTEiYIxjHJq62Vr77.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25950,6 +49398,36 @@ var films = [
       "Thriller",
       "Action",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 2377,
+        "Title": "Chicago Pacific Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 80,
+        "Title": "The Zanuck Company",
+        "Poster": "/i6B0AIrUESLt5Fm6MOPXmuPhsvA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 787,
+        "Title": "3 Arts Entertainment",
+        "Poster": "/cCefBs1t7jxtiz3eCxBp9yxrxGx.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -25976,6 +49454,36 @@ var films = [
     "Genres": [
       "Drama",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 34981,
+        "Title": "Iron Horse Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 8850,
+        "Title": "Extension 765",
+        "Poster": "/o3nVHmmi077juQZcpSeO5Ha6UiE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7493,
+        "Title": "FilmNation Entertainment",
+        "Poster": "/fHitYiGUCkRafgt6VPYQlXWLkdp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26003,6 +49511,43 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 27124,
+        "Title": "Pierre Grise Productions",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 32520,
+        "Title": "George Reinhart Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 26194,
+        "Title": "FR3 Films Production",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 310,
+        "Title": "CNC",
+        "Poster": "/4Gp5A4YdjPBfsHT47ngHMaXWmb9.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 104,
+        "Title": "Canal\u002B",
+        "Poster": "/9aotxauvc9685tq9pTcRJszuT06.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26031,6 +49576,22 @@ var films = [
       "Comedy",
       "Family",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 2,
+        "Title": "Walt Disney Pictures",
+        "Poster": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 554,
+        "Title": "Silver Screen Partners III",
+        "Poster": "/mN5HU5xYq9xtEs1X0Hu25A9y8lW.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26058,6 +49619,22 @@ var films = [
       "Action",
       "Thriller",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 9195,
+        "Title": "Touchstone Pictures",
+        "Poster": "/geK5QOBsXIPGHutKwXtYjMUyYSG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 130,
+        "Title": "Jerry Bruckheimer Films",
+        "Poster": "/c9dVHPOL3cqCr2593Ahk0nEKTEM.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26085,6 +49662,29 @@ var films = [
       "Horror",
       "Thriller",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 41077,
+        "Title": "A24",
+        "Poster": "/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 225614,
+        "Title": "Motel Mojave",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 103376,
+        "Title": "Access Entertainment",
+        "Poster": "/zAyfGEx1LJOkwNTrHugnWHzLRE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26112,6 +49712,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 437,
+        "Title": "Heyday Films",
+        "Poster": "/nu20mtwbEIhUNnQ5NXVhHsNknZj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26138,6 +49747,57 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 14430,
+        "Title": "Fulcrum Media Finance",
+        "Poster": "",
+        "OriginCountry": "AU",
+        "Amount": 0
+      },
+      {
+        "Id": 7584,
+        "Title": "Screen Australia",
+        "Poster": "/eGkfvvyf4fJTvBUR1xt1669IPA3.png",
+        "OriginCountry": "AU",
+        "Amount": 0
+      },
+      {
+        "Id": 47178,
+        "Title": "Magic Films",
+        "Poster": "/xAM2F6X6hMST98md6TsXIe2YFTM.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10951,
+        "Title": "Screen NSW",
+        "Poster": "/jxfMNlkvI3GxnS41xCSOLD7goVb.png",
+        "OriginCountry": "AU",
+        "Amount": 0
+      },
+      {
+        "Id": 82491,
+        "Title": "Deluxe Australia",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 14604,
+        "Title": "Spectrum Films",
+        "Poster": "/nayCQwYiu9QfYn1IprLuo48d8q5.png",
+        "OriginCountry": "AU",
+        "Amount": 0
+      },
+      {
+        "Id": 82492,
+        "Title": "Big Ears Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26163,6 +49823,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 286,
+        "Title": "Fantasy Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 60,
+        "Title": "United Artists",
+        "Poster": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26191,6 +49867,22 @@ var films = [
       "Adventure",
       "Comedy",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 13913,
+        "Title": "Joseph M. Schenck Productions",
+        "Poster": "",
+        "OriginCountry": "BR",
+        "Amount": 0
+      },
+      {
+        "Id": 12190,
+        "Title": "Buster Keaton Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26217,6 +49909,15 @@ var films = [
     "Genres": [
       "Drama",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 8880,
+        "Title": "Winkler Films",
+        "Poster": "/fE7LBw7Jz8R29EABFGCvWNriZxN.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26244,6 +49945,22 @@ var films = [
       "Drama",
       "Science Fiction",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 5738,
+        "Title": "Stonebridge Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26270,6 +49987,29 @@ var films = [
     "Genres": [
       "Romance",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 283,
+        "Title": "Notting Hill Pictures",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 232374,
+        "Title": "Duncan Kenworthy Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26296,6 +50036,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 109,
+        "Title": "Rome-Paris Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 14683,
+        "Title": "Cin\u00E9-Tamaris",
+        "Poster": "/oqpU5dX9DlN3YB96NdsNXknJhcl.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26323,6 +50079,15 @@ var films = [
       "Comedy",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26349,6 +50114,22 @@ var films = [
     "Genres": [
       "Thriller",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10719,
+        "Title": "Patron Inc.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26374,6 +50155,15 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 6116,
+        "Title": "Argos films",
+        "Poster": "/yCu2D15iD7lcYsBWqXjU65U9nkH.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26402,6 +50192,15 @@ var films = [
       "Crime",
       "Horror",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 1280,
+        "Title": "Pacific Western",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26428,6 +50227,15 @@ var films = [
     "Genres": [
       "Thriller",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26458,6 +50266,36 @@ var films = [
       "Drama",
       "Fantasy",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 37659,
+        "Title": "HBO Polska",
+        "Poster": "/zfouUSOEq718TbB9YqN9OylPtD7.png",
+        "OriginCountry": "PL",
+        "Amount": 0
+      },
+      {
+        "Id": 6480,
+        "Title": "TVP",
+        "Poster": "/qJUUNzFYXNUDaisssBTV3Zdki9R.png",
+        "OriginCountry": "PL",
+        "Amount": 0
+      },
+      {
+        "Id": 36414,
+        "Title": "Platige Image",
+        "Poster": "",
+        "OriginCountry": "PL",
+        "Amount": 0
+      },
+      {
+        "Id": 2466,
+        "Title": "Wytw\u00F3rnia Film\u00F3w Dokumentalnych i Fabularnych",
+        "Poster": "/596Eq7ivA0DpNfB5zzDU7yMeTB4.png",
+        "OriginCountry": "PL",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26488,6 +50326,43 @@ var films = [
       "Comedy",
       "Romance",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 14,
+        "Title": "Miramax",
+        "Poster": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 550,
+        "Title": "Little Bird",
+        "Poster": "",
+        "OriginCountry": "IE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26516,6 +50391,22 @@ var films = [
       "Action",
       "Adventure",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 17032,
+        "Title": "Barry Mendel Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26543,6 +50434,29 @@ var films = [
       "Adventure",
       "Comedy",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 416,
+        "Title": "Python (Monty) Pictures Limited",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 463,
+        "Title": "Michael White Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 464,
+        "Title": "National Film Trustee Company",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26570,6 +50484,43 @@ var films = [
       "Family",
       "Fantasy",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 2,
+        "Title": "Walt Disney Pictures",
+        "Poster": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 16314,
+        "Title": "Roth Films",
+        "Poster": "/17ybtw4lx2cub7te99mZjoQCmGj.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 598,
+        "Title": "Team Todd",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 8601,
+        "Title": "Tim Burton Productions",
+        "Poster": "/kqubCH3sfBAk4znUj7hjqv8ffgi.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 80,
+        "Title": "The Zanuck Company",
+        "Poster": "/i6B0AIrUESLt5Fm6MOPXmuPhsvA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26597,6 +50548,29 @@ var films = [
       "Action",
       "Adventure",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26623,6 +50597,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 53473,
+        "Title": "Canal\u002B Droits Audiovisuels",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 43,
+        "Title": "Fox Searchlight Pictures",
+        "Poster": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10565,
+        "Title": "Good Machine",
+        "Poster": "/5djnxodjmgbzdXiNRllwhQPxANY.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26648,6 +50645,50 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 74150,
+        "Title": "iFeatures",
+        "Poster": "/sZb08j7saJZtXroKnSzspWyPeuS.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 92473,
+        "Title": "Sixty Six Pictures",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 288,
+        "Title": "BBC Film",
+        "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 7281,
+        "Title": "BFI",
+        "Poster": "/iI7qdR1OFPo0U41BlpKBLD3xesh.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 64479,
+        "Title": "Creative England",
+        "Poster": "/6Do505ZuMYZYea4mX8WEGhydmnl.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 92474,
+        "Title": "Oldgarth Media",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26679,6 +50720,64 @@ var films = [
       "Drama",
       "Action",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 10565,
+        "Title": "Good Machine",
+        "Poster": "/5djnxodjmgbzdXiNRllwhQPxANY.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10284,
+        "Title": "Edko Films",
+        "Poster": "/u0FCdiR026xbEbuY4yqaKj9Lf2O.png",
+        "OriginCountry": "HK",
+        "Amount": 0
+      },
+      {
+        "Id": 97292,
+        "Title": "Zoom Hunt",
+        "Poster": "",
+        "OriginCountry": "TW",
+        "Amount": 0
+      },
+      {
+        "Id": 5528,
+        "Title": "Ang Lee Productions",
+        "Poster": "",
+        "OriginCountry": "TW",
+        "Amount": 0
+      },
+      {
+        "Id": 2269,
+        "Title": "China Film Co-Production Corp.",
+        "Poster": "",
+        "OriginCountry": "CN",
+        "Amount": 0
+      },
+      {
+        "Id": 2798,
+        "Title": "CP Film Production Asia",
+        "Poster": "",
+        "OriginCountry": "HK",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 58,
+        "Title": "Sony Pictures Classics",
+        "Poster": "/voYCwlBHJQANtjvm5MNIkCF1dDH.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26709,6 +50808,22 @@ var films = [
     "Genres": [
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 61011,
+        "Title": "Scythia Films",
+        "Poster": "/kDPeollsOtUtGqqEF4P29NwEjf5.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 86504,
+        "Title": "Metropolitan Films International",
+        "Poster": "/7ppNVcvDg0ZXSR1bZi397hLD206.png",
+        "OriginCountry": "IE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26736,6 +50851,29 @@ var films = [
       "Science Fiction",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 10146,
+        "Title": "Focus Features",
+        "Poster": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10039,
+        "Title": "Anonymous Content",
+        "Poster": "/b8w4LldQolMKiLZw4FQJBcXSDGI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10059,
+        "Title": "This is that",
+        "Poster": "/3Z2MZzMW9gUyZAhHKhFIUqF1hwx.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26762,6 +50900,29 @@ var films = [
     "Genres": [
       "Crime",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1566,
+        "Title": "Spanky Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 6996,
+        "Title": "Apostle",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26789,6 +50950,15 @@ var films = [
       "Family",
       "Animation",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 3166,
+        "Title": "Walt Disney Productions",
+        "Poster": "/vyyv4Gy9nPqAZKElPm2izLlEaVS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26816,6 +50986,22 @@ var films = [
       "Thriller",
       "Mystery",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 6174,
+        "Title": "Gus Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26842,6 +51028,43 @@ var films = [
     "Genres": [
       "Crime",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 9195,
+        "Title": "Touchstone Pictures",
+        "Poster": "/geK5QOBsXIPGHutKwXtYjMUyYSG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4319,
+        "Title": "40 Acres and a Mule Filmworks",
+        "Poster": "/dU4Y8EqPLCz6jARM63NwGhr4DcG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 238641,
+        "Title": "25th Hour Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 238642,
+        "Title": "Gamut Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 376,
+        "Title": "Industry Entertainment Partners",
+        "Poster": "/4TYjUVu74lX3r4ht1ppZxEpj1a4.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26868,6 +51091,43 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 13240,
+        "Title": "Bron Studios",
+        "Poster": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 75807,
+        "Title": "First Look Media",
+        "Poster": "/bLzSVaxHIe8gzxhiSJCj0zI1Lj9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 60354,
+        "Title": "Harrison Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 99366,
+        "Title": "Topic Studios",
+        "Poster": "/r5UIazzNzEOUSEbxOfwWzEOBe5F.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11341,
+        "Title": "Stage 6 Films",
+        "Poster": "/xytTBODEy3p20ksHL4Ftxr483Iv.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26894,6 +51154,36 @@ var films = [
     "Genres": [
       "Drama",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 6735,
+        "Title": "Participant",
+        "Poster": "/pAQW38WU8ychBvYU2aGPTEbynEN.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7,
+        "Title": "DreamWorks Pictures",
+        "Poster": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 88582,
+        "Title": "Cinetic Media",
+        "Poster": "/zf2Akd6JvRZlnd1OacHYaN5dj0k.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 181849,
+        "Title": "Innisfree Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26921,6 +51211,36 @@ var films = [
     "Genres": [
       "Action",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 559,
+        "Title": "TriStar Pictures",
+        "Poster": "/eC0bWHVjnjUducyA6YFoEFqnPMC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 56,
+        "Title": "Amblin Entertainment",
+        "Poster": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 121750,
+        "Title": "Zorro Productions",
+        "Poster": "/xrd38ontNVcwJ4Ene4wQKbqaria.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 65895,
+        "Title": "Global Entertainment Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26947,6 +51267,15 @@ var films = [
     "Genres": [
       "Horror",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 10715,
+        "Title": "Alfred J. Hitchcock Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -26974,6 +51303,29 @@ var films = [
       "Drama",
       "Mystery",
       "Western"
+    ],
+    "Studios": [
+      {
+        "Id": 308,
+        "Title": "The Weinstein Company",
+        "Poster": "/e8F3mQM7DkJ5SfYYDp8FYzPBOGX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 215,
+        "Title": "Double Feature Films",
+        "Poster": "/tQyeqkCj24krhY2W8qeAztcOS37.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1811,
+        "Title": "FilmColony",
+        "Poster": "/3yDJuCucOl41d9z3712l5gER0Md.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27001,6 +51353,15 @@ var films = [
       "Drama",
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 308,
+        "Title": "The Weinstein Company",
+        "Poster": "/e8F3mQM7DkJ5SfYYDp8FYzPBOGX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27029,6 +51390,29 @@ var films = [
     "Genres": [
       "Crime",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 100886,
+        "Title": "Creative Europe Media",
+        "Poster": "/4WZMpUq2FoiRbcHGcfjN8ZklYZr.png",
+        "OriginCountry": "BE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27056,6 +51440,29 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 2531,
+        "Title": "MRC",
+        "Poster": "/9MfCJ2G6Nrf9yyRj4tAgPmMiDcn.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2242,
+        "Title": "Everyman Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 34620,
+        "Title": "Four by Two Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27083,6 +51490,15 @@ var films = [
       "Romance",
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27109,6 +51525,29 @@ var films = [
     "Genres": [
       "Horror",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 5490,
+        "Title": "CBS Films",
+        "Poster": "/xuJSR4dWsvkE194aemIJwflyNF2.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 694,
+        "Title": "StudioCanal",
+        "Poster": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 11112,
+        "Title": "Arcade Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27136,6 +51575,15 @@ var films = [
       "Comedy",
       "Family",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 13913,
+        "Title": "Joseph M. Schenck Productions",
+        "Poster": "",
+        "OriginCountry": "BR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27163,6 +51611,22 @@ var films = [
     "Genres": [
       "Fantasy",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 437,
+        "Title": "Heyday Films",
+        "Poster": "/nu20mtwbEIhUNnQ5NXVhHsNknZj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27190,6 +51654,22 @@ var films = [
       "Drama",
       "Romance",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 95354,
+        "Title": "Gray Daisy Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 15231,
+        "Title": "Muse Productions",
+        "Poster": "/iFbzMtXFBv2ekA9Ldrw6LqjLrvX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27215,6 +51695,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 2130,
+        "Title": "Mr. Mudd",
+        "Poster": "/g0lqeY2FvhzXcOI6z8RVXbORRUY.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27241,6 +51730,36 @@ var films = [
     "Genres": [
       "Action",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 79,
+        "Title": "Village Roadshow Pictures",
+        "Poster": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 372,
+        "Title": "Groucho II Film Partnership",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 1885,
+        "Title": "Silver Pictures",
+        "Poster": "/xlvoOZr4s1PygosrwZyolIFe5xs.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27266,6 +51785,22 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 3287,
+        "Title": "Screen Gems",
+        "Poster": "/bz6GbCQQXGNE56LTW9dwgksW0Iw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7291,
+        "Title": "Olive Bridge Entertainment",
+        "Poster": "/eo8YnSO7wpUHVEprnMDOUcalhFD.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27301,6 +51836,120 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 104363,
+        "Title": "30WEST",
+        "Poster": "/tKIimrvYUH02D4km00lCEDUYvIF.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 288,
+        "Title": "BBC Film",
+        "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 7970,
+        "Title": "Bord Cadre Films",
+        "Poster": "/so1bsD7PbaSsFio7gVyW0M3qhsc.png",
+        "OriginCountry": "CH",
+        "Amount": 0
+      },
+      {
+        "Id": 6505,
+        "Title": "Coproduction Office",
+        "Poster": "/tjpzIYXGAh8DXoMIzYtuuUpiqb3.png",
+        "OriginCountry": "DK",
+        "Amount": 0
+      },
+      {
+        "Id": 2801,
+        "Title": "Film i V\u00E4st",
+        "Poster": "/bswb1PLLsKDUXMLgy42bZtCtIde.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 76888,
+        "Title": "Heretic",
+        "Poster": "/eQzzrPMtHbgAxKgQysFH73mHaHF.png",
+        "OriginCountry": "GR",
+        "Amount": 0
+      },
+      {
+        "Id": 81121,
+        "Title": "Imperative Entertainment",
+        "Poster": "/1z9ocv9A1qlXhH1ehq2hFqIl0J5.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 47416,
+        "Title": "Sovereign Films",
+        "Poster": "/1SGwPd5snC2OHk4vW8w3m6ET6jc.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 8483,
+        "Title": "Plattform Produktion",
+        "Poster": "/lKMQtwKjBzhOvmylMImqzPazKwz.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 2999,
+        "Title": "SVT",
+        "Poster": "/zGSqFee9aDgDuLD6vcs2mcJUem4.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 7281,
+        "Title": "BFI",
+        "Poster": "/iI7qdR1OFPo0U41BlpKBLD3xesh.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 19771,
+        "Title": "Piano",
+        "Poster": "/anRmhRCSY9fXOIygcjjVHL4bWL1.png",
+        "OriginCountry": "MX",
+        "Amount": 0
+      },
+      {
+        "Id": 94,
+        "Title": "ARTE France Cin\u00E9ma",
+        "Poster": "/huC7HqorvUThGIrENrbcHmQVUA0.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 11237,
+        "Title": "ZDF/Arte",
+        "Poster": "/nzPEges9ftjCDQWru0qrIfTX8OR.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 20691,
+        "Title": "Essential Filmproduktion",
+        "Poster": "/zB4VpQ8BDxKKhUXam2u57ZZ9mtx.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 178407,
+        "Title": "TRT Sinema",
+        "Poster": "/wao9Q0lnrPlrqpouG2QRZ09fRZw.png",
+        "OriginCountry": "TR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27326,6 +51975,22 @@ var films = [
     ],
     "Genres": [
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 113434,
+        "Title": "Shadowhouse Films",
+        "Poster": "/uwfYDqIcbc0B8jfZE0953AfYLzz.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 219559,
+        "Title": "BOO-URNS",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27353,6 +52018,43 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 1420,
+        "Title": "ContentFilm",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 445,
+        "Title": "Major Studio Partners",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3567,
+        "Title": "Room 9 Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 43,
+        "Title": "Fox Searchlight Pictures",
+        "Poster": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 153769,
+        "Title": "David O. Sacks Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27380,6 +52082,15 @@ var films = [
       "Comedy",
       "Thriller",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 4399,
+        "Title": "Barunson E\u0026A",
+        "Poster": "/rk3kE5QX2dQtH0pPwCHV12qfebg.png",
+        "OriginCountry": "KR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27407,6 +52118,43 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 591,
+        "Title": "France 3 Cin\u00E9ma",
+        "Poster": "/q5I5RDwMEiqoNmfaJgd2LraEOJY.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 1610,
+        "Title": "CED Productions",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 6274,
+        "Title": "MK2 Films",
+        "Poster": "/ngZoa368SAnERTz3IBvgTT4eWeB.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 22587,
+        "Title": "CAB Productions",
+        "Poster": "",
+        "OriginCountry": "CH",
+        "Amount": 0
+      },
+      {
+        "Id": 38,
+        "Title": "Studio Filmowe Tor",
+        "Poster": "/oZyTaSTMP9LMB6BTzPDv3q4oyMj.png",
+        "OriginCountry": "PL",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27434,6 +52182,36 @@ var films = [
     "Genres": [
       "Comedy",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 14,
+        "Title": "Miramax",
+        "Poster": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2900,
+        "Title": "Toff Guy Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 210118,
+        "Title": "Coach Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 47729,
+        "Title": "STXfilms",
+        "Poster": "/bAxh897TGgdR0Py6wdd0UuE147Z.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27460,6 +52238,22 @@ var films = [
     "Genres": [
       "Drama",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 65157,
+        "Title": "Cyclops",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27487,6 +52281,43 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 7437,
+        "Title": "IM Global",
+        "Poster": "/e5CcgFrdlxMUwlsS72si8q1yHBr.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3625,
+        "Title": "Bwark Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 195260,
+        "Title": "Young Films",
+        "Poster": "/XS8GspYRRQRFyhjqKt7RUGFcNZ.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 233919,
+        "Title": "Palma Pictures",
+        "Poster": "",
+        "OriginCountry": "ES",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27514,6 +52345,15 @@ var films = [
       "Action",
       "Science Fiction",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 1950,
+        "Title": "New World Pictures",
+        "Poster": "/eIoDtHIJKZaZ4hGbKgqC0PzlqJc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27540,6 +52380,36 @@ var films = [
     "Genres": [
       "Comedy",
       "Adventure"
+    ],
+    "Studios": [
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 770,
+        "Title": "Kingsgate Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 771,
+        "Title": "Mandate Pictures",
+        "Poster": "/fQpEeXgCVsXQkVVFMMjrrkOFja3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 181992,
+        "Title": "Mandate International",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27567,6 +52437,15 @@ var films = [
       "Family",
       "Animation",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 3166,
+        "Title": "Walt Disney Productions",
+        "Poster": "/vyyv4Gy9nPqAZKElPm2izLlEaVS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27596,6 +52475,15 @@ var films = [
       "Mystery",
       "Thriller",
       "Action"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27621,6 +52509,29 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 127928,
+        "Title": "20th Century Studios",
+        "Poster": "/h0rjX5vjW5r8yEnUBStFarjcLT4.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 106497,
+        "Title": "Artists First",
+        "Poster": "/l7nrRW41bLB1M6wK6sDDpxvDQBp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 77152,
+        "Title": "Gloria Sanchez Productions",
+        "Poster": "/uFQRkYWX3xBON0BZ8DxKUDqLrmn.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27648,6 +52559,36 @@ var films = [
       "Drama",
       "Thriller",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11317,
+        "Title": "Phoenix Pictures",
+        "Poster": "/hMboqqmeILXFeOJjuCsn3FvCIT3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 23243,
+        "Title": "Sikelia Productions",
+        "Poster": "/cBPyrhXhGKzxUdL4Fkg801HZ4W.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 562,
+        "Title": "Appian Way",
+        "Poster": "/azANEzu3H3Kztzt63sdjvlzxhuB.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27675,6 +52616,36 @@ var films = [
       "Crime",
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 18609,
+        "Title": "BoulderLight Pictures",
+        "Poster": "/cYhbt3q231mWEkiMn3WPLCcXXl9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 829,
+        "Title": "Vertigo Entertainment",
+        "Poster": "/aXqwCvJSCDbTclkxAYfsT1l4Dsa.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 110799,
+        "Title": "AGC Studios",
+        "Poster": "/eHjtiQJjrGQTooEsBmPSYoUnNB.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 121204,
+        "Title": "BondIt Media Capital",
+        "Poster": "/vbtvY4IxgUZk713rkmoTO4MHIac.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27704,6 +52675,29 @@ var films = [
     "Genres": [
       "Action",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 1408,
+        "Title": "Universal Productions France",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 1807,
+        "Title": "Warwick Film Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 3968,
+        "Title": "John Woolf Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27731,6 +52725,36 @@ var films = [
       "Drama",
       "Thriller",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 20344,
+        "Title": "First Light",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 770,
+        "Title": "Kingsgate Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6626,
+        "Title": "Voltage Pictures",
+        "Poster": "/A1BnMoWjzjOrjzpWimyBQkf84mS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 114737,
+        "Title": "Grosvenor Park Media",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27757,6 +52781,29 @@ var films = [
     "Genres": [
       "Crime",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 46059,
+        "Title": "Italo/Judeo Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 46060,
+        "Title": "Bill/Phillips",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27782,7 +52829,8 @@ var films = [
     ],
     "Genres": [
       "Fantasy"
-    ]
+    ],
+    "Studios": []
   },
   {
     "Title": "Beetlejuice",
@@ -27808,6 +52856,22 @@ var films = [
     "Genres": [
       "Fantasy",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 360,
+        "Title": "Geffen Pictures",
+        "Poster": "/hbDlIbBdBe0nVFTeZ7hDX3d5n2N.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27836,6 +52900,29 @@ var films = [
       "Comedy",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 491,
+        "Title": "Summit Entertainment",
+        "Poster": "/5LvDUt3KmvRnXQ4NrdWJYHeuA8J.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1205,
+        "Title": "Endgame Entertainment",
+        "Poster": "/wQX3t4qtxm7gBQE3RHuoLghgb73.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 11092,
+        "Title": "Ram Bergman Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27861,7 +52948,8 @@ var films = [
     ],
     "Genres": [
       "Documentary"
-    ]
+    ],
+    "Studios": []
   },
   {
     "Title": "Next",
@@ -27888,6 +52976,57 @@ var films = [
       "Action",
       "Science Fiction",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 449,
+        "Title": "Virtual Studios",
+        "Poster": "/fV3x8bowlRCXKtkWDovLYco7cOK.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 497,
+        "Title": "Revolution Studios",
+        "Poster": "/dcDGGHcPFBZopi7EB68UQC0VW6v.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 831,
+        "Title": "Saturn Films",
+        "Poster": "/vLENXiYTyITnMDrTKabUXhgTKX2.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 8000,
+        "Title": "Broken Road Productions",
+        "Poster": "/f8NwLg72BByt3eav7lX1lcJfe60.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7380,
+        "Title": "Initial Entertainment Group",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 15763,
+        "Title": "Eyetronics",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27914,6 +53053,22 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 93500,
+        "Title": "Productions Berthemont",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 16180,
+        "Title": "INA",
+        "Poster": "/tE5t6MnMhvyc34beR4Qf6hM2c5K.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27941,6 +53096,15 @@ var films = [
       "Comedy",
       "Mystery",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 11404,
+        "Title": "Stanley Donen Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27968,6 +53132,36 @@ var films = [
       "Horror",
       "Mystery",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2531,
+        "Title": "MRC",
+        "Poster": "/9MfCJ2G6Nrf9yyRj4tAgPmMiDcn.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6006,
+        "Title": "The Night Chronicles",
+        "Poster": "/urprgbzo1ZoMs0agcLkPK0AyqCG.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7295,
+        "Title": "Relativity Media",
+        "Poster": "/5MYE96QiE5a5oFhXxFb4y8ILSpw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -27994,6 +53188,29 @@ var films = [
     "Genres": [
       "Romance",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 25687,
+        "Title": "Boneyard Film Company Inc.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 10316,
+        "Title": "British Columbia Film",
+        "Poster": "",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 24726,
+        "Title": "Canada Council for the Arts",
+        "Poster": "/4Ou4PZ9hiEJyICZxk6FfydGIOfb.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28021,6 +53238,29 @@ var films = [
       "Drama",
       "War",
       "TV Movie"
+    ],
+    "Studios": [
+      {
+        "Id": 2090,
+        "Title": "Motion Picture Corporation of America",
+        "Poster": "/jYlUttNqcN5u1pzMQrh5AEhZ27t.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7429,
+        "Title": "HBO Films",
+        "Poster": "/6in9uMqxXEHx5XgYgkeRBpZ4rPw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3268,
+        "Title": "HBO",
+        "Poster": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28048,6 +53288,15 @@ var films = [
       "Action",
       "Thriller",
       "TV Movie"
+    ],
+    "Studios": [
+      {
+        "Id": 26727,
+        "Title": "Universal Television",
+        "Poster": "/jeTxdjXhzgKZyLr3l9MllkTn3fy.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28074,7 +53323,8 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
-    ]
+    ],
+    "Studios": []
   },
   {
     "Title": "The Prince",
@@ -28100,6 +53350,15 @@ var films = [
     "Genres": [
       "Drama",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 193611,
+        "Title": "Black Apron Entertainment",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28125,6 +53384,15 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 102605,
+        "Title": "A Mile A Way Productions",
+        "Poster": "/bI5DjrTWaMr2uCf4tQJdVztnV8P.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28150,6 +53418,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 70,
+        "Title": "American Zoetrope",
+        "Poster": "/ueaENQkPcy8rlr5fGZVBXKOhlBh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28175,6 +53452,22 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10157,
+        "Title": "Beacon Pictures",
+        "Poster": "/iMTZBY3vbW1PMKbdVh50j1Z21WU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28202,6 +53495,22 @@ var films = [
       "Crime",
       "Drama",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 97,
+        "Title": "Castle Rock Entertainment",
+        "Poster": "/7znWcbDd4PcJzJUlJxYqAlPPykp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28234,6 +53543,43 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 201504,
+        "Title": "Pushing Buttons Studios",
+        "Poster": "",
+        "OriginCountry": "IN",
+        "Amount": 0
+      },
+      {
+        "Id": 127115,
+        "Title": "Crawling Angel Films",
+        "Poster": "",
+        "OriginCountry": "IN",
+        "Amount": 0
+      },
+      {
+        "Id": 47929,
+        "Title": "Dolce Vita Films",
+        "Poster": "/dwAc7CVV3rPXOBAzQZepENAzdw.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 204575,
+        "Title": "Cinema Inutile",
+        "Poster": "/7pjTsox3kXeT2bv4lNGXePnymqc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 215794,
+        "Title": "Blink Digital",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28262,6 +53608,57 @@ var films = [
       "Drama",
       "Mystery",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 9217,
+        "Title": "Pioneer Pictures",
+        "Poster": "/nk6sgP2r0so260I8X0fKIr1OeUL.png",
+        "OriginCountry": "HU",
+        "Amount": 0
+      },
+      {
+        "Id": 16853,
+        "Title": "Rook Films",
+        "Poster": "/ihiEwwDAc8ghtdNxpMp0T34OhIi.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 58546,
+        "Title": "Ripken Productions",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 7281,
+        "Title": "BFI",
+        "Poster": "/iI7qdR1OFPo0U41BlpKBLD3xesh.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 20277,
+        "Title": "Protagonist Pictures",
+        "Poster": "/aomeUwZLIBjGXHfuZq7HTVk7UNb.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 290,
+        "Title": "Ingenious Media",
+        "Poster": "/jrgCuaQsY9ouP5ILZf4Dq4ZOkIX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28288,6 +53685,15 @@ var films = [
     "Genres": [
       "Drama",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 344,
+        "Title": "Mosfilm",
+        "Poster": "/xenuUvcunUNpbaDOYGhWZERaym7.png",
+        "OriginCountry": "SU",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28314,6 +53720,29 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 19243,
+        "Title": "Memnon Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 745,
+        "Title": "Les Films de la Pl\u00E9iade",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 534,
+        "Title": "Filmsonor",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28342,6 +53771,15 @@ var films = [
       "Horror",
       "Thriller",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 55,
+        "Title": "Decla Film Gesellschaft Holz \u0026 Co.",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28370,6 +53808,29 @@ var films = [
     "Genres": [
       "Fantasy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 11,
+        "Title": "WingNut Films",
+        "Poster": "/6FAuASQHybRkZUk08p9PzSs9ezM.png",
+        "OriginCountry": "NZ",
+        "Amount": 0
+      },
+      {
+        "Id": 7,
+        "Title": "DreamWorks Pictures",
+        "Poster": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28397,6 +53858,29 @@ var films = [
     "Genres": [
       "Comedy",
       "TV Movie"
+    ],
+    "Studios": [
+      {
+        "Id": 183206,
+        "Title": "Finishing the Hat Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 40949,
+        "Title": "Once and Future Films",
+        "Poster": "",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 12077,
+        "Title": "Viacom Productions",
+        "Poster": "/s6p5INYKlo6gD6RFXlm9ACA2VVj.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28423,6 +53907,43 @@ var films = [
     "Genres": [
       "Drama",
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 41077,
+        "Title": "A24",
+        "Poster": "/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 138287,
+        "Title": "Fruit Tree",
+        "Poster": "/3I1k679J7ZLQtVFM23dJhFZQQCH.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 90610,
+        "Title": "Smudge Films",
+        "Poster": "/nFJMPK22kJS6LfsQtwd3u2cF9v9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 222025,
+        "Title": "Hypnic Jerk",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 103376,
+        "Title": "Access Entertainment",
+        "Poster": "/zAyfGEx1LJOkwNTrHugnWHzLRE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28448,6 +53969,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 882,
+        "Title": "TOHO",
+        "Poster": "/fRSWWjquvzcHjACbtF53utZFIll.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 44545,
+        "Title": "Tokyo Eiga",
+        "Poster": "",
+        "OriginCountry": "JP",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28473,6 +54010,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 1976,
+        "Title": "filmscience",
+        "Poster": "/vuNHAl3LpcNtjtRx8Ml4gpUMO2G.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28498,6 +54044,15 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 73643,
+        "Title": "Film Publishers",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28526,6 +54081,43 @@ var films = [
     "Genres": [
       "Drama",
       "Music"
+    ],
+    "Studios": [
+      {
+        "Id": 14683,
+        "Title": "Cin\u00E9-Tamaris",
+        "Poster": "/oqpU5dX9DlN3YB96NdsNXknJhcl.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 119162,
+        "Title": "INLC",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 85389,
+        "Title": "Paradise",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 6849,
+        "Title": "SFP",
+        "Poster": "/AjdOGHRLAhWbP1aAga85A9EOfD2.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 16180,
+        "Title": "INA",
+        "Poster": "/tE5t6MnMhvyc34beR4Qf6hM2c5K.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28551,6 +54143,15 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 5778,
+        "Title": "Channel 4 Television",
+        "Poster": "/2loyoQweDxvotH3AknfL2zhsthg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28576,6 +54177,22 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 7370,
+        "Title": "Loki Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 7315,
+        "Title": "A\u0026E IndieFilms",
+        "Poster": "/pn1L5r75URMfY1XQB38NLKTlX3U.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28603,6 +54220,36 @@ var films = [
       "Comedy",
       "Romance",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 769,
+        "Title": "Destination Films",
+        "Poster": "/j8zjbr6CzgiOj4kdtkTkwjdn0b3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2813,
+        "Title": "Forensic Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2150,
+        "Title": "GreeneStreet Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 907,
+        "Title": "Overbrook Entertainment",
+        "Poster": "/ca5SWI5uvU985f8Kbb4xc8AmVWH.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28633,6 +54280,43 @@ var films = [
     "Genres": [
       "Horror",
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 7584,
+        "Title": "Screen Australia",
+        "Poster": "/eGkfvvyf4fJTvBUR1xt1669IPA3.png",
+        "OriginCountry": "AU",
+        "Amount": 0
+      },
+      {
+        "Id": 104145,
+        "Title": "Create NSW",
+        "Poster": "/pXEmryDYZUOHAeb218RcKQgdJ4t.png",
+        "OriginCountry": "AU",
+        "Amount": 0
+      },
+      {
+        "Id": 20277,
+        "Title": "Protagonist Pictures",
+        "Poster": "/aomeUwZLIBjGXHfuZq7HTVk7UNb.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 100610,
+        "Title": "Made Up Stories",
+        "Poster": "/81WtvTYVr4WsWm2ZLfwR48TrDBT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 15159,
+        "Title": "Snoot Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28658,6 +54342,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 344,
+        "Title": "Mosfilm",
+        "Poster": "/xenuUvcunUNpbaDOYGhWZERaym7.png",
+        "OriginCountry": "SU",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28684,6 +54377,22 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 2926,
+        "Title": "Alexandre Films",
+        "Poster": "/9c6iLKfw1Ho3ikxkFqz5TPn3Ht.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 51385,
+        "Title": "Les Films de l'Alma",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28713,6 +54422,36 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 4606,
+        "Title": "ZDF",
+        "Poster": "/otZHbf1HmzLRQsZFSqJXkf8EHz7.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 10645,
+        "Title": "Paradise Films",
+        "Poster": "",
+        "OriginCountry": "BE",
+        "Amount": 0
+      },
+      {
+        "Id": 10647,
+        "Title": "Unit\u00E9 Trois",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 16180,
+        "Title": "INA",
+        "Poster": "/tE5t6MnMhvyc34beR4Qf6hM2c5K.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28739,6 +54478,36 @@ var films = [
     "Genres": [
       "Romance",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 92346,
+        "Title": "SunnyMarch",
+        "Poster": "/qyqhyTbYHRmU2QcRomm4AeGiN0g.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 28473,
+        "Title": "Shoebox Films",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 113521,
+        "Title": "StudioCanal",
+        "Poster": "/f1zRNbj6hK0Fqgc9lTVU5r3O3Iw.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28764,6 +54533,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 46970,
+        "Title": "Moviola Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28789,6 +54567,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 220,
+        "Title": "Path\u00E9 Consortium Cin\u00E9ma",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 745,
+        "Title": "Les Films de la Pl\u00E9iade",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28816,6 +54610,36 @@ var films = [
       "Action",
       "Adventure",
       "Science Fiction"
+    ],
+    "Studios": [
+      {
+        "Id": 93105,
+        "Title": "IAC Films",
+        "Poster": "/ryjDQ04FlVYVW30Eok3t5V5Gx8T.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 106544,
+        "Title": "AGBO",
+        "Poster": "/psd84iF7PTGrKf4yFOStKj8JbAh.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 114130,
+        "Title": "Ley Line Entertainment",
+        "Poster": "/4qWbeq1VqAH1RSCBFvCNkkY5Qi8.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 161506,
+        "Title": "Year of the Rat",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28841,6 +54665,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 9,
+        "Title": "Gaumont",
+        "Poster": "/nda3dTUYdDrJ6rZqBpYvY865aDv.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 25206,
+        "Title": "La Sorci\u00E8re Rouge",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28867,6 +54707,15 @@ var films = [
     "Genres": [
       "Science Fiction",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 344,
+        "Title": "Mosfilm",
+        "Poster": "/xenuUvcunUNpbaDOYGhWZERaym7.png",
+        "OriginCountry": "SU",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28894,6 +54743,22 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 221555,
+        "Title": "Yabayay Media",
+        "Poster": "",
+        "OriginCountry": "PS",
+        "Amount": 0
+      },
+      {
+        "Id": 93323,
+        "Title": "Antipode Films",
+        "Poster": "/fi63y4d3mn3myCHMG8t1II2yeHb.png",
+        "OriginCountry": "NO",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28920,6 +54785,36 @@ var films = [
     "Genres": [
       "Horror",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 10146,
+        "Title": "Focus Features",
+        "Poster": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 77863,
+        "Title": "Studio 8",
+        "Poster": "/7z6YOzvdk70YY8OaRbn5mfxrvbO.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 41641,
+        "Title": "Maiden Voyage Pictures",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 239430,
+        "Title": "Birch Hill Road Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28945,6 +54840,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 16670,
+        "Title": "SNC",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 109,
+        "Title": "Rome-Paris Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28972,6 +54883,22 @@ var films = [
       "Horror",
       "Mystery",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 3138,
+        "Title": "Harcourt Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 23600,
+        "Title": "Centron Corporation",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -28997,7 +54924,8 @@ var films = [
     ],
     "Genres": [
       "Drama"
-    ]
+    ],
+    "Studios": []
   },
   {
     "Title": "Nine to Five",
@@ -29022,6 +54950,22 @@ var films = [
     ],
     "Genres": [
       "Comedy"
+    ],
+    "Studios": [
+      {
+        "Id": 630,
+        "Title": "IPC Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29048,6 +54992,29 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 716,
+        "Title": "Standard Film Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 715,
+        "Title": "Bona Fide Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29074,6 +55041,15 @@ var films = [
     "Genres": [
       "War",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29099,6 +55075,36 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 21319,
+        "Title": "bamb\u00FA|audiovisual",
+        "Poster": "/ceCZTuNRz9BfOMAfykG337m2D15.png",
+        "OriginCountry": "MX",
+        "Amount": 0
+      },
+      {
+        "Id": 17727,
+        "Title": "La Panda",
+        "Poster": "/wsFoLgLvaS1FaYBt0pJ1LJ9v3cB.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 132432,
+        "Title": "Amplitud",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 9980,
+        "Title": "Fondo para la Producci\u00F3n Cinematogr\u00E1fica de Calidad",
+        "Poster": "/tvtK88MhdxjOZN3zSeyrkP8iWd1.png",
+        "OriginCountry": "MX",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29125,6 +55131,15 @@ var films = [
     "Genres": [
       "Romance",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 7217,
+        "Title": "See-Saw Films",
+        "Poster": "/vFbexaF70wSMUHRA6Fy6UcuA1ju.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29152,6 +55167,15 @@ var films = [
       "Animation",
       "Science Fiction",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 521,
+        "Title": "DreamWorks Animation",
+        "Poster": "/3BPX5VGBov8SDqTV7wC1L1xShAS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29179,6 +55203,15 @@ var films = [
       "Comedy",
       "Drama",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 44698,
+        "Title": "Producciones Gustavo Alatriste",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29204,6 +55237,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 6181,
+        "Title": "SF Studios",
+        "Poster": "/eaQ7or8IoEmPfgmQiU2C5lVZkxS.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29229,6 +55271,50 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 39004,
+        "Title": "Subotica",
+        "Poster": "/oIki78o91tifO6F1R0Uy4Ff3hhq.png",
+        "OriginCountry": "IE",
+        "Amount": 0
+      },
+      {
+        "Id": 288,
+        "Title": "BBC Film",
+        "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 1898,
+        "Title": "F\u00EDs \u00C9ireann/Screen Ireland",
+        "Poster": "/8ix6SGlJiyuUDxLBtY8E0PY2G7w.png",
+        "OriginCountry": "IE",
+        "Amount": 0
+      },
+      {
+        "Id": 15181,
+        "Title": "Wavelength",
+        "Poster": "/sjQmClxWfF4NmP01QJVY8e3UVYK.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 1923,
+        "Title": "RT\u00C9",
+        "Poster": "/ilgktofJY7OsURHfccJrug4GKdQ.png",
+        "OriginCountry": "IE",
+        "Amount": 0
+      },
+      {
+        "Id": 161406,
+        "Title": "World of HA Productions",
+        "Poster": "/8nKTrAIhB5OnrcFOEOZk1aS5z7v.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29256,6 +55342,29 @@ var films = [
       "Drama",
       "Science Fiction",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 77883,
+        "Title": "Unit Four",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 77882,
+        "Title": "Creative Unit of Writers \u0026 Cinema Workers",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 344,
+        "Title": "Mosfilm",
+        "Poster": "/xenuUvcunUNpbaDOYGhWZERaym7.png",
+        "OriginCountry": "SU",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29282,6 +55391,22 @@ var films = [
     "Genres": [
       "Drama",
       "TV Movie"
+    ],
+    "Studios": [
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 2600,
+        "Title": "Blast! Films",
+        "Poster": "/ePDVrW3gJCd3kxi8ucLckJoG3Bu.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29308,6 +55433,22 @@ var films = [
     "Genres": [
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 10058,
+        "Title": "BorderLine Films",
+        "Poster": "/yXWostV0eJ6WeP5Jqym5lfnsUra.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10059,
+        "Title": "This is that",
+        "Poster": "/3Z2MZzMW9gUyZAhHKhFIUqF1hwx.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29334,6 +55475,29 @@ var films = [
     "Genres": [
       "Horror",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 242184,
+        "Title": "Cloak \u0026 Company",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3172,
+        "Title": "Blumhouse Productions",
+        "Poster": "/rzKluDcRkIwHZK2pHsiT667A2Kw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29359,6 +55523,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 182162,
+        "Title": "MA Studios",
+        "Poster": "",
+        "OriginCountry": "TW",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29385,6 +55558,29 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 1037,
+        "Title": "Les Films du Livradois",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 9,
+        "Title": "Gaumont",
+        "Poster": "/nda3dTUYdDrJ6rZqBpYvY865aDv.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 591,
+        "Title": "France 3 Cin\u00E9ma",
+        "Poster": "/q5I5RDwMEiqoNmfaJgd2LraEOJY.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29410,6 +55606,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 4063,
+        "Title": "Trimark Pictures",
+        "Poster": "/psOuT9ReSYhcBEB5ptnw7D2FdsE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4665,
+        "Title": "Addis Wechsler Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 5683,
+        "Title": "ChubbCo Film",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29437,6 +55656,29 @@ var films = [
     "Genres": [
       "Documentary",
       "Animation"
+    ],
+    "Studios": [
+      {
+        "Id": 121427,
+        "Title": "Imagine Documentaries",
+        "Poster": "/rOvuUb2UaKDahx7OqQ1hD4B8Ljk.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 148496,
+        "Title": "WildBrain Studios",
+        "Poster": "/737HCq9hXnI801p8sSAMJIvCidg.png",
+        "OriginCountry": "CA",
+        "Amount": 0
+      },
+      {
+        "Id": 23,
+        "Title": "Imagine Entertainment",
+        "Poster": "/bJOFo2ufq7iFC1F4qZm8aLxF5aS.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29463,6 +55705,22 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 28205,
+        "Title": "Samuel Goldwyn Productions",
+        "Poster": "/70VLg1uTo7gXdJQczgl1DPmp3hT.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 60,
+        "Title": "United Artists",
+        "Poster": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29492,6 +55750,57 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 157683,
+        "Title": "petit chaos",
+        "Poster": "/evHvySXGYzQTyaoUhZPZl2vTFFc.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 167987,
+        "Title": "Chalk and Cheese",
+        "Poster": "/pyLTqWZzOVlCXn0hhjbhr2qsxH4.png",
+        "OriginCountry": "IN",
+        "Amount": 0
+      },
+      {
+        "Id": 94,
+        "Title": "ARTE France Cin\u00E9ma",
+        "Poster": "/huC7HqorvUThGIrENrbcHmQVUA0.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 34574,
+        "Title": "BALDR",
+        "Poster": "/sKFIZJUuctmEgDJngtIXMPjaRZ9.png",
+        "OriginCountry": "NL",
+        "Amount": 0
+      },
+      {
+        "Id": 173216,
+        "Title": "Another Birth",
+        "Poster": "",
+        "OriginCountry": "IN",
+        "Amount": 0
+      },
+      {
+        "Id": 72130,
+        "Title": "Les Films Fauves",
+        "Poster": "/2aZx0CKefgtSJEwU5TBLX7oXwyR.png",
+        "OriginCountry": "LU",
+        "Amount": 0
+      },
+      {
+        "Id": 228402,
+        "Title": "Pulpa Film",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29519,6 +55828,22 @@ var films = [
       "Drama",
       "Music",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 137,
+        "Title": "Great American Films Limited Partnership",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 12360,
+        "Title": "Vestron Pictures",
+        "Poster": "/EugVVMfcbv9zxCr0C60VhD0vGY.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29547,6 +55872,64 @@ var films = [
     "Genres": [
       "Drama",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 288,
+        "Title": "BBC Film",
+        "Poster": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 7281,
+        "Title": "BFI",
+        "Poster": "/iI7qdR1OFPo0U41BlpKBLD3xesh.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 103376,
+        "Title": "Access Entertainment",
+        "Poster": "/zAyfGEx1LJOkwNTrHugnWHzLRE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 168240,
+        "Title": "Pinky Promise",
+        "Poster": "/gMs3AWkhaIOnqHjMMAv4Z7OGjKO.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 168539,
+        "Title": "FirstGen Content",
+        "Poster": "/sn968qmNPfPDbiYts8c5eDvjo4S.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 112783,
+        "Title": "House Productions",
+        "Poster": "/g95BBJvKyOawT3sGVXTdDG72Qad.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 33279,
+        "Title": "Ad Vitam Production",
+        "Poster": "/4cWgpF6cLunSrG4fSdBPT2gF8ie.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 94,
+        "Title": "ARTE France Cin\u00E9ma",
+        "Poster": "/huC7HqorvUThGIrENrbcHmQVUA0.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29573,6 +55956,22 @@ var films = [
     "Genres": [
       "Thriller",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 4005,
+        "Title": "Skirball Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29600,7 +55999,8 @@ var films = [
       "Science Fiction",
       "Comedy",
       "Animation"
-    ]
+    ],
+    "Studios": []
   },
   {
     "Title": "Double Labyrinthe",
@@ -29625,6 +56025,15 @@ var films = [
     ],
     "Genres": [
       "Documentary"
+    ],
+    "Studios": [
+      {
+        "Id": 98568,
+        "Title": "A.S.T.A.R.T.I.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29650,6 +56059,15 @@ var films = [
     ],
     "Genres": [
       "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 9384,
+        "Title": "Les Films ABC",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29678,6 +56096,50 @@ var films = [
       "Horror",
       "Mystery",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 46344,
+        "Title": "Frenesy Film",
+        "Poster": "/qpSdIjnGHiz6UNIQWGIJkDnG79l.png",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 138012,
+        "Title": "Videa",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 34982,
+        "Title": "Mythology Entertainment",
+        "Poster": "/uvTmiRZzNfG88dVXi9hQ7eFNirq.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 53085,
+        "Title": "First Sun",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 64061,
+        "Title": "MeMo Films",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 50498,
+        "Title": "K Period Media",
+        "Poster": "/zTSRlzyDZX287q289qb4pghILyI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29705,6 +56167,36 @@ var films = [
     "Genres": [
       "Drama",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 8894,
+        "Title": "Soci\u00E9t\u00E9 G\u00E9n\u00E9rale de Cin\u00E9matographie (S.G.C.)",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 10000,
+        "Title": "C. C. Champion",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 72022,
+        "Title": "Les Films Marceau-Cocinor",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 641,
+        "Title": "Titanus",
+        "Poster": "/w8flpSJntsxVCMkIU1qeg1kJcJh.png",
+        "OriginCountry": "IT",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29730,6 +56222,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 94,
+        "Title": "ARTE France Cin\u00E9ma",
+        "Poster": "/huC7HqorvUThGIrENrbcHmQVUA0.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 1249,
+        "Title": "Les Films du Lendemain",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 26371,
+        "Title": "My New Picture",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29756,6 +56271,15 @@ var films = [
     "Genres": [
       "Drama",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 25,
+        "Title": "20th Century Fox",
+        "Poster": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29781,6 +56305,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 19640,
+        "Title": "Maven Screen Media",
+        "Poster": "/ddonoYYQ3ToVqMEc2Ke5SB1idkq.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29809,6 +56342,36 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 11143,
+        "Title": "Madragoa Filmes",
+        "Poster": "",
+        "OriginCountry": "PT",
+        "Amount": 0
+      },
+      {
+        "Id": 13338,
+        "Title": "KINEMA",
+        "Poster": "/9ZmugAA5bDuUGQFMtRo8824Mbl9.png",
+        "OriginCountry": "LT",
+        "Amount": 0
+      },
+      {
+        "Id": 46,
+        "Title": "WDR",
+        "Poster": "/3xFdKHLXPGHEbrAkmsepGE8974Y.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 6584,
+        "Title": "Gemini Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29835,6 +56398,22 @@ var films = [
     "Genres": [
       "Drama",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 46563,
+        "Title": "Haos Film",
+        "Poster": "",
+        "OriginCountry": "GR",
+        "Amount": 0
+      },
+      {
+        "Id": 109137,
+        "Title": "Deste Foundation for Contemporary Art",
+        "Poster": "",
+        "OriginCountry": "GR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29860,6 +56439,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 217,
+        "Title": "Ponti-De Laurentiis Cinematografica",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 1679,
+        "Title": "Lux Film",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29887,6 +56482,29 @@ var films = [
       "Horror",
       "Science Fiction",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2481,
+        "Title": "Platinum Dunes",
+        "Poster": "/vOQg26GjR0LnkN1Ph9uyog1UuOE.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 29312,
+        "Title": "Sunday Night Productions",
+        "Poster": "/v6aLhoAviWYkfOksBJTd9XbO0YH.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29914,6 +56532,22 @@ var films = [
       "Drama",
       "Music",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 67508,
+        "Title": "Domestic Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29943,6 +56577,43 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 13408,
+        "Title": "4 Proof Film",
+        "Poster": "/kqHRFionRMVuW31Rc8bfZZpKyIG.png",
+        "OriginCountry": "RO",
+        "Amount": 0
+      },
+      {
+        "Id": 19437,
+        "Title": "Paul Thiltges Distributions",
+        "Poster": "/1VqbDOThEcmDR6gn7et7cAs4lwr.png",
+        "OriginCountry": "LU",
+        "Amount": 0
+      },
+      {
+        "Id": 76921,
+        "Title": "Les Films d'Ici",
+        "Poster": "/dkPpGhEL2uQ5bmNDAqSZRFp894g.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 20916,
+        "Title": "Kinorama",
+        "Poster": "/kTzjchV1BXm1kSmR5vPRUnJfLil.png",
+        "OriginCountry": "HR",
+        "Amount": 0
+      },
+      {
+        "Id": 142486,
+        "Title": "microFILM",
+        "Poster": "/zjBPLzaz6x0Ei1ecI6oesRq69yo.png",
+        "OriginCountry": "RO",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29970,6 +56641,22 @@ var films = [
       "Horror",
       "Drama",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 5,
+        "Title": "Columbia Pictures",
+        "Poster": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 14440,
+        "Title": "Red Wagon Entertainment",
+        "Poster": "/gk9zllyMFnaVBWTdZpm7VcfQrHC.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -29996,6 +56683,22 @@ var films = [
     "Genres": [
       "Comedy",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 218200,
+        "Title": "Kindred Spirits Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 218201,
+        "Title": "Sirron Communications",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30021,6 +56724,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 1931,
+        "Title": "Filmov\u00E9 studio Barrandov",
+        "Poster": "/5erHhgvym2cTORao8ajtn2gbiTH.png",
+        "OriginCountry": "XC",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30048,6 +56760,22 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 68399,
+        "Title": "Filmi Domirev",
+        "Poster": "",
+        "OriginCountry": "SN",
+        "Amount": 0
+      },
+      {
+        "Id": 140606,
+        "Title": "Les Actualit\u00E9s Fran\u00E7aises",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30075,6 +56803,15 @@ var films = [
       "Drama",
       "Romance",
       "War"
+    ],
+    "Studios": [
+      {
+        "Id": 344,
+        "Title": "Mosfilm",
+        "Poster": "/xenuUvcunUNpbaDOYGhWZERaym7.png",
+        "OriginCountry": "SU",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30104,6 +56841,36 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 156673,
+        "Title": "Or\u00EBZ\u00E4ne Films",
+        "Poster": "",
+        "OriginCountry": "XK",
+        "Amount": 0
+      },
+      {
+        "Id": 18519,
+        "Title": "Acajou Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 163208,
+        "Title": "Vents Contraires",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 180158,
+        "Title": "Aeternum Artworks",
+        "Poster": "",
+        "OriginCountry": "AL",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30130,6 +56897,15 @@ var films = [
     "Genres": [
       "Drama",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 6181,
+        "Title": "SF Studios",
+        "Poster": "/eaQ7or8IoEmPfgmQiU2C5lVZkxS.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30157,6 +56933,43 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 7281,
+        "Title": "BFI",
+        "Poster": "/iI7qdR1OFPo0U41BlpKBLD3xesh.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 19640,
+        "Title": "Maven Screen Media",
+        "Poster": "/ddonoYYQ3ToVqMEc2Ke5SB1idkq.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 6705,
+        "Title": "Film4 Productions",
+        "Poster": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 6531,
+        "Title": "Parts \u0026 Labor",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 57430,
+        "Title": "Pulse Films",
+        "Poster": "/4vWiIwU0RLJJMGiqqNUnQyBsVI5.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30183,6 +56996,15 @@ var films = [
     "Genres": [
       "Science Fiction",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 121218,
+        "Title": "Little Bear Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30210,6 +57032,15 @@ var films = [
       "Drama",
       "Romance",
       "History"
+    ],
+    "Studios": [
+      {
+        "Id": 4,
+        "Title": "Paramount Pictures",
+        "Poster": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30237,6 +57068,36 @@ var films = [
       "Action",
       "Comedy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 769,
+        "Title": "Destination Films",
+        "Poster": "/j8zjbr6CzgiOj4kdtkTkwjdn0b3.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 3287,
+        "Title": "Screen Gems",
+        "Poster": "/bz6GbCQQXGNE56LTW9dwgksW0Iw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10039,
+        "Title": "Anonymous Content",
+        "Poster": "/b8w4LldQolMKiLZw4FQJBcXSDGI.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 2313,
+        "Title": "Andrea Sperling Productions",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30262,6 +57123,29 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 13260,
+        "Title": "Directors Company",
+        "Poster": "",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 955,
+        "Title": "Nikkatsu Corporation",
+        "Poster": "/5xnXD3PJI1HqOJceSAKZ3fDqO1V.png",
+        "OriginCountry": "JP",
+        "Amount": 0
+      },
+      {
+        "Id": 257368,
+        "Title": "Cinema Guild",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30294,6 +57178,50 @@ var films = [
     "Genres": [
       "Documentary",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 201,
+        "Title": "ARTE",
+        "Poster": "/6UIpEURdjnmcJPwgTDRzVRuwADr.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 122296,
+        "Title": "Sisyfos Film",
+        "Poster": "/nntidvBXBQCBB43QgLZ3Q8wHzbj.png",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 123337,
+        "Title": "Folke Film",
+        "Poster": "",
+        "OriginCountry": "SE",
+        "Amount": 0
+      },
+      {
+        "Id": 58641,
+        "Title": "Les Films du Tambour de soie",
+        "Poster": "/wE7gFEpY5aTc0TtLdjYIopiSImh.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 2067,
+        "Title": "RBB",
+        "Poster": "/y5knLIUjYsKBIlM4W0dLruWwYaC.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 186009,
+        "Title": "Docs Vostok",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30320,6 +57248,29 @@ var films = [
     "Genres": [
       "Horror",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 172,
+        "Title": "NPV Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 79,
+        "Title": "Village Roadshow Pictures",
+        "Poster": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 174,
+        "Title": "Warner Bros. Pictures",
+        "Poster": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30348,6 +57299,22 @@ var films = [
       "Comedy",
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 8930,
+        "Title": "Euro International Films",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 109,
+        "Title": "Rome-Paris Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30375,6 +57342,50 @@ var films = [
       "Drama",
       "Mystery",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 11068,
+        "Title": "Nostromo Pictures",
+        "Poster": "/jOdUllzDZRFy0tPIFDEwpP4Mpv4.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 29566,
+        "Title": "Atresmedia",
+        "Poster": "/wHbtRtUnXGNzX0riQIpq1fcgueq.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 11652,
+        "Title": "Warner Bros. Entertainment Espa\u00F1a",
+        "Poster": "",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 5085,
+        "Title": "TV3",
+        "Poster": "/mPuVc7m1Ki7OQQvAYwYfIlEI3vu.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 4960,
+        "Title": "Filmayer",
+        "Poster": "",
+        "OriginCountry": "ES",
+        "Amount": 0
+      },
+      {
+        "Id": 108143,
+        "Title": "Orange",
+        "Poster": "/yxZJXyWvt14g9e3Rk9zBi9PkOac.png",
+        "OriginCountry": "ES",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30401,6 +57412,29 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 23912,
+        "Title": "Antidote Films",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 236,
+        "Title": "October Films",
+        "Poster": "/domFRGExvHcf0IoK5vdOfY9aTvf.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 25680,
+        "Title": "391 Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30429,6 +57463,36 @@ var films = [
     "Genres": [
       "Drama",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 81794,
+        "Title": "Rumble Films",
+        "Poster": "/7mIfopwJnw4RJSHq4FI5lhRe89w.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 102874,
+        "Title": "Charades",
+        "Poster": "/3oHMY8bVdqo8c9KSQw1ehMc0o3V.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 193754,
+        "Title": "Hype Studios",
+        "Poster": "/qNHejwZmoqEwBhOFr3oq4U9Dvad.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 239458,
+        "Title": "Mosaic Films",
+        "Poster": "",
+        "OriginCountry": "RU",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30455,6 +57519,22 @@ var films = [
     "Genres": [
       "Drama",
       "Family"
+    ],
+    "Studios": [
+      {
+        "Id": 11459,
+        "Title": "Kanoon",
+        "Poster": "/q05YOjsHS2MBfteVQod3MRGkjCD.png",
+        "OriginCountry": "IR",
+        "Amount": 0
+      },
+      {
+        "Id": 66953,
+        "Title": "Farabi Cinema",
+        "Poster": "/4JYTCYLW0ANUddBtjUvwa0MwRvL.png",
+        "OriginCountry": "IR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30480,6 +57560,15 @@ var films = [
     ],
     "Genres": [
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 19786,
+        "Title": "Seven Stars Productions",
+        "Poster": "",
+        "OriginCountry": "PH",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30507,6 +57596,15 @@ var films = [
       "Comedy",
       "Romance",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 12950,
+        "Title": "Projektions-AG Union",
+        "Poster": "",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30534,6 +57632,22 @@ var films = [
     "Genres": [
       "Comedy",
       "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 10146,
+        "Title": "Focus Features",
+        "Poster": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 10163,
+        "Title": "Working Title Films",
+        "Poster": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30569,6 +57683,113 @@ var films = [
       "Drama",
       "Science Fiction",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 61201,
+        "Title": "Anna Sanders Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 16889,
+        "Title": "Burning Blue",
+        "Poster": "/iqTRJp4dVJifIFMTw08sf1Zv5W2.png",
+        "OriginCountry": "CO",
+        "Amount": 0
+      },
+      {
+        "Id": 24372,
+        "Title": "Illuminations Films",
+        "Poster": "/5GC9vLJ27fPCCA5bIj7IJ5GXQS0.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 59665,
+        "Title": "Kick the Machine",
+        "Poster": "",
+        "OriginCountry": "TH",
+        "Amount": 0
+      },
+      {
+        "Id": 19771,
+        "Title": "Piano",
+        "Poster": "/anRmhRCSY9fXOIygcjjVHL4bWL1.png",
+        "OriginCountry": "MX",
+        "Amount": 0
+      },
+      {
+        "Id": 7306,
+        "Title": "The Match Factory",
+        "Poster": "/iqCkzLmACmrws2tHO2USRLkJqXY.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 11237,
+        "Title": "ZDF/Arte",
+        "Poster": "/nzPEges9ftjCDQWru0qrIfTX8OR.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 1079,
+        "Title": "Xstream Pictures",
+        "Poster": "",
+        "OriginCountry": "CN",
+        "Amount": 0
+      },
+      {
+        "Id": 47416,
+        "Title": "Sovereign Films",
+        "Poster": "/1SGwPd5snC2OHk4vW8w3m6ET6jc.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 127914,
+        "Title": "Rediance",
+        "Poster": "/xaPfwbAnv2ULcCil5x6dPFmFs8z.png",
+        "OriginCountry": "CN",
+        "Amount": 0
+      },
+      {
+        "Id": 8469,
+        "Title": "Louverture Films",
+        "Poster": "/gSSXLuayChi5h9KEuzfwd2UjWjm.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 58879,
+        "Title": "Labo",
+        "Poster": "/le0j7yzBOYcxGqC7YeuiFmgP5E3.png",
+        "OriginCountry": "MX",
+        "Amount": 0
+      },
+      {
+        "Id": 7970,
+        "Title": "Bord Cadre Films",
+        "Poster": "/so1bsD7PbaSsFio7gVyW0M3qhsc.png",
+        "OriginCountry": "CH",
+        "Amount": 0
+      },
+      {
+        "Id": 127917,
+        "Title": "Beijing Contemporary Art Foundation",
+        "Poster": "",
+        "OriginCountry": "CN",
+        "Amount": 0
+      },
+      {
+        "Id": 108142,
+        "Title": "185 Films",
+        "Poster": "",
+        "OriginCountry": "TH",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30597,6 +57818,22 @@ var films = [
       "Drama",
       "Fantasy",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 8608,
+        "Title": "Magnum Film",
+        "Poster": "",
+        "OriginCountry": "RU",
+        "Amount": 0
+      },
+      {
+        "Id": 3419,
+        "Title": "Central Partnership",
+        "Poster": "/byrxE2pJD9JLyBCIzyK0pYVanyG.png",
+        "OriginCountry": "RU",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30626,6 +57863,92 @@ var films = [
       "Drama",
       "Crime",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 35228,
+        "Title": "Shooting Pictures",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 140097,
+        "Title": "China Wit Media",
+        "Poster": "",
+        "OriginCountry": "CN",
+        "Amount": 0
+      },
+      {
+        "Id": 140098,
+        "Title": "Tianijn Xiron Entertainment",
+        "Poster": "",
+        "OriginCountry": "CN",
+        "Amount": 0
+      },
+      {
+        "Id": 7909,
+        "Title": "We Pictures",
+        "Poster": "",
+        "OriginCountry": "HK",
+        "Amount": 0
+      },
+      {
+        "Id": 140099,
+        "Title": "Haojiahuo Pictures",
+        "Poster": "",
+        "OriginCountry": "CN",
+        "Amount": 0
+      },
+      {
+        "Id": 152608,
+        "Title": "He Nan Dian Ying Dian Shi Zhi Zuo Ji Tuan",
+        "Poster": "",
+        "OriginCountry": "CN",
+        "Amount": 0
+      },
+      {
+        "Id": 152609,
+        "Title": "Fat Kids Production",
+        "Poster": "",
+        "OriginCountry": "CN",
+        "Amount": 0
+      },
+      {
+        "Id": 117435,
+        "Title": "Dadi Film Group",
+        "Poster": "/zwN9AT4scM8BBOYTLjlKnI08qws.png",
+        "OriginCountry": "CN",
+        "Amount": 0
+      },
+      {
+        "Id": 69484,
+        "Title": "Alibaba Pictures Group",
+        "Poster": "/2xtmvbEse87LM7OJXVksv7DToZx.png",
+        "OriginCountry": "CN",
+        "Amount": 0
+      },
+      {
+        "Id": 131587,
+        "Title": "Lian Ray Pictures",
+        "Poster": "/vtQSkfAuPHoBtlEbUpsjs5kVfG6.png",
+        "OriginCountry": "CN",
+        "Amount": 0
+      },
+      {
+        "Id": 74194,
+        "Title": "Henan Film \u0026 TV Production Group",
+        "Poster": "",
+        "OriginCountry": "CN",
+        "Amount": 0
+      },
+      {
+        "Id": 2269,
+        "Title": "China Film Co-Production Corp.",
+        "Poster": "",
+        "OriginCountry": "CN",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30654,13 +57977,43 @@ var films = [
       "Horror",
       "Thriller",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 1950,
+        "Title": "New World Pictures",
+        "Poster": "/eIoDtHIJKZaZ4hGbKgqC0PzlqJc.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 15338,
+        "Title": "Cinemarque Entertainment",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 15339,
+        "Title": "Film Futures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 15340,
+        "Title": "Rivdel Films",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
     "Title": "Companion",
     "TitleOriginal": "Companion",
     "Language": "English",
-    "RatingSelf": null,
+    "RatingSelf": 3,
     "RatingLetterboxd": 3.44,
     "Minutes": 97,
     "Watched": 802627,
@@ -30681,6 +58034,43 @@ var films = [
       "Horror",
       "Science Fiction",
       "Thriller"
+    ],
+    "Studios": [
+      {
+        "Id": 18609,
+        "Title": "BoulderLight Pictures",
+        "Poster": "/cYhbt3q231mWEkiMn3WPLCcXXl9.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 12,
+        "Title": "New Line Cinema",
+        "Poster": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 829,
+        "Title": "Vertigo Entertainment",
+        "Poster": "/aXqwCvJSCDbTclkxAYfsT1l4Dsa.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 240675,
+        "Title": "Subconscious",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 216687,
+        "Title": "Domain Entertainment",
+        "Poster": "/kKVYqekveOvLK1IgqdJojLjQvtu.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30710,6 +58100,22 @@ var films = [
       "Family",
       "Adventure",
       "Fantasy"
+    ],
+    "Studios": [
+      {
+        "Id": 5391,
+        "Title": "DisneyToon Studios",
+        "Poster": "/o5AcK10ViutenSa4XTD18ClCEWe.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      },
+      {
+        "Id": 22135,
+        "Title": "Prana Animation Studios",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30737,6 +58143,22 @@ var films = [
     "Genres": [
       "Romance",
       "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 33649,
+        "Title": "Finarco",
+        "Poster": "",
+        "OriginCountry": "IT",
+        "Amount": 0
+      },
+      {
+        "Id": 1787,
+        "Title": "CCC Filmkunst",
+        "Poster": "/tWdfCS6OBkxSuXao5lluNKDIvlc.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30764,6 +58186,22 @@ var films = [
       "Horror",
       "Thriller",
       "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 141,
+        "Title": "V\u00E9ra Films",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 534,
+        "Title": "Filmsonor",
+        "Poster": "",
+        "OriginCountry": "FR",
+        "Amount": 0
+      }
     ]
   },
   {
@@ -30790,6 +58228,536 @@ var films = [
     "Genres": [
       "Drama",
       "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 33,
+        "Title": "Universal Pictures",
+        "Poster": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
+    ]
+  },
+  {
+    "Title": "Desert Hearts",
+    "TitleOriginal": "Desert Hearts",
+    "Language": "English",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.81,
+    "Minutes": 91,
+    "Watched": 50116,
+    "Fans": 788,
+    "Likes": 18862,
+    "Id": "2aFc",
+    "Poster": "/klAHoWOZgL8sR74Tnl7K7z4Lziq.jpg",
+    "Year": 1985,
+    "When": "1985-10-01",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "US"
+    ],
+    "Countries_Production": [
+      "US"
+    ],
+    "Genres": [
+      "Drama",
+      "Romance"
+    ],
+    "Studios": [
+      {
+        "Id": 80277,
+        "Title": "Desert Hearts Productions",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 798,
+        "Title": "The Samuel Goldwyn Company",
+        "Poster": "/nQgX1MOLySgug7FDONdIkht3xob.png",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
+    ]
+  },
+  {
+    "Title": "The Lavender Hill Mob",
+    "TitleOriginal": "The Lavender Hill Mob",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.75,
+    "Minutes": 78,
+    "Watched": 18557,
+    "Fans": 14,
+    "Likes": 4152,
+    "Id": "1gkM",
+    "Poster": "/k0MfdrAshO2247Z9xu1FyulK5i9.jpg",
+    "Year": 1951,
+    "When": "1951-06-28",
+    "BlackAndWhite": true,
+    "Countries_Origin": [
+      "GB"
+    ],
+    "Countries_Production": [
+      "GB"
+    ],
+    "Genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "Studios": [
+      {
+        "Id": 2650,
+        "Title": "Ealing Studios",
+        "Poster": "/sDWe94w5fuyfgfRKc3N27CSJvsD.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 364,
+        "Title": "The Rank Organisation",
+        "Poster": "",
+        "OriginCountry": "GB",
+        "Amount": 0
+      }
+    ]
+  },
+  {
+    "Title": "0.5 mm",
+    "TitleOriginal": "0.5\u30DF\u30EA",
+    "Language": "Japanese",
+    "RatingSelf": 5,
+    "RatingLetterboxd": 4.01,
+    "Minutes": 198,
+    "Watched": 3723,
+    "Fans": 47,
+    "Likes": 1347,
+    "Id": "8x6c",
+    "Poster": "/b8Z35jLGplXOiGYjJkmNuzahqcG.jpg",
+    "Year": 2014,
+    "When": "2014-11-08",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "JP"
+    ],
+    "Countries_Production": [
+      "JP"
+    ],
+    "Genres": [
+      "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 26224,
+        "Title": "Zero Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
+    ]
+  },
+  {
+    "Title": "Shayda",
+    "TitleOriginal": "Shayda",
+    "Language": "Persian",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.57,
+    "Minutes": 118,
+    "Watched": 4865,
+    "Fans": 9,
+    "Likes": 1330,
+    "Id": "AXW0",
+    "Poster": "/fKLSMZ7EfIGRNRXntdJ157PcHmo.jpg",
+    "Year": 2023,
+    "When": "2023-09-28",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "AU"
+    ],
+    "Countries_Production": [
+      "AU",
+      "GB"
+    ],
+    "Genres": [
+      "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 2607,
+        "Title": "Dirty Films",
+        "Poster": "/rwTSjSumVrkyltisEo0kRMV8oiz.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 7584,
+        "Title": "Screen Australia",
+        "Poster": "/eGkfvvyf4fJTvBUR1xt1669IPA3.png",
+        "OriginCountry": "AU",
+        "Amount": 0
+      },
+      {
+        "Id": 175777,
+        "Title": "Origma 45",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 204763,
+        "Title": "VicScreen",
+        "Poster": "/aqWMgtLOf2ClBDnK0f4DvYNTZf6.png",
+        "OriginCountry": "AU",
+        "Amount": 0
+      },
+      {
+        "Id": 215840,
+        "Title": "MIFF Premiere Fund",
+        "Poster": "/6o5BejUrxsrVKwZOv6Nqs8sQunA.png",
+        "OriginCountry": "AU",
+        "Amount": 0
+      },
+      {
+        "Id": 2395,
+        "Title": "HanWay Films",
+        "Poster": "/pZz4qs03FtP6UGtZ3hjQ6qimcwi.png",
+        "OriginCountry": "GB",
+        "Amount": 0
+      },
+      {
+        "Id": 175778,
+        "Title": "The 51 Fund",
+        "Poster": "/5J7d8lPluaT0x2SNsBHETHDBrCB.png",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 228308,
+        "Title": "Parandeh Pictures",
+        "Poster": "/cDJ7d5A4i9Nz1QGelAOlEzsm7HX.png",
+        "OriginCountry": "AU",
+        "Amount": 0
+      }
+    ]
+  },
+  {
+    "Title": "Picnic at Hanging Rock",
+    "TitleOriginal": "Picnic at Hanging Rock",
+    "Language": "English",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.83,
+    "Minutes": 115,
+    "Watched": 131800,
+    "Fans": 1834,
+    "Likes": 39169,
+    "Id": "1UQe",
+    "Poster": "/7BAXwmFN4pZDNb9N6kzmAAwdssi.jpg",
+    "Year": 1975,
+    "When": "1975-09-02",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "AU"
+    ],
+    "Countries_Production": [
+      "AU"
+    ],
+    "Genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "Studios": [
+      {
+        "Id": 8808,
+        "Title": "McElroy \u0026 McElroy",
+        "Poster": "",
+        "OriginCountry": "AU",
+        "Amount": 0
+      },
+      {
+        "Id": 16232,
+        "Title": "Picnic Productions Pty. Ltd.",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 74363,
+        "Title": "British Empire Films Australia",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 417,
+        "Title": "Australian Film Commission",
+        "Poster": "/w7d3hoHQaC0XwjrxEG1yPeuUhu5.png",
+        "OriginCountry": "AU",
+        "Amount": 0
+      }
+    ]
+  },
+  {
+    "Title": "Ayka",
+    "TitleOriginal": "\u0410\u0439\u043A\u0430",
+    "Language": "Russian",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.63,
+    "Minutes": 113,
+    "Watched": 4010,
+    "Fans": 4,
+    "Likes": 707,
+    "Id": "iPi6",
+    "Poster": "/7jdtAkYV5WO2zr27VZey52lxVh3.jpg",
+    "Year": 2018,
+    "When": "2018-02-14",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "CN",
+      "FR",
+      "DE",
+      "KZ",
+      "PL",
+      "RU"
+    ],
+    "Countries_Production": [
+      "CN",
+      "FR",
+      "DE",
+      "KZ",
+      "PL",
+      "RU"
+    ],
+    "Genres": [
+      "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 201,
+        "Title": "ARTE",
+        "Poster": "/6UIpEURdjnmcJPwgTDRzVRuwADr.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 16524,
+        "Title": "Eurasia Film Production",
+        "Poster": "",
+        "OriginCountry": "KZ",
+        "Amount": 0
+      },
+      {
+        "Id": 109475,
+        "Title": "Juben Pictures",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 109476,
+        "Title": "Kinodvor",
+        "Poster": "",
+        "OriginCountry": "RU",
+        "Amount": 0
+      },
+      {
+        "Id": 83894,
+        "Title": "Otter Films",
+        "Poster": "",
+        "OriginCountry": "PL",
+        "Amount": 0
+      },
+      {
+        "Id": 789,
+        "Title": "Pallas Film",
+        "Poster": "/rQ0fru0nm1oCsz2npnAgXEl11AH.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 4606,
+        "Title": "ZDF",
+        "Poster": "/otZHbf1HmzLRQsZFSqJXkf8EHz7.png",
+        "OriginCountry": "DE",
+        "Amount": 0
+      },
+      {
+        "Id": 15755,
+        "Title": "Ministry of Culture of the Russian Federation",
+        "Poster": "/cZDbkvJPOnzHlmu2CDx05DcEnaf.png",
+        "OriginCountry": "RU",
+        "Amount": 0
+      }
+    ]
+  },
+  {
+    "Title": "Bye Bye Blue Bird",
+    "TitleOriginal": "Bye Bye Blue Bird",
+    "Language": "Faroese",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.47,
+    "Minutes": 85,
+    "Watched": 533,
+    "Fans": 11,
+    "Likes": 189,
+    "Id": "4E1q",
+    "Poster": "/a5l071sCi6cKXWWzLEs3pV6zkj9.jpg",
+    "Year": 1999,
+    "When": "1999-07-30",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "DK",
+      "FO"
+    ],
+    "Countries_Production": [
+      "DK",
+      "FO"
+    ],
+    "Genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "Studios": [
+      {
+        "Id": 118,
+        "Title": "Det Danske Filminstitut",
+        "Poster": "/AiBorgNTCS1lT1FdFPYheax9jfF.png",
+        "OriginCountry": "DK",
+        "Amount": 0
+      },
+      {
+        "Id": 119179,
+        "Title": "Peter Bech Film",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 48986,
+        "Title": "Scanbox",
+        "Poster": "",
+        "OriginCountry": "DK",
+        "Amount": 0
+      }
+    ]
+  },
+  {
+    "Title": "Lick the Star",
+    "TitleOriginal": "Lick the Star",
+    "Language": "English",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.15,
+    "Minutes": 14,
+    "Watched": 49741,
+    "Fans": 48,
+    "Likes": 11225,
+    "Id": "3f8Y",
+    "Poster": "/gyXGawmhig0gReZN1sIXS5w1sz5.jpg",
+    "Year": 1998,
+    "When": "1998-10-01",
+    "BlackAndWhite": true,
+    "Countries_Origin": [
+      "US"
+    ],
+    "Countries_Production": [
+      "US"
+    ],
+    "Genres": [
+      "Drama"
+    ],
+    "Studios": []
+  },
+  {
+    "Title": "The Stepford Wives",
+    "TitleOriginal": "The Stepford Wives",
+    "Language": "English",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.73,
+    "Minutes": 117,
+    "Watched": 64905,
+    "Fans": 282,
+    "Likes": 17232,
+    "Id": "1Sfq",
+    "Poster": "/5z1ogJJmQkCoU62VJmut4nnc2qs.jpg",
+    "Year": 1975,
+    "When": "1975-02-12",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "US"
+    ],
+    "Countries_Production": [
+      "US"
+    ],
+    "Genres": [
+      "Mystery",
+      "Thriller",
+      "Science Fiction",
+      "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 36638,
+        "Title": "Fadsin Cinema Associates",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 12146,
+        "Title": "Palomar Pictures International",
+        "Poster": "",
+        "OriginCountry": "US",
+        "Amount": 0
+      }
+    ]
+  },
+  {
+    "Title": "In My Skin",
+    "TitleOriginal": "Dans ma peau",
+    "Language": "French",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.50,
+    "Minutes": 93,
+    "Watched": 12666,
+    "Fans": 155,
+    "Likes": 3342,
+    "Id": "283A",
+    "Poster": "/v57vYRakOfsIvDaa4VcmysZgIV0.jpg",
+    "Year": 2002,
+    "When": "2002-12-04",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "FR"
+    ],
+    "Countries_Production": [
+      "FR"
+    ],
+    "Genres": [
+      "Drama",
+      "Horror"
+    ],
+    "Studios": [
+      {
+        "Id": 4583,
+        "Title": "Lazennec et Associ\u00E9s",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      },
+      {
+        "Id": 310,
+        "Title": "CNC",
+        "Poster": "/4Gp5A4YdjPBfsHT47ngHMaXWmb9.png",
+        "OriginCountry": "FR",
+        "Amount": 0
+      },
+      {
+        "Id": 22366,
+        "Title": "Natexis Banques Populaires Images 2",
+        "Poster": "",
+        "OriginCountry": "",
+        "Amount": 0
+      }
     ]
   }
 ]
