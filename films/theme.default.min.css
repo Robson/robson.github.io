@@ -11,7 +11,7 @@
 }
 
 .tablesorter tr.breaker td {
-	border-bottom: 1px solid #333;
+	border-bottom: 1px solid #888;
 }
 
 .tablesorter tbody tr:first-child td {
