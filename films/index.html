@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.40.0/css-doodle.min.js"></script>
     <script src="films.js"></script>
+    <script src="people.js"></script>
     <script src="data.js"></script>
     <script src="country_codes.js"></script>
     <script src="https://code.highcharts.com/highcharts.js"></script>
@@ -20,43 +21,96 @@
 </head>
 <body>
 
-	<css-doodle id="doodle">
-		:doodle {
-		@grid: 64 / 100.5vmax;
-		}
-		:after {
-		content: '\@hex(@rand(0x2800, 0x283F))';
-		transform: scale(1.35);
-		color: @pick(#000, #060606, #0D0D0D);
-		font-size: 3em;
-		line-height: 1.1em;
-		}
-	</css-doodle>
+    <css-doodle id="doodle">
+        :doodle {
+        @grid: 64 / 100.5vmax;
+        }
+        :after {
+        content: '\@hex(@rand(0x2800, 0x283F))';
+        transform: scale(1.35);
+        color: @pick(#000, #060606, #0D0D0D);
+        font-size: 3em;
+        line-height: 1.1em;
+        }
+    </css-doodle>
 
-	<div id="menu_background">&nbsp;</div>
+    <div id="menu_background">&nbsp;</div>
 
-	<div id="image_loader"></div>
+    <div id="image_loader"></div>
 
-	<a target="_blank" href="" id="backdrop_link"><div id="backdrop"></div></a>
+    <a target="_blank" href="" id="backdrop_link"><div id="backdrop"></div></a>
 
-	<div id="backdrop_details">Hello World</div>
+    <div id="backdrop_details">Hello World</div>
 
     <div id="buttons">
 
+        <select id="FilmFilter" onchange="javascript:changeFilmFilter()">
+            <option value="all">All Films</option>
+            <option disabled>──────────</option>
+            <option value="language_notenglish">Language: Not English</option>
+            <option disabled>──────────</option>
+            <option value="rating_5">Rating: 5 Stars</option>
+            <option value="rating_4">Rating: 4+ Stars</option>
+            <option disabled>──────────</option>
+        </select>
+
+        <script>
+            for (var a = 1890; a <= 2020; a += 10) {
+                if (films.some(e => e.Year >= a && e.Year < a + 10)) {
+                    d3
+                        .select('#FilmFilter')
+                        .append('option')
+                        .attr('value', 'decade_' + a)
+                        .text('Decade: ' + a + 's');
+                }
+            }
+            var years = []
+            for (var film of films) {
+                if (film.DiaryWatchedDate) {
+                    var y = film.DiaryWatchedDate.split('-')[0];
+                    if (!years.some(a => a[0] == y)) {
+                        years.push([y, 0]);
+                    }
+                    var where = years.findIndex(a => a[0] == y);
+                    years[where][1]++;
+                }
+            }
+            years = years.filter(a => a[1] >= 10);
+            if (years.length) {
+                d3
+                    .select('#FilmFilter')
+                    .append('option')
+                    .attr('disabled', 'disabled')
+                    .text('──────────');
+                years.sort();
+                for (var year of years) {
+                    d3
+                        .select('#FilmFilter')
+                        .append('option')
+                        .attr('value', 'diary_' + year[0])
+                        .text('Latest Diary Year: ' + year[0]);
+                }
+            }
+        </script>
+
         <!--<div class="title">Overall</div>
-    <span class="displayer" onmousedown="javascript:showOverall()" id="prime">Overall</span>-->
-        <div class="title">Release D<b onmousedown="showHidden()">a</b>te</div>
-        <span class="displayer inline" onmousedown="javascript:showFilmsPerYear()">Year</span>
-        &#9670;
-        <span class="displayer inline" onmousedown="javascript:showFilmsPerDecade()">Decade</span>
-        &#9670;
-        <span class="displayer inline" onmousedown="javascript:showOldestReleasedFilms()">Earliest</span>
-        &#9670;
-        <span class="displayer inline" onmousedown="javascript:showNewestReleasedFilms()">Newest</span><br>
+        <span class="displayer" onmousedown="javascript:showOverall()" id="prime">Overall</span>-->
+        <i class="links_decade">
+            <div class="title">Release Date</div>
+            <span class="displayer inline" onmousedown="javascript:showFilmsPerYear()">Year</span>
+            &#9670;
+            <span class="displayer inline" onmousedown="javascript:showFilmsPerDecade()">Decade</span>
+            &#9670;
+            <span class="displayer inline" onmousedown="javascript:showOldestReleasedFilms()">Earliest</span>
+            &#9670;
+            <span class="displayer inline" onmousedown="javascript:showNewestReleasedFilms()">Newest</span><br>
+        </i>
         <div class="title">Attributes</div>
-        <div class="host_only">
-        <span class="displayer inline" onmousedown="javascript:showBAW()">Black & White</span>
-        &#9670;
+        <div class="initially_hidden">
+            <div class="host_only">
+                <span class="displayer inline" onmousedown="javascript:showBAW()">Black & White</span>
+                &#9670;
+            </div>
         </div>
         <span class="displayer inline" onmousedown="javascript:showFilmsPerCountry()">Country</span>
         &#9670;
@@ -66,8 +120,10 @@
         &#9670;
         <span class="displayer inline" onmousedown="javascript:showLengthStats()">Length</span>
         &#9670;
-        <span class="displayer inline" onmousedown="javascript:showStudios()">Studio</span>
+        <span class="displayer inline" onmousedown="javascript:showRated()">Rating</span>
         <br />
+        <span class="displayer inline" onmousedown="javascript:showStudios()">Studio</span>
+        &#9670;
         <span class="displayer inline" onmousedown="javascript:showThemes()">Theme</span>
         &#9670;
         <span class="displayer inline" onmousedown="javascript:showTitles()">Title</span>
@@ -79,7 +135,7 @@
         <span class="displayer inline" onmousedown="javascript:showRatings()">Ratings</span>
         &#9670;
         <span class="displayer inline" onmousedown="javascript:showPopularity()">Watches</span>
-        <div class="title">People</div>
+        <div class="title">Peop<b onmousedown="showHidden()">l</b>e</div>
         <em class="subtitle">Director:</em>
         <span class="displayer inline" onmousedown="javascript:showDirectorsAll()">All</span>
         &#9670;
@@ -132,48 +188,146 @@
             <span class="displayer inline ttt" data-tooltip="Unknown" onmousedown="javascript:showEntireCastUnknown()">U</span>
         </div>
         <span class="displayer inline" onmousedown="javascript:showPeopleCombinations()">Combinations</span>
-        <div class="title">Other</div>
-        <span class="displayer inline" onmousedown="javascript:showRecent()">Recently Watched</span>
-        &#9670;
-        <span class="displayer inline" onmousedown="javascript:showRated()">All Rated Films</span>
+        <i class="links_decade">
+            &#9670;
+            <span class="displayer inline" onmousedown="javascript:showPeopleLongevity()">Longevity</span>
+        </i>
+        <div class="initially_hidden">
+            <div class="host_only">
+                <i class="links_recent">
+                    <div class="title">Other</div>
+                    <span class="displayer inline" onmousedown="javascript:showRecent()">Recently Watched</span>
+                </i>
+            </div>
+        </div>
     </div>
 
-	<div id="tt" style="display: none">
-		<p id="tooltip_text"></p>
-	</div>
+    <div id="tt" style="display: none">
+        <p id="tooltip_text"></p>
+    </div>
 
-	<script>
+    <script>
 
-		var documentWidth = document.body.clientWidth;
+        d3.select('#FilmFilter').property('value', 'all');
 
-		onresize = (event) => {
-			if (document.body.clientWidth != documentWidth) {
-				documentWidth = document.body.clientWidth;
-				showOverall();
-				deactivateAll();
-			}
-		};
+        var documentWidth = document.body.clientWidth;
 
-		var table, thead, tbody;
-		var galleryAmount = 30;
-		var sufficientBase = 10;
+        onresize = (event) => {
+            if (document.body.clientWidth != documentWidth) {
+                documentWidth = document.body.clientWidth;
+                if (selectedPage) {
+                    var remember = lastEventTarget;
+                    selectedPage();
+                    remember.addClass('active');
+                    lastEventTarget = remember;
+                } else {
+                    showOverall();
+                    deactiveAll();
+                }
+            }
+        };
+
+        var table, thead, tbody;
+        var galleryAmount = 30;
+        var sufficientBase = 10;
         var backdropIndex = ~~(data.Backdrops.length * Math.random());
+        var allFilms = [...films];
+        var allBackdrops = [...data.Backdrops];
+        var areFilmsFiltered = false;
+        var currentFilmFilter = 'all';
+        var selectedPage = null;
+        let lastEventTarget = null;
+        var lastPeopleParameters = null;
 
-		document.documentElement.style.setProperty('--primary-colour', '#EF3340');
-		document.documentElement.style.setProperty('--secondary-colour', '#3199E0');
+        document.documentElement.style.setProperty('--primary-colour', '#EF3340');
+        document.documentElement.style.setProperty('--secondary-colour', '#3199E0');
 
-		////////////////// TOOLTIPS //////////////////
+        ////////////////// FILTERING //////////////////
 
-		var tt = d3.select('#tt');
+        function changeFilmFilter() {
+            currentFilmFilter = d3.select('#FilmFilter').property('value').split('_');
+            areFilmsFiltered = currentFilmFilter != 'all';
+            d3.selectAll('.links_decade').style('display', null);
+            d3.selectAll('.links_recent').style('display', null);
+            var pageFunction = selectedPage ? selectedPage.name : null;
+            switch (currentFilmFilter[0]) {
+                case 'all':
+                    films = [...allFilms];
+                    break;
+                case 'diary':
+                    films = allFilms.filter(a => a.DiaryWatchedDate && a.DiaryWatchedDate.startsWith(currentFilmFilter[1]));
+                    d3.select('.links_recent').style('display', 'none');
+                    switch (pageFunction) {
+                        case 'showRecent':
+                            selectedPage = null;
+                            lastEventTarget = null;
+                    }
+                    break;
+                case 'language':
+                    films = allFilms.filter(a => a.Language != 'English' && a.Language != '');
+                    d3.selectAll('.links_recent').style('display', 'none');
+                    switch (pageFunction) {
+                        case 'showRecent':
+                            selectedPage = null;
+                            lastEventTarget = null;
+                    }
+                    break;
+                case 'decade':
+                    var year = +currentFilmFilter[1].replace('s', '');
+                    films = allFilms.filter(a => a.Year >= year && a.Year < year + 10);
+                    d3.selectAll('.links_decade').style('display', 'none');
+                    d3.selectAll('.links_recent').style('display', 'none');
+                    switch (pageFunction) {
+                        case 'showFilmsPerYear':
+                        case 'showFilmsPerDecade':
+                        case 'showOldestReleasedFilms':
+                        case 'showNewestReleasedFilms':
+                        case 'showRecent':
+                            selectedPage = null;
+                            lastEventTarget = null;
+                    }
+                    break;
+                case 'rating':
+                    var stars = +currentFilmFilter[1]
+                    films = allFilms.filter(a => a.RatingSelf >= stars);
+                    d3.selectAll('.links_recent').style('display', 'none');
+                    switch (pageFunction) {
+                        case 'showRecent':
+                            selectedPage = null;
+                            lastEventTarget = null;
+                    }
+                    break;
+            }
+            var filteredBackdrops = allBackdrops.filter(a => films.some(b => b.Id == a.LetterboxdId));
+            if (filteredBackdrops.length) {
+                data.Backdrops = filteredBackdrops;
+            } else {
+                data.Backdrops = allBackdrops;
+            }
+            backdropIndex = ~~(data.Backdrops.length * Math.random());
+            if (selectedPage) {
+                var remember = lastEventTarget;
+                selectedPage();
+                remember.addClass('active');
+                lastEventTarget = remember;
+            } else {
+                showOverall();
+            }
+            data.Backdrops = shuffleArray(data.Backdrops);
+            showNextBackdrop();
+        }
 
-		tt.on('mousedown', function () { tt.style('display', 'none'); });
+        ////////////////// TOOLTIPS //////////////////
+
+        var tt = d3.select('#tt');
+
+        tt.on('mousedown', function () { tt.style('display', 'none'); });
 
         function makeFilmDetails(film, specificDate = false, includeRating = true) {
-            console.log(includeRating)
             var details = (specificDate ? film.When : film.Year) + '<br/>';
             if (includeRating) {
                 if (film.RatingSelf > 0) {
-                    details += '&#9670;'.repeat(film.RatingSelf);
+                    details += '&#9670;'.repeat(Math.floor(film.RatingSelf)) + (film.RatingSelf % 1 ? '&#9671;' : '');
                 } else {
                     details += '&nbsp;';
                 }
@@ -187,7 +341,7 @@
                 details += '&nbsp;';
             }
             return details;
-		}
+        }
 
         // converts language names to the ones that letterboxd uses, rightly or wrongly...
         function letterboxdLanguage(language) {
@@ -203,16 +357,17 @@
         }
 
         function showNextBackdrop() {
-			var randomBackdrop = data.Backdrops[backdropIndex];
-			var backdrop = $('#backdrop');
-            backdrop.css('background-image', 'url("https://image.tmdb.org/t/p/w780/' + randomBackdrop.ImageUrl + '")');
-			d3.select('#backdrop_details').html(randomBackdrop.FilmName);
-			if (randomBackdrop.Flags != null && randomBackdrop.Flags.includes('m')) {
-				backdrop.addClass('mirror');
-			} else {
-				backdrop.removeClass('mirror');
-			}
-			$('#backdrop_link').attr('href', 'https://boxd.it/' + randomBackdrop.LetterboxdId);
+            var randomBackdrop = data.Backdrops[backdropIndex];
+            var backdrop = $('#backdrop');
+            var where = shuffleArray(randomBackdrop.ImageUrl.split('/'))[0];
+            backdrop.css('background-image', 'url("https://image.tmdb.org/t/p/w780/' + where + '")');
+            d3.select('#backdrop_details').html(randomBackdrop.FilmName);
+            if (randomBackdrop.Flags != null && randomBackdrop.Flags.includes('m')) {
+                backdrop.addClass('mirror');
+            } else {
+                backdrop.removeClass('mirror');
+            }
+            $('#backdrop_link').attr('href', 'https://boxd.it/' + randomBackdrop.LetterboxdId);
             createTooltipTriggers();
 
             backdropIndex++;
@@ -220,12 +375,12 @@
                 backdropIndex = 0;
             }
 
-			var imageLoader = $('#image_loader');
+            var imageLoader = $('#image_loader');
             imageLoader.css('background-image', 'url("https://image.tmdb.org/t/p/w780/' + data.Backdrops[backdropIndex].ImageUrl + '")');
-		}
+        }
 
-		function createTooltipTriggers() {
-			d3.selectAll('.ttt')
+        function createTooltipTriggers() {
+            d3.selectAll('.ttt')
                 .on("mouseover", function (d, i) {
                     if ($(this).attr('data-tooltip-size') == 'big') {
                         $('#tt').addClass('big')
@@ -233,55 +388,55 @@
                         d3.select('#tt')
                         $('#tt').removeClass('big')
                     }
-					d3.select('#tooltip_text').html($(this).attr('data-tooltip'));
-				})
-				.on("mouseout", function () {
-					tt.style('display', 'none');
-				})
-				.on("mousemove", function (d, i) {
-					tt.style('opacity', '0.01');
-					var x = d3.event.pageX;
-					x = Math.max(x, 10);
-					if (x <= 0 || y <= 0) {
-						tt.style('display', 'none');
-					} else {
-						tt.style('display', null);
-					}
-					var y = d3.event.pageY + 10;
-					var y = d3.event.pageY - (+tt.style('height').replace('px', '') + 20);
+                    d3.select('#tooltip_text').html($(this).attr('data-tooltip'));
+                })
+                .on("mouseout", function () {
+                    tt.style('display', 'none');
+                })
+                .on("mousemove", function (d, i) {
+                    tt.style('opacity', '0.01');
+                    var x = d3.event.pageX;
+                    x = Math.max(x, 10);
+                    if (x <= 0 || y <= 0) {
+                        tt.style('display', 'none');
+                    } else {
+                        tt.style('display', null);
+                    }
+                    var y = d3.event.pageY + 10;
+                    var y = d3.event.pageY - (+tt.style('height').replace('px', '') + 20);
 
-					if (y - window.scrollY < 0) {
-						y = d3.event.pageY + 10;
-					}
+                    if (y - window.scrollY < 0) {
+                        y = d3.event.pageY + 10;
+                    }
 
-					tt.style('left', Math.max(0, Math.floor(x - (+tt.style('width').replace('px', '') / 2))) + 'px');
-					tt.style('top', Math.floor(y + 5) + 'px');
-					tt.style('opacity', '1');
-				});
-		}
+                    tt.style('left', Math.max(0, Math.floor(x - (+tt.style('width').replace('px', '') / 2))) + 'px');
+                    tt.style('top', Math.floor(y + 5) + 'px');
+                    tt.style('opacity', '1');
+                });
+        }
 
-		function deactivateAll() {
-			$('.active').removeClass('active');
-		}
+        function deactivateAll() {
+            $('.active').removeClass('active');
+        }
 
-		function countryNameToUrl(country) {
-			country = country.toLowerCase();
-			switch (country) {
-				case 'united kingdom':
-					return 'uk';
-				case 'united states of america':
-					return 'usa';
-				case 'russia':
-					return 'russian-federation';
-				case 'soviet union':
-					return 'ussr';
-				case 'türkiye':
+        function countryNameToUrl(country) {
+            country = country.toLowerCase();
+            switch (country) {
+                case 'united kingdom':
+                    return 'uk';
+                case 'united states of america':
+                    return 'usa';
+                case 'russia':
+                    return 'russian-federation';
+                case 'soviet union':
+                    return 'ussr';
+                case 'türkiye':
                     return 'turkey';
                 case 'côte d\'ivoire':
                     return 'ivory-coast';
-				default:
-					return country.replace(/ /g, '-');
-			}
+                default:
+                    return country.replace(/ /g, '-');
+            }
         }
 
         function countryCodeToName(code) {
@@ -299,51 +454,55 @@
             }
         }
 
-		function resetView() {
-			window.scrollTo(0, 0);
+        function resetView(func = null, where = null) {
+            window.scrollTo(0, 0);
             showNextBackdrop();
-			$('.info').remove();
-			$('button').remove();
-			$('table').remove();
-			$('#mapFrame').remove();
-			$('.boxes').remove();
-			$('#posters').remove();
-			$('#outside').remove();
-			$('.gallery').remove();
-		}
+            $('.info').remove();
+            $('button').remove();
+            $('table').remove();
+            $('#mapFrame').remove();
+            $('.boxes').remove();
+            $('#posters').remove();
+            $('#outside').remove();
+            $('.gallery').remove();
+            selectedPage = func;
+            if (where) {
+                lastEventTarget = where;
+            }
+        }
 
-		function createNewTable(isSortable = true) {
+        function createNewTable(isSortable = true) {
 
-			$('body').append('<table class="tablesorter"' + (isSortable ? ' id="main"' : '') + '><thead></thead><tbody></tbody></table>');
-			table = $('table').last();
-			thead = $('table thead').last();
-			tbody = $('table tbody').last();
-		}
+            $('body').append('<table class="tablesorter"' + (isSortable ? ' id="main"' : '') + '><thead></thead><tbody></tbody></table>');
+            table = $('table').last();
+            thead = $('table thead').last();
+            tbody = $('table tbody').last();
+        }
 
-		function createGallery() {
-			$('body').append('<div class="gallery"></div>');
-		}
+        function createGallery() {
+            $('body').append('<div class="gallery"></div>');
+        }
 
-		function makeBox(number, description, tooltip = '', isYear = false) {
+        function makeBox(number, description, tooltip = '', isYear = false) {
             var attribs = 'class="number"';
-			if (tooltip) {
+            if (tooltip) {
                 attribs = 'class="number ttt" data-tooltip="' + tooltip + '"';
-			}
+            }
             return '<table class="tablesorter box">' +
-				'<thead><tr><th>' + description + '</th></tr></thead>' +
+                '<thead><tr><th>' + description + '</th></tr></thead>' +
                 '<tbody><tr><td ' + attribs + '>' +
-				(isYear ? number : number.toLocaleString()) +
-				'</td></tr></tbody>' +
-				'</table>';
-		}
+                (isYear ? number : number.toLocaleString()) +
+                '</td></tr></tbody>' +
+                '</table>';
+        }
 
-		function makeInfo(title, text) {
-			$('body').append(
-				'<table class="tablesorter infobox">' +
-				'<thead><tr><th>' + title + '</th></tr></thead>' +
-				'<tbody><tr><td>' + text + '</td></tr></tbody>' +
-				'</table>');
-		}
+        function makeInfo(title, text) {
+            $('body').append(
+                '<table class="tablesorter infobox">' +
+                '<thead><tr><th>' + title + '</th></tr></thead>' +
+                '<tbody><tr><td>' + text + '</td></tr></tbody>' +
+                '</table>');
+        }
 
         function showHidden() {
             d3.selectAll('.initially_hidden').style('display', 'inline');
@@ -376,7 +535,7 @@
             text = text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
             text = text.replace("'", "");
             // specific fixes
-            text = text.replace('beeban-kidron', 'beeban-kidron-1');            
+            text = text.replace('beeban-kidron', 'beeban-kidron-1');
             text = text.replace('eliot-sumner', 'eliot-sumner-1');
             text = text.replace('elliot-page', 'contributor:17664');
             text = text.replace('typhoon', 'typhoon-2');
@@ -396,15 +555,15 @@
             var symbol = '&#9671;';
             switch (gender) {
                 case 1:
-                    colour = 'RGB(235, 0, 100)';
+                    colour = 'RGB(0, 182, 0)';
                     symbol = '&#9670;';
                     break;
                 case 2:
-                    colour = 'RGB(0, 182, 255)';
+                    colour = 'RGB(255, 128, 0)';
                     symbol = '&#9670;';
                     break;
                 case 3:
-                    colour = 'RGB(0, 182, 0)';
+                    colour = 'RGB(182, 0, 182)';
                     symbol = '&#9670;';
                     break;
             }
@@ -558,31 +717,42 @@
                 var film = films[filmIndex]
                 tooltip.push('(' + film.Year + ') ' + film.Title);
             }
-            tooltip.sort()            
+            tooltip.sort()
             if (tooltip.length > 20) {
                 shuffleArray(tooltip);
                 tooltip = tooltip.slice(0, 20)
                 tooltip.sort()
-                tooltip.unshift('<em>Random selection of matching films:</em>', '')                
+                tooltip.unshift('<em>Random selection of matching films:</em>', '')
                 tooltip.push('', '<em>+' + (filmList.length - 20) + ' more...</em>');
             }
             return tooltip;
         }
 
-		// == PAGES ==
+        function sortableName(name) {
+            return name.split(' ').reverse().join(' ');
+        }
 
-		// === Release Date ===
+        // == PAGES ==
+
+        // === Release Date ===
 
         function showOverall() {
-            resetView();
+            resetView(showOverall, null);
+            var filterText = '';
+            if (areFilmsFiltered) {
+                filterText = 'watched films that match the selected filter';
+            } else {
+                filterText = '<a href="https://letterboxd.com/' + data.Username + '/films/">watched films</a>';
+            }
             makeInfo(
                 'Hello',
-                'Click a section ' + (window.innerWidth > 900 ? 'on the left' : 'above') + ' to explore the statistics for <a href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '\'s</a> ' + films.length.toLocaleString() + ' <a href="https://letterboxd.com/' + data.Username + '/films/"> watched films</a>.<br/> The statistics were generated on ' + data.LastUpdated + '.')
-		}
+                'Click a section ' + (window.innerWidth > 900 ? 'on the left' : 'above') + ' to explore the statistics for <a href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '\'s</a> ' + films.length.toLocaleString() + ' ' + filterText + '.<br/> The statistics were generated on ' + data.LastUpdated + '.');
+            deactivateAll();
+        }
 
         function showFilmsPerYear() {
 
-            resetView();
+            resetView(showFilmsPerYear, $(event.target));
 
             var yearCount = 0, yearSum = 0, yearList = []
 
@@ -612,7 +782,7 @@
 
             $('body').append('<div class="boxes"></div>');
             $('.boxes').append(makeBox(Math.round(yearSum / yearCount), 'Film Year: Mean', (yearSum / yearCount).toFixed(2), true));
-            $('.boxes').append(makeBox(yearList[middle], 'Film Year: Median', medianBefore + ' < n < ' + medianAfter, true));
+            $('.boxes').append(makeBox(yearList[middle], 'Film Year: Median', 'In this year:</br>' + medianBefore + ' films before<br>' + medianAfter + ' films after', true));
             $('.boxes').append(makeBox(mode, 'Film Year: Mode', null, true));
 
             var yearsWithoutFilms = [
@@ -642,29 +812,35 @@
                 createNewTable();
                 thead.append('<tr><th colspan="10">Years Without Watched Films</th></tr>');
                 for (var a = 1900; a <= thisDecade; a += 10) {
-                    var output = '<tr>';
-                    for (var b = 0; b < 10; b++) {
-                        if (yearsWithoutFilms.includes(a + b)) {
-                            output += '<td>&nbsp;</td>';
-                        } else if (a + b > thisYear) {
-                            output += '<td>&nbsp;</td>';
-                        } else {
-                            var hasFilms = filmsWatchedPerYear[a + b] > 0;
-                            if (hasFilms) {
-                                output += '<td style="color: #ddd">' + (a + b) + '</td>';
+                    if (currentFilmFilter[0] != 'decade' || a == currentFilmFilter[1]) {
+                        var output = '<tr>';
+                        for (var b = 0; b < 10; b++) {
+                            if (yearsWithoutFilms.includes(a + b)) {
+                                output += '<td>&nbsp;</td>';
+                            } else if (a + b > thisYear) {
+                                output += '<td>&nbsp;</td>';
                             } else {
-                                output += '<td><a target="_blank" href="https://letterboxd.com/films/popular/year/' + (a + b) + '/size/large/">' + (a + b) + '</a></td>';
+                                var hasFilms = filmsWatchedPerYear[a + b] > 0;
+                                if (hasFilms) {
+                                    output += '<td style="color: #ddd">' + (a + b) + '</td>';
+                                } else {
+                                    output += '<td><a target="_blank" href="https://letterboxd.com/films/popular/year/' + (a + b) + '/size/large/">' + (a + b) + '</a></td>';
+                                }
                             }
                         }
+                        output += '</tr>';
+                        tbody.append(output);
                     }
-                    output += '</tr>';
-                    tbody.append(output);
                 }
             }
 
             $('body').append('<div class="boxes"></div>');
             $('.boxes').last().append(makeBox(watched, 'Watched Years'));
-            $('.boxes').last().append(makeBox(unwatched, 'Unwatched Years'));
+            if (currentFilmFilter[0] == 'decade') {
+                $('.boxes').last().append(makeBox(10 - watched, 'Unwatched Years'));
+            } else {
+                $('.boxes').last().append(makeBox(unwatched, 'Unwatched Years'));
+            }
 
             createTooltipTriggers();
 
@@ -676,8 +852,9 @@
 
             $('body').append('<div id="outside"><div class="title">Films Watched by Release Year</div><figure class="highcharts-figure"><div id="container"></div></figure></div>');
 
-            var cats = []
-            var groups = []
+            var highest = 0;
+            var cats = [];
+            var groups = [];
             var counter = 0;
             for (var a = 1900; a <= new Date().getFullYear(); a += 10) {
                 cats.push(a + 's')
@@ -692,6 +869,7 @@
                 for (var b = 0; b < cats.length; b++) {
                     var year = 1900 + (b * 10) + a;
                     series.data.push(filmsWatchedPerYear[year]);
+                    highest = Math.max(highest, filmsWatchedPerYear[year] || 0);
                 }
                 groups.push(series);
             }
@@ -730,6 +908,7 @@
                 },
                 yAxis: {
                     min: 0,
+                    max: Math.ceil(highest / 10) * 10,
                     plotLines: [{
                         color: '#ddd',
                         value: 0,
@@ -788,10 +967,10 @@
 
         function showFilmsPerDecade() {
 
-            resetView();
+            resetView(showFilmsPerDecade, $(event.target));
 
             var filmsWatchedPerDecade = {}
-            for (var decade = 1870; decade <= new Date().getFullYear(); decade+=10) {
+            for (var decade = 1870; decade <= new Date().getFullYear(); decade += 10) {
                 filmsWatchedPerDecade[decade] = { Count: 0, RatingCount: 0, RatingTotal: 0, Films: [] }
             }
             for (var index in films) {
@@ -996,11 +1175,11 @@
                     }
                 ]
             });
-		}
+        }
 
         function showOldestReleasedFilms() {
 
-            resetView();
+            resetView(showOldestReleasedFilms, $(event.target));
             createGallery();
             var gallery = $('.gallery');
 
@@ -1072,7 +1251,7 @@
 
         function showNewestReleasedFilms() {
 
-            resetView();
+            resetView(showNewestReleasedFilms, $(event.target));
             createGallery();
             var gallery = $('.gallery');
 
@@ -1140,13 +1319,13 @@
             $(event.target).addClass('active');
 
             createTooltipTriggers();
-		}
+        }
 
-		// === Attributes ===
+        // === Attributes ===
 
         function showBAW() {
 
-            resetView();
+            resetView(showBAW, $(event.target));
 
             var filmsWatchedPerYear = {}
             for (var year = 1870; year <= new Date().getFullYear(); year++) {
@@ -1160,8 +1339,10 @@
                 showBAWChart(filmsWatchedPerYear);
             }
 
+            var filmCount = films.filter(a => a.BlackAndWhite).length;
+
             $('body').append('<div class="boxes"></div>');
-            $('.boxes').append(makeBox(data.BlackAndWhiteFilms.length, 'Watched Black & White Films'));
+            $('.boxes').append(makeBox(filmCount, 'Watched Black & White Films'));
 
             createGallery();
             var gallery = $('.gallery');
@@ -1170,8 +1351,9 @@
             gallery.append('<div class="inside"></div>');
             var insideGallery = $('.gallery .inside');
 
-            for (var index of data.BlackAndWhiteFilms.toReversed()) {
-                var film = films[index];
+            var matchingFilms = films.filter(a => a.BlackAndWhite).sort((a, b) => b.Year - a.Year);
+
+            for (var film of matchingFilms) {
                 var title = film.Title;
                 if (film.TitleOriginal != film.Title) {
                     title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
@@ -1196,6 +1378,7 @@
             var cats = []
             var groups = []
             var counter = 0;
+            var highest = 0;
             for (var a = 1900; a <= new Date().getFullYear(); a += 10) {
                 cats.push(a + 's')
             }
@@ -1218,6 +1401,7 @@
                     var year = 1900 + (b * 10) + a;
                     seriesAll.data.push(filmsWatchedPerYear[year]);
                     seriesBAW.data.push(films.filter(a => a.Year == year && a.BlackAndWhite == true).length);
+                    highest = Math.max(highest, filmsWatchedPerYear[year] || 0);
                 }
                 groups.push(seriesAll);
                 groups.push(seriesBAW);
@@ -1257,6 +1441,7 @@
                 },
                 yAxis: {
                     min: 0,
+                    max: Math.ceil(highest / 10) * 10,
                     plotLines: [{
                         color: '#ddd',
                         value: 0,
@@ -1317,6 +1502,8 @@
 
         function showFilmsPerCountry() {
 
+            resetView(showFilmsPerCountry, $(event.target));
+
             var filmsPerCountryOrigin = {}
             var filmsPerCountryProduction = {}
 
@@ -1338,7 +1525,6 @@
                 }
             }
 
-            resetView();
             var isShowingMap = documentWidth >= 1000;
 
             if (isShowingMap) {
@@ -1559,7 +1745,7 @@
 
         function showGenres() {
 
-            resetView();
+            resetView(showGenres, $(event.target));
 
             createNewTable();
 
@@ -1808,7 +1994,7 @@
 
         function showFilmsPerLanguages() {
 
-            resetView();
+            resetView(showFilmsPerLanguages, $(event.target));
 
             var languages = []
             for (var index in films) {
@@ -1892,12 +2078,13 @@
         }
 
         function showLengthStats() {
-            resetView();
+
+            resetView(showLengthStats, $(event.target));
 
             createGallery();
             var gallery = $('.gallery');
 
-            gallery.append('<div class="title">Top ' + galleryAmount + ' Longest Films</div>');
+            gallery.append('<div class="title">Longest Films</div>');
             gallery.append('<div class="inside"></div>');
             var insideGallery = $('.gallery .inside');
 
@@ -1924,7 +2111,7 @@
             }
 
             var filmsWithRuntime = 0, totalMinutes = 0
-            var filmsWithRuntimeAll = 0, totalMinutesAll = 0 
+            var filmsWithRuntimeAll = 0, totalMinutesAll = 0
 
             for (var film of films) {
                 if (film.Minutes > 60) {
@@ -1937,17 +2124,19 @@
                 }
             }
 
-            var len = totalMinutes / filmsWithRuntime;
-            len += 0.5; // this accounts for all film times being rounded down to the minute
-            var seconds = len % 1;
-            len = Math.floor(len);
-            var lenLabel =
-                Math.floor(len / 60) + '<span style="opacity:0.333">h</span> ' +
-                ((len % 60) + '').padStart(2, '0') + '<span style="opacity:0.333">m</span> ' +
-                (Math.floor(60 * seconds) + '').padStart(2, '0') + '<span style="opacity:0.333">s</span>';
+            if (totalMinutes) {
+                var len = totalMinutes / filmsWithRuntime;
+                len += 0.5; // this accounts for all film times being rounded down to the minute
+                var seconds = len % 1;
+                len = Math.floor(len);
+                var lenLabel =
+                    Math.floor(len / 60) + '<span style="opacity:0.333">h</span> ' +
+                    ((len % 60) + '').padStart(2, '0') + '<span style="opacity:0.333">m</span> ' +
+                    (Math.floor(60 * seconds) + '').padStart(2, '0') + '<span style="opacity:0.333">s</span>';
 
-            $('body').append('<div class="boxes"></div>');
-            $('.boxes').last().append(makeBox(lenLabel, 'Average Feature Film Length'));
+                $('body').append('<div class="boxes"></div>');
+                $('.boxes').last().append(makeBox(lenLabel, 'Average Feature Film Length'));
+            }
 
             createNewTable();
 
@@ -1982,8 +2171,6 @@
                 filmsPerThirtyMinutes[bucket][1].push(index)
             }
 
-            console.log(filmsPerThirtyMinutes)
-
             var highest = filmsWithRuntimeAll, total = 0;
             for (var thirty in filmsPerThirtyMinutes) {
                 highest = Math.max(highest, filmsPerThirtyMinutes[thirty][0]);
@@ -2014,7 +2201,6 @@
                     }
                     isEmpty = true;
                 } else {
-                    console.log(filmsPerThirtyMinutes[thirty][1])
                     var tooltip = makeFilmListTooltip(filmsPerThirtyMinutes[thirty][1]);
                     if (documentWidth >= 500) {
                         bar = '<td class="chart" data-value="' + filmsPerThirtyMinutes[thirty][0] + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((filmsPerThirtyMinutes[thirty][0] / highest) * 100) + 'px">&nbsp;</span></span></td>';
@@ -2079,7 +2265,7 @@
                     filmsByLength[a] = [];
                 }
             }
-            var highest = 0;
+            var highest = 30;
             for (var index in films) {
                 var film = films[index];
                 if (film.Minutes > 1) {
@@ -2200,16 +2386,17 @@
                     }
                 ]
             });
-		}
+        }
 
         function showStudios() {
 
-            resetView();
+            resetView(showStudios, $(event.target));
 
             var studios = []
-            for (var index in films) {
-                var film = films[index]
-                for (var studio of film.Studios) {
+            for (var filmIndex in films) {
+                var film = films[filmIndex]
+                for (var index of film.Studios) {
+                    var studio = data.Studios[index];
                     if (!studios.some(a => a.Id == studio.Id)) {
                         var s = {};
                         for (var key of Object.keys(studio)) {
@@ -2221,7 +2408,7 @@
                     }
                     var i = studios.findIndex(a => a.Id == studio.Id);
                     studios[i].Amount++;
-                    studios[i].Films.push(index);
+                    studios[i].Films.push(filmIndex);
                 }
             }
 
@@ -2232,7 +2419,7 @@
 
             createNewTable();
 
-            thead.append('<tr class="topheader"><th colspan="3">Top ' + Object.values(studios).length + ' Most Watched Studios</th></tr>');
+            thead.append('<tr class="topheader"><th colspan="3">Most Watched Studios</th></tr>');
             thead.append('<tr class="bottomheader"><th>Name</th><th>Country</th><th>Amount</th></tr>');
 
             for (var index in studios) {
@@ -2276,7 +2463,7 @@
 
         function showThemes() {
 
-            resetView();
+            resetView(showThemes, $(event.target));
 
             makeInfo('Warning', 'At Letterboxd, themes are an experimental feature powered by AI. Consequently many films are wrongly tagged, are missing themes, or don\'t appear in search results.');
 
@@ -2290,19 +2477,47 @@
                 thead.append('<tr class="bottomheader"><th>Overall Theme</th><th>Σ</th><th>%</th><th>&#x25AC;</th></tr>');
             }
 
-            for (var theme in data.Themes) {
-                if (!data.Themes[theme].IsMini) {
-                    var watchedPercent = (data.Themes[theme].Amount / data.FilmsWithThemes) * 100;
+            var filmsWithThemes = 0;
+            var themes = []
+            for (var filmIndex in films) {
+                var film = films[filmIndex]
+                if (film.Themes.length) {
+                    filmsWithThemes++;
+                }
+                for (var index of film.Themes) {
+                    var theme = data.Themes[index];
+                    if (!themes.some(a => a.Text == theme.Text)) {
+                        var t = {};
+                        for (var key of Object.keys(theme)) {
+                            t[key] = theme[key];
+                        }
+                        t.Amount = 0;
+                        t.Films = [];
+                        themes.push(t);
+                    }
+                    var i = themes.findIndex(a => a.Text == theme.Text);
+                    themes[i].Amount++;
+                    themes[i].Films.push(filmIndex);
+                }
+            }
+
+            themes = themes.sort((a, b) => a.Text > b.Text);
+            themes = themes.sort((a, b) => b.Amount - a.Amount);
+
+            for (var index in themes) {
+                var theme = themes[index];
+                if (!theme.IsMini) {
+                    var watchedPercent = (theme.Amount / filmsWithThemes) * 100;
                     var barAmount = '';
                     if (documentWidth >= 600) {
-                        barAmount = '<td class="chart" data-value="' + data.Themes[theme].Amount + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.Themes[theme].Amount / data.FilmsWithThemes) * 100) + 'px">&nbsp;</span></span></td>';
+                        barAmount = '<td class="chart" data-value="' + theme.Amount + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((theme.Amount / filmsWithThemes) * 100) + 'px">&nbsp;</span></span></td>';
                     }
-                    var tooltipFilms = makeFilmListTooltip(data.Themes[theme].Films);
+                    var tooltipFilms = makeFilmListTooltip(theme.Films);
                     tbody.append(
                         '<tr>' +
-                        '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/' + data.Themes[theme].Url + '/size/large/">' + data.Themes[theme].Text + '</a></td>' +
-                        '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltipFilms.join('<br>') + '">' + data.Themes[theme].Amount + '</td>' +
-                        '<td class="right ttt" data-tooltip="' + watchedPercent.toFixed(2) + '%" data-value="' + data.Themes[theme].Amount + '">' + watchedPercent.toFixed(0) + '%</td>' +
+                        '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/' + theme.Url + '/size/large/">' + theme.Text + '</a></td>' +
+                        '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltipFilms.join('<br>') + '">' + theme.Amount + '</td>' +
+                        '<td class="right ttt" data-tooltip="' + watchedPercent.toFixed(2) + '%" data-value="' + theme.Amount + '">' + watchedPercent.toFixed(0) + '%</td>' +
                         barAmount +
                         '</tr>');
                 }
@@ -2346,19 +2561,20 @@
                 thead.append('<tr class="bottomheader"><th>Specific Theme</th><th>Σ</th><th>%</th><th>&#x25AC;</th></tr>');
             }
 
-            for (var theme in data.Themes) {
-                if (data.Themes[theme].IsMini) {
-                    var watchedPercent = (data.Themes[theme].Amount / data.FilmsWithThemes) * 100;
+            for (var index in themes) {
+                var theme = themes[index];
+                if (theme.IsMini) {
+                    var watchedPercent = (theme.Amount / filmsWithThemes) * 100;
                     var barAmount = '';
                     if (documentWidth >= 600) {
-                        barAmount = '<td class="chart" data-value="' + data.Themes[theme].Amount + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((data.Themes[theme].Amount / data.FilmsWithThemes) * 100) + 'px">&nbsp;</span></span></td>';
+                        barAmount = '<td class="chart" data-value="' + theme.Amount + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((theme.Amount / filmsWithThemes) * 100) + 'px">&nbsp;</span></span></td>';
                     }
-                    var tooltipFilms = makeFilmListTooltip(data.Themes[theme].Films);
+                    var tooltipFilms = makeFilmListTooltip(theme.Films);
                     tbody.append(
                         '<tr>' +
-                        '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/' + data.Themes[theme].Url + '/size/large/">' + data.Themes[theme].Text + '</a></td>' +
-                        '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltipFilms.join('<br>') + '">' + data.Themes[theme].Amount + '</td>' +
-                        '<td class="right ttt" data-tooltip="' + watchedPercent.toFixed(2) + '%" data-value="' + data.Themes[theme].Amount + '">' + watchedPercent.toFixed(0) + '%</td>' +
+                        '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/' + theme.Url + '/size/large/">' + theme.Text + '</a></td>' +
+                        '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltipFilms.join('<br>') + '">' + theme.Amount + '</td>' +
+                        '<td class="right ttt" data-tooltip="' + watchedPercent.toFixed(2) + '%" data-value="' + theme.Amount + '">' + watchedPercent.toFixed(0) + '%</td>' +
                         barAmount +
                         '</tr>');
                 }
@@ -2385,19 +2601,40 @@
 
             thead.append('<tr class="header"><th>Most Frequent Nanogenres</th><th>Films Σ</th></tr>');
 
-            var minimum = 0;
-            if (data.Nanogenres.length > 100) {
-                minimum = data.Nanogenres[100].Amount;
+            var nanogenres = []
+            for (var filmIndex in films) {
+                var film = films[filmIndex]
+                for (var index of film.Nanogenres) {
+                    var nanogenre = data.Nanogenres[index];
+                    if (!nanogenres.some(a => a.Text == nanogenre.Text)) {
+                        var n = {};
+                        for (var key of Object.keys(nanogenre)) {
+                            n[key] = nanogenre[key];
+                        }
+                        n.Amount = 0;
+                        n.Films = [];
+                        nanogenres.push(n);
+                    }
+                    var i = nanogenres.findIndex(a => a.Text == nanogenre.Text);
+                    nanogenres[i].Amount++;
+                    nanogenres[i].Films.push(filmIndex);
+                }
             }
 
-            for (var nanogenre in data.Nanogenres.filter(a => a.Amount >= minimum)) {
-                var watchedPercent = (data.Nanogenres[nanogenre].Amount / data.FilmsWithNanogenres) * 100;
+            nanogenres = nanogenres.sort((a, b) => a.Text > b.Text);
+            nanogenres = nanogenres.sort((a, b) => b.Amount - a.Amount);
+            var min = Math.max(2, nanogenres.length > 100 ? nanogenres[100].Amount : 0);
+            nanogenres = nanogenres.filter(a => a.Amount >= min);
+
+            for (var index in nanogenres) {
+                var nanogenre = nanogenres[index];
+                var watchedPercent = (nanogenre.Amount / filmsWithThemes) * 100;
                 var barAmount = '';
-                var tooltipFilms = makeFilmListTooltip(data.Nanogenres[nanogenre].Films);
+                var tooltipFilms = makeFilmListTooltip(nanogenre.Films);
                 tbody.append(
                     '<tr>' +
-                    '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/nanogenre/' + data.Nanogenres[nanogenre].Url + '/size/large/">' + data.Nanogenres[nanogenre].Text + '</a></td>' +
-                    '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltipFilms.join('<br>') + '">' + data.Nanogenres[nanogenre].Amount + '</td>' +
+                    '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/nanogenre/' + nanogenre.Url + '/size/large/">' + nanogenre.Text + '</a></td>' +
+                    '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltipFilms.join('<br>') + '">' + nanogenre.Amount + '</td>' +
                     '</tr>');
             }
 
@@ -2424,13 +2661,13 @@
 
         function showTitles() {
 
-            resetView();
+            resetView(showTitles, $(event.target));
             createNewTable();
 
-            thead.append('<tr class="topheader"><th colspan="2">Top ' + galleryAmount + ' Longest Titles</th></tr>');
+            thead.append('<tr class="topheader"><th colspan="2">Longest Titles</th></tr>');
             thead.append('<tr class="bottomheader"><th>Year</th><th>Title</th></tr>');
 
-            var filmsLongestTitles = films.slice().sort((a, b) => a.Title > b.Title).sort((a, b) => b.Title.length > a.Title.length).map(a => a.Id).slice(0, galleryAmount)
+            var filmsLongestTitles = [...films].sort((a, b) => a.Title > b.Title).sort((a, b) => b.Title.length > a.Title.length).map(a => a.Id).slice(0, galleryAmount);
 
             var displayed = 0;
             for (var id of filmsLongestTitles) {
@@ -2461,65 +2698,87 @@
                 }
             });
 
-            createNewTable();
+            var filmsShortestTitles = films.slice().filter(a => a.Title.length <= 3).sort((a, b) => a.Title > b.Title).sort((a, b) => a.Title.length > b.Title.length).map(a => a.Id);
 
-            thead.append('<tr class="topheader"><th colspan="2">Titles: 3 Characters or Fewer</th></tr>');
-            thead.append('<tr class="bottomheader"><th>Year</th><th style="width:200px;">Title</th></tr>');
+            if (filmsShortestTitles.length) {
 
-            var filmsShortestTitles = films.slice().filter(a => a.Title.length <= 3).sort((a, b) => a.Title > b.Title).sort((a, b) => a.Title.length > b.Title.length).map(a => a.Id)
+                createNewTable();
 
-            displayed = 0;
-            for (var id of filmsShortestTitles) {
-                var film = films.find(a => a.Id == id);
-                var tooltip = '';
-                if (film.Poster && film.Poster.length > 0) {
-                    tooltip = ' ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>';
+                thead.append('<tr class="topheader"><th colspan="2">Titles: 3 Characters or Fewer</th></tr>');
+                thead.append('<tr class="bottomheader"><th>Year</th><th style="width:200px;">Title</th></tr>');
+
+                displayed = 0;
+                for (var id of filmsShortestTitles) {
+                    var film = films.find(a => a.Id == id);
+                    var tooltip = '';
+                    if (film.Poster && film.Poster.length > 0) {
+                        tooltip = ' ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>';
+                    }
+                    tbody.append(
+                        '<tr>' +
+                        '<td class="right' + tooltip + '">' + film.Year + '</td>' +
+                        '<td class="mono"><a target="_blank" href="https://boxd.it/' + film.Id + '">' + film.Title + '</a></td>' +
+                        '</tr>');
+                    displayed++;
+                    if (displayed == galleryAmount)
+                        break;
                 }
-                tbody.append(
-                    '<tr>' +
-                    '<td class="right' + tooltip + '">' + film.Year + '</td>' +
-                    '<td class="mono"><a target="_blank" href="https://boxd.it/' + film.Id + '">' + film.Title + '</a></td>' +
-                    '</tr>');
-                displayed++;
-                if (displayed == galleryAmount)
-                    break;
+
+                table.tablesorter({
+                    widgets: ['columns'],
+                    usNumberFormat: true,
+                    sortReset: false,
+                    sortRestart: false,
+                    headers: {
+                        0: { sorter: false },
+                        1: { sorter: false },
+                        2: { sorter: false },
+                    }
+                });
+
             }
 
-            table.tablesorter({
-                widgets: ['columns'],
-                usNumberFormat: true,
-                sortReset: false,
-                sortRestart: false,
-                headers: {
-                    0: { sorter: false },
-                    1: { sorter: false },
-                    2: { sorter: false },
+            var ignore = ' - & 1 2 3 4 5 6 7 8 9 a and are as at by de for from he her him his i ii iii in is it iv la me my v not of on part she that the them they to was with you'.split(' ');
+            var words = [];
+            for (var id in films) {
+                var film = films[id];
+                var cleanTitle = film
+                    .Title
+                    .toLowerCase()
+                    .replace(/[,:;\.!\?]/g, '')
+                    .replace(/\//g, ' ')
+                    .split(' ')
+                    .filter(a => !ignore.includes(a));
+                for (var word of cleanTitle) {
+                    if (!words.some(a => a[0] == word)) {
+                        words.push([word, []])
+                    }
+                    var where = words.findIndex(a => a[0] == word);
+                    words[where][1].push(id);
                 }
-            });
+            }
+
+            words = words.sort((a, b) => a[0].localeCompare(b[0])).sort((a, b) => b[1].length - a[1].length);
+            var max = Math.max(2, words.length > 50 ? words[50][1].length + 1 : 0);
+            words = words.filter(a => a[1].length >= max);
 
             createNewTable();
 
-            thead.append('<tr class="topheader"><th colspan="2">Top ' + galleryAmount + ' Most Frequent Words in Titles <span class="subtitle">excluding stop words</span></th></tr>');
+            thead.append('<tr class="topheader"><th colspan="2">Most Frequent Words in Titles <span class="subtitle">excluding stop words</span></th></tr>');
             thead.append('<tr class="bottomheader"><th>Word</th><th>Amount</th></tr>');
 
-            displayed = 0;
-            for (var word in data.MostFrequentWords) {
-
+            for (var word in words) {
                 var tooltip = []
-                for (var filmIndex of data.MostFrequentWords[word]) {
+                for (var filmIndex of words[word][1]) {
                     var film = films[filmIndex]
                     tooltip.push('(' + film.Year + ') ' + film.Title);
                 }
                 tooltip.sort()
-
                 tbody.append(
-                    '<tr>' +
-                    '<td style="width:10px">' + word + '</td>' +
-                    '<td class="ttt" data-tooltip-size="big" data-tooltip="' + tooltip.join('<br>') + '">' + data.MostFrequentWords[word].length + '</td>' +
+                    '<tr' + (+word < words.length - 1 && words[word][1].length != words[+word + 1][1].length ? ' class="breaker"' : '') + '>' +
+                    '<td style="width:10px">' + words[word][0] + '</td>' +
+                    '<td class="ttt" data-tooltip-size="big" data-tooltip="' + tooltip.join('<br>') + '">' + words[word][1].length + '</td>' +
                     '</tr>');
-                displayed++;
-                if (displayed == galleryAmount)
-                    break;
             }
 
             createNewTable();
@@ -2590,7 +2849,7 @@
             $(event.target).addClass('active');
 
             createTooltipTriggers();
-        }	
+        }
 
         function showTitleLengthChart() {
 
@@ -2716,16 +2975,65 @@
 
         function showRated() {
 
-            var alphabetical = films.slice().sort((a, b) => a.Title > b.Title)
+            resetView(showRated, $(event.target));
 
-            resetView();
+            createNewTable();
 
-            for (var s = 5; s > 0; s--) {
+            thead.append('<tr class="topheader"><th colspan="3">Ratings</th></tr>');
+            thead.append('<tr class="bottomheader"><th>Rating</th><th>Films</th><th>&#x25AC;</th></tr>');
+
+            var highestRatingCount = 0
+            for (var s = 5; s > 0; s -= .5) {
+                highestRatingCount = Math.max(highestRatingCount, films.filter(a => a.RatingSelf == s).length);
+            }
+
+            for (var s = 5; s > 0; s -= .5) {
+                var amount = films.filter(a => a.RatingSelf == s).length;
+                bar = '<td class="chart" data-value="' + amount + '"><span class="bar" style="width:' + Math.round((amount / highestRatingCount) * 100) + 'px">&nbsp;</span></td>';
+                tbody.append('<tr><td data-value="' + s + '">' + '&#9670;'.repeat(s) + (s % 1 ? '&#9671;' : '') + '</td><td class="right">' + amount + '</td>' + bar + '</tr>');
+            }
+
+            $.tablesorter.addParser({
+                id: 'data-value',
+                is: function () {
+                    return false;
+                },
+                format: function (s, table, cell) {
+                    return $(cell).attr('data-value') || s;
+                },
+                type: 'text'
+            });
+
+            table.tablesorter({
+                widgets: ['columns'],
+                usNumberFormat: true,
+                sortReset: false,
+                sortRestart: false,
+                sortList: [[0, 1]],
+                headers: {
+                    0: { sorter: false },
+                    1: { sortInitialOrder: 'asc', sorter: 'data-value' },
+                    2: { sortInitialOrder: 'desc' },
+                    3: { sortInitialOrder: 'desc', sorter: 'data-value' },
+                }
+            });
+
+            $('body').append('<div class="boxes"></div>');
+
+            var rated = films.filter(a => a.RatingSelf).length;
+            var unrated = films.filter(a => !a.RatingSelf).length;
+
+            $('.boxes').append(makeBox(rated, 'Rated Films', (rated / films.length).toFixed(2) * 100 + '%', false));
+            $('.boxes').append(makeBox(unrated, 'Unrated Films', (unrated / films.length).toFixed(2) * 100 + '%', false));
+
+            var alphabetical = films.slice().sort((a, b) => a.Title > b.Title);
+
+            for (var s = 5; s > 0; s -= .5) {
 
                 createGallery();
                 var gallery = $('.gallery').last();
 
-                gallery.append('<div class="title">' + '&#9670;'.repeat(s) + '</div>');
+                gallery.append('<div class="title">' + '&#9670;'.repeat(s) + (s % 1 ? '&#9671;' : '') + '</div>');
                 gallery.append('<div class="inside"></div>');
                 var insideGallery = $('.gallery .inside').last();
 
@@ -2740,7 +3048,7 @@
                         insideGallery.append(
                             '<div class="item">' +
                             '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
-                            '<div class="details">' + makeFilmDetails(film) + '</div>' +
+                            '<div class="details">' + makeFilmDetails(film, false, false) + '</div>' +
                             '</a></div>');
                         displayed++;
                     }
@@ -2758,7 +3066,7 @@
 
         function showFans() {
 
-            resetView();
+            resetView(showFans, $(event.target));
 
             createGallery();
             var gallery = $('.gallery');
@@ -2798,7 +3106,7 @@
 
         function showLikes() {
 
-            resetView();
+            resetView(showLikes, $(event.target));
 
             createGallery();
             var gallery = $('.gallery');
@@ -2834,7 +3142,7 @@
 
         function showRatings() {
 
-            resetView();
+            resetView(showRatings, $(event.target));
 
             var filmsHighestRated = films.slice().filter(a => a.Minutes >= 60).sort((a, b) => a.Title > b.Title).sort((a, b) => b.RatingLetterboxd - a.RatingLetterboxd).map(a => a.Id).slice(0, galleryAmount)
             var filmsLowestRated = films.slice().filter(a => a.Minutes >= 60).filter(a => a.RatingLetterboxd > 0).sort((a, b) => a.Title > b.Title).sort((a, b) => a.RatingLetterboxd - b.RatingLetterboxd).map(a => a.Id).slice(0, galleryAmount)
@@ -2938,7 +3246,7 @@
 
         function showPopularity() {
 
-            resetView();
+            resetView(showPopularity, $(event.target));
             createGallery();
             var gallery = $('.gallery');
 
@@ -3000,29 +3308,59 @@
 
         function showPeopleCombinations() {
 
-            resetView();
+            resetView(showPeopleCombinations, $(event.target));
+
+            var peoplePairs = [];
+            for (var index in films) {
+                if (films[index].Cast[0] >= 0) {
+                    for (var director of films[index].Directors) {
+                        var identifier = director + ' ' + films[index].Cast[0];
+                        var where = peoplePairs.findIndex(a => a[0] == identifier)
+                        if (where <= 0) {
+                            peoplePairs.push([identifier, []]);
+                            where = peoplePairs.length - 1;
+                        }
+                        peoplePairs[where][1].push(index);
+                    }
+                }
+            }
+
+            peoplePairs = peoplePairs
+                .filter(a => a[1].length >= 2)
+                .sort((a, b) => sortableName(people[a[0].split(' ')[0]].FullName).localeCompare(sortableName(people[b[0].split(' ')[0]].FullName)))
+                .sort((a, b) => b[1].length - a[1].length);
+            if (peoplePairs.length > 10) {
+                var max = peoplePairs[9][1].length;
+                peoplePairs = peoplePairs.filter(a => a[1].length >= max);
+            }
 
             createNewTable();
 
             thead.append('<tr class="topheader"><th colspan="3">Most Frequent Pairs - Director and Protagonist</th></tr>');
             thead.append('<tr class="bottomheader"><th>Director</th><th>Protagonist</th><th>Films</th></tr>');
 
-            for (var pair of data.PeoplePairs["Director & Protagonist"]) {
+            for (var index in peoplePairs) {
+
+                var pair = peoplePairs[index];
+
+                pair.PersonA = people[pair[0].split(' ')[0]]
+                pair.PersonB = people[pair[0].split(' ')[1]]
+
                 var urlA = url = 'https://letterboxd.com/' + data.Username + '/films/with/director/' + urlSafe(pair.PersonA.FullName.replace(/ /g, '-').toLowerCase()) + '/by/name/size/large/';
                 var urlB = url = 'https://letterboxd.com/' + data.Username + '/films/with/actor/' + urlSafe(pair.PersonB.FullName.replace(/ /g, '-').toLowerCase()) + '/by/name/size/large/';
                 var tooltipA = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + pair.PersonA.Poster + '\'>"';
                 var tooltipB = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + pair.PersonB.Poster + '\'>"';
                 var tooltipFilms = []
-                for (var filmIndex of pair.Films) {
+                for (var filmIndex of pair[1]) {
                     var film = films[filmIndex]
                     tooltipFilms.push('(' + film.Year + ') ' + film.Title);
                 }
                 tooltipFilms.sort()
                 tbody.append(
-                    '<tr>' +
-                    '<td' + tooltipA + '><a target="_blank" href="' + urlA + '">' + pair.PersonA.FullName + '</a></td>' +
-                    '<td' + tooltipB + '><a target="_blank" href="' + urlB + '">' + pair.PersonB.FullName + '</a></td>' +
-                    '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltipFilms.join('<br/>') + '">' + pair.Films.length + '</td>' +
+                    '<tr' + (index < peoplePairs.length - 2 && pair[1].length != peoplePairs[+index + 1][1].length ? ' class="breaker"' : '') + '>' +
+                    '<td>' + makeDot(pair.PersonA.Gender) + ' <a ' + tooltipA + 'target="_blank" href="' + urlA + '">' + pair.PersonA.FullName + '</a></td>' +
+                    '<td>' + makeDot(pair.PersonB.Gender) + ' <a ' + tooltipB + 'target="_blank" href="' + urlB + '">' + pair.PersonB.FullName + '</a></td>' +
+                    '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltipFilms.join('<br/>') + '">' + pair[1].length + '</td>' +
                     '</tr>');
             }
 
@@ -3040,27 +3378,58 @@
                 }
             });
 
+            var peoplePairs = [];
+            for (var index in films) {
+                var cast = films[index].Cast.slice(0, 3).filter(a => a >= 0).sort((a, b) => sortableName(people[a].FullName).localeCompare(sortableName(people[b].FullName)));
+                for (var a = 0; a < cast.length; a++) {
+                    for (var b = a + 1; b < cast.length; b++) {
+                        var identifier = cast[a] + ' ' + cast[b];
+                        var where = peoplePairs.findIndex(a => a[0] == identifier)
+                        if (where <= 0) {
+                            peoplePairs.push([identifier, []]);
+                            where = peoplePairs.length - 1;
+                        }
+                        peoplePairs[where][1].push(index);
+                    }
+                }
+            }
+
+            peoplePairs = peoplePairs
+                .filter(a => a[1].length >= 2)
+                .sort((a, b) => sortableName(people[a[0].split(' ')[0]].FullName).localeCompare(sortableName(people[b[0].split(' ')[0]].FullName)))
+                .sort((a, b) => b[1].length - a[1].length);
+            if (peoplePairs.length > 10) {
+                var max = peoplePairs[9][1].length;
+                peoplePairs = peoplePairs.filter(a => a[1].length >= max);
+            }
+
             createNewTable();
 
             thead.append('<tr class="topheader"><th colspan="3">Most Frequent Pairs - Main Cast</th></tr>');
             thead.append('<tr class="bottomheader"><th>Main Cast 1</th><th>Main Cast 2</th><th>Films</th></tr>');
 
-            for (var pair of data.PeoplePairs["Main Cast"]) {
+            for (var index in peoplePairs) {
+
+                var pair = peoplePairs[index];
+
+                pair.PersonA = people[pair[0].split(' ')[0]]
+                pair.PersonB = people[pair[0].split(' ')[1]]
+
                 var urlA = url = 'https://letterboxd.com/' + data.Username + '/films/with/actor/' + urlSafe(pair.PersonA.FullName.replace(/ /g, '-').toLowerCase()) + '/by/name/size/large/';
                 var urlB = url = 'https://letterboxd.com/' + data.Username + '/films/with/actor/' + urlSafe(pair.PersonB.FullName.replace(/ /g, '-').toLowerCase()) + '/by/name/size/large/';
                 var tooltipA = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + pair.PersonA.Poster + '\'>"';
                 var tooltipB = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + pair.PersonB.Poster + '\'>"';
                 var tooltipFilms = []
-                for (var filmIndex of pair.Films) {
+                for (var filmIndex of pair[1]) {
                     var film = films[filmIndex]
                     tooltipFilms.push('(' + film.Year + ') ' + film.Title);
                 }
                 tooltipFilms.sort()
                 tbody.append(
-                    '<tr>' +
-                    '<td' + tooltipA + '><a target="_blank" href="' + urlA + '">' + pair.PersonA.FullName + '</a></td>' +
-                    '<td' + tooltipB + '><a target="_blank" href="' + urlB + '">' + pair.PersonB.FullName + '</a></td>' +
-                    '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltipFilms.join('<br/>') + '">' + pair.Films.length + '</td>' +
+                    '<tr' + (index < peoplePairs.length - 2 && pair[1].length != peoplePairs[+index + 1][1].length ? ' class="breaker"' : '') + '>' +
+                    '<td>' + makeDot(pair.PersonA.Gender) + ' <a ' + tooltipA + 'target="_blank" href="' + urlA + '">' + pair.PersonA.FullName + '</a></td>' +
+                    '<td>' + makeDot(pair.PersonB.Gender) + ' <a ' + tooltipB + 'target="_blank" href="' + urlB + '">' + pair.PersonB.FullName + '</a></td>' +
+                    '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltipFilms.join('<br/>') + '">' + pair[1].length + '</td>' +
                     '</tr>');
             }
 
@@ -3085,12 +3454,206 @@
 
         }
 
+        function showPeopleLongevity() {
+
+            resetView(showPeopleLongevity, $(event.target));
+
+            showPeopleLengthsSpecific('Directors', 'director');
+            showPeopleLengthsSpecific('Protagonists', 'actor');
+            //showPeopleLengthsSpecific('Main Cast', 'actor');
+
+            deactivateAll();
+            $(event.target).addClass('active');
+
+            createTooltipTriggers();
+
+        }
+
+        function showPeopleLengthsSpecific(title, job) {
+
+            var peopleLengths = [...people]
+
+            for (var index in people) {
+                peopleLengths[index].YearFirst = 0
+                peopleLengths[index].YearLast = 0
+            }
+
+            for (var index in films) {
+                var year = films[index].Year;
+
+                var source;
+                switch (title) {
+                    case 'Directors':
+                        source = films[index].Directors;
+                        break;
+                    case 'Protagonists':
+                        source = [films[index].Cast[0]];
+                        break;
+                    case 'Main Cast':
+                        source = films[index].Cast.slice(0, 3);
+                        break;
+                }
+
+                for (var person of source.filter(a => a !== undefined)) {
+                    if (peopleLengths[person].YearFirst == 0 || peopleLengths[person].YearFirst > year) {
+                        peopleLengths[person].YearFirst = year;
+                        peopleLengths[person].Earliest = films[index].Id;
+                        peopleLengths[person].Index = person;
+                    }
+                    if (peopleLengths[person].YearLast < year) {
+                        peopleLengths[person].YearLast = year;
+                        peopleLengths[person].Newest = films[index].Id;
+                    }
+                }
+            }
+
+            peopleLengths = peopleLengths
+                .filter(a => a.YearFirst != a.YearLast)
+                .sort((a, b) => sortableName(a.FullName).localeCompare(sortableName(b.FullName)))
+                .sort((a, b) => (b.YearLast - b.YearFirst) - (a.YearLast - a.YearFirst));
+
+            if (peopleLengths.length > 10) {
+                var maxSpan = peopleLengths[9].YearLast - peopleLengths[9].YearFirst;
+                peopleLengths = peopleLengths.filter(a => (a.YearLast - a.YearFirst) >= maxSpan)
+            }
+
+            createNewTable();
+
+            thead.append('<tr class="topheader"><th colspan="4">Longest Spanning ' + title + '</th></tr>');
+            thead.append('<tr class="bottomheader"><th>Name</th><th>Years</th><th>Earliest Film</th><th>Newest Film</th></tr>');
+
+            for (var person of peopleLengths) {
+                var per = people[person.Index];
+                var url = 'https://letterboxd.com/' + data.Username + '/films/with/' + job + '/' + urlSafe(per.FullName.replace(/ /g, '-').toLowerCase()) + '/by/name/size/large/';
+                var tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + per.Poster + '\'>"';
+
+                var filmEarliest = films.find(a => a.Id == person.Earliest);
+                var tooltipEarliest = '';
+                if (filmEarliest.Poster && filmEarliest.Poster.length > 0) {
+                    tooltipEarliest = ' ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + filmEarliest.Poster + '\'>';
+                }
+                var filmNewest = films.find(a => a.Id == person.Newest);
+                var tooltipNewest = '';
+                if (filmNewest.Poster && filmNewest.Poster.length > 0) {
+                    tooltipNewest = ' ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + filmNewest.Poster + '\'>';
+                }
+
+                tbody.append(
+                    '<tr>' +
+                    '<td>' + makeDot(per.Gender) + ' <a ' + tooltip + 'target="_blank" href="' + url + '">' + per.FullName + '</a></td>' +
+                    '<td class="right">' + (person.YearLast - person.YearFirst) + '</td>' +
+                    '<td>' + filmEarliest.Year + ' <a class="' + tooltipEarliest + '" target="_blank" href="https://boxd.it/' + filmEarliest.Id + '">' + filmEarliest.Title + '</a></td>' +
+                    '<td>' + filmNewest.Year + ' <a class="' + tooltipNewest + '" target="_blank" href="https://boxd.it/' + filmNewest.Id + '">' + filmNewest.Title + '</a></td>' +
+                    '</tr>');
+            }
+
+            table.tablesorter({
+                widgets: ['columns'],
+                usNumberFormat: true,
+                sortReset: false,
+                sortRestart: false,
+                sortList: [[1, 1]],
+                headers: {
+                    0: { sorter: false },
+                    1: { sortInitialOrder: 'asc' },
+                    2: { sortInitialOrder: 'desc' },
+                    3: { sortInitialOrder: 'asc' },
+                    4: { sortInitialOrder: 'desc' },
+                }
+            });
+
+        }
+
         function showPeople(job, jobSpecific, index = 'All') {
 
-            var jobSpecificCleaned = jobSpecific.replace(' ', '').toLowerCase();
-            dataSource = data.ProfessionDataSets[jobSpecificCleaned + '_' + index].PeopleData;
+            console.time('a');
 
-            resetView();
+            if (!job) {
+                [job, jobSpecific, index] = [...lastPeopleParameters]
+            } else {
+                lastPeopleParameters = [job, jobSpecific, index]
+            }
+
+            resetView(showPeople, $(event.target));
+
+            var jobSpecificCleaned = jobSpecific.replace(' ', '').toLowerCase();
+
+            var dataSourceAlt = {};
+            dataSourceAlt.Total = 0;
+            dataSourceAlt.Unique = 0;
+            dataSourceAlt.PeopleData = [];
+
+            var statTotalGenderAll = [];
+            var statTotalGender_1 = [];
+            var statTotalGender_2 = [];
+            var statTotalGender_3 = [];
+
+            var peopleDuplicate = [...people];
+            peopleDuplicate.forEach(a => { a.Amount = 0; a.Minutes = 0; a.Include = false; a.Films = []; })
+
+            dataSourceAlt.Total = 0;
+            for (var filmIndex in films) {
+                var peopleIndexes;
+                switch (jobSpecificCleaned) {
+                    case 'director':
+                        peopleIndexes = films[filmIndex].Directors;
+                        break;
+                    case 'protagonist':
+                        peopleIndexes = [films[filmIndex].Cast[0]];
+                        break;
+                    case 'maincast':
+                        peopleIndexes = films[filmIndex].Cast.slice(0, 3);
+                        break;
+                    case 'entirecast':
+                        peopleIndexes = films[filmIndex].Cast;
+                        break;
+                }
+                for (var personIndex of peopleIndexes) {
+                    if (personIndex >= 0) {
+                        var gender = people[personIndex].Gender;
+                        statTotalGenderAll.push(personIndex);
+                        switch (gender) {
+                            case 1:
+                                statTotalGender_1.push(personIndex);
+                                break;
+                            case 2:
+                                statTotalGender_2.push(personIndex);
+                                break;
+                            case 3:
+                                statTotalGender_3.push(personIndex);
+                                break;
+                        }
+                        if (index == 'All' || gender == index) {
+                            peopleDuplicate[personIndex].Include = true;
+                            peopleDuplicate[personIndex].Amount++;
+                            peopleDuplicate[personIndex].Minutes += films[filmIndex].Minutes;
+                            peopleDuplicate[personIndex].Films.push(filmIndex);
+                            dataSourceAlt.Total++;
+                        }
+                    }
+                }
+            }
+            peopleDuplicate = peopleDuplicate.filter(a => a.Include);
+            dataSourceAlt.Unique = peopleDuplicate.length;
+            dataSourceAlt.PeopleData = peopleDuplicate;
+
+            var statUniqueGenderAll = new Set(statTotalGenderAll).size;
+            var statUniqueGender_1 = new Set(statTotalGender_1).size;
+            var statUniqueGender_2 = new Set(statTotalGender_2).size;
+            var statUniqueGender_3 = new Set(statTotalGender_3).size;
+
+            statTotalGenderAll = statTotalGenderAll.length;
+            statTotalGender_1 = statTotalGender_1.length;
+            statTotalGender_2 = statTotalGender_2.length;
+            statTotalGender_3 = statTotalGender_3.length;
+
+            dataSourceAlt
+                .PeopleData
+                .sort((a, b) => sortableName(a.FullName).localeCompare(sortableName(b.FullName)))
+                .sort((a, b) => b.Amount - a.Amount);
+
+            dataSource = dataSourceAlt.PeopleData;
+
             createGallery();
 
             var gallery = $('.gallery');
@@ -3103,13 +3666,8 @@
                 }
             }
 
-            //var shuffled = shuffleArray(dataSource.slice(0));
-            //shuffled = shuffled.sort((a, b) => b.Amount - a.Amount);
-            //var lowest = shuffled.length >= galleryAmount - 1 ? shuffled[galleryAmount - 1].Amount : 0;
-
             var shuffled = dataSource.filter(a => a.Amount > minimum);
-            shuffled = shuffled.sort((a, b) => SortableName(b.FullName) < SortableName(a.FullName));
-            //shuffled = shuffleArray(shuffled);
+            shuffled = shuffled.sort((a, b) => sortableName(b.FullName) < sortableName(a.FullName));
             shuffled = shuffled.sort((a, b) => b.Amount - a.Amount);
 
             gallery.append('<div class="title">Most Frequent - ' + jobSpecific + (index == 'All' ? '' : ' - ' + ['Unknown', 'Women', 'Men', 'Non-Binary'][index]) + '</div>');
@@ -3141,29 +3699,33 @@
             }
 
             $('body').append('<div class="boxes"></div>');
-            $('.boxes').append(makeBox(data.ProfessionDataSets[jobSpecificCleaned + '_' + index].Total, 'Total'));
-            $('.boxes').append(makeBox(data.ProfessionDataSets[jobSpecificCleaned + '_' + index].Unique, 'Distinct'));
+            $('.boxes').append(makeBox(dataSourceAlt.Total, 'Total'));
+            $('.boxes').append(makeBox(dataSourceAlt.Unique, 'Distinct'));
 
             if (index == 'All') {
                 makeJobRow(
-                    data.ProfessionDataSets[jobSpecificCleaned + '_All'].Total,
-                    data.ProfessionDataSets[jobSpecificCleaned + '_1'].Total,
-                    data.ProfessionDataSets[jobSpecificCleaned + '_2'].Total,
-                    data.ProfessionDataSets[jobSpecificCleaned + '_3'].Total,
-                    data.ProfessionDataSets[jobSpecificCleaned + '_All'].Unique,
-                    data.ProfessionDataSets[jobSpecificCleaned + '_1'].Unique,
-                    data.ProfessionDataSets[jobSpecificCleaned + '_2'].Unique,
-                    data.ProfessionDataSets[jobSpecificCleaned + '_3'].Unique,
+                    statTotalGenderAll,
+                    statTotalGender_1,
+                    statTotalGender_2,
+                    statTotalGender_3,
+                    statUniqueGenderAll,
+                    statUniqueGender_1,
+                    statUniqueGender_2,
+                    statUniqueGender_3,
                 );
             }
 
             createNewTable();
 
-            thead.append('<tr class="topheader"><th colspan="2">Top ' + Object.values(dataSource).length + ' Most Frequent</th></tr>');
-            thead.append('<tr class="bottomheader"><th>Person</th><th>Amount</th></tr>');
-
             var sorted = dataSource.slice(0);
             sorted = sorted.sort((a, b) => SortableName(b.FullName) < SortableName(a.FullName)).sort((a, b) => b.Amount > a.Amount);
+            if (sorted.length > 100) {
+                var min = sorted[100].Amount;
+                sorted = sorted.filter(a => a.Amount >= min);
+            }
+
+            thead.append('<tr class="topheader"><th colspan="2">Top ' + Object.values(sorted).length + ' Most Frequent</th></tr>');
+            thead.append('<tr class="bottomheader"><th>Person</th><th>Amount</th></tr>');
 
             for (var a = 0; a < sorted.length; a++) {
                 var url = 'https://letterboxd.com/' + data.Username + '/films/with/' + job.toLowerCase() + '/' + urlSafe(sorted[a].FullName.replace(/ /g, '-').toLowerCase()) + '/by/name/size/large/';
@@ -3176,15 +3738,22 @@
                     dot = makeDot(sorted[a].Gender) + ' ';
                 }
 
-                var tooltip = '';
+                var tooltipPoster = '';
                 if (sorted[a].Poster.length > 0) {
-                    tooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + sorted[a].Poster + '\'>"';
+                    tooltipPoster = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + sorted[a].Poster + '\'>"';
                 }
+
+                var tooltip = []
+                for (var filmIndex of sorted[a].Films) {
+                    var film = films[filmIndex]
+                    tooltip.push('(' + film.Year + ') ' + film.Title);
+                }
+                tooltip.sort()
 
                 tbody.append(
                     '<tr' + extraClass + '>' +
-                    '<td' + tooltip + '><a target="_blank" href="' + url + '">' + dot + sorted[a].FullName + '</a></td>' +
-                    '<td class="right">' + sorted[a].Amount + '</td>' +
+                    '<td>' + dot + ' <a ' + tooltipPoster + 'target="_blank" href="' + url + '">' + sorted[a].FullName + '</a></td>' +
+                    '<div><td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltip.join('<br>') + '">' + sorted[a].Amount + '</td>' +
                     '</tr>');
             }
 
@@ -3205,6 +3774,8 @@
 
             deactivateAll();
             $(event.target).addClass('active');
+
+            console.timeEnd('a');
         }
 
         function showDirectorsWomen() {
@@ -3291,7 +3862,7 @@
 
         function showRecent() {
 
-            resetView();
+            resetView(showRecent, $(event.target));
 
             //'<div class="info">Click a section ' + (window.innerWidth > 900 ? 'on the left' : 'above') + ' to explore the statistics for <a target="_blank" href="https://letterboxd.com/' + data.Username + '/">' + data.Username + '\'s</a> ' + films.length.toLocaleString() + ' <a href="https://letterboxd.com/' + data.Username + '/films/">watched films</a>.<br/>The statistics were generated on ' + data.LastUpdated + '.</div>');
 
@@ -3314,141 +3885,145 @@
             }
         }
 
-		function showListRecent(listName, listTitle, amount = galleryAmount) {
+        function showListRecent(listName, listTitle, amount = galleryAmount) {
 
-			var lbList = data.Lists.filter(a => a.ListName == listName)[0];
+            var lbList = data.Lists.filter(a => a.ListName == listName)[0];
 
-			createGallery();
-			var gallery = $('.gallery');
+            createGallery();
+            var gallery = $('.gallery');
 
-			gallery.append('<div class="title">' + listTitle + '</div>');
-			gallery.append('<div class="inside"></div>');
-			var insideGallery = $('.gallery .inside');
+            gallery.append('<div class="title">' + listTitle + '</div>');
+            gallery.append('<div class="inside"></div>');
+            var insideGallery = $('.gallery .inside');
 
-			var listFilms = lbList.Entries.slice(-amount).reverse();
+            var listFilms = lbList.Entries.slice(-amount).reverse();
 
-			for (var film of listFilms) {
-				var title = film.FilmName;
-				if (film.FilmNameOriginal != film.FilmName) {
-					title = film.FilmNameOriginal + '<br>(&quot;' + film.FilmName + '&quot;)';
-				}
-				insideGallery.append(
-					'<div class="item">' +
+            for (var film of listFilms) {
+                var title = film.FilmName;
+                if (film.FilmNameOriginal != film.FilmName) {
+                    title = film.FilmNameOriginal + '<br>(&quot;' + film.FilmName + '&quot;)';
+                }
+                insideGallery.append(
+                    '<div class="item">' +
                     '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.LetterboxdIdentifier + '"><img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.PosterUrl + '"></a></div>' +
-					'<div class="details">' + makeFilmDetails(film) + '<br/></div>' +
-					'</a></div>');
-			}
+                    '<div class="details">' + makeFilmDetails(film) + '<br/></div>' +
+                    '</a></div>');
+            }
 
-			createTooltipTriggers();
+            createTooltipTriggers();
 
-			deactivateAll();
+            deactivateAll();
         }
 
         function deleteRow(row) {
             row.parentNode.removeChild(row);
         }
 
-		function showTableRecent(listName, listTitle, amount = galleryAmount) {
+        function showTableRecent(listName, listTitle, amount = galleryAmount) {
 
-			var lbList = data.Lists.filter(a => a.ListName == listName)[0];
+            var lbList = data.Lists.filter(a => a.ListName == listName)[0];
 
-			$('body').append('<button onclick="copyRecentTable()">Copy Recently Watched: Table</button>');
+            $('body').append('<button onclick="copyRecentTable()">Copy Recently Watched: Table</button>');
 
-			createNewTable();
+            createNewTable();
 
             table.css('display', 'none');
 
-			tbody.append('<tr class="topheader"><td colspan="5"><span style="font-weight:bold">Recently Watched</span> <span class="subtitle">(starting with the most recent)</span></td></tr>');
-			tbody.append('<tr class="bottomheader" style="font-weight:bold"><td>Title</td><td>Year</td><td>Rating</td><td>Language</td><td>Genre</td></tr>');
+            tbody.append('<tr class="topheader"><td colspan="5"><span style="font-weight:bold">Recently Watched</span> <span class="subtitle">(starting with the most recent)</span></td></tr>');
+            tbody.append('<tr class="bottomheader" style="font-weight:bold"><td>Title</td><td>Year</td><td>Rating</td><td>Language</td><td>Genre</td></tr>');
 
-			var listFilms = lbList.Entries.slice(-amount).reverse();
+            var listFilms = lbList.Entries.slice(-amount).reverse();
 
-			for (var film of listFilms) {
+            for (var film of listFilms) {
                 var html = '<tr onclick="deleteRow(this)">';
-				html += '<td><a title="' + film.Overview + '" href="https://boxd.it/' + film.LetterboxdIdentifier + '">' + film.FilmName + '</a></td>';
-				html += '<td>' + film.Year + '</td>';
-				//tbody.append('<td>' + film.Protagonist + '</td>');
-				var ratingDetail = '&nbsp;';
-				if (film.RatingSelf > 0) {
-                    ratingDetail = '&#9670;'.repeat(film.RatingSelf) + '&#9671;'.repeat(5 - film.RatingSelf);
-				}
-				html += '<td>' + ratingDetail + '</td>';
-				var languageDetail = '&nbsp;';
-				if (film.Language.length == 0) {
-					languageDetail = '<em>Silent</em>';
+                html += '<td><a title="' + film.Overview + '" href="https://boxd.it/' + film.LetterboxdIdentifier + '">' + film.FilmName + '</a></td>';
+                html += '<td>' + film.Year + '</td>';
+                //tbody.append('<td>' + film.Protagonist + '</td>');
+                var ratingDetail = '&nbsp;';
+                if (film.RatingSelf > 0) {
+                    if (film.RatingSelf % 1) {
+                        ratingDetail = '&#9670;'.repeat(Math.floor(film.RatingSelf)) + '&#11030;' + '&#9671;'.repeat(4 - Math.floor(film.RatingSelf));
+                    } else {
+                        ratingDetail = '&#9670;'.repeat(film.RatingSelf) + '&#9671;'.repeat(5 - film.RatingSelf);
+                    }
+                }
+                html += '<td>' + ratingDetail + '</td>';
+                var languageDetail = '&nbsp;';
+                if (film.Language.length == 0) {
+                    languageDetail = '<em>Silent</em>';
                 } else if (film.Language != "English") {
                     languageDetail = film.Language;
-				} else {
-					languageDetail = '&nbsp;';
-				}
-				html += '<td>' + languageDetail + '</td>';
-				html += '<td title="Hello World">' + film.Genres.sort().join(', ') + '</td>';
-				html += '</tr>';
-				var overviewDetails = film.Overview;
-				if (overviewDetails.length > 90) {
-					overviewDetails = overviewDetails.substr(0, 89).trim() + '...';
-				}
-				//tbody.append('<tr style="color:grey"><td colspan="6">' + overviewDetails + '</td></tr>');
-				tbody.append(html);
+                } else {
+                    languageDetail = '&nbsp;';
+                }
+                html += '<td>' + languageDetail + '</td>';
+                html += '<td title="Hello World">' + film.Genres.sort().join(', ') + '</td>';
+                html += '</tr>';
+                var overviewDetails = film.Overview;
+                if (overviewDetails.length > 90) {
+                    overviewDetails = overviewDetails.substr(0, 89).trim() + '...';
+                }
+                //tbody.append('<tr style="color:grey"><td colspan="6">' + overviewDetails + '</td></tr>');
+                tbody.append(html);
             }
 
-			table.tablesorter({
-				widgets: ['columns'],
-				usNumberFormat: true,
-				sortReset: false,
-				sortRestart: false,
-				headers: {
-					0: { sorter: false },
-					1: { sorter: false },
-					2: { sorter: false },
-				}
-			});
+            table.tablesorter({
+                widgets: ['columns'],
+                usNumberFormat: true,
+                sortReset: false,
+                sortRestart: false,
+                headers: {
+                    0: { sorter: false },
+                    1: { sorter: false },
+                    2: { sorter: false },
+                }
+            });
 
-			$('body').append('<button onclick="copyRecentPosters()">Copy Recently Watched: Posters</button>');
-			var posterHtml = '';
-			for (var film of listFilms) {
-				posterHtml += '<a target="_blank" href="https://boxd.it/' + film.LetterboxdIdentifier + '"><img alt="' + film.FilmName + ' (' + film.Year + ')" width="110" height="175" src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.PosterUrl + '"></a>';
-			}
-			$('body').append('<div id="posters" style="display:none">' + posterHtml + '</div>');
+            $('body').append('<button onclick="copyRecentPosters()">Copy Recently Watched: Posters</button>');
+            var posterHtml = '';
+            for (var film of listFilms) {
+                posterHtml += '<a target="_blank" href="https://boxd.it/' + film.LetterboxdIdentifier + '"><img alt="' + film.FilmName + ' (' + film.Year + ')" width="110" height="175" src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.PosterUrl + '"></a>';
+            }
+            $('body').append('<div id="posters" style="display:none">' + posterHtml + '</div>');
 
-			$('body').append('<button onclick="copyRecentGrid()">Copy Recently Watched: Grid</button>');
-			var html = '<tr>';
-			for (var a = 0; a <= 5; a += 5) {
-				for (var film of listFilms.slice(a, a + 5)) {
-					html += '<td><img alt="`' + film.FilmName + '` \r\n' + film.Overview.replace(/"/g, "''") + '" width="110" height="175" src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.PosterUrl + '"></td>';
-				}
-				html += '</tr><tr>';
-				for (var film of listFilms.slice(a, a + 5)) {
-					html += '<td><a target="_blank" href="https://boxd.it/' + film.LetterboxdIdentifier + '">' + film.Year + '</a><br/>';
-					if (film.RatingSelf > 0) {
-						html += '&#9670;'.repeat(film.RatingSelf);
-					} else {
-						html += '.';
-					}
-					html += '<br>';
-					if (film.Language.length == 0) {
-						html += '<em>Silent</em>';
+            $('body').append('<button onclick="copyRecentGrid()">Copy Recently Watched: Grid</button>');
+            var html = '<tr>';
+            for (var a = 0; a <= 5; a += 5) {
+                for (var film of listFilms.slice(a, a + 5)) {
+                    html += '<td><img alt="`' + film.FilmName + '` \r\n' + film.Overview.replace(/"/g, "''") + '" width="110" height="175" src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.PosterUrl + '"></td>';
+                }
+                html += '</tr><tr>';
+                for (var film of listFilms.slice(a, a + 5)) {
+                    html += '<td><a target="_blank" href="https://boxd.it/' + film.LetterboxdIdentifier + '">' + film.Year + '</a><br/>';
+                    if (film.RatingSelf > 0) {
+                        html += '&#9670;'.repeat(Math.floor(film.RatingSelf)) + (film.RatingSelf % 1 ? '&#11030;' : '');
+                    } else {
+                        html += '.';
+                    }
+                    html += '<br>';
+                    if (film.Language.length == 0) {
+                        html += '<em>Silent</em>';
                     } else if (film.Language != "English") {
                         html += film.Language;
-					} else {
-						html += '.';
-					}
-					html += '</td>';
-				}
-				html += '</tr>';
-			}
+                    } else {
+                        html += '.';
+                    }
+                    html += '</td>';
+                }
+                html += '</tr>';
+            }
 
-			$('body').append('<table id="grid" style="display:none">' + html + '</div>');
-		}
+            $('body').append('<table id="grid" style="display:none">' + html + '</div>');
+        }
 
         showOverall();
         data.Backdrops = shuffleArray(data.Backdrops);
         showNextBackdrop();
         showHostOnly();
 
-		$('#prime').addClass('active');
+        $('#prime').addClass('active');
 
-	</script>
+    </script>
 
 </body>
 </html>

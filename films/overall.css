@@ -195,6 +195,14 @@ css-doodle {
     font-weight: 500;
 }
 
+#buttons select {
+    margin-top: 15px;
+}
+
+#buttons i {
+    font-style: normal;
+}
+
 /***** MESSAGES *****/
 
 .message {
