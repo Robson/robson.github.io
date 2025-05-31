@@ -10647,7 +10647,7 @@ var films = [
     "Title": "It",
     "TitleOriginal": "It",
     "Language": "",
-    "RatingSelf": null,
+    "RatingSelf": 3,
     "RatingLetterboxd": 3.52,
     "Minutes": 72,
     "Watched": 10994,
@@ -44716,7 +44716,7 @@ var films = [
     "Title": "The Invisible Man",
     "TitleOriginal": "The Invisible Man",
     "Language": "English",
-    "RatingSelf": null,
+    "RatingSelf": 3.5,
     "RatingLetterboxd": 3.87,
     "Minutes": 71,
     "Watched": 110291,
@@ -102085,7 +102085,7 @@ var films = [
     "Title": "Drive-Away Dolls",
     "TitleOriginal": "Drive-Away Dolls",
     "Language": "English",
-    "RatingSelf": 2.5,
+    "RatingSelf": 3,
     "RatingLetterboxd": 2.84,
     "Minutes": 84,
     "Watched": 265691,
@@ -104192,9 +104192,9 @@ var films = [
     "RatingSelf": 4,
     "RatingLetterboxd": 3.71,
     "Minutes": 112,
-    "Watched": 9429,
+    "Watched": 9444,
     "Fans": 47,
-    "Likes": 2675,
+    "Likes": 2680,
     "Id": "Gamk",
     "Poster": "/xcG2bRze3RYzx6ajHJhD7HpeOxV.jpg",
     "Year": 2023,
@@ -104233,5 +104233,150 @@ var films = [
       31980
     ],
     "DiaryWatchedDate": "2025-05-28"
+  },
+  {
+    "Title": "The Human Voice",
+    "TitleOriginal": "The Human Voice",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.57,
+    "Minutes": 30,
+    "Watched": 86423,
+    "Fans": 126,
+    "Likes": 21685,
+    "Id": "p148",
+    "Poster": "/9YWYbBAQ1keap6P5K2Yq1LK70KV.jpg",
+    "Year": 2020,
+    "When": "2020-09-03",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "ES"
+    ],
+    "Countries_Production": [
+      "ES"
+    ],
+    "Genres": [
+      "Drama"
+    ],
+    "Studios": [
+      344
+    ],
+    "Themes": [
+      5,
+      10,
+      6
+    ],
+    "Nanogenres": [
+      1,
+      3285,
+      4191,
+      1514,
+      1265,
+      4192,
+      38,
+      1414,
+      2387,
+      1796
+    ],
+    "Cast": [
+      213,
+      8780,
+      31981,
+      31982,
+      31983,
+      8779
+    ],
+    "Directors": [
+      8786
+    ],
+    "DiaryWatchedDate": "2025-05-29"
+  },
+  {
+    "Title": "L'Inhumaine",
+    "TitleOriginal": "L'Inhumaine",
+    "Language": "",
+    "RatingSelf": 4.5,
+    "RatingLetterboxd": 3.75,
+    "Minutes": 123,
+    "Watched": 2898,
+    "Fans": 9,
+    "Likes": 728,
+    "Id": "u2A",
+    "Poster": "/od2i9ksDCEQiNZ1Uel15G3n1xlY.jpg",
+    "Year": 1924,
+    "When": "1924-12-12",
+    "BlackAndWhite": true,
+    "Countries_Origin": [
+      "FR"
+    ],
+    "Countries_Production": [
+      "FR"
+    ],
+    "Genres": [
+      "Drama",
+      "Science Fiction"
+    ],
+    "Studios": [
+      2042
+    ],
+    "Themes": [],
+    "Nanogenres": [],
+    "Cast": [
+      31984,
+      31985,
+      31986,
+      31987,
+      31988,
+      31989,
+      31990,
+      31991
+    ],
+    "Directors": [
+      31992
+    ],
+    "DiaryWatchedDate": "2025-05-30"
+  },
+  {
+    "Title": "Ballet M\u00E9canique",
+    "TitleOriginal": "Ballet M\u00E9canique",
+    "Language": "",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.57,
+    "Minutes": 19,
+    "Watched": 21410,
+    "Fans": 17,
+    "Likes": 4334,
+    "Id": "3CAG",
+    "Poster": "/qtwJ26jLHCxgZdVp0faIpyZroRR.jpg",
+    "Year": 1924,
+    "When": "1924-09-24",
+    "BlackAndWhite": true,
+    "Countries_Origin": [
+      "FR"
+    ],
+    "Countries_Production": [
+      "FR"
+    ],
+    "Genres": [
+      "Documentary",
+      "Fantasy"
+    ],
+    "Studios": [
+      2043
+    ],
+    "Themes": [],
+    "Nanogenres": [],
+    "Cast": [
+      31990,
+      31993,
+      31994,
+      31995,
+      31996
+    ],
+    "Directors": [
+      31993,
+      31995
+    ],
+    "DiaryWatchedDate": "2025-05-30"
   }
 ]
