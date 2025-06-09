@@ -57051,7 +57051,7 @@ var films = [
     "Title": "The Lobster",
     "TitleOriginal": "The Lobster",
     "Language": "English",
-    "RatingSelf": 4,
+    "RatingSelf": 4.5,
     "RatingLetterboxd": 3.76,
     "Minutes": 119,
     "Watched": 1329073,
@@ -104364,5 +104364,561 @@ var films = [
       32005
     ],
     "DiaryWatchedDate": "2025-06-01"
+  },
+  {
+    "Title": "Battle of the Sexes",
+    "TitleOriginal": "Battle of the Sexes",
+    "Language": "English",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.36,
+    "Minutes": 121,
+    "Watched": 146126,
+    "Fans": 81,
+    "Likes": 22916,
+    "Id": "cNxw",
+    "Poster": "/fWy0A3VojTCb0S2MKtEJjpquubF.jpg",
+    "Year": 2017,
+    "When": "2017-09-22",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "GB",
+      "US"
+    ],
+    "Countries_Production": [
+      "GB",
+      "US"
+    ],
+    "Genres": [
+      "Drama",
+      "Comedy",
+      "History"
+    ],
+    "Studios": [
+      374,
+      1570,
+      1569,
+      811
+    ],
+    "Themes": [
+      17,
+      73,
+      102,
+      6,
+      85,
+      50
+    ],
+    "Nanogenres": [
+      2234,
+      2236,
+      1530,
+      4192,
+      4193,
+      4194,
+      4195,
+      4196,
+      4197,
+      4198
+    ],
+    "Cast": [
+      4161,
+      18543,
+      32006,
+      8870,
+      2652,
+      10229,
+      9302,
+      25784,
+      32007,
+      32008,
+      20037,
+      32009,
+      6812,
+      1040,
+      10771,
+      25292,
+      32010,
+      2533,
+      28088,
+      32011,
+      32012,
+      32013,
+      32014,
+      32015,
+      32016,
+      32017,
+      32018,
+      2535,
+      17483,
+      32019,
+      23640,
+      32020,
+      32021,
+      32022,
+      32023,
+      32024,
+      32025,
+      28558,
+      8993,
+      32026
+    ],
+    "Directors": [
+      18575,
+      18574
+    ],
+    "DiaryWatchedDate": "2025-06-03"
+  },
+  {
+    "Title": "Violent",
+    "TitleOriginal": "Violent",
+    "Language": "Norwegian",
+    "RatingSelf": 3.5,
+    "RatingLetterboxd": 3.86,
+    "Minutes": 102,
+    "Watched": 2888,
+    "Fans": 75,
+    "Likes": 1057,
+    "Id": "8Djw",
+    "Poster": "/1ZMWrTpkJ5dZhej7mVEuMeSkoxK.jpg",
+    "Year": 2014,
+    "When": "2015-01-10",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "CA",
+      "NO"
+    ],
+    "Countries_Production": [
+      "CA",
+      "NO"
+    ],
+    "Genres": [
+      "Drama"
+    ],
+    "Studios": [
+      2044,
+      2045
+    ],
+    "Themes": [],
+    "Nanogenres": [],
+    "Cast": [
+      32027,
+      32028,
+      32029,
+      32030,
+      32031,
+      32032,
+      32033
+    ],
+    "Directors": [
+      32034
+    ],
+    "DiaryWatchedDate": "2025-06-04"
+  },
+  {
+    "Title": "Sorry to Bother You",
+    "TitleOriginal": "Sorry to Bother You",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.73,
+    "Minutes": 112,
+    "Watched": 653671,
+    "Fans": 5646,
+    "Likes": 201683,
+    "Id": "f21E",
+    "Poster": "/peTl1V04E9ppvhgvNmSX0r2ALqO.jpg",
+    "Year": 2018,
+    "When": "2018-07-06",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "US"
+    ],
+    "Countries_Production": [
+      "US"
+    ],
+    "Genres": [
+      "Fantasy",
+      "Science Fiction",
+      "Comedy"
+    ],
+    "Studios": [
+      176,
+      7,
+      2046,
+      2047,
+      2048
+    ],
+    "Themes": [
+      0,
+      13,
+      1,
+      25,
+      24,
+      22,
+      54
+    ],
+    "Nanogenres": [
+      623,
+      1417,
+      2015,
+      5,
+      2012,
+      3321,
+      1159,
+      3343,
+      3627,
+      4098
+    ],
+    "Cast": [
+      893,
+      34,
+      32035,
+      32036,
+      17311,
+      9246,
+      32037,
+      12441,
+      15063,
+      10881,
+      32038,
+      8277,
+      23771,
+      1847,
+      4847,
+      3564,
+      32039,
+      32040,
+      32041,
+      32042,
+      32043,
+      32044,
+      32045,
+      32046,
+      32047,
+      11142,
+      32048,
+      32049,
+      32050,
+      32051,
+      32052,
+      32053,
+      32054,
+      32055,
+      32056,
+      32057,
+      32058,
+      32059,
+      32060,
+      32061,
+      32062,
+      32063,
+      32064,
+      32065,
+      32066,
+      32067,
+      32068,
+      32069
+    ],
+    "Directors": [
+      32070
+    ],
+    "DiaryWatchedDate": "2025-06-06"
+  },
+  {
+    "Title": "Wendy and Lucy",
+    "TitleOriginal": "Wendy and Lucy",
+    "Language": "English",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.90,
+    "Minutes": 80,
+    "Watched": 59498,
+    "Fans": 454,
+    "Likes": 18440,
+    "Id": "1Zx2",
+    "Poster": "/cSe2AuFL6hL7EYd3jFAdsPtoaqS.jpg",
+    "Year": 2008,
+    "When": "2008-12-10",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "US"
+    ],
+    "Countries_Production": [
+      "US"
+    ],
+    "Genres": [
+      "Drama"
+    ],
+    "Studios": [
+      2049,
+      1831,
+      2050
+    ],
+    "Themes": [
+      5,
+      0,
+      49,
+      48,
+      15,
+      85,
+      2
+    ],
+    "Nanogenres": [
+      4190,
+      1534,
+      1213,
+      3017,
+      4199,
+      4200,
+      4201,
+      3580,
+      1876,
+      1539
+    ],
+    "Cast": [
+      16221,
+      32071,
+      32072,
+      23327,
+      32073,
+      32074,
+      32075,
+      32076,
+      32077,
+      32078,
+      32079,
+      13800,
+      32080,
+      27020,
+      32081,
+      32082,
+      32083,
+      8099,
+      32084,
+      32085,
+      32086,
+      32087,
+      32088,
+      14753,
+      32089,
+      32090,
+      12989,
+      32091,
+      28075,
+      32092,
+      32093,
+      32094,
+      32095,
+      28643,
+      32096
+    ],
+    "Directors": [
+      30179
+    ],
+    "DiaryWatchedDate": "2025-06-07"
+  },
+  {
+    "Title": "Eat",
+    "TitleOriginal": "Mange",
+    "Language": "French",
+    "RatingSelf": 2.5,
+    "RatingLetterboxd": 3.05,
+    "Minutes": 84,
+    "Watched": 1655,
+    "Fans": 3,
+    "Likes": 286,
+    "Id": "g1JC",
+    "Poster": "/ykAnbdSYQrtHoPZI2qIbfz7a6kE.jpg",
+    "Year": 2012,
+    "When": "2012-07-10",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "FR"
+    ],
+    "Countries_Production": [
+      "FR"
+    ],
+    "Genres": [
+      "TV Movie",
+      "Thriller",
+      "Drama"
+    ],
+    "Studios": [
+      2051
+    ],
+    "Themes": [],
+    "Nanogenres": [],
+    "Cast": [
+      32097,
+      32098,
+      32099,
+      32100,
+      22297,
+      32101,
+      32102,
+      32103,
+      32104,
+      22324,
+      24430,
+      32105
+    ],
+    "Directors": [
+      22324,
+      24430
+    ],
+    "DiaryWatchedDate": "2025-06-08"
+  },
+  {
+    "Title": "Cutie Honey",
+    "TitleOriginal": "\u30AD\u30E5\u30FC\u30C6\u30A3\u30FC\u30CF\u30CB\u30FC",
+    "Language": "Japanese",
+    "RatingSelf": 4.5,
+    "RatingLetterboxd": 3.78,
+    "Minutes": 93,
+    "Watched": 12987,
+    "Fans": 227,
+    "Likes": 5889,
+    "Id": "1CHe",
+    "Poster": "/6WoyOCZUuCovSO6Q4nj1C4cmNyz.jpg",
+    "Year": 2004,
+    "When": "2004-05-29",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "JP"
+    ],
+    "Countries_Production": [
+      "JP"
+    ],
+    "Genres": [
+      "Action"
+    ],
+    "Studios": [
+      2052,
+      589,
+      2053,
+      258,
+      2054,
+      130,
+      2055,
+      2056,
+      2057
+    ],
+    "Themes": [
+      0,
+      75
+    ],
+    "Nanogenres": [
+      2659,
+      3998,
+      921,
+      679,
+      3772,
+      1140,
+      4202,
+      728,
+      2556,
+      1588
+    ],
+    "Cast": [
+      32106,
+      32107,
+      30353,
+      32108,
+      9372,
+      32109,
+      32110,
+      32111,
+      32112,
+      32113,
+      30361,
+      32114,
+      32115,
+      32116,
+      32117,
+      32118,
+      32119,
+      32120,
+      32121,
+      32122,
+      7697,
+      32123,
+      32124,
+      32125,
+      32126,
+      32127,
+      32128,
+      32129,
+      32130,
+      32131,
+      32132,
+      32133,
+      7686
+    ],
+    "Directors": [
+      32132
+    ],
+    "DiaryWatchedDate": "2025-06-08"
+  },
+  {
+    "Title": "The Gold Diggers",
+    "TitleOriginal": "The Gold Diggers",
+    "Language": "English",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.41,
+    "Minutes": 89,
+    "Watched": 1424,
+    "Fans": 5,
+    "Likes": 286,
+    "Id": "tgc",
+    "Poster": "/vT2jIgvexGUU0H6AvcOg9JL5RhE.jpg",
+    "Year": 1983,
+    "When": "1983-01-01",
+    "BlackAndWhite": true,
+    "Countries_Origin": [
+      "GB",
+      "US"
+    ],
+    "Countries_Production": [
+      "GB",
+      "US"
+    ],
+    "Genres": [
+      "Drama",
+      "Music",
+      "Science Fiction"
+    ],
+    "Studios": [],
+    "Themes": [],
+    "Nanogenres": [],
+    "Cast": [
+      5989,
+      32134,
+      32135,
+      32136,
+      5259,
+      32137,
+      5256,
+      32138,
+      32139,
+      32140,
+      32141,
+      32142,
+      32143,
+      32144,
+      32145,
+      5258,
+      32146,
+      32147,
+      32148,
+      32149,
+      32150,
+      32151,
+      32152,
+      32153,
+      32154,
+      32155,
+      32156
+    ],
+    "Directors": [
+      5272
+    ],
+    "DiaryWatchedDate": "2025-06-09"
   }
 ]

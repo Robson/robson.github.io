@@ -12263,6 +12263,90 @@ var data = {
       "Title": "Terrafilm",
       "Poster": "",
       "OriginCountry": "SE"
+    },
+    {
+      "Id": 60749,
+      "Title": "Media Darling",
+      "Poster": "",
+      "OriginCountry": ""
+    },
+    {
+      "Id": 117631,
+      "Title": "Amazing Factory",
+      "Poster": "/nH4H2xfO1wqPpDxyS7ADfoR3vPh.png",
+      "OriginCountry": "CA"
+    },
+    {
+      "Id": 79426,
+      "Title": "MACRO",
+      "Poster": "/8aEC7xem9YwHNCDojSFEPQgoFC3.png",
+      "OriginCountry": "US"
+    },
+    {
+      "Id": 103291,
+      "Title": "MNM Creative",
+      "Poster": "",
+      "OriginCountry": "US"
+    },
+    {
+      "Id": 103292,
+      "Title": "The Space Program",
+      "Poster": "",
+      "OriginCountry": "US"
+    },
+    {
+      "Id": 1360,
+      "Title": "Glass Eye Pix",
+      "Poster": "/lqVvISZwlXQpEl27erWszcPdPsR.png",
+      "OriginCountry": "US"
+    },
+    {
+      "Id": 31301,
+      "Title": "Field Guide Films",
+      "Poster": "",
+      "OriginCountry": "US"
+    },
+    {
+      "Id": 33205,
+      "Title": "La Parisienne d'Images",
+      "Poster": "",
+      "OriginCountry": ""
+    },
+    {
+      "Id": 78657,
+      "Title": "Towani",
+      "Poster": "",
+      "OriginCountry": "JP"
+    },
+    {
+      "Id": 11725,
+      "Title": "VAP",
+      "Poster": "/3OZxd70DZ1LbVelmZK8mR5FIXxO.png",
+      "OriginCountry": "JP"
+    },
+    {
+      "Id": 528,
+      "Title": "Bandai Visual",
+      "Poster": "/fO3Aof3lXQclYpBByYC8aneTXwA.png",
+      "OriginCountry": "JP"
+    },
+    {
+      "Id": 123663,
+      "Title": "Tokyu Recreation",
+      "Poster": "",
+      "OriginCountry": "JP"
+    },
+    {
+      "Id": 178374,
+      "Title": "LATERNA",
+      "Poster": "",
+      "OriginCountry": "JP"
+    },
+    {
+      "Id": 3627,
+      "Title": "Warner Bros. Japan",
+      "Poster": "/pBfPYpzg5o3EoBPfrFKzTRi8MGr.png",
+      "OriginCountry": "JP"
     }
   ],
   "Themes": [
@@ -29580,9 +29664,53 @@ var data = {
     {
       "Url": "cry-poignant-journey",
       "Text": "Cry, Poignant, Journey"
+    },
+    {
+      "Url": "family-loves-loving",
+      "Text": "Family, Loves, Loving"
+    },
+    {
+      "Url": "emotion-struggles-glory",
+      "Text": "Emotion, Struggles, Glory"
+    },
+    {
+      "Url": "drama-overcome-wins",
+      "Text": "Drama, Overcome, Wins"
+    },
+    {
+      "Url": "drama-subplots-future",
+      "Text": "Drama, Subplots, Future"
+    },
+    {
+      "Url": "humorous-poignant-real-life",
+      "Text": "Humorous, Poignant, Real-Life"
+    },
+    {
+      "Url": "relationships-intense-moving",
+      "Text": "Relationships, Intense, Moving"
+    },
+    {
+      "Url": "predictable-engaging-struggles",
+      "Text": "Predictable, Engaging, Struggles"
+    },
+    {
+      "Url": "tear-jerker-depressing-suffering",
+      "Text": "Tear-Jerker, Depressing, Suffering"
+    },
+    {
+      "Url": "touching-frustrated-compassion",
+      "Text": "Touching, Frustrated, Compassion"
+    },
+    {
+      "Url": "tear-jerker-loving-sympathy",
+      "Text": "Tear-Jerker, Loving, Sympathy"
+    },
+    {
+      "Url": "dancing-cute-popular",
+      "Text": "Dancing, Cute, Popular"
     }
   ],
-  "LastUpdated": "1st June 2025",
+  "LastUpdated": "9th June 2025",
   "Username": "LaLunaLlena",
   "Backdrops": [
     {
@@ -29694,6 +29822,13 @@ var data = {
       "ImageUrl": "ctMserH8g2SeOAnCw5gFjdQF8mo.jpg",
       "FilmName": "\u003Cem\u003EBarbie\u003C/em\u003E\u003Cbr/\u003E(2023)",
       "LetterboxdId": "bCLK",
+      "Colour": null,
+      "Flags": "m"
+    },
+    {
+      "ImageUrl": "oB0KXxXuYOIc2Oq0S4Gy68Q8BXl.jpg",
+      "FilmName": "\u003Cem\u003EBattle of the Sexes\u003C/em\u003E\u003Cbr/\u003E(2017)",
+      "LetterboxdId": "cNxw",
       "Colour": null,
       "Flags": "m"
     },
@@ -29841,6 +29976,13 @@ var data = {
       "ImageUrl": "3TimUBrXMVblpnTsyg4HssGVbBv.jpg",
       "FilmName": "\u003Cem\u003ECube\u003C/em\u003E\u003Cbr/\u003E(1997)",
       "LetterboxdId": "2aoU",
+      "Colour": null,
+      "Flags": "."
+    },
+    {
+      "ImageUrl": "5RKzJcD1TlXSfyznyQWSZh18quI.jpg/AeprNrHI65IRv7uZwaFaaWfInLO.jpg/pp4BoJQRV4S2Vb947EFbbpg8ijf.jpg/lrjMpc4fyoQyEBVsHZ9GhvKvotP.jpg",
+      "FilmName": "\u003Cem\u003E\u30AD\u30E5\u30FC\u30C6\u30A3\u30FC\u30CF\u30CB\u30FC\u003C/em\u003E\u003Cbr\u003E(\u0026quot;\u003Cem\u003ECutie Honey\u003C/em\u003E\u0026quot;)\u003Cbr/\u003E(2004)",
+      "LetterboxdId": "1CHe",
       "Colour": null,
       "Flags": "."
     },
@@ -30370,7 +30512,7 @@ var data = {
       "Flags": "."
     },
     {
-      "ImageUrl": "sj2aZDetPE8RoOCAm5QJitCNfLr.jpg/iy60XkLC2S83hhujCQfltJDEQCN.jpg/YOZPF5Hq0RcyUh7lwun7ekEvru.jpg",
+      "ImageUrl": "7wd6JSa6WGdlle9wBPIsDp2vzWO.jpg",
       "FilmName": "\u003Cem\u003EPersona\u003C/em\u003E\u003Cbr/\u003E(1966)",
       "LetterboxdId": "29B4",
       "Colour": null,
@@ -30520,6 +30662,13 @@ var data = {
       "ImageUrl": "9aGrZMpo4aYZAJPF37xNLWKjyDc.jpg/3Up2M7WyuygnIDRhNb8XA1pcs0W.jpg/ea74KPH37cH1M2T1SwIIGdtQ3F2.jpg",
       "FilmName": "\u003Cem\u003ESometimes I Think About Dying\u003C/em\u003E\u003Cbr/\u003E(2023)",
       "LetterboxdId": "xGlg",
+      "Colour": null,
+      "Flags": "."
+    },
+    {
+      "ImageUrl": "lHecBdFRnW2hh8Qn3wz0vrPIqw2.jpg",
+      "FilmName": "\u003Cem\u003ESorry to Bother You\u003C/em\u003E\u003Cbr/\u003E(2018)",
+      "LetterboxdId": "f21E",
       "Colour": null,
       "Flags": "."
     },
@@ -30942,145 +31091,7 @@ var data = {
       "ListName": "Recently Watched",
       "Entries": [
         {
-          "Order": 40,
-          "FilmName": "Hellraiser",
-          "FilmNameOriginal": "Hellraiser",
-          "Year": 1987,
-          "LetterboxdIdentifier": "1Zpi",
-          "Language": "English",
-          "PosterUrl": "/3Z0oPHyLnk3Vx6ZMC1MiVwIrKhO.jpg",
-          "RatingSelf": 3,
-          "WatchedDate": "2025-04-22",
-          "IsRewatch": false,
-          "Overview": "Hedonist Frank Cotton finds a mysterious puzzle box that summons the Cenobites, who open the doors to a dominion where pain and pleasure are indivisible.",
-          "Genres": [
-            "Horror",
-            "Thriller",
-            "Fantasy"
-          ],
-          "Protagonist": "Clare Higgins",
-          "Director": "Clive Barker"
-        },
-        {
           "Order": 39,
-          "FilmName": "Companion",
-          "FilmNameOriginal": "Companion",
-          "Year": 2025,
-          "LetterboxdIdentifier": "F04o",
-          "Language": "English",
-          "PosterUrl": "/oCoTgC3UyWGfyQ9thE10ulWR7bn.jpg",
-          "RatingSelf": 3,
-          "WatchedDate": "2025-04-23",
-          "IsRewatch": false,
-          "Overview": "During a weekend getaway at a secluded lakeside estate, a group of friends finds themselves entangled in a web of secrets, deception, and advanced technology. As tensions rise and loyalties are tested, they uncover unsettling truths about themselves and the world around them.",
-          "Genres": [
-            "Horror",
-            "Science Fiction",
-            "Thriller"
-          ],
-          "Protagonist": "Sophie Thatcher",
-          "Director": "Drew Hancock"
-        },
-        {
-          "Order": 39,
-          "FilmName": "Tinker Bell",
-          "FilmNameOriginal": "Tinker Bell",
-          "Year": 2008,
-          "LetterboxdIdentifier": "1QEy",
-          "Language": "English",
-          "PosterUrl": "/3Ma0r1n8kfH7UaQMS7bJ9KsYUjT.jpg",
-          "RatingSelf": 0,
-          "WatchedDate": "2025-04-23",
-          "IsRewatch": false,
-          "Overview": "Journey into the secret world of Pixie Hollow and hear Tinker Bell speak for the very first time as the astonishing story of Disney's most famous fairy is finally revealed in the all-new motion picture \u0022Tinker Bell.\u0022",
-          "Genres": [
-            "Animation",
-            "Family",
-            "Adventure",
-            "Fantasy"
-          ],
-          "Protagonist": "Mae Whitman",
-          "Director": "Bradley Raymond"
-        },
-        {
-          "Order": 37,
-          "FilmName": "Check to the Queen",
-          "FilmNameOriginal": "Scacco alla regina",
-          "Year": 1969,
-          "LetterboxdIdentifier": "3NUs",
-          "Language": "Italian",
-          "PosterUrl": "/cTyVlPxPZtRidtgDj3W8RW5Kiak.jpg",
-          "RatingSelf": 4,
-          "WatchedDate": "2025-04-25",
-          "IsRewatch": false,
-          "Overview": "Silvia is young, beautiful and rich. When her husband goes on a business trip, she starts working as a secretary for Margaret, a famous film star. Margaret appears to have no problems giving her what she wants and turns her into a sex slave- little by little, she subjects herself to increasingly serious humiliations in a masochistic relationship.",
-          "Genres": [
-            "Romance",
-            "Drama"
-          ],
-          "Protagonist": "Hayd\u00E9e Politoff",
-          "Director": "Pasquale Festa Campanile"
-        },
-        {
-          "Order": 35,
-          "FilmName": "Diabolique",
-          "FilmNameOriginal": "Les Diaboliques",
-          "Year": 1955,
-          "LetterboxdIdentifier": "29we",
-          "Language": "French",
-          "PosterUrl": "/jE8ygUYBUGyUcM4sR6iinPqYeDK.jpg",
-          "RatingSelf": 4.5,
-          "WatchedDate": "2025-04-27",
-          "IsRewatch": false,
-          "Overview": "The cruel and abusive headmaster of a boarding school, Michel Delassalle, is murdered by an unlikely duo -- his meek wife and the mistress he brazenly flaunts. The women become increasingly unhinged by a series of odd occurrences after Delassalle's corpse mysteriously disappears.",
-          "Genres": [
-            "Horror",
-            "Thriller",
-            "Mystery"
-          ],
-          "Protagonist": "V\u00E9ra Clouzot",
-          "Director": "Henri-Georges Clouzot"
-        },
-        {
-          "Order": 35,
-          "FilmName": "Imitation of Life",
-          "FilmNameOriginal": "Imitation of Life",
-          "Year": 1934,
-          "LetterboxdIdentifier": "JyG",
-          "Language": "English",
-          "PosterUrl": "/nA8pXV1C2WDJrGQWHwqNUW6RG5i.jpg",
-          "RatingSelf": 0,
-          "WatchedDate": "2025-04-27",
-          "IsRewatch": false,
-          "Overview": "A struggling widow and her daughter take in a black housekeeper and her fair-skinned daughter. The two women start a successful business but face familial, identity, and racial issues along the way.",
-          "Genres": [
-            "Drama",
-            "Romance"
-          ],
-          "Protagonist": "Claudette Colbert",
-          "Director": "John M. Stahl"
-        },
-        {
-          "Order": 32,
-          "FilmName": "Desert Hearts",
-          "FilmNameOriginal": "Desert Hearts",
-          "Year": 1985,
-          "LetterboxdIdentifier": "2aFc",
-          "Language": "English",
-          "PosterUrl": "/klAHoWOZgL8sR74Tnl7K7z4Lziq.jpg",
-          "RatingSelf": 3.5,
-          "WatchedDate": "2025-04-30",
-          "IsRewatch": false,
-          "Overview": "While waiting for her divorce papers, a repressed literature professor finds herself unexpectedly attracted by a carefree, spirited young woman named Cay.",
-          "Genres": [
-            "Drama",
-            "Romance"
-          ],
-          "Protagonist": "Helen Shaver",
-          "Director": "Donna Deitch"
-        },
-        {
-          "Order": 31,
           "FilmName": "The Lavender Hill Mob",
           "FilmNameOriginal": "The Lavender Hill Mob",
           "Year": 1951,
@@ -31099,7 +31110,7 @@ var data = {
           "Director": "Charles Crichton"
         },
         {
-          "Order": 30,
+          "Order": 38,
           "FilmName": "0.5 mm",
           "FilmNameOriginal": "0.5\u30DF\u30EA",
           "Year": 2014,
@@ -31117,7 +31128,7 @@ var data = {
           "Director": "Momoko Ando"
         },
         {
-          "Order": 29,
+          "Order": 37,
           "FilmName": "Shayda",
           "FilmNameOriginal": "Shayda",
           "Year": 2023,
@@ -31135,7 +31146,7 @@ var data = {
           "Director": "Noora Niasari"
         },
         {
-          "Order": 28,
+          "Order": 36,
           "FilmName": "Picnic at Hanging Rock",
           "FilmNameOriginal": "Picnic at Hanging Rock",
           "Year": 1975,
@@ -31154,7 +31165,7 @@ var data = {
           "Director": "Peter Weir"
         },
         {
-          "Order": 26,
+          "Order": 34,
           "FilmName": "Ayka",
           "FilmNameOriginal": "\u0410\u0439\u043A\u0430",
           "Year": 2018,
@@ -31172,7 +31183,25 @@ var data = {
           "Director": "Sergei Dvortsevoy"
         },
         {
-          "Order": 25,
+          "Order": 33,
+          "FilmName": "Lick the Star",
+          "FilmNameOriginal": "Lick the Star",
+          "Year": 1998,
+          "LetterboxdIdentifier": "3f8Y",
+          "Language": "English",
+          "PosterUrl": "/gyXGawmhig0gReZN1sIXS5w1sz5.jpg",
+          "RatingSelf": 3,
+          "WatchedDate": "2025-05-07",
+          "IsRewatch": false,
+          "Overview": "A clique of school girls devise a secret plan that they code-name \u0022Lick the Star\u0022.",
+          "Genres": [
+            "Drama"
+          ],
+          "Protagonist": "Christina Turley",
+          "Director": "Sofia Coppola"
+        },
+        {
+          "Order": 33,
           "FilmName": "Bye Bye Blue Bird",
           "FilmNameOriginal": "Bye Bye Blue Bird",
           "Year": 1999,
@@ -31191,25 +31220,7 @@ var data = {
           "Director": "Katrin Ottarsd\u00F3ttir"
         },
         {
-          "Order": 25,
-          "FilmName": "Lick the Star",
-          "FilmNameOriginal": "Lick the Star",
-          "Year": 1998,
-          "LetterboxdIdentifier": "3f8Y",
-          "Language": "English",
-          "PosterUrl": "/gyXGawmhig0gReZN1sIXS5w1sz5.jpg",
-          "RatingSelf": 3,
-          "WatchedDate": "2025-05-07",
-          "IsRewatch": false,
-          "Overview": "A clique of school girls devise a secret plan that they code-name \u0022Lick the Star\u0022.",
-          "Genres": [
-            "Drama"
-          ],
-          "Protagonist": "Christina Turley",
-          "Director": "Sofia Coppola"
-        },
-        {
-          "Order": 23,
+          "Order": 31,
           "FilmName": "The Stepford Wives",
           "FilmNameOriginal": "The Stepford Wives",
           "Year": 1975,
@@ -31230,7 +31241,7 @@ var data = {
           "Director": "Bryan Forbes"
         },
         {
-          "Order": 22,
+          "Order": 30,
           "FilmName": "In My Skin",
           "FilmNameOriginal": "Dans ma peau",
           "Year": 2002,
@@ -31249,7 +31260,7 @@ var data = {
           "Director": "Marina de Van"
         },
         {
-          "Order": 17,
+          "Order": 25,
           "FilmName": "The Nightingale",
           "FilmNameOriginal": "The Nightingale",
           "Year": 2018,
@@ -31269,7 +31280,7 @@ var data = {
           "Director": "Jennifer Kent"
         },
         {
-          "Order": 15,
+          "Order": 23,
           "FilmName": "Mami Wata",
           "FilmNameOriginal": "Mami Wata",
           "Year": 2023,
@@ -31289,7 +31300,7 @@ var data = {
           "Director": "C.J. 'Fiery' Obasi"
         },
         {
-          "Order": 13,
+          "Order": 21,
           "FilmName": "The Incredibly True Adventure of Two Girls in Love",
           "FilmNameOriginal": "The Incredibly True Adventure of Two Girls in Love",
           "Year": 1995,
@@ -31309,7 +31320,7 @@ var data = {
           "Director": "Maria Maggenti"
         },
         {
-          "Order": 13,
+          "Order": 21,
           "FilmName": "The Headless Woman",
           "FilmNameOriginal": "La mujer sin cabeza",
           "Year": 2008,
@@ -31329,7 +31340,7 @@ var data = {
           "Director": "Lucrecia Martel"
         },
         {
-          "Order": 11,
+          "Order": 19,
           "FilmName": "Goodbye Julia",
           "FilmNameOriginal": "\u0648\u062F\u0627\u0639\u064B\u0627 \u062C\u0648\u0644\u064A\u0627",
           "Year": 2023,
@@ -31347,7 +31358,7 @@ var data = {
           "Director": "Mohamed Kordofani"
         },
         {
-          "Order": 9,
+          "Order": 17,
           "FilmName": "A Real Young Girl",
           "FilmNameOriginal": "Une vraie jeune fille",
           "Year": 1976,
@@ -31365,7 +31376,7 @@ var data = {
           "Director": "Catherine Breillat"
         },
         {
-          "Order": 8,
+          "Order": 16,
           "FilmName": "Angela",
           "FilmNameOriginal": "Angela",
           "Year": 1995,
@@ -31383,7 +31394,7 @@ var data = {
           "Director": "Rebecca Miller"
         },
         {
-          "Order": 6,
+          "Order": 14,
           "FilmName": "100 Yen Love",
           "FilmNameOriginal": "\u767E\u5186\u306E\u604B",
           "Year": 2014,
@@ -31403,7 +31414,7 @@ var data = {
           "Director": "Masaharu Take"
         },
         {
-          "Order": 5,
+          "Order": 13,
           "FilmName": "Fungi: The Web of Life",
           "FilmNameOriginal": "Fungi: The Web of Life",
           "Year": 2023,
@@ -31421,7 +31432,7 @@ var data = {
           "Director": "Gisela Kaufmann, Joseph Nizeti"
         },
         {
-          "Order": 4,
+          "Order": 12,
           "FilmName": "Blackbird Blackbird Blackberry",
           "FilmNameOriginal": "\u10E8\u10D0\u10E8\u10D5\u10D8 \u10E8\u10D0\u10E8\u10D5\u10D8 \u10DB\u10D0\u10E7\u10D5\u10D0\u10DA\u10D8",
           "Year": 2023,
@@ -31440,7 +31451,7 @@ var data = {
           "Director": "Elene Naveriani"
         },
         {
-          "Order": 3,
+          "Order": 11,
           "FilmName": "The Human Voice",
           "FilmNameOriginal": "The Human Voice",
           "Year": 2020,
@@ -31458,26 +31469,7 @@ var data = {
           "Director": "Pedro Almod\u00F3var"
         },
         {
-          "Order": 2,
-          "FilmName": "L'Inhumaine",
-          "FilmNameOriginal": "L'Inhumaine",
-          "Year": 1924,
-          "LetterboxdIdentifier": "u2A",
-          "Language": "",
-          "PosterUrl": "/od2i9ksDCEQiNZ1Uel15G3n1xlY.jpg",
-          "RatingSelf": 4.5,
-          "WatchedDate": "2025-05-30",
-          "IsRewatch": false,
-          "Overview": "A famous singer Claire Lescot, who lives on the outskirts of Paris, is courted by many men, including a maharajah, Djorah de Nopur, and a young Swedish scientist, Einar Norsen. At her lavish parties she enjoys their amorous attentions but she remains emotionally aloof and heartlessly taunts them. When she is told that Norsen has killed himself because of her, she shows no feelings. At her next concert she is booed by an audience outraged at her coldness and she decides to visit the vault in which Norsen's body lies.",
-          "Genres": [
-            "Drama",
-            "Science Fiction"
-          ],
-          "Protagonist": "Georgette Leblanc",
-          "Director": "Marcel L'Herbier"
-        },
-        {
-          "Order": 2,
+          "Order": 10,
           "FilmName": "Ballet M\u00E9canique",
           "FilmNameOriginal": "Ballet M\u00E9canique",
           "Year": 1924,
@@ -31496,7 +31488,26 @@ var data = {
           "Director": "Fernand L\u00E9ger, Dudley Murphy"
         },
         {
-          "Order": 0,
+          "Order": 10,
+          "FilmName": "L'Inhumaine",
+          "FilmNameOriginal": "L'Inhumaine",
+          "Year": 1924,
+          "LetterboxdIdentifier": "u2A",
+          "Language": "",
+          "PosterUrl": "/od2i9ksDCEQiNZ1Uel15G3n1xlY.jpg",
+          "RatingSelf": 4.5,
+          "WatchedDate": "2025-05-30",
+          "IsRewatch": false,
+          "Overview": "A famous singer Claire Lescot, who lives on the outskirts of Paris, is courted by many men, including a maharajah, Djorah de Nopur, and a young Swedish scientist, Einar Norsen. At her lavish parties she enjoys their amorous attentions but she remains emotionally aloof and heartlessly taunts them. When she is told that Norsen has killed himself because of her, she shows no feelings. At her next concert she is booed by an audience outraged at her coldness and she decides to visit the vault in which Norsen's body lies.",
+          "Genres": [
+            "Drama",
+            "Science Fiction"
+          ],
+          "Protagonist": "Georgette Leblanc",
+          "Director": "Marcel L'Herbier"
+        },
+        {
+          "Order": 8,
           "FilmName": "Girl with Hyacinths",
           "FilmNameOriginal": "Flicka och Hyacinter",
           "Year": 1950,
@@ -31513,6 +31524,140 @@ var data = {
           ],
           "Protagonist": "Eva Henning",
           "Director": "Hasse Ekman"
+        },
+        {
+          "Order": 6,
+          "FilmName": "Battle of the Sexes",
+          "FilmNameOriginal": "Battle of the Sexes",
+          "Year": 2017,
+          "LetterboxdIdentifier": "cNxw",
+          "Language": "English",
+          "PosterUrl": "/fWy0A3VojTCb0S2MKtEJjpquubF.jpg",
+          "RatingSelf": 3,
+          "WatchedDate": "2025-06-03",
+          "IsRewatch": false,
+          "Overview": "The true story of the 1973 tennis match between world number one Billie Jean King and ex-champ and serial hustler Bobby Riggs.",
+          "Genres": [
+            "Drama",
+            "Comedy",
+            "History"
+          ],
+          "Protagonist": "Emma Stone",
+          "Director": "Jonathan Dayton, Valerie Faris"
+        },
+        {
+          "Order": 5,
+          "FilmName": "Violent",
+          "FilmNameOriginal": "Violent",
+          "Year": 2014,
+          "LetterboxdIdentifier": "8Djw",
+          "Language": "Norwegian",
+          "PosterUrl": "/1ZMWrTpkJ5dZhej7mVEuMeSkoxK.jpg",
+          "RatingSelf": 3.5,
+          "WatchedDate": "2025-06-04",
+          "IsRewatch": false,
+          "Overview": "A young woman, and her last memories of the five people who loved her most, recalled while experiencing a catastrophic event.",
+          "Genres": [
+            "Drama"
+          ],
+          "Protagonist": "Dagny Backer Johnsen",
+          "Director": "Andrew Huculiak"
+        },
+        {
+          "Order": 3,
+          "FilmName": "Sorry to Bother You",
+          "FilmNameOriginal": "Sorry to Bother You",
+          "Year": 2018,
+          "LetterboxdIdentifier": "f21E",
+          "Language": "English",
+          "PosterUrl": "/peTl1V04E9ppvhgvNmSX0r2ALqO.jpg",
+          "RatingSelf": 0,
+          "WatchedDate": "2025-06-06",
+          "IsRewatch": false,
+          "Overview": "In an alternate present-day version of Oakland, black telemarketer Cassius Green discovers a magical key to professional success \u2013 which propels him into a macabre universe.",
+          "Genres": [
+            "Fantasy",
+            "Science Fiction",
+            "Comedy"
+          ],
+          "Protagonist": "LaKeith Stanfield",
+          "Director": "Boots Riley"
+        },
+        {
+          "Order": 2,
+          "FilmName": "Wendy and Lucy",
+          "FilmNameOriginal": "Wendy and Lucy",
+          "Year": 2008,
+          "LetterboxdIdentifier": "1Zx2",
+          "Language": "English",
+          "PosterUrl": "/cSe2AuFL6hL7EYd3jFAdsPtoaqS.jpg",
+          "RatingSelf": 4,
+          "WatchedDate": "2025-06-07",
+          "IsRewatch": false,
+          "Overview": "A near-penniless drifter's journey to Alaska in search of work is interrupted when she loses her dog while attempting to shoplift food for it.",
+          "Genres": [
+            "Drama"
+          ],
+          "Protagonist": "Michelle Williams",
+          "Director": "Kelly Reichardt"
+        },
+        {
+          "Order": 1,
+          "FilmName": "Eat",
+          "FilmNameOriginal": "Mange",
+          "Year": 2012,
+          "LetterboxdIdentifier": "g1JC",
+          "Language": "French",
+          "PosterUrl": "/ykAnbdSYQrtHoPZI2qIbfz7a6kE.jpg",
+          "RatingSelf": 2.5,
+          "WatchedDate": "2025-06-08",
+          "IsRewatch": false,
+          "Overview": "A woman recovering from an eating disorder re-encounters someone from her past.",
+          "Genres": [
+            "TV Movie",
+            "Thriller",
+            "Drama"
+          ],
+          "Protagonist": "Jennifer Decker",
+          "Director": "Julia Ducournau, Virgile Bramly"
+        },
+        {
+          "Order": 1,
+          "FilmName": "Cutie Honey",
+          "FilmNameOriginal": "\u30AD\u30E5\u30FC\u30C6\u30A3\u30FC\u30CF\u30CB\u30FC",
+          "Year": 2004,
+          "LetterboxdIdentifier": "1CHe",
+          "Language": "Japanese",
+          "PosterUrl": "/6WoyOCZUuCovSO6Q4nj1C4cmNyz.jpg",
+          "RatingSelf": 4.5,
+          "WatchedDate": "2025-06-08",
+          "IsRewatch": false,
+          "Overview": "When Honey's uncle gets kidnapped by the evil criminal gang known as \u0022Panther Claw,\u0022 she must use her magical powers of transformation to save him. Meanwhile the same crime group has been responsible for a number of other crime sprees across Tokyo. In the process, Honey teams up with the seemingly cold police woman Natsuko Aki and hot shot journalist Seiji Hayami as well as battle the four \u0022claws\u0022 of the Panther Claw gang to save her uncle and the rest of the city.",
+          "Genres": [
+            "Action"
+          ],
+          "Protagonist": "Eriko Sato",
+          "Director": "Hideaki Anno"
+        },
+        {
+          "Order": 0,
+          "FilmName": "The Gold Diggers",
+          "FilmNameOriginal": "The Gold Diggers",
+          "Year": 1983,
+          "LetterboxdIdentifier": "tgc",
+          "Language": "English",
+          "PosterUrl": "/vT2jIgvexGUU0H6AvcOg9JL5RhE.jpg",
+          "RatingSelf": 3,
+          "WatchedDate": "2025-06-09",
+          "IsRewatch": false,
+          "Overview": "An avant-garde examination of the relationship between women and money in society. Mixing musical, silent melodrama, and philosophical treatise into a post-punk, heady brew.",
+          "Genres": [
+            "Drama",
+            "Music",
+            "Science Fiction"
+          ],
+          "Protagonist": "Julie Christie",
+          "Director": "Sally Potter"
         }
       ]
     }
