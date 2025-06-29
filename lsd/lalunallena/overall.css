@@ -315,6 +315,11 @@ p {
     text-decoration-thickness: 2px;
 }
 
+th.ttt {
+    text-decoration: #fff underline dotted;
+    text-decoration-thickness: 2px;
+}
+
 /**** BORDERS *****/
 
 
@@ -512,6 +517,10 @@ button:active {
     margin-top: 20px;
     color: var(--secondary-colour);
     border-bottom: 1px solid var(--secondary-colour);
+}
+
+.clickable {
+    cursor: pointer;
 }
 
 /***** MOBILE *****/

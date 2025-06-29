@@ -49,13 +49,16 @@
             <option disabled>──────────</option>
             <option value="language_notenglish">Language: Not English</option>
             <option disabled>──────────</option>
+            <option value="length_long">Length: Feature Film</option>
+            <option value="length_short">Length: Short Film</option>
+            <option disabled>──────────</option>
             <option value="rating_5">Rating: 5 Stars</option>
             <option value="rating_4">Rating: 4+ Stars</option>
             <option disabled>──────────</option>
         </select>
 
         <script>
-            for (var a = 1890; a <= 2020; a += 10) {
+            for (var a = 2020; a > 1890; a -= 10) {
                 if (films.some(e => e.Year >= a && e.Year < a + 10)) {
                     d3
                         .select('#FilmFilter')
@@ -82,7 +85,7 @@
                     .append('option')
                     .attr('disabled', 'disabled')
                     .text('──────────');
-                years.sort();
+                years.sort().reverse();
                 for (var year of years) {
                     d3
                         .select('#FilmFilter')
@@ -100,10 +103,12 @@
             <span class="displayer inline" onmousedown="javascript:showFilmsPerYear()">Year</span>
             &#9670;
             <span class="displayer inline" onmousedown="javascript:showFilmsPerDecade()">Decade</span>
-            &#9670;
-            <span class="displayer inline" onmousedown="javascript:showOldestReleasedFilms()">Earliest</span>
-            &#9670;
-            <span class="displayer inline" onmousedown="javascript:showNewestReleasedFilms()">Newest</span><br>
+            <i class="links_when">
+                &#9670;
+                <span class="displayer inline" onmousedown="javascript:showOldestReleasedFilms()">Earliest</span>
+                &#9670;
+                <span class="displayer inline" onmousedown="javascript:showNewestReleasedFilms()">Newest</span><br>
+            </i>
         </i>
         <div class="title">Attributes</div>
         <div class="initially_hidden">
@@ -127,14 +132,16 @@
         <span class="displayer inline" onmousedown="javascript:showThemes()">Theme</span>
         &#9670;
         <span class="displayer inline" onmousedown="javascript:showTitles()">Title</span>
-        <div class="title">Letterboxd</div>
-        <span class="displayer inline" onmousedown="javascript:showFans()">Fans</span>
-        &#9670;
-        <span class="displayer inline" onmousedown="javascript:showLikes()">Likes</span>
-        &#9670;
-        <span class="displayer inline" onmousedown="javascript:showRatings()">Ratings</span>
-        &#9670;
-        <span class="displayer inline" onmousedown="javascript:showPopularity()">Watches</span>
+        <i class="links_letterboxd">
+            <div class="title">Letterboxd</div>
+            <span class="displayer inline" onmousedown="javascript:showFans()">Fans</span>
+            &#9670;
+            <span class="displayer inline" onmousedown="javascript:showLikes()">Likes</span>
+            &#9670;
+            <span class="displayer inline" onmousedown="javascript:showRatings()">Ratings</span>
+            &#9670;
+            <span class="displayer inline" onmousedown="javascript:showPopularity()">Watches</span>
+        </i>
         <div class="title">Peop<b onmousedown="showHidden()">l</b>e</div>
         <em class="subtitle">Director:</em>
         <span class="displayer inline" onmousedown="javascript:showDirectorsAll()">All</span>
@@ -249,6 +256,8 @@
             areFilmsFiltered = currentFilmFilter != 'all';
             d3.selectAll('.links_decade').style('display', null);
             d3.selectAll('.links_recent').style('display', null);
+            d3.selectAll('.links_when').style('display', null);
+            d3.selectAll('.links_letterboxd').style('display', null);
             var pageFunction = selectedPage ? selectedPage.name : null;
             switch (currentFilmFilter[0]) {
                 case 'all':
@@ -296,6 +305,11 @@
                             selectedPage = null;
                             lastEventTarget = null;
                     }
+                    break;
+                case 'length':
+                    films = allFilms.filter(a => currentFilmFilter[1] == 'long' ? a.Minutes >= 60 : a.Minutes < 60);
+                    d3.selectAll('.links_when').style('display', currentFilmFilter[1] == 'long' ? null : 'none');
+                    d3.selectAll('.links_letterboxd').style('display', currentFilmFilter[1] == 'long' ? null : 'none');
                     break;
             }
             var filteredBackdrops = allBackdrops.filter(a => films.some(b => b.Id == a.LetterboxdId));
@@ -732,7 +746,153 @@
             return name.split(' ').reverse().join(' ');
         }
 
+        /*
+            [isPopulation = true] use when all data is present
+            [isPopulation = false] use when the data is a sample
+        */
+        function calculateStandardDeviation(numbers, isPopulation=true) {
+            var mean = numbers.reduce((a, b) => a + b, 0) / numbers.length;
+            var diffs = numbers.map(a => (a - mean) ** 2);
+            var variance = diffs.reduce((a, b) => a + b, 0) / (numbers.length - (isPopulation ? 0 : 1));
+            return Math.sqrt(variance);
+        }
+
         // == PAGES ==
+
+        // === Special ===
+
+        function showSpecificPerson(id) {
+
+            resetView(null, null);
+            lastEventTarget = null;
+
+            var index = people.findIndex(a => a.ID == id);
+            var person = people[index];       
+
+            var listFilms = films.filter(a => a.Cast.includes(index) || a.Directors.includes(index));
+            var yearStart = Math.min(...listFilms.map(a => a.Year));
+            var yearEnd = Math.max(...listFilms.map(a => a.Year));
+            var yearSpan = Math.max(1, (yearEnd - yearStart));
+            var minutes = 0
+
+            var ratingSelfSum = 0, ratingSelfCount = 0;
+            var ratingLbSum = 0, ratingLbCount = 0;
+
+            for (var film of listFilms) {
+                minutes += film.Minutes;
+                if (film.RatingSelf > 0) {
+                    ratingSelfSum += film.RatingSelf;
+                    ratingSelfCount++;
+                }
+                if (film.RatingLetterboxd > 0) {
+                    ratingLbSum += film.RatingLetterboxd;
+                    ratingLbCount++;
+                }
+            }
+
+            $('body').append('<div class="boxes"></div>');
+            $('.boxes').append(makeBox(person.FullName, 'Name'));
+            $('.boxes:last').append(makeBox(listFilms.length, 'Films'));
+
+            createNewTable();
+
+            thead.append('<tr class="header" style="font-weight:bold"><th>Job</th><th>Title</th><th>Year</th><th>Rating</th><th class="ttt" data-tooltip="Letterboxd Rating">LB Rating</th><th class="ttt" data-tooltip="Number of times Letterboxd users have watched this film">LB Watches</th><th>Language</th></tr>');
+
+            for (var film of listFilms) {
+
+                var job = []
+                if (film.Directors.includes(index)) {
+                    job.push('Director')
+                }
+                if (film.Cast.includes(index)) {
+                    if (film.Cast[0] == index) {
+                        job.push('Protagonist');
+                    } else if (film.Cast.slice(0, 3).includes(index)) {
+                        job.push('Main Cast');
+                    } else {
+                        job.push('Cast');
+                    }
+                }
+
+                var title = film.Title;
+                if (film.TitleOriginal != film.Title) {
+                    title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
+                }
+
+                var html = '<tr>';
+                html += '<td>' + job.join(' & ') + '</td>';
+
+                var tooltip = '';
+                if (film.Poster.length > 0) {
+                    tooltip = ' ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>';
+                }
+                html += '<td class="' + tooltip + '"><a href="https://boxd.it/' + film.Id + '">' + title + '</a></td>';
+
+                html += '<td class="right">' + film.Year + '</td>';
+                var ratingDetail = '&nbsp;';
+                if (film.RatingSelf > 0) {
+                    if (film.RatingSelf % 1) {
+                        ratingDetail = '&#9670;'.repeat(Math.floor(film.RatingSelf)) + '&#11030;' + '&#9671;'.repeat(4 - Math.floor(film.RatingSelf));
+                    } else {
+                        ratingDetail = '&#9670;'.repeat(film.RatingSelf) + '&#9671;'.repeat(5 - film.RatingSelf);
+                    }
+                }
+                html += '<td>' + ratingDetail + '</td>';
+                html += '<td class="right">' + (film.RatingLetterboxd >= 0 ? film.RatingLetterboxd.toFixed(2) : 'NA') + '</td>';
+                html += '<td class="right" data-value="' + film.Watched + '">' + Math.round(film.Watched / 1000) + 'k</td>';
+                var languageDetail = '&nbsp;';
+                if (film.Language.length == 0) {
+                    languageDetail = '<em>Silent</em>';
+                } else {
+                    languageDetail = film.Language;
+                }
+                html += '<td>' + languageDetail + '</td>';
+                html += '</tr>';
+                tbody.append(html);
+            }
+
+            $.tablesorter.addParser({
+                id: 'data-value',
+                is: function () {
+                    return false;
+                },
+                format: function (s, table, cell) {
+                    return $(cell).attr('data-value') || s;
+                },
+                type: 'text'
+            });
+
+            $('#main').tablesorter({
+                widgets: ['columns'],
+                usNumberFormat: true,
+                sortReset: false,
+                sortRestart: false,
+                sortList: [[2, 0]],
+                headers: {
+                    0: { sortInitialOrder: 'asc' },
+                    2: { sortInitialOrder: 'asc' },
+                    3: { sortInitialOrder: 'asc' },
+                    4: { sortInitialOrder: 'desc', sorter: 'data-value' },
+                    5: { sortInitialOrder: 'asc' },
+                    6: { sortInitialOrder: 'asc' },
+                }
+            });
+
+            $('body').append('<div class="boxes"></div>');            
+            $('.boxes:last').append(makeBox(yearSpan + ' year' + (yearSpan == 1 ? '' : 's'), 'Span'));
+            $('.boxes:last').append(makeBox(Math.floor(minutes / 60) + '<span style="opacity:0.333">h</span> ' + (minutes % 60) + '<span style="opacity:0.333">m</span>', 'Time Watched'));
+            $('.boxes:last').append('<br/>');
+            if (ratingSelfCount > 0) {
+                $('.boxes:last').append(makeBox((ratingSelfSum / ratingSelfCount).toFixed(2), 'Averge Rating'));
+            }
+            if (ratingLbCount > 0) {
+                $('.boxes:last').append(makeBox((ratingLbSum / ratingLbCount).toFixed(2), 'Average LB Rating'));
+            }
+
+            deactivateAll();
+
+            createTooltipTriggers();
+        }
 
         // === Release Date ===
 
@@ -3020,11 +3180,17 @@
 
             $('body').append('<div class="boxes"></div>');
 
-            var rated = films.filter(a => a.RatingSelf).length;
+            var ratedSelf = films.filter(a => a.RatingSelf).length;
+            var ratedLetterboxd = films.filter(a => a.RatingSelf && a.RatingLetterboxd).length;
             var unrated = films.filter(a => !a.RatingSelf).length;
 
-            $('.boxes').append(makeBox(rated, 'Rated Films', (rated / films.length).toFixed(2) * 100 + '%', false));
+            $('.boxes').append(makeBox(ratedSelf, 'Rated Films', (ratedSelf / films.length).toFixed(2) * 100 + '%', false));
             $('.boxes').append(makeBox(unrated, 'Unrated Films', (unrated / films.length).toFixed(2) * 100 + '%', false));
+
+            var ratingSumSelf = films.filter(a => a.RatingSelf).reduce((y, z) => y + z.RatingSelf, 0)
+            var ratingSumLetterboxd = films.filter(a => a.RatingSelf && a.RatingLetterboxd).reduce((y, z) => y + z.RatingLetterboxd, 0)
+            var diff = (ratingSumSelf / ratedSelf) - (ratingSumLetterboxd / ratedLetterboxd)
+            $('.boxes').append(makeBox((ratingSumSelf / ratedSelf).toFixed(2), 'Average Rating', (diff > 0 ? '+' : '') + diff.toFixed(2) + ' vs Letterboxd users', false));
 
             var alphabetical = films.slice().sort((a, b) => a.Title > b.Title);
 
@@ -3566,8 +3732,6 @@
 
         function showPeople(job, jobSpecific, index = 'All') {
 
-            console.time('a');
-
             if (!job) {
                 [job, jobSpecific, index] = [...lastPeopleParameters]
             } else {
@@ -3676,6 +3840,7 @@
 
             var displayed = 0;
             for (var person of shuffled) {
+                console.log(person)
                 var hours = 0, minutes = 0;
                 hours = Math.floor(person.Minutes / 60);
                 minutes = person.Minutes - (hours * 60);
@@ -3690,9 +3855,9 @@
                     '<div class="item' + (person.Amount == minimum ? ' lowlight' : '') + '">' +
                     '<div class="poster ttt" data-tooltip-size="big" data-tooltip="' + tooltip.join('<br>') + '"><a target="_blank" href="' + url + '">' +
                     (person.Poster ? '<img src="https://image.tmdb.org/t/p/w220_and_h330_face/' + person.Poster + '">' : '<div class="empty">no picture available</div>') +
-                    '</a></div > ' +
-                    '<div class="details"><div class="ttt" data-tooltip="Total Time: ' + hours + 'h ' + minutes + 'm">×' + person.Amount + '</div><a target="_blank" href="' + url + '">' + person.FullName + '</a></div>' +
-                    '</a></div>');
+                    '</a></div> ' +
+                    '<div class="details"><span class="ttt" data-tooltip="Total Time: ' + hours + 'h ' + minutes + 'm">×' + person.Amount + '</span> <span class="clickable" onmousedown="showSpecificPerson(' + person.ID + ')" style="position:relative;top:-2px;">&#x1F50E;&#xFE0E;</span><div><a target="_blank" href="' + url + '">' + person.FullName + '</a>' +
+                    '</div></div>');
                 displayed++;
                 if (displayed == galleryAmount)
                     break;
@@ -3752,7 +3917,7 @@
 
                 tbody.append(
                     '<tr' + extraClass + '>' +
-                    '<td>' + dot + ' <a ' + tooltipPoster + 'target="_blank" href="' + url + '">' + sorted[a].FullName + '</a></td>' +
+                    '<td>' + dot + ' ' + '<span class="clickable" onmousedown="showSpecificPerson(' + sorted[a].ID + ')">&#x1F50E;</span>' + ' <a ' + tooltipPoster + 'target="_blank" href="' + url + '">' + sorted[a].FullName + '</a></td>' +
                     '<div><td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltip.join('<br>') + '">' + sorted[a].Amount + '</td>' +
                     '</tr>');
             }
