@@ -497,7 +497,8 @@
             $('body').append('<div class="gallery"></div>');
         }
 
-        function makeBox(number, description, tooltip = '', isYear = false) {
+        function makeBox(number, description, tooltip = '', isYear = false)
+        {
             var attribs = 'class="number"';
             if (tooltip) {
                 attribs = 'class="number ttt" data-tooltip="' + tooltip + '"';
@@ -506,6 +507,18 @@
                 '<thead><tr><th>' + description + '</th></tr></thead>' +
                 '<tbody><tr><td ' + attribs + '>' +
                 (isYear ? number : number.toLocaleString()) +
+                '</td></tr></tbody>' +
+                '</table>';
+        }
+
+        function makePosterBox(url, tooltip) {
+            var attribs = 'class="posterbox"';
+            if (tooltip) {
+                attribs = 'class="posterbox ttt" data-tooltip="' + tooltip + '"';
+            }
+            return '<table class="box">' +
+                '<tbody><tr><td ' + attribs + '>' +
+                '<img src="' + url + '">' +
                 '</td></tr></tbody>' +
                 '</table>';
         }
@@ -789,9 +802,13 @@
                     ratingLbCount++;
                 }
             }
-
+                        
+            if (person.Poster) {
+                $('body').append('<div class="boxes"></div>');
+                $('.boxes').append(makePosterBox('https://image.tmdb.org/t/p/w220_and_h330_face/' + person.Poster))
+            }
             $('body').append('<div class="boxes"></div>');
-            $('.boxes').append(makeBox(person.FullName, 'Name'));
+            $('.boxes:last').append(makeBox(person.FullName, 'Name'));
             $('.boxes:last').append(makeBox(listFilms.length, 'Films'));
 
             createNewTable();
@@ -832,12 +849,12 @@
                 var ratingDetail = '&nbsp;';
                 if (film.RatingSelf > 0) {
                     if (film.RatingSelf % 1) {
-                        ratingDetail = '&#9670;'.repeat(Math.floor(film.RatingSelf)) + '&#11030;' + '&#9671;'.repeat(4 - Math.floor(film.RatingSelf));
+                        ratingDetail = '&#9670;'.repeat(Math.floor(film.RatingSelf)) + '&#11030;';
                     } else {
-                        ratingDetail = '&#9670;'.repeat(film.RatingSelf) + '&#9671;'.repeat(5 - film.RatingSelf);
+                        ratingDetail = '&#9670;'.repeat(film.RatingSelf);
                     }
                 }
-                html += '<td>' + ratingDetail + '</td>';
+                html += '<td data-value="' + (film.RatingSelf || 0) + '">' + ratingDetail + '</td>';
                 html += '<td class="right">' + (film.RatingLetterboxd >= 0 ? film.RatingLetterboxd.toFixed(2) : 'NA') + '</td>';
                 html += '<td class="right" data-value="' + film.Watched + '">' + Math.round(film.Watched / 1000) + 'k</td>';
                 var languageDetail = '&nbsp;';
@@ -870,10 +887,11 @@
                 sortList: [[2, 0]],
                 headers: {
                     0: { sortInitialOrder: 'asc' },
-                    2: { sortInitialOrder: 'asc' },
-                    3: { sortInitialOrder: 'asc' },
-                    4: { sortInitialOrder: 'desc', sorter: 'data-value' },
-                    5: { sortInitialOrder: 'asc' },
+                    1: { sortInitialOrder: 'asc' },
+                    2: { sortInitialOrder: 'desc' },
+                    3: { sortInitialOrder: 'desc', sorter: 'data-value' },
+                    4: { sortInitialOrder: 'desc' },
+                    5: { sortInitialOrder: 'desc', sorter: 'data-value' },
                     6: { sortInitialOrder: 'asc' },
                 }
             });
@@ -1502,7 +1520,7 @@
             var filmCount = films.filter(a => a.BlackAndWhite).length;
 
             $('body').append('<div class="boxes"></div>');
-            $('.boxes').append(makeBox(filmCount, 'Watched Black & White Films'));
+            $('.boxes').append(makeBox(filmCount, 'Watched Black & White Films', (filmCount / films.length * 100).toFixed(2) + '%'));
 
             createGallery();
             var gallery = $('.gallery');
