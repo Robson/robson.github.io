@@ -2,7 +2,7 @@
 
 ## Explanation
 
-This is my site, where I have live versions of all my projects.
+This is my site, where I have live versions of all my projects. 
 
 ## Projects
 <p>
