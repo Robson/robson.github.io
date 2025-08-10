@@ -3252,6 +3252,14 @@
 
             resetView(showFans, $(event.target));
 
+            var count = 0, sum = 0
+            for (var film of films) {
+                count++;
+                sum += film.Fans;
+            }
+            $('body').append('<div class="boxes"></div>');
+            $('.boxes').last().append(makeBox(formatNumber(Math.round(sum / count)), 'Average Number of Fans Per Film', 'Average number of fans for all watched films'));
+
             createGallery();
             var gallery = $('.gallery');
 
@@ -3292,6 +3300,14 @@
 
             resetView(showLikes, $(event.target));
 
+            var count = 0, sum = 0
+            for (var film of films) {
+                count++;
+                sum += film.Likes;
+            }
+            $('body').append('<div class="boxes"></div>');
+            $('.boxes').last().append(makeBox(formatNumber(Math.round(sum / count)), 'Average Likes Per Film', 'Average number of likes for all watched films'));
+
             createGallery();
             var gallery = $('.gallery');
 
@@ -3327,6 +3343,16 @@
         function showRatings() {
 
             resetView(showRatings, $(event.target));
+
+            var count = 0, sum = 0
+            for (var film of films) {
+                if (film.RatingLetterboxd > 0) {
+                    count++;
+                    sum += film.RatingLetterboxd;
+                }
+            }
+            $('body').append('<div class="boxes"></div>');
+            $('.boxes').last().append(makeBox((sum / count).toFixed(2), 'Average Letterboxd Rating', 'Average rating of all watched films by Letterboxd osers'));
 
             var filmsHighestRated = films.slice().filter(a => a.Minutes >= 60).sort((a, b) => a.Title > b.Title).sort((a, b) => b.RatingLetterboxd - a.RatingLetterboxd).map(a => a.Id).slice(0, galleryAmount)
             var filmsLowestRated = films.slice().filter(a => a.Minutes >= 60).filter(a => a.RatingLetterboxd > 0).sort((a, b) => a.Title > b.Title).sort((a, b) => a.RatingLetterboxd - b.RatingLetterboxd).map(a => a.Id).slice(0, galleryAmount)
@@ -3431,6 +3457,15 @@
         function showPopularity() {
 
             resetView(showPopularity, $(event.target));
+
+            var count = 0, sum = 0
+            for (var film of films) {
+                count++;
+                sum += film.Watched;
+            }
+            $('body').append('<div class="boxes"></div>');
+            $('.boxes').last().append(makeBox(formatNumber(sum / count), 'Average Watches Per Film', 'Average number of watches by Letterboxd users for all watched films'));
+
             createGallery();
             var gallery = $('.gallery');
 
