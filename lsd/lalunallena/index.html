@@ -780,7 +780,7 @@
             lastEventTarget = null;
 
             var index = people.findIndex(a => a.ID == id);
-            var person = people[index];       
+            var person = people[index];
 
             var listFilms = films.filter(a => a.Cast.includes(index) || a.Directors.includes(index));
             var yearStart = Math.min(...listFilms.map(a => a.Year));
@@ -802,7 +802,7 @@
                     ratingLbCount++;
                 }
             }
-                        
+
             if (person.Poster) {
                 $('body').append('<div class="boxes"></div>');
                 $('.boxes').append(makePosterBox('https://image.tmdb.org/t/p/w220_and_h330_face/' + person.Poster))
@@ -896,7 +896,7 @@
                 }
             });
 
-            $('body').append('<div class="boxes"></div>');            
+            $('body').append('<div class="boxes"></div>');
             $('.boxes:last').append(makeBox(yearSpan + ' year' + (yearSpan == 1 ? '' : 's'), 'Span'));
             $('.boxes:last').append(makeBox(Math.floor(minutes / 60) + '<span style="opacity:0.333">h</span> ' + (minutes % 60) + '<span style="opacity:0.333">m</span>', 'Time Watched'));
             $('.boxes:last').append('<br/>');
@@ -938,9 +938,14 @@
             for (var year = 1870; year <= new Date().getFullYear(); year++) {
                 filmsWatchedPerYear[year] = 0
             }
-            for (var film of films) {
+            var filmIndexes = []
+            for (var index in films) {
+                var film = films[index]
                 if (film.Year > 0) {
                     filmsWatchedPerYear[film.Year]++
+                    if (!filmIndexes[film.Year])
+                        filmIndexes[film.Year] = []
+                    filmIndexes[film.Year].push(index)
                     yearCount++
                     yearSum += film.Year
                     yearList.push(film.Year)
@@ -1000,7 +1005,8 @@
                             } else {
                                 var hasFilms = filmsWatchedPerYear[a + b] > 0;
                                 if (hasFilms) {
-                                    output += '<td style="color: #ddd">' + (a + b) + '</td>';
+                                    var tooltip = makeFilmListTooltip(filmIndexes[a+b]);
+                                    output += '<td style="color: #ddd" class="ttt tttsubtle" data-tooltip-size="big" data-tooltip="' + tooltip.join('<br>') + '">' + (a + b) + '</td>';
                                 } else {
                                     output += '<td><a target="_blank" href="https://letterboxd.com/films/popular/year/' + (a + b) + '/size/large/">' + (a + b) + '</a></td>';
                                 }
@@ -2962,7 +2968,7 @@
             createNewTable();
 
             thead.append('<tr class="topheader"><th colspan="3">First Character of Title</th></tr>');
-            thead.append('<tr class="bottomheader"><th>Character</th><th>Amount</th><th>&#x25AC;</th></tr>');
+            thead.append('<tr class="bottomheader"><th>Character</th><th>#</th><th>&#x25AC;</th></tr>');
 
             var maxCharacters = 0;
             var characters = [];
@@ -2972,25 +2978,31 @@
                 characters[letter] = 0;
             }
 
-            for (var film in films) {
-                var start = films[film].Title.substr(0, 1).toLowerCase();
+            var filmIndexes = {}
+            for (var index in films) {
+                var film = films[index];
+                var start = film.Title.substr(0, 1).toLowerCase();
                 if (start >= '0' && start <= '9') {
                     start = '[Digit]';
-                } else if (start >= 'a' && start <= 'z') {
-
-                } else {
+                } else if (start < 'a' || start > 'z') {
                     start = '[Special]'
                 }
                 characters[start]++;
                 maxCharacters = Math.max(maxCharacters, characters[start]);
+                console.log(start)
+                if (!filmIndexes[start])
+                    filmIndexes[start] = [];
+                filmIndexes[start].push(index);
             }
+            console.log(filmIndexes)
 
             for (var character in characters) {
+                var tooltip = makeFilmListTooltip(filmIndexes[character]);
                 bar = '<td class="chart" data-value="' + characters[character] + '"><span class="bar" style="width:' + Math.round((characters[character] / maxCharacters) * 100) + 'px">&nbsp;</span></td>';
                 tbody.append(
                     '<tr>' +
                     '<td style="width:10px">' + character + '</td>' +
-                    '<td>' + characters[character] + '</td>' +
+                    '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltip.join('<br>') + '">' + characters[character] + '</td>' +
                     bar +
                     '</tr>');
             }
@@ -3306,7 +3318,7 @@
                 sum += film.Likes;
             }
             $('body').append('<div class="boxes"></div>');
-            $('.boxes').last().append(makeBox(formatNumber(Math.round(sum / count)), 'Average Likes Per Film', 'Average number of likes for all watched films'));
+            $('.boxes').last().append(makeBox(formatNumber(Math.round(sum / count)), 'Average Likes Per Film', Math.round(sum / count).toLocaleString() + '<br/><br/>Average number of likes for all watched films'));
 
             createGallery();
             var gallery = $('.gallery');
@@ -3352,7 +3364,7 @@
                 }
             }
             $('body').append('<div class="boxes"></div>');
-            $('.boxes').last().append(makeBox((sum / count).toFixed(2), 'Average Letterboxd Rating', 'Average rating of all watched films by Letterboxd osers'));
+            $('.boxes').last().append(makeBox((sum / count).toFixed(2), 'Average Letterboxd Rating', 'Average rating of all watched films by Letterboxd users'));
 
             var filmsHighestRated = films.slice().filter(a => a.Minutes >= 60).sort((a, b) => a.Title > b.Title).sort((a, b) => b.RatingLetterboxd - a.RatingLetterboxd).map(a => a.Id).slice(0, galleryAmount)
             var filmsLowestRated = films.slice().filter(a => a.Minutes >= 60).filter(a => a.RatingLetterboxd > 0).sort((a, b) => a.Title > b.Title).sort((a, b) => a.RatingLetterboxd - b.RatingLetterboxd).map(a => a.Id).slice(0, galleryAmount)
@@ -3458,13 +3470,61 @@
 
             resetView(showPopularity, $(event.target));
 
+            var watchesGroups = [...Array(20)].map(a => [])
             var count = 0, sum = 0
-            for (var film of films) {
+            for (var index in films) {
+                var film = films[index]
                 count++;
                 sum += film.Watched;
+                watchesGroups[film.Watched.toString().length].push(index)
             }
+            while (!watchesGroups[watchesGroups.length - 1].length)
+                watchesGroups = watchesGroups.slice(0, -1);
+
+            createNewTable();
+
+            thead.append('<tr><th>Letterboxd Watches</th><th class="right">Films</th><th>▬</th></tr>');
+            for (var line in watchesGroups) {
+                if (+line) {
+                    var tooltip = makeFilmListTooltip(watchesGroups[line]);
+                    if (!tooltip.length)
+                        tooltip = ['<em>No matching films.</em>']
+                    bar = '<td class="chart" data-value="' + watchesGroups[line].length + '"><span class="bar" style="width:' + Math.round((watchesGroups[line].length / Math.max(...watchesGroups.map(a => a.length))) * 100) + 'px">&nbsp;</span></td>';
+                    tbody.append(
+                        '<tr>' +
+                        '<td data-value="' + line + '" class="right">' + (10 ** (+line - 1)).toLocaleString() + ' to ' + (10 ** (+line) - 1).toLocaleString() + '</td>' +
+                        '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltip.join('<br>') + '">' + watchesGroups[line].length + '</td>' +
+                        bar +
+                        '</tr>')
+                }
+            }
+
+            $.tablesorter.addParser({
+                id: 'data-value',
+                is: function () {
+                    return false;
+                },
+                format: function (s, table, cell) {
+                    return $(cell).attr('data-value') || s;
+                },
+                type: 'text'
+            });
+
+            table.tablesorter({
+                widgets: ['columns'],
+                usNumberFormat: true,
+                sortReset: false,
+                sortRestart: false,
+                sortList: [[0, 0]],
+                headers: {
+                    0: { sortInitialOrder: 'asc', sorter: 'data-value' },
+                    1: { sortInitialOrder: 'desc' },
+                    2: { sortInitialOrder: 'desc', sorter: 'data-value' },
+                }
+            });
+
             $('body').append('<div class="boxes"></div>');
-            $('.boxes').last().append(makeBox(formatNumber(sum / count), 'Average Watches Per Film', 'Average number of watches by Letterboxd users for all watched films'));
+            $('.boxes').last().append(makeBox(formatNumber(sum / count), 'Average Watches Per Film', Math.round(sum / count).toLocaleString() + '<br/><br/>Average number of watches by Letterboxd users for all watched films'));
 
             createGallery();
             var gallery = $('.gallery');
