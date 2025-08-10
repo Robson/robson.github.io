@@ -491,6 +491,8 @@ th.ttt {
 
 .highcharts-data-label span {
     background: white;
+    color: black !important;
+    padding: 0 2px;
 }
 
 #outside .title {

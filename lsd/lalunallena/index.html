@@ -4119,7 +4119,7 @@
 
             for (var film of listFilms) {
                 var html = '<tr onclick="deleteRow(this)">';
-                html += '<td><a title="' + film.Overview + '" href="https://boxd.it/' + film.LetterboxdIdentifier + '">' + film.FilmName + '</a></td>';
+                html += '<td><a title="' + film.Overview + '" href="https://boxd.it/' + film.LetterboxdIdentifier + '">' + film.FilmName + '</a>' + (film.IsRewatch ? ' &#8635;' : '') + '</td>';
                 html += '<td>' + film.Year + '</td>';
                 //tbody.append('<td>' + film.Protagonist + '</td>');
                 var ratingDetail = '&nbsp;';
