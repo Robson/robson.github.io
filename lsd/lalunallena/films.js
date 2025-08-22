@@ -1453,7 +1453,7 @@ var films = [
     "Title": "The Substance",
     "TitleOriginal": "The Substance",
     "Language": "English",
-    "RatingSelf": 5,
+    "RatingSelf": 4.5,
     "RatingLetterboxd": 3.78,
     "Minutes": 141,
     "Watched": 2840730,
@@ -6819,7 +6819,7 @@ var films = [
     "Title": "Anatomy of a Fall",
     "TitleOriginal": "Anatomie d'une chute",
     "Language": "French",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 4.13,
     "Minutes": 151,
     "Watched": 1471224,
@@ -12023,7 +12023,7 @@ var films = [
     "Title": "Black Bear",
     "TitleOriginal": "Black Bear",
     "Language": "English",
-    "RatingSelf": 2.5,
+    "RatingSelf": 2,
     "RatingLetterboxd": 3.57,
     "Minutes": 106,
     "Watched": 105987,
@@ -16014,7 +16014,7 @@ var films = [
     "Title": "Dead Poets Society",
     "TitleOriginal": "Dead Poets Society",
     "Language": "English",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 4.31,
     "Minutes": 128,
     "Watched": 2936464,
@@ -26712,7 +26712,7 @@ var films = [
     "Likes": 7492,
     "Id": "1nRy",
     "Poster": "/tvMJ84g2lx2XusA29wvOeaanwWZ.jpg",
-    "Year": 1965,
+    "Year": 1967,
     "When": "1968-04-28",
     "BlackAndWhite": false,
     "Countries_Origin": [
@@ -27266,7 +27266,7 @@ var films = [
     "Title": "God's Creatures",
     "TitleOriginal": "God's Creatures",
     "Language": "English",
-    "RatingSelf": 3,
+    "RatingSelf": 2.5,
     "RatingLetterboxd": 3.23,
     "Minutes": 101,
     "Watched": 22538,
@@ -37959,7 +37959,7 @@ var films = [
     "Title": "Drive",
     "TitleOriginal": "Drive",
     "Language": "English",
-    "RatingSelf": 3.5,
+    "RatingSelf": 3,
     "RatingLetterboxd": 3.92,
     "Minutes": 100,
     "Watched": 2227417,
@@ -43684,7 +43684,7 @@ var films = [
     "Title": "Good One",
     "TitleOriginal": "Good One",
     "Language": "English",
-    "RatingSelf": 4.5,
+    "RatingSelf": 4,
     "RatingLetterboxd": 3.67,
     "Minutes": 90,
     "Watched": 25662,
@@ -44083,7 +44083,7 @@ var films = [
     "Title": "Love Lies Bleeding",
     "TitleOriginal": "Love Lies Bleeding",
     "Language": "English",
-    "RatingSelf": 4.5,
+    "RatingSelf": 4,
     "RatingLetterboxd": 3.54,
     "Minutes": 104,
     "Watched": 666909,
@@ -44771,7 +44771,7 @@ var films = [
     "Title": "The Invisible Man",
     "TitleOriginal": "The Invisible Man",
     "Language": "English",
-    "RatingSelf": 3.5,
+    "RatingSelf": 3,
     "RatingLetterboxd": 3.87,
     "Minutes": 71,
     "Watched": 115297,
@@ -50877,7 +50877,7 @@ var films = [
     "Title": "The Pianist",
     "TitleOriginal": "The Pianist",
     "Language": "English",
-    "RatingSelf": 5,
+    "RatingSelf": null,
     "RatingLetterboxd": 4.40,
     "Minutes": 150,
     "Watched": 1458085,
@@ -53119,7 +53119,7 @@ var films = [
     "Title": "The Outrun",
     "TitleOriginal": "The Outrun",
     "Language": "English",
-    "RatingSelf": 4,
+    "RatingSelf": 3.5,
     "RatingLetterboxd": 3.66,
     "Minutes": 118,
     "Watched": 131030,
@@ -54667,7 +54667,7 @@ var films = [
     "Title": "The Tribe",
     "TitleOriginal": "\u041F\u043B\u0435\u043C'\u044F",
     "Language": "",
-    "RatingSelf": 1.5,
+    "RatingSelf": null,
     "RatingLetterboxd": 3.64,
     "Minutes": 130,
     "Watched": 22652,
@@ -61562,7 +61562,7 @@ var films = [
     "Title": "Sicario",
     "TitleOriginal": "Sicario",
     "Language": "English",
-    "RatingSelf": 3.5,
+    "RatingSelf": null,
     "RatingLetterboxd": 3.99,
     "Minutes": 122,
     "Watched": 1032763,
@@ -66006,7 +66006,7 @@ var films = [
     "Title": "His Three Daughters",
     "TitleOriginal": "His Three Daughters",
     "Language": "English",
-    "RatingSelf": 4.5,
+    "RatingSelf": 4,
     "RatingLetterboxd": 3.82,
     "Minutes": 104,
     "Watched": 131243,
@@ -66247,7 +66247,7 @@ var films = [
     "Title": "Valerie and Her Week of Wonders",
     "TitleOriginal": "Valerie a t\u00FDden div\u016F",
     "Language": "Czech",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 3.49,
     "Minutes": 73,
     "Watched": 89237,
@@ -67182,7 +67182,7 @@ var films = [
     "Title": "You Can Live Forever",
     "TitleOriginal": "You Can Live Forever",
     "Language": "English",
-    "RatingSelf": 4,
+    "RatingSelf": 3.5,
     "RatingLetterboxd": 3.60,
     "Minutes": 97,
     "Watched": 39807,
@@ -71419,7 +71419,7 @@ var films = [
     "Title": "Anora",
     "TitleOriginal": "Anora",
     "Language": "English",
-    "RatingSelf": null,
+    "RatingSelf": 3.5,
     "RatingLetterboxd": 3.85,
     "Minutes": 139,
     "Watched": 2176122,
@@ -76326,7 +76326,7 @@ var films = [
     "Title": "The Diary of a Teenage Girl",
     "TitleOriginal": "The Diary of a Teenage Girl",
     "Language": "English",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 3.51,
     "Minutes": 103,
     "Watched": 121638,
@@ -86672,7 +86672,7 @@ var films = [
     "Title": "To Kill a Mockingbird",
     "TitleOriginal": "To Kill a Mockingbird",
     "Language": "English",
-    "RatingSelf": 5,
+    "RatingSelf": null,
     "RatingLetterboxd": 4.09,
     "Minutes": 129,
     "Watched": 456392,
@@ -88898,7 +88898,7 @@ var films = [
     "Title": "Marriage Story",
     "TitleOriginal": "Marriage Story",
     "Language": "English",
-    "RatingSelf": 4.5,
+    "RatingSelf": null,
     "RatingLetterboxd": 4.01,
     "Minutes": 137,
     "Watched": 1766309,
@@ -95194,7 +95194,7 @@ var films = [
     "Title": "Charade",
     "TitleOriginal": "Charade",
     "Language": "English",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 4.03,
     "Minutes": 113,
     "Watched": 225473,
@@ -95944,7 +95944,7 @@ var films = [
     "Title": "Girls Will Be Girls",
     "TitleOriginal": "Girls Will Be Girls",
     "Language": "English",
-    "RatingSelf": 4.5,
+    "RatingSelf": 4,
     "RatingLetterboxd": 3.78,
     "Minutes": 119,
     "Watched": 24559,
@@ -98610,7 +98610,7 @@ var films = [
     "Title": "The Exterminating Angel",
     "TitleOriginal": "El \u00E1ngel exterminador",
     "Language": "Spanish",
-    "RatingSelf": 3.5,
+    "RatingSelf": 3,
     "RatingLetterboxd": 4.17,
     "Minutes": 93,
     "Watched": 88066,
@@ -99078,7 +99078,7 @@ var films = [
     "Title": "Taipei Suicide Story",
     "TitleOriginal": "\u5B89\u7720\u65C5\u820D",
     "Language": "Mandarin",
-    "RatingSelf": 3.5,
+    "RatingSelf": null,
     "RatingLetterboxd": 3.89,
     "Minutes": 45,
     "Watched": 14533,
@@ -99432,7 +99432,7 @@ var films = [
     "Title": "All We Imagine as Light",
     "TitleOriginal": "\u0D2A\u0D4D\u0D30\u0D2D\u0D2F\u0D3E\u0D2F\u0D4D \u0D28\u0D3F\u0D28\u0D1A\u0D4D\u0D1A\u0D24\u0D46\u0D32\u0D4D\u0D32\u0D3E\u0D02",
     "Language": "Malayalam",
-    "RatingSelf": 4.5,
+    "RatingSelf": null,
     "RatingLetterboxd": 3.87,
     "Minutes": 118,
     "Watched": 108519,
@@ -99735,41 +99735,6 @@ var films = [
     "DiaryWatchedDate": "2025-02-17"
   },
   {
-    "Title": "La guerre des \u00E9toiles",
-    "TitleOriginal": "La guerre des \u00E9toiles",
-    "Language": "French",
-    "RatingSelf": null,
-    "RatingLetterboxd": 3.33,
-    "Minutes": 15,
-    "Watched": 2331,
-    "Fans": 1,
-    "Likes": 822,
-    "Id": "T6WO",
-    "Poster": "/piSEhES2tmMtAJOv7BMayadiaJx.jpg",
-    "Year": 1993,
-    "When": "1993-12-25",
-    "BlackAndWhite": false,
-    "Countries_Origin": [
-      "FR"
-    ],
-    "Countries_Production": [
-      "FR"
-    ],
-    "Genres": [
-      "Science Fiction",
-      "Comedy",
-      "Animation"
-    ],
-    "Studios": [],
-    "Themes": [],
-    "Nanogenres": [],
-    "Cast": [],
-    "Directors": [
-      665
-    ],
-    "DiaryWatchedDate": "2025-02-19"
-  },
-  {
     "Title": "Double Labyrinthe",
     "TitleOriginal": "Double Labyrinthe",
     "Language": "",
@@ -99980,7 +99945,7 @@ var films = [
     "Title": "Two Women",
     "TitleOriginal": "La ciociara",
     "Language": "Italian",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 3.90,
     "Minutes": 100,
     "Watched": 19621,
@@ -100877,7 +100842,7 @@ var films = [
     "Title": "Black Girl",
     "TitleOriginal": "La Noire de...",
     "Language": "French",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 4.07,
     "Minutes": 59,
     "Watched": 69133,
@@ -100949,7 +100914,7 @@ var films = [
     "Title": "The Cranes Are Flying",
     "TitleOriginal": "\u041B\u0435\u0442\u044F\u0442 \u0436\u0443\u0440\u0430\u0432\u043B\u0438",
     "Language": "Russian",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 4.44,
     "Minutes": 97,
     "Watched": 66393,
@@ -102080,7 +102045,7 @@ var films = [
     "Title": "Drive-Away Dolls",
     "TitleOriginal": "Drive-Away Dolls",
     "Language": "English",
-    "RatingSelf": 3,
+    "RatingSelf": 2.5,
     "RatingLetterboxd": 2.84,
     "Minutes": 84,
     "Watched": 286707,
@@ -103028,7 +102993,7 @@ var films = [
     "Title": "Shayda",
     "TitleOriginal": "Shayda",
     "Language": "Persian",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 3.57,
     "Minutes": 118,
     "Watched": 4865,
@@ -103185,7 +103150,7 @@ var films = [
     "Title": "Ayka",
     "TitleOriginal": "\u0410\u0439\u043A\u0430",
     "Language": "Russian",
-    "RatingSelf": 4.5,
+    "RatingSelf": 4,
     "RatingLetterboxd": 3.63,
     "Minutes": 113,
     "Watched": 4010,
@@ -103303,7 +103268,7 @@ var films = [
     "Title": "Lick the Star",
     "TitleOriginal": "Lick the Star",
     "Language": "English",
-    "RatingSelf": 3,
+    "RatingSelf": null,
     "RatingLetterboxd": 3.15,
     "Minutes": 14,
     "Watched": 49741,
@@ -103506,7 +103471,7 @@ var films = [
     "Title": "The Nightingale",
     "TitleOriginal": "The Nightingale",
     "Language": "English",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 3.72,
     "Minutes": 136,
     "Watched": 88910,
@@ -104091,7 +104056,7 @@ var films = [
     "Title": "100 Yen Love",
     "TitleOriginal": "\u767E\u5186\u306E\u604B",
     "Language": "Japanese",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 3.70,
     "Minutes": 113,
     "Watched": 5733,
@@ -104698,7 +104663,7 @@ var films = [
     "Title": "Wendy and Lucy",
     "TitleOriginal": "Wendy and Lucy",
     "Language": "English",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 3.90,
     "Minutes": 80,
     "Watched": 59498,
@@ -105060,7 +105025,7 @@ var films = [
     "Title": "Funny Games",
     "TitleOriginal": "Funny Games",
     "Language": "German",
-    "RatingSelf": 4,
+    "RatingSelf": 3.5,
     "RatingLetterboxd": 3.93,
     "Minutes": 109,
     "Watched": 384093,
@@ -106451,7 +106416,7 @@ var films = [
     "Title": "Elevator to the Gallows",
     "TitleOriginal": "Ascenseur pour l'\u00E9chafaud",
     "Language": "French",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 4.10,
     "Minutes": 91,
     "Watched": 86574,
@@ -106528,7 +106493,7 @@ var films = [
     "Title": "F1",
     "TitleOriginal": "F1",
     "Language": "English",
-    "RatingSelf": 4.5,
+    "RatingSelf": 4,
     "RatingLetterboxd": 3.75,
     "Minutes": 156,
     "Watched": 821893,
@@ -106757,7 +106722,7 @@ var films = [
     "Title": "Toxic",
     "TitleOriginal": "Akipl\u0117\u0161a",
     "Language": "Lithuanian",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 3.58,
     "Minutes": 99,
     "Watched": 10327,
@@ -107111,7 +107076,7 @@ var films = [
     "Title": "Show Me Love",
     "TitleOriginal": "Fucking \u00C5m\u00E5l",
     "Language": "Swedish",
-    "RatingSelf": 4,
+    "RatingSelf": null,
     "RatingLetterboxd": 3.77,
     "Minutes": 89,
     "Watched": 79676,
@@ -107254,5 +107219,636 @@ var films = [
       22176
     ],
     "DiaryWatchedDate": "2025-08-02"
+  },
+  {
+    "Title": "The Feeling That the Time for Doing Something Has Passed",
+    "TitleOriginal": "The Feeling That the Time for Doing Something Has Passed",
+    "Language": "English",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.09,
+    "Minutes": 88,
+    "Watched": 14418,
+    "Fans": 10,
+    "Likes": 3026,
+    "Id": "E4Zw",
+    "Poster": "/j91fLrmkALnmIxScI0BQlVbbz89.jpg",
+    "Year": 2023,
+    "When": "2024-04-26",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "US"
+    ],
+    "Countries_Production": [
+      "US"
+    ],
+    "Genres": [
+      "Comedy"
+    ],
+    "Studios": [
+      2128,
+      2129,
+      2130
+    ],
+    "Themes": [],
+    "Nanogenres": [],
+    "Cast": [
+      32815,
+      32816,
+      32817,
+      24274,
+      32818,
+      25516,
+      32819,
+      32820,
+      32821,
+      32822,
+      32823,
+      32824,
+      32825,
+      32826,
+      30021
+    ],
+    "Directors": [
+      32815
+    ],
+    "DiaryWatchedDate": "2025-08-12"
+  },
+  {
+    "Title": "Un Chien Andalou",
+    "TitleOriginal": "Un chien andalou",
+    "Language": "",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.85,
+    "Minutes": 16,
+    "Watched": 255351,
+    "Fans": 435,
+    "Likes": 56752,
+    "Id": "29Y8",
+    "Poster": "/obvE7ElAvCUhKtWFwDSvNbPw9PV.jpg",
+    "Year": 1929,
+    "When": "1929-06-05",
+    "BlackAndWhite": true,
+    "Countries_Origin": [
+      "FR"
+    ],
+    "Countries_Production": [
+      "FR"
+    ],
+    "Genres": [
+      "Horror",
+      "Fantasy"
+    ],
+    "Studios": [
+      2131
+    ],
+    "Themes": [],
+    "Nanogenres": [],
+    "Cast": [
+      32827,
+      32828
+    ],
+    "Directors": [
+      16794
+    ],
+    "DiaryWatchedDate": "2025-08-13"
+  },
+  {
+    "Title": "Ginger Snaps",
+    "TitleOriginal": "Ginger Snaps",
+    "Language": "English",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.64,
+    "Minutes": 108,
+    "Watched": 218506,
+    "Fans": 5095,
+    "Likes": 83535,
+    "Id": "1XEg",
+    "Poster": "/4NmAtQdttqG4d1jyIK3vJvuyMov.jpg",
+    "Year": 2000,
+    "When": "2001-03-13",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "CA"
+    ],
+    "Countries_Production": [
+      "CA"
+    ],
+    "Genres": [
+      "Fantasy",
+      "Horror",
+      "Drama",
+      "Thriller"
+    ],
+    "Studios": [
+      2132
+    ],
+    "Themes": [
+      71,
+      11,
+      72,
+      3,
+      61,
+      60,
+      74
+    ],
+    "Nanogenres": [
+      384,
+      1848,
+      772,
+      404,
+      215,
+      4229,
+      544,
+      3039,
+      4230,
+      4231
+    ],
+    "Cast": [
+      32829,
+      24840,
+      19079,
+      24797,
+      19082,
+      32830,
+      32831,
+      8845,
+      32832,
+      32833,
+      25322,
+      32834,
+      32835,
+      32836,
+      32837,
+      32838,
+      32839,
+      32840,
+      32841,
+      32842
+    ],
+    "Directors": [
+      32843
+    ],
+    "DiaryWatchedDate": "2025-08-14"
+  },
+  {
+    "Title": "Phantom Youth",
+    "TitleOriginal": "Bota jon\u00EB",
+    "Language": "Albanian",
+    "RatingSelf": 3.5,
+    "RatingLetterboxd": 3.47,
+    "Minutes": 94,
+    "Watched": 892,
+    "Fans": 4,
+    "Likes": 206,
+    "Id": "HJqI",
+    "Poster": "/sjpcMhV11Dv3dvj0Cv2LkkFxGGh.jpg",
+    "Year": 2023,
+    "When": "2024-04-24",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "FR",
+      "XK"
+    ],
+    "Countries_Production": [
+      "FR",
+      "XK"
+    ],
+    "Genres": [
+      "Drama"
+    ],
+    "Studios": [
+      2133,
+      1926,
+      1657,
+      2134,
+      116
+    ],
+    "Themes": [],
+    "Nanogenres": [],
+    "Cast": [
+      32844,
+      32845,
+      32846,
+      32847,
+      31305,
+      32848,
+      27927,
+      32849
+    ],
+    "Directors": [
+      25316
+    ],
+    "DiaryWatchedDate": "2025-08-15"
+  },
+  {
+    "Title": "Wasp",
+    "TitleOriginal": "Wasp",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.91,
+    "Minutes": 26,
+    "Watched": 58441,
+    "Fans": 111,
+    "Likes": 16478,
+    "Id": "RRQ",
+    "Poster": "/9W6dKmIYyrw3clcwTT9VIUero9X.jpg",
+    "Year": 2003,
+    "When": "2003-08-01",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "GB"
+    ],
+    "Countries_Production": [
+      "GB"
+    ],
+    "Genres": [
+      "Drama"
+    ],
+    "Studios": [
+      1493,
+      515,
+      10
+    ],
+    "Themes": [],
+    "Nanogenres": [],
+    "Cast": [
+      32850,
+      32851,
+      32852,
+      32853,
+      32854,
+      32855,
+      32856,
+      32857,
+      32858
+    ],
+    "Directors": [
+      24472
+    ],
+    "DiaryWatchedDate": "2025-08-17"
+  },
+  {
+    "Title": "Paradise: Hope",
+    "TitleOriginal": "Paradies: Hoffnung",
+    "Language": "German",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.50,
+    "Minutes": 92,
+    "Watched": 10335,
+    "Fans": 6,
+    "Likes": 1602,
+    "Id": "4Lgi",
+    "Poster": "/p0PACqyXg2hsVMwlapSh9GQq7Nv.jpg",
+    "Year": 2013,
+    "When": "2013-02-22",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "DE",
+      "AT"
+    ],
+    "Countries_Production": [
+      "DE",
+      "AT",
+      "FR"
+    ],
+    "Genres": [
+      "Drama"
+    ],
+    "Studios": [
+      2135,
+      2136,
+      2137
+    ],
+    "Themes": [],
+    "Nanogenres": [],
+    "Cast": [
+      32859,
+      32860,
+      32861,
+      32862,
+      12077,
+      32863,
+      32864
+    ],
+    "Directors": [
+      32865
+    ],
+    "DiaryWatchedDate": "2025-08-18"
+  },
+  {
+    "Title": "Paris, Texas",
+    "TitleOriginal": "Paris, Texas",
+    "Language": "English",
+    "RatingSelf": 4.5,
+    "RatingLetterboxd": 4.38,
+    "Minutes": 145,
+    "Watched": 696938,
+    "Fans": 46986,
+    "Likes": 303508,
+    "Id": "29Ts",
+    "Poster": "/mYYdCi54E2xVbUxCr03tMookv9Z.jpg",
+    "Year": 1984,
+    "When": "1984-07-16",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "DE"
+    ],
+    "Countries_Production": [
+      "DE",
+      "GB",
+      "FR"
+    ],
+    "Genres": [
+      "Drama"
+    ],
+    "Studios": [
+      2138,
+      425,
+      651,
+      1041,
+      2139
+    ],
+    "Themes": [
+      5,
+      0,
+      49,
+      51,
+      47,
+      48,
+      97
+    ],
+    "Nanogenres": [
+      1872,
+      2986,
+      139,
+      2008,
+      2883,
+      1661,
+      665,
+      3504,
+      3448,
+      999
+    ],
+    "Cast": [
+      8550,
+      32866,
+      1459,
+      32867,
+      7372,
+      5815,
+      32868,
+      32869,
+      32870,
+      32871,
+      32872,
+      32873,
+      32874,
+      32875,
+      32876,
+      32877,
+      32878
+    ],
+    "Directors": [
+      9428
+    ],
+    "DiaryWatchedDate": "2025-08-18"
+  },
+  {
+    "Title": "Ponette",
+    "TitleOriginal": "Ponette",
+    "Language": "French",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.92,
+    "Minutes": 97,
+    "Watched": 6643,
+    "Fans": 83,
+    "Likes": 1998,
+    "Id": "15Pa",
+    "Poster": "/8R9DEGsD1DYKwCVeOuLjDIhAK5T.jpg",
+    "Year": 1996,
+    "When": "1996-09-25",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "FR"
+    ],
+    "Countries_Production": [
+      "FR"
+    ],
+    "Genres": [
+      "Drama"
+    ],
+    "Studios": [
+      49,
+      284,
+      196
+    ],
+    "Themes": [
+      5,
+      47,
+      48,
+      49,
+      51,
+      2
+    ],
+    "Nanogenres": [
+      983,
+      751,
+      4232,
+      3828,
+      4233,
+      3945,
+      4234,
+      2665,
+      586,
+      757
+    ],
+    "Cast": [
+      32879,
+      32880,
+      32881,
+      32882,
+      32883,
+      32884,
+      32885,
+      32886,
+      32887,
+      32888,
+      31072,
+      32889,
+      32890,
+      32891,
+      32892,
+      32893
+    ],
+    "Directors": [
+      32894
+    ],
+    "DiaryWatchedDate": "2025-08-19"
+  },
+  {
+    "Title": "A Question of Silence",
+    "TitleOriginal": "De stilte rond Christine M.",
+    "Language": "Dutch",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.87,
+    "Minutes": 92,
+    "Watched": 4579,
+    "Fans": 37,
+    "Likes": 1511,
+    "Id": "3ldA",
+    "Poster": "/uGhs4woh7yfRupCYOYFMFj9DUPN.jpg",
+    "Year": 1982,
+    "When": "1982-02-18",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "NL"
+    ],
+    "Countries_Production": [
+      "NL"
+    ],
+    "Genres": [
+      "Drama"
+    ],
+    "Studios": [
+      2140
+    ],
+    "Themes": [],
+    "Nanogenres": [],
+    "Cast": [
+      32895,
+      32896,
+      32897,
+      32898,
+      32899,
+      32900,
+      32901,
+      32902,
+      32903,
+      32904,
+      32905,
+      32906,
+      32907,
+      32908,
+      32909,
+      32910,
+      32911,
+      32912,
+      32913,
+      32914,
+      32915,
+      32916,
+      32917,
+      32918,
+      32919,
+      32920,
+      32921
+    ],
+    "Directors": [
+      32922
+    ],
+    "DiaryWatchedDate": "2025-08-21"
+  },
+  {
+    "Title": "Breaking the Waves",
+    "TitleOriginal": "Breaking the Waves",
+    "Language": "English",
+    "RatingSelf": 4.5,
+    "RatingLetterboxd": 4.14,
+    "Minutes": 159,
+    "Watched": 106848,
+    "Fans": 1503,
+    "Likes": 30289,
+    "Id": "2b1W",
+    "Poster": "/dQWMcdHXUOSHtr7ypOCa5T79JMS.jpg",
+    "Year": 1996,
+    "When": "1996-07-05",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "DK"
+    ],
+    "Countries_Production": [
+      "DK",
+      "FR",
+      "NL",
+      "NO",
+      "SE"
+    ],
+    "Genres": [
+      "Drama",
+      "Romance"
+    ],
+    "Studios": [
+      238,
+      390,
+      648,
+      2123,
+      2141,
+      645,
+      236,
+      2121,
+      2122,
+      2142
+    ],
+    "Themes": [
+      37,
+      5,
+      0,
+      11,
+      40,
+      49,
+      51,
+      6,
+      14
+    ],
+    "Nanogenres": [
+      968,
+      346,
+      867,
+      863,
+      607,
+      4235,
+      2740,
+      4236,
+      3355,
+      4237
+    ],
+    "Cast": [
+      9869,
+      5520,
+      32923,
+      5528,
+      9203,
+      32924,
+      32925,
+      5530,
+      32926,
+      32927,
+      32928,
+      32929,
+      32930,
+      32931,
+      18593,
+      32932,
+      32933,
+      32934,
+      32935,
+      32936,
+      32937,
+      32938,
+      32939,
+      32940,
+      26751,
+      32941,
+      32942,
+      32943,
+      32944,
+      32945,
+      32946,
+      32947
+    ],
+    "Directors": [
+      5555
+    ],
+    "DiaryWatchedDate": "2025-08-22"
   }
 ]
