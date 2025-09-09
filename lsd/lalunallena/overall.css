@@ -116,7 +116,7 @@ css-doodle {
 }
 
 #backdrop_details {
-    position: absolute;
+    position: fixed;
     top: 187px;
     left: 4px;
     width: 297px;

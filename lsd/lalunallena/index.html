@@ -2865,15 +2865,53 @@
         function showTitles() {
 
             resetView(showTitles, $(event.target));
+
+            var filmsByTitleLength = [...films].sort((a, b) => a.Title > b.Title).sort((a, b) => b.Title.length > a.Title.length);
+            var filmsLongestTitles = filmsByTitleLength.map(a => a.Id).slice(0, galleryAmount);
+            var filmsLongestTitlesSingleWord = filmsByTitleLength.filter(a => !/\s|\//.test(a.Title))
+            filmsLongestTitlesSingleWord = filmsLongestTitlesSingleWord.filter(a => a.Title.length >= filmsLongestTitlesSingleWord[10].Title.length).map(a => a.Id);
+
             createNewTable();
 
             thead.append('<tr class="topheader"><th colspan="2">Longest Titles</th></tr>');
             thead.append('<tr class="bottomheader"><th>Year</th><th>Title</th></tr>');
 
-            var filmsLongestTitles = [...films].sort((a, b) => a.Title > b.Title).sort((a, b) => b.Title.length > a.Title.length).map(a => a.Id).slice(0, galleryAmount);
-
             var displayed = 0;
             for (var id of filmsLongestTitles) {
+                var film = films.find(a => a.Id == id);
+                var tooltip = '';
+                if (film.Poster && film.Poster.length > 0) {
+                    tooltip = ' ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>';
+                }
+                tbody.append(
+                    '<tr>' +
+                    '<td class="right' + tooltip + '">' + film.Year + '</td>' +
+                    '<td class="mono"><a target="_blank" href="https://boxd.it/' + film.Id + '">' + film.Title + '</a></td>' +
+                    '</tr>');
+                displayed++;
+                if (displayed == galleryAmount)
+                    break;
+            }
+
+            table.tablesorter({
+                widgets: ['columns'],
+                usNumberFormat: true,
+                sortReset: false,
+                sortRestart: false,
+                headers: {
+                    0: { sorter: false },
+                    1: { sorter: false },
+                    2: { sorter: false },
+                }
+            });
+
+            createNewTable();
+
+            thead.append('<tr class="topheader"><th colspan="2">Longest Single-Word Titles</th></tr>');
+            thead.append('<tr class="bottomheader"><th>Year</th><th>Title</th></tr>');
+
+            var displayed = 0;
+            for (var id of filmsLongestTitlesSingleWord) {
                 var film = films.find(a => a.Id == id);
                 var tooltip = '';
                 if (film.Poster && film.Poster.length > 0) {
@@ -3008,7 +3046,6 @@
                 }
                 characters[start]++;
                 maxCharacters = Math.max(maxCharacters, characters[start]);
-                console.log(start)
                 if (!filmIndexes[start])
                     filmIndexes[start] = [];
                 filmIndexes[start].push(index);
@@ -3812,7 +3849,6 @@
 
             protagonistAll.sort((a, b) => a[0] - b[0]);
             directorAll.sort((a, b) => a[0] - b[0]);
-            console.log(directorAll.slice(0, 20));
 
             $('body').append('<div class="boxes"></div>');
             $('.boxes').last().append(makeBox((directorDays / directorCount / 365.25).toFixed(0) + ' Years',
@@ -3821,6 +3857,10 @@
             $('.boxes').last().append(makeBox((protagonistDays / protagonistCount / 365.25).toFixed(0) + ' Years',
                 'Average Protagonist Age',
                 (protagonistDays / protagonistCount / 365.25).toFixed(2) + ' Years'));
+
+            // some exclusions for films released way after filming
+            directorAll = directorAll.filter(a => !films[a[1]].Title.startsWith("Alone in the Wilderness"))
+            protagonistAll = protagonistAll.filter(a => !films[a[1]].Title.startsWith("Alone in the Wilderness"))
 
             createNewTable();
 

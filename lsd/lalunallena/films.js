@@ -83560,7 +83560,7 @@ var films = [
     "Title": "City Lights",
     "TitleOriginal": "City Lights",
     "Language": "",
-    "RatingSelf": 4.5,
+    "RatingSelf": 4,
     "RatingLetterboxd": 4.34,
     "Minutes": 87,
     "Watched": 250819,
@@ -104254,7 +104254,7 @@ var films = [
     "Title": "L'Inhumaine",
     "TitleOriginal": "L'Inhumaine",
     "Language": "",
-    "RatingSelf": 4.5,
+    "RatingSelf": 4,
     "RatingLetterboxd": 3.75,
     "Minutes": 123,
     "Watched": 2898,
@@ -105511,7 +105511,7 @@ var films = [
     "Title": "Margaret",
     "TitleOriginal": "Margaret",
     "Language": "English",
-    "RatingSelf": 4.5,
+    "RatingSelf": 4,
     "RatingLetterboxd": 3.91,
     "Minutes": 150,
     "Watched": 39856,
@@ -106722,7 +106722,7 @@ var films = [
     "Title": "Toxic",
     "TitleOriginal": "Akipl\u0117\u0161a",
     "Language": "Lithuanian",
-    "RatingSelf": null,
+    "RatingSelf": 3.5,
     "RatingLetterboxd": 3.58,
     "Minutes": 99,
     "Watched": 10327,
@@ -106902,7 +106902,7 @@ var films = [
     "Title": "Sorry, Baby",
     "TitleOriginal": "Sorry, Baby",
     "Language": "English",
-    "RatingSelf": 4.5,
+    "RatingSelf": 4,
     "RatingLetterboxd": 4.10,
     "Minutes": 103,
     "Watched": 71752,
@@ -107850,5 +107850,741 @@ var films = [
       5555
     ],
     "DiaryWatchedDate": "2025-08-22"
+  },
+  {
+    "Title": "Nymphomaniac",
+    "TitleOriginal": "Nymphomaniac",
+    "Language": "English",
+    "RatingSelf": 3.5,
+    "RatingLetterboxd": 3.63,
+    "Minutes": 325,
+    "Watched": 52694,
+    "Fans": 649,
+    "Likes": 8457,
+    "Id": "B4Le",
+    "Poster": "/9iftq1oGENbI7plNNjsNLa5PLhj.jpg",
+    "Year": 2014,
+    "When": "2013-12-25",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "DK"
+    ],
+    "Countries_Production": [
+      "DK",
+      "DE",
+      "BE",
+      "FR"
+    ],
+    "Genres": [
+      "Drama"
+    ],
+    "Studios": [
+      238,
+      1306,
+      389,
+      2143,
+      2144,
+      2145,
+      391
+    ],
+    "Themes": [
+      11,
+      0,
+      5,
+      4,
+      54,
+      49,
+      2,
+      14
+    ],
+    "Nanogenres": [
+      30,
+      543,
+      4227,
+      898,
+      1343,
+      1341,
+      1474,
+      1336,
+      3875,
+      3016
+    ],
+    "Cast": [
+      499,
+      5520,
+      32948,
+      3721,
+      5762,
+      7732,
+      32949,
+      22704,
+      32950,
+      8935,
+      32700,
+      32951,
+      32952,
+      32953,
+      32954,
+      6246,
+      32955,
+      32956,
+      20552,
+      32957,
+      32958,
+      32959,
+      32960,
+      32961,
+      32962,
+      32963,
+      32964,
+      32965,
+      32966,
+      32967,
+      32968,
+      32969,
+      32970,
+      32971,
+      32972,
+      32973,
+      32974,
+      32975,
+      32976,
+      32977,
+      32978,
+      32979,
+      32980
+    ],
+    "Directors": [
+      5555
+    ],
+    "DiaryWatchedDate": "2025-08-24"
+  },
+  {
+    "Title": "The Apartment",
+    "TitleOriginal": "The Apartment",
+    "Language": "English",
+    "RatingSelf": 4.5,
+    "RatingLetterboxd": 4.44,
+    "Minutes": 125,
+    "Watched": 401384,
+    "Fans": 12065,
+    "Likes": 158837,
+    "Id": "2aGE",
+    "Poster": "/hhSRt1KKfRT0yEhEtRW3qp31JFU.jpg",
+    "Year": 1960,
+    "When": "1960-06-21",
+    "BlackAndWhite": true,
+    "Countries_Origin": [
+      "US"
+    ],
+    "Countries_Production": [
+      "US"
+    ],
+    "Genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "Studios": [
+      1490,
+      325
+    ],
+    "Themes": [
+      12,
+      5,
+      13,
+      0,
+      27,
+      8,
+      16,
+      10,
+      6
+    ],
+    "Nanogenres": [
+      485,
+      1440,
+      1578,
+      4238,
+      842,
+      487,
+      622,
+      1713,
+      4239,
+      1657
+    ],
+    "Cast": [
+      32981,
+      23462,
+      32982,
+      24715,
+      32983,
+      32984,
+      32985,
+      32986,
+      32987,
+      32988,
+      29511,
+      32989,
+      32990,
+      32991
+    ],
+    "Directors": [
+      25914
+    ],
+    "DiaryWatchedDate": "2025-08-29"
+  },
+  {
+    "Title": "Victoria",
+    "TitleOriginal": "Victoria",
+    "Language": "German",
+    "RatingSelf": 3.5,
+    "RatingLetterboxd": 3.93,
+    "Minutes": 138,
+    "Watched": 142888,
+    "Fans": 2030,
+    "Likes": 42809,
+    "Id": "amSe",
+    "Poster": "/9P8QgfoMcFX7vp2Gj2cYFecHVRZ.jpg",
+    "Year": 2015,
+    "When": "2015-06-11",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "DE"
+    ],
+    "Countries_Production": [
+      "DE",
+      "US"
+    ],
+    "Genres": [
+      "Crime",
+      "Thriller",
+      "Romance"
+    ],
+    "Studios": [
+      2146,
+      1054,
+      2147,
+      393
+    ],
+    "Themes": [
+      65,
+      34,
+      33,
+      67,
+      62
+    ],
+    "Nanogenres": [
+      3162,
+      1858,
+      2889,
+      1859,
+      4240,
+      3463,
+      3464,
+      1043,
+      3077,
+      419
+    ],
+    "Cast": [
+      32992,
+      32993,
+      30969,
+      32994,
+      5823,
+      21019,
+      32995,
+      32996,
+      32997,
+      32998,
+      32999,
+      33000,
+      33001,
+      33002,
+      33003,
+      33004,
+      33005,
+      33006
+    ],
+    "Directors": [
+      6366
+    ],
+    "DiaryWatchedDate": "2025-08-29"
+  },
+  {
+    "Title": "Therese and Isabelle",
+    "TitleOriginal": "Therese and Isabelle",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.31,
+    "Minutes": 118,
+    "Watched": 1242,
+    "Fans": 2,
+    "Likes": 289,
+    "Id": "uOE",
+    "Poster": "/avL1YQZS4kWe8QU8rcGjqSsvL1D.jpg",
+    "Year": 1968,
+    "When": "1968-05-14",
+    "BlackAndWhite": true,
+    "Countries_Origin": [
+      "US"
+    ],
+    "Countries_Production": [
+      "US",
+      "NL",
+      "FR",
+      "DE"
+    ],
+    "Genres": [
+      "Drama",
+      "Romance"
+    ],
+    "Studios": [
+      2148,
+      2149,
+      2150,
+      2151
+    ],
+    "Themes": [],
+    "Nanogenres": [],
+    "Cast": [
+      33007,
+      33008,
+      33009,
+      17267,
+      33010,
+      29734,
+      33011,
+      33012,
+      33013,
+      33014,
+      33015,
+      33016,
+      33017,
+      33018,
+      33019,
+      33020
+    ],
+    "Directors": [
+      33021
+    ],
+    "DiaryWatchedDate": "2025-08-31"
+  },
+  {
+    "Title": "Safe",
+    "TitleOriginal": "Safe",
+    "Language": "English",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 3.96,
+    "Minutes": 119,
+    "Watched": 106854,
+    "Fans": 1619,
+    "Likes": 34677,
+    "Id": "1gKU",
+    "Poster": "/2O71QsBkbqdLqQdx2yuNpJ4pFPq.jpg",
+    "Year": 1995,
+    "When": "1995-06-23",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "US"
+    ],
+    "Countries_Production": [
+      "US",
+      "GB"
+    ],
+    "Genres": [
+      "Drama"
+    ],
+    "Studios": [
+      2152,
+      2153,
+      1150,
+      2154,
+      2155,
+      1041
+    ],
+    "Themes": [
+      5,
+      49
+    ],
+    "Nanogenres": [
+      2518,
+      4,
+      4241,
+      3555,
+      1661,
+      2514,
+      3556,
+      4134,
+      4242,
+      144
+    ],
+    "Cast": [
+      11825,
+      92,
+      18605,
+      33022,
+      33023,
+      33024,
+      33025,
+      13406,
+      33026,
+      9020,
+      33027,
+      33028,
+      33029,
+      1914,
+      31382,
+      33030,
+      33031,
+      33032,
+      33033,
+      33034,
+      33035,
+      33036,
+      33037,
+      2518,
+      33038,
+      13680,
+      33039,
+      33040,
+      33041,
+      33042,
+      33043,
+      33044,
+      4017,
+      11895,
+      21765,
+      33045,
+      33046,
+      6745,
+      2194,
+      33047,
+      33048,
+      3918,
+      33049,
+      33050,
+      33051
+    ],
+    "Directors": [
+      13858
+    ],
+    "DiaryWatchedDate": "2025-09-01"
+  },
+  {
+    "Title": "Aattam",
+    "TitleOriginal": "\u0D06\u0D1F\u0D4D\u0D1F\u0D02",
+    "Language": "Malayalam",
+    "RatingSelf": 4.5,
+    "RatingLetterboxd": 4.08,
+    "Minutes": 139,
+    "Watched": 16745,
+    "Fans": 91,
+    "Likes": 7853,
+    "Id": "Aaws",
+    "Poster": "/gjptPp7YlX1oy9yCjEpOdlrRisL.jpg",
+    "Year": 2023,
+    "When": "2024-01-05",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "IN"
+    ],
+    "Countries_Production": [
+      "IN"
+    ],
+    "Genres": [
+      "Drama"
+    ],
+    "Studios": [
+      2156
+    ],
+    "Themes": [],
+    "Nanogenres": [],
+    "Cast": [
+      33052,
+      33053,
+      33054,
+      33055,
+      33056,
+      33057,
+      33058,
+      33059,
+      33060,
+      33061,
+      33062,
+      33063,
+      33064,
+      33065
+    ],
+    "Directors": [
+      33066
+    ],
+    "DiaryWatchedDate": "2025-09-02"
+  },
+  {
+    "Title": "Night and Fog",
+    "TitleOriginal": "Nuit et Brouillard",
+    "Language": "French",
+    "RatingSelf": null,
+    "RatingLetterboxd": 4.55,
+    "Minutes": 32,
+    "Watched": 93199,
+    "Fans": 128,
+    "Likes": 23529,
+    "Id": "29A6",
+    "Poster": "/2iWYQia8enOai7QEO3TvenleD7r.jpg",
+    "Year": 1956,
+    "When": "1959-04-27",
+    "BlackAndWhite": true,
+    "Countries_Origin": [
+      "FR"
+    ],
+    "Countries_Production": [
+      "FR"
+    ],
+    "Genres": [
+      "Documentary",
+      "History"
+    ],
+    "Studios": [
+      425
+    ],
+    "Themes": [
+      57,
+      58,
+      82,
+      14,
+      59
+    ],
+    "Nanogenres": [
+      169,
+      172,
+      170,
+      176,
+      4243,
+      3646,
+      175,
+      2942,
+      2961,
+      4244
+    ],
+    "Cast": [],
+    "Directors": [
+      17755
+    ],
+    "DiaryWatchedDate": "2025-09-03"
+  },
+  {
+    "Title": "The Devils",
+    "TitleOriginal": "The Devils",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 4.22,
+    "Minutes": 117,
+    "Watched": 82155,
+    "Fans": 2022,
+    "Likes": 31617,
+    "Id": "1inI",
+    "Poster": "/y1k7eiOFc6fzm8XeTa1kNGx6JIs.jpg",
+    "Year": 1971,
+    "When": "1971-07-16",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "GB"
+    ],
+    "Countries_Production": [
+      "GB"
+    ],
+    "Genres": [
+      "Drama",
+      "History",
+      "Horror"
+    ],
+    "Studios": [
+      2157
+    ],
+    "Themes": [
+      37,
+      17,
+      11,
+      59,
+      40,
+      54,
+      14,
+      39
+    ],
+    "Nanogenres": [
+      4245,
+      4246,
+      4122,
+      2287,
+      4247,
+      4124,
+      940,
+      787,
+      4248,
+      1160
+    ],
+    "Cast": [
+      2943,
+      25256,
+      5294,
+      33067,
+      5933,
+      33068,
+      33069,
+      33070,
+      33071,
+      33072,
+      33073,
+      33074,
+      23798,
+      3034,
+      33075,
+      33076,
+      33077
+    ],
+    "Directors": [
+      33078
+    ],
+    "DiaryWatchedDate": "2025-09-05"
+  },
+  {
+    "Title": "House of Hummingbird",
+    "TitleOriginal": "\uBC8C\uC0C8",
+    "Language": "Korean",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 4.06,
+    "Minutes": 135,
+    "Watched": 38490,
+    "Fans": 1096,
+    "Likes": 14893,
+    "Id": "jZ8C",
+    "Poster": "/ugWlKFgLnv8W6MmRmk0jnaJUSra.jpg",
+    "Year": 2018,
+    "When": "2019-08-28",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "KR"
+    ],
+    "Countries_Production": [
+      "KR"
+    ],
+    "Genres": [
+      "Drama"
+    ],
+    "Studios": [
+      2158,
+      2159,
+      2160
+    ],
+    "Themes": [
+      5,
+      49,
+      97,
+      47,
+      48,
+      15
+    ],
+    "Nanogenres": [
+      3601,
+      4249,
+      2808,
+      3539,
+      1263,
+      2604,
+      4250,
+      377,
+      4159,
+      1386
+    ],
+    "Cast": [
+      33079,
+      33080,
+      33081,
+      33082,
+      33083,
+      33084,
+      33085,
+      33086,
+      33087,
+      33088,
+      33089,
+      33090,
+      33091,
+      33092,
+      33093
+    ],
+    "Directors": [
+      33094
+    ],
+    "DiaryWatchedDate": "2025-09-07"
+  },
+  {
+    "Title": "On Body and Soul",
+    "TitleOriginal": "Testr\u0151l \u00E9s l\u00E9lekr\u0151l",
+    "Language": "Hungarian",
+    "RatingSelf": 3.5,
+    "RatingLetterboxd": 3.76,
+    "Minutes": 116,
+    "Watched": 46912,
+    "Fans": 441,
+    "Likes": 12189,
+    "Id": "fu7A",
+    "Poster": "/uguWEoZelSSckxgiQctlkZ6gpfU.jpg",
+    "Year": 2017,
+    "When": "2017-03-02",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "HU"
+    ],
+    "Countries_Production": [
+      "HU"
+    ],
+    "Genres": [
+      "Drama",
+      "Romance",
+      "Fantasy"
+    ],
+    "Studios": [
+      2161
+    ],
+    "Themes": [
+      0,
+      2,
+      10,
+      85,
+      1,
+      54
+    ],
+    "Nanogenres": [
+      2,
+      1,
+      489,
+      1264,
+      1469,
+      8,
+      395,
+      396,
+      900,
+      898
+    ],
+    "Cast": [
+      33095,
+      33096,
+      33097,
+      33098,
+      33099,
+      33100,
+      33101,
+      33102,
+      33103,
+      33104,
+      33105,
+      33106
+    ],
+    "Directors": [
+      33107
+    ],
+    "DiaryWatchedDate": "2025-09-09"
   }
 ]
