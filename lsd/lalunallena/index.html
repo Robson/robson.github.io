@@ -127,6 +127,8 @@
                 &#9670;
             </div>
         </div>
+        <span class="displayer inline" onmousedown="javascript:showCollections()">Collection</span>
+        &#9670;
         <span class="displayer inline" onmousedown="javascript:showFilmsPerCountry()">Country</span>
         &#9670;
         <span class="displayer inline" onmousedown="javascript:showGenres()">Genre</span>
@@ -204,7 +206,7 @@
             &#9670;
             <span class="displayer inline ttt" data-tooltip="Unknown" onmousedown="javascript:showEntireCastUnknown()">U</span>
         </div>
-        <br/>
+        <br />
         <span class="displayer inline" onmousedown="javascript:showAge()">Age</span>
         &#9670;
         <span class="displayer inline" onmousedown="javascript:showPeopleCombinations()">Combinations</span>
@@ -261,6 +263,14 @@
 
         document.documentElement.style.setProperty('--primary-colour', '#EF3340');
         document.documentElement.style.setProperty('--secondary-colour', '#3199E0');
+
+        var dupe = [...films];
+        dupe = dupe.filter(a => a.Minutes >= 60 && a.Cast.length > 0);
+        //console.log(dupe.length);
+        dupe = dupe.sort((a, b) => a.Cast.length - b.Cast.length)
+
+        console.log(dupe.slice(0, 10))
+        console.log(dupe.slice(-10))
 
         ////////////////// FILTERING //////////////////
 
@@ -1701,6 +1711,99 @@
                 },
                 series: groups
             });
+        }
+
+        function showCollections() {
+
+            resetView(showCollections, $(event.target));
+
+            makeInfo('Note', 'Collections are only displayed if they have 2+ watched films.<br/>Ratings are only shown when all watched films are rated.');
+
+            createNewTable();
+
+            thead.append('<tr><th>Collection</th><th>Watched</th><th>Average Rating</th><th>&#x25AC;</th></tr>');
+
+            var collections = {}
+            for (var index in films) {
+                var film = films[index];
+                if (film.CollectionId) {
+                    if (!collections[film.CollectionId]) {
+                        collections[film.CollectionId] = { Name: film.CollectionName, Poster: film.CollectionPoster, Count: 0, RatingCount: 0, RatingTotal: 0, Films: [] }
+                    }
+                    collections[film.CollectionId].Count++;
+                    collections[film.CollectionId].Films.push(index);
+                    if (film.RatingSelf) {
+                        collections[film.CollectionId].RatingCount++;
+                        collections[film.CollectionId].RatingTotal += film.RatingSelf;
+                    }
+                }
+            }
+
+            var highestRating = 5;
+            for (var collection in collections) {
+                var rating = "";
+                if (collections[collection].RatingCount > 0) {
+                    rating = (collections[collection].RatingTotal / collections[collection].RatingCount).toFixed(1);
+                    highestRating = Math.max(rating, highestRating);
+                }
+            }
+
+            for (var collection in collections) {
+
+                if (collections[collection].Count > 1) {
+                    var rating = "";
+                    if (collections[collection].RatingCount == collections[collection].Count) {
+                        rating = (collections[collection].RatingTotal / collections[collection].RatingCount).toFixed(1);
+                    }
+                    var watchedPercent = (collections[collection].Count / films.length) * 100;
+                    var tooltipFilms = makeFilmListTooltip(collections[collection].Films);
+                    var tooltipPoster = '';
+                    if (collections[collection].Poster) {
+                        tooltipPoster = ' class="ttt" data-tooltip="<img class=\'studio\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + collections[collection].Poster + '\'>"';
+                    }
+
+                    tbody.append(
+                        '<tr>' +
+                        '<td' + tooltipPoster + '><a target="_blank" href="https://www.themoviedb.org/collection/' + collection + '">' + collections[collection].Name.replace(/ Collection$/, '') + '</a></td>' +
+                        '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltipFilms.join('<br>') + '">' + collections[collection].Count + '</td>' +
+                        '<td class="right ttt" data-tooltip="Based on ' + collections[collection].RatingCount + ' rated film(s)."><span>' + rating + '</span></td>' +
+                        '<td class="chart" data-value="' + rating + '"><span class="bar_container"><span class="bar" style="width:' + Math.round((rating / highestRating) * 100) + 'px">&nbsp;</span></span></td>' +
+                        '</tr>');
+                }
+            }
+
+            $.tablesorter.addParser({
+                id: 'data-value',
+                is: function () {
+                    return false;
+                },
+                format: function (s, table, cell) {
+                    return $(cell).attr('data-value') || s;
+                },
+                type: 'text'
+            });
+
+            $('#main').tablesorter({
+                widgets: ['columns'],
+                usNumberFormat: true,
+                sortReset: false,
+                sortRestart: false,
+                sortList: [[1, 1]],
+                headers: {
+                    0: { sortInitialOrder: 'asc' },
+                    1: { sortInitialOrder: 'desc' },
+                    2: { sortInitialOrder: 'desc' },
+                    3: { sortInitialOrder: 'desc', sorter: 'data-value' },
+                },
+                cssHeaderRow: "tablesorter-headerRow"
+            });
+
+            createTooltipTriggers();            
+
+            deactivateAll();
+            if (event) {
+                $(event.target).addClass('active');
+            }
         }
 
         function showFilmsPerCountry() {
@@ -3861,6 +3964,9 @@
             // some exclusions for films released way after filming
             directorAll = directorAll.filter(a => !films[a[1]].Title.startsWith("Alone in the Wilderness"))
             protagonistAll = protagonistAll.filter(a => !films[a[1]].Title.startsWith("Alone in the Wilderness"))
+
+            // some exclusions for films where it doesn't make sense
+            protagonistAll = protagonistAll.filter(a => !films[a[1]].Title.startsWith("The Arrival of a Train at La Ciotat"))
 
             createNewTable();
 

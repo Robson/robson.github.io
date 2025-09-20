@@ -65,6 +65,9 @@ var films = [
     "Directors": [
       14
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-12"
   },
   {
@@ -144,6 +147,9 @@ var films = [
     "Directors": [
       33
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -230,6 +236,9 @@ var films = [
     "Directors": [
       61
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-18"
   },
   {
@@ -271,6 +280,9 @@ var films = [
     "Directors": [
       63
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-14"
   },
   {
@@ -356,6 +368,9 @@ var films = [
     "Directors": [
       84
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -495,6 +510,9 @@ var films = [
     "Directors": [
       169
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -565,6 +583,9 @@ var films = [
     "Directors": [
       182
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -654,6 +675,9 @@ var films = [
     "Directors": [
       211
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -757,6 +781,9 @@ var films = [
     "Directors": [
       259
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -850,6 +877,9 @@ var films = [
     "Directors": [
       293
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -949,6 +979,9 @@ var films = [
     "Directors": [
       84
     ],
+    "CollectionName": "The Space Odyssey Series",
+    "CollectionPoster": "/bxQaNDuSLCllnMSQ0ZLg7e6HrMW.jpg",
+    "CollectionId": 4438,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -1037,6 +1070,9 @@ var films = [
     "Directors": [
       364
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -1139,6 +1175,9 @@ var films = [
     "Directors": [
       410
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -1241,6 +1280,9 @@ var films = [
     "Directors": [
       431
     ],
+    "CollectionName": "Jackass Collection",
+    "CollectionPoster": "/2gDWYaTZ1nqt2KSj95u4Y429IJl.jpg",
+    "CollectionId": 17178,
     "DiaryWatchedDate": "2022-01-01"
   },
   {
@@ -1334,6 +1376,9 @@ var films = [
     "Directors": [
       495
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -1447,6 +1492,9 @@ var films = [
     "Directors": [
       548
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -1625,6 +1673,9 @@ var films = [
     "Directors": [
       665
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-15"
   },
   {
@@ -1723,6 +1774,9 @@ var films = [
     "Directors": [
       707
     ],
+    "CollectionName": "Basic Instinct Collection",
+    "CollectionPoster": "/szxEKB9nFTkdaNyJHkxuZ1yWpax.jpg",
+    "CollectionId": 86336,
     "DiaryWatchedDate": null
   },
   {
@@ -1909,6 +1963,9 @@ var films = [
     "Directors": [
       834
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -2021,6 +2078,9 @@ var films = [
     "Directors": [
       885
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -2103,6 +2163,9 @@ var films = [
     "Directors": [
       910
     ],
+    "CollectionName": "Knives Out Collection",
+    "CollectionPoster": "/hAEATQo1enoasXMuSbeqw67E7N2.jpg",
+    "CollectionId": 722971,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -2172,6 +2235,9 @@ var films = [
     "Directors": [
       919
     ],
+    "CollectionName": "Borat Moviefilms Collection",
+    "CollectionPoster": "/pXYMPIw7fxX7qVrqT2haQlUxxf.jpg",
+    "CollectionId": 747168,
     "DiaryWatchedDate": null
   },
   {
@@ -2263,6 +2329,9 @@ var films = [
     "Directors": [
       951
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -2347,6 +2416,9 @@ var films = [
       974,
       975
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -2422,6 +2494,9 @@ var films = [
     "Directors": [
       991
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -2497,6 +2572,9 @@ var films = [
     "Directors": [
       1009
     ],
+    "CollectionName": "Texas Chainsaw Massacre Collection",
+    "CollectionPoster": "/hCyN9E7Vxe6LOZhYwiqJTb0u4No.jpg",
+    "CollectionId": 111751,
     "DiaryWatchedDate": null
   },
   {
@@ -2634,6 +2712,9 @@ var films = [
     "Directors": [
       1088
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -2738,6 +2819,9 @@ var films = [
     "Directors": [
       1134
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -2847,6 +2931,9 @@ var films = [
     "Directors": [
       1148
     ],
+    "CollectionName": "Scary Movie Collection",
+    "CollectionPoster": "/8ds74cRhyAza3WcDVT8rZycwSC9.jpg",
+    "CollectionId": 4246,
     "DiaryWatchedDate": null
   },
   {
@@ -2979,6 +3066,9 @@ var films = [
     "Directors": [
       293
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -3018,6 +3108,9 @@ var films = [
     "Directors": [
       1256
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-05"
   },
   {
@@ -3128,6 +3221,9 @@ var films = [
     "Directors": [
       1134
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -3221,6 +3317,9 @@ var films = [
     "Directors": [
       1331
     ],
+    "CollectionName": "Living Dead Collection",
+    "CollectionPoster": "/5tzYvD8a7M6YdGy37V5goRJXsMk.jpg",
+    "CollectionId": 261590,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -3370,6 +3469,9 @@ var films = [
     "Directors": [
       1284
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-22"
   },
   {
@@ -3439,6 +3541,9 @@ var films = [
     "Directors": [
       1433
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-09"
   },
   {
@@ -3519,6 +3624,9 @@ var films = [
     "Directors": [
       1452
     ],
+    "CollectionName": "Blade Runner Collection",
+    "CollectionPoster": "/qTcATCpiFDcgY8snQIfS2j0bFP7.jpg",
+    "CollectionId": 422837,
     "DiaryWatchedDate": "2024-07-08"
   },
   {
@@ -3651,6 +3759,9 @@ var films = [
     "Directors": [
       1523
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -3767,6 +3878,9 @@ var films = [
     "Directors": [
       1540
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -3822,6 +3936,9 @@ var films = [
     "Directors": [
       1599
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-12"
   },
   {
@@ -3900,6 +4017,9 @@ var films = [
     "Directors": [
       1622
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-07"
   },
   {
@@ -3967,6 +4087,9 @@ var films = [
     "Directors": [
       1634
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -4061,6 +4184,9 @@ var films = [
     "Directors": [
       1668
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -4134,6 +4260,9 @@ var films = [
     "Directors": [
       1691
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-23"
   },
   {
@@ -4241,6 +4370,9 @@ var films = [
     "Directors": [
       1739
     ],
+    "CollectionName": "Saw Collection",
+    "CollectionPoster": "/w0zPElyuA5q2kjdfa2FdNYeS5Io.jpg",
+    "CollectionId": 656,
     "DiaryWatchedDate": null
   },
   {
@@ -4317,6 +4449,9 @@ var films = [
     "Directors": [
       1758
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-24"
   },
   {
@@ -4416,6 +4551,9 @@ var films = [
     "Directors": [
       1796
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -4517,6 +4655,9 @@ var films = [
     "Directors": [
       834
     ],
+    "CollectionName": "Indiana Jones Collection",
+    "CollectionPoster": "/yJgGZ8YtSIUuTIwYBCs1TjcVrg4.jpg",
+    "CollectionId": 84,
     "DiaryWatchedDate": null
   },
   {
@@ -4559,6 +4700,9 @@ var films = [
     "Directors": [
       1845
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-30"
   },
   {
@@ -4663,6 +4807,9 @@ var films = [
     "Directors": [
       1134
     ],
+    "CollectionName": "Baby Driver Collection",
+    "CollectionPoster": "/iT2MoPGJ3arMUPEjTyTmi6C5ZFO.jpg",
+    "CollectionId": 726865,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -4736,6 +4883,9 @@ var films = [
       1901,
       1902
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-28"
   },
   {
@@ -4854,6 +5004,9 @@ var films = [
     "Directors": [
       1958
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -4954,6 +5107,9 @@ var films = [
     "Directors": [
       2003
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -5060,6 +5216,9 @@ var films = [
     "Directors": [
       2046
     ],
+    "CollectionName": "The Lord of the Rings Collection",
+    "CollectionPoster": "/qx5x7HRP0MrSBx6N3QJFXpMrbWB.jpg",
+    "CollectionId": 119,
     "DiaryWatchedDate": null
   },
   {
@@ -5207,6 +5366,9 @@ var films = [
     "Directors": [
       2130
     ],
+    "CollectionName": "Battle Royale Collection",
+    "CollectionPoster": "/wc1XDHwzEKlMpmvvsABLu4A8Sie.jpg",
+    "CollectionId": 16302,
     "DiaryWatchedDate": null
   },
   {
@@ -5310,6 +5472,9 @@ var films = [
     "Directors": [
       2175
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -5437,6 +5602,9 @@ var films = [
     "Directors": [
       2236
     ],
+    "CollectionName": "Joker Collection",
+    "CollectionPoster": "/cI4Ng3oX0CEJiY3wMxcfszQZbcI.jpg",
+    "CollectionId": 987044,
     "DiaryWatchedDate": null
   },
   {
@@ -5511,6 +5679,9 @@ var films = [
     "Directors": [
       2251
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-12"
   },
   {
@@ -5631,6 +5802,9 @@ var films = [
     "Directors": [
       2300
     ],
+    "CollectionName": "Lord of War Collection",
+    "CollectionPoster": "/ir4Vz6oqHu2geL2CZzWGgkeewUo.jpg",
+    "CollectionId": 1245317,
     "DiaryWatchedDate": null
   },
   {
@@ -5724,6 +5898,9 @@ var films = [
     "Directors": [
       2335
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -5793,6 +5970,9 @@ var films = [
     "Directors": [
       2345
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -5900,6 +6080,9 @@ var films = [
     "Directors": [
       2349
     ],
+    "CollectionName": "This Is Spinal Tap Collection",
+    "CollectionPoster": "/ij5mLlI143ERfTXN2OjUdUvzNzx.jpg",
+    "CollectionId": 975227,
     "DiaryWatchedDate": null
   },
   {
@@ -6017,6 +6200,9 @@ var films = [
     "Directors": [
       364
     ],
+    "CollectionName": "The Bourne Collection",
+    "CollectionPoster": "/q0ma8ozYaaol1IvdGjBvj3KllyL.jpg",
+    "CollectionId": 31562,
     "DiaryWatchedDate": null
   },
   {
@@ -6097,6 +6283,9 @@ var films = [
     "Directors": [
       2460
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -6210,6 +6399,9 @@ var films = [
     "Directors": [
       1452
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -6328,6 +6520,9 @@ var films = [
     "Directors": [
       259
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -6397,6 +6592,9 @@ var films = [
     "Directors": [
       2590
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-03"
   },
   {
@@ -6488,6 +6686,9 @@ var films = [
     "Directors": [
       2615
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -6558,6 +6759,9 @@ var films = [
     "Directors": [
       2633
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -6636,6 +6840,9 @@ var films = [
     "Directors": [
       2652
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-14"
   },
   {
@@ -6813,6 +7020,9 @@ var films = [
     "Directors": [
       2762
     ],
+    "CollectionName": "Independence Day Collection",
+    "CollectionPoster": "/AuBMbv3gSAdTaEIzcUySRETIauY.jpg",
+    "CollectionId": 304378,
     "DiaryWatchedDate": null
   },
   {
@@ -6923,6 +7133,9 @@ var films = [
     "Directors": [
       2812
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-28"
   },
   {
@@ -7035,6 +7248,9 @@ var films = [
     "Directors": [
       2869
     ],
+    "CollectionName": "Police Academy Collection",
+    "CollectionPoster": "/bkAGEWABTXnv511TAIQFGEv0v4T.jpg",
+    "CollectionId": 9338,
     "DiaryWatchedDate": null
   },
   {
@@ -7112,6 +7328,9 @@ var films = [
     "Directors": [
       2888
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-23"
   },
   {
@@ -7230,6 +7449,9 @@ var films = [
     "Directors": [
       951
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -7352,6 +7574,9 @@ var films = [
     "Directors": [
       2998
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -7421,6 +7646,9 @@ var films = [
     "Directors": [
       3010
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -7505,6 +7733,9 @@ var films = [
     "Directors": [
       3025
     ],
+    "CollectionName": "Gnomeo \u0026 Juliet Collection",
+    "CollectionPoster": "/wi7GqaMzxaCcbFMcZ0ZepsMYXrW.jpg",
+    "CollectionId": 493668,
     "DiaryWatchedDate": null
   },
   {
@@ -7581,6 +7812,9 @@ var films = [
     "Directors": [
       3030
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -7683,6 +7917,9 @@ var films = [
     "Directors": [
       3088
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -7777,6 +8014,9 @@ var films = [
     "Directors": [
       3122
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -7883,6 +8123,9 @@ var films = [
     "Directors": [
       3175
     ],
+    "CollectionName": "Magic Mike Collection",
+    "CollectionPoster": "/rHoc6Br9DUKxF7Gs7e9pTxmbTib.jpg",
+    "CollectionId": 328247,
     "DiaryWatchedDate": null
   },
   {
@@ -7971,6 +8214,9 @@ var films = [
     "Directors": [
       3204
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-06"
   },
   {
@@ -8055,6 +8301,9 @@ var films = [
     "Directors": [
       3230
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -8119,6 +8368,9 @@ var films = [
     "Directors": [
       3232
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-16"
   },
   {
@@ -8222,6 +8474,9 @@ var films = [
     "Directors": [
       3275
     ],
+    "CollectionName": "Back to the Future Collection",
+    "CollectionPoster": "/5Xsu2o5IsZRuuxCEVZ9nVve21FP.jpg",
+    "CollectionId": 264,
     "DiaryWatchedDate": null
   },
   {
@@ -8330,6 +8585,9 @@ var films = [
     "Directors": [
       3319
     ],
+    "CollectionName": "James Bond Collection",
+    "CollectionPoster": "/ofwSiqOFShhunAIYYdSMHMJQSx2.jpg",
+    "CollectionId": 645,
     "DiaryWatchedDate": null
   },
   {
@@ -8450,6 +8708,9 @@ var films = [
     "Directors": [
       834
     ],
+    "CollectionName": "Indiana Jones Collection",
+    "CollectionPoster": "/yJgGZ8YtSIUuTIwYBCs1TjcVrg4.jpg",
+    "CollectionId": 84,
     "DiaryWatchedDate": null
   },
   {
@@ -8551,6 +8812,9 @@ var films = [
     "Directors": [
       3420
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -8665,6 +8929,9 @@ var films = [
     "Directors": [
       3473
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -8732,6 +8999,9 @@ var films = [
     "Directors": [
       3487
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-28"
   },
   {
@@ -8821,6 +9091,9 @@ var films = [
     "Directors": [
       2349
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-17"
   },
   {
@@ -8932,6 +9205,9 @@ var films = [
     "Directors": [
       3560
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-19"
   },
   {
@@ -9067,6 +9343,9 @@ var films = [
       3629,
       3591
     ],
+    "CollectionName": "Sin City Collection",
+    "CollectionPoster": "/1L3JLTSUVjQjSXmq3yEoUy09aCp.jpg",
+    "CollectionId": 135179,
     "DiaryWatchedDate": null
   },
   {
@@ -9148,6 +9427,9 @@ var films = [
     "Directors": [
       3649
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-01"
   },
   {
@@ -9216,6 +9498,9 @@ var films = [
       3650,
       3651
     ],
+    "CollectionName": "Tickled Collection",
+    "CollectionPoster": "/aONU2PIhWr8UAfR0naDXss130Yd.jpg",
+    "CollectionId": 570184,
     "DiaryWatchedDate": null
   },
   {
@@ -9289,6 +9574,9 @@ var films = [
     "Directors": [
       3677
     ],
+    "CollectionName": "The Human Centipede Collection",
+    "CollectionPoster": "/mv0MySTqfXg2ndthOkBg6bGwlnk.jpg",
+    "CollectionId": 96671,
     "DiaryWatchedDate": null
   },
   {
@@ -9375,6 +9663,9 @@ var films = [
     "Directors": [
       3700
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -9455,6 +9746,9 @@ var films = [
     "Directors": [
       3720
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -9554,6 +9848,9 @@ var films = [
     "Directors": [
       3749
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -9632,6 +9929,9 @@ var films = [
     "Directors": [
       3766
     ],
+    "CollectionName": "Cruel Intentions Collection",
+    "CollectionPoster": "/uwiq4KPIYRT6yEDmlv5jkMByVO0.jpg",
+    "CollectionId": 52789,
     "DiaryWatchedDate": null
   },
   {
@@ -9750,6 +10050,9 @@ var films = [
     "Directors": [
       3830
     ],
+    "CollectionName": "Naked Gun Collection",
+    "CollectionPoster": "/fKv1i7M3ktWy2FrMa0nyigyXZjm.jpg",
+    "CollectionId": 37139,
     "DiaryWatchedDate": null
   },
   {
@@ -9820,6 +10123,9 @@ var films = [
     "Directors": [
       2349
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -9924,6 +10230,9 @@ var films = [
     "Directors": [
       3887
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -9978,6 +10287,9 @@ var films = [
     "Directors": [
       3899
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-20"
   },
   {
@@ -10022,6 +10334,9 @@ var films = [
     "Directors": [
       3907
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-20"
   },
   {
@@ -10175,6 +10490,9 @@ var films = [
     "Directors": [
       3995
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -10261,6 +10579,9 @@ var films = [
     "Directors": [
       4023
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-08"
   },
   {
@@ -10394,6 +10715,9 @@ var films = [
     "Directors": [
       4091
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-16"
   },
   {
@@ -10465,6 +10789,9 @@ var films = [
       4106,
       4107
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-08"
   },
   {
@@ -10549,6 +10876,9 @@ var films = [
     "Directors": [
       4131
     ],
+    "CollectionName": "Save the Last Dance Collection",
+    "CollectionPoster": "/ekXloANxR7da0r2h4Jam9dXndx6.jpg",
+    "CollectionId": 107469,
     "DiaryWatchedDate": null
   },
   {
@@ -10595,6 +10925,9 @@ var films = [
     "Directors": [
       4140
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-06"
   },
   {
@@ -10655,6 +10988,9 @@ var films = [
       4146,
       4147
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -10714,6 +11050,9 @@ var films = [
     "Directors": [
       4155
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-04"
   },
   {
@@ -10791,6 +11130,9 @@ var films = [
     "Directors": [
       4175
     ],
+    "CollectionName": "Halloween Collection",
+    "CollectionPoster": "/uCIMY95aqKEwIEwNuFq42UQkY9f.jpg",
+    "CollectionId": 91361,
     "DiaryWatchedDate": null
   },
   {
@@ -10906,6 +11248,9 @@ var films = [
     "Directors": [
       4225
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -11028,6 +11373,9 @@ var films = [
     "Directors": [
       4287
     ],
+    "CollectionName": "Home Alone Collection",
+    "CollectionPoster": "/zYPsleQJo1n1rBPlecJBRb3iwSO.jpg",
+    "CollectionId": 9888,
     "DiaryWatchedDate": null
   },
   {
@@ -11158,6 +11506,9 @@ var films = [
     "Directors": [
       3887
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -11260,6 +11611,9 @@ var films = [
     "Directors": [
       4399
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-25"
   },
   {
@@ -11375,6 +11729,9 @@ var films = [
     "Directors": [
       4458
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-10"
   },
   {
@@ -11457,6 +11814,9 @@ var films = [
     "Directors": [
       4483
     ],
+    "CollectionName": "The Exorcist Collection",
+    "CollectionPoster": "/1gw7RCYyRqginNo5D9PMPQQw7QB.jpg",
+    "CollectionId": 12263,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -11531,6 +11891,9 @@ var films = [
     "Directors": [
       4502
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-02"
   },
   {
@@ -11655,6 +12018,9 @@ var films = [
     "Directors": [
       4510
     ],
+    "CollectionName": "Sing Collection",
+    "CollectionPoster": "/xFOCVD2s5sAI210cFzGap1Ke0bj.jpg",
+    "CollectionId": 544670,
     "DiaryWatchedDate": null
   },
   {
@@ -11724,6 +12090,9 @@ var films = [
     "Directors": [
       4557
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -11822,6 +12191,9 @@ var films = [
     "Directors": [
       169
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -11906,6 +12278,9 @@ var films = [
     "Directors": [
       4618
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -12017,6 +12392,9 @@ var films = [
     "Directors": [
       4668
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -12086,6 +12464,9 @@ var films = [
     "Directors": [
       4682
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-26"
   },
   {
@@ -12165,6 +12546,9 @@ var films = [
     "Directors": [
       4699
     ],
+    "CollectionName": "Carrie Collection",
+    "CollectionPoster": "/5atZnoMxfDtEJbc1XpdYJLRLsRT.jpg",
+    "CollectionId": 257053,
     "DiaryWatchedDate": null
   },
   {
@@ -12215,6 +12599,9 @@ var films = [
     "Directors": [
       4711
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-16"
   },
   {
@@ -12307,6 +12694,9 @@ var films = [
     "Directors": [
       4742
     ],
+    "CollectionName": "Meet the Parents Collection",
+    "CollectionPoster": "/hwfaKtvNt3Xm03nJ3LiA7j3k6pw.jpg",
+    "CollectionId": 51509,
     "DiaryWatchedDate": null
   },
   {
@@ -12392,6 +12782,9 @@ var films = [
       4761,
       4762
     ],
+    "CollectionName": "The Lion King Collection",
+    "CollectionPoster": "/oG1heUs503GV6xBnFhgyYTGWm05.jpg",
+    "CollectionId": 94032,
     "DiaryWatchedDate": null
   },
   {
@@ -12461,6 +12854,9 @@ var films = [
     "Directors": [
       4781
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -12579,6 +12975,9 @@ var films = [
     "Directors": [
       4832
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -12686,6 +13085,9 @@ var films = [
       4834,
       4833
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -12770,6 +13172,9 @@ var films = [
     "Directors": [
       951
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -12879,6 +13284,9 @@ var films = [
     "Directors": [
       4948
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -12960,6 +13368,9 @@ var films = [
     "Directors": [
       4967
     ],
+    "CollectionName": "Wolf Creek Collection",
+    "CollectionPoster": "/1b5hJeNfzx8iYLlmVvW7oKnfyoy.jpg",
+    "CollectionId": 268098,
     "DiaryWatchedDate": null
   },
   {
@@ -13079,6 +13490,9 @@ var films = [
       4983,
       5017
     ],
+    "CollectionName": "Frozen Collection",
+    "CollectionPoster": "/13Op41T3cALJedrKqYPrlc3cIbO.jpg",
+    "CollectionId": 386382,
     "DiaryWatchedDate": "2024-10-21"
   },
   {
@@ -13171,6 +13585,9 @@ var films = [
     "Directors": [
       5053
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -13255,6 +13672,9 @@ var films = [
     "Directors": [
       5080
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-13"
   },
   {
@@ -13378,6 +13798,9 @@ var films = [
     "Directors": [
       5143
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -13441,6 +13864,9 @@ var films = [
     "Directors": [
       5168
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-01"
   },
   {
@@ -13533,6 +13959,9 @@ var films = [
     "Directors": [
       5203
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -13612,6 +14041,9 @@ var films = [
     "Directors": [
       5227
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -13692,6 +14124,9 @@ var films = [
     "Directors": [
       5250
     ],
+    "CollectionName": "Free Willy Collection",
+    "CollectionPoster": "/j7KmO3WHi33kIrihI4xASYHPOMV.jpg",
+    "CollectionId": 9328,
     "DiaryWatchedDate": null
   },
   {
@@ -13795,6 +14230,9 @@ var films = [
     "Directors": [
       5284
     ],
+    "CollectionName": "Freeway Collection",
+    "CollectionPoster": "/rSyeHAuJlfBppxNZr31xEWNI6kd.jpg",
+    "CollectionId": 355490,
     "DiaryWatchedDate": null
   },
   {
@@ -13902,6 +14340,9 @@ var films = [
     "Directors": [
       5325
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-17"
   },
   {
@@ -13939,6 +14380,9 @@ var films = [
       5326,
       5327
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -14021,6 +14465,9 @@ var films = [
     "Directors": [
       5349
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-27"
   },
   {
@@ -14095,6 +14542,9 @@ var films = [
     "Directors": [
       5367
     ],
+    "CollectionName": "Rosemary's Baby Collection",
+    "CollectionPoster": "/tgquGHSMEu4XgYzIulCI22Amx5g.jpg",
+    "CollectionId": 264338,
     "DiaryWatchedDate": "2024-09-28"
   },
   {
@@ -14204,6 +14654,9 @@ var films = [
     "Directors": [
       3887
     ],
+    "CollectionName": "Ghostbusters Collection",
+    "CollectionPoster": "/sctvCtE1M1rDF4f0W2fMrk2BrGB.jpg",
+    "CollectionId": 2980,
     "DiaryWatchedDate": null
   },
   {
@@ -14262,6 +14715,9 @@ var films = [
       5421,
       5422
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -14349,6 +14805,9 @@ var films = [
       5449,
       5440
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -14447,6 +14906,9 @@ var films = [
     "Directors": [
       5480
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -14562,6 +15024,9 @@ var films = [
     "Directors": [
       4287
     ],
+    "CollectionName": "Home Alone Collection",
+    "CollectionPoster": "/zYPsleQJo1n1rBPlecJBRb3iwSO.jpg",
+    "CollectionId": 9888,
     "DiaryWatchedDate": null
   },
   {
@@ -14694,6 +15159,9 @@ var films = [
     "Directors": [
       5555
     ],
+    "CollectionName": "USA: Land of Opportunities Collection",
+    "CollectionPoster": "/A4atgNoJJi1IK8AP2Bx4yzoXh6z.jpg",
+    "CollectionId": 1952,
     "DiaryWatchedDate": "2024-12-26"
   },
   {
@@ -14859,6 +15327,9 @@ var films = [
     "Directors": [
       5648
     ],
+    "CollectionName": "The Dark Knight Collection",
+    "CollectionPoster": "/ogyw5LTmL53dVxsppcy8Dlm30Fu.jpg",
+    "CollectionId": 263,
     "DiaryWatchedDate": null
   },
   {
@@ -14935,6 +15406,9 @@ var films = [
     "Directors": [
       4175
     ],
+    "CollectionName": "The Thing Collection",
+    "CollectionPoster": "/vnfxRM89Qav5d0fMluIwx1hKadc.jpg",
+    "CollectionId": 479888,
     "DiaryWatchedDate": "2022-01-01"
   },
   {
@@ -15036,6 +15510,9 @@ var films = [
     "Directors": [
       5692
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-03"
   },
   {
@@ -15097,6 +15574,9 @@ var films = [
     "Directors": [
       5708
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -15181,6 +15661,9 @@ var films = [
     "Directors": [
       5728
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -15252,6 +15735,9 @@ var films = [
     "Directors": [
       5742
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-15"
   },
   {
@@ -15307,6 +15793,9 @@ var films = [
     "Directors": [
       5761
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -15383,6 +15872,9 @@ var films = [
     "Directors": [
       5781
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -15460,6 +15952,9 @@ var films = [
     "Directors": [
       3899
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -15530,6 +16025,9 @@ var films = [
     "Directors": [
       5815
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-17"
   },
   {
@@ -15615,6 +16113,9 @@ var films = [
     "Directors": [
       5841
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-15"
   },
   {
@@ -15706,6 +16207,9 @@ var films = [
     "Directors": [
       5883
     ],
+    "CollectionName": "Rocky Collection",
+    "CollectionPoster": "/1hxPlyxoACYuO7kqeeed83LvJuN.jpg",
+    "CollectionId": 1575,
     "DiaryWatchedDate": null
   },
   {
@@ -15803,6 +16307,9 @@ var films = [
     "Directors": [
       5918
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -15918,6 +16425,9 @@ var films = [
     "Directors": [
       5967
     ],
+    "CollectionName": "Harry Potter Collection",
+    "CollectionPoster": "/s4hXqX1VyWMc2ctJRuNBDB7YNJ3.jpg",
+    "CollectionId": 1241,
     "DiaryWatchedDate": null
   },
   {
@@ -16008,6 +16518,9 @@ var films = [
     "Directors": [
       5648
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -16114,6 +16627,9 @@ var films = [
     "Directors": [
       6036
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -16187,6 +16703,9 @@ var films = [
     "Directors": [
       6046
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-29"
   },
   {
@@ -16282,6 +16801,9 @@ var films = [
     "Directors": [
       6077
     ],
+    "CollectionName": "James Bond Collection",
+    "CollectionPoster": "/ofwSiqOFShhunAIYYdSMHMJQSx2.jpg",
+    "CollectionId": 645,
     "DiaryWatchedDate": null
   },
   {
@@ -16392,6 +16914,9 @@ var films = [
     "Directors": [
       6130
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -16552,6 +17077,9 @@ var films = [
     "Directors": [
       5648
     ],
+    "CollectionName": "The Dark Knight Collection",
+    "CollectionPoster": "/ogyw5LTmL53dVxsppcy8Dlm30Fu.jpg",
+    "CollectionId": 263,
     "DiaryWatchedDate": null
   },
   {
@@ -16619,6 +17147,9 @@ var films = [
     "Directors": [
       6218
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -16729,6 +17260,9 @@ var films = [
     "Directors": [
       6275
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -16813,6 +17347,9 @@ var films = [
     "Directors": [
       6321
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -16921,6 +17458,9 @@ var films = [
     "Directors": [
       6359
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -16995,6 +17535,9 @@ var films = [
     "Directors": [
       6380
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-03"
   },
   {
@@ -17101,6 +17644,9 @@ var films = [
     "Directors": [
       6429
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -17176,6 +17722,9 @@ var films = [
     "Directors": [
       6453
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-18"
   },
   {
@@ -17254,6 +17803,9 @@ var films = [
     "Directors": [
       6472
     ],
+    "CollectionName": "The Trip Collection",
+    "CollectionPoster": "/6ATyIyUbtgI0napk5lFxh6lQTgF.jpg",
+    "CollectionId": 309300,
     "DiaryWatchedDate": null
   },
   {
@@ -17347,6 +17899,9 @@ var films = [
     "Directors": [
       6491
     ],
+    "CollectionName": "Tomb Raider Collection",
+    "CollectionPoster": "/sgaP4WtVlKzz8FIcjbkevOycJiq.jpg",
+    "CollectionId": 2467,
     "DiaryWatchedDate": null
   },
   {
@@ -17471,6 +18026,9 @@ var films = [
     "Directors": [
       6554
     ],
+    "CollectionName": "Mean Girls Collection",
+    "CollectionPoster": "/b0aOhsIeoDQoVhq0BuooXuMaVXI.jpg",
+    "CollectionId": 99606,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -17560,6 +18118,9 @@ var films = [
     "Directors": [
       6583
     ],
+    "CollectionName": "Fifty Shades Collection",
+    "CollectionPoster": "/29sMhnMJPHsbO2XHu35iQjk4eFR.jpg",
+    "CollectionId": 344830,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -17639,6 +18200,9 @@ var films = [
     "Directors": [
       6603
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-30"
   },
   {
@@ -17775,6 +18339,9 @@ var films = [
     "Directors": [
       6675
     ],
+    "CollectionName": "Die Hard Collection",
+    "CollectionPoster": "/fn3aXwADNC0nmJ51GYnkrOseVgB.jpg",
+    "CollectionId": 1570,
     "DiaryWatchedDate": null
   },
   {
@@ -17860,6 +18427,9 @@ var films = [
     "Directors": [
       6698
     ],
+    "CollectionName": "The Mummy Collection",
+    "CollectionPoster": "/x5ZQsM90h4jmvDelgbCwPjcOn1s.jpg",
+    "CollectionId": 1733,
     "DiaryWatchedDate": null
   },
   {
@@ -17958,6 +18528,9 @@ var films = [
     "Directors": [
       6728
     ],
+    "CollectionName": "Taken Collection",
+    "CollectionPoster": "/zcBtDhjYfmeHHRXtrFuGPsY0ybA.jpg",
+    "CollectionId": 135483,
     "DiaryWatchedDate": null
   },
   {
@@ -18002,6 +18575,9 @@ var films = [
     "Directors": [
       6733
     ],
+    "CollectionName": "All Boys and Girls Their Age",
+    "CollectionPoster": "/dSX7JK2BdiBaxJjgJf7UIze2DO1.jpg",
+    "CollectionId": 1241632,
     "DiaryWatchedDate": "2024-12-19"
   },
   {
@@ -18090,6 +18666,9 @@ var films = [
     "Directors": [
       6760
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -18149,6 +18728,9 @@ var films = [
     "Directors": [
       6768
     ],
+    "CollectionName": "Knock Down the House Collection",
+    "CollectionPoster": "/1z6V3tJpnM2J3B77BbfsX07CgUo.jpg",
+    "CollectionId": 1043060,
     "DiaryWatchedDate": "2024-10-01"
   },
   {
@@ -18261,6 +18843,9 @@ var films = [
     "Directors": [
       6817
     ],
+    "CollectionName": "Hitman Collection",
+    "CollectionPoster": "/w3OvPDw9JsNMg0ixhbGAtOiR5cY.jpg",
+    "CollectionId": 737031,
     "DiaryWatchedDate": null
   },
   {
@@ -18330,6 +18915,9 @@ var films = [
     "Directors": [
       6831
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -18420,6 +19008,9 @@ var films = [
     "Directors": [
       6857
     ],
+    "CollectionName": "Alien Collection",
+    "CollectionPoster": "/gWFHIY77cRVoBRGERwMHqpD27gc.jpg",
+    "CollectionId": 8091,
     "DiaryWatchedDate": null
   },
   {
@@ -18463,6 +19054,9 @@ var films = [
     "Directors": [
       6860
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-15"
   },
   {
@@ -18572,6 +19166,9 @@ var films = [
     "Directors": [
       6907
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -18657,6 +19254,9 @@ var films = [
     "Directors": [
       6931
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -18762,6 +19362,9 @@ var films = [
     "Directors": [
       6979
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-05"
   },
   {
@@ -18862,6 +19465,9 @@ var films = [
     "Directors": [
       7006
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -18968,6 +19574,9 @@ var films = [
     "Directors": [
       5370
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -19123,6 +19732,9 @@ var films = [
     "Directors": [
       7136
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -19226,6 +19838,9 @@ var films = [
     "Directors": [
       7178
     ],
+    "CollectionName": "Three Colors Collection",
+    "CollectionPoster": "/38JAJC57AbeqqwWj3D3Ltpql2mG.jpg",
+    "CollectionId": 131,
     "DiaryWatchedDate": "2024-09-25"
   },
   {
@@ -19317,6 +19932,9 @@ var films = [
     "Directors": [
       7204
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -19495,6 +20113,9 @@ var films = [
     "Directors": [
       834
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -19578,6 +20199,9 @@ var films = [
       7357,
       7358
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-07"
   },
   {
@@ -19666,6 +20290,9 @@ var films = [
     "Directors": [
       7381
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -19768,6 +20395,9 @@ var films = [
     "Directors": [
       1452
     ],
+    "CollectionName": "Prometheus Collection",
+    "CollectionPoster": "/ormwCxyrBJGQmuMfE6diUnZV12R.jpg",
+    "CollectionId": 135416,
     "DiaryWatchedDate": null
   },
   {
@@ -19879,6 +20509,9 @@ var films = [
     "Directors": [
       6979
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -19944,6 +20577,9 @@ var films = [
     "Directors": [
       7469
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -20061,6 +20697,9 @@ var films = [
     "Directors": [
       7525
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-30"
   },
   {
@@ -20147,6 +20786,9 @@ var films = [
     "Directors": [
       7550
     ],
+    "CollectionName": "My Big Fat Greek Wedding Collection",
+    "CollectionPoster": "/oalS0sTGzk2mgiAyOQ5iVR4juJC.jpg",
+    "CollectionId": 389767,
     "DiaryWatchedDate": null
   },
   {
@@ -20235,6 +20877,9 @@ var films = [
     "Directors": [
       7575
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -20303,6 +20948,9 @@ var films = [
       7603,
       7604
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-19"
   },
   {
@@ -20395,6 +21043,9 @@ var films = [
     "Directors": [
       364
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -20499,6 +21150,9 @@ var films = [
     "Directors": [
       7668
     ],
+    "CollectionName": "The Mask Collection",
+    "CollectionPoster": "/h0qeHjvUBb1J9J7fvRtVdfsy0qL.jpg",
+    "CollectionId": 43072,
     "DiaryWatchedDate": null
   },
   {
@@ -20640,6 +21294,9 @@ var films = [
     "Directors": [
       5648
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -20681,6 +21338,9 @@ var films = [
       7728,
       7731
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -20801,6 +21461,9 @@ var films = [
     "Directors": [
       951
     ],
+    "CollectionName": "Kill Bill Collection",
+    "CollectionPoster": "/tf1nUtw3LJGUGv1EFFi23iz6ngr.jpg",
+    "CollectionId": 2883,
     "DiaryWatchedDate": null
   },
   {
@@ -20872,6 +21535,9 @@ var films = [
     "Directors": [
       5648
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -20915,6 +21581,9 @@ var films = [
       7788,
       7784
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-10"
   },
   {
@@ -21045,6 +21714,9 @@ var films = [
     "Directors": [
       7853
     ],
+    "CollectionName": "Ocean's Collection",
+    "CollectionPoster": "/oHUHccvraYF8lYp6BxRoujRtH8Q.jpg",
+    "CollectionId": 304,
     "DiaryWatchedDate": null
   },
   {
@@ -21102,6 +21774,9 @@ var films = [
       7856
     ],
     "Directors": [],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -21201,6 +21876,9 @@ var films = [
     "Directors": [
       496
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -21298,6 +21976,9 @@ var films = [
     "Directors": [
       7927
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-25"
   },
   {
@@ -21407,6 +22088,9 @@ var films = [
     "Directors": [
       7972
     ],
+    "CollectionName": "Jack Reacher Collection",
+    "CollectionPoster": "/qtafXiYDUMKxzsssU41qWey5oiT.jpg",
+    "CollectionId": 403374,
     "DiaryWatchedDate": null
   },
   {
@@ -21547,6 +22231,9 @@ var films = [
     "Directors": [
       951
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -21646,6 +22333,9 @@ var films = [
     "Directors": [
       8057
     ],
+    "CollectionName": "28 Days/Weeks Later Collection",
+    "CollectionPoster": "/4AeGz1Jwnq6ky2kfLT95Tm8nEiw.jpg",
+    "CollectionId": 1565,
     "DiaryWatchedDate": null
   },
   {
@@ -21750,6 +22440,9 @@ var films = [
     "Directors": [
       5648
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -21835,6 +22528,9 @@ var films = [
     "Directors": [
       8114
     ],
+    "CollectionName": "Resident Evil Collection",
+    "CollectionPoster": "/bJXqRRb87ObiJZh8dKLFz6DO9TZ.jpg",
+    "CollectionId": 17255,
     "DiaryWatchedDate": null
   },
   {
@@ -21944,6 +22640,9 @@ var films = [
     "Directors": [
       8153
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -21983,6 +22682,9 @@ var films = [
     "Directors": [
       8154
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-24"
   },
   {
@@ -22143,6 +22845,9 @@ var films = [
     "Directors": [
       4519
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -22226,6 +22931,9 @@ var films = [
     "Directors": [
       8258
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-01"
   },
   {
@@ -22299,6 +23007,9 @@ var films = [
     "Directors": [
       8277
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -22369,6 +23080,9 @@ var films = [
     "Directors": [
       6046
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-23"
   },
   {
@@ -22457,6 +23171,9 @@ var films = [
     "Directors": [
       8309
     ],
+    "CollectionName": "John Wick Collection",
+    "CollectionPoster": "/sm7rZZivZm2NhJDucFf3gpfFdVt.jpg",
+    "CollectionId": 404609,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -22563,6 +23280,9 @@ var films = [
     "Directors": [
       8347
     ],
+    "CollectionName": "Men In Black Collection",
+    "CollectionPoster": "/rWcgZaoJ0nxTFRn0H6w9bdtoDUI.jpg",
+    "CollectionId": 86055,
     "DiaryWatchedDate": null
   },
   {
@@ -22655,6 +23375,9 @@ var films = [
     "Directors": [
       8370
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -22711,6 +23434,9 @@ var films = [
     "Directors": [
       8376
     ],
+    "CollectionName": "Food, Inc. Collection",
+    "CollectionPoster": "/hFp4d25pje0qSWYcHE9yHRoy6QH.jpg",
+    "CollectionId": 1318195,
     "DiaryWatchedDate": null
   },
   {
@@ -22844,6 +23570,9 @@ var films = [
     "Directors": [
       8439
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -22987,6 +23716,9 @@ var films = [
     "Directors": [
       8509
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -23043,6 +23775,9 @@ var films = [
     "Directors": [
       8510
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-26"
   },
   {
@@ -23084,6 +23819,9 @@ var films = [
     "Directors": [
       8516
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-05"
   },
   {
@@ -23150,6 +23888,9 @@ var films = [
     "Directors": [
       4502
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -23275,6 +24016,9 @@ var films = [
     "Directors": [
       7381
     ],
+    "CollectionName": "The Godfather Collection",
+    "CollectionPoster": "/zVb22YOMgljCEYbXlvCvEiN4VwT.jpg",
+    "CollectionId": 230,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -23350,6 +24094,9 @@ var films = [
     "Directors": [
       8601
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-09"
   },
   {
@@ -23456,6 +24203,9 @@ var films = [
     "Directors": [
       8637
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-26"
   },
   {
@@ -23543,6 +24293,9 @@ var films = [
     "Directors": [
       8661
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2022-01-01"
   },
   {
@@ -23609,6 +24362,9 @@ var films = [
     "Directors": [
       8671
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-27"
   },
   {
@@ -23665,6 +24421,9 @@ var films = [
       7728,
       8673
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -23708,6 +24467,9 @@ var films = [
       8678,
       8679
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-22"
   },
   {
@@ -23832,6 +24594,9 @@ var films = [
     "Directors": [
       8728
     ],
+    "CollectionName": "American Pie Collection",
+    "CollectionPoster": "/twY1eM88fu8CCGVtem5ItlrgeDA.jpg",
+    "CollectionId": 2806,
     "DiaryWatchedDate": null
   },
   {
@@ -23935,6 +24700,9 @@ var films = [
     "Directors": [
       6429
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -23990,6 +24758,9 @@ var films = [
     "Directors": [
       8779
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -24078,6 +24849,9 @@ var films = [
     "Directors": [
       8809
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-23"
   },
   {
@@ -24163,6 +24937,9 @@ var films = [
     "Directors": [
       8838
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-21"
   },
   {
@@ -24245,6 +25022,9 @@ var films = [
     "Directors": [
       8854
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -24321,6 +25101,9 @@ var films = [
     "Directors": [
       8873
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -24375,6 +25158,9 @@ var films = [
     "Directors": [
       8885
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-22"
   },
   {
@@ -24470,6 +25256,9 @@ var films = [
     "Directors": [
       834
     ],
+    "CollectionName": "Indiana Jones Collection",
+    "CollectionPoster": "/yJgGZ8YtSIUuTIwYBCs1TjcVrg4.jpg",
+    "CollectionId": 84,
     "DiaryWatchedDate": null
   },
   {
@@ -24536,6 +25325,9 @@ var films = [
     "Directors": [
       8927
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -24681,6 +25473,9 @@ var films = [
     "Directors": [
       5555
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -24759,6 +25554,9 @@ var films = [
     "Directors": [
       9000
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -24808,6 +25606,9 @@ var films = [
     "Directors": [
       9013
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-15"
   },
   {
@@ -24894,6 +25695,9 @@ var films = [
     "Directors": [
       9034
     ],
+    "CollectionName": "Casper Collection",
+    "CollectionPoster": "/nWKbJAOFwJlJm24dTovfQuUJOc2.jpg",
+    "CollectionId": 8819,
     "DiaryWatchedDate": null
   },
   {
@@ -25018,6 +25822,9 @@ var films = [
     "Directors": [
       9094
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -25150,6 +25957,9 @@ var films = [
     "Directors": [
       9160
     ],
+    "CollectionName": "Mamma Mia! Collection",
+    "CollectionPoster": "/xRbDA4Ys0Y2Bvbnme02fVBwMWFe.jpg",
+    "CollectionId": 458558,
     "DiaryWatchedDate": null
   },
   {
@@ -25307,6 +26117,9 @@ var films = [
     "Directors": [
       5967
     ],
+    "CollectionName": "Harry Potter Collection",
+    "CollectionPoster": "/s4hXqX1VyWMc2ctJRuNBDB7YNJ3.jpg",
+    "CollectionId": 1241,
     "DiaryWatchedDate": null
   },
   {
@@ -25371,6 +26184,9 @@ var films = [
     "Directors": [
       9219
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-27"
   },
   {
@@ -25410,6 +26226,9 @@ var films = [
     "Directors": [
       9222
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-21"
   },
   {
@@ -25506,6 +26325,9 @@ var films = [
     "Directors": [
       3275
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -25584,6 +26406,9 @@ var films = [
       9280,
       9281
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -25653,6 +26478,9 @@ var films = [
     "Directors": [
       9291
     ],
+    "CollectionName": "Borat Moviefilms Collection",
+    "CollectionPoster": "/pXYMPIw7fxX7qVrqT2haQlUxxf.jpg",
+    "CollectionId": 747168,
     "DiaryWatchedDate": null
   },
   {
@@ -25746,6 +26574,9 @@ var films = [
     "Directors": [
       9294
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-14"
   },
   {
@@ -25827,6 +26658,9 @@ var films = [
     "Directors": [
       4832
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -25937,6 +26771,9 @@ var films = [
     "Directors": [
       7927
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -26035,6 +26872,9 @@ var films = [
     "Directors": [
       9428
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -26102,6 +26942,9 @@ var films = [
     "Directors": [
       3487
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-27"
   },
   {
@@ -26184,6 +27027,9 @@ var films = [
     "Directors": [
       9457
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -26270,6 +27116,9 @@ var films = [
     "Directors": [
       9478
     ],
+    "CollectionName": "Jumanji Collection",
+    "CollectionPoster": "/eSvJHVibXoj0ghzmo8f3LD3DyD7.jpg",
+    "CollectionId": 495527,
     "DiaryWatchedDate": null
   },
   {
@@ -26375,6 +27224,9 @@ var films = [
     "Directors": [
       3629
     ],
+    "CollectionName": "From Dusk Till Dawn Collection",
+    "CollectionPoster": "/a156nAy5ZTGXlO5wgfvnF26aaDB.jpg",
+    "CollectionId": 10924,
     "DiaryWatchedDate": null
   },
   {
@@ -26500,6 +27352,9 @@ var films = [
     "Directors": [
       9560
     ],
+    "CollectionName": "Heat Collection",
+    "CollectionPoster": "/e7H6NLnhioMqOizYAqHmZyYxNID.jpg",
+    "CollectionId": 1048282,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -26614,6 +27469,9 @@ var films = [
     "Directors": [
       9617
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-18"
   },
   {
@@ -26698,6 +27556,9 @@ var films = [
     "Directors": [
       6133
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-17"
   },
   {
@@ -26902,6 +27763,9 @@ var films = [
     "Directors": [
       9637
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-16"
   },
   {
@@ -26968,6 +27832,9 @@ var films = [
     "Directors": [
       9789
     ],
+    "CollectionName": "Cube Collection",
+    "CollectionPoster": "/jnv92kJUH28wb61dhVjAbzhv5EX.jpg",
+    "CollectionId": 432,
     "DiaryWatchedDate": null
   },
   {
@@ -27056,6 +27923,9 @@ var films = [
     "Directors": [
       9820
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-21"
   },
   {
@@ -27151,6 +28021,9 @@ var films = [
     "Directors": [
       951
     ],
+    "CollectionName": "Kill Bill Collection",
+    "CollectionPoster": "/tf1nUtw3LJGUGv1EFFi23iz6ngr.jpg",
+    "CollectionId": 2883,
     "DiaryWatchedDate": null
   },
   {
@@ -27260,6 +28133,9 @@ var films = [
     "Directors": [
       1134
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-23"
   },
   {
@@ -27338,6 +28214,9 @@ var films = [
       2590,
       9885
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2022-01-01"
   },
   {
@@ -27449,6 +28328,9 @@ var films = [
     "Directors": [
       9938
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-23"
   },
   {
@@ -27585,6 +28467,9 @@ var films = [
     "Directors": [
       10000
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -27667,6 +28552,9 @@ var films = [
     "Directors": [
       10020
     ],
+    "CollectionName": "I Know What You Did Last Summer Collection",
+    "CollectionPoster": "/2g6Ui3CCNcDtL4wasCziivogpfW.jpg",
+    "CollectionId": 3601,
     "DiaryWatchedDate": null
   },
   {
@@ -27744,6 +28632,9 @@ var films = [
     "Directors": [
       10042
     ],
+    "CollectionName": "The Platform Collection",
+    "CollectionPoster": "/nhzz8k3Kh1roYdPvbryX3VtgLZN.jpg",
+    "CollectionId": 1126392,
     "DiaryWatchedDate": null
   },
   {
@@ -27787,6 +28678,9 @@ var films = [
     "Directors": [
       10043
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-20"
   },
   {
@@ -27873,6 +28767,9 @@ var films = [
     "Directors": [
       8661
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -28004,6 +28901,9 @@ var films = [
     "Directors": [
       4287
     ],
+    "CollectionName": "Harry Potter Collection",
+    "CollectionPoster": "/s4hXqX1VyWMc2ctJRuNBDB7YNJ3.jpg",
+    "CollectionId": 1241,
     "DiaryWatchedDate": null
   },
   {
@@ -28233,6 +29133,9 @@ var films = [
     "Directors": [
       4668
     ],
+    "CollectionName": "Barbie - Saga",
+    "CollectionPoster": "/de6PG3BUhpBpKLqWSKkvpKElacQ.jpg",
+    "CollectionId": 1402107,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -28336,6 +29239,9 @@ var films = [
     "Directors": [
       3275
     ],
+    "CollectionName": "Back to the Future Collection",
+    "CollectionPoster": "/78z0WMBzBWOnCsXWulihPJKCToL.jpg",
+    "CollectionId": 264,
     "DiaryWatchedDate": null
   },
   {
@@ -28437,6 +29343,9 @@ var films = [
       10349,
       10350
     ],
+    "CollectionName": "The Little Mermaid Collection",
+    "CollectionPoster": "/pYZPkQaoPGT2md3j90C4aqt7EHl.jpg",
+    "CollectionId": 33085,
     "DiaryWatchedDate": null
   },
   {
@@ -28518,6 +29427,9 @@ var films = [
     "Directors": [
       10371
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -28590,6 +29502,9 @@ var films = [
     "Directors": [
       10394
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-29"
   },
   {
@@ -28702,6 +29617,9 @@ var films = [
     "Directors": [
       1452
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -28774,6 +29692,9 @@ var films = [
     "Directors": [
       10443
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -28844,6 +29765,9 @@ var films = [
     "Directors": [
       10453
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-09"
   },
   {
@@ -28912,6 +29836,9 @@ var films = [
     "Directors": [
       3487
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-11"
   },
   {
@@ -29022,6 +29949,9 @@ var films = [
       10500,
       10501
     ],
+    "CollectionName": "Beauty and the Beast Collection",
+    "CollectionPoster": "/bSeNKX5JtMQOhC3arCHznIham2k.jpg",
+    "CollectionId": 153010,
     "DiaryWatchedDate": null
   },
   {
@@ -29144,6 +30074,9 @@ var films = [
     "Directors": [
       548
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -29229,6 +30162,9 @@ var films = [
     "Directors": [
       10581
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-10"
   },
   {
@@ -29325,6 +30261,9 @@ var films = [
     "Directors": [
       2046
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -29416,6 +30355,9 @@ var films = [
     "Directors": [
       10647
     ],
+    "CollectionName": "Johnny English Collection",
+    "CollectionPoster": "/4ICdnU5ieFquD2kIs9Mwt4NGZcR.jpg",
+    "CollectionId": 86117,
     "DiaryWatchedDate": null
   },
   {
@@ -29545,6 +30487,9 @@ var films = [
     "Directors": [
       84
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2022-01-01"
   },
   {
@@ -29663,6 +30608,9 @@ var films = [
     "Directors": [
       10757
     ],
+    "CollectionName": "Cruella Collection",
+    "CollectionPoster": "/lXiLDlf1AKOY6i0eOZ7gi7zLH2O.jpg",
+    "CollectionId": 837007,
     "DiaryWatchedDate": "2024-08-10"
   },
   {
@@ -29754,6 +30702,9 @@ var films = [
     "Directors": [
       10767
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -29866,6 +30817,9 @@ var films = [
     "Directors": [
       2175
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -29942,6 +30896,9 @@ var films = [
     "Directors": [
       9478
     ],
+    "CollectionName": "Jurassic Park Collection",
+    "CollectionPoster": "/qIm2nHXLpBBdMxi8dvfrnDkBUDh.jpg",
+    "CollectionId": 328,
     "DiaryWatchedDate": null
   },
   {
@@ -30031,6 +30988,9 @@ var films = [
     "Directors": [
       3629
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -30155,6 +31115,9 @@ var films = [
     "Directors": [
       6036
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -30249,6 +31212,9 @@ var films = [
     "Directors": [
       10932
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -30325,6 +31291,9 @@ var films = [
     "Directors": [
       3088
     ],
+    "CollectionName": "Call Me by Your Name Collection",
+    "CollectionPoster": "/94DW591sFWh6kcNyuiHMgRrllFi.jpg",
+    "CollectionId": 1401402,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -30397,6 +31366,9 @@ var films = [
     "Directors": [
       10951
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-26"
   },
   {
@@ -30492,6 +31464,9 @@ var films = [
     "Directors": [
       430
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -30568,6 +31543,9 @@ var films = [
     "Directors": [
       10995
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -30642,6 +31620,9 @@ var films = [
     "Directors": [
       11012
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -30738,6 +31719,9 @@ var films = [
     "Directors": [
       11053
     ],
+    "CollectionName": "Dracula (Universal) Collection",
+    "CollectionPoster": "/hIOe14I3uVsTJvu9obaXaAzo8ri.jpg",
+    "CollectionId": 221539,
     "DiaryWatchedDate": "2024-11-13"
   },
   {
@@ -30805,6 +31789,9 @@ var films = [
     "Directors": [
       11065
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-04"
   },
   {
@@ -30923,6 +31910,9 @@ var films = [
     "Directors": [
       7853
     ],
+    "CollectionName": "Ocean's Collection",
+    "CollectionPoster": "/oHUHccvraYF8lYp6BxRoujRtH8Q.jpg",
+    "CollectionId": 304,
     "DiaryWatchedDate": null
   },
   {
@@ -31030,6 +32020,9 @@ var films = [
     "Directors": [
       4287
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -31103,6 +32096,9 @@ var films = [
     "Directors": [
       11166
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-05"
   },
   {
@@ -31226,6 +32222,9 @@ var films = [
     "Directors": [
       11224
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -31348,6 +32347,9 @@ var films = [
     "Directors": [
       11258
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -31415,6 +32417,9 @@ var films = [
     "Directors": [
       11283
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-15"
   },
   {
@@ -31520,6 +32525,9 @@ var films = [
     "Directors": [
       11329
     ],
+    "CollectionName": "Grease Collection",
+    "CollectionPoster": "/62v1i4awvS1LZ9Eaqig9J5xZ6kC.jpg",
+    "CollectionId": 86083,
     "DiaryWatchedDate": null
   },
   {
@@ -31634,6 +32642,9 @@ var films = [
     "Directors": [
       11374
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -31712,6 +32723,9 @@ var films = [
     "Directors": [
       11391
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-06"
   },
   {
@@ -31798,6 +32812,9 @@ var films = [
     "Directors": [
       11408
     ],
+    "CollectionName": "James Bond Collection",
+    "CollectionPoster": "/ofwSiqOFShhunAIYYdSMHMJQSx2.jpg",
+    "CollectionId": 645,
     "DiaryWatchedDate": null
   },
   {
@@ -31878,6 +32895,9 @@ var films = [
     "Directors": [
       11420
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -31946,6 +32966,9 @@ var films = [
     "Directors": [
       11444
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2021-01-01"
   },
   {
@@ -32003,6 +33026,9 @@ var films = [
     "Directors": [
       11283
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-11"
   },
   {
@@ -32092,6 +33118,9 @@ var films = [
     "Directors": [
       11471
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -32192,6 +33221,9 @@ var films = [
     "Directors": [
       11514
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -32316,6 +33348,9 @@ var films = [
     "Directors": [
       11564
     ],
+    "CollectionName": "Babe Collection",
+    "CollectionPoster": "/mpR2iVU0huu4Pe2hnSMEDbCqoWt.jpg",
+    "CollectionId": 9435,
     "DiaryWatchedDate": null
   },
   {
@@ -32424,6 +33459,9 @@ var films = [
       11587,
       11590
     ],
+    "CollectionName": "The Angry Birds Collection",
+    "CollectionPoster": "/ehoZnL5usVagZOJ2VccmqZKa8in.jpg",
+    "CollectionId": 531315,
     "DiaryWatchedDate": null
   },
   {
@@ -32510,6 +33548,9 @@ var films = [
     "Directors": [
       11631
     ],
+    "CollectionName": "Final Destination Collection",
+    "CollectionPoster": "/ImnmSDVPK8Ds5LhVFdox6idAbN.jpg",
+    "CollectionId": 8864,
     "DiaryWatchedDate": null
   },
   {
@@ -32612,6 +33653,9 @@ var films = [
     "Directors": [
       2236
     ],
+    "CollectionName": "The Hangover Collection",
+    "CollectionPoster": "/x8D6HXhmvdtPhM219J5Rc6ESagr.jpg",
+    "CollectionId": 86119,
     "DiaryWatchedDate": null
   },
   {
@@ -32712,6 +33756,9 @@ var films = [
     "Directors": [
       11700
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -32772,6 +33819,9 @@ var films = [
       11706,
       11707
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -32848,6 +33898,9 @@ var films = [
     "Directors": [
       11723
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-30"
   },
   {
@@ -32941,6 +33994,9 @@ var films = [
     "Directors": [
       11748
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-24"
   },
   {
@@ -33031,6 +34087,9 @@ var films = [
     "Directors": [
       10757
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-02"
   },
   {
@@ -33113,6 +34172,9 @@ var films = [
     "Directors": [
       84
     ],
+    "CollectionName": "The Shining Collection",
+    "CollectionPoster": "/iic9YD6zyz2mWIoHVaFy34N0MxX.jpg",
+    "CollectionId": 530064,
     "DiaryWatchedDate": null
   },
   {
@@ -33207,6 +34269,9 @@ var films = [
     "Directors": [
       11823
     ],
+    "CollectionName": "The Vampire Chronicles Collection",
+    "CollectionPoster": "/4Ai3rwZq2jQKuffYG0jLKoaQbQ5.jpg",
+    "CollectionId": 217704,
     "DiaryWatchedDate": null
   },
   {
@@ -33341,6 +34406,9 @@ var films = [
     "Directors": [
       11884
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -33410,6 +34478,9 @@ var films = [
     "Directors": [
       10443
     ],
+    "CollectionName": "The Fly (1986) Collection",
+    "CollectionPoster": "/r6mRcDV2MIbDQ79JpeGls5DnDfr.jpg",
+    "CollectionId": 109609,
     "DiaryWatchedDate": "2024-06-29"
   },
   {
@@ -33484,6 +34555,9 @@ var films = [
     "Directors": [
       11712
     ],
+    "CollectionName": "Single White Female Collection",
+    "CollectionPoster": "/w5GFkSMCE3GBnPL9ivP5qTLbdp2.jpg",
+    "CollectionId": 338282,
     "DiaryWatchedDate": null
   },
   {
@@ -33599,6 +34673,9 @@ var films = [
     "Directors": [
       11959
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-20"
   },
   {
@@ -33729,6 +34806,9 @@ var films = [
     "Directors": [
       5967
     ],
+    "CollectionName": "Harry Potter Collection",
+    "CollectionPoster": "/s4hXqX1VyWMc2ctJRuNBDB7YNJ3.jpg",
+    "CollectionId": 1241,
     "DiaryWatchedDate": null
   },
   {
@@ -33853,6 +34933,9 @@ var films = [
     "Directors": [
       6857
     ],
+    "CollectionName": "Avatar Collection",
+    "CollectionPoster": "/3C5brXxnBxfkeKWwA1Fh4xvy4wr.jpg",
+    "CollectionId": 87096,
     "DiaryWatchedDate": null
   },
   {
@@ -33929,6 +35012,9 @@ var films = [
     "Directors": [
       12055
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -34023,6 +35109,9 @@ var films = [
     "Directors": [
       12089
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -34098,6 +35187,9 @@ var films = [
     "Directors": [
       12109
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -34189,6 +35281,9 @@ var films = [
     "Directors": [
       12127
     ],
+    "CollectionName": "The Trolls Collection",
+    "CollectionPoster": "/i4aII37O184x7K3dC7fpF9CAfS4.jpg",
+    "CollectionId": 489724,
     "DiaryWatchedDate": null
   },
   {
@@ -34282,6 +35377,9 @@ var films = [
     "Directors": [
       4225
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-29"
   },
   {
@@ -34341,6 +35439,9 @@ var films = [
     "Directors": [
       12175
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-16"
   },
   {
@@ -34430,6 +35531,9 @@ var films = [
     "Directors": [
       12193
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -34501,6 +35605,9 @@ var films = [
     "Directors": [
       4502
     ],
+    "CollectionName": "Psycho Collection",
+    "CollectionPoster": "/2cFhmOImIv5VPbc2ieLRPCFacAh.jpg",
+    "CollectionId": 119674,
     "DiaryWatchedDate": null
   },
   {
@@ -34586,6 +35693,9 @@ var films = [
     "Directors": [
       12228
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -34686,6 +35796,9 @@ var films = [
     "Directors": [
       12252
     ],
+    "CollectionName": "James Bond Collection",
+    "CollectionPoster": "/ofwSiqOFShhunAIYYdSMHMJQSx2.jpg",
+    "CollectionId": 645,
     "DiaryWatchedDate": null
   },
   {
@@ -34862,6 +35975,9 @@ var films = [
     "Directors": [
       9560
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -34946,6 +36062,9 @@ var films = [
       12376,
       12377
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -35016,6 +36135,9 @@ var films = [
     "Directors": [
       12387
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -35091,6 +36213,9 @@ var films = [
     "Directors": [
       6675
     ],
+    "CollectionName": "Predator Collection",
+    "CollectionPoster": "/mm2t5dd1QFxtX6X56Z9U5ucsIb1.jpg",
+    "CollectionId": 399,
     "DiaryWatchedDate": null
   },
   {
@@ -35242,6 +36367,9 @@ var films = [
     "Directors": [
       12431
     ],
+    "CollectionName": "Naked Gun Collection",
+    "CollectionPoster": "/fKv1i7M3ktWy2FrMa0nyigyXZjm.jpg",
+    "CollectionId": 37139,
     "DiaryWatchedDate": null
   },
   {
@@ -35333,6 +36461,9 @@ var films = [
     "Directors": [
       12490
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-20"
   },
   {
@@ -35409,6 +36540,9 @@ var films = [
     "Directors": [
       12499
     ],
+    "CollectionName": "Saw Collection",
+    "CollectionPoster": "/w0zPElyuA5q2kjdfa2FdNYeS5Io.jpg",
+    "CollectionId": 656,
     "DiaryWatchedDate": null
   },
   {
@@ -35496,6 +36630,9 @@ var films = [
     "Directors": [
       12523
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -35577,6 +36714,9 @@ var films = [
     "Directors": [
       1452
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -35641,6 +36781,9 @@ var films = [
       12542,
       12543
     ],
+    "CollectionName": "Blair Witch Collection",
+    "CollectionPoster": "/rkud6YJeLvNr0l7wJKXRIrLs1v0.jpg",
+    "CollectionId": 64750,
     "DiaryWatchedDate": null
   },
   {
@@ -35750,6 +36893,9 @@ var films = [
     "Directors": [
       12585
     ],
+    "CollectionName": "Downton Abbey Collection",
+    "CollectionPoster": "/d7WcrOsGWkJYAgaZWy00luZBcjf.jpg",
+    "CollectionId": 925006,
     "DiaryWatchedDate": null
   },
   {
@@ -35873,6 +37019,9 @@ var films = [
     "Directors": [
       12592
     ],
+    "CollectionName": "Finding Nemo Collection",
+    "CollectionPoster": "/cCovtlN16ykvyFYnzKyv3dFtceG.jpg",
+    "CollectionId": 137697,
     "DiaryWatchedDate": null
   },
   {
@@ -35908,6 +37057,9 @@ var films = [
       12629
     ],
     "Directors": [],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-10"
   },
   {
@@ -35987,6 +37139,9 @@ var films = [
       11707,
       11701
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-28"
   },
   {
@@ -36064,6 +37219,9 @@ var films = [
     "Directors": [
       12664
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -36192,6 +37350,9 @@ var films = [
     "Directors": [
       12698
     ],
+    "CollectionName": "Harry Potter Collection",
+    "CollectionPoster": "/s4hXqX1VyWMc2ctJRuNBDB7YNJ3.jpg",
+    "CollectionId": 1241,
     "DiaryWatchedDate": null
   },
   {
@@ -36353,6 +37514,9 @@ var films = [
     "Directors": [
       6857
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -36440,6 +37604,9 @@ var films = [
     "Directors": [
       293
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -36525,6 +37692,9 @@ var films = [
     "Directors": [
       12822
     ],
+    "CollectionName": "Rosemary's Baby Collection",
+    "CollectionPoster": "/tgquGHSMEu4XgYzIulCI22Amx5g.jpg",
+    "CollectionId": 264338,
     "DiaryWatchedDate": "2024-12-09"
   },
   {
@@ -36601,6 +37771,9 @@ var films = [
     "Directors": [
       12841
     ],
+    "CollectionName": "The Descent Collection",
+    "CollectionPoster": "/nKF0faDJsoALc70tptEoQsQsIUq.jpg",
+    "CollectionId": 87258,
     "DiaryWatchedDate": null
   },
   {
@@ -36667,6 +37840,9 @@ var films = [
     "Directors": [
       1452
     ],
+    "CollectionName": "Alien Collection",
+    "CollectionPoster": "/gWFHIY77cRVoBRGERwMHqpD27gc.jpg",
+    "CollectionId": 8091,
     "DiaryWatchedDate": null
   },
   {
@@ -36739,6 +37915,9 @@ var films = [
     "Directors": [
       12853
     ],
+    "CollectionName": "Moon Collection",
+    "CollectionPoster": "/ikkishXF69cEiOKo7sklHiM0IHW.jpg",
+    "CollectionId": 995464,
     "DiaryWatchedDate": null
   },
   {
@@ -36826,6 +38005,9 @@ var films = [
     "Directors": [
       834
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -36878,6 +38060,9 @@ var films = [
     "Directors": [
       12888
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-21"
   },
   {
@@ -36960,6 +38145,9 @@ var films = [
     "Directors": [
       12914
     ],
+    "CollectionName": "American Psycho Collection",
+    "CollectionPoster": "/ko4O9lcRGYOZAF5Hh79Mfsgjpun.jpg",
+    "CollectionId": 86105,
     "DiaryWatchedDate": null
   },
   {
@@ -37077,6 +38265,9 @@ var films = [
     "Directors": [
       12970
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -37169,6 +38360,9 @@ var films = [
     "Directors": [
       834
     ],
+    "CollectionName": "Indiana Jones Collection",
+    "CollectionPoster": "/yJgGZ8YtSIUuTIwYBCs1TjcVrg4.jpg",
+    "CollectionId": 84,
     "DiaryWatchedDate": null
   },
   {
@@ -37267,6 +38461,9 @@ var films = [
     "Directors": [
       13028
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-07-25"
   },
   {
@@ -37316,6 +38513,9 @@ var films = [
     "Directors": [
       13039
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-23"
   },
   {
@@ -37467,6 +38667,9 @@ var films = [
     "Directors": [
       13103
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -37586,6 +38789,9 @@ var films = [
     "Directors": [
       13155
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -37684,6 +38890,9 @@ var films = [
     "Directors": [
       13156
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -37796,6 +39005,9 @@ var films = [
     "Directors": [
       4948
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -37871,6 +39083,9 @@ var films = [
     "Directors": [
       13231
     ],
+    "CollectionName": "Texas Chainsaw (Reboot) Collection",
+    "CollectionPoster": "/jfdKA3QK5kxdOKsolXvK0roYb27.jpg",
+    "CollectionId": 425175,
     "DiaryWatchedDate": null
   },
   {
@@ -37953,6 +39168,9 @@ var films = [
     "Directors": [
       13252
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-05"
   },
   {
@@ -38045,6 +39263,9 @@ var films = [
     "Directors": [
       3560
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -38158,6 +39379,9 @@ var films = [
     "Directors": [
       259
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -38243,6 +39467,9 @@ var films = [
     "Directors": [
       13335
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -38363,6 +39590,9 @@ var films = [
     "Directors": [
       13384
     ],
+    "CollectionName": "Planet of the Apes (Reboot) Collection",
+    "CollectionPoster": "/afGkMC4HF0YtXYNkyfCgTDLFe6m.jpg",
+    "CollectionId": 173710,
     "DiaryWatchedDate": null
   },
   {
@@ -38452,6 +39682,9 @@ var films = [
     "Directors": [
       4091
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -38532,6 +39765,9 @@ var films = [
     "Directors": [
       13429
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-17"
   },
   {
@@ -38613,6 +39849,9 @@ var films = [
     "Directors": [
       13450
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -38696,6 +39935,9 @@ var films = [
     "Directors": [
       13473
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -38770,6 +40012,9 @@ var films = [
     "Directors": [
       13474
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -38879,6 +40124,9 @@ var films = [
     "Directors": [
       13539
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -38992,6 +40240,9 @@ var films = [
     "Directors": [
       13584
     ],
+    "CollectionName": "Speed Collection",
+    "CollectionPoster": "/o0eZDtoeMSxQbT3hjPtF0qSDJU0.jpg",
+    "CollectionId": 43064,
     "DiaryWatchedDate": null
   },
   {
@@ -39054,6 +40305,9 @@ var films = [
     "Directors": [
       13609
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-30"
   },
   {
@@ -39134,6 +40388,9 @@ var films = [
     "Directors": [
       13624
     ],
+    "CollectionName": "Jeepers Creepers Collection",
+    "CollectionPoster": "/2qyn3GJXqLP54fbWazRGvsnkmAA.jpg",
+    "CollectionId": 94899,
     "DiaryWatchedDate": null
   },
   {
@@ -39171,6 +40428,9 @@ var films = [
     "Directors": [
       13625
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -39250,6 +40510,9 @@ var films = [
     "Directors": [
       13649
     ],
+    "CollectionName": "Carry On Collection",
+    "CollectionPoster": "/yabeL7PLxqEI9W5VSnqEf51YJHR.jpg",
+    "CollectionId": 918027,
     "DiaryWatchedDate": null
   },
   {
@@ -39316,6 +40579,9 @@ var films = [
     "Directors": [
       13678
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-22"
   },
   {
@@ -39430,6 +40696,9 @@ var films = [
     "Directors": [
       13584
     ],
+    "CollectionName": "Speed Collection",
+    "CollectionPoster": "/o0eZDtoeMSxQbT3hjPtF0qSDJU0.jpg",
+    "CollectionId": 43064,
     "DiaryWatchedDate": null
   },
   {
@@ -39534,6 +40803,9 @@ var films = [
     "Directors": [
       1452
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -39640,6 +40912,9 @@ var films = [
     "Directors": [
       4225
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -39715,6 +40990,9 @@ var films = [
     "Directors": [
       834
     ],
+    "CollectionName": "Jaws Collection",
+    "CollectionPoster": "/fgraZdDCvAtBr0MHczmL6raonHd.jpg",
+    "CollectionId": 2366,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -39815,6 +41093,9 @@ var films = [
     "Directors": [
       13817
     ],
+    "CollectionName": "The Terminator Collection",
+    "CollectionPoster": "/kpZxdNsAV7qTdTLwKM5NLqa7GEo.jpg",
+    "CollectionId": 528,
     "DiaryWatchedDate": null
   },
   {
@@ -39884,6 +41165,9 @@ var films = [
     "Directors": [
       431
     ],
+    "CollectionName": "Jackass Presents: Bad Grandpa Collection",
+    "CollectionPoster": "/j9zptJrVChVyDDXkhkD20MuOyvk.jpg",
+    "CollectionId": 989621,
     "DiaryWatchedDate": null
   },
   {
@@ -39978,6 +41262,9 @@ var films = [
     "Directors": [
       13858
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -40048,6 +41335,9 @@ var films = [
     "Directors": [
       13868
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-12"
   },
   {
@@ -40090,6 +41380,9 @@ var films = [
       13877
     ],
     "Directors": [],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -40178,6 +41471,9 @@ var films = [
     "Directors": [
       6857
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -40256,6 +41552,9 @@ var films = [
     "Directors": [
       1739
     ],
+    "CollectionName": "Saw Collection",
+    "CollectionPoster": "/w0zPElyuA5q2kjdfa2FdNYeS5Io.jpg",
+    "CollectionId": 656,
     "DiaryWatchedDate": null
   },
   {
@@ -40343,6 +41642,9 @@ var films = [
     "Directors": [
       3995
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-19"
   },
   {
@@ -40556,6 +41858,9 @@ var films = [
     "Directors": [
       14080
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -40659,6 +41964,9 @@ var films = [
     "Directors": [
       9617
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -40767,6 +42075,9 @@ var films = [
     "Directors": [
       14167
     ],
+    "CollectionName": "Annie Collection",
+    "CollectionPoster": "/jAv0XNYOlYJgXA0wup4prM0QrqH.jpg",
+    "CollectionId": 312735,
     "DiaryWatchedDate": null
   },
   {
@@ -40835,6 +42146,9 @@ var films = [
     "Directors": [
       4502
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -40933,6 +42247,9 @@ var films = [
     "Directors": [
       14204
     ],
+    "CollectionName": "The Jack Ryan Collection",
+    "CollectionPoster": "/d7EOckuJ5EXmiAxb3RDAqdVjPhL.jpg",
+    "CollectionId": 192492,
     "DiaryWatchedDate": null
   },
   {
@@ -41003,6 +42320,9 @@ var films = [
     "Directors": [
       14212
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-07"
   },
   {
@@ -41123,6 +42443,9 @@ var films = [
     "Directors": [
       3842
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -41184,6 +42507,9 @@ var films = [
       14276,
       14277
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -41282,6 +42608,9 @@ var films = [
     "Directors": [
       14309
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -41348,6 +42677,9 @@ var films = [
     "Directors": [
       6733
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-19"
   },
   {
@@ -41455,6 +42787,9 @@ var films = [
     "Directors": [
       14353
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -41559,6 +42894,9 @@ var films = [
     "Directors": [
       6857
     ],
+    "CollectionName": "The Terminator Collection",
+    "CollectionPoster": "/kpZxdNsAV7qTdTLwKM5NLqa7GEo.jpg",
+    "CollectionId": 528,
     "DiaryWatchedDate": null
   },
   {
@@ -41659,6 +42997,9 @@ var films = [
     "Directors": [
       14420
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -41734,6 +43075,9 @@ var films = [
     "Directors": [
       1433
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-09"
   },
   {
@@ -41774,6 +43118,9 @@ var films = [
     "Directors": [
       14438
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -41904,6 +43251,9 @@ var films = [
     "Directors": [
       14505
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -41970,6 +43320,9 @@ var films = [
     "Directors": [
       14517
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -42049,6 +43402,9 @@ var films = [
     "Directors": [
       2615
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -42153,6 +43509,9 @@ var films = [
     "Directors": [
       1088
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-12"
   },
   {
@@ -42234,6 +43593,9 @@ var films = [
     "Directors": [
       14587
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -42274,6 +43636,9 @@ var films = [
       8673,
       7728
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -42409,6 +43774,9 @@ var films = [
     "Directors": [
       14643
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -42478,6 +43846,9 @@ var films = [
     "Directors": [
       14653
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -42563,6 +43934,9 @@ var films = [
       14668,
       14669
     ],
+    "CollectionName": "Shrek Collection",
+    "CollectionPoster": "/qNHZMe92A7Pyl46qUH29hVOtbSK.jpg",
+    "CollectionId": 2150,
     "DiaryWatchedDate": null
   },
   {
@@ -42685,6 +44059,9 @@ var films = [
     "Directors": [
       6328
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -42750,6 +44127,9 @@ var films = [
     "Directors": [
       14733
     ],
+    "CollectionName": "The Man from Earth Collection",
+    "CollectionPoster": "/8qkYt13q4VDT0y8n0Ioew2AssFJ.jpg",
+    "CollectionId": 464270,
     "DiaryWatchedDate": null
   },
   {
@@ -42822,6 +44202,9 @@ var films = [
       14739,
       14740
     ],
+    "CollectionName": "Chicken Run Collection",
+    "CollectionPoster": "/rn3ZedQ6AfA60xG2WDe8FRIW29G.jpg",
+    "CollectionId": 718551,
     "DiaryWatchedDate": null
   },
   {
@@ -42937,6 +44320,9 @@ var films = [
     "Directors": [
       14787
     ],
+    "CollectionName": "Hancock Collection",
+    "CollectionPoster": "/m45N15UdEOspbe9rCCvGGGoCnLs.jpg",
+    "CollectionId": 1036499,
     "DiaryWatchedDate": null
   },
   {
@@ -43032,6 +44418,9 @@ var films = [
     "Directors": [
       6931
     ],
+    "CollectionName": "The Twilight Collection",
+    "CollectionPoster": "/aKAX2HO5V94JYeSIkOMFNlRI71E.jpg",
+    "CollectionId": 33514,
     "DiaryWatchedDate": null
   },
   {
@@ -43134,6 +44523,9 @@ var films = [
     "Directors": [
       293
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -43299,6 +44691,9 @@ var films = [
     "Directors": [
       14955
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-01"
   },
   {
@@ -43388,6 +44783,9 @@ var films = [
     "Directors": [
       14309
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -43477,6 +44875,9 @@ var films = [
     "Directors": [
       4023
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -43568,6 +44969,9 @@ var films = [
     "Directors": [
       13817
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -43678,6 +45082,9 @@ var films = [
     "Directors": [
       11884
     ],
+    "CollectionName": "Harry Potter Collection",
+    "CollectionPoster": "/s4hXqX1VyWMc2ctJRuNBDB7YNJ3.jpg",
+    "CollectionId": 1241,
     "DiaryWatchedDate": null
   },
   {
@@ -43743,6 +45150,9 @@ var films = [
     "Directors": [
       15050
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-28"
   },
   {
@@ -43862,6 +45272,9 @@ var films = [
     "Directors": [
       6979
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-29"
   },
   {
@@ -43920,6 +45333,9 @@ var films = [
       15103,
       11706
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -43991,6 +45407,9 @@ var films = [
       10350,
       10349
     ],
+    "CollectionName": "Moana Collection",
+    "CollectionPoster": "/wuU5y8Jd5GWVcf71uv1nyoNkgwR.jpg",
+    "CollectionId": 1241984,
     "DiaryWatchedDate": null
   },
   {
@@ -44077,6 +45496,9 @@ var films = [
     "Directors": [
       3720
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-27"
   },
   {
@@ -44160,6 +45582,9 @@ var films = [
     "Directors": [
       15147
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -44280,6 +45705,9 @@ var films = [
     "Directors": [
       14955
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -44402,6 +45830,9 @@ var films = [
       3830,
       15210
     ],
+    "CollectionName": "Airplane Collection",
+    "CollectionPoster": "/z8sLmmkXgRmFp36Rr6Bnq8jygPi.jpg",
+    "CollectionId": 91663,
     "DiaryWatchedDate": null
   },
   {
@@ -44486,6 +45917,9 @@ var films = [
     "Directors": [
       15274
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -44624,6 +46058,9 @@ var films = [
     "Directors": [
       293
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -44765,6 +46202,9 @@ var films = [
       1901,
       1902
     ],
+    "CollectionName": "The Matrix Collection",
+    "CollectionPoster": "/bV9qTVHTVf0gkW0j7p7M0ILD4pG.jpg",
+    "CollectionId": 2344,
     "DiaryWatchedDate": null
   },
   {
@@ -44832,6 +46272,9 @@ var films = [
     "Directors": [
       15415
     ],
+    "CollectionName": "The Invisible Man Collection",
+    "CollectionPoster": "/kjBHCCs2SfZgsLDA7oRBzpDMJFA.jpg",
+    "CollectionId": 259401,
     "DiaryWatchedDate": "2024-06-30"
   },
   {
@@ -44940,6 +46383,9 @@ var films = [
     "Directors": [
       15465
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -44984,6 +46430,9 @@ var films = [
       8673,
       7728
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -45077,6 +46526,9 @@ var films = [
     "Directors": [
       15504
     ],
+    "CollectionName": "Ring Collection",
+    "CollectionPoster": "/biJHrhd2pm2ppOYg3XD7MFQjkcI.jpg",
+    "CollectionId": 93369,
     "DiaryWatchedDate": null
   },
   {
@@ -45139,6 +46591,9 @@ var films = [
     "Directors": [
       6733
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-05"
   },
   {
@@ -45202,6 +46657,9 @@ var films = [
       15514,
       15515
     ],
+    "CollectionName": "The Yes Men Collection",
+    "CollectionPoster": "",
+    "CollectionId": 475520,
     "DiaryWatchedDate": null
   },
   {
@@ -45379,6 +46837,9 @@ var films = [
     "Directors": [
       15610
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -45547,6 +47008,9 @@ var films = [
     "Directors": [
       11374
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -45636,6 +47100,9 @@ var films = [
     "Directors": [
       15719
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -45705,6 +47172,9 @@ var films = [
     "Directors": [
       15723
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -45799,6 +47269,9 @@ var films = [
     "Directors": [
       15753
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-26"
   },
   {
@@ -45886,6 +47359,9 @@ var films = [
     "Directors": [
       14739
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -45984,6 +47460,9 @@ var films = [
     "Directors": [
       1796
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -46089,6 +47568,9 @@ var films = [
     "Directors": [
       8439
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -46232,6 +47714,9 @@ var films = [
     "Directors": [
       15885
     ],
+    "CollectionName": "Die Hard Collection",
+    "CollectionPoster": "/fn3aXwADNC0nmJ51GYnkrOseVgB.jpg",
+    "CollectionId": 1570,
     "DiaryWatchedDate": null
   },
   {
@@ -46325,6 +47810,9 @@ var films = [
     "Directors": [
       15903
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -46431,6 +47919,9 @@ var films = [
     "Directors": [
       951
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -46536,6 +48027,9 @@ var films = [
     "Directors": [
       15974
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-13"
   },
   {
@@ -46654,6 +48148,9 @@ var films = [
     "Directors": [
       6675
     ],
+    "CollectionName": "Die Hard Collection",
+    "CollectionPoster": "/fn3aXwADNC0nmJ51GYnkrOseVgB.jpg",
+    "CollectionId": 1570,
     "DiaryWatchedDate": null
   },
   {
@@ -46731,6 +48228,9 @@ var films = [
     "Directors": [
       16044
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-01"
   },
   {
@@ -46837,6 +48337,9 @@ var films = [
     "Directors": [
       12698
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -46922,6 +48425,9 @@ var films = [
     "Directors": [
       11712
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -47002,6 +48508,9 @@ var films = [
     "Directors": [
       16111
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -47132,6 +48641,9 @@ var films = [
     "Directors": [
       169
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -47235,6 +48747,9 @@ var films = [
     "Directors": [
       16210
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -47332,6 +48847,9 @@ var films = [
     "Directors": [
       12855
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -47425,6 +48943,9 @@ var films = [
     "Directors": [
       16263
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -47473,6 +48994,9 @@ var films = [
     "Directors": [
       16271
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -47578,6 +49102,9 @@ var films = [
     "Directors": [
       16294
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -47932,6 +49459,9 @@ var films = [
     "Directors": [
       10649
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-03"
   },
   {
@@ -48044,6 +49574,9 @@ var films = [
     "Directors": [
       2046
     ],
+    "CollectionName": "The Lord of the Rings Collection",
+    "CollectionPoster": "/oENY593nKRVL2PnxXsMtlh8izb4.jpg",
+    "CollectionId": 119,
     "DiaryWatchedDate": null
   },
   {
@@ -48144,6 +49677,9 @@ var films = [
     "Directors": [
       16639
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -48245,6 +49781,9 @@ var films = [
     "Directors": [
       16682
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -48314,6 +49853,9 @@ var films = [
     "Directors": [
       16690
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -48401,6 +49943,9 @@ var films = [
     "Directors": [
       16713
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-24"
   },
   {
@@ -48491,6 +50036,9 @@ var films = [
     "Directors": [
       16752
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-15"
   },
   {
@@ -48555,6 +50103,9 @@ var films = [
     "Directors": [
       16754
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -48641,6 +50192,9 @@ var films = [
     "Directors": [
       16765
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -48679,6 +50233,9 @@ var films = [
       16768,
       16769
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -48745,6 +50302,9 @@ var films = [
     "Directors": [
       16773
     ],
+    "CollectionName": "Zombieland Collection",
+    "CollectionPoster": "/kifmrcyyf8mPpV32uvBKekh2U8P.jpg",
+    "CollectionId": 537982,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -48788,6 +50348,9 @@ var films = [
     "Directors": [
       16778
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-20"
   },
   {
@@ -48864,6 +50427,9 @@ var films = [
     "Directors": [
       16794
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-11"
   },
   {
@@ -48941,6 +50507,9 @@ var films = [
     "Directors": [
       16802
     ],
+    "CollectionName": "Ice Age Collection",
+    "CollectionPoster": "/stQoHvo0q6ZcEkji2Z1wlAxKnDq.jpg",
+    "CollectionId": 8354,
     "DiaryWatchedDate": null
   },
   {
@@ -49072,6 +50641,9 @@ var films = [
     "Directors": [
       410
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-28"
   },
   {
@@ -49196,6 +50768,9 @@ var films = [
     "Directors": [
       12592
     ],
+    "CollectionName": "Finding Nemo Collection",
+    "CollectionPoster": "/cCovtlN16ykvyFYnzKyv3dFtceG.jpg",
+    "CollectionId": 137697,
     "DiaryWatchedDate": null
   },
   {
@@ -49296,6 +50871,9 @@ var films = [
     "Directors": [
       16930
     ],
+    "CollectionName": "James Bond Collection",
+    "CollectionPoster": "/ofwSiqOFShhunAIYYdSMHMJQSx2.jpg",
+    "CollectionId": 645,
     "DiaryWatchedDate": null
   },
   {
@@ -49393,6 +50971,9 @@ var films = [
     "Directors": [
       495
     ],
+    "CollectionName": "National Treasure Collection",
+    "CollectionPoster": "/sqchrT0VqLdi1j2JyhVR2CNGMny.jpg",
+    "CollectionId": 52984,
     "DiaryWatchedDate": null
   },
   {
@@ -49470,6 +51051,9 @@ var films = [
     "Directors": [
       16963
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -49574,6 +51158,9 @@ var films = [
     "Directors": [
       17004
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -49668,6 +51255,9 @@ var films = [
     "Directors": [
       17043
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -49814,6 +51404,9 @@ var films = [
     "Directors": [
       834
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -49909,6 +51502,9 @@ var films = [
     "Directors": [
       17004
     ],
+    "CollectionName": "28 Days/Weeks Later Collection",
+    "CollectionPoster": "/4AeGz1Jwnq6ky2kfLT95Tm8nEiw.jpg",
+    "CollectionId": 1565,
     "DiaryWatchedDate": null
   },
   {
@@ -49998,6 +51594,9 @@ var films = [
     "Directors": [
       17146
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -50123,6 +51722,9 @@ var films = [
     "Directors": [
       17205
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-13"
   },
   {
@@ -50183,6 +51785,9 @@ var films = [
     "Directors": [
       14212
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-21"
   },
   {
@@ -50280,6 +51885,9 @@ var films = [
     "Directors": [
       3649
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -50384,6 +51992,9 @@ var films = [
     "Directors": [
       4699
     ],
+    "CollectionName": "Mission: Impossible Collection",
+    "CollectionPoster": "/geEjCGfdmRAA1skBPwojcdvnZ8A.jpg",
+    "CollectionId": 87359,
     "DiaryWatchedDate": null
   },
   {
@@ -50465,6 +52076,9 @@ var films = [
     "Directors": [
       4458
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-26"
   },
   {
@@ -50531,6 +52145,9 @@ var films = [
     "Directors": [
       17306
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-20"
   },
   {
@@ -50607,6 +52224,9 @@ var films = [
     "Directors": [
       834
     ],
+    "CollectionName": "Jurassic Park Collection",
+    "CollectionPoster": "/qIm2nHXLpBBdMxi8dvfrnDkBUDh.jpg",
+    "CollectionId": 328,
     "DiaryWatchedDate": null
   },
   {
@@ -50690,6 +52310,9 @@ var films = [
     "Directors": [
       17343
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -50763,6 +52386,9 @@ var films = [
     "Directors": [
       17360
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-16"
   },
   {
@@ -50871,6 +52497,9 @@ var films = [
     "Directors": [
       17398
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -51010,6 +52639,9 @@ var films = [
     "Directors": [
       5367
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -51108,6 +52740,9 @@ var films = [
     "Directors": [
       17493
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -51209,6 +52844,9 @@ var films = [
     "Directors": [
       8153
     ],
+    "CollectionName": "The Hunger Games Collection",
+    "CollectionPoster": "/fPer2U4uQT1dkXTUWODDaLECWoW.jpg",
+    "CollectionId": 131635,
     "DiaryWatchedDate": null
   },
   {
@@ -51267,6 +52905,9 @@ var films = [
     "Directors": [
       1284
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -51416,6 +53057,9 @@ var films = [
     "Directors": [
       951
     ],
+    "CollectionName": "Once Upon a Time... in Hollywood Collection",
+    "CollectionPoster": "",
+    "CollectionId": 1458846,
     "DiaryWatchedDate": null
   },
   {
@@ -51472,6 +53116,9 @@ var films = [
     "Directors": [
       17604
     ],
+    "CollectionName": "Bambi Collection",
+    "CollectionPoster": "/b941y7oiWBXJZaoWemW4exlpDxf.jpg",
+    "CollectionId": 87250,
     "DiaryWatchedDate": null
   },
   {
@@ -51557,6 +53204,9 @@ var films = [
     "Directors": [
       17628
     ],
+    "CollectionName": "Stir of Echoes Collection",
+    "CollectionPoster": "/yc1GIxZCFZC3hzqoWaZEC1YTcWJ.jpg",
+    "CollectionId": 143757,
     "DiaryWatchedDate": null
   },
   {
@@ -51643,6 +53293,9 @@ var films = [
     "Directors": [
       17650
     ],
+    "CollectionName": "Ghost Rider Collection",
+    "CollectionPoster": "/feaMFCuO6ToJ6fd4kkTTg2xuAyc.jpg",
+    "CollectionId": 90306,
     "DiaryWatchedDate": null
   },
   {
@@ -51736,6 +53389,9 @@ var films = [
     "Directors": [
       17686
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -51807,6 +53463,9 @@ var films = [
     "Directors": [
       17718
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-26"
   },
   {
@@ -51889,6 +53548,9 @@ var films = [
     "Directors": [
       17739
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-11"
   },
   {
@@ -51967,6 +53629,9 @@ var films = [
     "Directors": [
       17755
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-17"
   },
   {
@@ -52047,6 +53712,9 @@ var films = [
     "Directors": [
       17771
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-02"
   },
   {
@@ -52109,6 +53777,9 @@ var films = [
     "Directors": [
       17775
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -52203,6 +53874,9 @@ var films = [
     "Directors": [
       2003
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -52294,6 +53968,9 @@ var films = [
     "Directors": [
       3088
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -52361,6 +54038,9 @@ var films = [
     "Directors": [
       17843
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -52480,6 +54160,9 @@ var films = [
     "Directors": [
       17888
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -52568,6 +54251,9 @@ var films = [
     "Directors": [
       885
     ],
+    "CollectionName": "Mission: Impossible Collection",
+    "CollectionPoster": "/geEjCGfdmRAA1skBPwojcdvnZ8A.jpg",
+    "CollectionId": 87359,
     "DiaryWatchedDate": null
   },
   {
@@ -52699,6 +54385,9 @@ var films = [
     "Directors": [
       5325
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-01"
   },
   {
@@ -52772,6 +54461,9 @@ var films = [
     "Directors": [
       17043
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -52865,6 +54557,9 @@ var films = [
     "Directors": [
       17888
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2022-01-01"
   },
   {
@@ -53038,6 +54733,9 @@ var films = [
     "Directors": [
       7853
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -53113,6 +54811,9 @@ var films = [
     "Directors": [
       18078
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-20"
   },
   {
@@ -53226,6 +54927,9 @@ var films = [
     "Directors": [
       16752
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-15"
   },
   {
@@ -53319,6 +55023,9 @@ var films = [
     "Directors": [
       11514
     ],
+    "CollectionName": "Tracy Flick Collection",
+    "CollectionPoster": "/mPxw92OAY78rZ4b0wFUZZsPL89o.jpg",
+    "CollectionId": 1059494,
     "DiaryWatchedDate": null
   },
   {
@@ -53435,6 +55142,9 @@ var films = [
     "Directors": [
       18213
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -53582,6 +55292,9 @@ var films = [
     "Directors": [
       15258
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -53654,6 +55367,9 @@ var films = [
     "Directors": [
       18281
     ],
+    "CollectionName": "Super Size Me Collection",
+    "CollectionPoster": "/wM9tgozmt7iBACxFeLvzaDZY81A.jpg",
+    "CollectionId": 475802,
     "DiaryWatchedDate": null
   },
   {
@@ -53704,6 +55420,9 @@ var films = [
     "Directors": [
       11723
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-22"
   },
   {
@@ -53830,6 +55549,9 @@ var films = [
     "Directors": [
       18359
     ],
+    "CollectionName": "Miss Congeniality Collection",
+    "CollectionPoster": "/wgQWsSsvB1iu1Pwc4nUP9E5bRzs.jpg",
+    "CollectionId": 93220,
     "DiaryWatchedDate": null
   },
   {
@@ -53992,6 +55714,9 @@ var films = [
     "Directors": [
       18452
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -54110,6 +55835,9 @@ var films = [
     "Directors": [
       18481
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -54241,6 +55969,9 @@ var films = [
     "Directors": [
       5449
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -54312,6 +56043,9 @@ var films = [
     "Directors": [
       18575
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -54365,6 +56099,9 @@ var films = [
     "Directors": [
       18576
     ],
+    "CollectionName": "The Snowman Collection",
+    "CollectionPoster": "/6aXK0aNsG90vLrXhMPO5EL8XTgZ.jpg",
+    "CollectionId": 394204,
     "DiaryWatchedDate": null
   },
   {
@@ -54450,6 +56187,9 @@ var films = [
     "Directors": [
       17004
     ],
+    "CollectionName": "Trainspotting Collection",
+    "CollectionPoster": "/6W9nyZ3Daq4zHkfTRIzNgWg6ai6.jpg",
+    "CollectionId": 424202,
     "DiaryWatchedDate": null
   },
   {
@@ -54551,6 +56291,9 @@ var films = [
       18626,
       18627
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -54661,6 +56404,9 @@ var films = [
     "Directors": [
       12458
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -54724,6 +56470,9 @@ var films = [
     "Directors": [
       18673
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-27"
   },
   {
@@ -54879,6 +56628,9 @@ var films = [
     "Directors": [
       259
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -54934,6 +56686,9 @@ var films = [
     "Directors": [
       10581
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-21"
   },
   {
@@ -54998,6 +56753,9 @@ var films = [
     "Directors": [
       18775
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-17"
   },
   {
@@ -55083,6 +56841,9 @@ var films = [
     "Directors": [
       18802
     ],
+    "CollectionName": "The Fast and the Furious Collection",
+    "CollectionPoster": "/zOCnMPoUxgJK1RFPfN4PcnT16gr.jpg",
+    "CollectionId": 9485,
     "DiaryWatchedDate": null
   },
   {
@@ -55123,6 +56884,9 @@ var films = [
       18804,
       18805
     ],
+    "CollectionName": "The Dick Proenneke Collection",
+    "CollectionPoster": "/1DypZPiwJyhLpPQUQtOwd9SSpWC.jpg",
+    "CollectionId": 129293,
     "DiaryWatchedDate": null
   },
   {
@@ -55243,6 +57007,9 @@ var films = [
     "Directors": [
       18856
     ],
+    "CollectionName": "Mad Max Collection",
+    "CollectionPoster": "/tRxkZboyyXnFgCthoViWBwISZ0r.jpg",
+    "CollectionId": 8945,
     "DiaryWatchedDate": null
   },
   {
@@ -55342,6 +57109,9 @@ var films = [
     "Directors": [
       2003
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -55446,6 +57216,9 @@ var films = [
     "Directors": [
       18919
     ],
+    "CollectionName": "Die Hard Collection",
+    "CollectionPoster": "/fn3aXwADNC0nmJ51GYnkrOseVgB.jpg",
+    "CollectionId": 1570,
     "DiaryWatchedDate": null
   },
   {
@@ -55530,6 +57303,9 @@ var films = [
     "Directors": [
       6218
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -55603,6 +57379,9 @@ var films = [
     "Directors": [
       18942
     ],
+    "CollectionName": "Anaconda Collection",
+    "CollectionPoster": "/gR294O1fIIeU5mK6eGTPVmrTNlv.jpg",
+    "CollectionId": 105995,
     "DiaryWatchedDate": null
   },
   {
@@ -55689,6 +57468,9 @@ var films = [
     "Directors": [
       18943
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -55782,6 +57564,9 @@ var films = [
     "Directors": [
       19011
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -55843,6 +57628,9 @@ var films = [
     "Directors": [
       19020
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -55921,6 +57709,9 @@ var films = [
     "Directors": [
       19021
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -56019,6 +57810,9 @@ var films = [
     "Directors": [
       6979
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-22"
   },
   {
@@ -56120,6 +57914,9 @@ var films = [
     "Directors": [
       19112
     ],
+    "CollectionName": "Final Destination Collection",
+    "CollectionPoster": "/ImnmSDVPK8Ds5LhVFdox6idAbN.jpg",
+    "CollectionId": 8864,
     "DiaryWatchedDate": null
   },
   {
@@ -56227,6 +58024,9 @@ var films = [
     "Directors": [
       19136
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -56421,6 +58221,9 @@ var films = [
     "Directors": [
       19257
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -56510,6 +58313,9 @@ var films = [
     "Directors": [
       19286
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -56548,6 +58354,9 @@ var films = [
       19287,
       19288
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-02"
   },
   {
@@ -56644,6 +58453,9 @@ var films = [
     "Directors": [
       19313
     ],
+    "CollectionName": "Mr. Bean Collection",
+    "CollectionPoster": "/61Jcc1Gwc2KE7sIJ1HPqqdt67ji.jpg",
+    "CollectionId": 103372,
     "DiaryWatchedDate": null
   },
   {
@@ -56732,6 +58544,9 @@ var films = [
     "Directors": [
       19335
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -56861,6 +58676,9 @@ var films = [
     "Directors": [
       9035
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -56955,6 +58773,9 @@ var films = [
     "Directors": [
       19431
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-18"
   },
   {
@@ -56992,6 +58813,9 @@ var films = [
     "Directors": [
       19433
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -57097,6 +58921,9 @@ var films = [
     "Directors": [
       19472
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -57207,6 +59034,9 @@ var films = [
     "Directors": [
       4225
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -57271,6 +59101,9 @@ var films = [
     "Directors": [
       19500
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -57369,6 +59202,9 @@ var films = [
     "Directors": [
       11417
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -57462,6 +59298,9 @@ var films = [
     "Directors": [
       2615
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -57532,6 +59371,9 @@ var films = [
     "Directors": [
       19558
     ],
+    "CollectionName": "X Collection",
+    "CollectionPoster": "/1a828eAhYwYw1bcLvjotDCSTnqI.jpg",
+    "CollectionId": 950289,
     "DiaryWatchedDate": "2024-08-02"
   },
   {
@@ -57641,6 +59483,9 @@ var films = [
     "Directors": [
       1668
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -57718,6 +59563,9 @@ var films = [
     "Directors": [
       19613
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -57787,6 +59635,9 @@ var films = [
     "Directors": [
       5168
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-11"
   },
   {
@@ -57936,6 +59787,9 @@ var films = [
     "Directors": [
       19711
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -58071,6 +59925,9 @@ var films = [
     "Directors": [
       834
     ],
+    "CollectionName": "Ready Player One Collection",
+    "CollectionPoster": "/luItdCLp37s84YAijXKfOIBINWP.jpg",
+    "CollectionId": 1258362,
     "DiaryWatchedDate": null
   },
   {
@@ -58174,6 +60031,9 @@ var films = [
     "Directors": [
       19804
     ],
+    "CollectionName": "Johnny English Collection",
+    "CollectionPoster": "/4ICdnU5ieFquD2kIs9Mwt4NGZcR.jpg",
+    "CollectionId": 86117,
     "DiaryWatchedDate": null
   },
   {
@@ -58279,6 +60139,9 @@ var films = [
     "Directors": [
       4287
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -58351,6 +60214,9 @@ var films = [
     "Directors": [
       4502
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -58447,6 +60313,9 @@ var films = [
     "Directors": [
       19887
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -58501,6 +60370,9 @@ var films = [
     "Directors": [
       19902
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -58536,6 +60408,9 @@ var films = [
     "Directors": [
       8516
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -58628,6 +60503,9 @@ var films = [
     "Directors": [
       19919
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -58690,6 +60568,9 @@ var films = [
     "Directors": [
       19924
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-01"
   },
   {
@@ -58762,6 +60643,9 @@ var films = [
     "Directors": [
       19939
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -58861,6 +60745,9 @@ var films = [
     "Directors": [
       19980
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-24"
   },
   {
@@ -58947,6 +60834,9 @@ var films = [
       19993,
       19994
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -59069,6 +60959,9 @@ var films = [
     "Directors": [
       15719
     ],
+    "CollectionName": "Scream Collection",
+    "CollectionPoster": "/p3EjClFy20jjT0u06dzBs4lvvhi.jpg",
+    "CollectionId": 2602,
     "DiaryWatchedDate": null
   },
   {
@@ -59151,6 +61044,9 @@ var films = [
     "Directors": [
       899
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -59262,6 +61158,9 @@ var films = [
     "Directors": [
       19499
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -59318,6 +61217,9 @@ var films = [
     "Directors": [
       20086
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -59419,6 +61321,9 @@ var films = [
     "Directors": [
       20123
     ],
+    "CollectionName": "Top Gun Collection",
+    "CollectionPoster": "/wtpIx0Gsra1IGHH8af5kNK90Xy8.jpg",
+    "CollectionId": 531330,
     "DiaryWatchedDate": null
   },
   {
@@ -59499,6 +61404,9 @@ var films = [
     "Directors": [
       3028
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-14"
   },
   {
@@ -59556,6 +61464,9 @@ var films = [
     "Directors": [
       20129
     ],
+    "CollectionName": "The Snowman Collection",
+    "CollectionPoster": "/6aXK0aNsG90vLrXhMPO5EL8XTgZ.jpg",
+    "CollectionId": 394204,
     "DiaryWatchedDate": null
   },
   {
@@ -59654,6 +61565,9 @@ var films = [
     "Directors": [
       20157
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -59720,6 +61634,9 @@ var films = [
     "Directors": [
       20171
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -59813,6 +61730,9 @@ var films = [
     "Directors": [
       20196
     ],
+    "CollectionName": "The Ring Collection",
+    "CollectionPoster": "/500xj7l72BojMZ3tNBJY46tg5YJ.jpg",
+    "CollectionId": 14563,
     "DiaryWatchedDate": null
   },
   {
@@ -59856,6 +61776,9 @@ var films = [
       20200,
       20201
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-24"
   },
   {
@@ -59970,6 +61893,9 @@ var films = [
     "Directors": [
       20243
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -60050,6 +61976,9 @@ var films = [
     "Directors": [
       20256
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -60102,6 +62031,9 @@ var films = [
     "Directors": [
       20265
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -60251,6 +62183,9 @@ var films = [
     "Directors": [
       14420
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -60310,6 +62245,9 @@ var films = [
       20334,
       11707
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-24"
   },
   {
@@ -60389,6 +62327,9 @@ var films = [
     "Directors": [
       15515
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -60478,6 +62419,9 @@ var films = [
     "Directors": [
       1331
     ],
+    "CollectionName": "Living Dead Collection",
+    "CollectionPoster": "/5tzYvD8a7M6YdGy37V5goRJXsMk.jpg",
+    "CollectionId": 261590,
     "DiaryWatchedDate": null
   },
   {
@@ -60593,6 +62537,9 @@ var films = [
     "Directors": [
       14
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -60717,6 +62664,9 @@ var films = [
     "Directors": [
       20196
     ],
+    "CollectionName": "Pirates of the Caribbean Collection",
+    "CollectionPoster": "/4KUJ38SsViJTsUmTRvXxerBNwAv.jpg",
+    "CollectionId": 295,
     "DiaryWatchedDate": null
   },
   {
@@ -60840,6 +62790,9 @@ var films = [
     "Directors": [
       20517
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -60947,6 +62900,9 @@ var films = [
       17771,
       20547
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -61078,6 +63034,9 @@ var films = [
     "Directors": [
       11408
     ],
+    "CollectionName": "James Bond Collection",
+    "CollectionPoster": "/ofwSiqOFShhunAIYYdSMHMJQSx2.jpg",
+    "CollectionId": 645,
     "DiaryWatchedDate": null
   },
   {
@@ -61167,6 +63126,9 @@ var films = [
     "Directors": [
       20625
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-05"
   },
   {
@@ -61276,6 +63238,9 @@ var films = [
     "Directors": [
       4948
     ],
+    "CollectionName": "8MM Collection",
+    "CollectionPoster": "/d1oI7vVVJfY3ZeGJHJuWTDgI3tD.jpg",
+    "CollectionId": 387618,
     "DiaryWatchedDate": null
   },
   {
@@ -61361,6 +63326,9 @@ var films = [
     "Directors": [
       5555
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-03"
   },
   {
@@ -61462,6 +63430,9 @@ var films = [
     "Directors": [
       20696
     ],
+    "CollectionName": "American Psycho Collection",
+    "CollectionPoster": "/ko4O9lcRGYOZAF5Hh79Mfsgjpun.jpg",
+    "CollectionId": 86105,
     "DiaryWatchedDate": null
   },
   {
@@ -61556,6 +63527,9 @@ var films = [
     "Directors": [
       12228
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -61666,6 +63640,9 @@ var films = [
     "Directors": [
       20760
     ],
+    "CollectionName": "Sicario Collection",
+    "CollectionPoster": "/4C9c6c9j9ct4hQkiO9xOTIx7edc.jpg",
+    "CollectionId": 496796,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -61763,6 +63740,9 @@ var films = [
     "Directors": [
       20794
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -61870,6 +63850,9 @@ var films = [
     "Directors": [
       14420
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -61965,6 +63948,9 @@ var films = [
     "Directors": [
       20841
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -62004,6 +63990,9 @@ var films = [
     "Directors": [
       20847
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -62083,6 +64072,9 @@ var films = [
     "Directors": [
       84
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -62153,6 +64145,9 @@ var films = [
     "Directors": [
       20879
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -62223,6 +64218,9 @@ var films = [
     "Directors": [
       14212
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-04"
   },
   {
@@ -62260,6 +64258,9 @@ var films = [
       7728,
       8673
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -62373,6 +64374,9 @@ var films = [
     "Directors": [
       20915
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -62465,6 +64469,9 @@ var films = [
       20919,
       20929
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-02"
   },
   {
@@ -62549,6 +64556,9 @@ var films = [
     "Directors": [
       3720
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -62625,6 +64635,9 @@ var films = [
     "Directors": [
       20997
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-17"
   },
   {
@@ -62711,6 +64724,9 @@ var films = [
     "Directors": [
       169
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -62839,6 +64855,9 @@ var films = [
     "Directors": [
       21063
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -62934,6 +64953,9 @@ var films = [
     "Directors": [
       21070
     ],
+    "CollectionName": "Downton Abbey Collection",
+    "CollectionPoster": "/d7WcrOsGWkJYAgaZWy00luZBcjf.jpg",
+    "CollectionId": 925006,
     "DiaryWatchedDate": null
   },
   {
@@ -63021,6 +65043,9 @@ var films = [
     "Directors": [
       7178
     ],
+    "CollectionName": "Three Colors Collection",
+    "CollectionPoster": "/38JAJC57AbeqqwWj3D3Ltpql2mG.jpg",
+    "CollectionId": 131,
     "DiaryWatchedDate": "2024-09-25"
   },
   {
@@ -63108,6 +65133,9 @@ var films = [
       3025,
       14668
     ],
+    "CollectionName": "Shrek Collection",
+    "CollectionPoster": "/qNHZMe92A7Pyl46qUH29hVOtbSK.jpg",
+    "CollectionId": 2150,
     "DiaryWatchedDate": null
   },
   {
@@ -63223,6 +65251,9 @@ var films = [
     "Directors": [
       21149
     ],
+    "CollectionName": "The Fast and the Furious Collection",
+    "CollectionPoster": "/zOCnMPoUxgJK1RFPfN4PcnT16gr.jpg",
+    "CollectionId": 9485,
     "DiaryWatchedDate": null
   },
   {
@@ -63279,6 +65310,9 @@ var films = [
     "Directors": [
       21155
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -63357,6 +65391,9 @@ var films = [
     "Directors": [
       21167
     ],
+    "CollectionName": "The Purge Collection",
+    "CollectionPoster": "/eO8KF89eSpsqtyLDMoqSQEj8OJK.jpg",
+    "CollectionId": 256322,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -63445,6 +65482,9 @@ var films = [
     "Directors": [
       21190
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -63511,6 +65551,9 @@ var films = [
     "Directors": [
       21194
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -63632,6 +65675,9 @@ var films = [
     "Directors": [
       3830
     ],
+    "CollectionName": "Naked Gun Collection",
+    "CollectionPoster": "/fKv1i7M3ktWy2FrMa0nyigyXZjm.jpg",
+    "CollectionId": 37139,
     "DiaryWatchedDate": null
   },
   {
@@ -63797,6 +65843,9 @@ var films = [
     "Directors": [
       84
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -63881,6 +65930,9 @@ var films = [
     "Directors": [
       19112
     ],
+    "CollectionName": "Final Destination Collection",
+    "CollectionPoster": "/ImnmSDVPK8Ds5LhVFdox6idAbN.jpg",
+    "CollectionId": 8864,
     "DiaryWatchedDate": null
   },
   {
@@ -63961,6 +66013,9 @@ var films = [
     "Directors": [
       3995
     ],
+    "CollectionName": "Top Gun Collection",
+    "CollectionPoster": "/wtpIx0Gsra1IGHH8af5kNK90Xy8.jpg",
+    "CollectionId": 531330,
     "DiaryWatchedDate": null
   },
   {
@@ -64025,6 +66080,9 @@ var films = [
     "Directors": [
       21380
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -64126,6 +66184,9 @@ var films = [
     "Directors": [
       21394
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -64210,6 +66271,9 @@ var films = [
     "Directors": [
       6046
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-26"
   },
   {
@@ -64293,6 +66357,9 @@ var films = [
     "Directors": [
       13156
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-09"
   },
   {
@@ -64363,6 +66430,9 @@ var films = [
     "Directors": [
       21461
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-14"
   },
   {
@@ -64460,6 +66530,9 @@ var films = [
     "Directors": [
       21493
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -64576,6 +66649,9 @@ var films = [
     "Directors": [
       293
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -64697,6 +66773,9 @@ var films = [
     "Directors": [
       3872
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2022-01-01"
   },
   {
@@ -64811,6 +66890,9 @@ var films = [
     "Directors": [
       8347
     ],
+    "CollectionName": "Addams Family Collection",
+    "CollectionPoster": "/2ZVopkpVBRkgY1G3iMWFmoo8TIa.jpg",
+    "CollectionId": 11716,
     "DiaryWatchedDate": null
   },
   {
@@ -64899,6 +66981,9 @@ var films = [
     "Directors": [
       21630
     ],
+    "CollectionName": "The Fast and the Furious Collection",
+    "CollectionPoster": "/zOCnMPoUxgJK1RFPfN4PcnT16gr.jpg",
+    "CollectionId": 9485,
     "DiaryWatchedDate": null
   },
   {
@@ -65012,6 +67097,9 @@ var films = [
     "Directors": [
       21666
     ],
+    "CollectionName": "The Hannibal Lecter Collection",
+    "CollectionPoster": "/lTtnUnKVFLX10Ui19WGiL7CqZ1y.jpg",
+    "CollectionId": 9743,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -65097,6 +67185,9 @@ var films = [
     "Directors": [
       17004
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -65215,6 +67306,9 @@ var films = [
     "Directors": [
       21729
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-26"
   },
   {
@@ -65325,6 +67419,9 @@ var films = [
     "Directors": [
       21759
     ],
+    "CollectionName": "The Bourne Collection",
+    "CollectionPoster": "/q0ma8ozYaaol1IvdGjBvj3KllyL.jpg",
+    "CollectionId": 31562,
     "DiaryWatchedDate": null
   },
   {
@@ -65425,6 +67522,9 @@ var films = [
     "Directors": [
       8347
     ],
+    "CollectionName": "Addams Family Collection",
+    "CollectionPoster": "/2ZVopkpVBRkgY1G3iMWFmoo8TIa.jpg",
+    "CollectionId": 11716,
     "DiaryWatchedDate": null
   },
   {
@@ -65530,6 +67630,9 @@ var films = [
     "Directors": [
       431
     ],
+    "CollectionName": "Jackass Collection",
+    "CollectionPoster": "/2gDWYaTZ1nqt2KSj95u4Y429IJl.jpg",
+    "CollectionId": 17178,
     "DiaryWatchedDate": null
   },
   {
@@ -65597,6 +67700,9 @@ var films = [
     "Directors": [
       21809
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -65674,6 +67780,9 @@ var films = [
     "Directors": [
       21822
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-31"
   },
   {
@@ -65739,6 +67848,9 @@ var films = [
     "Directors": [
       21832
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -65837,6 +67949,9 @@ var films = [
     "Directors": [
       10443
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -65910,6 +68025,9 @@ var films = [
     "Directors": [
       21860
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -66000,6 +68118,9 @@ var films = [
     "Directors": [
       21908
     ],
+    "CollectionName": "The Devil Wears Prada Collection",
+    "CollectionPoster": "/rxzd0UeVgErb4r736NdxbCMdvlV.jpg",
+    "CollectionId": 1314623,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -66069,6 +68190,9 @@ var films = [
     "Directors": [
       11248
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-02"
   },
   {
@@ -66165,6 +68289,9 @@ var films = [
     "Directors": [
       1739
     ],
+    "CollectionName": "Saw Collection",
+    "CollectionPoster": "/w0zPElyuA5q2kjdfa2FdNYeS5Io.jpg",
+    "CollectionId": 656,
     "DiaryWatchedDate": null
   },
   {
@@ -66241,6 +68368,9 @@ var films = [
     "Directors": [
       21939
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -66312,6 +68442,9 @@ var films = [
     "Directors": [
       21953
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-09"
   },
   {
@@ -66395,6 +68528,9 @@ var films = [
     "Directors": [
       21968
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -66438,6 +68574,9 @@ var films = [
     "Directors": [
       21975
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -66533,6 +68672,9 @@ var films = [
     "Directors": [
       22003
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-07"
   },
   {
@@ -66572,6 +68714,9 @@ var films = [
       8673,
       7728
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -66649,6 +68794,9 @@ var films = [
     "Directors": [
       22020
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-26"
   },
   {
@@ -66713,6 +68861,9 @@ var films = [
     "Directors": [
       293
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -66784,6 +68935,9 @@ var films = [
     "Directors": [
       9219
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-08"
   },
   {
@@ -66855,6 +69009,9 @@ var films = [
     "Directors": [
       22053
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-17"
   },
   {
@@ -66952,6 +69109,9 @@ var films = [
     "Directors": [
       11700
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -67099,6 +69259,9 @@ var films = [
     "Directors": [
       6675
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -67176,6 +69339,9 @@ var films = [
     "Directors": [
       22158
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-11"
   },
   {
@@ -67231,6 +69397,9 @@ var films = [
       22174,
       22175
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-10"
   },
   {
@@ -67353,6 +69522,9 @@ var films = [
     "Directors": [
       18802
     ],
+    "CollectionName": "xXx Collection",
+    "CollectionPoster": "/s13xGJSH3eEWPjSjDvI1iCqkwVg.jpg",
+    "CollectionId": 52785,
     "DiaryWatchedDate": null
   },
   {
@@ -67423,6 +69595,9 @@ var films = [
     "Directors": [
       8671
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -67504,6 +69679,9 @@ var films = [
     "Directors": [
       22242
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-02"
   },
   {
@@ -67630,6 +69808,9 @@ var films = [
     "Directors": [
       3028
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -67713,6 +69894,9 @@ var films = [
     "Directors": [
       17398
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -67801,6 +69985,9 @@ var films = [
     "Directors": [
       22330
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -67877,6 +70064,9 @@ var films = [
     "Directors": [
       3487
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-18"
   },
   {
@@ -67971,6 +70161,9 @@ var films = [
     "Directors": [
       22376
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -68089,6 +70282,9 @@ var films = [
     "Directors": [
       22406
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -68183,6 +70379,9 @@ var films = [
     "Directors": [
       22429
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -68273,6 +70472,9 @@ var films = [
     "Directors": [
       22468
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -68377,6 +70579,9 @@ var films = [
     "Directors": [
       3997
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-16"
   },
   {
@@ -68440,6 +70645,9 @@ var films = [
     "Directors": [
       22527
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-27"
   },
   {
@@ -68510,6 +70718,9 @@ var films = [
     "Directors": [
       22538
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -68586,6 +70797,9 @@ var films = [
     "Directors": [
       84
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -68699,6 +70913,9 @@ var films = [
     "Directors": [
       8439
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -68780,6 +70997,9 @@ var films = [
     "Directors": [
       3560
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -68886,6 +71106,9 @@ var films = [
     "Directors": [
       4287
     ],
+    "CollectionName": "Harry Potter Collection",
+    "CollectionPoster": "/s4hXqX1VyWMc2ctJRuNBDB7YNJ3.jpg",
+    "CollectionId": 1241,
     "DiaryWatchedDate": null
   },
   {
@@ -68968,6 +71191,9 @@ var films = [
     "Directors": [
       951
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -69064,6 +71290,9 @@ var films = [
     "Directors": [
       22645
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -69115,6 +71344,9 @@ var films = [
     "Directors": [
       22661
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -69223,6 +71455,9 @@ var films = [
     "Directors": [
       3275
     ],
+    "CollectionName": "The Polar Express Collection",
+    "CollectionPoster": "/a3WAqOvRUCmeWmdCakbAHBxu4a7.jpg",
+    "CollectionId": 1234824,
     "DiaryWatchedDate": null
   },
   {
@@ -69306,6 +71541,9 @@ var films = [
     "Directors": [
       12592
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -69390,6 +71628,9 @@ var films = [
     "Directors": [
       22719
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -69432,6 +71673,9 @@ var films = [
       15506,
       22721
     ],
+    "CollectionName": "The Yes Men Collection",
+    "CollectionPoster": "",
+    "CollectionId": 475520,
     "DiaryWatchedDate": null
   },
   {
@@ -69515,6 +71759,9 @@ var films = [
     "Directors": [
       22739
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-04"
   },
   {
@@ -69626,6 +71873,9 @@ var films = [
     "Directors": [
       22745
     ],
+    "CollectionName": "The Incredibles Collection",
+    "CollectionPoster": "/iOz4Zz72JIqkuTXSnbvNoloA6oD.jpg",
+    "CollectionId": 468222,
     "DiaryWatchedDate": null
   },
   {
@@ -69662,6 +71912,9 @@ var films = [
       22773,
       22774
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-28"
   },
   {
@@ -69733,6 +71986,9 @@ var films = [
     "Directors": [
       4502
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-29"
   },
   {
@@ -69799,6 +72055,9 @@ var films = [
     "Directors": [
       15415
     ],
+    "CollectionName": "Frankenstein (Universal) Collection",
+    "CollectionPoster": "/nbRx9vAyYGadtbm6PCJEtJ2IMrN.jpg",
+    "CollectionId": 218406,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -69883,6 +72142,9 @@ var films = [
     "Directors": [
       4834
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -69947,6 +72209,9 @@ var films = [
     "Directors": [
       8748
     ],
+    "CollectionName": "A Quiet Place Collection",
+    "CollectionPoster": "/7WkFgOFJ6kKpqfEUo78zS3gjDlm.jpg",
+    "CollectionId": 521226,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -70017,6 +72282,9 @@ var films = [
     "Directors": [
       14309
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -70114,6 +72382,9 @@ var films = [
     "Directors": [
       22832
     ],
+    "CollectionName": "Jurassic Park Collection",
+    "CollectionPoster": "/qIm2nHXLpBBdMxi8dvfrnDkBUDh.jpg",
+    "CollectionId": 328,
     "DiaryWatchedDate": null
   },
   {
@@ -70150,6 +72421,9 @@ var films = [
     "Directors": [
       22835
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -70215,6 +72489,9 @@ var films = [
     "Directors": [
       22844
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -70303,6 +72580,9 @@ var films = [
     "Directors": [
       17888
     ],
+    "CollectionName": "Jarhead Collection",
+    "CollectionPoster": "/aRFpBjCseFD6UmahAuLdqS7Or5q.jpg",
+    "CollectionId": 285564,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -70414,6 +72694,9 @@ var films = [
     "Directors": [
       22902
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -70505,6 +72788,9 @@ var films = [
     "Directors": [
       21729
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -70584,6 +72870,9 @@ var films = [
     "Directors": [
       1258
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -70695,6 +72984,9 @@ var films = [
     "Directors": [
       22984
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-18"
   },
   {
@@ -70766,6 +73058,9 @@ var films = [
     "Directors": [
       22997
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-22"
   },
   {
@@ -70813,6 +73108,9 @@ var films = [
     "Directors": [
       23004
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -70948,6 +73246,9 @@ var films = [
     "Directors": [
       1331
     ],
+    "CollectionName": "Living Dead Collection",
+    "CollectionPoster": "/5tzYvD8a7M6YdGy37V5goRJXsMk.jpg",
+    "CollectionId": 261590,
     "DiaryWatchedDate": null
   },
   {
@@ -71013,6 +73314,9 @@ var films = [
     "Directors": [
       23076
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -71101,6 +73405,9 @@ var films = [
     "Directors": [
       23094
     ],
+    "CollectionName": "Bird Box Collection",
+    "CollectionPoster": "/xQdSZe4Az7A6YwsRNAsGDmCFmtR.jpg",
+    "CollectionId": 731067,
     "DiaryWatchedDate": null
   },
   {
@@ -71173,6 +73480,9 @@ var films = [
     "Directors": [
       2046
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -71270,6 +73580,9 @@ var films = [
     "Directors": [
       23129
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -71413,13 +73726,16 @@ var films = [
     "Directors": [
       17004
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
     "Title": "Anora",
     "TitleOriginal": "Anora",
     "Language": "English",
-    "RatingSelf": 3.5,
+    "RatingSelf": 3,
     "RatingLetterboxd": 3.85,
     "Minutes": 139,
     "Watched": 2176122,
@@ -71506,6 +73822,9 @@ var films = [
     "Directors": [
       410
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-18"
   },
   {
@@ -71611,6 +73930,9 @@ var films = [
       23283,
       23284
     ],
+    "CollectionName": "The Eye Collection",
+    "CollectionPoster": "/mEHiHHIWG0I7lL5RwgGSn8ZAfKn.jpg",
+    "CollectionId": 264335,
     "DiaryWatchedDate": null
   },
   {
@@ -71736,6 +74058,9 @@ var films = [
     "Directors": [
       23337
     ],
+    "CollectionName": "Inside Man Collection",
+    "CollectionPoster": "/iRZqd1ugl3VYIJIlPH6xuJGHkH5.jpg",
+    "CollectionId": 631194,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -71829,6 +74154,9 @@ var films = [
     "Directors": [
       2349
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-15"
   },
   {
@@ -71973,6 +74301,9 @@ var films = [
     "Directors": [
       13103
     ],
+    "CollectionName": "Transformers Collection",
+    "CollectionPoster": "/nnFgBA6nR0pHorxdFaDvdY4nVHL.jpg",
+    "CollectionId": 8650,
     "DiaryWatchedDate": null
   },
   {
@@ -72093,6 +74424,9 @@ var films = [
     "Directors": [
       6979
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-11"
   },
   {
@@ -72159,6 +74493,9 @@ var films = [
     "Directors": [
       23470
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-22"
   },
   {
@@ -72290,6 +74627,9 @@ var films = [
     "Directors": [
       4668
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -72398,6 +74738,9 @@ var films = [
     "Directors": [
       293
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-06"
   },
   {
@@ -72490,6 +74833,9 @@ var films = [
     "Directors": [
       15885
     ],
+    "CollectionName": "Cliffhanger Collection",
+    "CollectionPoster": "/eAMBVb7qnsPsjgEfQQuHx7R3Ny9.jpg",
+    "CollectionId": 1120657,
     "DiaryWatchedDate": null
   },
   {
@@ -72599,6 +74945,9 @@ var films = [
     "Directors": [
       23617
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-07"
   },
   {
@@ -72683,6 +75032,9 @@ var films = [
     "Directors": [
       23631
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -72804,6 +75156,9 @@ var films = [
     "Directors": [
       23684
     ],
+    "CollectionName": "Black Panther Collection",
+    "CollectionPoster": "/VtMkk2s92SnDUt8eYyUyYaSJQK.jpg",
+    "CollectionId": 529892,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -72879,6 +75234,9 @@ var films = [
     "Directors": [
       23693
     ],
+    "CollectionName": "Futurama Collection",
+    "CollectionPoster": "/gzGs80MlFtjmTTIsQImLysHjwhw.jpg",
+    "CollectionId": 13800,
     "DiaryWatchedDate": null
   },
   {
@@ -72978,6 +75336,9 @@ var films = [
     "Directors": [
       23337
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -73086,6 +75447,9 @@ var films = [
     "Directors": [
       22984
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -73179,6 +75543,9 @@ var films = [
     "Directors": [
       6760
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -73221,6 +75588,9 @@ var films = [
     "Directors": [
       7784
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-27"
   },
   {
@@ -73292,6 +75662,9 @@ var films = [
     "Directors": [
       23800
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -73352,6 +75725,9 @@ var films = [
     "Directors": [
       23822
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-07"
   },
   {
@@ -73435,6 +75811,9 @@ var films = [
     "Directors": [
       22745
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -73576,6 +75955,9 @@ var films = [
     "Directors": [
       23886
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -73666,6 +76048,9 @@ var films = [
     "Directors": [
       7381
     ],
+    "CollectionName": "The Godfather Collection",
+    "CollectionPoster": "/zVb22YOMgljCEYbXlvCvEiN4VwT.jpg",
+    "CollectionId": 230,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -73780,6 +76165,9 @@ var films = [
       23943,
       23944
     ],
+    "CollectionName": "The Butterfly Effect Collection",
+    "CollectionPoster": "/9RmzgQZw9bpHPTtE6k6QTkbYV39.jpg",
+    "CollectionId": 52749,
     "DiaryWatchedDate": null
   },
   {
@@ -73886,6 +76274,9 @@ var films = [
     "Directors": [
       5648
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -74009,6 +76400,9 @@ var films = [
     "Directors": [
       24030
     ],
+    "CollectionName": "I Am Legend Collection",
+    "CollectionPoster": "/kMWArwXFzMwCzRMRzJqZBC6d22A.jpg",
+    "CollectionId": 945984,
     "DiaryWatchedDate": null
   },
   {
@@ -74078,6 +76472,9 @@ var films = [
     "Directors": [
       24040
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-18"
   },
   {
@@ -74171,6 +76568,9 @@ var films = [
     "Directors": [
       20941
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-22"
   },
   {
@@ -74234,6 +76634,9 @@ var films = [
     "Directors": [
       24091
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -74384,6 +76787,9 @@ var films = [
     "Directors": [
       17771
     ],
+    "CollectionName": "American Pie Collection",
+    "CollectionPoster": "/twY1eM88fu8CCGVtem5ItlrgeDA.jpg",
+    "CollectionId": 2806,
     "DiaryWatchedDate": null
   },
   {
@@ -74500,6 +76906,9 @@ var films = [
     "Directors": [
       22406
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -74613,6 +77022,9 @@ var films = [
     "Directors": [
       24229
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-05-31"
   },
   {
@@ -74703,6 +77115,9 @@ var films = [
     "Directors": [
       24249
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -74782,6 +77197,9 @@ var films = [
     "Directors": [
       24264
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -74851,6 +77269,9 @@ var films = [
     "Directors": [
       2003
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -74897,6 +77318,9 @@ var films = [
     "Directors": [
       24281
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-04"
   },
   {
@@ -75011,6 +77435,9 @@ var films = [
     "Directors": [
       169
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -75092,6 +77519,9 @@ var films = [
     "Directors": [
       22376
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -75203,6 +77633,9 @@ var films = [
       24386,
       24387
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -75308,6 +77741,9 @@ var films = [
     "Directors": [
       3275
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -75396,6 +77832,9 @@ var films = [
     "Directors": [
       24443
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-17"
   },
   {
@@ -75486,6 +77925,9 @@ var films = [
     "Directors": [
       24472
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -75599,6 +78041,9 @@ var films = [
     "Directors": [
       5648
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -75717,6 +78162,9 @@ var films = [
     "Directors": [
       24537
     ],
+    "CollectionName": "Paddington Collection",
+    "CollectionPoster": "/hDTDM3YfUQ9uLMpxxg0okE2N4hz.jpg",
+    "CollectionId": 488924,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -75792,6 +78240,9 @@ var films = [
     "Directors": [
       24545
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -75889,6 +78340,9 @@ var films = [
     "Directors": [
       24579
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -75972,6 +78426,9 @@ var films = [
     "Directors": [
       24593
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-08"
   },
   {
@@ -76143,6 +78600,9 @@ var films = [
       24694,
       24695
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -76224,6 +78684,9 @@ var films = [
     "Directors": [
       24710
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -76320,6 +78783,9 @@ var films = [
     "Directors": [
       20625
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -76401,6 +78867,9 @@ var films = [
     "Directors": [
       24757
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-27"
   },
   {
@@ -76498,6 +78967,9 @@ var films = [
     "Directors": [
       24795
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-22"
   },
   {
@@ -76605,6 +79077,9 @@ var films = [
     "Directors": [
       4742
     ],
+    "CollectionName": "Austin Powers Collection",
+    "CollectionPoster": "/1PkGnyFwRyapmbuILIOXXxiSh7Y.jpg",
+    "CollectionId": 1006,
     "DiaryWatchedDate": null
   },
   {
@@ -76696,6 +79171,9 @@ var films = [
     "Directors": [
       24849
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -76742,6 +79220,9 @@ var films = [
     "Directors": [
       24860
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -76839,6 +79320,9 @@ var films = [
     "Directors": [
       15753
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-15"
   },
   {
@@ -76979,6 +79463,9 @@ var films = [
     "Directors": [
       24947
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -77070,6 +79557,9 @@ var films = [
     "Directors": [
       3872
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -77155,6 +79645,9 @@ var films = [
     "Directors": [
       24990
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -77241,6 +79734,9 @@ var films = [
     "Directors": [
       25009
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -77350,6 +79846,9 @@ var films = [
     "Directors": [
       5339
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -77404,6 +79903,9 @@ var films = [
     "Directors": [
       25055
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -77449,6 +79951,9 @@ var films = [
       25057,
       25063
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-30"
   },
   {
@@ -77519,6 +80024,9 @@ var films = [
       25075,
       25076
     ],
+    "CollectionName": "Born Free Collection",
+    "CollectionPoster": "/1VwVsWkzhvKDd36s7Wwif0u45u3.jpg",
+    "CollectionId": 354210,
     "DiaryWatchedDate": "2024-10-02"
   },
   {
@@ -77600,6 +80108,9 @@ var films = [
     "Directors": [
       25097
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-06"
   },
   {
@@ -77649,6 +80160,9 @@ var films = [
     "Directors": [
       14733
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -77791,6 +80305,9 @@ var films = [
     "Directors": [
       25173
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -77854,6 +80371,9 @@ var films = [
     "Directors": [
       14438
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -77943,6 +80463,9 @@ var films = [
     "Directors": [
       15719
     ],
+    "CollectionName": "Scream Collection",
+    "CollectionPoster": "/p3EjClFy20jjT0u06dzBs4lvvhi.jpg",
+    "CollectionId": 2602,
     "DiaryWatchedDate": null
   },
   {
@@ -78017,6 +80540,9 @@ var films = [
     "Directors": [
       1523
     ],
+    "CollectionName": "The NeverEnding Story Collection",
+    "CollectionPoster": "/tXuOhgEbXoba7vVIybzGlnycoNq.jpg",
+    "CollectionId": 91430,
     "DiaryWatchedDate": null
   },
   {
@@ -78101,6 +80627,9 @@ var films = [
     "Directors": [
       17004
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -78170,6 +80699,9 @@ var films = [
     "Directors": [
       25255
     ],
+    "CollectionName": "Coherence Collection",
+    "CollectionPoster": "/rQifCStdJ7uJt1JMY3TDx1J5yWI.jpg",
+    "CollectionId": 1329887,
     "DiaryWatchedDate": "2024-08-02"
   },
   {
@@ -78262,6 +80794,9 @@ var films = [
     "Directors": [
       1452
     ],
+    "CollectionName": "Gladiator Collection",
+    "CollectionPoster": "/bk6nx2rGNdlKtBsB9XcrclVKItv.jpg",
+    "CollectionId": 1069584,
     "DiaryWatchedDate": null
   },
   {
@@ -78324,6 +80859,9 @@ var films = [
     "Directors": [
       3677
     ],
+    "CollectionName": "The Human Centipede Collection",
+    "CollectionPoster": "/mv0MySTqfXg2ndthOkBg6bGwlnk.jpg",
+    "CollectionId": 96671,
     "DiaryWatchedDate": null
   },
   {
@@ -78384,6 +80922,9 @@ var films = [
       25280,
       25281
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -78467,6 +81008,9 @@ var films = [
     "Directors": [
       25299
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -78529,6 +81073,9 @@ var films = [
     "Directors": [
       25308
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-23"
   },
   {
@@ -78600,6 +81147,9 @@ var films = [
     "Directors": [
       5692
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -78667,6 +81217,9 @@ var films = [
     "Directors": [
       3487
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -78793,6 +81346,9 @@ var films = [
     "Directors": [
       25372
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -78903,6 +81459,9 @@ var films = [
       11700,
       25398
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -79011,6 +81570,9 @@ var films = [
     "Directors": [
       25427
     ],
+    "CollectionName": "Rush Hour Collection",
+    "CollectionPoster": "/pEvK2AoBnhC1RgqB7VRbBCMDq23.jpg",
+    "CollectionId": 90863,
     "DiaryWatchedDate": null
   },
   {
@@ -79080,6 +81642,9 @@ var films = [
     "Directors": [
       25434
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-10"
   },
   {
@@ -79128,6 +81693,9 @@ var films = [
     "Directors": [
       25440
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-15"
   },
   {
@@ -79221,6 +81789,9 @@ var films = [
     "Directors": [
       4742
     ],
+    "CollectionName": "Meet the Parents Collection",
+    "CollectionPoster": "/hwfaKtvNt3Xm03nJ3LiA7j3k6pw.jpg",
+    "CollectionId": 51509,
     "DiaryWatchedDate": null
   },
   {
@@ -79292,6 +81863,9 @@ var films = [
     "Directors": [
       25496
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -79387,6 +81961,9 @@ var films = [
     "Directors": [
       25513
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -79477,6 +82054,9 @@ var films = [
     "Directors": [
       11514
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -79544,6 +82124,9 @@ var films = [
     "Directors": [
       23470
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-28"
   },
   {
@@ -79648,6 +82231,9 @@ var films = [
     "Directors": [
       84
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -79781,6 +82367,9 @@ var films = [
     "Directors": [
       25640
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -79845,6 +82434,9 @@ var films = [
       25653,
       25654
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -80018,6 +82610,9 @@ var films = [
     "Directors": [
       3275
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -80135,6 +82730,9 @@ var films = [
     "Directors": [
       25790
     ],
+    "CollectionName": "Bridget Jones Collection",
+    "CollectionPoster": "/9VUsbuTMFoRgUgK0z3pEWmkujFe.jpg",
+    "CollectionId": 8936,
     "DiaryWatchedDate": null
   },
   {
@@ -80249,6 +82847,9 @@ var films = [
     "Directors": [
       8439
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -80325,6 +82926,9 @@ var films = [
     "Directors": [
       2888
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-25"
   },
   {
@@ -80419,6 +83023,9 @@ var films = [
     "Directors": [
       25863
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -80533,6 +83140,9 @@ var films = [
       25398,
       11700
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -80608,6 +83218,9 @@ var films = [
     "Directors": [
       25914
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-07"
   },
   {
@@ -80699,6 +83312,9 @@ var films = [
     "Directors": [
       25936
     ],
+    "CollectionName": "The Rocky Horror Picture Show Collection",
+    "CollectionPoster": "/aZJ0gncaRSywxR6yZLAeQYoDpkQ.jpg",
+    "CollectionId": 694606,
     "DiaryWatchedDate": null
   },
   {
@@ -80765,6 +83381,9 @@ var films = [
     "Directors": [
       12390
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -80828,6 +83447,9 @@ var films = [
       25961,
       25960
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-08"
   },
   {
@@ -80887,6 +83509,9 @@ var films = [
     "Directors": [
       6733
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-13"
   },
   {
@@ -80945,6 +83570,9 @@ var films = [
       18804,
       18805
     ],
+    "CollectionName": "The Dick Proenneke Collection",
+    "CollectionPoster": "/1DypZPiwJyhLpPQUQtOwd9SSpWC.jpg",
+    "CollectionId": 129293,
     "DiaryWatchedDate": null
   },
   {
@@ -81035,6 +83663,9 @@ var films = [
       12648,
       11701
     ],
+    "CollectionName": "101 Dalmatians (Animated) Collection",
+    "CollectionPoster": "/dFGiyqS7rgbI6Wtu9cloSMlIaVb.jpg",
+    "CollectionId": 100693,
     "DiaryWatchedDate": null
   },
   {
@@ -81127,6 +83758,9 @@ var films = [
     "Directors": [
       10757
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -81337,6 +83971,9 @@ var films = [
     "Directors": [
       25863
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -81412,6 +84049,9 @@ var films = [
     "Directors": [
       26157
     ],
+    "CollectionName": "Mary Poppins Collection",
+    "CollectionPoster": "/zhRdMHwitG9vOuRjrzZA4KdLEix.jpg",
+    "CollectionId": 527439,
     "DiaryWatchedDate": null
   },
   {
@@ -81514,6 +84154,9 @@ var films = [
     "Directors": [
       26183
     ],
+    "CollectionName": "Darko Collection",
+    "CollectionPoster": "/dfI9ru1MF23MiO2OQ7oo1g6odgM.jpg",
+    "CollectionId": 178106,
     "DiaryWatchedDate": null
   },
   {
@@ -81618,6 +84261,9 @@ var films = [
     "Directors": [
       26201
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -81707,6 +84353,9 @@ var films = [
     "Directors": [
       26237
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -81845,6 +84494,9 @@ var films = [
     "Directors": [
       834
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -81985,6 +84637,9 @@ var films = [
     "Directors": [
       26349
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -82059,6 +84714,9 @@ var films = [
     "Directors": [
       26362
     ],
+    "CollectionName": "Planet of the Apes (Original) Collection",
+    "CollectionPoster": "/keo1Vvsh1gbY7G7QqCzFGy4DVTP.jpg",
+    "CollectionId": 1709,
     "DiaryWatchedDate": null
   },
   {
@@ -82133,6 +84791,9 @@ var films = [
     "Directors": [
       21809
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-19"
   },
   {
@@ -82253,6 +84914,9 @@ var films = [
     "Directors": [
       4567
     ],
+    "CollectionName": "Braveheart Collection",
+    "CollectionPoster": "/yXhsgMCBnjw3wOS23Sqxa8kvfaK.jpg",
+    "CollectionId": 1432360,
     "DiaryWatchedDate": null
   },
   {
@@ -82325,6 +84989,9 @@ var films = [
     "Directors": [
       26434
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-29"
   },
   {
@@ -82453,6 +85120,9 @@ var films = [
     "Directors": [
       834
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -82549,6 +85219,9 @@ var films = [
     "Directors": [
       26510
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -82622,6 +85295,9 @@ var films = [
     "Directors": [
       910
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -82686,6 +85362,9 @@ var films = [
       26520,
       26524
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -82784,6 +85463,9 @@ var films = [
     "Directors": [
       2046
     ],
+    "CollectionName": "The Lord of the Rings Collection",
+    "CollectionPoster": "/oENY593nKRVL2PnxXsMtlh8izb4.jpg",
+    "CollectionId": 119,
     "DiaryWatchedDate": null
   },
   {
@@ -82953,6 +85635,9 @@ var films = [
     "Directors": [
       834
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -83042,6 +85727,9 @@ var films = [
     "Directors": [
       26634
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -83089,6 +85777,9 @@ var films = [
     "Directors": [
       26644
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-06"
   },
   {
@@ -83183,6 +85874,9 @@ var films = [
     "Directors": [
       26657
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -83265,6 +85959,9 @@ var films = [
     "Directors": [
       10647
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -83375,6 +86072,9 @@ var films = [
     "Directors": [
       26711
     ],
+    "CollectionName": "Bill \u0026 Ted Collection",
+    "CollectionPoster": "/ffCa2h3qW55YthUbz6gsGnkaCes.jpg",
+    "CollectionId": 91746,
     "DiaryWatchedDate": null
   },
   {
@@ -83454,6 +86154,9 @@ var films = [
     "Directors": [
       20922
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-04"
   },
   {
@@ -83554,6 +86257,9 @@ var films = [
     "Directors": [
       26765
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -83619,6 +86325,9 @@ var films = [
     "Directors": [
       10043
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-25"
   },
   {
@@ -83751,6 +86460,9 @@ var films = [
     "Directors": [
       18856
     ],
+    "CollectionName": "Mad Max Collection",
+    "CollectionPoster": "/tRxkZboyyXnFgCthoViWBwISZ0r.jpg",
+    "CollectionId": 8945,
     "DiaryWatchedDate": "2024-06-27"
   },
   {
@@ -83840,6 +86552,9 @@ var films = [
     "Directors": [
       26860
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-28"
   },
   {
@@ -83882,6 +86597,9 @@ var films = [
     "Directors": [
       26863
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-06-23"
   },
   {
@@ -83954,6 +86672,9 @@ var films = [
       26878,
       26879
     ],
+    "CollectionName": "King Kong (1933) Collection",
+    "CollectionPoster": "/sU6ixEBRpWfCTIEbrQJxD59VgqQ.jpg",
+    "CollectionId": 135495,
     "DiaryWatchedDate": null
   },
   {
@@ -84049,6 +86770,9 @@ var films = [
     "Directors": [
       26895
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -84160,6 +86884,9 @@ var films = [
       26924,
       26925
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -84238,6 +86965,9 @@ var films = [
     "Directors": [
       22832
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-11"
   },
   {
@@ -84322,6 +87052,9 @@ var films = [
     "Directors": [
       26954
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -84410,6 +87143,9 @@ var films = [
     "Directors": [
       910
     ],
+    "CollectionName": "Knives Out Collection",
+    "CollectionPoster": "/hAEATQo1enoasXMuSbeqw67E7N2.jpg",
+    "CollectionId": 722971,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -84514,6 +87250,9 @@ var films = [
     "Directors": [
       27011
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -84605,6 +87344,9 @@ var films = [
     "Directors": [
       25513
     ],
+    "CollectionName": "Final Destination Collection",
+    "CollectionPoster": "/ImnmSDVPK8Ds5LhVFdox6idAbN.jpg",
+    "CollectionId": 8864,
     "DiaryWatchedDate": null
   },
   {
@@ -84690,6 +87432,9 @@ var films = [
     "Directors": [
       27048
     ],
+    "CollectionName": "Star Wars Collection",
+    "CollectionPoster": "/aSrMJYmQX8kpF26LijkCsYhBMvm.jpg",
+    "CollectionId": 10,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -84791,6 +87536,9 @@ var films = [
     "Directors": [
       21759
     ],
+    "CollectionName": "The Bourne Collection",
+    "CollectionPoster": "/q0ma8ozYaaol1IvdGjBvj3KllyL.jpg",
+    "CollectionId": 31562,
     "DiaryWatchedDate": null
   },
   {
@@ -84873,6 +87621,9 @@ var films = [
     "Directors": [
       21493
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -84970,6 +87721,9 @@ var films = [
       27110,
       27111
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -85051,6 +87805,9 @@ var films = [
     "Directors": [
       27132
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -85133,6 +87890,9 @@ var films = [
     "Directors": [
       27154
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -85243,6 +88003,9 @@ var films = [
     "Directors": [
       6857
     ],
+    "CollectionName": "The Terminator Collection",
+    "CollectionPoster": "/kpZxdNsAV7qTdTLwKM5NLqa7GEo.jpg",
+    "CollectionId": 528,
     "DiaryWatchedDate": null
   },
   {
@@ -85312,6 +88075,9 @@ var films = [
     "Directors": [
       19558
     ],
+    "CollectionName": "X Collection",
+    "CollectionPoster": "/1a828eAhYwYw1bcLvjotDCSTnqI.jpg",
+    "CollectionId": 950289,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -85353,6 +88119,9 @@ var films = [
     "Directors": [
       8510
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -85452,6 +88221,9 @@ var films = [
     "Directors": [
       11374
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -85575,6 +88347,9 @@ var films = [
     "Directors": [
       13103
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -85623,6 +88398,9 @@ var films = [
     "Directors": [
       27275
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -85696,6 +88474,9 @@ var films = [
     "Directors": [
       6444
     ],
+    "CollectionName": "The Railway Children Collection",
+    "CollectionPoster": "/fJIwKB7wTKt1sBjW4bzO14b57FZ.jpg",
+    "CollectionId": 987163,
     "DiaryWatchedDate": null
   },
   {
@@ -85747,6 +88528,9 @@ var films = [
     "Directors": [
       11669
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-16"
   },
   {
@@ -85851,6 +88635,9 @@ var films = [
     "Directors": [
       24030
     ],
+    "CollectionName": "The Hunger Games Collection",
+    "CollectionPoster": "/fPer2U4uQT1dkXTUWODDaLECWoW.jpg",
+    "CollectionId": 131635,
     "DiaryWatchedDate": null
   },
   {
@@ -85924,6 +88711,9 @@ var films = [
     "Directors": [
       259
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -86045,6 +88835,9 @@ var films = [
     "Directors": [
       8347
     ],
+    "CollectionName": "Men In Black Collection",
+    "CollectionPoster": "/rWcgZaoJ0nxTFRn0H6w9bdtoDUI.jpg",
+    "CollectionId": 86055,
     "DiaryWatchedDate": null
   },
   {
@@ -86141,6 +88934,9 @@ var films = [
     "Directors": [
       8509
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -86224,6 +89020,9 @@ var films = [
     "Directors": [
       27402
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -86317,6 +89116,9 @@ var films = [
     "Directors": [
       27427
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-14"
   },
   {
@@ -86395,6 +89197,9 @@ var films = [
     "Directors": [
       22003
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-20"
   },
   {
@@ -86480,6 +89285,9 @@ var films = [
     "Directors": [
       7931
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -86553,6 +89361,9 @@ var films = [
     "Directors": [
       27468
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -86666,6 +89477,9 @@ var films = [
     "Directors": [
       27509
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -86739,6 +89553,9 @@ var films = [
     "Directors": [
       27522
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -86843,6 +89660,9 @@ var films = [
     "Directors": [
       27556
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -86955,6 +89775,9 @@ var films = [
     "Directors": [
       27579
     ],
+    "CollectionName": "Charlie's Angels Collection",
+    "CollectionPoster": "/jBKUntSuSUfxTXI8XWABpdWmWEt.jpg",
+    "CollectionId": 86029,
     "DiaryWatchedDate": null
   },
   {
@@ -87039,6 +89862,9 @@ var films = [
     "Directors": [
       27602
     ],
+    "CollectionName": "The Great Escape Collection",
+    "CollectionPoster": "/o4ByuXELYtyCz7twbLlM7fgHEVa.jpg",
+    "CollectionId": 990446,
     "DiaryWatchedDate": null
   },
   {
@@ -87113,6 +89939,9 @@ var films = [
     "Directors": [
       27608
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -87226,6 +90055,9 @@ var films = [
     "Directors": [
       834
     ],
+    "CollectionName": "Jurassic Park Collection",
+    "CollectionPoster": "/qIm2nHXLpBBdMxi8dvfrnDkBUDh.jpg",
+    "CollectionId": 328,
     "DiaryWatchedDate": null
   },
   {
@@ -87314,6 +90146,9 @@ var films = [
     "Directors": [
       27663
     ],
+    "CollectionName": "Homeward Bound Collection",
+    "CollectionPoster": "/5He5lPbVoZ5gY0QTNNHJX0l16TV.jpg",
+    "CollectionId": 43058,
     "DiaryWatchedDate": null
   },
   {
@@ -87408,6 +90243,9 @@ var films = [
     "Directors": [
       27694
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-02"
   },
   {
@@ -87493,6 +90331,9 @@ var films = [
     "Directors": [
       9294
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-25"
   },
   {
@@ -87593,6 +90434,9 @@ var films = [
     "Directors": [
       14204
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -87691,6 +90535,9 @@ var films = [
     "Directors": [
       24030
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-01"
   },
   {
@@ -87763,6 +90610,9 @@ var films = [
     "Directors": [
       5367
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-21"
   },
   {
@@ -87914,6 +90764,9 @@ var films = [
     "Directors": [
       364
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -88025,6 +90878,9 @@ var films = [
     "Directors": [
       834
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -88107,6 +90963,9 @@ var films = [
     "Directors": [
       27903
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -88179,6 +91038,9 @@ var films = [
     "Directors": [
       27931
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -88283,6 +91145,9 @@ var films = [
     "Directors": [
       3700
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -88417,6 +91282,9 @@ var films = [
     "Directors": [
       28025
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -88514,6 +91382,9 @@ var films = [
     "Directors": [
       7853
     ],
+    "CollectionName": "Magic Mike Collection",
+    "CollectionPoster": "/rHoc6Br9DUKxF7Gs7e9pTxmbTib.jpg",
+    "CollectionId": 328247,
     "DiaryWatchedDate": null
   },
   {
@@ -88585,6 +91456,9 @@ var films = [
     "Directors": [
       11723
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -88659,6 +91533,9 @@ var films = [
     "Directors": [
       9478
     ],
+    "CollectionName": "Honey, I Shrunk the Kids Collection",
+    "CollectionPoster": "/xxIwqQARS0RZu5cIENahqZSRw2a.jpg",
+    "CollectionId": 72119,
     "DiaryWatchedDate": null
   },
   {
@@ -88801,13 +91678,16 @@ var films = [
     "Directors": [
       6491
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
     "Title": "MaXXXine",
     "TitleOriginal": "MaXXXine",
     "Language": "English",
-    "RatingSelf": 2.5,
+    "RatingSelf": 2,
     "RatingLetterboxd": 3.08,
     "Minutes": 103,
     "Watched": 877558,
@@ -88892,6 +91772,9 @@ var films = [
     "Directors": [
       19558
     ],
+    "CollectionName": "X Collection",
+    "CollectionPoster": "/1a828eAhYwYw1bcLvjotDCSTnqI.jpg",
+    "CollectionId": 950289,
     "DiaryWatchedDate": "2024-08-03"
   },
   {
@@ -89004,6 +91887,9 @@ var films = [
     "Directors": [
       28176
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -89104,6 +91990,9 @@ var films = [
     "Directors": [
       28212
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -89191,6 +92080,9 @@ var films = [
     "Directors": [
       28235
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -89261,6 +92153,9 @@ var films = [
       28245,
       7728
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -89453,6 +92348,9 @@ var films = [
     "Directors": [
       19257
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -89555,6 +92453,9 @@ var films = [
     "Directors": [
       4948
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -89651,6 +92552,9 @@ var films = [
     "Directors": [
       9094
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -89723,6 +92627,9 @@ var films = [
     "Directors": [
       19431
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-13"
   },
   {
@@ -89811,6 +92718,9 @@ var films = [
     "Directors": [
       28437
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-10"
   },
   {
@@ -89882,6 +92792,9 @@ var films = [
     "Directors": [
       4502
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -89936,6 +92849,9 @@ var films = [
     "Directors": [
       5742
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-14"
   },
   {
@@ -90016,6 +92932,9 @@ var films = [
     "Directors": [
       4699
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -90079,6 +92998,9 @@ var films = [
     "Directors": [
       28472
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-21"
   },
   {
@@ -90167,6 +93089,9 @@ var films = [
     "Directors": [
       28499
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-20"
   },
   {
@@ -90273,6 +93198,9 @@ var films = [
     "Directors": [
       28520
     ],
+    "CollectionName": "Bridget Jones Collection",
+    "CollectionPoster": "/9VUsbuTMFoRgUgK0z3pEWmkujFe.jpg",
+    "CollectionId": 8936,
     "DiaryWatchedDate": null
   },
   {
@@ -90374,6 +93302,9 @@ var films = [
     "Directors": [
       28549
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -90468,6 +93399,9 @@ var films = [
       3028,
       3030
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -90572,6 +93506,9 @@ var films = [
     "Directors": [
       15903
     ],
+    "CollectionName": "Alice in Wonderland Collection",
+    "CollectionPoster": "/6H5d0Dx6Pq3jZUOjzJQsKlloWII.jpg",
+    "CollectionId": 261307,
     "DiaryWatchedDate": null
   },
   {
@@ -90667,6 +93604,9 @@ var films = [
     "Directors": [
       13584
     ],
+    "CollectionName": "Twister Collection",
+    "CollectionPoster": "/vfTgngAGpgzBLZ3mS9Carcgbawb.jpg",
+    "CollectionId": 1062948,
     "DiaryWatchedDate": null
   },
   {
@@ -90765,6 +93705,9 @@ var films = [
     "Directors": [
       27011
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -90846,6 +93789,9 @@ var films = [
     "Directors": [
       28651
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-14"
   },
   {
@@ -90945,6 +93891,9 @@ var films = [
     "Directors": [
       27011
     ],
+    "CollectionName": "Crouching Tiger, Hidden Dragon Collection",
+    "CollectionPoster": "/8x9ajHWUm5K5rdMRvXe2vhjdLAk.jpg",
+    "CollectionId": 290973,
     "DiaryWatchedDate": null
   },
   {
@@ -91000,6 +93949,9 @@ var films = [
     "Directors": [
       28693
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-11"
   },
   {
@@ -91078,6 +94030,9 @@ var films = [
     "Directors": [
       28703
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -91209,6 +94164,9 @@ var films = [
     "Directors": [
       28713
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -91279,6 +94237,9 @@ var films = [
     "Directors": [
       25991
     ],
+    "CollectionName": "The Jungle Book Collection",
+    "CollectionPoster": "/uwtMVtIFZy7dfQrR7brKHoDN5H6.jpg",
+    "CollectionId": 97459,
     "DiaryWatchedDate": null
   },
   {
@@ -91361,6 +94322,9 @@ var films = [
     "Directors": [
       28780
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -91474,6 +94438,9 @@ var films = [
     "Directors": [
       23337
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -91558,6 +94525,9 @@ var films = [
     "Directors": [
       5349
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-25"
   },
   {
@@ -91683,6 +94653,9 @@ var films = [
     "Directors": [
       24694
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -91790,6 +94763,9 @@ var films = [
     "Directors": [
       11408
     ],
+    "CollectionName": "Zorro Collection",
+    "CollectionPoster": "/fTJj6EyMrRuByVyTMpjCMC8c92Z.jpg",
+    "CollectionId": 1657,
     "DiaryWatchedDate": null
   },
   {
@@ -91864,6 +94840,9 @@ var films = [
     "Directors": [
       4502
     ],
+    "CollectionName": "The Birds Collection",
+    "CollectionPoster": "/q5ur743eEQCqOchM9SOGHqKn8lj.jpg",
+    "CollectionId": 690952,
     "DiaryWatchedDate": "2024-09-02"
   },
   {
@@ -91939,6 +94918,9 @@ var films = [
     "Directors": [
       951
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -92035,6 +95017,9 @@ var films = [
     "Directors": [
       28971
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -92118,6 +95103,9 @@ var films = [
     "Directors": [
       28992
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -92212,6 +95200,9 @@ var films = [
     "Directors": [
       919
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -92280,6 +95271,9 @@ var films = [
     "Directors": [
       23470
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-07"
   },
   {
@@ -92347,6 +95341,9 @@ var films = [
     "Directors": [
       29036
     ],
+    "CollectionName": "The Last Exorcism Collection",
+    "CollectionPoster": "/qHW7u9UxFLbKypwkvkE6rpBftn7.jpg",
+    "CollectionId": 177675,
     "DiaryWatchedDate": "2024-10-20"
   },
   {
@@ -92402,6 +95399,9 @@ var films = [
       8673,
       7728
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -92551,6 +95551,9 @@ var films = [
     "Directors": [
       5967
     ],
+    "CollectionName": "Harry Potter Collection",
+    "CollectionPoster": "/s4hXqX1VyWMc2ctJRuNBDB7YNJ3.jpg",
+    "CollectionId": 1241,
     "DiaryWatchedDate": null
   },
   {
@@ -92636,6 +95639,9 @@ var films = [
     "Directors": [
       28331
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -92731,6 +95737,9 @@ var films = [
     "Directors": [
       29111
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -92830,6 +95839,9 @@ var films = [
       1901,
       1902
     ],
+    "CollectionName": "The Matrix Collection",
+    "CollectionPoster": "/bV9qTVHTVf0gkW0j7p7M0ILD4pG.jpg",
+    "CollectionId": 2344,
     "DiaryWatchedDate": null
   },
   {
@@ -92935,6 +95947,9 @@ var films = [
     "Directors": [
       29176
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -93158,6 +96173,9 @@ var films = [
     "Directors": [
       29319
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -93225,6 +96243,9 @@ var films = [
     "Directors": [
       29331
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-12"
   },
   {
@@ -93327,6 +96348,9 @@ var films = [
     "Directors": [
       3872
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -93433,6 +96457,9 @@ var films = [
     "Directors": [
       29394
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -93522,6 +96549,9 @@ var films = [
     "Directors": [
       7178
     ],
+    "CollectionName": "Three Colors Collection",
+    "CollectionPoster": "/38JAJC57AbeqqwWj3D3Ltpql2mG.jpg",
+    "CollectionId": 131,
     "DiaryWatchedDate": "2024-09-25"
   },
   {
@@ -93637,6 +96667,9 @@ var films = [
     "Directors": [
       2175
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-07-12"
   },
   {
@@ -93717,6 +96750,9 @@ var films = [
     "Directors": [
       29471
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-09-26"
   },
   {
@@ -93820,6 +96856,9 @@ var films = [
     "Directors": [
       29506
     ],
+    "CollectionName": "The Inbetweeners Collection",
+    "CollectionPoster": "/qIm7z3iSjoeCEGx3XVWeLC3MDyN.jpg",
+    "CollectionId": 279959,
     "DiaryWatchedDate": null
   },
   {
@@ -93899,6 +96938,9 @@ var films = [
     "Directors": [
       29525
     ],
+    "CollectionName": "Death Race Original Collection",
+    "CollectionPoster": "/kpdCNcuQsDlBQ1ZPF0e2P5cqIXB.jpg",
+    "CollectionId": 434533,
     "DiaryWatchedDate": null
   },
   {
@@ -94009,6 +97051,9 @@ var films = [
       29564,
       29565
     ],
+    "CollectionName": "Harold \u0026 Kumar Collection",
+    "CollectionPoster": "/9OBP4MQBAXnBZ1uXLZykIWRGnBb.jpg",
+    "CollectionId": 30663,
     "DiaryWatchedDate": null
   },
   {
@@ -94078,6 +97123,9 @@ var films = [
       11707,
       11701
     ],
+    "CollectionName": "Lady and the Tramp Collection",
+    "CollectionPoster": "/fvk72hTShONXVDDSdoTEVm7DJh0.jpg",
+    "CollectionId": 97460,
     "DiaryWatchedDate": null
   },
   {
@@ -94187,6 +97235,9 @@ var films = [
     "Directors": [
       29611
     ],
+    "CollectionName": "The Net Collection",
+    "CollectionPoster": "/sO76zaomJunfbwKmoeDvPepgk6P.jpg",
+    "CollectionId": 328073,
     "DiaryWatchedDate": null
   },
   {
@@ -94300,6 +97351,9 @@ var films = [
     "Directors": [
       29655
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-08-23"
   },
   {
@@ -94401,6 +97455,9 @@ var films = [
     "Directors": [
       19257
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -94499,6 +97556,9 @@ var films = [
     "Directors": [
       12110
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-11-13"
   },
   {
@@ -94625,6 +97685,9 @@ var films = [
     "Directors": [
       6453
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -94716,6 +97779,9 @@ var films = [
     "Directors": [
       2335
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -94811,6 +97877,9 @@ var films = [
     "Directors": [
       19257
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -94851,6 +97920,9 @@ var films = [
     "Directors": [
       19287
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-28"
   },
   {
@@ -94937,6 +98009,9 @@ var films = [
     "Directors": [
       15903
     ],
+    "CollectionName": "Beetlejuice Collection",
+    "CollectionPoster": "/ilsvBAZHOp91z8J7QVjedr0EokL.jpg",
+    "CollectionId": 945475,
     "DiaryWatchedDate": null
   },
   {
@@ -95020,6 +98095,9 @@ var films = [
     "Directors": [
       910
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-10-21"
   },
   {
@@ -95055,6 +98133,9 @@ var films = [
     "Directors": [
       29846
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2018-01-01"
   },
   {
@@ -95147,6 +98228,9 @@ var films = [
     "Directors": [
       16930
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -95188,6 +98272,9 @@ var films = [
     "Directors": [
       29865
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-30"
   },
   {
@@ -95255,6 +98342,9 @@ var films = [
     "Directors": [
       1433
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-31"
   },
   {
@@ -95330,6 +98420,9 @@ var films = [
     "Directors": [
       29877
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -95410,6 +98503,9 @@ var films = [
     "Directors": [
       29898
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -95483,6 +98579,9 @@ var films = [
     "Directors": [
       29904
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -95554,6 +98653,9 @@ var films = [
     "Directors": [
       834
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -95597,6 +98699,9 @@ var films = [
     "Directors": [
       29918
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -95642,6 +98747,9 @@ var films = [
     "Directors": [
       29931
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2023-01-01"
   },
   {
@@ -95683,6 +98791,9 @@ var films = [
     "Directors": [
       29937
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -95746,6 +98857,9 @@ var films = [
     "Directors": [
       6979
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-12-31"
   },
   {
@@ -95855,6 +98969,9 @@ var films = [
     "Directors": [
       29976
     ],
+    "CollectionName": "Bring It On Collection",
+    "CollectionPoster": "/7aTnDp8CGIsXwz1W1sdP9C6qDFQ.jpg",
+    "CollectionId": 430186,
     "DiaryWatchedDate": "2024-12-31"
   },
   {
@@ -95938,6 +99055,9 @@ var films = [
     "Directors": [
       29998
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-02"
   },
   {
@@ -96007,6 +99127,9 @@ var films = [
     "Directors": [
       30021
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-03"
   },
   {
@@ -96079,6 +99202,9 @@ var films = [
     "Directors": [
       30031
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-04"
   },
   {
@@ -96158,6 +99284,9 @@ var films = [
     "Directors": [
       30053
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-05"
   },
   {
@@ -96230,6 +99359,9 @@ var films = [
     "Directors": [
       30087
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-06"
   },
   {
@@ -96295,6 +99427,9 @@ var films = [
     "Directors": [
       30093
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-07"
   },
   {
@@ -96412,6 +99547,9 @@ var films = [
     "Directors": [
       2046
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-08"
   },
   {
@@ -96482,6 +99620,9 @@ var films = [
     "Directors": [
       30158
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-08"
   },
   {
@@ -96569,6 +99710,9 @@ var films = [
     "Directors": [
       30184
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-09"
   },
   {
@@ -96639,6 +99783,9 @@ var films = [
     "Directors": [
       30218
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-10"
   },
   {
@@ -96712,6 +99859,9 @@ var films = [
     "Directors": [
       30231
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-10"
   },
   {
@@ -96748,6 +99898,9 @@ var films = [
       19288,
       19287
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-11"
   },
   {
@@ -96851,6 +100004,9 @@ var films = [
     "Directors": [
       19431
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-12"
   },
   {
@@ -96888,6 +100044,9 @@ var films = [
     "Directors": [
       30271
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-12"
   },
   {
@@ -96949,6 +100108,9 @@ var films = [
       30276,
       30277
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-12"
   },
   {
@@ -97043,6 +100205,9 @@ var films = [
     "Directors": [
       30308
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-13"
   },
   {
@@ -97141,6 +100306,9 @@ var films = [
     "Directors": [
       30338
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-13"
   },
   {
@@ -97199,6 +100367,9 @@ var films = [
     "Directors": [
       30360
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-13"
   },
   {
@@ -97255,6 +100426,9 @@ var films = [
     "Directors": [
       30378
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-14"
   },
   {
@@ -97318,6 +100492,9 @@ var films = [
     "Directors": [
       6733
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-14"
   },
   {
@@ -97406,6 +100583,9 @@ var films = [
     "Directors": [
       30401
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-15"
   },
   {
@@ -97469,6 +100649,9 @@ var films = [
     "Directors": [
       30425
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-17"
   },
   {
@@ -97540,6 +100723,9 @@ var films = [
     "Directors": [
       28409
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-17"
   },
   {
@@ -97636,6 +100822,9 @@ var films = [
       30460,
       30465
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-18"
   },
   {
@@ -97688,6 +100877,9 @@ var films = [
     "Directors": [
       30481
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-19"
   },
   {
@@ -97752,6 +100944,9 @@ var films = [
     "Directors": [
       30053
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-19"
   },
   {
@@ -97815,6 +101010,9 @@ var films = [
       30489,
       30488
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-21"
   },
   {
@@ -97910,6 +101108,9 @@ var films = [
     "Directors": [
       5692
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-22"
   },
   {
@@ -97966,6 +101167,9 @@ var films = [
     "Directors": [
       11723
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-22"
   },
   {
@@ -98043,6 +101247,9 @@ var films = [
     "Directors": [
       30538
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-23"
   },
   {
@@ -98099,6 +101306,9 @@ var films = [
     "Directors": [
       30579
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-24"
   },
   {
@@ -98191,6 +101401,9 @@ var films = [
     "Directors": [
       30606
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-25"
   },
   {
@@ -98328,6 +101541,9 @@ var films = [
     "Directors": [
       10649
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-26"
   },
   {
@@ -98391,6 +101607,9 @@ var films = [
     "Directors": [
       4502
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-27"
   },
   {
@@ -98437,6 +101656,9 @@ var films = [
     "Directors": [
       30683
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-28"
   },
   {
@@ -98517,6 +101739,9 @@ var films = [
     "Directors": [
       27468
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-29"
   },
   {
@@ -98604,6 +101829,9 @@ var films = [
     "Directors": [
       30718
     ],
+    "CollectionName": "The Wild Robot Collection",
+    "CollectionPoster": "/vm94OwAJdVE62BnNdrkM0aAgnEi.jpg",
+    "CollectionId": 1370345,
     "DiaryWatchedDate": "2025-01-30"
   },
   {
@@ -98679,6 +101907,9 @@ var films = [
     "Directors": [
       16794
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-30"
   },
   {
@@ -98732,6 +101963,9 @@ var films = [
     "Directors": [
       30750
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-30"
   },
   {
@@ -98816,6 +102050,9 @@ var films = [
     "Directors": [
       30796
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-01-31"
   },
   {
@@ -98893,6 +102130,9 @@ var films = [
     "Directors": [
       30053
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-02-01"
   },
   {
@@ -98935,6 +102175,9 @@ var films = [
     "Directors": [
       30815
     ],
+    "CollectionName": "Tina Trilogy",
+    "CollectionPoster": "",
+    "CollectionId": 1255696,
     "DiaryWatchedDate": "2025-02-03"
   },
   {
@@ -99006,6 +102249,9 @@ var films = [
     "Directors": [
       30823
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-02-03"
   },
   {
@@ -99072,6 +102318,9 @@ var films = [
     "Directors": [
       12492
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-02-04"
   },
   {
@@ -99116,6 +102365,9 @@ var films = [
     "Directors": [
       30837
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-02-06"
   },
   {
@@ -99203,6 +102455,9 @@ var films = [
     "Directors": [
       30838
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-02-06"
   },
   {
@@ -99287,6 +102542,9 @@ var films = [
     "Directors": [
       21632
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-02-07"
   },
   {
@@ -99356,6 +102614,9 @@ var films = [
     "Directors": [
       30908
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-02-08"
   },
   {
@@ -99426,6 +102687,9 @@ var films = [
     "Directors": [
       23470
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-02-10"
   },
   {
@@ -99492,6 +102756,9 @@ var films = [
     "Directors": [
       30939
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-02-12"
   },
   {
@@ -99583,6 +102850,9 @@ var films = [
     "Directors": [
       30967
     ],
+    "CollectionName": "Dirty Dancing Collection",
+    "CollectionPoster": "/gkrOvdbCFuGlxVwCYmczw7aw6Ku.jpg",
+    "CollectionId": 86058,
     "DiaryWatchedDate": "2025-02-15"
   },
   {
@@ -99662,6 +102932,9 @@ var films = [
     "Directors": [
       24472
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-02-16"
   },
   {
@@ -99732,6 +103005,9 @@ var films = [
     "Directors": [
       4502
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-02-17"
   },
   {
@@ -99771,6 +103047,9 @@ var films = [
       30990,
       30989
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-02-21"
   },
   {
@@ -99836,6 +103115,9 @@ var films = [
     "Directors": [
       31005
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-02-24"
   },
   {
@@ -99939,6 +103221,9 @@ var films = [
     "Directors": [
       3088
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-02-27"
   },
   {
@@ -100021,6 +103306,9 @@ var films = [
     "Directors": [
       31061
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-03-02"
   },
   {
@@ -100125,6 +103413,9 @@ var films = [
     "Directors": [
       24331
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-03-02"
   },
   {
@@ -100185,6 +103476,9 @@ var films = [
     "Directors": [
       31113
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-03-05"
   },
   {
@@ -100264,6 +103558,9 @@ var films = [
     "Directors": [
       31134
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-03-12"
   },
   {
@@ -100310,6 +103607,9 @@ var films = [
     "Directors": [
       31139
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-03-13"
   },
   {
@@ -100357,6 +103657,9 @@ var films = [
     "Directors": [
       20940
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-03-15"
   },
   {
@@ -100429,6 +103732,9 @@ var films = [
     "Directors": [
       11283
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-03-16"
   },
   {
@@ -100504,6 +103810,9 @@ var films = [
     "Directors": [
       31175
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-03-17"
   },
   {
@@ -100570,6 +103879,9 @@ var films = [
     "Directors": [
       31200
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-03-18"
   },
   {
@@ -100645,6 +103957,9 @@ var films = [
     "Directors": [
       31218
     ],
+    "CollectionName": "Angela Collection",
+    "CollectionPoster": "",
+    "CollectionId": 1302313,
     "DiaryWatchedDate": "2025-03-21"
   },
   {
@@ -100733,6 +104048,9 @@ var films = [
     "Directors": [
       29155
     ],
+    "CollectionName": "The Craft Collection",
+    "CollectionPoster": "/6gblwKfs6KSPdB2xVXKbpA8CfQM.jpg",
+    "CollectionId": 758369,
     "DiaryWatchedDate": "2025-03-23"
   },
   {
@@ -100789,6 +104107,9 @@ var films = [
     "Directors": [
       31247
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-03-24"
   },
   {
@@ -100836,6 +104157,9 @@ var films = [
     "Directors": [
       5168
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-03-24"
   },
   {
@@ -100908,6 +104232,9 @@ var films = [
     "Directors": [
       31283
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-03-24"
   },
   {
@@ -100988,6 +104315,9 @@ var films = [
     "Directors": [
       31303
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-03-26"
   },
   {
@@ -101037,6 +104367,9 @@ var films = [
     "Directors": [
       25316
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-03-29"
   },
   {
@@ -101104,6 +104437,9 @@ var films = [
     "Directors": [
       30749
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-03-31"
   },
   {
@@ -101187,6 +104523,9 @@ var films = [
     "Directors": [
       24472
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-01"
   },
   {
@@ -101230,6 +104569,9 @@ var films = [
     "Directors": [
       31364
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-02"
   },
   {
@@ -101299,6 +104641,9 @@ var films = [
     "Directors": [
       23470
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-03"
   },
   {
@@ -101385,6 +104730,9 @@ var films = [
     "Directors": [
       31394
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-04"
   },
   {
@@ -101433,6 +104781,9 @@ var films = [
     "Directors": [
       31403
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-06"
   },
   {
@@ -101483,6 +104834,9 @@ var films = [
     "Directors": [
       31404
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-06"
   },
   {
@@ -101565,6 +104919,9 @@ var films = [
     "Directors": [
       31421
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -101627,6 +104984,9 @@ var films = [
     "Directors": [
       28409
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-07"
   },
   {
@@ -101723,6 +105083,9 @@ var films = [
     "Directors": [
       31458
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-08"
   },
   {
@@ -101796,13 +105159,16 @@ var films = [
     "Directors": [
       31468
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-10"
   },
   {
     "Title": "Sanctuary",
     "TitleOriginal": "Sanctuary",
     "Language": "English",
-    "RatingSelf": 4,
+    "RatingSelf": 3.5,
     "RatingLetterboxd": 3.43,
     "Minutes": 96,
     "Watched": 95532,
@@ -101859,6 +105225,9 @@ var films = [
     "Directors": [
       31473
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-12"
   },
   {
@@ -101934,6 +105303,9 @@ var films = [
     "Directors": [
       31496
     ],
+    "CollectionName": "The Koker Trilogy",
+    "CollectionPoster": "/aaNEyUFavQFMmvGLt8bibFi7VaI.jpg",
+    "CollectionId": 1146553,
     "DiaryWatchedDate": "2025-04-12"
   },
   {
@@ -101991,6 +105363,9 @@ var films = [
     "Directors": [
       31518
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-13"
   },
   {
@@ -102039,6 +105414,9 @@ var films = [
     "Directors": [
       31528
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-14"
   },
   {
@@ -102131,6 +105509,9 @@ var films = [
     "Directors": [
       25398
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-14"
   },
   {
@@ -102208,6 +105589,9 @@ var films = [
     "Directors": [
       20932
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-17"
   },
   {
@@ -102274,6 +105658,9 @@ var films = [
     "Directors": [
       31589
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-18"
   },
   {
@@ -102358,6 +105745,9 @@ var films = [
     "Directors": [
       31607
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-21"
   },
   {
@@ -102429,6 +105819,9 @@ var films = [
     "Directors": [
       31616
     ],
+    "CollectionName": "Hellraiser Collection",
+    "CollectionPoster": "/lIK0UgJsA18Z5I1PwpucXzgyF3A.jpg",
+    "CollectionId": 8917,
     "DiaryWatchedDate": "2025-04-22"
   },
   {
@@ -102502,6 +105895,9 @@ var films = [
     "Directors": [
       31624
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-23"
   },
   {
@@ -102578,6 +105974,9 @@ var films = [
     "Directors": [
       31635
     ],
+    "CollectionName": "Tinker Bell Collection",
+    "CollectionPoster": "/wzt5eeX5YeJ4CLi165id4dKEgfW.jpg",
+    "CollectionId": 315595,
     "DiaryWatchedDate": "2025-04-23"
   },
   {
@@ -102630,6 +106029,9 @@ var films = [
     "Directors": [
       31648
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-25"
   },
   {
@@ -102708,6 +106110,9 @@ var films = [
     "Directors": [
       31667
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-27"
   },
   {
@@ -102772,6 +106177,9 @@ var films = [
     "Directors": [
       31678
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-27"
   },
   {
@@ -102852,6 +106260,9 @@ var films = [
     "Directors": [
       31700
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-04-30"
   },
   {
@@ -102939,6 +106350,9 @@ var films = [
     "Directors": [
       24249
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-01"
   },
   {
@@ -102987,6 +106401,9 @@ var films = [
     "Directors": [
       31734
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-02"
   },
   {
@@ -103051,6 +106468,9 @@ var films = [
     "Directors": [
       31755
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-03"
   },
   {
@@ -103144,6 +106564,9 @@ var films = [
     "Directors": [
       6036
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-04"
   },
   {
@@ -103209,6 +106632,9 @@ var films = [
     "Directors": [
       31801
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-06"
   },
   {
@@ -103262,6 +106688,9 @@ var films = [
     "Directors": [
       31814
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-07"
   },
   {
@@ -103312,6 +106741,9 @@ var films = [
     "Directors": [
       6979
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-07"
   },
   {
@@ -103398,6 +106830,9 @@ var films = [
     "Directors": [
       31846
     ],
+    "CollectionName": "Stepford Collection",
+    "CollectionPoster": "/v8MNQQkU5B2WJbvXLZHsvWiHFTx.jpg",
+    "CollectionId": 374384,
     "DiaryWatchedDate": "2025-05-09"
   },
   {
@@ -103465,6 +106900,9 @@ var films = [
     "Directors": [
       31847
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-10"
   },
   {
@@ -103553,6 +106991,9 @@ var films = [
     "Directors": [
       31872
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-15"
   },
   {
@@ -103601,6 +107042,9 @@ var films = [
     "Directors": [
       13156
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": null
   },
   {
@@ -103638,6 +107082,9 @@ var films = [
     "Directors": [
       31884
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2024-01-01"
   },
   {
@@ -103696,6 +107143,9 @@ var films = [
     "Directors": [
       31898
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-17"
   },
   {
@@ -103770,6 +107220,9 @@ var films = [
     "Directors": [
       31916
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-19"
   },
   {
@@ -103858,6 +107311,9 @@ var films = [
     "Directors": [
       31940
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-19"
   },
   {
@@ -103949,6 +107405,9 @@ var films = [
     "Directors": [
       31974
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-21"
   },
   {
@@ -103994,6 +107453,9 @@ var films = [
     "Directors": [
       20922
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-23"
   },
   {
@@ -104050,6 +107512,9 @@ var films = [
     "Directors": [
       31995
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-24"
   },
   {
@@ -104101,6 +107566,9 @@ var films = [
     "Directors": [
       32004
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-26"
   },
   {
@@ -104142,6 +107610,9 @@ var films = [
       32006,
       32007
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-27"
   },
   {
@@ -104191,6 +107662,9 @@ var films = [
     "Directors": [
       32017
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-28"
   },
   {
@@ -104248,6 +107722,9 @@ var films = [
     "Directors": [
       8838
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-29"
   },
   {
@@ -104293,6 +107770,9 @@ var films = [
     "Directors": [
       32029
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-30"
   },
   {
@@ -104336,6 +107816,9 @@ var films = [
       32030,
       32032
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-05-30"
   },
   {
@@ -104400,6 +107883,9 @@ var films = [
     "Directors": [
       32057
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-06-01"
   },
   {
@@ -104502,6 +107988,9 @@ var films = [
       18627,
       18626
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-06-03"
   },
   {
@@ -104548,6 +108037,9 @@ var films = [
     "Directors": [
       32086
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-06-04"
   },
   {
@@ -104657,6 +108149,9 @@ var films = [
     "Directors": [
       32122
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-06-06"
   },
   {
@@ -104749,6 +108244,9 @@ var films = [
     "Directors": [
       30231
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-06-07"
   },
   {
@@ -104800,6 +108298,9 @@ var films = [
       22376,
       24482
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-06-08"
   },
   {
@@ -104891,6 +108392,9 @@ var films = [
     "Directors": [
       32184
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-06-08"
   },
   {
@@ -104956,6 +108460,9 @@ var films = [
     "Directors": [
       5325
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-06-09"
   },
   {
@@ -105019,6 +108526,9 @@ var films = [
     "Directors": [
       32225
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-06-14"
   },
   {
@@ -105089,6 +108599,9 @@ var films = [
     "Directors": [
       12089
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-06-15"
   },
   {
@@ -105168,6 +108681,9 @@ var films = [
     "Directors": [
       32245
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-06-16"
   },
   {
@@ -105305,6 +108821,9 @@ var films = [
       25398,
       32248
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-06-17"
   },
   {
@@ -105350,6 +108869,9 @@ var films = [
     "Directors": [
       32285
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-06-19"
   },
   {
@@ -105432,6 +108954,9 @@ var films = [
     "Directors": [
       32309
     ],
+    "CollectionName": "It Follows Collection",
+    "CollectionPoster": "/yt3pAIULJmmD8JoZzm3235hD0bq.jpg",
+    "CollectionId": 1198581,
     "DiaryWatchedDate": "2025-06-20"
   },
   {
@@ -105505,6 +109030,9 @@ var films = [
     "Directors": [
       32345
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-06-21"
   },
   {
@@ -105615,6 +109143,9 @@ var films = [
     "Directors": [
       19136
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-06-27"
   },
   {
@@ -105665,6 +109196,9 @@ var films = [
       32384,
       32385
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-06-28"
   },
   {
@@ -105729,6 +109263,9 @@ var films = [
     "Directors": [
       28409
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-06-29"
   },
   {
@@ -105766,6 +109303,9 @@ var films = [
     "Directors": [
       6733
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-06-29"
   },
   {
@@ -105807,6 +109347,9 @@ var films = [
     "Directors": [
       32396
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-06-29"
   },
   {
@@ -105860,6 +109403,9 @@ var films = [
     "Directors": [
       32403
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-07-01"
   },
   {
@@ -105956,6 +109502,9 @@ var films = [
     "Directors": [
       32430
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-07-02"
   },
   {
@@ -106023,6 +109572,9 @@ var films = [
     "Directors": [
       32440
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-07-06"
   },
   {
@@ -106097,6 +109649,9 @@ var films = [
     "Directors": [
       32461
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-07-09"
   },
   {
@@ -106139,6 +109694,9 @@ var films = [
     "Directors": [
       25640
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-07-10"
   },
   {
@@ -106199,6 +109757,9 @@ var films = [
     "Directors": [
       32478
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-07-11"
   },
   {
@@ -106246,6 +109807,9 @@ var films = [
     "Directors": [
       32484
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-07-13"
   },
   {
@@ -106300,6 +109864,9 @@ var films = [
     "Directors": [
       32500
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-07-16"
   },
   {
@@ -106410,13 +109977,16 @@ var films = [
     "Directors": [
       32546
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-07-18"
   },
   {
     "Title": "Elevator to the Gallows",
     "TitleOriginal": "Ascenseur pour l'\u00E9chafaud",
     "Language": "French",
-    "RatingSelf": null,
+    "RatingSelf": 3.5,
     "RatingLetterboxd": 4.10,
     "Minutes": 91,
     "Watched": 86574,
@@ -106487,6 +110057,9 @@ var films = [
     "Directors": [
       32565
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-07-20"
   },
   {
@@ -106622,6 +110195,9 @@ var films = [
     "Directors": [
       20123
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-07-21"
   },
   {
@@ -106670,6 +110246,9 @@ var films = [
     "Directors": [
       32644
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-07-25"
   },
   {
@@ -106716,6 +110295,9 @@ var films = [
       32650,
       32651
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-07-30"
   },
   {
@@ -106789,6 +110371,9 @@ var films = [
     "Directors": [
       32689
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-07-31"
   },
   {
@@ -106896,6 +110481,9 @@ var films = [
     "Directors": [
       5555
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-08-06"
   },
   {
@@ -106972,6 +110560,9 @@ var films = [
     "Directors": [
       32729
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-08-07"
   },
   {
@@ -107070,6 +110661,9 @@ var films = [
     "Directors": [
       32781
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-08-07"
   },
   {
@@ -107153,6 +110747,9 @@ var films = [
     "Directors": [
       3420
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-08-10"
   },
   {
@@ -107218,6 +110815,9 @@ var films = [
     "Directors": [
       22176
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-08-02"
   },
   {
@@ -107271,6 +110871,9 @@ var films = [
     "Directors": [
       32815
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-08-12"
   },
   {
@@ -107310,13 +110913,16 @@ var films = [
     "Directors": [
       16794
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-08-13"
   },
   {
     "Title": "Ginger Snaps",
     "TitleOriginal": "Ginger Snaps",
     "Language": "English",
-    "RatingSelf": 4,
+    "RatingSelf": 3.5,
     "RatingLetterboxd": 3.64,
     "Minutes": 108,
     "Watched": 218506,
@@ -107388,6 +110994,9 @@ var films = [
     "Directors": [
       32843
     ],
+    "CollectionName": "Ginger Snaps Collection",
+    "CollectionPoster": "/5Ofs14VGD6gM0fwjdAcPhqmZCnT.jpg",
+    "CollectionId": 11794,
     "DiaryWatchedDate": "2025-08-14"
   },
   {
@@ -107438,6 +111047,9 @@ var films = [
     "Directors": [
       25316
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-08-15"
   },
   {
@@ -107485,6 +111097,9 @@ var films = [
     "Directors": [
       24472
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-08-17"
   },
   {
@@ -107533,6 +111148,9 @@ var films = [
     "Directors": [
       32865
     ],
+    "CollectionName": "Paradise Trilogy",
+    "CollectionPoster": "/voylusyFQZJV3DsDH7sJIZZxe7c.jpg",
+    "CollectionId": 243811,
     "DiaryWatchedDate": "2025-08-18"
   },
   {
@@ -107611,6 +111229,9 @@ var films = [
     "Directors": [
       9428
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-08-18"
   },
   {
@@ -107683,6 +111304,9 @@ var films = [
     "Directors": [
       32894
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-08-19"
   },
   {
@@ -107746,6 +111370,9 @@ var films = [
     "Directors": [
       32922
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-08-21"
   },
   {
@@ -107849,6 +111476,9 @@ var films = [
     "Directors": [
       5555
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-08-22"
   },
   {
@@ -107957,6 +111587,9 @@ var films = [
     "Directors": [
       5555
     ],
+    "CollectionName": "Nymphomaniac Collection",
+    "CollectionPoster": "/9iftq1oGENbI7plNNjsNLa5PLhj.jpg",
+    "CollectionId": 258664,
     "DiaryWatchedDate": "2025-08-24"
   },
   {
@@ -108031,6 +111664,9 @@ var films = [
     "Directors": [
       25914
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-08-29"
   },
   {
@@ -108108,6 +111744,9 @@ var films = [
     "Directors": [
       6366
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-08-29"
   },
   {
@@ -108167,6 +111806,9 @@ var films = [
     "Directors": [
       33021
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-08-31"
   },
   {
@@ -108268,6 +111910,9 @@ var films = [
     "Directors": [
       13858
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-09-01"
   },
   {
@@ -108318,6 +111963,9 @@ var films = [
     "Directors": [
       33066
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-09-02"
   },
   {
@@ -108371,6 +112019,9 @@ var films = [
     "Directors": [
       17755
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-09-03"
   },
   {
@@ -108446,6 +112097,9 @@ var films = [
     "Directors": [
       33078
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-09-05"
   },
   {
@@ -108517,6 +112171,9 @@ var films = [
     "Directors": [
       33094
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-09-07"
   },
   {
@@ -108585,6 +112242,842 @@ var films = [
     "Directors": [
       33107
     ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
     "DiaryWatchedDate": "2025-09-09"
+  },
+  {
+    "Title": "Weapons",
+    "TitleOriginal": "Weapons",
+    "Language": "English",
+    "RatingSelf": 2.5,
+    "RatingLetterboxd": 3.74,
+    "Minutes": 129,
+    "Watched": 1359154,
+    "Fans": 3475,
+    "Likes": 473325,
+    "Id": "EMTM",
+    "Poster": "/cpf7vsRZ0MYRQcnLWteD5jK9ymT.jpg",
+    "Year": 2025,
+    "When": "2025-08-04",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "US"
+    ],
+    "Countries_Production": [
+      "US"
+    ],
+    "Genres": [
+      "Horror",
+      "Mystery"
+    ],
+    "Studios": [
+      128,
+      1982,
+      665,
+      1797,
+      1642
+    ],
+    "Themes": [
+      71,
+      11,
+      61,
+      32,
+      60,
+      72,
+      3
+    ],
+    "Nanogenres": [
+      781,
+      4146,
+      3651,
+      833,
+      3771,
+      285,
+      830,
+      772,
+      4251,
+      3980
+    ],
+    "Cast": [
+      8674,
+      10833,
+      7675,
+      33108,
+      2470,
+      19338,
+      33109,
+      27445,
+      33110,
+      33111,
+      33112,
+      33113,
+      33114,
+      32423,
+      33115,
+      33116,
+      33117,
+      33118,
+      33119,
+      33120,
+      33121,
+      33122,
+      13611,
+      33123,
+      28132,
+      33124,
+      33125,
+      33126,
+      33127,
+      33128,
+      33129,
+      33130
+    ],
+    "Directors": [
+      33131
+    ],
+    "CollectionName": "Weapons Collection",
+    "CollectionPoster": "/xoeSn325CFQLt1WC9jSBBTsvPWR.jpg",
+    "CollectionId": 1531466,
+    "DiaryWatchedDate": "2025-09-09"
+  },
+  {
+    "Title": "The Arrival of a Train at La Ciotat",
+    "TitleOriginal": "L'arriv\u00E9e d'un train \u00E0 La Ciotat",
+    "Language": "",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.71,
+    "Minutes": 1,
+    "Watched": 114021,
+    "Fans": 70,
+    "Likes": 15348,
+    "Id": "2aZw",
+    "Poster": "/m5HSlaNCzwV95rAriDmT19el5h1.jpg",
+    "Year": 1896,
+    "When": "1896-06-30",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "FR"
+    ],
+    "Countries_Production": [
+      "FR"
+    ],
+    "Genres": [
+      "Documentary"
+    ],
+    "Studios": [
+      945
+    ],
+    "Themes": [],
+    "Nanogenres": [],
+    "Cast": [
+      33132,
+      33133,
+      33134,
+      33135,
+      33136,
+      33137
+    ],
+    "Directors": [
+      33138,
+      33139
+    ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
+    "DiaryWatchedDate": "2025-09-10"
+  },
+  {
+    "Title": "Honey Don't!",
+    "TitleOriginal": "Honey Don't!",
+    "Language": "English",
+    "RatingSelf": 1.5,
+    "RatingLetterboxd": 2.36,
+    "Minutes": 89,
+    "Watched": 100708,
+    "Fans": 64,
+    "Likes": 16802,
+    "Id": "Hurc",
+    "Poster": "/fJm3kmd9NLZWypMas7g34oNFgbk.jpg",
+    "Year": 2025,
+    "When": "2025-08-21",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "US"
+    ],
+    "Countries_Production": [
+      "US",
+      "GB"
+    ],
+    "Genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "Studios": [
+      44,
+      45
+    ],
+    "Themes": [
+      55,
+      56,
+      36,
+      26,
+      4
+    ],
+    "Nanogenres": [
+      166,
+      4120,
+      49,
+      3686,
+      4252,
+      4253,
+      851,
+      3182,
+      4254,
+      3159
+    ],
+    "Cast": [
+      550,
+      4669,
+      887,
+      33140,
+      33141,
+      33142,
+      33143,
+      33144,
+      27523,
+      33145,
+      33146,
+      33147,
+      33148,
+      33149,
+      33150,
+      11575,
+      22294,
+      33151,
+      33152,
+      33153,
+      33154,
+      13325,
+      8431,
+      33155,
+      33156,
+      31547,
+      33157,
+      33158,
+      33159,
+      33160,
+      33161,
+      33162,
+      33163,
+      33164,
+      38,
+      33165
+    ],
+    "Directors": [
+      25398
+    ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
+    "DiaryWatchedDate": "2025-09-11"
+  },
+  {
+    "Title": "Me and Earl and the Dying Girl",
+    "TitleOriginal": "Me and Earl and the Dying Girl",
+    "Language": "English",
+    "RatingSelf": 4,
+    "RatingLetterboxd": 3.85,
+    "Minutes": 105,
+    "Watched": 414039,
+    "Fans": 5745,
+    "Likes": 123614,
+    "Id": "9SAE",
+    "Poster": "/eLjS2bLMjln2n2I73Xu6TaANPDZ.jpg",
+    "Year": 2015,
+    "When": "2015-06-12",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "US"
+    ],
+    "Countries_Production": [
+      "US"
+    ],
+    "Genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "Studios": [
+      587,
+      2162
+    ],
+    "Themes": [
+      12,
+      5,
+      68,
+      13,
+      0,
+      49,
+      15,
+      16,
+      48,
+      9
+    ],
+    "Nanogenres": [
+      2118,
+      3587,
+      1335,
+      4249,
+      1598,
+      2116,
+      4255,
+      876,
+      4256,
+      745
+    ],
+    "Cast": [
+      10444,
+      33166,
+      33167,
+      4003,
+      3586,
+      4002,
+      1012,
+      29092,
+      33168,
+      33169,
+      33170,
+      33171,
+      33172,
+      33173,
+      33174,
+      33175,
+      33176,
+      25957,
+      33177,
+      8058,
+      33178,
+      33179,
+      33180,
+      33181,
+      33182,
+      33183,
+      33184,
+      33185
+    ],
+    "Directors": [
+      33186
+    ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
+    "DiaryWatchedDate": "2025-09-11"
+  },
+  {
+    "Title": "Computer Chess",
+    "TitleOriginal": "Computer Chess",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.49,
+    "Minutes": 91,
+    "Watched": 18182,
+    "Fans": 66,
+    "Likes": 3993,
+    "Id": "4Y1g",
+    "Poster": "/13lK8Ytp218J0mPullUzpvHjNrX.jpg",
+    "Year": 2013,
+    "When": "2013-07-17",
+    "BlackAndWhite": true,
+    "Countries_Origin": [
+      "US"
+    ],
+    "Countries_Production": [
+      "US"
+    ],
+    "Genres": [
+      "Comedy"
+    ],
+    "Studios": [
+      2163
+    ],
+    "Themes": [
+      13,
+      24
+    ],
+    "Nanogenres": [
+      1017,
+      1137,
+      4257,
+      4258,
+      4259,
+      126,
+      656,
+      623,
+      3990,
+      6
+    ],
+    "Cast": [
+      33187,
+      33188,
+      33189,
+      33190,
+      33191,
+      33192,
+      33193
+    ],
+    "Directors": [
+      33194
+    ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
+    "DiaryWatchedDate": "2025-09-12"
+  },
+  {
+    "Title": "Queen of the Damned",
+    "TitleOriginal": "Queen of the Damned",
+    "Language": "English",
+    "RatingSelf": 3,
+    "RatingLetterboxd": 2.79,
+    "Minutes": 101,
+    "Watched": 106613,
+    "Fans": 1578,
+    "Likes": 25840,
+    "Id": "1SCu",
+    "Poster": "/4MMpvQYgOz8K6lzlIVMXWjLzUPC.jpg",
+    "Year": 2002,
+    "When": "2002-02-10",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "AU",
+      "US"
+    ],
+    "Countries_Production": [
+      "AU",
+      "US"
+    ],
+    "Genres": [
+      "Fantasy",
+      "Horror",
+      "Romance"
+    ],
+    "Studios": [
+      2164,
+      142,
+      752,
+      2165,
+      102
+    ],
+    "Themes": [
+      83,
+      98,
+      60
+    ],
+    "Nanogenres": [
+      1846,
+      1037,
+      2440,
+      2033,
+      2155,
+      1038,
+      2441,
+      4260,
+      1848,
+      2035
+    ],
+    "Cast": [
+      33195,
+      33196,
+      33197,
+      33198,
+      33199,
+      16272,
+      33200,
+      12594,
+      17899,
+      33201,
+      33202,
+      33203,
+      33204,
+      33205,
+      33206,
+      33207,
+      33208,
+      33209,
+      33210,
+      33211,
+      33212,
+      15372,
+      33213,
+      33214,
+      33215,
+      33216,
+      33217,
+      33218,
+      33219,
+      33220,
+      33221,
+      33222,
+      33223,
+      33205,
+      33224,
+      33225,
+      33226,
+      33227,
+      33228,
+      33229,
+      33230,
+      33231,
+      33232,
+      33233,
+      33234,
+      33235,
+      33236,
+      33237,
+      33238,
+      33239,
+      33240,
+      33241,
+      33242,
+      33243,
+      33244,
+      33245,
+      33246,
+      33247,
+      33248,
+      33249,
+      33250,
+      33251,
+      33252,
+      33253,
+      33254,
+      33255,
+      33256,
+      33257,
+      33258,
+      33259,
+      33260,
+      33261,
+      33262,
+      33263,
+      33264,
+      28192,
+      33265
+    ],
+    "Directors": [
+      33266
+    ],
+    "CollectionName": "The Vampire Chronicles Collection",
+    "CollectionPoster": "/4Ai3rwZq2jQKuffYG0jLKoaQbQ5.jpg",
+    "CollectionId": 217704,
+    "DiaryWatchedDate": "2025-09-13"
+  },
+  {
+    "Title": "Woman in the Dunes",
+    "TitleOriginal": "\u7802\u306E\u5973",
+    "Language": "Japanese",
+    "RatingSelf": 5,
+    "RatingLetterboxd": 4.47,
+    "Minutes": 147,
+    "Watched": 81574,
+    "Fans": 1997,
+    "Likes": 32065,
+    "Id": "1JNS",
+    "Poster": "/f0JpsMQ9oEjKBD66Ky3qK3z7LGT.jpg",
+    "Year": 1964,
+    "When": "1964-02-15",
+    "BlackAndWhite": true,
+    "Countries_Origin": [
+      "JP"
+    ],
+    "Countries_Production": [
+      "JP"
+    ],
+    "Genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "Studios": [
+      2166
+    ],
+    "Themes": [
+      0,
+      2,
+      14,
+      61
+    ],
+    "Nanogenres": [
+      1980,
+      157,
+      1792,
+      2509,
+      926,
+      3011,
+      4261,
+      924,
+      4262,
+      4263
+    ],
+    "Cast": [
+      33267,
+      33268,
+      33269,
+      33270
+    ],
+    "Directors": [
+      33271
+    ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
+    "DiaryWatchedDate": "2025-09-14"
+  },
+  {
+    "Title": "With Every Heartbeat",
+    "TitleOriginal": "Kyss mig",
+    "Language": "Swedish",
+    "RatingSelf": 2.5,
+    "RatingLetterboxd": 3.36,
+    "Minutes": 107,
+    "Watched": 14296,
+    "Fans": 51,
+    "Likes": 2995,
+    "Id": "2vSc",
+    "Poster": "/rYThXhsiDKWoFcxqMSvV2jZHSws.jpg",
+    "Year": 2011,
+    "When": "2011-07-29",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "SE"
+    ],
+    "Countries_Production": [
+      "SE"
+    ],
+    "Genres": [
+      "Romance",
+      "Drama"
+    ],
+    "Studios": [
+      2167,
+      2168,
+      161
+    ],
+    "Themes": [
+      5,
+      85,
+      6,
+      51,
+      10,
+      4
+    ],
+    "Nanogenres": [
+      2428,
+      2503,
+      2797,
+      888,
+      4152,
+      3666,
+      1427,
+      4264,
+      4265,
+      2638
+    ],
+    "Cast": [
+      33272,
+      17222,
+      33273,
+      33274,
+      33275,
+      33276,
+      13019,
+      33277,
+      33278,
+      33279
+    ],
+    "Directors": [
+      33280
+    ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
+    "DiaryWatchedDate": "2025-09-15"
+  },
+  {
+    "Title": "The People's Joker",
+    "TitleOriginal": "The People's Joker",
+    "Language": "English",
+    "RatingSelf": null,
+    "RatingLetterboxd": 3.76,
+    "Minutes": 92,
+    "Watched": 36657,
+    "Fans": 404,
+    "Likes": 16747,
+    "Id": "uqVQ",
+    "Poster": "/80yak1h7YcNpMOsfSbThfwKYKK4.jpg",
+    "Year": 2022,
+    "When": "2024-04-05",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "US"
+    ],
+    "Countries_Production": [
+      "US"
+    ],
+    "Genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "Studios": [
+      2169
+    ],
+    "Themes": [],
+    "Nanogenres": [],
+    "Cast": [
+      33281,
+      33282,
+      33283,
+      33284,
+      33285,
+      33286,
+      33287,
+      33288,
+      33289,
+      33290,
+      3704,
+      33291,
+      33292,
+      33293,
+      23472,
+      33294,
+      33295,
+      33296,
+      33297,
+      33298,
+      8597,
+      33299,
+      33300,
+      33301,
+      33302,
+      11378,
+      33303,
+      33304,
+      33305,
+      33306,
+      33307,
+      33308,
+      33309,
+      33310,
+      33311,
+      33312,
+      33313,
+      33314,
+      33315,
+      33316,
+      33317,
+      33318,
+      33319,
+      33320,
+      33321,
+      33322,
+      33323,
+      33324,
+      33325,
+      33326,
+      33327,
+      33328,
+      33329
+    ],
+    "Directors": [
+      33281
+    ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
+    "DiaryWatchedDate": "2025-09-18"
+  },
+  {
+    "Title": "House",
+    "TitleOriginal": "\u30CF\u30A6\u30B9",
+    "Language": "Japanese",
+    "RatingSelf": null,
+    "RatingLetterboxd": 4.00,
+    "Minutes": 88,
+    "Watched": 393485,
+    "Fans": 9729,
+    "Likes": 165238,
+    "Id": "1vsm",
+    "Poster": "/tXlEgAJkGQuE9Vm6ppYERUBmdDM.jpg",
+    "Year": 1977,
+    "When": "1977-08-26",
+    "BlackAndWhite": false,
+    "Countries_Origin": [
+      "JP"
+    ],
+    "Countries_Production": [
+      "JP"
+    ],
+    "Genres": [
+      "Comedy",
+      "Fantasy",
+      "Horror"
+    ],
+    "Studios": [
+      2170
+    ],
+    "Themes": [
+      71,
+      68,
+      13,
+      23,
+      61,
+      1,
+      3,
+      72
+    ],
+    "Nanogenres": [
+      802,
+      2347,
+      1002,
+      2635,
+      3081,
+      2152,
+      801,
+      285,
+      3112,
+      4266
+    ],
+    "Cast": [
+      33330,
+      33331,
+      33332,
+      33333,
+      33334,
+      33335,
+      33336,
+      33337,
+      33338,
+      33339,
+      33340,
+      33341,
+      33342,
+      33343,
+      33344,
+      33345,
+      33346,
+      9392,
+      33347,
+      33348,
+      33349,
+      33350,
+      33351
+    ],
+    "Directors": [
+      33352
+    ],
+    "CollectionName": null,
+    "CollectionPoster": null,
+    "CollectionId": 0,
+    "DiaryWatchedDate": "2025-09-20"
   }
 ]

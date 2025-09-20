@@ -12971,6 +12971,60 @@ var data = {
       "Title": "Inforg-M\u0026M Film",
       "Poster": "/ygmbJsCJjgzIIYrJSj9grhDCYFu.png",
       "OriginCountry": "HU"
+    },
+    {
+      "Id": 41131,
+      "Title": "Rhode Island Ave. Productions",
+      "Poster": "",
+      "OriginCountry": "US"
+    },
+    {
+      "Id": 49989,
+      "Title": "Computer Chess",
+      "Poster": "",
+      "OriginCountry": "US"
+    },
+    {
+      "Id": 67988,
+      "Title": "WV Films LLC",
+      "Poster": "",
+      "OriginCountry": ""
+    },
+    {
+      "Id": 67989,
+      "Title": "Material",
+      "Poster": "",
+      "OriginCountry": ""
+    },
+    {
+      "Id": 3212,
+      "Title": "Teshigahara Productions",
+      "Poster": "",
+      "OriginCountry": "JP"
+    },
+    {
+      "Id": 14170,
+      "Title": "Lebox Produktion AB",
+      "Poster": "",
+      "OriginCountry": ""
+    },
+    {
+      "Id": 12477,
+      "Title": "Film i Sk\u00E5ne",
+      "Poster": "/tuREvnCzrM5sNXyrKRFCyB1gHF8.png",
+      "OriginCountry": "SE"
+    },
+    {
+      "Id": 151223,
+      "Title": "Haunted Gay Ride Productions",
+      "Poster": "",
+      "OriginCountry": ""
+    },
+    {
+      "Id": 70472,
+      "Title": "Toho Eizo Bijutsu",
+      "Poster": "",
+      "OriginCountry": "JP"
     }
   ],
   "Themes": [
@@ -30524,9 +30578,73 @@ var data = {
     {
       "Url": "relationships-loving-cruel",
       "Text": "Relationships, Loving, Cruel"
+    },
+    {
+      "Url": "gruesome-supernatural-guessing",
+      "Text": "Gruesome, Supernatural, Guessing"
+    },
+    {
+      "Url": "killer-criminal-mysterious",
+      "Text": "Killer, Criminal, Mysterious"
+    },
+    {
+      "Url": "solving-femme-fatale-1940s",
+      "Text": "Solving, Femme-Fatale, 1940s"
+    },
+    {
+      "Url": "killer-crime-evidence",
+      "Text": "Killer, Crime, Evidence"
+    },
+    {
+      "Url": "witty-poignant-endearing",
+      "Text": "Witty, Poignant, Endearing"
+    },
+    {
+      "Url": "school-immature-crying",
+      "Text": "School, Immature, Crying"
+    },
+    {
+      "Url": "funny-college-nerds",
+      "Text": "Funny, College, Nerds"
+    },
+    {
+      "Url": "friendship-geeks-silly",
+      "Text": "Friendship, Geeks, Silly"
+    },
+    {
+      "Url": "jokes-smile-stereotype",
+      "Text": "Jokes, Smile, Stereotype"
+    },
+    {
+      "Url": "chilling-menace-deadly",
+      "Text": "Chilling, Menace, Deadly"
+    },
+    {
+      "Url": "disturbing-fear-menacing",
+      "Text": "Disturbing, Fear, Menacing"
+    },
+    {
+      "Url": "imaginative-confusing-confusion",
+      "Text": "Imaginative, Confusing, Confusion"
+    },
+    {
+      "Url": "surreal-vision-poetic",
+      "Text": "Surreal, Vision, Poetic"
+    },
+    {
+      "Url": "school-girls-boyfriend",
+      "Text": "School, Girls, Boyfriend"
+    },
+    {
+      "Url": "romance-wedding-engagement",
+      "Text": "Romance, Wedding, Engagement"
+    },
+    {
+      "Url": "gory-possessed-bizarre",
+      "Text": "Gory, Possessed, Bizarre"
     }
   ],
-  "LastUpdated": "9th September 2025",
+  "LastUpdated": "20th September 2025",
   "Username": "LaLunaLlena",
   "Backdrops": [
     {
@@ -31076,6 +31194,13 @@ var data = {
       "Flags": "."
     },
     {
+      "ImageUrl": "kZiV6LdgpLIjcfKcbat1BfIHQMj.jpg/tTDNSM84aQfC9SW169N4Ob3RK9T.jpg/6KTCMwJejOLW0Qg71TFNplL1b4L.jpg/9STmDHU2xxhLoJSSVzDJtx3ZCTh.jpg",
+      "FilmName": "\u003Cem\u003E\u30CF\u30A6\u30B9\u003C/em\u003E\u003Cbr\u003E(\u0026quot;\u003Cem\u003EHouse\u003C/em\u003E\u0026quot;)\u003Cbr/\u003E(1977)",
+      "LetterboxdId": "1vsm",
+      "Colour": null,
+      "Flags": "."
+    },
+    {
       "ImageUrl": "AvjYFRlYFI0bqFTo7k8zSXSbaRs.jpg",
       "FilmName": "\u003Cem\u003EHow to Steal a Million\u003C/em\u003E\u003Cbr/\u003E(1966)",
       "LetterboxdId": "25Yo",
@@ -31615,6 +31740,13 @@ var data = {
       "Flags": "."
     },
     {
+      "ImageUrl": "aLTxu9EiQ1EQ69qDUVE4Q5dtNfG.jpg",
+      "FilmName": "\u003Cem\u003EL'arriv\u00E9e d'un train \u00E0 La Ciotat\u003C/em\u003E\u003Cbr\u003E(\u0026quot;\u003Cem\u003EThe Arrival of a Train at La Ciotat\u003C/em\u003E\u0026quot;)\u003Cbr/\u003E(1896)",
+      "LetterboxdId": "2aZw",
+      "Colour": null,
+      "Flags": "."
+    },
+    {
       "ImageUrl": "dKnejFHlxwHiVuIV8HMGAtWTCpp.jpg",
       "FilmName": "\u003Cem\u003EThe Banshees of Inisherin\u003C/em\u003E\u003Cbr/\u003E(2022)",
       "LetterboxdId": "p7XS",
@@ -31811,6 +31943,13 @@ var data = {
       "Flags": "."
     },
     {
+      "ImageUrl": "79M8FwF2UtyeFZRF7fRGwMx4pwb.jpg",
+      "FilmName": "\u003Cem\u003EThe People's Joker\u003C/em\u003E\u003Cbr/\u003E(2022)",
+      "LetterboxdId": "uqVQ",
+      "Colour": null,
+      "Flags": "."
+    },
+    {
       "ImageUrl": "aMVs5DGlZ4XJpoQR5hsshnbxJ1l.jpg",
       "FilmName": "\u003Cem\u003EThe Piano\u003C/em\u003E\u003Cbr/\u003E(1993)",
       "LetterboxdId": "29Kq",
@@ -31986,6 +32125,13 @@ var data = {
       "Flags": "."
     },
     {
+      "ImageUrl": "uSGnZ8bH8Fnx1VrCkP6vIDoAg3y.jpg",
+      "FilmName": "\u003Cem\u003E\u7802\u306E\u5973\u003C/em\u003E\u003Cbr\u003E(\u0026quot;\u003Cem\u003EWoman in the Dunes\u003C/em\u003E\u0026quot;)\u003Cbr/\u003E(1964)",
+      "LetterboxdId": "1JNS",
+      "Colour": null,
+      "Flags": "."
+    },
+    {
       "ImageUrl": "saJB4zmavAIKd6lbvhhD2I7RfJs.jpg",
       "FilmName": "\u003Cem\u003EWuthering Heights\u003C/em\u003E\u003Cbr/\u003E(1939)",
       "LetterboxdId": "25Mi",
@@ -32012,197 +32158,7 @@ var data = {
       "ListName": "Recently Watched",
       "Entries": [
         {
-          "Order": 50,
-          "FilmName": "F1",
-          "FilmNameOriginal": "F1",
-          "Year": 2025,
-          "LetterboxdIdentifier": "yjVM",
-          "Language": "English",
-          "PosterUrl": "/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
-          "RatingSelf": 4,
-          "WatchedDate": "2025-07-21",
-          "IsRewatch": false,
-          "Overview": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team\u2014and mentor a young hotshot driver\u2014while chasing one more chance at glory.",
-          "Genres": [
-            "Action",
-            "Drama"
-          ],
-          "Protagonist": "Brad Pitt",
-          "Director": "Joseph Kosinski"
-        },
-        {
-          "Order": 46,
-          "FilmName": "Let the Right One In",
-          "FilmNameOriginal": "L\u00E5t den r\u00E4tte komma in",
-          "Year": 2008,
-          "LetterboxdIdentifier": "1Qr0",
-          "Language": "Swedish",
-          "PosterUrl": "/7IG4WjaAOVDlLvLUkh513HSwhW8.jpg",
-          "RatingSelf": 4.5,
-          "WatchedDate": "2025-07-25",
-          "IsRewatch": true,
-          "Overview": "When Oskar, a sensitive, bullied 12-year-old boy, meets his new neighbor, the mysterious and moody Eli, they strike up a friendship. Initially reserved with each other, Oskar and Eli slowly form a close bond, but it soon becomes apparent that she is no ordinary young girl.",
-          "Genres": [
-            "Horror",
-            "Drama"
-          ],
-          "Protagonist": "K\u00E5re Hedebrant",
-          "Director": "Tomas Alfredson"
-        },
-        {
-          "Order": 46,
-          "FilmName": "Ice Palace",
-          "FilmNameOriginal": "Is-slottet",
-          "Year": 1987,
-          "LetterboxdIdentifier": "fVK",
-          "Language": "Norwegian",
-          "PosterUrl": "/30q7Pf4FWuz9yhOLYSfwdNtcZZv.jpg",
-          "RatingSelf": 0,
-          "WatchedDate": "2025-07-25",
-          "IsRewatch": false,
-          "Overview": "One evening, in a remote Norwegian mountain-town, two 12 year old girls meet. For the first time in their lives they are thrown into a strong emotional confrontation. The next day, Unn is unable to meet Siss again. Instead, she ventures alone into the cold, lonely winter landscape.",
-          "Genres": [
-            "Mystery",
-            "Drama"
-          ],
-          "Protagonist": "Hilde Nyeggen Martinsen",
-          "Director": "Per Blom"
-        },
-        {
-          "Order": 41,
-          "FilmName": "The Mark of Lilith",
-          "FilmNameOriginal": "The Mark of Lilith",
-          "Year": 1986,
-          "LetterboxdIdentifier": "ePuy",
-          "Language": "English",
-          "PosterUrl": "/3pFfz5FqvgSAvqGpBmMGciW2bf5.jpg",
-          "RatingSelf": 0,
-          "WatchedDate": "2025-07-30",
-          "IsRewatch": false,
-          "Overview": "A white bisexual vampire, Lillia, is trapped in a monotonous cycle with her thoughtless, misogynist vampire partner, Luke (who, while also being a bisexual, prefers to devour women prey). Her encounter with Black lesbian Zena, who is reading about goddesses across religions and cultures and thinking about the horror film genre, pulls Lillia out of a state of bad faith into an enlightened state of knowledge and play.  'The Mark of Lilith' was the graduation film of Bruna Fionda, Polly Gladwin, Zach Mack-Nataf\u2019s from The London College of Printing, under the tutorship of Laura Mulvey.  The film was shot in Brixton and made with a cast and crew of local filmmakers, artists and activists.  The Mark of Lilith was digitally restored from the 16mm print by the BFI in 2021.",
-          "Genres": [
-            "Romance",
-            "Horror",
-            "Mystery"
-          ],
-          "Protagonist": "Susan Franklyn",
-          "Director": "Bruna Fionda, Polly Gladwin, Zach Mack-Nataf"
-        },
-        {
-          "Order": 40,
-          "FilmName": "Toxic",
-          "FilmNameOriginal": "Akipl\u0117\u0161a",
-          "Year": 2024,
-          "LetterboxdIdentifier": "Obsu",
-          "Language": "Lithuanian",
-          "PosterUrl": "/knG84vSv8kRMeopgIcrTpsYYHSs.jpg",
-          "RatingSelf": 3.5,
-          "WatchedDate": "2025-07-31",
-          "IsRewatch": false,
-          "Overview": "Dreaming of an escape from the bleakness of their hometown, two teens form a unique bond at a local modeling school, where the promise of a better life pushes girls to violate their bodies in increasingly extreme ways.",
-          "Genres": [
-            "Drama"
-          ],
-          "Protagonist": "Vesta Matulyt\u0117",
-          "Director": "Saul\u0117 Bliuvait\u0117"
-        },
-        {
-          "Order": 38,
-          "FilmName": "Scarlet Diva",
-          "FilmNameOriginal": "Scarlet Diva",
-          "Year": 2000,
-          "LetterboxdIdentifier": "1yyi",
-          "Language": "Italian",
-          "PosterUrl": "/opMsnON01i6yDxmGHu1fZUCsPRv.jpg",
-          "RatingSelf": 2.5,
-          "WatchedDate": "2025-08-02",
-          "IsRewatch": false,
-          "Overview": "A young Italian actress embarks on a self-destructive spree of sex, drugs and other excess while doing some soul searching to find the path for redemption.",
-          "Genres": [
-            "Drama"
-          ],
-          "Protagonist": "Asia Argento",
-          "Director": "Asia Argento"
-        },
-        {
-          "Order": 34,
-          "FilmName": "The Idiots",
-          "FilmNameOriginal": "Idioterne",
-          "Year": 1998,
-          "LetterboxdIdentifier": "2amu",
-          "Language": "Danish",
-          "PosterUrl": "/4osY7ZYfu3GaxMUNpnCQEwmfvK7.jpg",
-          "RatingSelf": 2.5,
-          "WatchedDate": "2025-08-06",
-          "IsRewatch": false,
-          "Overview": "A mix of home-video and documentary styles about a group of young people who have decided to get to know their \u201Cinner-idiots\u201D and thus not only facing and breaking their outer appearance but also their inner.",
-          "Genres": [
-            "Comedy",
-            "Drama"
-          ],
-          "Protagonist": "Bodil J\u00F8rgensen",
-          "Director": "Lars von Trier"
-        },
-        {
-          "Order": 33,
-          "FilmName": "Sorry, Baby",
-          "FilmNameOriginal": "Sorry, Baby",
-          "Year": 2025,
-          "LetterboxdIdentifier": "JKNi",
-          "Language": "English",
-          "PosterUrl": "/iq1QtN1H8AVEBfl1SgNAqhMgTbQ.jpg",
-          "RatingSelf": 4,
-          "WatchedDate": "2025-08-07",
-          "IsRewatch": false,
-          "Overview": "Something bad happened to Agnes. But life goes on\u2026 for everyone around her, at least.",
-          "Genres": [
-            "Drama",
-            "Comedy"
-          ],
-          "Protagonist": "Eva Victor",
-          "Director": "Eva Victor"
-        },
-        {
-          "Order": 33,
-          "FilmName": "Psycho Beach Party",
-          "FilmNameOriginal": "Psycho Beach Party",
-          "Year": 2000,
-          "LetterboxdIdentifier": "1r7E",
-          "Language": "English",
-          "PosterUrl": "/qbWR0do4iIOpN5R1zNJfRt0WSz.jpg",
-          "RatingSelf": 3,
-          "WatchedDate": "2025-08-07",
-          "IsRewatch": false,
-          "Overview": "Chicklet is a sixteen-year old tomboy who's desperate to be part of the in-crowd of Malibu beach surfers. She's the typical American girl - except for one little problem: her personality is split into more slices than a pepperoni pizza.",
-          "Genres": [
-            "Comedy",
-            "Horror"
-          ],
-          "Protagonist": "Lauren Ambrose",
-          "Director": "Robert Lee King"
-        },
-        {
-          "Order": 30,
-          "FilmName": "Show Me Love",
-          "FilmNameOriginal": "Fucking \u00C5m\u00E5l",
-          "Year": 1998,
-          "LetterboxdIdentifier": "1TmW",
-          "Language": "Swedish",
-          "PosterUrl": "/ek5fMfwGVTyQ0N0VXBT1VWqan3U.jpg",
-          "RatingSelf": 0,
-          "WatchedDate": "2025-08-10",
-          "IsRewatch": false,
-          "Overview": "Two teenage girls in small-town Sweden. Elin is beautiful, popular, and bored with life. Agnes is friendless, sad, and secretly in love with Elin.",
-          "Genres": [
-            "Comedy",
-            "Romance",
-            "Drama"
-          ],
-          "Protagonist": "Alexandra Dahlstr\u00F6m",
-          "Director": "Lukas Moodysson"
-        },
-        {
-          "Order": 28,
+          "Order": 39,
           "FilmName": "The Feeling That the Time for Doing Something Has Passed",
           "FilmNameOriginal": "The Feeling That the Time for Doing Something Has Passed",
           "Year": 2023,
@@ -32220,7 +32176,7 @@ var data = {
           "Director": "Joanna Arnow"
         },
         {
-          "Order": 27,
+          "Order": 38,
           "FilmName": "Un Chien Andalou",
           "FilmNameOriginal": "Un chien andalou",
           "Year": 1929,
@@ -32239,14 +32195,14 @@ var data = {
           "Director": "Luis Bu\u00F1uel"
         },
         {
-          "Order": 26,
+          "Order": 37,
           "FilmName": "Ginger Snaps",
           "FilmNameOriginal": "Ginger Snaps",
           "Year": 2000,
           "LetterboxdIdentifier": "1XEg",
           "Language": "English",
           "PosterUrl": "/4NmAtQdttqG4d1jyIK3vJvuyMov.jpg",
-          "RatingSelf": 4,
+          "RatingSelf": 3.5,
           "WatchedDate": "2025-08-14",
           "IsRewatch": false,
           "Overview": "The story of two outcast sisters, Ginger and Brigitte, in the mindless suburban town of Bailey Downs. On the night of Ginger's first period, she is savagely attacked by a wild creature. Ginger's wounds miraculously heal but something is not quite right. Now Brigitte must save her sister and save herself.",
@@ -32260,7 +32216,7 @@ var data = {
           "Director": "John Fawcett"
         },
         {
-          "Order": 25,
+          "Order": 36,
           "FilmName": "Phantom Youth",
           "FilmNameOriginal": "Bota jon\u00EB",
           "Year": 2023,
@@ -32278,7 +32234,7 @@ var data = {
           "Director": "Lu\u00E0na Bajrami"
         },
         {
-          "Order": 23,
+          "Order": 34,
           "FilmName": "Wasp",
           "FilmNameOriginal": "Wasp",
           "Year": 2003,
@@ -32296,25 +32252,7 @@ var data = {
           "Director": "Andrea Arnold"
         },
         {
-          "Order": 22,
-          "FilmName": "Paradise: Hope",
-          "FilmNameOriginal": "Paradies: Hoffnung",
-          "Year": 2013,
-          "LetterboxdIdentifier": "4Lgi",
-          "Language": "German",
-          "PosterUrl": "/p0PACqyXg2hsVMwlapSh9GQq7Nv.jpg",
-          "RatingSelf": 3,
-          "WatchedDate": "2025-08-18",
-          "IsRewatch": false,
-          "Overview": "Her mother in Kenya, 13-year-old Melanie spends her summer vacation at a strict diet camp set in the Austrian countryside. Between workouts and nutrition classes, pillow fights and first cigarettes, she falls in love with a doctor 40 years her senior.",
-          "Genres": [
-            "Drama"
-          ],
-          "Protagonist": "Melanie Lenz",
-          "Director": "Ulrich Seidl"
-        },
-        {
-          "Order": 22,
+          "Order": 33,
           "FilmName": "Paris, Texas",
           "FilmNameOriginal": "Paris, Texas",
           "Year": 1984,
@@ -32332,7 +32270,25 @@ var data = {
           "Director": "Wim Wenders"
         },
         {
-          "Order": 21,
+          "Order": 33,
+          "FilmName": "Paradise: Hope",
+          "FilmNameOriginal": "Paradies: Hoffnung",
+          "Year": 2013,
+          "LetterboxdIdentifier": "4Lgi",
+          "Language": "German",
+          "PosterUrl": "/p0PACqyXg2hsVMwlapSh9GQq7Nv.jpg",
+          "RatingSelf": 3,
+          "WatchedDate": "2025-08-18",
+          "IsRewatch": false,
+          "Overview": "Her mother in Kenya, 13-year-old Melanie spends her summer vacation at a strict diet camp set in the Austrian countryside. Between workouts and nutrition classes, pillow fights and first cigarettes, she falls in love with a doctor 40 years her senior.",
+          "Genres": [
+            "Drama"
+          ],
+          "Protagonist": "Melanie Lenz",
+          "Director": "Ulrich Seidl"
+        },
+        {
+          "Order": 32,
           "FilmName": "Ponette",
           "FilmNameOriginal": "Ponette",
           "Year": 1996,
@@ -32350,7 +32306,7 @@ var data = {
           "Director": "Jacques Doillon"
         },
         {
-          "Order": 19,
+          "Order": 30,
           "FilmName": "A Question of Silence",
           "FilmNameOriginal": "De stilte rond Christine M.",
           "Year": 1982,
@@ -32368,7 +32324,7 @@ var data = {
           "Director": "Marleen Gorris"
         },
         {
-          "Order": 18,
+          "Order": 29,
           "FilmName": "Breaking the Waves",
           "FilmNameOriginal": "Breaking the Waves",
           "Year": 1996,
@@ -32387,7 +32343,7 @@ var data = {
           "Director": "Lars von Trier"
         },
         {
-          "Order": 16,
+          "Order": 27,
           "FilmName": "Nymphomaniac",
           "FilmNameOriginal": "Nymphomaniac",
           "Year": 2014,
@@ -32405,7 +32361,7 @@ var data = {
           "Director": "Lars von Trier"
         },
         {
-          "Order": 11,
+          "Order": 22,
           "FilmName": "The Apartment",
           "FilmNameOriginal": "The Apartment",
           "Year": 1960,
@@ -32425,7 +32381,7 @@ var data = {
           "Director": "Billy Wilder"
         },
         {
-          "Order": 11,
+          "Order": 22,
           "FilmName": "Victoria",
           "FilmNameOriginal": "Victoria",
           "Year": 2015,
@@ -32445,7 +32401,7 @@ var data = {
           "Director": "Sebastian Schipper"
         },
         {
-          "Order": 9,
+          "Order": 20,
           "FilmName": "Therese and Isabelle",
           "FilmNameOriginal": "Therese and Isabelle",
           "Year": 1968,
@@ -32464,7 +32420,7 @@ var data = {
           "Director": "Radley Metzger"
         },
         {
-          "Order": 8,
+          "Order": 19,
           "FilmName": "Safe",
           "FilmNameOriginal": "Safe",
           "Year": 1995,
@@ -32482,7 +32438,7 @@ var data = {
           "Director": "Todd Haynes"
         },
         {
-          "Order": 7,
+          "Order": 18,
           "FilmName": "Aattam",
           "FilmNameOriginal": "\u0D06\u0D1F\u0D4D\u0D1F\u0D02",
           "Year": 2023,
@@ -32500,7 +32456,7 @@ var data = {
           "Director": "Anand Ekarshi"
         },
         {
-          "Order": 6,
+          "Order": 17,
           "FilmName": "Night and Fog",
           "FilmNameOriginal": "Nuit et Brouillard",
           "Year": 1956,
@@ -32519,7 +32475,7 @@ var data = {
           "Director": "Alain Resnais"
         },
         {
-          "Order": 4,
+          "Order": 15,
           "FilmName": "The Devils",
           "FilmNameOriginal": "The Devils",
           "Year": 1971,
@@ -32539,7 +32495,7 @@ var data = {
           "Director": "Ken Russell"
         },
         {
-          "Order": 2,
+          "Order": 13,
           "FilmName": "House of Hummingbird",
           "FilmNameOriginal": "\uBC8C\uC0C8",
           "Year": 2018,
@@ -32557,7 +32513,7 @@ var data = {
           "Director": "Kim Bora"
         },
         {
-          "Order": 0,
+          "Order": 11,
           "FilmName": "On Body and Soul",
           "FilmNameOriginal": "Testr\u0151l \u00E9s l\u00E9lekr\u0151l",
           "Year": 2017,
@@ -32575,6 +32531,196 @@ var data = {
           ],
           "Protagonist": "Alexandra Borb\u00E9ly",
           "Director": "Ildik\u00F3 Enyedi"
+        },
+        {
+          "Order": 11,
+          "FilmName": "Weapons",
+          "FilmNameOriginal": "Weapons",
+          "Year": 2025,
+          "LetterboxdIdentifier": "EMTM",
+          "Language": "English",
+          "PosterUrl": "/cpf7vsRZ0MYRQcnLWteD5jK9ymT.jpg",
+          "RatingSelf": 2.5,
+          "WatchedDate": "2025-09-09",
+          "IsRewatch": false,
+          "Overview": "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
+          "Genres": [
+            "Horror",
+            "Mystery"
+          ],
+          "Protagonist": "Julia Garner",
+          "Director": "Zach Cregger"
+        },
+        {
+          "Order": 10,
+          "FilmName": "The Arrival of a Train at La Ciotat",
+          "FilmNameOriginal": "L'arriv\u00E9e d'un train \u00E0 La Ciotat",
+          "Year": 1896,
+          "LetterboxdIdentifier": "2aZw",
+          "Language": "",
+          "PosterUrl": "/m5HSlaNCzwV95rAriDmT19el5h1.jpg",
+          "RatingSelf": 0,
+          "WatchedDate": "2025-09-10",
+          "IsRewatch": false,
+          "Overview": "A group of people are standing along the platform of a railway station in La Ciotat, waiting for a train. One is seen coming, at some distance, and eventually stops at the platform. Doors of the railway-cars open and attendants help passengers off and on.  Popular legend has it that, when this film was shown, the first-night audience fled the caf\u00E9 in terror, fearing being run over by the \u0022approaching\u0022 train. This legend has since been identified as promotional embellishment, though there is evidence to suggest that people were astounded at the capabilities of the Lumi\u00E8res' cin\u00E9matographe.",
+          "Genres": [
+            "Documentary"
+          ],
+          "Protagonist": "Madeleine Koehler",
+          "Director": "Louis Lumi\u00E8re, Auguste Lumi\u00E8re"
+        },
+        {
+          "Order": 9,
+          "FilmName": "Me and Earl and the Dying Girl",
+          "FilmNameOriginal": "Me and Earl and the Dying Girl",
+          "Year": 2015,
+          "LetterboxdIdentifier": "9SAE",
+          "Language": "English",
+          "PosterUrl": "/eLjS2bLMjln2n2I73Xu6TaANPDZ.jpg",
+          "RatingSelf": 4,
+          "WatchedDate": "2025-09-11",
+          "IsRewatch": false,
+          "Overview": "Greg is coasting through senior year of high school as anonymously as possible, avoiding social interactions like the plague while secretly making spirited, bizarre films with Earl, his only friend. But both his anonymity and friendship threaten to unravel when his mother forces him to befriend a classmate with leukemia.",
+          "Genres": [
+            "Drama",
+            "Comedy"
+          ],
+          "Protagonist": "Olivia Cooke",
+          "Director": "Alfonso Gomez-Rejon"
+        },
+        {
+          "Order": 9,
+          "FilmName": "Honey Don't!",
+          "FilmNameOriginal": "Honey Don't!",
+          "Year": 2025,
+          "LetterboxdIdentifier": "Hurc",
+          "Language": "English",
+          "PosterUrl": "/fJm3kmd9NLZWypMas7g34oNFgbk.jpg",
+          "RatingSelf": 1.5,
+          "WatchedDate": "2025-09-11",
+          "IsRewatch": false,
+          "Overview": "Honey O'Donahue, a small-town private investigator, delves into a series of strange deaths tied to a mysterious church.",
+          "Genres": [
+            "Comedy",
+            "Crime"
+          ],
+          "Protagonist": "Margaret Qualley",
+          "Director": "Ethan Coen"
+        },
+        {
+          "Order": 8,
+          "FilmName": "Computer Chess",
+          "FilmNameOriginal": "Computer Chess",
+          "Year": 2013,
+          "LetterboxdIdentifier": "4Y1g",
+          "Language": "English",
+          "PosterUrl": "/13lK8Ytp218J0mPullUzpvHjNrX.jpg",
+          "RatingSelf": 0,
+          "WatchedDate": "2025-09-12",
+          "IsRewatch": false,
+          "Overview": "At the American Computer Chess Convention, enthusiasts gather to pit their programs against other computer chess programs and human players in a tournament for a grand prize of $7500.",
+          "Genres": [
+            "Comedy"
+          ],
+          "Protagonist": "Patrick Riester",
+          "Director": "Andrew Bujalski"
+        },
+        {
+          "Order": 7,
+          "FilmName": "Queen of the Damned",
+          "FilmNameOriginal": "Queen of the Damned",
+          "Year": 2002,
+          "LetterboxdIdentifier": "1SCu",
+          "Language": "English",
+          "PosterUrl": "/4MMpvQYgOz8K6lzlIVMXWjLzUPC.jpg",
+          "RatingSelf": 3,
+          "WatchedDate": "2025-09-13",
+          "IsRewatch": false,
+          "Overview": "Lestat finds acceptance in a tattooed and pierced world, rekindling the desires of all-powerful Akasha.",
+          "Genres": [
+            "Fantasy",
+            "Horror",
+            "Romance"
+          ],
+          "Protagonist": "Aaliyah",
+          "Director": "Michael Rymer"
+        },
+        {
+          "Order": 6,
+          "FilmName": "Woman in the Dunes",
+          "FilmNameOriginal": "\u7802\u306E\u5973",
+          "Year": 1964,
+          "LetterboxdIdentifier": "1JNS",
+          "Language": "Japanese",
+          "PosterUrl": "/f0JpsMQ9oEjKBD66Ky3qK3z7LGT.jpg",
+          "RatingSelf": 5,
+          "WatchedDate": "2025-09-14",
+          "IsRewatch": false,
+          "Overview": "A vacationing entomologist suffers extreme physical and psychological trauma after being taken captive by the residents of a poor seaside village and made to live with a woman whose life task is shoveling sand for them.",
+          "Genres": [
+            "Drama",
+            "Thriller"
+          ],
+          "Protagonist": "Eiji Okada",
+          "Director": "Hiroshi Teshigahara"
+        },
+        {
+          "Order": 5,
+          "FilmName": "With Every Heartbeat",
+          "FilmNameOriginal": "Kyss mig",
+          "Year": 2011,
+          "LetterboxdIdentifier": "2vSc",
+          "Language": "Swedish",
+          "PosterUrl": "/rYThXhsiDKWoFcxqMSvV2jZHSws.jpg",
+          "RatingSelf": 2.5,
+          "WatchedDate": "2025-09-15",
+          "IsRewatch": false,
+          "Overview": "After they meet at their parent's engagement party, Mia and Frida are intrigued by and attracted to one another, despite Mia's own upcoming engagement to Tim. Mia must decide whether to continue her life with Tim or to follow her heart with Frida.",
+          "Genres": [
+            "Romance",
+            "Drama"
+          ],
+          "Protagonist": "Ruth Vega Fernandez",
+          "Director": "Alexandra-Therese Keining"
+        },
+        {
+          "Order": 2,
+          "FilmName": "The People's Joker",
+          "FilmNameOriginal": "The People's Joker",
+          "Year": 2022,
+          "LetterboxdIdentifier": "uqVQ",
+          "Language": "English",
+          "PosterUrl": "/80yak1h7YcNpMOsfSbThfwKYKK4.jpg",
+          "RatingSelf": 0,
+          "WatchedDate": "2025-09-18",
+          "IsRewatch": false,
+          "Overview": "An aspiring clown grappling with her gender identity combats a fascistic caped crusader.",
+          "Genres": [
+            "Comedy",
+            "Fantasy"
+          ],
+          "Protagonist": "Vera Drew",
+          "Director": "Vera Drew"
+        },
+        {
+          "Order": 0,
+          "FilmName": "House",
+          "FilmNameOriginal": "\u30CF\u30A6\u30B9",
+          "Year": 1977,
+          "LetterboxdIdentifier": "1vsm",
+          "Language": "Japanese",
+          "PosterUrl": "/tXlEgAJkGQuE9Vm6ppYERUBmdDM.jpg",
+          "RatingSelf": 0,
+          "WatchedDate": "2025-09-20",
+          "IsRewatch": false,
+          "Overview": "Hoping to find a sense of connection to her late mother, Gorgeous takes a trip with her friends to visit her aunt's ancestral house in the countryside. The girls soon discover that there is more to the old house than meets the eye.",
+          "Genres": [
+            "Comedy",
+            "Fantasy",
+            "Horror"
+          ],
+          "Protagonist": "Kimiko Ikegami",
+          "Director": "Nobuhiko Obayashi"
         }
       ]
     }
