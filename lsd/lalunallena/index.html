@@ -878,7 +878,7 @@
                 var ratingDetail = '&nbsp;';
                 if (film.RatingSelf > 0) {
                     if (film.RatingSelf % 1) {
-                        ratingDetail = '&#9670;'.repeat(Math.floor(film.RatingSelf)) + '&#11030;';
+                        ratingDetail = '&#9670;'.repeat(Math.floor(film.RatingSelf)) + '&#9671;';
                     } else {
                         ratingDetail = '&#9670;'.repeat(film.RatingSelf);
                     }
@@ -1400,7 +1400,7 @@
             gallery.append('<div class="inside"></div>');
             var insideGallery = $('.gallery .inside');
 
-            var filmsEarliest = films.slice().filter(a => a.Minutes >= 60).sort((a, b) => a.Title > b.Title).sort((a, b) => a.When > b.When).map(a => a.Id).slice(0, 100)
+            var filmsEarliest = films.slice().filter(a => a.Minutes >= 60).sort((a, b) => a.Title.localeCompare(b.Title)).sort((a, b) => b.When.localeCompare(a.When)).map(a => a.Id).reverse().slice(0, 100)
 
             var displayed = 0;
             for (var id of filmsEarliest.slice(0, galleryAmount)) {
@@ -1472,7 +1472,7 @@
             gallery.append('<div class="inside"></div>');
             var insideGallery = $('.gallery .inside');
 
-            var filmsNewest = films.slice().filter(a => a.Minutes >= 60).sort((a, b) => a.Title > b.Title).sort((a, b) => b.When > a.When).map(a => a.Id).slice(0, 100)
+            var filmsNewest = films.slice().filter(a => a.Minutes >= 60).sort((a, b) => a.Title.localeCompare(b.Title)).sort((a, b) => b.When.localeCompare(a.When)).map(a => a.Id).slice(0, 100)
 
             var displayed = 0;
             for (var id of filmsNewest.slice(0, galleryAmount)) {
@@ -2315,7 +2315,7 @@
                 }
             }
 
-            languages = languages.sort((a, b) => a[0] > b[0]).sort((a, b) => a[1] - b[1])
+            languages = languages.sort((a, b) => a[0].localeCompare(b[0])).sort((a, b) => a[1] - b[1])
 
             $('body').append('<div class="boxes"></div>');
             $('.boxes').append(makeBox(languages.length, 'Primary Languages'));
@@ -2718,7 +2718,7 @@
                 }
             }
 
-            studios = studios.sort((a, b) => a.Title > b.Title);
+            studios = studios.sort((a, b) => a.Title.localeCompare(b.Title));
             studios = studios.sort((a, b) => b.Amount - a.Amount);
             var minimum = studios[100] ? studios[100].Amount : 1;
             studios = studios.filter(a => a.Amount >= minimum)
@@ -2807,7 +2807,7 @@
                 }
             }
 
-            themes = themes.sort((a, b) => a.Text > b.Text);
+            themes = themes.sort((a, b) => a.Text.localeCompare(b.Text));
             themes = themes.sort((a, b) => b.Amount - a.Amount);
 
             for (var index in themes) {
@@ -2927,7 +2927,7 @@
                 }
             }
 
-            nanogenres = nanogenres.sort((a, b) => a.Text > b.Text);
+            nanogenres = nanogenres.sort((a, b) => a.Text.localeCompare(b.Text));
             nanogenres = nanogenres.sort((a, b) => b.Amount - a.Amount);
             var min = Math.max(2, nanogenres.length > 100 ? nanogenres[100].Amount : 0);
             nanogenres = nanogenres.filter(a => a.Amount >= min);
@@ -2969,7 +2969,7 @@
 
             resetView(showTitles, $(event.target));
 
-            var filmsByTitleLength = [...films].sort((a, b) => a.Title > b.Title).sort((a, b) => b.Title.length > a.Title.length);
+            var filmsByTitleLength = [...films].sort((a, b) => a.Title.localeCompare(b.Title)).sort((a, b) => b.Title.length - a.Title.length);
             var filmsLongestTitles = filmsByTitleLength.map(a => a.Id).slice(0, galleryAmount);
             var filmsLongestTitlesSingleWord = filmsByTitleLength.filter(a => !/\s|\//.test(a.Title))
             filmsLongestTitlesSingleWord = filmsLongestTitlesSingleWord.filter(a => a.Title.length >= filmsLongestTitlesSingleWord[10].Title.length).map(a => a.Id);
@@ -3042,7 +3042,7 @@
                 }
             });
 
-            var filmsShortestTitles = films.slice().filter(a => a.Title.length <= 3).sort((a, b) => a.Title > b.Title).sort((a, b) => a.Title.length > b.Title.length).map(a => a.Id);
+            var filmsShortestTitles = films.slice().filter(a => a.Title.length <= 3).sort((a, b) => a.Title.localeCompare(b.Title)).sort((a, b) => a.Title.length - b.Title.length).map(a => a.Id);
 
             if (filmsShortestTitles.length) {
 
@@ -3381,7 +3381,7 @@
             var diff = (ratingSumSelf / ratedSelf) - (ratingSumLetterboxd / ratedLetterboxd)
             $('.boxes').append(makeBox((ratingSumSelf / ratedSelf).toFixed(2), 'Average Rating', (diff > 0 ? '+' : '') + diff.toFixed(2) + ' vs Letterboxd users', false));
 
-            var alphabetical = films.slice().sort((a, b) => a.Title > b.Title);
+            var alphabetical = films.slice().sort((a, b) => a.Title.localeCompare(b.Title));
 
             for (var s = 5; s > 0; s -= .5) {
 
@@ -4689,7 +4689,7 @@
                 var ratingDetail = '&nbsp;';
                 if (film.RatingSelf > 0) {
                     if (film.RatingSelf % 1) {
-                        ratingDetail = '&#9670;'.repeat(Math.floor(film.RatingSelf)) + '&#11030;' + '&#9671;'.repeat(4 - Math.floor(film.RatingSelf));
+                        ratingDetail = '&#9670;'.repeat(Math.floor(film.RatingSelf)) + '&#9671;' + '&#9671;'.repeat(4 - Math.floor(film.RatingSelf));
                     } else {
                         ratingDetail = '&#9670;'.repeat(film.RatingSelf) + '&#9671;'.repeat(5 - film.RatingSelf);
                     }
@@ -4743,7 +4743,7 @@
                 for (var film of listFilms.slice(a, a + 5)) {
                     html += '<td><a target="_blank" href="https://boxd.it/' + film.LetterboxdIdentifier + '">' + film.Year + '</a><br/>';
                     if (film.RatingSelf > 0) {
-                        html += '&#9670;'.repeat(Math.floor(film.RatingSelf)) + (film.RatingSelf % 1 ? '&#11030;' : '');
+                        html += '&#9670;'.repeat(Math.floor(film.RatingSelf)) + (film.RatingSelf % 1 ? '&#9671;' : '');
                     } else {
                         html += '.';
                     }
