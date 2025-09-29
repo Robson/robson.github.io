@@ -1815,19 +1815,23 @@
 
             for (var index in films) {
                 var film = films[index]
-                for (var prod of film.Countries_Origin) {
-                    if (!filmsPerCountryOrigin[prod]) {
-                        filmsPerCountryOrigin[prod] = [0, []]
-                    }
-                    filmsPerCountryOrigin[prod][0]++
-                    filmsPerCountryOrigin[prod][1].push(index)
+                if (film.Countries_Origin) {
+                    for (var prod of film.Countries_Origin) {
+                        if (!filmsPerCountryOrigin[prod]) {
+                            filmsPerCountryOrigin[prod] = [0, []]
+                        }
+                        filmsPerCountryOrigin[prod][0]++
+                        filmsPerCountryOrigin[prod][1].push(index)
+                    }                    
                 }
-                for (var prod of film.Countries_Production) {
-                    if (!filmsPerCountryProduction[prod]) {
-                        filmsPerCountryProduction[prod] = [0, []]
+                if (film.Countries_Production) {
+                    for (var prod of film.Countries_Production) {
+                        if (!filmsPerCountryProduction[prod]) {
+                            filmsPerCountryProduction[prod] = [0, []]
+                        }
+                        filmsPerCountryProduction[prod][0]++
+                        filmsPerCountryProduction[prod][1].push(index)
                     }
-                    filmsPerCountryProduction[prod][0]++
-                    filmsPerCountryProduction[prod][1].push(index)
                 }
             }
 
