@@ -45,7 +45,9 @@
     <div id="buttons">
 
         <select id="FilmFilter" onchange="javascript:changeFilmFilter()">
-            <option value="all">All Films</option>
+            <option value="all">All Watched Films</option>
+            <option disabled>──────────</option>
+            <option value="watchlist">Films in Watchlist</option>
             <option disabled>──────────</option>
             <option value="language_notenglish">Language: Not English</option>
             <option disabled>──────────</option>
@@ -264,14 +266,6 @@
         document.documentElement.style.setProperty('--primary-colour', '#EF3340');
         document.documentElement.style.setProperty('--secondary-colour', '#3199E0');
 
-        var dupe = [...films];
-        dupe = dupe.filter(a => a.Minutes >= 60 && a.Cast.length > 0);
-        //console.log(dupe.length);
-        dupe = dupe.sort((a, b) => a.Cast.length - b.Cast.length)
-
-        console.log(dupe.slice(0, 10))
-        console.log(dupe.slice(-10))
-
         ////////////////// FILTERING //////////////////
 
         function changeFilmFilter() {
@@ -284,11 +278,14 @@
             var pageFunction = selectedPage ? selectedPage.name : null;
             switch (currentFilmFilter[0]) {
                 case 'all':
-                    films = [...allFilms];
+                    films = [...allFilms].filter(a => !a.Watchlist);
+                    break;
+                case 'watchlist':
+                    films = [...allFilms].filter(a => a.Watchlist);
                     break;
                 case 'diary':
                     if (currentFilmFilter[1] == 'none') {
-                        films = allFilms.filter(a => !a.DiaryWatchedDate);
+                        films = allFilms.filter(a => !a.DiaryWatchedDate && !a.Watchlist);
                     } else if (currentFilmFilter[1] == 'any') {
                         films = allFilms.filter(a => a.DiaryWatchedDate);
                     } else {
@@ -302,7 +299,7 @@
                     }
                     break;
                 case 'language':
-                    films = allFilms.filter(a => a.Language != 'English' && a.Language != '');
+                    films = allFilms.filter(a => a.Language != 'English' && a.Language != '' && !a.Watchlist);
                     d3.selectAll('.links_recent').style('display', 'none');
                     switch (pageFunction) {
                         case 'showRecent':
@@ -312,7 +309,7 @@
                     break;
                 case 'decade':
                     var year = +currentFilmFilter[1].replace('s', '');
-                    films = allFilms.filter(a => a.Year >= year && a.Year < year + 10);
+                    films = allFilms.filter(a => a.Year >= year && a.Year < year + 10 && !a.Watchlist);
                     d3.selectAll('.links_decade').style('display', 'none');
                     d3.selectAll('.links_recent').style('display', 'none');
                     switch (pageFunction) {
@@ -336,7 +333,7 @@
                     }
                     break;
                 case 'length':
-                    films = allFilms.filter(a => currentFilmFilter[1] == 'long' ? a.Minutes >= 60 : a.Minutes < 60);
+                    films = allFilms.filter(a => currentFilmFilter[1] == 'long' ? a.Minutes >= 60 : a.Minutes < 60).filter(a => !a.Watchlist);
                     d3.selectAll('.links_when').style('display', currentFilmFilter[1] == 'long' ? null : 'none');
                     d3.selectAll('.links_letterboxd').style('display', currentFilmFilter[1] == 'long' ? null : 'none');
                     break;
@@ -359,6 +356,8 @@
             data.Backdrops = shuffleArray(data.Backdrops);
             showNextBackdrop();
         }
+
+        changeFilmFilter();
 
         ////////////////// TOOLTIPS //////////////////
 
@@ -526,8 +525,7 @@
             $('body').append('<div class="gallery"></div>');
         }
 
-        function makeBox(number, description, tooltip = '', isYear = false)
-        {
+        function makeBox(number, description, tooltip = '', isYear = false) {
             var attribs = 'class="number"';
             if (tooltip) {
                 attribs = 'class="number ttt" data-tooltip="' + tooltip + '"';
@@ -970,7 +968,7 @@
             var filmIndexes = []
             for (var index in films) {
                 var film = films[index]
-                if (film.Year > 0) {
+                if (film.Year > 0 && film.Year <= new Date().getFullYear()) {
                     filmsWatchedPerYear[film.Year]++
                     if (!filmIndexes[film.Year])
                         filmIndexes[film.Year] = []
@@ -981,6 +979,7 @@
                 }
             }
             yearList.sort()
+            console.log(filmsWatchedPerYear);
 
             if (documentWidth > 820) {
                 showFilmsPerYearChart(filmsWatchedPerYear);
@@ -3157,9 +3156,9 @@
                     filmIndexes[start] = [];
                 filmIndexes[start].push(index);
             }
-            console.log(filmIndexes)
 
             for (var character in characters) {
+                if (filmIndexes[character]) {
                 var tooltip = makeFilmListTooltip(filmIndexes[character]);
                 bar = '<td class="chart" data-value="' + characters[character] + '"><span class="bar" style="width:' + Math.round((characters[character] / maxCharacters) * 100) + 'px">&nbsp;</span></td>';
                 tbody.append(
@@ -3168,6 +3167,15 @@
                     '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltip.join('<br>') + '">' + characters[character] + '</td>' +
                     bar +
                     '</tr>');
+                } else {
+                bar = '<td class="chart" data-value="0"><span class="bar" style="width:0px">&nbsp;</span></td>';
+                tbody.append(
+                    '<tr>' +
+                    '<td style="width:10px">' + character + '</td>' +
+                    '<td class="right">' + characters[character] + '</td>' +
+                    bar +
+                    '</tr>');
+                }
             }
 
             $.tablesorter.addParser({
@@ -3651,7 +3659,8 @@
             createNewTable();
 
             thead.append('<tr><th>Letterboxd Rating</th><th class="right">Films</th><th>▬</th></tr>');
-            for (var line in numberGroups) {
+            for (var line in numberGroups.slice(1)) {
+                line++;
                 var tooltip = makeFilmListTooltip(numberGroups[line]);
                 if (!tooltip.length)
                     tooltip = ['<em>No matching films.</em>']
@@ -4426,7 +4435,6 @@
 
             var displayed = 0;
             for (var person of shuffled) {
-                console.log(person)
                 var hours = 0, minutes = 0;
                 hours = Math.floor(person.Minutes / 60);
                 minutes = person.Minutes - (hours * 60);
@@ -4693,9 +4701,9 @@
                 var ratingDetail = '&nbsp;';
                 if (film.RatingSelf > 0) {
                     if (film.RatingSelf % 1) {
-                        ratingDetail = '&#9670;'.repeat(Math.floor(film.RatingSelf)) + '&#9671;' + '&#9671;'.repeat(4 - Math.floor(film.RatingSelf));
+                        ratingDetail = '&#9670;'.repeat(Math.floor(film.RatingSelf)) + '&#9671;';
                     } else {
-                        ratingDetail = '&#9670;'.repeat(film.RatingSelf) + '&#9671;'.repeat(5 - film.RatingSelf);
+                        ratingDetail = '&#9670;'.repeat(film.RatingSelf);
                     }
                 }
                 html += '<td>' + ratingDetail + '</td>';
