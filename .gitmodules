@@ -40,3 +40,6 @@
 [submodule "chroma"]
 	path = chroma
 	url = https://github.com/Robson/Chroma
+[submodule "visualisations"]
+	path = visualisations
+	url = https://github.com/Robson/Visualisations
