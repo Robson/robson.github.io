@@ -473,7 +473,8 @@ th.ttt {
 
 /***** CHARTS *****/
 
-#outside {
+#outside,
+.outsidechart {
     background: white;
     border-radius: 12px 12px 8px 8px;
     display: inline-block;

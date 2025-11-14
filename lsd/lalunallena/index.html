@@ -123,24 +123,20 @@
             </i>
         </i>
         <div class="title">Attributes</div>
-        <div class="initially_hidden">
-            <div class="host_only">
-                <span class="displayer inline" onmousedown="javascript:showBAW()">Black & White</span>
-                &#9670;
-            </div>
-        </div>
         <span class="displayer inline" onmousedown="javascript:showCollections()">Collection</span>
         &#9670;
-        <span class="displayer inline" onmousedown="javascript:showFilmsPerCountry()">Country</span>
+        <span class="displayer inline" onmousedown="javascript:showBAW()">Colour</span>
         &#9670;
-        <span class="displayer inline" onmousedown="javascript:showGenres()">Genre</span>
+        <span class="displayer inline" onmousedown="javascript:showFilmsPerCountry()">Country</span>
         <br />
+        <span class="displayer inline" onmousedown="javascript:showGenres()">Genre</span>
+        &#9670;
         <span class="displayer inline" onmousedown="javascript:showFilmsPerLanguages()">Language</span>
         &#9670;
         <span class="displayer inline" onmousedown="javascript:showLengthStats()">Length</span>
-        &#9670;
-        <span class="displayer inline" onmousedown="javascript:showRated()">Rating</span>
         <br />
+        <span class="displayer inline" onmousedown="javascript:showRated()">Rating</span>
+        &#9670;
         <span class="displayer inline" onmousedown="javascript:showStudios()">Studio</span>
         &#9670;
         <span class="displayer inline" onmousedown="javascript:showThemes()">Theme</span>
@@ -506,6 +502,7 @@
             $('.boxes').remove();
             $('#posters').remove();
             $('#outside').remove();
+            $('.outsidechart').remove();
             $('.gallery').remove();
             selectedPage = func;
             if (where) {
@@ -3942,23 +3939,25 @@
 
             for (var index in films) {
                 var film = films[index];
-                var releaseDate = new Date(film.When);
-                for (var director of film.Directors) {
-                    var dir = people[director];
-                    if (dir.BirthDate) {
-                        var gap = (releaseDate - new Date(dir.BirthDate)) / (1000 * 60 * 60 * 24);
-                        directorDays += gap;
-                        directorCount++;
-                        directorAll.push([gap, index, director])
+                if (film.When.length > 0) {
+                    var releaseDate = new Date(film.When);
+                    for (var director of film.Directors) {
+                        var dir = people[director];
+                        if (dir.BirthDate) {
+                            var gap = (releaseDate - new Date(dir.BirthDate)) / (1000 * 60 * 60 * 24);
+                            directorDays += gap;
+                            directorCount++;
+                            directorAll.push([gap, index, director])
+                        }
                     }
-                }
-                if (film.Cast.length) {
-                    var prot = people[film.Cast[0]];
-                    if (prot.BirthDate) {
-                        var gap = (releaseDate - new Date(prot.BirthDate)) / (1000 * 60 * 60 * 24);
-                        protagonistDays += gap;
-                        protagonistCount++;
-                        protagonistAll.push([gap, index, film.Cast[0]])
+                    if (film.Cast.length) {
+                        var prot = people[film.Cast[0]];
+                        if (prot.BirthDate) {
+                            var gap = (releaseDate - new Date(prot.BirthDate)) / (1000 * 60 * 60 * 24);
+                            protagonistDays += gap;
+                            protagonistCount++;
+                            protagonistAll.push([gap, index, film.Cast[0]])
+                        }
                     }
                 }
             }
@@ -4061,10 +4060,132 @@
                     '</tr>');
             }
 
+            showPeopleAges(directorAll, 'Director');
+            showPeopleAges(protagonistAll, 'Protagonist');
+
             deactivateAll();
             $(event.target).addClass('active');
 
             createTooltipTriggers();
+        }
+
+        function showPeopleAges(ageInfos, title) {
+
+            const MaximumAge = 100;
+
+            var filmsByAge = [...Array(100)].map(e => []);
+            var ages = Array(100).fill(0);
+            for (var [days, film, person] of ageInfos) {
+                var years = ~~(days / 365.25)
+                filmsByAge[years].push(film);
+                ages[years]++;
+            }
+
+            $('body').append('<div id="outside" class="outsidechart"><div class="title">Films Watched by ' + title + ' Age</div><figure class="highcharts-figure"><div id="container' + title + '"></div></figure></div>');
+
+            var cats = [];
+            var values = [];
+
+            for (var a = 0; a <= 100; a++) {
+                cats.push(a)
+                values.push(ages[a])
+            }
+
+            Highcharts.chart('container' + title, {
+                chart: {
+                    type: 'column',
+                    width: 802,
+                    height: 450,
+                    spacingLeft: 100,
+                    marginLeft: 70,
+                },
+                title: {
+                    text: null,
+                    enabled: false,
+                },
+                credits: {
+                    enabled: false
+                },
+                legend: {
+                    enabled: false
+                },
+                xAxis: {
+                    category: false,
+                    categories: cats,
+                    tickInterval: 10,
+                    tickColor: '#ddd',
+                    tickLength: 8,
+                    tickWidth: 1,
+                    tickmarkPlacement: 'between',
+                    title: {
+                        text: title + ' Age'
+                    }
+                },
+                yAxis: {
+                    plotLines: [{
+                        color: '#ddd',
+                        value: 0,
+                        width: 1,
+                        zIndex: 5
+                    }],
+                    gridLineWidth: 1,
+                    tickColor: '#ddd',
+                    tickLength: 8,
+                    tickWidth: 1,
+                    tickmarkPlacement: 'between',
+                    title: {
+                        text: 'Films Watched'
+                    }
+                },
+                tooltip: {
+                    formatter: function () {
+                        return this.point.x + ' Years Old<br/>' + this.point.y + ' film' + (this.point.y == 1 ? '' : 's')
+                    }
+                },
+                plotOptions: {
+                    column: {
+                        pointPadding: 0,
+                        borderWidth: 0,
+                        dataLabels: {
+                            enabled: false,
+                            align: 'center',
+                            x: 3
+                        },
+                        states: {
+                            hover: {
+                                color: document.documentElement.style.getPropertyValue('--secondary-colour'),
+                                enabled: true
+                            },
+                            inactive: {
+                                opacity: 1
+                            }
+                        }
+                    },
+                },
+                series: [
+                    {
+                        groupPadding: 0,
+                        pointWidth: 4,
+                        borderRadius: 0,
+                        name: '',
+                        animation: false,
+                        color: 'black',
+                        data: values,
+                        enableMouseTracking: true,
+                        borderRadius: 0,
+                        cursor: 'zoom-in',
+                        point: {
+                            events: {
+                                click: function () {
+                                    console.log(this.x)
+                                    console.log(filmsByAge)
+                                    showFilms(filmsByAge[this.x].join(' '));
+                                }
+                            }
+                        }
+                    }
+                ]
+            });
         }
 
         function showPeopleCombinations() {
