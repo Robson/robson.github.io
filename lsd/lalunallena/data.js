@@ -13405,6 +13405,12 @@ var data = {
       "OriginCountry": "US"
     },
     {
+      "Id": 7024,
+      "Title": "Sender Freies Berlin",
+      "Poster": "/r59UjG4QqARcBYrTnEKc2YIOWSI.png",
+      "OriginCountry": "DE"
+    },
+    {
       "Id": 14908,
       "Title": "Curtleigh Productions",
       "Poster": "",
@@ -39920,9 +39926,13 @@ var data = {
     {
       "Url": "violence-death-revenge",
       "Text": "Violence, Death, Revenge"
+    },
+    {
+      "Url": "slapstick-wit-screwball",
+      "Text": "Slapstick, Wit, Screwball"
     }
   ],
-  "LastUpdated": "14th November 2025",
+  "LastUpdated": "17th November 2025",
   "Username": "LaLunaLlena",
   "Backdrops": [
     {
@@ -41569,195 +41579,7 @@ var data = {
       "ListName": "Recently Watched",
       "Entries": [
         {
-          "Order": 40,
-          "FilmName": "How to Be Normal and the Oddness of the Other World",
-          "FilmNameOriginal": "How to Be Normal and the Oddness of the Other World",
-          "Year": 2025,
-          "LetterboxdIdentifier": "QTMW",
-          "Language": "German",
-          "PosterUrl": "/uipS7Q9olqG20wBjC3zbA2Taaob.jpg",
-          "RatingSelf": 3,
-          "WatchedDate": "2025-10-05",
-          "IsRewatch": false,
-          "Overview": "Fresh out of a psychiatric hospital, Pia moves back in with her parents to get her life together. Torn between a new job, lovesickness, psychotropic drugs and social stigmatization, she emerges into a world where everything seems out of control.",
-          "Genres": [
-            "Drama"
-          ],
-          "Protagonist": "Luisa-C\u00E9line Gaffron",
-          "Director": "Florian Pochlatko"
-        },
-        {
-          "Order": 38,
-          "FilmName": "Rosetta",
-          "FilmNameOriginal": "Rosetta",
-          "Year": 1999,
-          "LetterboxdIdentifier": "1TJw",
-          "Language": "French",
-          "PosterUrl": "/buwLjQPPA9FaATvKzeAppLXiGMB.jpg",
-          "RatingSelf": 3.5,
-          "WatchedDate": "2025-10-07",
-          "IsRewatch": false,
-          "Overview": "Young, impulsive Rosetta lives a hard and stressful life as she struggles to support herself and her alcoholic mother. Refusing all charity, she is desperate to maintain a dignified job.",
-          "Genres": [
-            "Drama"
-          ],
-          "Protagonist": "\u00C9milie Dequenne",
-          "Director": "Luc Dardenne, Jean-Pierre Dardenne"
-        },
-        {
-          "Order": 35,
-          "FilmName": "Tiny Furniture",
-          "FilmNameOriginal": "Tiny Furniture",
-          "Year": 2010,
-          "LetterboxdIdentifier": "Kjs",
-          "Language": "English",
-          "PosterUrl": "/5T81WvUlc1Our3UwmluXBBc3L0k.jpg",
-          "RatingSelf": 2.5,
-          "WatchedDate": "2025-10-10",
-          "IsRewatch": false,
-          "Overview": "After graduating from film school, Aura returns to New York to live with her photographer mother, Siri, and her sister, Nadine, who has just finished high school. Aura is directionless and wonders where to go next in her career and her life. She takes a job in a restaurant and tries unsuccessfully to develop relationships with men, including Keith, a chef where she works, and cult Internet star Jed.",
-          "Genres": [
-            "Romance",
-            "Comedy",
-            "Drama"
-          ],
-          "Protagonist": "Lena Dunham",
-          "Director": "Lena Dunham"
-        },
-        {
-          "Order": 33,
-          "FilmName": "The Cremator",
-          "FilmNameOriginal": "Spalova\u010D mrtvol",
-          "Year": 1969,
-          "LetterboxdIdentifier": "1H8y",
-          "Language": "Czech",
-          "PosterUrl": "/9or2Jzw9HOE4gp9niwXBkZdpTVx.jpg",
-          "RatingSelf": 0,
-          "WatchedDate": "2025-10-12",
-          "IsRewatch": false,
-          "Overview": "In 1930s Prague, a Czech cremator who firmly believes cremation relieves one from earthly suffering is drawn inexorably to Nazism.",
-          "Genres": [
-            "Comedy",
-            "Horror",
-            "Drama"
-          ],
-          "Protagonist": "Rudolf Hru\u0161\u00EDnsk\u00FD",
-          "Director": "Juraj Herz"
-        },
-        {
-          "Order": 32,
-          "FilmName": "Witch's Cradle",
-          "FilmNameOriginal": "Witch's Cradle",
-          "Year": 1944,
-          "LetterboxdIdentifier": "KLm",
-          "Language": "",
-          "PosterUrl": "/uN6XtnX0L8tC2WkvbqMhcz4RE3r.jpg",
-          "RatingSelf": 0,
-          "WatchedDate": "2025-10-13",
-          "IsRewatch": false,
-          "Overview": "The surrealist film shows repetitive imagery involving a string fashioned in a bizarre, almost spiderweb-like pattern over the hands of several individuals, most notably an unnamed young woman and an elderly gentleman. The film also shows a shadowy darkness and people filmed at odd angles, an exposed human heart, and other occult symbols and ritualistic imagery which evokes an unsettling and dream-like aura. Considered an unfinished film.",
-          "Genres": [
-            "Fantasy",
-            "Horror"
-          ],
-          "Protagonist": "Pajorita Matta",
-          "Director": "Maya Deren"
-        },
-        {
-          "Order": 27,
-          "FilmName": "Black Sunday",
-          "FilmNameOriginal": "La maschera del demonio",
-          "Year": 1960,
-          "LetterboxdIdentifier": "1rlG",
-          "Language": "Italian",
-          "PosterUrl": "/x41Zx8GeZhducquhOq9nE7z1GBG.jpg",
-          "RatingSelf": 0,
-          "WatchedDate": "2025-10-18",
-          "IsRewatch": false,
-          "Overview": "A vengeful witch, Asa Vajda, and her fiendish servant, Igor Jauvitch, return from the grave and begin a bloody campaign to possess the body of the witch's beautiful look-alike descendant: Katia. Only a handsome doctor with the help of family members stand in her way.",
-          "Genres": [
-            "Horror"
-          ],
-          "Protagonist": "Barbara Steele",
-          "Director": "Mario Bava"
-        },
-        {
-          "Order": 27,
-          "FilmName": "One Million Yen Girl",
-          "FilmNameOriginal": "\u767E\u4E07\u5186\u3068\u82E6\u866B\u5973",
-          "Year": 2008,
-          "LetterboxdIdentifier": "2h5K",
-          "Language": "Japanese",
-          "PosterUrl": "/qtsVcg3iLYNWmTRgt0FKEcPpsjz.jpg",
-          "RatingSelf": 0,
-          "WatchedDate": "2025-10-18",
-          "IsRewatch": false,
-          "Overview": "A 21-year-old girl is released from prison, only to deal with the neighborhood gossip about her and family conflicts. She decides to save one million yen, move to where no one knows her and keep repeating the process.",
-          "Genres": [
-            "Drama"
-          ],
-          "Protagonist": "Yu Aoi",
-          "Director": "Yuki Tanada"
-        },
-        {
-          "Order": 25,
-          "FilmName": "The Summer of Sangaile",
-          "FilmNameOriginal": "Sangail\u0117s vasara",
-          "Year": 2015,
-          "LetterboxdIdentifier": "9Y74",
-          "Language": "Lithuanian",
-          "PosterUrl": "/uZbVPLFhUS2YgNRnQ5lFQp56io7.jpg",
-          "RatingSelf": 3.5,
-          "WatchedDate": "2025-10-20",
-          "IsRewatch": false,
-          "Overview": "Seventeen-year-old Sangaile is fascinated by stunt planes. She meets a girl her age at the summer aeronautical show, nearby her parents' lakeside villa. Sangaile allows Auste to discover her most intimate secret and in the process finds in her teenage love, the only person that truly encourages her to fly.",
-          "Genres": [
-            "Drama",
-            "Romance"
-          ],
-          "Protagonist": "Julija Steponaityt\u0117",
-          "Director": "Alant\u0117 Kavait\u0117"
-        },
-        {
-          "Order": 24,
-          "FilmName": "Piggy",
-          "FilmNameOriginal": "Cerdita",
-          "Year": 2018,
-          "LetterboxdIdentifier": "inVu",
-          "Language": "Spanish",
-          "PosterUrl": "/etj9vWikudVetTeXKXuT0o6FJY8.jpg",
-          "RatingSelf": 0,
-          "WatchedDate": "2025-10-21",
-          "IsRewatch": false,
-          "Overview": "Sara is an overweight teen who lives in the shadow of a clique of cool girls holidaying in her village. Not even her childhood friend, Claudia, defends her when she's bullied at the local pool in front of an unknown man. Her clothes are stolen and Sara must get home wearing nothing but her bikini.",
-          "Genres": [
-            "Drama",
-            "Horror"
-          ],
-          "Protagonist": "Laura Gal\u00E1n",
-          "Director": "Carlota Pereda"
-        },
-        {
-          "Order": 24,
-          "FilmName": "Release the Bats",
-          "FilmNameOriginal": "Release the Bats",
-          "Year": 2018,
-          "LetterboxdIdentifier": "wQJA",
-          "Language": "English",
-          "PosterUrl": "/9ielrswxbKV3G97UxCpVSKgl7Ac.jpg",
-          "RatingSelf": 0,
-          "WatchedDate": "2025-10-21",
-          "IsRewatch": false,
-          "Overview": "A short film about a put-upon goth girl. Eleanor, a disaffected teen escapes from abuse and homophobia by making a DIY vampire movie with her friends.",
-          "Genres": [
-            "Comedy",
-            "Horror"
-          ],
-          "Protagonist": "Etta Fontenot",
-          "Director": "Michelle Tea"
-        },
-        {
-          "Order": 23,
+          "Order": 26,
           "FilmName": "Phantom",
           "FilmNameOriginal": "\u5E7B\u5984",
           "Year": 1975,
@@ -41773,7 +41595,7 @@ var data = {
           "Director": "Toshio Matsumoto"
         },
         {
-          "Order": 23,
+          "Order": 26,
           "FilmName": "Princess Cyd",
           "FilmNameOriginal": "Princess Cyd",
           "Year": 2017,
@@ -41792,7 +41614,7 @@ var data = {
           "Director": "Stephen Cone"
         },
         {
-          "Order": 22,
+          "Order": 25,
           "FilmName": "PlayTime",
           "FilmNameOriginal": "PlayTime",
           "Year": 1967,
@@ -41810,7 +41632,7 @@ var data = {
           "Director": "Jacques Tati"
         },
         {
-          "Order": 21,
+          "Order": 24,
           "FilmName": "The Worst Person in the World",
           "FilmNameOriginal": "Verdens verste menneske",
           "Year": 2021,
@@ -41830,7 +41652,7 @@ var data = {
           "Director": "Joachim Trier"
         },
         {
-          "Order": 20,
+          "Order": 23,
           "FilmName": "Cat People",
           "FilmNameOriginal": "Cat People",
           "Year": 1942,
@@ -41850,7 +41672,7 @@ var data = {
           "Director": "Jacques Tourneur"
         },
         {
-          "Order": 18,
+          "Order": 21,
           "FilmName": "Out of My Mind",
           "FilmNameOriginal": "Out of My Mind",
           "Year": 2024,
@@ -41868,7 +41690,7 @@ var data = {
           "Director": "Amber Sealey"
         },
         {
-          "Order": 18,
+          "Order": 21,
           "FilmName": "The Assessment",
           "FilmNameOriginal": "The Assessment",
           "Year": 2024,
@@ -41888,7 +41710,7 @@ var data = {
           "Director": "Fleur Fortun\u00E9"
         },
         {
-          "Order": 16,
+          "Order": 19,
           "FilmName": "Air Doll",
           "FilmNameOriginal": "\u7A7A\u6C17\u4EBA\u5F62",
           "Year": 2009,
@@ -41907,7 +41729,7 @@ var data = {
           "Director": "Hirokazu Kore-eda"
         },
         {
-          "Order": 15,
+          "Order": 18,
           "FilmName": "Hedda",
           "FilmNameOriginal": "Hedda",
           "Year": 2025,
@@ -41926,7 +41748,7 @@ var data = {
           "Director": "Nia DaCosta"
         },
         {
-          "Order": 14,
+          "Order": 17,
           "FilmName": "The Night of the Hunter",
           "FilmNameOriginal": "The Night of the Hunter",
           "Year": 1955,
@@ -41946,7 +41768,7 @@ var data = {
           "Director": "Charles Laughton"
         },
         {
-          "Order": 11,
+          "Order": 14,
           "FilmName": "Sami Blood",
           "FilmNameOriginal": "Sameblod",
           "Year": 2016,
@@ -41964,7 +41786,7 @@ var data = {
           "Director": "Amanda Kernell"
         },
         {
-          "Order": 9,
+          "Order": 12,
           "FilmName": "Conclave",
           "FilmNameOriginal": "Conclave",
           "Year": 2024,
@@ -41983,7 +41805,7 @@ var data = {
           "Director": "Edward Berger"
         },
         {
-          "Order": 6,
+          "Order": 9,
           "FilmName": "Brief Encounter",
           "FilmNameOriginal": "Brief Encounter",
           "Year": 1945,
@@ -42002,7 +41824,7 @@ var data = {
           "Director": "David Lean"
         },
         {
-          "Order": 4,
+          "Order": 7,
           "FilmName": "Pauline",
           "FilmNameOriginal": "Pauline",
           "Year": 2009,
@@ -42020,7 +41842,7 @@ var data = {
           "Director": "C\u00E9line Sciamma"
         },
         {
-          "Order": 4,
+          "Order": 7,
           "FilmName": "The Dying Swan",
           "FilmNameOriginal": "\u0423\u043C\u0438\u0440\u0430\u044E\u0449\u0438\u0439 \u043B\u0435\u0431\u0435\u0434\u044C",
           "Year": 1917,
@@ -42038,7 +41860,7 @@ var data = {
           "Director": "Yevgeni Bauer"
         },
         {
-          "Order": 3,
+          "Order": 6,
           "FilmName": "I Spit on Your Grave",
           "FilmNameOriginal": null,
           "Year": 1978,
@@ -42054,7 +41876,7 @@ var data = {
           "Director": null
         },
         {
-          "Order": 3,
+          "Order": 6,
           "FilmName": "American Mary",
           "FilmNameOriginal": "American Mary",
           "Year": 2012,
@@ -42073,7 +41895,7 @@ var data = {
           "Director": "Jen Soska, Sylvia Soska"
         },
         {
-          "Order": 2,
+          "Order": 5,
           "FilmName": "Little Trouble Girls",
           "FilmNameOriginal": "Kaj ti je deklica",
           "Year": 2025,
@@ -42092,7 +41914,7 @@ var data = {
           "Director": "Ur\u0161ka Djuki\u0107"
         },
         {
-          "Order": 1,
+          "Order": 4,
           "FilmName": "Guess Who's Coming to Dinner",
           "FilmNameOriginal": "Guess Who's Coming to Dinner",
           "Year": 1967,
@@ -42111,7 +41933,7 @@ var data = {
           "Director": "Stanley Kramer"
         },
         {
-          "Order": 0,
+          "Order": 3,
           "FilmName": "How to Blow Up a Pipeline",
           "FilmNameOriginal": "How to Blow Up a Pipeline",
           "Year": 2022,
@@ -42129,6 +41951,200 @@ var data = {
           ],
           "Protagonist": "Ariela Barer",
           "Director": "Daniel Goldhaber"
+        },
+        {
+          "Order": 2,
+          "FilmName": "Decalogue I",
+          "FilmNameOriginal": "Dekalog, jeden",
+          "Year": 1989,
+          "LetterboxdIdentifier": "3WmE",
+          "Language": "Polish",
+          "PosterUrl": "/h3kJ2UXkZSUzfQAAjcRwl6qNIpc.jpg",
+          "RatingSelf": 0,
+          "WatchedDate": "2025-11-15",
+          "IsRewatch": false,
+          "Overview": "Krzysztof, a semantics professor and computer hobbyist, is raising his young son, Pawe\u0142, to look to science for answers, while Irena, Pawe\u0142\u2019s aunt, lives a life rooted in faith. Over the course of one day, both adults are forced to question their belief systems.",
+          "Genres": [
+            "Drama",
+            "TV Movie"
+          ],
+          "Protagonist": "Henryk Baranowski",
+          "Director": "Krzysztof Kie\u015Blowski"
+        },
+        {
+          "Order": 2,
+          "FilmName": "Decalogue III",
+          "FilmNameOriginal": "Dekalog, trzy",
+          "Year": 1989,
+          "LetterboxdIdentifier": "3Wmu",
+          "Language": "Polish",
+          "PosterUrl": "/t9V2nTq15i9cmfbieglzaCW4IJk.jpg",
+          "RatingSelf": 0,
+          "WatchedDate": "2025-11-15",
+          "IsRewatch": false,
+          "Overview": "It\u2019s Christmas Eve, and Ewa has plotted to pass the hours until morning with her former lover Janusz, a family man, by making him believe her husband has gone missing. During this night of recklessness and lies, the pair grapple with choices made when their affair was discovered three years ago, and with the value of their present lives.",
+          "Genres": [
+            "Drama",
+            "TV Movie",
+            "Romance"
+          ],
+          "Protagonist": "Maria Pakulnis",
+          "Director": "Krzysztof Kie\u015Blowski"
+        },
+        {
+          "Order": 2,
+          "FilmName": "Decalogue II",
+          "FilmNameOriginal": "Dekalog, dwa",
+          "Year": 1989,
+          "LetterboxdIdentifier": "C8Q",
+          "Language": "Polish",
+          "PosterUrl": "/jil1lzNPa6fQWh2JG7Khc7MLjKt.jpg",
+          "RatingSelf": 0,
+          "WatchedDate": "2025-11-15",
+          "IsRewatch": false,
+          "Overview": "Dorota Geller, a married woman, faces a dilemma involving her sick husband's prognosis. Her husband's doctor, who believes in God, sweared about it in vain.",
+          "Genres": [
+            "Drama",
+            "TV Movie"
+          ],
+          "Protagonist": "Krystyna Janda",
+          "Director": "Krzysztof Kie\u015Blowski"
+        },
+        {
+          "Order": 1,
+          "FilmName": "Decalogue V",
+          "FilmNameOriginal": "Dekalog, pi\u0119\u0107",
+          "Year": 1989,
+          "LetterboxdIdentifier": "3Wma",
+          "Language": "Polish",
+          "PosterUrl": "/tZktBR66C8WIJHJkqMlj6MgowDK.jpg",
+          "RatingSelf": 0,
+          "WatchedDate": "2025-11-16",
+          "IsRewatch": false,
+          "Overview": "Jacek, an angry drifter, murders a taxi driver, brutally and without motive. His case is assigned to Piotr, an idealistic young lawyer who is morally opposed to the death penalty, and their interactions take on an emotional honesty that throws into stark relief for Piotr the injustice of killing of any kind.",
+          "Genres": [
+            "Drama",
+            "TV Movie",
+            "Crime"
+          ],
+          "Protagonist": "Miros\u0142aw Baka",
+          "Director": "Krzysztof Kie\u015Blowski"
+        },
+        {
+          "Order": 1,
+          "FilmName": "Decalogue IV",
+          "FilmNameOriginal": "Dekalog, cztery",
+          "Year": 1989,
+          "LetterboxdIdentifier": "C8w",
+          "Language": "Polish",
+          "PosterUrl": "/u0OHhueacQS9mT6HnrF3ivdxnxc.jpg",
+          "RatingSelf": 0,
+          "WatchedDate": "2025-11-16",
+          "IsRewatch": false,
+          "Overview": "A father and daughter, Micha\u0142 and Anka, have a unique intimacy, which the college-aged Anka is beginning to feel conflicted about. When she finds an unopened letter from her deceased mother, it seems to justify her attraction to Micha\u0142, who may not in fact be her father.",
+          "Genres": [
+            "Drama",
+            "TV Movie"
+          ],
+          "Protagonist": "Adrianna Biedrzy\u0144ska",
+          "Director": "Krzysztof Kie\u015Blowski"
+        },
+        {
+          "Order": 0,
+          "FilmName": "Decalogue VII",
+          "FilmNameOriginal": "Dekalog, siedem",
+          "Year": 1989,
+          "LetterboxdIdentifier": "3WlG",
+          "Language": "Polish",
+          "PosterUrl": "/itblkmFBfKhZxUbJjYgyEgjDlgj.jpg",
+          "RatingSelf": 0,
+          "WatchedDate": "2025-11-17",
+          "IsRewatch": false,
+          "Overview": "As a high school student, Majka bore a child, Ania, whom Majka\u2019s mother, Ewa, has been raising as her own. Now that Majka is ready for motherhood, Ewa refuses to let go, leading Majka to kidnap her own daughter, with unexpected emotional consequences.",
+          "Genres": [
+            "Drama",
+            "TV Movie"
+          ],
+          "Protagonist": "Anna Polony",
+          "Director": "Krzysztof Kie\u015Blowski"
+        },
+        {
+          "Order": 0,
+          "FilmName": "Decalogue VIII",
+          "FilmNameOriginal": "Dekalog, osiem",
+          "Year": 1989,
+          "LetterboxdIdentifier": "C8m",
+          "Language": "Polish",
+          "PosterUrl": "/bJ60dOPRq3M0Dkbpnp5jrl2UfVX.jpg",
+          "RatingSelf": 0,
+          "WatchedDate": "2025-11-17",
+          "IsRewatch": false,
+          "Overview": "Zofia, a professor of ethics, is visited by El\u017Cbieta, an American researching the fate of Jews who survived World War II. A daytime classroom conversation turns into a night of confrontation, and Zofia is forced to answer for a decision she made decades ago that directly affected the course of El\u017Cbieta\u2019s life.",
+          "Genres": [
+            "Drama",
+            "TV Movie"
+          ],
+          "Protagonist": "Maria Ko\u015Bcia\u0142kowska",
+          "Director": "Krzysztof Kie\u015Blowski"
+        },
+        {
+          "Order": 0,
+          "FilmName": "Decalogue IX",
+          "FilmNameOriginal": "Dekalog, dziewi\u0119\u0107",
+          "Year": 1989,
+          "LetterboxdIdentifier": "3Wlw",
+          "Language": "Polish",
+          "PosterUrl": "/9walZQzHStoe38bEJv4AJbcV56K.jpg",
+          "RatingSelf": 0,
+          "WatchedDate": "2025-11-17",
+          "IsRewatch": false,
+          "Overview": "Roman and Hanka have a loving marriage, but his impotence has led to her having an affair. The unbearable situation drives Roman to extreme measures both physically and mentally, testing their love and his own will to live.",
+          "Genres": [
+            "Drama",
+            "TV Movie",
+            "Romance"
+          ],
+          "Protagonist": "Ewa B\u0142aszczyk",
+          "Director": "Krzysztof Kie\u015Blowski"
+        },
+        {
+          "Order": 0,
+          "FilmName": "Decalogue VI",
+          "FilmNameOriginal": "Dekalog, sze\u015B\u0107",
+          "Year": 1989,
+          "LetterboxdIdentifier": "3WlQ",
+          "Language": "Polish",
+          "PosterUrl": "/lFrFFA3hdQrx0JaumP0mMkuM13X.jpg",
+          "RatingSelf": 0,
+          "WatchedDate": "2025-11-17",
+          "IsRewatch": false,
+          "Overview": "A teenage postal worker, Tomek, routinely spies on his older neighbor Magda, a sexually liberated artist who lives in the apartment across the courtyard from his. As their private worlds merge, fascination turns to obsession, and the line between love and curiosity becomes violently blurred.",
+          "Genres": [
+            "Drama",
+            "TV Movie"
+          ],
+          "Protagonist": "Olaf Lubaszenko",
+          "Director": "Krzysztof Kie\u015Blowski"
+        },
+        {
+          "Order": 0,
+          "FilmName": "Decalogue X",
+          "FilmNameOriginal": "Dekalog, dziesi\u0119\u0107",
+          "Year": 1989,
+          "LetterboxdIdentifier": "3Wlm",
+          "Language": "Polish",
+          "PosterUrl": "/7zvQpJDfpXlCe9FvBdO86hIgavN.jpg",
+          "RatingSelf": 0,
+          "WatchedDate": "2025-11-17",
+          "IsRewatch": false,
+          "Overview": "Jerzy and Artur\u2019s father dies, leaving behind a valuable stamp collection, which, they discover, is coveted by dealers of varying degrees of shadiness. The more involved the brothers get in their father\u2019s world, the more dire and comical their situation becomes.",
+          "Genres": [
+            "Drama",
+            "TV Movie",
+            "Comedy"
+          ],
+          "Protagonist": "Jerzy Stuhr",
+          "Director": "Krzysztof Kie\u015Blowski"
         }
       ]
     }
