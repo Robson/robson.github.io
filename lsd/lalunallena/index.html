@@ -371,7 +371,7 @@
                 }
                 details += '<br/>';
             }
-            if (film.Language.length == 0) {
+            if (!film.Language || film.Language.length == 0) {
                 details += '<em>Silent</em>';
             } else if (film.Language != "English") {
                 details += film.Language;
@@ -1567,11 +1567,13 @@
                 if (film.TitleOriginal != film.Title) {
                     title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
                 }
-                insideGallery.append(
-                    '<div class="item">' +
-                    '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img style="filter:grayscale(100%)" src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
-                    '<div class="details">' + makeFilmDetails(film) + '</div>' +
-                    '</div>');
+                if (film.Poster) {
+                    insideGallery.append(
+                        '<div class="item">' +
+                        '<div class="poster ttt" data-tooltip="' + title + '"><a target="_blank" href="https://boxd.it/' + film.Id + '"><img style="filter:grayscale(100%)" src="https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '"></a></div>' +
+                        '<div class="details">' + makeFilmDetails(film) + '</div>' +
+                        '</div>');
+                }
             }
 
             deactivateAll();
@@ -1794,7 +1796,7 @@
                 cssHeaderRow: "tablesorter-headerRow"
             });
 
-            createTooltipTriggers();            
+            createTooltipTriggers();
 
             deactivateAll();
             if (event) {
@@ -1818,7 +1820,7 @@
                         }
                         filmsPerCountryOrigin[prod][0]++
                         filmsPerCountryOrigin[prod][1].push(index)
-                    }                    
+                    }
                 }
                 if (film.Countries_Production) {
                     for (var prod of film.Countries_Production) {
@@ -2066,7 +2068,7 @@
             var genres = {}, genreSets = {}
             for (var index in films) {
                 var film = films[index];
-                if (film.Genres.length) {
+                if (film.Genres && film.Genres.length) {
                     for (var genre of film.Genres) {
                         if (!genres[genre]) {
                             genres[genre] = { Count: 0, RatingCount: 0, RatingTotal: 0, Films: [] }
@@ -3939,7 +3941,7 @@
 
             for (var index in films) {
                 var film = films[index];
-                if (film.When.length > 0) {
+                if (film.When && film.When.length > 0) {
                     var releaseDate = new Date(film.When);
                     for (var director of film.Directors) {
                         var dir = people[director];
@@ -3950,7 +3952,7 @@
                             directorAll.push([gap, index, director])
                         }
                     }
-                    if (film.Cast.length) {
+                    if (film.Cast && film.Cast.length) {
                         var prot = people[film.Cast[0]];
                         if (prot.BirthDate) {
                             var gap = (releaseDate - new Date(prot.BirthDate)) / (1000 * 60 * 60 * 24);
@@ -3987,7 +3989,7 @@
 
             for (var dir of directorAll.slice(0, 10)) {
                 var film = films[dir[1]];
-                var per = people[dir[2]];               
+                var per = people[dir[2]];
                 var personUrl = 'https://letterboxd.com/' + data.Username + '/films/with/director/' + urlSafe(per.FullName.replace(/ /g, '-').toLowerCase()) + '/by/name/size/large/';
                 var personTooltip = ' class="ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + per.Poster + '\'>"';
                 var filmTooltip = ' ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>';
