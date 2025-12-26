@@ -13777,6 +13777,102 @@ var data = {
       "OriginCountry": "BE"
     },
     {
+      "Id": 49732,
+      "Title": "International Business Machines (IBM)",
+      "Poster": "",
+      "OriginCountry": "US"
+    },
+    {
+      "Id": 41058,
+      "Title": "Office of Charles \u0026 Ray Eames",
+      "Poster": "",
+      "OriginCountry": ""
+    },
+    {
+      "Id": 71552,
+      "Title": "Gobelins",
+      "Poster": "/hmFPR24kEVCPi6A47x2j6n7qfza.png",
+      "OriginCountry": "FR"
+    },
+    {
+      "Id": 82153,
+      "Title": "Miyu Productions",
+      "Poster": "/mNEYX9oxFny6OOyb8083AKPbH8U.png",
+      "OriginCountry": "FR"
+    },
+    {
+      "Id": 58668,
+      "Title": "M.E.S. Productions",
+      "Poster": "/fQuxB2LBtBXObebsSWA17sW8zFT.png",
+      "OriginCountry": "FR"
+    },
+    {
+      "Id": 8906,
+      "Title": "Monkey Pack Films",
+      "Poster": "/c5MDqS2UYtK0pTQqtYow7LSBLcS.png",
+      "OriginCountry": "FR"
+    },
+    {
+      "Id": 7561,
+      "Title": "Nexus Factory",
+      "Poster": "/yWTuzkQnp4NCS7fDVd5vzgLjoux.png",
+      "OriginCountry": "BE"
+    },
+    {
+      "Id": 141055,
+      "Title": "Misia Films",
+      "Poster": "",
+      "OriginCountry": ""
+    },
+    {
+      "Id": 238800,
+      "Title": "Preromanbritain",
+      "Poster": "",
+      "OriginCountry": ""
+    },
+    {
+      "Id": 187446,
+      "Title": "Alambic Production",
+      "Poster": "",
+      "OriginCountry": "FR"
+    },
+    {
+      "Id": 238801,
+      "Title": "Galeries Lafayette",
+      "Poster": "",
+      "OriginCountry": ""
+    },
+    {
+      "Id": 238802,
+      "Title": "Art CC Corp",
+      "Poster": "",
+      "OriginCountry": ""
+    },
+    {
+      "Id": 71953,
+      "Title": "Robson Street",
+      "Poster": "",
+      "OriginCountry": "US"
+    },
+    {
+      "Id": 248972,
+      "Title": "Gary Jules Jouvenat Productions",
+      "Poster": "",
+      "OriginCountry": "CA"
+    },
+    {
+      "Id": 81478,
+      "Title": "Tretye Tvorcheskoe Obyedinenie",
+      "Poster": "",
+      "OriginCountry": "SU"
+    },
+    {
+      "Id": 85283,
+      "Title": "Los Angeles Media Fund",
+      "Poster": "/1RtU5hPGEDDbjNw3KXnTOY2sbZn.png",
+      "OriginCountry": "US"
+    },
+    {
       "Id": 14908,
       "Title": "Curtleigh Productions",
       "Poster": "",
@@ -15235,12 +15331,6 @@ var data = {
       "OriginCountry": "US"
     },
     {
-      "Id": 85283,
-      "Title": "Los Angeles Media Fund",
-      "Poster": "/1RtU5hPGEDDbjNw3KXnTOY2sbZn.png",
-      "OriginCountry": "US"
-    },
-    {
       "Id": 49389,
       "Title": "Broad Green Pictures",
       "Poster": "/3rOhrdjnUHsf0GPa66b9KyR2MUx.png",
@@ -15383,12 +15473,6 @@ var data = {
       "Title": "Will Vinton Studios",
       "Poster": "/bU7G4LZfEk9SxlnlU7uUdRgOmja.png",
       "OriginCountry": "US"
-    },
-    {
-      "Id": 81478,
-      "Title": "Tretye Tvorcheskoe Obyedinenie",
-      "Poster": "",
-      "OriginCountry": "SU"
     },
     {
       "Id": 54268,
@@ -17335,12 +17419,6 @@ var data = {
       "OriginCountry": "US"
     },
     {
-      "Id": 1460,
-      "Title": "Loew's Incorporated",
-      "Poster": "",
-      "OriginCountry": "US"
-    },
-    {
       "Id": 39643,
       "Title": "We're Not Brothers Productions",
       "Poster": "",
@@ -17467,24 +17545,6 @@ var data = {
       "OriginCountry": "CN"
     },
     {
-      "Id": 58668,
-      "Title": "M.E.S. Productions",
-      "Poster": "/fQuxB2LBtBXObebsSWA17sW8zFT.png",
-      "OriginCountry": "FR"
-    },
-    {
-      "Id": 8906,
-      "Title": "Monkey Pack Films",
-      "Poster": "/c5MDqS2UYtK0pTQqtYow7LSBLcS.png",
-      "OriginCountry": "FR"
-    },
-    {
-      "Id": 7561,
-      "Title": "Nexus Factory",
-      "Poster": "/yWTuzkQnp4NCS7fDVd5vzgLjoux.png",
-      "OriginCountry": "BE"
-    },
-    {
       "Id": 14750,
       "Title": "Portrait Films",
       "Poster": "",
@@ -17501,12 +17561,6 @@ var data = {
       "Title": "Wheel Productions",
       "Poster": "",
       "OriginCountry": ""
-    },
-    {
-      "Id": 9000,
-      "Title": "Path\u00E9-Natan",
-      "Poster": "",
-      "OriginCountry": "FR"
     },
     {
       "Id": 81694,
@@ -18619,18 +18673,6 @@ var data = {
       "OriginCountry": "NO"
     },
     {
-      "Id": 2648,
-      "Title": "Road Rebel",
-      "Poster": "",
-      "OriginCountry": ""
-    },
-    {
-      "Id": 236517,
-      "Title": "Apparition",
-      "Poster": "",
-      "OriginCountry": "US"
-    },
-    {
       "Id": 252337,
       "Title": "Hentai Cop Films",
       "Poster": "",
@@ -18701,18 +18743,6 @@ var data = {
       "Title": "Planet Productions",
       "Poster": "",
       "OriginCountry": "US"
-    },
-    {
-      "Id": 71953,
-      "Title": "Robson Street",
-      "Poster": "",
-      "OriginCountry": "US"
-    },
-    {
-      "Id": 248972,
-      "Title": "Gary Jules Jouvenat Productions",
-      "Poster": "",
-      "OriginCountry": "CA"
     },
     {
       "Id": 33812,
@@ -19439,6 +19469,36 @@ var data = {
       "Title": "Pio \u0026 Co",
       "Poster": "/vBrwZHCYcp8T23rE3AsQu4ffA3J.png",
       "OriginCountry": "FR"
+    },
+    {
+      "Id": 108869,
+      "Title": "Legion M",
+      "Poster": "/tfK09IBUnfAwp5htKDPAdzf2z01.png",
+      "OriginCountry": "US"
+    },
+    {
+      "Id": 209087,
+      "Title": "Radiant Media Studios",
+      "Poster": "/gLeIIWqaFj3oaoF3fxR2xauccdL.png",
+      "OriginCountry": "US"
+    },
+    {
+      "Id": 223251,
+      "Title": "ReCre8 Entertainment",
+      "Poster": "",
+      "OriginCountry": "US"
+    },
+    {
+      "Id": 251421,
+      "Title": "Blue Three Productions",
+      "Poster": "/8YSi4zMguflO0H0LSamzk5Gd4RC.png",
+      "OriginCountry": "US"
+    },
+    {
+      "Id": 19375,
+      "Title": "Moxie Pictures",
+      "Poster": "",
+      "OriginCountry": "GB"
     }
   ],
   "Themes": [
@@ -37354,6 +37414,34 @@ var data = {
       "Text": "Disturbed, Troubled, Anger"
     },
     {
+      "Url": "bullets-vengeance-brutally",
+      "Text": "Bullets, Vengeance, Brutally"
+    },
+    {
+      "Url": "school-angst-adolescents",
+      "Text": "School, Angst, Adolescents"
+    },
+    {
+      "Url": "kids-lesson-reality",
+      "Text": "Kids, Lesson, Reality"
+    },
+    {
+      "Url": "drama-profound-bleak",
+      "Text": "Drama, Profound, Bleak"
+    },
+    {
+      "Url": "christian-profound-thought-provoking",
+      "Text": "Christian, Profound, Thought-Provoking"
+    },
+    {
+      "Url": "dark-fears-overcome",
+      "Text": "Dark, Fears, Overcome"
+    },
+    {
+      "Url": "touching-compelling-tragic",
+      "Text": "Touching, Compelling, Tragic"
+    },
+    {
       "Url": "whites-stereotype-preachy",
       "Text": "Whites, Stereotype, Preachy"
     },
@@ -37842,34 +37930,6 @@ var data = {
       "Text": "Family, America, Childhood"
     },
     {
-      "Url": "killing-justice-law",
-      "Text": "Killing, Justice, Law"
-    },
-    {
-      "Url": "vengeance-killing-quest",
-      "Text": "Vengeance, Killing, Quest"
-    },
-    {
-      "Url": "shootout-killing-climax",
-      "Text": "Shootout, Killing, Climax"
-    },
-    {
-      "Url": "killer-villain-avenge",
-      "Text": "Killer, Villain, Avenge"
-    },
-    {
-      "Url": "drama-storytelling-authentic",
-      "Text": "Drama, Storytelling, Authentic"
-    },
-    {
-      "Url": "bullets-violence-cool",
-      "Text": "Bullets, Violence, Cool"
-    },
-    {
-      "Url": "kids-lesson-reality",
-      "Text": "Kids, Lesson, Reality"
-    },
-    {
       "Url": "emotional-disturbed-surreal",
       "Text": "Emotional, Disturbed, Surreal"
     },
@@ -38194,10 +38254,6 @@ var data = {
       "Text": "Sweet, Family, Childhood"
     },
     {
-      "Url": "dark-fears-overcome",
-      "Text": "Dark, Fears, Overcome"
-    },
-    {
       "Url": "relationships-confused-fame",
       "Text": "Relationships, Confused, Fame"
     },
@@ -38306,10 +38362,6 @@ var data = {
       "Text": "Gangster, Stylish, Menacing"
     },
     {
-      "Url": "bullets-vengeance-brutally",
-      "Text": "Bullets, Vengeance, Brutally"
-    },
-    {
       "Url": "death-timeless-soul",
       "Text": "Death, Timeless, Soul"
     },
@@ -38400,10 +38452,6 @@ var data = {
     {
       "Url": "religion-symbolism-profound",
       "Text": "Religion, Symbolism, Profound"
-    },
-    {
-      "Url": "christian-profound-thought-provoking",
-      "Text": "Christian, Profound, Thought-Provoking"
     },
     {
       "Url": "christian-suffering-philosophical",
@@ -38846,10 +38894,6 @@ var data = {
       "Text": "Killing, Evil, Menacing"
     },
     {
-      "Url": "touching-compelling-tragic",
-      "Text": "Touching, Compelling, Tragic"
-    },
-    {
       "Url": "drama-families-moving",
       "Text": "Drama, Families, Moving"
     },
@@ -39120,10 +39164,6 @@ var data = {
     {
       "Url": "gunfighter-mexico-horses",
       "Text": "Gunfighter, Mexico, Horses"
-    },
-    {
-      "Url": "drama-profound-bleak",
-      "Text": "Drama, Profound, Bleak"
     },
     {
       "Url": "student-teenager-classmates",
@@ -39870,22 +39910,6 @@ var data = {
       "Text": "Blood, Massacre, Murderous"
     },
     {
-      "Url": "predictable-nudity-confused",
-      "Text": "Predictable, Nudity, Confused"
-    },
-    {
-      "Url": "band-songs-confused",
-      "Text": "Band, Songs, Confused"
-    },
-    {
-      "Url": "lyrics-childhood-popular",
-      "Text": "Lyrics, Childhood, Popular"
-    },
-    {
-      "Url": "cool-confused-chaos",
-      "Text": "Cool, Confused, Chaos"
-    },
-    {
       "Url": "killing-dark-bodies",
       "Text": "Killing, Dark, Bodies"
     },
@@ -39922,10 +39946,6 @@ var data = {
       "Text": "Sex, Confused, Vulnerable"
     },
     {
-      "Url": "school-angst-adolescents",
-      "Text": "School, Angst, Adolescents"
-    },
-    {
       "Url": "frighten-ghosts-intriguing",
       "Text": "Frighten, Ghosts, Intriguing"
     },
@@ -39958,6 +39978,10 @@ var data = {
       "Text": "Humor, Singing, Fame"
     },
     {
+      "Url": "band-songs-confused",
+      "Text": "Band, Songs, Confused"
+    },
+    {
       "Url": "funny-catchy-endearing",
       "Text": "Funny, Catchy, Endearing"
     },
@@ -39972,6 +39996,10 @@ var data = {
     {
       "Url": "villain-storytelling-anti-climactic",
       "Text": "Villain, Storytelling, Anti-Climactic"
+    },
+    {
+      "Url": "drama-storytelling-authentic",
+      "Text": "Drama, Storytelling, Authentic"
     },
     {
       "Url": "villain-hong-kong-choreography",
@@ -40144,9 +40172,33 @@ var data = {
     {
       "Url": "powerful-depressing-dying",
       "Text": "Powerful, Depressing, Dying"
+    },
+    {
+      "Url": "army-complex-conflict",
+      "Text": "Army, Complex, Conflict"
+    },
+    {
+      "Url": "humor-heartwarming-joy",
+      "Text": "Humor, Heartwarming, Joy"
+    },
+    {
+      "Url": "funny-delightful-endearing",
+      "Text": "Funny, Delightful, Endearing"
+    },
+    {
+      "Url": "comedy-sweet-pleasant",
+      "Text": "Comedy, Sweet, Pleasant"
+    },
+    {
+      "Url": "comedy-depressed-crying",
+      "Text": "Comedy, Depressed, Crying"
+    },
+    {
+      "Url": "humor-charm-chemistry",
+      "Text": "Humor, Charm, Chemistry"
     }
   ],
-  "LastUpdated": "21st December 2025",
+  "LastUpdated": "26th December 2025",
   "Username": "LaLunaLlena",
   "Backdrops": [
     {
@@ -41123,6 +41175,13 @@ var data = {
       "Flags": "."
     },
     {
+      "ImageUrl": "qL0xkFdWFSlzxtuHt8bibj6YfLC.jpg",
+      "FilmName": "\u003Cem\u003EOpening Night\u003C/em\u003E\u003Cbr/\u003E(1977)",
+      "LetterboxdId": "1f4e",
+      "Colour": null,
+      "Flags": "."
+    },
+    {
       "ImageUrl": "wcitRUdcbOsIg8nfVkMNJxFhCjP.jpg",
       "FilmName": "\u003Cem\u003EDie B\u00FCchse der Pandora\u003C/em\u003E\u003Cbr\u003E(\u0026quot;\u003Cem\u003EPandora's Box\u003C/em\u003E\u0026quot;)\u003Cbr/\u003E(1929)",
       "LetterboxdId": "29jE",
@@ -41280,6 +41339,13 @@ var data = {
       "ImageUrl": "peZI7LOBmZ75swPRdmpwsUsJCf0.jpg/t2WvRNffybtcGrycpqpbFFUhTNk.jpg",
       "FilmName": "\u003Cem\u003ERequiem for a Dream\u003C/em\u003E\u003Cbr/\u003E(2000)",
       "LetterboxdId": "29VI",
+      "Colour": null,
+      "Flags": "."
+    },
+    {
+      "ImageUrl": "y2QDb403hFJwHUsq4qp0tKYV1Jf.jpg",
+      "FilmName": "\u003Cem\u003ERevenge\u003C/em\u003E\u003Cbr/\u003E(2017)",
+      "LetterboxdId": "gL9g",
       "Colour": null,
       "Flags": "."
     },
@@ -41795,6 +41861,13 @@ var data = {
       "Flags": "."
     },
     {
+      "ImageUrl": "aqVHksyRLIC2fKGRTvIdsYbWGUd.jpg",
+      "FilmName": "\u003Cem\u003EDeux personnes \u00E9changeant de la salive\u003C/em\u003E\u003Cbr\u003E(\u0026quot;\u003Cem\u003ETwo People Exchanging Saliva\u003C/em\u003E\u0026quot;)\u003Cbr/\u003E(2024)",
+      "LetterboxdId": "PM3e",
+      "Colour": null,
+      "Flags": "."
+    },
+    {
       "ImageUrl": "t2Da5fxbfIKrtr1E0EGBt99hQ8Z.jpg",
       "FilmName": "\u003Cem\u003ESans toit ni loi\u003C/em\u003E\u003Cbr\u003E(\u0026quot;\u003Cem\u003EVagabond\u003C/em\u003E\u0026quot;)\u003Cbr/\u003E(1985)",
       "LetterboxdId": "T0u",
@@ -41819,6 +41892,13 @@ var data = {
       "ImageUrl": "kQe9KyjyuIDZGH6da2n0Jp397g6.jpg",
       "FilmName": "\u003Cem\u003EVivre sa vie: film en douze tableaux\u003C/em\u003E\u003Cbr\u003E(\u0026quot;\u003Cem\u003EVivre Sa Vie\u003C/em\u003E\u0026quot;)\u003Cbr/\u003E(1962)",
       "LetterboxdId": "28s6",
+      "Colour": null,
+      "Flags": "."
+    },
+    {
+      "ImageUrl": "aANEJh0COcHKG6pBw9qnO4wZRRC.jpg",
+      "FilmName": "\u003Cem\u003EWake Up Dead Man\u003C/em\u003E\u003Cbr/\u003E(2025)",
+      "LetterboxdId": "uAKS",
       "Colour": null,
       "Flags": "."
     },
@@ -41898,198 +41978,7 @@ var data = {
       "ListName": "Recently Watched",
       "Entries": [
         {
-          "Order": 33,
-          "FilmName": "Paper Moon",
-          "FilmNameOriginal": "Paper Moon",
-          "Year": 1973,
-          "LetterboxdIdentifier": "1Ud2",
-          "Language": "English",
-          "PosterUrl": "/3GHG0kTcBWHKdXjj3RdK8GjBCd6.jpg",
-          "RatingSelf": 4.5,
-          "WatchedDate": "2025-11-18",
-          "IsRewatch": false,
-          "Overview": "During the Great Depression, a con man finds himself saddled with a young girl who may or may not be his daughter, and the two forge an unlikely partnership.",
-          "Genres": [
-            "Comedy",
-            "Crime",
-            "Drama"
-          ],
-          "Protagonist": "Tatum O'Neal",
-          "Director": "Peter Bogdanovich"
-        },
-        {
-          "Order": 33,
-          "FilmName": "If I Had Legs I'd Kick You",
-          "FilmNameOriginal": "If I Had Legs I'd Kick You",
-          "Year": 2025,
-          "LetterboxdIdentifier": "HUtS",
-          "Language": "English",
-          "PosterUrl": "/gkIFK1HzqfgQg4v4ifeNKogHtPG.jpg",
-          "RatingSelf": 3.5,
-          "WatchedDate": "2025-11-18",
-          "IsRewatch": false,
-          "Overview": "With her life crashing down around her, Linda attempts to navigate her child's mysterious illness, her absent husband, a missing person, and an increasingly hostile relationship with her therapist.",
-          "Genres": [
-            "Comedy",
-            "Drama"
-          ],
-          "Protagonist": "Rose Byrne",
-          "Director": "Mary Bronstein"
-        },
-        {
-          "Order": 32,
-          "FilmName": "Personal Shopper",
-          "FilmNameOriginal": "Personal Shopper",
-          "Year": 2016,
-          "LetterboxdIdentifier": "bkGM",
-          "Language": "English",
-          "PosterUrl": "/cdm6qZgmbaIwjKBZnUSGWS4eyM2.jpg",
-          "RatingSelf": 2.5,
-          "WatchedDate": "2025-11-19",
-          "IsRewatch": false,
-          "Overview": "Maureen, mid-20s, is a personal shopper for a media celebrity. The job pays for her stay in Paris, a city she refuses to leave until she makes contact with her twin brother who previously died there. Her life becomes more complicated when a mysterious person contacts her via text message.",
-          "Genres": [
-            "Drama",
-            "Mystery",
-            "Thriller"
-          ],
-          "Protagonist": "Kristen Stewart",
-          "Director": "Olivier Assayas"
-        },
-        {
-          "Order": 30,
-          "FilmName": "Frances Ha",
-          "FilmNameOriginal": "Frances Ha",
-          "Year": 2012,
-          "LetterboxdIdentifier": "41Xg",
-          "Language": "English",
-          "PosterUrl": "/jrq1NoKvsxWCcffVOjegiYwloFN.jpg",
-          "RatingSelf": 4,
-          "WatchedDate": "2025-11-21",
-          "IsRewatch": false,
-          "Overview": "An aspiring dancer moves to New York City and becomes caught up in a whirlwind of flighty fair-weather friends, diminishing fortunes and career setbacks.",
-          "Genres": [
-            "Comedy",
-            "Drama"
-          ],
-          "Protagonist": "Greta Gerwig",
-          "Director": "Noah Baumbach"
-        },
-        {
-          "Order": 30,
-          "FilmName": "Five and a Half Love Stories in an Apartment in Vilnius, Lithuania",
-          "FilmNameOriginal": "Penkios su puse meil\u0117s istorijos, nutikusios viename Vilniaus bute",
-          "Year": 2023,
-          "LetterboxdIdentifier": "J9ke",
-          "Language": "Lithuanian",
-          "PosterUrl": "/dVmRvuE5UKgqw3CdB8GYbonHjSg.jpg",
-          "RatingSelf": 3,
-          "WatchedDate": "2025-11-21",
-          "IsRewatch": false,
-          "Overview": "A series of vignettes situated in an apartment in Vilnius conceive of the complexities of desire and love as seen through the fleeting experiences of five Airbnb guests, each in differing states of romantic entanglement and crisis.",
-          "Genres": [
-            "Drama",
-            "Romance"
-          ],
-          "Protagonist": "Velta \u017Dygur\u0117",
-          "Director": "Tomas Vengris"
-        },
-        {
-          "Order": 29,
-          "FilmName": "Julie Keeps Quiet",
-          "FilmNameOriginal": "Julie zwijgt",
-          "Year": 2024,
-          "LetterboxdIdentifier": "J2vO",
-          "Language": "Dutch",
-          "PosterUrl": "/HscPMTxowVUG4I20uWEdnD3PaT.jpg",
-          "RatingSelf": 3.5,
-          "WatchedDate": "2025-11-22",
-          "IsRewatch": false,
-          "Overview": "As the star player at an elite tennis academy, Julie\u2019s life revolves around the game she loves. When her coach falls under investigation and is suddenly suspended, all of the club\u2019s players are encouraged to speak up. But Julie decides to keep quiet...",
-          "Genres": [
-            "Drama"
-          ],
-          "Protagonist": "Tessa Van den Broeck",
-          "Director": "Leonardo Van Dijl"
-        },
-        {
-          "Order": 29,
-          "FilmName": "Sal\u00F2, or the 120 Days of Sodom",
-          "FilmNameOriginal": "Sal\u00F2 o le 120 giornate di Sodoma",
-          "Year": 1975,
-          "LetterboxdIdentifier": "237s",
-          "Language": "Italian",
-          "PosterUrl": "/xnaDdiRfZlJaTf6JRc4in40eaeI.jpg",
-          "RatingSelf": 0,
-          "WatchedDate": "2025-11-22",
-          "IsRewatch": false,
-          "Overview": "Four corrupted fascist libertines round up 9 teenage boys and girls and subject them to 120 days of sadistic physical, mental and sexual torture.",
-          "Genres": [
-            "Horror",
-            "Drama"
-          ],
-          "Protagonist": "Paolo Bonacelli",
-          "Director": "Pier Paolo Pasolini"
-        },
-        {
-          "Order": 28,
-          "FilmName": "Ms .45",
-          "FilmNameOriginal": "Ms .45",
-          "Year": 1981,
-          "LetterboxdIdentifier": "1AWG",
-          "Language": "English",
-          "PosterUrl": "/9ulPP8hcBjIrWRqeXsZVjL0uX3E.jpg",
-          "RatingSelf": 3.5,
-          "WatchedDate": "2025-11-23",
-          "IsRewatch": false,
-          "Overview": "After being attacked and raped twice in one day, a timid, mute seamstress goes insane, takes to the streets of New York City after dark, and randomly shoots men with a .45 caliber pistol.",
-          "Genres": [
-            "Crime",
-            "Thriller",
-            "Action"
-          ],
-          "Protagonist": "Zo\u00EB Lund",
-          "Director": "Abel Ferrara"
-        },
-        {
-          "Order": 27,
-          "FilmName": "The Fault in Our Stars",
-          "FilmNameOriginal": "The Fault in Our Stars",
-          "Year": 2014,
-          "LetterboxdIdentifier": "6BQa",
-          "Language": "English",
-          "PosterUrl": "/kcVuktIlrn9SAN1uBmPDnocTQmF.jpg",
-          "RatingSelf": 1.5,
-          "WatchedDate": "2025-11-24",
-          "IsRewatch": false,
-          "Overview": "Despite the tumor-shrinking medical miracle that has bought her a few years, Hazel has never been anything but terminal, her final chapter inscribed upon diagnosis. But when a patient named Augustus Waters suddenly appears at Cancer Kid Support Group, Hazel's story is about to be completely rewritten.",
-          "Genres": [
-            "Romance",
-            "Drama"
-          ],
-          "Protagonist": "Shailene Woodley",
-          "Director": "Josh Boone"
-        },
-        {
-          "Order": 26,
-          "FilmName": "Werewolf",
-          "FilmNameOriginal": "Werewolf",
-          "Year": 2016,
-          "LetterboxdIdentifier": "erMI",
-          "Language": "English",
-          "PosterUrl": "/rTPdafqw6q5b59NQvWdWnUXMJir.jpg",
-          "RatingSelf": 3,
-          "WatchedDate": "2025-11-25",
-          "IsRewatch": false,
-          "Overview": "Blaise and Nessa are outcast methadone users in their small town. Each day they push a rusty lawnmower door-to-door begging to cut grass. Nessa plots an escape, while Blaise lingers closer to collapse. Tethered to one another, their getaway dreams are kept on a suffocatingly short leash.",
-          "Genres": [
-            "Drama"
-          ],
-          "Protagonist": "Andrew Gillis",
-          "Director": "Ashley McKenzie"
-        },
-        {
-          "Order": 26,
+          "Order": 31,
           "FilmName": "Bugonia",
           "FilmNameOriginal": "Bugonia",
           "Year": 2025,
@@ -42109,7 +41998,25 @@ var data = {
           "Director": "Yorgos Lanthimos"
         },
         {
-          "Order": 25,
+          "Order": 31,
+          "FilmName": "Werewolf",
+          "FilmNameOriginal": "Werewolf",
+          "Year": 2016,
+          "LetterboxdIdentifier": "erMI",
+          "Language": "English",
+          "PosterUrl": "/rTPdafqw6q5b59NQvWdWnUXMJir.jpg",
+          "RatingSelf": 3,
+          "WatchedDate": "2025-11-25",
+          "IsRewatch": false,
+          "Overview": "Blaise and Nessa are outcast methadone users in their small town. Each day they push a rusty lawnmower door-to-door begging to cut grass. Nessa plots an escape, while Blaise lingers closer to collapse. Tethered to one another, their getaway dreams are kept on a suffocatingly short leash.",
+          "Genres": [
+            "Drama"
+          ],
+          "Protagonist": "Andrew Gillis",
+          "Director": "Ashley McKenzie"
+        },
+        {
+          "Order": 30,
           "FilmName": "The Swimmer",
           "FilmNameOriginal": "The Swimmer",
           "Year": 1968,
@@ -42127,7 +42034,7 @@ var data = {
           "Director": "Frank Perry"
         },
         {
-          "Order": 24,
+          "Order": 29,
           "FilmName": "The Camp Followers",
           "FilmNameOriginal": "Le soldatesse",
           "Year": 1965,
@@ -42146,7 +42053,7 @@ var data = {
           "Director": "Valerio Zurlini"
         },
         {
-          "Order": 23,
+          "Order": 28,
           "FilmName": "Anatomy of Hell",
           "FilmNameOriginal": "Anatomie de l'enfer",
           "Year": 2004,
@@ -42164,7 +42071,7 @@ var data = {
           "Director": "Catherine Breillat"
         },
         {
-          "Order": 23,
+          "Order": 28,
           "FilmName": "Gondola",
           "FilmNameOriginal": "Gondola",
           "Year": 2023,
@@ -42184,7 +42091,7 @@ var data = {
           "Director": "Veit Helmer"
         },
         {
-          "Order": 21,
+          "Order": 26,
           "FilmName": "A Woman Under the Influence",
           "FilmNameOriginal": "A Woman Under the Influence",
           "Year": 1974,
@@ -42203,7 +42110,7 @@ var data = {
           "Director": "John Cassavetes"
         },
         {
-          "Order": 15,
+          "Order": 20,
           "FilmName": "Morvern Callar",
           "FilmNameOriginal": "Morvern Callar",
           "Year": 2002,
@@ -42221,7 +42128,7 @@ var data = {
           "Director": "Lynne Ramsay"
         },
         {
-          "Order": 13,
+          "Order": 18,
           "FilmName": "i hate myself :)",
           "FilmNameOriginal": "i hate myself :)",
           "Year": 2013,
@@ -42239,7 +42146,7 @@ var data = {
           "Director": "Joanna Arnow"
         },
         {
-          "Order": 10,
+          "Order": 15,
           "FilmName": "Die My Love",
           "FilmNameOriginal": "Die My Love",
           "Year": 2025,
@@ -42259,7 +42166,7 @@ var data = {
           "Director": "Lynne Ramsay"
         },
         {
-          "Order": 10,
+          "Order": 15,
           "FilmName": "Sallie Gardner at a Gallop",
           "FilmNameOriginal": "",
           "Year": 1878,
@@ -42275,7 +42182,7 @@ var data = {
           "Director": null
         },
         {
-          "Order": 9,
+          "Order": 14,
           "FilmName": "The Good Fairy",
           "FilmNameOriginal": "The Good Fairy",
           "Year": 1935,
@@ -42294,7 +42201,7 @@ var data = {
           "Director": "William Wyler"
         },
         {
-          "Order": 8,
+          "Order": 13,
           "FilmName": "An Angel at My Table",
           "FilmNameOriginal": "An Angel at My Table",
           "Year": 1990,
@@ -42312,7 +42219,7 @@ var data = {
           "Director": "Jane Campion"
         },
         {
-          "Order": 7,
+          "Order": 12,
           "FilmName": "Band of Outsiders",
           "FilmNameOriginal": "Bande \u00E0 part",
           "Year": 1964,
@@ -42332,7 +42239,7 @@ var data = {
           "Director": "Jean-Luc Godard"
         },
         {
-          "Order": 5,
+          "Order": 10,
           "FilmName": "Her Smell",
           "FilmNameOriginal": "Her Smell",
           "Year": 2018,
@@ -42351,7 +42258,7 @@ var data = {
           "Director": "Alex Ross Perry"
         },
         {
-          "Order": 4,
+          "Order": 9,
           "FilmName": "Nightshift",
           "FilmNameOriginal": "Nightshift",
           "Year": 1981,
@@ -42369,7 +42276,7 @@ var data = {
           "Director": "Robina Rose"
         },
         {
-          "Order": 2,
+          "Order": 7,
           "FilmName": "Possession",
           "FilmNameOriginal": "Possession",
           "Year": 1981,
@@ -42387,7 +42294,7 @@ var data = {
           "Director": "Andrzej \u017Bu\u0142awski"
         },
         {
-          "Order": 1,
+          "Order": 6,
           "FilmName": "Sentimental Value",
           "FilmNameOriginal": "Affeksjonsverdi",
           "Year": 2025,
@@ -42406,25 +42313,7 @@ var data = {
           "Director": "Joachim Trier"
         },
         {
-          "Order": 0,
-          "FilmName": "In the Best Interests of the Children",
-          "FilmNameOriginal": "In the Best Interests of the Children",
-          "Year": 1977,
-          "LetterboxdIdentifier": "fKzg",
-          "Language": "English",
-          "PosterUrl": "/vGyrsshvDWT2Qw4hI5XPLInJKU5.jpg",
-          "RatingSelf": 0,
-          "WatchedDate": "2025-12-21",
-          "IsRewatch": false,
-          "Overview": "Gay mothers argue for the right to custody of their children.",
-          "Genres": [
-            "Documentary"
-          ],
-          "Protagonist": null,
-          "Director": "Elizabeth Stevens, Cathy Zheutlin, Frances Reid"
-        },
-        {
-          "Order": 0,
+          "Order": 5,
           "FilmName": "Tongues Untied",
           "FilmNameOriginal": "Tongues Untied",
           "Year": 1989,
@@ -42442,7 +42331,7 @@ var data = {
           "Director": "Marlon Riggs"
         },
         {
-          "Order": 0,
+          "Order": 5,
           "FilmName": "Alpha",
           "FilmNameOriginal": "Alpha",
           "Year": 2025,
@@ -42460,6 +42349,197 @@ var data = {
           ],
           "Protagonist": "M\u00E9lissa Boros",
           "Director": "Julia Ducournau"
+        },
+        {
+          "Order": 5,
+          "FilmName": "The Doll's Revenge",
+          "FilmNameOriginal": "The Doll's Revenge",
+          "Year": 1907,
+          "LetterboxdIdentifier": "wyJ8",
+          "Language": "",
+          "PosterUrl": "/5ikaQvzBHx3rn1V7yLlSyUmjudn.jpg",
+          "RatingSelf": 0,
+          "WatchedDate": "2025-12-21",
+          "IsRewatch": false,
+          "Overview": "A boy breaks his sister's doll and it mends, grows, tears him up and eats him.",
+          "Genres": [
+            "Fantasy",
+            "Horror"
+          ],
+          "Protagonist": "Gertie Potter",
+          "Director": "Lewin Fitzhamon, Cecil M. Hepworth"
+        },
+        {
+          "Order": 5,
+          "FilmName": "In the Best Interests of the Children",
+          "FilmNameOriginal": "In the Best Interests of the Children",
+          "Year": 1977,
+          "LetterboxdIdentifier": "fKzg",
+          "Language": "English",
+          "PosterUrl": "/vGyrsshvDWT2Qw4hI5XPLInJKU5.jpg",
+          "RatingSelf": 0,
+          "WatchedDate": "2025-12-21",
+          "IsRewatch": false,
+          "Overview": "Gay mothers argue for the right to custody of their children.",
+          "Genres": [
+            "Documentary"
+          ],
+          "Protagonist": null,
+          "Director": "Elizabeth Stevens, Cathy Zheutlin, Frances Reid"
+        },
+        {
+          "Order": 4,
+          "FilmName": "Revenge",
+          "FilmNameOriginal": "Revenge",
+          "Year": 2017,
+          "LetterboxdIdentifier": "gL9g",
+          "Language": "French",
+          "PosterUrl": "/AbWKFxt459cWYTNPTcbpB0i2hQp.jpg",
+          "RatingSelf": 3.5,
+          "WatchedDate": "2025-12-22",
+          "IsRewatch": false,
+          "Overview": "Jen's romantic getaway with her wealthy married boyfriend is disrupted when his friends arrive for an impromptu hunting trip. Tension mounts at the house until the situation culminates in an unexpected way.",
+          "Genres": [
+            "Action",
+            "Horror",
+            "Thriller"
+          ],
+          "Protagonist": "Matilda Lutz",
+          "Director": "Coralie Fargeat"
+        },
+        {
+          "Order": 4,
+          "FilmName": "Out of the Blue",
+          "FilmNameOriginal": "Out of the Blue",
+          "Year": 1980,
+          "LetterboxdIdentifier": "1456",
+          "Language": "English",
+          "PosterUrl": "/rEWfWQDbx2upk9CAPRDDjCjc9a8.jpg",
+          "RatingSelf": 3.5,
+          "WatchedDate": "2025-12-22",
+          "IsRewatch": false,
+          "Overview": "A young girl whose father is an ex-convict and whose mother is a junkie finds it difficult to conform and tries to find comfort in a quirky combination of Elvis and the punk scene.",
+          "Genres": [
+            "Drama"
+          ],
+          "Protagonist": "Linda Manz",
+          "Director": "Dennis Hopper"
+        },
+        {
+          "Order": 4,
+          "FilmName": "Louise",
+          "FilmNameOriginal": "Louise",
+          "Year": 2021,
+          "LetterboxdIdentifier": "xYwc",
+          "Language": "French",
+          "PosterUrl": "/7dzDQ1OgncaDaYY8bcVO31VRTRr.jpg",
+          "RatingSelf": 0,
+          "WatchedDate": "2025-12-22",
+          "IsRewatch": false,
+          "Overview": "Louise, ballerina at the Garnier Opera in 1895, rushes home after a show but is stopped by a friend asking for money. Louise knows what to do in order to repay her.",
+          "Genres": [
+            "Animation",
+            "Drama"
+          ],
+          "Protagonist": "Alice Orsat",
+          "Director": "Constance Bertoux, Camille Bozec, Pauline Guitton, Pauline Mauvi\u00E8re, Mila Monaghan"
+        },
+        {
+          "Order": 4,
+          "FilmName": "Two People Exchanging Saliva",
+          "FilmNameOriginal": "Deux personnes \u00E9changeant de la salive",
+          "Year": 2024,
+          "LetterboxdIdentifier": "PM3e",
+          "Language": "French",
+          "PosterUrl": "/fnsYp8XiMzZJADsOvH5tpJA09Du.jpg",
+          "RatingSelf": 4,
+          "WatchedDate": "2025-12-22",
+          "IsRewatch": false,
+          "Overview": "In a\u00A0society where kissing is punishable by\u00A0death, and people pay for things by\u00A0receiving slaps to the face, Angine, an\u00A0unhappy woman, shops compulsively in\u00A0a department store. There, she becomes\u00A0fascinated by a playful salesgirl.\u00A0Despite the prohibition of kissing, the two\u00A0become close, raising the suspicions of a\u00A0jealous colleague.",
+          "Genres": [
+            "Drama",
+            "Fantasy",
+            "Science Fiction"
+          ],
+          "Protagonist": "Zar Amir Ebrahimi",
+          "Director": "Alexandre Singh, Natalie Musteata"
+        },
+        {
+          "Order": 3,
+          "FilmName": "Wake Up Dead Man",
+          "FilmNameOriginal": "Wake Up Dead Man",
+          "Year": 2025,
+          "LetterboxdIdentifier": "uAKS",
+          "Language": "English",
+          "PosterUrl": "/qCOGGi8JBVEZMc3DVby8rUivyXz.jpg",
+          "RatingSelf": 3.5,
+          "WatchedDate": "2025-12-23",
+          "IsRewatch": false,
+          "Overview": "When young priest Jud Duplenticy is sent to assist charismatic firebrand Monsignor Jefferson Wicks, it\u2019s clear that all is not well in the pews. After a sudden and seemingly impossible murder rocks the town, the lack of an obvious suspect prompts local police chief Geraldine Scott to join forces with renowned detective Benoit Blanc to unravel a mystery that defies all logic.",
+          "Genres": [
+            "Thriller",
+            "Mystery",
+            "Comedy"
+          ],
+          "Protagonist": "Daniel Craig",
+          "Director": "Rian Johnson"
+        },
+        {
+          "Order": 2,
+          "FilmName": "The Ascent",
+          "FilmNameOriginal": "\u0412\u043E\u0441\u0445\u043E\u0436\u0434\u0435\u043D\u0438\u0435",
+          "Year": 1977,
+          "LetterboxdIdentifier": "Eew",
+          "Language": "Russian",
+          "PosterUrl": "/nbGyTnH1TREKgZXLxEJNnDVohYC.jpg",
+          "RatingSelf": 4,
+          "WatchedDate": "2025-12-24",
+          "IsRewatch": false,
+          "Overview": "Two Soviet partisans leave their starving band to get supplies from a nearby farm. The Germans have reached the farm first, so the pair must go on a journey deep into occupied territory, a voyage that will also take them deep into their souls.",
+          "Genres": [
+            "Drama",
+            "War"
+          ],
+          "Protagonist": "Boris Plotnikov",
+          "Director": "Larisa Shepitko"
+        },
+        {
+          "Order": 2,
+          "FilmName": "Shirley",
+          "FilmNameOriginal": "Shirley",
+          "Year": 2020,
+          "LetterboxdIdentifier": "jY2o",
+          "Language": "English",
+          "PosterUrl": "/iSwTnNS7TKAS79Sz9LvyqlBxxrU.jpg",
+          "RatingSelf": 3.5,
+          "WatchedDate": "2025-12-24",
+          "IsRewatch": false,
+          "Overview": "A famous horror writer finds inspiration for her next book after she and her husband take in a young couple.",
+          "Genres": [
+            "Drama",
+            "Thriller",
+            "Mystery"
+          ],
+          "Protagonist": "Elisabeth Moss",
+          "Director": "Josephine Decker"
+        },
+        {
+          "Order": 0,
+          "FilmName": "Opening Night",
+          "FilmNameOriginal": "Opening Night",
+          "Year": 1977,
+          "LetterboxdIdentifier": "1f4e",
+          "Language": "English",
+          "PosterUrl": "/5i1331f4Q2sNHUp9X3BOwWPS2Gg.jpg",
+          "RatingSelf": 4.5,
+          "WatchedDate": "2025-12-26",
+          "IsRewatch": false,
+          "Overview": "Actress Myrtle Gordon is a functioning alcoholic who is a few days from the opening night of her latest play, concerning a woman distraught about aging. One night a car kills one of Myrtle's fans who is chasing her limousine in an attempt to get the star's attention. Myrtle internalizes the accident and goes on a spiritual quest, but fails to finds the answers she is after. As opening night inches closer and closer, fragile Myrtle must find a way to make the show go on.",
+          "Genres": [
+            "Drama"
+          ],
+          "Protagonist": "Gena Rowlands",
+          "Director": "John Cassavetes"
         }
       ]
     }
