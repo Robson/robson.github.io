@@ -13939,10 +13939,70 @@ var data = {
       "OriginCountry": "BE"
     },
     {
-      "Id": 14908,
-      "Title": "Curtleigh Productions",
+      "Id": 3540,
+      "Title": "Kamala Films",
+      "Poster": "",
+      "OriginCountry": "US"
+    },
+    {
+      "Id": 14590,
+      "Title": "New South Wales Film Corp.",
       "Poster": "",
       "OriginCountry": ""
+    },
+    {
+      "Id": 14591,
+      "Title": "Arenafilm",
+      "Poster": "",
+      "OriginCountry": "AU"
+    },
+    {
+      "Id": 34778,
+      "Title": "Yuma Films",
+      "Poster": "",
+      "OriginCountry": ""
+    },
+    {
+      "Id": 13553,
+      "Title": "75 Films",
+      "Poster": "",
+      "OriginCountry": ""
+    },
+    {
+      "Id": 357,
+      "Title": "V\u00EDa Digital",
+      "Poster": "",
+      "OriginCountry": "ES"
+    },
+    {
+      "Id": 104793,
+      "Title": "Kira B.M. Films",
+      "Poster": "",
+      "OriginCountry": "FR"
+    },
+    {
+      "Id": 166382,
+      "Title": "Moo Studios",
+      "Poster": "/aFfwuxuen4kKpfWoVS6cYJ9js4A.png",
+      "OriginCountry": "US"
+    },
+    {
+      "Id": 112164,
+      "Title": "Principal Film Finance",
+      "Poster": "/hs1iHVrBvQzQPakkuMEzD6YJby7.png",
+      "OriginCountry": "GB"
+    },
+    {
+      "Id": 281573,
+      "Title": "Spilled Beans",
+      "Poster": "",
+      "OriginCountry": ""
+    },
+    {
+      "Id": 279352,
+      "Title": "Plan B Pictures",
+      "Poster": "",
+      "OriginCountry": "US"
     },
     {
       "Id": 1875,
@@ -15721,18 +15781,6 @@ var data = {
       "OriginCountry": "JP"
     },
     {
-      "Id": 11610,
-      "Title": "Absurda",
-      "Poster": "",
-      "OriginCountry": "US"
-    },
-    {
-      "Id": 205574,
-      "Title": "Camerimage Film",
-      "Poster": "",
-      "OriginCountry": "PL"
-    },
-    {
       "Id": 1512,
       "Title": "John Wells Productions",
       "Poster": "",
@@ -16993,12 +17041,6 @@ var data = {
       "OriginCountry": "FR"
     },
     {
-      "Id": 104793,
-      "Title": "Kira B.M. Films",
-      "Poster": "",
-      "OriginCountry": "FR"
-    },
-    {
       "Id": 55783,
       "Title": "Ether Films",
       "Poster": "",
@@ -17689,18 +17731,6 @@ var data = {
       "OriginCountry": "DE"
     },
     {
-      "Id": 14590,
-      "Title": "New South Wales Film Corp.",
-      "Poster": "",
-      "OriginCountry": ""
-    },
-    {
-      "Id": 14591,
-      "Title": "Arenafilm",
-      "Poster": "",
-      "OriginCountry": "AU"
-    },
-    {
       "Id": 2938,
       "Title": "Kiarostami Foundation",
       "Poster": "/yXPsl1WM1IqvcBaLLhY40utgHzu.png",
@@ -17843,18 +17873,6 @@ var data = {
       "Title": "Adler Entertainment",
       "Poster": "/dpAwWUOotsC5QAFKnJEvG6K0HXR.png",
       "OriginCountry": "IT"
-    },
-    {
-      "Id": 34778,
-      "Title": "Yuma Films",
-      "Poster": "",
-      "OriginCountry": ""
-    },
-    {
-      "Id": 13553,
-      "Title": "75 Films",
-      "Poster": "",
-      "OriginCountry": ""
     },
     {
       "Id": 5099,
@@ -18137,12 +18155,6 @@ var data = {
       "Title": "Belgacom",
       "Poster": "/jMXTbZ35gAiHCjIfdDq1B7On9fv.png",
       "OriginCountry": "BE"
-    },
-    {
-      "Id": 357,
-      "Title": "V\u00EDa Digital",
-      "Poster": "",
-      "OriginCountry": "ES"
     },
     {
       "Id": 1999,
@@ -19141,12 +19153,6 @@ var data = {
       "OriginCountry": "US"
     },
     {
-      "Id": 3540,
-      "Title": "Kamala Films",
-      "Poster": "",
-      "OriginCountry": "US"
-    },
-    {
       "Id": 84642,
       "Title": "Quijote Films",
       "Poster": "/kBjtbXhMLz55Ghkp6dOHKXI4VVt.png",
@@ -19429,12 +19435,6 @@ var data = {
       "OriginCountry": "US"
     },
     {
-      "Id": 19375,
-      "Title": "Moxie Pictures",
-      "Poster": "",
-      "OriginCountry": "GB"
-    },
-    {
       "Id": 33380,
       "Title": "Tuffi Films",
       "Poster": "/clYqCO5abrqHIZtw5PYE5MupdMw.png",
@@ -19493,6 +19493,54 @@ var data = {
       "Title": "Little Engine Productions",
       "Poster": "",
       "OriginCountry": ""
+    },
+    {
+      "Id": 130128,
+      "Title": "Clear Horizon Entertainment",
+      "Poster": "",
+      "OriginCountry": "US"
+    },
+    {
+      "Id": 65649,
+      "Title": "SSS Entertainment",
+      "Poster": "/tXTuZTEcYYB1hIyAAwDyhZE0f7c.png",
+      "OriginCountry": "US"
+    },
+    {
+      "Id": 75732,
+      "Title": "Z\u00FCrcher Hochschule der K\u00FCnste",
+      "Poster": "",
+      "OriginCountry": "CH"
+    },
+    {
+      "Id": 34086,
+      "Title": "tellfilm",
+      "Poster": "/aBKkhycyubHlCsszV8KibiKZGg0.png",
+      "OriginCountry": "CH"
+    },
+    {
+      "Id": 146047,
+      "Title": "Holga's Meow Pictures",
+      "Poster": "",
+      "OriginCountry": "US"
+    },
+    {
+      "Id": 34777,
+      "Title": "MEMORY",
+      "Poster": "/slfGgHfiKJsHjoeAhfLykCflt6h.png",
+      "OriginCountry": "US"
+    },
+    {
+      "Id": 146048,
+      "Title": "Operator Media",
+      "Poster": "",
+      "OriginCountry": ""
+    },
+    {
+      "Id": 118930,
+      "Title": "Vila\u00FCt Films",
+      "Poster": "/lRBrUE7HoGl1BzPLmLIbnBIYbi3.png",
+      "OriginCountry": "ES"
     }
   ],
   "Themes": [
@@ -37520,20 +37568,40 @@ var data = {
       "Text": "Faith, Priest, Revelation"
     },
     {
-      "Url": "whites-stereotype-preachy",
-      "Text": "Whites, Stereotype, Preachy"
+      "Url": "fought-honor-duty",
+      "Text": "Fought, Honor, Duty"
     },
     {
-      "Url": "powerful-hatred-brave",
-      "Text": "Powerful, Hatred, Brave"
+      "Url": "villain-heroic-enemies",
+      "Text": "Villain, Heroic, Enemies"
     },
     {
-      "Url": "cliche-child-sympathy",
-      "Text": "Cliche, Child, Sympathy"
+      "Url": "scary-devil-cult",
+      "Text": "Scary, Devil, Cult"
     },
     {
-      "Url": "prison-redemption-realism",
-      "Text": "Prison, Redemption, Realism"
+      "Url": "disturbing-mystery-stylish",
+      "Text": "Disturbing, Mystery, Stylish"
+    },
+    {
+      "Url": "charming-gorgeous-sophisticated",
+      "Text": "Charming, Gorgeous, Sophisticated"
+    },
+    {
+      "Url": "slapstick-crazy-crude",
+      "Text": "Slapstick, Crazy, Crude"
+    },
+    {
+      "Url": "exciting-intriguing-daring",
+      "Text": "Exciting, Intriguing, Daring"
+    },
+    {
+      "Url": "feelings-heartbreaking-passion",
+      "Text": "Feelings, Heartbreaking, Passion"
+    },
+    {
+      "Url": "death-popular-humanity",
+      "Text": "Death, Popular, Humanity"
     },
     {
       "Url": "tear-jerker-society-humanity",
@@ -37662,14 +37730,6 @@ var data = {
     {
       "Url": "murderer-clues-sinister",
       "Text": "Murderer, Clues, Sinister"
-    },
-    {
-      "Url": "fought-honor-duty",
-      "Text": "Fought, Honor, Duty"
-    },
-    {
-      "Url": "villain-heroic-enemies",
-      "Text": "Villain, Heroic, Enemies"
     },
     {
       "Url": "sci-fi-humanity-guns",
@@ -38036,10 +38096,6 @@ var data = {
       "Text": "Slapstick, Charm, Wit"
     },
     {
-      "Url": "exciting-intriguing-daring",
-      "Text": "Exciting, Intriguing, Daring"
-    },
-    {
       "Url": "spaceship-scientist-destruction",
       "Text": "Spaceship, Scientist, Destruction"
     },
@@ -38310,10 +38366,6 @@ var data = {
     {
       "Url": "touching-fate-dying",
       "Text": "Touching, Fate, Dying"
-    },
-    {
-      "Url": "frighten-imaginative-discover",
-      "Text": "Frighten, Imaginative, Discover"
     },
     {
       "Url": "sweet-family-childhood",
@@ -38956,6 +39008,10 @@ var data = {
       "Text": "Touching, Child, Suffering"
     },
     {
+      "Url": "powerful-hatred-brave",
+      "Text": "Powerful, Hatred, Brave"
+    },
+    {
       "Url": "society-culture-morality",
       "Text": "Society, Culture, Morality"
     },
@@ -39318,6 +39374,10 @@ var data = {
     {
       "Url": "detective-victim-fame",
       "Text": "Detective, Victim, Fame"
+    },
+    {
+      "Url": "cliche-child-sympathy",
+      "Text": "Cliche, Child, Sympathy"
     },
     {
       "Url": "relationships-engaging-sophisticated",
@@ -39684,14 +39744,6 @@ var data = {
       "Text": "Biography, Fame, Real-Life"
     },
     {
-      "Url": "scary-devil-cult",
-      "Text": "Scary, Devil, Cult"
-    },
-    {
-      "Url": "disturbing-mystery-stylish",
-      "Text": "Disturbing, Mystery, Stylish"
-    },
-    {
       "Url": "jokes-charm-lovable",
       "Text": "Jokes, Charm, Lovable"
     },
@@ -39798,10 +39850,6 @@ var data = {
     {
       "Url": "sentimental-sadness-dramas",
       "Text": "Sentimental, Sadness, Dramas"
-    },
-    {
-      "Url": "charming-gorgeous-sophisticated",
-      "Text": "Charming, Gorgeous, Sophisticated"
     },
     {
       "Url": "feelings-tragic-depressed",
@@ -40152,27 +40200,23 @@ var data = {
       "Text": "Humor, Heartwarming, Joy"
     },
     {
-      "Url": "funny-delightful-endearing",
-      "Text": "Funny, Delightful, Endearing"
-    },
-    {
-      "Url": "comedy-sweet-pleasant",
-      "Text": "Comedy, Sweet, Pleasant"
-    },
-    {
-      "Url": "comedy-depressed-crying",
-      "Text": "Comedy, Depressed, Crying"
-    },
-    {
-      "Url": "humor-charm-chemistry",
-      "Text": "Humor, Charm, Chemistry"
-    },
-    {
       "Url": "horror-discover-execution",
       "Text": "Horror, Discover, Execution"
+    },
+    {
+      "Url": "charm-heartwarming-lovely",
+      "Text": "Charm, Heartwarming, Lovely"
+    },
+    {
+      "Url": "slapstick-poignant-heartwarming",
+      "Text": "Slapstick, Poignant, Heartwarming"
+    },
+    {
+      "Url": "relationships-reality-confused",
+      "Text": "Relationships, Reality, Confused"
     }
   ],
-  "LastUpdated": "31st December 2025",
+  "LastUpdated": "9th January 2026",
   "Username": "LaLunaLlena",
   "Backdrops": [
     {
@@ -40256,6 +40300,13 @@ var data = {
       "ImageUrl": "zCLdjkON06d8dptpLo6KjjhSMrE.jpg",
       "FilmName": "\u003Cem\u003EAlphaGo\u003C/em\u003E\u003Cbr/\u003E(2017)",
       "LetterboxdId": "geTA",
+      "Colour": null,
+      "Flags": "."
+    },
+    {
+      "ImageUrl": "xOuFz7t8zFEMLmzCHxnSLLkvNST.jpg",
+      "FilmName": "\u003Cem\u003EAlucarda, la hija de las tinieblas\u003C/em\u003E\u003Cbr\u003E(\u0026quot;\u003Cem\u003EAlucarda\u003C/em\u003E\u0026quot;)\u003Cbr/\u003E(1977)",
+      "LetterboxdId": "12xs",
       "Colour": null,
       "Flags": "."
     },
@@ -41366,6 +41417,13 @@ var data = {
       "Flags": "."
     },
     {
+      "ImageUrl": "eE86C33CXs65iyPwEEIiMYEpvqa.jpg/slyNvviKpPrWIzodNnMU0g836LA.jpg",
+      "FilmName": "\u003Cem\u003ERiver of Grass\u003C/em\u003E\u003Cbr/\u003E(1994)",
+      "LetterboxdId": "3orq",
+      "Colour": null,
+      "Flags": "."
+    },
+    {
       "ImageUrl": "xUZ2G8MRGEljqgqLxMJItK4iHfY.jpg",
       "FilmName": "\u003Cem\u003ERocky\u003C/em\u003E\u003Cbr/\u003E(1976)",
       "LetterboxdId": "28Uk",
@@ -41408,7 +41466,7 @@ var data = {
       "Flags": "."
     },
     {
-      "ImageUrl": "mDIMSMXFkOXUyQ2lnmeBu6kDUCH.jpg/w7s8q7sXbqao6Sp907kxSzUMpL1.jpg/2QKMkXSaIaX2G3L2ztIBgdF1ASZ.jpg/wLy8Tkh4hVen9f6tDyxdb2pAWTj.jpg",
+      "ImageUrl": "mDIMSMXFkOXUyQ2lnmeBu6kDUCH.jpg/w7s8q7sXbqao6Sp907kxSzUMpL1.jpg/2QKMkXSaIaX2G3L2ztIBgdF1ASZ.jpg/wLy8Tkh4hVen9f6tDyxdb2pAWTj.jpg/6gieoBKjxCaTqlOxP137ZuxikNv.jpg",
       "FilmName": "\u003Cem\u003EAffeksjonsverdi\u003C/em\u003E\u003Cbr\u003E(\u0026quot;\u003Cem\u003ESentimental Value\u003C/em\u003E\u0026quot;)\u003Cbr/\u003E(2025)",
       "LetterboxdId": "GwcG",
       "Colour": null,
@@ -41418,6 +41476,13 @@ var data = {
       "ImageUrl": "5OXYoRZ7Mmy5aQHwupQw7Yii3Mu.jpg",
       "FilmName": "\u003Cem\u003ESeptember Says\u003C/em\u003E\u003Cbr/\u003E(2024)",
       "LetterboxdId": "K1hy",
+      "Colour": null,
+      "Flags": "."
+    },
+    {
+      "ImageUrl": "m0GkHBGFsfhxwooex1j4qdotmUl.jpg/ubDfi7d5wyw6heRbxODeyUOHKKy.jpg",
+      "FilmName": "\u003Cem\u003E\u4E03\u4EBA\u306E\u4F8D\u003C/em\u003E\u003Cbr\u003E(\u0026quot;\u003Cem\u003ESeven Samurai\u003C/em\u003E\u0026quot;)\u003Cbr/\u003E(1954)",
+      "LetterboxdId": "2axi",
       "Colour": null,
       "Flags": "."
     },
@@ -41516,6 +41581,13 @@ var data = {
       "ImageUrl": "7eZ5NbFzgfy0H2YXDaWrQNT3dHx.jpg",
       "FilmName": "\u003Cem\u003EThat Darn Cat\u003C/em\u003E\u003Cbr/\u003E(1997)",
       "LetterboxdId": "1CZ8",
+      "Colour": null,
+      "Flags": "."
+    },
+    {
+      "ImageUrl": "9tLy2382W5MPNiIyN3m9f7Uzft9.jpg/t4cDmS3arOUCnlH7iSrzyXizkMg.jpg",
+      "FilmName": "\u003Cem\u003EL'Ange\u003C/em\u003E\u003Cbr\u003E(\u0026quot;\u003Cem\u003EThe Angel\u003C/em\u003E\u0026quot;)\u003Cbr/\u003E(1982)",
+      "LetterboxdId": "3DhU",
       "Colour": null,
       "Flags": "."
     },
@@ -41884,6 +41956,13 @@ var data = {
       "Flags": "."
     },
     {
+      "ImageUrl": "wnHlVpuOJZOXJny3fLVVpeVxY9I.jpg/P3Qgoat915Q7ZFLHSsuhANcm7N.jpg/td5awgiASzpywIJbsmXv21rzBwb.jpg",
+      "FilmName": "\u003Cem\u003ETrain Dreams\u003C/em\u003E\u003Cbr/\u003E(2025)",
+      "LetterboxdId": "LdDo",
+      "Colour": null,
+      "Flags": "."
+    },
+    {
       "ImageUrl": "aqVHksyRLIC2fKGRTvIdsYbWGUd.jpg",
       "FilmName": "\u003Cem\u003EDeux personnes \u00E9changeant de la salive\u003C/em\u003E\u003Cbr\u003E(\u0026quot;\u003Cem\u003ETwo People Exchanging Saliva\u003C/em\u003E\u0026quot;)\u003Cbr/\u003E(2024)",
       "LetterboxdId": "PM3e",
@@ -42001,158 +42080,7 @@ var data = {
       "ListName": "Recently Watched",
       "Entries": [
         {
-          "Order": 20,
-          "FilmName": "Die My Love",
-          "FilmNameOriginal": "Die My Love",
-          "Year": 2025,
-          "LetterboxdIdentifier": "D5cI",
-          "Language": "English",
-          "PosterUrl": "/uDMehIQIgqSCSkTINIfmKeqEt06.jpg",
-          "RatingSelf": 3.5,
-          "WatchedDate": "2025-12-11",
-          "IsRewatch": false,
-          "Overview": "Grace and Jackson move into an old house deep in the country. With ambitions to write The Great American Novel, Grace settles into her new environment, and the couple soon welcome a child. However, with Jackson frequently \u2013 and suspiciously \u2013 absent, and the pressures of domestic life starting to weigh on her, Grace begins to unravel, leaving a path of destruction in her wake.",
-          "Genres": [
-            "Drama",
-            "Thriller",
-            "Comedy"
-          ],
-          "Protagonist": "Jennifer Lawrence",
-          "Director": "Lynne Ramsay"
-        },
-        {
           "Order": 19,
-          "FilmName": "The Good Fairy",
-          "FilmNameOriginal": "The Good Fairy",
-          "Year": 1935,
-          "LetterboxdIdentifier": "JW4",
-          "Language": "English",
-          "PosterUrl": "/mtn7wvW5I2xty7X64m3cwxZAjhA.jpg",
-          "RatingSelf": 3,
-          "WatchedDate": "2025-12-12",
-          "IsRewatch": false,
-          "Overview": "In 1930s Budapest, na\u00EFve orphan Luisa Ginglebuscher becomes an usherette at the local movie house, determined to succeed in her first job by doing good deeds for others and maintaining her purity. Luisa's well-meaning lies get her caught between a lecherous businessman, Konrad, and a decent but confused doctor, Max Sporum. When Luisa convinces Konrad that she's married to Max, Konrad tries everything he can to get rid of the baffled doctor.",
-          "Genres": [
-            "Comedy",
-            "Romance"
-          ],
-          "Protagonist": "Margaret Sullavan",
-          "Director": "William Wyler"
-        },
-        {
-          "Order": 18,
-          "FilmName": "An Angel at My Table",
-          "FilmNameOriginal": "An Angel at My Table",
-          "Year": 1990,
-          "LetterboxdIdentifier": "269G",
-          "Language": "English",
-          "PosterUrl": "/sDICHxQRDkS4TvIDcUgO9URJxu1.jpg",
-          "RatingSelf": 4,
-          "WatchedDate": "2025-12-13",
-          "IsRewatch": false,
-          "Overview": "Based on the autobiographical work of New Zealand writer Janet Frame, this production depicts the author at various stage of her life. Afflicted with mental and emotional issues, Frame grows up in an impoverished family and experiences numerous tragedies while still in her youth, including the deaths of two of her siblings. Portrayed as an adult by Kerry Fox, Frame finds acclaim for her writing while still in a mental institution, and her success helps her move on with her life.",
-          "Genres": [
-            "Drama"
-          ],
-          "Protagonist": "Kerry Fox",
-          "Director": "Jane Campion"
-        },
-        {
-          "Order": 17,
-          "FilmName": "Band of Outsiders",
-          "FilmNameOriginal": "Bande \u00E0 part",
-          "Year": 1964,
-          "LetterboxdIdentifier": "20Aw",
-          "Language": "French",
-          "PosterUrl": "/9oqyj79xmcypxLajJdefOtrYx64.jpg",
-          "RatingSelf": 3.5,
-          "WatchedDate": "2025-12-14",
-          "IsRewatch": false,
-          "Overview": "Cinephile slackers Franz and Arthur spend their days mimicking the antiheroes of Hollywood noirs and Westerns while pursuing the lovely Odile. The misfit trio upends convention at every turn, be it through choreographed dances in caf\u00E9s or frolicsome romps through the Louvre. Eventually, their romantic view of outlaws pushes them to plan their own heist, but their inexperience may send them out in a blaze of glory -- which could be just what they want.",
-          "Genres": [
-            "Crime",
-            "Drama",
-            "Comedy"
-          ],
-          "Protagonist": "Anna Karina",
-          "Director": "Jean-Luc Godard"
-        },
-        {
-          "Order": 15,
-          "FilmName": "Her Smell",
-          "FilmNameOriginal": "Her Smell",
-          "Year": 2018,
-          "LetterboxdIdentifier": "iT5q",
-          "Language": "English",
-          "PosterUrl": "/qEvgdGBMORPS0rz8pqkVH3obLee.jpg",
-          "RatingSelf": 4,
-          "WatchedDate": "2025-12-16",
-          "IsRewatch": false,
-          "Overview": "A self-destructive punk rocker struggles with sobriety while trying to recapture the creative inspiration that led her band to success.",
-          "Genres": [
-            "Drama",
-            "Music"
-          ],
-          "Protagonist": "Elisabeth Moss",
-          "Director": "Alex Ross Perry"
-        },
-        {
-          "Order": 14,
-          "FilmName": "Nightshift",
-          "FilmNameOriginal": "Nightshift",
-          "Year": 1981,
-          "LetterboxdIdentifier": "aBUO",
-          "Language": "English",
-          "PosterUrl": "/fRjE6WSMf3WvTxbp2QwEMQYLxfi.jpg",
-          "RatingSelf": 0,
-          "WatchedDate": "2025-12-17",
-          "IsRewatch": false,
-          "Overview": "As night falls, the receptionist of a small hotel dutifully performs her routine tasks while strange lodgers descend upon the dark corners of the inn.",
-          "Genres": [
-            "Drama"
-          ],
-          "Protagonist": "Pamela Rooke",
-          "Director": "Robina Rose"
-        },
-        {
-          "Order": 12,
-          "FilmName": "Possession",
-          "FilmNameOriginal": "Possession",
-          "Year": 1981,
-          "LetterboxdIdentifier": "1BPm",
-          "Language": "English",
-          "PosterUrl": "/lUFZsUuJ0YyhBXH8D2BFUd6wODm.jpg",
-          "RatingSelf": 3,
-          "WatchedDate": "2025-12-19",
-          "IsRewatch": false,
-          "Overview": "A young woman left her family for an unspecified reason. The husband determines to find out the truth and starts following his wife. At first, he suspects that a man is involved. But gradually, he finds out more and more strange behaviors and bizarre incidents that indicate something more than a possessed love affair.",
-          "Genres": [
-            "Horror"
-          ],
-          "Protagonist": "Isabelle Adjani",
-          "Director": "Andrzej \u017Bu\u0142awski"
-        },
-        {
-          "Order": 11,
-          "FilmName": "Sentimental Value",
-          "FilmNameOriginal": "Affeksjonsverdi",
-          "Year": 2025,
-          "LetterboxdIdentifier": "GwcG",
-          "Language": "Norwegian",
-          "PosterUrl": "/pz9NCWxxOk3o0W3v1Zkhawrwb4i.jpg",
-          "RatingSelf": 4.5,
-          "WatchedDate": "2025-12-20",
-          "IsRewatch": false,
-          "Overview": "Sisters Nora and Agnes reunite with their estranged father, the charismatic Gustav, a once-renowned director who offers stage actress Nora a role in what he hopes will be his comeback film. When Nora turns it down, she soon discovers he has given her part to an eager young Hollywood star.",
-          "Genres": [
-            "Drama",
-            "Comedy"
-          ],
-          "Protagonist": "Renate Reinsve",
-          "Director": "Joachim Trier"
-        },
-        {
-          "Order": 10,
           "FilmName": "The Doll's Revenge",
           "FilmNameOriginal": "The Doll's Revenge",
           "Year": 1907,
@@ -42171,43 +42099,7 @@ var data = {
           "Director": "Lewin Fitzhamon, Cecil M. Hepworth"
         },
         {
-          "Order": 10,
-          "FilmName": "In the Best Interests of the Children",
-          "FilmNameOriginal": "In the Best Interests of the Children",
-          "Year": 1977,
-          "LetterboxdIdentifier": "fKzg",
-          "Language": "English",
-          "PosterUrl": "/vGyrsshvDWT2Qw4hI5XPLInJKU5.jpg",
-          "RatingSelf": 0,
-          "WatchedDate": "2025-12-21",
-          "IsRewatch": false,
-          "Overview": "Gay mothers argue for the right to custody of their children.",
-          "Genres": [
-            "Documentary"
-          ],
-          "Protagonist": null,
-          "Director": "Elizabeth Stevens, Cathy Zheutlin, Frances Reid"
-        },
-        {
-          "Order": 10,
-          "FilmName": "Tongues Untied",
-          "FilmNameOriginal": "Tongues Untied",
-          "Year": 1989,
-          "LetterboxdIdentifier": "3m1g",
-          "Language": "English",
-          "PosterUrl": "/wbrcRd695aB8D6pkWh0hSurKRbO.jpg",
-          "RatingSelf": 0,
-          "WatchedDate": "2025-12-21",
-          "IsRewatch": false,
-          "Overview": "Marlon Riggs, with assistance from other gay Black men, especially poet Essex Hemphill, celebrates Black men loving Black men as a revolutionary act. The film intercuts footage of Hemphill reciting his poetry, Riggs telling the story of his growing up, scenes of men in social intercourse and dance, and various comic riffs, including a visit to the \u0022Institute of Snap!thology,\u0022 where men take lessons in how to snap their fingers: the sling snap, the point snap, the diva snap.",
-          "Genres": [
-            "Documentary"
-          ],
-          "Protagonist": "Marlon Riggs",
-          "Director": "Marlon Riggs"
-        },
-        {
-          "Order": 10,
+          "Order": 19,
           "FilmName": "Alpha",
           "FilmNameOriginal": "Alpha",
           "Year": 2025,
@@ -42227,7 +42119,25 @@ var data = {
           "Director": "Julia Ducournau"
         },
         {
-          "Order": 9,
+          "Order": 19,
+          "FilmName": "In the Best Interests of the Children",
+          "FilmNameOriginal": "In the Best Interests of the Children",
+          "Year": 1977,
+          "LetterboxdIdentifier": "fKzg",
+          "Language": "English",
+          "PosterUrl": "/vGyrsshvDWT2Qw4hI5XPLInJKU5.jpg",
+          "RatingSelf": 0,
+          "WatchedDate": "2025-12-21",
+          "IsRewatch": false,
+          "Overview": "Gay mothers argue for the right to custody of their children.",
+          "Genres": [
+            "Documentary"
+          ],
+          "Protagonist": null,
+          "Director": "Elizabeth Stevens, Cathy Zheutlin, Frances Reid"
+        },
+        {
+          "Order": 18,
           "FilmName": "Louise",
           "FilmNameOriginal": "Louise",
           "Year": 2021,
@@ -42246,7 +42156,7 @@ var data = {
           "Director": "Constance Bertoux, Camille Bozec, Pauline Guitton, Pauline Mauvi\u00E8re, Mila Monaghan"
         },
         {
-          "Order": 9,
+          "Order": 18,
           "FilmName": "Revenge",
           "FilmNameOriginal": "Revenge",
           "Year": 2017,
@@ -42266,7 +42176,7 @@ var data = {
           "Director": "Coralie Fargeat"
         },
         {
-          "Order": 9,
+          "Order": 18,
           "FilmName": "Two People Exchanging Saliva",
           "FilmNameOriginal": "Deux personnes \u00E9changeant de la salive",
           "Year": 2024,
@@ -42286,7 +42196,7 @@ var data = {
           "Director": "Alexandre Singh, Natalie Musteata"
         },
         {
-          "Order": 9,
+          "Order": 18,
           "FilmName": "Out of the Blue",
           "FilmNameOriginal": "Out of the Blue",
           "Year": 1980,
@@ -42304,7 +42214,7 @@ var data = {
           "Director": "Dennis Hopper"
         },
         {
-          "Order": 8,
+          "Order": 17,
           "FilmName": "Wake Up Dead Man",
           "FilmNameOriginal": "Wake Up Dead Man",
           "Year": 2025,
@@ -42324,7 +42234,7 @@ var data = {
           "Director": "Rian Johnson"
         },
         {
-          "Order": 7,
+          "Order": 16,
           "FilmName": "Shirley",
           "FilmNameOriginal": "Shirley",
           "Year": 2020,
@@ -42344,7 +42254,7 @@ var data = {
           "Director": "Josephine Decker"
         },
         {
-          "Order": 7,
+          "Order": 16,
           "FilmName": "The Ascent",
           "FilmNameOriginal": "\u0412\u043E\u0441\u0445\u043E\u0436\u0434\u0435\u043D\u0438\u0435",
           "Year": 1977,
@@ -42363,7 +42273,25 @@ var data = {
           "Director": "Larisa Shepitko"
         },
         {
-          "Order": 5,
+          "Order": 14,
+          "FilmName": "Opening Night",
+          "FilmNameOriginal": "Opening Night",
+          "Year": 1977,
+          "LetterboxdIdentifier": "1f4e",
+          "Language": "English",
+          "PosterUrl": "/5i1331f4Q2sNHUp9X3BOwWPS2Gg.jpg",
+          "RatingSelf": 4.5,
+          "WatchedDate": "2025-12-26",
+          "IsRewatch": false,
+          "Overview": "Actress Myrtle Gordon is a functioning alcoholic who is a few days from the opening night of her latest play, concerning a woman distraught about aging. One night a car kills one of Myrtle's fans who is chasing her limousine in an attempt to get the star's attention. Myrtle internalizes the accident and goes on a spiritual quest, but fails to finds the answers she is after. As opening night inches closer and closer, fragile Myrtle must find a way to make the show go on.",
+          "Genres": [
+            "Drama"
+          ],
+          "Protagonist": "Gena Rowlands",
+          "Director": "John Cassavetes"
+        },
+        {
+          "Order": 14,
           "FilmName": "Lips of Blood",
           "FilmNameOriginal": "L\u00E8vres de sang",
           "Year": 1975,
@@ -42382,44 +42310,7 @@ var data = {
           "Director": "Jean Rollin"
         },
         {
-          "Order": 5,
-          "FilmName": "Opening Night",
-          "FilmNameOriginal": "Opening Night",
-          "Year": 1977,
-          "LetterboxdIdentifier": "1f4e",
-          "Language": "English",
-          "PosterUrl": "/5i1331f4Q2sNHUp9X3BOwWPS2Gg.jpg",
-          "RatingSelf": 4.5,
-          "WatchedDate": "2025-12-26",
-          "IsRewatch": false,
-          "Overview": "Actress Myrtle Gordon is a functioning alcoholic who is a few days from the opening night of her latest play, concerning a woman distraught about aging. One night a car kills one of Myrtle's fans who is chasing her limousine in an attempt to get the star's attention. Myrtle internalizes the accident and goes on a spiritual quest, but fails to finds the answers she is after. As opening night inches closer and closer, fragile Myrtle must find a way to make the show go on.",
-          "Genres": [
-            "Drama"
-          ],
-          "Protagonist": "Gena Rowlands",
-          "Director": "John Cassavetes"
-        },
-        {
-          "Order": 4,
-          "FilmName": "September Says",
-          "FilmNameOriginal": "September Says",
-          "Year": 2024,
-          "LetterboxdIdentifier": "K1hy",
-          "Language": "English",
-          "PosterUrl": "/dyRzD90yGBRfRuWyRoGdPbqVJk2.jpg",
-          "RatingSelf": 3,
-          "WatchedDate": "2025-12-27",
-          "IsRewatch": false,
-          "Overview": "Sisters September and July share an intense bond, speaking in a secret language and keeping the outside world at a distance. After September is suspended from school, their mother brings them to a remote house on the Irish coast\u2014where July begins to resist her sister\u2019s increasingly sadistic control.",
-          "Genres": [
-            "Drama",
-            "Thriller"
-          ],
-          "Protagonist": "Mia Tharia",
-          "Director": "Ariane Labed"
-        },
-        {
-          "Order": 4,
+          "Order": 13,
           "FilmName": "Meek's Cutoff",
           "FilmNameOriginal": "Meek's Cutoff",
           "Year": 2010,
@@ -42438,26 +42329,26 @@ var data = {
           "Director": "Kelly Reichardt"
         },
         {
-          "Order": 3,
-          "FilmName": "Dracula's Ex-Girlfriend",
-          "FilmNameOriginal": "Dracula's Ex-Girlfriend",
+          "Order": 13,
+          "FilmName": "September Says",
+          "FilmNameOriginal": "September Says",
           "Year": 2024,
-          "LetterboxdIdentifier": "QhfK",
+          "LetterboxdIdentifier": "K1hy",
           "Language": "English",
-          "PosterUrl": "/cjoqFNUrrhirUFZvcp4BC7BldPv.jpg",
-          "RatingSelf": 1,
-          "WatchedDate": "2025-12-28",
+          "PosterUrl": "/dyRzD90yGBRfRuWyRoGdPbqVJk2.jpg",
+          "RatingSelf": 3,
+          "WatchedDate": "2025-12-27",
           "IsRewatch": false,
-          "Overview": "Two former rivals reconnect over drinks and a quick bite. One is compulsively running through men and can\u2019t kick the habit of drinking their blood, and the other is working through her trauma and settling down with a new career in monster counseling. Things get a little uncomfortable when the conversation turns to the same toxic lover that connected them \u2014 Count Dracula \u2014 one of whom is still entangled with him.",
+          "Overview": "Sisters September and July share an intense bond, speaking in a secret language and keeping the outside world at a distance. After September is suspended from school, their mother brings them to a remote house on the Irish coast\u2014where July begins to resist her sister\u2019s increasingly sadistic control.",
           "Genres": [
-            "Fantasy",
-            "Horror"
+            "Drama",
+            "Thriller"
           ],
-          "Protagonist": "Morgana Ignis",
-          "Director": "Valentina Vee"
+          "Protagonist": "Mia Tharia",
+          "Director": "Ariane Labed"
         },
         {
-          "Order": 3,
+          "Order": 12,
           "FilmName": "Diary of an African Nun",
           "FilmNameOriginal": "Diary of an African Nun",
           "Year": 1977,
@@ -42475,7 +42366,26 @@ var data = {
           "Director": "Julie Dash"
         },
         {
-          "Order": 2,
+          "Order": 12,
+          "FilmName": "Dracula's Ex-Girlfriend",
+          "FilmNameOriginal": "Dracula's Ex-Girlfriend",
+          "Year": 2024,
+          "LetterboxdIdentifier": "QhfK",
+          "Language": "English",
+          "PosterUrl": "/cjoqFNUrrhirUFZvcp4BC7BldPv.jpg",
+          "RatingSelf": 2,
+          "WatchedDate": "2025-12-28",
+          "IsRewatch": false,
+          "Overview": "Two former rivals reconnect over drinks and a quick bite. One is compulsively running through men and can\u2019t kick the habit of drinking their blood, and the other is working through her trauma and settling down with a new career in monster counseling. Things get a little uncomfortable when the conversation turns to the same toxic lover that connected them \u2014 Count Dracula \u2014 one of whom is still entangled with him.",
+          "Genres": [
+            "Fantasy",
+            "Horror"
+          ],
+          "Protagonist": "Morgana Ignis",
+          "Director": "Valentina Vee"
+        },
+        {
+          "Order": 11,
           "FilmName": "Oh, Moon!",
           "FilmNameOriginal": "A Ay",
           "Year": 1988,
@@ -42494,7 +42404,7 @@ var data = {
           "Director": "Reha Erdem"
         },
         {
-          "Order": 1,
+          "Order": 10,
           "FilmName": "Splendid Outing",
           "FilmNameOriginal": "\uD654\uB824\uD55C \uC678\uCD9C",
           "Year": 1978,
@@ -42514,7 +42424,7 @@ var data = {
           "Director": "Kim Soo-yong"
         },
         {
-          "Order": 1,
+          "Order": 10,
           "FilmName": "Benedetta",
           "FilmNameOriginal": "Benedetta",
           "Year": 2021,
@@ -42534,7 +42444,23 @@ var data = {
           "Director": "Paul Verhoeven"
         },
         {
-          "Order": 1,
+          "Order": 10,
+          "FilmName": "Go Fly a Kite!!",
+          "FilmNameOriginal": "Go Fly a Kite!!",
+          "Year": 2021,
+          "LetterboxdIdentifier": "JiAq",
+          "Language": "English",
+          "PosterUrl": "/thpunbxaUB0RvaVS0QrUWi3R23l.jpg",
+          "RatingSelf": 0,
+          "WatchedDate": "2025-12-30",
+          "IsRewatch": false,
+          "Overview": "Riley wakes up on her eighteenth birthday to discover - nobody cares. But she receives two important birthday cards that launch her onto a journey of discovery. It's a coming-of-age story - all in one day. This micro-budget LGBTQ\u002B short film (set in San Francisco) is a delightful slice-of-life that proves love can magically find a way to the heart.",
+          "Genres": [],
+          "Protagonist": "Casey Schryer",
+          "Director": "Kirk Demorest"
+        },
+        {
+          "Order": 10,
           "FilmName": "I Am Not a Witch",
           "FilmNameOriginal": "I Am Not a Witch",
           "Year": 2017,
@@ -42552,20 +42478,173 @@ var data = {
           "Director": "Rungano Nyoni"
         },
         {
-          "Order": 1,
-          "FilmName": "Go Fly a Kite!!",
-          "FilmNameOriginal": "Go Fly a Kite!!",
-          "Year": 2021,
-          "LetterboxdIdentifier": "JiAq",
+          "Order": 9,
+          "FilmName": "Train Dreams",
+          "FilmNameOriginal": "Train Dreams",
+          "Year": 2025,
+          "LetterboxdIdentifier": "LdDo",
           "Language": "English",
-          "PosterUrl": "/thpunbxaUB0RvaVS0QrUWi3R23l.jpg",
-          "RatingSelf": 0,
-          "WatchedDate": "2025-12-30",
+          "PosterUrl": "/l3zS4YnpOi4usyEXGJMtxSqDDyb.jpg",
+          "RatingSelf": 4.5,
+          "WatchedDate": "2025-12-31",
           "IsRewatch": false,
-          "Overview": "Riley wakes up on her eighteenth birthday to discover - nobody cares. But she receives two important birthday cards that launch her onto a journey of discovery. It's a coming-of-age story - all in one day. This micro-budget LGBTQ\u002B short film (set in San Francisco) is a delightful slice-of-life that proves love can magically find a way to the heart.",
-          "Genres": [],
-          "Protagonist": "Casey Schryer",
-          "Director": "Kirk Demorest"
+          "Overview": "A logger leads a life of quiet grace as he experiences love and loss during an era of monumental change in early 20th-century America.",
+          "Genres": [
+            "Drama"
+          ],
+          "Protagonist": "Joel Edgerton",
+          "Director": "Clint Bentley"
+        },
+        {
+          "Order": 9,
+          "FilmName": "Seven Samurai",
+          "FilmNameOriginal": "\u4E03\u4EBA\u306E\u4F8D",
+          "Year": 1954,
+          "LetterboxdIdentifier": "2axi",
+          "Language": "Japanese",
+          "PosterUrl": "/lOMGc8bnSwQhS4XyE1S99uH8NXf.jpg",
+          "RatingSelf": 5,
+          "WatchedDate": "2025-12-31",
+          "IsRewatch": false,
+          "Overview": "A samurai answers a village's request for protection after he falls on hard times. The town needs protection from bandits, so the samurai gathers six others to help him teach the people how to defend themselves, and the villagers provide the soldiers with food.",
+          "Genres": [
+            "Action",
+            "Drama"
+          ],
+          "Protagonist": "Toshir\u014D Mifune",
+          "Director": "Akira Kurosawa"
+        },
+        {
+          "Order": 8,
+          "FilmName": "Sweetie",
+          "FilmNameOriginal": "Sweetie",
+          "Year": 1989,
+          "LetterboxdIdentifier": "4HM",
+          "Language": "English",
+          "PosterUrl": "/25lpQtxNWXzOimnXmbwF0Y0GYej.jpg",
+          "RatingSelf": 3,
+          "WatchedDate": "2026-01-01",
+          "IsRewatch": false,
+          "Overview": "The buttoned-down, superstitious Kay is attempting to lead a normal existence with her new boyfriend Louis. That\u2019s until Sweetie, her rampaging, devil-may-care sister, returns home after an absence, exposing the rotten roots of their family and placing a strain on Kay and Louis\u2019 relationship.",
+          "Genres": [
+            "Drama",
+            "Comedy"
+          ],
+          "Protagonist": "Genevi\u00E8ve Lemon",
+          "Director": "Jane Campion"
+        },
+        {
+          "Order": 6,
+          "FilmName": "Talk to Her",
+          "FilmNameOriginal": "Hable con ella",
+          "Year": 2002,
+          "LetterboxdIdentifier": "2beG",
+          "Language": "Spanish",
+          "PosterUrl": "/fWDbQlOWOqjR5jZm98KjGyYmUOw.jpg",
+          "RatingSelf": 1,
+          "WatchedDate": "2026-01-03",
+          "IsRewatch": false,
+          "Overview": "Two men share an odd friendship while they care for two women who are both in deep comas.",
+          "Genres": [
+            "Drama",
+            "Romance"
+          ],
+          "Protagonist": "Leonor Watling",
+          "Director": "Pedro Almod\u00F3var"
+        },
+        {
+          "Order": 6,
+          "FilmName": "Alucarda",
+          "FilmNameOriginal": "Alucarda, la hija de las tinieblas",
+          "Year": 1977,
+          "LetterboxdIdentifier": "12xs",
+          "Language": "Spanish",
+          "PosterUrl": "/3iWNq4audJN2KRMJxxMmXFTEm8j.jpg",
+          "RatingSelf": 4,
+          "WatchedDate": "2026-01-03",
+          "IsRewatch": false,
+          "Overview": "A young girl's arrival at a convent after the death of her parents marks the beginning of a series of events that unleash an evil presence on the girl and her mysterious new friend, an enigmatic figure known as Alucarda. Demonic possession, Satan worship, and vampirism follows.",
+          "Genres": [
+            "Horror"
+          ],
+          "Protagonist": "Tina Romero",
+          "Director": "Juan L\u00F3pez Moctezuma"
+        },
+        {
+          "Order": 5,
+          "FilmName": "The Angel",
+          "FilmNameOriginal": "L'Ange",
+          "Year": 1982,
+          "LetterboxdIdentifier": "3DhU",
+          "Language": "",
+          "PosterUrl": "/gtRYTODf0nxEZNC0FZNThlc4J3l.jpg",
+          "RatingSelf": 3,
+          "WatchedDate": "2026-01-04",
+          "IsRewatch": false,
+          "Overview": "The climbing of an immense staircase made up of the most varied stairs. Symbolic scenes occur on different levels where characters seem to be prisoners of their deeds and of their own folly. The steep staircase leads little by little towards the zones of great light where human beings and nonhuman beings meet.",
+          "Genres": [
+            "Animation",
+            "Fantasy"
+          ],
+          "Protagonist": "Rita Renoir",
+          "Director": "Patrick Bokanowski"
+        },
+        {
+          "Order": 4,
+          "FilmName": "Saving Buddy Charles",
+          "FilmNameOriginal": "Saving Buddy Charles",
+          "Year": 2025,
+          "LetterboxdIdentifier": "UvQo",
+          "Language": "English",
+          "PosterUrl": "/pVwwErIZOcB0EnhifBtly8vs6KV.jpg",
+          "RatingSelf": 3.5,
+          "WatchedDate": "2026-01-05",
+          "IsRewatch": false,
+          "Overview": "As best friends Clara and Sydney prepare to part ways for college, they embark on a cross-country journey to rescue Sydney\u2019s pet lizard from her ex-boyfriend. Unbeknownst to Sydney, Clara is harboring a life-altering secret that may just change their friendship forever.",
+          "Genres": [
+            "Comedy",
+            "Drama",
+            "Adventure"
+          ],
+          "Protagonist": "Analesa Fisher",
+          "Director": "Grace Wethor"
+        },
+        {
+          "Order": 4,
+          "FilmName": "River of Grass",
+          "FilmNameOriginal": "River of Grass",
+          "Year": 1994,
+          "LetterboxdIdentifier": "3orq",
+          "Language": "English",
+          "PosterUrl": "/i2s1L8AavAfKIcKf3ONhF3no405.jpg",
+          "RatingSelf": 2.5,
+          "WatchedDate": "2026-01-05",
+          "IsRewatch": false,
+          "Overview": "Cozy, a dissatisfied housewife, meets Lee at a bar. A drink turns into a home break-in, and a gunshot sends them on the run together, thinking they've committed murder.",
+          "Genres": [
+            "Drama",
+            "Crime"
+          ],
+          "Protagonist": "Lisa Bowman",
+          "Director": "Kelly Reichardt"
+        },
+        {
+          "Order": 0,
+          "FilmName": "La Strada",
+          "FilmNameOriginal": "La strada",
+          "Year": 1954,
+          "LetterboxdIdentifier": "2asi",
+          "Language": "Italian",
+          "PosterUrl": "/rwjbT0zlsUDMztaCcWjlWuxaEL1.jpg",
+          "RatingSelf": 4,
+          "WatchedDate": "2026-01-09",
+          "IsRewatch": false,
+          "Overview": "When Gelsomina, a na\u00EFve young woman, is purchased from her impoverished mother by brutish circus strongman Zampan\u00F2 to be his wife and partner, she loyally endures her husband's coldness and abuse as they travel the Italian countryside performing together. Soon Zampan\u00F2 must deal with his jealousy and conflicted feelings about Gelsomina when she finds a kindred spirit in Il Matto, the carefree circus fool, and contemplates leaving Zampan\u00F2.",
+          "Genres": [
+            "Drama"
+          ],
+          "Protagonist": "Giulietta Masina",
+          "Director": "Federico Fellini"
         }
       ]
     }
