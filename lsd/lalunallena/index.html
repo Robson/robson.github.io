@@ -13,7 +13,7 @@
     <script src="people.js"></script>
     <script src="data.js"></script>
     <script src="country_codes.js"></script>
-    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/highcharts@12.5.0/highcharts.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="jquery.tablesorter.min.js"></script>
@@ -2969,10 +2969,14 @@
 
             resetView(showTitles, $(event.target));
 
-            var filmsByTitleLength = [...films].sort((a, b) => a.Title.localeCompare(b.Title)).sort((a, b) => b.Title.length - a.Title.length);
+            var filmsByTitleLength = [...films].sort((a, b) => (a.TitleOriginal || a.Title).localeCompare((b.TitleOriginal || b.Title))).sort((a, b) => (b.TitleOriginal || b.Title).length - (a.TitleOriginal || a.Title).length);
             var filmsLongestTitles = filmsByTitleLength.map(a => a.Id).slice(0, galleryAmount);
-            var filmsLongestTitlesSingleWord = filmsByTitleLength.filter(a => !/\s|\//.test(a.Title))
-            filmsLongestTitlesSingleWord = filmsLongestTitlesSingleWord.filter(a => a.Title.length >= filmsLongestTitlesSingleWord[10].Title.length).map(a => a.Id);
+            var filmsLongestTitlesSingleWord = filmsByTitleLength.filter(a => !/\s|\//.test(a.TitleOriginal || a.Title))
+            filmsLongestTitlesSingleWord = filmsLongestTitlesSingleWord.filter(a => (a.TitleOriginal || a.Title).length >= (filmsLongestTitlesSingleWord[10].TitleOriginal || filmsLongestTitlesSingleWord[10].Title).length).map(a => a.Id);
+
+            var filmTitles = [...films].map(e => [e.Id, e.TitleOriginal || e.Title]);
+            filmTitles = filmTitles.sort((a, b) => a[1].localeCompare(b[1])).sort((a, b) => b[1].length - a[1].length);
+            filmsLongestTitles = filmTitles.slice(0, galleryAmount);
 
             createNewTable();
 
@@ -2980,8 +2984,9 @@
             thead.append('<tr class="bottomheader"><th>Year</th><th>Title</th></tr>');
 
             var displayed = 0;
-            for (var id of filmsLongestTitles) {
-                var film = films.find(a => a.Id == id);
+            for (var f of filmsLongestTitles) {
+                console.log(f);
+                var film = films.find(a => a.Id == f[0]);
                 var tooltip = '';
                 if (film.Poster && film.Poster.length > 0) {
                     tooltip = ' ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>';
@@ -2989,7 +2994,7 @@
                 tbody.append(
                     '<tr>' +
                     '<td class="right' + tooltip + '">' + film.Year + '</td>' +
-                    '<td class="mono"><a target="_blank" href="https://boxd.it/' + film.Id + '">' + film.Title + '</a></td>' +
+                    '<td class="mono"><a target="_blank" href="https://boxd.it/' + film.Id + '">' + f[1] + '</a></td>' +
                     '</tr>');
                 displayed++;
                 if (displayed == galleryAmount)
@@ -3023,7 +3028,7 @@
                 tbody.append(
                     '<tr>' +
                     '<td class="right' + tooltip + '">' + film.Year + '</td>' +
-                    '<td class="mono"><a target="_blank" href="https://boxd.it/' + film.Id + '">' + film.Title + '</a></td>' +
+                    '<td class="mono"><a target="_blank" href="https://boxd.it/' + film.Id + '">' + (film.TitleOriginal || film.Title) + '</a></td>' +
                     '</tr>');
                 displayed++;
                 if (displayed == galleryAmount)
@@ -3089,7 +3094,7 @@
                 var cleanTitle = film
                     .Title
                     .toLowerCase()
-                    .replace(/[,:;\.!\?]/g, '')
+                    .replace(/[,:;\.!\?\(\)\*\]\[]/g, '')
                     .replace(/\//g, ' ')
                     .split(' ')
                     .filter(a => !ignore.includes(a));
