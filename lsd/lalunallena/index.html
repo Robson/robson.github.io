@@ -2970,6 +2970,7 @@
             resetView(showTitles, $(event.target));
 
             var filmsByTitleLength = [...films].sort((a, b) => (a.TitleOriginal || a.Title).localeCompare((b.TitleOriginal || b.Title))).sort((a, b) => (b.TitleOriginal || b.Title).length - (a.TitleOriginal || a.Title).length);
+            filmsByTitleLength = filmsByTitleLength.filter(e => /[a-z]/i.test(e.TitleOriginal || e.Title));
             var filmsLongestTitles = filmsByTitleLength.map(a => a.Id).slice(0, galleryAmount);
             var filmsLongestTitlesSingleWord = filmsByTitleLength.filter(a => !/\s|\//.test(a.TitleOriginal || a.Title))
             filmsLongestTitlesSingleWord = filmsLongestTitlesSingleWord.filter(a => (a.TitleOriginal || a.Title).length >= (filmsLongestTitlesSingleWord[10].TitleOriginal || filmsLongestTitlesSingleWord[10].Title).length).map(a => a.Id);
