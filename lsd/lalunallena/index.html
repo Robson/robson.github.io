@@ -3090,7 +3090,8 @@
 
             }
 
-            var ignore = ' - & 1 2 3 4 5 6 7 8 9 a and an are as at by de for from he her him his i ii iii in is it iv la me my v not of on part she that the them they to was with you'.split(' ');
+            var ignore = ' - & 1 2 3 4 5 6 7 8 9 a and an are as at by de for from he her him his how i ii iii in is it iv la me my v not of on part she that the them they to was we with you'.split(' ');
+            ignore = ''
             var words = [];
             for (var id in films) {
                 var film = films[id];
@@ -3116,7 +3117,7 @@
 
             createNewTable();
 
-            thead.append('<tr class="topheader"><th colspan="2">Most Frequent Words in Titles <span class="subtitle">excluding stop words</span></th></tr>');
+            thead.append('<tr class="topheader"><th colspan="2">Most Frequent Words in Titles<!-- <span class="subtitle">excluding stop words</span>--></th></tr>');
             thead.append('<tr class="bottomheader"><th>Word</th><th>Amount</th></tr>');
 
             for (var word in words) {
@@ -3509,7 +3510,7 @@
                 sum += film.Fans;
             }
             $('body').append('<div class="boxes"></div>');
-            $('.boxes').last().append(makeBox(formatNumber(Math.round(sum / count)), 'Average Number of Fans Per Film', 'Average number of fans for all watched films'));
+            $('.boxes').last().append(makeBox(formatNumber(Math.round(sum / count)), 'Average Number of Fans Per Film', Math.round(sum / count).toLocaleString() + '<br><br>Average number of fans for all watched films'));
 
             createGallery();
             var gallery = $('.gallery');
