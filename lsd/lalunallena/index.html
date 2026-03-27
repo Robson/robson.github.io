@@ -862,7 +862,7 @@
                     title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
                 }
 
-                var html = '<tr>';
+                var html = '<tr onclick="deleteRow(this)">';
                 html += '<td>' + job.join(' & ') + '</td>';
 
                 var tooltip = '';
@@ -919,6 +919,122 @@
                     4: { sortInitialOrder: 'desc' },
                     5: { sortInitialOrder: 'desc', sorter: 'data-value' },
                     6: { sortInitialOrder: 'asc' },
+                }
+            });
+
+            $('body').append('<div class="boxes"></div>');
+            $('.boxes:last').append(makeBox(yearSpan + ' year' + (yearSpan == 1 ? '' : 's'), 'Span'));
+            $('.boxes:last').append(makeBox(Math.floor(minutes / 60) + '<span style="opacity:0.333">h</span> ' + (minutes % 60) + '<span style="opacity:0.333">m</span>', 'Time Watched'));
+            $('.boxes:last').append('<br/>');
+            if (ratingSelfCount > 0) {
+                $('.boxes:last').append(makeBox((ratingSelfSum / ratingSelfCount).toFixed(2), 'Averge Rating'));
+            }
+            if (ratingLbCount > 0) {
+                $('.boxes:last').append(makeBox((ratingLbSum / ratingLbCount).toFixed(2), 'Average LB Rating'));
+            }
+
+            deactivateAll();
+
+            createTooltipTriggers();
+        }
+
+        function showSpecificCountry(countryCode) {
+
+            resetView(null, null);
+            lastEventTarget = null;
+
+            var listFilms = films.filter(a => a.Countries_Origin && a.Countries_Origin.includes(countryCode));
+
+            var yearStart = Math.min(...listFilms.map(a => a.Year));
+            var yearEnd = Math.max(...listFilms.map(a => a.Year));
+            var yearSpan = Math.max(1, (yearEnd - yearStart));
+            var minutes = 0
+
+            var ratingSelfSum = 0, ratingSelfCount = 0;
+            var ratingLbSum = 0, ratingLbCount = 0;
+
+            for (var film of listFilms) {
+                minutes += film.Minutes;
+                if (film.RatingSelf > 0) {
+                    ratingSelfSum += film.RatingSelf;
+                    ratingSelfCount++;
+                }
+                if (film.RatingLetterboxd > 0) {
+                    ratingLbSum += film.RatingLetterboxd;
+                    ratingLbCount++;
+                }
+            }
+            $('body').append('<div class="boxes"></div>');
+            $('.boxes:last').append(makeBox(countryCodeToName(countryCode), 'Country'));
+            $('.boxes:last').append(makeBox(listFilms.length, 'Films'));
+
+            createNewTable();
+
+            thead.append('<tr class="header" style="font-weight:bold"><th>Title</th><th>Year</th><th>Rating</th><th class="ttt" data-tooltip="Letterboxd Rating">LB Rating</th><th class="ttt" data-tooltip="Number of times Letterboxd users have watched this film">LB Watches</th><th>Language</th><th>Country</th></tr>');
+
+            for (var film of listFilms) {                
+
+                var title = film.Title;
+                if (film.TitleOriginal != film.Title) {
+                    title = film.TitleOriginal + '<br>(&quot;' + film.Title + '&quot;)';
+                }
+
+                var html = '<tr onclick="deleteRow(this)">';
+
+                var tooltip = '';
+                if (film.Poster.length > 0) {
+                    tooltip = ' ttt" data-tooltip="<img width=\'150px\' height=\'225px\' src=\'https://image.tmdb.org/t/p/w220_and_h330_face/' + film.Poster + '\'>';
+                }
+                html += '<td class="' + tooltip + '"><a href="https://boxd.it/' + film.Id + '">' + title.replace("<br>", " ") + '</a></td>';
+
+                html += '<td class="right">' + film.Year + '</td>';
+                var ratingDetail = '&nbsp;';
+                if (film.RatingSelf > 0) {
+                    if (film.RatingSelf % 1) {
+                        ratingDetail = '&#9670;'.repeat(Math.floor(film.RatingSelf)) + '&#9671;';
+                    } else {
+                        ratingDetail = '&#9670;'.repeat(film.RatingSelf);
+                    }
+                }
+                html += '<td data-value="' + (film.RatingSelf || 0) + '">' + ratingDetail + '</td>';
+                html += '<td class="right">' + (film.RatingLetterboxd >= 0 ? film.RatingLetterboxd.toFixed(2) : 'NA') + '</td>';
+                html += '<td class="right" data-value="' + film.Watched + '">' + Math.round(film.Watched / 1000) + 'k</td>';
+                var languageDetail = '&nbsp;';
+                if (film.Language.length == 0) {
+                    languageDetail = '<em>Silent</em>';
+                } else {
+                    languageDetail = film.Language;
+                }
+                html += '<td>' + languageDetail + '</td>';
+                html += '<td>' + film.Countries_Origin.map(a => countryCodeToName(a)).join(', ') + '<td>';
+                html += '</tr>';
+                tbody.append(html);
+            }
+
+            $.tablesorter.addParser({
+                id: 'data-value',
+                is: function () {
+                    return false;
+                },
+                format: function (s, table, cell) {
+                    return $(cell).attr('data-value') || s;
+                },
+                type: 'text'
+            });
+
+            $('#main').tablesorter({
+                widgets: ['columns'],
+                usNumberFormat: true,
+                sortReset: false,
+                sortRestart: false,
+                sortList: [[1, 0]],
+                headers: {
+                    0: { sortInitialOrder: 'asc' },
+                    1: { sortInitialOrder: 'desc' },
+                    2: { sortInitialOrder: 'desc', sorter: 'data-value' },
+                    3: { sortInitialOrder: 'desc' },
+                    4: { sortInitialOrder: 'desc', sorter: 'data-value' },
+                    5: { sortInitialOrder: 'asc' },
                 }
             });
 
@@ -1878,7 +1994,7 @@
 
                 tbody.append(
                     '<tr>' +
-                    '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/country/' + countryNameToUrl(countryLabel) + '/by/name/size/large/"><img src="' + imageLocation + '" class="flag" /> ' + countryLabel + '</a></td>' +
+                    '<td><span class="clickable" onmousedown="showSpecificCountry(\'' + country + '\')">&#x1F50E;</span> <a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/country/' + countryNameToUrl(countryLabel) + '/by/name/size/large/"><img src="' + imageLocation + '" class="flag" /> ' + countryLabel + '</a></td>' +
                     '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltip.join('<br>') + '">' + filmsPerCountryOrigin[country][0] + '</td>' +
                     '<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + filmsPerCountryOrigin[country][0] + '">' + percent.toFixed(0) + '%</td>' +
                     bar +
