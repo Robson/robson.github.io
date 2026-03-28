@@ -938,12 +938,17 @@
             createTooltipTriggers();
         }
 
-        function showSpecificCountry(countryCode) {
+        function showSpecificCulture(language, countryCode) {
 
             resetView(null, null);
             lastEventTarget = null;
 
-            var listFilms = films.filter(a => a.Countries_Origin && a.Countries_Origin.includes(countryCode));
+            var listFilms = []
+            if (language) {
+                listFilms = films.filter(a => (language == 'No Spoken Language' && a.Language == '') || a.Language == language);
+            } else {
+                listFilms = films.filter(a => a.Countries_Origin && a.Countries_Origin.includes(countryCode));
+            }
 
             var yearStart = Math.min(...listFilms.map(a => a.Year));
             var yearEnd = Math.max(...listFilms.map(a => a.Year));
@@ -965,12 +970,18 @@
                 }
             }
             $('body').append('<div class="boxes"></div>');
-            $('.boxes:last').append(makeBox(countryCodeToName(countryCode), 'Country'));
+            var langHeader = '';
+            if (language) {
+                $('.boxes:last').append(makeBox(language, 'Language'));
+            } else {
+                $('.boxes:last').append(makeBox(countryCodeToName(countryCode), 'Country'));
+                langHeader = '<th>Language</th>';
+            }
             $('.boxes:last').append(makeBox(listFilms.length, 'Films'));
 
             createNewTable();
 
-            thead.append('<tr class="header" style="font-weight:bold"><th>Title</th><th>Year</th><th>Rating</th><th class="ttt" data-tooltip="Letterboxd Rating">LB Rating</th><th class="ttt" data-tooltip="Number of times Letterboxd users have watched this film">LB Watches</th><th>Language</th><th>Country</th></tr>');
+            thead.append('<tr class="header" style="font-weight:bold"><th>Title</th><th>Year</th><th>Rating</th><th class="ttt" data-tooltip="Letterboxd Rating">LB Rating</th><th class="ttt" data-tooltip="Number of times Letterboxd users have watched this film">LB Watches</th>' + langHeader + '<th>Country</th></tr>');
 
             for (var film of listFilms) {                
 
@@ -999,14 +1010,16 @@
                 html += '<td data-value="' + (film.RatingSelf || 0) + '">' + ratingDetail + '</td>';
                 html += '<td class="right">' + (film.RatingLetterboxd >= 0 ? film.RatingLetterboxd.toFixed(2) : 'NA') + '</td>';
                 html += '<td class="right" data-value="' + film.Watched + '">' + Math.round(film.Watched / 1000) + 'k</td>';
-                var languageDetail = '&nbsp;';
-                if (film.Language.length == 0) {
-                    languageDetail = '<em>Silent</em>';
-                } else {
-                    languageDetail = film.Language;
+                if (countryCode) {
+                    var languageDetail = '&nbsp;';
+                    if (film.Language.length == 0) {
+                        languageDetail = '<em>Silent</em>';
+                    } else {
+                        languageDetail = film.Language;
+                    }
+                    html += '<td>' + languageDetail + '</td>';
                 }
-                html += '<td>' + languageDetail + '</td>';
-                html += '<td>' + film.Countries_Origin.map(a => countryCodeToName(a)).join(', ') + '<td>';
+                html += '<td>' + film.Countries_Origin.map(a => countryCodeToName(a)).join(', ') + '</td>';
                 html += '</tr>';
                 tbody.append(html);
             }
@@ -1994,7 +2007,7 @@
 
                 tbody.append(
                     '<tr>' +
-                    '<td><span class="clickable" onmousedown="showSpecificCountry(\'' + country + '\')">&#x1F50E;</span> <a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/country/' + countryNameToUrl(countryLabel) + '/by/name/size/large/"><img src="' + imageLocation + '" class="flag" /> ' + countryLabel + '</a></td>' +
+                    '<td><span class="clickable" onmousedown="showSpecificCulture(\'\',\'' + country + '\')">&#x1F50E;</span> <a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/country/' + countryNameToUrl(countryLabel) + '/by/name/size/large/"><img src="' + imageLocation + '" class="flag" /> ' + countryLabel + '</a></td>' +
                     '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltip.join('<br>') + '">' + filmsPerCountryOrigin[country][0] + '</td>' +
                     '<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + filmsPerCountryOrigin[country][0] + '">' + percent.toFixed(0) + '%</td>' +
                     bar +
@@ -2461,7 +2474,7 @@
                 var tooltip = makeFilmListTooltip(language[2]);
                 tbody.append(
                     '<tr>' +
-                    '<td><a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/language/' + letterboxdLanguage(language[0]) + '/by/name/size/large/">' + (language[0] || 'No Spoken Language') + '</a></td>' +
+                    '<td><span class="clickable" onmousedown="showSpecificCulture(\'' + language[0] + '\',\'\')">&#x1F50E;</span> <a target="_blank" href="https://letterboxd.com/' + data.Username + '/films/language/' + letterboxdLanguage(language[0]) + '/by/name/size/large/">' + (language[0] || 'No Spoken Language') + '</a></td>' +
                     '<td class="right ttt" data-tooltip-size="big" data-tooltip="' + tooltip.join('<br>') + '">' + language[1] + '</td>' +
                     '<td class="right ttt" data-tooltip="' + percent.toFixed(2) + '%" data-value="' + language[1] + '">' + percent.toFixed(0) + '%</td>' +
                     bar +
